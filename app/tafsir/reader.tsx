@@ -10,6 +10,7 @@ export type Verse = {
   ja: string;
   arabic: string;
   hebrew_translation: string;
+  english: string;
 };
 
 export type TafsirData = {
@@ -62,8 +63,7 @@ export function TafsirReader({ data }: { data: TafsirData }) {
           on={showEnglish}
           onClick={() => setShowEnglish((x) => !x)}
           label="English"
-          disabled
-          hint="soon"
+          hint="draft"
         />
       </div>
 
@@ -100,9 +100,23 @@ export function TafsirReader({ data }: { data: TafsirData }) {
                 </p>
               )}
             </div>
+            {showEnglish && verse.english && (
+              <p
+                dir="ltr"
+                className="mt-5 pt-5 border-t border-ink/10 text-[15px] leading-relaxed text-ink/80"
+              >
+                {verse.english}
+              </p>
+            )}
           </li>
         ))}
       </ol>
+
+      {showEnglish && (
+        <p className="mt-6 text-xs uppercase tracking-[0.25em] text-muted text-center italic">
+          English is a working draft — author revising
+        </p>
+      )}
 
       {activeToken && (
         <GlossPanel
