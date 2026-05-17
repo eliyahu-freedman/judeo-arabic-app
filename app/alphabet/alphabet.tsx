@@ -9,6 +9,7 @@ export type Letter = {
   name: string;
   example_ja: string;
   example_ar: string;
+  example_translit: string;
   example_gloss: string;
 };
 
@@ -186,7 +187,13 @@ function StudyChart({
                   {L.example_ar}
                 </span>
               </div>
-              <div className="text-ink/60 italic mt-0.5" dir="ltr">
+              <div
+                className="font-mono text-ink/80 mt-0.5 tracking-tight"
+                dir="ltr"
+              >
+                {L.example_translit}
+              </div>
+              <div className="text-ink/60 italic" dir="ltr">
                 {L.example_gloss}
               </div>
             </div>
