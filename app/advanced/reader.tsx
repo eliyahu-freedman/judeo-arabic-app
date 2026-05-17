@@ -3,43 +3,36 @@
 import { useState } from "react";
 import { lookup, tokenizeJa, type Entry } from "@/lib/lookup";
 
-export type Verse = {
-  ch: number;
-  v: number;
-  hebrew: string;
-  ja: string;
-  arabic: string;
-  hebrew_translation: string;
-  english: string;
+export type BahyaPage = {
+  page_he: string;
+  paragraphs: string[];
 };
 
-export type TafsirData = {
-  book: string;
-  chapter: number;
-  verses: Verse[];
+export type BahyaData = {
+  work: string;
+  section: string;
+  author: string;
+  pages: BahyaPage[];
 };
 
-export function TafsirReader({ data }: { data: TafsirData }) {
-  const [showArabic, setShowArabic] = useState(false);
-  const [showHebrewTr, setShowHebrewTr] = useState(false);
-  const [showEnglish, setShowEnglish] = useState(false);
+export function BahyaReader({ data }: { data: BahyaData }) {
   const [activeToken, setActiveToken] = useState<string | null>(null);
-
   const activeEntries: Entry[] = activeToken ? lookup(activeToken) : [];
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-10 pb-44">
       <header className="mb-10">
         <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
-          Stage 2 · Saadia on Bereshit 1
+          Stage 3 · {data.author}
         </p>
         <h1 className="text-4xl tracking-tight text-ink">
-          Tafsir <span className="text-wine italic">Reader</span>
+          {data.work}: <span className="text-wine italic">{data.section}</span>
         </h1>
         <p className="mt-4 text-base text-ink/70 leading-relaxed max-w-xl">
-          Tap any Judeo-Arabic word for a starter gloss. Toggle the
-          Arabic-script form, the Hebrew translation, and English (coming
-          soon).
+          Bahya&apos;s introduction in the original Judeo-Arabic. Tap any word
+          for a gloss (the starter dictionary is Bereshit-1-oriented — many
+          Bahya-specific philosophical terms will show &ldquo;no entry yet&rdquo;
+          until we expand it).
         </p>
       </header>
 
@@ -47,76 +40,46 @@ export function TafsirReader({ data }: { data: TafsirData }) {
         <span className="text-[10px] uppercase tracking-[0.25em] text-muted mr-1">
           Layers
         </span>
-        <ToggleChip on disabled label="Hebrew" />
-        <ToggleChip on disabled label="JA Tafsir" />
-        <ToggleChip
-          on={showArabic}
-          onClick={() => setShowArabic((x) => !x)}
-          label="Arabic script"
-        />
-        <ToggleChip
-          on={showHebrewTr}
-          onClick={() => setShowHebrewTr((x) => !x)}
-          label="Hebrew translation"
-        />
-        <ToggleChip
-          on={showEnglish}
-          onClick={() => setShowEnglish((x) => !x)}
-          label="English"
-          hint="draft"
-        />
+        <ToggleChip on disabled label="Judeo-Arabic" />
+        <ToggleChip on={false} disabled label="Hebrew (Ibn Tibbon)" hint="soon" />
+        <ToggleChip on={false} disabled label="English" hint="soon" />
       </div>
 
-      <ol className="mt-10 space-y-6">
-        {data.verses.map((verse) => (
-          <li
-            key={verse.v}
-            className="rounded-md bg-page border border-ink/10 p-7"
-          >
-            <div className="text-[11px] uppercase tracking-[0.25em] text-muted mb-5">
-              {data.book} {data.chapter}:{verse.v}
+      <article className="mt-10 space-y-10">
+        {data.pages.map((page) => (
+          <section key={page.page_he}>
+            <div className="flex items-center gap-3 mb-5">
+              <span className="text-[10px] uppercase tracking-[0.3em] text-muted">
+                Page
+              </span>
+              <span
+                className="font-hebrew text-base text-muted"
+                dir="rtl"
+              >
+                {page.page_he}
+              </span>
+              <span className="flex-1 h-px bg-ink/10" />
             </div>
-            <div dir="rtl" className="space-y-5">
-              <p className="font-hebrew text-2xl text-ink leading-loose">
-                {verse.hebrew}
-              </p>
-              <div className="border-r-2 border-wine/60 pr-5">
-                <p className="font-hebrew ja-text text-xl text-ink/90 leading-loose">
+            <div
+              dir="rtl"
+              className="space-y-5 rounded-md bg-page border border-ink/10 p-7"
+            >
+              {page.paragraphs.map((para, i) => (
+                <p
+                  key={i}
+                  className="font-hebrew ja-text text-xl text-ink/90 leading-loose"
+                >
                   <JaText
-                    text={verse.ja}
+                    text={para}
                     activeToken={activeToken}
                     onTap={setActiveToken}
                   />
                 </p>
-              </div>
-              {showArabic && verse.arabic && (
-                <p className="font-arabic text-xl text-ink/75 leading-loose">
-                  {verse.arabic}
-                </p>
-              )}
-              {showHebrewTr && verse.hebrew_translation && (
-                <p className="font-hebrew text-lg text-muted italic leading-loose">
-                  {verse.hebrew_translation}
-                </p>
-              )}
+              ))}
             </div>
-            {showEnglish && verse.english && (
-              <p
-                dir="ltr"
-                className="mt-5 pt-5 border-t border-ink/10 text-[15px] leading-relaxed text-ink/80"
-              >
-                {verse.english}
-              </p>
-            )}
-          </li>
+          </section>
         ))}
-      </ol>
-
-      {showEnglish && (
-        <p className="mt-6 text-xs uppercase tracking-[0.25em] text-muted text-center italic">
-          English is a working draft — author revising
-        </p>
-      )}
+      </article>
 
       {activeToken && (
         <GlossPanel
@@ -196,9 +159,8 @@ function GlossPanel({
         </div>
         {entries.length === 0 ? (
           <p className="text-sm text-muted mt-2 italic">
-            No entry yet in the starter dictionary. (The full Blau lexicon
-            will be wired in later — this prototype covers high-frequency
-            words.)
+            No entry yet in the starter dictionary. (The starter is
+            Bereshit-1-oriented; the full Blau lexicon will land here next.)
           </p>
         ) : (
           <ul className="space-y-4 mt-2">
