@@ -6,16 +6,19 @@ import { lookup, tokenizeJa, type Entry } from "@/lib/lookup";
 export type BahyaPage = {
   page_he: string;
   paragraphs: string[];
+  hebrew_paragraphs: string[];
 };
 
 export type BahyaData = {
   work: string;
   section: string;
   author: string;
+  hebrew_translator: string;
   pages: BahyaPage[];
 };
 
 export function BahyaReader({ data }: { data: BahyaData }) {
+  const [showHebrew, setShowHebrew] = useState(false);
   const [activeToken, setActiveToken] = useState<string | null>(null);
   const activeEntries: Entry[] = activeToken ? lookup(activeToken) : [];
 
@@ -29,10 +32,9 @@ export function BahyaReader({ data }: { data: BahyaData }) {
           {data.work}: <span className="text-wine italic">{data.section}</span>
         </h1>
         <p className="mt-4 text-base text-ink/70 leading-relaxed max-w-xl">
-          Bahya&apos;s introduction in the original Judeo-Arabic. Tap any word
-          for a gloss (the starter dictionary is Bereshit-1-oriented — many
-          Bahya-specific philosophical terms will show &ldquo;no entry yet&rdquo;
-          until we expand it).
+          Bahya&apos;s introduction in the original Judeo-Arabic, with{" "}
+          {data.hebrew_translator}&apos;s medieval Hebrew translation pulled
+          from Sefaria. Tap any JA word for a gloss.
         </p>
       </header>
 
@@ -41,7 +43,11 @@ export function BahyaReader({ data }: { data: BahyaData }) {
           Layers
         </span>
         <ToggleChip on disabled label="Judeo-Arabic" />
-        <ToggleChip on={false} disabled label="Hebrew (Ibn Tibbon)" hint="soon" />
+        <ToggleChip
+          on={showHebrew}
+          onClick={() => setShowHebrew((x) => !x)}
+          label="Hebrew (Ibn Tibbon)"
+        />
         <ToggleChip on={false} disabled label="English" hint="soon" />
       </div>
 
@@ -52,10 +58,7 @@ export function BahyaReader({ data }: { data: BahyaData }) {
               <span className="text-[10px] uppercase tracking-[0.3em] text-muted">
                 Page
               </span>
-              <span
-                className="font-hebrew text-base text-muted"
-                dir="rtl"
-              >
+              <span className="font-hebrew text-base text-muted" dir="rtl">
                 {page.page_he}
               </span>
               <span className="flex-1 h-px bg-ink/10" />
@@ -76,10 +79,29 @@ export function BahyaReader({ data }: { data: BahyaData }) {
                   />
                 </p>
               ))}
+              {showHebrew && page.hebrew_paragraphs.length > 0 && (
+                <div className="mt-5 pt-5 border-t border-ink/10 space-y-4">
+                  {page.hebrew_paragraphs.map((p, j) => (
+                    <p
+                      key={j}
+                      className="font-hebrew text-lg text-muted italic leading-loose"
+                    >
+                      {p}
+                    </p>
+                  ))}
+                </div>
+              )}
             </div>
           </section>
         ))}
       </article>
+
+      {showHebrew && (
+        <p className="mt-6 text-xs uppercase tracking-[0.25em] text-muted text-center italic">
+          Hebrew alignment is approximate — paragraph boundaries differ between
+          editions.
+        </p>
+      )}
 
       {activeToken && (
         <GlossPanel
