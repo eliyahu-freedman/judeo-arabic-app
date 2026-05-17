@@ -1,15 +1,19 @@
 export default function AlphabetPage() {
   return (
-    <div className="max-w-3xl mx-auto px-6 py-12">
-      <div className="text-xs uppercase tracking-widest text-stone-500">
+    <div className="max-w-3xl mx-auto px-6 py-14">
+      <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
         Stage 1
-      </div>
-      <h1 className="mt-1 font-serif text-3xl tracking-tight">Alphabet</h1>
-      <p className="mt-6 text-stone-600 leading-relaxed">
-        Five lessons covering Hebrew letters for Arabic phonemes, the diacritic
-        letters, the definite article אל, common ambiguities, and a first
-        reading exercise. Coming in M3.
       </p>
+      <h1 className="text-4xl tracking-tight">
+        <span className="text-ink">The </span>
+        <span className="text-wine italic">Alphabet</span>
+      </h1>
+      <p className="mt-6 text-base text-ink/70 leading-relaxed max-w-xl">
+        Five lessons covering Hebrew letters for Arabic phonemes, the
+        diacritic letters (ג׳ ד׳ ח׳ ט׳ ת׳), the definite article אל, common
+        orthographic ambiguities, and a first reading exercise.
+      </p>
+      <p className="mt-4 text-sm text-muted italic">Coming in M3.</p>
     </div>
   );
 }

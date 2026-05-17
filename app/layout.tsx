@@ -1,11 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Geist } from "next/font/google";
+import { Lora, Noto_Serif_Hebrew, Amiri } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const lora = Lora({
+  variable: "--font-lora",
   subsets: ["latin"],
+  display: "swap",
+});
+
+const notoHebrew = Noto_Serif_Hebrew({
+  variable: "--font-noto-serif-hebrew",
+  subsets: ["hebrew"],
+  display: "swap",
+  weight: ["400", "500", "600", "700"],
+});
+
+const amiri = Amiri({
+  variable: "--font-amiri",
+  subsets: ["arabic"],
+  display: "swap",
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -20,19 +35,22 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} h-full antialiased`}
+      className={`${lora.variable} ${notoHebrew.variable} ${amiri.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-stone-50 text-stone-900">
-        <header className="border-b border-stone-200 bg-white">
-          <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-            <Link href="/" className="font-serif text-lg tracking-tight">
+      <body className="min-h-full flex flex-col bg-parchment text-ink font-serif">
+        <header className="border-b border-ink/10 bg-page/80 backdrop-blur supports-[backdrop-filter]:bg-page/60">
+          <nav className="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
+            <Link
+              href="/"
+              className="text-lg tracking-tight text-ink hover:text-wine transition-colors"
+            >
               Judeo-Arabic
             </Link>
-            <ul className="flex gap-6 text-sm">
+            <ul className="flex gap-7 text-sm uppercase tracking-widest text-ink/70">
               <li>
                 <Link
                   href="/alphabet"
-                  className="hover:text-stone-600 transition-colors"
+                  className="hover:text-wine transition-colors"
                 >
                   Alphabet
                 </Link>
@@ -40,7 +58,7 @@ export default function RootLayout({
               <li>
                 <Link
                   href="/tafsir"
-                  className="hover:text-stone-600 transition-colors"
+                  className="hover:text-wine transition-colors"
                 >
                   Tafsir
                 </Link>
@@ -48,7 +66,7 @@ export default function RootLayout({
               <li>
                 <Link
                   href="/advanced"
-                  className="hover:text-stone-600 transition-colors"
+                  className="hover:text-wine transition-colors"
                 >
                   Advanced
                 </Link>
@@ -57,8 +75,8 @@ export default function RootLayout({
           </nav>
         </header>
         <main className="flex-1">{children}</main>
-        <footer className="border-t border-stone-200 py-4 text-center text-xs text-stone-500">
-          Prototype. Texts: Saadia (Tafsir Bereshit 1), Bahya (Introduction).
+        <footer className="border-t border-ink/10 py-5 text-center text-xs tracking-wider uppercase text-ink/50">
+          Prototype · Saadia (Tafsir Bereshit 1) · Bahya (Introduction)
         </footer>
       </body>
     </html>

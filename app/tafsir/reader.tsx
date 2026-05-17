@@ -27,23 +27,23 @@ export function TafsirReader({ data }: { data: TafsirData }) {
   const activeEntries: Entry[] = activeToken ? lookup(activeToken) : [];
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-8 pb-40">
-      <header className="mb-6">
-        <div className="text-xs uppercase tracking-widest text-stone-500">
+    <div className="max-w-3xl mx-auto px-6 py-10 pb-44">
+      <header className="mb-10">
+        <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
           Stage 2 · Saadia on Bereshit 1
-        </div>
-        <h1 className="mt-1 font-serif text-3xl tracking-tight">
-          Tafsir Reader
+        </p>
+        <h1 className="text-4xl tracking-tight text-ink">
+          Tafsir <span className="text-wine italic">Reader</span>
         </h1>
-        <p className="mt-3 text-sm text-stone-600 leading-relaxed">
+        <p className="mt-4 text-base text-ink/70 leading-relaxed max-w-xl">
           Tap any Judeo-Arabic word for a starter gloss. Toggle the
           Arabic-script form, the Hebrew translation, and English (coming
           soon).
         </p>
       </header>
 
-      <div className="sticky top-0 z-10 bg-stone-50 -mx-6 px-6 py-3 border-y border-stone-200 flex flex-wrap items-center gap-2 text-sm">
-        <span className="text-xs uppercase tracking-widest text-stone-500 mr-1">
+      <div className="sticky top-0 z-10 bg-parchment/90 backdrop-blur supports-[backdrop-filter]:bg-parchment/70 -mx-6 px-6 py-3 border-y border-ink/10 flex flex-wrap items-center gap-2 text-sm">
+        <span className="text-[10px] uppercase tracking-[0.25em] text-muted mr-1">
           Layers
         </span>
         <ToggleChip on disabled label="Hebrew" />
@@ -63,37 +63,39 @@ export function TafsirReader({ data }: { data: TafsirData }) {
           onClick={() => setShowEnglish((x) => !x)}
           label="English"
           disabled
-          hint="coming soon"
+          hint="soon"
         />
       </div>
 
-      <ol className="mt-8 space-y-8">
+      <ol className="mt-10 space-y-6">
         {data.verses.map((verse) => (
           <li
             key={verse.v}
-            className="border-b border-stone-200 pb-6 last:border-0"
+            className="rounded-md bg-page border border-ink/10 p-7"
           >
-            <div className="text-xs text-stone-500 mb-3 font-mono">
+            <div className="text-[11px] uppercase tracking-[0.25em] text-muted mb-5">
               {data.book} {data.chapter}:{verse.v}
             </div>
-            <div dir="rtl" className="space-y-3">
-              <p className="font-serif text-lg leading-relaxed text-stone-900">
+            <div dir="rtl" className="space-y-5">
+              <p className="font-hebrew text-2xl text-ink leading-loose">
                 {verse.hebrew}
               </p>
-              <p className="font-serif text-lg leading-relaxed text-amber-900 border-r-2 border-amber-200 pr-3">
-                <JaText
-                  text={verse.ja}
-                  activeToken={activeToken}
-                  onTap={setActiveToken}
-                />
-              </p>
+              <div className="border-r-2 border-wine/60 pr-5">
+                <p className="font-hebrew ja-text text-xl text-ink/90 leading-loose">
+                  <JaText
+                    text={verse.ja}
+                    activeToken={activeToken}
+                    onTap={setActiveToken}
+                  />
+                </p>
+              </div>
               {showArabic && verse.arabic && (
-                <p className="font-serif text-base leading-relaxed text-stone-700">
+                <p className="font-arabic text-xl text-ink/75 leading-loose">
                   {verse.arabic}
                 </p>
               )}
               {showHebrewTr && verse.hebrew_translation && (
-                <p className="font-serif text-base leading-relaxed text-stone-600 italic">
+                <p className="font-hebrew text-lg text-muted italic leading-loose">
                   {verse.hebrew_translation}
                 </p>
               )}
@@ -133,11 +135,11 @@ function JaText({
             key={i}
             type="button"
             onClick={() => onTap(t.text)}
-            className={`inline cursor-pointer rounded-sm transition-colors px-0.5
+            className={`inline cursor-pointer rounded-sm transition-colors px-0.5 -mx-0.5
               ${
                 isActive
-                  ? "bg-amber-200 text-amber-950"
-                  : "hover:bg-amber-100"
+                  ? "bg-wine-100 text-wine-700"
+                  : "hover:bg-wine-50"
               }`}
           >
             {t.text}
@@ -158,54 +160,57 @@ function GlossPanel({
   onClose: () => void;
 }) {
   return (
-    <div className="fixed bottom-0 inset-x-0 z-20 bg-white border-t border-stone-300 shadow-lg">
-      <div className="max-w-3xl mx-auto px-6 py-4">
-        <div className="flex items-center justify-between mb-2">
-          <div className="flex items-baseline gap-3">
-            <span className="font-serif text-2xl" dir="rtl">
+    <div className="fixed bottom-0 inset-x-0 z-20 bg-page border-t border-wine/20 shadow-[0_-8px_24px_-12px_rgba(114,47,55,0.2)]">
+      <div className="max-w-3xl mx-auto px-6 py-5">
+        <div className="flex items-center justify-between mb-3">
+          <div className="flex items-baseline gap-4">
+            <span className="font-hebrew text-3xl text-ink" dir="rtl">
               {token}
             </span>
-            <span className="text-xs uppercase tracking-widest text-stone-500">
+            <span className="text-[10px] uppercase tracking-[0.3em] text-muted">
               Tapped word
             </span>
           </div>
           <button
             type="button"
             onClick={onClose}
-            className="text-stone-500 hover:text-stone-900 text-lg leading-none"
+            className="text-ink/40 hover:text-wine text-2xl leading-none w-8 h-8 flex items-center justify-center rounded-full hover:bg-wine-50 transition-colors"
             aria-label="Close"
           >
             ×
           </button>
         </div>
         {entries.length === 0 ? (
-          <p className="text-sm text-stone-600 mt-2">
+          <p className="text-sm text-muted mt-2 italic">
             No entry yet in the starter dictionary. (The full Blau lexicon
-            will be wired in later — this prototype only covers high-frequency
+            will be wired in later — this prototype covers high-frequency
             words.)
           </p>
         ) : (
-          <ul className="space-y-3 mt-2">
+          <ul className="space-y-4 mt-2">
             {entries.map((e) => (
-              <li key={e.id} className="border-l-2 border-amber-300 pl-3">
+              <li key={e.id} className="border-l-2 border-wine/40 pl-4">
                 <div className="flex items-baseline gap-3 flex-wrap">
-                  <span className="font-serif text-lg" dir="rtl">
+                  <span className="font-hebrew text-xl text-ink" dir="rtl">
                     {e.lemma_ja}
                   </span>
-                  <span className="font-serif text-base text-stone-700" dir="rtl">
+                  <span className="font-arabic text-lg text-ink/70" dir="rtl">
                     {e.lemma_ar}
                   </span>
-                  <span className="text-xs text-stone-500 font-mono">
+                  <span className="text-xs text-muted font-mono">
                     √{e.root}
                   </span>
-                  <span className="text-xs text-stone-500 italic">{e.pos}</span>
+                  <span className="text-xs text-muted italic">{e.pos}</span>
                 </div>
-                <p className="text-sm text-stone-900 mt-1">{e.gloss_en}</p>
-                <p className="text-sm text-stone-600 mt-0.5" dir="rtl">
+                <p className="text-[15px] text-ink mt-1.5">{e.gloss_en}</p>
+                <p
+                  className="font-hebrew text-base text-muted mt-0.5"
+                  dir="rtl"
+                >
                   {e.gloss_he}
                 </p>
                 {e.notes && (
-                  <p className="text-xs text-stone-500 mt-1 leading-relaxed">
+                  <p className="text-[13px] text-muted mt-2 leading-relaxed italic">
                     {e.notes}
                   </p>
                 )}
@@ -237,16 +242,20 @@ function ToggleChip({
       onClick={onClick}
       disabled={disabled}
       title={hint}
-      className={`px-3 py-1 rounded-full border text-xs transition-colors
+      className={`px-3 py-1 rounded-full border text-xs uppercase tracking-wider transition-all
         ${
           on
-            ? "bg-stone-900 text-stone-50 border-stone-900"
-            : "bg-white text-stone-700 border-stone-300"
+            ? "bg-wine text-page border-wine"
+            : "bg-page text-ink/70 border-ink/15"
         }
-        ${disabled ? "opacity-50 cursor-not-allowed" : "hover:border-stone-500"}`}
+        ${
+          disabled
+            ? "opacity-40 cursor-not-allowed"
+            : "hover:border-wine/50 hover:text-wine"
+        }`}
     >
       {label}
-      {hint && <span className="ml-1 text-[10px] opacity-70">({hint})</span>}
+      {hint && <span className="ml-1 opacity-70">({hint})</span>}
     </button>
   );
 }
