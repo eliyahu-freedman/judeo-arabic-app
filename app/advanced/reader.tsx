@@ -7,18 +7,22 @@ export type BahyaPage = {
   page_he: string;
   paragraphs: string[];
   hebrew_paragraphs: string[];
+  english_paragraphs: string[];
 };
 
 export type BahyaData = {
   work: string;
   section: string;
+  subtitle: string;
   author: string;
   hebrew_translator: string;
+  english_translator: string;
   pages: BahyaPage[];
 };
 
 export function BahyaReader({ data }: { data: BahyaData }) {
   const [showHebrew, setShowHebrew] = useState(false);
+  const [showEnglish, setShowEnglish] = useState(false);
   const [activeToken, setActiveToken] = useState<string | null>(null);
   const activeEntries: Entry[] = activeToken ? lookup(activeToken) : [];
 
@@ -31,10 +35,12 @@ export function BahyaReader({ data }: { data: BahyaData }) {
         <h1 className="text-4xl tracking-tight text-ink">
           {data.work}: <span className="text-wine italic">{data.section}</span>
         </h1>
+        <p className="mt-3 text-base text-muted italic">{data.subtitle}</p>
         <p className="mt-4 text-base text-ink/70 leading-relaxed max-w-xl">
-          Bahya&apos;s introduction in the original Judeo-Arabic, with{" "}
-          {data.hebrew_translator}&apos;s medieval Hebrew translation pulled
-          from Sefaria. Tap any JA word for a gloss.
+          The opening gate of Bahya&apos;s Chovot HaLevavot in the original
+          Judeo-Arabic, with {data.hebrew_translator}&apos;s classical Hebrew
+          translation (Sefaria) and a working English translation by{" "}
+          {data.english_translator}. Tap any JA word for a gloss.
         </p>
       </header>
 
@@ -48,7 +54,11 @@ export function BahyaReader({ data }: { data: BahyaData }) {
           onClick={() => setShowHebrew((x) => !x)}
           label="Hebrew (Ibn Tibbon)"
         />
-        <ToggleChip on={false} disabled label="English" hint="soon" />
+        <ToggleChip
+          on={showEnglish}
+          onClick={() => setShowEnglish((x) => !x)}
+          label="English"
+        />
       </div>
 
       <article className="mt-10 space-y-10">
@@ -63,28 +73,42 @@ export function BahyaReader({ data }: { data: BahyaData }) {
               </span>
               <span className="flex-1 h-px bg-ink/10" />
             </div>
-            <div
-              dir="rtl"
-              className="space-y-5 rounded-md bg-page border border-ink/10 p-7"
-            >
-              {page.paragraphs.map((para, i) => (
-                <p
-                  key={i}
-                  className="font-hebrew ja-text text-xl text-ink/90 leading-loose"
+            <div className="rounded-md bg-page border border-ink/10 p-7">
+              <div dir="rtl" className="space-y-5">
+                {page.paragraphs.map((para, i) => (
+                  <p
+                    key={i}
+                    className="font-hebrew ja-text text-xl text-ink/90 leading-loose"
+                  >
+                    <JaText
+                      text={para}
+                      activeToken={activeToken}
+                      onTap={setActiveToken}
+                    />
+                  </p>
+                ))}
+                {showHebrew && page.hebrew_paragraphs.length > 0 && (
+                  <div className="mt-5 pt-5 border-t border-ink/10 space-y-4">
+                    {page.hebrew_paragraphs.map((p, j) => (
+                      <p
+                        key={j}
+                        className="font-hebrew text-lg text-muted italic leading-loose"
+                      >
+                        {p}
+                      </p>
+                    ))}
+                  </div>
+                )}
+              </div>
+              {showEnglish && page.english_paragraphs.length > 0 && (
+                <div
+                  dir="ltr"
+                  className="mt-5 pt-5 border-t border-ink/10 space-y-3"
                 >
-                  <JaText
-                    text={para}
-                    activeToken={activeToken}
-                    onTap={setActiveToken}
-                  />
-                </p>
-              ))}
-              {showHebrew && page.hebrew_paragraphs.length > 0 && (
-                <div className="mt-5 pt-5 border-t border-ink/10 space-y-4">
-                  {page.hebrew_paragraphs.map((p, j) => (
+                  {page.english_paragraphs.map((p, j) => (
                     <p
                       key={j}
-                      className="font-hebrew text-lg text-muted italic leading-loose"
+                      className="text-[15px] text-ink/80 leading-relaxed"
                     >
                       {p}
                     </p>
@@ -96,10 +120,10 @@ export function BahyaReader({ data }: { data: BahyaData }) {
         ))}
       </article>
 
-      {showHebrew && (
+      {(showHebrew || showEnglish) && (
         <p className="mt-6 text-xs uppercase tracking-[0.25em] text-muted text-center italic">
-          Hebrew alignment is approximate — paragraph boundaries differ between
-          editions.
+          Hebrew &amp; English alignment is approximate — paragraph boundaries
+          differ between editions.
         </p>
       )}
 

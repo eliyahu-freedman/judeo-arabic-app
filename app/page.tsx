@@ -20,9 +20,9 @@ const modules = [
   {
     href: "/advanced",
     title: "Advanced Reader",
-    subtitle: "Stage 3 · Bahya's Introduction",
-    body: "The opening of Bahya ibn Paquda's Chovot HaLevavot in its original Judeo-Arabic, with Hebrew (Ibn Tibbon) and English alongside, and the same tap-to-gloss lookup.",
-    sample: "אלחקיק במעני אלואחד",
+    subtitle: "Stage 3 · Bahya, The First Gate",
+    body: "The opening gate of Bahya ibn Paquda's Chovot HaLevavot in its original Judeo-Arabic, with Ibn Tibbon's classical Hebrew translation (Sefaria) and a working English translation alongside.",
+    sample: "אכ'לאץ תוחיד אלכ'אלק",
     sampleLang: "he" as const,
   },
 ];
