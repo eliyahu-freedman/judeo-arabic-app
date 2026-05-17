@@ -1,0 +1,63 @@
+{
+  "_note": "Letter inventory for the alphabet module. Teaches Maimonidean orthography (the most standardized convention). Saadianic divergences (e.g., ג׳ for غ rather than ج) are flagged in Lesson 4.",
+  "lessons": {
+    "1": {
+      "title": "Direct Correspondences",
+      "subtitle": "Letters that map 1-to-1 between Hebrew script and Arabic",
+      "intro": "Most Hebrew letters used in Judeo-Arabic correspond directly to a single Arabic phoneme. Start here — these eighteen letters cover the majority of any JA text.",
+      "letters": [
+        {"ja": "א", "ar": "ا", "phoneme": "ʔ/ā", "name": "Alef / Alif", "example_ja": "אול", "example_ar": "أوّل", "example_gloss": "first"},
+        {"ja": "ב", "ar": "ب", "phoneme": "b", "name": "Bet / Bāʾ", "example_ja": "בחאר", "example_ar": "بحار", "example_gloss": "seas"},
+        {"ja": "ד", "ar": "د", "phoneme": "d", "name": "Dalet / Dāl", "example_ja": "דאר", "example_ar": "دار", "example_gloss": "house"},
+        {"ja": "ה", "ar": "ه", "phoneme": "h", "name": "He / Hāʾ", "example_ja": "הוד'א", "example_ar": "هذا", "example_gloss": "this"},
+        {"ja": "ו", "ar": "و", "phoneme": "w/ū", "name": "Vav / Wāw", "example_ja": "ואחד", "example_ar": "واحد", "example_gloss": "one"},
+        {"ja": "ז", "ar": "ز", "phoneme": "z", "name": "Zayin / Zāy", "example_ja": "זרע", "example_ar": "زرع", "example_gloss": "seed"},
+        {"ja": "ח", "ar": "ح", "phoneme": "ḥ", "name": "Chet / Ḥāʾ", "example_ja": "חב", "example_ar": "حبّ", "example_gloss": "grain"},
+        {"ja": "ט", "ar": "ط", "phoneme": "ṭ", "name": "Tet / Ṭāʾ (emphatic)", "example_ja": "טאיר", "example_ar": "طائر", "example_gloss": "bird"},
+        {"ja": "י", "ar": "ي", "phoneme": "y/ī", "name": "Yod / Yāʾ", "example_ja": "יום", "example_ar": "يوم", "example_gloss": "day"},
+        {"ja": "כ", "ar": "ك", "phoneme": "k", "name": "Kaf / Kāf", "example_ja": "כתאב", "example_ar": "كتاب", "example_gloss": "book"},
+        {"ja": "ל", "ar": "ل", "phoneme": "l", "name": "Lamed / Lām", "example_ja": "ליל", "example_ar": "ليل", "example_gloss": "night"},
+        {"ja": "מ", "ar": "م", "phoneme": "m", "name": "Mem / Mīm", "example_ja": "מן", "example_ar": "من", "example_gloss": "from"},
+        {"ja": "נ", "ar": "ن", "phoneme": "n", "name": "Nun / Nūn", "example_ja": "נור", "example_ar": "نور", "example_gloss": "light"},
+        {"ja": "ס", "ar": "س", "phoneme": "s", "name": "Samekh / Sīn", "example_ja": "סמא", "example_ar": "سماء", "example_gloss": "sky"},
+        {"ja": "ע", "ar": "ع", "phoneme": "ʿ", "name": "Ayin / ʿAyn", "example_ja": "עלי", "example_ar": "على", "example_gloss": "upon"},
+        {"ja": "פ", "ar": "ف", "phoneme": "f", "name": "Pe / Fāʾ", "example_ja": "פי", "example_ar": "في", "example_gloss": "in"},
+        {"ja": "צ", "ar": "ص", "phoneme": "ṣ", "name": "Tsadi / Ṣād (emphatic)", "example_ja": "צבר", "example_ar": "صبر", "example_gloss": "patience"},
+        {"ja": "ק", "ar": "ق", "phoneme": "q", "name": "Qof / Qāf", "example_ja": "קאל", "example_ar": "قال", "example_gloss": "he said"},
+        {"ja": "ר", "ar": "ر", "phoneme": "r", "name": "Resh / Rāʾ", "example_ja": "ריאח", "example_ar": "رياح", "example_gloss": "winds"},
+        {"ja": "ש", "ar": "ش", "phoneme": "š", "name": "Shin / Shīn", "example_ja": "שא", "example_ar": "شاء", "example_gloss": "he willed"},
+        {"ja": "ת", "ar": "ت", "phoneme": "t", "name": "Tav / Tāʾ", "example_ja": "תאבת", "example_ar": "ثابت", "example_gloss": "firm"}
+      ]
+    },
+    "2": {
+      "title": "Diacritic Letters",
+      "subtitle": "Hebrew letters with gershayim (׳) for distinctive Arabic phonemes",
+      "intro": "Arabic has phonemes that Hebrew doesn't natively have. To write them, JA scribes add a gershayim (the mark ׳) to the closest Hebrew letter. These are the letters that most distinguish JA from plain Hebrew.",
+      "letters": [
+        {"ja": "ג׳", "ar": "ج", "phoneme": "j", "name": "Gimel + Gershayim / Jīm", "example_ja": "ג׳נאח", "example_ar": "جناح", "example_gloss": "wing"},
+        {"ja": "ד׳", "ar": "ذ", "phoneme": "ḏ (th in this)", "name": "Dalet + Gershayim / Dhāl", "example_ja": "ד׳אלך", "example_ar": "ذلك", "example_gloss": "that"},
+        {"ja": "ח׳", "ar": "خ", "phoneme": "kh (German ch)", "name": "Chet + Gershayim / Khāʾ", "example_ja": "ח׳לק", "example_ar": "خلق", "example_gloss": "he created"},
+        {"ja": "ט׳", "ar": "ظ", "phoneme": "ẓ (emphatic dh)", "name": "Tet + Gershayim / Ẓāʾ", "example_ja": "ט׳לאם", "example_ar": "ظلام", "example_gloss": "darkness"},
+        {"ja": "ת׳", "ar": "ث", "phoneme": "th (in thin)", "name": "Tav + Gershayim / Thāʾ", "example_ja": "ת׳מר", "example_ar": "ثمر", "example_gloss": "fruit"},
+        {"ja": "ע׳", "ar": "غ", "phoneme": "gh (French r)", "name": "Ayin + Gershayim / Ghayn", "example_ja": "ע׳מר", "example_ar": "غمر", "example_gloss": "depth, abyss"}
+      ]
+    },
+    "3": {
+      "title": "The Definite Article",
+      "subtitle": "אל = ال",
+      "intro": "The Arabic definite article ال (al-, 'the') is written in JA as אל — two letters glued to the start of a word. This is the single most common two-letter combination in any JA text. Recognizing it instantly unlocks half of your reading.",
+      "letters": [
+        {"ja": "אל", "ar": "ال", "phoneme": "al-", "name": "Definite article", "example_ja": "אלכתאב", "example_ar": "الكتاب", "example_gloss": "the book"},
+        {"ja": "אל", "ar": "ال", "phoneme": "al-", "name": "Definite article (note: assimilation)", "example_ja": "אלשמס", "example_ar": "الشمس", "example_gloss": "the sun (pronounced ash-shams)"},
+        {"ja": "ואל", "ar": "وال", "phoneme": "wa-l-", "name": "And + the (conjunction + article)", "example_ja": "ואלארץ׳", "example_ar": "والأرض", "example_gloss": "and the earth"}
+      ],
+      "notes": [
+        "Sun-letter assimilation: when ال precedes a 'sun letter' (ت ث د ذ ر ز س ش ص ض ط ظ ل ن), the lām assimilates in pronunciation (الشمس is pronounced ash-shams, not al-shams). But the orthography stays אל — JA does not mark the assimilation."
+      ]
+    }
+  },
+  "future_lessons": [
+    {"id": "4", "title": "Ambiguities & Saadianic Conventions", "status": "draft"},
+    {"id": "5", "title": "Read Your First Sentence", "status": "draft"}
+  ]
+}
