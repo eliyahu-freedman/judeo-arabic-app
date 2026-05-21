@@ -3,11 +3,19 @@
 import { useState } from "react";
 import { lookup, tokenizeJa, type Entry } from "@/lib/lookup";
 
+export type AlignedSegment = {
+  ja: string;
+  he: string;
+  en: string;
+  isHeader?: boolean;
+};
+
 export type BahyaPage = {
   page_he: string;
   paragraphs: string[];
   hebrew_paragraphs: string[];
   english_paragraphs: string[];
+  aligned?: AlignedSegment[];
 };
 
 export type BahyaData = {
@@ -74,46 +82,58 @@ export function BahyaReader({ data }: { data: BahyaData }) {
               <span className="flex-1 h-px bg-ink/10" />
             </div>
             <div className="rounded-md bg-page border border-ink/10 p-7">
-              <div dir="rtl" className="space-y-5">
-                {page.paragraphs.map((para, i) => (
-                  <p
-                    key={i}
-                    className="font-hebrew ja-text text-xl text-ink/90 leading-loose"
-                  >
-                    <JaText
-                      text={para}
-                      activeToken={activeToken}
-                      onTap={setActiveToken}
-                    />
-                  </p>
-                ))}
-                {showHebrew && page.hebrew_paragraphs.length > 0 && (
-                  <div className="mt-5 pt-5 border-t border-ink/10 space-y-4">
-                    {page.hebrew_paragraphs.map((p, j) => (
+              {page.aligned && page.aligned.length > 0 ? (
+                <AlignedSegments
+                  segments={page.aligned}
+                  showHebrew={showHebrew}
+                  showEnglish={showEnglish}
+                  activeToken={activeToken}
+                  onTap={setActiveToken}
+                />
+              ) : (
+                <>
+                  <div dir="rtl" className="space-y-5">
+                    {page.paragraphs.map((para, i) => (
                       <p
-                        key={j}
-                        className="font-hebrew text-lg text-muted italic leading-loose"
+                        key={i}
+                        className="font-hebrew ja-text text-xl text-ink/90 leading-loose"
                       >
-                        {p}
+                        <JaText
+                          text={para}
+                          activeToken={activeToken}
+                          onTap={setActiveToken}
+                        />
                       </p>
                     ))}
+                    {showHebrew && page.hebrew_paragraphs.length > 0 && (
+                      <div className="mt-5 pt-5 border-t border-ink/10 space-y-4">
+                        {page.hebrew_paragraphs.map((p, j) => (
+                          <p
+                            key={j}
+                            className="font-hebrew text-lg text-muted italic leading-loose"
+                          >
+                            {p}
+                          </p>
+                        ))}
+                      </div>
+                    )}
                   </div>
-                )}
-              </div>
-              {showEnglish && page.english_paragraphs.length > 0 && (
-                <div
-                  dir="ltr"
-                  className="mt-5 pt-5 border-t border-ink/10 space-y-3"
-                >
-                  {page.english_paragraphs.map((p, j) => (
-                    <p
-                      key={j}
-                      className="text-[15px] text-ink/80 leading-relaxed"
+                  {showEnglish && page.english_paragraphs.length > 0 && (
+                    <div
+                      dir="ltr"
+                      className="mt-5 pt-5 border-t border-ink/10 space-y-3"
                     >
-                      {p}
-                    </p>
-                  ))}
-                </div>
+                      {page.english_paragraphs.map((p, j) => (
+                        <p
+                          key={j}
+                          className="text-[15px] text-ink/80 leading-relaxed"
+                        >
+                          {p}
+                        </p>
+                      ))}
+                    </div>
+                  )}
+                </>
               )}
             </div>
           </section>
@@ -134,6 +154,73 @@ export function BahyaReader({ data }: { data: BahyaData }) {
           onClose={() => setActiveToken(null)}
         />
       )}
+    </div>
+  );
+}
+
+function AlignedSegments({
+  segments,
+  showHebrew,
+  showEnglish,
+  activeToken,
+  onTap,
+}: {
+  segments: AlignedSegment[];
+  showHebrew: boolean;
+  showEnglish: boolean;
+  activeToken: string | null;
+  onTap: (t: string) => void;
+}) {
+  const nothingToggled = !showHebrew && !showEnglish;
+  return (
+    <div className="space-y-7">
+      <div className="flex items-baseline justify-between gap-4 -mt-1 mb-1">
+        <p className="text-[10px] uppercase tracking-[0.3em] text-muted">
+          Aligned line by line
+        </p>
+        {nothingToggled && (
+          <p className="text-[11px] text-muted/70 italic">
+            Toggle Hebrew or English above to see the rendering
+          </p>
+        )}
+      </div>
+      {segments.map((seg, i) => (
+        <div
+          key={i}
+          className={
+            i > 0 ? "pt-6 border-t border-ink/5" : undefined
+          }
+        >
+          <p
+            dir="rtl"
+            className={`font-hebrew ja-text leading-loose text-ink/90 ${
+              seg.isHeader ? "text-2xl text-wine" : "text-xl"
+            }`}
+          >
+            <JaText
+              text={seg.ja}
+              activeToken={activeToken}
+              onTap={onTap}
+            />
+          </p>
+          {showHebrew && seg.he && (
+            <p
+              dir="rtl"
+              className="font-hebrew text-base text-muted italic leading-loose mt-2"
+            >
+              {seg.he}
+            </p>
+          )}
+          {showEnglish && seg.en && (
+            <p
+              dir="ltr"
+              className="text-[15px] text-ink/80 leading-relaxed mt-2"
+            >
+              {seg.en}
+            </p>
+          )}
+        </div>
+      ))}
     </div>
   );
 }

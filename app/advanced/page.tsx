@@ -2,7 +2,13 @@ import type { Metadata } from "next";
 import jaData from "@/data/bahya-bab1.json";
 import heData from "@/data/bahya-bab1-hebrew.json";
 import enData from "@/data/bahya-bab1-english.json";
-import { BahyaReader, type BahyaData, type BahyaPage } from "./reader";
+import alignedData from "@/data/bahya-bab1-aligned.json";
+import {
+  BahyaReader,
+  type AlignedSegment,
+  type BahyaData,
+  type BahyaPage,
+} from "./reader";
 
 export const metadata: Metadata = {
   title: "Bahya ibn Paquda's Chovot HaLevavot — The First Gate in Judeo-Arabic",
@@ -21,6 +27,7 @@ export default function AdvancedPage() {
   // Linear-interpolation alignment for both Hebrew and English. Source
   // editions divide paragraphs differently so granularity differs from
   // the JA page structure; the UI labels the alignment as approximate.
+  const alignedByPage = alignedData.pages as Record<string, AlignedSegment[]>;
   const pages: BahyaPage[] = jaData.pages.map((p, i) => {
     const heStart = Math.floor((nHe * i) / nJa);
     const heEnd = Math.floor((nHe * (i + 1)) / nJa);
@@ -31,6 +38,7 @@ export default function AdvancedPage() {
       paragraphs: p.paragraphs,
       hebrew_paragraphs: hePar.slice(heStart, heEnd),
       english_paragraphs: enPar.slice(enStart, enEnd),
+      aligned: alignedByPage[p.page_he],
     };
   });
 
