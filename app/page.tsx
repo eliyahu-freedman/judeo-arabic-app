@@ -7,30 +7,21 @@ import {
   rangeHref,
 } from "@/lib/parsha";
 
+const primary = {
+  href: "/alphabet",
+  title: "Alphabet",
+  subtitle: "Start here · Stage 1",
+  body: "Five short lessons on how Hebrew letters render Arabic phonemes — the diacritic letters (ג׳ ד׳ ח׳ ט׳ ת׳), the definite article אל, and the orthographic conventions of medieval Judeo-Arabic.",
+  sample: "ג׳ · ד׳ · ח׳ · ט׳ · ת׳",
+};
+
 const modules = [
-  {
-    href: "/alphabet",
-    title: "Alphabet",
-    subtitle: "Stage 1",
-    body: "Five short lessons on how Hebrew letters render Arabic phonemes — the diacritic letters (ג׳ ד׳ ח׳ ט׳ ת׳), the definite article אל, and the orthographic conventions of medieval Judeo-Arabic.",
-    sample: "ג׳ · ד׳ · ח׳ · ט׳ · ת׳",
-    sampleLang: "he" as const,
-  },
-  {
-    href: "/learn",
-    title: "Learn",
-    subtitle: "Bite-sized formats",
-    body: "Your first 50 Judeo-Arabic words ranked by how often they show up in Saadia, with a click-through to every verse where they appear. More short formats coming.",
-    sample: "אללה · ארץ' · קאל · כ'לק · מוסי",
-    sampleLang: "he" as const,
-  },
   {
     href: "/tafsir",
     title: "Tafsir Reader",
-    subtitle: "Stage 2 · Saadia on Bereshit 1",
-    body: "Read Saadia's Tafsir verse-by-verse alongside the biblical Hebrew. Tap any Judeo-Arabic word for a starter Blau gloss; toggle Arabic-script, Hebrew translation, and (soon) English.",
+    subtitle: "Stage 2 · Saadia on Bereshit",
+    body: "Read Saadia's Tafsir verse-by-verse alongside the biblical Hebrew. Tap any Judeo-Arabic word for a starter Blau gloss; toggle Arabic-script, Hebrew translation, and English.",
     sample: "אול מא כ׳לק אללה",
-    sampleLang: "he" as const,
   },
   {
     href: "/advanced",
@@ -38,15 +29,13 @@ const modules = [
     subtitle: "Stage 3 · Bahya, The First Gate",
     body: "The opening gate of Bahya ibn Paquda's Chovot HaLevavot in its original Judeo-Arabic, with Ibn Tibbon's classical Hebrew translation (Sefaria) and a working English translation alongside.",
     sample: "אכ'לאץ תוחיד אלכ'אלק",
-    sampleLang: "he" as const,
   },
   {
-    href: "/review",
-    title: "Review",
-    subtitle: "Daily practice",
-    body: "Words you've marked as Learning in the readers come back here on a spaced-repetition schedule. Grade your recall and the schedule adjusts.",
-    sample: "Again · Hard · Good · Easy",
-    sampleLang: "en" as const,
+    href: "/learn",
+    title: "Learn",
+    subtitle: "Bite-sized formats",
+    body: "Your first 50 Judeo-Arabic words ranked by how often they show up in Saadia, Hebrew–Arabic and Aramaic–Arabic cognates, the story of Saadia, and his own preface.",
+    sample: "אללה · ארץ' · קאל · כ'לק · מוסי",
   },
 ];
 
@@ -64,10 +53,7 @@ export default function Home() {
               This week · {ALIYAH_DAY_LABELS[reading.aliyahNumber - 1]} ·{" "}
               {ALIYAH_LABELS[reading.aliyahNumber - 1]}
             </div>
-            <div
-              dir="rtl"
-              className="font-hebrew text-base text-wine/90"
-            >
+            <div dir="rtl" className="font-hebrew text-base text-wine/90">
               {reading.parsha.hebrew}
             </div>
           </div>
@@ -87,6 +73,7 @@ export default function Home() {
           </div>
         </Link>
       )}
+
       <section className="mb-16 sm:mb-20">
         <p className="text-xs uppercase tracking-[0.3em] text-muted mb-4">
           A reader-first introduction
@@ -101,19 +88,50 @@ export default function Home() {
           philosophical prose. Each text appears with parallel translations
           and a tap-to-define dictionary.
         </p>
-        <div
-          dir="rtl"
-          className="font-hebrew text-2xl sm:text-3xl text-wine/90 mt-10 leading-loose"
+        <Link
+          href="/tafsir/bereshit/1#verse-1-1"
+          className="group block mt-10 -mx-2 px-2 py-2 rounded transition-colors hover:bg-wine/[0.04]"
+          aria-label="Open Saadia's Tafsir on Bereshit 1:1"
         >
-          אול מא כ׳לק אללה. אלסמאואת ואלארץ׳
-        </div>
-        <p className="text-xs uppercase tracking-widest text-muted mt-2">
-          Saadia, Bereshit 1:1 — &ldquo;The first thing God created: the heavens
-          and the earth.&rdquo;
-        </p>
+          <div
+            dir="rtl"
+            className="font-hebrew text-2xl sm:text-3xl text-wine/90 leading-loose"
+          >
+            אול מא כ׳לק אללה. אלסמאואת ואלארץ׳
+          </div>
+          <p className="text-xs uppercase tracking-widest text-muted mt-2 group-hover:text-wine/70 transition-colors">
+            Saadia, Bereshit 1:1 — &ldquo;The first thing God created: the
+            heavens and the earth.&rdquo;{" "}
+            <span aria-hidden className="text-wine">→ read it</span>
+          </p>
+        </Link>
       </section>
 
-      <ul className="space-y-5">
+      {/* Primary CTA — Alphabet */}
+      <Link
+        href={primary.href}
+        className="group block rounded-md bg-wine/[0.06] border-2 border-wine/40 p-7 sm:p-9 transition-all hover:bg-wine/[0.09] hover:border-wine/60 hover:shadow-lg hover:shadow-wine/10"
+      >
+        <div className="text-xs uppercase tracking-[0.3em] text-wine">
+          {primary.subtitle}
+        </div>
+        <h2 className="mt-2 text-3xl sm:text-4xl text-ink group-hover:text-wine transition-colors font-normal">
+          {primary.title}{" "}
+          <span aria-hidden className="text-wine">→</span>
+        </h2>
+        <p className="mt-3 text-[16px] text-ink/75 leading-relaxed">
+          {primary.body}
+        </p>
+        <div
+          dir="rtl"
+          className="text-2xl text-ink/85 mt-5 leading-loose font-hebrew"
+        >
+          {primary.sample}
+        </div>
+      </Link>
+
+      {/* Then: Tafsir, Advanced, Learn */}
+      <ul className="space-y-5 mt-5">
         {modules.map((m) => (
           <li key={m.href}>
             <Link
@@ -123,19 +141,15 @@ export default function Home() {
               <div className="text-xs uppercase tracking-[0.25em] text-muted">
                 {m.subtitle}
               </div>
-              <div className="mt-1 text-2xl text-ink group-hover:text-wine transition-colors">
+              <h2 className="mt-1 text-2xl text-ink group-hover:text-wine transition-colors font-normal">
                 {m.title}
-              </div>
+              </h2>
               <p className="mt-3 text-[15px] text-ink/70 leading-relaxed">
                 {m.body}
               </p>
               <div
-                dir={m.sampleLang === "he" ? "rtl" : "ltr"}
-                className={`text-xl text-ink/80 mt-5 leading-loose ${
-                  m.sampleLang === "he"
-                    ? "font-hebrew"
-                    : "font-serif tracking-wide text-base uppercase text-muted"
-                }`}
+                dir="rtl"
+                className="text-xl text-ink/80 mt-5 leading-loose font-hebrew"
               >
                 {m.sample}
               </div>
@@ -143,6 +157,17 @@ export default function Home() {
           </li>
         ))}
       </ul>
+
+      {/* Quiet bottom rail for returning users */}
+      <div className="mt-10 pt-6 border-t border-ink/10 text-sm text-ink/60 flex items-center justify-between flex-wrap gap-3">
+        <span>Already practicing?</span>
+        <Link
+          href="/review"
+          className="text-wine hover:underline tracking-wide"
+        >
+          Continue your daily review →
+        </Link>
+      </div>
     </div>
   );
 }

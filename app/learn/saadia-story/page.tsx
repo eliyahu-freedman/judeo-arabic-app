@@ -1,5 +1,17 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Who Was Saadia Gaon? — A short illustrated story",
+  description:
+    "A short walk through the 10th century — and the choice one rabbi made in Baghdad and the Fayyum that shaped how Arabic-speaking Jews would read Torah for the next thousand years. Six illustrated panels plus Saadia's own words from his Tafsir preface.",
+  alternates: { canonical: "/learn/saadia-story" },
+  openGraph: {
+    type: "article",
+    images: ["/comic/saadia-story.png"],
+  },
+};
 
 export default function SaadiaStoryPage() {
   return (

@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Learn Judeo-Arabic — Short lessons and vocabulary",
+  description:
+    "Bite-sized ways into Judeo-Arabic: the first 50 words from Saadia's Tafsir ranked by frequency, Hebrew–Arabic cognates you already know, Aramaic bridges from Onkelos, the story of Saadia Gaon, and Saadia's own preface in Judeo-Arabic and English.",
+  alternates: { canonical: "/learn" },
+};
 
 const lessons = [
   {

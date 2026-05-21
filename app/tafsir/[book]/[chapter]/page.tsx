@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import {
   findChapter,
@@ -26,6 +27,48 @@ export async function generateStaticParams() {
     book: r.bookSlug,
     chapter: String(r.chapter),
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ book: string; chapter: string }>;
+}): Promise<Metadata> {
+  const { book, chapter: chapterStr } = await params;
+  const chapter = Number(chapterStr);
+  const found = await findChapter(book, chapter);
+  if (!found) return {};
+
+  const display = found.record.book;
+  const parsha = findParshaForChapter(book, chapter);
+  const parshaSuffix = parsha ? ` (Parashat ${parsha.title})` : "";
+
+  const title = `Saadia's Tafsir on ${display} ${chapter}${parshaSuffix}`;
+  const description = `Saadia Gaon's medieval Judeo-Arabic translation of ${display} ${chapter}, verse by verse alongside the biblical Hebrew, with classical Hebrew (Ibn Tibbon-style) and English translations and a tap-to-define dictionary.`;
+  const path = `/tafsir/${book}/${chapter}`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: path },
+    openGraph: { title, description, url: path, type: "article" },
+    twitter: { card: "summary_large_image", title, description },
+  };
+}
+
+function findParshaForChapter(
+  bookSlug: string,
+  chapter: number,
+): ParshaEntry | null {
+  for (const p of PARSHA_SCHEDULE) {
+    for (const a of p.aliyot) {
+      const r = parseRange(a);
+      if (!r) continue;
+      if (r.start.book !== bookSlug) continue;
+      if (chapter >= r.start.ch && chapter <= r.end.ch) return p;
+    }
+  }
+  return null;
 }
 
 export default async function TafsirChapterPage({

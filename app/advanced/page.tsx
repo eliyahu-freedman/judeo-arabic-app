@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import jaData from "@/data/bahya-bab1.json";
 import heData from "@/data/bahya-bab1-hebrew.json";
 import enData from "@/data/bahya-bab1-english.json";
 import { BahyaReader, type BahyaData, type BahyaPage } from "./reader";
+
+export const metadata: Metadata = {
+  title: "Bahya ibn Paquda's Chovot HaLevavot — The First Gate in Judeo-Arabic",
+  description:
+    "Read the opening gate of Bahya ibn Paquda's Chovot HaLevavot (Duties of the Heart) in its original 11th-century Judeo-Arabic, alongside Judah ibn Tibbon's classical Hebrew translation (from Sefaria) and a working English translation. With tap-to-define dictionary.",
+  alternates: { canonical: "/advanced" },
+};
 
 export default function AdvancedPage() {
   const hePar = heData.paragraphs;

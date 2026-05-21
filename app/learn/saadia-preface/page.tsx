@@ -1,5 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import data from "@/data/saadia-tafsir-intro.json";
+
+export const metadata: Metadata = {
+  title: "Saadia Gaon's Preface to the Tafsir — Judeo-Arabic and English",
+  description:
+    "Saadia Gaon's own preface to his Tafsir (ca. 930 CE), in the original Judeo-Arabic alongside English — including paragraphs §7, §8, §9 and the close of §10 published in English here for the first time. Why he translated the Torah into Arabic, and how he chose to do it.",
+  alternates: { canonical: "/learn/saadia-preface" },
+  openGraph: { type: "article" },
+};
 
 type Section = {
   n: number;
