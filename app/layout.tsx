@@ -190,7 +190,7 @@ export default function RootLayout({
                 </ul>
               </div>
             </div>
-            <div className="mt-10 pt-6 border-t border-ink/10 text-[11px] text-ink/55 leading-relaxed">
+            <div className="mt-10 pt-6 border-t border-ink/10 text-[11px] text-ink/70 leading-relaxed">
               Built on Joshua Blau&apos;s{" "}
               <em>Dictionary of Medieval Judaeo-Arabic Texts</em> (Jerusalem,
               2006); Saadia&apos;s Tafsir from Joseph Derenbourg&apos;s{" "}

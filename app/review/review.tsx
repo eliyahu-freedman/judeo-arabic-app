@@ -230,7 +230,7 @@ function Card({
                       )}
                       {e.source && (
                         <span
-                          className="text-[10px] uppercase tracking-[0.2em] text-ink/40 border border-ink/15 rounded-sm px-1.5 py-0.5 ml-auto"
+                          className="text-[10px] uppercase tracking-[0.2em] text-ink/70 border border-ink/15 rounded-sm px-1.5 py-0.5 ml-auto"
                           title="Auto-extracted; verify before citing"
                         >
                           {e.source}
@@ -275,7 +275,7 @@ function Card({
             <button
               type="button"
               onClick={onSkip}
-              className="px-4 py-3 rounded-md border border-ink/15 text-ink/60 text-sm uppercase tracking-wider hover:border-wine/40 hover:text-wine transition-colors"
+              className="px-4 py-3 rounded-md border border-ink/15 text-ink/70 text-sm uppercase tracking-wider hover:border-wine/40 hover:text-wine transition-colors"
               title="Skip without scoring"
             >
               Skip

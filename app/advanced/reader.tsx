@@ -197,7 +197,7 @@ function GlossPanel({
           <button
             type="button"
             onClick={onClose}
-            className="text-ink/40 hover:text-wine text-2xl leading-none w-8 h-8 flex items-center justify-center rounded-full hover:bg-wine-50 transition-colors"
+            className="text-ink/60 hover:text-wine text-2xl leading-none w-8 h-8 flex items-center justify-center rounded-full hover:bg-wine-50 transition-colors"
             aria-label="Close"
           >
             ×

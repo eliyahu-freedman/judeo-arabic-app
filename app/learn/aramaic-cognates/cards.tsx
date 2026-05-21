@@ -146,7 +146,7 @@ function AramaicCard({ entry }: { entry: AramaicCognateEntry }) {
       <div dir="rtl" className="font-hebrew text-3xl text-ink leading-tight">
         {entry.aramaic}
       </div>
-      <div className="text-[13px] text-ink/55 mt-1 font-mono">
+      <div className="text-[13px] text-ink/70 mt-1 font-mono">
         {entry.aramaic_translit} · {entry.aramaic_en}
       </div>
 
@@ -163,7 +163,7 @@ function AramaicCard({ entry }: { entry: AramaicCognateEntry }) {
           >
             {entry.arabic}
           </div>
-          <div className="text-[12px] text-ink/55 mt-1 font-mono">
+          <div className="text-[12px] text-ink/70 mt-1 font-mono">
             {entry.arabic_translit}
           </div>
         </div>
@@ -171,18 +171,18 @@ function AramaicCard({ entry }: { entry: AramaicCognateEntry }) {
           <div className="text-[10px] uppercase tracking-[0.2em] text-muted mb-1">
             Hebrew
             {isInterdental && (
-              <span className="text-ink/40"> · shifted</span>
+              <span className="text-ink/70"> · shifted</span>
             )}
           </div>
           <div
             dir="rtl"
             className={`font-hebrew text-2xl leading-tight ${
-              isInterdental ? "text-ink/60" : "text-ink/85"
+              isInterdental ? "text-ink/70" : "text-ink/85"
             }`}
           >
             {entry.hebrew}
           </div>
-          <div className="text-[12px] text-ink/55 mt-1 font-mono">
+          <div className="text-[12px] text-ink/70 mt-1 font-mono">
             {entry.hebrew_translit}
           </div>
         </div>
@@ -206,7 +206,7 @@ function AramaicCard({ entry }: { entry: AramaicCognateEntry }) {
             {entry.onkelos_phrase}
           </div>
           {entry.onkelos_phrase_en && (
-            <div className="text-[12px] text-ink/55 italic mt-1">
+            <div className="text-[12px] text-ink/70 italic mt-1">
               &ldquo;{entry.onkelos_phrase_en}&rdquo;
             </div>
           )}
@@ -240,7 +240,7 @@ function AramaicCard({ entry }: { entry: AramaicCognateEntry }) {
           {entry.tafsir_first.hebrew_phrase && (
             <div
               dir="rtl"
-              className="font-hebrew text-sm text-ink/50 leading-snug mt-1 italic"
+              className="font-hebrew text-sm text-ink/70 leading-snug mt-1 italic"
               title="The Hebrew Torah verse Saadia is translating"
             >
               {entry.tafsir_first.hebrew_phrase}

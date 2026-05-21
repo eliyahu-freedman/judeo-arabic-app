@@ -201,7 +201,7 @@ function StudyChart({
               </span>
             </div>
             <div className="text-xs text-muted mb-1">{L.name}</div>
-            <div className="text-xs text-ink/60 font-mono mb-2">/{L.phoneme}/</div>
+            <div className="text-xs text-ink/70 font-mono mb-2">/{L.phoneme}/</div>
             <div className="border-t border-ink/10 pt-2 text-[11px]">
               <div className="flex items-baseline gap-2" dir="rtl">
                 <span className="font-hebrew text-base text-ink">
@@ -217,7 +217,7 @@ function StudyChart({
               >
                 {L.example_translit}
               </div>
-              <div className="text-ink/60 italic" dir="ltr">
+              <div className="text-ink/75 italic" dir="ltr">
                 {L.example_gloss}
               </div>
             </div>
@@ -536,7 +536,7 @@ function Drill({
           if (showResult) {
             if (isAnswer) cls = "border-wine bg-wine-50 text-wine-700";
             else if (isPicked)
-              cls = "border-ink/30 bg-ink/5 text-ink/50 line-through";
+              cls = "border-ink/30 bg-ink/5 text-ink/65 line-through";
             else cls = "border-ink/10 opacity-60";
           }
           return (

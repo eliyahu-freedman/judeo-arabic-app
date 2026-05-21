@@ -137,7 +137,7 @@ function WordCard({ entry }: { entry: FirstFiftyEntry }) {
       {entry.he_echo && entry.he_echo !== "—" && (
         <div
           dir="rtl"
-          className="font-hebrew text-base text-ink/55 mt-1"
+          className="font-hebrew text-base text-ink/70 mt-1"
           title="Hebrew echo / cognate"
         >
           {entry.he_echo}
@@ -148,7 +148,7 @@ function WordCard({ entry }: { entry: FirstFiftyEntry }) {
         <div className="mt-2 text-[11px] text-muted font-mono">√{entry.root}</div>
       )}
       {entry.note && (
-        <p className="mt-3 text-[12px] text-ink/60 leading-relaxed italic">
+        <p className="mt-3 text-[12px] text-ink/75 leading-relaxed italic">
           {entry.note}
         </p>
       )}

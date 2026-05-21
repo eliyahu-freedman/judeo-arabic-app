@@ -140,7 +140,7 @@ export default function SaadiaPrefacePage() {
 
       {/* Footer attribution + nav */}
       <footer className="mt-16 pt-8 border-t border-ink/10">
-        <p className="text-[12px] text-ink/60 leading-relaxed">
+        <p className="text-[12px] text-ink/75 leading-relaxed">
           <strong>Sources.</strong> Judeo-Arabic from Joseph Derenbourg&apos;s{" "}
           <em>Œuvres Complètes de R. Saadia ben Iosef al-Fayyoûmî</em> (Paris,
           1893), via Sefaria. English of §0–§6 and the opening of §10 is

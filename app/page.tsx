@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import {
   ALIYAH_DAY_LABELS,
@@ -6,6 +7,17 @@ import {
   currentReading,
   rangeHref,
 } from "@/lib/parsha";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/",
+      he: "/",
+      "x-default": "/",
+    },
+  },
+};
 
 const primary = {
   href: "/alphabet",
@@ -62,7 +74,7 @@ export default function Home() {
               Today&apos;s aliyah in the Tafsir →{" "}
               <span className="italic text-wine">{reading.parsha.title}</span>
             </div>
-            <div className="text-sm text-ink/60 font-mono">
+            <div className="text-sm text-ink/70 font-mono">
               {BOOK_DISPLAY[reading.range.start.book]} {reading.range.start.ch}:
               {reading.range.start.v}
               {"–"}
@@ -82,6 +94,13 @@ export default function Home() {
           Learn to read{" "}
           <span className="text-wine italic">Judeo-Arabic</span>.
         </h1>
+        <p
+          dir="rtl"
+          lang="he"
+          className="mt-3 font-hebrew text-2xl sm:text-3xl text-wine/90 leading-snug"
+        >
+          ערבית־יהודית לקוראי עברית
+        </p>
         <p className="mt-6 text-lg text-ink/75 leading-relaxed max-w-2xl">
           For Hebrew readers: start with the script, read Saadia&apos;s Tafsir
           on Bereshit alongside the biblical text, then move on to Bahya&apos;s
@@ -90,19 +109,57 @@ export default function Home() {
         </p>
         <Link
           href="/tafsir/bereshit/1#verse-1-1"
-          className="group block mt-10 -mx-2 px-2 py-2 rounded transition-colors hover:bg-wine/[0.04]"
-          aria-label="Open Saadia's Tafsir on Bereshit 1:1"
+          className="group block mt-10 -mx-3 px-3 py-5 rounded-md transition-colors hover:bg-wine/[0.04]"
+          aria-label="Open Saadia's Tafsir on Bereshit 1:1 in the reader"
         >
+          <div className="flex items-baseline justify-between gap-3 mb-3 flex-wrap">
+            <span className="text-[10px] uppercase tracking-[0.3em] text-muted">
+              Preview · Saadia, Bereshit 1:1
+            </span>
+            <span className="text-[10px] uppercase tracking-[0.3em] text-ink/70 italic normal-case">
+              ↓ tap any word for a Blau gloss
+            </span>
+          </div>
           <div
             dir="rtl"
-            className="font-hebrew text-2xl sm:text-3xl text-wine/90 leading-loose"
+            className="font-hebrew text-2xl sm:text-3xl leading-loose"
           >
-            אול מא כ׳לק אללה. אלסמאואת ואלארץ׳
+            <span className="text-wine/90">אול מא </span>
+            <span className="bg-wine-100 text-wine-700 rounded-sm px-1.5">
+              כ׳לק
+            </span>
+            <span className="text-wine/90"> אללה. אלסמאואת ואלארץ׳</span>
           </div>
-          <p className="text-xs uppercase tracking-widest text-muted mt-2 group-hover:text-wine/70 transition-colors">
-            Saadia, Bereshit 1:1 — &ldquo;The first thing God created: the
-            heavens and the earth.&rdquo;{" "}
-            <span aria-hidden className="text-wine">→ read it</span>
+
+          <div className="mt-4 sm:max-w-md sm:ml-auto bg-page border border-wine/30 rounded-md p-4 shadow-sm shadow-wine/10">
+            <div className="flex items-baseline gap-3 flex-wrap">
+              <span className="font-hebrew text-xl text-ink" dir="rtl">
+                כ׳לק
+              </span>
+              <span className="font-arabic text-lg text-ink/70" dir="rtl">
+                خلق
+              </span>
+              <span className="text-xs text-muted font-mono">√ḫ-l-q</span>
+              <span className="text-xs text-muted italic">
+                verb · perf. 3sg.m.
+              </span>
+            </div>
+            <p className="mt-2 text-[15px] text-ink">he created</p>
+            <p
+              dir="rtl"
+              className="font-hebrew text-base text-muted mt-0.5"
+            >
+              ברא
+            </p>
+            <p className="text-[12px] text-muted italic mt-2 leading-relaxed">
+              Saadia&apos;s rendering of biblical ברא. The diacritic ׳ on כ
+              marks خ (kh).
+            </p>
+          </div>
+
+          <p className="mt-4 text-xs uppercase tracking-widest text-muted group-hover:text-wine/70 transition-colors">
+            &ldquo;The first thing God created: the heavens and the earth.&rdquo;{" "}
+            <span aria-hidden className="text-wine">→ open in the reader</span>
           </p>
         </Link>
       </section>
@@ -159,7 +216,7 @@ export default function Home() {
       </ul>
 
       {/* Quiet bottom rail for returning users */}
-      <div className="mt-10 pt-6 border-t border-ink/10 text-sm text-ink/60 flex items-center justify-between flex-wrap gap-3">
+      <div className="mt-10 pt-6 border-t border-ink/10 text-sm text-ink/70 flex items-center justify-between flex-wrap gap-3">
         <span>Already practicing?</span>
         <Link
           href="/review"

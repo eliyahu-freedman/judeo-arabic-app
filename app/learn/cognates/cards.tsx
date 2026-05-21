@@ -147,7 +147,7 @@ function CognateCard({ entry }: { entry: CognateEntry }) {
       <div dir="rtl" className="font-hebrew text-3xl text-ink leading-tight">
         {entry.modern_he}
       </div>
-      <div className="text-[13px] text-ink/55 mt-1 font-mono">
+      <div className="text-[13px] text-ink/70 mt-1 font-mono">
         {entry.modern_translit} · {entry.modern_en}
       </div>
 
@@ -159,7 +159,7 @@ function CognateCard({ entry }: { entry: CognateEntry }) {
       <div dir="rtl" className="font-arabic text-2xl text-ink/85 leading-tight">
         {entry.arabic}
       </div>
-      <div className="text-[13px] text-ink/55 mt-1 font-mono">
+      <div className="text-[13px] text-ink/70 mt-1 font-mono">
         {entry.arabic_translit}
       </div>
 
