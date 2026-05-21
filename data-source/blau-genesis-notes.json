@@ -1,0 +1,526 @@
+{
+  "_note": "Verse-level notes extracted from Yehoshua Blau, 'עיונים בתרגום רב סעדיה גאון לבראשית פרקים א-יב' (Studies in Saadia Gaon's Translation of Genesis ch. 1-12), in the R. Yosef Kapach z\"l Memorial Volume, pp. 309-318. Source PDF: ~/Downloads/blau genesis rasag 1-12.pdf. Each note records: where Blau discusses a passage, what Saadia reads, whether there's a textual disagreement (Kapach vs Petersburg MS II C 'C-PB' vs Derenbourg edition 'Deren' vs Tagim 'Tag'), and what Blau proposes. The 'type' field classifies impact: 'kapach_correction' = Blau argues Kapach printed wrong, 'ms_variant' = manuscripts disagree (Blau may or may not take a side), 'translation_note' = analytical observation w/ no textual change, 'omission' = Saadia did not translate this in his Tafsir, 'etymological' = geographical/lexical gloss.",
+  "_source": "Yehoshua Blau, 'עיונים בתרגום רב סעדיה גאון לבראשית פרקים א-יב', in ספר זכרון לרב יוסף בן דוד קאפח זצ\"ל, pp. 309-318",
+  "_extracted": "2026-05-20",
+  "notes": [
+    {
+      "ch": 1,
+      "v": 5,
+      "lemma_he": "לילה",
+      "type": "translation_note",
+      "saadia_ar": "מן אללי-ל ואלנהאר ואחד פשא אללה",
+      "blau_comment": "Saadia translates 'אחד' as 'a single day from [the category of] night and [the category of] day' — does not split out the 'evening + morning' as separate phrases like the Hebrew does. Shows Saadia's pithy, smoothing translation style. Same pattern repeated for the other days.",
+      "page": 310
+    },
+    {
+      "ch": 1,
+      "v": 21,
+      "lemma_he": "כל נפש החיה הרמשת",
+      "type": "translation_note",
+      "blau_comment": "Saadia uses 'סאיר' (= 'the rest of') rather than 'כל' for the second occurrence within a verse, when 'all' has already been mentioned. Same pattern at 6:20 ('מעוף למינהו ומן הבהמה למינה'), 7:21 ('ויגוע כל בשר הרמש על הארץ ובעוף ובבהמה ובחיה ובכל השרץ השרץ על הארץ' → 'סאיר'), and similar verses. Translation pattern, not a textual correction.",
+      "page": 310
+    },
+    {
+      "ch": 2,
+      "v": 3,
+      "lemma_he": "מכל מלאכתו אשר ברא",
+      "type": "kapach_correction",
+      "saadia_ar": "מן מתל כלקה",
+      "kapach_reads": "'מעין בריאה' (without possessive)",
+      "blau_recommends": "'מעין בריאתו' (with possessive)",
+      "blau_comment": "Should be 'מעין בריאתו' not 'מעין בריאה' — Blau prefers the possessive form against Kapach.",
+      "page": 311
+    },
+    {
+      "ch": 2,
+      "v": 5,
+      "lemma_he": "טרם",
+      "type": "translation_note",
+      "blau_comment": "Saadia translates 'טרם' not just as a temporal connector ('לפני ש') but also descriptively as 'still not'. Example: 'וכל שיח השדה טרם יהיה...' → 'still wasn't there and still didn't grow, because [God] hadn't rained'. Saadia recognizes 'טרם' can mark either temporal ('before') or descriptive ('still not'). Same in 24:15 (Rebecca) and Ex 9:30 ('פאעלם'), Ex 10:7 ('הטרם תדע')",
+      "page": 311
+    },
+    {
+      "ch": 2,
+      "v": 6,
+      "lemma_he": "ואד יעלה מן הארץ",
+      "type": "kapach_correction",
+      "kapach_reads": "'מן האדמה'",
+      "blau_recommends": "'ממנה' (referring back to הארץ)",
+      "saadia_ar": "ואף אד לא היה עולה ממנה כדי להשקות את כל פניה",
+      "blau_comment": "Kapach reads 'מן האדמה' but Blau argues 'ממנה' (referring back to הארץ in the previous verse) is correct. Blau also flags 'כל פניה' as suspicious (marks with (!)).",
+      "page": 312
+    },
+    {
+      "ch": 2,
+      "v": 7,
+      "lemma_he": "וייצר ה'",
+      "type": "kapach_correction",
+      "kapach_reads": "(struck the 'אז')",
+      "blau_recommends": "restore 'אז' — Saadia's literal translation",
+      "blau_comment": "Saadia translates 'ויצר ה'' literally with 'אז' to mark sequence ('then formed'). Same at 2:9 ('ויצמח') and 2:10 ('יוצא'). Blau says 'ויש לתקן אצל הרב קאפח לפי זה' — Kapach's edition needs to be corrected per this pattern.",
+      "page": 312
+    },
+    {
+      "ch": 2,
+      "v": 11,
+      "lemma_he": "החוילה",
+      "type": "etymological",
+      "saadia_ar": "זוילה",
+      "blau_comment": "Saadia identifies Havilah with Zawila, a city in the Maghreb known to Arabic geographers as a major gold source, located near Egypt's southern frontier. Saadia, originating from Egypt, knew this region first-hand. Full Saadia reading: 'אלניל הו פי גואר אלבלדין אלמסמיין אענא אלחבשה ואלימן [ופיה] מעדן דהב כביר' = 'the Nile is in the vicinity of the two regions called Abyssinia and Yemen, [in it] is a great gold mine'.",
+      "page": 312
+    },
+    {
+      "ch": 2,
+      "v": 17,
+      "lemma_he": "מות תמות",
+      "type": "translation_note",
+      "saadia_ar": "תהיה ראוי למות",
+      "blau_comment": "Saadia softens 'mot tamut' (you will surely die) to 'you will deserve to die' / 'you will be liable to death'.",
+      "page": 312
+    },
+    {
+      "ch": 2,
+      "v": 18,
+      "lemma_he": "לא טוב היות האדם לבדו",
+      "type": "translation_note",
+      "saadia_ar": "לא טוב שיישאר אדם לבדו",
+      "blau_comment": "Saadia: 'not good that man should remain alone' (using 'שיישאר' rather than literal 'היות').",
+      "page": 312
+    },
+    {
+      "ch": 2,
+      "v": 19,
+      "lemma_he": "וייצר ה' אלקים מן האדמה כל חית השדה",
+      "type": "ms_variant",
+      "saadia_ar": "פלמא ק'לק אללה מן אלארץ' גמיע וחש אלארץ' וטאיר אלסמא אתי בהא אלי אדם",
+      "blau_comment": "Saadia uses past-perfect ('ק'לק' = 'had created'), so the verse becomes: 'and after God had created all the beasts of the field and all the birds of the sky, He brought them to Adam'. This resolves the apparent contradiction with ch.1 (where animals were created already). Two MS traditions exist for the verb here: Blau notes Saadia uses 'ואסף האל' ('and the God gathered') in one tradition, vs. 'פחשר' ('mustered/gathered') in Kapach — both attested. Plays on Quranic resonance ('ואסף', cf. Hosea 5:5, Num 19:1 'אצפרא').",
+      "page": 312
+    },
+    {
+      "ch": 1,
+      "v": 9,
+      "lemma_he": "יקוו המים",
+      "type": "ms_variant",
+      "saadia_ar": "תג'תמע אלאמיא (Petersburg, plural) / יג'תמע אלמא (printed, sing.)",
+      "blau_comment": "Petersburg MS has 'תג'תמע אלאמיא/יג'תמע אלמא' (which Blau thinks is lectio facilior). The printed reading 'ילתאם אלאמיא/יג'תמע אלמא' = 'mikveh mayim' (cf. Gen 1:10) may be original. Saadia tends to use 'אלתם' for 'יקווה'.",
+      "page": 313,
+      "footnote": "21"
+    },
+    {
+      "ch": 2,
+      "v": 19,
+      "lemma_he": "להראות מה יקרא לו",
+      "subnote": "the verb 'לראות'",
+      "type": "translation_note",
+      "saadia_ar": "להראותו (לאדם)",
+      "blau_comment": "Saadia translates 'לראות' as 'להראותו' (causative, to show him) — not 'להראות' in general. Kapach (note 20) says 'because everything is revealed before God' so no need to test. But Blau argues this is a 'free translation' — Saadia's literal sense is 'להראות האדם'.",
+      "page": 314
+    },
+    {
+      "ch": 2,
+      "v": 20,
+      "lemma_he": "ולאדם לא מצא עזר כנגדו ויפל ... תרדמה",
+      "type": "ms_variant",
+      "blau_comment": "Two MS traditions diverge here. Petersburg MS reads: 'בפסמא אדם אסמאא ... ולם יוגד לאדם עון חדאה פאוקע ... סבאתא' = 'Adam named names ... and no helper was found for him ... He caused [him] to fall ... a sleep' (no temporal connectors; chain of three coordinated past-tense verbs as in source). Derenbourg + Tag + Kapach Pirush translate with temporal: 'פלמא סמא ... ואחרי שקרא ... הפיל' = 'when [he] called ... and after [he] named ... [he] caused to fall'. Both attested. Petersburg likely older.",
+      "page": 314
+    },
+    {
+      "ch": 2,
+      "v": 20,
+      "lemma_he": "ולאדם לא מצא עזר",
+      "type": "kapach_correction",
+      "saadia_ar": "ולם יוגד לאדם עון (Petersburg)",
+      "kapach_reads": "ולם יגד אדם עונא / ולאדם לא מצא [המוצא = subject] עזר",
+      "blau_recommends": "ולם יוגד לאדם עון = 'no helper was found for Adam' (impersonal passive, matching Hebrew)",
+      "blau_comment": "Kapach reads 'ולם יגד אדם עונא' (Adam couldn't find a helper) which would force 'ולאדם' to be the subject. Blau prefers Petersburg 'ולם יוגד לאדם עון' (impersonal passive) — matches Ibn Ezra's reading ('ולנפשו לא מצא') and Radak ('ולעצמו לא מצא עזר').",
+      "page": 314
+    },
+    {
+      "ch": 2,
+      "v": 23,
+      "lemma_he": "זאת הפעם עצם",
+      "type": "translation_note",
+      "saadia_ar": "הדה אלמרה ... שאהדת עטמא",
+      "blau_comment": "'this time ... I have seen bone' — Saadia uses 'שאהדת' (= 'I have seen'/'witnessed') rather than literal 'מצאתי' or 'הכרתי'. Also 'לזאת יקרא' → 'ינבגי אן תסמי' = 'fit/proper that she should be called'.",
+      "page": 314
+    },
+    {
+      "ch": 2,
+      "v": 24,
+      "lemma_he": "והיו לבשר אחד",
+      "type": "ms_variant",
+      "saadia_ar": "(Petersburg: 'gawhar' or sim.); Derenbourg: 'כגוף אחד'",
+      "blau_comment": "Petersburg vs Derenbourg disagreement on this idiom.",
+      "page": 314
+    },
+    {
+      "ch": 3,
+      "v": 1,
+      "lemma_he": "אף כי",
+      "type": "translation_note",
+      "saadia_ar": "איקנא / האמנם",
+      "blau_comment": "Saadia translates 'אף כי' as 'indeed' / 'verily'.",
+      "page": 314
+    },
+    {
+      "ch": 3,
+      "v": 3,
+      "lemma_he": "ולא תגעו בו",
+      "type": "translation_note",
+      "saadia_ar": "ולא תגעו בו (with idiomatic 'דנא ב' = 'approach with [locative]')",
+      "blau_comment": "Saadia uses 'דנא ב' (rare; classical Arabic would expect 'קרב אל' or 'מסה'). Reflects Aramaic influence — 'נגע ב' is the Aramaic idiom. Targum Onkelos uses 'תקרבון ביה' which Blau cites as parallel. Idiom preserved in Saadia.",
+      "page": 314
+    },
+    {
+      "ch": 3,
+      "v": 8,
+      "lemma_he": "לרוח היום",
+      "type": "translation_note",
+      "saadia_ar": "כתנועת היום",
+      "blau_comment": "Confirms Kapach's reading 'כתנועת היום' (= 'movement of the day'). See Saadia Pirush p. 74, 10.",
+      "page": 314
+    },
+    {
+      "ch": 3,
+      "v": 16,
+      "lemma_he": "עצבונך",
+      "type": "translation_note",
+      "saadia_ar": "משקה / יגיעה",
+      "blau_comment": "Saadia translates 'עצב' / 'עצבון' (lit. pain/sadness) as 'משקה' (effort) / 'יגיעה' (toil). Kapach distinguishes עצבון = 'בצער' from עצב = 'ביגע וקושי' — but Blau notes this distinction is unsupported in the Tafsir manuscripts; the variation reflects translator choice not a stable lexical difference.",
+      "page": 315
+    },
+    {
+      "ch": 3,
+      "v": 17,
+      "lemma_he": "עצב",
+      "type": "translation_note",
+      "blau_comment": "Same as 3:16 — Saadia uses similar Arabic gloss ('משקה'). Kapach's distinction unsupported.",
+      "page": 315
+    },
+    {
+      "ch": 3,
+      "v": 22,
+      "lemma_he": "כאחד ממנו לדעת טוב ורע",
+      "type": "translation_note",
+      "kapach_reads": "כאחד אשר ממנו ידיעת טוב ורע ('like one to whom belongs the knowledge of good and evil', referring to Adam)",
+      "blau_comment": "Long exegetical discussion. Saadia explains in his Pirush (p. 79) that 'אחד ממנו' refers to Adam himself: now Adam has become independent (i.e., separate from God), with knowledge of good and evil. Blau brings Saadia's full Arabic explanation. Theological/exegetical, not a textual change.",
+      "page": 315
+    },
+    {
+      "ch": 3,
+      "v": 22,
+      "lemma_he": "לעולם",
+      "type": "translation_note",
+      "saadia_ar": "אלי אלדהר",
+      "blau_comment": "Saadia translates 'לעולם' as 'forever'. Blau corrects Kapach's note (no. 14 ad loc.) that suggests 'as if it were a generation/דור'. Lane's lexicon supports the 'forever' sense; Kapach's reading is unjustified.",
+      "page": 315
+    },
+    {
+      "ch": 4,
+      "v": 3,
+      "lemma_he": "מקץ ימים",
+      "type": "kapach_correction",
+      "saadia_ar": "בעד איאם",
+      "kapach_reads": "אחרי כמה ימים ('after some days', adds 'כמה')",
+      "blau_recommends": "אחרי ימים (no 'כמה' — Saadia did not add quantifier)",
+      "blau_comment": "Saadia's 'בעד איאם' is 'after days' — not 'after some days'. Kapach added 'כמה' but Saadia did not.",
+      "page": 315
+    },
+    {
+      "ch": 4,
+      "v": 12,
+      "lemma_he": "כי תעבד את האדמה לא תוסף תת כחה",
+      "type": "translation_note",
+      "saadia_ar": "באן תפלחהא ולא תאוד תעטיך קואהא",
+      "blau_comment": "= 'that you should serve [enslave] her and she will not give you her strengths again' (with small textual variants in the MS tradition). Kapach: 'שתשתעבדנה ולא תשוב לתת לך כוחותיה'.",
+      "page": 315
+    },
+    {
+      "ch": 4,
+      "v": 22,
+      "lemma_he": "לטש כל חרש נחשת וברזל",
+      "type": "kapach_correction",
+      "saadia_ar": "אול ציקל (ל)גמיע צנעא' אלנחאס ואלחדיד",
+      "kapach_reads": "ראשון מבריקי (ומצחצחי) כל עבודות נחושת וברזל ('first of the polishers and burnishers of all copper/iron works')",
+      "blau_recommends": "ראשון של ראש כל מי שעבד בנחושת וברזל ('first chief of all who worked in copper and iron')",
+      "blau_comment": "Kapach's reading ('polishers') is unsatisfactory. Blau argues for: 'first of the chiefs of all workers in copper and iron' — 'צנעא' is 'craftsmen/workers', not 'polish-products', and 'ציקל' as 'chief' rather than 'polishing'. Difficult — Blau acknowledges weakness in his own proposal: he can't find 'צנעא' = chief in standard dictionaries. Possible Quranic resonance: 'פעלא' as a singular noun for a chief among humans.",
+      "page": 315
+    },
+    {
+      "ch": 4,
+      "v": 24,
+      "lemma_he": "כי שבעתים יקם קין ולמך שבעים ושבעה",
+      "type": "translation_note",
+      "saadia_ar": "פאן כאן יקאד בקין פבלמך אכת'ר ואכת'ר",
+      "blau_comment": "= 'if Cain is avenged, then for Lamech more and more'. Hyperbolic 'much greater', not literal 70-fold.",
+      "page": 315
+    },
+    {
+      "ch": 6,
+      "v": 3,
+      "lemma_he": "לא ידון",
+      "type": "translation_note",
+      "saadia_ar": "לא ינגמד",
+      "kapach_reads": "לא יישאר שקוע ('won't remain submerged')",
+      "blau_recommends": "לא יתקיים ('won't be established / endure')",
+      "blau_comment": "Compare Saadia on Daniel 7:2 in Tract on Tannaim ('לא יתבת'). Reading 'לא יישאר בנדן' = 'won't remain in [its] sheath' is unsatisfactory; Blau translates 'ינגמד' as 'won't be established/endure'.",
+      "page": 315
+    },
+    {
+      "ch": 6,
+      "v": 3,
+      "lemma_he": "ויהיו ימיו",
+      "type": "translation_note",
+      "saadia_ar": "ותכון מדתהם",
+      "blau_comment": "= 'and their period/lifespan will be' (literal 3pl, paraphrase). Kapach: 'אלא יהיו ימיהם' is interpretive paraphrase.",
+      "page": 316
+    },
+    {
+      "ch": 6,
+      "v": 6,
+      "lemma_he": "וינחם ה' כי עשה את האדם",
+      "type": "translation_note",
+      "saadia_ar": "פתואעדהם אללה במא צנעאהם",
+      "blau_comment": "= 'God threatened them with what He had made them' / 'He menaced them about how He had created them'. Note 33-34: variant נוסחאות 'כאמא' vs 'כאשר' — minor lexical change.",
+      "page": 316
+    },
+    {
+      "ch": 6,
+      "v": 14,
+      "lemma_he": "תבת עצי גפר",
+      "type": "translation_note",
+      "saadia_ar": "תאבותא מן כשב…",
+      "blau_comment": "= 'an ark of wood…' (with the kind of wood).",
+      "page": 316
+    },
+    {
+      "ch": 6,
+      "v": 20,
+      "lemma_he": "שנים",
+      "type": "translation_note",
+      "saadia_ar": "אזואגא",
+      "blau_comment": "= 'pairs' (not 'two' literally). Cites Ibn Ezra explaining 'two' as a 'pair (male and female)'; this resolves the difficulty of why the Torah brings seven (pairs) of pure animals rather than just two of each.",
+      "page": 316
+    },
+    {
+      "ch": 6,
+      "v": 22,
+      "lemma_he": "כן עשה",
+      "type": "omission",
+      "blau_comment": "Saadia did NOT translate 'כן עשה' (= 'so he did') — considered it redundant.",
+      "page": 316
+    },
+    {
+      "ch": 7,
+      "v": 4,
+      "lemma_he": "היקום",
+      "type": "translation_note",
+      "saadia_ar": "אלאנאס",
+      "blau_comment": "= 'the people' (interpretive — 'all living things' rendered as 'the people').",
+      "page": 316
+    },
+    {
+      "ch": 7,
+      "v": 11,
+      "lemma_he": "תהום רבה",
+      "type": "ms_variant",
+      "saadia_ar": "אלגמר אלעטים (Petersburg + Derenbourg, sing.) vs אלעטאם (Tag/Kapach, pl.)",
+      "blau_recommends": "אלגמר אלעטים (singular, matches Hebrew)",
+      "blau_comment": "Petersburg + Derenbourg have singular like Hebrew. Tag and Kapach (following Tag) plural. Blau prefers singular as more faithful to source.",
+      "page": 316
+    },
+    {
+      "ch": 7,
+      "v": 2,
+      "lemma_he": "ויהי הגשם",
+      "type": "translation_note",
+      "saadia_ar": "והמשיך הגשם",
+      "blau_comment": "Saadia: 'rain continued' (instead of literal 'and there was'). Note: ויהי often → 'continued' in Saadia.",
+      "page": 316
+    },
+    {
+      "ch": 7,
+      "v": 15,
+      "lemma_he": "ויבואו",
+      "type": "ms_variant",
+      "saadia_ar": "באן אקבלו (Petersburg + Derenbourg)",
+      "kapach_reads": "דכלוא ('they entered')",
+      "blau_comment": "Petersburg + Derenbourg have 'באן אקבלו' (continuing the prior verses' sequence — 'when they came forward'). Kapach 'דכלוא' is a different aspect.",
+      "page": 316
+    },
+    {
+      "ch": 7,
+      "v": 17,
+      "lemma_he": "ויהי",
+      "type": "translation_note",
+      "saadia_ar": "ולמא אקאם",
+      "blau_comment": "= 'and when [it] continued' (Saadia again rendering ויהי with 'continued').",
+      "page": 316
+    },
+    {
+      "ch": 7,
+      "v": 19,
+      "lemma_he": "ויכסו",
+      "type": "ms_variant",
+      "blau_comment": "Tag's MS has fa''al/active form for 'ויכסו'. Petersburg + Derenbourg differ. Subtle morphological variant.",
+      "page": 316
+    },
+    {
+      "ch": 7,
+      "v": 23,
+      "lemma_he": "וימח",
+      "type": "translation_note",
+      "saadia_ar": "וימחו (plural)",
+      "blau_comment": "Saadia translates Hebrew 'וימח' (sing.) as 'וימחו' (pl.) — agreeing with the plural 'המים' that follows. Note 39: 'קרא כך במקום וימח המים'.",
+      "page": 317
+    },
+    {
+      "ch": 8,
+      "v": 1,
+      "lemma_he": "ויעבר א' רוח על הארץ וישכו המים",
+      "type": "translation_note",
+      "saadia_ar": "פאמר אללה בריח עלי אלארץ' סכן בה אלמא",
+      "blau_comment": "= 'God commanded a wind over the land, by which the water rested'. Saadia: 'ויצו א' שהרוח (תנשב) על הארץ והשקיט בה את המים'.",
+      "page": 317
+    },
+    {
+      "ch": 8,
+      "v": 3,
+      "lemma_he": "וישובו המים מעל הארץ הלוך ושוב",
+      "type": "translation_note",
+      "saadia_ar": "ותראגע אלמא עלי אלארץ' כלמא מר רגע",
+      "blau_comment": "Standard Saadia pattern for hendiadys 'הלוך וX': 'יותר ויותר' or 'כלמא מר X'. Saadia consistent: ויהי הולך ויותר (8:5) → '… were less and less', וילך הלוך וגדל (12:13) → 'each time he traveled, his journeys multiplied'.",
+      "page": 317
+    },
+    {
+      "ch": 8,
+      "v": 5,
+      "lemma_he": "היו הלוך וחסור",
+      "type": "translation_note",
+      "saadia_ar": "כלמא מר נקץ (pattern), 'היו ש[הלכו]'",
+      "blau_comment": "Same hendiadys pattern as 8:3. Saadia consistent.",
+      "page": 317
+    },
+    {
+      "ch": 8,
+      "v": 7,
+      "lemma_he": "ויצא יצוא ושוב",
+      "type": "translation_note",
+      "saadia_ar": "פאקאם יכרג וירגע",
+      "blau_comment": "= 'and he kept going out and returning'.",
+      "page": 317
+    },
+    {
+      "ch": 8,
+      "v": 9,
+      "lemma_he": "על פני כל הארץ",
+      "type": "translation_note",
+      "saadia_ar": "עלי גמיע וגה אלארץ",
+      "blau_comment": "= 'over the whole face of the land' (interprets 'all' as modifying 'face', not 'land').",
+      "page": 317
+    },
+    {
+      "ch": 9,
+      "v": 1,
+      "lemma_he": "(typo)",
+      "type": "translation_note",
+      "blau_comment": "Note 1: typo in printed edition — should be 'p. 18' not 'p. 16'.",
+      "page": 317
+    },
+    {
+      "ch": 9,
+      "v": 2,
+      "lemma_he": "ובכל אשר... ובכל דגי הים",
+      "type": "translation_note",
+      "saadia_ar": "(translates 'בכל אשר' continuation)",
+      "blau_comment": "Saadia continues the 'בכל אשר' with the structure 'וכל דגי הים מתורגם בצורת בינוני' — apparently shortens. Could be 'מסורים'.",
+      "page": 317
+    },
+    {
+      "ch": 9,
+      "v": 5,
+      "lemma_he": "אך את דמכם לנפשתיכם אדרש",
+      "type": "kapach_correction",
+      "saadia_ar": "באלנהי (Kapach) / Blau prefers באיסור",
+      "kapach_reads": "באזהרה ('with warning')",
+      "blau_recommends": "באיסור ('with prohibition')",
+      "blau_comment": "Kapach reads 'נהי' as 'warning'; Blau prefers 'prohibition'. Second half of verse: 'ומיד בני אדם אדרוש איזה שהוא הורג את אחיו ממנו בנפשו' (Petersburg).",
+      "page": 317
+    },
+    {
+      "ch": 9,
+      "v": 6,
+      "lemma_he": "כל שופך דם האדם",
+      "type": "kapach_correction",
+      "kapach_reads": "(reads 'כל')",
+      "blau_recommends": "(strike 'כל' — Petersburg variant has 'מחק כל')",
+      "blau_comment": "Petersburg MS does not have 'כל' — Blau prefers reading without it.",
+      "page": 317
+    },
+    {
+      "ch": 9,
+      "v": 17,
+      "lemma_he": "ויאמר",
+      "type": "translation_note",
+      "saadia_ar": "כדאך קאל",
+      "blau_comment": "= 'thus he said' / 'so he said'.",
+      "page": 317
+    },
+    {
+      "ch": 11,
+      "v": 4,
+      "lemma_he": "וראשו בשמים",
+      "type": "translation_note",
+      "saadia_ar": "(ו)ראסה ידאני אלסמא",
+      "blau_comment": "= '(and) its head approaches the sky' / '(and) its top reaches close to the sky' (interprets 'בשמים' loosely).",
+      "page": 317
+    },
+    {
+      "ch": 11,
+      "v": 5,
+      "lemma_he": "וירד ה' לראת",
+      "type": "ms_variant",
+      "saadia_ar": "פאורד אללה אמרא מוגלא לירי…",
+      "blau_comment": "'God brought down a manifest command to see…'. Same 'מוגלא' rendering for Gen 11:5, 11:7, 18:21 ('ארדה נא ואראה'). Blau discusses J. Mieses (Monatsschrift 1919) proposing 'מוג'ל' (= 'delayed') as 'until the period ended' — Blau rejects this. Long argument: see Saadia Pirush 21:18 ('ירד ה' לראת') comparing 'מצומצמת' = limited time / waiting period.",
+      "page": 317
+    },
+    {
+      "ch": 11,
+      "v": 7,
+      "lemma_he": "הבה נרדה ונבלה שם שפתם",
+      "type": "ms_variant",
+      "blau_comment": "Same 'מוגלא' rendering as 11:5. Discussion of variant 'אמרא מוגלא' (manifest command — Petersburg, Blau preferred) vs 'אמרא מוגלא' = 'דבר מוגבל' (limited matter — Derenbourg, Kapach). Blau argues for 'מוגלא' = 'manifest/revealed'.",
+      "page": 318
+    },
+    {
+      "ch": 11,
+      "v": 7,
+      "lemma_he": "הבה",
+      "type": "translation_note",
+      "saadia_ar": "לאכני (Petersburg: 'אבל אני' = 'but I')",
+      "kapach_reads": "תעאל ('come')",
+      "blau_comment": "Petersburg has 'לאכני' (= 'but I'). Kapach 'תעאל' (= 'come'). Blau prefers Petersburg.",
+      "page": 318
+    },
+    {
+      "ch": 12,
+      "v": 1,
+      "lemma_he": "ויאמר",
+      "type": "ms_variant",
+      "saadia_ar": "אד' קאל (Derenbourg + Tag + Kapach) — 'when he said'",
+      "kapach_reads": "לפי שאמר ('because he said')",
+      "blau_recommends": "תם קאל ('and then said' — Petersburg variant)",
+      "blau_comment": "Kapach interprets as causal ('because'); Blau prefers Petersburg 'תם קאל' (= 'and then said') as more original.",
+      "page": 318
+    },
+    {
+      "ch": 12,
+      "v": 20,
+      "lemma_he": "וישלחו אותו",
+      "type": "translation_note",
+      "saadia_ar": "בדרקוא = 'followed him' (classical Arabic)",
+      "blau_comment": "Saadia uses the classical Arabic verb 'בדרקא' — 'they accompanied/followed [him]'. Note 48: A.S. Kaye (Wiesbaden 1991) pp. 168-169; cf. Ibn Manzur, Al-Mu'arrab, Cairo 1361, p. 67.",
+      "page": 318
+    }
+  ]
+}
