@@ -15,6 +15,7 @@ const STATIC_ROUTES: { path: string; priority: number; changeFrequency: Metadata
   { path: "/learn/aramaic-cognates", priority: 0.7, changeFrequency: "monthly" },
   { path: "/learn/saadia-story", priority: 0.7, changeFrequency: "monthly" },
   { path: "/learn/saadia-preface", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/resources", priority: 0.8, changeFrequency: "monthly" },
   { path: "/review", priority: 0.5, changeFrequency: "monthly" },
 ];
 

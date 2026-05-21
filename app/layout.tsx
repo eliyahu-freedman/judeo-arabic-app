@@ -175,6 +175,8 @@ export default function RootLayout({
                 <ul className="space-y-2 text-ink/75">
                   <li><Link href="/what-is-judeo-arabic" className="hover:text-wine">What is Judeo-Arabic?</Link></li>
                   <li><Link href="/learn/saadia-story" className="hover:text-wine">Who was Saadia?</Link></li>
+                  <li><Link href="/about/blau" className="hover:text-wine">Joshua Blau ז״ל</Link></li>
+                  <li><Link href="/resources" className="hover:text-wine">Resources & further reading</Link></li>
                 </ul>
               </div>
               <div>
@@ -191,13 +193,16 @@ export default function RootLayout({
               </div>
             </div>
             <div className="mt-10 pt-6 border-t border-ink/10 text-[11px] text-ink/70 leading-relaxed">
-              Built on Joshua Blau&apos;s{" "}
-              <em>Dictionary of Medieval Judaeo-Arabic Texts</em> (Jerusalem,
-              2006); Saadia&apos;s Tafsir from Joseph Derenbourg&apos;s{" "}
-              <em>Œuvres Complètes</em> (Paris, 1893) via Sefaria; Bahya&apos;s{" "}
-              <em>Chovot HaLevavot</em> from the Yahuda edition, with Judah ibn
-              Tibbon&apos;s Hebrew via Sefaria. Edited by Eli Freedman.
-              Prototype, {new Date().getFullYear()}.
+              Built on{" "}
+              <Link href="/about/blau" className="text-wine hover:underline">
+                Joshua Blau ז״ל
+              </Link>
+              &apos;s <em>Dictionary of Medieval Judaeo-Arabic Texts</em>{" "}
+              (Jerusalem, 2006); Saadia&apos;s Tafsir from Joseph
+              Derenbourg&apos;s <em>Œuvres Complètes</em> (Paris, 1893) via
+              Sefaria; Bahya&apos;s <em>Chovot HaLevavot</em> from the Yahuda
+              edition, with Judah ibn Tibbon&apos;s Hebrew via Sefaria. Edited
+              by Eli Freedman. Prototype, {new Date().getFullYear()}.
             </div>
           </div>
         </footer>
