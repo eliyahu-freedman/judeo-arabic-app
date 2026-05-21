@@ -10,6 +10,14 @@ const modules = [
     sampleLang: "he" as const,
   },
   {
+    href: "/learn",
+    title: "Learn",
+    subtitle: "Bite-sized formats",
+    body: "Your first 50 Judeo-Arabic words ranked by how often they show up in Saadia, with a click-through to every verse where they appear. More short formats coming.",
+    sample: "אללה · ארץ' · קאל · כ'לק · מוסי",
+    sampleLang: "he" as const,
+  },
+  {
     href: "/tafsir",
     title: "Tafsir Reader",
     subtitle: "Stage 2 · Saadia on Bereshit 1",
@@ -24,6 +32,14 @@ const modules = [
     body: "The opening gate of Bahya ibn Paquda's Chovot HaLevavot in its original Judeo-Arabic, with Ibn Tibbon's classical Hebrew translation (Sefaria) and a working English translation alongside.",
     sample: "אכ'לאץ תוחיד אלכ'אלק",
     sampleLang: "he" as const,
+  },
+  {
+    href: "/review",
+    title: "Review",
+    subtitle: "Daily practice",
+    body: "Words you've marked as Learning in the readers come back here on a spaced-repetition schedule. Grade your recall and the schedule adjusts.",
+    sample: "Again · Hard · Good · Easy",
+    sampleLang: "en" as const,
   },
 ];
 
@@ -73,8 +89,12 @@ export default function Home() {
                 {m.body}
               </p>
               <div
-                dir="rtl"
-                className="font-hebrew text-xl text-ink/80 mt-5 leading-loose"
+                dir={m.sampleLang === "he" ? "rtl" : "ltr"}
+                className={`text-xl text-ink/80 mt-5 leading-loose ${
+                  m.sampleLang === "he"
+                    ? "font-hebrew"
+                    : "font-serif tracking-wide text-base uppercase text-muted"
+                }`}
               >
                 {m.sample}
               </div>

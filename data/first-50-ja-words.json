@@ -1,0 +1,956 @@
+{
+  "_generated": "scripts/build_first_50.py",
+  "_total": 50,
+  "entries": [
+    {
+      "rank": 1,
+      "key": "לה",
+      "lemma_ja": "אללה",
+      "arabic": "اللَّه",
+      "en": "God",
+      "he_echo": "אלהים / ה'",
+      "group": "essentials",
+      "note": "Saadia's standard rendering of אלהים. The article אל- is integral; do not strip.",
+      "root": "ʔ-l-h",
+      "count": 2034,
+      "n_verses": 1122,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 1
+      }
+    },
+    {
+      "rank": 2,
+      "key": "ארץ",
+      "lemma_ja": "אלארץ'",
+      "arabic": "الأرض",
+      "en": "the earth, the land",
+      "he_echo": "ארץ — same root",
+      "group": "essentials",
+      "note": "Almost always with the article. ארץ' (with apostrophe) marks ض.",
+      "root": "رصص",
+      "count": 254,
+      "n_verses": 218,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 1
+      }
+    },
+    {
+      "rank": 3,
+      "key": "סמא",
+      "lemma_ja": "אלסמא",
+      "arabic": "السَّماء",
+      "en": "the sky, the heavens",
+      "he_echo": "שמים",
+      "group": "essentials",
+      "note": "Cognate with שמים but singular in Arabic.",
+      "root": "s-m-w",
+      "count": 83,
+      "n_verses": 74,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 9
+      }
+    },
+    {
+      "rank": 4,
+      "key": "מא",
+      "lemma_ja": "אלמא",
+      "arabic": "الماء",
+      "en": "the water",
+      "he_echo": "מים",
+      "group": "essentials",
+      "note": "Distinct from the relative/negative particle מא (مَا) — see entry below.",
+      "root": "",
+      "count": 744,
+      "n_verses": 554,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 1
+      }
+    },
+    {
+      "rank": 5,
+      "key": "יום",
+      "lemma_ja": "אליום",
+      "arabic": "اليوم",
+      "en": "the day, today",
+      "he_echo": "יום",
+      "group": "essentials",
+      "note": "",
+      "root": "y-w-m",
+      "count": 345,
+      "n_verses": 294,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 5
+      }
+    },
+    {
+      "rank": 6,
+      "key": "ליל",
+      "lemma_ja": "אלליל",
+      "arabic": "اللَّيل",
+      "en": "the night",
+      "he_echo": "לילה",
+      "group": "essentials",
+      "note": "",
+      "root": "l-y-l",
+      "count": 31,
+      "n_verses": 29,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 5
+      }
+    },
+    {
+      "rank": 7,
+      "key": "נהאר",
+      "lemma_ja": "אלנהאר",
+      "arabic": "النَّهار",
+      "en": "the day, daytime",
+      "he_echo": "—",
+      "group": "essentials",
+      "note": "Pairs with אלליל — 'night and day'.",
+      "root": "n-h-r",
+      "count": 15,
+      "n_verses": 15,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 5
+      }
+    },
+    {
+      "rank": 8,
+      "key": "נור",
+      "lemma_ja": "נור",
+      "arabic": "نور",
+      "en": "light",
+      "he_echo": "נר ('lamp')",
+      "group": "essentials",
+      "note": "",
+      "root": "n-w-r",
+      "count": 39,
+      "n_verses": 36,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 3
+      }
+    },
+    {
+      "rank": 9,
+      "key": "צ'לאם",
+      "lemma_ja": "צ'לאם",
+      "arabic": "ظَلام",
+      "en": "darkness",
+      "he_echo": "צלמות",
+      "group": "essentials",
+      "note": "ظ rendered as צ' (apostrophe). Hebrew צלמות = 'shadow of death' shares the root.",
+      "root": "ẓ-l-m",
+      "count": 9,
+      "n_verses": 8,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 2
+      }
+    },
+    {
+      "rank": 10,
+      "key": "אדם",
+      "lemma_ja": "אדם",
+      "arabic": "آدم",
+      "en": "Adam, human",
+      "he_echo": "אדם",
+      "group": "essentials",
+      "note": "",
+      "root": "ـدم",
+      "count": 27,
+      "n_verses": 25,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 27
+      }
+    },
+    {
+      "rank": 11,
+      "key": "מן",
+      "lemma_ja": "מן",
+      "arabic": "مِن",
+      "en": "from",
+      "he_echo": "מן / מ־",
+      "group": "function",
+      "note": "",
+      "root": "",
+      "count": 2503,
+      "n_verses": 1284,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 5
+      }
+    },
+    {
+      "rank": 12,
+      "key": "פי",
+      "lemma_ja": "פי",
+      "arabic": "في",
+      "en": "in",
+      "he_echo": "ב־",
+      "group": "function",
+      "note": "",
+      "root": "",
+      "count": 2029,
+      "n_verses": 1151,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 6
+      }
+    },
+    {
+      "rank": 13,
+      "key": "עלי",
+      "lemma_ja": "עלי",
+      "arabic": "على",
+      "en": "on, upon",
+      "he_echo": "על",
+      "group": "function",
+      "note": "",
+      "root": "علـ",
+      "count": 927,
+      "n_verses": 647,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 2
+      }
+    },
+    {
+      "rank": 14,
+      "key": "אלי",
+      "lemma_ja": "אלי",
+      "arabic": "إلى",
+      "en": "to, toward",
+      "he_echo": "אל / אלי",
+      "group": "function",
+      "note": "",
+      "root": "",
+      "count": 1,
+      "n_verses": 1,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 21,
+        "v": 19
+      }
+    },
+    {
+      "rank": 15,
+      "key": "בין",
+      "lemma_ja": "בין",
+      "arabic": "بين",
+      "en": "between",
+      "he_echo": "בין",
+      "group": "function",
+      "note": "Same word, same meaning. The Hebrew–Arabic overlap couldn't be cleaner.",
+      "root": "b-y-n",
+      "count": 551,
+      "n_verses": 428,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 4
+      }
+    },
+    {
+      "rank": 16,
+      "key": "מע",
+      "lemma_ja": "מע",
+      "arabic": "مع",
+      "en": "with",
+      "he_echo": "עם",
+      "group": "function",
+      "note": "",
+      "root": "",
+      "count": 159,
+      "n_verses": 140,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 9,
+        "v": 9
+      }
+    },
+    {
+      "rank": 17,
+      "key": "כמא",
+      "lemma_ja": "כמא",
+      "arabic": "كَما",
+      "en": "just as, like",
+      "he_echo": "כמו",
+      "group": "function",
+      "note": "",
+      "root": "كمم",
+      "count": 253,
+      "n_verses": 234,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 5,
+        "v": 1
+      }
+    },
+    {
+      "rank": 18,
+      "key": "מא",
+      "lemma_ja": "מא",
+      "arabic": "ما",
+      "en": "what; that which; not",
+      "he_echo": "מה / אשר",
+      "group": "function",
+      "note": "Three jobs: question word ('what?'), relative ('that which'), and negation. Context decides.",
+      "root": "",
+      "count": 744,
+      "n_verses": 554,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 1
+      }
+    },
+    {
+      "rank": 19,
+      "key": "אן",
+      "lemma_ja": "אן",
+      "arabic": "أنّ / إن",
+      "en": "that; if",
+      "he_echo": "אשר / אם",
+      "group": "function",
+      "note": "Same spelling, different vowel: أنّ ('that') vs إن ('if'). Saadia uses both; context decides.",
+      "root": "",
+      "count": 1029,
+      "n_verses": 729,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 3
+      }
+    },
+    {
+      "rank": 20,
+      "key": "או",
+      "lemma_ja": "או",
+      "arabic": "أو",
+      "en": "or",
+      "he_echo": "או",
+      "group": "function",
+      "note": "",
+      "root": "",
+      "count": 292,
+      "n_verses": 173,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 17,
+        "v": 17
+      }
+    },
+    {
+      "rank": 21,
+      "key": "לא",
+      "lemma_ja": "לא",
+      "arabic": "لا",
+      "en": "no, not",
+      "he_echo": "לא",
+      "group": "function",
+      "note": "",
+      "root": "",
+      "count": 934,
+      "n_verses": 574,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 2,
+        "v": 5
+      }
+    },
+    {
+      "rank": 22,
+      "key": "לם",
+      "lemma_ja": "לם",
+      "arabic": "لم",
+      "en": "did not (past)",
+      "he_echo": "לא ה־",
+      "group": "function",
+      "note": "Past-tense negation. Followed by jussive verb form.",
+      "root": "",
+      "count": 432,
+      "n_verses": 347,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 2,
+        "v": 5
+      }
+    },
+    {
+      "rank": 23,
+      "key": "כל",
+      "lemma_ja": "כל",
+      "arabic": "كل",
+      "en": "all, every",
+      "he_echo": "כל",
+      "group": "function",
+      "note": "",
+      "root": "k-l-l",
+      "count": 524,
+      "n_verses": 415,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 21
+      }
+    },
+    {
+      "rank": 24,
+      "key": "גמיע",
+      "lemma_ja": "גמיע",
+      "arabic": "جميع",
+      "en": "all, the whole of",
+      "he_echo": "כל",
+      "group": "function",
+      "note": "Saadia's preferred word for 'all' in many contexts; pairs with כל.",
+      "root": "j-m-ʕ",
+      "count": 633,
+      "n_verses": 499,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 26
+      }
+    },
+    {
+      "rank": 25,
+      "key": "ת'ם",
+      "lemma_ja": "ת'ם",
+      "arabic": "ثم",
+      "en": "then, afterwards",
+      "he_echo": "אחר־כך",
+      "group": "function",
+      "note": "",
+      "root": "ثمم",
+      "count": 545,
+      "n_verses": 435,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 2,
+        "v": 8
+      }
+    },
+    {
+      "rank": 26,
+      "key": "למא",
+      "lemma_ja": "למא",
+      "arabic": "لمَّا",
+      "en": "when, after",
+      "he_echo": "כאשר",
+      "group": "function",
+      "note": "Often opens a clause: 'when X happened, Y…'",
+      "root": "",
+      "count": 153,
+      "n_verses": 148,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 5
+      }
+    },
+    {
+      "rank": 27,
+      "key": "קד",
+      "lemma_ja": "קד",
+      "arabic": "قد",
+      "en": "already; indeed",
+      "he_echo": "כבר",
+      "group": "function",
+      "note": "Marks a completed action — 'has already done X'.",
+      "root": "",
+      "count": 281,
+      "n_verses": 261,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 29
+      }
+    },
+    {
+      "rank": 28,
+      "key": "איצ'א",
+      "lemma_ja": "איצ'א",
+      "arabic": "أيضاً",
+      "en": "also, too",
+      "he_echo": "גם",
+      "group": "function",
+      "note": "",
+      "root": "ــض",
+      "count": 158,
+      "n_verses": 149,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 3,
+        "v": 6
+      }
+    },
+    {
+      "rank": 29,
+      "key": "הד'א",
+      "lemma_ja": "הד'א",
+      "arabic": "هذا",
+      "en": "this (m.)",
+      "he_echo": "זה",
+      "group": "pronouns",
+      "note": "",
+      "root": "ه",
+      "count": 307,
+      "n_verses": 273,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 2,
+        "v": 4
+      }
+    },
+    {
+      "rank": 30,
+      "key": "הד'ה",
+      "lemma_ja": "הד'ה",
+      "arabic": "هذه",
+      "en": "this (f.)",
+      "he_echo": "זאת",
+      "group": "pronouns",
+      "note": "",
+      "root": "ه",
+      "count": 191,
+      "n_verses": 180,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 2,
+        "v": 23
+      }
+    },
+    {
+      "rank": 31,
+      "key": "ד'אלך",
+      "lemma_ja": "ד'אלך",
+      "arabic": "ذلك",
+      "en": "that (m.)",
+      "he_echo": "ההוא",
+      "group": "pronouns",
+      "note": "",
+      "root": "",
+      "count": 333,
+      "n_verses": 294,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 10
+      }
+    },
+    {
+      "rank": 32,
+      "key": "ד'י",
+      "lemma_ja": "אלד'י",
+      "arabic": "الذي",
+      "en": "the one who/which (m.)",
+      "he_echo": "אשר",
+      "group": "pronouns",
+      "note": "The relative pronoun — 'the man who…', 'the thing that…'.",
+      "root": "ذــ",
+      "count": 873,
+      "n_verses": 643,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 7
+      }
+    },
+    {
+      "rank": 33,
+      "key": "תי",
+      "lemma_ja": "אלתי",
+      "arabic": "التي",
+      "en": "the one who/which (f.)",
+      "he_echo": "אשר",
+      "group": "pronouns",
+      "note": "",
+      "root": "",
+      "count": 169,
+      "n_verses": 160,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 21
+      }
+    },
+    {
+      "rank": 34,
+      "key": "הו",
+      "lemma_ja": "הו",
+      "arabic": "هو",
+      "en": "he, it (m.)",
+      "he_echo": "הוא",
+      "group": "pronouns",
+      "note": "Look-alike to Hebrew הוא. Same word, near-same sound.",
+      "root": "",
+      "count": 289,
+      "n_verses": 262,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 2,
+        "v": 11
+      }
+    },
+    {
+      "rank": 35,
+      "key": "אנא",
+      "lemma_ja": "אנא",
+      "arabic": "أنا",
+      "en": "I",
+      "he_echo": "אני",
+      "group": "pronouns",
+      "note": "",
+      "root": "ــن",
+      "count": 245,
+      "n_verses": 228,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 3,
+        "v": 10
+      }
+    },
+    {
+      "rank": 36,
+      "key": "אנת",
+      "lemma_ja": "אנת",
+      "arabic": "أنتَ",
+      "en": "you (m.)",
+      "he_echo": "אתה",
+      "group": "pronouns",
+      "note": "",
+      "root": "",
+      "count": 138,
+      "n_verses": 125,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 3,
+        "v": 9
+      }
+    },
+    {
+      "rank": 37,
+      "key": "הם",
+      "lemma_ja": "הם",
+      "arabic": "هم",
+      "en": "they (m.)",
+      "he_echo": "הם",
+      "group": "pronouns",
+      "note": "",
+      "root": "",
+      "count": 76,
+      "n_verses": 72,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 6,
+        "v": 3
+      }
+    },
+    {
+      "rank": 38,
+      "key": "הא",
+      "lemma_ja": "הא",
+      "arabic": "ها",
+      "en": "behold; (pronoun) her",
+      "he_echo": "הנה / ־ה",
+      "group": "pronouns",
+      "note": "Two uses: presentative 'here is…' and feminine suffix '־her/it' (e.g., כתאבהא = 'her book').",
+      "root": "",
+      "count": 6,
+      "n_verses": 6,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 16,
+        "v": 11
+      }
+    },
+    {
+      "rank": 39,
+      "key": "קאל",
+      "lemma_ja": "קאל",
+      "arabic": "قال",
+      "en": "said (he)",
+      "he_echo": "אמר",
+      "group": "verbs",
+      "note": "Saadia's go-to verb for ויאמר. With prefix פ־ becomes פקאל = 'and he said'.",
+      "root": "q-w-l",
+      "count": 554,
+      "n_verses": 478,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 22
+      }
+    },
+    {
+      "rank": 40,
+      "key": "כאן",
+      "lemma_ja": "כאן",
+      "arabic": "كان",
+      "en": "was, used to be",
+      "he_echo": "היה",
+      "group": "verbs",
+      "note": "",
+      "root": "كـن",
+      "count": 332,
+      "n_verses": 294,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 2,
+        "v": 5
+      }
+    },
+    {
+      "rank": 41,
+      "key": "יכון",
+      "lemma_ja": "יכון",
+      "arabic": "يكون",
+      "en": "will be, becomes",
+      "he_echo": "יהיה",
+      "group": "verbs",
+      "note": "",
+      "root": "k-w-n",
+      "count": 230,
+      "n_verses": 205,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 3
+      }
+    },
+    {
+      "rank": 42,
+      "key": "כ'לק",
+      "lemma_ja": "כ'לק",
+      "arabic": "خَلَق",
+      "en": "created",
+      "he_echo": "ברא",
+      "group": "verbs",
+      "note": "Saadia's rendering of ברא. Root خ-ل-ق. The first content verb of the Tafsir.",
+      "root": "ḫ-l-q",
+      "count": 5,
+      "n_verses": 5,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 1
+      }
+    },
+    {
+      "rank": 43,
+      "key": "ראי",
+      "lemma_ja": "ראי",
+      "arabic": "رأى",
+      "en": "saw",
+      "he_echo": "ראה",
+      "group": "verbs",
+      "note": "Direct cognate of ראה — same root, same sense.",
+      "root": "NTWS",
+      "count": 39,
+      "n_verses": 38,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 6,
+        "v": 5
+      }
+    },
+    {
+      "rank": 44,
+      "key": "עלם",
+      "lemma_ja": "עלם",
+      "arabic": "عَلِم",
+      "en": "knew",
+      "he_echo": "—",
+      "group": "verbs",
+      "note": "Saadia often uses 'God knew' (עלם אללה) where the Hebrew says 'God saw'.",
+      "root": "ʕ-l-m",
+      "count": 17,
+      "n_verses": 17,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 4
+      }
+    },
+    {
+      "rank": 45,
+      "key": "צאר",
+      "lemma_ja": "צאר",
+      "arabic": "صار",
+      "en": "became",
+      "he_echo": "היה ל־",
+      "group": "verbs",
+      "note": "",
+      "root": "صـر",
+      "count": 32,
+      "n_verses": 32,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 3,
+        "v": 1
+      }
+    },
+    {
+      "rank": 46,
+      "key": "אעטי",
+      "lemma_ja": "אעטי",
+      "arabic": "أعطى",
+      "en": "gave",
+      "he_echo": "נתן",
+      "group": "verbs",
+      "note": "",
+      "root": "",
+      "count": 13,
+      "n_verses": 12,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 12,
+        "v": 7
+      }
+    },
+    {
+      "rank": 47,
+      "key": "אכ'ד",
+      "lemma_ja": "אכ'ד'",
+      "arabic": "أخَذ",
+      "en": "took",
+      "he_echo": "לקח",
+      "group": "verbs",
+      "note": "Root أ-خ-ذ. Both خ and ذ get apostrophes in JA: כ' and ד'. (Trailing apostrophe is stripped by the index normalizer.)",
+      "root": "",
+      "count": 56,
+      "n_verses": 54,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 2,
+        "v": 15
+      }
+    },
+    {
+      "rank": 48,
+      "key": "אסראיל",
+      "lemma_ja": "אסראיל",
+      "arabic": "إسرائيل",
+      "en": "Israel",
+      "he_echo": "ישראל",
+      "group": "names",
+      "note": "Note the elision: י־ש־ר־א־ל → א־ס־ר־א־י־ל. The Hebrew yod moves.",
+      "root": "",
+      "count": 533,
+      "n_verses": 455,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 32,
+        "v": 29
+      }
+    },
+    {
+      "rank": 49,
+      "key": "מוסי",
+      "lemma_ja": "מוסי",
+      "arabic": "موسى",
+      "en": "Moses (Mūsā)",
+      "he_echo": "משה",
+      "group": "names",
+      "note": "Same name, Arabic vowel pattern. Mūsā ends in alif-maqsūra (י).",
+      "root": "مـس",
+      "count": 495,
+      "n_verses": 401,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 2,
+        "v": 10
+      }
+    },
+    {
+      "rank": 50,
+      "key": "פרעון",
+      "lemma_ja": "פרעון",
+      "arabic": "فِرعَون",
+      "en": "Pharaoh",
+      "he_echo": "פרעה",
+      "group": "names",
+      "note": "Both languages preserve the Egyptian name. Arabic adds the final ن.",
+      "root": "",
+      "count": 150,
+      "n_verses": 145,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 12,
+        "v": 15
+      }
+    }
+  ]
+}
