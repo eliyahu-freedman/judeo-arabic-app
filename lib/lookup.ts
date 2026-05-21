@@ -1,4 +1,5 @@
-import dict from "@/data/dictionary-starter.json";
+import starter from "@/data/dictionary-starter.json";
+import auto from "@/data/dictionary-auto.json";
 
 export type Entry = {
   id: string;
@@ -9,13 +10,29 @@ export type Entry = {
   gloss_en: string;
   gloss_he: string;
   notes?: string;
+  source?: "lane" | "blau" | "camel";
 };
 
-const ENTRIES: Entry[] = dict.entries as Entry[];
+const STARTER: Entry[] = starter.entries as Entry[];
+const AUTO: Entry[] = auto.entries as Entry[];
 
 /** Strip trailing punctuation that gets glued onto a word (".,:;؛،"). */
 function stripPunct(tok: string): string {
   return tok.replace(/^[.,:;؛،"'\s]+|[.,:;؛،"'\s]+$/g, "");
+}
+
+/**
+ * Canonical form used as the key for per-word state (known/learning/etc.)
+ * and for collapsing variants. Strips punctuation, leading vav (and) and
+ * leading אל (al-) — the two prefixes that are unambiguously prefixes when
+ * they lead a JA token. Single-letter ambiguous prefixes (ב ל כ פ) are
+ * left in place so that e.g. בית doesn't collide with ית.
+ */
+export function normalizeToken(rawToken: string): string {
+  let t = stripPunct(rawToken);
+  if (t.startsWith("ו") && t.length > 1) t = t.slice(1);
+  if (t.startsWith("אל") && t.length > 2) t = t.slice(2);
+  return t;
 }
 
 /**
@@ -56,7 +73,14 @@ export function lookup(rawToken: string): Entry[] {
   for (const t of tries) {
     if (seen.has(t)) continue;
     seen.add(t);
-    const hits = ENTRIES.filter((e) => e.lemma_ja === t);
+    const hits = STARTER.filter((e) => e.lemma_ja === t);
+    if (hits.length) return hits;
+  }
+  // Fallback: auto-extracted (Lane). Auto dict is keyed by normalizeToken so
+  // only that form will hit — no need to walk the candidate chain again.
+  const autoKey = normalizeToken(rawToken);
+  if (autoKey) {
+    const hits = AUTO.filter((e) => e.lemma_ja === autoKey);
     if (hits.length) return hits;
   }
   return [];
