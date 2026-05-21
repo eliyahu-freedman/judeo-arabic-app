@@ -1,5 +1,5 @@
 {
-  "_generated": "manual",
+  "_generated": "manual + augment_aramaic_cognates.py",
   "_total": 40,
   "entries": [
     {
@@ -15,7 +15,19 @@
       "story": "Proto-Semitic *ṯ. Arabic kept it as ث. Aramaic shifted to plain t. Hebrew shifted to ש. Same root, three different fates — and when Aramaic and Arabic stand together, Hebrew is the outlier.",
       "onkelos_ref": "Gen 18:2",
       "onkelos_phrase": "תְּלָתָא גֻבְרִין",
-      "onkelos_phrase_en": "three men"
+      "onkelos_phrase_en": "three men",
+      "tafsir_count": 41,
+      "tafsir_n_verses": 37,
+      "tafsir_key": "ת'לאת",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 5,
+        "v": 22,
+        "surface": "ת'לאת",
+        "ja_phrase": "ת'לאת' מאיה' סנה",
+        "hebrew_phrase": "וַיִּתְהַלֵּךְ חֲנוֹךְ אֶת-הָאֱלֹהִים אַחֲרֵי הוֹלִידוֹ אֶת-מְתוּשֶׁלַח שְׁלֹשׁ…"
+      }
     },
     {
       "rank": 2,
@@ -30,7 +42,19 @@
       "story": "Same *ṯ shift. The Arabic dual ending -ayn matches the Aramaic -ēn ending exactly. Hebrew's -ayim is a related dual — the morphology agrees across all three, but only Arabic and Aramaic kept the consonant.",
       "onkelos_ref": "Gen 7:9",
       "onkelos_phrase": "תְּרֵין תְּרֵין",
-      "onkelos_phrase_en": "two by two"
+      "onkelos_phrase_en": "two by two",
+      "tafsir_count": 21,
+      "tafsir_n_verses": 21,
+      "tafsir_key": "את'נין",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 5,
+        "v": 18,
+        "surface": "ואת'נין",
+        "ja_phrase": "מאיה ואת'נין וסתין סנה",
+        "hebrew_phrase": "וַיְחִי-יֶרֶד שְׁתַּיִם וְשִׁשִּׁים שָׁנָה וּמְאַת שָׁנָה וַיּוֹלֶד אֶת-חֲנוֹךְ"
+      }
     },
     {
       "rank": 3,
@@ -45,7 +69,19 @@
       "story": "Hebrew shōr, Aramaic tōr, Arabic ṯawr — same beast, same word, three different sibilants. The constellation Taurus is the same word: 'the bull.'",
       "onkelos_ref": "Ex 21:28",
       "onkelos_phrase": "תּוֹרָא",
-      "onkelos_phrase_en": "the ox (of the goring-ox laws)"
+      "onkelos_phrase_en": "the ox (of the goring-ox laws)",
+      "tafsir_count": 31,
+      "tafsir_n_verses": 25,
+      "tafsir_key": "ת'ור",
+      "tafsir_first": {
+        "book_slug": "shemot",
+        "book": "Shemot",
+        "ch": 21,
+        "v": 28,
+        "surface": "אלת'ור",
+        "ja_phrase": "פלירגם אלת'ור",
+        "hebrew_phrase": "וְכִי-יִגַּח שׁוֹר אֶת-אִישׁ אוֹ אֶת-אִשָּׁה וָמֵת--סָקוֹל יִסָּקֵל הַשּׁוֹר…"
+      }
     },
     {
       "rank": 4,
@@ -60,7 +96,19 @@
       "story": "Proto-Semitic *ḏ. Arabic kept it as ذ. Aramaic shifted to d. Hebrew shifted to ז. Modern Arabic ḏahab and Onkelos' dəhab are still recognizably the same word.",
       "onkelos_ref": "Gen 2:12",
       "onkelos_phrase": "וְדַהֲבָא דְּאַרְעָא הַהִיא טָב",
-      "onkelos_phrase_en": "and the gold of that land is good"
+      "onkelos_phrase_en": "and the gold of that land is good",
+      "tafsir_count": 117,
+      "tafsir_n_verses": 112,
+      "tafsir_key": "ד'הב",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 2,
+        "v": 11,
+        "surface": "אלד'הב",
+        "ja_phrase": "אלד'י ת'ם אלד'הב",
+        "hebrew_phrase": "שֵׁם הָאֶחָד פִּישׁוֹן--הוּא הַסֹּבֵב אֵת כָּל-אֶרֶץ הַחֲוִילָה אֲשֶׁר-שָׁם…"
+      }
     },
     {
       "rank": 5,
@@ -75,7 +123,19 @@
       "story": "The same *ḏ shift again. The verb for ritual slaughter — kosher and ḥalāl alike use this one root: ḏabaḥ in Arabic, dəbaḥ in Onkelos, zāvaḥ in the Torah.",
       "onkelos_ref": "Ex 20:21",
       "onkelos_phrase": "וּתְהֵי דְבַח עֲלוֹהִי",
-      "onkelos_phrase_en": "and the sacrifice shall be upon it (the altar)"
+      "onkelos_phrase_en": "and the sacrifice shall be upon it (the altar)",
+      "tafsir_count": 35,
+      "tafsir_n_verses": 33,
+      "tafsir_key": "ד'בח",
+      "tafsir_first": {
+        "book_slug": "shemot",
+        "book": "Shemot",
+        "ch": 22,
+        "v": 19,
+        "surface": "ד'בח",
+        "ja_phrase": "ומן ד'בח לאלמעבודאת פליתלף",
+        "hebrew_phrase": "זֹבֵחַ לָאֱלֹהִים יָחֳרָם--בִּלְתִּי לַיהוָה לְבַדּוֹ"
+      }
     },
     {
       "rank": 6,
@@ -90,7 +150,19 @@
       "story": "*ḏ → Aramaic d, Hebrew ז, Arabic ḏ. Aramaic and Arabic are almost identical: udnā / uḏun. Hebrew ozen took the third path.",
       "onkelos_ref": "Ex 21:6",
       "onkelos_phrase": "וְיִרְצַע רִבּוֹנֵהּ יָת אוּדְנֵהּ בְּמַרְצְעָא",
-      "onkelos_phrase_en": "his master shall pierce his ear with the awl"
+      "onkelos_phrase_en": "his master shall pierce his ear with the awl",
+      "tafsir_count": 7,
+      "tafsir_n_verses": 7,
+      "tafsir_key": "אד'ן",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 28,
+        "v": 16,
+        "surface": "אד'ן",
+        "ja_phrase": "אד'ן נור אללה פי הד'א אלמוצ'ע",
+        "hebrew_phrase": "וַיִּיקַץ יַעֲקֹב מִשְּׁנָתוֹ וַיֹּאמֶר אָכֵן יֵשׁ יְהוָה בַּמָּקוֹם הַזֶּה…"
+      }
     },
     {
       "rank": 7,
@@ -105,7 +177,19 @@
       "story": "Proto-Semitic *ṣ́ (an emphatic lateral, gone from every modern language). Arabic became ض. Aramaic became ע. Hebrew became צ. Same word: earth/land.",
       "onkelos_ref": "Gen 1:1",
       "onkelos_phrase": "וְיָת אַרְעָא",
-      "onkelos_phrase_en": "and the earth"
+      "onkelos_phrase_en": "and the earth",
+      "tafsir_count": 254,
+      "tafsir_n_verses": 218,
+      "tafsir_key": "ארץ",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 1,
+        "surface": "ואלארץ",
+        "ja_phrase": "אלסמאואת ואלארץ'",
+        "hebrew_phrase": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ"
+      }
     },
     {
       "rank": 8,
@@ -120,9 +204,20 @@
       "story": "One root, two senses across all three languages: 'male' and 'remember.' (To name a son was to keep the name alive.) Same *ḏ split: Arabic ذ, Aramaic d, Hebrew ז.",
       "onkelos_ref": "Gen 1:27",
       "onkelos_phrase": "דְּכַר וְנוּקְבָּא",
-      "onkelos_phrase_en": "male and female"
+      "onkelos_phrase_en": "male and female",
+      "tafsir_count": 48,
+      "tafsir_n_verses": 47,
+      "tafsir_key": "ד'כר",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 27,
+        "surface": "ד'כר",
+        "ja_phrase": "ד'כר ואנת'י' כ'לקהמא",
+        "hebrew_phrase": "וַיִּבְרָא אֱלֹהִים אֶת-הָאָדָם בְּצַלְמוֹ בְּצֶלֶם אֱלֹהִים בָּרָא אֹתוֹ זָכָר…"
+      }
     },
-
     {
       "rank": 9,
       "aramaic": "מַלְכָּא",
@@ -136,7 +231,19 @@
       "story": "M-L-K. Three letters, same meaning across all Semitic languages. The Hebrew name Malki-tzedek and the Arabic name Malik are the same word.",
       "onkelos_ref": "Gen 17:6",
       "onkelos_phrase": "וּמַלְכִין דְּשַׁלִּיטִין בְּעַמְמַיָּא מִנָּךְ יִפְּקוּן",
-      "onkelos_phrase_en": "and kings who rule over peoples shall come from you"
+      "onkelos_phrase_en": "and kings who rule over peoples shall come from you",
+      "tafsir_count": 108,
+      "tafsir_n_verses": 86,
+      "tafsir_key": "מלך",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 4,
+        "v": 20,
+        "surface": "ומלך",
+        "ja_phrase": "אול מן סכן אלאכ'ביה ומלך אלמאשיה",
+        "hebrew_phrase": "וַתֵּלֶד עָדָה אֶת-יָבָל הוּא הָיָה--אֲבִי יֹשֵׁב אֹהֶל וּמִקְנֶה"
+      }
     },
     {
       "rank": 10,
@@ -151,7 +258,19 @@
       "story": "The greeting that crosses every border. Shalom, shlām, salām — same root, same wish, three pronunciations.",
       "onkelos_ref": "Gen 43:27",
       "onkelos_phrase": "הַשְׁלָם אֲבוּכוֹן",
-      "onkelos_phrase_en": "is your father at peace?"
+      "onkelos_phrase_en": "is your father at peace?",
+      "tafsir_count": 4,
+      "tafsir_n_verses": 4,
+      "tafsir_key": "סלאם",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 14,
+        "v": 18,
+        "surface": "אלסלאם",
+        "ja_phrase": "ומלכי צדק מלך דאר אלסלאם",
+        "hebrew_phrase": "וּמַלְכִּי-צֶדֶק מֶלֶךְ שָׁלֵם הוֹצִיא לֶחֶם וָיָיִן וְהוּא כֹהֵן לְאֵל עֶלְיוֹן"
+      }
     },
     {
       "rank": 11,
@@ -166,7 +285,19 @@
       "story": "Arabic sifr specifically means a book of scripture — the Quran calls the books of the Torah 'al-asfār.' Same word as the Torah's own ספר.",
       "onkelos_ref": "Gen 5:1",
       "onkelos_phrase": "דֵּין סְפַר תּוֹלְדַת אָדָם",
-      "onkelos_phrase_en": "this is the book of the generations of Adam"
+      "onkelos_phrase_en": "this is the book of the generations of Adam",
+      "tafsir_count": 11,
+      "tafsir_n_verses": 11,
+      "tafsir_key": "ספר",
+      "tafsir_first": {
+        "book_slug": "bamidbar",
+        "book": "Bamidbar",
+        "ch": 9,
+        "v": 10,
+        "surface": "ספר",
+        "ja_phrase": "או פי ספר מנכם",
+        "hebrew_phrase": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל לֵאמֹר אִישׁ אִישׁ כִּי-יִהְיֶה-טָמֵא לָנֶפֶשׁ…"
+      }
     },
     {
       "rank": 12,
@@ -181,7 +312,19 @@
       "story": "K-T-B. The verb 'to write' is identical in all three. A kātib in Arabic is a scribe — the same act as a Hebrew sofer's.",
       "onkelos_ref": "Ex 17:14",
       "onkelos_phrase": "כְּתֹב דָּא דּוּכְרָנָא",
-      "onkelos_phrase_en": "write this as a memorial"
+      "onkelos_phrase_en": "write this as a memorial",
+      "tafsir_count": 4,
+      "tafsir_n_verses": 4,
+      "tafsir_key": "כתב",
+      "tafsir_first": {
+        "book_slug": "shemot",
+        "book": "Shemot",
+        "ch": 34,
+        "v": 28,
+        "surface": "וכתב",
+        "ja_phrase": "וכתב לה עלי' אללוחין",
+        "hebrew_phrase": "וַיְהִי-שָׁם עִם-יְהוָה אַרְבָּעִים יוֹם וְאַרְבָּעִים לַיְלָה--לֶחֶם לֹא אָכַל…"
+      }
     },
     {
       "rank": 13,
@@ -196,7 +339,19 @@
       "story": "Navi, nəviyyā, nabī. The same word the Quran uses for Mūsā and Ibrāhīm. The root is shared with Akkadian — a 'called one,' summoned to speak.",
       "onkelos_ref": "Gen 20:7",
       "onkelos_phrase": "נְבִיָּא הוּא",
-      "onkelos_phrase_en": "he is a prophet"
+      "onkelos_phrase_en": "he is a prophet",
+      "tafsir_count": 4,
+      "tafsir_n_verses": 4,
+      "tafsir_key": "נבי",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 20,
+        "v": 7,
+        "surface": "נבי",
+        "ja_phrase": "ואלאן ארדד זוגה' אלרגל אנה נבי",
+        "hebrew_phrase": "וְעַתָּה הָשֵׁב אֵשֶׁת-הָאִישׁ כִּי-נָבִיא הוּא וְיִתְפַּלֵּל בַּעַדְךָ וֶחְיֵה…"
+      }
     },
     {
       "rank": 14,
@@ -226,7 +381,19 @@
       "story": "The verb Israel is called to recite twice daily. In Arabic prayer: samiʿa Allāhu liman ḥamidah — 'God hears whoever praises Him.' Same root, same theology.",
       "onkelos_ref": "Gen 3:8",
       "onkelos_phrase": "וּשְׁמַעוּ",
-      "onkelos_phrase_en": "and they heard"
+      "onkelos_phrase_en": "and they heard",
+      "tafsir_count": 36,
+      "tafsir_n_verses": 35,
+      "tafsir_key": "סמע",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 14,
+        "v": 14,
+        "surface": "סמע",
+        "ja_phrase": "פלמא סמע אברם",
+        "hebrew_phrase": "וַיִּשְׁמַע אַבְרָם כִּי נִשְׁבָּה אָחִיו וַיָּרֶק אֶת-חֲנִיכָיו יְלִידֵי…"
+      }
     },
     {
       "rank": 16,
@@ -241,7 +408,19 @@
       "story": "Q-R-ʾ. The root behind both 'Quran' (the recitation) and the Torah's mikra (the reading). Aramaic qrā means both call and read.",
       "onkelos_ref": "Gen 1:5",
       "onkelos_phrase": "וּקְרָא יְיָ",
-      "onkelos_phrase_en": "and the Lord called"
+      "onkelos_phrase_en": "and the Lord called",
+      "tafsir_count": 44,
+      "tafsir_n_verses": 39,
+      "tafsir_key": "קרא",
+      "tafsir_first": {
+        "book_slug": "shemot",
+        "book": "Shemot",
+        "ch": 1,
+        "v": 11,
+        "surface": "קרא",
+        "ja_phrase": "פבנו קרא מכ'אזין לפרעון",
+        "hebrew_phrase": "וַיָּשִׂימוּ עָלָיו שָׂרֵי מִסִּים לְמַעַן עַנֹּתוֹ בְּסִבְלֹתָם וַיִּבֶן עָרֵי…"
+      }
     },
     {
       "rank": 17,
@@ -256,7 +435,19 @@
       "story": "A false friend in the making. Hebrew and Aramaic both mean 'said.' Arabic amara shifted to 'commanded.' But the root is one, and Quran/Torah readers meet it daily.",
       "onkelos_ref": "Gen 1:3",
       "onkelos_phrase": "וַאֲמַר יְיָ",
-      "onkelos_phrase_en": "and the Lord said"
+      "onkelos_phrase_en": "and the Lord said",
+      "tafsir_count": 211,
+      "tafsir_n_verses": 186,
+      "tafsir_key": "אמר",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 2,
+        "v": 23,
+        "surface": "אמר",
+        "ja_phrase": "לאנהא מן אמר אכ'ד'ת",
+        "hebrew_phrase": "וַיֹּאמֶר הָאָדָם זֹאת הַפַּעַם עֶצֶם מֵעֲצָמַי וּבָשָׂר מִבְּשָׂרִי לְזֹאת…"
+      }
     },
     {
       "rank": 18,
@@ -271,7 +462,19 @@
       "story": "Identical letters in all three. Hebrew/Aramaic dīn = law, judgment. Arabic dīn shifted to 'religion' (the law one follows). Yawm al-dīn = day of judgment.",
       "onkelos_ref": "Deut 1:17",
       "onkelos_phrase": "דִּינָא דַייָ הוּא",
-      "onkelos_phrase_en": "the judgment is the Lord's"
+      "onkelos_phrase_en": "the judgment is the Lord's",
+      "tafsir_count": 3,
+      "tafsir_n_verses": 3,
+      "tafsir_key": "דין",
+      "tafsir_first": {
+        "book_slug": "shemot",
+        "book": "Shemot",
+        "ch": 11,
+        "v": 8,
+        "surface": "אלדין",
+        "ja_phrase": "אכ'רג אנת וגמיע אלקום אלדין מעך",
+        "hebrew_phrase": "וְיָרְדוּ כָל-עֲבָדֶיךָ אֵלֶּה אֵלַי וְהִשְׁתַּחֲווּ-לִי לֵאמֹר צֵא אַתָּה…"
+      }
     },
     {
       "rank": 19,
@@ -286,7 +489,19 @@
       "story": "Ḥ-K-M. A Hakham, a Hakim — same word, two cultures using the same title for sages, judges, and physicians.",
       "onkelos_ref": "Ex 28:3",
       "onkelos_phrase": "רוּחַ חָכְמְתָא",
-      "onkelos_phrase_en": "spirit of wisdom"
+      "onkelos_phrase_en": "spirit of wisdom",
+      "tafsir_count": 9,
+      "tafsir_n_verses": 9,
+      "tafsir_key": "חכמה",
+      "tafsir_first": {
+        "book_slug": "shemot",
+        "book": "Shemot",
+        "ch": 28,
+        "v": 3,
+        "surface": "אלחכמה",
+        "ja_phrase": "אכמלת פיה עלם רוח אלחכמה",
+        "hebrew_phrase": "וְאַתָּה תְּדַבֵּר אֶל-כָּל-חַכְמֵי-לֵב אֲשֶׁר מִלֵּאתִיו רוּחַ חָכְמָה…"
+      }
     },
     {
       "rank": 20,
@@ -301,7 +516,19 @@
       "story": "Hebrew/Aramaic olam = forever, eternity. Arabic ʿālam shifted to 'world.' Both senses converge in the medieval phrase olam ha-zeh / al-ʿālam — 'this world.'",
       "onkelos_ref": "Gen 3:22",
       "onkelos_phrase": "וְיִחֵי לְעָלַם",
-      "onkelos_phrase_en": "and live forever"
+      "onkelos_phrase_en": "and live forever",
+      "tafsir_count": 18,
+      "tafsir_n_verses": 18,
+      "tafsir_key": "עאלם",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 3,
+        "v": 5,
+        "surface": "עאלם",
+        "ja_phrase": "לאן אללה עאלם",
+        "hebrew_phrase": "כִּי יֹדֵעַ אֱלֹהִים כִּי בְּיוֹם אֲכָלְכֶם מִמֶּנּוּ וְנִפְקְחוּ עֵינֵיכֶם…"
+      }
     },
     {
       "rank": 21,
@@ -316,7 +543,19 @@
       "story": "Eved / ʿabd. Same word — and the same theology: a worshipper of God is His servant. The names Ovadia and ʿAbdallāh are the same name.",
       "onkelos_ref": "Gen 24:34",
       "onkelos_phrase": "עַבְדָּא דְאַבְרָהָם אֲנָא",
-      "onkelos_phrase_en": "I am Abraham's servant"
+      "onkelos_phrase_en": "I am Abraham's servant",
+      "tafsir_count": 17,
+      "tafsir_n_verses": 17,
+      "tafsir_key": "עבד",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 24,
+        "v": 5,
+        "surface": "אלעבד",
+        "ja_phrase": "פקאל לה אלעבד",
+        "hebrew_phrase": "וַיֹּאמֶר אֵלָיו הָעֶבֶד אוּלַי לֹא-תֹאבֶה הָאִשָּׁה לָלֶכֶת אַחֲרַי…"
+      }
     },
     {
       "rank": 22,
@@ -331,7 +570,19 @@
       "story": "Hebrew uses hitpallel. Aramaic and Arabic share צלי / ṣallā — to pray. The Muslim ṣalāh and the Aramaic tzlota are the same word; Onkelos uses tzlī wherever the Torah says hitpallel.",
       "onkelos_ref": "Gen 20:17",
       "onkelos_phrase": "וְצַלִּי אַבְרָהָם",
-      "onkelos_phrase_en": "and Abraham prayed"
+      "onkelos_phrase_en": "and Abraham prayed",
+      "tafsir_count": 1,
+      "tafsir_n_verses": 1,
+      "tafsir_key": "צל",
+      "tafsir_first": {
+        "book_slug": "shemot",
+        "book": "Shemot",
+        "ch": 3,
+        "v": 9,
+        "surface": "וצל",
+        "ja_phrase": "הודי' צראך' בני אסראיל קד וצל",
+        "hebrew_phrase": "וְעַתָּה הִנֵּה צַעֲקַת בְּנֵי-יִשְׂרָאֵל בָּאָה אֵלָי וְגַם-רָאִיתִי…"
+      }
     },
     {
       "rank": 23,
@@ -346,9 +597,20 @@
       "story": "Aramaic səgīd = Arabic sajada — the verb at the root of masjid (mosque) and sajdah (prostration). Onkelos uses סגד for Hebrew hishtaḥavah throughout.",
       "onkelos_ref": "Gen 18:2",
       "onkelos_phrase": "וּסְגֵיד עַל אַרְעָא",
-      "onkelos_phrase_en": "and he bowed to the ground"
+      "onkelos_phrase_en": "and he bowed to the ground",
+      "tafsir_count": 11,
+      "tafsir_n_verses": 11,
+      "tafsir_key": "סגד",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 18,
+        "v": 2,
+        "surface": "וסגד",
+        "ja_phrase": "וסגד עלי' אלארץ'",
+        "hebrew_phrase": "וַיִּשָּׂא עֵינָיו וַיַּרְא וְהִנֵּה שְׁלֹשָׁה אֲנָשִׁים נִצָּבִים עָלָיו…"
+      }
     },
-
     {
       "rank": 24,
       "aramaic": "בֵּיתָא",
@@ -362,7 +624,19 @@
       "story": "B-Y-T. The most ordinary word. A bayit is a bayt is a beita. Bethlehem = bayt laḥm, 'house of bread.'",
       "onkelos_ref": "Gen 19:2",
       "onkelos_phrase": "לְבֵית עַבְדְּכוֹן",
-      "onkelos_phrase_en": "to the house of your servant"
+      "onkelos_phrase_en": "to the house of your servant",
+      "tafsir_count": 111,
+      "tafsir_n_verses": 98,
+      "tafsir_key": "בית",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 12,
+        "v": 1,
+        "surface": "ובית",
+        "ja_phrase": "אמץ' מן ארצ'ך ומולדך ובית אביך",
+        "hebrew_phrase": "וַיֹּאמֶר יְהוָה אֶל-אַבְרָם לֶךְ-לְךָ מֵאַרְצְךָ וּמִמּוֹלַדְתְּךָ וּמִבֵּית…"
+      }
     },
     {
       "rank": 25,
@@ -377,7 +651,19 @@
       "story": "Yad, yad, yad. The most stable body-part word across Semitic. Yedidya = beloved of God; ya yedi in colloquial Arabic = 'O my hand!' — an exclamation.",
       "onkelos_ref": "Gen 3:22",
       "onkelos_phrase": "יוֹשִׁיט יְדֵהּ",
-      "onkelos_phrase_en": "he stretch out his hand"
+      "onkelos_phrase_en": "he stretch out his hand",
+      "tafsir_count": 46,
+      "tafsir_n_verses": 41,
+      "tafsir_key": "יד",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 9,
+        "v": 5,
+        "surface": "יד",
+        "ja_phrase": "ומן יד אלחיואן פאטלבהא באלמנע",
+        "hebrew_phrase": "וְאַךְ אֶת-דִּמְכֶם לְנַפְשֹׁתֵיכֶם אֶדְרֹשׁ מִיַּד כָּל-חַיָּה אֶדְרְשֶׁנּוּ…"
+      }
     },
     {
       "rank": 26,
@@ -392,7 +678,19 @@
       "story": "Rosh / resh / raʾs. Also: 'leader' in all three (rosh ha-yeshiva, raʾīs). The letter ר / ر itself is named after this word.",
       "onkelos_ref": "Gen 47:31",
       "onkelos_phrase": "וּסְגֵיד יִשְׂרָאֵל עַל רֵישׁ עַרְסָא",
-      "onkelos_phrase_en": "and Israel bowed at the head of the bed"
+      "onkelos_phrase_en": "and Israel bowed at the head of the bed",
+      "tafsir_count": 34,
+      "tafsir_n_verses": 31,
+      "tafsir_key": "ראס",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 3,
+        "v": 15,
+        "surface": "אלראס",
+        "ja_phrase": "הו ישדכ'ך אלראס",
+        "hebrew_phrase": "וְאֵיבָה אָשִׁית בֵּינְךָ וּבֵין הָאִשָּׁה וּבֵין זַרְעֲךָ וּבֵין זַרְעָהּ הוּא…"
+      }
     },
     {
       "rank": 27,
@@ -407,7 +705,19 @@
       "story": "ʿAyin / ʿayn means both 'eye' and 'water-spring' in all three — the metaphor (springs as the earth's eyes) is older than any of the languages.",
       "onkelos_ref": "Gen 16:7",
       "onkelos_phrase": "עֵינָא דְמַיָּא",
-      "onkelos_phrase_en": "the spring of water"
+      "onkelos_phrase_en": "the spring of water",
+      "tafsir_count": 29,
+      "tafsir_n_verses": 25,
+      "tafsir_key": "עין",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 14,
+        "v": 7,
+        "surface": "עין",
+        "ja_phrase": "אלי' עין אלחכם הי רקים",
+        "hebrew_phrase": "וַיָּשֻׁבוּ וַיָּבֹאוּ אֶל-עֵין מִשְׁפָּט הִוא קָדֵשׁ וַיַּכּוּ אֶת-כָּל-שְׂדֵה…"
+      }
     },
     {
       "rank": 28,
@@ -437,7 +747,19 @@
       "story": "Hebrew uses yayin — but Aramaic and Arabic share the OTHER Semitic root for wine: ḥamar / khamr. Onkelos always translates יין as חמרא, the exact Arabic word.",
       "onkelos_ref": "Gen 9:21",
       "onkelos_phrase": "מִן חַמְרָא",
-      "onkelos_phrase_en": "from the wine"
+      "onkelos_phrase_en": "from the wine",
+      "tafsir_count": 15,
+      "tafsir_n_verses": 14,
+      "tafsir_key": "כ'מר",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 9,
+        "v": 21,
+        "surface": "אלכ'מר",
+        "ja_phrase": "פשרב מן אלכ'מר וסכר",
+        "hebrew_phrase": "וַיֵּשְׁתְּ מִן-הַיַּיִן וַיִּשְׁכָּר וַיִּתְגַּל בְּתוֹךְ אָהֳלֹה"
+      }
     },
     {
       "rank": 30,
@@ -452,7 +774,19 @@
       "story": "Nahar, nahrā, nahr. The four rivers of Eden and the Nahr al-Furāt (Euphrates) carry the same word.",
       "onkelos_ref": "Gen 2:10",
       "onkelos_phrase": "וְנַהֲרָא הֲוָה נָפֵיק",
-      "onkelos_phrase_en": "and a river went out"
+      "onkelos_phrase_en": "and a river went out",
+      "tafsir_count": 11,
+      "tafsir_n_verses": 7,
+      "tafsir_key": "נהר",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 2,
+        "v": 10,
+        "surface": "נהר",
+        "ja_phrase": "וכאן נהר יכ'רג מן עדן",
+        "hebrew_phrase": "וְנָהָר יֹצֵא מֵעֵדֶן לְהַשְׁקוֹת אֶת-הַגָּן וּמִשָּׁם יִפָּרֵד וְהָיָה…"
+      }
     },
     {
       "rank": 31,
@@ -467,7 +801,19 @@
       "story": "ʾ-K-L. Eat. The noun forms maʾakhal (food) and maʾkūl share the same root and the same morphological pattern.",
       "onkelos_ref": "Gen 3:6",
       "onkelos_phrase": "וַאֲכַלַת",
-      "onkelos_phrase_en": "and she ate"
+      "onkelos_phrase_en": "and she ate",
+      "tafsir_count": 29,
+      "tafsir_n_verses": 27,
+      "tafsir_key": "אכל",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 3,
+        "v": 6,
+        "surface": "ואכל",
+        "ja_phrase": "ואעטת בעלהא איצ'א מעהא ואכל",
+        "hebrew_phrase": "וַתֵּרֶא הָאִשָּׁה כִּי טוֹב הָעֵץ לְמַאֲכָל וְכִי תַאֲוָה-הוּא לָעֵינַיִם…"
+      }
     },
     {
       "rank": 32,
@@ -482,7 +828,19 @@
       "story": "Q-W-M. Talitha kumi (girl, arise) is famous from the Gospels — the same verb as Arabic qāma yaqūm. Islamic prayer opens with qiyām, the standing.",
       "onkelos_ref": "Gen 4:8",
       "onkelos_phrase": "וְקָם קַיִן",
-      "onkelos_phrase_en": "and Cain rose up"
+      "onkelos_phrase_en": "and Cain rose up",
+      "tafsir_count": 17,
+      "tafsir_n_verses": 17,
+      "tafsir_key": "קאם",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 4,
+        "v": 8,
+        "surface": "קאם",
+        "ja_phrase": "קאם קין",
+        "hebrew_phrase": "וַיֹּאמֶר קַיִן אֶל-הֶבֶל אָחִיו וַיְהִי בִּהְיוֹתָם בַּשָּׂדֶה וַיָּקָם קַיִן…"
+      }
     },
     {
       "rank": 33,
@@ -497,7 +855,19 @@
       "story": "Mūt, māta, mēt. The verb 'to die' is one of the oldest stable Semitic words. Arabic mayyit = corpse.",
       "onkelos_ref": "Gen 5:5",
       "onkelos_phrase": "וּמִית",
-      "onkelos_phrase_en": "and he died"
+      "onkelos_phrase_en": "and he died",
+      "tafsir_count": 46,
+      "tafsir_n_verses": 44,
+      "tafsir_key": "מאת",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 5,
+        "v": 5,
+        "surface": "ומאת",
+        "ja_phrase": "ומאת",
+        "hebrew_phrase": "וַיִּהְיוּ כָּל-יְמֵי אָדָם אֲשֶׁר-חַי תְּשַׁע מֵאוֹת שָׁנָה וּשְׁלֹשִׁים…"
+      }
     },
     {
       "rank": 34,
@@ -512,7 +882,19 @@
       "story": "L'chaim / la-ḥayāt — to life. The Arabic blessing ḥayyāka Allāh = 'may God give you life.' Eve's name in Genesis (חוה) is from this root in all three languages.",
       "onkelos_ref": "Gen 5:5",
       "onkelos_phrase": "כָּל יוֹמֵי אָדָם דַּחֲיָא",
-      "onkelos_phrase_en": "all the days of Adam that he lived"
+      "onkelos_phrase_en": "all the days of Adam that he lived",
+      "tafsir_count": 6,
+      "tafsir_n_verses": 6,
+      "tafsir_key": "חייה",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 20,
+        "surface": "חייה",
+        "ja_phrase": "סאע ד'ו נפס חייה",
+        "hebrew_phrase": "וַיֹּאמֶר אֱלֹהִים--יִשְׁרְצוּ הַמַּיִם שֶׁרֶץ נֶפֶשׁ חַיָּה וְעוֹף יְעוֹפֵף…"
+      }
     },
     {
       "rank": 35,
@@ -527,9 +909,20 @@
       "story": "Shem / shmā / ism. The opening word of every Quran chapter — bismillāh (b-ism-Allāh, 'in the name of God') — uses the same word Onkelos uses for Hebrew shem.",
       "onkelos_ref": "Gen 2:19",
       "onkelos_phrase": "הוּא שְׁמֵהּ",
-      "onkelos_phrase_en": "that was its name"
+      "onkelos_phrase_en": "that was its name",
+      "tafsir_count": 60,
+      "tafsir_n_verses": 54,
+      "tafsir_key": "אסם",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 2,
+        "v": 11,
+        "surface": "אסם",
+        "ja_phrase": "אסם אחדהמא אלניל",
+        "hebrew_phrase": "שֵׁם הָאֶחָד פִּישׁוֹן--הוּא הַסֹּבֵב אֵת כָּל-אֶרֶץ הַחֲוִילָה אֲשֶׁר-שָׁם…"
+      }
     },
-
     {
       "rank": 36,
       "aramaic": "חֲנוּתָא",
@@ -558,7 +951,19 @@
       "story": "Shtar (Talmudic for a written contract) shares its root with Arabic saṭr — 'a line' or 'a written line.' A Jewish marriage contract is a shtar; an Arabic line of poetry is a saṭr.",
       "onkelos_ref": null,
       "onkelos_phrase": null,
-      "onkelos_phrase_en": null
+      "onkelos_phrase_en": null,
+      "tafsir_count": 9,
+      "tafsir_n_verses": 9,
+      "tafsir_key": "סטר",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 15,
+        "v": 10,
+        "surface": "סטר",
+        "ja_phrase": "וגעל כל סטר תלקא צאחבה",
+        "hebrew_phrase": "וַיִּקַּח-לוֹ אֶת-כָּל-אֵלֶּה וַיְבַתֵּר אֹתָם בַּתָּוֶךְ וַיִּתֵּן…"
+      }
     },
     {
       "rank": 38,
@@ -573,7 +978,19 @@
       "story": "Talmudic Aramaic לית = Arabic laysa = 'is not.' Hebrew uses אין. The proverb 'leit din v'leit dayan' (there is no judgment, there is no Judge) is built on this word.",
       "onkelos_ref": null,
       "onkelos_phrase": null,
-      "onkelos_phrase_en": null
+      "onkelos_phrase_en": null,
+      "tafsir_count": 117,
+      "tafsir_n_verses": 111,
+      "tafsir_key": "ליס",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 11,
+        "v": 30,
+        "surface": "ליס",
+        "ja_phrase": "ליס להא ולד",
+        "hebrew_phrase": "וַתְּהִי שָׂרַי עֲקָרָה אֵין לָהּ וָלָד"
+      }
     },
     {
       "rank": 39,
@@ -588,7 +1005,19 @@
       "story": "Talmudic mārē (and Marana-tha, 'our Lord, come') shares its root with Arabic mawlā — 'lord, patron.' Onkelos uses רבון for אדון; mārē is the rabbinic-Aramaic word.",
       "onkelos_ref": null,
       "onkelos_phrase": null,
-      "onkelos_phrase_en": null
+      "onkelos_phrase_en": null,
+      "tafsir_count": 2,
+      "tafsir_n_verses": 2,
+      "tafsir_key": "מולא",
+      "tafsir_first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 27,
+        "v": 29,
+        "surface": "מולא",
+        "ja_phrase": "וכן מולא אכ'ותך",
+        "hebrew_phrase": "יַעַבְדוּךָ עַמִּים וישתחו (וְיִשְׁתַּחֲווּ) לְךָ לְאֻמִּים--הֱוֵה גְבִיר…"
+      }
     },
     {
       "rank": 40,

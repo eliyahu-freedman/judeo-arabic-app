@@ -17,6 +17,18 @@ export type AramaicCognateEntry = {
   onkelos_ref: string | null;
   onkelos_phrase: string | null;
   onkelos_phrase_en: string | null;
+  tafsir_count?: number;
+  tafsir_n_verses?: number;
+  tafsir_key?: string;
+  tafsir_first?: {
+    book_slug: string;
+    book: string;
+    ch: number;
+    v: number;
+    surface: string;
+    ja_phrase?: string;
+    hebrew_phrase?: string;
+  };
 };
 
 const GROUP_ORDER = ["interdentals", "religious", "daily", "talmudic"] as const;
@@ -64,8 +76,9 @@ export function AramaicCognateCards({
           …you already know most of these. The Aramaic of the Targum is the
           bridge to Arabic. Where Hebrew shifted its consonants — שלש, זהב,
           זכר — Aramaic and Arabic agreed: תלת/ثلاث, דהב/ذهب, דכר/ذكر. Every
-          card shows all three languages, with the Onkelos verse where the
-          Aramaic word appears.
+          card shows all three languages, the Onkelos verse where the Aramaic
+          word appears, and (where Saadia uses it) a link straight to the
+          Tafsir.
         </p>
       </header>
 
@@ -197,6 +210,49 @@ function AramaicCard({ entry }: { entry: AramaicCognateEntry }) {
               &ldquo;{entry.onkelos_phrase_en}&rdquo;
             </div>
           )}
+        </div>
+      )}
+
+      {entry.tafsir_first && (
+        <div className="mt-3 pt-3 border-t border-ink/10">
+          <div className="text-[10px] uppercase tracking-[0.2em] text-muted mb-1 flex items-baseline justify-between gap-2">
+            <span>
+              Saadia&apos;s Tafsir · {entry.tafsir_first.book}{" "}
+              {entry.tafsir_first.ch}:{entry.tafsir_first.v}
+            </span>
+            {entry.tafsir_count && entry.tafsir_count > 0 && (
+              <span
+                className="font-mono"
+                title={`${entry.tafsir_count} occurrences across ${entry.tafsir_n_verses ?? "?"} verses`}
+              >
+                {entry.tafsir_count}× · {entry.tafsir_n_verses}v
+              </span>
+            )}
+          </div>
+          {entry.tafsir_first.ja_phrase && (
+            <div
+              dir="rtl"
+              className="font-hebrew text-lg text-ink/80 leading-snug mt-1"
+            >
+              {entry.tafsir_first.ja_phrase}
+            </div>
+          )}
+          {entry.tafsir_first.hebrew_phrase && (
+            <div
+              dir="rtl"
+              className="font-hebrew text-sm text-ink/50 leading-snug mt-1 italic"
+              title="The Hebrew Torah verse Saadia is translating"
+            >
+              {entry.tafsir_first.hebrew_phrase}
+            </div>
+          )}
+          <Link
+            href={`/tafsir/${entry.tafsir_first.book_slug}/${entry.tafsir_first.ch}#verse-${entry.tafsir_first.ch}-${entry.tafsir_first.v}`}
+            className="mt-2 inline-flex items-baseline gap-1.5 text-[12px] text-wine hover:underline"
+          >
+            <span>See in the Tafsir</span>
+            <span aria-hidden>→</span>
+          </Link>
         </div>
       )}
     </li>
