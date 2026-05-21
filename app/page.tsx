@@ -1,4 +1,11 @@
 import Link from "next/link";
+import {
+  ALIYAH_DAY_LABELS,
+  ALIYAH_LABELS,
+  BOOK_DISPLAY,
+  currentReading,
+  rangeHref,
+} from "@/lib/parsha";
 
 const modules = [
   {
@@ -44,8 +51,42 @@ const modules = [
 ];
 
 export default function Home() {
+  const reading = currentReading();
   return (
     <div className="max-w-3xl mx-auto px-6 py-16 sm:py-24">
+      {reading && (
+        <Link
+          href={rangeHref(reading.range)}
+          className="group block mb-12 rounded-md bg-wine/[0.04] border border-wine/25 px-6 py-5 transition-all hover:bg-wine/[0.07] hover:border-wine/50"
+        >
+          <div className="flex items-baseline justify-between gap-4 flex-wrap">
+            <div className="text-[10px] uppercase tracking-[0.3em] text-wine/80">
+              This week · {ALIYAH_DAY_LABELS[reading.aliyahNumber - 1]} ·{" "}
+              {ALIYAH_LABELS[reading.aliyahNumber - 1]}
+            </div>
+            <div
+              dir="rtl"
+              className="font-hebrew text-base text-wine/90"
+            >
+              {reading.parsha.hebrew}
+            </div>
+          </div>
+          <div className="mt-2 flex items-baseline justify-between gap-4 flex-wrap">
+            <div className="text-xl text-ink group-hover:text-wine transition-colors">
+              Today&apos;s aliyah in the Tafsir →{" "}
+              <span className="italic text-wine">{reading.parsha.title}</span>
+            </div>
+            <div className="text-sm text-ink/60 font-mono">
+              {BOOK_DISPLAY[reading.range.start.book]} {reading.range.start.ch}:
+              {reading.range.start.v}
+              {"–"}
+              {reading.range.end.ch === reading.range.start.ch
+                ? reading.range.end.v
+                : `${reading.range.end.ch}:${reading.range.end.v}`}
+            </div>
+          </div>
+        </Link>
+      )}
       <section className="mb-16 sm:mb-20">
         <p className="text-xs uppercase tracking-[0.3em] text-muted mb-4">
           A reader-first introduction

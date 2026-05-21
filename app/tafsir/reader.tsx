@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { useMemo, useState } from "react";
 import { lookup, tokenizeJa, type Entry } from "@/lib/lookup";
 import {
   uniqueVerses,
@@ -10,6 +11,13 @@ import {
   type CorpusEntry,
 } from "@/lib/corpus";
 import { useWordStates, type WordState } from "@/lib/wordState";
+import {
+  ALIYAH_LABELS,
+  BOOK_DISPLAY,
+  BOOK_ORDER,
+  parseRange,
+  type BookSlug,
+} from "@/lib/parsha";
 
 export type Verse = {
   ch: number;
@@ -33,14 +41,32 @@ export type ChapterLink = {
   chapter: number;
 };
 
+export type ChapterIndexEntry = {
+  bookSlug: string;
+  chapter: number;
+};
+
+export type ParshaNavEntry = {
+  slug: string;
+  title: string;
+  hebrew: string;
+  aliyot: string[];
+};
+
 export function TafsirReader({
   data,
   prev,
   next,
+  bookSlug,
+  chapterIndex,
+  parshaList,
 }: {
   data: TafsirData;
   prev?: ChapterLink | null;
   next?: ChapterLink | null;
+  bookSlug: string;
+  chapterIndex: ChapterIndexEntry[];
+  parshaList: ParshaNavEntry[];
 }) {
   const [showArabic, setShowArabic] = useState(false);
   const [showHebrewTr, setShowHebrewTr] = useState(false);
@@ -80,6 +106,14 @@ export function TafsirReader({
           to this book.
         </p>
       </header>
+
+      <TafsirNav
+        bookSlug={bookSlug}
+        chapter={data.chapter}
+        verses={data.verses}
+        chapterIndex={chapterIndex}
+        parshaList={parshaList}
+      />
 
       <ChapterNav prev={prev} next={next} />
 
@@ -587,5 +621,199 @@ function ToggleChip({
       {label}
       {hint && <span className="ml-1 opacity-70">({hint})</span>}
     </button>
+  );
+}
+
+function TafsirNav({
+  bookSlug,
+  chapter,
+  verses,
+  chapterIndex,
+  parshaList,
+}: {
+  bookSlug: string;
+  chapter: number;
+  verses: Verse[];
+  chapterIndex: ChapterIndexEntry[];
+  parshaList: ParshaNavEntry[];
+}) {
+  const router = useRouter();
+
+  const chaptersByBook = useMemo(() => {
+    const m: Record<string, number[]> = {};
+    for (const r of chapterIndex) {
+      (m[r.bookSlug] ??= []).push(r.chapter);
+    }
+    for (const k of Object.keys(m)) m[k].sort((a, b) => a - b);
+    return m;
+  }, [chapterIndex]);
+
+  const verseNumbers = useMemo(() => verses.map((v) => v.v), [verses]);
+
+  const [selBook, setSelBook] = useState<string>(bookSlug);
+  const [selChapter, setSelChapter] = useState<number>(chapter);
+  const [selParsha, setSelParsha] = useState<string>(
+    parshaList[0]?.slug ?? "",
+  );
+  const [selAliyah, setSelAliyah] = useState<number>(1);
+
+  const goToChapter = (book: string, ch: number) => {
+    router.push(`/tafsir/${book}/${ch}`);
+  };
+
+  const goToVerse = (v: number) => {
+    const el = document.getElementById(`verse-${chapter}-${v}`);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  const goToAliyah = (parshaSlug: string, aliyahN: number) => {
+    const p = parshaList.find((x) => x.slug === parshaSlug);
+    if (!p) return;
+    const ref = p.aliyot[aliyahN - 1];
+    const range = ref ? parseRange(ref) : null;
+    if (!range) return;
+    router.push(
+      `/tafsir/${range.start.book}/${range.start.ch}#verse-${range.start.ch}-${range.start.v}`,
+    );
+  };
+
+  const chaptersForSelected = chaptersByBook[selBook] ?? [];
+  const selectedParsha = parshaList.find((p) => p.slug === selParsha) ?? null;
+
+  return (
+    <div className="mt-2 mb-6 rounded-md border border-ink/10 bg-page/60 p-4">
+      <div className="text-[10px] uppercase tracking-[0.25em] text-muted mb-3">
+        Navigate
+      </div>
+
+      <div className="grid gap-4 sm:grid-cols-[auto_1fr] items-center">
+        <div className="text-[11px] uppercase tracking-[0.2em] text-ink/55">
+          Tanakh
+        </div>
+        <div className="flex flex-wrap items-center gap-2 text-sm">
+          <NavSelect
+            label="Book"
+            value={selBook}
+            onChange={(b) => {
+              setSelBook(b);
+              const ch = (chaptersByBook[b] ?? [1])[0] ?? 1;
+              setSelChapter(ch);
+              goToChapter(b, ch);
+            }}
+          >
+            {BOOK_ORDER.filter((b) => chaptersByBook[b]?.length).map((b) => (
+              <option key={b} value={b}>
+                {BOOK_DISPLAY[b as BookSlug]}
+              </option>
+            ))}
+          </NavSelect>
+          <NavSelect
+            label="Chapter"
+            value={String(selChapter)}
+            onChange={(v) => {
+              const ch = Number(v);
+              setSelChapter(ch);
+              goToChapter(selBook, ch);
+            }}
+          >
+            {chaptersForSelected.map((c) => (
+              <option key={c} value={c}>
+                {c}
+              </option>
+            ))}
+          </NavSelect>
+          <NavSelect
+            label="Verse"
+            value=""
+            disabled={selBook !== bookSlug || selChapter !== chapter}
+            onChange={(v) => goToVerse(Number(v))}
+          >
+            <option value="">—</option>
+            {verseNumbers.map((v) => (
+              <option key={v} value={v}>
+                {v}
+              </option>
+            ))}
+          </NavSelect>
+        </div>
+
+        <div className="text-[11px] uppercase tracking-[0.2em] text-ink/55">
+          Parsha
+        </div>
+        <div className="flex flex-wrap items-center gap-2 text-sm">
+          <NavSelect
+            label="Parsha"
+            value={selParsha}
+            onChange={(p) => {
+              setSelParsha(p);
+              setSelAliyah(1);
+              goToAliyah(p, 1);
+            }}
+          >
+            {parshaList.map((p) => (
+              <option key={p.slug} value={p.slug}>
+                {p.title}
+              </option>
+            ))}
+          </NavSelect>
+          <NavSelect
+            label="Aliyah"
+            value={String(selAliyah)}
+            disabled={!selectedParsha}
+            onChange={(v) => {
+              const n = Number(v);
+              setSelAliyah(n);
+              goToAliyah(selParsha, n);
+            }}
+          >
+            {ALIYAH_LABELS.map((name, i) => (
+              <option key={i} value={i + 1}>
+                {i + 1}. {name}
+              </option>
+            ))}
+          </NavSelect>
+          {selectedParsha && (
+            <span
+              dir="rtl"
+              className="font-hebrew text-sm text-ink/55 ml-1"
+            >
+              {selectedParsha.hebrew}
+            </span>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function NavSelect({
+  label,
+  value,
+  onChange,
+  disabled,
+  children,
+}: {
+  label: string;
+  value: string;
+  onChange: (v: string) => void;
+  disabled?: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <label
+      className={`inline-flex items-center gap-1.5 text-[11px] uppercase tracking-wider ${
+        disabled ? "opacity-40" : "text-ink/60"
+      }`}
+    >
+      <span>{label}</span>
+      <select
+        value={value}
+        disabled={disabled}
+        onChange={(e) => onChange(e.target.value)}
+        className="rounded-sm border border-ink/15 bg-page px-2 py-1 text-sm font-normal normal-case tracking-normal text-ink hover:border-wine/40 focus:border-wine/60 focus:outline-none disabled:cursor-not-allowed"
+      >
+        {children}
+      </select>
+    </label>
   );
 }

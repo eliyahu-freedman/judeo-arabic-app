@@ -5,7 +5,20 @@ import {
   readChapter,
   readChapterEnglish,
 } from "@/lib/tafsirIndex";
-import { TafsirReader, type TafsirData, type Verse } from "../../reader";
+import {
+  BOOK_ORDER,
+  PARSHA_SCHEDULE,
+  parseRange,
+  parshaSlug,
+  type ParshaEntry,
+} from "@/lib/parsha";
+import {
+  TafsirReader,
+  type ChapterIndexEntry,
+  type ParshaNavEntry,
+  type TafsirData,
+  type Verse,
+} from "../../reader";
 
 export async function generateStaticParams() {
   const all = await listChapters();
@@ -46,11 +59,44 @@ export default async function TafsirChapterPage({
     })),
   };
 
+  const allChapters = await listChapters();
+  const chapterIndex: ChapterIndexEntry[] = allChapters.map((r) => ({
+    bookSlug: r.bookSlug,
+    chapter: r.chapter,
+  }));
+
+  const seen = new Set<string>();
+  const parshaList: ParshaNavEntry[] = [];
+  for (const p of PARSHA_SCHEDULE as ParshaEntry[]) {
+    const slug = parshaSlug(p.title);
+    if (seen.has(slug)) continue;
+    seen.add(slug);
+    parshaList.push({
+      slug,
+      title: p.title,
+      hebrew: p.hebrew,
+      aliyot: p.aliyot,
+    });
+  }
+  parshaList.sort((a, b) => {
+    const ra = parseRange(a.aliyot[0]);
+    const rb = parseRange(b.aliyot[0]);
+    if (!ra || !rb) return 0;
+    const ai = BOOK_ORDER.indexOf(ra.start.book);
+    const bi = BOOK_ORDER.indexOf(rb.start.book);
+    if (ai !== bi) return ai - bi;
+    if (ra.start.ch !== rb.start.ch) return ra.start.ch - rb.start.ch;
+    return ra.start.v - rb.start.v;
+  });
+
   return (
     <TafsirReader
       data={merged}
       prev={found.prev}
       next={found.next}
+      bookSlug={found.record.bookSlug}
+      chapterIndex={chapterIndex}
+      parshaList={parshaList}
     />
   );
 }
