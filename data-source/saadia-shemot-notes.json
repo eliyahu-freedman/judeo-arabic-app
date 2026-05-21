@@ -1,0 +1,304 @@
+{
+  "_note": "Saadia-distinctive translation patterns expected to recur in Shemot (Exodus). Unlike data-source/blau-genesis-notes.json, this file does NOT come from a single published study — Blau's published 'Studies in Saadia's Translation' covers only Genesis 1-12. This file is a CURATED CHECKLIST of Saadia's known moves on Shemot, organized by thematic block, to serve as a translation reference. Verify against the Cairo 2019 Tafsir text and Blau's Dictionary of Medieval Judaeo-Arabic Texts (entries cited where relevant).",
+  "_status": "draft — extend as actual Shemot translations reveal new patterns",
+  "_extracted": "2026-05-21",
+  "blocks": [
+    {
+      "block": "burning bush + divine names (Ex 3-6)",
+      "expected_patterns": [
+        {
+          "he": "אהיה אשר אהיה",
+          "saadia_ja": "אלאזלי אלד'י לא יזול (Cairo 3:14) / variants: אלאזלי אלד'י לם יזל, אלאזלי אלאבדי",
+          "en_gloss": "the Eternal who never ceases / the Eternal who has never ceased / the Eternal, the Everlasting",
+          "note": "Saadia philosophically reframes the divine name as referring to atemporal eternity (אלאזליה). Render the philosophical Arabic, NOT the literal 'I will be what I will be'. The Cairo 2019 reading at Ex 3:14 is 'אלאזלי אלד'י לא יזול' = 'the Eternal who never ceases'."
+        },
+        {
+          "he": "אלהי אביך",
+          "saadia_ja": "רב אביך",
+          "en_gloss": "the Lord of your father",
+          "note": "Saadia's standard 'רב' for אלהי (god of/lord of). Not 'God'."
+        },
+        {
+          "he": "המקום אשר אתה עומד עליו אדמת-קדש",
+          "saadia_ja": "מוצ'עא מקדסא / אלמוצ'ע אלמקדס",
+          "en_gloss": "a holy place / the consecrated place",
+          "note": "Saadia uses מקדס (consecrated) for קדש. Not 'sanctuary' (which would be מקדש in nominal sense)."
+        },
+        {
+          "he": "סנה / הסנה",
+          "saadia_ja": "אלסנא (Cairo recension) / אלעוסג' (alternate recension)",
+          "en_gloss": "the thornbush",
+          "note": "The Cairo 2019 source uses Saadia's transliteration אלסנא (= the Hebrew סנה). An alternate Saadia recension renders אלעוסג' (ʿawsaj — Arabic boxthorn/lyceum). Either way, the English is 'the thornbush' — not generic 'bush'."
+        },
+        {
+          "he": "מלאך יהוה",
+          "saadia_ja": "מלאך אלרב",
+          "en_gloss": "an angel of the Lord",
+          "note": "Saadia renders מלאך with the cognate מלאך (angel/messenger), but for יהוה uses אלרב (the Lord)."
+        }
+      ]
+    },
+    {
+      "block": "plagues + Pharaoh narrative (Ex 5-15)",
+      "expected_patterns": [
+        {
+          "he": "ויחזק לב פרעה / הקשה",
+          "saadia_ja": "ת'בת קלב פרעון / קסא קלבה",
+          "en_gloss": "Pharaoh's heart was firm / he hardened his heart",
+          "note": "Saadia ATTRIBUTES the hardening to Pharaoh (or to natural firmness), softening the divine-causation reading where Hebrew syntax permits. Render literally as the JA, not the Hebrew theological reading."
+        },
+        {
+          "he": "דם / מכת דם",
+          "saadia_ja": "אלדם / צ'רב אלדם",
+          "en_gloss": "blood / the plague of blood",
+          "note": "Saadia uses צ'רב (striking) for מכה (plague/blow)."
+        },
+        {
+          "he": "ערב",
+          "saadia_ja": "אלכ'לט / כ'לטא מן אלסבאע",
+          "en_gloss": "a mixture / a mixture of wild beasts",
+          "note": "Saadia renders ערב (4th plague) as a mixture/swarm specifically of WILD ANIMALS (סבאע) — choosing the interpretation that ערב means mixed wildlife (vs. mixed insects per LXX). Not 'swarm of flies'."
+        },
+        {
+          "he": "דבר",
+          "saadia_ja": "אלמותאן",
+          "en_gloss": "the pestilence / cattle plague",
+          "note": "Saadia's word for דבר (5th plague) is אלמותאן (mortality/murrain)."
+        },
+        {
+          "he": "שחין אבעבעת",
+          "saadia_ja": "קרוח / קרוחא נאפט'ה",
+          "en_gloss": "boils / festering boils",
+          "note": "Saadia's medical term for the 6th plague (boils with blistering)."
+        },
+        {
+          "he": "ברד",
+          "saadia_ja": "אלברד",
+          "en_gloss": "the hail",
+          "note": "Direct cognate — keep 'hail'."
+        },
+        {
+          "he": "ארבה",
+          "saadia_ja": "אלגראד",
+          "en_gloss": "the locusts",
+          "source_blau_dict": "Blau s.v. גראד"
+        },
+        {
+          "he": "חשך אפלה",
+          "saadia_ja": "צ'לאם מדלהם",
+          "en_gloss": "thick darkness / impenetrable darkness",
+          "note": "Saadia intensifies — 'darkness of murkiness'. Render with intensifier."
+        },
+        {
+          "he": "בכור",
+          "saadia_ja": "אלאבכאר / בכר",
+          "en_gloss": "firstborn / the firstborn",
+          "source_blau_dict": "Blau s.v. בכר"
+        }
+      ]
+    },
+    {
+      "block": "Passover + Exodus narrative (Ex 12-15)",
+      "expected_patterns": [
+        {
+          "he": "פסח",
+          "saadia_ja": "אלפצח / אלפסח",
+          "en_gloss": "the Passover",
+          "note": "Saadia transliterates rather than translates. Keep 'Passover'."
+        },
+        {
+          "he": "מצות",
+          "saadia_ja": "פטיר",
+          "en_gloss": "unleavened bread",
+          "note": "Saadia's standard word for מצות. Don't use 'matzot' — render with the descriptive English."
+        },
+        {
+          "he": "חמץ",
+          "saadia_ja": "כ'מיר",
+          "en_gloss": "leavened bread / leaven",
+          "source_blau_dict": "Blau s.v. כ'מר"
+        },
+        {
+          "he": "מקנה",
+          "saadia_ja": "אלמואשי",
+          "en_gloss": "the livestock"
+        },
+        {
+          "he": "מצרים (the people)",
+          "saadia_ja": "אהל מצר / אלמצריון",
+          "en_gloss": "the people of Egypt / the Egyptians"
+        },
+        {
+          "he": "ים סוף",
+          "saadia_ja": "בחר אלקלזם",
+          "en_gloss": "the Sea of Qulzum (Red Sea)",
+          "note": "Saadia identifies ים סוף with بحر القلزم (Qulzum, the medieval Arabic name for the Red Sea, near Suez). On first occurrence: 'the Sea of Qulzum (Red Sea)'. Thereafter: 'the Sea of Qulzum'."
+        }
+      ]
+    },
+    {
+      "block": "Sinai + Decalogue (Ex 19-20, 32-34)",
+      "expected_patterns": [
+        {
+          "he": "ירד / וירד יהוה על הר סיני",
+          "saadia_ja": "צ'הר נור אללה / אט'הר אללה נורה",
+          "en_gloss": "the light of God appeared / God manifested His light",
+          "note": "Saadia's signature anti-anthropomorphic move: God doesn't 'descend' — His LIGHT (or majesty) appears. Same pattern as Bereshit ויעל אלהים → 'the light of God ascended'. KEEP THE LIGHT METAPHOR."
+        },
+        {
+          "he": "פנים אל פנים",
+          "saadia_ja": "כפאחא / מואג'הה'",
+          "en_gloss": "face-to-face / directly",
+          "note": "Saadia softens by removing the literal 'faces'."
+        },
+        {
+          "he": "ויאמר אלהים את כל הדברים האלה (Ex 20:1)",
+          "saadia_ja": "וכלם אללה בהד'ה אלכלמאת",
+          "en_gloss": "And God spoke these words",
+          "note": "Saadia uses כלם (speech-act, not vocal speech) for the Decalogue speech — preserves direct divine speech but with abstract speech-act verb."
+        },
+        {
+          "he": "לא תרצח / לא תנאף / לא תגנב",
+          "saadia_ja": "לא תקתל / לא תזן / לא תסרק",
+          "en_gloss": "you shall not kill / you shall not commit adultery / you shall not steal",
+          "note": "Direct cognate triplet."
+        },
+        {
+          "he": "תמונה",
+          "saadia_ja": "שביה",
+          "en_gloss": "a likeness / a similitude",
+          "note": "Saadia uses שביה (= classical shabīh, 'similar form') for תמונה — preserves the anti-anthropomorphic edge: don't worship a 'form'."
+        },
+        {
+          "he": "פסל",
+          "saadia_ja": "תמת'אל",
+          "en_gloss": "a graven image / an idol"
+        }
+      ]
+    },
+    {
+      "block": "tabernacle (Ex 25-31, 35-40)",
+      "expected_patterns": [
+        {
+          "he": "משכן",
+          "saadia_ja": "אלמסכן / משכן",
+          "en_gloss": "the tabernacle",
+          "note": "Direct cognate — keep 'tabernacle' (the standard English term for the desert sanctuary)."
+        },
+        {
+          "he": "ארון העדות / ארון הברית",
+          "saadia_ja": "תאבות אלשהאדה / תאבות אלעהד",
+          "en_gloss": "the ark of the testimony / the ark of the covenant",
+          "note": "Saadia uses תאבות (tābūt, the Arabic word for ark/chest) — same cognate field as Qur'ānic Arabic."
+        },
+        {
+          "he": "כפרת",
+          "saadia_ja": "אלג'טא / ג'טא אלתאבות",
+          "en_gloss": "the cover / the ark-cover",
+          "note": "Saadia renders the 'mercy seat' (Christian term) literally as a 'cover/lid' — without atonement-theology overlay."
+        },
+        {
+          "he": "כרובים",
+          "saadia_ja": "אלכרוביין",
+          "en_gloss": "the cherubim",
+          "note": "Saadia transliterates."
+        },
+        {
+          "he": "מנורה",
+          "saadia_ja": "אלמנארה",
+          "en_gloss": "the lampstand"
+        },
+        {
+          "he": "פרכת",
+          "saadia_ja": "אלסתאר / אלסתר",
+          "en_gloss": "the veil / the curtain"
+        },
+        {
+          "he": "מזבח",
+          "saadia_ja": "אלמד'בח",
+          "en_gloss": "the altar",
+          "source_blau_dict": "Blau s.v. ד'בח"
+        },
+        {
+          "he": "כיור",
+          "saadia_ja": "אלמירכ'אצ'",
+          "en_gloss": "the laver / wash-basin"
+        },
+        {
+          "he": "אפוד / חשן",
+          "saadia_ja": "אלאיפוד / אלחשן",
+          "en_gloss": "the ephod / the breastpiece",
+          "note": "Saadia transliterates."
+        },
+        {
+          "he": "אורים ותומים",
+          "saadia_ja": "אלאוריאם ואלתומיאם / אלאצ'ואיון ואלאתממים",
+          "en_gloss": "the Urim and Thummim",
+          "note": "Saadia transliterates without translation (terms whose precise meaning was uncertain by his era)."
+        },
+        {
+          "he": "תכלת / ארגמן / תולעת שני / שש",
+          "saadia_ja": "אסמאנגוני / ארגואן / קרמז (or ת'ני) / כתאן",
+          "en_gloss": "blue / purple / scarlet / fine linen",
+          "note": "Saadia uses Persian-derived terms for the dyes. אסמאנגוני (sky-colored) for תכלת is the standard Saadia rendering."
+        }
+      ]
+    },
+    {
+      "block": "legal / mishpatim (Ex 21-23)",
+      "expected_patterns": [
+        {
+          "he": "אם / וכי / כי",
+          "saadia_ja": "אן / אד'א / לאן",
+          "en_gloss": "if / when / for",
+          "note": "Per Blau (on Gen 3:1, 18:21): Saadia uses אד' for 'since/when' (temporal/causal) and אן for 'if' (conditional). In legal contexts, אד'א opens case-protasis ('if/when X occurs')."
+        },
+        {
+          "he": "עבד עברי",
+          "saadia_ja": "עבד עבראני",
+          "en_gloss": "a Hebrew slave"
+        },
+        {
+          "he": "עין תחת עין",
+          "saadia_ja": "ערץ' עין מקאן עין / קימה' עין",
+          "en_gloss": "the value of an eye in place of an eye / compensation for an eye",
+          "note": "Saadia's signature legal move: 'eye for eye' is MONETARY COMPENSATION, not literal mutilation. This is the standard Talmudic reading rendered into the translation. Keep the compensation framing."
+        },
+        {
+          "he": "שור",
+          "saadia_ja": "ת'ור",
+          "en_gloss": "an ox",
+          "note": "Direct cognate."
+        },
+        {
+          "he": "נגח",
+          "saadia_ja": "נטח / ינטח",
+          "en_gloss": "gored / shall gore"
+        }
+      ]
+    },
+    {
+      "block": "general Saadia moves likely in Shemot",
+      "expected_patterns": [
+        {
+          "he": "ויאמר X לY",
+          "saadia_ja": "קאל X לY",
+          "en_gloss": "X said to Y",
+          "note": "Saadia consistently uses קאל ל (vs. classical אמר ל)."
+        },
+        {
+          "he": "יד יהוה / זרוע יהוה",
+          "saadia_ja": "קדרה' אללה / קוה' אללה",
+          "en_gloss": "the power of God / the might of God",
+          "note": "Saadia's anti-anthropomorphic move: 'hand of God' → 'power of God'. Same pattern as in Genesis."
+        },
+        {
+          "he": "אמר יהוה אל משה",
+          "saadia_ja": "קאל אללה למוסי",
+          "en_gloss": "And God said to Moses",
+          "note": "Saadia uses Arabic forms of biblical names: מוסי (Moses), הארון (Aaron), יוסף (Joseph), אבראהים (Abraham). Render with the standard English biblical names."
+        }
+      ]
+    }
+  ]
+}
