@@ -1,0 +1,659 @@
+{
+  "_generated": "scripts/build_cognates.py",
+  "_total": 37,
+  "entries": [
+    {
+      "rank": 1,
+      "modern_he": "יאללה",
+      "modern_translit": "yalla",
+      "modern_en": "let's go, c'mon",
+      "arabic": "يا الله",
+      "arabic_translit": "yā Allāh",
+      "ja_form": "יא אללה",
+      "story": "Literally 'O God' in Arabic — pure direct address. In Hebrew slang it's a permission slip, a hurry-up, a let's-go. The same יא you say in 'yallah balagan' is the classical Arabic vocative particle.",
+      "group": "slang",
+      "count": 0,
+      "n_verses": 0,
+      "first": null
+    },
+    {
+      "rank": 2,
+      "modern_he": "סבבה",
+      "modern_translit": "sababa",
+      "modern_en": "cool, fine, great",
+      "arabic": "صبابة",
+      "arabic_translit": "ṣabāba",
+      "ja_form": null,
+      "story": "From Arabic ṣabāba — a kind of yearning, lovesick fondness. The romance got sanded off; now it just means 'sweet.'",
+      "group": "slang",
+      "count": 0,
+      "n_verses": 0,
+      "first": null
+    },
+    {
+      "rank": 3,
+      "modern_he": "אחלה",
+      "modern_translit": "achla",
+      "modern_en": "awesome, the best",
+      "arabic": "أحلى",
+      "arabic_translit": "aḥlā",
+      "ja_form": null,
+      "story": "'Sweeter, sweetest' — Arabic comparative of حلو 'sweet'. Israeli use is the same vibe: 'this is the sweetest.'",
+      "group": "slang",
+      "count": 0,
+      "n_verses": 0,
+      "first": null
+    },
+    {
+      "rank": 4,
+      "modern_he": "בסה",
+      "modern_translit": "basa",
+      "modern_en": "drag, bummer",
+      "arabic": "بئسة",
+      "arabic_translit": "biʾsa",
+      "ja_form": null,
+      "story": "From Arabic biʾsa — 'wretched, miserable.' One of the few imported words for the specifically Israeli flavor of disappointment.",
+      "group": "slang",
+      "count": 0,
+      "n_verses": 0,
+      "first": null
+    },
+    {
+      "rank": 5,
+      "modern_he": "כיף",
+      "modern_translit": "kef",
+      "modern_en": "fun, pleasure",
+      "arabic": "كيف",
+      "arabic_translit": "kayf",
+      "ja_form": null,
+      "story": "In classical Arabic kayf means 'how?' or, as a noun, a state of pleasant feeling. The pleasant-feeling sense came into Hebrew.",
+      "group": "slang",
+      "count": 0,
+      "n_verses": 0,
+      "first": null
+    },
+    {
+      "rank": 6,
+      "modern_he": "סחתיין",
+      "modern_translit": "sahtein",
+      "modern_en": "good for you, well done",
+      "arabic": "صحتين",
+      "arabic_translit": "ṣaḥtayn",
+      "ja_form": null,
+      "story": "Literally 'two healths' — said after a meal, an achievement, a strong workout. The dual ending -ein is pure Arabic.",
+      "group": "slang",
+      "count": 0,
+      "n_verses": 0,
+      "first": null
+    },
+    {
+      "rank": 7,
+      "modern_he": "מבסוט",
+      "modern_translit": "mabsut",
+      "modern_en": "happy, content",
+      "arabic": "مبسوط",
+      "arabic_translit": "mabsūṭ",
+      "ja_form": null,
+      "story": "Passive participle of basaṭa, 'to spread out, to make easy.' Mabsūṭ = the one whose mood has been spread out flat. A relaxed, satisfied state.",
+      "group": "slang",
+      "count": 0,
+      "n_verses": 0,
+      "first": null
+    },
+    {
+      "rank": 8,
+      "modern_he": "דוגרי",
+      "modern_translit": "dugri",
+      "modern_en": "straight up, honestly",
+      "arabic": "دُغري",
+      "arabic_translit": "dughrī",
+      "ja_form": null,
+      "story": "Spoken Arabic for 'straight ahead, directly.' Imported into Hebrew with the directness intact.",
+      "group": "slang",
+      "count": 0,
+      "n_verses": 0,
+      "first": null
+    },
+    {
+      "rank": 9,
+      "modern_he": "ראש",
+      "modern_translit": "rosh",
+      "modern_en": "head",
+      "arabic": "رأس",
+      "arabic_translit": "raʾs",
+      "ja_form": "ראס",
+      "story": "Same three letters: ר-א-ש in Hebrew, ر-أ-س in Arabic. Different vowels, identical meaning, identical position in your skull.",
+      "group": "body_parts",
+      "count": 34,
+      "n_verses": 31,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 3,
+        "v": 15
+      }
+    },
+    {
+      "rank": 10,
+      "modern_he": "יד",
+      "modern_translit": "yad",
+      "modern_en": "hand",
+      "arabic": "يد",
+      "arabic_translit": "yad",
+      "ja_form": "יד",
+      "story": "Two letters, identical in both languages, identical sound.",
+      "group": "body_parts",
+      "count": 46,
+      "n_verses": 41,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 9,
+        "v": 5
+      }
+    },
+    {
+      "rank": 11,
+      "modern_he": "עין",
+      "modern_translit": "ʿayin",
+      "modern_en": "eye; spring",
+      "arabic": "عين",
+      "arabic_translit": "ʿayn",
+      "ja_form": "עין",
+      "story": "Eye and spring of water — both languages keep both senses. The metaphor is universal: water rises out of the ground the way tears rise out of you.",
+      "group": "body_parts",
+      "count": 29,
+      "n_verses": 25,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 14,
+        "v": 7
+      }
+    },
+    {
+      "rank": 12,
+      "modern_he": "אוזן",
+      "modern_translit": "ozen",
+      "modern_en": "ear",
+      "arabic": "أذن",
+      "arabic_translit": "udhun",
+      "ja_form": "אד'ן",
+      "story": "Same root: א-ז-ן in Hebrew, أ-ذ-ن in Arabic. The Hebrew ז corresponds to the Arabic ذ (dh) — in JA, that ذ is written as ד'.",
+      "group": "body_parts",
+      "count": 7,
+      "n_verses": 7,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 28,
+        "v": 16
+      }
+    },
+    {
+      "rank": 13,
+      "modern_he": "פה",
+      "modern_translit": "peh",
+      "modern_en": "mouth",
+      "arabic": "فم",
+      "arabic_translit": "fam",
+      "ja_form": "פם",
+      "story": "Same root letters, with the Arabic preserving the final mem the Hebrew dropped. Biblical Hebrew sometimes shows 'פום' too.",
+      "group": "body_parts",
+      "count": 8,
+      "n_verses": 8,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 29,
+        "v": 3
+      }
+    },
+    {
+      "rank": 14,
+      "modern_he": "לב",
+      "modern_translit": "lev",
+      "modern_en": "heart",
+      "arabic": "قلب",
+      "arabic_translit": "qalb",
+      "ja_form": "קלב",
+      "story": "Saadia uses قلب where the Hebrew has לב. Arabic kept the initial qaf the Hebrew dropped; the rest is the same skeleton.",
+      "group": "body_parts",
+      "count": 20,
+      "n_verses": 20,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 8,
+        "v": 21
+      }
+    },
+    {
+      "rank": 15,
+      "modern_he": "רגל",
+      "modern_translit": "regel",
+      "modern_en": "foot; (Arabic) man",
+      "arabic": "رِجل / رَجل",
+      "arabic_translit": "rijl / rajul",
+      "ja_form": "רגל",
+      "story": "Same letters, two senses in Arabic: rijl = foot, rajul = man. (The unvowled JA looks identical for both — only context tells you which.) Hebrew kept only the 'foot' sense.",
+      "group": "false_friends",
+      "count": 193,
+      "n_verses": 167,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 2,
+        "v": 24
+      }
+    },
+    {
+      "rank": 16,
+      "modern_he": "שיער",
+      "modern_translit": "seʿar",
+      "modern_en": "hair",
+      "arabic": "شَعر",
+      "arabic_translit": "shaʿr",
+      "ja_form": "שער",
+      "story": "ש and ش are the same letter in JA orthography. Same word, same root ש-ע-ר / ش-ع-ر.",
+      "group": "body_parts",
+      "count": 15,
+      "n_verses": 15,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 25,
+        "v": 25
+      }
+    },
+    {
+      "rank": 17,
+      "modern_he": "אב",
+      "modern_translit": "av",
+      "modern_en": "father",
+      "arabic": "أب",
+      "arabic_translit": "ab",
+      "ja_form": "אב",
+      "story": "Two letters. Same word.",
+      "group": "family",
+      "count": 4,
+      "n_verses": 4,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 44,
+        "v": 19
+      }
+    },
+    {
+      "rank": 18,
+      "modern_he": "אם",
+      "modern_translit": "em",
+      "modern_en": "mother",
+      "arabic": "أم",
+      "arabic_translit": "umm",
+      "ja_form": "אם",
+      "story": "Two letters. Same word. (The Arabic vowels you to umm, the Hebrew vowels you to em.)",
+      "group": "family",
+      "count": 23,
+      "n_verses": 20,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 3,
+        "v": 20
+      }
+    },
+    {
+      "rank": 19,
+      "modern_he": "אח",
+      "modern_translit": "aḥ",
+      "modern_en": "brother",
+      "arabic": "أخ",
+      "arabic_translit": "akh",
+      "ja_form": "אכ'",
+      "story": "Hebrew ח corresponds to Arabic خ here — in JA, that خ is written as כ' (kaf with apostrophe). Saadia never uses the bare word — always 'his brother' (אכ'יה), 'your brother' (אכ'יך), etc.",
+      "group": "family",
+      "count": 38,
+      "n_verses": 37,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 4,
+        "v": 2
+      }
+    },
+    {
+      "rank": 20,
+      "modern_he": "בן",
+      "modern_translit": "ben",
+      "modern_en": "son",
+      "arabic": "ابن",
+      "arabic_translit": "ibn",
+      "ja_form": "אבן",
+      "story": "Hebrew lost the initial alef; Arabic kept it. The biblical Hebrew 'בן' and the Arabic 'ابن' are the same morpheme.",
+      "group": "family",
+      "count": 309,
+      "n_verses": 271,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 5,
+        "v": 32
+      }
+    },
+    {
+      "rank": 21,
+      "modern_he": "בני",
+      "modern_translit": "bnei",
+      "modern_en": "sons of",
+      "arabic": "بَني",
+      "arabic_translit": "banī",
+      "ja_form": "בני",
+      "story": "Plural construct, 'sons of' — same in both languages, used constantly in the Tafsir ('Bnei Israel').",
+      "group": "family",
+      "count": 623,
+      "n_verses": 519,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 6,
+        "v": 2
+      }
+    },
+    {
+      "rank": 22,
+      "modern_he": "שמש",
+      "modern_translit": "shemesh",
+      "modern_en": "sun",
+      "arabic": "شمس",
+      "arabic_translit": "shams",
+      "ja_form": "שמס",
+      "story": "Sun in both languages, sister-shaped: shemesh / shams. Hebrew double-shin, Arabic shin + sin.",
+      "group": "nature",
+      "count": 24,
+      "n_verses": 24,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 15,
+        "v": 12
+      }
+    },
+    {
+      "rank": 23,
+      "modern_he": "ירח",
+      "modern_translit": "yare'aḥ",
+      "modern_en": "moon",
+      "arabic": "قمر",
+      "arabic_translit": "qamar",
+      "ja_form": "קמר",
+      "story": "Different roots — Hebrew chose ירח (related to 'wandering'), Arabic chose قمر. Saadia translates the Hebrew ירח with قمر, the standard Arabic word.",
+      "group": "nature",
+      "count": 2,
+      "n_verses": 2,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 37,
+        "v": 9
+      }
+    },
+    {
+      "rank": 24,
+      "modern_he": "כוכב",
+      "modern_translit": "kokhav",
+      "modern_en": "star",
+      "arabic": "كوكب",
+      "arabic_translit": "kawkab",
+      "ja_form": "כוכב",
+      "story": "Same word — Hebrew and Arabic both go back to kawkab, with the same letters in the same order.",
+      "group": "nature",
+      "count": 1,
+      "n_verses": 1,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 24,
+        "v": 17
+      }
+    },
+    {
+      "rank": 25,
+      "modern_he": "ים",
+      "modern_translit": "yam",
+      "modern_en": "sea",
+      "arabic": "يَمّ",
+      "arabic_translit": "yamm",
+      "ja_form": "ים",
+      "story": "Pure cognate, both languages. (Modern Arabic prefers بحر — but yamm is the classical word, especially in poetry.)",
+      "group": "nature",
+      "count": 0,
+      "n_verses": 0,
+      "first": null
+    },
+    {
+      "rank": 26,
+      "modern_he": "שמיים",
+      "modern_translit": "shamayim",
+      "modern_en": "sky, heavens",
+      "arabic": "سماء",
+      "arabic_translit": "samāʾ",
+      "ja_form": "סמא",
+      "story": "Hebrew dual ('two heavens'), Arabic singular — but it's the same root ש-מ-י / س-م-و. Both end in a long ā.",
+      "group": "nature",
+      "count": 83,
+      "n_verses": 74,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 9
+      }
+    },
+    {
+      "rank": 27,
+      "modern_he": "מים",
+      "modern_translit": "mayim",
+      "modern_en": "water",
+      "arabic": "ماء",
+      "arabic_translit": "māʾ",
+      "ja_form": "מא",
+      "story": "Hebrew has the dual ending; Arabic dropped it to māʾ. The skeleton is the same.",
+      "group": "nature",
+      "count": 744,
+      "n_verses": 554,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 1,
+        "v": 1
+      }
+    },
+    {
+      "rank": 28,
+      "modern_he": "אש",
+      "modern_translit": "esh",
+      "modern_en": "fire",
+      "arabic": "نار",
+      "arabic_translit": "nār",
+      "ja_form": "נאר",
+      "story": "Different roots — but Hebrew also has the verb 'nahar' for 'shine,' and the related noun ner ('lamp') reflects the same n-r root Arabic uses for fire.",
+      "group": "nature",
+      "count": 46,
+      "n_verses": 45,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 15,
+        "v": 17
+      }
+    },
+    {
+      "rank": 29,
+      "modern_he": "כלב",
+      "modern_translit": "kelev",
+      "modern_en": "dog",
+      "arabic": "كلب",
+      "arabic_translit": "kalb",
+      "ja_form": "כלב",
+      "story": "Identical letters. Identical meaning.",
+      "group": "animals",
+      "count": 13,
+      "n_verses": 13,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 31,
+        "v": 23
+      }
+    },
+    {
+      "rank": 30,
+      "modern_he": "גמל",
+      "modern_translit": "gamal",
+      "modern_en": "camel",
+      "arabic": "جمل",
+      "arabic_translit": "jamal",
+      "ja_form": "גמל",
+      "story": "Same root, same animal. The English word 'camel' also comes from this Semitic root — picked up through Greek.",
+      "group": "animals",
+      "count": 4,
+      "n_verses": 4,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 24,
+        "v": 64
+      }
+    },
+    {
+      "rank": 31,
+      "modern_he": "חמור",
+      "modern_translit": "ḥamor",
+      "modern_en": "donkey",
+      "arabic": "حمار",
+      "arabic_translit": "ḥimār",
+      "ja_form": "חמאר",
+      "story": "Hebrew ḥamor / Arabic ḥimār. Same animal, identical letters, slightly different vowel pattern.",
+      "group": "animals",
+      "count": 8,
+      "n_verses": 8,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 22,
+        "v": 5
+      }
+    },
+    {
+      "rank": 32,
+      "modern_he": "שמע",
+      "modern_translit": "shama",
+      "modern_en": "heard, listened",
+      "arabic": "سَمِع",
+      "arabic_translit": "samiʿa",
+      "ja_form": "סמע",
+      "story": "Hebrew ש and Arabic س map onto each other in this root. Saadia uses سمع where the Hebrew has שמע — same word, same sense.",
+      "group": "verbs",
+      "count": 36,
+      "n_verses": 35,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 14,
+        "v": 14
+      }
+    },
+    {
+      "rank": 33,
+      "modern_he": "כתב",
+      "modern_translit": "katav",
+      "modern_en": "wrote",
+      "arabic": "كَتَب",
+      "arabic_translit": "kataba",
+      "ja_form": "כתב",
+      "story": "Identical root in both languages, identical meaning. The Modern Hebrew מכתב (letter) and Arabic مكتب (office, lit. 'place of writing') are cousins from the same family.",
+      "group": "verbs",
+      "count": 4,
+      "n_verses": 4,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 34,
+        "v": 28
+      }
+    },
+    {
+      "rank": 34,
+      "modern_he": "אכל",
+      "modern_translit": "akhal",
+      "modern_en": "ate",
+      "arabic": "أكَل",
+      "arabic_translit": "akala",
+      "ja_form": "אכל",
+      "story": "Same letters, same act.",
+      "group": "verbs",
+      "count": 29,
+      "n_verses": 27,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 3,
+        "v": 6
+      }
+    },
+    {
+      "rank": 35,
+      "modern_he": "ישב",
+      "modern_translit": "yashav",
+      "modern_en": "sat, settled, dwelled",
+      "arabic": "جَلَس",
+      "arabic_translit": "jalasa",
+      "ja_form": "גלס",
+      "story": "Different roots, despite identical meaning. Saadia uses جلس where the Hebrew has ישב — a place where Arabic and Hebrew chose different verbs for the same action.",
+      "group": "verbs",
+      "count": 5,
+      "n_verses": 5,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 48,
+        "v": 2
+      }
+    },
+    {
+      "rank": 36,
+      "modern_he": "לחם",
+      "modern_translit": "leḥem",
+      "modern_en": "Hebrew: bread; Arabic: meat",
+      "arabic": "لحم",
+      "arabic_translit": "laḥm",
+      "ja_form": "לחם",
+      "story": "Same three letters, opposite ends of the menu. Classical Semitic ל-ח-ם meant 'food/substance' generally; Hebrew narrowed it to bread, Arabic narrowed it to meat. Bet-leḥem = 'house of bread.' Bayt-laḥm = same town, in Arabic, with the meat reading.",
+      "group": "false_friends",
+      "count": 0,
+      "n_verses": 0,
+      "first": null
+    },
+    {
+      "rank": 37,
+      "modern_he": "ספר",
+      "modern_translit": "sefer",
+      "modern_en": "Hebrew: book; Arabic: travel",
+      "arabic": "سفر",
+      "arabic_translit": "safar",
+      "ja_form": "ספר",
+      "story": "Different specialization of the same Semitic root — Hebrew ended up with 'book/scroll,' Arabic with 'journey.' (The Arabic word for book is كتاب, from the writing root.)",
+      "group": "false_friends",
+      "count": 11,
+      "n_verses": 11,
+      "first": {
+        "book_slug": "bereshit",
+        "book": "Bereshit",
+        "ch": 9,
+        "v": 10
+      }
+    }
+  ]
+}
