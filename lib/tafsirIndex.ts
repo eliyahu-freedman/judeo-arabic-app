@@ -121,3 +121,26 @@ export async function readChapterEnglish(
     return {};
   }
 }
+
+/**
+ * Read the optional JA↔EN phrase-pair alignment sidecar; returns {} if
+ * missing. Shape: { [verseNumber]: [{ja, en}, ...] }.
+ */
+export async function readChapterAlignment(
+  bookSlug: string,
+  chapter: number,
+): Promise<Record<string, { ja: string; en: string }[]>> {
+  const file = path.join(
+    DATA_DIR,
+    `tafsir-${bookSlug}-${chapter}-alignment.json`,
+  );
+  try {
+    const raw = await fs.readFile(file, "utf-8");
+    const data = JSON.parse(raw) as {
+      alignments?: Record<string, { ja: string; en: string }[]>;
+    };
+    return data.alignments ?? {};
+  } catch {
+    return {};
+  }
+}

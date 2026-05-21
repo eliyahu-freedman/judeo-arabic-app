@@ -4,8 +4,10 @@ import {
   findChapter,
   listChapters,
   readChapter,
+  readChapterAlignment,
   readChapterEnglish,
 } from "@/lib/tafsirIndex";
+import { resolveVerseAlignment, type VerseAlignment } from "@/lib/alignment";
 import {
   BOOK_ORDER,
   PARSHA_SCHEDULE,
@@ -83,23 +85,33 @@ export default async function TafsirChapterPage({
   const found = await findChapter(book, chapter);
   if (!found) notFound();
 
-  const [data, enMap] = await Promise.all([
+  const [data, enMap, alignMap] = await Promise.all([
     readChapter(book, chapter),
     readChapterEnglish(book, chapter),
+    readChapterAlignment(book, chapter),
   ]);
 
   const merged: TafsirData = {
     book: data.book,
     chapter: data.chapter,
-    verses: data.verses.map<Verse>((v) => ({
-      ch: v.ch,
-      v: v.v,
-      hebrew: v.hebrew,
-      ja: v.ja,
-      arabic: v.arabic,
-      hebrew_translation: v.hebrew_translation,
-      english: enMap[String(v.v)] ?? "",
-    })),
+    verses: data.verses.map<Verse>((v) => {
+      const english = enMap[String(v.v)] ?? "";
+      const pairs = alignMap[String(v.v)] ?? [];
+      const alignment: VerseAlignment | null =
+        pairs.length > 0 && english
+          ? resolveVerseAlignment(v.ja, english, pairs)
+          : null;
+      return {
+        ch: v.ch,
+        v: v.v,
+        hebrew: v.hebrew,
+        ja: v.ja,
+        arabic: v.arabic,
+        hebrew_translation: v.hebrew_translation,
+        english,
+        alignment,
+      };
+    }),
   };
 
   const allChapters = await listChapters();

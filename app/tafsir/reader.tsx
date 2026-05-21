@@ -2,8 +2,14 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 import { lookup, tokenizeJa, type Entry } from "@/lib/lookup";
+import { sliceByGroups, type VerseAlignment } from "@/lib/alignment";
+import {
+  hasDivergence,
+  lookupDivergence,
+  type DivergenceEntry,
+} from "@/lib/divergence";
 import {
   uniqueVerses,
   useCorpus,
@@ -27,6 +33,7 @@ export type Verse = {
   arabic: string;
   hebrew_translation: string;
   english: string;
+  alignment: VerseAlignment | null;
 };
 
 export type TafsirData = {
@@ -71,11 +78,39 @@ export function TafsirReader({
   const [showArabic, setShowArabic] = useState(false);
   const [showHebrewTr, setShowHebrewTr] = useState(false);
   const [showEnglish, setShowEnglish] = useState(false);
+  const [showAdvanced, setShowAdvanced] = useState(false);
   const [activeToken, setActiveToken] = useState<string | null>(null);
+  const [hoveredGroup, setHoveredGroup] = useState<{
+    verseV: number;
+    groupId: number;
+  } | null>(null);
+  // Debounce mouseleave clears by a frame: moving between adjacent tokens of
+  // the same group fires leave-then-enter and we don't want a flicker.
+  const clearTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const updateHoveredGroup = useCallback(
+    (next: { verseV: number; groupId: number } | null) => {
+      if (clearTimerRef.current) {
+        clearTimeout(clearTimerRef.current);
+        clearTimerRef.current = null;
+      }
+      if (next === null) {
+        clearTimerRef.current = setTimeout(() => {
+          setHoveredGroup(null);
+          clearTimerRef.current = null;
+        }, 40);
+      } else {
+        setHoveredGroup(next);
+      }
+    },
+    [],
+  );
 
   const { getState, setState, counts, hydrated } = useWordStates();
   const corpus = useCorpus();
   const activeEntries: Entry[] = activeToken ? lookup(activeToken) : [];
+  const activeDivergence: DivergenceEntry | null = activeToken
+    ? lookupDivergence(activeToken)
+    : null;
   const activeState: WordState = activeToken ? getState(activeToken) : "new";
   const activeCorpus: CorpusEntry | null =
     activeToken && corpus ? corpus.getOccurrences(activeToken) : null;
@@ -140,6 +175,12 @@ export function TafsirReader({
           label="English"
           hint="draft"
         />
+        <ToggleChip
+          on={showAdvanced}
+          onClick={() => setShowAdvanced((x) => !x)}
+          label="Advanced"
+          hint="tafsir twists"
+        />
         {hydrated && (counts.learning + counts.known) > 0 && (
           <span
             className="ml-auto text-[10px] uppercase tracking-[0.25em] text-muted flex items-center"
@@ -184,6 +225,18 @@ export function TafsirReader({
                     activeToken={activeToken}
                     onTap={setActiveToken}
                     getState={getState}
+                    markDivergence={showAdvanced}
+                    alignment={verse.alignment}
+                    hoveredGroupId={
+                      hoveredGroup?.verseV === verse.v
+                        ? hoveredGroup.groupId
+                        : null
+                    }
+                    onHoverGroup={(g) =>
+                      updateHoveredGroup(
+                        g === null ? null : { verseV: verse.v, groupId: g },
+                      )
+                    }
                   />
                 </p>
               </div>
@@ -203,7 +256,20 @@ export function TafsirReader({
                 dir="ltr"
                 className="mt-5 pt-5 border-t border-ink/10 text-[15px] leading-relaxed text-ink/80"
               >
-                {verse.english}
+                <EnglishText
+                  text={verse.english}
+                  alignment={verse.alignment}
+                  hoveredGroupId={
+                    hoveredGroup?.verseV === verse.v
+                      ? hoveredGroup.groupId
+                      : null
+                  }
+                  onHoverGroup={(g) =>
+                    setHoveredGroup(
+                      g === null ? null : { verseV: verse.v, groupId: g },
+                    )
+                  }
+                />
               </p>
             )}
           </li>
@@ -224,6 +290,7 @@ export function TafsirReader({
         <GlossPanel
           token={activeToken}
           entries={activeEntries}
+          divergence={activeDivergence}
           corpus={activeCorpus}
           corpusReady={corpus !== null}
           corpusLabel={corpus?.label ?? "the Pentateuch"}
@@ -249,29 +316,78 @@ function JaText({
   activeToken,
   onTap,
   getState,
+  markDivergence,
+  alignment,
+  hoveredGroupId,
+  onHoverGroup,
 }: {
   text: string;
   activeToken: string | null;
   onTap: (t: string) => void;
   getState: (t: string) => WordState;
+  markDivergence: boolean;
+  alignment: VerseAlignment | null;
+  hoveredGroupId: number | null;
+  onHoverGroup: (groupId: number | null) => void;
 }) {
   const tokens = tokenizeJa(text);
+  let charIdx = 0;
   return (
     <>
       {tokens.map((t, i) => {
-        if (t.kind === "sep") return <span key={i}>{t.text}</span>;
+        const tokenStart = charIdx;
+        const tokenEnd = charIdx + t.text.length;
+        charIdx = tokenEnd;
+        // For seps inside the currently-hovered group, paint a faint highlight
+        // so the group reads as a continuous chunk rather than disjoint words.
+        const groupForRange = alignment
+          ? alignment.ja.find(
+              (s) => s.start <= tokenStart && s.end >= tokenEnd,
+            )?.groupId ?? null
+          : null;
+        if (t.kind === "sep") {
+          const inHover =
+            groupForRange !== null && groupForRange === hoveredGroupId;
+          return (
+            <span
+              key={i}
+              className={inHover ? "bg-amber-100/70" : undefined}
+            >
+              {t.text}
+            </span>
+          );
+        }
         const isActive = activeToken === t.text;
         const state = getState(t.text);
+        const divergent = markDivergence && hasDivergence(t.text);
+        const inHover =
+          groupForRange !== null && groupForRange === hoveredGroupId;
+        const groupHandlers =
+          groupForRange !== null
+            ? {
+                onMouseEnter: () => onHoverGroup(groupForRange),
+                onMouseLeave: () => onHoverGroup(null),
+              }
+            : {};
         return (
           <button
             key={i}
             type="button"
             onClick={() => onTap(t.text)}
+            {...groupHandlers}
+            title={divergent ? "Tafsir twist — see panel" : undefined}
             className={`inline cursor-pointer rounded-sm transition-colors px-0.5 -mx-0.5
               ${
                 isActive
                   ? "bg-wine-100 text-wine-700"
-                  : STATE_CLASS[state]
+                  : inHover
+                    ? "bg-amber-100 text-ink ring-1 ring-amber-300/60"
+                    : STATE_CLASS[state]
+              }
+              ${
+                divergent && !isActive
+                  ? "underline decoration-dotted decoration-wine/60 decoration-1 underline-offset-[6px]"
+                  : ""
               }`}
           >
             {t.text}
@@ -282,9 +398,47 @@ function JaText({
   );
 }
 
+function EnglishText({
+  text,
+  alignment,
+  hoveredGroupId,
+  onHoverGroup,
+}: {
+  text: string;
+  alignment: VerseAlignment | null;
+  hoveredGroupId: number | null;
+  onHoverGroup: (groupId: number | null) => void;
+}) {
+  if (!alignment || alignment.en.length === 0) {
+    return <>{text}</>;
+  }
+  const runs = sliceByGroups(text, alignment.en);
+  return (
+    <>
+      {runs.map((r, i) => {
+        if (r.groupId === null) return <span key={i}>{r.text}</span>;
+        const inHover = r.groupId === hoveredGroupId;
+        return (
+          <span
+            key={i}
+            onMouseEnter={() => onHoverGroup(r.groupId)}
+            onMouseLeave={() => onHoverGroup(null)}
+            className={`rounded-sm transition-colors cursor-default ${
+              inHover ? "bg-amber-100 ring-1 ring-amber-300/60 text-ink" : ""
+            }`}
+          >
+            {r.text}
+          </span>
+        );
+      })}
+    </>
+  );
+}
+
 function GlossPanel({
   token,
   entries,
+  divergence,
   corpus,
   corpusReady,
   corpusLabel,
@@ -295,6 +449,7 @@ function GlossPanel({
 }: {
   token: string;
   entries: Entry[];
+  divergence: DivergenceEntry | null;
   corpus: CorpusEntry | null;
   corpusReady: boolean;
   corpusLabel: string;
@@ -325,6 +480,7 @@ function GlossPanel({
           </button>
         </div>
         <StatePills state={state} onSetState={onSetState} />
+        {divergence && <DivergenceBanner d={divergence} />}
         <Concordance
           corpus={corpus}
           corpusReady={corpusReady}
@@ -398,6 +554,79 @@ function GlossPanel({
           </ul>
         )}
       </div>
+    </div>
+  );
+}
+
+function DivergenceBanner({ d }: { d: DivergenceEntry }) {
+  return (
+    <div className="mb-4 rounded-md border border-wine/30 bg-wine-50/60 px-4 py-3">
+      <div className="flex items-baseline gap-3 mb-2">
+        <span className="text-[10px] uppercase tracking-[0.3em] text-wine">
+          Tafsir twist
+        </span>
+        <span className="text-xs text-muted font-mono">√{d.root}</span>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-[13.5px]">
+        <span className="text-[11px] uppercase tracking-wider text-ink/50 pt-0.5">
+          Classical
+        </span>
+        <span className="text-ink/85">{d.classical_en}</span>
+        <span className="text-[11px] uppercase tracking-wider text-wine/80 pt-0.5">
+          Saadia
+        </span>
+        <span className="text-ink">{d.saadia_en}</span>
+      </div>
+      <p className="text-[12px] text-muted italic mt-2 leading-relaxed">
+        {d.mechanism}
+      </p>
+      <DivergenceSources d={d} />
+    </div>
+  );
+}
+
+function DivergenceSources({ d }: { d: DivergenceEntry }) {
+  const hasBlauDict = !!d.blau_dict;
+  const blauRelation = d.blau_dict?.relation;
+  return (
+    <div className="mt-3 pt-2 border-t border-wine/15 text-[11px] leading-relaxed text-ink/55">
+      <span className="uppercase tracking-wider text-ink/40 mr-1">
+        Sources:
+      </span>
+      <span>Lane · Saadia direct</span>
+      {hasBlauDict && (
+        <>
+          {" · "}
+          <Link
+            href="/about/blau"
+            className="hover:text-wine hover:underline"
+            title={d.blau_dict?.sense}
+          >
+            Blau Dict.
+            {blauRelation === "direct"
+              ? ""
+              : blauRelation === "adjacent"
+                ? " (adjacent)"
+                : " (different sense)"}{" "}
+            s.v. <span className="font-mono">{d.blau_dict?.root}</span>
+          </Link>
+        </>
+      )}
+      {d.blau_festschrift && (
+        <>
+          {" · "}
+          <Link
+            href="/about/blau"
+            className="hover:text-wine hover:underline"
+            title={d.blau_festschrift.note}
+          >
+            Blau Festschrift (p. {d.blau_festschrift.page},{" "}
+            {d.blau_festschrift.relation === "same-verse-different-lexeme"
+              ? "same verse"
+              : d.blau_festschrift.relation})
+          </Link>
+        </>
+      )}
     </div>
   );
 }
