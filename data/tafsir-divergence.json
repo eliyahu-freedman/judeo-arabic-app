@@ -1,0 +1,533 @@
+{
+  "_note": "Curated set of words where Saadia's tafsir uses a sense distinct from standard classical Arabic. Each entry contrasts the classical Lane meaning with the sense Saadia is reaching for, and names the mechanism (calque, philosophical gloss, anti-anthropomorphism, coinage). The `sources` array per entry lists honestly what informed the gloss. Blau's Dictionary and his Festschrift article on Genesis 1-12 are cited only where they genuinely back the present claim; entries that are our own reading of the Saadia text against Lane say so. This project is dedicated to the memory of Yehoshua Blau ז״ל (1919-2020), whose lexicographical work made readings like these possible. See /about/blau.",
+  "_sources": {
+    "lane": "Lane's Lexicon (E.W. Lane, An Arabic-English Lexicon, 1863-93; Perseus TEI edition via ~/Tools/arabic-lexicon)",
+    "saadia-direct": "Direct reading of Saadia's Tafsir as printed in data/tafsir-bereshit-{N}.json (Cairo 2019 edition)",
+    "blau-dict": "Yehoshua Blau, A Dictionary of Medieval Judaeo-Arabic Texts (Jerusalem: Israel Academy of Sciences and Humanities, 2006). Cited per entry where the dictionary entry genuinely bears on the present gloss.",
+    "blau-festschrift": "Yehoshua Blau, 'עיונים בתרגום רב סעדיה גאון לבראשית פרקים א-יב', in Sefer Zikaron le-Rav Yosef ben David Qafiḥ z\"l, pp. 309-318. Cited only when a Festschrift note treats the same verse, with the relation (direct, same-verse-different-lexeme, or parallel-pattern) made explicit."
+  },
+  "_scope": "Bereshit 1-11",
+  "entries": [
+    {
+      "lemma_ja": "גאמרה",
+      "variants": ["ג'אמרה"],
+      "lemma_ar": "غامرة",
+      "root": "غ-م-ر",
+      "classical_en": "covering, overwhelming (esp. of deep water)",
+      "classical_he": "מציף, מכסה (בדרך כלל לתיאור מים עמוקים)",
+      "saadia_en": "submerged, flooded — used to render תֹהוּ (\"chaos / formless\")",
+      "saadia_he": "מוצף, שטוף מים — מתרגם תֹהוּ",
+      "mechanism": "interpretive: Saadia reads primordial chaos as primordial water, not nothingness",
+      "verses": [{"book": "Bereshit", "ch": 1, "v": 2}],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "غمر",
+        "sense": "abyss / תהום (Blau attests غمر as a JA noun meaning \"abyss\", citing Saadia on Tehillim 129:7)",
+        "relation": "direct"
+      }
+    },
+    {
+      "lemma_ja": "מסתבחרה",
+      "lemma_ar": "مستبحرة",
+      "root": "ب-ح-ر",
+      "classical_en": "Form X of بحر \"sea\" — extremely rare in classical Arabic, mostly poetic for \"to become vast as a sea\"",
+      "classical_he": "בנין מקביל ל'התפעל' מן השורש בח\"ר (\"ים\") — נדיר בקלאסי, בעיקר בשירה במשמעות \"להיות עצום כים\"",
+      "saadia_en": "vast like a sea — used to render בֹהוּ (\"void\")",
+      "saadia_he": "ענקית כים — מתרגם בֹהוּ",
+      "mechanism": "Saadianic coinage — pairs with גאמרה (Gen 1:2) to make תהו ובהו = \"flooded and sea-like\"",
+      "verses": [{"book": "Bereshit", "ch": 1, "v": 2}],
+      "sources": ["lane", "saadia-direct"]
+    },
+    {
+      "lemma_ja": "ריאח",
+      "lemma_ar": "رياح",
+      "root": "ر-و-ح",
+      "classical_en": "winds (plural of رِيح); also: spirit, breath",
+      "classical_he": "רוחות (רבים של רִיח); גם: רוח, נשמה",
+      "saadia_en": "winds (plural) — Saadia translates רוּחַ אֱלֹהִים as \"winds of God,\" not \"spirit of God\"",
+      "saadia_he": "רוחות (בלשון רבים) — מתרגם \"רוּחַ אֱלֹהִים\" כ\"רוחות של ה'\"",
+      "mechanism": "anti-anthropomorphic: a literal wind rather than a divine \"spirit\" hovering over the waters",
+      "verses": [{"book": "Bereshit", "ch": 1, "v": 2}],
+      "sources": ["lane", "saadia-direct"]
+    },
+    {
+      "lemma_ja": "תהב",
+      "lemma_ar": "تهبّ",
+      "root": "ه-ب-ب",
+      "classical_en": "to blow (of wind)",
+      "classical_he": "לנשוב (לרוח)",
+      "saadia_en": "blows — used to render מְרַחֶפֶת (\"hovering\") over the waters",
+      "saadia_he": "נושבת — מתרגם \"מְרַחֶפֶת\" על פני המים",
+      "mechanism": "interpretive: pairs with ריאח above — the literal wind \"blows,\" not a spirit \"hovers\"",
+      "verses": [{"book": "Bereshit", "ch": 1, "v": 2}],
+      "sources": ["lane", "saadia-direct"]
+    },
+    {
+      "lemma_ja": "שא",
+      "lemma_ar": "شاء",
+      "root": "ش-ي-أ",
+      "classical_en": "to will, to wish",
+      "classical_he": "לרצות, לחפוץ",
+      "saadia_en": "willed — Saadia consistently renders Hebrew וַיֹּאמֶר אֱלֹהִים as \"God willed,\" not \"God said\"",
+      "saadia_he": "רצה — סעדיה מתרגם בעקביות \"וַיֹּאמֶר אֱלֹהִים\" כ\"רצה ה'\", לא \"אמר ה'\"",
+      "mechanism": "anti-anthropomorphic: divine creation is by will, not by speech-act",
+      "verses": [
+        {"book": "Bereshit", "ch": 1, "v": 3},
+        {"book": "Bereshit", "ch": 1, "v": 6},
+        {"book": "Bereshit", "ch": 1, "v": 9},
+        {"book": "Bereshit", "ch": 1, "v": 11},
+        {"book": "Bereshit", "ch": 1, "v": 14},
+        {"book": "Bereshit", "ch": 1, "v": 20},
+        {"book": "Bereshit", "ch": 1, "v": 24}
+      ],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "شيأ",
+        "sense": "Form I (classical): to want / רצה (post-classical usage shows weakening of the volition sense in conjunctions; Blau collects the JA-attested idioms)",
+        "relation": "direct"
+      }
+    },
+    {
+      "lemma_ja": "גלד",
+      "lemma_ar": "جلد",
+      "root": "ج-ل-د",
+      "classical_en": "hard skin, hide; hardness, firmness",
+      "classical_he": "עור קשה, חוסן",
+      "saadia_en": "firmament, expanse — Saadia's standard rendering of רָקִיעַ",
+      "saadia_he": "רקיע, מרחב — תרגומו הקבוע של סעדיה ל\"רָקִיעַ\"",
+      "mechanism": "loanshift / semantic calque on Hebrew רקיע — Saadia takes the classical sense of \"hardness\" and stretches it to cover the celestial dome",
+      "verses": [
+        {"book": "Bereshit", "ch": 1, "v": 6},
+        {"book": "Bereshit", "ch": 1, "v": 7},
+        {"book": "Bereshit", "ch": 1, "v": 8},
+        {"book": "Bereshit", "ch": 1, "v": 14},
+        {"book": "Bereshit", "ch": 1, "v": 15},
+        {"book": "Bereshit", "ch": 1, "v": 17},
+        {"book": "Bereshit", "ch": 1, "v": 20}
+      ],
+      "sources": ["lane", "saadia-direct"],
+      "blau_dict": {
+        "root": "جلد",
+        "sense": "Blau's JA Dictionary records جلد as a verb \"to bear calmly, to endure\" (different semantic field); the firmament-sense calque from Saadia is our own observation against Lane",
+        "relation": "different-sense"
+      }
+    },
+    {
+      "lemma_ja": "מסלט",
+      "variants": ["מסלטא", "אלמסלט", "יתסלט", "יתסלטא"],
+      "lemma_ar": "مسلَّط",
+      "root": "س-ل-ط",
+      "classical_en": "given authority over, set in dominion",
+      "classical_he": "מוצב לשררה, ניתנה לו סמכות",
+      "saadia_en": "ruling, given dominion — Saadia inserts מסלטא as an explanatory gloss on בְּצַלְמֵנוּ (\"in our image\") — the \"image\" of God is dominion, not visual likeness; the same word later glosses husband-over-wife (3:16) and Cain-over-sin (4:7) as functional rule, not raw force",
+      "saadia_he": "שליט, ניתנה לו ממשלה — סעדיה מוסיף את \"מסלטא\" כפירוש ל\"בְּצַלְמֵנוּ\" — ה\"צלם\" הוא השליטה, לא הדמיון החזותי; אותה לשון חוזרת על שליטת הבעל באשה (ג טז) ועל שליטת קין בחטא (ד ז) — שלטון כתפקיד, לא ככוח גרידא",
+      "mechanism": "anti-anthropomorphic theological gloss: צלם is read as functional (dominion over creation), not formal (resemblance); the same root keys Saadia's voluntarist account of moral mastery in 4:7",
+      "verses": [
+        {"book": "Bereshit", "ch": 1, "v": 26},
+        {"book": "Bereshit", "ch": 1, "v": 27},
+        {"book": "Bereshit", "ch": 3, "v": 16},
+        {"book": "Bereshit", "ch": 4, "v": 7},
+        {"book": "Bereshit", "ch": 5, "v": 1},
+        {"book": "Bereshit", "ch": 9, "v": 6}
+      ],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "سلط",
+        "sense": "Form V + على (post-classical): to gain mastery over / השתלט; with the idiom تسلط على = השתלט על. Blau cites Yefet on Habakkuk 3:8 ('the first enemy who gained mastery over Israel') — same construction Saadia uses in Gen 4:7.",
+        "relation": "direct"
+      }
+    },
+    {
+      "lemma_ja": "עטל",
+      "lemma_ar": "عطّل",
+      "root": "ع-ط-ل",
+      "classical_en": "to disable, to render inactive, to suspend (a thing's function)",
+      "classical_he": "להשבית, להפסיק תפקודו של דבר",
+      "saadia_en": "ceased, desisted — Saadia uses عطّل to render וַיִּשְׁבֹּת (\"He rested\"); God did not rest (which implies fatigue), He ceased acting",
+      "saadia_he": "חדל, השבית — סעדיה מתרגם \"וַיִּשְׁבֹּת\" ב\"עטל\"; ה' לא נח (שכן הדבר משתמע מעייפות), אלא חדל לפעול",
+      "mechanism": "anti-anthropomorphic: divine \"rest\" is reframed as cessation of activity",
+      "verses": [
+        {"book": "Bereshit", "ch": 2, "v": 2},
+        {"book": "Bereshit", "ch": 2, "v": 3}
+      ],
+      "sources": ["lane", "saadia-direct"],
+      "blau_dict": {
+        "root": "عطل",
+        "sense": "Blau's JA entry attests عطل as a noun for \"economic depression / התמוטטות, שפל וקיפאון במסחר\" (Pirqei Avot commentary) — a JA-specific commercial sense. Saadia's use here is the classical Form II \"to render inactive\" that Lane records, not the JA commercial register.",
+        "relation": "different-sense"
+      }
+    },
+    {
+      "lemma_ja": "נאטקה",
+      "variants": ["נאטק"],
+      "lemma_ar": "ناطقة",
+      "root": "ن-ط-ق",
+      "classical_en": "speaking, articulate; (in philosophy) rational",
+      "classical_he": "מדבר, מבטא; (בפילוסופיה) רציונלי",
+      "saadia_en": "rational — Saadia translates נֶפֶשׁ חַיָּה (\"living soul\") as נפס נאטקה, \"rational soul\" — the Aristotelian/Galenic technical term for the human soul as distinct from the animal soul; he restricts the term to Adam (2:7) and uses it again in 3:20 to gloss \"mother of all living\" as \"mother of every rational living being\"",
+      "saadia_he": "רציונלית — סעדיה מתרגם \"נֶפֶשׁ חַיָּה\" כ\"נפס נאטקה\", \"נפש מדברת/הוגה\" — מונח אריסטוטלי/גאלני לנפש האנושית בניגוד לנפש הבהמית; הוא משמר את המונח לאדם (ב ז) ומשתמש בו שוב בג כ כדי לגלוס \"אם כל חי\" כ\"אם כל חי הוגה\"",
+      "mechanism": "philosophical gloss: Adam's \"living soul\" is upgraded to the rational soul of Greek/Arabic psychology; the same restriction reappears in 3:20",
+      "verses": [
+        {"book": "Bereshit", "ch": 2, "v": 7},
+        {"book": "Bereshit", "ch": 3, "v": 20}
+      ],
+      "sources": ["lane", "saadia-direct"],
+      "blau_dict": {
+        "root": "نطق",
+        "sense": "Blau records the basic Form I + بـ \"to speak, to utter\" and Form IV \"to utter\" — the JA Dictionary does not reach the philosophical \"rational\" sense which derives from the Greek-Arabic philosophical tradition (al-nafs al-nāṭiqa)",
+        "relation": "adjacent"
+      }
+    },
+    {
+      "lemma_ja": "מלאיכה",
+      "variants": ["כאלמלאיכה", "אלמלאיכה"],
+      "lemma_ar": "ملائكة",
+      "root": "ل-أ-ك",
+      "classical_en": "angels (plural of مَلاك / مَلَك)",
+      "classical_he": "מלאכים (רבים של מַלְאָךְ)",
+      "saadia_en": "angels — Saadia renders the serpent's promise וִהְיִיתֶם כֵּאלֹהִים (\"you shall be like God\") as \"you shall be like the angels,\" downgrading the comparison from divine to angelic status; same substitution in 3:24 where the keruvim are simply ملائكة",
+      "saadia_he": "מלאכים — סעדיה מתרגם את הבטחת הנחש \"וִהְיִיתֶם כֵּאלֹהִים\" כ\"תהיו כמלאכים\", מוריד את ההשוואה מאלוהית לאנגלית; אותו חילוף מופיע בג כד כאשר הכרובים הם פשוט ملائكة",
+      "mechanism": "anti-anthropomorphic: Hebrew אֱלֹהִים referring to lesser divine beings (or the serpent's promise of divinity) is rerouted to \"angels,\" closing off any path to creaturely apotheosis",
+      "verses": [
+        {"book": "Bereshit", "ch": 3, "v": 5},
+        {"book": "Bereshit", "ch": 3, "v": 24}
+      ],
+      "sources": ["lane", "saadia-direct"],
+      "blau_dict": {
+        "root": "ملك",
+        "sense": "Blau treats ملكوتي (\"characteristic of angels\") under root ملك, citing the Kuzari — adjacent to the angelic semantic field but not the lemma ملائكة directly",
+        "relation": "adjacent"
+      }
+    },
+    {
+      "lemma_ja": "אטג'אני",
+      "lemma_ar": "أطغاني",
+      "root": "ط-غ-ي",
+      "classical_en": "Form IV of طغى \"to transgress, exceed bounds\" — caused me to transgress",
+      "classical_he": "בנין הפעיל מן השורש ط-غ-ي (\"לחרוג, לעבור גבול\") — גרם לי לחרוג",
+      "saadia_en": "led me astray, seduced me — Saadia renders Eve's הִשִּׁיאַנִי (\"deceived me\") with the strong moral-transgression vocabulary of طغى rather than the neutral خدع (\"deceived\")",
+      "saadia_he": "הדיח אותי, פיתה אותי — סעדיה מתרגם את \"הִשִּׁיאַנִי\" של חוה בלשון העבירה המוסרית החריפה של طغى, ולא בפועל הניטרלי خدع (\"רימה\")",
+      "mechanism": "interpretive: deception is recast as moral transgression — the serpent did not merely trick Eve, he caused her to overstep a divine boundary; Form IV transfers the agency of the sin to the serpent",
+      "verses": [{"book": "Bereshit", "ch": 3, "v": 13}],
+      "sources": ["lane", "saadia-direct"]
+    },
+    {
+      "lemma_ja": "מקררא",
+      "lemma_ar": "مقرِّرًا",
+      "root": "ق-ر-ر",
+      "classical_en": "Form II active participle of قرّ — \"declaring, affirming, establishing as fact\"",
+      "classical_he": "בינוני פועל של בנין פיעל מן ق-ر-ر — \"מצהיר, מאשר, קובע כעובדה\"",
+      "saadia_en": "by way of confirmation — Saadia inserts مقرِّرًا as an adverbial gloss on God's rhetorical questions (\"Where are you?\" 3:9; \"Where is your brother?\" 4:9), signaling that God is not actually asking — He is confronting",
+      "saadia_he": "בלשון פסקנית / מצהירה — סעדיה מוסיף \"מקררא\" כתואר-פועל לשאלותיו הרטוריות של ה' (\"איך אנת\" ג ט; \"אין הבל אכ'אך\" ד ט), כדי לרמוז שאין כאן שאלה אמיתית — אלא עימות",
+      "mechanism": "anti-anthropomorphic insertion: God's questions in the garden and after Cain's murder are not real inquiries (which would imply divine ignorance) but rhetorical confrontations",
+      "verses": [
+        {"book": "Bereshit", "ch": 3, "v": 9},
+        {"book": "Bereshit", "ch": 4, "v": 9}
+      ],
+      "sources": ["lane", "saadia-direct"],
+      "blau_dict": {
+        "root": "قرر",
+        "sense": "Blau records numerous forms (I \"to deposit\", II \"to put\", IV \"to leave\", V \"to give rest\", X \"to be fixed/decided\") — the JA Dictionary attests the root but not the active-participle \"declaratively\" sense Saadia uses here",
+        "relation": "adjacent"
+      }
+    },
+    {
+      "lemma_ja": "קיאדך",
+      "variants": ["קיאדה"],
+      "lemma_ar": "قِيَادُكِ",
+      "root": "ق-و-د",
+      "classical_en": "your leading-rope, your being-led; by extension, your guidance/control",
+      "classical_he": "החבל המוליך אותך, היותך מובלת; ובהשאלה: הנהגתך, השליטה בך",
+      "saadia_en": "your being-led — Saadia translates Eve's תְּשׁוּקָתֵךְ (\"your desire,\" for her husband) as \"your being-led-by your husband,\" and uses the same noun in 4:7 for sin's relation to Cain (\"to you is its leading\")",
+      "saadia_he": "היותך מובלת — סעדיה מתרגם את \"תְּשׁוּקָתֵךְ\" של חוה (אל בעלה) כ\"היותך מובלת על ידי בעלך\", ומשתמש באותו שם-עצם בד ז עבור יחס החטא לקין (\"ואליך קיאדה\")",
+      "mechanism": "interpretive: the erotic Hebrew תְּשׁוּקָה is desexualized into a vocabulary of leading/submission; the same noun then keys 4:7's paired gloss — sin pulls Cain, but Cain (مسلَّط بالإختيار) masters it",
+      "verses": [
+        {"book": "Bereshit", "ch": 3, "v": 16},
+        {"book": "Bereshit", "ch": 4, "v": 7}
+      ],
+      "sources": ["lane", "saadia-direct", "blau-dict", "blau-festschrift"],
+      "blau_dict": {
+        "root": "قود",
+        "sense": "Form I + إلى: \"to lead, to cause, to effect, to bring about / להביא לעשות\" (metaphorical, used of agency); Form VII: \"to obey, to yield to / נשמע, נכנע לו\". Blau cites Maimonides' Guide of the Perplexed I (Munk/Joel/Kafih).",
+        "relation": "direct"
+      },
+      "blau_festschrift": {
+        "page": 315,
+        "lemma_he": "עצבונך",
+        "relation": "same-verse-different-lexeme",
+        "note": "Blau's Festschrift note on Gen 3:16 treats עצב/עצבון → משקה (\"effort/toil\") and corrects Kapach's lexical distinction. The present entry on תשוקה → قياد is independent — Blau does not discuss this lexeme in the article."
+      }
+    },
+    {
+      "lemma_ja": "בדן",
+      "lemma_ar": "بدن",
+      "root": "ب-د-ن",
+      "classical_en": "body, torso; tunic worn directly on the body",
+      "classical_he": "גוף, גזע הגוף; כותונת הנלבשת על הגוף",
+      "saadia_en": "body — Saadia renders כָּתְנוֹת עוֹר (\"garments of skin\") as ת'יאב בדן (\"body-garments\"), conspicuously avoiding the literal جلد (\"skin/hide\") — the same root he reserves for \"firmament\"",
+      "saadia_he": "גוף — סעדיה מתרגם \"כָּתְנוֹת עוֹר\" כ\"ת'יאב בדן\" (\"בגדי גוף\"), ונמנע במכוון מן המילה جلد (\"עור\"), שאת אותו שורש ייעד לרקיע",
+      "mechanism": "interpretive: the literal \"animal skins\" is muted — possibly to dodge the implication that God slaughtered animals for clothing, possibly to keep جلد reserved for רָקִיעַ. Either way, the divergence from the obvious lexical choice is deliberate",
+      "verses": [{"book": "Bereshit", "ch": 3, "v": 21}],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "بدن",
+        "sense": "\"clothing without sleeves, item / בגד ללא שרוולים\" — Blau records بدن in JA as a textile term (Dozy; Gil, Eretz Yisrael, II:145), confirming that for Saadia's audience ت'יאב بدن had a specific clothing-register sense, not just generic \"body-garment\"",
+        "relation": "direct"
+      }
+    },
+    {
+      "lemma_ja": "כ'טאך",
+      "lemma_ar": "خطؤك",
+      "root": "خ-ط-أ",
+      "classical_en": "your error, your mistake (light moral weight in classical usage; خطيئة is the heavier \"sin\")",
+      "classical_he": "טעותך, שגיאתך (משקל מוסרי קל בשימוש הקלאסי; خطيئة היא \"החטא\" החמור)",
+      "saadia_en": "your error — Saadia uses خطأ (\"error\") rather than the heavier خطيئة (\"sin\") to render Hebrew חַטָּאת in God's warning to Cain (\"sin crouches at the door\"), softening the categorical weight of the term",
+      "saadia_he": "טעותך — סעדיה משתמש ב-خطأ (\"שגיאה\") במקום במונח החמור יותר خطيئة (\"חטא\") לתרגום \"חַטָּאת\" באזהרת ה' לקין (\"חטאת רובץ\"), ומקל את משקלה הקטגורי של המילה",
+      "mechanism": "interpretive: in the Kalam ethical lexicon خطأ vs خطيئة tracks inadvertence vs deliberation; Saadia's choice of the lighter term sets up the immediately following voluntarist gloss (\"and you are the master over it by choice\") — moral failure is something the agent can master, not an ontological category",
+      "verses": [{"book": "Bereshit", "ch": 4, "v": 7}],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "خطأ",
+        "sense": "Blau attests Form II \"to induce to sin / החטיאו, הביאו לידי חטא\" (citing Yefet on Pirqei Avot) and Form IV + على \"doubtfully, without knowing whether one is right\" (Geniza letter, Goitein). The JA Dictionary thus distinguishes the inducement and uncertainty senses — adjacent to but not the same as our contrast between خطأ and خطيئة.",
+        "relation": "adjacent"
+      }
+    },
+    {
+      "lemma_ja": "אכ'תיאר",
+      "variants": ["אלאכ'תיאר", "באלאכ'תיאר"],
+      "lemma_ar": "اختيار",
+      "root": "خ-ي-ر",
+      "classical_en": "choice, election, selection",
+      "classical_he": "בחירה, ברירה",
+      "saadia_en": "free choice (libertarian sense) — Saadia inserts بِالإِخْتِيَارِ (\"by free choice\") into God's address to Cain, making the mastery over sin explicitly a matter of free will — the Mu'tazilite technical term for the libertarian view that humans are causally autonomous moral agents",
+      "saadia_he": "בחירה חופשית (במובן הליברטריאני) — סעדיה מכניס \"באלאכ'תיאר\" (\"מתוך בחירה חופשית\") לדברי ה' אל קין, ועושה את השליטה בחטא לעניין של בחירה חופשית במפורש — המונח הטכני המועתזלי לעמדה שהאדם הוא סוכן מוסרי אוטונומי",
+      "mechanism": "philosophical gloss / theological insertion: Saadia smuggles his (and the Mu'tazilites') libertarian voluntarism into the text — the very word اختيار is the Kalam shibboleth for free will against predetermination",
+      "verses": [{"book": "Bereshit", "ch": 4, "v": 7}],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "خير",
+        "sense": "Form VIII: \"to choose / בחר\" (also negation), and Form X: \"to decide by divination, to leave the choice to God / השאיר את הבחירה בידי האלוהים של ניחוש.\" Blau attests the choice-semantic field but the Mu'tazilite kalam reading of اختيار as libertarian free will is a separate philosophical context.",
+        "relation": "direct"
+      }
+    },
+    {
+      "lemma_ja": "קאול",
+      "lemma_ar": "قاوَلَ",
+      "root": "ق-و-ل",
+      "classical_en": "Form III of قال — to engage in dialogue, to dispute, to converse back-and-forth (reciprocal action)",
+      "classical_he": "בנין שלישי של ق-و-ل — לנהל דו-שיח, להתווכח, לדבר הדדית",
+      "saadia_en": "disputed with — Saadia renders the famously elliptical וַיֹּאמֶר קַיִן אֶל-הֶבֶל (\"and Cain said to Abel...\" with no content given) by upgrading the verb to Form III قاوَلَ (\"he disputed/argued with him\"), filling the textual gap with an argument rather than mere speech",
+      "saadia_he": "התווכח — סעדיה מתרגם את \"וַיֹּאמֶר קַיִן אֶל-הֶבֶל\" הסתום (שאין בו תוכן דיבור) בכך שהוא מעלה את הפועל לבניין השלישי قاوَلَ (\"הוא התווכח אתו\"), וממלא את הפער הטקסטואלי בריב במקום בדיבור גרידא",
+      "mechanism": "interpretive: where the Hebrew leaves an aposiopesis (Cain spoke — but what?), Saadia commits to \"they argued,\" pre-empting the murder with a verbal quarrel; the choice of Form III over the simple قال is the lexical fingerprint of this reading",
+      "verses": [{"book": "Bereshit", "ch": 4, "v": 8}],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "قول",
+        "sense": "Form III: \"to make a contract, to make a covenant with / כרית עמו\" AND \"to quarrel with, to argue / נשפט עמו, דבר עמו.\" Blau's JA Dictionary directly attests the \"to quarrel/argue\" sense of قاول that the present entry depends on — strong corroboration that Saadia's listeners would have heard 'disputed' here, not 'spoke'.",
+        "relation": "direct"
+      }
+    },
+    {
+      "lemma_ja": "טאעה",
+      "lemma_ar": "طاعة",
+      "root": "ط-و-ع",
+      "classical_en": "obedience, submission, willing compliance",
+      "classical_he": "ציות, היענות, כניעה ברצון",
+      "saadia_en": "obedience — Saadia renders וַיִּתְהַלֵּךְ ... אֶת-הָאֱלֹהִים (\"walked with God\") as סלך פי טאעה' אללה (\"walked in obedience to God\") for both Enoch (5:22, 5:24) and Noah (6:9), abstracting the relational/spatial Hebrew image into an ethical category",
+      "saadia_he": "ציות — סעדיה מתרגם את \"וַיִּתְהַלֵּךְ ... אֶת-הָאֱלֹהִים\" כ\"סלך פי טאעה' אללה\" (\"הלך בציות לה'\"), הן על חנוך (ה כב, ה כד) והן על נוח (ו ט), ומפשט את התמונה היחסית-מרחבית של העברית לקטגוריה מוסרית",
+      "mechanism": "anti-anthropomorphic: the intimate Hebrew picture of \"walking with God\" — which seems to put Enoch in God's presence — is recast as the abstract category of religious obedience",
+      "verses": [
+        {"book": "Bereshit", "ch": 5, "v": 22},
+        {"book": "Bereshit", "ch": 5, "v": 24},
+        {"book": "Bereshit", "ch": 6, "v": 9}
+      ],
+      "sources": ["lane", "saadia-direct"],
+      "blau_dict": {
+        "root": "طوع",
+        "sense": "Blau treats Form X (classical) \"to be able, to have power to do something\" with the note that this is influenced by qadar (divine decree). The Dictionary engages the root in the kalam-philosophical register but not the noun طاعة specifically.",
+        "relation": "adjacent"
+      }
+    },
+    {
+      "lemma_ja": "תופי",
+      "lemma_ar": "تُوُفِّيَ",
+      "root": "و-ف-ي",
+      "classical_en": "Form V passive — \"his (allotted lifespan) was completed\"; standard classical Arabic euphemism for \"he died\"",
+      "classical_he": "בניין התפעל סביל — \"הושלם (חייו המוקצים לו)\"; שם-לוואי קלאסי סטנדרטי למוות",
+      "saadia_en": "he died — where the Hebrew has the famously ambiguous וְאֵינֶנּוּ כִּי-לָקַח אֹתוֹ אֱלֹהִים (\"and he was no more, for God took him\"), Saadia inserts תופי (\"he died\") before \"and God took him,\" closing off any reading on which Enoch was assumed alive",
+      "saadia_he": "נפטר — במקום שהעברית מותירה את הניסוח הסתום \"וְאֵינֶנּוּ כִּי-לָקַח אֹתוֹ אֱלֹהִים\", סעדיה מוסיף \"תופי\" (\"נפטר\") לפני \"וקבצ'ה אללה\", וסוגר כל קריאה שלפיה חנוך נלקח חי",
+      "mechanism": "anti-mystical insertion: the apocryphal-mystical reading of Enoch's assumption (Jub. 4, 1 En., later Hekhalot traditions) is foreclosed by inserting a plain \"he died\" — Enoch was a righteous man who died early, not a translated one",
+      "verses": [{"book": "Bereshit", "ch": 5, "v": 24}],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "وفي",
+        "sense": "Form VII: \"to die / נפטר\" — Blau attests the death-euphemism sense directly in his JA Dictionary, confirming that Saadia's audience would have heard تُوُفِّيَ as the standard idiom for \"died,\" not a euphemism requiring interpretation.",
+        "relation": "direct"
+      }
+    },
+    {
+      "lemma_ja": "אשראף",
+      "variants": ["אלאשראף"],
+      "lemma_ar": "أشراف",
+      "root": "ش-ر-ف",
+      "classical_en": "nobles, men of high rank (plural of شريف)",
+      "classical_he": "אצילים, בני מעלה (רבים של شريف)",
+      "saadia_en": "the nobles — Saadia renders בְּנֵי הָאֱלֹהִים (\"sons of God / sons of the divine beings\") as בני אלאשראף (\"sons of the nobility\"), paired with בנאת אלעאמה (\"daughters of the common folk\") for בְּנוֹת הָאָדָם — a class-based reading of the cross-caste unions that produced the Nephilim",
+      "saadia_he": "האצילים — סעדיה מתרגם \"בְּנֵי הָאֱלֹהִים\" (\"בני האלים\") כ\"בני אלאשראף\" (\"בני האצילים\"), במקביל ל\"בנאת אלעאמה\" (\"בנות פשוטי העם\") לתרגום \"בְּנוֹת הָאָדָם\" — קריאה מעמדית של הזיווגים שהולידו את הנפילים",
+      "mechanism": "anti-mythological + anti-anthropomorphic: refuses both the angelic-being reading and any plain rendering that would name plural \"sons of God\"; the verse is reduced to a social-stratification scandal — aristocrats coercing the daughters of commoners — which also explains the moral indictment in verses 5-7",
+      "verses": [
+        {"book": "Bereshit", "ch": 6, "v": 2},
+        {"book": "Bereshit", "ch": 6, "v": 4}
+      ],
+      "sources": ["lane", "saadia-direct"]
+    },
+    {
+      "lemma_ja": "ינג'מד",
+      "lemma_ar": "ينغمد",
+      "root": "ج-م-د",
+      "classical_en": "Form VII of جمد — \"to be frozen / congealed / made to stagnate\"",
+      "classical_he": "בנין VII של ج-م-د — \"להיקפא, להקרש, להיעצר במקום\"",
+      "saadia_en": "be frozen / be retained — Saadia renders the famously opaque לֹא-יָדוֹן רוּחִי בָאָדָם לְעֹלָם (\"My spirit shall not contend / abide in man forever\") as לא ינג'מד רוחי פי הולאי אלנאס אלי' אלדהר (\"My spirit shall not be frozen in these people forever\"), reading יָדוֹן as a verb of permanent retention (\"abide\"), not legal contention (\"judge\")",
+      "saadia_he": "תיקפא, תיעצר במקום — סעדיה מתרגם את \"לֹא-יָדוֹן רוּחִי בָאָדָם לְעֹלָם\" הסתום כ\"לא ינג'מד רוחי פי הולאי אלנאס אלי' אלדהר\" (\"לא תיקפא רוחי באנשים הללו לעולם\"), וקורא את הפועל יָדוֹן כפועל של החזקה קבועה (\"שכן, היה אצור\"), לא של ריב משפטי (\"דן\")",
+      "mechanism": "interpretive lexical choice: the Hebrew root ד-י-ן is ambiguous between \"judge/contend\" and \"abide\"; Saadia picks the abide-sense via ج-م-د (\"be congealed\"), turning the verse into a statement that human life-spans will no longer be indefinitely prolonged — directly setting up the 120-year limit in the same verse",
+      "verses": [{"book": "Bereshit", "ch": 6, "v": 3}],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "جمد",
+        "sense": "Form I: \"to congeal, to stiffen / קפא, קרש, נקרש\" — Blau attests the congealing sense as the basic JA usage of the root, and additionally records Form VII (تنجمد / ינג'מד) \"to stiffen, to freeze, to congeal\" — exactly the form Saadia uses here.",
+        "relation": "direct"
+      }
+    },
+    {
+      "lemma_ja": "תואעד",
+      "variants": ["תואעדהם", "תואעדתהם", "פתואעדהם"],
+      "lemma_ar": "تواعد",
+      "root": "و-ع-د",
+      "classical_en": "Form III/VI of وعد — to make a mutual appointment with, to set a deadline / threat against; in prophetic-Geonic usage, \"to warn of impending judgment, to decree against\"",
+      "classical_he": "בנין III/VI של ו-ע-ד — לקבוע מועד עם, להציב איום הדדי; בלשון נביאים-גאונים: \"להתרות בפורענות, לגזור על\"",
+      "saadia_en": "warned / decreed against — Saadia renders the deeply anthropomorphic וַיִּנָּחֶם יְהוָה כִּי-עָשָׂה אֶת-הָאָדָם (\"and the LORD regretted that He had made man\") as פתואעדהם אללה כמא צנעהם (\"so God warned them as He had made them\"), and similarly in 6:7 — eliminating divine regret entirely",
+      "saadia_he": "התרה, גזר על — סעדיה מתרגם את \"וַיִּנָּחֶם יְהוָה כִּי-עָשָׂה אֶת-הָאָדָם\" האנתרופומורפי במובהק כ\"פתואעדהם אללה כמא צנעהם\" (\"וְהִתְרָה בהם ה' כפי שיצרם\"), וכן בפסוק ז — וביטל את היסוד של חרטה אלוהית לחלוטין",
+      "mechanism": "anti-anthropomorphic: divine regret/change-of-mind is replaced by prophetic warning. The shift also implies that the 120-year limit (verse 3) functioned as a probationary warning — God did not change His mind on Yom Six, He had already announced the deadline. The same root surfaces again in 6:7 (\"as I warned them\")",
+      "verses": [
+        {"book": "Bereshit", "ch": 6, "v": 6},
+        {"book": "Bereshit", "ch": 6, "v": 7}
+      ],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "وعد",
+        "sense": "Form I + بـ: \"to prophesy doom / לנבא דבר\" (citing Saadia's translations and the Geonim); Form IV + بـ: \"to promise / threaten / decree\" (وعد ٢ل٦١ بها = ניבא דבר; the prophetic doom-pronouncement and the announcement of an evil are explicitly merged). Blau's entry directly supports the warning/decreeing-doom sense Saadia uses here.",
+        "relation": "direct"
+      }
+    },
+    {
+      "lemma_ja": "שמשאר",
+      "variants": ["אלשמשאר"],
+      "lemma_ar": "شمشار",
+      "root": "ش-م-ش-ר (loanword)",
+      "classical_en": "boxwood (Buxus sempervirens), a dense slow-growing hardwood; Arabic loanword, ultimately from Persian شمشاد",
+      "classical_he": "עץ אשכרוע (Buxus sempervirens), עץ קשה וצפוף; שאילה מפרסית שמשאד",
+      "saadia_en": "boxwood — Saadia identifies the hapax legomenon גֹּפֶר (the wood of Noah's ark) with shamshār (boxwood), a dense durable hardwood prized in the medieval Near East for ship-grade joinery and inlay",
+      "saadia_he": "עץ אשכרוע — סעדיה מזהה את ה־hapax legomenon \"גֹּפֶר\" (עץ התיבה) עם שמשאר (אשכרוע), עץ קשה ועמיד שהיה מבוקש במזרח התיכון לעבודות ספנות מדויקות",
+      "mechanism": "lexical identification: the Hebrew גֹּפֶר occurs only here in the Bible. Saadia substitutes a known, contemporary wood — shamshār — that fits the engineering brief (dense enough not to rot, common enough to be plausible) rather than transliterating an unknown",
+      "verses": [{"book": "Bereshit", "ch": 6, "v": 14}],
+      "sources": ["lane", "saadia-direct"]
+    },
+    {
+      "lemma_ja": "ג'מר",
+      "variants": ["אלג'מר", "ג'אמר"],
+      "lemma_ar": "غمر",
+      "root": "غ-م-ر",
+      "classical_en": "abyss, vast quantity of water (noun); from the same root as غامرة (\"covering, overwhelming\") in Gen 1:2",
+      "classical_he": "תהום, שפע מים עצום (שם עצם); מאותו שורש כמו غامرة (\"מציפה\") בה ב",
+      "saadia_en": "the great deeps — Saadia renders the unique phrase מַעְיְנֹת תְּהוֹם רַבָּה (\"the fountains of the great deep\") as עיון אלג'מר אלעצ'אם (\"the springs of the great abysses\"), tying the flood narrative back to the primordial water-chaos of Gen 1:2 via the same root غمر",
+      "saadia_he": "התהומות הגדולות — סעדיה מתרגם את הצירוף הייחודי \"מַעְיְנֹת תְּהוֹם רַבָּה\" כ\"עיון אלג'מר אלעצ'אם\" (\"מעיינות התהומות הגדולים\"), ומקשר בכך את סיפור המבול אל מי התוהו הראשוניים בה ב — באותו השורש غمر",
+      "mechanism": "lexical / cosmological linkage: the noun-form غمر (\"abyss\") is the mirror image of the participle غامرة (\"covering\") that Saadia used for תֹהוּ in 1:2. The flood is, on this reading, a partial reversion of creation — the abyssal waters Saadia placed beneath the firmament are now bursting back up. Blau attests غمر (אגמאר) as the standard JA noun for \"abyss\"",
+      "verses": [{"book": "Bereshit", "ch": 7, "v": 11}],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "غمر",
+        "sense": "Noun غمر (plural أغمار): \"abyss / תהום\" — Blau cites the Guide of the Perplexed (Moreh Nevukhim) and Saadia on Yoel 2 (\"the waters that pour from the seas and abysses\") directly attesting أغمار as the JA noun for cosmic deep-waters. Same root as the [[gamra]] entry on Gen 1:2 but here in noun-form.",
+        "relation": "direct"
+      }
+    },
+    {
+      "lemma_ja": "חגב",
+      "variants": ["וחגב"],
+      "lemma_ar": "حجب",
+      "root": "ح-ج-ب",
+      "classical_en": "to veil, to screen off, to bar entry (active form I); in the kalam, the technical term for the doctrine of God's being \"veiled\" from sight",
+      "classical_he": "להסתיר, להציב מחיצה, למנוע כניסה (בנין I); במונחי הכלאם — מונח טכני לדוקטרינה של היות ה' \"מוסתר\" מן הראייה",
+      "saadia_en": "screened him off — Saadia renders the strikingly intimate וַיִּסְגֹּר יְהוָה בַּעֲדוֹ (\"and the LORD shut [the door] behind him\") as וחגב אללה דונה (\"and God screened him off\"), avoiding any image of God personally closing Noah inside the ark",
+      "saadia_he": "החריג אותו, חצץ בעדו — סעדיה מתרגם את הפסוק האינטימי במיוחד \"וַיִּסְגֹּר יְהוָה בַּעֲדוֹ\" כ\"וחגב אללה דונה\" (\"וְחָצַץ אלוהים בעדו\"), ומונע כל תמונה של ה' הסוגר אישית את הדלת על נוח",
+      "mechanism": "anti-anthropomorphic: replaces a physical-closing gesture (God's hand on the door) with a generic screening-action. The verb حجب also carries strong philosophical resonance in Saadia's milieu — it is the kalam term for God's being \"veiled\" from creaturely vision, a register that further depersonalizes the act",
+      "verses": [{"book": "Bereshit", "ch": 7, "v": 16}],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "حجب",
+        "sense": "Form VII: \"to be hidden, to be defended / נסתר, מוגן\" — Blau cites Yefet's Tafsir and Ibn Janaḥ. Also: \"to be restrained, stopped, held back / נעצר\" — citing Yefet on Habakkuk and Ibn Janaḥ's Shorashim. The restraining-and-screening senses are both directly attested in JA usage, supporting Saadia's choice here.",
+        "relation": "direct"
+      }
+    },
+    {
+      "lemma_ja": "קרדא",
+      "lemma_ar": "قردى",
+      "root": "(toponym)",
+      "classical_en": "Mount Qardū / Cudi (Jabal Jūdī in classical Arabic geography) — the mountain range in southeastern Anatolia / northern Iraq traditionally identified as the landing-place of Noah's ark in Targumic, Syriac, and Islamic sources",
+      "classical_he": "הר קרדו / ג'ודי (ג'בל ג'ודי בגיאוגרפיה ערבית קלאסית) — רכס הרים בדרום-מזרח אנטוליה / צפון עיראק, שזוהה במסורת הארמית, הסורית והאסלאמית כמקום עגינת תיבת נוח",
+      "saadia_en": "Mount Qardū — Saadia renders the Hebrew הָרֵי אֲרָרָט (\"mountains of Ararat\") as גבאל קרדא, naming the specific peak rather than the broader Urartu region; this aligns Saadia with the Targumic identification (Targum Onqelos: טוּרֵי קַרְדּוּ) and the Qur'anic Jūdī (Q 11:44) against the Armenian-highlands rendering",
+      "saadia_he": "הרי קרדו — סעדיה מתרגם \"הָרֵי אֲרָרָט\" העברי כ\"גבאל קרדא\", ומנכס פסגה ספציפית במקום אזור אררט הרחב; זיהוי זה תואם את האונקלוסי (\"טוּרֵי קַרְדּוּ\") ואת הג'ודי הקוראני (סורה יא, מד), בניגוד לתרגום של רמת ארמניה",
+      "mechanism": "geographical identification by tradition: Saadia harmonizes with the Aramaic-Targumic and Islamic-geographical consensus on the ark's landing-place — Mt. Cudi in upper Mesopotamia, not the Armenian Ararat peak",
+      "verses": [{"book": "Bereshit", "ch": 8, "v": 4}],
+      "sources": ["saadia-direct"]
+    },
+    {
+      "lemma_ja": "קרבאן",
+      "variants": ["אלקרבאן"],
+      "lemma_ar": "قربان",
+      "root": "ق-ر-ب",
+      "classical_en": "offering, sacrifice (well-attested classical Arabic, with Qur'anic usage — Q 3:183, Q 5:27 — for sacrificial offerings)",
+      "classical_he": "קרבן, מנחה (מילה ערבית קלאסית מוכרת; שכיחה גם בקוראן — סורה ג קפג, ה כז — בהקשר של הקרבת קרבנות)",
+      "saadia_en": "the pleasing offering — Saadia renders the densely anthropomorphic וַיָּרַח יְהוָה אֶת-רֵיחַ הַנִּיחֹחַ (\"and the LORD smelled the soothing aroma\") as פקבל אללה אלקרבאן אלמרצ'י (\"and God accepted the pleasing offering\"), substituting acceptance for olfaction and a noun (\"the offering\") for the sensory predicate (\"the aroma\")",
+      "saadia_he": "הקרבן הרצוי — סעדיה מתרגם את הפסוק האנתרופומורפי במיוחד \"וַיָּרַח יְהוָה אֶת-רֵיחַ הַנִּיחֹחַ\" כ\"פקבל אללה אלקרבאן אלמרצ'י\" (\"וקיבל ה' את הקרבן הרצוי\"), ומחליף את הרחת הריח בקבלה של הקרבן עצמו",
+      "mechanism": "anti-anthropomorphic double-substitution: (1) the verb is shifted from יָּרַח (\"smelled\") to قَبِلَ (\"accepted\") — God does not have a nose; (2) the object is shifted from רֵיחַ הַנִּיחֹחַ (\"the soothing aroma\") to אלקרבאן אלמרצ'י (\"the pleasing offering\") — Saadia gives a thing for God to receive (the sacrifice) rather than a sensory quality God would have to perceive",
+      "verses": [{"book": "Bereshit", "ch": 8, "v": 21}],
+      "sources": ["lane", "saadia-direct"]
+    },
+    {
+      "lemma_ja": "אורד",
+      "variants": ["פאורד", "אמרא", "מוגהא"],
+      "lemma_ar": "أورد",
+      "root": "و-ر-د",
+      "classical_en": "Form IV of ورد — \"to cause [something] to come forth, to send / dispatch\"; form I ورد in classical usage means \"to descend (to a watering place), to arrive at\"",
+      "classical_he": "בנין IV של ו-ר-ד — \"להוציא, לשלוח, להפנות [דבר־מה]\"; בנין I ורד בלשון הקלאסית: \"לרדת [אל מקור מים], להגיע אל\"",
+      "saadia_en": "brought forth — Saadia's stock substitution for the anthropomorphic וַיֵּרֶד יְהוָה (\"and the LORD descended\") at Babel: פאורד אללה אמרא מוגהא (\"and God brought forth a directed command\"). The divine descent is replaced by the dispatch of an executive command. The same idiom appears in verse 7 (\"let us go down, let us confound their language\" → \"let us bring forth a directed command, that we may scatter their languages\")",
+      "saadia_he": "הוציא, שלח — תרגומו הקבוע של סעדיה למילה האנתרופומורפית \"וַיֵּרֶד יְהוָה\" במגדל בבל: \"פאורד אללה אמרא מוגהא\" (\"וְהוציא ה' אֲמירה מכוונת\"). הירידה האלוהית מוחלפת בשליחת פקודה ביצועית. אותו הצירוף חוזר גם בפסוק ז (\"הָבָה נֵרְדָה וְנָבְלָה\" → \"הבה נוציא אֲמירה מכוונת, ובה נפזר את לשונותיהם\")",
+      "mechanism": "anti-anthropomorphic — paradigmatic Saadia substitution. God does not descend; God dispatches an \"amr muwajjah\" — a \"directed command,\" Saadia's recurring euphemism for divine intervention in human space. The same template appears throughout the Tafsir wherever the Hebrew has YHWH coming down (Sodom, Sinai, the Tent of Meeting). Blau notes that ورد itself is Saadia's standard calque for Hebrew יר״ד in his Bible translations",
+      "verses": [
+        {"book": "Bereshit", "ch": 11, "v": 5},
+        {"book": "Bereshit", "ch": 11, "v": 7}
+      ],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "ورد",
+        "sense": "Form I: \"to descend / הוריד\" — Blau explicitly labels this a \"תרגום שאילה (loan-translation) from יר״ד in Bible translations,\" citing Saadia's Tafsir on Tehillim 28:1 and 49:18 and noting that the calque is widespread in his renderings of Bible passages. Form IV (the form actually used here) is the causative of this calqued descent-sense — \"to cause to come down,\" i.e., to dispatch.",
+        "relation": "direct"
+      }
+    },
+    {
+      "lemma_ja": "אתון",
+      "lemma_ar": "أتّون",
+      "root": "أ-ت-ن (loanword from Aramaic אַתּוּנָא)",
+      "classical_en": "kiln, furnace (esp. a lime-kiln or potter's furnace); Arabic loanword from the Aramaic אַתּוּן, used in Daniel 3 for Nebuchadnezzar's fiery furnace",
+      "classical_he": "כבשן, אש (בפרט כבשן סיד או יוצרים); שאילה ערבית מן הארמית אַתּוּן, ובלשון הזאת בדניאל ג לכבשן נבוכדנאצר",
+      "saadia_en": "the furnace of the Chaldeans — Saadia renders אוּר כַּשְׂדִּים (\"Ur of the Chaldees,\" Abraham's hometown) as אתון אלכסדאניין (\"the furnace of the Chaldeans\"), reading the Hebrew אוּר not as the proper name of a Mesopotamian city but as \"fire / kiln\" — adopting the well-known rabbinic Aggadah of Abraham being cast into Nimrod's furnace",
+      "saadia_he": "כבשן הכשדים — סעדיה מתרגם את \"אוּר כַּשְׂדִּים\" (\"אור כשדים\", עיר הולדתו של אברהם) כ\"אתון אלכסדאניין\" (\"כבשן הכשדים\"), וקורא את \"אור\" העברי לא כשם עצם של עיר מסופוטמית, אלא כ\"אש / כבשן\" — בנוסח האגדה הידועה על השלכת אברהם לכבשן של נמרוד",
+      "mechanism": "midrashic identification / lexical re-reading: Saadia commits to the Bereshit Rabbah (38:13) tradition that Haran died in Nimrod's furnace and Abraham was tested there; the Aramaic loanword אַתּוּן (from Daniel 3) is deployed to bridge biblical Hebrew אוּר and the Aggadic furnace. The choice carries through to 11:31 (\"they went out from the furnace of the Chaldeans\")",
+      "verses": [
+        {"book": "Bereshit", "ch": 11, "v": 28},
+        {"book": "Bereshit", "ch": 11, "v": 31}
+      ],
+      "sources": ["lane", "saadia-direct"]
+    }
+  ]
+}
