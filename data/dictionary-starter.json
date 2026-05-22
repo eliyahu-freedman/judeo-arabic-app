@@ -49,7 +49,15 @@
       "pos": "conjunction",
       "gloss_en": "that (introducing a subordinate clause); if (إن)",
       "gloss_he": "כי, ש-",
-      "notes": "أن before subjunctive verb forms; إن before a clause expressing condition."
+      "notes": "أن before subjunctive verb forms; إن before a clause expressing condition.",
+      "variants": [
+        "אנה",
+        "אני",
+        "אנך",
+        "אנהא",
+        "אנהם",
+        "אנכם"
+      ]
     },
     {
       "id": "ala",
@@ -79,7 +87,10 @@
       "pos": "noun (m.)",
       "gloss_en": "night",
       "gloss_he": "לילה",
-      "notes": "Often with the article אלליל; pairs with נהאר (day)."
+      "notes": "Often with the article אלליל; pairs with נהאר (day).",
+      "variants": [
+        "לילה"
+      ]
     },
     {
       "id": "nahar",
@@ -99,7 +110,13 @@
       "pos": "preposition",
       "gloss_en": "in, inside, at, on",
       "gloss_he": "ב-, בתוך",
-      "notes": "Most common locative preposition."
+      "notes": "Most common locative preposition.",
+      "variants": [
+        "פיהא",
+        "פיהם",
+        "פיך",
+        "פיכם"
+      ]
     },
     {
       "id": "sama",
@@ -109,7 +126,11 @@
       "pos": "noun (f.)",
       "gloss_en": "sky, heaven",
       "gloss_he": "שמים",
-      "notes": "Usually with the article אלסמא. Plural: אלסמואת (Saadia v.1)."
+      "notes": "Usually with the article אלסמא. Plural: אלסמואת (Saadia v.1).",
+      "variants": [
+        "סמאך",
+        "סמאכם"
+      ]
     },
     {
       "id": "samawat",
@@ -189,7 +210,13 @@
       "pos": "noun (m.)",
       "gloss_en": "light",
       "gloss_he": "אור",
-      "notes": "Saadia's rendering of biblical אור."
+      "notes": "Saadia's rendering of biblical אור.",
+      "variants": [
+        "נורה",
+        "נורי",
+        "נורך",
+        "נורהא"
+      ]
     },
     {
       "id": "walamma",
@@ -279,7 +306,10 @@
       "pos": "relative pronoun",
       "gloss_en": "who, which, that (m. sg.)",
       "gloss_he": "אשר, ש-",
-      "notes": "Definite relative pronoun. F.sg: التي, pl: الذين / اللواتي."
+      "notes": "Definite relative pronoun. F.sg: التي, pl: الذين / اللواتي.",
+      "variants": [
+        "אלד'ין"
+      ]
     },
     {
       "id": "sair",
@@ -379,7 +409,13 @@
       "pos": "noun (m.)",
       "gloss_en": "face, surface",
       "gloss_he": "פנים",
-      "notes": "עלי' וגה אלמא = על פני המים."
+      "notes": "עלי' וגה אלמא = על פני המים.",
+      "variants": [
+        "וגהה",
+        "וגהך",
+        "וגההא",
+        "וגהי"
+      ]
     },
     {
       "id": "ghamr",
@@ -509,7 +545,14 @@
       "pos": "quantifier",
       "gloss_en": "every, all, each",
       "gloss_he": "כל",
-      "notes": "Often in construct: כל X = 'every X', 'all of X'."
+      "notes": "Often in construct: כל X = 'every X', 'all of X'.",
+      "variants": [
+        "כלה",
+        "כלהא",
+        "כלכם",
+        "כלנא",
+        "כלהם"
+      ]
     },
     {
       "id": "yabas",
@@ -529,7 +572,10 @@
       "pos": "noun (m. pl.)",
       "gloss_en": "seas",
       "gloss_he": "ימים",
-      "notes": "Plural of بحر."
+      "notes": "Plural of بحر.",
+      "variants": [
+        "בחר"
+      ]
     }
   ]
 }

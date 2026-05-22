@@ -12,6 +12,14 @@ export type Entry = {
   gloss_he: string;
   notes?: string;
   source?: "lane" | "blau" | "camel";
+  /**
+   * Explicit surface-form variants (inflected forms, common pronominal-suffix
+   * forms, orthographic alternates). Matched after the exact lemma but before
+   * the auto-dict fallback. Kept explicit rather than algorithmic so we never
+   * silently strip a suffix off a word that doesn't take one
+   * (e.g. אלאה ≠ stem אלא + suffix; מלאיכה ≠ stem מלאיכ + suffix).
+   */
+  variants?: string[];
 };
 
 const STARTER: Entry[] = starter.entries as Entry[];
@@ -21,6 +29,23 @@ const AUTO: Entry[] = auto.entries as Entry[];
 /** Strip trailing punctuation that gets glued onto a word (".,:;؛،"). */
 function stripPunct(tok: string): string {
   return tok.replace(/^[.,:;؛،"'\s]+|[.,:;؛،"'\s]+$/g, "");
+}
+
+/**
+ * Normalize Hebrew final ↔ medial letter forms. JA orthography uses final
+ * forms at word end (ן ם ץ ף ך), but when those letters appear mid-word in
+ * a variant or inflected form they take the medial form (נ מ צ פ כ). E.g.,
+ * the lemma אבן (with final nun) inflects to אבנה "his son" (with medial nun).
+ * We normalize finals → medials so the lookup keys match regardless of
+ * position.
+ */
+function normalizeFinals(s: string): string {
+  return s
+    .replace(/ך/g, "כ")
+    .replace(/ם/g, "מ")
+    .replace(/ן/g, "נ")
+    .replace(/ף/g, "פ")
+    .replace(/ץ/g, "צ");
 }
 
 /**
@@ -71,18 +96,28 @@ export function lookup(rawToken: string): Entry[] {
     }
   }
 
-  const seen = new Set<string>();
+  // Expand the candidate chain with final↔medial-normalized forms so e.g.
+  // אבנה (medial nun) can match the lemma אבן (final nun).
+  const triesNorm = Array.from(new Set([...tries, ...tries.map(normalizeFinals)]));
+
   // Priority 1: hand-curated starter dictionary (Bereshit-1 exemplars).
-  for (const t of tries) {
-    if (seen.has(t)) continue;
-    seen.add(t);
-    const hits = STARTER.filter((e) => e.lemma_ja === t);
+  // Match by exact lemma OR by an explicit variant.
+  for (const t of triesNorm) {
+    const hits = STARTER.filter(
+      (e) =>
+        normalizeFinals(e.lemma_ja) === t ||
+        (e.variants && e.variants.some((v) => normalizeFinals(v) === t)),
+    );
     if (hits.length) return hits;
   }
   // Priority 2: hand-curated Lane-cited dictionary (top-frequency tokens).
   // Walks the same candidate chain so prefixed variants resolve correctly.
-  for (const t of tries) {
-    const hits = LANE.filter((e) => e.lemma_ja === t);
+  for (const t of triesNorm) {
+    const hits = LANE.filter(
+      (e) =>
+        normalizeFinals(e.lemma_ja) === t ||
+        (e.variants && e.variants.some((v) => normalizeFinals(v) === t)),
+    );
     if (hits.length) return hits;
   }
   // Priority 3: auto-extracted Camel-tools dictionary (unverified, MSA).

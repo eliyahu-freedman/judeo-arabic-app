@@ -133,7 +133,10 @@
       "pos": "pronoun",
       "gloss_en": "I",
       "gloss_he": "אני",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "אני"
+      ]
     },
     {
       "id": "anta-you",
@@ -184,7 +187,15 @@
       "pos": "preposition",
       "gloss_en": "at, by, near; with; in the presence of",
       "gloss_he": "אצל, עם, בנוכחות",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "ענדה",
+        "ענדך",
+        "ענדי",
+        "ענדכם",
+        "ענדהא",
+        "ענדהם"
+      ]
     },
     {
       "id": "baad",
@@ -194,7 +205,14 @@
       "pos": "preposition / adverb",
       "gloss_en": "after; following; afterward",
       "gloss_he": "אחרי, אחר",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "בעדה",
+        "בעדך",
+        "בעדהם",
+        "בעדכם",
+        "בעדהא"
+      ]
     },
     {
       "id": "maa-with",
@@ -204,7 +222,16 @@
       "pos": "preposition",
       "gloss_en": "with, alongside, in the company of",
       "gloss_he": "עם, יחד עם",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "מעה",
+        "מעך",
+        "מעכם",
+        "מעהם",
+        "מענא",
+        "מעי",
+        "מעהא"
+      ]
     },
     {
       "id": "an-from",
@@ -214,7 +241,15 @@
       "pos": "preposition",
       "gloss_en": "from; about, concerning; away from",
       "gloss_he": "מן; על אודות; מעל",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "ענה",
+        "ענהם",
+        "ענהא",
+        "עני",
+        "ענך",
+        "ענכם"
+      ]
     },
     {
       "id": "amam",
@@ -246,7 +281,15 @@
       "gloss_en": "for indeed; for verily; because",
       "gloss_he": "כי הנה, שכן",
       "source": "lane",
-      "notes": "fa- (\"and / so\") + inna (asseverative particle)."
+      "notes": "fa- (\"and / so\") + inna (asseverative particle).",
+      "variants": [
+        "פאני",
+        "פאנה",
+        "פאנהא",
+        "פאנך",
+        "פאנכם",
+        "פאנהם"
+      ]
     },
     {
       "id": "li-anna",
@@ -256,7 +299,15 @@
       "pos": "conjunction",
       "gloss_en": "because, for the reason that",
       "gloss_he": "מפני ש־, כי",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "לאנה",
+        "לאני",
+        "לאנהא",
+        "לאנך",
+        "לאנהם",
+        "לאנכם"
+      ]
     },
     {
       "id": "laysa",
@@ -307,7 +358,13 @@
       "pos": "noun (m.)",
       "gloss_en": "son",
       "gloss_he": "בן",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "אבנה",
+        "אבני",
+        "אבנך",
+        "אבנהא"
+      ]
     },
     {
       "id": "bani-constr",
@@ -318,7 +375,13 @@
       "gloss_en": "sons of, children of (construct/oblique plural of ابن)",
       "gloss_he": "בני (כצורת נסמך)",
       "source": "lane",
-      "notes": "Typical in בני אסראיל \"the children of Israel\"."
+      "notes": "Typical in בני אסראיל \"the children of Israel\".",
+      "variants": [
+        "בניה",
+        "בניך",
+        "בניכם",
+        "בניהם"
+      ]
     },
     {
       "id": "balad",
@@ -329,7 +392,15 @@
       "gloss_en": "land, country, region; town, settled place",
       "gloss_he": "ארץ, מקום יישוב",
       "source": "lane",
-      "notes": "Saadia frequently uses بلد where the Hebrew has ארץ in the sense of a specific land or region."
+      "notes": "Saadia frequently uses بلد where the Hebrew has ארץ in the sense of a specific land or region.",
+      "variants": [
+        "בלדה",
+        "בלדך",
+        "בלדהם",
+        "בלדכם",
+        "בלדי",
+        "בלדנא"
+      ]
     },
     {
       "id": "sana",
@@ -349,7 +420,14 @@
       "pos": "noun (m., coll.)",
       "gloss_en": "people, folk, tribe, kinsmen",
       "gloss_he": "עם, קהל, בני שבט",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "קומה",
+        "קומי",
+        "קומך",
+        "קומהם",
+        "קומהא"
+      ]
     },
     {
       "id": "rajul",
@@ -371,7 +449,15 @@
       "gloss_en": "matter, command, affair, order; (as verb) commanded, ordered",
       "gloss_he": "דבר, ציווי, עניין; (כפועל) ציווה",
       "source": "lane",
-      "notes": "Same JA spelling for both noun amr and perfect verb amara — context disambiguates."
+      "notes": "Same JA spelling for both noun amr and perfect verb amara — context disambiguates.",
+      "variants": [
+        "אמרה",
+        "אמרך",
+        "אמרכם",
+        "אמרת",
+        "אמרי",
+        "אמרנא"
+      ]
     },
     {
       "id": "khiba",
@@ -393,7 +479,12 @@
       "gloss_en": "altar; place of slaughter or sacrifice",
       "gloss_he": "מזבח",
       "source": "lane",
-      "notes": "Standard rendering of מזבח."
+      "notes": "Standard rendering of מזבח.",
+      "variants": [
+        "מד'בחה",
+        "מד'בחך",
+        "מד'בחכם"
+      ]
     },
     {
       "id": "jabal",
@@ -423,7 +514,12 @@
       "pos": "noun (m.)",
       "gloss_en": "place, location, spot",
       "gloss_he": "מקום",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "מוצ'עה",
+        "מוצ'עי",
+        "מוצ'עך"
+      ]
     },
     {
       "id": "bayt",
@@ -433,7 +529,15 @@
       "pos": "noun (m.)",
       "gloss_en": "house, dwelling; tent; household",
       "gloss_he": "בית",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "ביתה",
+        "ביתהא",
+        "ביתך",
+        "ביתי",
+        "ביתכם",
+        "ביתהם"
+      ]
     },
     {
       "id": "malik",
@@ -443,7 +547,14 @@
       "pos": "noun (m.)",
       "gloss_en": "king, sovereign",
       "gloss_he": "מלך",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "מלכה",
+        "מלכי",
+        "מלכך",
+        "מלכהם",
+        "מלכהא"
+      ]
     },
     {
       "id": "dhahab-gold",
@@ -464,7 +575,10 @@
       "pos": "numeral",
       "gloss_en": "hundred (100)",
       "gloss_he": "מאה",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "מאית"
+      ]
     },
     {
       "id": "ashr-ten",
@@ -474,7 +588,10 @@
       "pos": "numeral",
       "gloss_en": "ten (10)",
       "gloss_he": "עשר, עשרה",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "עשרה"
+      ]
     },
     {
       "id": "sabaa-seven",
@@ -484,7 +601,10 @@
       "pos": "numeral",
       "gloss_en": "seven (7)",
       "gloss_he": "שבע, שבעה",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "סבע"
+      ]
     },
     {
       "id": "yad",
@@ -495,7 +615,16 @@
       "gloss_en": "my hand; hand(s) (oblique/dual form of yad)",
       "gloss_he": "ידי; יד (בצורה נטויה)",
       "source": "lane",
-      "notes": "Surface form ידי = yad + 1sg suffix OR dual oblique \"two hands\". Lemma yad is \"hand\"."
+      "notes": "Surface form ידי = yad + 1sg suffix OR dual oblique \"two hands\". Lemma yad is \"hand\".",
+      "variants": [
+        "ידיך",
+        "ידיה",
+        "ידיכם",
+        "ידיי",
+        "ידיהם",
+        "ידיהא",
+        "ידינא"
+      ]
     },
     {
       "id": "kana",
@@ -526,7 +655,10 @@
       "pos": "verb",
       "gloss_en": "said, spoke (3sg.m. perfect)",
       "gloss_he": "אמר",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "קאלת"
+      ]
     },
     {
       "id": "kallam",
@@ -568,7 +700,10 @@
       "gloss_en": "Moses",
       "gloss_he": "משה",
       "source": "lane",
-      "notes": "Final yod marks Arabic alif maqṣūra (ى)."
+      "notes": "Final yod marks Arabic alif maqṣūra (ى).",
+      "variants": [
+        "מוסה"
+      ]
     },
     {
       "id": "harun",
@@ -618,7 +753,10 @@
       "pos": "proper noun",
       "gloss_en": "Joseph",
       "gloss_he": "יוסף",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "יוסיף"
+      ]
     },
     {
       "id": "ibrahim",
@@ -628,7 +766,10 @@
       "pos": "proper noun",
       "gloss_en": "Abraham",
       "gloss_he": "אברהם",
-      "source": "lane"
+      "source": "lane",
+      "variants": [
+        "אברהם"
+      ]
     },
     {
       "id": "lahum-to-them",
@@ -717,6 +858,504 @@
       "gloss_he": "ויאמר, ואז אמר",
       "source": "lane",
       "notes": "fa- (\"and / so\") + qāla (\"said\"). The most common JA narrative tag."
+    },
+    {
+      "id": "ila-to",
+      "lemma_ja": "אלי",
+      "lemma_ar": "إِلَى",
+      "root": "—",
+      "pos": "preposition",
+      "gloss_en": "to, toward, until, up to",
+      "gloss_he": "אֶל, עד",
+      "source": "lane",
+      "variants": [
+        "אליה",
+        "אליהם",
+        "אליהא",
+        "אליך",
+        "אליכם",
+        "אלינא",
+        "אלי'"
+      ]
+    },
+    {
+      "id": "li-to",
+      "lemma_ja": "ל",
+      "lemma_ar": "لِـ",
+      "root": "—",
+      "pos": "preposition (proclitic)",
+      "gloss_en": "to, for, belonging to (proclitic preposition)",
+      "gloss_he": "ל־",
+      "source": "lane",
+      "notes": "The preposition ل- prefixes onto the following word. Standalone surface forms (with pronominal suffix) are listed as variants. The bare letter ל is also a verbal modal prefix ('that he should'), context-dependent.",
+      "variants": [
+        "לה",
+        "להא",
+        "לי",
+        "לך",
+        "לכם",
+        "לנא",
+        "לכי",
+        "לכן"
+      ]
+    },
+    {
+      "id": "rabb-lord",
+      "lemma_ja": "רב",
+      "lemma_ar": "رَبّ",
+      "root": "r-b-b",
+      "pos": "noun (m.)",
+      "gloss_en": "lord, master; the Lord (God)",
+      "gloss_he": "אדון, רב; ה' (כאשר מיודע או מסומך)",
+      "source": "lane",
+      "variants": [
+        "רבך",
+        "רבכם",
+        "רבה",
+        "רבהם",
+        "רבהא",
+        "רבי",
+        "רבנא",
+        "אלרב"
+      ]
+    },
+    {
+      "id": "ab-father",
+      "lemma_ja": "אב",
+      "lemma_ar": "أَب",
+      "root": "ʔ-b-w",
+      "pos": "noun (m.)",
+      "gloss_en": "father, ancestor; (pl. ābāʔ) forefathers",
+      "gloss_he": "אב",
+      "source": "lane",
+      "notes": "Oblique stem before pronominal suffixes is أبي- (אבי-): אביה 'her father', אבוה 'his father' (nominative أبوه).",
+      "variants": [
+        "אביה",
+        "אביהא",
+        "אביך",
+        "אבוה",
+        "אבוהא",
+        "אבי",
+        "אבנא",
+        "אבאיהם",
+        "אבאינא",
+        "אבאיכם"
+      ]
+    },
+    {
+      "id": "illa-except",
+      "lemma_ja": "אלא",
+      "lemma_ar": "إِلَّا",
+      "root": "—",
+      "pos": "particle",
+      "gloss_en": "except, but, save (introducing an exception)",
+      "gloss_he": "אֶלָּא, אך, רק",
+      "source": "lane"
+    },
+    {
+      "id": "allati-rel-f",
+      "lemma_ja": "אלתי",
+      "lemma_ar": "اَلَّتِي",
+      "root": "—",
+      "pos": "relative pronoun (f. sg.)",
+      "gloss_en": "who, which, that (f. sg.)",
+      "gloss_he": "אשר, ש־ (נקבה)",
+      "source": "lane",
+      "notes": "Feminine counterpart of اَلَّذِي / אלד'י. Plural forms: alladhīna (אלד'ין m.pl.), allātī (אללאתי f.pl.)."
+    },
+    {
+      "id": "hum-they",
+      "lemma_ja": "הם",
+      "lemma_ar": "هُمْ",
+      "root": "—",
+      "pos": "pronoun",
+      "gloss_en": "they (m. pl.)",
+      "gloss_he": "הֵם",
+      "source": "lane",
+      "variants": [
+        "הן",
+        "המא"
+      ]
+    },
+    {
+      "id": "antum-you-pl",
+      "lemma_ja": "אנתם",
+      "lemma_ar": "أَنْتُمْ",
+      "root": "—",
+      "pos": "pronoun",
+      "gloss_en": "you (m. pl.)",
+      "gloss_he": "אַתֶּם",
+      "source": "lane",
+      "variants": [
+        "אנתי",
+        "אנתן",
+        "אנתמא"
+      ]
+    },
+    {
+      "id": "ahl-family",
+      "lemma_ja": "אהל",
+      "lemma_ar": "أَهْل",
+      "root": "ʔ-h-l",
+      "pos": "noun (m. coll.)",
+      "gloss_en": "people, family, household, kin; inhabitants (of a place)",
+      "gloss_he": "בני־בית, אנשי, יושבי",
+      "source": "lane",
+      "variants": [
+        "אהלה",
+        "אהלהא",
+        "אהלי",
+        "אהלך",
+        "אהלכם",
+        "אהלהם",
+        "אלאהל"
+      ]
+    },
+    {
+      "id": "bab-door",
+      "lemma_ja": "באב",
+      "lemma_ar": "بَاب",
+      "root": "b-w-b",
+      "pos": "noun (m.)",
+      "gloss_en": "door, gate, entrance",
+      "gloss_he": "פתח, שער",
+      "source": "lane",
+      "variants": [
+        "באבה",
+        "באבהא",
+        "אבואב",
+        "אלאבואב",
+        "אלבאב"
+      ]
+    },
+    {
+      "id": "sibt-tribe",
+      "lemma_ja": "סבט",
+      "lemma_ar": "سِبْط",
+      "root": "s-b-ṭ",
+      "pos": "noun (m.)",
+      "gloss_en": "tribe (esp. of Israel); grandson, descendant",
+      "gloss_he": "שבט",
+      "source": "lane",
+      "notes": "Saadia's stock rendering of Hebrew שבט when designating one of the twelve tribes. For 'rod/staff' Saadia uses قَضِيب / קצ'יב.",
+      "variants": [
+        "אסבאט",
+        "אלאסבאט",
+        "סבטה",
+        "אלסבט"
+      ]
+    },
+    {
+      "id": "alf-thousand",
+      "lemma_ja": "אלף",
+      "lemma_ar": "أَلْف",
+      "root": "ʔ-l-f",
+      "pos": "numeral",
+      "gloss_en": "thousand (1,000); (pl. ālāf) thousands",
+      "gloss_he": "אלף",
+      "source": "lane",
+      "variants": [
+        "אלפא",
+        "אלפי",
+        "אלאף",
+        "אלאלאף",
+        "אלפין"
+      ]
+    },
+    {
+      "id": "quds-sanctuary",
+      "lemma_ja": "קדס",
+      "lemma_ar": "قُدْس",
+      "root": "q-d-s",
+      "pos": "noun (m.)",
+      "gloss_en": "sanctity, holiness; (with article: al-quds) the sanctuary, the holy precinct",
+      "gloss_he": "קודש, מקדש",
+      "source": "lane",
+      "notes": "Saadia's regular gloss for Hebrew מקדש / קדש (the Tabernacle's most holy region) is אלקדס.",
+      "variants": [
+        "אלקדס",
+        "קדסה",
+        "קדסי",
+        "אלאקדאס"
+      ]
+    },
+    {
+      "id": "maskan-tabernacle",
+      "lemma_ja": "מסכן",
+      "lemma_ar": "مَسْكَن",
+      "root": "s-k-n",
+      "pos": "noun (m.)",
+      "gloss_en": "dwelling, abode; (Saadia's gloss for Hebrew מִשְׁכָּן) the Tabernacle",
+      "gloss_he": "משכן",
+      "source": "lane",
+      "variants": [
+        "אלמסכן",
+        "מסכנה",
+        "מסאכן"
+      ]
+    },
+    {
+      "id": "qurban-offering",
+      "lemma_ja": "קרבאן",
+      "lemma_ar": "قُرْبَان",
+      "root": "q-r-b",
+      "pos": "noun (m.)",
+      "gloss_en": "offering, oblation, sacrifice (that which is brought near)",
+      "gloss_he": "קרבן",
+      "source": "lane",
+      "notes": "Standard Saadianic rendering for Hebrew קרבן and for the 'pleasing aroma' (ריח ניחוח) — see the divergence card for קרבאן (Gen 8:21) where Saadia uses 'pleasing offering' instead of 'pleasing aroma' to avoid divine olfaction.",
+      "variants": [
+        "אלקרבאן",
+        "קראבין",
+        "קרבאנה",
+        "קרבאנהם",
+        "קרבאנכם"
+      ]
+    },
+    {
+      "id": "yitzhaq-isaac",
+      "lemma_ja": "יצחק",
+      "lemma_ar": "إِسْحَاق",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Isaac (son of Abraham; second patriarch)",
+      "gloss_he": "יצחק",
+      "source": "lane",
+      "notes": "Saadia retains the Hebrew form יצחק throughout the Tafsir; standard Arabic إسحاق is given here for orientation.",
+      "variants": [
+        "ויצחק",
+        "ליצחק",
+        "באסחאק",
+        "אסחאק"
+      ]
+    },
+    {
+      "id": "esav-esau",
+      "lemma_ja": "עשו",
+      "lemma_ar": "عِيسُو",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Esau (son of Isaac; ancestor of Edom)",
+      "gloss_he": "עשו",
+      "source": "lane",
+      "variants": [
+        "ועשו",
+        "לעשו",
+        "עיסו"
+      ]
+    },
+    {
+      "id": "kanaan",
+      "lemma_ja": "כנעאן",
+      "lemma_ar": "كَنْعَان",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Canaan (the land; also the son of Ham)",
+      "gloss_he": "כנען",
+      "source": "lane",
+      "variants": [
+        "וכנעאן",
+        "כנעאני",
+        "אלכנעאני",
+        "אלכנעאניין"
+      ]
+    },
+    {
+      "id": "akhar-other",
+      "lemma_ja": "אכ'ר",
+      "lemma_ar": "آخَر",
+      "root": "ʔ-kh-r",
+      "pos": "adjective / pronoun",
+      "gloss_en": "other, another; (al-ākhir) the last, the latter",
+      "gloss_he": "אחר, אחרון",
+      "source": "lane",
+      "variants": [
+        "אכ'רי",
+        "אכ'רין",
+        "אלאכ'ר",
+        "אלאכ'ירה",
+        "אכ'רה",
+        "אכ'רהא"
+      ]
+    },
+    {
+      "id": "shay-thing",
+      "lemma_ja": "שי",
+      "lemma_ar": "شَيْء",
+      "root": "sh-y-ʔ",
+      "pos": "noun (m.)",
+      "gloss_en": "thing, anything; (in negation) nothing",
+      "gloss_he": "דבר, משהו",
+      "source": "lane",
+      "variants": [
+        "שיא",
+        "שייא",
+        "אשיא",
+        "אלאשיא",
+        "אשיאיהם"
+      ]
+    },
+    {
+      "id": "ayyam-days",
+      "lemma_ja": "איאם",
+      "lemma_ar": "أَيَّام",
+      "root": "y-w-m",
+      "pos": "noun (m. pl.)",
+      "gloss_en": "days (broken plural of yawm)",
+      "gloss_he": "ימים",
+      "source": "lane",
+      "variants": [
+        "אלאיאם",
+        "אייאם",
+        "באיאם",
+        "ואיאם",
+        "איאמה",
+        "איאמך",
+        "איאמכם"
+      ]
+    },
+    {
+      "id": "umma-nation",
+      "lemma_ja": "אמה",
+      "lemma_ar": "أُمَّة",
+      "root": "ʔ-m-m",
+      "pos": "noun (f.)",
+      "gloss_en": "nation, community, people",
+      "gloss_he": "אומה, עם",
+      "source": "lane",
+      "variants": [
+        "אלאמה",
+        "אמם",
+        "אלאמם",
+        "אממא",
+        "אמתי",
+        "אמתה"
+      ]
+    },
+    {
+      "id": "dahr-age",
+      "lemma_ja": "דהר",
+      "lemma_ar": "دَهْر",
+      "root": "d-h-r",
+      "pos": "noun (m.)",
+      "gloss_en": "age, era, lifetime; perpetuity, lasting time",
+      "gloss_he": "דור, עידן, לעולם",
+      "source": "lane",
+      "variants": [
+        "אלדהר",
+        "דהרה",
+        "אלדהור",
+        "דהורא"
+      ]
+    },
+    {
+      "id": "barr-wilderness",
+      "lemma_ja": "בר",
+      "lemma_ar": "بَرّ",
+      "root": "b-r-r",
+      "pos": "noun (m.)",
+      "gloss_en": "wilderness, desert, open country; dry land (vs. sea)",
+      "gloss_he": "מדבר, יבשה",
+      "source": "lane",
+      "notes": "Saadia's regular gloss for Hebrew מדבר. The same consonants spell barr 'pious / dutiful' and bīrr 'righteousness' — context disambiguates.",
+      "variants": [
+        "אלבר",
+        "ברה",
+        "אלבריה"
+      ]
+    },
+    {
+      "id": "askar-army",
+      "lemma_ja": "עסכר",
+      "lemma_ar": "عَسْكَر",
+      "root": "ʕ-s-k-r",
+      "pos": "noun (m.)",
+      "gloss_en": "army, host, troops; military camp",
+      "gloss_he": "צבא, מחנה",
+      "source": "lane",
+      "variants": [
+        "אלעסכר",
+        "עסאכר",
+        "עסכרה",
+        "עסכרהם"
+      ]
+    },
+    {
+      "id": "fidda-silver",
+      "lemma_ja": "פצ'ה",
+      "lemma_ar": "فِضَّة",
+      "root": "f-ḍ-ḍ",
+      "pos": "noun (f.)",
+      "gloss_en": "silver, silver coin",
+      "gloss_he": "כסף",
+      "source": "lane",
+      "variants": [
+        "אלפצ'ה",
+        "פצ'תה",
+        "פצ'תך"
+      ]
+    },
+    {
+      "id": "ishrun-twenty",
+      "lemma_ja": "עשרין",
+      "lemma_ar": "عِشْرُون",
+      "root": "ʕ-sh-r",
+      "pos": "numeral",
+      "gloss_en": "twenty (20)",
+      "gloss_he": "עשרים",
+      "source": "lane"
+    },
+    {
+      "id": "zawj-spouse",
+      "lemma_ja": "זוג",
+      "lemma_ar": "زَوْج",
+      "root": "z-w-j",
+      "pos": "noun (m.)",
+      "gloss_en": "spouse, mate, pair; (in context) wife",
+      "gloss_he": "בן/בת זוג, אישה",
+      "source": "lane",
+      "variants": [
+        "זוגה",
+        "זוגהא",
+        "זוגתה",
+        "זוגתך",
+        "אזואג"
+      ]
+    },
+    {
+      "id": "ila-h-god",
+      "lemma_ja": "אלאה",
+      "lemma_ar": "إِلَه",
+      "root": "ʔ-l-h",
+      "pos": "noun (m.)",
+      "gloss_en": "god, deity (with article 'al-' → 'the God' = Allāh)",
+      "gloss_he": "אֵל, אלוה",
+      "source": "lane",
+      "notes": "The root of אללה (Allāh, 'the God'). Saadia uses אלאה for אלהים when not referring to the unique God of Israel.",
+      "variants": [
+        "אלהה",
+        "אלאהך",
+        "אלאהכם",
+        "אלאההם",
+        "אלהתה",
+        "אלאלהה",
+        "אלאלאה"
+      ]
+    },
+    {
+      "id": "akhir-last",
+      "lemma_ja": "אכ'ר",
+      "lemma_ar": "آخِر",
+      "root": "ʔ-kh-r",
+      "pos": "noun (m.)",
+      "gloss_en": "end, last part, latter portion",
+      "gloss_he": "אחרית, סוף",
+      "source": "lane",
+      "notes": "Homograph with آخَر 'other' (above); same consonants, different vocalization.",
+      "variants": [
+        "אכ'ירה",
+        "אלאכ'ר"
+      ]
     }
   ]
 }
