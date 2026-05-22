@@ -164,6 +164,53 @@ export default function BlauTributePage() {
 
       <section className="mb-12">
         <h2 className="text-xs uppercase tracking-[0.3em] text-wine mb-4">
+          Citation policy
+        </h2>
+        <div className="space-y-4 text-[14.5px] leading-relaxed text-ink/80">
+          <p>
+            We try to cite Blau{" "}
+            <span className="italic">sparingly</span>, on the principle that a
+            posthumous user of a dictionary should not borrow more than the
+            argument requires. Concretely:
+          </p>
+          <ul className="space-y-2.5 pl-5 list-disc marker:text-wine/50">
+            <li>
+              <span className="font-medium text-ink">Standard classical
+              Arabic words</span> &mdash; the bulk of the Tafsir vocabulary
+              &mdash; are glossed in the tap-to-define panel with a small{" "}
+              <span className="inline-block text-[10px] uppercase tracking-[0.2em] text-wine/70 border border-wine/30 rounded-sm px-1.5 py-0.5">
+                Lane
+              </span>{" "}
+              badge. These are paraphrases of the well-known senses any
+              classical Arabic dictionary records; Lane&apos;s 19th-century
+              English lexicon is the canonical reference, and our entries
+              point readers there rather than reproducing his prose.
+            </li>
+            <li>
+              <span className="font-medium text-ink">Saadia-specific senses
+              that diverge from classical Arabic</span> &mdash; calques on
+              Hebrew, anti-anthropomorphic substitutions, midrashic
+              identifications, philosophical vocabulary &mdash; surface as
+              &ldquo;Tafsir twist&rdquo; cards above the gloss panel. These
+              are the entries where Blau&apos;s Dictionary genuinely earns
+              its place: the standard lexica don&apos;t cover the shift,
+              and Blau does.
+            </li>
+            <li>
+              <span className="font-medium text-ink">When Blau backs a card
+              directly</span>, we name the root, quote the relevant Hebrew
+              gloss, and link the entry to this page. When the backing is
+              looser (Blau attests the root but in a related form, or in a
+              different semantic field), we mark the relation honestly in
+              the card&apos;s &ldquo;Sources&rdquo; row rather than
+              overclaiming.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-xs uppercase tracking-[0.3em] text-wine mb-4">
           Where, exactly, we cite him
         </h2>
         <p className="text-[14.5px] leading-relaxed text-ink/80 mb-5">

@@ -1,4 +1,5 @@
 import starter from "@/data/dictionary-starter.json";
+import lane from "@/data/dictionary-lane.json";
 import auto from "@/data/dictionary-auto.json";
 
 export type Entry = {
@@ -14,6 +15,7 @@ export type Entry = {
 };
 
 const STARTER: Entry[] = starter.entries as Entry[];
+const LANE: Entry[] = lane.entries as Entry[];
 const AUTO: Entry[] = auto.entries as Entry[];
 
 /** Strip trailing punctuation that gets glued onto a word (".,:;؛،"). */
@@ -70,14 +72,21 @@ export function lookup(rawToken: string): Entry[] {
   }
 
   const seen = new Set<string>();
+  // Priority 1: hand-curated starter dictionary (Bereshit-1 exemplars).
   for (const t of tries) {
     if (seen.has(t)) continue;
     seen.add(t);
     const hits = STARTER.filter((e) => e.lemma_ja === t);
     if (hits.length) return hits;
   }
-  // Fallback: auto-extracted (Lane). Auto dict is keyed by normalizeToken so
-  // only that form will hit — no need to walk the candidate chain again.
+  // Priority 2: hand-curated Lane-cited dictionary (top-frequency tokens).
+  // Walks the same candidate chain so prefixed variants resolve correctly.
+  for (const t of tries) {
+    const hits = LANE.filter((e) => e.lemma_ja === t);
+    if (hits.length) return hits;
+  }
+  // Priority 3: auto-extracted Camel-tools dictionary (unverified, MSA).
+  // Keyed by normalizeToken — single lookup, no chain.
   const autoKey = normalizeToken(rawToken);
   if (autoKey) {
     const hits = AUTO.filter((e) => e.lemma_ja === autoKey);

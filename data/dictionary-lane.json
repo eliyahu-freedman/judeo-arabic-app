@@ -1,0 +1,722 @@
+{
+  "_note": "Lane-cited dictionary entries — standard classical Arabic meanings for high-frequency JA tokens in Saadia's Tafsir. Hand-curated against the corpus; not auto-generated. `source: \"lane\"` means \"this is the standard classical Arabic sense, for which Lane's Lexicon is the canonical English reference\" — entries paraphrase, they are not verbatim Lane quotes. For Saadia-specific or Blau-divergent senses, see data/tafsir-divergence.json. For tribute and Blau-citation policy, see /about/blau.",
+  "_source": "Lane's Lexicon (E.W. Lane, An Arabic-English Lexicon, 1863-1893; public domain). Roots verified against the Perseus TEI edition at ~/Tools/arabic-lexicon/lane-xml.",
+  "_scope": "Hand-curated 2026-05-21; first batch ≈70 entries focused on top-frequency tokens from the Bereshit-Devarim corpus that are NOT in tafsir-divergence.json. Inflected surface forms (suffixed prepositions, fa-prefixed perfects) included where they appear ≥100x in the corpus to improve tap-to-define UX without yet extending the prefix/suffix-stripping logic in lib/lookup.ts.",
+  "entries": [
+    {
+      "id": "la-neg",
+      "lemma_ja": "לא",
+      "lemma_ar": "لا",
+      "root": "—",
+      "pos": "particle",
+      "gloss_en": "no; not (negates verbs in non-past, nouns, and clauses)",
+      "gloss_he": "לא",
+      "source": "lane"
+    },
+    {
+      "id": "thumma",
+      "lemma_ja": "ת'ם",
+      "lemma_ar": "ثُمَّ",
+      "root": "—",
+      "pos": "conjunction",
+      "gloss_en": "then, thereupon, afterward",
+      "gloss_he": "אחר כך, ואז",
+      "source": "lane",
+      "notes": "Apostrophe in JA orthography marks the Arabic letter ث (thāʔ)."
+    },
+    {
+      "id": "lam-neg-past",
+      "lemma_ja": "לם",
+      "lemma_ar": "لم",
+      "root": "—",
+      "pos": "particle",
+      "gloss_en": "not (negates past; governs jussive verb)",
+      "gloss_he": "לא (שולל פעולה בעבר)",
+      "source": "lane"
+    },
+    {
+      "id": "aw-or",
+      "lemma_ja": "או",
+      "lemma_ar": "أو",
+      "root": "—",
+      "pos": "conjunction",
+      "gloss_en": "or",
+      "gloss_he": "או",
+      "source": "lane"
+    },
+    {
+      "id": "huwa",
+      "lemma_ja": "הו",
+      "lemma_ar": "هو",
+      "root": "—",
+      "pos": "pronoun",
+      "gloss_en": "he; it (m.)",
+      "gloss_he": "הוא",
+      "source": "lane"
+    },
+    {
+      "id": "hiya",
+      "lemma_ja": "הי",
+      "lemma_ar": "هي",
+      "root": "—",
+      "pos": "pronoun",
+      "gloss_en": "she; it (f.)",
+      "gloss_he": "היא",
+      "source": "lane"
+    },
+    {
+      "id": "qad",
+      "lemma_ja": "קד",
+      "lemma_ar": "قد",
+      "root": "—",
+      "pos": "particle",
+      "gloss_en": "verily; already (with past); perhaps, sometimes (with non-past)",
+      "gloss_he": "כבר; אכן",
+      "source": "lane"
+    },
+    {
+      "id": "kama",
+      "lemma_ja": "כמא",
+      "lemma_ar": "كما",
+      "root": "—",
+      "pos": "conjunction",
+      "gloss_en": "just as, as, like",
+      "gloss_he": "כמו ש־, כפי ש־",
+      "source": "lane"
+    },
+    {
+      "id": "idh",
+      "lemma_ja": "אד",
+      "lemma_ar": "إذ",
+      "root": "—",
+      "pos": "conjunction",
+      "gloss_en": "when; since, as; behold (introducing past narration)",
+      "gloss_he": "כאשר; הנה (בסיפור עבר)",
+      "source": "lane"
+    },
+    {
+      "id": "idha",
+      "lemma_ja": "אד'א",
+      "lemma_ar": "إذا",
+      "root": "—",
+      "pos": "conjunction",
+      "gloss_en": "when, whenever, if (real condition)",
+      "gloss_he": "כאשר, אם",
+      "source": "lane",
+      "notes": "Apostrophe in JA marks ذ (dhāl)."
+    },
+    {
+      "id": "hatta",
+      "lemma_ja": "חתי",
+      "lemma_ar": "حتّى",
+      "root": "—",
+      "pos": "preposition / conjunction",
+      "gloss_en": "until; up to; even; so that",
+      "gloss_he": "עד; אפילו; כדי ש־",
+      "source": "lane"
+    },
+    {
+      "id": "ya-voc",
+      "lemma_ja": "יא",
+      "lemma_ar": "يا",
+      "root": "—",
+      "pos": "particle",
+      "gloss_en": "O! (vocative, calling out)",
+      "gloss_he": "הו! (קריאה)",
+      "source": "lane"
+    },
+    {
+      "id": "ana-i",
+      "lemma_ja": "אנא",
+      "lemma_ar": "أنا",
+      "root": "—",
+      "pos": "pronoun",
+      "gloss_en": "I",
+      "gloss_he": "אני",
+      "source": "lane"
+    },
+    {
+      "id": "anta-you",
+      "lemma_ja": "אנת",
+      "lemma_ar": "أنت",
+      "root": "—",
+      "pos": "pronoun",
+      "gloss_en": "you (m.sg)",
+      "gloss_he": "אתה",
+      "source": "lane"
+    },
+    {
+      "id": "bal",
+      "lemma_ja": "בל",
+      "lemma_ar": "بل",
+      "root": "—",
+      "pos": "particle",
+      "gloss_en": "rather; on the contrary; nay",
+      "gloss_he": "אלא; אדרבה",
+      "source": "lane"
+    },
+    {
+      "id": "ay-namely",
+      "lemma_ja": "אי",
+      "lemma_ar": "أي",
+      "root": "—",
+      "pos": "particle / pronoun",
+      "gloss_en": "namely; that is; (interrogative) which?",
+      "gloss_he": "כלומר; (שאלה) איזה?",
+      "source": "lane"
+    },
+    {
+      "id": "aydan",
+      "lemma_ja": "איצ'א",
+      "lemma_ar": "أيضًا",
+      "root": "ʕ-w-ḍ",
+      "pos": "adverb",
+      "gloss_en": "also, too, likewise",
+      "gloss_he": "גם, אף",
+      "source": "lane",
+      "notes": "Adverbial accusative of عَوْض. Apostrophe marks ض (ḍād)."
+    },
+    {
+      "id": "ind",
+      "lemma_ja": "ענד",
+      "lemma_ar": "عند",
+      "root": "—",
+      "pos": "preposition",
+      "gloss_en": "at, by, near; with; in the presence of",
+      "gloss_he": "אצל, עם, בנוכחות",
+      "source": "lane"
+    },
+    {
+      "id": "baad",
+      "lemma_ja": "בעד",
+      "lemma_ar": "بعد",
+      "root": "b-ʕ-d",
+      "pos": "preposition / adverb",
+      "gloss_en": "after; following; afterward",
+      "gloss_he": "אחרי, אחר",
+      "source": "lane"
+    },
+    {
+      "id": "maa-with",
+      "lemma_ja": "מע",
+      "lemma_ar": "مع",
+      "root": "—",
+      "pos": "preposition",
+      "gloss_en": "with, alongside, in the company of",
+      "gloss_he": "עם, יחד עם",
+      "source": "lane"
+    },
+    {
+      "id": "an-from",
+      "lemma_ja": "ען",
+      "lemma_ar": "عن",
+      "root": "—",
+      "pos": "preposition",
+      "gloss_en": "from; about, concerning; away from",
+      "gloss_he": "מן; על אודות; מעל",
+      "source": "lane"
+    },
+    {
+      "id": "amam",
+      "lemma_ja": "אמאם",
+      "lemma_ar": "أمام",
+      "root": "ʔ-m-m",
+      "pos": "preposition",
+      "gloss_en": "in front of, before, ahead of",
+      "gloss_he": "לפני, מול",
+      "source": "lane"
+    },
+    {
+      "id": "falamma",
+      "lemma_ja": "פלמא",
+      "lemma_ar": "فلمّا",
+      "root": "—",
+      "pos": "conjunction",
+      "gloss_en": "and when, as soon as",
+      "gloss_he": "וכאשר, ומיד כש־",
+      "source": "lane",
+      "notes": "fa- (\"and / so\") + lammā (\"when [in past]\")."
+    },
+    {
+      "id": "fa-inna",
+      "lemma_ja": "פאן",
+      "lemma_ar": "فإنّ",
+      "root": "—",
+      "pos": "particle",
+      "gloss_en": "for indeed; for verily; because",
+      "gloss_he": "כי הנה, שכן",
+      "source": "lane",
+      "notes": "fa- (\"and / so\") + inna (asseverative particle)."
+    },
+    {
+      "id": "li-anna",
+      "lemma_ja": "לאן",
+      "lemma_ar": "لأنّ",
+      "root": "—",
+      "pos": "conjunction",
+      "gloss_en": "because, for the reason that",
+      "gloss_he": "מפני ש־, כי",
+      "source": "lane"
+    },
+    {
+      "id": "laysa",
+      "lemma_ja": "ליס",
+      "lemma_ar": "ليس",
+      "root": "l-y-s",
+      "pos": "verb (defective)",
+      "gloss_en": "is not; there is not",
+      "gloss_he": "אין, אינו",
+      "source": "lane",
+      "notes": "Negative copula; conjugates like a perfect verb but always with present sense."
+    },
+    {
+      "id": "hadha",
+      "lemma_ja": "הד'א",
+      "lemma_ar": "هذا",
+      "root": "—",
+      "pos": "pronoun (demonstrative)",
+      "gloss_en": "this (m.sg)",
+      "gloss_he": "זה",
+      "source": "lane"
+    },
+    {
+      "id": "hadhihi",
+      "lemma_ja": "הד'ה",
+      "lemma_ar": "هذه",
+      "root": "—",
+      "pos": "pronoun (demonstrative)",
+      "gloss_en": "this (f.sg)",
+      "gloss_he": "זאת",
+      "source": "lane"
+    },
+    {
+      "id": "haulai",
+      "lemma_ja": "הולאי",
+      "lemma_ar": "هؤلاء",
+      "root": "—",
+      "pos": "pronoun (demonstrative)",
+      "gloss_en": "these (pl., m. or f.)",
+      "gloss_he": "אלה, אלו",
+      "source": "lane"
+    },
+    {
+      "id": "ibn",
+      "lemma_ja": "אבן",
+      "lemma_ar": "ابن",
+      "root": "b-n-w",
+      "pos": "noun (m.)",
+      "gloss_en": "son",
+      "gloss_he": "בן",
+      "source": "lane"
+    },
+    {
+      "id": "bani-constr",
+      "lemma_ja": "בני",
+      "lemma_ar": "بني",
+      "root": "b-n-w",
+      "pos": "noun (m.pl. construct)",
+      "gloss_en": "sons of, children of (construct/oblique plural of ابن)",
+      "gloss_he": "בני (כצורת נסמך)",
+      "source": "lane",
+      "notes": "Typical in בני אסראיל \"the children of Israel\"."
+    },
+    {
+      "id": "balad",
+      "lemma_ja": "בלד",
+      "lemma_ar": "بلد",
+      "root": "b-l-d",
+      "pos": "noun (m.)",
+      "gloss_en": "land, country, region; town, settled place",
+      "gloss_he": "ארץ, מקום יישוב",
+      "source": "lane",
+      "notes": "Saadia frequently uses بلد where the Hebrew has ארץ in the sense of a specific land or region."
+    },
+    {
+      "id": "sana",
+      "lemma_ja": "סנה",
+      "lemma_ar": "سنة",
+      "root": "s-n-w",
+      "pos": "noun (f.)",
+      "gloss_en": "year",
+      "gloss_he": "שנה",
+      "source": "lane"
+    },
+    {
+      "id": "qawm",
+      "lemma_ja": "קום",
+      "lemma_ar": "قوم",
+      "root": "q-w-m",
+      "pos": "noun (m., coll.)",
+      "gloss_en": "people, folk, tribe, kinsmen",
+      "gloss_he": "עם, קהל, בני שבט",
+      "source": "lane"
+    },
+    {
+      "id": "rajul",
+      "lemma_ja": "רגל",
+      "lemma_ar": "رجل",
+      "root": "r-j-l",
+      "pos": "noun (m.)",
+      "gloss_en": "man (adult male); also: foot, leg (vocalized rijl)",
+      "gloss_he": "איש, גבר; (בניקוד אחר) רגל",
+      "source": "lane",
+      "notes": "Vocalization disambiguates: rajul \"man\" vs. rijl \"foot\". In Tafsir narrative, \"man\" is the dominant sense."
+    },
+    {
+      "id": "amr-matter",
+      "lemma_ja": "אמר",
+      "lemma_ar": "أمر",
+      "root": "ʔ-m-r",
+      "pos": "noun (m.) / verb",
+      "gloss_en": "matter, command, affair, order; (as verb) commanded, ordered",
+      "gloss_he": "דבר, ציווי, עניין; (כפועל) ציווה",
+      "source": "lane",
+      "notes": "Same JA spelling for both noun amr and perfect verb amara — context disambiguates."
+    },
+    {
+      "id": "khiba",
+      "lemma_ja": "כ'בא",
+      "lemma_ar": "خِبَاء",
+      "root": "kh-b-ʔ",
+      "pos": "noun (m.)",
+      "gloss_en": "tent (of wool, hair, or skin); dwelling",
+      "gloss_he": "אוהל",
+      "source": "lane",
+      "notes": "Saadia's standard rendering of אהל."
+    },
+    {
+      "id": "madhbah",
+      "lemma_ja": "מד'בח",
+      "lemma_ar": "مذبح",
+      "root": "dh-b-ḥ",
+      "pos": "noun (m.)",
+      "gloss_en": "altar; place of slaughter or sacrifice",
+      "gloss_he": "מזבח",
+      "source": "lane",
+      "notes": "Standard rendering of מזבח."
+    },
+    {
+      "id": "jabal",
+      "lemma_ja": "גבל",
+      "lemma_ar": "جبل",
+      "root": "j-b-l",
+      "pos": "noun (m.)",
+      "gloss_en": "mountain, mount",
+      "gloss_he": "הר",
+      "source": "lane"
+    },
+    {
+      "id": "insan",
+      "lemma_ja": "אנסאן",
+      "lemma_ar": "إنسان",
+      "root": "ʔ-n-s",
+      "pos": "noun (m.)",
+      "gloss_en": "human being, person; mankind",
+      "gloss_he": "אדם, בן אדם",
+      "source": "lane"
+    },
+    {
+      "id": "mawdi",
+      "lemma_ja": "מוצ'ע",
+      "lemma_ar": "موضع",
+      "root": "w-ḍ-ʕ",
+      "pos": "noun (m.)",
+      "gloss_en": "place, location, spot",
+      "gloss_he": "מקום",
+      "source": "lane"
+    },
+    {
+      "id": "bayt",
+      "lemma_ja": "בית",
+      "lemma_ar": "بيت",
+      "root": "b-y-t",
+      "pos": "noun (m.)",
+      "gloss_en": "house, dwelling; tent; household",
+      "gloss_he": "בית",
+      "source": "lane"
+    },
+    {
+      "id": "malik",
+      "lemma_ja": "מלך",
+      "lemma_ar": "ملك",
+      "root": "m-l-k",
+      "pos": "noun (m.)",
+      "gloss_en": "king, sovereign",
+      "gloss_he": "מלך",
+      "source": "lane"
+    },
+    {
+      "id": "dhahab-gold",
+      "lemma_ja": "ד'הב",
+      "lemma_ar": "ذهب",
+      "root": "dh-h-b",
+      "pos": "noun (m.) / verb",
+      "gloss_en": "gold; (as verb dhahaba) he went, departed",
+      "gloss_he": "זהב; (כפועל) הלך",
+      "source": "lane",
+      "notes": "Homograph: dhahab \"gold\" and dhahaba \"went\" share the JA spelling. Context disambiguates."
+    },
+    {
+      "id": "mia-hundred",
+      "lemma_ja": "מאיה",
+      "lemma_ar": "مئة",
+      "root": "m-ʔ-y",
+      "pos": "numeral",
+      "gloss_en": "hundred (100)",
+      "gloss_he": "מאה",
+      "source": "lane"
+    },
+    {
+      "id": "ashr-ten",
+      "lemma_ja": "עשר",
+      "lemma_ar": "عشر",
+      "root": "ʕ-sh-r",
+      "pos": "numeral",
+      "gloss_en": "ten (10)",
+      "gloss_he": "עשר, עשרה",
+      "source": "lane"
+    },
+    {
+      "id": "sabaa-seven",
+      "lemma_ja": "סבעה",
+      "lemma_ar": "سبعة",
+      "root": "s-b-ʕ",
+      "pos": "numeral",
+      "gloss_en": "seven (7)",
+      "gloss_he": "שבע, שבעה",
+      "source": "lane"
+    },
+    {
+      "id": "yad",
+      "lemma_ja": "ידי",
+      "lemma_ar": "يدي",
+      "root": "y-d-y",
+      "pos": "noun (f.)",
+      "gloss_en": "my hand; hand(s) (oblique/dual form of yad)",
+      "gloss_he": "ידי; יד (בצורה נטויה)",
+      "source": "lane",
+      "notes": "Surface form ידי = yad + 1sg suffix OR dual oblique \"two hands\". Lemma yad is \"hand\"."
+    },
+    {
+      "id": "kana",
+      "lemma_ja": "כאן",
+      "lemma_ar": "كان",
+      "root": "k-w-n",
+      "pos": "verb (defective)",
+      "gloss_en": "was, became; existed",
+      "gloss_he": "היה, נהיה",
+      "source": "lane",
+      "notes": "Most common copula in Tafsir narration: \"And there was…\". 3rd-person m. perfect."
+    },
+    {
+      "id": "sanaa",
+      "lemma_ja": "צנע",
+      "lemma_ar": "صنع",
+      "root": "ṣ-n-ʕ",
+      "pos": "verb",
+      "gloss_en": "to make, fashion, fabricate, do",
+      "gloss_he": "עשה, יצר, פעל",
+      "source": "lane"
+    },
+    {
+      "id": "qala",
+      "lemma_ja": "קאל",
+      "lemma_ar": "قال",
+      "root": "q-w-l",
+      "pos": "verb",
+      "gloss_en": "said, spoke (3sg.m. perfect)",
+      "gloss_he": "אמר",
+      "source": "lane"
+    },
+    {
+      "id": "kallam",
+      "lemma_ja": "כלם",
+      "lemma_ar": "كلّم",
+      "root": "k-l-m",
+      "pos": "verb / noun",
+      "gloss_en": "spoke to, addressed (Form II); also: word, speech (kalim)",
+      "gloss_he": "דיבר אל; דברים, אמירה",
+      "source": "lane"
+    },
+    {
+      "id": "qailan",
+      "lemma_ja": "קאילא",
+      "lemma_ar": "قائلًا",
+      "root": "q-w-l",
+      "pos": "participle (active, accusative)",
+      "gloss_en": "saying (m.sg., circumstantial)",
+      "gloss_he": "באומרו, לאמור",
+      "source": "lane",
+      "notes": "Saadia's standard rendering of Hebrew לאמר when speech is reported."
+    },
+    {
+      "id": "israil",
+      "lemma_ja": "אסראיל",
+      "lemma_ar": "إسرائيل",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Israel (the patriarch, and the people descended from him)",
+      "gloss_he": "ישראל",
+      "source": "lane"
+    },
+    {
+      "id": "musa",
+      "lemma_ja": "מוסי",
+      "lemma_ar": "موسى",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Moses",
+      "gloss_he": "משה",
+      "source": "lane",
+      "notes": "Final yod marks Arabic alif maqṣūra (ى)."
+    },
+    {
+      "id": "harun",
+      "lemma_ja": "הרון",
+      "lemma_ar": "هارون",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Aaron",
+      "gloss_he": "אהרן",
+      "source": "lane"
+    },
+    {
+      "id": "misr",
+      "lemma_ja": "מצר",
+      "lemma_ar": "مصر",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Egypt (the land); also: a frontier city",
+      "gloss_he": "מצרים",
+      "source": "lane"
+    },
+    {
+      "id": "yaqub",
+      "lemma_ja": "יעקוב",
+      "lemma_ar": "يعقوب",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Jacob",
+      "gloss_he": "יעקב",
+      "source": "lane"
+    },
+    {
+      "id": "firaun",
+      "lemma_ja": "פרעון",
+      "lemma_ar": "فرعون",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Pharaoh (title of Egyptian kings)",
+      "gloss_he": "פרעה",
+      "source": "lane"
+    },
+    {
+      "id": "yusuf",
+      "lemma_ja": "יוסף",
+      "lemma_ar": "يوسف",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Joseph",
+      "gloss_he": "יוסף",
+      "source": "lane"
+    },
+    {
+      "id": "ibrahim",
+      "lemma_ja": "אברהים",
+      "lemma_ar": "إبراهيم",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Abraham",
+      "gloss_he": "אברהם",
+      "source": "lane"
+    },
+    {
+      "id": "lahum-to-them",
+      "lemma_ja": "להם",
+      "lemma_ar": "لهم",
+      "root": "—",
+      "pos": "preposition + pronoun",
+      "gloss_en": "to them; for them (m.pl.)",
+      "gloss_he": "להם",
+      "source": "lane",
+      "notes": "li- (\"to, for\") + -hum (3m.pl. suffix)."
+    },
+    {
+      "id": "bihi",
+      "lemma_ja": "בה",
+      "lemma_ar": "به",
+      "root": "—",
+      "pos": "preposition + pronoun",
+      "gloss_en": "in/with/by it; in/with him (3m.sg.)",
+      "gloss_he": "בו",
+      "source": "lane",
+      "notes": "bi- (\"in, with, by\") + -hi (3m.sg. suffix)."
+    },
+    {
+      "id": "biha",
+      "lemma_ja": "בהא",
+      "lemma_ar": "بها",
+      "root": "—",
+      "pos": "preposition + pronoun",
+      "gloss_en": "in/with/by it; in/with her (3f.sg.)",
+      "gloss_he": "בה",
+      "source": "lane",
+      "notes": "bi- + -hā (3f.sg. suffix)."
+    },
+    {
+      "id": "fihi",
+      "lemma_ja": "פיה",
+      "lemma_ar": "فيه",
+      "root": "—",
+      "pos": "preposition + pronoun",
+      "gloss_en": "in it; in him (3m.sg.)",
+      "gloss_he": "בו, בתוכו",
+      "source": "lane",
+      "notes": "fī (\"in\") + -hi (3m.sg. suffix)."
+    },
+    {
+      "id": "alayhi",
+      "lemma_ja": "עליה",
+      "lemma_ar": "عليه",
+      "root": "ʕ-l-w",
+      "pos": "preposition + pronoun",
+      "gloss_en": "upon him/it; on it (3m.sg.)",
+      "gloss_he": "עליו",
+      "source": "lane",
+      "notes": "ʕalā (\"on, upon\") + -hi (3m.sg. suffix)."
+    },
+    {
+      "id": "minhu",
+      "lemma_ja": "מנה",
+      "lemma_ar": "منه",
+      "root": "—",
+      "pos": "preposition + pronoun",
+      "gloss_en": "from him/it (3m.sg.)",
+      "gloss_he": "ממנו",
+      "source": "lane",
+      "notes": "min (\"from\") + -hu (3m.sg. suffix)."
+    },
+    {
+      "id": "minha",
+      "lemma_ja": "מנהא",
+      "lemma_ar": "منها",
+      "root": "—",
+      "pos": "preposition + pronoun",
+      "gloss_en": "from her/it (3f.sg.)",
+      "gloss_he": "ממנה",
+      "source": "lane",
+      "notes": "min + -hā (3f.sg. suffix)."
+    },
+    {
+      "id": "faqala",
+      "lemma_ja": "פקאל",
+      "lemma_ar": "فقال",
+      "root": "q-w-l",
+      "pos": "verb (with conjunctive prefix)",
+      "gloss_en": "and he said; so he said (3sg.m. perfect of qāla)",
+      "gloss_he": "ויאמר, ואז אמר",
+      "source": "lane",
+      "notes": "fa- (\"and / so\") + qāla (\"said\"). The most common JA narrative tag."
+    }
+  ]
+}

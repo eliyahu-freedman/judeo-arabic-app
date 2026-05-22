@@ -1,22 +1,21 @@
-"""Generate JA↔English phrase-pair alignment for a Tafsir chapter via Claude.
+"""Generate Hebrew↔JA↔English phrase-triple alignment for a Tafsir chapter via Claude.
 
 Produces data/tafsir-{book}-{chapter}-alignment.json — used by the Tafsir
-reader (app/tafsir/reader.tsx) to highlight corresponding JA when the user
-hovers an English word, and vice versa.
+reader (app/tafsir/reader.tsx) to highlight the matching Hebrew, JA, and
+English chunks together when the user hovers any one of them.
 
 Constraints baked into the prompt:
 
-  - Each group is a {ja, en} pair whose `ja` is a literal substring of that
-    verse's JA and whose `en` is a literal substring of the English rendering.
-  - Groups for a verse must be in matching left-to-right order on BOTH sides
-    (so the runtime resolver — which uses a sequential cursor per side —
-    finds them deterministically). Where JA and English diverge in word
-    order (e.g. JA verb-subject "כ'לק אללה" vs. EN subject-verb "God created"),
-    bundle the divergent span as a single multi-word group rather than two
-    separately-ordered groups.
-  - Coverage need not be exhaustive. Connectors and Saadia paraphrase glue
-    (an English "was" with no JA counterpart, a JA פ with no EN counterpart)
-    should simply be omitted — they'll render as un-highlighted text.
+  - Each group is a {he?, ja, en} triple whose values are literal substrings
+    of the verse's Hebrew, JA, and English strings. `he` is optional and
+    should be omitted (per triple) where Saadia paraphrased without a clean
+    Hebrew anchor.
+  - Groups for a verse must be in matching left-to-right order on every
+    side (the runtime resolver uses a sequential cursor per side). Where
+    word order diverges within a unit, bundle that unit as a single
+    multi-word group rather than two cross-ordered groups.
+  - Coverage need not be exhaustive. Connectors and paraphrase glue should
+    simply be omitted — they'll render as un-highlighted text.
 
 Usage:
     export ANTHROPIC_API_KEY=...
@@ -25,9 +24,10 @@ Usage:
     python3 scripts/align_tafsir_english.py --book bereshit --all
     python3 scripts/align_tafsir_english.py --book bereshit --chapter 2 --dry-run
 
-The script validates Claude's reply: every {ja, en} pair must resolve to a
-substring on both sides with a running cursor. Bad rows are logged and
-dropped rather than aborting the whole chapter.
+The script validates Claude's reply: ja/en must resolve on both sides with
+a running cursor (else the whole triple is dropped); he must resolve when
+present (else the triple is kept without `he` and the drop is logged). Bad
+rows are logged rather than aborting the whole chapter.
 """
 
 from __future__ import annotations
@@ -44,47 +44,47 @@ DATA_DIR = ROOT / "data"
 MODEL = "claude-sonnet-4-6"
 MAX_TOKENS = 8000
 
-SYSTEM_INSTRUCTIONS = """You are aligning Saadia Gaon's Judeo-Arabic Tafsir to its English rendering at the phrase level. The output drives a reader UI: hovering an English chunk highlights the JA chunk it translates, and vice versa.
+SYSTEM_INSTRUCTIONS = """You are aligning the biblical Hebrew, Saadia Gaon's Judeo-Arabic Tafsir, and the English rendering at the phrase level. The output drives a reader UI: hovering any chunk on any of the three sides highlights the matching chunks on the other two sides.
 
 OUTPUT FORMAT — STRICT JSON, no preamble, no markdown:
-{"alignments": {"1": [{"ja": "...", "en": "..."}, ...], "2": [...], ...}}
+{"alignments": {"1": [{"he": "...", "ja": "...", "en": "..."}, ...], "2": [...], ...}}
 
-For each verse, return an ordered list of phrase pairs. Hard rules:
+For each verse, return an ordered list of phrase triples. Hard rules:
 
-1. SUBSTRING. Each pair's `ja` value must appear character-for-character in that verse's JA, and `en` must appear character-for-character in the English. No paraphrasing, no normalization, no stripping punctuation. Copy substrings verbatim.
+1. SUBSTRING. Each triple's `he` value must appear character-for-character in that verse's Hebrew, `ja` must appear character-for-character in the JA, and `en` must appear character-for-character in the English. No paraphrasing, no normalization, no stripping punctuation or vowel points. Copy substrings verbatim — niqqud and all.
 
-2. LEFT-TO-RIGHT ORDER ON BOTH SIDES. The resolver walks each side with a running cursor — for the N-th pair it looks for `ja` at or after the previous JA cursor, and `en` at or after the previous EN cursor. Pairs must therefore appear in increasing position on both sides. Where JA and English have different word orders inside a unit (e.g. JA "כ'לק אללה" verb-subject vs. EN "God created" subject-verb), bundle that unit as ONE multi-word group ({"ja": "כ'לק אללה", "en": "God created"}) — do NOT split it into two cross-ordered groups.
+2. LEFT-TO-RIGHT ORDER ON ALL THREE SIDES. The resolver walks each side with a running cursor — for the N-th triple it looks for `he`/`ja`/`en` at or after that side's previous cursor. Triples must therefore appear in increasing position on every side. Where word order differs inside a unit (e.g. Hebrew VS "בָּרָא אֱלֹהִים" vs. English SV "God created"), bundle that unit as ONE multi-word group rather than splitting into two cross-ordered groups.
 
-3. SAADIA PARAPHRASE BUNDLES. Saadia's signature multi-word JA paraphrases that render as multi-word English are single groups:
-   - {"ja": "שא אללה אן יכון", "en": "God willed that there be"}
-   - {"ja": "וַלַמּא מצ'י' מן אלליל ואלנהאר", "en": "And there passed of night and daytime"}
-   - {"ja": "פלִמא עלם אללה", "en": "And when God knew"} or just {"ja": "פלִמא", "en": "And when"} + {"ja": "עלם אללה", "en": "God knew"}
+3. SAADIA PARAPHRASE BUNDLES. Saadia's signature multi-word JA paraphrases that render as multi-word English (and that fuse what was tighter in the Hebrew) are single groups:
+   - {"he": "יְהִי", "ja": "שא אללה אן יכון", "en": "God willed that there be"}
+   - {"he": "וַיְהִי-עֶרֶב וַיְהִי-בֹקֶר", "ja": "וַלַמּא מצ'י' מן אלליל ואלנהאר", "en": "And there passed of night and daytime"}
+   - {"he": "וַיַּרְא אֱלֹהִים", "ja": "עלם אללה", "en": "God knew"} (Saadia's "knew" for "saw")
    When in doubt, prefer larger bundles over riskier word-by-word splits.
 
-4. PARTIAL COVERAGE IS FINE. Don't force pairs for connectors that have no counterpart. English "was" with no JA, JA "פ" prefix with no EN word — just omit them. The unmatched runs will render as plain text.
+4. `he` IS OPTIONAL ON A PER-TRIPLE BASIS. If a JA↔EN pair has no clean Hebrew anchor (Saadia added a connective, paraphrased without a Hebrew counterpart, etc.), OMIT the `he` field on that triple rather than inventing one. Triples without `he` still help JA↔EN highlighting; the Hebrew side just won't light up for that chunk.
 
-5. PUNCTUATION. Include punctuation INSIDE a phrase if it's tightly bound (e.g. {"en": "“day,”"} for the JA נהארא). Leave free-standing punctuation outside groups.
+5. PARTIAL COVERAGE IS FINE. Don't force triples for connectors that have no counterpart anywhere. English "was" with no JA, JA "פ" prefix with no Hebrew or EN word — just omit them. The unmatched runs will render as plain text.
 
-6. EVERY VERSE GETS AN ARRAY. Empty array `[]` is acceptable for a verse where you can't confidently align anything.
+6. PUNCTUATION & POINTING. Include punctuation INSIDE a phrase if it's tightly bound (e.g. {"en": "“day,”"} for the JA נהארא, {"he": "אֵת הַשָּׁמַיִם"} for "the heavens"). Copy Hebrew niqqud exactly as it appears in the source.
+
+7. EVERY VERSE GETS AN ARRAY. Empty array `[]` is acceptable for a verse where you can't confidently align anything.
 
 EXAMPLE OUTPUT (Bereshit 1:1-3):
 {"alignments": {
   "1": [
-    {"ja": "אול מא", "en": "The first thing"},
-    {"ja": "כ'לק אללה", "en": "God created"},
-    {"ja": "אלסמאואת", "en": "the heavens"},
-    {"ja": "ואלארץ'", "en": "and the earth"}
+    {"he": "בְּרֵאשִׁית", "ja": "אול מא", "en": "The first thing"},
+    {"he": "בָּרָא אֱלֹהִים", "ja": "כ'לק אללה", "en": "God created"},
+    {"he": "אֵת הַשָּׁמַיִם", "ja": "אלסמאואת", "en": "the heavens"},
+    {"he": "וְאֵת הָאָרֶץ", "ja": "ואלארץ'", "en": "and the earth"}
   ],
   "2": [
-    {"ja": "ואלארץ'", "en": "And the earth"},
-    {"ja": "כאנת", "en": "was"},
-    {"ja": "ג'אמרה", "en": "submerged"}
+    {"he": "וְהָאָרֶץ", "ja": "ואלארץ'", "en": "And the earth"},
+    {"he": "הָיְתָה", "ja": "כאנת", "en": "was"},
+    {"he": "תֹהוּ", "ja": "ג'אמרה", "en": "submerged"}
   ],
   "3": [
-    {"ja": "שא אללה אן יכון", "en": "God willed that there be"},
-    {"ja": "נור", "en": "light"},
-    {"ja": "פכאן", "en": "and there was"},
-    {"ja": "נור", "en": "light"}
+    {"he": "יְהִי אוֹר", "ja": "שא אללה אן יכון נור", "en": "God willed that there be light"},
+    {"he": "וַיְהִי-אוֹר", "ja": "פכאן נור", "en": "there was light"}
   ]
 }}
 """
@@ -112,6 +112,7 @@ def build_user_message(book: str, chapter: int) -> str:
     for v in src["verses"]:
         vnum = str(v["v"])
         lines.append(f"v.{vnum}")
+        lines.append(f"  HE: {v['hebrew']}")
         lines.append(f"  JA: {v['ja']}")
         lines.append(f"  EN: {en.get(vnum, '')}")
         lines.append("")
@@ -137,14 +138,20 @@ def parse_alignments(text: str) -> dict[str, list[dict]]:
 
 
 def validate_verse(
+    he: str,
     ja: str,
     en: str,
     pairs: list[dict],
 ) -> tuple[list[dict], list[str]]:
-    """Drop pairs that don't resolve. Return (kept, dropped-reasons)."""
+    """Drop pairs that don't resolve. Return (kept, dropped-reasons).
+
+    JA/EN are required on every pair (a pair missing either side is dropped).
+    HE is optional: if present but unresolvable, we keep the pair without
+    `he` (so the JA↔EN highlight still works) and log the drop.
+    """
     kept: list[dict] = []
     dropped: list[str] = []
-    ja_cur = en_cur = 0
+    he_cur = ja_cur = en_cur = 0
     for i, p in enumerate(pairs):
         if not isinstance(p, dict) or "ja" not in p or "en" not in p:
             dropped.append(f"pair {i}: malformed {p!r}")
@@ -163,7 +170,19 @@ def validate_verse(
                 f"pair {i}: EN {en_phrase!r} not found at/after cursor {en_cur}",
             )
             continue
-        kept.append({"ja": ja_phrase, "en": en_phrase})
+        kept_pair: dict = {"ja": ja_phrase, "en": en_phrase}
+        he_phrase = p.get("he")
+        if isinstance(he_phrase, str) and he_phrase:
+            hi = he.find(he_phrase, he_cur)
+            if hi == -1:
+                dropped.append(
+                    f"pair {i}: HE {he_phrase!r} not found at/after cursor {he_cur} "
+                    "(JA/EN kept without Hebrew anchor)",
+                )
+            else:
+                kept_pair["he"] = he_phrase
+                he_cur = hi + len(he_phrase)
+        kept.append(kept_pair)
         ja_cur = ji + len(ja_phrase)
         en_cur = ei + len(en_phrase)
     return kept, dropped
@@ -213,11 +232,13 @@ def write_sidecar(
     out_path = DATA_DIR / f"tafsir-{book.lower()}-{chapter}-alignment.json"
     payload = {
         "_note": (
-            f"JA↔EN phrase-pair alignment for {book.title()} {chapter}, "
+            f"Hebrew↔JA↔EN phrase-triple alignment for {book.title()} {chapter}, "
             "generated by scripts/align_tafsir_english.py. Used by the Tafsir "
-            "reader for hover-coordinated highlighting. Each pair's `ja` and `en` "
-            "are verbatim substrings of the verse's JA / english strings; the "
-            "runtime walks each side with a sequential cursor."
+            "reader for hover-coordinated highlighting. Each triple's `he`, `ja`, "
+            "`en` are verbatim substrings of the verse's Hebrew / JA / English; "
+            "the `he` field is optional (omitted where Saadia paraphrased without "
+            "a clean Hebrew anchor). The runtime walks each side with a "
+            "sequential cursor."
         ),
         "_status": "draft",
         "_model": MODEL,
@@ -260,7 +281,9 @@ def align_chapter(book: str, chapter: int) -> int:
     for v in src["verses"]:
         vnum = str(v["v"])
         pairs = raw_alignments.get(vnum, [])
-        kept, dropped = validate_verse(v["ja"], en_data.get(vnum, ""), pairs)
+        kept, dropped = validate_verse(
+            v["hebrew"], v["ja"], en_data.get(vnum, ""), pairs,
+        )
         cleaned[vnum] = kept
         total_kept += len(kept)
         total_dropped += len(dropped)

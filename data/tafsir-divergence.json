@@ -6,7 +6,7 @@
     "blau-dict": "Yehoshua Blau, A Dictionary of Medieval Judaeo-Arabic Texts (Jerusalem: Israel Academy of Sciences and Humanities, 2006). Cited per entry where the dictionary entry genuinely bears on the present gloss.",
     "blau-festschrift": "Yehoshua Blau, 'עיונים בתרגום רב סעדיה גאון לבראשית פרקים א-יב', in Sefer Zikaron le-Rav Yosef ben David Qafiḥ z\"l, pp. 309-318. Cited only when a Festschrift note treats the same verse, with the relation (direct, same-verse-different-lexeme, or parallel-pattern) made explicit."
   },
-  "_scope": "Bereshit 1-11",
+  "_scope": "Bereshit 1-11 + three demos from later books (Bamidbar, Devarim) showing Saadia-specific senses with direct Blau backing",
   "entries": [
     {
       "lemma_ja": "גאמרה",
@@ -528,6 +528,73 @@
         {"book": "Bereshit", "ch": 11, "v": 31}
       ],
       "sources": ["lane", "saadia-direct"]
+    },
+    {
+      "lemma_ja": "חאכמא",
+      "variants": ["חאכם", "אלחאכם", "וחאכמא"],
+      "lemma_ar": "حاكمًا",
+      "root": "ح-ك-م",
+      "classical_en": "judge; ruler; arbitrator — one who decides between disputants. Active participle of حكم \"to judge, to govern.\"",
+      "classical_he": "שופט, מושל, פוסק — צורת הבינוני הפועל של חכ\"ם (\"לשפוט\", \"לפסוק\")",
+      "saadia_en": "decreeing — Saadia inserts the circumstantial accusative חאכמא (\"as one who decrees\") into divine-speech verses where the Hebrew has לאמר, recasting God's \"saying\" as a binding juridical decree rather than a mere utterance. Beyond the inserted use, Saadia keeps the ordinary judicial sense (\"a judge\") in legal narrative.",
+      "saadia_he": "פוסק, גוזר — סעדיה מוסיף את חאכמא (\"בתורת גוזר\") כצורת חוגית בפסוקי דיבור אלוהי המסתיימים בלאמר, וממיר את ה\"דיבור\" האלוהי בגזרת-דין מחייבת ולא באמירה גרידא. כאשר ההקשר משפטי (לא דיבור אלוהי), שומר סעדיה על המשמע הקלסי של \"שופט\"",
+      "mechanism": "anti-anthropomorphic interpretive insertion — Saadia avoids portraying God as \"speaking\" by adding a participle that frames the speech as a judicial decree. Standard Saadianic move documented in saadia-gloss-table.json; built on the well-attested judicial sense of حكم",
+      "verses": [
+        {"book": "Bereshit", "ch": 1, "v": 22},
+        {"book": "Shemot", "ch": 2, "v": 14},
+        {"book": "Shemot", "ch": 22, "v": 27}
+      ],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "حكم",
+        "sense": "Blau (Dict. of Medieval Judaeo-Arabic Texts, s.v. חכם) attests Form III \"to judge / שפט, דן\" alongside Forms I/II/V — the judicial sense Saadia builds on when inserting the participle حاكمًا at לאמר. Blau does not name the inserted-participle pattern itself; the divergence here is in Saadia's syntactic deployment of an otherwise-classical sense.",
+        "relation": "adjacent"
+      }
+    },
+    {
+      "lemma_ja": "גוהר",
+      "variants": ["אלגוהר", "ג'והר"],
+      "lemma_ar": "جوهر",
+      "root": "ج-و-ه-ر",
+      "classical_en": "jewel, gem, precious stone; (philosophical, post-classical) substance, essence — the underlying material of which something consists",
+      "classical_he": "אבן יקרה, אבן חן; (בפילוסופיה) עצם, מהות — החומר היסודי שממנו דבר עשוי",
+      "saadia_en": "[precious] substance — Saadia renders the Tablets of the Covenant as לוחי אלגוהר (\"the Tablets of substance\"). The choice reflects the midrashic identification (b. Nedarim 38a, Tanḥuma) that the Tablets were hewn from a precious-stone material (sapphire, סנפירין). جوهر carries both the concrete \"jewel\" sense and the philosophical \"substance\" sense — Saadia exploits both at once",
+      "saadia_he": "עצם, חומר יקר — סעדיה מתרגם את \"לוחות הברית\" כ\"לוחי אלגוהר\" (לוחות הגוהר). הבחירה משקפת את המסורת המדרשית (נדרים לח ע\"א, תנחומא) שלפיה לוחות הברית נחצבו מאבן יקרה (סַנפירין). جوهر בעצמו נושא בעת ובעונה אחת את המשמע הקונקרטי (\"אבן יקרה\") ואת המשמע הפילוסופי (\"עצם, מהות\")",
+      "mechanism": "midrashic identification + philosophical vocabulary — Saadia uses a single Arabic term that operates on two registers (jewel + substance) to render לוחות so that the reader hears both the rabbinic tradition (Tablets of sapphire) and the philosophical claim (Tablets of divine essence)",
+      "verses": [
+        {"book": "Devarim", "ch": 5, "v": 19},
+        {"book": "Devarim", "ch": 9, "v": 9},
+        {"book": "Devarim", "ch": 9, "v": 10},
+        {"book": "Devarim", "ch": 10, "v": 1},
+        {"book": "Devarim", "ch": 10, "v": 3}
+      ],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "جوهر",
+        "sense": "Blau (Dict. of Medieval Judaeo-Arabic Texts, s.v. גוהר) attests two senses directly relevant to לוחי אלגוהר: (i) the noun جوهر as \"metaphor for excellence / כינוי למצוינות\" (citing Pirqei Avot commentary: \"מאמרים מצוינים\"), and (ii) the denominal verb \"to become substance / נעשה עצם\" — both senses converge on Saadia's Tablets-of-Substance reading.",
+        "relation": "direct"
+      }
+    },
+    {
+      "lemma_ja": "אדלג",
+      "variants": ["אדלגו", "ואדלג", "פאדלג", "ואדלגו", "פאדלגו"],
+      "lemma_ar": "أدلج",
+      "root": "د-ل-ج",
+      "classical_en": "Form I (دلج dalaja): to travel by night, set out before dawn. Form IV (أدلج adlaja): to travel late at night, just before daybreak. The classical sense centers on the night-journey, not the dawn-rising itself",
+      "classical_he": "בנין I (دلج): ללכת בלילה, לצאת לדרך לפני שחר. בנין IV (أدلج): לנסוע בלילה לקראת השחר. המשמע הקלסי מתמקד בנסיעה הלילית עצמה, לא בקימה המוקדמת",
+      "saadia_en": "rose early in the morning — Saadia uses أدلج as the standard Arabic equivalent of Hebrew הִשְׁכִּים (\"rose early at dawn\"), regardless of whether any night-travel is involved. The participle / perfective covers the simple \"early rising\" of biblical heroes (Abraham at the Akedah, the spies, Moses on Sinai)",
+      "saadia_he": "השכים — סעדיה מתרגם בקביעות את הפועל העברי \"השכים\" באמצעות أدلج (אדלג), גם כאשר אין מדובר בנסיעה לילית כלל אלא בקימה מוקדמת בבוקר",
+      "mechanism": "post-classical semantic shift — Saadia uses a verb of night-travel for the broader sense of \"early rising,\" continuing a transition Blau dates to post-classical Judaeo-Arabic. The classical narrowness (night-journey) is loosened into the temporal sense (early morning)",
+      "verses": [
+        {"book": "Bereshit", "ch": 19, "v": 27},
+        {"book": "Bamidbar", "ch": 14, "v": 40}
+      ],
+      "sources": ["lane", "saadia-direct", "blau-dict"],
+      "blau_dict": {
+        "root": "دلج",
+        "sense": "Blau (Dict. of Medieval Judaeo-Arabic Texts, s.v. דלג) explicitly cites Saadia's Tafsir on Exodus 8:16 — \"השכם בבקר\" rendered as \"אדלג באלגדאה\" — as the canonical example of the post-classical semantic transition from \"to travel by night\" → \"to rise early.\" Blau notes that the same shift is already attested in classical Arabic Lisān al-ʿArab, and that Saadia adopts it as his standard equivalent of הִשְׁכִּים.",
+        "relation": "direct"
+      }
     }
   ]
 }

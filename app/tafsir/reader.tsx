@@ -77,7 +77,7 @@ export function TafsirReader({
 }) {
   const [showArabic, setShowArabic] = useState(false);
   const [showHebrewTr, setShowHebrewTr] = useState(false);
-  const [showEnglish, setShowEnglish] = useState(false);
+  const [showEnglish, setShowEnglish] = useState(true);
   const [showAdvanced, setShowAdvanced] = useState(false);
   const [activeToken, setActiveToken] = useState<string | null>(null);
   const [hoveredGroup, setHoveredGroup] = useState<{
@@ -126,9 +126,10 @@ export function TafsirReader({
           Tafsir <span className="text-wine italic">Reader</span>
         </h1>
         <p className="mt-4 text-base text-ink/70 leading-relaxed max-w-xl">
-          Tap any Judeo-Arabic word for a starter gloss. Toggle the
-          Arabic-script form, the Hebrew translation, and English (coming
-          soon).
+          Tap any Judeo-Arabic word for a starter gloss. Hover any phrase to
+          see its matching Hebrew, Judeo-Arabic, and English light up
+          together. Toggle the Arabic-script form, the Hebrew translation, or
+          the English off if you&apos;d rather read without crutches.
         </p>
         <p className="mt-3 text-xs text-ink/55">
           New here? Read{" "}
@@ -173,7 +174,6 @@ export function TafsirReader({
           on={showEnglish}
           onClick={() => setShowEnglish((x) => !x)}
           label="English"
-          hint="draft"
         />
         <ToggleChip
           on={showAdvanced}
@@ -216,7 +216,20 @@ export function TafsirReader({
             </div>
             <div dir="rtl" className="space-y-5">
               <p className="font-hebrew text-2xl text-ink leading-loose">
-                {verse.hebrew}
+                <HebrewText
+                  text={verse.hebrew}
+                  alignment={verse.alignment}
+                  hoveredGroupId={
+                    hoveredGroup?.verseV === verse.v
+                      ? hoveredGroup.groupId
+                      : null
+                  }
+                  onHoverGroup={(g) =>
+                    updateHoveredGroup(
+                      g === null ? null : { verseV: verse.v, groupId: g },
+                    )
+                  }
+                />
               </p>
               <div className="border-r-2 border-wine/60 pr-5">
                 <p className="font-hebrew ja-text text-xl text-ink/90 leading-loose">
@@ -265,7 +278,7 @@ export function TafsirReader({
                       : null
                   }
                   onHoverGroup={(g) =>
-                    setHoveredGroup(
+                    updateHoveredGroup(
                       g === null ? null : { verseV: verse.v, groupId: g },
                     )
                   }
@@ -435,6 +448,43 @@ function EnglishText({
   );
 }
 
+function HebrewText({
+  text,
+  alignment,
+  hoveredGroupId,
+  onHoverGroup,
+}: {
+  text: string;
+  alignment: VerseAlignment | null;
+  hoveredGroupId: number | null;
+  onHoverGroup: (groupId: number | null) => void;
+}) {
+  if (!alignment || alignment.he.length === 0) {
+    return <>{text}</>;
+  }
+  const runs = sliceByGroups(text, alignment.he);
+  return (
+    <>
+      {runs.map((r, i) => {
+        if (r.groupId === null) return <span key={i}>{r.text}</span>;
+        const inHover = r.groupId === hoveredGroupId;
+        return (
+          <span
+            key={i}
+            onMouseEnter={() => onHoverGroup(r.groupId)}
+            onMouseLeave={() => onHoverGroup(null)}
+            className={`rounded-sm transition-colors cursor-default ${
+              inHover ? "bg-amber-100 ring-1 ring-amber-300/60 text-ink" : ""
+            }`}
+          >
+            {r.text}
+          </span>
+        );
+      })}
+    </>
+  );
+}
+
 function GlossPanel({
   token,
   entries,
@@ -490,9 +540,12 @@ function GlossPanel({
         />
         {entries.length === 0 ? (
           <p className="text-sm text-muted mt-2 italic">
-            No entry yet in the starter dictionary. (The full Blau lexicon
-            will be wired in later — this prototype covers high-frequency
-            words.)
+            Not in the dictionary yet. The high-frequency Tafsir vocabulary is
+            curated by hand; rarer or inflected forms may not resolve. See{" "}
+            <a href="/about/blau" className="underline decoration-wine/40 hover:decoration-wine">
+              about sourcing
+            </a>{" "}
+            for our citation policy.
           </p>
         ) : (
           <ul className="space-y-4 mt-2">
@@ -518,19 +571,14 @@ function GlossPanel({
                   {e.pos && (
                     <span className="text-xs text-muted italic">{e.pos}</span>
                   )}
-                  {e.source && (
-                    <span
-                      className="text-[10px] uppercase tracking-[0.2em] text-ink/40 border border-ink/15 rounded-sm px-1.5 py-0.5 ml-auto"
-                      title="Auto-extracted; verify before citing"
-                    >
-                      {e.source}
-                    </span>
-                  )}
+                  <SourceBadge source={e.source} />
                 </div>
                 {e.gloss_en && (
                   <p
                     className={`mt-1.5 text-ink ${
-                      e.source ? "text-[13px] leading-relaxed" : "text-[15px]"
+                      e.source === "camel"
+                        ? "text-[13px] leading-relaxed"
+                        : "text-[15px]"
                     }`}
                   >
                     {e.gloss_en}
@@ -555,6 +603,41 @@ function GlossPanel({
         )}
       </div>
     </div>
+  );
+}
+
+function SourceBadge({ source }: { source?: Entry["source"] }) {
+  if (!source) return null;
+  if (source === "lane") {
+    return (
+      <a
+        href="/about/blau"
+        title="Standard classical Arabic sense — Lane's Lexicon (E.W. Lane, 1863-93) is the canonical English reference. We paraphrase rather than quote verbatim."
+        className="text-[10px] uppercase tracking-[0.2em] text-wine/70 border border-wine/30 rounded-sm px-1.5 py-0.5 ml-auto hover:bg-wine-50 transition-colors"
+      >
+        Lane
+      </a>
+    );
+  }
+  if (source === "blau") {
+    return (
+      <a
+        href="/about/blau"
+        title="Judaeo-Arabic sense documented in Joshua Blau's Dictionary of Medieval Judaeo-Arabic Texts (2006). See about page for citation policy."
+        className="text-[10px] uppercase tracking-[0.2em] text-wine border border-wine/40 bg-wine-50 rounded-sm px-1.5 py-0.5 ml-auto hover:bg-wine-100 transition-colors"
+      >
+        Blau
+      </a>
+    );
+  }
+  // camel: auto-extracted, unverified — keep visibly demoted
+  return (
+    <span
+      className="text-[10px] uppercase tracking-[0.2em] text-ink/40 border border-ink/15 rounded-sm px-1.5 py-0.5 ml-auto"
+      title="Auto-extracted via Camel Tools (modern Standard Arabic morphology). Unverified — verify before citing."
+    >
+      auto
+    </span>
   );
 }
 

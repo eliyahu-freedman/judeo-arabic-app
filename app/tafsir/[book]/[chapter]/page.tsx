@@ -99,7 +99,7 @@ export default async function TafsirChapterPage({
       const pairs = alignMap[String(v.v)] ?? [];
       const alignment: VerseAlignment | null =
         pairs.length > 0 && english
-          ? resolveVerseAlignment(v.ja, english, pairs)
+          ? resolveVerseAlignment(v.hebrew, v.ja, english, pairs)
           : null;
       return {
         ch: v.ch,
