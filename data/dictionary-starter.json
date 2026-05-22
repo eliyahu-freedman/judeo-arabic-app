@@ -56,7 +56,9 @@
         "אנך",
         "אנהא",
         "אנהם",
-        "אנכם"
+        "אנכם",
+        "אנא",
+        "אננא"
       ]
     },
     {
@@ -77,7 +79,18 @@
       "pos": "preposition / pronoun",
       "gloss_en": "from, of; (also) who?",
       "gloss_he": "מן, מ-",
-      "notes": "As preposition: from. As interrogative pronoun (مَن): who? — context distinguishes."
+      "notes": "As preposition: from. As interrogative pronoun (مَن): who? — context distinguishes.",
+      "variants": [
+        "מנכם",
+        "מנכמא",
+        "מנהמא",
+        "מנהם",
+        "מנה",
+        "מנהא",
+        "מני",
+        "מנא",
+        "מנך"
+      ]
     },
     {
       "id": "layl",
@@ -89,7 +102,10 @@
       "gloss_he": "לילה",
       "notes": "Often with the article אלליל; pairs with נהאר (day).",
       "variants": [
-        "לילה"
+        "לילה",
+        "אלליל",
+        "אלליאלי",
+        "לילתה"
       ]
     },
     {
@@ -115,7 +131,9 @@
         "פיהא",
         "פיהם",
         "פיך",
-        "פיכם"
+        "פיכם",
+        "פיה",
+        "פינא"
       ]
     },
     {
@@ -129,7 +147,10 @@
       "notes": "Usually with the article אלסמא. Plural: אלסמואת (Saadia v.1).",
       "variants": [
         "סמאך",
-        "סמאכם"
+        "סמאכם",
+        "סמואת",
+        "אלסמואת",
+        "אלסמא"
       ]
     },
     {
@@ -215,7 +236,8 @@
         "נורה",
         "נורי",
         "נורך",
-        "נורהא"
+        "נורהא",
+        "אלנור"
       ]
     },
     {
@@ -226,7 +248,11 @@
       "pos": "conjunction",
       "gloss_en": "and when, and as soon as",
       "gloss_he": "וכאשר",
-      "notes": "Saadia's signature opener for each day's closing line — וַלַמּא מצ'י' מן אלליל ואלנהאר יום X = 'and when one day had passed of night and daytime'."
+      "notes": "Saadia's signature opener for each day's closing line — וַלַמּא מצ'י' מן אלליל ואלנהאר יום X = 'and when one day had passed of night and daytime'.",
+      "variants": [
+        "לאמא",
+        "פלאמא"
+      ]
     },
     {
       "id": "mada",
@@ -246,7 +272,12 @@
       "pos": "noun (m.)",
       "gloss_en": "day (24-hour period)",
       "gloss_he": "יום",
-      "notes": "Distinct from נהאר (daytime as opposed to night)."
+      "notes": "Distinct from נהאר (daytime as opposed to night).",
+      "variants": [
+        "אליום",
+        "יומא",
+        "אליומא"
+      ]
     },
     {
       "id": "kadhalik",
@@ -296,7 +327,11 @@
       "pos": "preposition",
       "gloss_en": "between, among",
       "gloss_he": "בין",
-      "notes": "Often paired: בין X ובין Y = 'between X and Y'."
+      "notes": "Often paired: בין X ובין Y = 'between X and Y'.",
+      "variants": [
+        "בינהמא",
+        "בינכם"
+      ]
     },
     {
       "id": "alladhi",
@@ -308,7 +343,10 @@
       "gloss_he": "אשר, ש-",
       "notes": "Definite relative pronoun. F.sg: التي, pl: الذين / اللواتي.",
       "variants": [
-        "אלד'ין"
+        "אלד'ין",
+        "אלזי",
+        "אלד'יין",
+        "אלזיי"
       ]
     },
     {
@@ -399,7 +437,14 @@
       "pos": "noun / quantifier",
       "gloss_en": "the entirety of, all",
       "gloss_he": "כל, כל-",
-      "notes": "Often in construct: גמיע X = 'all of X'."
+      "notes": "Often in construct: גמיע X = 'all of X'.",
+      "variants": [
+        "גמיעא",
+        "גמיעהם",
+        "גמיעכם",
+        "גמיעהא",
+        "אלגמיע"
+      ]
     },
     {
       "id": "wajh",
@@ -414,7 +459,11 @@
         "וגהה",
         "וגהך",
         "וגההא",
-        "וגהי"
+        "וגהי",
+        "וגוה",
+        "אלוגה",
+        "אלוגוה",
+        "וגהה'"
       ]
     },
     {
@@ -455,7 +504,11 @@
       "pos": "verb (perf. 3sg.f.)",
       "gloss_en": "she/it was",
       "gloss_he": "היתה",
-      "notes": "Perfect 3rd person feminine singular of كان."
+      "notes": "Perfect 3rd person feminine singular of كان.",
+      "variants": [
+        "כאנתא",
+        "וכאנת"
+      ]
     },
     {
       "id": "ghamira",
@@ -475,7 +528,8 @@
       "pos": "active participle (f., Form X)",
       "gloss_en": "sea-like, become-like-a-sea",
       "gloss_he": "ימית, כים",
-      "notes": "Saadia's rendering of בהו — the earth was 'sea-like'. Striking choice that pairs with ג'אמרה."
+      "notes": "Saadia's rendering of בהו — the earth was 'sea-like'. Striking choice that pairs with ג'אמרה.",
+      "variants": []
     },
     {
       "id": "wahid",
@@ -505,7 +559,13 @@
       "pos": "noun (m. pl.)",
       "gloss_en": "times, hours, periods",
       "gloss_he": "זמנים, עיתים",
-      "notes": "Plural of وقت. Saadia: אוקאת אלנור = 'the times of light', i.e. daytime hours."
+      "notes": "Plural of وقت. Saadia: אוקאת אלנור = 'the times of light', i.e. daytime hours.",
+      "variants": [
+        "וקת",
+        "אלוקת",
+        "וקתא",
+        "אלוקתין"
+      ]
     },
     {
       "id": "khalaq",
@@ -525,7 +585,16 @@
       "pos": "adjective / noun",
       "gloss_en": "first; beginning, outset",
       "gloss_he": "ראשון, ראשית, תחילה",
-      "notes": "Saadia's opening word for Genesis: אול מא כ'לק = 'first thing God created' / 'at the beginning of what God created'."
+      "notes": "Saadia's opening word for Genesis: אול מא כ'לק = 'first thing God created' / 'at the beginning of what God created'.",
+      "variants": [
+        "אוול",
+        "אלאוול",
+        "אלאולון",
+        "אלאוולון",
+        "אווליא",
+        "אלאווליא",
+        "אוולא"
+      ]
     },
     {
       "id": "fasala",
@@ -551,7 +620,8 @@
         "כלהא",
         "כלכם",
         "כלנא",
-        "כלהם"
+        "כלהם",
+        "כלהמא"
       ]
     },
     {
@@ -574,7 +644,9 @@
       "gloss_he": "ימים",
       "notes": "Plural of بحر.",
       "variants": [
-        "בחר"
+        "בחר",
+        "אלבחאר",
+        "אלבחר"
       ]
     }
   ]

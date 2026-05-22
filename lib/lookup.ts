@@ -32,20 +32,28 @@ function stripPunct(tok: string): string {
 }
 
 /**
- * Normalize Hebrew final ↔ medial letter forms. JA orthography uses final
- * forms at word end (ן ם ץ ף ך), but when those letters appear mid-word in
- * a variant or inflected form they take the medial form (נ מ צ פ כ). E.g.,
- * the lemma אבן (with final nun) inflects to אבנה "his son" (with medial nun).
- * We normalize finals → medials so the lookup keys match regardless of
- * position.
+ * Lookup-key normalizer applied on BOTH the candidate side and the dict
+ * (lemma + variants) side so the two converge to a common comparison form.
+ *
+ * Two rules:
+ *  1. Hebrew final ↔ medial letter forms (ן/נ ם/מ ץ/צ ף/פ ך/כ). JA uses
+ *     finals word-final, medials elsewhere — e.g. the lemma אבן (final נ)
+ *     inflects to אבנה "his son" (medial נ).
+ *  2. Strip a trailing apostrophe. In JA orthography ' marks a consonant
+ *     diacritic (ת' = ث, ד' = ذ, כ' = خ, ع'ʿ = غ, etc.); when it sits at
+ *     word-end after stripPunct, both token-side and dict-side may or may
+ *     not retain it depending on scribal convention. Collapsing the
+ *     trailing ' on both sides makes the comparison apostrophe-tolerant.
  */
 function normalizeFinals(s: string): string {
-  return s
+  let r = s
     .replace(/ך/g, "כ")
     .replace(/ם/g, "מ")
     .replace(/ן/g, "נ")
     .replace(/ף/g, "פ")
     .replace(/ץ/g, "צ");
+  if (r.endsWith("'")) r = r.slice(0, -1);
+  return r;
 }
 
 /**
@@ -66,39 +74,56 @@ export function normalizeToken(rawToken: string): string {
  * Find dictionary entries for a token. Returns an array because of
  * homographs (e.g. מא = both ما "what" and ماء "water").
  *
- * Fallback chain (first hit wins):
- *   1. exact match
- *   2. strip leading vav (ו)
- *   3. strip leading vav + leading אל (al-)
- *   4. strip leading אל (al-)
- *   5. strip a single-letter prepositional/conjunction prefix (ב ל כ פ ת ס נ י)
+ * Candidate-generation chain (composable; first hit wins):
+ *   - exact token
+ *   - optionally strip leading ו (and-)
+ *   - optionally strip one of [ב ל כ פ] (with/to/like/and-then), in either
+ *     order with the vav above
+ *   - optionally strip leading אל (the-), applied after any of the above
+ *
+ * So a token like ובאלמחצ'ר produces candidates {ובאלמחצ'ר, באלמחצ'ר,
+ * אלמחצ'ר, מחצ'ר} — letting us resolve compound-prefixed surface forms
+ * without enumerating every combination as an explicit variant.
  */
 export function lookup(rawToken: string): Entry[] {
   const tok = stripPunct(rawToken);
   if (!tok) return [];
 
-  const tries: string[] = [tok];
-  if (tok.startsWith("ו") && tok.length > 1) {
-    const noVav = tok.slice(1);
-    tries.push(noVav);
-    if (noVav.startsWith("אל") && noVav.length > 2) {
-      tries.push(noVav.slice(2));
-    }
-  }
-  if (tok.startsWith("אל") && tok.length > 2) {
-    tries.push(tok.slice(2));
-  }
-  // Handful of single-letter prefixes (rough — won't always be right).
-  const PREFIXES = ["ב", "ל", "כ", "פ"];
-  for (const p of PREFIXES) {
-    if (tok.startsWith(p) && tok.length > 1) {
-      tries.push(tok.slice(1));
+  const tries = new Set<string>();
+  // Apply optional אל-strip on the input, and add both forms.
+  function withAlStripped(s: string) {
+    if (!s) return;
+    tries.add(s);
+    if (s.startsWith("אל") && s.length > 2) {
+      tries.add(s.slice(2));
     }
   }
 
+  // Layer 1: the token itself
+  withAlStripped(tok);
+
+  // Layer 2: strip leading ו (and-)
+  let afterVav: string | null = null;
+  if (tok.startsWith("ו") && tok.length > 1) {
+    afterVav = tok.slice(1);
+    withAlStripped(afterVav);
+  }
+
+  // Layer 3: strip a single-letter prep [ב ל כ פ] from the original token
+  // and (if present) from the post-vav form too.
+  const PREFIXES = ["ב", "ל", "כ", "פ"];
+  for (const base of [tok, afterVav].filter(Boolean) as string[]) {
+    for (const p of PREFIXES) {
+      if (base.startsWith(p) && base.length > 1) {
+        withAlStripped(base.slice(1));
+      }
+    }
+  }
+
+  const triesArr = Array.from(tries);
   // Expand the candidate chain with final↔medial-normalized forms so e.g.
   // אבנה (medial nun) can match the lemma אבן (final nun).
-  const triesNorm = Array.from(new Set([...tries, ...tries.map(normalizeFinals)]));
+  const triesNorm = Array.from(new Set([...triesArr, ...triesArr.map(normalizeFinals)]));
 
   // Priority 1: hand-curated starter dictionary (Bereshit-1 exemplars).
   // Match by exact lemma OR by an explicit variant.
