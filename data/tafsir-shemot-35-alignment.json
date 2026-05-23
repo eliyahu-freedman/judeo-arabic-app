@@ -1,0 +1,500 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 35. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_35.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ת'ם גמע מוסי'. גמאעה' בני אסראיל",
+        "en": "Then Moses assembled the congregation of the sons of Israel",
+        "he": "וַיַּקְהֵל מֹשֶׁה אֶת-כָּל-עֲדַת בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקאל להם",
+        "en": "and said to them",
+        "he": "וַיֹּאמֶר אֲלֵהֶם"
+      },
+      {
+        "ja": "הד'ה אלאמור. אלד'י אמר אללה אן תצנע",
+        "en": "'These are the things which God has commanded that they be done.'",
+        "he": "אֵלֶּה הַדְּבָרִים אֲשֶׁר-צִוָּה יְהוָה לַעֲשֹׂת אֹתָם"
+      }
+    ],
+    "2": [
+      {
+        "ja": "סתה' איאם תצנע אלצנאיע",
+        "en": "Six days shall the crafts be done",
+        "he": "שֵׁשֶׁת יָמִים תֵּעָשֶׂה מְלָאכָה"
+      },
+      {
+        "ja": "ופי אליום אלסאבע. יכון לכם קדסא. עטלה הי סבת ללה",
+        "en": "but on the seventh day it shall be for you a holy thing — a rest, a Sabbath to God",
+        "he": "וּבַיּוֹם הַשְּׁבִיעִי יִהְיֶה לָכֶם קֹדֶשׁ שַׁבַּת שַׁבָּתוֹן לַיהוָה"
+      },
+      {
+        "ja": "כל מן עמל פיהא עמלא פליקתל",
+        "en": "Whoever does any work on it shall be put to death.",
+        "he": "כָּל-הָעֹשֶׂה בוֹ מְלָאכָה יוּמָת"
+      }
+    ],
+    "3": [
+      {
+        "ja": "לא תשעלו אלנאר. פי גמיע מסאכנכם",
+        "en": "You shall not kindle fire in any of your dwellings",
+        "he": "לֹא-תְבַעֲרוּ אֵשׁ בְּכֹל מֹשְׁבֹתֵיכֶם"
+      },
+      {
+        "ja": "פי יום אלסבת",
+        "en": "on the day of the Sabbath.",
+        "he": "בְּיוֹם הַשַּׁבָּת"
+      }
+    ],
+    "4": [
+      {
+        "ja": "פקאל מוסי' לגמאעה' בני אסראיל קאילא",
+        "en": "And Moses said to the congregation of the sons of Israel, saying",
+        "he": "וַיֹּאמֶר מֹשֶׁה אֶל-כָּל-עֲדַת בְּנֵי-יִשְׂרָאֵל לֵאמֹר"
+      },
+      {
+        "ja": "הד'א אלאמר. אלד'י אמר אללה בה",
+        "en": "'This is the thing which God has commanded.'",
+        "he": "זֶה הַדָּבָר אֲשֶׁר-צִוָּה יְהוָה לֵאמֹר"
+      }
+    ],
+    "5": [
+      {
+        "ja": "איתו מן ענדכם ברפיעה ללה",
+        "en": "Bring from what you have a contribution to God",
+        "he": "קְחוּ מֵאִתְּכֶם תְּרוּמָה לַיהוָה"
+      },
+      {
+        "ja": "כל מן סכ'ת נפסה. יאתי ברפיעה ללה",
+        "en": "let everyone whose heart is willing bring a contribution to God",
+        "he": "כֹּל נְדִיב לִבּוֹ יְבִיאֶהָ אֵת תְּרוּמַת יְהוָה"
+      },
+      {
+        "ja": "ד'הב וורק ונחאס",
+        "en": "gold, and silver, and copper,",
+        "he": "זָהָב וָכֶסֶף וּנְחֹשֶׁת"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ואסמאנגון וארגואן. וצבג' קרמז",
+        "en": "and blue, and purple, and scarlet dye",
+        "he": "וּתְכֵלֶת וְאַרְגָּמָן וְתוֹלַעַת שָׁנִי"
+      },
+      {
+        "ja": "ועשר ומרעזא",
+        "en": "and fine linen, and fine wool,",
+        "he": "וְשֵׁשׁ וְעִזִּים"
+      }
+    ],
+    "7": [
+      {
+        "ja": "וגלוד כבאש אדים",
+        "en": "and rams' hides of tanned leather",
+        "he": "וְעֹרֹת אֵילִם מְאָדָּמִים"
+      },
+      {
+        "ja": "וגלוד דארש",
+        "en": "and hides of tachash",
+        "he": "וְעֹרֹת תְּחָשִׁים"
+      },
+      {
+        "ja": "וכשב אלסנט",
+        "en": "and acacia wood,",
+        "he": "וַעֲצֵי שִׁטִּים"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ודהן לאלאצ'אה",
+        "en": "and oil for giving light",
+        "he": "וְשֶׁמֶן לַמָּאוֹר"
+      },
+      {
+        "ja": "ואטיאב לדה'ן אלמסח",
+        "en": "and spices for the anointing oil",
+        "he": "וּבְשָׂמִים לְשֶׁמֶן הַמִּשְׁחָה"
+      },
+      {
+        "ja": "ובכור אלצמוג'",
+        "en": "and incense of resins,",
+        "he": "וְלִקְטֹרֶת הַסַּמִּים"
+      }
+    ],
+    "9": [
+      {
+        "ja": "וחגארה' בלור",
+        "en": "and crystal stones",
+        "he": "וְאַבְנֵי-שֹׁהַם"
+      },
+      {
+        "ja": "וחגארה' נצ'אם. לאלצדרה ולאלבדנה",
+        "en": "and stones for setting — for the breastpiece and for the vestment.",
+        "he": "וְאַבְנֵי מִלֻּאִים לָאֵפוֹד וְלַחֹשֶׁן"
+      }
+    ],
+    "11": [
+      {
+        "ja": "אלמסכן וכ'באיה וג'טאה",
+        "en": "the tabernacle and its tent and its covering",
+        "he": "אֶת-הַמִּשְׁכָּן--אֶת-אָהֳלוֹ וְאֶת-מִכְסֵהוּ"
+      },
+      {
+        "ja": "ושצ'צ'ה. ותכ'אתגה ואמהאגה",
+        "en": "and its clasps, and its planks, and its bars",
+        "he": "אֶת-קְרָסָיו וְאֶת-קְרָשָׁיו אֶת-בְּרִיחָו"
+      },
+      {
+        "ja": "ועמדה וקואעדה",
+        "en": "and its pillars, and its bases,",
+        "he": "אֶת-עַמֻּדָיו וְאֶת-אֲדָנָיו"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ואלצנדוק ודהוקה ואלג'שא",
+        "en": "and the ark and its poles, and the cover",
+        "he": "אֶת-הָאָרֹן וְאֶת-בַּדָּיו אֶת-הַכַּפֹּרֶת"
+      },
+      {
+        "ja": "ואלסגף אלמסתור",
+        "en": "and the concealing curtain,",
+        "he": "וְאֵת פָּרֹכֶת הַמָּסָךְ"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ואלמאידה ודהוקהא וכל אניתהא",
+        "en": "and the table and its poles and all its vessels",
+        "he": "אֶת-הַשֻּׁלְחָן וְאֶת-בַּדָּיו וְאֶת-כָּל-כֵּלָיו"
+      },
+      {
+        "ja": "ואלכ'בז אלמוגה",
+        "en": "and the facing bread,",
+        "he": "וְאֵת לֶחֶם הַפָּנִים"
+      }
+    ],
+    "14": [
+      {
+        "ja": "ומנארה' אלאצ'אה. ואניתהא וסרגהא",
+        "en": "and the lampstand of light, and its vessels, and its lamps",
+        "he": "וְאֶת-מְנֹרַת הַמָּאוֹר וְאֶת-כֵּלֶיהָ וְאֶת-נֵרֹתֶיהָ"
+      },
+      {
+        "ja": "ודהן אלאצ'אה",
+        "en": "and the oil for giving light,",
+        "he": "וְאֵת שֶׁמֶן הַמָּאוֹר"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ומד'בח אלבכור ודהוקה",
+        "en": "and the altar of incense and its poles",
+        "he": "וְאֶת-מִזְבַּח הַקְּטֹרֶת וְאֶת-בַּדָּיו"
+      },
+      {
+        "ja": "ודה'ן אלמסח. ובכ'ור אלצמוג'",
+        "en": "and the anointing oil, and the incense of resins",
+        "he": "וְאֵת שֶׁמֶן הַמִּשְׁחָה וְאֵת קְטֹרֶת הַסַּמִּים"
+      },
+      {
+        "ja": "וסתר באב כ'בא אלמסכן",
+        "en": "and the curtain of the entrance of the tent of the tabernacle,",
+        "he": "וְאֶת-מָסַךְ הַפֶּתַח לְפֶתַח הַמִּשְׁכָּן"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ומד'בח אלקראבין. ואלסרד אלנחאס אלד'י לה",
+        "en": "and the altar of offerings, and the copper grating that belongs to it",
+        "he": "אֵת מִזְבַּח הָעֹלָה וְאֶת-מִכְבַּר הַנְּחֹשֶׁת אֲשֶׁר-לוֹ"
+      },
+      {
+        "ja": "ודהוקה וגמיע אניתה",
+        "en": "and its poles, and all its vessels",
+        "he": "אֶת-בַּדָּיו וְאֶת-כָּל-כֵּלָיו"
+      },
+      {
+        "ja": "ואלחוץ' ומקעדה",
+        "en": "and the laver and its base,",
+        "he": "אֶת-הַכִּיֹּר וְאֶת-כַּנּוֹ"
+      }
+    ],
+    "17": [
+      {
+        "ja": "וקלוע אלצראדק. ועמדה וקואעדה",
+        "en": "and the curtains of the court, and their pillars and their bases",
+        "he": "אֵת קַלְעֵי הֶחָצֵר אֶת-עַמֻּדָיו וְאֶת-אֲדָנֶיהָ"
+      },
+      {
+        "ja": "וסתר באבה",
+        "en": "and the curtain of its gate,",
+        "he": "וְאֵת מָסַךְ שַׁעַר הֶחָצֵר"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ואותאד אלמסכן. ואותאד אלצראדק",
+        "en": "and the pegs of the tabernacle, and the pegs of the court",
+        "he": "אֶת-יִתְדֹת הַמִּשְׁכָּן וְאֶת-יִתְדֹת הֶחָצֵר"
+      },
+      {
+        "ja": "ואטנבהא",
+        "en": "and their cords,",
+        "he": "וְאֶת-מֵיתְרֵיהֶם"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ות'יאב אלושי. לאלכ'דמה פי אלקדס",
+        "en": "and the embroidered garments for service in the sanctuary",
+        "he": "אֶת-בִּגְדֵי הַשְּׂרָד לְשָׁרֵת בַּקֹּדֶשׁ"
+      },
+      {
+        "ja": "ות'יאב אלקדס להרון אלאמאם",
+        "en": "and the holy garments for Aaron the imām",
+        "he": "אֶת-בִּגְדֵי הַקֹּדֶשׁ לְאַהֲרֹן הַכֹּהֵן"
+      },
+      {
+        "ja": "ות'יאב בניה לאלאמאמה",
+        "en": "and the garments of his sons for the imāmate.'",
+        "he": "וְאֶת-בִּגְדֵי בָנָיו לְכַהֵן"
+      }
+    ],
+    "20": [
+      {
+        "ja": "פכ'רג גמאעה' בני אסראיל מן בין ידי מוסי'",
+        "en": "And the congregation of the sons of Israel went out from before Moses.",
+        "he": "וַיֵּצְאוּ כָּל-עֲדַת בְּנֵי-יִשְׂרָאֵל מִלִּפְנֵי מֹשֶׁה"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ואתו כל רגל סכ'ת נפסה",
+        "en": "And there came every man whose heart was willing",
+        "he": "וַיָּבֹאוּ כָּל-אִישׁ אֲשֶׁר-נְשָׂאוֹ לִבּוֹ"
+      },
+      {
+        "ja": "וכל מן ראי ראיה",
+        "en": "and every one who had a vision",
+        "he": "וְכֹל אֲשֶׁר נָדְבָה רוּחוֹ אֹתוֹ"
+      },
+      {
+        "ja": "ברפיעה ללה. לצנעה' כ'בא אלמחצ'ר",
+        "en": "with a contribution to God, for the making of the tent of the assembly",
+        "he": "הֵבִיאוּ אֶת-תְּרוּמַת יְהוָה לִמְלֶאכֶת אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "וגמיע עמלה. ות'יאב אלקדס",
+        "en": "and for all its work, and for the holy garments.",
+        "he": "וּלְכָל-עֲבֹדָתוֹ וּלְבִגְדֵי הַקֹּדֶשׁ"
+      }
+    ],
+    "22": [
+      {
+        "ja": "אתא בד'אלך אלרגאל מע אלנסא",
+        "en": "There came after that the men together with the women",
+        "he": "וַיָּבֹאוּ הָאֲנָשִׁים עַל-הַנָּשִׁים"
+      },
+      {
+        "ja": "ומן כאן סכ'ייא מנהם. אתא חתי בשסתינק ושנף. וכ'אתם וחקאב",
+        "en": "those among them who were generous — bringing even bracelets and earrings, and signet rings and girdles",
+        "he": "כֹּל נְדִיב לֵב הֵבִיאוּ חָח וָנֶזֶם וְטַבַּעַת וְכוּמָז"
+      },
+      {
+        "ja": "וסאיר אניה' אלד'הב",
+        "en": "and the rest of the vessels of gold",
+        "he": "כָּל-כְּלִי זָהָב"
+      },
+      {
+        "ja": "וכל מן עזל עזלא מן אלד'הב ללה",
+        "en": "and everyone who set apart a separation of gold for God.",
+        "he": "וְכָל-אִישׁ אֲשֶׁר הֵנִיף תְּנוּפַת זָהָב לַיהוָה"
+      }
+    ],
+    "23": [
+      {
+        "ja": "וכל מן וגד ענדה. אסמאנגון וארגואן. וצבג' קרמז",
+        "en": "And everyone in whose possession there was found blue, and purple, and scarlet dye",
+        "he": "וְכָל-אִישׁ אֲשֶׁר-נִמְצָא אִתּוֹ תְּכֵלֶת וְאַרְגָּמָן וְתוֹלַעַת שָׁנִי"
+      },
+      {
+        "ja": "ועשר ומרעזא",
+        "en": "and fine linen, and fine wool",
+        "he": "וְשֵׁשׁ וְעִזִּים"
+      },
+      {
+        "ja": "וגלוד כבאש אדים. וגלוד דארש אתו בה",
+        "en": "and rams' hides of tanned leather, and hides of tachash — they brought them.",
+        "he": "וְעֹרֹת אֵילִם מְאָדָּמִים וְעֹרֹת תְּחָשִׁים הֵבִיאוּ"
+      }
+    ],
+    "24": [
+      {
+        "ja": "וכל מן רפע רפיעה ללה. מן אלפצ'ה ואלנחאס. אתא בה ללה",
+        "en": "And everyone who raised a contribution to God of silver and copper brought it to God",
+        "he": "כָּל-מֵרִים תְּרוּמַת כֶּסֶף וּנְחֹשֶׁת הֵבִיאוּ אֵת תְּרוּמַת יְהוָה"
+      },
+      {
+        "ja": "וכל מן וגד ענדה. כ'שב סנט. לגמיע צנעה' אלעמל אתא בה",
+        "en": "and everyone in whose possession there was acacia wood — for any part of the making of the work — brought it.",
+        "he": "וְכֹל אֲשֶׁר נִמְצָא אִתּוֹ עֲצֵי שִׁטִּים לְכָל-מְלֶאכֶת הָעֲבֹדָה--הֵבִיאוּ"
+      }
+    ],
+    "25": [
+      {
+        "ja": "וכל אמראה בצירה אן תגזל בידהא",
+        "en": "And every woman skilled enough to spin with her hand",
+        "he": "וְכָל-אִשָּׁה חַכְמַת-לֵב בְּיָדֶיהָ טָווּ"
+      },
+      {
+        "ja": "אתין מג'זולא. באלאסמאנגון ואלארגואן",
+        "en": "came with spun work of blue, and purple",
+        "he": "וַיָּבִיאוּ מַטְוֶה אֶת-הַתְּכֵלֶת וְאֶת-הָאַרְגָּמָן"
+      },
+      {
+        "ja": "ואלצבג' אלקרמז ואלעשר",
+        "en": "and scarlet dye, and fine linen.",
+        "he": "אֶת-תּוֹלַעַת הַשָּׁנִי וְאֶת-הַשֵּׁשׁ"
+      }
+    ],
+    "26": [
+      {
+        "ja": "וכל אמראה בלג' מן בצרהא",
+        "en": "And every woman outstanding in her skill",
+        "he": "וְכָל-הַנָּשִׁים--אֲשֶׁר נָשָׂא לִבָּן אֹתָנָה בְּחָכְמָה"
+      },
+      {
+        "ja": "ג'זלין אלמרעזא",
+        "en": "spun the fine wool.",
+        "he": "טָווּ אֶת-הָעִזִּים"
+      }
+    ],
+    "27": [
+      {
+        "ja": "ואלאשראף אתו. בחגארה' אלבלור",
+        "en": "And the nobles brought the crystal stones",
+        "he": "וְהַנְּשִׂאִם הֵבִיאוּ--אֵת אַבְנֵי הַשֹּׁהַם"
+      },
+      {
+        "ja": "וחגארה' אלנצ'אם. לאלצדרה ולאלבדנה",
+        "en": "and the stones for setting — for the breastpiece and for the vestment.",
+        "he": "וְאֵת אַבְנֵי הַמִּלֻּאִים לָאֵפוֹד וְלַחֹשֶׁן"
+      }
+    ],
+    "28": [
+      {
+        "ja": "ואלטיב ואלדה'ן. לאלאצ'אה",
+        "en": "And the spices, and the oil for giving light",
+        "he": "וְאֶת-הַבֹּשֶׂם וְאֶת-הַשָּׁמֶן לְמָאוֹר"
+      },
+      {
+        "ja": "ודהן אלמסח. ובכ'ור אלצמוג'",
+        "en": "and the anointing oil, and the incense of resins.",
+        "he": "וּלְשֶׁמֶן הַמִּשְׁחָה וְלִקְטֹרֶת הַסַּמִּים"
+      }
+    ],
+    "29": [
+      {
+        "ja": "כד'אך כל רגל ואמראה. סכ'ת אנפסהם. אן יאתו בשי",
+        "en": "Thus every man and woman whose heart was willing to bring something",
+        "he": "כָּל-אִישׁ וְאִשָּׁה אֲשֶׁר נָדַב לִבָּם אֹתָם לְהָבִיא"
+      },
+      {
+        "ja": "לגמיע אלצנעה. אלתי אמר אללה בהא. אן תצנע ביד מוסי'",
+        "en": "for all the craftsmanship which God had commanded to be done by the hand of Moses",
+        "he": "לְכָל-הַמְּלָאכָה אֲשֶׁר צִוָּה יְהוָה לַעֲשׂוֹת בְּיַד-מֹשֶׁה"
+      },
+      {
+        "ja": "אתו בהא בני אסראיל. תברעא ללה",
+        "en": "the sons of Israel brought it as a freewill offering to God.",
+        "he": "הֵבִיאוּ בְנֵי-יִשְׂרָאֵל נְדָבָה לַיהוָה"
+      }
+    ],
+    "30": [
+      {
+        "ja": "פקאל מוסי' לבני אסראיל",
+        "en": "And Moses said to the sons of Israel",
+        "he": "וַיֹּאמֶר מֹשֶׁה אֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אנצ'רו אן אללה קד שרף אסם",
+        "en": "'See that God has honored",
+        "he": "רְאוּ קָרָא יְהוָה בְּשֵׁם"
+      },
+      {
+        "ja": "בצלאל. אבן אורי אבן חור מן סבט יהודה",
+        "en": "Bezalel son of Uri son of Hur, of the tribe of Judah,",
+        "he": "בְּצַלְאֵל בֶּן-אוּרִי בֶן-חוּר לְמַטֵּה יְהוּדָה"
+      }
+    ],
+    "31": [
+      {
+        "ja": "ואכמל פיה עלמא מן ענד אללה",
+        "en": "and has perfected in him knowledge from God",
+        "he": "וַיְמַלֵּא אֹתוֹ רוּחַ אֱלֹהִים"
+      },
+      {
+        "ja": "בחכמה. ופהם ומערפה",
+        "en": "in wisdom, and understanding, and skill",
+        "he": "בְּחָכְמָה בִּתְבוּנָה וּבְדַעַת"
+      },
+      {
+        "ja": "בגמיע אלצנאיע",
+        "en": "in all craftsmanship —",
+        "he": "וּבְכָל-מְלָאכָה"
+      }
+    ],
+    "32": [
+      {
+        "ja": "וחאד'ק באלמהן. בצנעה' אלד'הב ואלפצ'ה ואלנחאס",
+        "en": "and proficient in the trades, in the craft of gold, and silver, and copper,",
+        "he": "וְלַחְשֹׁב מַחֲשָׁבֹת--לַעֲשֹׂת בַּזָּהָב וּבַכֶּסֶף וּבַנְּחֹשֶׁת"
+      }
+    ],
+    "33": [
+      {
+        "ja": "ובכ'רט אלגוהר. לאלנצ'אם",
+        "en": "and in the engraving of gems for setting",
+        "he": "וּבַחֲרֹשֶׁת אֶבֶן לְמַלֹּאת"
+      },
+      {
+        "ja": "ונגר אלכ'שב. ועמל סאיר צנאיע אלמהן",
+        "en": "and in the carpentry of wood, and in doing all the rest of the crafts of the trades.",
+        "he": "וּבַחֲרֹשֶׁת עֵץ לַעֲשׂוֹת בְּכָל-מְלֶאכֶת מַחֲשָׁבֶת"
+      }
+    ],
+    "34": [
+      {
+        "ja": "ולאלתעלים געל פי ידה",
+        "en": "And for teaching He has placed in his hand",
+        "he": "וּלְהוֹרֹת נָתַן בְּלִבּוֹ"
+      },
+      {
+        "ja": "הו ואהליאב אבן אחיסמך מן סבט דן",
+        "en": "he and Oholiab son of Ahisamach, of the tribe of Dan —",
+        "he": "הוּא וְאָהֳלִיאָב בֶּן-אֲחִיסָמָךְ לְמַטֵּה-דָן"
+      }
+    ],
+    "35": [
+      {
+        "ja": "אכמל פיהמא עלם אלחכמה. אן יצנעו כל צנעה' אסתאד' וחאד'ק",
+        "en": "He has perfected in their hearts the knowledge of wisdom, that they may make every craft of a master and expert",
+        "he": "מִלֵּא אֹתָם חָכְמַת-לֵב לַעֲשׂוֹת כָּל-מְלֶאכֶת חָרָשׁ וְחֹשֵׁב"
+      },
+      {
+        "ja": "וראקם באלאסמאנגון ואלארגואן. ואלצבג' אלקרמז. ואלעשר",
+        "en": "and an embroiderer in blue, and purple, and scarlet dye, and fine linen",
+        "he": "וְרֹקֵם בַּתְּכֵלֶת וּבָאַרְגָּמָן בְּתוֹלַעַת הַשָּׁנִי וּבַשֵּׁש"
+      },
+      {
+        "ja": "וחאיך. פיהמא צאנעאן כל צנעה. וחאד'קאן באלמהן",
+        "en": "and a weaver; for the two of them are craftsmen of every craft, and proficient in the trades.'",
+        "he": "וְאֹרֵג עֹשֵׂי כָּל-מְלָאכָה וְחֹשְׁבֵי מַחֲשָׁבֹת"
+      }
+    ]
+  }
+}

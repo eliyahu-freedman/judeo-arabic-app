@@ -1,0 +1,323 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 24. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_24.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ת'ם קאל למוסי'",
+        "en": "Then He said to Moses",
+        "he": "וְאֶל-מֹשֶׁה אָמַר"
+      },
+      {
+        "ja": "אצעד אלי' אללה. אנת והרון נדב ואביהוא",
+        "en": "'Go up to God — you, and Aaron, Nadab and Abihu",
+        "he": "עֲלֵה אֶל-יְהוָה אַתָּה וְאַהֲרֹן נָדָב וַאֲבִיהוּא"
+      },
+      {
+        "ja": "וסבעין מן שיוך' בני אסראיל",
+        "en": "and seventy of the elders of the sons of Israel",
+        "he": "וְשִׁבְעִים מִזִּקְנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ואסגדו מן בעיד",
+        "en": "and bow down from afar.",
+        "he": "וְהִשְׁתַּחֲוִיתֶם מֵרָחֹק"
+      }
+    ],
+    "2": [
+      {
+        "ja": "ויתקדם מוסי' וחדה אלי' אללה",
+        "en": "And Moses alone shall draw near to God",
+        "he": "וְנִגַּשׁ מֹשֶׁה לְבַדּוֹ אֶל-יְהוָה"
+      },
+      {
+        "ja": "והם לא יתקדמון",
+        "en": "but they shall not draw near",
+        "he": "וְהֵם לֹא יִגָּשׁוּ"
+      },
+      {
+        "ja": "ואלקום. לא יצעדו מעה",
+        "en": "and the people shall not go up with him.",
+        "he": "וְהָעָם לֹא יַעֲלוּ עִמּוֹ"
+      }
+    ],
+    "3": [
+      {
+        "ja": "פגא מוסי'. וקץ עלי' אלקום גמיע כלאם אללה. וגמיע אלאחכאם",
+        "en": "And Moses came and recounted to the people all the words of God and all the ordinances",
+        "he": "וַיָּבֹא מֹשֶׁה וַיְסַפֵּר לָעָם אֵת כָּל-דִּבְרֵי יְהוָה וְאֵת כָּל-הַמִּשְׁפָּטִים"
+      },
+      {
+        "ja": "פאגאבה גמיע אלקום. בצות ואחד וקאלו",
+        "en": "and all the people answered with one voice and said",
+        "he": "וַיַּעַן כָּל-הָעָם קוֹל אֶחָד וַיֹּאמְרוּ"
+      },
+      {
+        "ja": "גמיע אלכלאם. אלד'י אמר אללה נצנעה",
+        "en": "'All the words which God has commanded, we shall do.",
+        "he": "כָּל-הַדְּבָרִים אֲשֶׁר-דִּבֶּר יְהוָה נַעֲשֶׂה"
+      }
+    ],
+    "4": [
+      {
+        "ja": "פכתב מוסי' גמיע כלאם אללה",
+        "en": "And Moses wrote down all the words of God",
+        "he": "וַיִּכְתֹּב מֹשֶׁה אֵת כָּל-דִּבְרֵי יְהוָה"
+      },
+      {
+        "ja": "ואדלג באלג'דאה",
+        "en": "and he rose early in the morning",
+        "he": "וַיַּשְׁכֵּם בַּבֹּקֶר"
+      },
+      {
+        "ja": "ובנא מד'בח פי תחת אלגבל",
+        "en": "and built an altar at the foot of the mountain",
+        "he": "וַיִּבֶן מִזְבֵּחַ תַּחַת הָהָר"
+      },
+      {
+        "ja": "ואת'ני עשר דכה. באזא את'ני עשר אסבאט אסראיל",
+        "en": "and twelve platforms, corresponding to the twelve tribes of Israel.",
+        "he": "וּשְׁתֵּים עֶשְׂרֵה מַצֵּבָה לִשְׁנֵים עָשָׂר שִׁבְטֵי יִשְׂרָאֵל"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ובעת' בכור בני אסראיל",
+        "en": "And he sent the firstborn of the sons of Israel",
+        "he": "וַיִּשְׁלַח אֶת-נַעֲרֵי בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקרבו צואעדא",
+        "en": "and they brought up offerings",
+        "he": "וַיַּעֲלוּ עֹלֹת"
+      },
+      {
+        "ja": "וד'בחו ד'באיח סלאמה. ללה מן אלבקר",
+        "en": "and slaughtered peace-offerings to God from the cattle.",
+        "he": "וַיִּזְבְּחוּ זְבָחִים שְׁלָמִים לַיהוָה--פָּרִים"
+      }
+    ],
+    "6": [
+      {
+        "ja": "פאכ'ד' מוסי' בעץ' אלדם. וגעלה פי אגאגין ודפנה",
+        "en": "And Moses took some of the blood, and placed it in basins and buried it",
+        "he": "וַיִּקַּח מֹשֶׁה חֲצִי הַדָּם וַיָּשֶׂם בָּאַגָּנֹת"
+      },
+      {
+        "ja": "ובאקיה רשה עלי' אלמד'בח",
+        "en": "and the remainder of it he sprinkled upon the altar.",
+        "he": "וַחֲצִי הַדָּם זָרַק עַל-הַמִּזְבֵּחַ"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ואכ'ד' כתאב אלעהד",
+        "en": "And he took the book of the covenant",
+        "he": "וַיִּקַּח סֵפֶר הַבְּרִית"
+      },
+      {
+        "ja": "וקראה עלי' אלקום",
+        "en": "and read it aloud to the people",
+        "he": "וַיִּקְרָא בְּאָזְנֵי הָעָם"
+      },
+      {
+        "ja": "וקאלו גמיע מא אמר אללה נקבלה ונצנעה",
+        "en": "and they said: 'All that God has commanded, we shall accept and do.",
+        "he": "וַיֹּאמְרוּ כֹּל אֲשֶׁר-דִּבֶּר יְהוָה נַעֲשֶׂה וְנִשְׁמָע"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ואכ'ד' מוסי' מן אלדם. ורשה עלי אלקום",
+        "en": "And Moses took some of the blood, and sprinkled it upon the people",
+        "he": "וַיִּקַּח מֹשֶׁה אֶת-הַדָּם וַיִּזְרֹק עַל-הָעָם"
+      },
+      {
+        "ja": "וקאל. הד'א דם אלעהד",
+        "en": "and said: 'This is the blood of the covenant",
+        "he": "וַיֹּאמֶר הִנֵּה דַם-הַבְּרִית"
+      },
+      {
+        "ja": "אלד'י עהדה אללה מעכם",
+        "en": "which God has made with you",
+        "he": "אֲשֶׁר כָּרַת יְהוָה עִמָּכֶם"
+      },
+      {
+        "ja": "עלי גמיע הד'ה אלאחכאם",
+        "en": "concerning all these ordinances.",
+        "he": "עַל כָּל-הַדְּבָרִים הָאֵלֶּה"
+      }
+    ],
+    "9": [
+      {
+        "ja": "ת'ם צעד מוסי' והרון",
+        "en": "Then Moses and Aaron went up",
+        "he": "וַיַּעַל מֹשֶׁה וְאַהֲרֹן"
+      },
+      {
+        "ja": "נדב ואביהוא",
+        "en": "Nadab and Abihu",
+        "he": "נָדָב וַאֲבִיהוּא"
+      },
+      {
+        "ja": "וסבעין מן שיוך' בני אסראיל",
+        "en": "and seventy of the elders of the sons of Israel.",
+        "he": "וְשִׁבְעִים מִזִּקְנֵי יִשְׂרָאֵל"
+      }
+    ],
+    "10": [
+      {
+        "ja": "פנצ'רו נור אלאה אסראיל",
+        "en": "And they beheld the light of the God of Israel",
+        "he": "וַיִּרְאוּ אֵת אֱלֹהֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ומן דונה. כצנעה' ביאץ' אלמהא",
+        "en": "and beneath it was like a fashioning of the whiteness of sapphire",
+        "he": "וְתַחַת רַגְלָיו כְּמַעֲשֵׂה לִבְנַת הַסַּפִּיר"
+      },
+      {
+        "ja": "וכד'את אלסמא פי אלנקא",
+        "en": "and like the very sky in its purity.",
+        "he": "וּכְעֶצֶם הַשָּׁמַיִם לָטֹהַר"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ועלי' נקבא בני אסראיל. לם יבעת' אפתה",
+        "en": "And upon the chosen ones of the sons of Israel He did not send His affliction",
+        "he": "וְאֶל-אֲצִילֵי בְּנֵי יִשְׂרָאֵל לֹא שָׁלַח יָדוֹ"
+      },
+      {
+        "ja": "פנצ'רו נור אללה ועאשו",
+        "en": "and they beheld the light of God and lived",
+        "he": "וַיֶּחֱזוּ אֶת-הָאֱלֹהִים"
+      },
+      {
+        "ja": "ואכלו ושרבו",
+        "en": "and they ate and drank.",
+        "he": "וַיֹּאכְלוּ וַיִּשְׁתּוּ"
+      }
+    ],
+    "12": [
+      {
+        "ja": "פקאל אללה למוסי'",
+        "en": "And God said to Moses",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "אצעד אליי אלי' אלגבל וקם ת'ם",
+        "en": "'Go up to Me to the mountain, and remain there",
+        "he": "עֲלֵה אֵלַי הָהָרָה--וֶהְיֵה-שָׁם"
+      },
+      {
+        "ja": "אעטיך לוחי אלגוהר",
+        "en": "I shall give you the two tablets of gem",
+        "he": "וְאֶתְּנָה לְךָ אֶת-לֻחֹת הָאֶבֶן"
+      },
+      {
+        "ja": "ואלשראיע ואלוצאיא. אלד'י כתבתהא לאדלהם בהא",
+        "en": "and the laws and the commandments which I have written, to guide them by them.",
+        "he": "וְהַתּוֹרָה וְהַמִּצְוָה אֲשֶׁר כָּתַבְתִּי לְהוֹרֹתָם"
+      }
+    ],
+    "13": [
+      {
+        "ja": "פקאם מוסי' ויהושע כ'אדמה",
+        "en": "And Moses arose, and Joshua his attendant",
+        "he": "וַיָּקָם מֹשֶׁה וִיהוֹשֻׁעַ מְשָׁרְתוֹ"
+      },
+      {
+        "ja": "וצעד מוסי' אלי' גבל אללה",
+        "en": "and Moses went up to the mountain of God.",
+        "he": "וַיַּעַל מֹשֶׁה אֶל-הַר הָאֱלֹהִים"
+      }
+    ],
+    "14": [
+      {
+        "ja": "וקאל לאלשיוך'",
+        "en": "And he said to the elders",
+        "he": "וְאֶל-הַזְּקֵנִים אָמַר"
+      },
+      {
+        "ja": "אגלסו לנא ההנא. אלי' אן נרגע אליכם",
+        "en": "'Sit here for us until we return to you",
+        "he": "שְׁבוּ-לָנוּ בָזֶה עַד אֲשֶׁר-נָשׁוּב אֲלֵיכֶם"
+      },
+      {
+        "ja": "והוד'י הרון וחור מעכם",
+        "en": "and behold, Aaron and Hur are with you",
+        "he": "וְהִנֵּה אַהֲרֹן וְחוּר עִמָּכֶם"
+      },
+      {
+        "ja": "מן כאן לה אמר תקדם אליהם",
+        "en": "whoever has a matter, let him approach them.",
+        "he": "מִי-בַעַל דְּבָרִים יִגַּשׁ אֲלֵהֶם"
+      }
+    ],
+    "15": [
+      {
+        "ja": "פצעד מוסי' אלי' אלגבל",
+        "en": "And Moses went up to the mountain",
+        "he": "וַיַּעַל מֹשֶׁה אֶל-הָהָר"
+      },
+      {
+        "ja": "פג'טא אלג'מאם אלגבל",
+        "en": "and the cloud covered the mountain.",
+        "he": "וַיְכַס הֶעָנָן אֶת-הָהָר"
+      }
+    ],
+    "16": [
+      {
+        "ja": "וסכן נור אללה עלי' גבל סיני",
+        "en": "And the light of God settled upon Mount Sinai",
+        "he": "וַיִּשְׁכֹּן כְּבוֹד-יְהוָה עַל-הַר סִינַי"
+      },
+      {
+        "ja": "וג'טאה אלג'מאם סת איאם",
+        "en": "and the cloud covered it six days",
+        "he": "וַיְכַסֵּהוּ הֶעָנָן שֵׁשֶׁת יָמִים"
+      },
+      {
+        "ja": "ודעא במוסי'. פי אליום אלסאבע מן וסט אלג'מאם",
+        "en": "and He called to Moses on the seventh day from within the cloud.",
+        "he": "וַיִּקְרָא אֶל-מֹשֶׁה בַּיּוֹם הַשְּׁבִיעִי מִתּוֹךְ הֶעָנָן"
+      }
+    ],
+    "17": [
+      {
+        "ja": "וכאן רויא נור אללה. כנאר אכאלה",
+        "en": "And the appearance of the light of God was like a consuming fire",
+        "he": "וּמַרְאֵה כְּבוֹד יְהוָה כְּאֵשׁ אֹכֶלֶת"
+      },
+      {
+        "ja": "פי ראס אלגבל",
+        "en": "at the top of the mountain",
+        "he": "בְּרֹאשׁ הָהָר"
+      },
+      {
+        "ja": "בחצ'רה' בני אסראיל",
+        "en": "in the presence of the sons of Israel.",
+        "he": "לְעֵינֵי בְּנֵי יִשְׂרָאֵל"
+      }
+    ],
+    "18": [
+      {
+        "ja": "אד' דכ'ל מוסי' פי וסט אלג'מאם",
+        "en": "When Moses entered into the midst of the cloud",
+        "he": "וַיָּבֹא מֹשֶׁה בְּתוֹךְ הֶעָנָן"
+      },
+      {
+        "ja": "למא צעד אלי' אלגבל",
+        "en": "upon going up to the mountain",
+        "he": "וַיַּעַל אֶל-הָהָר"
+      },
+      {
+        "ja": "אקאם פיה ארבעין יום. וארבעין לילה",
+        "en": "he remained in it forty days and forty nights.",
+        "he": "וַיְהִי מֹשֶׁה בָּהָר אַרְבָּעִים יוֹם וְאַרְבָּעִים לָיְלָה"
+      }
+    ]
+  }
+}

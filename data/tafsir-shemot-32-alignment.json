@@ -1,0 +1,722 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 32. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_32.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ולמא ראי' אלקום. אן מוסי' קד אבטא אן ינזל מן אלגבל",
+        "en": "And when the people saw that Moses had delayed in coming down from the mountain,",
+        "he": "וַיַּרְא הָעָם כִּי-בֹשֵׁשׁ מֹשֶׁה לָרֶדֶת מִן-הָהָר"
+      },
+      {
+        "ja": "תגווק אלקום עלי' הרון",
+        "en": "the people pressed upon Aaron,",
+        "he": "וַיִּקָּהֵל הָעָם עַל-אַהֲרֹן"
+      },
+      {
+        "ja": "וקאלו לה",
+        "en": "and said to him:",
+        "he": "וַיֹּאמְרוּ אֵלָיו"
+      },
+      {
+        "ja": "קם אצנע לנא מעבודא. יסיר בין ידינא",
+        "en": "Rise, make us an object of worship that shall go before us —",
+        "he": "קוּם עֲשֵׂה-לָנוּ אֱלֹהִים אֲשֶׁר יֵלְכוּ לְפָנֵינוּ"
+      },
+      {
+        "ja": "פאן ד'אלך אלרגל מוסי'. אלד'י אצעדנא מן בלד מצר",
+        "en": "for that man Moses, who brought us up from the land of Egypt,",
+        "he": "כִּי-זֶה מֹשֶׁה הָאִישׁ אֲשֶׁר הֶעֱלָנוּ מֵאֶרֶץ מִצְרַיִם"
+      },
+      {
+        "ja": "לם נעלם מא כאן מן אמרה",
+        "en": "we do not know what has become of his affair.'",
+        "he": "לֹא יָדַעְנוּ מֶה-הָיָה לוֹ"
+      }
+    ],
+    "2": [
+      {
+        "ja": "פקאל להם הרון",
+        "en": "And Aaron said to them:",
+        "he": "וַיֹּאמֶר אֲלֵהֶם אַהֲרֹן"
+      },
+      {
+        "ja": "פכו אשנאף אלד'הב",
+        "en": "Remove the earrings of gold",
+        "he": "פָּרְקוּ נִזְמֵי הַזָּהָב"
+      },
+      {
+        "ja": "אלתי פי אד'אן נסאכם. בניכם ובנאתכם",
+        "en": "which are in the ears of your wives, your sons, and your daughters,",
+        "he": "אֲשֶׁר בְּאָזְנֵי נְשֵׁיכֶם בְּנֵיכֶם וּבְנֹתֵיכֶם"
+      },
+      {
+        "ja": "ואיתוני בהא",
+        "en": "and bring them to me.'",
+        "he": "וְהָבִיאוּ אֵלָי"
+      }
+    ],
+    "3": [
+      {
+        "ja": "פפך גמיע אלקום. אשנאף אלדהב אלתי פי אד'אנהם",
+        "en": "And all the people removed the earrings of gold which were in their ears,",
+        "he": "וַיִּתְפָּרְקוּ כָּל-הָעָם אֶת-נִזְמֵי הַזָּהָב אֲשֶׁר בְּאָזְנֵיהֶם"
+      },
+      {
+        "ja": "ואתו בהא אלי' הרון",
+        "en": "and brought them to Aaron.",
+        "he": "וַיָּבִיאוּ אֶל-אַהֲרֹן"
+      }
+    ],
+    "4": [
+      {
+        "ja": "פאכ'ד' ד'אלך מנהם",
+        "en": "And he took that from them,",
+        "he": "וַיִּקַּח מִיָּדָם"
+      },
+      {
+        "ja": "ואמר מן צוורה בקאלב",
+        "en": "and ordered one to shape it with a mold,",
+        "he": "וַיָּצַר אֹתוֹ בַּחֶרֶט"
+      },
+      {
+        "ja": "וצנעה עגלא מסבוכא",
+        "en": "and made it into a molten calf.",
+        "he": "וַיַּעֲשֵׂהוּ עֵגֶל מַסֵּכָה"
+      },
+      {
+        "ja": "וקאלו",
+        "en": "And they said:",
+        "he": "וַיֹּאמְרוּ"
+      },
+      {
+        "ja": "הד'א רבך יא אל אסראיל",
+        "en": "This is your lord, O house of Israel,",
+        "he": "אֵלֶּה אֱלֹהֶיךָ יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אלד'י אצעדך מן בלד מצר",
+        "en": "who brought you up from the land of Egypt.'",
+        "he": "אֲשֶׁר הֶעֱלוּךָ מֵאֶרֶץ מִצְרָיִם"
+      }
+    ],
+    "5": [
+      {
+        "ja": "פלמא ראא הרון ד'אלך",
+        "en": "And when Aaron saw that,",
+        "he": "וַיַּרְא אַהֲרֹן"
+      },
+      {
+        "ja": "בנא מד'בחא בין ידיה",
+        "en": "he built an altar before it,",
+        "he": "וַיִּבֶן מִזְבֵּחַ לְפָנָיו"
+      },
+      {
+        "ja": "ונאדא וקאל. חג ללה ג'דא",
+        "en": "and called out and said: 'A festival to God tomorrow.'",
+        "he": "וַיִּקְרָא אַהֲרֹן וַיֹּאמַר חַג לַיהוָה מָחָר"
+      }
+    ],
+    "6": [
+      {
+        "ja": "פאדלגו באלג'דאה",
+        "en": "And they rose early in the morning,",
+        "he": "וַיַּשְׁכִּימוּ מִמָּחֳרָת"
+      },
+      {
+        "ja": "וקרבו צואעדא",
+        "en": "and offered up burnt-offerings,",
+        "he": "וַיַּעֲלוּ עֹלֹת"
+      },
+      {
+        "ja": "וד'בחו ד'באיח סלאמה",
+        "en": "and slaughtered peace-offerings;",
+        "he": "וַיַּגִּשׁוּ שְׁלָמִים"
+      },
+      {
+        "ja": "וגלס אלקום ליאכלו וישרבו",
+        "en": "and the people sat down to eat and to drink,",
+        "he": "וַיֵּשֶׁב הָעָם לֶאֱכֹל וְשָׁתוֹ"
+      },
+      {
+        "ja": "וקאמו לילעבו",
+        "en": "and rose up to play.",
+        "he": "וַיָּקֻמוּ לְצַחֵק"
+      }
+    ],
+    "7": [
+      {
+        "ja": "פקאל אללה למוסי",
+        "en": "And God said to Moses:",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "אמץ' אנזל",
+        "en": "Go, descend —",
+        "he": "לֶךְ-רֵד"
+      },
+      {
+        "ja": "פאן קד אפסד קומך",
+        "en": "for your people",
+        "he": "כִּי שִׁחֵת עַמְּךָ"
+      },
+      {
+        "ja": "אלד'ין אצעדתהם מן בלד מצר",
+        "en": "whom you brought up from the land of Egypt, have corrupted themselves.'",
+        "he": "אֲשֶׁר הֶעֱלֵיתָ מֵאֶרֶץ מִצְרָיִם"
+      }
+    ],
+    "8": [
+      {
+        "ja": "זאלו סריעא. ען אלטריק אלד'י אמרתהם בה",
+        "en": "'They have turned aside swiftly from the way which I commanded them;",
+        "he": "סָרוּ מַהֵר מִן-הַדֶּרֶךְ אֲשֶׁר צִוִּיתִם"
+      },
+      {
+        "ja": "וצנעו להם עגלא מסבוכא",
+        "en": "and they made themselves a molten calf,",
+        "he": "עָשׂוּ לָהֶם עֵגֶל מַסֵּכָה"
+      },
+      {
+        "ja": "וסגדו לה וד'בחו לה",
+        "en": "and bowed down to it and slaughtered to it,",
+        "he": "וַיִּשְׁתַּחֲווּ-לוֹ וַיִּזְבְּחוּ-לוֹ"
+      },
+      {
+        "ja": "וקאלו",
+        "en": "and said:",
+        "he": "וַיֹּאמְרוּ"
+      },
+      {
+        "ja": "הד'א רבך יא אל אסראיל. אלד'י אצעדך מן בלד מצר",
+        "en": "This is your lord, O house of Israel, who brought you up from the land of Egypt.'",
+        "he": "אֵלֶּה אֱלֹהֶיךָ יִשְׂרָאֵל אֲשֶׁר הֶעֱלוּךָ מֵאֶרֶץ מִצְרָיִם"
+      }
+    ],
+    "9": [
+      {
+        "ja": "וקאל אללה למוסי",
+        "en": "And God said to Moses:",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "קד עלמת. אן הולאי אלקום",
+        "en": "'I have known that these people",
+        "he": "רָאִיתִי אֶת-הָעָם הַזֶּה"
+      },
+      {
+        "ja": "צעאב אלרקאב",
+        "en": "are stiff of neck.'",
+        "he": "וְהִנֵּה עַם-קְשֵׁה-עֹרֶף הוּא"
+      }
+    ],
+    "10": [
+      {
+        "ja": "ואלאן אן כפאת ען אלתשפע",
+        "en": "'And now, if you refrain from interceding,",
+        "he": "וְעַתָּה הַנִּיחָה לִּי"
+      },
+      {
+        "ja": "אשתד ג'צ'בי עליהם ואפניתהם",
+        "en": "My anger shall intensify against them and I shall destroy them;",
+        "he": "וְיִחַר-אַפִּי בָהֶם וַאֲכַלֵּם"
+      },
+      {
+        "ja": "ואצנע מנך אמה ]עט'ימה] עצ'ימה",
+        "en": "and I will make of you a great nation.'",
+        "he": "וְאֶעֱשֶׂה אוֹתְךָ לְגוֹי גָּדוֹל"
+      }
+    ],
+    "11": [
+      {
+        "ja": "פאבתהל מוסי' אלי' אללה רבה",
+        "en": "And Moses supplicated before God his Lord,",
+        "he": "וַיְחַל מֹשֶׁה אֶת-פְּנֵי יְהוָה אֱלֹהָיו"
+      },
+      {
+        "ja": "וקאל יא רב. לא ישתד ג'צ'בך עלי' קומך",
+        "en": "and said: 'O Lord, let not Your anger intensify against Your people,",
+        "he": "וַיֹּאמֶר לָמָה יְהוָה יֶחֱרֶה אַפְּךָ בְּעַמֶּךָ"
+      },
+      {
+        "ja": "אלד'י אכ'רגתהם מן בלד מצר",
+        "en": "whom You brought out from the land of Egypt",
+        "he": "אֲשֶׁר הוֹצֵאתָ מֵאֶרֶץ מִצְרַיִם"
+      },
+      {
+        "ja": "בקווה ]עט'ימה] ]עט'ימה] עצ'ימה וביד שדידה",
+        "en": "with great power and with a mighty hand —'",
+        "he": "בְּכֹחַ גָּדוֹל וּבְיָד חֲזָקָה"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ולא יקול אלמצריון",
+        "en": "'— lest the Egyptians say",
+        "he": "לָמָּה יֹאמְרוּ מִצְרַיִם לֵאמֹר"
+      },
+      {
+        "ja": "אנה אכ'רגהם בשר ליקתלהם פי מא בין אלגבאל",
+        "en": "that He brought them out with evil intent, to kill them amid the mountains",
+        "he": "בְּרָעָה הוֹצִיאָם לַהֲרֹג אֹתָם בֶּהָרִים"
+      },
+      {
+        "ja": "ויפניהם ען וגה אלארץ'",
+        "en": "and to destroy them from the face of the earth.",
+        "he": "וּלְכַלֹּתָם מֵעַל פְּנֵי הָאֲדָמָה"
+      },
+      {
+        "ja": "ארגע ען שדה' ג'צ'בך",
+        "en": "Turn back from the fierceness of Your anger,",
+        "he": "שׁוּב מֵחֲרוֹן אַפֶּךָ"
+      },
+      {
+        "ja": "ואצפח ען אלבלייה לקומך",
+        "en": "and pardon the affliction for Your people.'",
+        "he": "וְהִנָּחֵם עַל-הָרָעָה לְעַמֶּךָ"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ואד'כר לאברהים ויצחק ואסראיל עבידך",
+        "en": "'And remember Abraham, Isaac, and Israel, Your servants,",
+        "he": "זְכֹר לְאַבְרָהָם לְיִצְחָק וּלְיִשְׂרָאֵל עֲבָדֶיךָ"
+      },
+      {
+        "ja": "אלד'י אקסמת להם באסמך",
+        "en": "to whom You swore by Your name,",
+        "he": "אֲשֶׁר נִשְׁבַּעְתָּ לָהֶם בָּךְ"
+      },
+      {
+        "ja": "וקלת להם. אכת'ר נסלכם. ככואכב אלסמא",
+        "en": "and said to them: I will multiply your offspring like the stars of the sky;",
+        "he": "וַתְּדַבֵּר אֲלֵהֶם אַרְבֶּה אֶת-זַרְעֲכֶם כְּכוֹכְבֵי הַשָּׁמָיִם"
+      },
+      {
+        "ja": "וגמיע אלבלד אלד'י אקסמת. אעטיה לנסלכם",
+        "en": "and all the land which I have sworn I will give to your offspring,",
+        "he": "וְכָל-הָאָרֶץ הַזֹּאת אֲשֶׁר אָמַרְתִּי אֶתֵּן לְזַרְעֲכֶם"
+      },
+      {
+        "ja": "ויחוזונה אלי' אלדהר",
+        "en": "and they shall possess it forever.'",
+        "he": "וְנָחֲלוּ לְעֹלָם"
+      }
+    ],
+    "14": [
+      {
+        "ja": "פצפח אללה. ען אלבלייה",
+        "en": "And God pardoned the affliction",
+        "he": "וַיִּנָּחֶם יְהוָה עַל-הָרָעָה"
+      },
+      {
+        "ja": "אלתי קאל אן יחלהא בקומה",
+        "en": "which He had said He would bring upon His people.",
+        "he": "אֲשֶׁר דִּבֶּר לַעֲשׂוֹת לְעַמּוֹ"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ת'ם ולא מוסי' ונזל מן אלגבל",
+        "en": "Then Moses turned and descended from the mountain,",
+        "he": "וַיִּפֶן וַיֵּרֶד מֹשֶׁה מִן-הָהָר"
+      },
+      {
+        "ja": "ולוחי אלשהאדה בידה",
+        "en": "with the two tablets of the testimony in his hand —",
+        "he": "וּשְׁנֵי לֻחֹת הָעֵדֻת בְּיָדוֹ"
+      },
+      {
+        "ja": "לוחין מכתובין מן גאנביהמא. מן דאכ'ל ומן כ'ארג",
+        "en": "the tablets written on both their sides, from within and from without.",
+        "he": "לֻחֹת כְּתֻבִים מִשְּׁנֵי עֶבְרֵיהֶם--מִזֶּה וּמִזֶּה הֵם כְּתֻבִים"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ואללוחין המא צנעה' אללה",
+        "en": "And the two tablets — they were the workmanship of God,",
+        "he": "וְהַלֻּחֹת--מַעֲשֵׂה אֱלֹהִים הֵמָּה"
+      },
+      {
+        "ja": "ואלכתאב הו כתאב אללה",
+        "en": "and the writing was the writing of God,",
+        "he": "וְהַמִּכְתָּב מִכְתַּב אֱלֹהִים הוּא"
+      },
+      {
+        "ja": "מחפור עליהמא",
+        "en": "engraved upon them.",
+        "he": "חָרוּת עַל-הַלֻּחֹת"
+      }
+    ],
+    "17": [
+      {
+        "ja": "פסמע יהושע. צות אלקום פי תגליבהם",
+        "en": "And Joshua heard the sound of the people in their clamor,",
+        "he": "וַיִּשְׁמַע יְהוֹשֻׁעַ אֶת-קוֹל הָעָם בְּרֵעֹה"
+      },
+      {
+        "ja": "פקאל למוסי'",
+        "en": "and said to Moses:",
+        "he": "וַיֹּאמֶר אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "צות חרב פי אלעסכר",
+        "en": "'There is a sound of war in the camp.'",
+        "he": "קוֹל מִלְחָמָה בַּמַּחֲנֶה"
+      }
+    ],
+    "18": [
+      {
+        "ja": "וקאל",
+        "en": "And Moses said:",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "ליס הו צות ידל עלי' צ'פר",
+        "en": "'It is not a sound that indicates victory,",
+        "he": "אֵין קוֹל עֲנוֹת גְּבוּרָה"
+      },
+      {
+        "ja": "ולא צות ידל עלי' הזימה",
+        "en": "nor a sound that indicates defeat —",
+        "he": "וְאֵין קוֹל עֲנוֹת חֲלוּשָׁה"
+      },
+      {
+        "ja": "בל צ'וצ'א. אנא סאמע",
+        "en": "rather, it is a tumult that I am hearing.'",
+        "he": "קוֹל עַנּוֹת אָנֹכִי שֹׁמֵעַ"
+      }
+    ],
+    "19": [
+      {
+        "ja": "פלמא קרב מן אלעסכר",
+        "en": "And when he drew near to the camp,",
+        "he": "וַיְהִי כַּאֲשֶׁר קָרַב אֶל-הַמַּחֲנֶה"
+      },
+      {
+        "ja": "ראי' אלעגל וטבול",
+        "en": "he saw the calf and the drums;",
+        "he": "וַיַּרְא אֶת-הָעֵגֶל וּמְחֹלֹת"
+      },
+      {
+        "ja": "פאשתד ג'צ'ב מוסי",
+        "en": "and Moses' anger intensified,",
+        "he": "וַיִּחַר-אַף מֹשֶׁה"
+      },
+      {
+        "ja": "וטרח אללוחין מן ידיה",
+        "en": "and he threw the tablets from his hands",
+        "he": "וַיַּשְׁלֵךְ מִיָּדָו אֶת-הַלֻּחֹת"
+      },
+      {
+        "ja": "וכסרהמא אספל אלגבל",
+        "en": "and shattered them at the foot of the mountain.",
+        "he": "וַיְשַׁבֵּר אֹתָם תַּחַת הָהָר"
+      }
+    ],
+    "20": [
+      {
+        "ja": "פאכ'ד' אלעגל אלד'י צנעו ואחרקה באלנאר",
+        "en": "And he took the calf which they had made, and burned it with fire,",
+        "he": "וַיִּקַּח אֶת-הָעֵגֶל אֲשֶׁר עָשׂוּ וַיִּשְׂרֹף בָּאֵשׁ"
+      },
+      {
+        "ja": "וברדה באלמברד אלי' אן דק",
+        "en": "and ground it with the file until it was fine;",
+        "he": "וַיִּטְחַן עַד אֲשֶׁר-דָּק"
+      },
+      {
+        "ja": "וד'ראה עלי' וגה אלמא",
+        "en": "and he scattered it upon the face of the water,",
+        "he": "וַיִּזֶר עַל-פְּנֵי הַמַּיִם"
+      },
+      {
+        "ja": "וסקא בני אסראיל אבאחה",
+        "en": "and made the sons of Israel drink it freely.",
+        "he": "וַיַּשְׁקְ אֶת-בְּנֵי יִשְׂרָאֵל"
+      }
+    ],
+    "21": [
+      {
+        "ja": "וקאל מוסי להרון",
+        "en": "And Moses said to Aaron:",
+        "he": "וַיֹּאמֶר מֹשֶׁה אֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "מא צנע בך הולאי אלקום",
+        "en": "'What did these people do to you,",
+        "he": "מֶה-עָשָׂה לְךָ הָעָם הַזֶּה"
+      },
+      {
+        "ja": "אד' גלבת עליהם כ'טייה ]עט'ימה] עצ'ימה",
+        "en": "that you brought upon them a great sin?'",
+        "he": "כִּי-הֵבֵאתָ עָלָיו חֲטָאָה גְדֹלָה"
+      }
+    ],
+    "22": [
+      {
+        "ja": "קאל",
+        "en": "He said:",
+        "he": "וַיֹּאמֶר אַהֲרֹן"
+      },
+      {
+        "ja": "לא ישתד ג'צ'ב סיידי",
+        "en": "'Let not my lord's anger intensify —",
+        "he": "אַל-יִחַר אַף אֲדֹנִי"
+      },
+      {
+        "ja": "אנת עאלם באלקום",
+        "en": "you know the people,",
+        "he": "אַתָּה יָדַעְתָּ אֶת-הָעָם"
+      },
+      {
+        "ja": "אנהם שרירין",
+        "en": "that they are prone to evil.'",
+        "he": "כִּי בְרָע הוּא"
+      }
+    ],
+    "23": [
+      {
+        "ja": "פקאלו לי אצנע לנא מעבודא. יסיר בין ידינא",
+        "en": "'They said to me: Make us an object of worship that shall go before us —",
+        "he": "וַיֹּאמְרוּ לִי--עֲשֵׂה-לָנוּ אֱלֹהִים אֲשֶׁר יֵלְכוּ לְפָנֵינוּ"
+      },
+      {
+        "ja": "פאן ד'אלך אלרגל מוסי'. אלד'י אצעדנא מן בלד מצר",
+        "en": "for that man Moses, who brought us up from the land of Egypt,",
+        "he": "כִּי-זֶה מֹשֶׁה הָאִישׁ אֲשֶׁר הֶעֱלָנוּ מֵאֶרֶץ מִצְרַיִם"
+      },
+      {
+        "ja": "לם נעלם מא כאן מן אמרה",
+        "en": "we do not know what has become of his affair.'",
+        "he": "לֹא יָדַעְנוּ מֶה-הָיָה לוֹ"
+      }
+    ],
+    "24": [
+      {
+        "ja": "פקלת להם למן ד'הב",
+        "en": "'So I said to them: Look, who has gold?",
+        "he": "וָאֹמַר לָהֶם לְמִי זָהָב"
+      },
+      {
+        "ja": "פפכוה ואתוני בה",
+        "en": "bring it to me. And they removed it and gave it to me,",
+        "he": "וַיִּתְּנוּ-לִי"
+      },
+      {
+        "ja": "פטרחתה פי אלנאר",
+        "en": "and I threw it into the fire,",
+        "he": "וָאַשְׁלִכֵהוּ בָאֵשׁ"
+      },
+      {
+        "ja": "וכ'רג הד'י אלעגל",
+        "en": "and this calf came out.'",
+        "he": "וַיֵּצֵא הָעֵגֶל הַזֶּה"
+      }
+    ],
+    "25": [
+      {
+        "ja": "פלמא ראי מוסי אלקום. אנהם מכשופין",
+        "en": "And when Moses saw the people — that they were exposed,",
+        "he": "וַיַּרְא מֹשֶׁה אֶת-הָעָם כִּי פָרֻעַ הוּא"
+      },
+      {
+        "ja": "אד' כשף הרון. ד'וי אלשין מן מקאומיהם",
+        "en": "since Aaron had laid bare those of standing among their adversaries —",
+        "he": "כִּי-פְרָעֹה אַהֲרֹן לְשִׁמְצָה בְּקָמֵיהֶם"
+      }
+    ],
+    "26": [
+      {
+        "ja": "פוקף מוסי בבאב אלעסכר",
+        "en": "Moses stood at the gate of the camp,",
+        "he": "וַיַּעֲמֹד מֹשֶׁה בְּשַׁעַר הַמַּחֲנֶה"
+      },
+      {
+        "ja": "וקאל. מן ללה יקבל אליי",
+        "en": "and said: 'Who is for God — let him come to me.'",
+        "he": "וַיֹּאמֶר מִי לַיהוָה אֵלָי"
+      },
+      {
+        "ja": "פאגתמע אליה גמיע בני לוי",
+        "en": "And all the sons of Levi gathered to him.",
+        "he": "וַיֵּאָסְפוּ אֵלָיו כָּל-בְּנֵי לֵוִי"
+      }
+    ],
+    "27": [
+      {
+        "ja": "פקאל להם",
+        "en": "And he said to them:",
+        "he": "וַיֹּאמֶר לָהֶם"
+      },
+      {
+        "ja": "כד'א קאל אללה אלאה אסראיל",
+        "en": "'Thus says God, the God of Israel:",
+        "he": "כֹּה-אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "יתקלד כל רגל מנכם סיפה",
+        "en": "Let every man among you gird his sword,",
+        "he": "שִׂימוּ אִישׁ-חַרְבּוֹ עַל-יְרֵכוֹ"
+      },
+      {
+        "ja": "ואמצ'ו וארגעו. מן באב אלי' באב פי אלעסכר",
+        "en": "and go and return from gate to gate within the camp,",
+        "he": "עִבְרוּ וָשׁוּבוּ מִשַּׁעַר לָשַׁעַר בַּמַּחֲנֶה"
+      },
+      {
+        "ja": "ויקתל כל רגל. חתי' אכ'יה וצאחבה וקריבה",
+        "en": "and let every man slay even his brother and his companion and his kinsman.'",
+        "he": "וְהִרְגוּ אִישׁ-אֶת-אָחִיו וְאִישׁ אֶת-רֵעֵהוּ וְאִישׁ אֶת-קְרֹבוֹ"
+      }
+    ],
+    "28": [
+      {
+        "ja": "פצנעו בני לוי כמא אמרהם מוסי'",
+        "en": "And the sons of Levi did as Moses had commanded them;",
+        "he": "וַיַּעֲשׂוּ בְנֵי-לֵוִי כִּדְבַר מֹשֶׁה"
+      },
+      {
+        "ja": "פוקע מן אלקום פי ד'אלך אליום. שביה בת'לאת'ה' אלאף רגל",
+        "en": "and there fell of the people on that day approximately three thousand men.",
+        "he": "וַיִּפֹּל מִן-הָעָם בַּיּוֹם הַהוּא כִּשְׁלֹשֶׁת אַלְפֵי אִישׁ"
+      }
+    ],
+    "29": [
+      {
+        "ja": "פקאל להם מוסי'",
+        "en": "And Moses said to them:",
+        "he": "וַיֹּאמֶר מֹשֶׁה"
+      },
+      {
+        "ja": "אכמלו ואגבכם אליום ללה",
+        "en": "'Fulfill your obligation today to God —",
+        "he": "מִלְאוּ יֶדְכֶם הַיּוֹם לַיהוָה"
+      },
+      {
+        "ja": "כל רגל חתי' באבנה ואכ'יה",
+        "en": "every man even against his son and his brother —",
+        "he": "כִּי אִישׁ בִּבְנוֹ וּבְאָחִיו"
+      },
+      {
+        "ja": "ותחל עליכם אליום ברכה",
+        "en": "and may there come upon you today a blessing.'",
+        "he": "וְלָתֵת עֲלֵיכֶם הַיּוֹם בְּרָכָה"
+      }
+    ],
+    "30": [
+      {
+        "ja": "ולמא כאן מן ג'ד",
+        "en": "And it was on the morrow,",
+        "he": "וַיְהִי מִמָּחֳרָת"
+      },
+      {
+        "ja": "קאל מוסי' לאלקום",
+        "en": "Moses said to the people:",
+        "he": "וַיֹּאמֶר מֹשֶׁה אֶל-הָעָם"
+      },
+      {
+        "ja": "אנתם אכ'טאתם כ'טייה ]עט'ימה] עצ'ימה",
+        "en": "'You have committed a great sin.",
+        "he": "אַתֶּם חֲטָאתֶם חֲטָאָה גְדֹלָה"
+      },
+      {
+        "ja": "ואלאן אצעד אלי' אללה",
+        "en": "And now I will go up to God —",
+        "he": "וְעַתָּה אֶעֱלֶה אֶל-יְהוָה"
+      },
+      {
+        "ja": "לעל אסתג'פר ען כ'טייתכם",
+        "en": "perhaps I may seek forgiveness for your sin.'",
+        "he": "אוּלַי אֲכַפְּרָה בְּעַד חַטַּאתְכֶם"
+      }
+    ],
+    "31": [
+      {
+        "ja": "פרגע מוסי'. אלי' אללה",
+        "en": "And Moses returned to God",
+        "he": "וַיָּשָׁב מֹשֶׁה אֶל-יְהוָה"
+      },
+      {
+        "ja": "וקאל",
+        "en": "and said:",
+        "he": "וַיֹּאמַר"
+      },
+      {
+        "ja": "יא רב. קד אכ'טא הולאי אלקום כ'טייה ]עט'ימה] עצ'ימה",
+        "en": "'O Lord, these people have indeed committed a great sin,",
+        "he": "אָנָּא חָטָא הָעָם הַזֶּה חֲטָאָה גְדֹלָה"
+      },
+      {
+        "ja": "וצנעו להם מעבודא מן ד'הב",
+        "en": "and made for themselves an object of worship of gold.'",
+        "he": "וַיַּעֲשׂוּ לָהֶם אֱלֹהֵי זָהָב"
+      }
+    ],
+    "32": [
+      {
+        "ja": "ואלאן אן ג'פרת כ'טייתהם",
+        "en": "'And now, if You will forgive their sin —",
+        "he": "וְעַתָּה אִם-תִּשָּׂא חַטָּאתָם"
+      },
+      {
+        "ja": "ואלא פאמחיני. מן דיואנך אלד'י כתבתה פאסתריח",
+        "en": "and if not, then erase me from Your register which You have written, and I shall have rest.'",
+        "he": "וְאִם-אַיִן--מְחֵנִי נָא מִסִּפְרְךָ אֲשֶׁר כָּתָבְתָּ"
+      }
+    ],
+    "33": [
+      {
+        "ja": "פקאל לה אללה",
+        "en": "And God said to him:",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "אלד'י אכ'טא לי. אמחוה מן דיואני",
+        "en": "'Whoever has sinned against Me — him I shall erase from My register.'",
+        "he": "מִי אֲשֶׁר חָטָא-לִי אֶמְחֶנּוּ מִסִּפְרִי"
+      }
+    ],
+    "34": [
+      {
+        "ja": "ואלאן פאמץ' סייר אלקום",
+        "en": "'And now, go — lead the people",
+        "he": "וְעַתָּה לֵךְ נְחֵה אֶת-הָעָם"
+      },
+      {
+        "ja": "אלי' אלמוצ'ע אלד'י קלת לך",
+        "en": "to the place of which I told you.",
+        "he": "אֶל אֲשֶׁר-דִּבַּרְתִּי לָךְ"
+      },
+      {
+        "ja": "הוד'י מלכי יסיר בין ידיך",
+        "en": "Behold, My angel shall go before you;",
+        "he": "הִנֵּה מַלְאָכִי יֵלֵךְ לְפָנֶיךָ"
+      },
+      {
+        "ja": "ופי יום מטאלבתי. אטאלבהם בכ'טאיאהם",
+        "en": "and on the day of My reckoning, I shall call them to account for their sins.'",
+        "he": "וּבְיוֹם פָּקְדִי וּפָקַדְתִּי עֲלֵהֶם חַטָּאתָם"
+      }
+    ],
+    "35": [
+      {
+        "ja": "פצדם אללה מן אלקום",
+        "en": "And God struck among the people",
+        "he": "וַיִּגֹּף יְהוָה אֶת-הָעָם"
+      },
+      {
+        "ja": "עלי' מא אצטנעו אלעגל",
+        "en": "on account of what they had done — the calf",
+        "he": "עַל אֲשֶׁר עָשׂוּ אֶת-הָעֵגֶל"
+      },
+      {
+        "ja": "אלד'י צנעה הרון",
+        "en": "which Aaron had made.",
+        "he": "אֲשֶׁר עָשָׂה אַהֲרֹן"
+      }
+    ]
+  }
+}

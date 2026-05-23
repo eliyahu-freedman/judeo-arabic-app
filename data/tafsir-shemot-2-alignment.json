@@ -1,0 +1,825 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 2. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_2.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "תם מצ'י רגל מן אל לוי",
+        "en": "Then a man of the family of Levi went",
+        "he": "וַיֵּלֶךְ אִישׁ מִבֵּית לֵוִי"
+      },
+      {
+        "ja": "ותזווג אבנה' לוי",
+        "en": "and married the daughter of Levi",
+        "he": "וַיִּקַּח אֶת-בַּת-לֵוִי"
+      }
+    ],
+    "2": [
+      {
+        "ja": "פחמלת אלאמראה",
+        "en": "And the woman conceived",
+        "he": "וַתַּהַר הָאִשָּׁה"
+      },
+      {
+        "ja": "וולדת אבנא",
+        "en": "and bore a son",
+        "he": "וַתֵּלֶד בֵּן"
+      },
+      {
+        "ja": "פלמא ראתה חסנא",
+        "en": "and when she saw that he was fair",
+        "he": "וַתֵּרֶא אֹתוֹ כִּי-טוֹב הוּא"
+      },
+      {
+        "ja": "אכ'פתה",
+        "en": "she hid him",
+        "he": "וַתִּצְפְּנֵהוּ"
+      },
+      {
+        "ja": "ת'לאת'ה' אשהר",
+        "en": "for three months",
+        "he": "שְׁלֹשָׁה יְרָחִים"
+      }
+    ],
+    "3": [
+      {
+        "ja": "ולם תטיק עאד",
+        "en": "And she could no longer",
+        "he": "וְלֹא-יָכְלָה עוֹד"
+      },
+      {
+        "ja": "אן תכ'פיה",
+        "en": "hide him",
+        "he": "הַצְּפִינוֹ"
+      },
+      {
+        "ja": "פאכ'דת לה",
+        "en": "so she took for him",
+        "he": "וַתִּקַּח-לוֹ"
+      },
+      {
+        "ja": "תאבותא מן ברדי",
+        "en": "an ark of papyrus",
+        "he": "תֵּבַת גֹּמֶא"
+      },
+      {
+        "ja": "וקפרתהא",
+        "en": "and sealed it",
+        "he": "וַתַּחְמְרָה"
+      },
+      {
+        "ja": "באלקפר ואלזפת",
+        "en": "with bitumen and pitch",
+        "he": "בַחֵמָר וּבַזָּפֶת"
+      },
+      {
+        "ja": "וציירת פיהא אלצבי",
+        "en": "and she set the babe inside it",
+        "he": "וַתָּשֶׂם בָּהּ אֶת-הַיֶּלֶד"
+      },
+      {
+        "ja": "וציירתהא פי אלדיס",
+        "en": "and set it in the reed-thicket",
+        "he": "וַתָּשֶׂם בַּסּוּף"
+      },
+      {
+        "ja": "עלי' שאטי אלניל",
+        "en": "upon the bank of the Nile",
+        "he": "עַל-שְׂפַת הַיְאֹר"
+      }
+    ],
+    "4": [
+      {
+        "ja": "פוקפת א'כ'תה",
+        "en": "And his sister stood",
+        "he": "וַתֵּתַצַּב אֲחֹתוֹ"
+      },
+      {
+        "ja": "מן בעיד",
+        "en": "at a distance",
+        "he": "מֵרָחֹק"
+      },
+      {
+        "ja": "לתנצ'ר",
+        "en": "to see",
+        "he": "לְדֵעָה"
+      },
+      {
+        "ja": "מא יצנע בה",
+        "en": "what would be done with him",
+        "he": "מַה-יֵּעָשֶׂה לוֹ"
+      }
+    ],
+    "5": [
+      {
+        "ja": "פנזלת אבנה' פרעון",
+        "en": "And Pharaoh's daughter came down",
+        "he": "וַתֵּרֶד בַּת-פַּרְעֹה"
+      },
+      {
+        "ja": "לתג'סל",
+        "en": "to bathe",
+        "he": "לִרְחֹץ"
+      },
+      {
+        "ja": "פי אלניל",
+        "en": "in the Nile",
+        "he": "עַל-הַיְאֹר"
+      },
+      {
+        "ja": "וגוארהא",
+        "en": "and her maids",
+        "he": "וְנַעֲרֹתֶיהָ"
+      },
+      {
+        "ja": "ימשין",
+        "en": "walked",
+        "he": "הֹלְכֹת"
+      },
+      {
+        "ja": "עלי' שאטה",
+        "en": "along its bank",
+        "he": "עַל-יַד הַיְאֹר"
+      },
+      {
+        "ja": "פראת אלתאבות",
+        "en": "She saw the ark",
+        "he": "וַתֵּרֶא אֶת-הַתֵּבָה"
+      },
+      {
+        "ja": "פי וסט אלדיס",
+        "en": "in the midst of the reed-thicket",
+        "he": "בְּתוֹךְ הַסּוּף"
+      },
+      {
+        "ja": "פמדת ידהא",
+        "en": "and she stretched out her hand",
+        "he": "וַתִּשְׁלַח אֶת-אֲמָתָהּ"
+      },
+      {
+        "ja": "ואכ'ד'תהא",
+        "en": "and took it",
+        "he": "וַתִּקָּחֶהָ"
+      }
+    ],
+    "6": [
+      {
+        "ja": "פפתחת",
+        "en": "And she opened it",
+        "he": "וַתִּפְתַּח"
+      },
+      {
+        "ja": "וראתה",
+        "en": "and saw him",
+        "he": "וַתִּרְאֵהוּ אֶת-הַיֶּלֶד"
+      },
+      {
+        "ja": "פאד'אה צבי יבכי",
+        "en": "behold, a babe was crying",
+        "he": "וְהִנֵּה-נַעַר בֹּכֶה"
+      },
+      {
+        "ja": "פאשפקת עליה",
+        "en": "and she had compassion on him",
+        "he": "וַתַּחְמֹל עָלָיו"
+      },
+      {
+        "ja": "וקאלת",
+        "en": "and said",
+        "he": "וַתֹּאמֶר"
+      },
+      {
+        "ja": "הד'א מן אולאד אלעבראניין",
+        "en": "This is one of the children of the Hebrews",
+        "he": "מִיַּלְדֵי הָעִבְרִים זֶה"
+      }
+    ],
+    "7": [
+      {
+        "ja": "קאלת להא",
+        "en": "She said to her",
+        "he": "וַתֹּאמֶר אֲחֹתוֹ אֶל-בַּת-פַּרְעֹה"
+      },
+      {
+        "ja": "אאמצ'י",
+        "en": "Shall I go",
+        "he": "הַאֵלֵךְ"
+      },
+      {
+        "ja": "ואדעי לך",
+        "en": "and call for you",
+        "he": "וְקָרָאתִי לָךְ"
+      },
+      {
+        "ja": "באמראה מרצ'עה",
+        "en": "a nursing woman",
+        "he": "אִשָּׁה מֵינֶקֶת"
+      },
+      {
+        "ja": "מן אלעבראנייאת",
+        "en": "from the Hebrews",
+        "he": "מִן הָעִבְרִיֹּת"
+      },
+      {
+        "ja": "תרצ'עה לך",
+        "en": "that she may nurse him for you",
+        "he": "וְתֵינִק לָךְ אֶת-הַיָּלֶד"
+      }
+    ],
+    "8": [
+      {
+        "ja": "קאלת להא אבנה' פרעון",
+        "en": "Pharaoh's daughter said to her",
+        "he": "וַתֹּאמֶר-לָהּ בַּת-פַּרְעֹה"
+      },
+      {
+        "ja": "אמצ'י",
+        "en": "Go",
+        "he": "לֵכִי"
+      },
+      {
+        "ja": "פמצ'ת אלגאריה",
+        "en": "And the maiden went",
+        "he": "וַתֵּלֶךְ הָעַלְמָה"
+      },
+      {
+        "ja": "ודעת באם אלצבי",
+        "en": "and called the mother of the babe",
+        "he": "וַתִּקְרָא אֶת-אֵם הַיָּלֶד"
+      }
+    ],
+    "9": [
+      {
+        "ja": "פקאלת להא אבנה' פרעון",
+        "en": "And Pharaoh's daughter said to her",
+        "he": "וַתֹּאמֶר לָהּ בַּת-פַּרְעֹה"
+      },
+      {
+        "ja": "הא לך הד'א אלצבי",
+        "en": "Here, take this babe",
+        "he": "הֵילִיכִי אֶת-הַיֶּלֶד הַזֶּה"
+      },
+      {
+        "ja": "ארצ'עיה לי",
+        "en": "nurse him for me",
+        "he": "וְהֵינִקִהוּ לִי"
+      },
+      {
+        "ja": "ואנא אעטיך אגרתך",
+        "en": "and I will give you your wage",
+        "he": "וַאֲנִי אֶתֵּן אֶת-שְׂכָרֵךְ"
+      },
+      {
+        "ja": "פאכ'ד'ת אלאמראה",
+        "en": "And the woman took",
+        "he": "וַתִּקַּח הָאִשָּׁה"
+      },
+      {
+        "ja": "אלצבי",
+        "en": "the babe",
+        "he": "הַיֶּלֶד"
+      },
+      {
+        "ja": "וארצ'עתה",
+        "en": "and nursed him",
+        "he": "וַתְּנִיקֵהוּ"
+      }
+    ],
+    "10": [
+      {
+        "ja": "ולמא כבר אלצבי",
+        "en": "And when the babe grew",
+        "he": "וַיִּגְדַּל הַיֶּלֶד"
+      },
+      {
+        "ja": "גאת בה אלי' אבנה' פרעון",
+        "en": "she brought him to Pharaoh's daughter",
+        "he": "וַתְּבִאֵהוּ לְבַת-פַּרְעֹה"
+      },
+      {
+        "ja": "פצאר להא כאבן",
+        "en": "and he became to her like a son",
+        "he": "וַיְהִי-לָהּ לְבֵן"
+      },
+      {
+        "ja": "ואסמתה מוסי'",
+        "en": "And she named him Moses",
+        "he": "וַתִּקְרָא שְׁמוֹ מֹשֶׁה"
+      },
+      {
+        "ja": "קאלת",
+        "en": "saying",
+        "he": "וַתֹּאמֶר"
+      },
+      {
+        "ja": "לאני נשלתה מן אלמא",
+        "en": "For I drew him out from the water",
+        "he": "כִּי מִן-הַמַּיִם מְשִׁיתִהוּ"
+      }
+    ],
+    "11": [
+      {
+        "ja": "וכאן פי תלך אלאיאם",
+        "en": "And it was in those days",
+        "he": "וַיְהִי בַּיָּמִים הָהֵם"
+      },
+      {
+        "ja": "אן מוסי' כבר",
+        "en": "that Moses grew up",
+        "he": "וַיִּגְדַּל מֹשֶׁה"
+      },
+      {
+        "ja": "וכרג אלי' אכ'ותה",
+        "en": "and he went out to his brothers",
+        "he": "וַיֵּצֵא אֶל-אֶחָיו"
+      },
+      {
+        "ja": "ונצ'ר בנקלהם",
+        "en": "and he looked upon their burdens",
+        "he": "וַיַּרְא בְּסִבְלֹתָם"
+      },
+      {
+        "ja": "פאד'א",
+        "en": "And behold",
+        "he": "וַיַּרְא"
+      },
+      {
+        "ja": "ברג'ל מצרי",
+        "en": "an Egyptian man",
+        "he": "אִישׁ מִצְרִי"
+      },
+      {
+        "ja": "יצ'רב",
+        "en": "was striking",
+        "he": "מַכֶּה"
+      },
+      {
+        "ja": "רג'ל עבראני",
+        "en": "a Hebrew man",
+        "he": "אִישׁ-עִבְרִי"
+      },
+      {
+        "ja": "מן אכ'ותה",
+        "en": "one of his brothers",
+        "he": "מֵאֶחָיו"
+      }
+    ],
+    "12": [
+      {
+        "ja": "פאלתפת",
+        "en": "And he turned",
+        "he": "וַיִּפֶן"
+      },
+      {
+        "ja": "ימנה ויסרה",
+        "en": "right and left",
+        "he": "כֹּה וָכֹה"
+      },
+      {
+        "ja": "פראי'",
+        "en": "and saw",
+        "he": "וַיַּרְא"
+      },
+      {
+        "ja": "אנה ליס אנסאן",
+        "en": "that there was no one [about]",
+        "he": "כִּי אֵין אִישׁ"
+      },
+      {
+        "ja": "פצ'רב אלמצרי",
+        "en": "and he struck the Egyptian",
+        "he": "וַיַּךְ אֶת-הַמִּצְרִי"
+      },
+      {
+        "ja": "פמאת",
+        "en": "and he died"
+      },
+      {
+        "ja": "ודפנה",
+        "en": "and he buried him",
+        "he": "וַיִּטְמְנֵהוּ"
+      },
+      {
+        "ja": "פי אלרמל",
+        "en": "in the sand",
+        "he": "בַּחוֹל"
+      }
+    ],
+    "13": [
+      {
+        "ja": "וכ'רג",
+        "en": "And he went out",
+        "he": "וַיֵּצֵא"
+      },
+      {
+        "ja": "פי אליום אלת'אני",
+        "en": "on the second day",
+        "he": "בַּיּוֹם הַשֵּׁנִי"
+      },
+      {
+        "ja": "פאד'י",
+        "en": "and behold",
+        "he": "וְהִנֵּה"
+      },
+      {
+        "ja": "ברגלין עבראניין",
+        "en": "two Hebrew men",
+        "he": "שְׁנֵי-אֲנָשִׁים עִבְרִים"
+      },
+      {
+        "ja": "יתנאציאן",
+        "en": "were quarreling",
+        "he": "נִצִּים"
+      },
+      {
+        "ja": "פקאל",
+        "en": "And he said",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "לאלצ'אלם מנהמא",
+        "en": "to the unjust one of them",
+        "he": "לָרָשָׁע"
+      },
+      {
+        "ja": "לם תצ'רב",
+        "en": "Why do you strike",
+        "he": "לָמָּה תַכֶּה"
+      },
+      {
+        "ja": "צאחבך",
+        "en": "your companion",
+        "he": "רֵעֶךָ"
+      }
+    ],
+    "14": [
+      {
+        "ja": "וקאל",
+        "en": "And he said",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "מן ציירך",
+        "en": "Who set you",
+        "he": "מִי שָׂמְךָ"
+      },
+      {
+        "ja": "רגלא רייסא וחאכמא עלינא",
+        "en": "a chief and a judge over us",
+        "he": "לְאִישׁ שַׂר וְשֹׁפֵט עָלֵינוּ"
+      },
+      {
+        "ja": "אתריד אן תקתלני",
+        "en": "Do you intend to kill me",
+        "he": "הַלְהָרְגֵנִי אַתָּה אֹמֵר"
+      },
+      {
+        "ja": "כמא קתלת אלמצרי",
+        "en": "as you killed the Egyptian",
+        "he": "כַּאֲשֶׁר הָרַגְתָּ אֶת-הַמִּצְרִי"
+      },
+      {
+        "ja": "פפזע מוסי'",
+        "en": "And Moses was alarmed",
+        "he": "וַיִּירָא מֹשֶׁה"
+      },
+      {
+        "ja": "וקאל",
+        "en": "and said",
+        "he": "וַיֹּאמַר"
+      },
+      {
+        "ja": "איקינא",
+        "en": "Indeed",
+        "he": "אָכֵן"
+      },
+      {
+        "ja": "קד ערף אלכ'בר",
+        "en": "the matter has become known",
+        "he": "נוֹדַע הַדָּבָר"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ולמא סמע פרעון",
+        "en": "And when Pharaoh heard",
+        "he": "וַיִּשְׁמַע פַּרְעֹה"
+      },
+      {
+        "ja": "בהד'א אלכ'בר",
+        "en": "of this matter",
+        "he": "אֶת-הַדָּבָר הַזֶּה"
+      },
+      {
+        "ja": "טלב אן יקתל מוסי'",
+        "en": "he sought to kill Moses",
+        "he": "וַיְבַקֵּשׁ לַהֲרֹג אֶת-מֹשֶׁה"
+      },
+      {
+        "ja": "פהרב מוסי'",
+        "en": "And Moses fled",
+        "he": "וַיִּבְרַח מֹשֶׁה"
+      },
+      {
+        "ja": "מן בין ידיה",
+        "en": "from before him",
+        "he": "מִפְּנֵי פַרְעֹה"
+      },
+      {
+        "ja": "וצאר אלי' בלד מדין",
+        "en": "and came to the land of Midian",
+        "he": "וַיֵּשֶׁב בְּאֶרֶץ-מִדְיָן"
+      },
+      {
+        "ja": "וגלס עלי' אלביר",
+        "en": "and sat by the well",
+        "he": "וַיֵּשֶׁב עַל-הַבְּאֵר"
+      }
+    ],
+    "16": [
+      {
+        "ja": "וכאן לאמאם מדין",
+        "en": "And the imām of Midian had",
+        "he": "וּלְכֹהֵן מִדְיָן"
+      },
+      {
+        "ja": "סבע בנאת",
+        "en": "seven daughters",
+        "he": "שֶׁבַע בָּנוֹת"
+      },
+      {
+        "ja": "פגאת",
+        "en": "and they came",
+        "he": "וַתָּבֹאנָה"
+      },
+      {
+        "ja": "ודלאת",
+        "en": "and drew water",
+        "he": "וַתִּדְלֶנָה"
+      },
+      {
+        "ja": "ומלאת אלחיאץ'",
+        "en": "and filled the troughs",
+        "he": "וַתְּמַלֶּאנָה אֶת-הָרְהָטִים"
+      },
+      {
+        "ja": "לתסקי ג'נם אביהן",
+        "en": "to water their father's flock",
+        "he": "לְהַשְׁקוֹת צֹאן אֲבִיהֶן"
+      }
+    ],
+    "17": [
+      {
+        "ja": "פגאו אלרעאה",
+        "en": "And the shepherds came",
+        "he": "וַיָּבֹאוּ הָרֹעִים"
+      },
+      {
+        "ja": "וטרדוהן",
+        "en": "and drove them away",
+        "he": "וַיְגָרְשׁוּם"
+      },
+      {
+        "ja": "פקאם מוסי",
+        "en": "and Moses arose",
+        "he": "וַיָּקָם מֹשֶׁה"
+      },
+      {
+        "ja": "ואג'אתהן",
+        "en": "and aided them",
+        "he": "וַיּוֹשִׁעָן"
+      },
+      {
+        "ja": "וסקי' ג'נמהן",
+        "en": "and watered their flock",
+        "he": "וַיַּשְׁקְ אֶת-צֹאנָם"
+      }
+    ],
+    "18": [
+      {
+        "ja": "פלמא גאת אלי' רעואל אביהן",
+        "en": "And when they came to Reuel their father",
+        "he": "וַתָּבֹאנָה אֶל-רְעוּאֵל אֲבִיהֶן"
+      },
+      {
+        "ja": "קאל",
+        "en": "he said",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "מא באלכן",
+        "en": "What is your concern",
+        "he": "מַדּוּעַ"
+      },
+      {
+        "ja": "אסרעתן באלמגי אליום",
+        "en": "that you have hurried to come today",
+        "he": "מִהַרְתֶּן בֹּא הַיּוֹם"
+      }
+    ],
+    "19": [
+      {
+        "ja": "פקאלא לה",
+        "en": "And they said to him",
+        "he": "וַתֹּאמַרְןָ"
+      },
+      {
+        "ja": "רגל מצרי",
+        "en": "An Egyptian man",
+        "he": "אִישׁ מִצְרִי"
+      },
+      {
+        "ja": "כ'לצנא",
+        "en": "rescued us",
+        "he": "הִצִּילָנוּ"
+      },
+      {
+        "ja": "מן יד אלרעאה",
+        "en": "from the hand of the shepherds",
+        "he": "מִיַּד הָרֹעִים"
+      },
+      {
+        "ja": "ואיצ'א דלא לנא מא",
+        "en": "and he also drew water for us",
+        "he": "וְגַם-דָּלֹה דָלָה לָנוּ"
+      },
+      {
+        "ja": "וסקי' אלג'נם",
+        "en": "and watered the flock",
+        "he": "וַיַּשְׁקְ אֶת-הַצֹּאן"
+      }
+    ],
+    "20": [
+      {
+        "ja": "קאל לה'ן",
+        "en": "He said to his daughters",
+        "he": "וַיֹּאמֶר אֶל-בְּנֹתָיו"
+      },
+      {
+        "ja": "ואין הו",
+        "en": "And where is he",
+        "he": "וְאַיּוֹ"
+      },
+      {
+        "ja": "לם תרכתן אלרגל",
+        "en": "Why have you left the man",
+        "he": "לָמָּה זֶּה עֲזַבְתֶּן אֶת-הָאִישׁ"
+      },
+      {
+        "ja": "אדעוה",
+        "en": "Call him",
+        "he": "קִרְאֶן לוֹ"
+      },
+      {
+        "ja": "יאכל טעאמא",
+        "en": "that he may eat a meal",
+        "he": "וְיֹאכַל לָחֶם"
+      }
+    ],
+    "21": [
+      {
+        "ja": "פלמא אמען מוסי'",
+        "en": "And Moses consented",
+        "he": "וַיּוֹאֶל מֹשֶׁה"
+      },
+      {
+        "ja": "פי אלמקאם",
+        "en": "to dwell",
+        "he": "לָשֶׁבֶת"
+      },
+      {
+        "ja": "ענד אלרגל",
+        "en": "with the man",
+        "he": "אֶת-הָאִישׁ"
+      },
+      {
+        "ja": "זווגה בצפורה אבנתה",
+        "en": "and he gave him Zipporah his daughter [in marriage]",
+        "he": "וַיִּתֵּן אֶת-צִפֹּרָה בִתּוֹ לְמֹשֶׁה"
+      }
+    ],
+    "22": [
+      {
+        "ja": "פולדת אבנא",
+        "en": "And she bore a son",
+        "he": "וַתֵּלֶד בֵּן"
+      },
+      {
+        "ja": "וסמאה גרשום",
+        "en": "and he named him Gershom",
+        "he": "וַיִּקְרָא אֶת-שְׁמוֹ גֵּרְשֹׁם"
+      },
+      {
+        "ja": "לאנה קאל",
+        "en": "for he said",
+        "he": "כִּי אָמַר"
+      },
+      {
+        "ja": "צרת ג'ריבא",
+        "en": "I became a stranger",
+        "he": "גֵּר הָיִיתִי"
+      },
+      {
+        "ja": "פי בלד ג'רבה",
+        "en": "in a strange land",
+        "he": "בְּאֶרֶץ נָכְרִיָּה"
+      }
+    ],
+    "23": [
+      {
+        "ja": "וכאן איצ'א פי תלך אלאיאם אלטוילה",
+        "en": "And it was also in those long days",
+        "he": "וַיְהִי בַיָּמִים הָרַבִּים הָהֵם"
+      },
+      {
+        "ja": "אן מלך מצר מאת",
+        "en": "that the king of Egypt died",
+        "he": "וַיָּמָת מֶלֶךְ מִצְרַיִם"
+      },
+      {
+        "ja": "פתנהד בני אסראיל",
+        "en": "and the sons of Israel groaned",
+        "he": "וַיֵּאָנְחוּ בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "מן כ'דמתהם אלצעבה",
+        "en": "because of their hard service",
+        "he": "מִן-הָעֲבֹדָה"
+      },
+      {
+        "ja": "וצרכ'ו",
+        "en": "and they cried out",
+        "he": "וַיִּזְעָקוּ"
+      },
+      {
+        "ja": "פצעד תג'וותהם",
+        "en": "and their plea ascended",
+        "he": "וַתַּעַל שַׁוְעָתָם"
+      },
+      {
+        "ja": "אלי' אללה",
+        "en": "to God",
+        "he": "אֶל-הָאֱלֹהִים"
+      },
+      {
+        "ja": "מן אלכ'דמה",
+        "en": "from the [hard] service",
+        "he": "מִן-הָעֲבֹדָה"
+      }
+    ],
+    "24": [
+      {
+        "ja": "פסמע אללה",
+        "en": "And God heard",
+        "he": "וַיִּשְׁמַע אֱלֹהִים"
+      },
+      {
+        "ja": "שהיקהם",
+        "en": "their groaning",
+        "he": "אֶת-נַאֲקָתָם"
+      },
+      {
+        "ja": "וד'כר עהדה",
+        "en": "and remembered His covenant",
+        "he": "וַיִּזְכֹּר אֱלֹהִים אֶת-בְּרִיתוֹ"
+      },
+      {
+        "ja": "אלד'י מע",
+        "en": "which was with"
+      },
+      {
+        "ja": "אברהים",
+        "en": "Abraham",
+        "he": "אֶת-אַבְרָהָם"
+      },
+      {
+        "ja": "ויצחק",
+        "en": "Isaac",
+        "he": "אֶת-יִצְחָק"
+      },
+      {
+        "ja": "ויעקוב",
+        "en": "and Jacob",
+        "he": "וְאֶת-יַעֲקֹב"
+      }
+    ],
+    "25": [
+      {
+        "ja": "פנצ'ר אללה",
+        "en": "And God beheld",
+        "he": "וַיַּרְא אֱלֹהִים"
+      },
+      {
+        "ja": "להם",
+        "en": "them",
+        "he": "אֶת-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ורחמהם",
+        "en": "and had mercy on them",
+        "he": "וַיֵּדַע אֱלֹהִים"
+      }
+    ]
+  }
+}

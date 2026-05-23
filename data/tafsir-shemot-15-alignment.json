@@ -1,0 +1,406 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 15. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_15.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "חיניד' סבח מוסי' ובני אסראיל. הד'ה אלתסבחה ללה",
+        "en": "At that time Moses and the sons of Israel sang this hymn of praise to God",
+        "he": "אָז יָשִׁיר-מֹשֶׁה וּבְנֵי יִשְׂרָאֵל אֶת-הַשִּׁירָה הַזֹּאת לַיהוָה"
+      },
+      {
+        "ja": "וקאלו אגמעין. נסבח ללה אד' אקתדר אקתדארא",
+        "en": "and they all said together: 'Let us praise God, for He has triumphed mightily",
+        "he": "וַיֹּאמְרוּ לֵאמֹר אָשִׁירָה לַיהוָה כִּי-גָאֹה גָּאָה"
+      },
+      {
+        "ja": "אלכ'יל ורכאבהא רמא בהם פי אלבחר",
+        "en": "the horse and its rider He hurled into the sea.'",
+        "he": "סוּס וְרֹכְבוֹ רָמָה בַיָּם"
+      }
+    ],
+    "2": [
+      {
+        "ja": "עזי ומגדי אלאזלי",
+        "en": "'My strength and my glory is the Eternal",
+        "he": "עָזִּי וְזִמְרָת יָהּ"
+      },
+      {
+        "ja": "אלד'י כאן לי גות'א",
+        "en": "who was my salvation",
+        "he": "וַיְהִי-לִי לִישׁוּעָה"
+      },
+      {
+        "ja": "הד'א טאיקי אוי אליה",
+        "en": "this is my stronghold — I take refuge in Him",
+        "he": "זֶה אֵלִי וְאַנְוֵהוּ"
+      },
+      {
+        "ja": "אלאה אבי ארפעה",
+        "en": "the God of my father — I exalt Him.'",
+        "he": "אֱלֹהֵי אָבִי וַאֲרֹמְמֶנְהוּ"
+      }
+    ],
+    "3": [
+      {
+        "ja": "אללה ד'ו אלמלאחם. אללה אסמה",
+        "en": "'God is the master of battles — God is His name.'",
+        "he": "יְהוָה אִישׁ מִלְחָמָה יְהוָה שְׁמוֹ"
+      }
+    ],
+    "4": [
+      {
+        "ja": "מראכב פרעון. וגנדה זדא בהם פי אלבחר",
+        "en": "'The chariots of Pharaoh and his army He swept away into the sea",
+        "he": "מַרְכְּבֹת פַּרְעֹה וְחֵילוֹ יָרָה בַיָּם"
+      },
+      {
+        "ja": "וכ'יאר קואדה ג'רקו פי בחר אלקלזם",
+        "en": "and the choicest of his officers were drowned in the Sea of Qulzum (Red Sea).'",
+        "he": "וּמִבְחַר שָׁלִשָׁיו טֻבְּעוּ בְיַם-סוּף"
+      }
+    ],
+    "5": [
+      {
+        "ja": "אלג'מר ג'טאהם",
+        "en": "'The deep covered them",
+        "he": "תְּהֹמֹת יְכַסְיֻמוּ"
+      },
+      {
+        "ja": "פנזלו פי אלקער כאלחגארה",
+        "en": "they went down to the bottom like stones.'",
+        "he": "יָרְדוּ בִמְצוֹלֹת כְּמוֹ- אָבֶן"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ימינך יא רב. גזילה' אלקווה",
+        "en": "'Your right hand, O Lord, is great in power",
+        "he": "יְמִינְךָ יְהוָה נֶאְדָּרִי בַּכֹּחַ"
+      },
+      {
+        "ja": "ימינך יא רב תרהב אלאעדא",
+        "en": "Your right hand, O Lord, strikes terror into the enemies.'",
+        "he": "יְמִינְךָ יְהוָה תִּרְעַץ אוֹיֵב"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ובכת'רה' אקתדארך תדהם מקאומיך",
+        "en": "'And by Your abundant might You demolish Your adversaries",
+        "he": "וּבְרֹב גְּאוֹנְךָ תַּהֲרֹס קָמֶיךָ"
+      },
+      {
+        "ja": "תבעת' בס'כטך. יאכלהם כאלקש",
+        "en": "You send forth Your wrath — it consumes them like stubble.'",
+        "he": "תְּשַׁלַּח חֲרֹנְךָ--יֹאכְלֵמוֹ כַּקַּשׁ"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ובריח ג'צ'בך תערם אלמא",
+        "en": "'And by the wind of Your anger the water was heaped up",
+        "he": "וּבְרוּחַ אַפֶּיךָ נֶעֶרְמוּ מַיִם"
+      },
+      {
+        "ja": "ווקפת כאלאטואד אלהואטל",
+        "en": "the flowing waters stood still like towering mountains",
+        "he": "נִצְּבוּ כְמוֹ-נֵד נֹזְלִים"
+      },
+      {
+        "ja": "וגמדת אלג'מר פי קלב אלבחר",
+        "en": "and the deep was frozen in the heart of the sea.'",
+        "he": "קָפְאוּ תְהֹמֹת בְּלֶב-יָם"
+      }
+    ],
+    "9": [
+      {
+        "ja": "ואד' קאל אלעדו. אכלבהם פאלחקהם",
+        "en": "'When the enemy said: I will pursue them and overtake them",
+        "he": "אָמַר אוֹיֵב אֶרְדֹּף אַשִּׂיג"
+      },
+      {
+        "ja": "ואקסם סלבהם. תשתפי מנהם נפסי",
+        "en": "and divide their spoil — my soul shall have its fill of satisfaction from them",
+        "he": "אֲחַלֵּק שָׁלָל תִּמְלָאֵמוֹ נַפְשִׁי"
+      },
+      {
+        "ja": "אגרד סיפי. ותקרצ'הם ידי",
+        "en": "I shall draw my sword, and my hand shall cut them down.'",
+        "he": "אָרִיק חַרְבִּי תּוֹרִישֵׁמוֹ יָדִי"
+      }
+    ],
+    "10": [
+      {
+        "ja": "אהבבת בריחך פג'טאהם אלבחר",
+        "en": "'You blew with Your wind and the sea covered them",
+        "he": "נָשַׁפְתָּ בְרוּחֲךָ כִּסָּמוֹ יָם"
+      },
+      {
+        "ja": "ורסכו כאלרצאץ. פי אלמא אלג'זיר",
+        "en": "and they sank like lead in the mighty water.'",
+        "he": "צָלְלוּ כַּעוֹפֶרֶת בְּמַיִם אַדִּירִים"
+      }
+    ],
+    "11": [
+      {
+        "ja": "מן מת'לך פי אלמעבודאת יא רב",
+        "en": "'Who is like You among the worshipped, O Lord",
+        "he": "מִי-כָמֹכָה בָּאֵלִם יְהוָה"
+      },
+      {
+        "ja": "מן מת'לך אלגליל אלמקדס",
+        "en": "Who is like You, the majestic and the holy",
+        "he": "מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ"
+      },
+      {
+        "ja": "מכ'יף אלמדאיח צאנע אלאעגובאת",
+        "en": "awesome in praise, the maker of wonders?'",
+        "he": "נוֹרָא תְהִלֹּת עֹשֵׂה פֶלֶא"
+      }
+    ],
+    "12": [
+      {
+        "ja": "מדדת ימינך. פאבתלעתהם אלארץ'",
+        "en": "'You stretched forth Your right hand — and the earth swallowed them.'",
+        "he": "נָטִיתָ יְמִינְךָ--תִּבְלָעֵמוֹ אָרֶץ"
+      }
+    ],
+    "13": [
+      {
+        "ja": "וסיירת בפצ'לך אלשעב אלד'ין פככתהם",
+        "en": "'And You led in Your grace the people whom You redeemed",
+        "he": "נָחִיתָ בְחַסְדְּךָ עַם-זוּ גָּאָלְתָּ"
+      },
+      {
+        "ja": "וסקתהם בעזך אלי' מאוא קדסך",
+        "en": "and You guided them in Your might to Your holy dwelling.'",
+        "he": "נֵהַלְתָּ בְעָזְּךָ אֶל-נְוֵה קָדְשֶׁךָ"
+      }
+    ],
+    "14": [
+      {
+        "ja": "סמעת אלאמם פרגזת",
+        "en": "'The nations heard and trembled",
+        "he": "שָׁמְעוּ עַמִּים יִרְגָּזוּן"
+      },
+      {
+        "ja": "ואכ'ד' אלטלק סכאן פלסטין",
+        "en": "and birth-pangs seized the inhabitants of Philistia.'",
+        "he": "חִיל אָחַז יֹשְׁבֵי פְּלָשֶׁת"
+      }
+    ],
+    "15": [
+      {
+        "ja": "חיניד' דהשו צנאדיד אדום",
+        "en": "'At that time the chiefs of Edom were dismayed",
+        "he": "אָז נִבְהֲלוּ אַלּוּפֵי אֱדוֹם"
+      },
+      {
+        "ja": "ואגלא מואב. אכ'ד'תהם אלרעדה",
+        "en": "and the nobles of Moab — trembling seized them",
+        "he": "אֵילֵי מוֹאָב יֹאחֲזֵמוֹ רָעַד"
+      },
+      {
+        "ja": "ומאג גמיע סכאן כנעאן",
+        "en": "and all the inhabitants of Canaan were convulsed.'",
+        "he": "נָמֹגוּ כֹּל יֹשְׁבֵי כְנָעַן"
+      }
+    ],
+    "16": [
+      {
+        "ja": "תקע עליהם אלהיבה ואלפזע",
+        "en": "'May dread and terror fall upon them",
+        "he": "תִּפֹּל עֲלֵיהֶם אֵימָתָה וָפַחַד"
+      },
+      {
+        "ja": "ב עצ'ם קדרתך יסכתון כאלחגארה",
+        "en": "by the greatness of Your power may they be still as stone",
+        "he": "בִּגְדֹל זְרוֹעֲךָ יִדְּמוּ כָּאָבֶן"
+      },
+      {
+        "ja": "אלי' אן יגוז שעבך יא רב",
+        "en": "until Your people pass over, O Lord",
+        "he": "עַד- יַעֲבֹר עַמְּךָ יְהוָה"
+      },
+      {
+        "ja": "אלי' אן יגוז אלשעב אלד'י מלכתהם",
+        "en": "until the people pass over whom You have made Your own.'",
+        "he": "עַד-יַעֲבֹר עַם-זוּ קָנִיתָ"
+      }
+    ],
+    "17": [
+      {
+        "ja": "גואזא תאתי בהם. פתג'רסהם פי גבל נחלתך",
+        "en": "'One by one You shall bring them in and plant them on the mountain of Your inheritance",
+        "he": "תְּבִאֵמוֹ וְתִטָּעֵמוֹ בְּהַר נַחֲלָתְךָ"
+      },
+      {
+        "ja": "מהייא לסכינתך. צנעתה יא רב",
+        "en": "prepared as a dwelling for You; You have made it, O Lord, a holy abode",
+        "he": "מָכוֹן לְשִׁבְתְּךָ פָּעַלְתָּ יְהוָה"
+      },
+      {
+        "ja": "מקדס. יא רב אצלחתה ידך",
+        "en": "O Lord, Your hands have established it.'",
+        "he": "מִקְּדָשׁ אֲדֹנָי כּוֹנְנוּ יָדֶיךָ"
+      }
+    ],
+    "18": [
+      {
+        "ja": "אללה מלך אלדהר ואלאבד",
+        "en": "'God is King for ever and ever.'",
+        "he": "יְהוָה יִמְלֹךְ לְעֹלָם וָעֶד"
+      }
+    ],
+    "19": [
+      {
+        "ja": "אד' דכ'ל כ'יל פרעון. ומראכבה. ופרסאנה פי אלבחר",
+        "en": "For when the horses of Pharaoh, his chariots, and his horsemen entered into the sea",
+        "he": "כִּי בָא סוּס פַּרְעֹה בְּרִכְבּוֹ וּבְפָרָשָׁיו בַּיָּם"
+      },
+      {
+        "ja": "פרד אללה עליהם מא אלבחר",
+        "en": "God turned back upon them the waters of the sea",
+        "he": "וַיָּשֶׁב יְהוָה עֲלֵהֶם אֶת-מֵי הַיָּם"
+      },
+      {
+        "ja": "וסארו בני אסראיל. פי אליבאס פי וסט אלבחר",
+        "en": "and the sons of Israel walked on the dry land in the midst of the sea.",
+        "he": "וּבְנֵי יִשְׂרָאֵל הָלְכוּ בַיַּבָּשָׁה בְּתוֹךְ הַיָּם"
+      }
+    ],
+    "20": [
+      {
+        "ja": "ת'ם אכד'ת מרים אלנבייה. אכת הרון. דפא פי ידהא",
+        "en": "Then Miriam the prophetess, the sister of Aaron, took a tambourine in her hand",
+        "he": "וַתִּקַּח מִרְיָם הַנְּבִיאָה אֲחוֹת אַהֲרֹן אֶת-הַתֹּף--בְּיָדָהּ"
+      },
+      {
+        "ja": "פכ'רג גמיע אלנסא וראהא. בדפוף וטבול",
+        "en": "and all the women went out after her with tambourines and drums.",
+        "he": "וַתֵּצֶאןָ כָל-הַנָּשִׁים אַחֲרֶיהָ בְּתֻפִּים וּבִמְחֹלֹת"
+      }
+    ],
+    "21": [
+      {
+        "ja": "וגאובתהן מרים. סבחו ללה אד' אקתדר אקתדארא",
+        "en": "And Miriam led them in response: 'Praise God, for He has triumphed mightily",
+        "he": "וַתַּעַן לָהֶם מִרְיָם שִׁירוּ לַיהוָה כִּי-גָאֹה גָּאָה"
+      },
+      {
+        "ja": "אלכ'יל ורכאבהא רמא בהם פי אלבחר",
+        "en": "the horse and its rider He hurled into the sea.'",
+        "he": "סוּס וְרֹכְבוֹ רָמָה בַיָּם"
+      }
+    ],
+    "22": [
+      {
+        "ja": "ורחל מוסי' בני אסראיל מן בחר אלקלזם",
+        "en": "And Moses moved the sons of Israel on from the Sea of Qulzum",
+        "he": "וַיַּסַּע מֹשֶׁה אֶת-יִשְׂרָאֵל מִיַּם-סוּף"
+      },
+      {
+        "ja": "וכ'רגו אלי' ברייה' שור",
+        "en": "and they went out into the wilderness of Shur",
+        "he": "וַיֵּצְאוּ אֶל-מִדְבַּר-שׁוּר"
+      },
+      {
+        "ja": "וסארו ת'לאתה' איאם. פי אלברייה ולם יגדו מאא",
+        "en": "and they traveled three days in the wilderness and found no water.",
+        "he": "וַיֵּלְכוּ שְׁלֹשֶׁת-יָמִים בַּמִּדְבָּר וְלֹא-מָצְאוּ מָיִם"
+      }
+    ],
+    "23": [
+      {
+        "ja": "וגאו אלי' אלמרירה. ולם יטיקו אן ישרבו מנהא מאא",
+        "en": "And they came to the Bitterness, and they could not drink water from it",
+        "he": "וַיָּבֹאוּ מָרָתָה--וְלֹא יָכְלוּ לִשְׁתֹּת מַיִם מִמָּרָה"
+      },
+      {
+        "ja": "לאנה מר",
+        "en": "for it was bitter",
+        "he": "כִּי מָרִים הֵם"
+      },
+      {
+        "ja": "ולד'אלך סמית אלמרירה",
+        "en": "and therefore it was named the Bitterness.",
+        "he": "עַל-כֵּן קָרָא-שְׁמָהּ מָרָה"
+      }
+    ],
+    "24": [
+      {
+        "ja": "פתד'מר אלקום. עלי' מוסי קאילין מא נשרב",
+        "en": "And the people murmured against Moses, saying: 'What shall we drink?'",
+        "he": "וַיִּלֹּנוּ הָעָם עַל-מֹשֶׁה לֵּאמֹר מַה-נִּשְׁתֶּה"
+      }
+    ],
+    "25": [
+      {
+        "ja": "פדעא אלי' אללה",
+        "en": "And he cried out to God",
+        "he": "וַיִּצְעַק אֶל-יְהוָה"
+      },
+      {
+        "ja": "פדלה עלי' שגרה. טרח מנהא פי אלמא פחלא",
+        "en": "and He directed him to a tree, and he cast branches of it into the water, and it became sweet",
+        "he": "וַיּוֹרֵהוּ יְהוָה עֵץ וַיַּשְׁלֵךְ אֶל-הַמַּיִם וַיִּמְתְּקוּ הַמָּיִם"
+      },
+      {
+        "ja": "ת'ם צייר לה. רסומא ואחכאמא",
+        "en": "There He established for them ordinances and laws",
+        "he": "שָׂם לוֹ חֹק וּמִשְׁפָּט"
+      },
+      {
+        "ja": "ות'ם אמתחנה",
+        "en": "and there He put them to the test.",
+        "he": "וְשָׁם נִסָּהוּ"
+      }
+    ],
+    "26": [
+      {
+        "ja": "וקאל אן קבלת אמר אללה רבך",
+        "en": "And He said: 'If you accept the command of God your Lord",
+        "he": "וַיֹּאמֶר אִם-שָׁמוֹעַ תִּשְׁמַע לְקוֹל יְהוָה אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "וצנעת אלמסתקים ענדה",
+        "en": "and do what is right in His sight",
+        "he": "וְהַיָּשָׁר בְּעֵינָיו תַּעֲשֶׂה"
+      },
+      {
+        "ja": "ואנצתת אלי' וצאיאה. וחפצ'ת גמיע רסומה",
+        "en": "and hearken to His commandments, and keep all His ordinances",
+        "he": "וְהַאֲזַנְתָּ לְמִצְו‍ֹתָיו וְשָׁמַרְתָּ כָּל-חֻקָּיו"
+      },
+      {
+        "ja": "פגמיע אלאמראץ'. אלתי אחללתהא באלמצריון לא אחל פיך שייא מנהא",
+        "en": "then all the diseases which I brought upon the Egyptians I shall bring upon you none of them",
+        "he": "כָּל-הַמַּחֲלָה אֲשֶׁר-שַׂמְתִּי בְמִצְרַיִם לֹא-אָשִׂים עָלֶיךָ"
+      },
+      {
+        "ja": "לאני אללה מעאפיך",
+        "en": "for I am God your healer.'",
+        "he": "כִּי אֲנִי יְהוָה רֹפְאֶךָ"
+      }
+    ],
+    "27": [
+      {
+        "ja": "ת'ם גאו אלי' אילים",
+        "en": "Then they came to Elim",
+        "he": "וַיָּבֹאוּ אֵילִמָה"
+      },
+      {
+        "ja": "ות'ם את'ני עשר עין מא וסבעין נכ'לה",
+        "en": "and there were twelve springs of water and seventy palm trees",
+        "he": "וְשָׁם שְׁתֵּים עֶשְׂרֵה עֵינֹת מַיִם וְשִׁבְעִים תְּמָרִים"
+      },
+      {
+        "ja": "פנזלו ת'ם עלי' אלמא",
+        "en": "and they encamped there by the water.",
+        "he": "וַיַּחֲנוּ-שָׁם עַל-הַמָּיִם"
+      }
+    ]
+  }
+}

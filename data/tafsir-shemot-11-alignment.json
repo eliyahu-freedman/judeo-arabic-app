@@ -1,0 +1,192 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 11. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_11.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "וקאל אללה למוסי'",
+        "en": "And God said to Moses",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "קד בקי בלא ואחד אחלה בפרעון ואלמצריון",
+        "en": "One affliction yet remains, which I shall bring upon Pharaoh and upon the Egyptians",
+        "he": "עוֹד נֶגַע אֶחָד אָבִיא עַל-פַּרְעֹה וְעַל-מִצְרַיִם"
+      },
+      {
+        "ja": "בעד ד'אלך יטלקכם מן ההנא",
+        "en": "after that he shall release you from here",
+        "he": "אַחֲרֵי-כֵן יְשַׁלַּח אֶתְכֶם מִזֶּה"
+      },
+      {
+        "ja": "וענד אטלאקה. גמלה. יטרדכם מן ההנא",
+        "en": "and at his releasing, he shall altogether drive you out from here",
+        "he": "כְּשַׁלְּחוֹ--כָּלָה גָּרֵשׁ יְגָרֵשׁ אֶתְכֶם מִזֶּה"
+      }
+    ],
+    "2": [
+      {
+        "ja": "מר אלקום",
+        "en": "Command the people",
+        "he": "דַּבֶּר-נָא בְּאָזְנֵי הָעָם"
+      },
+      {
+        "ja": "באן יסתוהב אלרגל מן צאחבה. ואלאמראה מן צאחבתהא",
+        "en": "that each man ask as a gift from his neighbor, and each woman from her neighbor",
+        "he": "וְיִשְׁאֲלוּ אִישׁ מֵאֵת רֵעֵהוּ וְאִשָּׁה מֵאֵת רְעוּתָהּ"
+      },
+      {
+        "ja": "אניה' פצ'ה ואניה' ד'הב",
+        "en": "vessels of silver and vessels of gold",
+        "he": "כְּלֵי-כֶסֶף וּכְלֵי זָהָב"
+      }
+    ],
+    "3": [
+      {
+        "ja": "פאעטא אללה אלקום חצ'אא ענד אלמצריון",
+        "en": "And God granted the people favor in the eyes of the Egyptians",
+        "he": "וַיִּתֵּן יְהוָה אֶת-חֵן הָעָם בְּעֵינֵי מִצְרָיִם"
+      },
+      {
+        "ja": "ואמא מוסי' אלרסול. פ עצ'ם גדא פי בלד מצר",
+        "en": "And as for Moses the messenger — he was very great in the land of Egypt",
+        "he": "גַּם הָאִישׁ מֹשֶׁה גָּדוֹל מְאֹד בְּאֶרֶץ מִצְרַיִם"
+      },
+      {
+        "ja": "ענד קואד פרעון וענד אלקום",
+        "en": "in the eyes of Pharaoh's officers and in the eyes of the people",
+        "he": "בְּעֵינֵי עַבְדֵי-פַרְעֹה וּבְעֵינֵי הָעָם"
+      }
+    ],
+    "4": [
+      {
+        "ja": "פקאל מוסי'",
+        "en": "And Moses said",
+        "he": "וַיֹּאמֶר מֹשֶׁה"
+      },
+      {
+        "ja": "כד'א קאל אללה",
+        "en": "Thus says God",
+        "he": "כֹּה אָמַר יְהוָה"
+      },
+      {
+        "ja": "שביה בנצף אלליל. אנא מתגלי פי בלד מצר",
+        "en": "At about the middle of the night I shall appear in the land of Egypt",
+        "he": "כַּחֲצֹת הַלַּיְלָה אֲנִי יוֹצֵא בְּתוֹךְ מִצְרָיִם"
+      }
+    ],
+    "5": [
+      {
+        "ja": "וימות כל בכר פי בלד מצר",
+        "en": "and every firstborn in the land of Egypt shall die",
+        "he": "וּמֵת כָּל-בְּכוֹר בְּאֶרֶץ מִצְרַיִם"
+      },
+      {
+        "ja": "מן בכר פרעון אלגאלס עלי' כרסיה",
+        "en": "from the firstborn of Pharaoh who sits upon his throne",
+        "he": "מִבְּכוֹר פַּרְעֹה הַיֹּשֵׁב עַל-כִּסְאוֹ"
+      },
+      {
+        "ja": "אלי' בכר אלאמה. אלתי ורא אלרחא",
+        "en": "to the firstborn of the maidservant who is behind the millstone",
+        "he": "עַד בְּכוֹר הַשִּׁפְחָה אֲשֶׁר אַחַר הָרֵחָיִם"
+      },
+      {
+        "ja": "וגמיע בכור אלבהאים",
+        "en": "and all the firstborn of the beasts",
+        "he": "וְכֹל בְּכוֹר בְּהֵמָה"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ויכון צראך' עצ'ים פי גמיע בלד מצר",
+        "en": "And there shall be a great outcry throughout all the land of Egypt",
+        "he": "וְהָיְתָה צְעָקָה גְדֹלָה בְּכָל-אֶרֶץ מִצְרָיִם"
+      },
+      {
+        "ja": "מא לם יכון מת'לה",
+        "en": "the like of which has never been",
+        "he": "אֲשֶׁר כָּמֹהוּ לֹא נִהְיָתָה"
+      },
+      {
+        "ja": "ולא יעאוד איצ'א",
+        "en": "and the like of which shall not occur again",
+        "he": "וְכָמֹהוּ לֹא תֹסִף"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ולגמיע בני אסראיל. לא ינבח כלב בפאה",
+        "en": "But against all the sons of Israel, no dog shall bark with its mouth",
+        "he": "וּלְכֹל בְּנֵי יִשְׂרָאֵל לֹא יֶחֱרַץ-כֶּלֶב לְשֹׁנוֹ"
+      },
+      {
+        "ja": "פמא פוקה מן אלאד'א. מן נסאהם אלי' בהאימהם",
+        "en": "of anything above it in harm — from their people to their beasts",
+        "he": "לְמֵאִישׁ וְעַד-בְּהֵמָה"
+      },
+      {
+        "ja": "לכי תעלמון. מא יביין אללה. בין אלמצריון ובין בני אסראיל",
+        "en": "so that you may know what God distinguishes between the Egyptians and the sons of Israel",
+        "he": "לְמַעַן תֵּדְעוּן אֲשֶׁר יַפְלֶה יְהוָה בֵּין מִצְרַיִם וּבֵין יִשְׂרָאֵל"
+      }
+    ],
+    "8": [
+      {
+        "ja": "פיציר אליי גמיע עבידך הולאי ויסגדון לי",
+        "en": "Then all these servants of yours shall come to me and bow down to me",
+        "he": "וְיָרְדוּ כָל-עֲבָדֶיךָ אֵלֶּה אֵלַי וְהִשְׁתַּחֲווּ-לִי"
+      },
+      {
+        "ja": "קאילין. אכ'רג אנת וגמיע אלקום אלדין מעך",
+        "en": "saying: Go out — you and all the people who are with you",
+        "he": "לֵאמֹר צֵא אַתָּה וְכָל-הָעָם אֲשֶׁר-בְּרַגְלֶיךָ"
+      },
+      {
+        "ja": "ובעד ד'אלך אכ'רג",
+        "en": "and after that I shall go out",
+        "he": "וְאַחֲרֵי-כֵן אֵצֵא"
+      },
+      {
+        "ja": "ת'ם כ'רג מן ענד פרעון בשדה' ג'צ'ב מנה",
+        "en": "Then he went out from Pharaoh's presence in great intensity of anger at him",
+        "he": "וַיֵּצֵא מֵעִם-פַּרְעֹה בָּחֳרִי-אָף"
+      }
+    ],
+    "9": [
+      {
+        "ja": "ת'ם קאל אללה למוסי'",
+        "en": "Then God said to Moses",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "לא יקבל מנכמא פרעון",
+        "en": "Pharaoh will not accept from the two of you",
+        "he": "לֹא-יִשְׁמַע אֲלֵיכֶם פַּרְעֹה"
+      },
+      {
+        "ja": "לכי תכת'ר בראהיני פי בלד מצר",
+        "en": "so that My proofs may be multiplied in the land of Egypt",
+        "he": "לְמַעַן רְבוֹת מוֹפְתַי בְּאֶרֶץ מִצְרָיִם"
+      }
+    ],
+    "10": [
+      {
+        "ja": "ומוסי' והרון. צנעא גמיע הד'ה אלבראהין בחצ'רה' פרעון",
+        "en": "And Moses and Aaron performed all these proofs in Pharaoh's presence",
+        "he": "וּמֹשֶׁה וְאַהֲרֹן עָשׂוּ אֶת-כָּל-הַמֹּפְתִים הָאֵלֶּה--לִפְנֵי פַרְעֹה"
+      },
+      {
+        "ja": "פשדד אללה קלבה",
+        "en": "and God hardened his heart",
+        "he": "וַיְחַזֵּק יְהוָה אֶת-לֵב פַּרְעֹה"
+      },
+      {
+        "ja": "ולם יטלק בני אסראיל מן בלדה",
+        "en": "and he did not release the sons of Israel from his land",
+        "he": "וְלֹא-שִׁלַּח אֶת-בְּנֵי-יִשְׂרָאֵל מֵאַרְצוֹ"
+      }
+    ]
+  }
+}

@@ -1,0 +1,673 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 28. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_28.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ואנת איצ'א. פקדם אליך הרון אכ'יך ובניה מעה",
+        "en": "And you also — bring forward to yourself Aaron your brother and his sons with him",
+        "he": "וְאַתָּה הַקְרֵב אֵלֶיךָ אֶת-אַהֲרֹן אָחִיךָ וְאֶת-בָּנָיו אִתּוֹ"
+      },
+      {
+        "ja": "מן בין בני אסראיל",
+        "en": "from among the sons of Israel",
+        "he": "מִתּוֹךְ בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ליאמו לי",
+        "en": "that they may lead worship for Me",
+        "he": "לְכַהֲנוֹ-לִי"
+      },
+      {
+        "ja": "הרון. נדב ואביהוא. אלעזר ואיתמר בניה",
+        "en": "Aaron, Nadab and Abihu, Eleazar and Ithamar, his sons.",
+        "he": "אַהֲרֹן--נָדָב וַאֲבִיהוּא אֶלְעָזָר וְאִיתָמָר בְּנֵי אַהֲרֹן"
+      }
+    ],
+    "2": [
+      {
+        "ja": "ואצנע ת'יאב קדס להרון אכ'יך",
+        "en": "And make garments of holiness for Aaron your brother",
+        "he": "וְעָשִׂיתָ בִגְדֵי-קֹדֶשׁ לְאַהֲרֹן אָחִיךָ"
+      },
+      {
+        "ja": "לכראמה ופכ'ר",
+        "en": "for honor and glory.",
+        "he": "לְכָבוֹד וּלְתִפְאָרֶת"
+      }
+    ],
+    "3": [
+      {
+        "ja": "ואנת כלם כל חכים",
+        "en": "And you — speak to every wise of heart",
+        "he": "וְאַתָּה תְּדַבֵּר אֶל-כָּל-חַכְמֵי-לֵב"
+      },
+      {
+        "ja": "אכמלת פיה עלם רוח אלחכמה",
+        "en": "in whom I have perfected the knowledge of the spirit of wisdom",
+        "he": "אֲשֶׁר מִלֵּאתִיו רוּחַ חָכְמָה"
+      },
+      {
+        "ja": "אן יצנעו ת'יאב הרון. לתקדיסה",
+        "en": "that they make the garments of Aaron, to consecrate him",
+        "he": "וְעָשׂוּ אֶת-בִּגְדֵי אַהֲרֹן לְקַדְּשׁוֹ"
+      },
+      {
+        "ja": "ליאם לי",
+        "en": "that he may lead worship for Me.",
+        "he": "לְכַהֲנוֹ-לִי"
+      }
+    ],
+    "4": [
+      {
+        "ja": "והד'ה אלת'יאב אלד'י יצנעוהא",
+        "en": "And these are the garments which they shall make",
+        "he": "וְאֵלֶּה הַבְּגָדִים אֲשֶׁר יַעֲשׂוּ"
+      },
+      {
+        "ja": "בדנה וצדרה וממטר. ותוניה מושאה ועמאמה וזנאר",
+        "en": "a breastpiece and an ephod and a robe, and an embroidered tunic and a turban and a sash",
+        "he": "חֹשֶׁן וְאֵפוֹד וּמְעִיל וּכְתֹנֶת תַּשְׁבֵּץ מִצְנֶפֶת וְאַבְנֵט"
+      },
+      {
+        "ja": "ויצנעו ת'יאב קדס. להרון אכ'יך. ולבניה",
+        "en": "And they shall make garments of holiness for Aaron your brother and for his sons",
+        "he": "וְעָשׂוּ בִגְדֵי-קֹדֶשׁ לְאַהֲרֹן אָחִיךָ וּלְבָנָיו"
+      },
+      {
+        "ja": "ליאמו לי",
+        "en": "that they may lead worship for Me.",
+        "he": "לְכַהֲנוֹ-לִי"
+      }
+    ],
+    "5": [
+      {
+        "ja": "והם יאכ'דו אלד'הב",
+        "en": "And they shall take the gold",
+        "he": "וְהֵם יִקְחוּ אֶת-הַזָּהָב"
+      },
+      {
+        "ja": "ואלאסמאנגון ואלארגואן",
+        "en": "and the blue, and the purple",
+        "he": "וְאֶת-הַתְּכֵלֶת וְאֶת-הָאַרְגָּמָן"
+      },
+      {
+        "ja": "ואלצבג' אלקרמז ואלעשר",
+        "en": "and the scarlet dye, and the fine linen.",
+        "he": "וְאֶת-תּוֹלַעַת הַשָּׁנִי וְאֶת-הַשֵּׁשׁ"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ויצנעו אלצדרה",
+        "en": "And they shall make the ephod",
+        "he": "וְעָשׂוּ אֶת-הָאֵפֹד"
+      },
+      {
+        "ja": "מן ד'הב ואסמאנגון וארגואן. וצבג' קרמז. וע'שר משזור",
+        "en": "of gold and blue and purple, and scarlet dye, and twisted fine linen",
+        "he": "זָהָב תְּכֵלֶת וְאַרְגָּמָן תּוֹלַעַת שָׁנִי וְשֵׁשׁ מָשְׁזָר"
+      },
+      {
+        "ja": "צנעה' חאד'ק",
+        "en": "the work of a skilled craftsman.",
+        "he": "מַעֲשֵׂה חֹשֵׁב"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ולהא גיבאן מכ'ייטאן",
+        "en": "And it shall have two sewn pockets",
+        "he": "שְׁתֵּי כְתֵפֹת חֹבְרֹת יִהְיֶה-לּוֹ"
+      },
+      {
+        "ja": "תכון עלי' טרפיהא",
+        "en": "which shall be upon its two edges.",
+        "he": "אֶל-שְׁנֵי קְצוֹתָיו"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ושפשג אלצדרה אלד'י עליהא",
+        "en": "And the binding-straps of the ephod which are upon it",
+        "he": "וְחֵשֶׁב אֲפֻדָּתוֹ אֲשֶׁר עָלָיו"
+      },
+      {
+        "ja": "כצנעתהא יכון מת'להא",
+        "en": "shall be like its workmanship — of the same make as it",
+        "he": "כְּמַעֲשֵׂהוּ מִמֶּנּוּ יִהְיֶה"
+      },
+      {
+        "ja": "מן ד'הב ואסמאנגון וארגואן. וצבג' קרמז ועשר משזור",
+        "en": "of gold and blue and purple, and scarlet dye and twisted fine linen.",
+        "he": "זָהָב תְּכֵלֶת וְאַרְגָּמָן וְתוֹלַעַת שָׁנִי--וְשֵׁשׁ מָשְׁזָר"
+      }
+    ],
+    "9": [
+      {
+        "ja": "וכד' חגרי אלבלור",
+        "en": "And take two crystal stones",
+        "he": "וְלָקַחְתָּ אֶת-שְׁתֵּי אַבְנֵי-שֹׁהַם"
+      },
+      {
+        "ja": "ואנקש עליהמא אסמא בני אסראיל",
+        "en": "and engrave upon them the names of the sons of Israel —",
+        "he": "וּפִתַּחְתָּ עֲלֵיהֶם שְׁמוֹת בְּנֵי יִשְׂרָאֵל"
+      }
+    ],
+    "10": [
+      {
+        "ja": "סתה מנהא. עלי' אלחגר אלואחד",
+        "en": "six of them upon one stone",
+        "he": "שִׁשָּׁה מִשְּׁמֹתָם עַל הָאֶבֶן הָאֶחָת"
+      },
+      {
+        "ja": "ואלסתה אלאסמא אלבאקיה. עלי' אלחגר אלת'אניה",
+        "en": "and the six remaining names upon the second stone",
+        "he": "וְאֶת-שְׁמוֹת הַשִּׁשָּׁה הַנּוֹתָרִים עַל-הָאֶבֶן הַשֵּׁנִית"
+      },
+      {
+        "ja": "כתיאלידהם",
+        "en": "according to their order of birth.",
+        "he": "כְּתוֹלְדֹתָם"
+      }
+    ],
+    "11": [
+      {
+        "ja": "צנעה' כ'רט אלגוהר. כנקש אלכ'אתם",
+        "en": "In the craft of gem-cutting, like the engraving of a signet-ring",
+        "he": "מַעֲשֵׂה חָרַשׁ אֶבֶן--פִּתּוּחֵי חֹתָם"
+      },
+      {
+        "ja": "תנקש עלי' אלחגרין. אסמא בני אסראיל",
+        "en": "you shall engrave upon the two stones the names of the sons of Israel",
+        "he": "תְּפַתַּח אֶת-שְׁתֵּי הָאֲבָנִים עַל-שְׁמֹת בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ואצנעהא. תחיט בהא עיון מן ד'הב",
+        "en": "and make them surrounded by settings of gold.",
+        "he": "מֻסַבֹּת מִשְׁבְּצוֹת זָהָב תַּעֲשֶׂה אֹתָם"
+      }
+    ],
+    "12": [
+      {
+        "ja": "וצייר אלחגרין פי גיבי אלצדרה",
+        "en": "And place the two stones in the pockets of the ephod",
+        "he": "וְשַׂמְתָּ אֶת-שְׁתֵּי הָאֲבָנִים עַל כִּתְפֹת הָאֵפֹד"
+      },
+      {
+        "ja": "חגארה' ד'כרא לבני אסראיל",
+        "en": "stones of remembrance for the sons of Israel",
+        "he": "אַבְנֵי זִכָּרֹן לִבְנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ויחמל הרון אסמאיהם. בין ידי אללה",
+        "en": "and Aaron shall bear their names before God",
+        "he": "וְנָשָׂא אַהֲרֹן אֶת-שְׁמוֹתָם לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "עלי' כתפיה ד'כרא",
+        "en": "upon his two shoulders, as a remembrance.",
+        "he": "עַל-שְׁתֵּי כְתֵפָיו--לְזִכָּרֹן"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ואצנע עיון מן ד'הב",
+        "en": "And make settings of gold.",
+        "he": "וְעָשִׂיתָ מִשְׁבְּצֹת זָהָב"
+      }
+    ],
+    "14": [
+      {
+        "ja": "וסלסלתין מן ד'הב כ'אלץ. מעתדלתין",
+        "en": "And two chains of pure gold, made even",
+        "he": "וּשְׁתֵּי שַׁרְשְׁרֹת זָהָב טָהוֹר מִגְבָּלֹת"
+      },
+      {
+        "ja": "תצנעהמא צנעה' צ'פר",
+        "en": "you shall make them in the work of braiding",
+        "he": "תַּעֲשֶׂה אֹתָם מַעֲשֵׂה עֲבֹת"
+      },
+      {
+        "ja": "ועלק אלסלסלתין אלמצ'פורתין עלי' אלעיון",
+        "en": "and hang the two braided chains upon the settings.",
+        "he": "וְנָתַתָּה אֶת-שַׁרְשְׁרֹת הָעֲבֹתֹת עַל-הַמִּשְׁבְּצֹת"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ואצנע בדנה מהיאה צנעה' חאד'ק",
+        "en": "And make a prepared breastpiece, the work of a skilled craftsman",
+        "he": "וְעָשִׂיתָ חֹשֶׁן מִשְׁפָּט מַעֲשֵׂה חֹשֵׁב"
+      },
+      {
+        "ja": "כצנעה' אלצדרה",
+        "en": "like the workmanship of the ephod",
+        "he": "כְּמַעֲשֵׂה אֵפֹד תַּעֲשֶׂנּוּ"
+      },
+      {
+        "ja": "מן ד'הב ואסמאנגון וארגואן. וצבג' קרמז ועשר משזור תצנעהא",
+        "en": "of gold and blue and purple, and scarlet dye and twisted fine linen you shall make it.",
+        "he": "זָהָב תְּכֵלֶת וְאַרְגָּמָן וְתוֹלַעַת שָׁנִי וְשֵׁשׁ מָשְׁזָר--תַּעֲשֶׂה אֹתוֹ"
+      }
+    ],
+    "16": [
+      {
+        "ja": "וליכון מרבעא מצ'אעפא",
+        "en": "And it shall be square, doubled",
+        "he": "רָבוּעַ יִהְיֶה כָּפוּל"
+      },
+      {
+        "ja": "טולהא שבר וערצ'הא שבר",
+        "en": "its length a span and its width a span.",
+        "he": "זֶרֶת אָרְכּוֹ וְזֶרֶת רָחְבּוֹ"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ואנצם פיהא. ארבעה סטור מן נצ'אם אלגוהר",
+        "en": "And set in it four rows of gemstones in arrangement",
+        "he": "וּמִלֵּאתָ בוֹ מִלֻּאַת אֶבֶן אַרְבָּעָה טוּרִים אָבֶן"
+      },
+      {
+        "ja": "אלסטר אלאוול. יאקות אחמר וזמרד ואצפר",
+        "en": "The first row: a red ruby, and an emerald, and a yellow stone.",
+        "he": "טוּר אֹדֶם פִּטְדָה וּבָרֶקֶת--הַטּוּר הָאֶחָד"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ואלסטר אלת'אני. כחלי ומהא ובהרמאן",
+        "en": "And the second row: a dark blue stone, and a white gleaming stone, and a bahraman stone.",
+        "he": "וְהַטּוּר הַשֵּׁנִי--נֹפֶךְ סַפִּיר וְיָהֲלֹם"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ואלסטר אלת'אלת'. גזע וסבג ופירוזג",
+        "en": "And the third row: an agate, and a jet stone, and a turquoise.",
+        "he": "וְהַטּוּר הַשְּׁלִישִׁי--לֶשֶׁם שְׁבוֹ וְאַחְלָמָה"
+      }
+    ],
+    "20": [
+      {
+        "ja": "ואלסטר אלראבע. אזרק ובלור ויסף",
+        "en": "And the fourth row: a blue stone, and crystal, and jasper",
+        "he": "וְהַטּוּר הָרְבִיעִי--תַּרְשִׁישׁ וְשֹׁהַם וְיָשְׁפֵה"
+      },
+      {
+        "ja": "ותכון מעיינה בד'הב פי נצ'אמהא",
+        "en": "And they shall be aided by gold in their arrangement.",
+        "he": "מְשֻׁבָּצִים זָהָב יִהְיוּ בְּמִלּוּאֹתָם"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ולתכון אלחגארה עלי' אסמא בני אסראיל. אד' הי את'ני עשר",
+        "en": "And the stones shall be according to the names of the sons of Israel — since they are twelve",
+        "he": "וְהָאֲבָנִים תִּהְיֶיןָ עַל-שְׁמֹת בְּנֵי-יִשְׂרָאֵל שְׁתֵּים עֶשְׂרֵה"
+      },
+      {
+        "ja": "כנקש אלכ'אתם אסם כל ואחד עלי' חגרה",
+        "en": "like the engraving of a signet-ring, the name of each one upon its stone",
+        "he": "פִּתּוּחֵי חוֹתָם אִישׁ עַל-שְׁמוֹ תִּהְיֶיןָ"
+      },
+      {
+        "ja": "תכון לאת'ני עשר סבט",
+        "en": "they shall be for the twelve tribes.",
+        "he": "לִשְׁנֵי עָשָׂר שָׁבֶט"
+      }
+    ],
+    "22": [
+      {
+        "ja": "ואצנע לאלבדנה. סלאסל מעתדלה צנעה' צ'פר",
+        "en": "And make for the breastpiece even chains, the work of braiding",
+        "he": "וְעָשִׂיתָ עַל-הַחֹשֶׁן שַׁרְשֹׁת גַּבְלֻת מַעֲשֵׂה עֲבֹת"
+      },
+      {
+        "ja": "מן ד'הב כ'אלץ",
+        "en": "of pure gold.",
+        "he": "זָהָב טָהוֹר"
+      }
+    ],
+    "23": [
+      {
+        "ja": "ואצנע להא חלקתין מן ד'הב",
+        "en": "And make for it two rings of gold",
+        "he": "וְעָשִׂיתָ עַל-הַחֹשֶׁן שְׁתֵּי טַבְּעוֹת זָהָב"
+      },
+      {
+        "ja": "ואגעלהמא פי טרפיהא",
+        "en": "and set them at its two edges.",
+        "he": "וְנָתַתָּ אֶת-שְׁתֵּי הַטַּבָּעוֹת עַל-שְׁנֵי קְצוֹת הַחֹשֶׁן"
+      }
+    ],
+    "24": [
+      {
+        "ja": "ועלק [י\"ג ואגעל צ'פירתי אלד'הב",
+        "en": "And hang the two golden braids",
+        "he": "וְנָתַתָּה אֶת-שְׁתֵּי עֲבֹתֹת הַזָּהָב"
+      },
+      {
+        "ja": "עלי' אלחלקתין אלתי פי טרפי אלבדנה",
+        "en": "upon the two rings which are at the two edges of the breastpiece.",
+        "he": "עַל-שְׁתֵּי הַטַּבָּעֹת--אֶל-קְצוֹת הַחֹשֶׁן"
+      }
+    ],
+    "25": [
+      {
+        "ja": "וטרפי אלצפירתין, אלאכ'רתין",
+        "en": "And the other two ends of the two braids",
+        "he": "וְאֵת שְׁתֵּי קְצוֹת שְׁתֵּי הָעֲבֹתֹת"
+      },
+      {
+        "ja": "תעלקהמא עלי' אלעיון",
+        "en": "you shall hang upon the two settings",
+        "he": "תִּתֵּן עַל-שְׁתֵּי הַמִּשְׁבְּצוֹת"
+      },
+      {
+        "ja": "פתציר עלי' גיבי אלצדרה מן מקדמהא",
+        "en": "so that they come to rest upon the two pockets of the ephod, at its front.",
+        "he": "וְנָתַתָּה עַל-כִּתְפוֹת הָאֵפֹד אֶל-מוּל פָּנָיו"
+      }
+    ],
+    "26": [
+      {
+        "ja": "ואצנע איצ'א חלקתין מן ד'הב. ואגעלהמא פי טרפי אלבדנה",
+        "en": "And make also two rings of gold, and set them at the two edges of the breastpiece",
+        "he": "וְעָשִׂיתָ שְׁתֵּי טַבְּעוֹת זָהָב וְשַׂמְתָּ אֹתָם עַל-שְׁנֵי קְצוֹת הַחֹשֶׁן"
+      },
+      {
+        "ja": "פי חאשיתהא. אלתי אלי' גאנב אלצדרה מן דאכ'ל",
+        "en": "upon its border which is on the side of the ephod, from within.",
+        "he": "עַל-שְׂפָתוֹ אֲשֶׁר אֶל-עֵבֶר הָאֵפֹד בָּיְתָה"
+      }
+    ],
+    "27": [
+      {
+        "ja": "ואצנע איצ'א חלקתין מן ד'הב. ואגעלהמא באזא גיבי אלצדרה",
+        "en": "And make also two rings of gold, and set them opposite the two pockets of the ephod",
+        "he": "וְעָשִׂיתָ שְׁתֵּי טַבְּעוֹת זָהָב וְנָתַתָּה אֹתָם עַל-שְׁתֵּי כִתְפוֹת הָאֵפוֹד"
+      },
+      {
+        "ja": "מן אספל. ממא ילי וגההא",
+        "en": "from below, on the side facing its front",
+        "he": "מִלְּמַטָּה מִמּוּל פָּנָיו"
+      },
+      {
+        "ja": "אמאם תאליפהא. פוק שפשגהא",
+        "en": "opposite the place of its joining, above its binding-straps.",
+        "he": "לְעֻמַּת מַחְבַּרְתּוֹ--מִמַּעַל לְחֵשֶׁב הָאֵפוֹד"
+      }
+    ],
+    "28": [
+      {
+        "ja": "ויחבכונהא. מן חלקהא אלי' חלק אלצדרה",
+        "en": "And they shall fasten it — from its rings to the rings of the breastpiece",
+        "he": "וְיִרְכְּסוּ אֶת-הַחֹשֶׁן מִטַּבְּעֹתָו אֶל-טַבְּעֹת הָאֵפוֹד"
+      },
+      {
+        "ja": "בסלך מן אסמאנגון",
+        "en": "with a cord of blue",
+        "he": "בִּפְתִיל תְּכֵלֶת"
+      },
+      {
+        "ja": "חתי' תציר פוק שפשגהא",
+        "en": "so that it shall rest above its binding-straps",
+        "he": "לִהְיוֹת עַל-חֵשֶׁב הָאֵפוֹד"
+      },
+      {
+        "ja": "ולא תזול ענהא",
+        "en": "and not come loose from it.",
+        "he": "וְלֹא-יִזַּח הַחֹשֶׁן מֵעַל הָאֵפוֹד"
+      }
+    ],
+    "29": [
+      {
+        "ja": "ויחמל הרון אסמא בני אסראיל פי אלבדנה אלמהיאה",
+        "en": "And Aaron shall bear the names of the sons of Israel in the prepared breastpiece",
+        "he": "וְנָשָׂא אַהֲרֹן אֶת-שְׁמוֹת בְּנֵי-יִשְׂרָאֵל בְּחֹשֶׁן הַמִּשְׁפָּט"
+      },
+      {
+        "ja": "עלי' צדרה פי דכולה אלקדס",
+        "en": "upon his chest, when he enters the sanctuary",
+        "he": "עַל-לִבּוֹ--בְּבֹאוֹ אֶל-הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "ד'כרא בין ידי אללה דאימא",
+        "en": "as a remembrance before God — always.",
+        "he": "לְזִכָּרֹן לִפְנֵי-יְהוָה תָּמִיד"
+      }
+    ],
+    "30": [
+      {
+        "ja": "ואגעל פי אלבדנה אלמהיאה. אלאנואר ואלצחאיח",
+        "en": "And place in the prepared breastpiece the Lights and the Truths",
+        "he": "וְנָתַתָּ אֶל-חֹשֶׁן הַמִּשְׁפָּט אֶת-הָאוּרִים וְאֶת-הַתֻּמִּים"
+      },
+      {
+        "ja": "ותכון עלי' צדר הרון פי דכולה בין ידי אללה",
+        "en": "and they shall be upon Aaron's chest when he enters before God",
+        "he": "וְהָיוּ עַל-לֵב אַהֲרֹן בְּבֹאוֹ לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "ויחמל הרון. היאה' בני אסראיל עלי' קלבה",
+        "en": "and Aaron shall bear the ordinance of the sons of Israel upon his heart",
+        "he": "וְנָשָׂא אַהֲרֹן אֶת-מִשְׁפַּט בְּנֵי-יִשְׂרָאֵל עַל-לִבּוֹ"
+      },
+      {
+        "ja": "בין ידי אללה דאימא",
+        "en": "before God — always.",
+        "he": "לִפְנֵי יְהוָה--תָּמִיד"
+      }
+    ],
+    "31": [
+      {
+        "ja": "ואצנע ממטר אלצדרה",
+        "en": "And make the robe of the ephod",
+        "he": "וְעָשִׂיתָ אֶת-מְעִיל הָאֵפוֹד"
+      },
+      {
+        "ja": "גמלתה מן אסמאנגון",
+        "en": "the work of a weaver — the whole of it of blue.",
+        "he": "כְּלִיל תְּכֵלֶת"
+      }
+    ],
+    "32": [
+      {
+        "ja": "ויכון פאה אלד'י הו ראסה פי וסטה",
+        "en": "And its opening, which is at its top, shall be in its center",
+        "he": "וְהָיָה פִי-רֹאשׁוֹ בְּתוֹכוֹ"
+      },
+      {
+        "ja": "וחאשיה תחיט בה מסתדירא צנעה' חאיך",
+        "en": "and a border shall surround it all around — the work of a weaver",
+        "he": "שָׂפָה יִהְיֶה לְפִיו סָבִיב מַעֲשֵׂה אֹרֵג"
+      },
+      {
+        "ja": "כפם אלדרע. יציר לה ללא יכ'תרק",
+        "en": "like the opening of a coat of mail it shall be for it, so that it shall not tear.",
+        "he": "כְּפִי תַחְרָא יִהְיֶה-לּוֹ--לֹא יִקָּרֵעַ"
+      }
+    ],
+    "33": [
+      {
+        "ja": "ואצנע פי ד'ילה. רמאמין מן אסמאנגון וארגואן וצבג' קרמז",
+        "en": "And make upon its hem pomegranates of blue and purple and scarlet dye",
+        "he": "וְעָשִׂיתָ עַל-שׁוּלָיו רִמֹּנֵי תְּכֵלֶת וְאַרְגָּמָן וְתוֹלַעַת שָׁנִי"
+      },
+      {
+        "ja": "פי ד'ילה מסתדירא",
+        "en": "upon its hem all around",
+        "he": "עַל-שׁוּלָיו סָבִיב"
+      },
+      {
+        "ja": "וגלאגל מן ד'הב. פי מא בינהם מסתדירא",
+        "en": "and bells of gold between them all around.",
+        "he": "וּפַעֲמֹנֵי זָהָב בְּתוֹכָם סָבִיב"
+      }
+    ],
+    "34": [
+      {
+        "ja": "גלגל מן ד'הב ורמאנה. גלגל מן ד'הב ורמאנה",
+        "en": "A bell of gold and a pomegranate, a bell of gold and a pomegranate",
+        "he": "פַּעֲמֹן זָהָב וְרִמּוֹן פַּעֲמֹן זָהָב וְרִמּוֹן"
+      },
+      {
+        "ja": "פי ד'יל אלממטר מסתדירא",
+        "en": "upon the hem of the robe all around.",
+        "he": "עַל-שׁוּלֵי הַמְּעִיל סָבִיב"
+      }
+    ],
+    "35": [
+      {
+        "ja": "ויכון עלי' הרון אד' יכ'דם",
+        "en": "And it shall be upon Aaron when he serves",
+        "he": "וְהָיָה עַל-אַהֲרֹן לְשָׁרֵת"
+      },
+      {
+        "ja": "ויסמע צותה. פי ד'כולה אלקדס. בין ידי אללה",
+        "en": "and its sound shall be heard when he enters the sanctuary before God",
+        "he": "וְנִשְׁמַע קוֹלוֹ בְּבֹאוֹ אֶל-הַקֹּדֶשׁ לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "ופי כ'רוגה ולא יהלך",
+        "en": "and when he goes out — and he shall not perish.",
+        "he": "וּבְצֵאתוֹ--וְלֹא יָמוּת"
+      }
+    ],
+    "36": [
+      {
+        "ja": "ואצנע עצאבה מן ד'הב כ'אלץ",
+        "en": "And make a diadem of pure gold",
+        "he": "וְעָשִׂיתָ צִּיץ זָהָב טָהוֹר"
+      },
+      {
+        "ja": "ואנקש עליהא כנקש אלכ'אתם. קדש ליי",
+        "en": "and engrave upon it like the engraving of a signet-ring: Holy to God.",
+        "he": "וּפִתַּחְתָּ עָלָיו פִּתּוּחֵי חֹתָם קֹדֶשׁ לַיהוָה"
+      }
+    ],
+    "37": [
+      {
+        "ja": "ושדהא בסלך אסמאנגון",
+        "en": "And fasten it with a cord of blue",
+        "he": "וְשַׂמְתָּ אֹתוֹ עַל-פְּתִיל תְּכֵלֶת"
+      },
+      {
+        "ja": "ותכון דון אלעמאמה מן מקדמהא",
+        "en": "and it shall be below the turban, at its front.",
+        "he": "וְהָיָה עַל-הַמִּצְנָפֶת אֶל-מוּל פְּנֵי-הַמִּצְנֶפֶת יִהְיֶה"
+      }
+    ],
+    "38": [
+      {
+        "ja": "ותכון עלי' גבהה' הרון",
+        "en": "And it shall be upon Aaron's forehead",
+        "he": "וְהָיָה עַל-מֵצַח אַהֲרֹן"
+      },
+      {
+        "ja": "אד' יסתג'פר ען ד'נוב אלאקדאס. אלד'י יקדסהא בני אסראיל",
+        "en": "when he seeks forgiveness for the sins of the holy things which the sons of Israel consecrate",
+        "he": "וְנָשָׂא אַהֲרֹן אֶת-עֲו‍ֹן הַקֳּדָשִׁים אֲשֶׁר יַקְדִּישׁוּ בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "לגמיע עטאיאהם ואקדאסהם",
+        "en": "for all their gifts and their holy offerings",
+        "he": "לְכָל-מַתְּנֹת קָדְשֵׁיהֶם"
+      },
+      {
+        "ja": "פתכון עלי' גבהתה דאימא. לירתצ'א ענהם בין ידי אללה",
+        "en": "and it shall be upon his forehead always, that they may find favor before God.",
+        "he": "וְהָיָה עַל-מִצְחוֹ תָּמִיד לְרָצוֹן לָהֶם לִפְנֵי יְהוָה"
+      }
+    ],
+    "39": [
+      {
+        "ja": "ווש אלתוניה מן עשר",
+        "en": "And embroider the tunic of fine linen",
+        "he": "וְשִׁבַּצְתָּ הַכְּתֹנֶת שֵׁשׁ"
+      },
+      {
+        "ja": "ואצנע אלעמאמה מן עשר",
+        "en": "and make the turban of fine linen",
+        "he": "וְעָשִׂיתָ מִצְנֶפֶת שֵׁשׁ"
+      },
+      {
+        "ja": "ואלזנאר תצנעה צנעה' ראקם",
+        "en": "and the sash you shall make in the work of an embroiderer.",
+        "he": "וְאַבְנֵט תַּעֲשֶׂה מַעֲשֵׂה רֹקֵם"
+      }
+    ],
+    "40": [
+      {
+        "ja": "ולבני הרון תצנע תואניא",
+        "en": "And for the sons of Aaron you shall make tunics",
+        "he": "וְלִבְנֵי אַהֲרֹן תַּעֲשֶׂה כֻתֳּנֹת"
+      },
+      {
+        "ja": "ואצנע להם זנאנירא",
+        "en": "and make for them sashes",
+        "he": "וְעָשִׂיתָ לָהֶם אַבְנֵטִים"
+      },
+      {
+        "ja": "וקלאנס תצנעהא להם. לכראמה ופכ'ר",
+        "en": "and caps you shall make for them — for honor and glory.",
+        "he": "וּמִגְבָּעוֹת תַּעֲשֶׂה לָהֶם לְכָבוֹד וּלְתִפְאָרֶת"
+      }
+    ],
+    "41": [
+      {
+        "ja": "ואלבסהמא הרון אכ'יך. ובניה מעה",
+        "en": "And clothe them — Aaron your brother and his sons with him",
+        "he": "וְהִלְבַּשְׁתָּ אֹתָם אֶת-אַהֲרֹן אָחִיךָ וְאֶת-בָּנָיו אִתּוֹ"
+      },
+      {
+        "ja": "ואמסחהם. ואכמל ואגבהם",
+        "en": "and anoint them, and complete their required investiture",
+        "he": "וּמָשַׁחְתָּ אֹתָם וּמִלֵּאתָ אֶת-יָדָם"
+      },
+      {
+        "ja": "וקדסהם ויאמו לי",
+        "en": "and consecrate them, that they may lead worship for Me.",
+        "he": "וְקִדַּשְׁתָּ אֹתָם--וְכִהֲנוּ לִי"
+      }
+    ],
+    "42": [
+      {
+        "ja": "ואצנע להם סראויל מן עשר. לתג'טי מן אבדאנהם אלסווה",
+        "en": "And make for them linen trousers, to cover the nakedness of their bodies",
+        "he": "וַעֲשֵׂה לָהֶם מִכְנְסֵי-בָד לְכַסּוֹת בְּשַׂר עֶרְוָה"
+      },
+      {
+        "ja": "מן אלחקוין אלי' אלרכבתין תכון",
+        "en": "from the loins to the knees they shall reach.",
+        "he": "מִמָּתְנַיִם וְעַד-יְרֵכַיִם יִהְיוּ"
+      }
+    ],
+    "43": [
+      {
+        "ja": "ותכון עלי' הרון ובניה",
+        "en": "And they shall be upon Aaron and his sons",
+        "he": "וְהָיוּ עַל-אַהֲרֹן וְעַל-בָּנָיו"
+      },
+      {
+        "ja": "פי דכ'ולהם אלי' כ'בא אלמחצ'ר. ופי תקדמהם אלי' אלמד'בח ליכ'דמון פי אלקדס",
+        "en": "when they enter the tent of the assembly, and when they draw near to the altar to serve in the sanctuary",
+        "he": "בְּבֹאָם אֶל-אֹהֶל מוֹעֵד אוֹ בְגִשְׁתָּם אֶל-הַמִּזְבֵּחַ לְשָׁרֵת בַּקֹּדֶשׁ"
+      },
+      {
+        "ja": "ולא יחמלון ענה וזרא פיהלכון",
+        "en": "lest they bear on account of it a burden and perish",
+        "he": "וְלֹא-יִשְׂאוּ עָו‍ֹן וָמֵתוּ"
+      },
+      {
+        "ja": "רסם אלדהר. לה ולנסלה בעדה",
+        "en": "This is an ordinance for all time, for him and for his offspring after him.",
+        "he": "חֻקַּת עוֹלָם לוֹ וּלְזַרְעוֹ אַחֲרָיו"
+      }
+    ]
+  }
+}

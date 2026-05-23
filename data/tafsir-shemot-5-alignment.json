@@ -1,0 +1,657 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 5. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_5.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ובעד ד'אלך",
+        "en": "And after that",
+        "he": "וְאַחַר"
+      },
+      {
+        "ja": "דכ'ל מוסי והרון",
+        "en": "Moses and Aaron entered",
+        "he": "בָּאוּ מֹשֶׁה וְאַהֲרֹן"
+      },
+      {
+        "ja": "וקאלא לפרעון",
+        "en": "and said to Pharaoh",
+        "he": "וַיֹּאמְרוּ אֶל-פַּרְעֹה"
+      },
+      {
+        "ja": "כד'א קאל אללה",
+        "en": "Thus says God",
+        "he": "כֹּה-אָמַר יְהוָה"
+      },
+      {
+        "ja": "אלאה אסראיל",
+        "en": "the God of Israel",
+        "he": "אֱלֹהֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אטלק קומי",
+        "en": "Let my people go",
+        "he": "שַׁלַּח אֶת-עַמִּי"
+      },
+      {
+        "ja": "יחגון לי",
+        "en": "that they may celebrate a festival to me",
+        "he": "וְיָחֹגּוּ לִי"
+      },
+      {
+        "ja": "פי אלבר",
+        "en": "in the wilderness",
+        "he": "בַּמִּדְבָּר"
+      }
+    ],
+    "2": [
+      {
+        "ja": "קאל פרעון",
+        "en": "Pharaoh said",
+        "he": "וַיֹּאמֶר פַּרְעֹה"
+      },
+      {
+        "ja": "מן אללה",
+        "en": "Who is God",
+        "he": "מִי יְהוָה"
+      },
+      {
+        "ja": "חתא אקבל מנה",
+        "en": "that I should accept from him",
+        "he": "אֲשֶׁר אֶשְׁמַע בְּקֹלוֹ"
+      },
+      {
+        "ja": "ואטלק בני אסראיל",
+        "en": "and let the sons of Israel go",
+        "he": "לְשַׁלַּח אֶת-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "לם אערף אללה",
+        "en": "I do not know God",
+        "he": "לֹא יָדַעְתִּי אֶת-יְהוָה"
+      },
+      {
+        "ja": "ולא אטלק בני אסראיל איצ'א",
+        "en": "and I will not let the sons of Israel go either",
+        "he": "וְגַם אֶת-יִשְׂרָאֵל לֹא אֲשַׁלֵּחַ"
+      }
+    ],
+    "3": [
+      {
+        "ja": "קאלו",
+        "en": "They said",
+        "he": "וַיֹּאמְרוּ"
+      },
+      {
+        "ja": "אלאה אלעבראניין",
+        "en": "The God of the Hebrews",
+        "he": "אֱלֹהֵי הָעִבְרִים"
+      },
+      {
+        "ja": "ואפאנא אמרה",
+        "en": "has caused His decree to come upon us",
+        "he": "נִקְרָא עָלֵינוּ"
+      },
+      {
+        "ja": "נמצ'י אלאן. מסאפה' ת'לאת'ה' איאם",
+        "en": "Let us go now a distance of three days",
+        "he": "נֵלְכָה נָּא דֶּרֶךְ שְׁלֹשֶׁת יָמִים"
+      },
+      {
+        "ja": "פי אלבר",
+        "en": "into the wilderness",
+        "he": "בַּמִּדְבָּר"
+      },
+      {
+        "ja": "ונד'בח ללה רבנא",
+        "en": "and offer sacrifice to the Lord our God",
+        "he": "וְנִזְבְּחָה לַיהוָה אֱלֹהֵינוּ"
+      },
+      {
+        "ja": "כילא יפאגינא. בובא או בסיף",
+        "en": "lest plague or sword come suddenly upon us",
+        "he": "פֶּן-יִפְגָּעֵנוּ בַּדֶּבֶר אוֹ בֶחָרֶב"
+      }
+    ],
+    "4": [
+      {
+        "ja": "קאל להמא מלך מצר",
+        "en": "The king of Egypt said to them",
+        "he": "וַיֹּאמֶר אֲלֵהֶם מֶלֶךְ מִצְרַיִם"
+      },
+      {
+        "ja": "לם יא מוסי' והרון",
+        "en": "Why, Moses and Aaron",
+        "he": "לָמָּה מֹשֶׁה וְאַהֲרֹן"
+      },
+      {
+        "ja": "תגד'באן אלקום",
+        "en": "do you distract the people",
+        "he": "תַּפְרִיעוּ אֶת-הָעָם"
+      },
+      {
+        "ja": "מן אעמאלהם",
+        "en": "from their works",
+        "he": "מִמַּעֲשָׂיו"
+      },
+      {
+        "ja": "אמצ'ו לנקלכם",
+        "en": "Go to your burdens",
+        "he": "לְכוּ לְסִבְלֹתֵיכֶם"
+      }
+    ],
+    "5": [
+      {
+        "ja": "תם קאל פרעון",
+        "en": "And Pharaoh said",
+        "he": "וַיֹּאמֶר פַּרְעֹה"
+      },
+      {
+        "ja": "אמן כת'רה' אהל אלבלד",
+        "en": "Now the people of the land are many",
+        "he": "הֵן-רַבִּים עַתָּה עַם הָאָרֶץ"
+      },
+      {
+        "ja": "חתי' תעטלונהם מן נקלהם",
+        "en": "and you would have them rest from their burdens",
+        "he": "וְהִשְׁבַּתֶּם אֹתָם מִסִּבְלֹתָם"
+      }
+    ],
+    "6": [
+      {
+        "ja": "פאמר פרעון",
+        "en": "And Pharaoh commanded",
+        "he": "וַיְצַו פַּרְעֹה"
+      },
+      {
+        "ja": "פי ד'אלך אליום",
+        "en": "on that day",
+        "he": "בַּיּוֹם הַהוּא"
+      },
+      {
+        "ja": "גלאוזאת אלקום",
+        "en": "the taskmasters of the people",
+        "he": "אֶת-הַנֹּגְשִׂים בָּעָם"
+      },
+      {
+        "ja": "וערפאהם",
+        "en": "and their overseers",
+        "he": "וְאֶת-שֹׁטְרָיו"
+      },
+      {
+        "ja": "קאילא",
+        "en": "saying",
+        "he": "לֵאמֹר"
+      }
+    ],
+    "7": [
+      {
+        "ja": "לא תעאודו",
+        "en": "You shall no longer",
+        "he": "לֹא תֹאסִפוּן"
+      },
+      {
+        "ja": "אן תעטו אלקום תבנא",
+        "en": "give the people straw",
+        "he": "לָתֵת תֶּבֶן לָעָם"
+      },
+      {
+        "ja": "לילבנון אללבן",
+        "en": "to mold bricks",
+        "he": "לִלְבֹּן הַלְּבֵנִים"
+      },
+      {
+        "ja": "מת'ל אמס ומא קבלה",
+        "en": "as yesterday and before",
+        "he": "כִּתְמוֹל שִׁלְשֹׁם"
+      },
+      {
+        "ja": "הם ימצ'ון",
+        "en": "let them go",
+        "he": "הֵם יֵלְכוּ"
+      },
+      {
+        "ja": "ויקמשון להם תבנא",
+        "en": "and gather straw for themselves",
+        "he": "וְקֹשְׁשׁוּ לָהֶם תֶּבֶן"
+      }
+    ],
+    "8": [
+      {
+        "ja": "וצ'ראיב אללבן",
+        "en": "And the quota of bricks",
+        "he": "וְאֶת-מַתְכֹּנֶת הַלְּבֵנִים"
+      },
+      {
+        "ja": "אלד'י כאנו יצנעון",
+        "en": "which they were making",
+        "he": "אֲשֶׁר הֵם עֹשִׂים"
+      },
+      {
+        "ja": "אמס ומא קבלה",
+        "en": "yesterday and before",
+        "he": "תְּמוֹל שִׁלְשֹׁם"
+      },
+      {
+        "ja": "ציירוהא עליהם",
+        "en": "set [the same] upon them",
+        "he": "תָּשִׂימוּ עֲלֵיהֶם"
+      },
+      {
+        "ja": "לא תנקצון מנהא",
+        "en": "you shall not reduce from it",
+        "he": "לֹא תִגְרְעוּ מִמֶּנּוּ"
+      },
+      {
+        "ja": "לאנהם מרפהון",
+        "en": "For they are idle",
+        "he": "כִּי-נִרְפִּים הֵם"
+      },
+      {
+        "ja": "לד'אלך הם יצרכ'ון",
+        "en": "therefore they cry out",
+        "he": "עַל-כֵּן הֵם צֹעֲקִים"
+      },
+      {
+        "ja": "ויקולון",
+        "en": "saying",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "נמצ'י נד'בח לרבנא",
+        "en": "Let us go offer sacrifice to our Lord",
+        "he": "נֵלְכָה נִזְבְּחָה לֵאלֹהֵינוּ"
+      }
+    ],
+    "9": [
+      {
+        "ja": "ית'קל אלעמל",
+        "en": "Let the labor be heavy",
+        "he": "תִּכְבַּד הָעֲבֹדָה"
+      },
+      {
+        "ja": "עלי' אלקום",
+        "en": "upon the people",
+        "he": "עַל-הָאֲנָשִׁים"
+      },
+      {
+        "ja": "וישתג'לון. בה",
+        "en": "and let them be occupied with it",
+        "he": "וְיַעֲשׂוּ-בָהּ"
+      },
+      {
+        "ja": "ולא ישתג'לון באמור באטלה",
+        "en": "and let them not be occupied with vain matters",
+        "he": "וְאַל-יִשְׁעוּ בְּדִבְרֵי-שָׁקֶר"
+      }
+    ],
+    "10": [
+      {
+        "ja": "פכרגו. גלאוזה' אלקום",
+        "en": "And the taskmasters of the people went out",
+        "he": "וַיֵּצְאוּ נֹגְשֵׂי הָעָם"
+      },
+      {
+        "ja": "וערפאהם",
+        "en": "and their overseers",
+        "he": "וְשֹׁטְרָיו"
+      },
+      {
+        "ja": "וקאלו להם",
+        "en": "and said to them",
+        "he": "וַיֹּאמְרוּ אֶל-הָעָם לֵאמֹר"
+      },
+      {
+        "ja": "כד'א קאל פרעון",
+        "en": "Thus says Pharaoh",
+        "he": "כֹּה אָמַר פַּרְעֹה"
+      },
+      {
+        "ja": "ליס אעטיכם תבנא",
+        "en": "I am giving you no straw",
+        "he": "אֵינֶנִּי נֹתֵן לָכֶם תֶּבֶן"
+      }
+    ],
+    "11": [
+      {
+        "ja": "אנתם",
+        "en": "You",
+        "he": "אַתֶּם"
+      },
+      {
+        "ja": "אמצ'ו",
+        "en": "go",
+        "he": "לְכוּ"
+      },
+      {
+        "ja": "כ'ד'ו לכם תבנא",
+        "en": "take straw for yourselves",
+        "he": "קְחוּ לָכֶם תֶּבֶן"
+      },
+      {
+        "ja": "מן חית'. תגדו",
+        "en": "from where you can find it",
+        "he": "מֵאֲשֶׁר תִּמְצָאוּ"
+      },
+      {
+        "ja": "ואעלמו",
+        "en": "And know that"
+      },
+      {
+        "ja": "אנה ליס ינקץ מן עמלכם שייא",
+        "en": "there shall be nothing reduced from your work",
+        "he": "כִּי אֵין נִגְרָע מֵעֲבֹדַתְכֶם דָּבָר"
+      }
+    ],
+    "12": [
+      {
+        "ja": "פתבדד אלקום",
+        "en": "And the people scattered",
+        "he": "וַיָּפֶץ הָעָם"
+      },
+      {
+        "ja": "פי גמיע בלד מצר",
+        "en": "throughout all the land of Egypt",
+        "he": "בְּכָל-אֶרֶץ מִצְרָיִם"
+      },
+      {
+        "ja": "ליקמשו קשא לאלתבן",
+        "en": "to gather stubble for straw",
+        "he": "לְקֹשֵׁשׁ קַשׁ לַתֶּבֶן"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ואלגלאוזה מלחון",
+        "en": "And the taskmasters pressed [them]",
+        "he": "וְהַנֹּגְשִׂים אָצִים"
+      },
+      {
+        "ja": "קאילין",
+        "en": "saying",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "כמלו עמלכם",
+        "en": "Finish your work",
+        "he": "כַּלּוּ מַעֲשֵׂיכֶם"
+      },
+      {
+        "ja": "אמר יום ביום",
+        "en": "the matter of each day, on its day",
+        "he": "דְּבַר-יוֹם בְּיוֹמוֹ"
+      },
+      {
+        "ja": "כמא כאן פי וקת אעטא אלתבן",
+        "en": "just as it was when straw was given",
+        "he": "כַּאֲשֶׁר בִּהְיוֹת הַתֶּבֶן"
+      }
+    ],
+    "14": [
+      {
+        "ja": "פצ'רב ערפא בני אסראיל. אלד'י ולאהם עליהם. גלאוזה' פרעון",
+        "en": "And the overseers of the sons of Israel — whom Pharaoh's taskmasters had set over them — they beat",
+        "he": "וַיֻּכּוּ שֹׁטְרֵי בְּנֵי יִשְׂרָאֵל אֲשֶׁר-שָׂמוּ עֲלֵהֶם נֹגְשֵׂי פַרְעֹה"
+      },
+      {
+        "ja": "וקאלו להם",
+        "en": "and said to them",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "מא באלכם",
+        "en": "What is the matter with you",
+        "he": "מַדּוּעַ"
+      },
+      {
+        "ja": "לם תכמלו צ'ראיבכם",
+        "en": "that you have not finished your quotas",
+        "he": "לֹא כִלִּיתֶם חָקְכֶם"
+      },
+      {
+        "ja": "אן תלבנון אללבן",
+        "en": "to mold bricks",
+        "he": "לִלְבֹּן"
+      },
+      {
+        "ja": "מת'ל אמס ומא קבלה",
+        "en": "as yesterday and before",
+        "he": "כִּתְמוֹל שִׁלְשֹׁם"
+      },
+      {
+        "ja": "אמס ואליום",
+        "en": "both yesterday and today",
+        "he": "גַּם-תְּמוֹל גַּם-הַיּוֹם"
+      }
+    ],
+    "15": [
+      {
+        "ja": "פגאו ערפא בני אסראיל",
+        "en": "And the overseers of the sons of Israel came",
+        "he": "וַיָּבֹאוּ שֹׁטְרֵי בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ואסתג'אתו אלי' פרעון",
+        "en": "and cried out to Pharaoh",
+        "he": "וַיִּצְעֲקוּ אֶל-פַּרְעֹה"
+      },
+      {
+        "ja": "קאילין",
+        "en": "saying",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "לם תצנע כד'א עבידך",
+        "en": "Why do you act thus toward your servants",
+        "he": "לָמָּה תַעֲשֶׂה כֹה לַעֲבָדֶיךָ"
+      }
+    ],
+    "16": [
+      {
+        "ja": "תבן לם ידפע לעבידך",
+        "en": "No straw is supplied to your servants",
+        "he": "תֶּבֶן אֵין נִתָּן לַעֲבָדֶיךָ"
+      },
+      {
+        "ja": "ויקולון לנא אצ'רבו לבנא",
+        "en": "yet they are saying to us: Make bricks",
+        "he": "וּלְבֵנִים אֹמְרִים לָנוּ עֲשׂוּ"
+      },
+      {
+        "ja": "והוד'א עבידך. מצ'רובין",
+        "en": "And behold, your servants are beaten",
+        "he": "וְהִנֵּה עֲבָדֶיךָ מֻכִּים"
+      },
+      {
+        "ja": "ממא יכ'טי עליהם קומך",
+        "en": "because your people sin against them",
+        "he": "וְחָטָאת עַמֶּךָ"
+      }
+    ],
+    "17": [
+      {
+        "ja": "קאל",
+        "en": "He said",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "אנתם מרפהון",
+        "en": "You are idle, idle",
+        "he": "נִרְפִּים אַתֶּם נִרְפִּים"
+      },
+      {
+        "ja": "לד'אלך תקולון",
+        "en": "therefore you say",
+        "he": "עַל-כֵּן אַתֶּם אֹמְרִים"
+      },
+      {
+        "ja": "נמצ'י נד'בח לרבנא",
+        "en": "Let us go and offer sacrifice to our Lord",
+        "he": "נֵלְכָה נִזְבְּחָה לַיהוָה"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ואלאן",
+        "en": "And now",
+        "he": "וְעַתָּה"
+      },
+      {
+        "ja": "אמצ'ו",
+        "en": "go",
+        "he": "לְכוּ"
+      },
+      {
+        "ja": "אעמלו",
+        "en": "labor",
+        "he": "עִבְדוּ"
+      },
+      {
+        "ja": "ותבן לא יטלק לכם",
+        "en": "and no straw shall be given to you",
+        "he": "וְתֶבֶן לֹא-יִנָּתֵן לָכֶם"
+      },
+      {
+        "ja": "וצ'ראיבכם תופון",
+        "en": "and your quotas you shall complete",
+        "he": "וְתֹכֶן לְבֵנִים תִּתֵּנוּ"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ונצ'ר ערפא בני אסראיל",
+        "en": "And the overseers of the sons of Israel saw",
+        "he": "וַיִּרְאוּ שֹׁטְרֵי בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "בשר",
+        "en": "[themselves] in evil",
+        "he": "אֹתָם--בְּרָע"
+      },
+      {
+        "ja": "קאילין",
+        "en": "saying",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "לא תנקצו מן לבנכם",
+        "en": "You shall not reduce from your bricks",
+        "he": "לֹא-תִגְרְעוּ מִלִּבְנֵיכֶם"
+      },
+      {
+        "ja": "אמר יום ביום",
+        "en": "the matter of each day, on its day",
+        "he": "דְּבַר-יוֹם בְּיוֹמוֹ"
+      }
+    ],
+    "20": [
+      {
+        "ja": "פפאגו מוסי' והרון",
+        "en": "And they encountered Moses and Aaron",
+        "he": "וַיִּפְגְּעוּ אֶת-מֹשֶׁה וְאֶת-אַהֲרֹן"
+      },
+      {
+        "ja": "ואקפין תלקאהם",
+        "en": "standing to meet them",
+        "he": "נִצָּבִים לִקְרָאתָם"
+      },
+      {
+        "ja": "ענד כ'רוגהם מן ענד פרעון",
+        "en": "at their coming out from before Pharaoh",
+        "he": "בְּצֵאתָם מֵאֵת פַּרְעֹה"
+      }
+    ],
+    "21": [
+      {
+        "ja": "פקאלו להמא",
+        "en": "And they said to them",
+        "he": "וַיֹּאמְרוּ אֲלֵהֶם"
+      },
+      {
+        "ja": "ינצ'ר אללה עליכם",
+        "en": "May God look upon you",
+        "he": "יֵרֶא יְהוָה עֲלֵיכֶם"
+      },
+      {
+        "ja": "ויחכם",
+        "en": "and judge",
+        "he": "וְיִשְׁפֹּט"
+      },
+      {
+        "ja": "כמא אפסדתמא חאלנא",
+        "en": "for you have ruined our condition",
+        "he": "אֲשֶׁר הִבְאַשְׁתֶּם אֶת-רֵיחֵנוּ"
+      },
+      {
+        "ja": "ענד פרעון",
+        "en": "before Pharaoh",
+        "he": "בְּעֵינֵי פַרְעֹה"
+      },
+      {
+        "ja": "וענד קואדה",
+        "en": "and before his officers",
+        "he": "וּבְעֵינֵי עֲבָדָיו"
+      },
+      {
+        "ja": "חתא לו אן סיפא פי אידיהם",
+        "en": "so that, were a sword in their hands",
+        "he": "לָתֶת-חֶרֶב בְּיָדָם"
+      },
+      {
+        "ja": "לקתלונא",
+        "en": "they would kill us",
+        "he": "לְהָרְגֵנוּ"
+      }
+    ],
+    "22": [
+      {
+        "ja": "פרגע מוסי'. אלי' אללה",
+        "en": "And Moses returned to God",
+        "he": "וַיָּשָׁב מֹשֶׁה אֶל-יְהוָה"
+      },
+      {
+        "ja": "וקאל",
+        "en": "and said",
+        "he": "וַיֹּאמַר"
+      },
+      {
+        "ja": "יא רבי",
+        "en": "O my Lord",
+        "he": "אֲדֹנָי"
+      },
+      {
+        "ja": "לם אבלית הולאי אלקום",
+        "en": "why have You brought trial upon this people",
+        "he": "לָמָה הֲרֵעֹתָה לָעָם הַזֶּה"
+      },
+      {
+        "ja": "ולמא ד'א בעת'ת בי",
+        "en": "And to what end have You sent me",
+        "he": "לָמָּה זֶּה שְׁלַחְתָּנִי"
+      }
+    ],
+    "23": [
+      {
+        "ja": "ומן חין דכ'לת אלי' פרעון",
+        "en": "For from the time I went in to Pharaoh",
+        "he": "וּמֵאָז בָּאתִי אֶל-פַּרְעֹה"
+      },
+      {
+        "ja": "אכ'אטבה באסמך",
+        "en": "to speak with him in Your name",
+        "he": "לְדַבֵּר בִּשְׁמֶךָ"
+      },
+      {
+        "ja": "אסא אליהם",
+        "en": "he has dealt evil with them",
+        "he": "הֵרַע לָעָם הַזֶּה"
+      },
+      {
+        "ja": "ולם תכ'לצהם מן ד'אלך",
+        "en": "and You have not rescued them from this",
+        "he": "וְהַצֵּל לֹא-הִצַּלְתָּ אֶת-עַמֶּךָ"
+      }
+    ]
+  }
+}

@@ -1,0 +1,921 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 4. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_4.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "פאגאב מוסי",
+        "en": "And Moses replied",
+        "he": "וַיַּעַן מֹשֶׁה"
+      },
+      {
+        "ja": "וקאל",
+        "en": "and said",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "לעלהם לא יומנון בי",
+        "en": "Perhaps they will not believe me",
+        "he": "וְהֵן לֹא-יַאֲמִינוּ לִי"
+      },
+      {
+        "ja": "ולא יקבלון מני",
+        "en": "and will not accept from me",
+        "he": "וְלֹא יִשְׁמְעוּ בְּקֹלִי"
+      },
+      {
+        "ja": "בל יקולו",
+        "en": "rather they will say",
+        "he": "כִּי יֹאמְרוּ"
+      },
+      {
+        "ja": "לם תגלא לך אללה",
+        "en": "God did not appear to you",
+        "he": "לֹא-נִרְאָה אֵלֶיךָ יְהוָה"
+      }
+    ],
+    "2": [
+      {
+        "ja": "פקאל לה אללה",
+        "en": "And God said to him",
+        "he": "וַיֹּאמֶר אֵלָיו יְהוָה"
+      },
+      {
+        "ja": "מנבהא",
+        "en": "prompting him"
+      },
+      {
+        "ja": "מא ד'א",
+        "en": "What is this",
+        "he": "מַה-זֶּה"
+      },
+      {
+        "ja": "בידך",
+        "en": "in your hand",
+        "he": "בְיָדֶךָ"
+      },
+      {
+        "ja": "קאל",
+        "en": "He said",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "עצא",
+        "en": "A staff",
+        "he": "מַטֶּה"
+      }
+    ],
+    "3": [
+      {
+        "ja": "קאל",
+        "en": "He said",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "אטרחהא עלי' אלארץ'",
+        "en": "Throw it upon the ground",
+        "he": "הַשְׁלִיכֵהוּ אַרְצָה"
+      },
+      {
+        "ja": "פטרחהא",
+        "en": "And he threw it",
+        "he": "וַיַּשְׁלִכֵהוּ אַרְצָה"
+      },
+      {
+        "ja": "וצארת ת'עבאנא",
+        "en": "and it became a serpent",
+        "he": "וַיְהִי לְנָחָשׁ"
+      },
+      {
+        "ja": "פהרב מוסי'",
+        "en": "and Moses fled",
+        "he": "וַיָּנָס מֹשֶׁה"
+      },
+      {
+        "ja": "מן בין ידיה",
+        "en": "from before it",
+        "he": "מִפָּנָיו"
+      }
+    ],
+    "4": [
+      {
+        "ja": "קאל אללה לה",
+        "en": "God said to him",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "מד ידך",
+        "en": "Stretch out your hand",
+        "he": "שְׁלַח יָדְךָ"
+      },
+      {
+        "ja": "ואמסך ד'נבה",
+        "en": "and seize its tail",
+        "he": "וֶאֱחֹז בִּזְנָבוֹ"
+      },
+      {
+        "ja": "פמד ידה",
+        "en": "And he stretched out his hand",
+        "he": "וַיִּשְׁלַח יָדוֹ"
+      },
+      {
+        "ja": "ואמסכה",
+        "en": "and seized it",
+        "he": "וַיַּחֲזֶק בּוֹ"
+      },
+      {
+        "ja": "פצאר עצאא",
+        "en": "and it became a staff",
+        "he": "וַיְהִי לְמַטֶּה"
+      },
+      {
+        "ja": "פי ידה",
+        "en": "in his hand",
+        "he": "בְּכַפּוֹ"
+      }
+    ],
+    "5": [
+      {
+        "ja": "לכי יומנון",
+        "en": "So that they may believe",
+        "he": "לְמַעַן יַאֲמִינוּ"
+      },
+      {
+        "ja": "אן קד תגלא לך. אללה אלאה אבאיהם. אלאה אברהים יצחק ויעקוב",
+        "en": "that God — the God of their fathers, the God of Abraham, Isaac, and Jacob — has appeared to you",
+        "he": "כִּי-נִרְאָה אֵלֶיךָ יְהוָה אֱלֹהֵי אֲבֹתָם אֱלֹהֵי אַבְרָהָם אֱלֹהֵי יִצְחָק וֵאלֹהֵי יַעֲקֹב"
+      }
+    ],
+    "6": [
+      {
+        "ja": "וקאל לה איצ'א",
+        "en": "And He said to him further",
+        "he": "וַיֹּאמֶר יְהוָה לוֹ עוֹד"
+      },
+      {
+        "ja": "אדכ'ל ידך",
+        "en": "Put your hand",
+        "he": "הָבֵא-נָא יָדְךָ"
+      },
+      {
+        "ja": "אלי' כמך",
+        "en": "into your bosom",
+        "he": "בְּחֵיקֶךָ"
+      },
+      {
+        "ja": "פאדכ'להא",
+        "en": "And he put it in",
+        "he": "וַיָּבֵא יָדוֹ בְּחֵיקוֹ"
+      },
+      {
+        "ja": "ת'ם אכ'רגהא",
+        "en": "then he brought it out",
+        "he": "וַיּוֹצִאָהּ"
+      },
+      {
+        "ja": "פאד'א בהא ביצ'א",
+        "en": "and behold, it was white",
+        "he": "וְהִנֵּה יָדוֹ מְצֹרַעַת"
+      },
+      {
+        "ja": "כאלת'לג",
+        "en": "as snow",
+        "he": "כַּשָּׁלֶג"
+      }
+    ],
+    "7": [
+      {
+        "ja": "פקאל",
+        "en": "And He said",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "ארדד ידך",
+        "en": "Return your hand",
+        "he": "הָשֵׁב יָדְךָ"
+      },
+      {
+        "ja": "אלי' כמך",
+        "en": "to your bosom",
+        "he": "אֶל-חֵיקֶךָ"
+      },
+      {
+        "ja": "פארדדהא",
+        "en": "And he returned it",
+        "he": "וַיָּשֶׁב יָדוֹ אֶל-חֵיקוֹ"
+      },
+      {
+        "ja": "ת'ם אכ'רגהא",
+        "en": "then he brought it out",
+        "he": "וַיּוֹצִאָהּ מֵחֵיקוֹ"
+      },
+      {
+        "ja": "וקד עאדת כסאיר בדנה",
+        "en": "and it had returned [to be] like the rest of his body",
+        "he": "וְהִנֵּה-שָׁבָה כִּבְשָׂרוֹ"
+      }
+    ],
+    "8": [
+      {
+        "ja": "פאן לם יומנון בך",
+        "en": "And if they will not believe you",
+        "he": "וְהָיָה אִם-לֹא יַאֲמִינוּ לָךְ"
+      },
+      {
+        "ja": "ולא יקבלון אלאיה אלאולי'",
+        "en": "and will not accept the first sign",
+        "he": "וְלֹא יִשְׁמְעוּ לְקֹל הָאֹת הָרִאשׁוֹן"
+      },
+      {
+        "ja": "פיומנון באלאיה אלת'אניה",
+        "en": "then they will believe the second sign",
+        "he": "וְהֶאֱמִינוּ לְקֹל הָאֹת הָאַחֲרוֹן"
+      }
+    ],
+    "9": [
+      {
+        "ja": "פאן לם יומנון",
+        "en": "And if they will not believe",
+        "he": "וְהָיָה אִם-לֹא יַאֲמִינוּ"
+      },
+      {
+        "ja": "בהאתין אלאיתין",
+        "en": "these two signs",
+        "he": "גַּם לִשְׁנֵי הָאֹתוֹת הָאֵלֶּה"
+      },
+      {
+        "ja": "ולם יקבלון מנך",
+        "en": "and will not accept from you",
+        "he": "וְלֹא יִשְׁמְעוּן לְקֹלֶךָ"
+      },
+      {
+        "ja": "פכ'ד'",
+        "en": "then take",
+        "he": "וְלָקַחְתָּ"
+      },
+      {
+        "ja": "מן מא אלניל",
+        "en": "from the water of the Nile",
+        "he": "מִמֵּימֵי הַיְאֹר"
+      },
+      {
+        "ja": "ואצבבה עלי' אליבאס",
+        "en": "and pour it upon the dry ground",
+        "he": "וְשָׁפַכְתָּ הַיַּבָּשָׁה"
+      },
+      {
+        "ja": "פאנה ינקלב",
+        "en": "and it shall change",
+        "he": "וְהָיוּ הַמַּיִם אֲשֶׁר תִּקַּח מִן-הַיְאֹר"
+      },
+      {
+        "ja": "ויציר דמא פי אליבאס",
+        "en": "and shall become blood upon the dry ground",
+        "he": "וְהָיוּ לְדָם בַּיַּבָּשֶׁת"
+      }
+    ],
+    "10": [
+      {
+        "ja": "פקאל מוסי' לרבה",
+        "en": "And Moses said to his Lord",
+        "he": "וַיֹּאמֶר מֹשֶׁה אֶל-יְהוָה"
+      },
+      {
+        "ja": "יא רבי",
+        "en": "O my Lord",
+        "he": "בִּי אֲדֹנָי"
+      },
+      {
+        "ja": "ליס אנא ד'ו נטק",
+        "en": "I am not a man of speech",
+        "he": "לֹא אִישׁ דְּבָרִים אָנֹכִי"
+      },
+      {
+        "ja": "מן אמס ומא קבלה",
+        "en": "neither from yesterday and before",
+        "he": "גַּם מִתְּמוֹל גַּם מִשִּׁלְשֹׁם"
+      },
+      {
+        "ja": "ולא מן חין כ'אטבת עבדך",
+        "en": "nor from the time You spoke to Your servant",
+        "he": "גַּם מֵאָז דַּבֶּרְךָ אֶל-עַבְדֶּךָ"
+      },
+      {
+        "ja": "אני ת'קיל אלפם ואלסאן גמיעא",
+        "en": "for I am heavy of mouth and of tongue together",
+        "he": "כִּי כְבַד-פֶּה וּכְבַד לָשׁוֹן אָנֹכִי"
+      }
+    ],
+    "11": [
+      {
+        "ja": "קאל אללה לה",
+        "en": "God said to him",
+        "he": "וַיֹּאמֶר יְהוָה אֵלָיו"
+      },
+      {
+        "ja": "מן כ'לק נטק לאלאנסאן",
+        "en": "Who made speech for the human",
+        "he": "מִי שָׂם פֶּה לָאָדָם"
+      },
+      {
+        "ja": "או מן יכ'לק",
+        "en": "Or who makes",
+        "he": "אוֹ מִי-יָשׂוּם"
+      },
+      {
+        "ja": "אלאכ'רס",
+        "en": "the mute",
+        "he": "אִלֵּם"
+      },
+      {
+        "ja": "או אלאצם",
+        "en": "or the deaf",
+        "he": "אוֹ חֵרֵשׁ"
+      },
+      {
+        "ja": "או אלבציר",
+        "en": "or the seeing",
+        "he": "אוֹ פִקֵּחַ"
+      },
+      {
+        "ja": "או אלאעמא",
+        "en": "or the blind",
+        "he": "אוֹ עִוֵּר"
+      },
+      {
+        "ja": "אליס אנא אללה",
+        "en": "Is it not I, God",
+        "he": "הֲלֹא אָנֹכִי יְהוָה"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ואלאן אמץ'",
+        "en": "And now, go",
+        "he": "וְעַתָּה לֵךְ"
+      },
+      {
+        "ja": "ואנא אכון מע קולך",
+        "en": "and I shall be with your speech",
+        "he": "וְאָנֹכִי אֶהְיֶה עִם-פִּיךָ"
+      },
+      {
+        "ja": "ואדלך",
+        "en": "and shall direct you",
+        "he": "וְהוֹרֵיתִיךָ"
+      },
+      {
+        "ja": "עלי' מא תתכלם בה",
+        "en": "in what you shall say",
+        "he": "אֲשֶׁר תְּדַבֵּר"
+      }
+    ],
+    "13": [
+      {
+        "ja": "קאל",
+        "en": "He said",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "יא רבי",
+        "en": "O my Lord",
+        "he": "בִּי אֲדֹנָי"
+      },
+      {
+        "ja": "אבעת'",
+        "en": "send",
+        "he": "שְׁלַח-נָא"
+      },
+      {
+        "ja": "במן אנת באעת'ה",
+        "en": "by whomever You will send",
+        "he": "בְּיַד-תִּשְׁלָח"
+      }
+    ],
+    "14": [
+      {
+        "ja": "פאשתד וגד אללה עליה",
+        "en": "And God was greatly angered with him",
+        "he": "וַיִּחַר-אַף יְהוָה בְּמֹשֶׁה"
+      },
+      {
+        "ja": "וקאל",
+        "en": "and said",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "אליס הרון אכ'יך אלליואני",
+        "en": "Is not Aaron your brother the Levite",
+        "he": "הֲלֹא אַהֲרֹן אָחִיךָ הַלֵּוִי"
+      },
+      {
+        "ja": "אנא אעלם",
+        "en": "I know",
+        "he": "יָדַעְתִּי"
+      },
+      {
+        "ja": "באנה מתכלם",
+        "en": "that he is a speaker",
+        "he": "כִּי-דַבֵּר יְדַבֵּר הוּא"
+      },
+      {
+        "ja": "והוד'א הו",
+        "en": "and behold, he",
+        "he": "וְגַם הִנֵּה-הוּא"
+      },
+      {
+        "ja": "יכ'רג תלקאך",
+        "en": "is going out to meet you",
+        "he": "יֹצֵא לִקְרָאתֶךָ"
+      },
+      {
+        "ja": "פינצ'ר אליך",
+        "en": "and he will see you",
+        "he": "וְרָאֲךָ"
+      },
+      {
+        "ja": "ויסר פי קלבה",
+        "en": "and rejoice in his heart",
+        "he": "וְשָׂמַח בְּלִבּוֹ"
+      }
+    ],
+    "15": [
+      {
+        "ja": "פכלמה",
+        "en": "And you shall speak to him",
+        "he": "וְדִבַּרְתָּ אֵלָיו"
+      },
+      {
+        "ja": "וצייר אלכלאם פי פאה",
+        "en": "and shall set the words in his mouth",
+        "he": "וְשַׂמְתָּ אֶת-הַדְּבָרִים בְּפִיו"
+      },
+      {
+        "ja": "ואנא אכון מע קולך",
+        "en": "and I shall be with your speech",
+        "he": "וְאָנֹכִי אֶהְיֶה עִם-פִּיךָ"
+      },
+      {
+        "ja": "וקולה",
+        "en": "and with his speech",
+        "he": "וְעִם-פִּיהוּ"
+      },
+      {
+        "ja": "ואדלכם",
+        "en": "and shall direct you",
+        "he": "וְהוֹרֵיתִי אֶתְכֶם"
+      },
+      {
+        "ja": "עלי' מא תצנעון",
+        "en": "in what you shall do",
+        "he": "אֵת אֲשֶׁר תַּעֲשׂוּן"
+      }
+    ],
+    "16": [
+      {
+        "ja": "פיכלם הו לך",
+        "en": "And he shall speak for you",
+        "he": "וְדִבֶּר-הוּא לְךָ"
+      },
+      {
+        "ja": "אלקום",
+        "en": "to the people",
+        "he": "אֶל-הָעָם"
+      },
+      {
+        "ja": "ויכון לך תרגמאנא",
+        "en": "and he shall be to you a spokesman",
+        "he": "וְהָיָה הוּא יִהְיֶה-לְּךָ לְפֶה"
+      },
+      {
+        "ja": "ואנת תכון לה אסתאדא",
+        "en": "and you shall be to him a master",
+        "he": "וְאַתָּה תִּהְיֶה-לּוֹ לֵאלֹהִים"
+      }
+    ],
+    "17": [
+      {
+        "ja": "וכד' הד'ה אלעצא",
+        "en": "And take this staff",
+        "he": "וְאֶת-הַמַּטֶּה הַזֶּה תִּקַּח"
+      },
+      {
+        "ja": "פי ידך",
+        "en": "in your hand",
+        "he": "בְּיָדֶךָ"
+      },
+      {
+        "ja": "תצנע בהא אלמעגזאת",
+        "en": "you shall perform the wonders by it",
+        "he": "אֲשֶׁר תַּעֲשֶׂה-בּוֹ אֶת-הָאֹתֹת"
+      }
+    ],
+    "18": [
+      {
+        "ja": "פמצ'א מוסי",
+        "en": "And Moses went",
+        "he": "וַיֵּלֶךְ מֹשֶׁה"
+      },
+      {
+        "ja": "ורגע אלי' יתר חמוה",
+        "en": "and returned to Jether his father-in-law",
+        "he": "וַיָּשָׁב אֶל-יֶתֶר חֹתְנוֹ"
+      },
+      {
+        "ja": "וקאל לה",
+        "en": "and said to him",
+        "he": "וַיֹּאמֶר לוֹ"
+      },
+      {
+        "ja": "אמצ'י וארגע",
+        "en": "Let me go and return",
+        "he": "אֵלְכָה נָּא וְאָשׁוּבָה"
+      },
+      {
+        "ja": "אלי' אכ'ותי אלד'ין במצר",
+        "en": "to my brothers who are in Egypt",
+        "he": "אֶל-אַחַי אֲשֶׁר-בְּמִצְרַיִם"
+      },
+      {
+        "ja": "ואנצ'ר הל הם באקון",
+        "en": "and see whether they are still surviving",
+        "he": "וְאֶרְאֶה הַעוֹדָם חַיִּים"
+      },
+      {
+        "ja": "קאל לה יתרו",
+        "en": "Jethro said to him",
+        "he": "וַיֹּאמֶר יִתְרוֹ לְמֹשֶׁה"
+      },
+      {
+        "ja": "אמץ' בסלאם",
+        "en": "Go in peace",
+        "he": "לֵךְ לְשָׁלוֹם"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ת'ם קאל אללה למוסי במדין",
+        "en": "Then God said to Moses in Midian",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה בְּמִדְיָן"
+      },
+      {
+        "ja": "אמץ' ארגע אלי' מצר",
+        "en": "Go, return to Egypt",
+        "he": "לֵךְ שֻׁב מִצְרָיִם"
+      },
+      {
+        "ja": "פאן קד מאת גמיע אלקום. אלטאלבין קתלך",
+        "en": "for all the men who sought to kill you have died",
+        "he": "כִּי-מֵתוּ כָּל-הָאֲנָשִׁים הַמְבַקְשִׁים אֶת-נַפְשֶׁךָ"
+      }
+    ],
+    "20": [
+      {
+        "ja": "פאכ'ד' מ'וסי'",
+        "en": "And Moses took",
+        "he": "וַיִּקַּח מֹשֶׁה"
+      },
+      {
+        "ja": "זוגתה",
+        "en": "his wife",
+        "he": "אֶת-אִשְׁתּוֹ"
+      },
+      {
+        "ja": "וולדיה",
+        "en": "and his sons",
+        "he": "וְאֶת-בָּנָיו"
+      },
+      {
+        "ja": "וארכבהם עלי' חמיר",
+        "en": "and set them upon donkeys",
+        "he": "וַיַּרְכִּבֵם עַל-הַחֲמֹר"
+      },
+      {
+        "ja": "ובעת' בהם",
+        "en": "and led them"
+      },
+      {
+        "ja": "ורגע אלי' בלד מצר",
+        "en": "and he returned to the land of Egypt",
+        "he": "וַיָּשָׁב אַרְצָה מִצְרָיִם"
+      },
+      {
+        "ja": "ואכ'ד' אלעצא אלתי אמרה אללה בהא",
+        "en": "And he took the staff which God had commanded him with",
+        "he": "וַיִּקַּח מֹשֶׁה אֶת-מַטֵּה הָאֱלֹהִים"
+      },
+      {
+        "ja": "פי ידה",
+        "en": "in his hand",
+        "he": "בְּיָדוֹ"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ת'ם קאל אללה לה",
+        "en": "Then God said to him",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "פי מצ'ייך",
+        "en": "In your going",
+        "he": "בְּלֶכְתְּךָ"
+      },
+      {
+        "ja": "לתרגע אלי' מצר",
+        "en": "to return to Egypt",
+        "he": "לָשׁוּב מִצְרַיְמָה"
+      },
+      {
+        "ja": "אנצ'ר",
+        "en": "see",
+        "he": "רְאֵה"
+      },
+      {
+        "ja": "גמיע אלבראהין",
+        "en": "all the proofs",
+        "he": "כָּל-הַמֹּפְתִים"
+      },
+      {
+        "ja": "אלתי ציירתהא פי ידך",
+        "en": "which I have set in your hand",
+        "he": "אֲשֶׁר-שַׂמְתִּי בְיָדֶךָ"
+      },
+      {
+        "ja": "אצנעהא בין ידי פרעון",
+        "en": "perform them before Pharaoh",
+        "he": "וַעֲשִׂיתָם לִפְנֵי פַרְעֹה"
+      },
+      {
+        "ja": "ואנא אשדד קלבה",
+        "en": "And I shall harden his heart",
+        "he": "וַאֲנִי אֲחַזֵּק אֶת-לִבּוֹ"
+      },
+      {
+        "ja": "ולא יטלק אלקום",
+        "en": "and he shall not let the people go",
+        "he": "וְלֹא יְשַׁלַּח אֶת-הָעָם"
+      }
+    ],
+    "22": [
+      {
+        "ja": "וקל לה",
+        "en": "And say to him",
+        "he": "וְאָמַרְתָּ אֶל-פַּרְעֹה"
+      },
+      {
+        "ja": "כד'א קאל אללה",
+        "en": "Thus says God",
+        "he": "כֹּה אָמַר יְהוָה"
+      },
+      {
+        "ja": "משרפא",
+        "en": "in honor"
+      },
+      {
+        "ja": "אבני בכרי אסראיל",
+        "en": "Israel is My son, My firstborn",
+        "he": "בְּנִי בְכֹרִי יִשְׂרָאֵל"
+      }
+    ],
+    "23": [
+      {
+        "ja": "פק'לת לך",
+        "en": "And I have said to you",
+        "he": "וָאֹמַר אֵלֶיךָ"
+      },
+      {
+        "ja": "אטלק אבני",
+        "en": "Let My son go",
+        "he": "שַׁלַּח אֶת-בְּנִי"
+      },
+      {
+        "ja": "יעבדני",
+        "en": "that he may worship Me",
+        "he": "וְיַעַבְדֵנִי"
+      },
+      {
+        "ja": "פאן אבית אן תטלקה",
+        "en": "And if you refuse to let him go",
+        "he": "וַתְּמָאֵן לְשַׁלְּחוֹ"
+      },
+      {
+        "ja": "האנא קאתל",
+        "en": "behold, I am about to kill",
+        "he": "הִנֵּה אָנֹכִי הֹרֵג"
+      },
+      {
+        "ja": "אבנך בכרך",
+        "en": "your son, your firstborn",
+        "he": "אֶת-בִּנְךָ בְּכֹרֶךָ"
+      }
+    ],
+    "24": [
+      {
+        "ja": "ולמא כאן באלטריק",
+        "en": "And it was on the way",
+        "he": "וַיְהִי בַדֶּרֶךְ"
+      },
+      {
+        "ja": "פי אלמבית",
+        "en": "at the lodging-place",
+        "he": "בַּמָּלוֹן"
+      },
+      {
+        "ja": "פאגא ולדה מלך אללה",
+        "en": "the angel of God came suddenly upon his son",
+        "he": "וַיִּפְגְּשֵׁהוּ יְהוָה"
+      },
+      {
+        "ja": "פטלב קתלה",
+        "en": "and sought to kill him",
+        "he": "וַיְבַקֵּשׁ הֲמִיתוֹ"
+      }
+    ],
+    "25": [
+      {
+        "ja": "פאכ'ד'ת צפורה צואנא",
+        "en": "And Zipporah took a flint",
+        "he": "וַתִּקַּח צִפֹּרָה צֹר"
+      },
+      {
+        "ja": "וקטעת קלפה' אבנהא",
+        "en": "and cut off the foreskin of her son",
+        "he": "וַתִּכְרֹת אֶת-עָרְלַת בְּנָהּ"
+      },
+      {
+        "ja": "וקדמתה בין ידי",
+        "en": "and presented it before [him]",
+        "he": "וַתַּגַּע לְרַגְלָיו"
+      },
+      {
+        "ja": "וקאלת",
+        "en": "and she said",
+        "he": "וַתֹּאמֶר"
+      },
+      {
+        "ja": "כאד אלערוס אן יכון מקתולא",
+        "en": "The bridegroom was about to be killed",
+        "he": "כִּי חֲתַן-דָּמִים אַתָּה לִי"
+      }
+    ],
+    "26": [
+      {
+        "ja": "פכף ענה",
+        "en": "And He desisted from him",
+        "he": "וַיִּרֶף מִמֶּנּוּ"
+      },
+      {
+        "ja": "חיניד' קאלת",
+        "en": "At that time she said",
+        "he": "אָז אָמְרָה"
+      },
+      {
+        "ja": "צאר אלערוס אלמקתול מכ'תונא",
+        "en": "The bridegroom marked for death has become circumcised",
+        "he": "חֲתַן דָּמִים לַמּוּלֹת"
+      }
+    ],
+    "27": [
+      {
+        "ja": "פקאל אללה להרון",
+        "en": "And God said to Aaron",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "אמץ' תלקא מוסי'",
+        "en": "Go to meet Moses",
+        "he": "לֵךְ לִקְרַאת מֹשֶׁה"
+      },
+      {
+        "ja": "אלי' אלבר",
+        "en": "into the wilderness",
+        "he": "הַמִּדְבָּרָה"
+      },
+      {
+        "ja": "פמצ'א",
+        "en": "And he went",
+        "he": "וַיֵּלֶךְ"
+      },
+      {
+        "ja": "וואפאה",
+        "en": "and met him",
+        "he": "וַיִּפְגְּשֵׁהוּ"
+      },
+      {
+        "ja": "פי גבל אללה",
+        "en": "at the mountain of God",
+        "he": "בְּהַר הָאֱלֹהִים"
+      },
+      {
+        "ja": "וקבלה",
+        "en": "and kissed him",
+        "he": "וַיִּשַּׁק-לוֹ"
+      }
+    ],
+    "28": [
+      {
+        "ja": "פאכ'ברה מוסי'",
+        "en": "And Moses informed him",
+        "he": "וַיַּגֵּד מֹשֶׁה לְאַהֲרֹן"
+      },
+      {
+        "ja": "בגמיע כלאם אללה",
+        "en": "of all the words of God",
+        "he": "אֵת כָּל-דִּבְרֵי יְהוָה"
+      },
+      {
+        "ja": "אלד'י בעת' בה",
+        "en": "which He had sent him with",
+        "he": "אֲשֶׁר שְׁלָחוֹ"
+      },
+      {
+        "ja": "וגמיע אלאיאת",
+        "en": "and all the signs",
+        "he": "וְאֵת כָּל-הָאֹתֹת"
+      },
+      {
+        "ja": "אלתי אמרה",
+        "en": "which He had commanded him",
+        "he": "אֲשֶׁר צִוָּהוּ"
+      }
+    ],
+    "29": [
+      {
+        "ja": "פמצ'א מוסי' והרון",
+        "en": "And Moses and Aaron went",
+        "he": "וַיֵּלֶךְ מֹשֶׁה וְאַהֲרֹן"
+      },
+      {
+        "ja": "וגמעא",
+        "en": "and gathered",
+        "he": "וַיַּאַסְפוּ"
+      },
+      {
+        "ja": "גמיע שיוך' בני אסראיל",
+        "en": "all the elders of the sons of Israel",
+        "he": "אֶת-כָּל-זִקְנֵי בְּנֵי יִשְׂרָאֵל"
+      }
+    ],
+    "30": [
+      {
+        "ja": "וכלמהם הרון",
+        "en": "And Aaron spoke",
+        "he": "וַיְדַבֵּר אַהֲרֹן"
+      },
+      {
+        "ja": "בגמיע אלכלאם",
+        "en": "all the words",
+        "he": "אֵת כָּל-הַדְּבָרִים"
+      },
+      {
+        "ja": "אלד'י כלם אללה מוסי'",
+        "en": "which God had spoken to Moses",
+        "he": "אֲשֶׁר-דִּבֶּר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "וצנע אלמעגזאת",
+        "en": "and performed the wonders",
+        "he": "וַיַּעַשׂ הָאֹתֹת"
+      },
+      {
+        "ja": "בחצ'רה' אלקום",
+        "en": "in the presence of the people",
+        "he": "לְעֵינֵי הָעָם"
+      }
+    ],
+    "31": [
+      {
+        "ja": "פאמן אלקום",
+        "en": "And the people believed",
+        "he": "וַיַּאֲמֵן הָעָם"
+      },
+      {
+        "ja": "אד' סמעו",
+        "en": "and when they heard",
+        "he": "וַיִּשְׁמְעוּ"
+      },
+      {
+        "ja": "אן קד ד'כר אללה בני אסראיל",
+        "en": "that God had remembered the sons of Israel",
+        "he": "כִּי-פָקַד יְהוָה אֶת-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ונצ'ר לצ'עפהם",
+        "en": "and had looked upon their affliction",
+        "he": "וְכִי רָאָה אֶת-עָנְיָם"
+      },
+      {
+        "ja": "פכ'רו",
+        "en": "they bowed down",
+        "he": "וַיִּקְּדוּ"
+      },
+      {
+        "ja": "וסגדו",
+        "en": "and prostrated themselves",
+        "he": "וַיִּשְׁתַּחֲווּ"
+      }
+    ]
+  }
+}

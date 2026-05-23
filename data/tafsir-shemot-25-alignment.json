@@ -1,0 +1,587 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 25. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_25.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ת'ם כלם אללה מוסי' תכלימא",
+        "en": "Then God spoke to Moses directly.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "2": [
+      {
+        "ja": "מר בני אסראיל",
+        "en": "Command the sons of Israel",
+        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "באן יאכ'דו לי רפיעה",
+        "en": "that they take for Me an raised-offering",
+        "he": "וְיִקְחוּ-לִי תְּרוּמָה"
+      },
+      {
+        "ja": "מן כל רגל תסכו נפסה",
+        "en": "from every man whose soul is generous",
+        "he": "מֵאֵת כָּל-אִישׁ אֲשֶׁר יִדְּבֶנּוּ לִבּוֹ"
+      },
+      {
+        "ja": "תאכ'דו רפיעתי",
+        "en": "you shall take My raised-offering.",
+        "he": "תִּקְחוּ אֶת-תְּרוּמָתִי"
+      }
+    ],
+    "3": [
+      {
+        "ja": "והד'ה אלרפיעה. אלד'י תאכ'דוהא מנהם",
+        "en": "And this is the raised-offering which you shall take from them",
+        "he": "וְזֹאת הַתְּרוּמָה אֲשֶׁר תִּקְחוּ מֵאִתָּם"
+      },
+      {
+        "ja": "ד'הב וורק ונחאס",
+        "en": "gold, and silver, and copper;",
+        "he": "זָהָב וָכֶסֶף וּנְחֹשֶׁת"
+      }
+    ],
+    "4": [
+      {
+        "ja": "ואסמאנגון וארגואן. וצבג' קרמז",
+        "en": "and blue, and purple, and scarlet dye",
+        "he": "וּתְכֵלֶת וְאַרְגָּמָן וְתוֹלַעַת שָׁנִי"
+      },
+      {
+        "ja": "ועשר ומרעזא",
+        "en": "and fine linen, and goat-hair;",
+        "he": "וְשֵׁשׁ וְעִזִּים"
+      }
+    ],
+    "5": [
+      {
+        "ja": "וגלוד כבאש אדים",
+        "en": "and the skins of tanned rams",
+        "he": "וְעֹרֹת אֵילִם מְאָדָּמִים"
+      },
+      {
+        "ja": "וגלוד דארש",
+        "en": "and the skins of tahash",
+        "he": "וְעֹרֹת תְּחָשִׁים"
+      },
+      {
+        "ja": "וכ'שב אלסנט",
+        "en": "and the wood of the acacia-tree;",
+        "he": "וַעֲצֵי שִׁטִּים"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ודהן לאלאצ'אה",
+        "en": "and oil for lighting",
+        "he": "שֶׁמֶן לַמָּאֹר"
+      },
+      {
+        "ja": "ואטיאב לדהן אלמסח",
+        "en": "and spices for the anointing oil",
+        "he": "בְּשָׂמִים לְשֶׁמֶן הַמִּשְׁחָה"
+      },
+      {
+        "ja": "ובכ'ור אלצמוג'",
+        "en": "and the incense of resins;",
+        "he": "וְלִקְטֹרֶת הַסַּמִּים"
+      }
+    ],
+    "7": [
+      {
+        "ja": "חגארה' בלור",
+        "en": "crystal stones",
+        "he": "אַבְנֵי-שֹׁהַם"
+      },
+      {
+        "ja": "וחגארה' נצ'אם. לאלצדרה ולאלבדנה",
+        "en": "and stones for setting — for the breastpiece and for the vestment.",
+        "he": "וְאַבְנֵי מִלֻּאִים לָאֵפֹד וְלַחֹשֶׁן"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ויצנעו לי מן גמיע ד'אלך מקדסא",
+        "en": "And they shall make for Me, from all of these, a sanctuary",
+        "he": "וְעָשׂוּ לִי מִקְדָּשׁ"
+      },
+      {
+        "ja": "אסכן נורי פי מא בינהם",
+        "en": "and I shall settle My light in their midst.",
+        "he": "וְשָׁכַנְתִּי בְּתוֹכָם"
+      }
+    ],
+    "9": [
+      {
+        "ja": "כגמיע מא אנא מוריך",
+        "en": "According to all that I am showing you",
+        "he": "כְּכֹל אֲשֶׁר אֲנִי מַרְאֶה אוֹתְךָ"
+      },
+      {
+        "ja": "מן שכל אלמסכן",
+        "en": "of the form of the tabernacle",
+        "he": "אֵת תַּבְנִית הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "ושכל גמיע אניתה",
+        "en": "and the form of all its vessels",
+        "he": "וְאֵת תַּבְנִית כָּל-כֵּלָיו"
+      },
+      {
+        "ja": "כד'אך תצנעו",
+        "en": "so shall you make it.",
+        "he": "וְכֵן תַּעֲשׂוּ"
+      }
+    ],
+    "10": [
+      {
+        "ja": "ויצנעון צנדוקא מן כ'שב אלסנט",
+        "en": "And they shall make a chest of acacia wood",
+        "he": "וְעָשׂוּ אֲרוֹן עֲצֵי שִׁטִּים"
+      },
+      {
+        "ja": "ד'ראעין ונצף טולה",
+        "en": "two cubits and a half its length",
+        "he": "אַמָּתַיִם וָחֵצִי אָרְכּוֹ"
+      },
+      {
+        "ja": "וד'ראע ונצף ערצה",
+        "en": "and a cubit and a half its width",
+        "he": "וְאַמָּה וָחֵצִי רָחְבּוֹ"
+      },
+      {
+        "ja": "וד'ראע ונצף סמכה",
+        "en": "and a cubit and a half its height.",
+        "he": "וְאַמָּה וָחֵצִי קֹמָתוֹ"
+      }
+    ],
+    "11": [
+      {
+        "ja": "וג'שה בד'הב כ'אלץ. מן דאכ'ל ומן כ'ארג'",
+        "en": "And overlay it with pure gold — from within it and from without it",
+        "he": "וְצִפִּיתָ אֹתוֹ זָהָב טָהוֹר מִבַּיִת וּמִחוּץ תְּצַפֶּנּוּ"
+      },
+      {
+        "ja": "ואצנע עלי'ה. זיגא מן ד'הב מסתדירא",
+        "en": "and make upon it a rim of gold, going around.",
+        "he": "וְעָשִׂיתָ עָלָיו זֵר זָהָב סָבִיב"
+      }
+    ],
+    "12": [
+      {
+        "ja": "וצג' לה ארבע חלק מן ד'הב",
+        "en": "And cast for it four rings of gold",
+        "he": "וְיָצַקְתָּ לּוֹ אַרְבַּע טַבְּעֹת זָהָב"
+      },
+      {
+        "ja": "ואגעלהא פי ארבע גהאתה",
+        "en": "and place them on its four sides",
+        "he": "וְנָתַתָּה עַל אַרְבַּע פַּעֲמֹתָיו"
+      },
+      {
+        "ja": "חלקתין פי גאנבה אלואחד",
+        "en": "two rings on the one side",
+        "he": "וּשְׁתֵּי טַבָּעֹת עַל-צַלְעוֹ הָאֶחָת"
+      },
+      {
+        "ja": "וחלקתין פי גאנבה אלת'אני",
+        "en": "and two rings on the second side.",
+        "he": "וּשְׁתֵּי טַבָּעֹת עַל-צַלְעוֹ הַשֵּׁנִית"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ואצנע דהוקא מן כ'שב אלסנט",
+        "en": "And make poles of acacia wood",
+        "he": "וְעָשִׂיתָ בַדֵּי עֲצֵי שִׁטִּים"
+      },
+      {
+        "ja": "וג'שהא בד'הב",
+        "en": "and overlay them with gold.",
+        "he": "וְצִפִּיתָ אֹתָם זָהָב"
+      }
+    ],
+    "14": [
+      {
+        "ja": "ואדכ'ל אלדהוק פי אלחלק",
+        "en": "And insert the poles into the rings",
+        "he": "וְהֵבֵאתָ אֶת-הַבַּדִּים בַּטַּבָּעֹת"
+      },
+      {
+        "ja": "עלי' גאנבי אלצנדוק.",
+        "en": "on the sides of the chest, to carry it by them.",
+        "he": "עַל צַלְעֹת הָאָרֹן לָשֵׂאת אֶת-הָאָרֹן בָּהֶם"
+      }
+    ],
+    "15": [
+      {
+        "ja": "פי חלק אלצנדוק",
+        "en": "In the rings of the chest shall the poles remain",
+        "he": "בְּטַבְּעֹת הָאָרֹן יִהְיוּ הַבַּדִּים"
+      },
+      {
+        "ja": "לא תזול מנה",
+        "en": "they shall not be removed from it.",
+        "he": "לֹא יָסֻרוּ מִמֶּנּוּ"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ואגעל פי אלצנדוק",
+        "en": "And place in the chest",
+        "he": "וְנָתַתָּ אֶל-הָאָרֹן"
+      },
+      {
+        "ja": "אלשהאדה אלתי אעטיכהא",
+        "en": "the testimony which I shall give you.",
+        "he": "אֵת הָעֵדֻת אֲשֶׁר אֶתֵּן אֵלֶיךָ"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ואצנע ג'שאא מן ד'הב כ'אלץ",
+        "en": "And make a cover of pure gold",
+        "he": "וְעָשִׂיתָ כַפֹּרֶת זָהָב טָהוֹר"
+      },
+      {
+        "ja": "ד'ראעין ונצף טולה",
+        "en": "two cubits and a half its length",
+        "he": "אַמָּתַיִם וָחֵצִי אָרְכָּהּ"
+      },
+      {
+        "ja": "וד'ראע ונצף ערצה",
+        "en": "and a cubit and a half its width.",
+        "he": "וְאַמָּה וָחֵצִי רָחְבָּהּ"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ואצנע כרובין מן ד'הב",
+        "en": "And make two cherubim of gold",
+        "he": "וְעָשִׂיתָ שְׁנַיִם כְּרֻבִים זָהָב"
+      },
+      {
+        "ja": "מצמתין תצנעהמא",
+        "en": "solid shall you make them",
+        "he": "מִקְשָׁה תַּעֲשֶׂה אֹתָם"
+      },
+      {
+        "ja": "מן טרפי אלג'שא",
+        "en": "from the two ends of the cover.",
+        "he": "מִשְּׁנֵי קְצוֹת הַכַּפֹּרֶת"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ואצנע כרובא מן הד'א אלטרף",
+        "en": "And make them: a cherub from this end and a cherub from this end",
+        "he": "וַעֲשֵׂה כְּרוּב אֶחָד מִקָּצָה מִזֶּה וּכְרוּב-אֶחָד מִקָּצָה מִזֶּה"
+      },
+      {
+        "ja": "מן נפס אלג'שא. תצנע אלכרובין מן טרפיה",
+        "en": "from the cover itself shall you make the cherubim, from its two ends.",
+        "he": "מִן-הַכַּפֹּרֶת תַּעֲשׂוּ אֶת-הַכְּרֻבִים עַל-שְׁנֵי קְצוֹתָיו"
+      }
+    ],
+    "20": [
+      {
+        "ja": "ויכונא אלכרובין באסטין אגנחתהמא אלי' פוק",
+        "en": "And the cherubim shall be spreading their wings upward",
+        "he": "וְהָיוּ הַכְּרֻבִים פֹּרְשֵׂי כְנָפַיִם לְמַעְלָה"
+      },
+      {
+        "ja": "ומצ'ללין בהא עלי' אלג'שא",
+        "en": "and overshadowing with them the cover",
+        "he": "סֹכְכִים בְּכַנְפֵיהֶם עַל-הַכַּפֹּרֶת"
+      },
+      {
+        "ja": "ווגוההמא אלואחד אלי' אלאכ'ר. ואלי' אלג'שא",
+        "en": "and the face of the one toward the other, and toward the cover",
+        "he": "וּפְנֵיהֶם אִישׁ אֶל-אָחִיו אֶל-הַכַּפֹּרֶת"
+      },
+      {
+        "ja": "תכון וגוההמא",
+        "en": "thus shall their faces be.",
+        "he": "יִהְיוּ פְּנֵי הַכְּרֻבִים"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ואגעל אלג'שא. עלי' אלצנדוק מן פוק",
+        "en": "And place the cover upon the chest from above",
+        "he": "וְנָתַתָּ אֶת-הַכַּפֹּרֶת עַל-הָאָרֹן מִלְמָעְלָה"
+      },
+      {
+        "ja": "בעד מא תגעל פי אלצנדוק. אלשהאדה אלד'י אעטיכהא",
+        "en": "after you have placed in the chest the testimony which I shall give you.",
+        "he": "וְאֶל-הָאָרֹן--תִּתֵּן אֶת-הָעֵדֻת אֲשֶׁר אֶתֵּן אֵלֶיךָ"
+      }
+    ],
+    "22": [
+      {
+        "ja": "פאחאצ'רך הנאך",
+        "en": "And I shall be present there with you",
+        "he": "וְנוֹעַדְתִּי לְךָ שָׁם"
+      },
+      {
+        "ja": "וא'כ'אטבך מן פוק אלג'שא. מן בין אלכרובין",
+        "en": "and I shall speak to you from above the cover, from between the two cherubim",
+        "he": "וְדִבַּרְתִּי אִתְּךָ מֵעַל הַכַּפֹּרֶת מִבֵּין שְׁנֵי הַכְּרֻבִים"
+      },
+      {
+        "ja": "אלד'י עלי' צנדוק אלשהאדה",
+        "en": "which are upon the chest of the testimony",
+        "he": "אֲשֶׁר עַל-אֲרוֹן הָעֵדֻת"
+      },
+      {
+        "ja": "בגמיע מא אמרך אלי' בני אסראיל",
+        "en": "with all that I command you to the sons of Israel.",
+        "he": "אֵת כָּל-אֲשֶׁר אֲצַוֶּה אוֹתְךָ אֶל-בְּנֵי יִשְׂרָאֵל"
+      }
+    ],
+    "23": [
+      {
+        "ja": "ואצנע מאידה מן כ'שב אלסנט",
+        "en": "And make a table of acacia wood",
+        "he": "וְעָשִׂיתָ שֻׁלְחָן עֲצֵי שִׁטִּים"
+      },
+      {
+        "ja": "ד'ראעין טולהא וד'ראע ערצ'הא",
+        "en": "two cubits its length, and a cubit its width",
+        "he": "אַמָּתַיִם אָרְכּוֹ וְאַמָּה רָחְבּוֹ"
+      },
+      {
+        "ja": "וד'ראע ונצף סמכהא",
+        "en": "and a cubit and a half its height.",
+        "he": "וְאַמָּה וָחֵצִי קֹמָתוֹ"
+      }
+    ],
+    "24": [
+      {
+        "ja": "וג'שהא בד'הב כ'אלץ",
+        "en": "And overlay it with pure gold",
+        "he": "וְצִפִּיתָ אֹתוֹ זָהָב טָהוֹר"
+      },
+      {
+        "ja": "ואצנע להא. זיגא מן ד'הב מסתדירא",
+        "en": "and make for it a rim of gold, going around.",
+        "he": "וְעָשִׂיתָ לּוֹ זֵר זָהָב סָבִיב"
+      }
+    ],
+    "25": [
+      {
+        "ja": "ואצנע להא חאפה. מקדאר קבצ'ה מסתדירא",
+        "en": "And make for it a border, the measure of a handbreadth, going around",
+        "he": "וְעָשִׂיתָ לּוֹ מִסְגֶּרֶת טֹפַח סָבִיב"
+      },
+      {
+        "ja": "ואצנע זיגא מן ד'הב. לחאפתהא מסתדירא",
+        "en": "and make a rim of gold for its border, going around.",
+        "he": "וְעָשִׂיתָ זֵר-זָהָב לְמִסְגַּרְתּוֹ סָבִיב"
+      }
+    ],
+    "26": [
+      {
+        "ja": "וצג' להא. ארבע חלק מן ד'הב",
+        "en": "And cast for it four rings of gold",
+        "he": "וְעָשִׂיתָ לּוֹ אַרְבַּע טַבְּעֹת זָהָב"
+      },
+      {
+        "ja": "ואגעל אלחלק. פי אלארבע אלזואיא",
+        "en": "and place the rings at its four corners",
+        "he": "וְנָתַתָּ אֶת-הַטַּבָּעֹת עַל אַרְבַּע הַפֵּאֹת"
+      },
+      {
+        "ja": "אלתי באזא ארבע ארגלהא",
+        "en": "which are opposite its four legs.",
+        "he": "אֲשֶׁר לְאַרְבַּע רַגְלָיו"
+      }
+    ],
+    "27": [
+      {
+        "ja": "אמאם אלחאפה תכון אלחלק",
+        "en": "Facing the border shall the rings be",
+        "he": "לְעֻמַּת הַמִּסְגֶּרֶת תִּהְיֶיןָ הַטַּבָּעֹת"
+      },
+      {
+        "ja": "מכאנא לאלדהוק. לתחמל בהא",
+        "en": "as a place for the poles, by which to carry it.",
+        "he": "לְבָתִּים לְבַדִּים לָשֵׂאת אֶת-הַשֻּׁלְחָן"
+      }
+    ],
+    "28": [
+      {
+        "ja": "ואצנע אלדהוק מן כ'שב אלסנט",
+        "en": "And make the poles of acacia wood",
+        "he": "וְעָשִׂיתָ אֶת-הַבַּדִּים עֲצֵי שִׁטִּים"
+      },
+      {
+        "ja": "וג'שהא בד'הב",
+        "en": "and overlay them with gold",
+        "he": "וְצִפִּיתָ אֹתָם זָהָב"
+      },
+      {
+        "ja": "לתחמל בהא אלמאידה",
+        "en": "so that the table may be carried by them.",
+        "he": "וְנִשָּׂא-בָם אֶת-הַשֻּׁלְחָן"
+      }
+    ],
+    "29": [
+      {
+        "ja": "ואצנע קצאעהא ודרוגהא",
+        "en": "And make its dishes and its drawers",
+        "he": "וְעָשִׂיתָ קְּעָרֹתָיו וְכַפֹּתָיו"
+      },
+      {
+        "ja": "ומדאהנהא. אומלאעקהא",
+        "en": "and its flagons and its ladles",
+        "he": "וּקְשׂוֹתָיו וּמְנַקִּיֹּתָיו"
+      },
+      {
+        "ja": "לד'י תג'טא בהא",
+        "en": "by which it is covered",
+        "he": "אֲשֶׁר יֻסַּךְ בָּהֵן"
+      },
+      {
+        "ja": "מן ד'הב כ'אלץ תצנעהא",
+        "en": "of pure gold shall you make them.",
+        "he": "זָהָב טָהוֹר תַּעֲשֶׂה אֹתָם"
+      }
+    ],
+    "30": [
+      {
+        "ja": "ואגעל עלי' אלמאידה. כ'בזא מוגהא בין ידיי דאימא",
+        "en": "And place upon the table bread that is presented before Me continually.",
+        "he": "וְנָתַתָּ עַל-הַשֻּׁלְחָן לֶחֶם פָּנִים לְפָנַי תָּמִיד"
+      }
+    ],
+    "31": [
+      {
+        "ja": "ואצנע מנארה מן ד'הב כ'אלץ. מצמתה תצנעהא",
+        "en": "And make a lampstand of pure gold — solid shall the lampstand be made",
+        "he": "וְעָשִׂיתָ מְנֹרַת זָהָב טָהוֹר מִקְשָׁה תֵּעָשֶׂה הַמְּנוֹרָה"
+      },
+      {
+        "ja": "ארגלהא וקצבהא",
+        "en": "its base and its shaft",
+        "he": "יְרֵכָהּ וְקָנָהּ"
+      },
+      {
+        "ja": "וגאמאתהא. ותפאפיחהא וסואסנהא מנהא יכונו",
+        "en": "and its cups, and its apples and its lilies shall be of it.",
+        "he": "גְּבִיעֶיהָ כַּפְתֹּרֶיהָ וּפְרָחֶיהָ מִמֶּנָּה יִהְיוּ"
+      }
+    ],
+    "32": [
+      {
+        "ja": "סת קצבאת. כ'ארגאת מן גאנביהא",
+        "en": "Six branches going out from its sides",
+        "he": "וְשִׁשָּׁה קָנִים יֹצְאִים מִצִּדֶּיהָ"
+      },
+      {
+        "ja": "ת'לאת' קצבאת מן גאנבהא אלואחד",
+        "en": "three branches from its one side",
+        "he": "שְׁלֹשָׁה קְנֵי מְנֹרָה מִצִּדָּהּ הָאֶחָד"
+      },
+      {
+        "ja": "ות'לאת' קצבאת. מן גאנבהא אלת'אני",
+        "en": "and three branches from its second side.",
+        "he": "וּשְׁלֹשָׁה קְנֵי מְנֹרָה מִצִּדָּהּ הַשֵּׁנִי"
+      }
+    ],
+    "33": [
+      {
+        "ja": "ת'לאת גאמאת. מלווזאת. פי כל קצבה",
+        "en": "Three almond-shaped cups in each branch",
+        "he": "שְׁלֹשָׁה גְבִעִים מְשֻׁקָּדִים בַּקָּנֶה הָאֶחָד"
+      },
+      {
+        "ja": "תפאחה וסוסנה",
+        "en": "an apple and a lily",
+        "he": "כַּפְתֹּר וָפֶרַח"
+      },
+      {
+        "ja": "כד'אך לאלסת אלקצבאת. אלכ'ארגאת מנהא",
+        "en": "so for the six branches going out from it.",
+        "he": "כֵּן לְשֵׁשֶׁת הַקָּנִים הַיֹּצְאִים מִן-הַמְּנֹרָה"
+      }
+    ],
+    "34": [
+      {
+        "ja": "ופי אלמנארה ארבע גאמאת. מלווזאת",
+        "en": "And in the lampstand itself four almond-shaped cups",
+        "he": "וּבַמְּנֹרָה אַרְבָּעָה גְבִעִים מְשֻׁקָּדִים"
+      },
+      {
+        "ja": "ותפאפיחהא וסואסנהא",
+        "en": "with their apples and their lilies.",
+        "he": "כַּפְתֹּרֶיהָ וּפְרָחֶיהָ"
+      }
+    ],
+    "35": [
+      {
+        "ja": "ותפאחה תחת כל קצבתין מנהא",
+        "en": "And an apple beneath each two branches from it",
+        "he": "וְכַפְתֹּר תַּחַת שְׁנֵי הַקָּנִים מִמֶּנָּה וְכַפְתֹּר תַּחַת שְׁנֵי הַקָּנִים מִמֶּנָּה וְכַפְתֹּר תַּחַת-שְׁנֵי הַקָּנִים מִמֶּנָּה"
+      },
+      {
+        "ja": "כד'אך לאלסת אלקצבאת. אלכ'ארגאת מנהא",
+        "en": "so for the six branches going out from it.",
+        "he": "לְשֵׁשֶׁת הַקָּנִים הַיֹּצְאִים מִן-הַמְּנֹרָה"
+      }
+    ],
+    "36": [
+      {
+        "ja": "ותפאפיחהא וקצבהא מנהא יכונו",
+        "en": "Their apples and their shaft shall be of it",
+        "he": "כַּפְתֹּרֵיהֶם וּקְנֹתָם מִמֶּנָּה יִהְיוּ"
+      },
+      {
+        "ja": "כלהא מצמתה ואחדה מן ד'הב כ'אלץ",
+        "en": "all of it one solid piece of pure gold.",
+        "he": "כֻּלָּהּ מִקְשָׁה אַחַת זָהָב טָהוֹר"
+      }
+    ],
+    "37": [
+      {
+        "ja": "ואצנע להא סבע סרג",
+        "en": "And make for it seven lamps",
+        "he": "וְעָשִׂיתָ אֶת-נֵרֹתֶיהָ שִׁבְעָה"
+      },
+      {
+        "ja": "פאד'י תסרג סרגהא. תצ'י אלי' גהה' וגההא",
+        "en": "and when its lamps are lit, they shall give light toward the direction of its face.",
+        "he": "וְהֶעֱלָה אֶת-נֵרֹתֶיהָ וְהֵאִיר עַל-עֵבֶר פָּנֶיהָ"
+      }
+    ],
+    "38": [
+      {
+        "ja": "וכלבאתהא ומגאמרהא מן ד'הב כ'אלץ",
+        "en": "And its tongs and its fire-pans of pure gold.",
+        "he": "וּמַלְקָחֶיהָ וּמַחְתֹּתֶיהָ זָהָב טָהוֹר"
+      }
+    ],
+    "39": [
+      {
+        "ja": "מן בדר'ה ד'הב כ'אלץ יצנעהא",
+        "en": "From a talent of pure gold shall he make it",
+        "he": "כִּכָּר זָהָב טָהוֹר יַעֲשֶׂה אֹתָהּ"
+      },
+      {
+        "ja": "וגמיע הד'ה אלאניה",
+        "en": "and all these vessels.",
+        "he": "אֵת כָּל-הַכֵּלִים הָאֵלֶּה"
+      }
+    ],
+    "46": [
+      {
+        "ja": "ואנצ'ר ד'אלך ואצנע כשכלה. אלד'י אנת מורא פי אלגבל",
+        "en": "And look upon it and make it according to its form which you are shown on the mountain.",
+        "he": "ּרְאֵה וַעֲשֵׂה בְּתַבְנִיתָם--אֲשֶׁר-אַתָּה מָרְאֶה בָּהָר"
+      }
+    ]
+  }
+}

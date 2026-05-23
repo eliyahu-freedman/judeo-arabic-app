@@ -1,0 +1,534 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 14. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_14.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ת'ם כלם אללה מוסי תכלימא",
+        "en": "Then God spoke to Moses directly.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "2": [
+      {
+        "ja": "מר בני אסראיל",
+        "en": "Command the sons of Israel",
+        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אן ירגעון. וינזלון בין ידי פם אלחירות",
+        "en": "that they turn back and encamp before the mouth of the Hiroth",
+        "he": "וְיָשֻׁבוּ וְיַחֲנוּ לִפְנֵי פִּי הַחִירֹת"
+      },
+      {
+        "ja": "בין מגדול ובין אלבחר",
+        "en": "between Migdol and the sea",
+        "he": "בֵּין מִגְדֹּל וּבֵין הַיָּם"
+      },
+      {
+        "ja": "בין ידי בעל צפון. חיאלה תנזלון עלי' אלבחר",
+        "en": "before Baal-Zephon — opposite it you shall encamp by the sea.",
+        "he": "לִפְנֵי בַּעַל צְפֹן נִכְחוֹ תַחֲנוּ עַל-הַיָּם"
+      }
+    ],
+    "3": [
+      {
+        "ja": "חתי' יקול פרעון ען בני אסראיל. אנהם מתחיירין פי אלבלד",
+        "en": "So that Pharaoh will say of the sons of Israel that they are bewildered in the land",
+        "he": "וְאָמַר פַּרְעֹה לִבְנֵי יִשְׂרָאֵל נְבֻכִים הֵם בָּאָרֶץ"
+      },
+      {
+        "ja": "ואן אלבר קד אנג'לק עליהם",
+        "en": "and that the open country has been closed upon them.",
+        "he": "סָגַר עֲלֵיהֶם הַמִּדְבָּר"
+      }
+    ],
+    "4": [
+      {
+        "ja": "ואשדד קלב פרעון ויכלבהם",
+        "en": "And I shall harden the heart of Pharaoh and he shall pursue them",
+        "he": "וְחִזַּקְתִּי אֶת-לֵב-פַּרְעֹה וְרָדַף אַחֲרֵיהֶם"
+      },
+      {
+        "ja": "ואת עצ'ם בפרעון וגמיע גנדה",
+        "en": "and I shall make Myself great through Pharaoh and all his host",
+        "he": "וְאִכָּבְדָה בְּפַרְעֹה וּבְכָל-חֵילוֹ"
+      },
+      {
+        "ja": "ויעלם אלמצריון אני אללה",
+        "en": "and the Egyptians shall know that I am God",
+        "he": "וְיָדְעוּ מִצְרַיִם כִּי-אֲנִי יְהוָה"
+      },
+      {
+        "ja": "פצנעו כד'אך",
+        "en": "And so they did.",
+        "he": "וַיַּעֲשׂוּ-כֵן"
+      }
+    ],
+    "5": [
+      {
+        "ja": "פאכ'בר מלך מצר. אן אלקום קד הרבו",
+        "en": "And the king of Egypt was told that the people had fled",
+        "he": "וַיֻּגַּד לְמֶלֶךְ מִצְרַיִם כִּי בָרַח הָעָם"
+      },
+      {
+        "ja": "אנקלב קלבה וקואדה אליהם",
+        "en": "and the heart of he and his officers turned against them",
+        "he": "וַיֵּהָפֵךְ לְבַב פַּרְעֹה וַעֲבָדָיו אֶל-הָעָם"
+      },
+      {
+        "ja": "וקאלו מא ד'א צנענא",
+        "en": "and they said: 'What have we done",
+        "he": "וַיֹּאמְרוּ מַה-זֹּאת עָשִׂינוּ"
+      },
+      {
+        "ja": "אד' אטלקנא בני אסראיל מן כ'דמתנא",
+        "en": "since we released the sons of Israel from our service?'",
+        "he": "כִּי-שִׁלַּחְנוּ אֶת-יִשְׂרָאֵל מֵעָבְדֵנוּ"
+      }
+    ],
+    "6": [
+      {
+        "ja": "פאסרג מרכבה",
+        "en": "And he readied his chariot",
+        "he": "וַיֶּאְסֹר אֶת-רִכְבּוֹ"
+      },
+      {
+        "ja": "ואכ'ד' קומה מעה",
+        "en": "and took his people with him.",
+        "he": "וְאֶת-עַמּוֹ לָקַח עִמּוֹ"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ואכ'ד' סת מאיה' מרכבא מכ'תארא",
+        "en": "And he took six hundred chosen chariots",
+        "he": "וַיִּקַּח שֵׁשׁ-מֵאוֹת רֶכֶב בָּחוּר"
+      },
+      {
+        "ja": "וסאיר מראכב אלמצריון אלד'ין כד'אך",
+        "en": "and the rest of the chariots of the Egyptians who were likewise",
+        "he": "וְכֹל רֶכֶב מִצְרָיִם"
+      },
+      {
+        "ja": "וקואד עלי' גמיעהם",
+        "en": "and officers over all of them.",
+        "he": "וְשָׁלִשִׁם עַל-כֻּלּוֹ"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ושדד אללה. קלב פרעון מלך מצר",
+        "en": "And God hardened the heart of Pharaoh king of Egypt",
+        "he": "וַיְחַזֵּק יְהוָה אֶת-לֵב פַּרְעֹה מֶלֶךְ מִצְרַיִם"
+      },
+      {
+        "ja": "וכלב בני אסראיל",
+        "en": "and he pursued the sons of Israel",
+        "he": "וַיִּרְדֹּף אַחֲרֵי בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ובני אסראיל. כ'ארגין ביד רפיעה",
+        "en": "and the sons of Israel were going forth with a raised hand.",
+        "he": "וּבְנֵי יִשְׂרָאֵל יֹצְאִים בְּיָד רָמָה"
+      }
+    ],
+    "9": [
+      {
+        "ja": "וכלבוהם אלמצריון",
+        "en": "And the Egyptians pursued them",
+        "he": "וַיִּרְדְּפוּ מִצְרַיִם אַחֲרֵיהֶם"
+      },
+      {
+        "ja": "ולחקוהם נאזלין עלי' אלבחר",
+        "en": "and overtook them encamped by the sea",
+        "he": "וַיַּשִּׂיגוּ אוֹתָם חֹנִים עַל-הַיָּם"
+      },
+      {
+        "ja": "גמיע כ'יל מראכב פרעון. ופראסנה וגנדה",
+        "en": "all the horses of the chariots of Pharaoh, and his horsemen, and his host",
+        "he": "כָּל-סוּס רֶכֶב פַּרְעֹה וּפָרָשָׁיו וְחֵילוֹ"
+      },
+      {
+        "ja": "עלי' פם אלחירות. בין ידי בעל צפון",
+        "en": "at the mouth of the Hiroth, before Baal-Zephon.",
+        "he": "עַל-פִּי הַחִירֹת לִפְנֵי בַּעַל צְפֹן"
+      }
+    ],
+    "10": [
+      {
+        "ja": "פלמא קרב פרעון",
+        "en": "And when Pharaoh drew near",
+        "he": "וּפַרְעֹה הִקְרִיב"
+      },
+      {
+        "ja": "שלו בני אסראיל עיונהם",
+        "en": "the sons of Israel lifted up their eyes",
+        "he": "וַיִּשְׂאוּ בְנֵי-יִשְׂרָאֵל אֶת-עֵינֵיהֶם"
+      },
+      {
+        "ja": "פאד'א באלמצריון ראחלון וראהם",
+        "en": "and behold, the Egyptians were journeying after them",
+        "he": "וְהִנֵּה מִצְרַיִם נֹסֵעַ אַחֲרֵיהֶם"
+      },
+      {
+        "ja": "פכ'אפו גדא",
+        "en": "and they feared greatly",
+        "he": "וַיִּירְאוּ מְאֹד"
+      },
+      {
+        "ja": "וצרכ'ו אלי' אללה",
+        "en": "and they cried out to God.",
+        "he": "וַיִּצְעֲקוּ בְנֵי-יִשְׂרָאֵל אֶל-יְהוָה"
+      }
+    ],
+    "11": [
+      {
+        "ja": "קאלו למוסי'",
+        "en": "They said to Moses",
+        "he": "וַיֹּאמְרוּ אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "אמן עדם אלקבור במצר. אכ'ד'תנא לנמות פי אלבר",
+        "en": "Was it because there were no graves in Egypt that you took us to die in the open country",
+        "he": "הֲמִבְּלִי אֵין-קְבָרִים בְּמִצְרַיִם לְקַחְתָּנוּ לָמוּת בַּמִּדְבָּר"
+      },
+      {
+        "ja": "מא ד'א צנעת בנא",
+        "en": "What have you done to us",
+        "he": "מַה-זֹּאת עָשִׂיתָ לָּנוּ"
+      },
+      {
+        "ja": "אד' אכ'רגתנא מן מצר",
+        "en": "since you brought us out of Egypt?'",
+        "he": "לְהוֹצִיאָנוּ מִמִּצְרָיִם"
+      }
+    ],
+    "12": [
+      {
+        "ja": "אליס הד'א אלקול. אלד'י קלנאה לך במצר קאילא",
+        "en": "Is this not the very word which we said to you in Egypt, saying",
+        "he": "הֲלֹא-זֶה הַדָּבָר אֲשֶׁר דִּבַּרְנוּ אֵלֶיךָ בְמִצְרַיִם לֵאמֹר"
+      },
+      {
+        "ja": "דענא נכ'דם אלמצריון",
+        "en": "Leave us that we may serve the Egyptians",
+        "he": "חֲדַל מִמֶּנּוּ וְנַעַבְדָה אֶת-מִצְרָיִם"
+      },
+      {
+        "ja": "פאן כ'דמתנא להם. אצלח לנא מן מותנא פי אלבר",
+        "en": "for our service to them is better for us than our death in the open country?'",
+        "he": "כִּי טוֹב לָנוּ עֲבֹד אֶת-מִצְרַיִם מִמֻּתֵנוּ בַּמִּדְבָּר"
+      }
+    ],
+    "13": [
+      {
+        "ja": "קאל מוסי' לאלקום לא תכ'אפו",
+        "en": "Moses said to the people: 'Do not fear",
+        "he": "וַיֹּאמֶר מֹשֶׁה אֶל-הָעָם אַל-תִּירָאוּ"
+      },
+      {
+        "ja": "קפו ואנצרו מג'ותה' אללה",
+        "en": "stand still and behold the salvation of God",
+        "he": "הִתְיַצְּבוּ וּרְאוּ אֶת-יְשׁוּעַת יְהוָה"
+      },
+      {
+        "ja": "אלתי יצנעהא לכם אליום",
+        "en": "which He shall work for you today",
+        "he": "אֲשֶׁר-יַעֲשֶׂה לָכֶם הַיּוֹם"
+      },
+      {
+        "ja": "פאנכם כמא ראיתם אלמצריון אליום. לא תעאודו אן תרוהם אבדא אלי' אלדהר",
+        "en": "for as you have seen the Egyptians today, you shall never again see them, forever.'",
+        "he": "כִּי אֲשֶׁר רְאִיתֶם אֶת-מִצְרַיִם הַיּוֹם--לֹא תֹסִפוּ לִרְאֹתָם עוֹד עַד-עוֹלָם"
+      }
+    ],
+    "14": [
+      {
+        "ja": "אללה יחארב ענכם",
+        "en": "'God shall fight on your behalf",
+        "he": "יְהוָה יִלָּחֵם לָכֶם"
+      },
+      {
+        "ja": "ואנתם פאמסכו",
+        "en": "and as for you, be still.'",
+        "he": "וְאַתֶּם תַּחֲרִשׁוּן"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ת'ם קאל אללה למוסי. מא תצרך' אליי",
+        "en": "Then God said to Moses: 'Why do you cry out to Me",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה מַה-תִּצְעַק אֵלָי"
+      },
+      {
+        "ja": "מר בני אסראיל אן ירחלון",
+        "en": "Command the sons of Israel that they set out.'",
+        "he": "דַּבֵּר אֶל-בְּנֵי-יִשְׂרָאֵל וְיִסָּעוּ"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ואנת ארפע עצאך",
+        "en": "'And you — lift up your staff",
+        "he": "וְאַתָּה הָרֵם אֶת-מַטְּךָ"
+      },
+      {
+        "ja": "ומד ידך. עלי' אלבחר ושקה",
+        "en": "and stretch out your hand over the sea and split it",
+        "he": "וּנְטֵה אֶת-יָדְךָ עַל-הַיָּם--וּבְקָעֵהוּ"
+      },
+      {
+        "ja": "וידכ'לו בני אסראיל. פי וסטה פי אליבאס",
+        "en": "and the sons of Israel shall enter into the midst of it upon dry land.'",
+        "he": "וְיָבֹאוּ בְנֵי-יִשְׂרָאֵל בְּתוֹךְ הַיָּם בַּיַּבָּשָׁה"
+      }
+    ],
+    "17": [
+      {
+        "ja": "והאנא משדד קלב אלמצריון. וידכלו וראהם",
+        "en": "'And I am hardening the heart of the Egyptians, and they shall enter after them",
+        "he": "וַאֲנִי הִנְנִי מְחַזֵּק אֶת-לֵב מִצְרַיִם וְיָבֹאוּ אַחֲרֵיהֶם"
+      },
+      {
+        "ja": "ואתעצם בפרעון ובגמיע גנדה ומראכבה ופרסאנה",
+        "en": "and I shall make Myself great through Pharaoh and all his host and his chariots and his horsemen.'",
+        "he": "וְאִכָּבְדָה בְּפַרְעֹה וּבְכָל-חֵילוֹ בְּרִכְבּוֹ וּבְפָרָשָׁיו"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ויעלם אלמצריון אני אללה",
+        "en": "'And the Egyptians shall know that I am God",
+        "he": "וְיָדְעוּ מִצְרַיִם כִּי-אֲנִי יְהוָה"
+      },
+      {
+        "ja": "אד' תעצמת בפרעון. ומראכבה ופרסאנה",
+        "en": "when I have made Myself great through Pharaoh, and his chariots, and his horsemen.'",
+        "he": "בְּהִכָּבְדִי בְּפַרְעֹה בְּרִכְבּוֹ וּבְפָרָשָׁיו"
+      }
+    ],
+    "19": [
+      {
+        "ja": "פרחל מלך אללה. אלסאיר בין ידי עסכר בני אסראיל",
+        "en": "And the angel of God, who was going before the camp of the sons of Israel, set out",
+        "he": "וַיִּסַּע מַלְאַךְ הָאֱלֹהִים הַהֹלֵךְ לִפְנֵי מַחֲנֵה יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וצאר וראהם",
+        "en": "and moved behind them",
+        "he": "וַיֵּלֶךְ מֵאַחֲרֵיהֶם"
+      },
+      {
+        "ja": "ורחל עמוד אלג'מאם מן בין ידיהם",
+        "en": "and the pillar of cloud set out from before them",
+        "he": "וַיִּסַּע עַמּוּד הֶעָנָן מִפְּנֵיהֶם"
+      },
+      {
+        "ja": "ווקף וראהם",
+        "en": "and stood behind them.",
+        "he": "וַיַּעֲמֹד מֵאַחֲרֵיהֶם"
+      }
+    ],
+    "20": [
+      {
+        "ja": "פדכ'ל בין עסכר אלמצריון. ובין עסכר אלאסראליון",
+        "en": "And it came between the camp of the Egyptians and the camp of the Israelites",
+        "he": "וַיָּבֹא בֵּין מַחֲנֵה מִצְרַיִם וּבֵין מַחֲנֵה יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וכאן אלג'מאם ואלצ'לאם",
+        "en": "and there were the cloud and the darkness",
+        "he": "וַיְהִי הֶעָנָן וְהַחֹשֶׁךְ"
+      },
+      {
+        "ja": "פגשיא אלליל",
+        "en": "yet it lit up the night",
+        "he": "וַיָּאֶר אֶת-הַלָּיְלָה"
+      },
+      {
+        "ja": "ולם יתקדם אחדהמא. אלי' אלאכ'ר טול אלליל",
+        "en": "and neither one drew near the other throughout the night.",
+        "he": "וְלֹא-קָרַב זֶה אֶל-זֶה כָּל-הַלָּיְלָה"
+      }
+    ],
+    "21": [
+      {
+        "ja": "פמד מוסי ידה עלי' אלבחר",
+        "en": "And Moses stretched out his hand over the sea",
+        "he": "וַיֵּט מֹשֶׁה אֶת-יָדוֹ עַל-הַיָּם"
+      },
+      {
+        "ja": "וסייר אללה אלבחר. בריח קבול צעבה טול אלליל",
+        "en": "and God drove the sea back with a strong qibla-wind throughout the night",
+        "he": "וַיּוֹלֶךְ יְהוָה אֶת-הַיָּם בְּרוּחַ קָדִים עַזָּה כָּל-הַלַּיְלָה"
+      },
+      {
+        "ja": "חתי' ציירה גפאפא",
+        "en": "until He made it dry",
+        "he": "וַיָּשֶׂם אֶת-הַיָּם לֶחָרָבָה"
+      },
+      {
+        "ja": "בעד מא אנשק אלמא",
+        "en": "after the water had split apart.",
+        "he": "וַיִּבָּקְעוּ הַמָּיִם"
+      }
+    ],
+    "22": [
+      {
+        "ja": "ודכ'לו בני אסראיל פי וסט אלבחר פי אליבאס",
+        "en": "And the sons of Israel entered into the midst of the sea upon dry land",
+        "he": "וַיָּבֹאוּ בְנֵי-יִשְׂרָאֵל בְּתוֹךְ הַיָּם בַּיַּבָּשָׁה"
+      },
+      {
+        "ja": "ואלמא להם אסוארא. ען ימינהם וען יסארהם",
+        "en": "and the water was walls for them, on their right and on their left.",
+        "he": "וְהַמַּיִם לָהֶם חוֹמָה מִימִינָם וּמִשְּׂמֹאלָם"
+      }
+    ],
+    "23": [
+      {
+        "ja": "פכלבוהם אלמצריון ודכ'לו וראהם",
+        "en": "And the Egyptians pursued them and entered after them",
+        "he": "וַיִּרְדְּפוּ מִצְרַיִם וַיָּבֹאוּ אַחֲרֵיהֶם"
+      },
+      {
+        "ja": "גמיע כ'יל פרעון. ומראכבה ופרסאנה. אלי' וסט אלבחר",
+        "en": "all the horses of Pharaoh, and his chariots and his horsemen — into the midst of the sea.",
+        "he": "כֹּל סוּס פַּרְעֹה רִכְבּוֹ וּפָרָשָׁיו אֶל-תּוֹךְ הַיָּם"
+      }
+    ],
+    "24": [
+      {
+        "ja": "פלמא כאן פי נובה' אלג'דאה",
+        "en": "And when it was at the turn of the morning watch",
+        "he": "וַיְהִי בְּאַשְׁמֹרֶת הַבֹּקֶר"
+      },
+      {
+        "ja": "אטלע אללה עלי' עסכר אלמצריון. בעמוד מן נאר וג'מאם",
+        "en": "God looked out over the camp of the Egyptians through a pillar of fire and cloud",
+        "he": "וַיַּשְׁקֵף יְהוָה אֶל-מַחֲנֵה מִצְרַיִם בְּעַמּוּד אֵשׁ וְעָנָן"
+      },
+      {
+        "ja": "פאהאמה",
+        "en": "and He threw it into confusion.",
+        "he": "וַיָּהָם אֵת מַחֲנֵה מִצְרָיִם"
+      }
+    ],
+    "25": [
+      {
+        "ja": "ואזאל לואלב מראכבהם",
+        "en": "And He removed the wheels of their chariots",
+        "he": "וַיָּסַר אֵת אֹפַן מַרְכְּבֹתָיו"
+      },
+      {
+        "ja": "וסאקהם בענף",
+        "en": "and drove them with force",
+        "he": "וַיְנַהֲגֵהוּ בִּכְבֵדֻת"
+      },
+      {
+        "ja": "חין קאל אלמצריון. נהרב בין ידי בני אסראיל",
+        "en": "so that the Egyptians said: 'Let us flee from before the sons of Israel",
+        "he": "וַיֹּאמֶר מִצְרַיִם אָנוּסָה מִפְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "לאן אללה. יחארב ענהם אלמצריון",
+        "en": "for God is fighting against the Egyptians on their behalf.'",
+        "he": "כִּי יְהוָה נִלְחָם לָהֶם בְּמִצְרָיִם"
+      }
+    ],
+    "26": [
+      {
+        "ja": "פקאל אללה למוסי'. מד ידך עלי' אלבחר",
+        "en": "And God said to Moses: 'Stretch out your hand over the sea",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה נְטֵה אֶת-יָדְךָ עַל-הַיָּם"
+      },
+      {
+        "ja": "ירגע אלמא עלי' אלמצריון. ומראכבה ופרסאנה",
+        "en": "that the water may return upon the Egyptians, and upon their chariots and their horsemen.'",
+        "he": "וְיָשֻׁבוּ הַמַּיִם עַל-מִצְרַיִם עַל-רִכְבּוֹ וְעַל-פָּרָשָׁיו"
+      }
+    ],
+    "27": [
+      {
+        "ja": "פמד מוסי' ידה עלי' אלבחר",
+        "en": "And Moses stretched out his hand over the sea",
+        "he": "וַיֵּט מֹשֶׁה אֶת-יָדוֹ עַל-הַיָּם"
+      },
+      {
+        "ja": "פרגע. ענד אתגאה אלג'דאה לצעובתה",
+        "en": "and it returned, at the approach of morning, to its strength",
+        "he": "וַיָּשָׁב הַיָּם לִפְנוֹת בֹּקֶר לְאֵיתָנוֹ"
+      },
+      {
+        "ja": "והם הארבין תלקאה",
+        "en": "while they were fleeing toward it",
+        "he": "וּמִצְרַיִם נָסִים לִקְרָאתוֹ"
+      },
+      {
+        "ja": "פג'רקהם אללה פי וסטה",
+        "en": "and God drowned them in its midst.",
+        "he": "וַיְנַעֵר יְהוָה אֶת-מִצְרַיִם בְּתוֹךְ הַיָּם"
+      }
+    ],
+    "28": [
+      {
+        "ja": "באן רגע אלמא. וג'טא אלמראכב ואלפרסאן",
+        "en": "In that the water returned and covered the chariots and the horsemen",
+        "he": "וַיָּשֻׁבוּ הַמַּיִם וַיְכַסּוּ אֶת-הָרֶכֶב וְאֶת-הַפָּרָשִׁים"
+      },
+      {
+        "ja": "וסאיר גיוש פרעון. אלדכ'לין וראהם פי אלבחר",
+        "en": "and the rest of the hosts of Pharaoh who had entered after them into the sea",
+        "he": "לְכֹל חֵיל פַּרְעֹה הַבָּאִים אַחֲרֵיהֶם בַּיָּם"
+      },
+      {
+        "ja": "לם יבק מנהם ולא ואחד",
+        "en": "there did not remain among them even one.",
+        "he": "לֹא-נִשְׁאַר בָּהֶם עַד-אֶחָד"
+      }
+    ],
+    "29": [
+      {
+        "ja": "ובני אסראיל. סארו פי אליבאס פי וסט אלבחר",
+        "en": "And the sons of Israel walked upon the dry land in the midst of the sea",
+        "he": "וּבְנֵי יִשְׂרָאֵל הָלְכוּ בַיַּבָּשָׁה בְּתוֹךְ הַיָּם"
+      },
+      {
+        "ja": "ואלמא להם אסוארא. ען ימינהם וען יסארהם",
+        "en": "and the water was walls for them, on their right and on their left.",
+        "he": "וְהַמַּיִם לָהֶם חֹמָה מִימִינָם וּמִשְּׂמֹאלָם"
+      }
+    ],
+    "30": [
+      {
+        "ja": "ואג'את' אללה. פי ד'אלך אליום. בני אסראיל מן יד אלמצריון",
+        "en": "And God saved, on that day, the sons of Israel from the hand of the Egyptians",
+        "he": "וַיּוֹשַׁע יְהוָה בַּיּוֹם הַהוּא אֶת-יִשְׂרָאֵל--מִיַּד מִצְרָיִם"
+      },
+      {
+        "ja": "וראו בני אסראיל אלמצריון אמואתא עלי' שאט אלבחר",
+        "en": "and the sons of Israel saw the Egyptians dead upon the shore of the sea.",
+        "he": "וַיַּרְא יִשְׂרָאֵל אֶת-מִצְרַיִם מֵת עַל-שְׂפַת הַיָּם"
+      }
+    ],
+    "31": [
+      {
+        "ja": "פראו בני אסראיל אלאפה אל]עט'ימה] עצ'ימה. אלתי אחלהא אללה באלמצריון",
+        "en": "And the sons of Israel saw the great plague which God had brought upon the Egyptians",
+        "he": "וַיַּרְא יִשְׂרָאֵל אֶת-הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה יְהוָה בְּמִצְרַיִם"
+      },
+      {
+        "ja": "פכ'אפו אלקום אללה",
+        "en": "and the people feared God",
+        "he": "וַיִּירְאוּ הָעָם אֶת-יְהוָה"
+      },
+      {
+        "ja": "ואמנו באללה. ובמוסי' רסולה",
+        "en": "and believed in God and in Moses His messenger.",
+        "he": "וַיַּאֲמִינוּ בַּיהוָה וּבְמֹשֶׁה עַבְדּוֹ"
+      }
+    ]
+  }
+}

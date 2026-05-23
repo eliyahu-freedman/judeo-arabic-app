@@ -1,0 +1,453 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 33. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_33.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "פקאל אללה למוסי'",
+        "en": "And God said to Moses:",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "אמץ' אצעד מן ההנא. אנת ואלקום",
+        "en": "'Go, ascend from here — you and the people",
+        "he": "לֵךְ עֲלֵה מִזֶּה--אַתָּה וְהָעָם"
+      },
+      {
+        "ja": "אלד'י אצעדתהם מן מצר",
+        "en": "whom you brought up from Egypt —",
+        "he": "אֲשֶׁר הֶעֱלִיתָ מֵאֶרֶץ מִצְרָיִם"
+      },
+      {
+        "ja": "אלי' אלבלד. אלד'י אקסמת. לאברהים ויצחק ויעקוב",
+        "en": "to the land which I swore to Abraham and Isaac and Jacob,",
+        "he": "אֶל-הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לְאַבְרָהָם לְיִצְחָק וּלְיַעֲקֹב"
+      },
+      {
+        "ja": "קאילא. לנסלכם אעטיה",
+        "en": "saying: To your offspring I shall give it.'",
+        "he": "לֵאמֹר לְזַרְעֲךָ אֶתְּנֶנָּה"
+      }
+    ],
+    "2": [
+      {
+        "ja": "ואבעת' בין ידיך מלכא",
+        "en": "And I shall send before you an angel,",
+        "he": "וְשָׁלַחְתִּי לְפָנֶיךָ מַלְאָךְ"
+      },
+      {
+        "ja": "אטרד בה אלכנעאניין ואלאמוריין",
+        "en": "by whom I shall drive out the Canaanites and the Amorites,",
+        "he": "וְגֵרַשְׁתִּי אֶת-הַכְּנַעֲנִי הָאֱמֹרִי"
+      },
+      {
+        "ja": "ואלחתיין ואלפרזיין. ואלחויין ואליבוסיין",
+        "en": "and the Hittites and the Perizzites, and the Hivites and the Jebusites —",
+        "he": "וְהַחִתִּי וְהַפְּרִזִּי הַחִוִּי וְהַיְבוּסִי"
+      }
+    ],
+    "3": [
+      {
+        "ja": "אלי' בלד יפיץ' לבנא ועסלא",
+        "en": "to a land flowing with milk and honey.",
+        "he": "אֶל-אֶרֶץ זָבַת חָלָב וּדְבָשׁ"
+      },
+      {
+        "ja": "לאני לא אצעד נורי פי מא בינכם",
+        "en": "For I shall not bring up My light in your midst,",
+        "he": "כִּי לֹא אֶעֱלֶה בְּקִרְבְּךָ"
+      },
+      {
+        "ja": "לאנכם קום צעאב אלרקאב",
+        "en": "for you are a stiff-necked people,",
+        "he": "כִּי עַם-קְשֵׁה-עֹרֶף אַתָּה"
+      },
+      {
+        "ja": "כלא אפניכם פי אלטריק",
+        "en": "lest I bring you to an end along the way.'",
+        "he": "פֶּן-אֲכֶלְךָ בַּדָּרֶךְ"
+      }
+    ],
+    "4": [
+      {
+        "ja": "פלמא סמע אלקום. הד'א אלכ'בר אלסו",
+        "en": "And when the people heard this evil report,",
+        "he": "וַיִּשְׁמַע הָעָם אֶת-הַדָּבָר הָרָע הַזֶּה"
+      },
+      {
+        "ja": "חזנו",
+        "en": "they grieved,",
+        "he": "וַיִּתְאַבָּלוּ"
+      },
+      {
+        "ja": "ולם יגעל כל אמר זייה עליה",
+        "en": "and no one put his distinctive attire upon himself.",
+        "he": "וְלֹא-שָׁתוּ אִישׁ עֶדְיוֹ עָלָיו"
+      }
+    ],
+    "5": [
+      {
+        "ja": "פקאל אללה למוסי'",
+        "en": "And God said to Moses:",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "קל לבני אסראיל",
+        "en": "'Say to the sons of Israel:",
+        "he": "אֱמֹר אֶל-בְּנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אנתם קום צעאב אלרקאב",
+        "en": "You are a stiff-necked people.",
+        "he": "אַתֶּם עַם-קְשֵׁה-עֹרֶף"
+      },
+      {
+        "ja": "פלו אני אצעדת נורי פי מא בינכם. טרפה ואחדה אפניתכם",
+        "en": "If I were to bring up My light in your midst for even a single instant, I would bring you to an end.",
+        "he": "רֶגַע אֶחָד אֶעֱלֶה בְקִרְבְּךָ וְכִלִּיתִיךָ"
+      },
+      {
+        "ja": "ואלאן. אדימו עלי' נזע זייכם",
+        "en": "And now — proceed to remove your distinctive attire,",
+        "he": "וְעַתָּה הוֹרֵד עֶדְיְךָ מֵעָלֶיךָ"
+      },
+      {
+        "ja": "חתי' אערפכם מא אצנע בכם",
+        "en": "that I may make known to you what I shall do with you.'",
+        "he": "וְאֵדְעָה מָה אֶעֱשֶׂה-לָּךְ"
+      }
+    ],
+    "6": [
+      {
+        "ja": "פאקדאם בני אסראיל. עלי' נזע זייהם",
+        "en": "And the sons of Israel proceeded to remove their distinctive attire,",
+        "he": "וַיִּתְנַצְּלוּ בְנֵי-יִשְׂרָאֵל אֶת-עֶדְיָם"
+      },
+      {
+        "ja": "מן גבל חריב",
+        "en": "from Mount Horeb.",
+        "he": "מֵהַר חוֹרֵב"
+      }
+    ],
+    "7": [
+      {
+        "ja": "וכאן מוסי'. יאכ'ד' אלכ'בא",
+        "en": "And Moses would take the tent",
+        "he": "וּמֹשֶׁה יִקַּח אֶת-הָאֹהֶל"
+      },
+      {
+        "ja": "פיצ'רבה כ'ארג אלעסכר בעידא מנה",
+        "en": "and pitch it outside the camp, far from it,",
+        "he": "וְנָטָה-לוֹ מִחוּץ לַמַּחֲנֶה הַרְחֵק מִן-הַמַּחֲנֶה"
+      },
+      {
+        "ja": "ויסמיה מצ'רב אלועיד",
+        "en": "and call it the tent of appointment.",
+        "he": "וְקָרָא לוֹ אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "וכאן כל מן טלב עלמא מן ענד אללה. יכ'רג אלי' מצ'רב אלועיד. אלד'י כ'ארג אלעסכר",
+        "en": "And it was that whoever sought knowledge from God would go out to the tent of appointment which was outside the camp.",
+        "he": "וְהָיָה כָּל-מְבַקֵּשׁ יְהוָה יֵצֵא אֶל-אֹהֶל מוֹעֵד אֲשֶׁר מִחוּץ לַמַּחֲנֶה"
+      }
+    ],
+    "8": [
+      {
+        "ja": "וכאן מוסי' אד'י כ'רג אלי' אלכ'בא",
+        "en": "And it was, whenever Moses went out to the tent,",
+        "he": "וְהָיָה כְּצֵאת מֹשֶׁה אֶל-הָאֹהֶל"
+      },
+      {
+        "ja": "יקום גמיע אלקום. וינתצבון. כל אמר ענד באב כ'באיה",
+        "en": "all the people would rise and station themselves — each man at the door of his tent —",
+        "he": "יָקוּמוּ כָּל-הָעָם וְנִצְּבוּ אִישׁ פֶּתַח אָהֳלוֹ"
+      },
+      {
+        "ja": "וילתפתון ורא מוסי'. אלי' דכ'ולה אלי' אלכ'בא",
+        "en": "and they would look after Moses, until his entry into the tent.",
+        "he": "וְהִבִּיטוּ אַחֲרֵי מֹשֶׁה עַד-בֹּאוֹ הָאֹהֱלָה"
+      }
+    ],
+    "9": [
+      {
+        "ja": "וכאן מוסי' אד'י דכל אלכ'בא",
+        "en": "And it was, whenever Moses entered the tent,",
+        "he": "וְהָיָה כְּבֹא מֹשֶׁה הָאֹהֱלָה"
+      },
+      {
+        "ja": "ינזל עמוד אלג'מאם. ויקף עלי' באב אלכ'בא",
+        "en": "the pillar of cloud would descend and stand at the door of the tent;",
+        "he": "יֵרֵד עַמּוּד הֶעָנָן וְעָמַד פֶּתַח הָאֹהֶל"
+      },
+      {
+        "ja": "ויכלם אללה מוסי'",
+        "en": "and God would speak with Moses.",
+        "he": "וְדִבֶּר עִם-מֹשֶׁה"
+      }
+    ],
+    "10": [
+      {
+        "ja": "פאד'א ראי' גמיע אלקום עמוד אלג'מאם. ואקף עלי' באב אלכ'בא",
+        "en": "And whenever all the people saw the pillar of cloud standing at the door of the tent,",
+        "he": "וְרָאָה כָל-הָעָם אֶת-עַמּוּד הֶעָנָן עֹמֵד פֶּתַח הָאֹהֶל"
+      },
+      {
+        "ja": "קאמו אגמעין",
+        "en": "all the people would rise together,",
+        "he": "וְקָם כָּל-הָעָם"
+      },
+      {
+        "ja": "וסגד כל אמר עלי' באב כ'באיה",
+        "en": "and each man would bow down at the door of his tent.",
+        "he": "וְהִשְׁתַּחֲווּ אִישׁ פֶּתַח אָהֳלוֹ"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ויכלם אללה מוסי' שפאהא",
+        "en": "And God would speak with Moses mouth to mouth,",
+        "he": "וְדִבֶּר יְהוָה אֶל-מֹשֶׁה פָּנִים אֶל-פָּנִים"
+      },
+      {
+        "ja": "כמא יכלם אלמר צאחבה",
+        "en": "as a man speaks with his companion.",
+        "he": "כַּאֲשֶׁר יְדַבֵּר אִישׁ אֶל-רֵעֵהוּ"
+      },
+      {
+        "ja": "וירגע אלי' אלעסכר",
+        "en": "And he would return to the camp.",
+        "he": "וְשָׁב אֶל-הַמַּחֲנֶה"
+      },
+      {
+        "ja": "וכאן כ'אדמה. יהושע אבן נון שאבא",
+        "en": "And his attendant, Joshua son of Nun, a young man,",
+        "he": "וּמְשָׁרְתוֹ יְהוֹשֻׁעַ בִּן-נוּן נַעַר"
+      },
+      {
+        "ja": "לא יזול מן אלכ'בא",
+        "en": "would not depart from the tent.",
+        "he": "לֹא יָמִישׁ מִתּוֹךְ הָאֹהֶל"
+      }
+    ],
+    "12": [
+      {
+        "ja": "פקאל מוסי ללה",
+        "en": "And Moses said to God:",
+        "he": "וַיֹּאמֶר מֹשֶׁה אֶל-יְהוָה"
+      },
+      {
+        "ja": "אנת עאלם באנך קלת לי אצעד הולאי אלקום",
+        "en": "'You know that You said to me: Bring up these people —",
+        "he": "רְאֵה אַתָּה אֹמֵר אֵלַי הַעַל אֶת-הָעָם הַזֶּה"
+      },
+      {
+        "ja": "ואנת פלם תערפני. במן תבעת' מעי",
+        "en": "and yet You have not made known to me whom You are sending with me.",
+        "he": "וְאַתָּה לֹא הוֹדַעְתַּנִי אֵת אֲשֶׁר-תִּשְׁלַח עִמִּי"
+      },
+      {
+        "ja": "ואנת פקד קלת לי אני קד שרפת אסמך",
+        "en": "And You have said to me: I have honored your name,",
+        "he": "וְאַתָּה אָמַרְתָּ יְדַעְתִּיךָ בְשֵׁם"
+      },
+      {
+        "ja": "ווגדת חצ'אא ענדי",
+        "en": "and you have found favor with Me.'",
+        "he": "וְגַם-מָצָאתָ חֵן בְּעֵינָי"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ואלאן. אן ו'גדת חצ'אא ענדך",
+        "en": "And now — if I have found favor with You,",
+        "he": "וְעַתָּה אִם-נָא מָצָאתִי חֵן בְּעֵינֶיךָ"
+      },
+      {
+        "ja": "ערפני סיירך",
+        "en": "make known to me Your way,",
+        "he": "הוֹדִעֵנִי נָא אֶת-דְּרָכֶךָ"
+      },
+      {
+        "ja": "חתי' אערף בך",
+        "en": "that I may know You,",
+        "he": "וְאֵדָעֲךָ"
+      },
+      {
+        "ja": "לקבל אן אגד חצ'אא ענדך",
+        "en": "so that I may find favor with You;",
+        "he": "לְמַעַן אֶמְצָא-חֵן בְּעֵינֶיךָ"
+      },
+      {
+        "ja": "ואנצ'ר לשעבך הד'ה אלאמה",
+        "en": "and look upon Your people, this nation.'",
+        "he": "וּרְאֵה כִּי עַמְּךָ הַגּוֹי הַזֶּה"
+      }
+    ],
+    "14": [
+      {
+        "ja": "קאל לה. נורי יסיר מעך",
+        "en": "He said to him: 'My light shall go with you,",
+        "he": "וַיֹּאמַר פָּנַי יֵלֵכוּ"
+      },
+      {
+        "ja": "אלי' אן אקרך",
+        "en": "until I bring you to rest.'",
+        "he": "וַהֲנִחֹתִי לָךְ"
+      }
+    ],
+    "15": [
+      {
+        "ja": "קאל",
+        "en": "He said:",
+        "he": "וַיֹּאמֶר אֵלָיו"
+      },
+      {
+        "ja": "אן לם יסיר נורך מענא מן אלאן",
+        "en": "'If Your light does not go with us from now,",
+        "he": "אִם-אֵין פָּנֶיךָ הֹלְכִים"
+      },
+      {
+        "ja": "פלא תצעדנא מן ההני'",
+        "en": "do not bring us up from here.'",
+        "he": "אַל-תַּעֲלֵנוּ מִזֶּה"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ובמא ד'א יערף אלאן",
+        "en": "And by what shall it now be known",
+        "he": "וּבַמֶּה יִוָּדַע אֵפוֹא"
+      },
+      {
+        "ja": "אן קד וגדת חצ'אא ענדך אנא וקומך",
+        "en": "that I — and Your people — have found favor with You,",
+        "he": "כִּי-מָצָאתִי חֵן בְּעֵינֶיךָ אֲנִי וְעַמֶּךָ"
+      },
+      {
+        "ja": "אלא במסיר נורך מענא",
+        "en": "except by Your light going with us?",
+        "he": "הֲלוֹא בְּלֶכְתְּךָ עִמָּנוּ"
+      },
+      {
+        "ja": "פנבין אנא וקומך. מן גמיע אלקום. אלד'י עלי' וגה אלארץ'",
+        "en": "So that we — I and Your people — may be set apart from all the peoples who are upon the face of the earth.'",
+        "he": "וְנִפְלִינוּ אֲנִי וְעַמְּךָ מִכָּל-הָעָם אֲשֶׁר עַל-פְּנֵי הָאֲדָמָה"
+      }
+    ],
+    "17": [
+      {
+        "ja": "פקאל אללה למוסי'",
+        "en": "And God said to Moses:",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "הד'א אלאמר אלד'י סאלתה אצנעה איצ'א",
+        "en": "'This thing which you have asked — I shall do as well,",
+        "he": "גַּם אֶת-הַדָּבָר הַזֶּה אֲשֶׁר דִּבַּרְתָּ אֶעֱשֶׂה"
+      },
+      {
+        "ja": "לאנך קד ו'גדת חצ'אא ענדי",
+        "en": "for you have found favor with Me,",
+        "he": "כִּי-מָצָאתָ חֵן בְּעֵינַי"
+      },
+      {
+        "ja": "ושרפת אסמך",
+        "en": "and I have honored your name.'",
+        "he": "וָאֵדָעֲךָ בְּשֵׁם"
+      }
+    ],
+    "18": [
+      {
+        "ja": "קאל. אוריני נורך איצ'א",
+        "en": "He said: 'Show me Your light as well.'",
+        "he": "וַיֹּאמַר הַרְאֵנִי נָא אֶת-כְּבֹדֶךָ"
+      }
+    ],
+    "19": [
+      {
+        "ja": "קאל. אנא אמר גמיע נורי בחצ'רתך",
+        "en": "He said: 'I shall cause all My light to pass in your presence,",
+        "he": "וַיֹּאמֶר אֲנִי אַעֲבִיר כָּל-טוּבִי עַל-פָּנֶיךָ"
+      },
+      {
+        "ja": "ואנאדי באסם אללה בין ידיך",
+        "en": "and I shall call out in the name of God before you;",
+        "he": "וְקָרָאתִי בְשֵׁם יְהוָה לְפָנֶיךָ"
+      },
+      {
+        "ja": "וארוף מן ארוף",
+        "en": "and I shall show kindness to whom I show kindness,",
+        "he": "וְחַנֹּתִי אֶת-אֲשֶׁר אָחֹן"
+      },
+      {
+        "ja": "וארחם מן ארחם",
+        "en": "and I shall show mercy to whom I show mercy.'",
+        "he": "וְרִחַמְתִּי אֶת-אֲשֶׁר אֲרַחֵם"
+      }
+    ],
+    "20": [
+      {
+        "ja": "קאל. לא תטיק אן תרא נורי",
+        "en": "He said: 'You are not able to behold My light,",
+        "he": "וַיֹּאמֶר לֹא תוּכַל לִרְאֹת אֶת-פָּנָי"
+      },
+      {
+        "ja": "לאנה לא יראה אנסאן פיחיא",
+        "en": "for no person can behold it and live.'",
+        "he": "כִּי לֹא-יִרְאַנִי הָאָדָם וָחָי"
+      }
+    ],
+    "21": [
+      {
+        "ja": "קאל אללה",
+        "en": "And God said:",
+        "he": "וַיֹּאמֶר יְהוָה"
+      },
+      {
+        "ja": "הוד'י ענדי מוצ'ע",
+        "en": "'Behold, there is a place with Me —",
+        "he": "הִנֵּה מָקוֹם אִתִּי"
+      },
+      {
+        "ja": "אנתצב עלי' אלצואן",
+        "en": "station yourself upon the flint.'",
+        "he": "וְנִצַּבְתָּ עַל-הַצּוּר"
+      }
+    ],
+    "22": [
+      {
+        "ja": "פאד'א מר בך נורי",
+        "en": "'And when My light passes by you,",
+        "he": "וְהָיָה בַּעֲבֹר כְּבֹדִי"
+      },
+      {
+        "ja": "ציירתך פי נקיר אלצואן",
+        "en": "I shall place you in the cleft of the flint,",
+        "he": "וְשַׂמְתִּיךָ בְּנִקְרַת הַצּוּר"
+      },
+      {
+        "ja": "וצ'ללת כבסחאבי. עליך חתי יגוז אוולה",
+        "en": "and shall cast the shade of My cloud over you, until the first of it has passed.'",
+        "he": "וְשַׂכֹּתִי כַפִּי עָלֶיךָ עַד-עָבְרִי"
+      }
+    ],
+    "23": [
+      {
+        "ja": "ת'ם אזיל סחאבי",
+        "en": "'Then I shall remove My cloud,",
+        "he": "וַהֲסִרֹתִי אֶת-כַּפִּי"
+      },
+      {
+        "ja": "חתי' תנצ'ר אואכ'ר נורי",
+        "en": "so that you may behold the latter part of My light —",
+        "he": "וְרָאִיתָ אֶת-אֲחֹרָי"
+      },
+      {
+        "ja": "ואואילה לם תרא",
+        "en": "but its beginnings you shall not behold.'",
+        "he": "וּפָנַי לֹא יֵרָאוּ"
+      }
+    ]
+  }
+}

@@ -1,0 +1,617 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 6. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_6.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "פקאל אללה למוסי",
+        "en": "And God said to Moses",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "אלאן תנצ'ר",
+        "en": "Now you shall see",
+        "he": "עַתָּה תִרְאֶה"
+      },
+      {
+        "ja": "מא אצנע בפרעון",
+        "en": "what I shall do to Pharaoh",
+        "he": "אֲשֶׁר אֶעֱשֶׂה לְפַרְעֹה"
+      },
+      {
+        "ja": "אנה סיטלקהם ביד שדידה",
+        "en": "for by a mighty hand he shall release them",
+        "he": "כִּי בְיָד חֲזָקָה יְשַׁלְּחֵם"
+      },
+      {
+        "ja": "ויטרדהם מן בלדה ביד שדידה",
+        "en": "and by a mighty hand he shall drive them out of his land",
+        "he": "וּבְיָד חֲזָקָה יְגָרְשֵׁם מֵאַרְצוֹ"
+      }
+    ],
+    "2": [
+      {
+        "ja": "ת'ם כלם אללה מוסי'",
+        "en": "Then God spoke to Moses",
+        "he": "וַיְדַבֵּר אֱלֹהִים אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "וקאל לה",
+        "en": "and said to him",
+        "he": "וַיֹּאמֶר אֵלָיו"
+      },
+      {
+        "ja": "אנא אללה",
+        "en": "I am God",
+        "he": "אֲנִי יְהוָה"
+      }
+    ],
+    "3": [
+      {
+        "ja": "אלד'י תגלית",
+        "en": "who appeared",
+        "he": "וָאֵרָא"
+      },
+      {
+        "ja": "לאברהים ליצחק וליעקב",
+        "en": "to Abraham, to Isaac, and to Jacob",
+        "he": "אֶל-אַבְרָהָם אֶל-יִצְחָק וְאֶל-יַעֲקֹב"
+      },
+      {
+        "ja": "באלטאיק אלכאפי",
+        "en": "as the All-Sufficient One",
+        "he": "בְּאֵל שַׁדָּי"
+      },
+      {
+        "ja": "ואסמי אללה פקט",
+        "en": "but My name — God alone",
+        "he": "וּשְׁמִי יְהוָה"
+      },
+      {
+        "ja": "לם אערפהם",
+        "en": "I did not make known to them",
+        "he": "לֹא נוֹדַעְתִּי לָהֶם"
+      }
+    ],
+    "4": [
+      {
+        "ja": "ואיצ'א ת'בתת עהדי מעהם",
+        "en": "And also I confirmed My covenant with them",
+        "he": "וְגַם הֲקִמֹתִי אֶת-בְּרִיתִי אִתָּם"
+      },
+      {
+        "ja": "לאעטיהם בלד כנעאן",
+        "en": "to give them the land of Canaan",
+        "he": "לָתֵת לָהֶם אֶת-אֶרֶץ כְּנָעַן"
+      },
+      {
+        "ja": "בלד סכנאהם",
+        "en": "the land of their sojourning",
+        "he": "אֵת אֶרֶץ מְגֻרֵיהֶם"
+      },
+      {
+        "ja": "אלד'י סכנוה",
+        "en": "which they sojourned in",
+        "he": "אֲשֶׁר-גָּרוּ בָהּ"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ואיצ'א קד סמעת",
+        "en": "And also I have heard",
+        "he": "וְגַם אֲנִי שָׁמַעְתִּי"
+      },
+      {
+        "ja": "שהיק בני אסראיל",
+        "en": "the groaning of the sons of Israel",
+        "he": "אֶת-נַאֲקַת בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ממא אלמצריון יסתכדמונהם",
+        "en": "from what the Egyptians press them into as service",
+        "he": "אֲשֶׁר מִצְרַיִם מַעֲבִדִים אֹתָם"
+      },
+      {
+        "ja": "ודכרת עהדי",
+        "en": "and I have remembered My covenant",
+        "he": "וָאֶזְכֹּר אֶת-בְּרִיתִי"
+      }
+    ],
+    "6": [
+      {
+        "ja": "לד'אלך קל לבני אסראיל",
+        "en": "Therefore say to the sons of Israel",
+        "he": "לָכֵן אֱמֹר לִבְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אנא אללה",
+        "en": "I am God",
+        "he": "אֲנִי יְהוָה"
+      },
+      {
+        "ja": "אקסמת לאכרגכם מן תחת נקל אלמצריון",
+        "en": "I have sworn to bring you out from under the burdens of the Egyptians",
+        "he": "וְהוֹצֵאתִי אֶתְכֶם מִתַּחַת סִבְלֹת מִצְרַיִם"
+      },
+      {
+        "ja": "ואכלצכם מן כדמתהם",
+        "en": "and to deliver you from their service",
+        "he": "וְהִצַּלְתִּי אֶתְכֶם מֵעֲבֹדָתָם"
+      },
+      {
+        "ja": "ואפככם בד'ראע ממדודה",
+        "en": "and to redeem you with an outstretched arm",
+        "he": "וְגָאַלְתִּי אֶתְכֶם בִּזְרוֹעַ נְטוּיָה"
+      },
+      {
+        "ja": "ואחכאם ]עט'ימה] עצ'ימה",
+        "en": "and with great judgments",
+        "he": "וּבִשְׁפָטִים גְּדֹלִים"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ואתכ'דכם לי אמה",
+        "en": "And I shall take you to Me as a nation",
+        "he": "וְלָקַחְתִּי אֶתְכֶם לִי לְעָם"
+      },
+      {
+        "ja": "ואכון לכם אלאהא",
+        "en": "and I shall be to you the God",
+        "he": "וְהָיִיתִי לָכֶם לֵאלֹהִים"
+      },
+      {
+        "ja": "ותעלמון אני אללה רבכם",
+        "en": "and you shall know that I am God your Lord",
+        "he": "וִידַעְתֶּם כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אלמכ'רגכם מן תחת נקל אלמצריון",
+        "en": "who brings you out from under the burdens of the Egyptians",
+        "he": "הַמּוֹצִיא אֶתְכֶם מִתַּחַת סִבְלוֹת מִצְרָיִם"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ואדכ'לכם אלי' אלבלד",
+        "en": "And I shall bring you into the land",
+        "he": "וְהֵבֵאתִי אֶתְכֶם אֶל-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י אקסמת באמרי",
+        "en": "which I swore by My word",
+        "he": "אֲשֶׁר נָשָׂאתִי אֶת-יָדִי"
+      },
+      {
+        "ja": "אן אעטיה אבראהים יצחאק ויעקוב",
+        "en": "to give to Abraham, Isaac, and Jacob",
+        "he": "לָתֵת אֹתָהּ לְאַבְרָהָם לְיִצְחָק וּלְיַעֲקֹב"
+      },
+      {
+        "ja": "פאעטיה לכם חוזא",
+        "en": "and I shall give it to you as a possession",
+        "he": "וְנָתַתִּי אֹתָהּ לָכֶם מוֹרָשָׁה"
+      },
+      {
+        "ja": "אנא אללה אפי בדאלך",
+        "en": "I am God, I shall fulfil this",
+        "he": "אֲנִי יְהוָה"
+      }
+    ],
+    "9": [
+      {
+        "ja": "פכלם מוסי' בד'אלך בני אסראיל",
+        "en": "And Moses spoke thus to the sons of Israel",
+        "he": "וַיְדַבֵּר מֹשֶׁה כֵּן אֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ולם יקבלו מנה",
+        "en": "but they did not accept from him",
+        "he": "וְלֹא שָׁמְעוּ אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "מן צ'יק ארואחהם",
+        "en": "because of the anguish of their souls",
+        "he": "מִקֹּצֶר רוּחַ"
+      },
+      {
+        "ja": "ומן כ'דמתהם אלצעבה",
+        "en": "and their hard service",
+        "he": "וּמֵעֲבֹדָה קָשָׁה"
+      }
+    ],
+    "10": [
+      {
+        "ja": "ת'ם כלם אללה מוסי' תכלימא",
+        "en": "Then God spoke to Moses directly.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "11": [
+      {
+        "ja": "אדכל",
+        "en": "Go in",
+        "he": "בֹּא"
+      },
+      {
+        "ja": "כלם פרעון מלך מצר",
+        "en": "speak to Pharaoh, king of Egypt",
+        "he": "דַבֵּר אֶל-פַּרְעֹה מֶלֶךְ מִצְרָיִם"
+      },
+      {
+        "ja": "אן יטלק בני אסראיל מן בלדה",
+        "en": "that he release the sons of Israel from his land",
+        "he": "וִישַׁלַּח אֶת-בְּנֵי-יִשְׂרָאֵל מֵאַרְצוֹ"
+      }
+    ],
+    "12": [
+      {
+        "ja": "קאל יא רבי",
+        "en": "He said: 'O my Lord",
+        "he": "וַיְדַבֵּר מֹשֶׁה לִפְנֵי יְהוָה לֵאמֹר"
+      },
+      {
+        "ja": "הוד'א בני אסראיל לם יקבלו מני",
+        "en": "behold — the sons of Israel did not accept from me",
+        "he": "הֵן בְּנֵי-יִשְׂרָאֵל לֹא-שָׁמְעוּ אֵלַי"
+      },
+      {
+        "ja": "פכיף יקבל מני פרעון",
+        "en": "so how shall Pharaoh accept from me",
+        "he": "וְאֵיךְ יִשְׁמָעֵנִי פַרְעֹה"
+      },
+      {
+        "ja": "ואנא אלת'ג' אלפם",
+        "en": "when I am thick of speech",
+        "he": "וַאֲנִי עֲרַל שְׂפָתָיִם"
+      }
+    ],
+    "13": [
+      {
+        "ja": "פכלם אללה מוסי' והרון",
+        "en": "And God spoke to Moses and Aaron",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה וְאֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "ואוצאהמא",
+        "en": "and charged the two of them",
+        "he": "וַיְצַוֵּם"
+      },
+      {
+        "ja": "בסבב בני אסראיל",
+        "en": "concerning the sons of Israel",
+        "he": "אֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ובסבב פרעון מלך מצר",
+        "en": "and concerning Pharaoh, king of Egypt",
+        "he": "וְאֶל-פַּרְעֹה מֶלֶךְ מִצְרָיִם"
+      }
+    ],
+    "14": [
+      {
+        "ja": "הולאי רויסא ביות אבאיאהם",
+        "en": "These are the heads of their fathers' houses",
+        "he": "אֵלֶּה רָאשֵׁי בֵית-אֲבֹתָם"
+      },
+      {
+        "ja": "בני ראובן בכר אסראיל",
+        "en": "The sons of Reuben, the firstborn of Israel",
+        "he": "בְּנֵי רְאוּבֵן בְּכֹר יִשְׂרָאֵל"
+      },
+      {
+        "ja": "חנוך ופלוא חצרון וכרמי",
+        "en": "Hanoch and Pallu, Hezron and Carmi",
+        "he": "חֲנוֹךְ וּפַלּוּא חֶצְרֹן וְכַרְמִי"
+      },
+      {
+        "ja": "הד'א עשאיר ראובן",
+        "en": "these are the clans of Reuben",
+        "he": "אֵלֶּה מִשְׁפְּחֹת רְאוּבֵן"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ובני שמעון",
+        "en": "And the sons of Simeon",
+        "he": "וּבְנֵי שִׁמְעוֹן"
+      },
+      {
+        "ja": "ימואל וימין ואוהד ויכין וצחר",
+        "en": "Jemuel and Jamin and Ohad and Jachin and Zohar",
+        "he": "יְמוּאֵל וְיָמִין וְאֹהַד וְיָכִין וְצֹחַר"
+      },
+      {
+        "ja": "ושאול אבן אלכנעאנייה",
+        "en": "and Shaul the son of the Canaanite woman",
+        "he": "וְשָׁאוּל בֶּן-הַכְּנַעֲנִית"
+      },
+      {
+        "ja": "האולי עשאיר שמעון",
+        "en": "these are the clans of Simeon",
+        "he": "אֵלֶּה מִשְׁפְּחֹת שִׁמְעוֹן"
+      }
+    ],
+    "16": [
+      {
+        "ja": "והולאי אסמא בני לוי עלי' תיאלידהם",
+        "en": "And these are the names of the sons of Levi according to their generations",
+        "he": "וְאֵלֶּה שְׁמוֹת בְּנֵי-לֵוִי לְתֹלְדֹתָם"
+      },
+      {
+        "ja": "גרשון. וקהת ומררי",
+        "en": "Gershon, and Kohath, and Merari",
+        "he": "גֵּרְשׁוֹן וּקְהָת וּמְרָרִי"
+      },
+      {
+        "ja": "וסני חיוה' לוי",
+        "en": "and the years of the life of Levi",
+        "he": "וּשְׁנֵי חַיֵּי לֵוִי"
+      },
+      {
+        "ja": "מאיה וסבעה ות'לאת'ין סנה",
+        "en": "were a hundred and thirty-seven years",
+        "he": "שֶׁבַע וּשְׁלֹשִׁים וּמְאַת שָׁנָה"
+      }
+    ],
+    "17": [
+      {
+        "ja": "בני גרשון",
+        "en": "The sons of Gershon",
+        "he": "בְּנֵי גֵרְשׁוֹן"
+      },
+      {
+        "ja": "לבני ושמעי",
+        "en": "Libni and Shimei",
+        "he": "לִבְנִי וְשִׁמְעִי"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "according to their clans",
+        "he": "לְמִשְׁפְּחֹתָם"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ובני קהת",
+        "en": "And the sons of Kohath",
+        "he": "וּבְנֵי קְהָת"
+      },
+      {
+        "ja": "עמרם ויצהר. וחברון ועזיאל",
+        "en": "Amram and Izhar, and Hebron and Uzziel",
+        "he": "עַמְרָם וְיִצְהָר וְחֶבְרוֹן וְעֻזִּיאֵל"
+      },
+      {
+        "ja": "וסני חיוה' קהת",
+        "en": "and the years of the life of Kohath",
+        "he": "וּשְׁנֵי חַיֵּי קְהָת"
+      },
+      {
+        "ja": "מאיה ות'לאת'ה ות'לאת'ין סנה",
+        "en": "were a hundred and thirty-three years",
+        "he": "שָׁלֹשׁ וּשְׁלֹשִׁים וּמְאַת שָׁנָה"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ובני מררי מחלי ומושי",
+        "en": "And the sons of Merari: Mahli and Mushi",
+        "he": "וּבְנֵי מְרָרִי מַחְלִי וּמוּשִׁי"
+      },
+      {
+        "ja": "הולאי עשאיר אלליואניין עלי' תיאלידהם",
+        "en": "These are the clans of the Levites according to their generations",
+        "he": "אֵלֶּה מִשְׁפְּחֹת הַלֵּוִי לְתֹלְדֹתָם"
+      }
+    ],
+    "20": [
+      {
+        "ja": "פתזווג עמרם. יוכבד עמתה",
+        "en": "And Amram married Jochebed his aunt",
+        "he": "וַיִּקַּח עַמְרָם אֶת-יוֹכֶבֶד דֹּדָתוֹ"
+      },
+      {
+        "ja": "קבל אן תחצ'ר עליה",
+        "en": "before she became forbidden to him",
+        "he": "לוֹ לְאִשָּׁה"
+      },
+      {
+        "ja": "פולדת לה הרון ומוסי",
+        "en": "and she bore him Aaron and Moses",
+        "he": "וַתֵּלֶד לוֹ אֶת-אַהֲרֹן וְאֶת-מֹשֶׁה"
+      },
+      {
+        "ja": "וכאן סני חיאתה מאיה וסבעה ות'לאת'ין סנה",
+        "en": "And the years of his life were a hundred and thirty-seven years",
+        "he": "וּשְׁנֵי חַיֵּי עַמְרָם שֶׁבַע וּשְׁלֹשִׁים וּמְאַת שָׁנָה"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ובני יצהר",
+        "en": "And the sons of Izhar",
+        "he": "וּבְנֵי יִצְהָר"
+      },
+      {
+        "ja": "קרח ונפג וזכרי",
+        "en": "Korah and Nepheg and Zichri",
+        "he": "קֹרַח וָנֶפֶג וְזִכְרִי"
+      }
+    ],
+    "22": [
+      {
+        "ja": "ובני עזיאל",
+        "en": "And the sons of Uzziel",
+        "he": "וּבְנֵי עֻזִּיאֵל"
+      },
+      {
+        "ja": "מישאל ואלצפן וסתרי",
+        "en": "Mishael and Elzaphan and Sithri",
+        "he": "מִישָׁאֵל וְאֶלְצָפָן וְסִתְרִי"
+      }
+    ],
+    "23": [
+      {
+        "ja": "פתזווג הרון. אלישבע",
+        "en": "And Aaron married Elisheba",
+        "he": "וַיִּקַּח אַהֲרֹן אֶת-אֱלִישֶׁבַע"
+      },
+      {
+        "ja": "אבנה' עמינדב",
+        "en": "daughter of Amminadab",
+        "he": "בַּת-עַמִּינָדָב"
+      },
+      {
+        "ja": "אכ'ת נחשון",
+        "en": "sister of Nahshon",
+        "he": "אֲחוֹת נַחְשׁוֹן"
+      },
+      {
+        "ja": "פולדת לה. נדב ואביהוא",
+        "en": "and she bore him Nadab and Abihu",
+        "he": "וַתֵּלֶד לוֹ אֶת-נָדָב וְאֶת-אֲבִיהוּא"
+      },
+      {
+        "ja": "אלעזר ואיתמר",
+        "en": "Eleazar and Ithamar",
+        "he": "אֶת-אֶלְעָזָר וְאֶת-אִיתָמָר"
+      }
+    ],
+    "24": [
+      {
+        "ja": "ובני קרח",
+        "en": "And the sons of Korah",
+        "he": "וּבְנֵי קֹרַח"
+      },
+      {
+        "ja": "אסיר ואלקנה ואביאסף",
+        "en": "Assir and Elkanah and Abiasaph",
+        "he": "אַסִּיר וְאֶלְקָנָה וַאֲבִיאָסָף"
+      },
+      {
+        "ja": "הולאי עשאיר קרח",
+        "en": "these are the clans of Korah",
+        "he": "אֵלֶּה מִשְׁפְּחֹת הַקָּרְחִי"
+      }
+    ],
+    "25": [
+      {
+        "ja": "ואלעזר אבן הרון",
+        "en": "And Eleazar son of Aaron",
+        "he": "וְאֶלְעָזָר בֶּן-אַהֲרֹן"
+      },
+      {
+        "ja": "תזווג באמראה מן בנאת פוטיאל",
+        "en": "married a woman from the daughters of Putiel",
+        "he": "לָקַח-לוֹ מִבְּנוֹת פּוּטִיאֵל לוֹ לְאִשָּׁה"
+      },
+      {
+        "ja": "פולדת לה פינחס",
+        "en": "and she bore him Phinehas",
+        "he": "וַתֵּלֶד לוֹ אֶת-פִּינְחָס"
+      },
+      {
+        "ja": "הולאי רויסא אבא אלליואניין לעשאירהם",
+        "en": "These are the heads of the fathers of the Levites according to their clans",
+        "he": "אֵלֶּה רָאשֵׁי אֲבוֹת הַלְוִיִּם--לְמִשְׁפְּחֹתָם"
+      }
+    ],
+    "26": [
+      {
+        "ja": "המא הרון ומוסי",
+        "en": "They are Aaron and Moses",
+        "he": "הוּא אַהֲרֹן וּמֹשֶׁה"
+      },
+      {
+        "ja": "אלד'י קאל אללה להמא",
+        "en": "those to whom God said",
+        "he": "אֲשֶׁר אָמַר יְהוָה לָהֶם"
+      },
+      {
+        "ja": "אכ'רגא בני אסראיל",
+        "en": "Bring out the sons of Israel",
+        "he": "הוֹצִיאוּ אֶת-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "מן בלד מצר עלי' גיושהם",
+        "en": "from the land of Egypt according to their hosts",
+        "he": "מֵאֶרֶץ מִצְרַיִם עַל-צִבְאֹתָם"
+      }
+    ],
+    "27": [
+      {
+        "ja": "המא אלמכאטבין פרעון מלך מצר",
+        "en": "They are the ones who addressed Pharaoh, king of Egypt",
+        "he": "הֵם הַמְדַבְּרִים אֶל-פַּרְעֹה מֶלֶךְ-מִצְרַיִם"
+      },
+      {
+        "ja": "ליכ'רגא בני אסראיל מן מצר",
+        "en": "that he bring out the sons of Israel from Egypt",
+        "he": "לְהוֹצִיא אֶת-בְּנֵי-יִשְׂרָאֵל מִמִּצְרָיִם"
+      },
+      {
+        "ja": "המא מוסי' והרון",
+        "en": "they are Moses and Aaron",
+        "he": "הוּא מֹשֶׁה וְאַהֲרֹן"
+      }
+    ],
+    "28": [
+      {
+        "ja": "ולמא כאן פי יום",
+        "en": "And it was on the day",
+        "he": "וַיְהִי בְּיוֹם"
+      },
+      {
+        "ja": "כ'אטב אללה מוסי' פיה",
+        "en": "that God spoke to Moses",
+        "he": "דִּבֶּר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "פי בלד מצר",
+        "en": "in the land of Egypt",
+        "he": "בְּאֶרֶץ מִצְרָיִם"
+      }
+    ],
+    "29": [
+      {
+        "ja": "קאל אללה למוסי",
+        "en": "God said to Moses",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      },
+      {
+        "ja": "אנא אללה",
+        "en": "I am God",
+        "he": "אֲנִי יְהוָה"
+      },
+      {
+        "ja": "כלם פרעון מלך מצר",
+        "en": "speak to Pharaoh, king of Egypt",
+        "he": "דַּבֵּר אֶל-פַּרְעֹה מֶלֶךְ מִצְרַיִם"
+      },
+      {
+        "ja": "בגמיע מא אמרה בה",
+        "en": "all that I command you",
+        "he": "אֵת כָּל-אֲשֶׁר אֲנִי דֹּבֵר אֵלֶיךָ"
+      }
+    ],
+    "30": [
+      {
+        "ja": "פקאל בין ידיה",
+        "en": "And he said before Him",
+        "he": "וַיֹּאמֶר מֹשֶׁה לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "הוד'א אנא אלתג' אלפם",
+        "en": "Behold, I am thick of speech",
+        "he": "הֵן אֲנִי עֲרַל שְׂפָתַיִם"
+      },
+      {
+        "ja": "וכיף יסמע מני פרעון",
+        "en": "so how shall Pharaoh heed me",
+        "he": "וְאֵיךְ יִשְׁמַע אֵלַי פַּרְעֹה"
+      }
+    ]
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 22. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_22.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ואן וגד אלסארק פי אלנקב",
+        "en": "And if the thief be found in the breach",
+        "he": "אִם-בַּמַּחְתֶּרֶת יִמָּצֵא הַגַּנָּב"
+      },
+      {
+        "ja": "וצרב וקתל",
+        "en": "and be struck and killed",
+        "he": "וְהֻכָּה וָמֵת"
+      },
+      {
+        "ja": "פלא תבל לה",
+        "en": "take no account of him.",
+        "he": "אֵין לוֹ דָּמִים"
+      }
+    ],
+    "2": [
+      {
+        "ja": "ואן אשרקת עליה אלשמס",
+        "en": "And if the sun has shone upon him",
+        "he": "אִם-זָרְחָה הַשֶּׁמֶשׁ עָלָיו"
+      },
+      {
+        "ja": "פתבל לה",
+        "en": "then take account of him",
+        "he": "דָּמִים לוֹ"
+      },
+      {
+        "ja": "וליסלם מא סרק",
+        "en": "and he shall deliver what he stole",
+        "he": "שַׁלֵּם יְשַׁלֵּם"
+      },
+      {
+        "ja": "ואן לם יכון לה. פליבאע בסריקתה",
+        "en": "and if he has nothing, then he shall be sold for his theft.",
+        "he": "אִם-אֵין לוֹ וְנִמְכַּר בִּגְנֵבָתוֹ"
+      }
+    ],
+    "3": [
+      {
+        "ja": "ואן וגדת אלסרקה פי ידה",
+        "en": "And if the stolen thing be found in his hand",
+        "he": "אִם-הִמָּצֵא תִמָּצֵא בְיָדוֹ הַגְּנֵבָה"
+      },
+      {
+        "ja": "מן ת'ור אלי' חמאר. אלי' שאה",
+        "en": "whether ox or donkey or sheep",
+        "he": "מִשּׁוֹר עַד-חֲמוֹר עַד-שֶׂה"
+      },
+      {
+        "ja": "והם אחיא",
+        "en": "and they are alive",
+        "he": "חַיִּים"
+      },
+      {
+        "ja": "פליסלם בדל אלואחד את'נין",
+        "en": "he shall deliver two in place of the one.",
+        "he": "שְׁנַיִם יְשַׁלֵּם"
+      }
+    ],
+    "4": [
+      {
+        "ja": "ואן ארעא אנסאן ציעה או כרם לה",
+        "en": "And if a man grazes a field or a vineyard of his",
+        "he": "כִּי יַבְעֶר-אִישׁ שָׂדֶה אוֹ-כֶרֶם"
+      },
+      {
+        "ja": "פאטלק בהימתה",
+        "en": "and lets his beast loose",
+        "he": "וְשִׁלַּח אֶת-בְּעִירֹה"
+      },
+      {
+        "ja": "ורעת פי צ'יעה אכ'רי'",
+        "en": "and it grazes in another's field",
+        "he": "וּבִעֵר בִּשְׂדֵה אַחֵר"
+      },
+      {
+        "ja": "פליסלם מן אגוד צ'יעתה או כרמה",
+        "en": "he shall deliver from the best of his field or his vineyard.",
+        "he": "מֵיטַב שָׂדֵהוּ וּמֵיטַב כַּרְמוֹ יְשַׁלֵּם"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ואן כ'רגת נאר",
+        "en": "And if a fire breaks out",
+        "he": "כִּי-תֵצֵא אֵשׁ"
+      },
+      {
+        "ja": "פוגדת שוכא",
+        "en": "and finds thorns",
+        "he": "וּמָצְאָה קֹצִים"
+      },
+      {
+        "ja": "ואחרקת כדיסא. או סנבלא קאימא או סאיר מא פי אלצ'יאע",
+        "en": "and burns a stack, or standing ears of grain, or the rest of what is in the fields",
+        "he": "וְנֶאֱכַל גָּדִישׁ אוֹ הַקָּמָה אוֹ הַשָּׂדֶה"
+      },
+      {
+        "ja": "פליסלם מא יגב פיה. אלמשעל אלאשעאל",
+        "en": "he who kindled the burning shall deliver what is due from him.",
+        "he": "שַׁלֵּם יְשַׁלֵּם הַמַּבְעִר אֶת-הַבְּעֵרָה"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ואן דפע אנסאן לצאחבה. ורק או אניה ליחפצה לה",
+        "en": "And if a man entrusts to his fellow silver or vessels to keep for him",
+        "he": "כִּי-יִתֵּן אִישׁ אֶל-רֵעֵהוּ כֶּסֶף אוֹ-כֵלִים לִשְׁמֹר"
+      },
+      {
+        "ja": "פסרק ד'אלך מן מנזלה",
+        "en": "and that is stolen from his dwelling",
+        "he": "וְגֻנַּב מִבֵּית הָאִישׁ"
+      },
+      {
+        "ja": "אן וגד אלסארק סלם את'נין",
+        "en": "if the thief is found, he shall deliver two.",
+        "he": "אִם-יִמָּצֵא הַגַּנָּב יְשַׁלֵּם שְׁנָיִם"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ואן לם יוגד אלסארק",
+        "en": "And if the thief is not found",
+        "he": "אִם-לֹא יִמָּצֵא הַגַּנָּב"
+      },
+      {
+        "ja": "תקדם מולא אלמנזל אלי' אלחאכם",
+        "en": "the master of the dwelling shall come forward to the judge",
+        "he": "וְנִקְרַב בַּעַל-הַבַּיִת אֶל-הָאֱלֹהִים"
+      },
+      {
+        "ja": "וחלף אנה לם ימד ידה אלי' מאל צאחבה",
+        "en": "and swear that he did not put forth his hand to his fellow's property.",
+        "he": "אִם-לֹא שָׁלַח יָדוֹ בִּמְלֶאכֶת רֵעֵהוּ"
+      }
+    ],
+    "8": [
+      {
+        "ja": "עלי' כל אמר יגחדה",
+        "en": "Regarding every matter he denies",
+        "he": "עַל-כָּל-דְּבַר-פֶּשַׁע"
+      },
+      {
+        "ja": "מן ת'ור אלי' חמאר. אלי' שאה ואלי' ת'וב ואלי' כל צ'אלה",
+        "en": "whether ox or donkey or sheep or garment or any lost thing",
+        "he": "עַל-שׁוֹר עַל-חֲמוֹר עַל-שֶׂה עַל-שַׂלְמָה עַל-כָּל-אֲבֵדָה"
+      },
+      {
+        "ja": "אן יקול הד'א הו",
+        "en": "if one says 'this is it,'",
+        "he": "אֲשֶׁר יֹאמַר כִּי-הוּא זֶה"
+      },
+      {
+        "ja": "פאלי' אלחאכם ירפע אמרהמא",
+        "en": "the matter of the two of them shall be brought before the judge",
+        "he": "עַד הָאֱלֹהִים יָבֹא דְּבַר-שְׁנֵיהֶם"
+      },
+      {
+        "ja": "פמן צ'למה אלחאכם. סלם את'נין לצאחבה",
+        "en": "and whoever the judge finds in the wrong shall deliver two to his fellow.",
+        "he": "אֲשֶׁר יַרְשִׁיעֻן אֱלֹהִים יְשַׁלֵּם שְׁנַיִם לְרֵעֵהוּ"
+      }
+    ],
+    "9": [
+      {
+        "ja": "ואן דפע אנסאן לצאחבה. חמאר או ת'ור או שאה. או שי מן סאיר אלבהאים ליחפצה",
+        "en": "And if a man entrusts to his fellow a donkey, or an ox, or a sheep, or anything of the rest of the beasts, to keep it",
+        "he": "כִּי-יִתֵּן אִישׁ אֶל-רֵעֵהוּ חֲמוֹר אוֹ-שׁוֹר אוֹ-שֶׂה וְכָל-בְּהֵמָה--לִשְׁמֹר"
+      },
+      {
+        "ja": "פמאת. או אנכסר או סבי",
+        "en": "and it dies, or is injured, or is taken captive",
+        "he": "וּמֵת אוֹ-נִשְׁבַּר אוֹ-נִשְׁבָּה"
+      },
+      {
+        "ja": "בגיר ביינה",
+        "en": "with no clear witness",
+        "he": "אֵין רֹאֶה"
+      }
+    ],
+    "10": [
+      {
+        "ja": "פימין אללה תפצל פי מא בינהמא",
+        "en": "an oath by God shall decide between the two of them",
+        "he": "שְׁבֻעַת יְהוָה תִּהְיֶה בֵּין שְׁנֵיהֶם"
+      },
+      {
+        "ja": "אנה לם ימד ידה אלי' מאל צאחבה",
+        "en": "that he did not put forth his hand to his fellow's property",
+        "he": "אִם-לֹא שָׁלַח יָדוֹ בִּמְלֶאכֶת רֵעֵהוּ"
+      },
+      {
+        "ja": "ויקבלהא אלצאחב ולא יסלם שייא",
+        "en": "and the fellow shall accept it, and he shall deliver nothing.",
+        "he": "וְלָקַח בְּעָלָיו וְלֹא יְשַׁלֵּם"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ואן סרק מן ענדה",
+        "en": "And if it was stolen from his keeping",
+        "he": "וְאִם-גָּנֹב יִגָּנֵב מֵעִמּוֹ"
+      },
+      {
+        "ja": "סלם לה",
+        "en": "he shall deliver to him.",
+        "he": "יְשַׁלֵּם לִבְעָלָיו"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ואן אפתרס",
+        "en": "And if it was torn by a beast",
+        "he": "אִם-טָרֹף יִטָּרֵף"
+      },
+      {
+        "ja": "פליאת בשאהד",
+        "en": "let him bring a witness",
+        "he": "יְבִאֵהוּ עֵד"
+      },
+      {
+        "ja": "ולא יסלם אלפריסה",
+        "en": "and he shall not be liable for the torn animal.",
+        "he": "הַטְּרֵפָה לֹא יְשַׁלֵּם"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ואן אסתעאר אנסאן. שיא מן צאחבה",
+        "en": "And if a man borrows something from his fellow",
+        "he": "וְכִי-יִשְׁאַל אִישׁ מֵעִם רֵעֵהוּ"
+      },
+      {
+        "ja": "פאנכסר או מאת",
+        "en": "and it is broken or dies",
+        "he": "וְנִשְׁבַּר אוֹ-מֵת"
+      },
+      {
+        "ja": "וליס רבה מעה",
+        "en": "and its owner was not with him",
+        "he": "בְּעָלָיו אֵין-עִמּוֹ"
+      },
+      {
+        "ja": "פליג'רמה",
+        "en": "he shall pay a penalty for it.",
+        "he": "שַׁלֵּם יְשַׁלֵּם"
+      }
+    ],
+    "14": [
+      {
+        "ja": "ואן כאן רבה מעה פלא יג'רמה",
+        "en": "And if its owner was with him, he shall not pay a penalty",
+        "he": "אִם-בְּעָלָיו עִמּוֹ לֹא יְשַׁלֵּם"
+      },
+      {
+        "ja": "ואן כאן אגירא. פקד מר באגרתה",
+        "en": "and if it was hired, it has already passed with its hire.",
+        "he": "אִם-שָׂכִיר הוּא בָּא בִּשְׂכָרוֹ"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ואן כ'דע רג'ל גאריה בכר. מא לם תמלך",
+        "en": "And if a man deceives a maiden who is a virgin, who has not yet been betrothed",
+        "he": "וְכִי-יְפַתֶּה אִישׁ בְּתוּלָה אֲשֶׁר לֹא-אֹרָשָׂה"
+      },
+      {
+        "ja": "פצ'אגעהא",
+        "en": "and lies with her",
+        "he": "וְשָׁכַב עִמָּהּ"
+      },
+      {
+        "ja": "פלימהרהא ותכון לה זוגה",
+        "en": "he shall pay her bride-price, and she shall be his wife.",
+        "he": "מָהֹר יִמְהָרֶנָּה לּוֹ לְאִשָּׁה"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ואן אבא אביהא אן יזווגהא מנה",
+        "en": "And if her father refuses to give her to him in marriage",
+        "he": "אִם-מָאֵן יְמָאֵן אָבִיהָ לְתִתָּהּ לוֹ"
+      },
+      {
+        "ja": "פליזן לה מן אלורק. כמהר אלאבכאר",
+        "en": "he shall weigh out for him in silver the bride-price of virgins.",
+        "he": "כֶּסֶף יִשְׁקֹל כְּמֹהַר הַבְּתוּלֹת"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ואלסאחר פלא תסתבקה",
+        "en": "And the sorceress — do not let her live.",
+        "he": "מְכַשֵּׁפָה לֹא תְחַיֶּה"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ומן צ'אגע שייא מן אלבהאים פליקתל קתלא",
+        "en": "And whoever lies with any of the beasts shall be put to death.",
+        "he": "כָּל-שֹׁכֵב עִם-בְּהֵמָה מוֹת יוּמָת"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ומן ד'בח לאלמעבודאת פליתלף",
+        "en": "And whoever slaughters to the worshipped ones shall be destroyed",
+        "he": "זֹבֵחַ לָאֱלֹהִים יָחֳרָם"
+      },
+      {
+        "ja": "אלא לאסם אללה וחדה",
+        "en": "except to the name of God alone.",
+        "he": "בִּלְתִּי לַיהוָה לְבַדּוֹ"
+      }
+    ],
+    "20": [
+      {
+        "ja": "ואלג'ריב פלא תג'בנה ולא תצ'גטה",
+        "en": "And the stranger — do not cheat him nor press him",
+        "he": "וְגֵר לֹא-תוֹנֶה וְלֹא תִלְחָצֶנּוּ"
+      },
+      {
+        "ja": "פטאל מא כנתם ג'רבא פי בלד מצר",
+        "en": "for how long you were strangers in the land of Egypt.",
+        "he": "כִּי-גֵרִים הֱיִיתֶם בְּאֶרֶץ מִצְרָיִם"
+      }
+    ],
+    "21": [
+      {
+        "ja": "וכל ארמלה ויתים לא תצ'למון",
+        "en": "Every widow and orphan — do not wrong them.",
+        "he": "כָּל-אַלְמָנָה וְיָתוֹם לֹא תְעַנּוּן"
+      }
+    ],
+    "22": [
+      {
+        "ja": "פאנך אן צ'למתה",
+        "en": "For if you wrong him",
+        "he": "אִם-עַנֵּה תְעַנֶּה אֹתוֹ"
+      },
+      {
+        "ja": "וצרך' אליי",
+        "en": "and he cries out to Me",
+        "he": "כִּי אִם-צָעֹק יִצְעַק אֵלַי"
+      },
+      {
+        "ja": "אגבתה ען צראכ'ה",
+        "en": "I shall answer him regarding his cry.",
+        "he": "שָׁמֹעַ אֶשְׁמַע צַעֲקָתוֹ"
+      }
+    ],
+    "23": [
+      {
+        "ja": "באן ישתד ג'צ'בי",
+        "en": "My anger shall intensify",
+        "he": "וְחָרָה אַפִּי"
+      },
+      {
+        "ja": "ואקתלכם באלסיף",
+        "en": "and I shall kill you by the sword",
+        "he": "וְהָרַגְתִּי אֶתְכֶם בֶּחָרֶב"
+      },
+      {
+        "ja": "פתציר נסאכם אראמלא",
+        "en": "and your wives shall become widows",
+        "he": "וְהָיוּ נְשֵׁיכֶם אַלְמָנוֹת"
+      },
+      {
+        "ja": "ובניכם יתאמא",
+        "en": "and your sons orphans.",
+        "he": "וּבְנֵיכֶם יְתֹמִים"
+      }
+    ],
+    "24": [
+      {
+        "ja": "ואן אקרצ'ת בעץ' קומי ורקא. לצ'עיף מעך",
+        "en": "And if you lend silver to some of My people — to the poor one who is with you",
+        "he": "אִם-כֶּסֶף תַּלְוֶה אֶת-עַמִּי אֶת-הֶעָנִי עִמָּךְ"
+      },
+      {
+        "ja": "פלא תכון לה כאלג'רים",
+        "en": "do not be to him like a creditor",
+        "he": "לֹא-תִהְיֶה לוֹ כְּנֹשֶׁה"
+      },
+      {
+        "ja": "ולא תצייר עליה עיינה",
+        "en": "and do not impose upon him interest.",
+        "he": "לֹא-תְשִׂימוּן עָלָיו נֶשֶׁךְ"
+      }
+    ],
+    "25": [
+      {
+        "ja": "ואן אסתרהנת ת'וב צאחבך",
+        "en": "And if you take your fellow's garment as a pledge",
+        "he": "אִם-חָבֹל תַּחְבֹּל שַׂלְמַת רֵעֶךָ"
+      },
+      {
+        "ja": "פענד מג'יב אלשמס רדה עליה",
+        "en": "return it to him at the setting of the sun.",
+        "he": "עַד-בֹּא הַשֶּׁמֶשׁ תְּשִׁיבֶנּוּ לוֹ"
+      }
+    ],
+    "26": [
+      {
+        "ja": "אן כאנת הי כסותה וחדהא",
+        "en": "For it is his only covering",
+        "he": "כִּי הִוא כְסוּתֹה לְבַדָּהּ"
+      },
+      {
+        "ja": "או הי ת'וב בדנה",
+        "en": "it is the garment of his body",
+        "he": "הִוא שִׂמְלָתוֹ לְעֹרוֹ"
+      },
+      {
+        "ja": "פבמא ד'א ינצ'גע",
+        "en": "with what shall he lie down?",
+        "he": "בַּמֶּה יִשְׁכָּב"
+      },
+      {
+        "ja": "פאנה אן צרך' אליי. סמעת לה",
+        "en": "And if he cries out to Me, I shall hear him",
+        "he": "וְהָיָה כִּי-יִצְעַק אֵלַי וְשָׁמַעְתִּי"
+      },
+      {
+        "ja": "אני ראוף",
+        "en": "for I am compassionate.",
+        "he": "כִּי-חַנּוּן אָנִי"
+      }
+    ],
+    "27": [
+      {
+        "ja": "לא תשתמן חאכמא",
+        "en": "Do not revile a judge",
+        "he": "אֱלֹהִים לֹא תְקַלֵּל"
+      },
+      {
+        "ja": "ושריף פי קומך לא תלענה",
+        "en": "and a noble among your people — do not curse him.",
+        "he": "וְנָשִׂיא בְעַמְּךָ לֹא תָאֹר"
+      }
+    ],
+    "28": [
+      {
+        "ja": "וסלאפתך ורשחך לא תוכ'רהמא",
+        "en": "Your first-pressed yield and your first-drip offering — do not delay them",
+        "he": "מְלֵאָתְךָ וְדִמְעֲךָ לֹא תְאַחֵר"
+      },
+      {
+        "ja": "ובכור בניך תעטיניהם",
+        "en": "the firstborn of your sons you shall give to Me.",
+        "he": "בְּכוֹר בָּנֶיךָ תִּתֶּן-לִי"
+      }
+    ],
+    "29": [
+      {
+        "ja": "כד'אך תצנע בבקרך וג'נמך",
+        "en": "So shall you do with your cattle and your flock",
+        "he": "כֵּן-תַּעֲשֶׂה לְשֹׁרְךָ לְצֹאנֶךָ"
+      },
+      {
+        "ja": "יקים סבעה איאם מע אמה",
+        "en": "it shall remain seven days with its mother",
+        "he": "שִׁבְעַת יָמִים יִהְיֶה עִם-אִמּוֹ"
+      },
+      {
+        "ja": "ואליום אלת'אמן תעטיניה",
+        "en": "and on the eighth day you shall give it to Me.",
+        "he": "בַּיּוֹם הַשְּׁמִינִי תִּתְּנוֹ-לִי"
+      }
+    ],
+    "30": [
+      {
+        "ja": "ואנאס מקדסין כונו לי",
+        "en": "And be for Me a people who are consecrated.",
+        "he": "וְאַנְשֵׁי-קֹדֶשׁ תִּהְיוּן לִי"
+      },
+      {
+        "ja": "וחיואן מפתרס פי אלצחרי לא תאכלו",
+        "en": "And an animal torn in the open country — do not eat it",
+        "he": "וּבָשָׂר בַּשָּׂדֶה טְרֵפָה לֹא תֹאכֵלוּ"
+      },
+      {
+        "ja": "בל לאלכלב אטרחוה",
+        "en": "but throw it to the dog.",
+        "he": "לַכֶּלֶב תַּשְׁלִכוּן אֹתוֹ"
+      }
+    ]
+  }
+}

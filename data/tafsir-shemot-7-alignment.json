@@ -1,0 +1,503 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 7. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_7.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "פקאל אללה לה",
+        "en": "And God said to him",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "אנצ'ר",
+        "en": "Look",
+        "he": "רְאֵה"
+      },
+      {
+        "ja": "קד געלתך אסתאדא פי אמר פרעון",
+        "en": "I have made you a master in the matter of Pharaoh",
+        "he": "נְתַתִּיךָ אֱלֹהִים לְפַרְעֹה"
+      },
+      {
+        "ja": "והרון אכ'יך יכון תרגמאנך",
+        "en": "and Aaron your brother shall be your spokesman",
+        "he": "וְאַהֲרֹן אָחִיךָ יִהְיֶה נְבִיאֶךָ"
+      }
+    ],
+    "2": [
+      {
+        "ja": "אנת תכלם הרון אכ'יך בגמיע מא אמרך בה",
+        "en": "You shall speak to Aaron your brother with all that I command you",
+        "he": "אַתָּה תְדַבֵּר אֵת כָּל-אֲשֶׁר אֲצַוֶּךָּ"
+      },
+      {
+        "ja": "והרון אכ'יך יכלם פרעון",
+        "en": "and Aaron your brother shall speak to Pharaoh",
+        "he": "וְאַהֲרֹן אָחִיךָ יְדַבֵּר אֶל-פַּרְעֹה"
+      },
+      {
+        "ja": "ליטלק בני אסראיל מן בלדה",
+        "en": "that he may release the sons of Israel from his land",
+        "he": "וְשִׁלַּח אֶת-בְּנֵי-יִשְׂרָאֵל מֵאַרְצוֹ"
+      }
+    ],
+    "3": [
+      {
+        "ja": "ואנא אצעב קלב פרעון",
+        "en": "And I shall harden the heart of Pharaoh",
+        "he": "וַאֲנִי אַקְשֶׁה אֶת-לֵב פַּרְעֹה"
+      },
+      {
+        "ja": "ואכת'ר איאתי. ובראהיני",
+        "en": "and multiply My signs and My proofs",
+        "he": "וְהִרְבֵּיתִי אֶת-אֹתֹתַי וְאֶת-מוֹפְתַי"
+      },
+      {
+        "ja": "פי בלד מצר",
+        "en": "in the land of Egypt",
+        "he": "בְּאֶרֶץ מִצְרָיִם"
+      }
+    ],
+    "4": [
+      {
+        "ja": "ולא יקבל מנכם פרעון",
+        "en": "And Pharaoh shall not accept from you",
+        "he": "וְלֹא-יִשְׁמַע אֲלֵכֶם פַּרְעֹה"
+      },
+      {
+        "ja": "חתי' אחל אפתי באלמצריון",
+        "en": "until I bring My plagues upon the Egyptians",
+        "he": "וְנָתַתִּי אֶת-יָדִי בְּמִצְרָיִם"
+      },
+      {
+        "ja": "ואכ'רג גיושי. קומי בני אסראיל מן בלד מצר",
+        "en": "and bring forth My hosts — My people, the sons of Israel — from the land of Egypt",
+        "he": "וְהוֹצֵאתִי אֶת-צִבְאֹתַי אֶת-עַמִּי בְנֵי-יִשְׂרָאֵל מֵאֶרֶץ מִצְרַיִם"
+      },
+      {
+        "ja": "באחכאם ]עט'ימה] עצ'ימה",
+        "en": "with great judgments",
+        "he": "בִּשְׁפָטִים גְּדֹלִים"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ויעלמון אלמצריון אני אללה",
+        "en": "And the Egyptians shall know that I am God",
+        "he": "וְיָדְעוּ מִצְרַיִם כִּי-אֲנִי יְהוָה"
+      },
+      {
+        "ja": "אד'א אטלקת אפאתי עליהם",
+        "en": "when I release My plagues upon them",
+        "he": "בִּנְטֹתִי אֶת-יָדִי עַל-מִצְרָיִם"
+      },
+      {
+        "ja": "ואכ'רגת בני אסראיל מן בינהם",
+        "en": "and bring out the sons of Israel from among them",
+        "he": "וְהוֹצֵאתִי אֶת-בְּנֵי-יִשְׂרָאֵל מִתּוֹכָם"
+      }
+    ],
+    "6": [
+      {
+        "ja": "פצנע מוסי' והרון",
+        "en": "And Moses and Aaron did",
+        "he": "וַיַּעַשׂ מֹשֶׁה וְאַהֲרֹן"
+      },
+      {
+        "ja": "כמא אמרהמא אללה",
+        "en": "as God had commanded them",
+        "he": "כַּאֲשֶׁר צִוָּה יְהוָה אֹתָם"
+      },
+      {
+        "ja": "כד'אך צנעו",
+        "en": "so they did",
+        "he": "כֵּן עָשׂוּ"
+      }
+    ],
+    "7": [
+      {
+        "ja": "וכאן מוסי' אבן ת'מאנין סנה",
+        "en": "And Moses was eighty years of age",
+        "he": "וּמֹשֶׁה בֶּן-שְׁמֹנִים שָׁנָה"
+      },
+      {
+        "ja": "והרון אבן ת'לאת'ה ות'מאנין סנה",
+        "en": "and Aaron eighty-three years of age",
+        "he": "וְאַהֲרֹן בֶּן-שָׁלֹשׁ וּשְׁמֹנִים שָׁנָה"
+      },
+      {
+        "ja": "חין כלמו פרעון",
+        "en": "when the two of them spoke to Pharaoh",
+        "he": "בְּדַבְּרָם אֶל-פַּרְעֹה"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ת'ם קאל אללה. למוסי והרון קאילא",
+        "en": "Then God said to Moses and Aaron, saying",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה וְאֶל-אַהֲרֹן לֵאמֹר"
+      }
+    ],
+    "9": [
+      {
+        "ja": "כ) אד'א כלמכם פרעון. וקאל אעטוני ברהאנא",
+        "en": "When Pharaoh speaks to you and says: Give me a proof",
+        "he": "כִּי יְדַבֵּר אֲלֵכֶם פַּרְעֹה לֵאמֹר תְּנוּ לָכֶם מוֹפֵת"
+      },
+      {
+        "ja": "פקל להרון כ'ד עצאך",
+        "en": "then say to Aaron: Take your staff",
+        "he": "וְאָמַרְתָּ אֶל-אַהֲרֹן קַח אֶת-מַטְּךָ"
+      },
+      {
+        "ja": "ואטרחהא בין ידיה תציר תנינא",
+        "en": "and throw it before him; it shall become a serpent",
+        "he": "וְהַשְׁלֵךְ לִפְנֵי-פַרְעֹה--יְהִי לְתַנִּין"
+      }
+    ],
+    "10": [
+      {
+        "ja": "פדכ'ל מוסי' והרון אלי פרעון",
+        "en": "And Moses and Aaron went in to Pharaoh",
+        "he": "וַיָּבֹא מֹשֶׁה וְאַהֲרֹן אֶל-פַּרְעֹה"
+      },
+      {
+        "ja": "וצנעא כד'אך כמא קאל אללה",
+        "en": "and did so, as God had said",
+        "he": "וַיַּעֲשׂוּ כֵן כַּאֲשֶׁר צִוָּה יְהוָה"
+      },
+      {
+        "ja": "וטרח הרון עצאה. בין ידי פרעון וקואדה",
+        "en": "and Aaron threw his staff before Pharaoh and his officers",
+        "he": "וַיַּשְׁלֵךְ אַהֲרֹן אֶת-מַטֵּהוּ לִפְנֵי פַרְעֹה וְלִפְנֵי עֲבָדָיו"
+      },
+      {
+        "ja": "פצארת תנינא",
+        "en": "and it became a serpent",
+        "he": "וַיְהִי לְתַנִּין"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ת'ם דעא פרעון. באלחכמא ואלסחרה",
+        "en": "Then Pharaoh called for the sages and the sorcerers",
+        "he": "וַיִּקְרָא גַּם-פַּרְעֹה לַחֲכָמִים וְלַמְכַשְּׁפִים"
+      },
+      {
+        "ja": "וצנעו כד'אך. עלמא מצר בכ'פיהם",
+        "en": "and the learned men of Egypt did the same with their secret arts",
+        "he": "וַיַּעֲשׂוּ גַם-הֵם חַרְטֻמֵּי מִצְרַיִם בְּלַהֲטֵיהֶם--כֵּן"
+      }
+    ],
+    "12": [
+      {
+        "ja": "טרח כל רגל עצאה. פצארת כאלתנאנין",
+        "en": "Each man threw his staff, and they became like serpents",
+        "he": "וַיַּשְׁלִיכוּ אִישׁ מַטֵּהוּ וַיִּהְיוּ לְתַנִּינִם"
+      },
+      {
+        "ja": "פאבתלעת עצא הרון עצייהם",
+        "en": "but Aaron's staff swallowed their staves",
+        "he": "וַיִּבְלַע מַטֵּה-אַהֲרֹן אֶת-מַטֹּתָם"
+      }
+    ],
+    "13": [
+      {
+        "ja": "פאשתד קלב פרעון",
+        "en": "And Pharaoh's heart was hardened",
+        "he": "וַיֶּחֱזַק לֵב פַּרְעֹה"
+      },
+      {
+        "ja": "ולם יקבל מנהמא",
+        "en": "and he did not accept from them",
+        "he": "וְלֹא שָׁמַע אֲלֵהֶם"
+      },
+      {
+        "ja": "כמא קאל אללה",
+        "en": "as God had said",
+        "he": "כַּאֲשֶׁר דִּבֶּר יְהוָה"
+      }
+    ],
+    "14": [
+      {
+        "ja": "פקאל אללה למוסי'",
+        "en": "And God said to Moses",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "קד ת'קל קלב פרעון",
+        "en": "The heart of Pharaoh has grown heavy",
+        "he": "כָּבֵד לֵב פַּרְעֹה"
+      },
+      {
+        "ja": "ואבא אן יטלק אלקום",
+        "en": "and he has refused to release the people",
+        "he": "מֵאֵן לְשַׁלַּח הָעָם"
+      }
+    ],
+    "15": [
+      {
+        "ja": "אמץ' אליה באלג'דאה",
+        "en": "Go to him in the morning",
+        "he": "לֵךְ אֶל-פַּרְעֹה בַּבֹּקֶר"
+      },
+      {
+        "ja": "הוד'אה כ'ארג אלי' אלמא",
+        "en": "behold, he is going out to the water",
+        "he": "הִנֵּה יֹצֵא הַמַּיְמָה"
+      },
+      {
+        "ja": "וקף תלקאה עלי' שאטי אלניל",
+        "en": "and stand to meet him on the shore of the Nile",
+        "he": "וְנִצַּבְתָּ לִקְרָאתוֹ עַל-שְׂפַת הַיְאֹר"
+      },
+      {
+        "ja": "ואלעצא. אלד'י אנקלבת ת'עבאנא כ'ד'הא בידך",
+        "en": "and the staff which turned into a serpent, take it in your hand",
+        "he": "וְהַמַּטֶּה אֲשֶׁר-נֶהְפַּךְ לְנָחָשׁ תִּקַּח בְּיָדֶךָ"
+      }
+    ],
+    "16": [
+      {
+        "ja": "וקל לה",
+        "en": "And say to him",
+        "he": "וְאָמַרְתָּ אֵלָיו"
+      },
+      {
+        "ja": "אללה אלאה אלעבראניין בעת'ני אליך",
+        "en": "God, the God of the Hebrews, has sent me to you",
+        "he": "יְהוָה אֱלֹהֵי הָעִבְרִים שְׁלָחַנִי אֵלֶיךָ"
+      },
+      {
+        "ja": "אטלק קומי",
+        "en": "Release my people",
+        "he": "שַׁלַּח אֶת-עַמִּי"
+      },
+      {
+        "ja": "יעבדוני פי אלבר",
+        "en": "that they may serve me in the open country",
+        "he": "וְיַעַבְדֻנִי בַּמִּדְבָּר"
+      },
+      {
+        "ja": "והוד'אך לם תקבל אלי' אלאן",
+        "en": "and behold, you have not accepted until now",
+        "he": "וְהִנֵּה לֹא-שָׁמַעְתָּ עַד-כֹּה"
+      }
+    ],
+    "17": [
+      {
+        "ja": "כד'א קאל אללה",
+        "en": "Thus says God",
+        "he": "כֹּה אָמַר יְהוָה"
+      },
+      {
+        "ja": "בהד'ה אלכ'לה תעלם. אני אללה אלמעאקב",
+        "en": "By this means shall you know that I am God, the One who punishes",
+        "he": "בְּזֹאת תֵּדַע כִּי אֲנִי יְהוָה"
+      },
+      {
+        "ja": "האנא צ'ארב באלעצא אלתי פי ידי",
+        "en": "behold, I am striking with the staff that is in my hand",
+        "he": "הִנֵּה אָנֹכִי מַכֶּה בַּמַּטֶּה אֲשֶׁר-בְּיָדִי"
+      },
+      {
+        "ja": "אלמא אלד'י פי אלניל פינקלב דמא",
+        "en": "the water which is in the Nile, and it shall turn to blood",
+        "he": "עַל-הַמַּיִם אֲשֶׁר בַּיְאֹר--וְנֶהֶפְכוּ לְדָם"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ואלסמך אלד'י פי אלניל . יתמאות",
+        "en": "And the fish that are in the Nile shall perish",
+        "he": "וְהַדָּגָה אֲשֶׁר-בַּיְאֹר תָּמוּת"
+      },
+      {
+        "ja": "וינתן אלניל",
+        "en": "and the Nile shall stink",
+        "he": "וּבָאַשׁ הַיְאֹר"
+      },
+      {
+        "ja": "ויעגז אלמצריון. אן ישרבון מאא מן אלניל",
+        "en": "and the Egyptians shall be unable to drink water from the Nile",
+        "he": "וְנִלְאוּ מִצְרַיִם לִשְׁתּוֹת מַיִם מִן-הַיְאֹר"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ת'ם קאל אללה למוסי",
+        "en": "Then God said to Moses",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "קל להרון. כ'ד' עצאך",
+        "en": "Say to Aaron: Take your staff",
+        "he": "אֱמֹר אֶל-אַהֲרֹן קַח מַטְּךָ"
+      },
+      {
+        "ja": "ומד ידך עלי' מיאת אלמצריון. ואנהארהם וכ'לגאנהם ואגאמהם",
+        "en": "and stretch out your hand over the waters of the Egyptians — over their rivers and their inlets and their marshes",
+        "he": "וּנְטֵה-יָדְךָ עַל-מֵימֵי מִצְרַיִם עַל-נַהֲרֹתָם עַל-יְאֹרֵיהֶם וְעַל-אַגְמֵיהֶם"
+      },
+      {
+        "ja": "וסאיר מלאם מיאהם פתציר דמא",
+        "en": "and the rest of the gatherings of their waters — that they may turn to blood",
+        "he": "וְעַל כָּל-מִקְוֵה מֵימֵיהֶם--וְיִהְיוּ-דָם"
+      },
+      {
+        "ja": "ויכון דם פי גמיע בלד מצר. ופי אואני אלכ'שב ואלחגארה",
+        "en": "and there shall be blood throughout all the land of Egypt, and in vessels of wood and of stone",
+        "he": "וְהָיָה דָם בְּכָל-אֶרֶץ מִצְרַיִם וּבָעֵצִים וּבָאֲבָנִים"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ואלסמך אלד'י פי אלניל תמאות",
+        "en": "And the fish that were in the Nile perished",
+        "he": "וְהַדָּגָה אֲשֶׁר-בַּיְאֹר מֵתָה"
+      },
+      {
+        "ja": "ונתן אלניל",
+        "en": "and the Nile stank",
+        "he": "וַיִּבְאַשׁ הַיְאֹר"
+      },
+      {
+        "ja": "ועגז אלמצריון. אן ישרבו מנה מאא",
+        "en": "and the Egyptians were unable to drink water from it",
+        "he": "וְלֹא-יָכְלוּ מִצְרַיִם לִשְׁתּוֹת מַיִם מִן-הַיְאֹר"
+      },
+      {
+        "ja": "פצאר אלדם פי גמיע בלד מצר",
+        "en": "and blood was throughout all the land of Egypt",
+        "he": "וַיְהִי הַדָּם בְּכָל-אֶרֶץ מִצְרָיִם"
+      }
+    ],
+    "22": [
+      {
+        "ja": "פצנע כד'אך עלמא מצר בכ'פיהום",
+        "en": "And the learned men of Egypt did the same with their secret arts",
+        "he": "וַיַּעֲשׂוּ-כֵן חַרְטֻמֵּי מִצְרַיִם בְּלָטֵיהֶם"
+      },
+      {
+        "ja": "פאשתד קלב פרעון",
+        "en": "and Pharaoh's heart was hardened",
+        "he": "וַיֶּחֱזַק לֵב-פַּרְעֹה"
+      },
+      {
+        "ja": "ולם יקבל מנהמא",
+        "en": "and he did not accept from them",
+        "he": "וְלֹא-שָׁמַע אֲלֵהֶם"
+      },
+      {
+        "ja": "כמא קאל אללה",
+        "en": "as God had said",
+        "he": "כַּאֲשֶׁר דִּבֶּר יְהוָה"
+      }
+    ],
+    "23": [
+      {
+        "ja": "ת'ם ולא פרעון. ודכ'ל אלי' מנזלה",
+        "en": "Then Pharaoh turned away and entered his house",
+        "he": "וַיִּפֶן פַּרְעֹה וַיָּבֹא אֶל-בֵּיתוֹ"
+      },
+      {
+        "ja": "ולם ירד באלה אלי' הד'א איצ'א",
+        "en": "and did not set his mind to this either",
+        "he": "וְלֹא-שָׁת לִבּוֹ גַּם-לָזֹאת"
+      }
+    ],
+    "24": [
+      {
+        "ja": "ואחתפר גמיע אלמצריון. חואלי אלניל אבארא לישרבו מנהא",
+        "en": "And all the Egyptians dug wells around the Nile to drink from them",
+        "he": "וַיַּחְפְּרוּ כָל-מִצְרַיִם סְבִיבֹת הַיְאֹר מַיִם לִשְׁתּוֹת"
+      },
+      {
+        "ja": "אד' לם יטיקו אן ישרבו. מן מא אלניל",
+        "en": "since they could not bear to drink from the water of the Nile",
+        "he": "כִּי לֹא יָכְלוּ לִשְׁתֹּת מִמֵּימֵי הַיְאֹר"
+      }
+    ],
+    "25": [
+      {
+        "ja": "ולמא כמלת סבעה' איאם",
+        "en": "And when seven days had been completed",
+        "he": "וַיִּמָּלֵא שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "בעד מא צ'רב אללה אלניל בד'אלך",
+        "en": "after God had struck the Nile — thereafter",
+        "he": "אַחֲרֵי הַכּוֹת-יְהוָה אֶת-הַיְאֹר"
+      }
+    ],
+    "26": [
+      {
+        "ja": "פקאל אללה למוסי'",
+        "en": "God said to Moses",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "אדכ'ל אלי פרעון",
+        "en": "Go in to Pharaoh",
+        "he": "בֹּא אֶל-פַּרְעֹה"
+      },
+      {
+        "ja": "וקל לה. כד'א קאל אללה",
+        "en": "and say to him: Thus says God",
+        "he": "וְאָמַרְתָּ אֵלָיו כֹּה אָמַר יְהוָה"
+      },
+      {
+        "ja": "אטלק קומי יעבדוני",
+        "en": "release my people, that they may serve me",
+        "he": "שַׁלַּח אֶת-עַמִּי וְיַעַבְדֻנִי"
+      }
+    ],
+    "27": [
+      {
+        "ja": "פאן אבית אן תטלקהום",
+        "en": "And if you refuse to release them",
+        "he": "וְאִם-מָאֵן אַתָּה לְשַׁלֵּחַ"
+      },
+      {
+        "ja": "האנא צאדם תכ'מך באלצ'פאדע",
+        "en": "behold, I am about to strike your territory with frogs",
+        "he": "הִנֵּה אָנֹכִי נֹגֵף אֶת-כָּל-גְּבוּלְךָ--בַּצְפַרְדְּעִים"
+      }
+    ],
+    "28": [
+      {
+        "ja": "ותסעי מן אלניל אלצ'פאדע",
+        "en": "And the frogs shall move forth from the Nile",
+        "he": "וְשָׁרַץ הַיְאֹר צְפַרְדְּעִים"
+      },
+      {
+        "ja": "ותצעד ותדכ'ל פי ביתך. ופי כ'דר מצ'געך ועלי' סרירך",
+        "en": "and shall ascend and enter into your house, and into the inner chamber of your bed and upon your bed",
+        "he": "וְעָלוּ וּבָאוּ בְּבֵיתֶךָ וּבַחֲדַר מִשְׁכָּבְךָ וְעַל-מִטָּתֶךָ"
+      },
+      {
+        "ja": "ופי תנאנירך",
+        "en": "and into your ovens",
+        "he": "וּבְבֵית עֲבָדֶיךָ"
+      },
+      {
+        "ja": "ומעאגנך",
+        "en": "and your kneading-troughs",
+        "he": "וּבְתַנּוּרֶיךָ וּבְמִשְׁאֲרוֹתֶיךָ"
+      }
+    ],
+    "29": [
+      {
+        "ja": "ופי גסמך וגסם קומך וקואדך",
+        "en": "And upon your person and upon the person of your people and your officers",
+        "he": "וּבְכָה וּבְעַמְּךָ וּבְכָל-עֲבָדֶיךָ"
+      },
+      {
+        "ja": "תצעד אלצ'פאדע",
+        "en": "the frogs shall ascend",
+        "he": "יַעֲלוּ הַצְפַרְדְּעִים"
+      }
+    ]
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 37. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_37.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "וצנע בצלאל אלצנדוק מן כ'שב אלסנט",
+        "en": "And Bezalel made the ark from acacia wood",
+        "he": "וַיַּעַשׂ בְּצַלְאֵל אֶת-הָאָרֹן עֲצֵי שִׁטִּים"
+      },
+      {
+        "ja": "דראעין ונצף טולה",
+        "en": "two cubits and a half its length",
+        "he": "אַמָּתַיִם וָחֵצִי אָרְכּוֹ"
+      },
+      {
+        "ja": "וד'ראע ונצף ערצ'ה",
+        "en": "and a cubit and a half its width",
+        "he": "וְאַמָּה וָחֵצִי רָחְבּוֹ"
+      },
+      {
+        "ja": "וד'ראע ונצף סמכה",
+        "en": "and a cubit and a half its height",
+        "he": "וְאַמָּה וָחֵצִי קֹמָתוֹ"
+      }
+    ],
+    "2": [
+      {
+        "ja": "וג'שאה בד'הב כ'אלץ. מן דאכ'ל ומן כ'ארג",
+        "en": "And he overlaid it with pure gold, from within and from without",
+        "he": "וַיְצַפֵּהוּ זָהָב טָהוֹר מִבַּיִת וּמִחוּץ"
+      },
+      {
+        "ja": "וצנע לה. זיגא מן ד'הב מסתדירא",
+        "en": "and he made for it a border of gold, encircling all around",
+        "he": "וַיַּעַשׂ לוֹ זֵר זָהָב סָבִיב"
+      }
+    ],
+    "3": [
+      {
+        "ja": "וצאג' לה ארבע חלק מן ד'הב. וגעלהא פי ארבע גהאתה",
+        "en": "And he cast for it four rings of gold, and set them on its four sides",
+        "he": "וַיִּצֹק לוֹ אַרְבַּע טַבְּעֹת זָהָב עַל אַרְבַּע פַּעֲמֹתָיו"
+      },
+      {
+        "ja": "חלקתין מן גאנבה אלואחד",
+        "en": "two rings on one side of it",
+        "he": "שְׁתֵּי טַבָּעֹת עַל-צַלְעוֹ הָאֶחָת"
+      },
+      {
+        "ja": "וחלקתין מן גאנבה אלכת'אני",
+        "en": "and two rings on the other side",
+        "he": "וּשְׁתֵּי טַבָּעֹת עַל-צַלְעוֹ הַשֵּׁנִית"
+      }
+    ],
+    "4": [
+      {
+        "ja": "וצנע דהוקא מן כ'שב אלסנט",
+        "en": "And he made carrying-poles from acacia wood",
+        "he": "וַיַּעַשׂ בַּדֵּי עֲצֵי שִׁטִּים"
+      },
+      {
+        "ja": "וגשאהא בד'הב",
+        "en": "and overlaid them with gold",
+        "he": "וַיְצַף אֹתָם זָהָב"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ואדכ'ל אלדהוק פי אלחלק. עלי' גאנבי אלצנדוק",
+        "en": "And he inserted the poles into the rings, on the two sides of the ark",
+        "he": "וַיָּבֵא אֶת-הַבַּדִּים בַּטַּבָּעֹת עַל צַלְעֹת הָאָרֹן"
+      },
+      {
+        "ja": "ליחמל בהא",
+        "en": "so that it might be carried by them",
+        "he": "לָשֵׂאת אֶת-הָאָרֹן"
+      }
+    ],
+    "6": [
+      {
+        "ja": "וצנע ג'שאא מן ד'הב כ'אלץ",
+        "en": "And he made a cover of pure gold",
+        "he": "וַיַּעַשׂ כַּפֹּרֶת זָהָב טָהוֹר"
+      },
+      {
+        "ja": "ד'ראעין ונצף טולה",
+        "en": "two cubits and a half its length",
+        "he": "אַמָּתַיִם וָחֵצִי אָרְכָּהּ"
+      },
+      {
+        "ja": "וד'ראע ונצף ערצה",
+        "en": "and a cubit and a half its width",
+        "he": "וְאַמָּה וָחֵצִי רָחְבָּהּ"
+      }
+    ],
+    "7": [
+      {
+        "ja": "וצנע כרובין מן ד'הב. מצמתין צנעהמא",
+        "en": "And he made two cherubim of gold — solid he made them",
+        "he": "וַיַּעַשׂ שְׁנֵי כְרֻבִים זָהָב מִקְשָׁה עָשָׂה אֹתָם"
+      },
+      {
+        "ja": "מן טרפי אלג'שא",
+        "en": "from the two ends of the cover",
+        "he": "מִשְּׁנֵי קְצוֹת הַכַּפֹּרֶת"
+      }
+    ],
+    "8": [
+      {
+        "ja": "אחדהמא מן גאנבה אלאימן",
+        "en": "One of them from its right side",
+        "he": "כְּרוּב-אֶחָד מִקָּצָה מִזֶּה"
+      },
+      {
+        "ja": "ואלאכ'ר מן גאנבה אלאיסר",
+        "en": "and the other from its left side",
+        "he": "וּכְרוּב-אֶחָד מִקָּצָה מִזֶּה"
+      },
+      {
+        "ja": "מן נפס אלג'שא. צנעהמא מן טרפיה",
+        "en": "from the body of the cover itself he made them, from its two ends",
+        "he": "מִן-הַכַּפֹּרֶת עָשָׂה אֶת-הַכְּרֻבִים מִשְּׁנֵי קצוותו (קְצוֹתָיו)"
+      }
+    ],
+    "9": [
+      {
+        "ja": "פכאנא אלכרובין באסטין אגנחתהמא אלי' פוק",
+        "en": "And the two cherubim were spreading their wings upward",
+        "he": "וַיִּהְיוּ הַכְּרֻבִים פֹּרְשֵׂי כְנָפַיִם לְמַעְלָה"
+      },
+      {
+        "ja": "ומצ'ללין בהא עלי אלג'שא",
+        "en": "sheltering with them over the cover",
+        "he": "סֹכְכִים בְּכַנְפֵיהֶם עַל-הַכַּפֹּרֶת"
+      },
+      {
+        "ja": "וגוההמא אלואחד אלי' אלאכ'ר",
+        "en": "and the face of one was toward the other",
+        "he": "וּפְנֵיהֶם אִישׁ אֶל-אָחִיו"
+      },
+      {
+        "ja": "ואלי' אלג'שא כנאת וגוההמא",
+        "en": "and toward the cover were their faces turned",
+        "he": "אֶל-הַכַּפֹּרֶת--הָיוּ פְּנֵי הַכְּרֻבִים"
+      }
+    ],
+    "10": [
+      {
+        "ja": "וצנע אלמאידה מן כ'שב אלסנט",
+        "en": "And he made the table from acacia wood",
+        "he": "וַיַּעַשׂ אֶת-הַשֻּׁלְחָן עֲצֵי שִׁטִּים"
+      },
+      {
+        "ja": "ד'ראעין טולהא וד'ראע ערצ'הא",
+        "en": "two cubits its length, and a cubit its width",
+        "he": "אַמָּתַיִם אָרְכּוֹ וְאַמָּה רָחְבּוֹ"
+      },
+      {
+        "ja": "וד'ראע ונצף סמכהא",
+        "en": "and a cubit and a half its height",
+        "he": "וְאַמָּה וָחֵצִי קֹמָתוֹ"
+      }
+    ],
+    "11": [
+      {
+        "ja": "וגשאהא בד'הב כ'אלץ",
+        "en": "And he overlaid it with pure gold",
+        "he": "וַיְצַף אֹתוֹ זָהָב טָהוֹר"
+      },
+      {
+        "ja": "וצנע להא. זיגא מן ד'הב מסתדירא",
+        "en": "and made for it a border of gold, encircling all around",
+        "he": "וַיַּעַשׂ לוֹ זֵר זָהָב סָבִיב"
+      }
+    ],
+    "12": [
+      {
+        "ja": "וצנע להא חאפה. מקדאר קבצ'ה מסתדירא",
+        "en": "And he made for it a rim of the breadth of a fist, encircling all around",
+        "he": "וַיַּעַשׂ לוֹ מִסְגֶּרֶת טֹפַח סָבִיב"
+      },
+      {
+        "ja": "וצנע להא זיגא מן ד'הב. לחאפתהא מסתדירא",
+        "en": "and he made for it a border of gold for its rim, encircling all around",
+        "he": "וַיַּעַשׂ זֵר-זָהָב לְמִסְגַּרְתּוֹ סָבִיב"
+      }
+    ],
+    "13": [
+      {
+        "ja": "וצאג' להא ארבע חלק מן דהב",
+        "en": "And he cast for it four rings of gold",
+        "he": "וַיִּצֹק לוֹ אַרְבַּע טַבְּעֹת זָהָב"
+      },
+      {
+        "ja": "וגעל אלחלק פי ארבע גהאתהא. אלתי לארבע ארגלהא",
+        "en": "and set the rings on its four sides — which were at its four legs",
+        "he": "וַיִּתֵּן אֶת-הַטַּבָּעֹת עַל אַרְבַּע הַפֵּאֹת אֲשֶׁר לְאַרְבַּע רַגְלָיו"
+      }
+    ],
+    "14": [
+      {
+        "ja": "אמאם אלחאפה. כנאת אלחלק",
+        "en": "Alongside the rim were the rings",
+        "he": "לְעֻמַּת הַמִּסְגֶּרֶת הָיוּ הַטַּבָּעֹת"
+      },
+      {
+        "ja": "מכאנא לאלדהוק. לתחמל בהא אלמאידה",
+        "en": "a place for the poles — so that the table might be carried by them",
+        "he": "בָּתִּים לַבַּדִּים לָשֵׂאת אֶת-הַשֻּׁלְחָן"
+      }
+    ],
+    "15": [
+      {
+        "ja": "וצנע אלדהוק מן כ'שב אלסנט",
+        "en": "And he made the poles from acacia wood",
+        "he": "וַיַּעַשׂ אֶת-הַבַּדִּים עֲצֵי שִׁטִּים"
+      },
+      {
+        "ja": "וגשאהא בד'הב",
+        "en": "and overlaid them with gold",
+        "he": "וַיְצַף אֹתָם זָהָב"
+      },
+      {
+        "ja": "לתחמל בהא אלמאידה",
+        "en": "so that the table might be carried by them",
+        "he": "לָשֵׂאת אֶת-הַשֻּׁלְחָן"
+      }
+    ],
+    "16": [
+      {
+        "ja": "וצנע אלאניה אלד'י עליהא",
+        "en": "And he made the vessels that were upon it",
+        "he": "וַיַּעַשׂ אֶת-הַכֵּלִים אֲשֶׁר עַל-הַשֻּׁלְחָן"
+      },
+      {
+        "ja": "אלקצאע ואלדרוג",
+        "en": "the dishes, the drawers",
+        "he": "אֶת-קְעָרֹתָיו וְאֶת-כַּפֹּתָיו"
+      },
+      {
+        "ja": "ואלמלאעק ואלמדאהין. אלד'י תג'טא בהא",
+        "en": "the spoons, and the flagons with which it is covered",
+        "he": "וְאֵת מְנַקִּיֹּתָיו וְאֶת-הַקְּשָׂו‍ֹת אֲשֶׁר יֻסַּךְ בָּהֵן"
+      },
+      {
+        "ja": "מן ד'הב כ'אלץ",
+        "en": "of pure gold",
+        "he": "זָהָב טָהוֹר"
+      }
+    ],
+    "17": [
+      {
+        "ja": "וצנע אלמנארה מן ד'הב כ'אלץ. מצמתה צנעהא",
+        "en": "And he made the lampstand of pure gold — solid he made it",
+        "he": "וַיַּעַשׂ אֶת-הַמְּנֹרָה זָהָב טָהוֹר מִקְשָׁה עָשָׂה אֶת-הַמְּנֹרָה"
+      },
+      {
+        "ja": "ארגלהא וקצבהא",
+        "en": "its base and its shaft",
+        "he": "יְרֵכָהּ וְקָנָהּ"
+      },
+      {
+        "ja": "וגאמאתהא. ותפאפיחהא וסואסנהא מנהא כנאת",
+        "en": "its cups, its pomegranates, and its blossoms were all of it",
+        "he": "גְּבִיעֶיהָ כַּפְתֹּרֶיהָ וּפְרָחֶיהָ מִמֶּנָּה הָיוּ"
+      }
+    ],
+    "18": [
+      {
+        "ja": "וסת קצבאת. כ'ארגאת מן גאנביהא",
+        "en": "And six branches extending from its sides",
+        "he": "וְשִׁשָּׁה קָנִים יֹצְאִים מִצִּדֶּיהָ"
+      },
+      {
+        "ja": "ת'לאת' קצבאת מן גאנבהא אלואחד",
+        "en": "three branches from one side of it",
+        "he": "שְׁלֹשָׁה קְנֵי מְנֹרָה מִצִּדָּהּ הָאֶחָד"
+      },
+      {
+        "ja": "ות'לאת' קצבאת מן גאנבהא אלת'אני",
+        "en": "and three branches from the other side",
+        "he": "וּשְׁלֹשָׁה קְנֵי מְנֹרָה מִצִּדָּהּ הַשֵּׁנִי"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ת'לאת' גאמאת מלווזאת. פי כל קצבה תפאחה וסוסנה",
+        "en": "Three cups fashioned in almond-shapes on each branch, a pomegranate and a blossom",
+        "he": "שְׁלֹשָׁה גְבִעִים מְשֻׁקָּדִים בַּקָּנֶה הָאֶחָד כַּפְתֹּר וָפֶרַח"
+      },
+      {
+        "ja": "כד'אך צנע לאלסת אלקצבאת. אלכ'ארגאת מנהא",
+        "en": "thus he made it for the six branches extending from it",
+        "he": "כֵּן לְשֵׁשֶׁת הַקָּנִים הַיֹּצְאִים מִן-הַמְּנֹרָה"
+      }
+    ],
+    "20": [
+      {
+        "ja": "ופי נפס אלמנארה ארבע גאמאת. מלווזאת",
+        "en": "And in the body of the lampstand itself, four cups fashioned in almond-shapes",
+        "he": "וּבַמְּנֹרָה אַרְבָּעָה גְבִעִים מְשֻׁקָּדִים"
+      },
+      {
+        "ja": "ותפאפיחהא וסואסנהא",
+        "en": "with their pomegranates and their blossoms",
+        "he": "כַּפְתֹּרֶיהָ וּפְרָחֶיהָ"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ותפאחה תחת כל קצבתין מנהא",
+        "en": "And a pomegranate beneath each two branches of it",
+        "he": "וְכַפְתֹּר תַּחַת שְׁנֵי הַקָּנִים מִמֶּנָּה"
+      },
+      {
+        "ja": "כד'אך לאלסת אלקצבאת. אלכ'ארגאת מנהא",
+        "en": "thus for the six branches extending from it",
+        "he": "לְשֵׁשֶׁת הַקָּנִים הַיֹּצְאִים מִמֶּנָּה"
+      }
+    ],
+    "22": [
+      {
+        "ja": "תפאפיחהא וקצבהא מנהא כנאת",
+        "en": "Its pomegranates and its shaft were of it",
+        "he": "כַּפְתֹּרֵיהֶם וּקְנֹתָם מִמֶּנָּה הָיוּ"
+      },
+      {
+        "ja": "כלהא מצמתה ואחדה מן ד'הב כ'אלץ",
+        "en": "all of it was one solid piece of pure gold",
+        "he": "כֻּלָּהּ מִקְשָׁה אַחַת זָהָב טָהוֹר"
+      }
+    ],
+    "23": [
+      {
+        "ja": "וצנע להא סבעה סרג",
+        "en": "And he made for it seven lamps",
+        "he": "וַיַּעַשׂ אֶת-נֵרֹתֶיהָ שִׁבְעָה"
+      },
+      {
+        "ja": "וכלבאתהא ומגאמרהא מן ד'הב כ'אלץ",
+        "en": "and its tongs and its fire-pans of pure gold",
+        "he": "וּמַלְקָחֶיהָ וּמַחְתֹּתֶיהָ זָהָב טָהוֹר"
+      }
+    ],
+    "24": [
+      {
+        "ja": "מן בדרה' ד'הב כ'אלץ צנעהא",
+        "en": "From a talent of pure gold he made it",
+        "he": "כִּכָּר זָהָב טָהוֹר עָשָׂה אֹתָהּ"
+      },
+      {
+        "ja": "הי וגמיע אניתהא",
+        "en": "it and all its vessels",
+        "he": "וְאֵת כָּל-כֵּלֶיהָ"
+      }
+    ],
+    "25": [
+      {
+        "ja": "וצנע מד'בח אלב'כור מן כ'שב אלסנט",
+        "en": "And he made the altar of incense from acacia wood",
+        "he": "וַיַּעַשׂ אֶת-מִזְבַּח הַקְּטֹרֶת עֲצֵי שִׁטִּים"
+      },
+      {
+        "ja": "טולה ד'ראע וערצ'ה ד'ראע מרבעא",
+        "en": "one cubit its length and one cubit its width — square",
+        "he": "אַמָּה אָרְכּוֹ וְאַמָּה רָחְבּוֹ רָבוּעַ"
+      },
+      {
+        "ja": "וסמכה ד'ראעין. מנה ארכאנה",
+        "en": "and two cubits its height; its horns were of it",
+        "he": "וְאַמָּתַיִם קֹמָתוֹ--מִמֶּנּוּ הָיוּ קַרְנֹתָיו"
+      }
+    ],
+    "26": [
+      {
+        "ja": "וג'שאה בד'הב כ'אלץ. סטחה וחיטאנה. מסתדירא",
+        "en": "And he overlaid it with pure gold — its top and its walls all around",
+        "he": "וַיְצַף אֹתוֹ זָהָב טָהוֹר אֶת-גַּגּוֹ וְאֶת-קִירֹתָיו סָבִיב"
+      },
+      {
+        "ja": "וארכאנה",
+        "en": "and its horns",
+        "he": "וְאֶת-קַרְנֹתָיו"
+      },
+      {
+        "ja": "וצנע לה. זיגא מן ד'הב מסתדירא",
+        "en": "and he made for it a border of gold, encircling all around",
+        "he": "וַיַּעַשׂ לוֹ זֵר זָהָב סָבִיב"
+      }
+    ],
+    "27": [
+      {
+        "ja": "וחלקתין מן ד'הב צנעהמא לה תחת זיגה. פי גהתיה",
+        "en": "And two rings of gold he made for it beneath its border, on its two sides",
+        "he": "וּשְׁתֵּי טַבְּעֹת זָהָב עָשָׂה-לוֹ מִתַּחַת לְזֵרוֹ עַל שְׁתֵּי צַלְעֹתָיו"
+      },
+      {
+        "ja": "כד'אך עלי גאנביה מכאנא לאלד'הוק. ליחמל בהא",
+        "en": "as a place for the poles, so that it might be carried by them",
+        "he": "לְבָתִּים לְבַדִּים לָשֵׂאת אֹתוֹ בָּהֶם"
+      }
+    ],
+    "28": [
+      {
+        "ja": "וצנע אלדהוק. מן כ'שב אלסנט",
+        "en": "And he made the poles from acacia wood",
+        "he": "וַיַּעַשׂ אֶת-הַבַּדִּים עֲצֵי שִׁטִּים"
+      },
+      {
+        "ja": "וגשאהא בד'הב",
+        "en": "and overlaid them with gold",
+        "he": "וַיְצַף אֹתָם זָהָב"
+      }
+    ],
+    "29": [
+      {
+        "ja": "וצנע דהן אלמסח מקדסא",
+        "en": "And he made the consecrated anointing oil",
+        "he": "וַיַּעַשׂ אֶת-שֶׁמֶן הַמִּשְׁחָה קֹדֶשׁ"
+      },
+      {
+        "ja": "ובכ'ור אלצמוג' מטהרא. צנעה' עטאר",
+        "en": "and the pure incense of resins — the work of a perfumer",
+        "he": "וְאֶת-קְטֹרֶת הַסַּמִּים טָהוֹר--מַעֲשֵׂה רֹקֵחַ"
+      }
+    ]
+  }
+}

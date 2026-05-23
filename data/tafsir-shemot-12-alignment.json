@@ -1,0 +1,939 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 12. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_12.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "וקאל אללה למוסי והרון",
+        "en": "And God said to Moses and Aaron",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה וְאֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "פי בלד מצר",
+        "en": "in the land of Egypt",
+        "he": "בְּאֶרֶץ מִצְרַיִם"
+      },
+      {
+        "ja": "קאילא",
+        "en": "saying",
+        "he": "לֵאמֹר"
+      }
+    ],
+    "2": [
+      {
+        "ja": "הד'א אלשהר לכם אוול אלשהור",
+        "en": "This month shall be for you the first of months",
+        "he": "הַחֹדֶשׁ הַזֶּה לָכֶם רֹאשׁ חֳדָשִׁים"
+      },
+      {
+        "ja": "יכון לכם אוולא",
+        "en": "it shall be for you the first",
+        "he": "רִאשׁוֹן הוּא לָכֶם"
+      },
+      {
+        "ja": "לשהור אלסנה",
+        "en": "of the months of the year",
+        "he": "לְחָדְשֵׁי הַשָּׁנָה"
+      }
+    ],
+    "3": [
+      {
+        "ja": "כלמא גמאעה' בני אסראיל קאילא",
+        "en": "Speak to the assembly of the sons of Israel, saying",
+        "he": "דַּבְּרוּ אֶל-כָּל-עֲדַת יִשְׂרָאֵל לֵאמֹר"
+      },
+      {
+        "ja": "פי אלעאשר מנה",
+        "en": "on the tenth of it",
+        "he": "בֶּעָשֹׂר לַחֹדֶשׁ הַזֶּה"
+      },
+      {
+        "ja": "אן יתכ'ד' לה כל פריק. ראס לביות אבאיהם",
+        "en": "let every company take for itself a head — a head of the households of their fathers",
+        "he": "וְיִקְחוּ לָהֶם אִישׁ שֶׂה לְבֵית-אָבֹת"
+      },
+      {
+        "ja": "ראסא מנהא לכל בית",
+        "en": "one head for each household",
+        "he": "שֶׂה לַבָּיִת"
+      }
+    ],
+    "4": [
+      {
+        "ja": "פאן קל אהל אלבית מן אלחאגה אלי' ראס",
+        "en": "But if the people of the household are too few for the need of a head",
+        "he": "וְאִם-יִמְעַט הַבַּיִת מִהְיוֹת מִשֶּׂה"
+      },
+      {
+        "ja": "פליאכ'ד' הו וגארה. אלאקרב אלי' מנזלה",
+        "en": "then let him and his neighbor who is nearest to his dwelling take one together",
+        "he": "וְלָקַח הוּא וּשְׁכֵנוֹ הַקָּרֹב אֶל-בֵּיתוֹ"
+      },
+      {
+        "ja": "במואסאה מן אלנפוס",
+        "en": "in equal shares among the souls",
+        "he": "בְּמִכְסַת נְפָשֹׁת"
+      },
+      {
+        "ja": "כל אמר עלי' קדר טעאמה תתואסוה",
+        "en": "each man according to the measure of his food shall you reckon it",
+        "he": "אִישׁ לְפִי אָכְלוֹ תָּכֹסּוּ עַל-הַשֶּׂה"
+      }
+    ],
+    "5": [
+      {
+        "ja": "וליכון לכם ראסא. צחיחא ד'כרא אבן סנתה",
+        "en": "And let there be for you a head — one that is sound, a male of its year",
+        "he": "שֶׂה תָמִים זָכָר בֶּן-שָׁנָה יִהְיֶה לָכֶם"
+      },
+      {
+        "ja": "מן אלצ'אן ואלמאעז תאכ'דונה",
+        "en": "from the sheep and the goats you shall take it",
+        "he": "מִן-הַכְּבָשִׂים וּמִן-הָעִזִּים תִּקָּחוּ"
+      }
+    ],
+    "6": [
+      {
+        "ja": "יכון ענדכם ]מחפוט'א] מחפוצ'א",
+        "en": "It shall be kept by you",
+        "he": "וְהָיָה לָכֶם לְמִשְׁמֶרֶת"
+      },
+      {
+        "ja": "אלי' יום ארבעה' עשר מן הד'א אלשהר",
+        "en": "until the fourteenth day of this month",
+        "he": "עַד אַרְבָּעָה עָשָׂר יוֹם לַחֹדֶשׁ הַזֶּה"
+      },
+      {
+        "ja": "יד'בחה גמאעה' גוק בני אסראיל",
+        "en": "and the whole company of the assembly of the sons of Israel shall slaughter it",
+        "he": "וְשָׁחֲטוּ אֹתוֹ כֹּל קְהַל עֲדַת-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "בין אלג'רובין",
+        "en": "between the two twilights",
+        "he": "בֵּין הָעַרְבָּיִם"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ויאכ'דו מן דמה",
+        "en": "And they shall take of its blood",
+        "he": "וְלָקְחוּ מִן-הַדָּם"
+      },
+      {
+        "ja": "ויגעלונה עלי' כ'די אלבאב ואלמטל",
+        "en": "and place it upon the two cheeks of the door and upon the lintel",
+        "he": "וְנָתְנוּ עַל-שְׁתֵּי הַמְּזוּזֹת וְעַל-הַמַּשְׁקוֹף"
+      },
+      {
+        "ja": "עלי' אלביות. אלד'י יאכלונה פיהא",
+        "en": "upon the houses in which they shall eat it",
+        "he": "עַל הַבָּתִּים אֲשֶׁר-יֹאכְלוּ אֹתוֹ בָּהֶם"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ויאכלון לחמה פי תלך אללילה",
+        "en": "And they shall eat its flesh that night",
+        "he": "וְאָכְלוּ אֶת-הַבָּשָׂר בַּלַּיְלָה הַזֶּה"
+      },
+      {
+        "ja": "שיא נאר",
+        "en": "roasted over fire",
+        "he": "צְלִי-אֵשׁ"
+      },
+      {
+        "ja": "ופטיר. מע מראר יאכלונה",
+        "en": "and unleavened bread; with bitter herbs they shall eat it",
+        "he": "וּמַצּוֹת עַל-מְרֹרִים יֹאכְלֻהוּ"
+      }
+    ],
+    "9": [
+      {
+        "ja": "לא תאכלו מנה ניא",
+        "en": "Do not eat of it raw",
+        "he": "אַל-תֹּאכְלוּ מִמֶּנּוּ נָא"
+      },
+      {
+        "ja": "ולא טביך' מנצג במא",
+        "en": "nor cooked by boiling in water",
+        "he": "וּבָשֵׁל מְבֻשָּׁל בַּמָּיִם"
+      },
+      {
+        "ja": "אלא משוי באלנאר",
+        "en": "but only roasted over fire",
+        "he": "כִּי אִם-צְלִי-אֵשׁ"
+      },
+      {
+        "ja": "ראסה ואכארעה וגופה",
+        "en": "its head and its legs and its inner parts",
+        "he": "רֹאשׁוֹ עַל-כְּרָעָיו וְעַל-קִרְבּוֹ"
+      }
+    ],
+    "10": [
+      {
+        "ja": "ולא תבקו מנה שייא אלי' אלג'דאה",
+        "en": "And you shall leave nothing of it until the morning",
+        "he": "וְלֹא-תוֹתִירוּ מִמֶּנּוּ עַד-בֹּקֶר"
+      },
+      {
+        "ja": "פאן יבקי מנה שייא. אלי אלג'דאה אחרקוה באלנאר",
+        "en": "and if anything remains of it until the morning, then burn it with fire",
+        "he": "וְהַנֹּתָר מִמֶּנּוּ עַד-בֹּקֶר בָּאֵשׁ תִּשְׂרֹפוּ"
+      }
+    ],
+    "11": [
+      {
+        "ja": "וכד'א פכלוה",
+        "en": "And in this manner shall you eat it",
+        "he": "וְכָכָה תֹּאכְלוּ אֹתוֹ"
+      },
+      {
+        "ja": "תכון חקואכם משדודה",
+        "en": "your loins girded firmly",
+        "he": "מָתְנֵיכֶם חֲגֻרִים"
+      },
+      {
+        "ja": "ונעאלכם פי ארגלכם",
+        "en": "your sandals on your feet",
+        "he": "נַעֲלֵיכֶם בְּרַגְלֵיכֶם"
+      },
+      {
+        "ja": "ועצייכם פי אידיכם",
+        "en": "and your staffs in your hands",
+        "he": "וּמַקֶּלְכֶם בְּיֶדְכֶם"
+      },
+      {
+        "ja": "וכלוה בחפז",
+        "en": "and eat it in haste",
+        "he": "וַאֲכַלְתֶּם אֹתוֹ בְּחִפָּזוֹן"
+      },
+      {
+        "ja": "הו פסח ללה",
+        "en": "it is the Passover unto God",
+        "he": "פֶּסַח הוּא לַיהוָה"
+      }
+    ],
+    "12": [
+      {
+        "ja": "פאתגלא פי בלד מצר פי תלך אללילה",
+        "en": "For I shall appear in the land of Egypt that night",
+        "he": "וְעָבַרְתִּי בְאֶרֶץ-מִצְרַיִם בַּלַּיְלָה הַזֶּה"
+      },
+      {
+        "ja": "ואקתל כל בכר פיה",
+        "en": "and I shall slay every firstborn within it",
+        "he": "וְהִכֵּיתִי כָל-בְּכוֹר בְּאֶרֶץ מִצְרַיִם"
+      },
+      {
+        "ja": "מן אנסאן אלי' בהימה",
+        "en": "from human to beast",
+        "he": "מֵאָדָם וְעַד-בְּהֵמָה"
+      },
+      {
+        "ja": "ובגמיע מעבודאת אלמצריון. אצנע אחכאמא",
+        "en": "and upon all the objects of worship of the Egyptians I shall execute judgments",
+        "he": "וּבְכָל-אֱלֹהֵי מִצְרַיִם אֶעֱשֶׂה שְׁפָטִים"
+      },
+      {
+        "ja": "אנא אללה אלואחד",
+        "en": "I am God, the One",
+        "he": "אֲנִי יְהוָה"
+      }
+    ],
+    "13": [
+      {
+        "ja": "פיכון אלדם לכם עלאמה",
+        "en": "And the blood shall be for you a sign",
+        "he": "וְהָיָה הַדָּם לָכֶם לְאֹת"
+      },
+      {
+        "ja": "עלי' אלביות אלד'י אנתם פיהא",
+        "en": "upon the houses in which you are",
+        "he": "עַל הַבָּתִּים אֲשֶׁר אַתֶּם שָׁם"
+      },
+      {
+        "ja": "אנצ'רה וארת'א לכם",
+        "en": "I shall look upon it and have compassion for you",
+        "he": "וְרָאִיתִי אֶת-הַדָּם וּפָסַחְתִּי עֲלֵכֶם"
+      },
+      {
+        "ja": "ולא יחל בכם ובא מהלך",
+        "en": "and no lethal pestilence shall befall you",
+        "he": "וְלֹא-יִהְיֶה בָכֶם נֶגֶף לְמַשְׁחִית"
+      },
+      {
+        "ja": "אד' צ'רבת אהל בלד מצר",
+        "en": "when I strike the people of the land of Egypt",
+        "he": "בְּהַכֹּתִי בְּאֶרֶץ מִצְרָיִם"
+      }
+    ],
+    "14": [
+      {
+        "ja": "ויכון הד'א אליום לכם ד'כרא",
+        "en": "And this day shall be for you a memorial",
+        "he": "וְהָיָה הַיּוֹם הַזֶּה לָכֶם לְזִכָּרוֹן"
+      },
+      {
+        "ja": "תחגו פיה חג ללה",
+        "en": "you shall celebrate it as a festival unto God",
+        "he": "וְחַגֹּתֶם אֹתוֹ חַג לַיהוָה"
+      },
+      {
+        "ja": "לאגיאלכם",
+        "en": "for your generations",
+        "he": "לְדֹרֹתֵיכֶם"
+      },
+      {
+        "ja": "רסם אלדהר תחג'ונה",
+        "en": "it is an ordinance forever that you shall celebrate it",
+        "he": "חֻקַּת עוֹלָם תְּחָגֻּהוּ"
+      }
+    ],
+    "15": [
+      {
+        "ja": "סבעה' איאם תאכלו פטירא",
+        "en": "Seven days you shall eat unleavened bread",
+        "he": "שִׁבְעַת יָמִים מַצּוֹת תֹּאכֵלוּ"
+      },
+      {
+        "ja": "אמא פי אליום אלאוול. פעטלו אלמכ'מר מן ביותכם",
+        "en": "but on the first day you shall remove the leavening agent from your houses",
+        "he": "אַךְ בַּיּוֹם הָרִאשׁוֹן תַּשְׁבִּיתוּ שְּׂאֹר מִבָּתֵּיכֶם"
+      },
+      {
+        "ja": "לאן כל מן אכל כ'מיר. ינקטע ד'אלך אלאנסאן מן בין אל אסראיל",
+        "en": "for whoever eats leavened bread, that person shall be cut off from among the house of Israel",
+        "he": "כִּי כָּל-אֹכֵל חָמֵץ וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מִיִּשְׂרָאֵל"
+      },
+      {
+        "ja": "מן אליום אלאוול אלי' אליום אלסאבע",
+        "en": "from the first day until the seventh day",
+        "he": "מִיּוֹם הָרִאשֹׁן עַד-יוֹם הַשְּׁבִעִי"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ואליום אלאוול. אסם מקדס",
+        "en": "And the first day shall be a consecrated name",
+        "he": "וּבַיּוֹם הָרִאשׁוֹן מִקְרָא-קֹדֶשׁ"
+      },
+      {
+        "ja": "ואליום אלסאבע. אסם מקדס יכון לכם",
+        "en": "and the seventh day shall be a consecrated name for you",
+        "he": "וּבַיּוֹם הַשְּׁבִיעִי מִקְרָא-קֹדֶשׁ יִהְיֶה לָכֶם"
+      },
+      {
+        "ja": "ולא יצנע פיהמא שייא מן אלצנאיע",
+        "en": "no labor whatsoever shall be done on either of them",
+        "he": "כָּל-מְלָאכָה לֹא-יֵעָשֶׂה בָהֶם"
+      },
+      {
+        "ja": "אלא מא יוכל לכל נפס",
+        "en": "except only what is to be eaten for every soul",
+        "he": "אַךְ אֲשֶׁר יֵאָכֵל לְכָל-נֶפֶשׁ"
+      },
+      {
+        "ja": "הו וחדה יצנע לכם",
+        "en": "that alone may be done for you",
+        "he": "הוּא לְבַדּוֹ יֵעָשֶׂה לָכֶם"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ואחפצו אלפטיר",
+        "en": "And keep the unleavened bread",
+        "he": "וּשְׁמַרְתֶּם אֶת-הַמַּצּוֹת"
+      },
+      {
+        "ja": "פאן פי ד'את הד'א אליום. אכ'רגת גיושכם מן בלד מצר",
+        "en": "for on the very substance of this day I brought out your hosts from the land of Egypt",
+        "he": "כִּי בְּעֶצֶם הַיּוֹם הַזֶּה הוֹצֵאתִי אֶת-צִבְאוֹתֵיכֶם מֵאֶרֶץ מִצְרָיִם"
+      },
+      {
+        "ja": "ואחפצ'ו הד'א אליום. לאגיאלכם",
+        "en": "so keep this day for your generations",
+        "he": "וּשְׁמַרְתֶּם אֶת-הַיּוֹם הַזֶּה לְדֹרֹתֵיכֶם"
+      },
+      {
+        "ja": "רסם אלדהר",
+        "en": "as an ordinance forever",
+        "he": "חֻקַּת עוֹלָם"
+      }
+    ],
+    "18": [
+      {
+        "ja": "פי אלשהר אלאוול. פי יום ארבעה' עשר מנה באלעשי",
+        "en": "In the first month, on the fourteenth day of it at eventide",
+        "he": "בָּרִאשֹׁן בְּאַרְבָּעָה עָשָׂר יוֹם לַחֹדֶשׁ בָּעֶרֶב"
+      },
+      {
+        "ja": "כלו פטירא",
+        "en": "eat unleavened bread",
+        "he": "תֹּאכְלוּ מַצֹּת"
+      },
+      {
+        "ja": "אלי' יום ואחד ועשרין מנה באלעשי",
+        "en": "until the twenty-first day of it at eventide",
+        "he": "עַד יוֹם הָאֶחָד וְעֶשְׂרִים לַחֹדֶשׁ--בָּעָרֶב"
+      }
+    ],
+    "19": [
+      {
+        "ja": "סבעה' איאם",
+        "en": "Seven days",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "לא יוגד כ'מירא פי ביותכם",
+        "en": "no leaven shall be found in your houses",
+        "he": "שְׂאֹר לֹא יִמָּצֵא בְּבָתֵּיכֶם"
+      },
+      {
+        "ja": "וכל מן אכל מכ'מרא. ינקטע ד'אלך אלאנסאן מן גמאעה' אל אסראיל",
+        "en": "for whoever eats anything leavened, that person shall be cut off from the assembly of the house of Israel",
+        "he": "כִּי כָּל-אֹכֵל מַחְמֶצֶת וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מֵעֲדַת יִשְׂרָאֵל"
+      },
+      {
+        "ja": "מן אלג'ריב וצריח אלבלד",
+        "en": "whether he be a stranger or a native of the land",
+        "he": "בַּגֵּר וּבְאֶזְרַח הָאָרֶץ"
+      }
+    ],
+    "20": [
+      {
+        "ja": "שייא מן אלמכ'מר לא תאכלו",
+        "en": "Anything leavened you shall not eat",
+        "he": "כָּל-מַחְמֶצֶת לֹא תֹאכֵלוּ"
+      },
+      {
+        "ja": "פי גמיע מסאכנכם. כלו פטירא",
+        "en": "in all your dwellings eat unleavened bread",
+        "he": "בְּכֹל מוֹשְׁבֹתֵיכֶם תֹּאכְלוּ מַצּוֹת"
+      }
+    ],
+    "21": [
+      {
+        "ja": "פדעא מוסי'. בגמיע שיוך' בני אסראיל",
+        "en": "And Moses called for all the elders of the sons of Israel",
+        "he": "וַיִּקְרָא מֹשֶׁה לְכָל-זִקְנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקאל להם",
+        "en": "and said to them",
+        "he": "וַיֹּאמֶר אֲלֵהֶם"
+      },
+      {
+        "ja": "אמתדו. וכדו לכם ג'נמא. לעשאירכם",
+        "en": "'Go forth and take for yourselves a flock for your clans",
+        "he": "מִשְׁכוּ וּקְחוּ לָכֶם צֹאן לְמִשְׁפְּחֹתֵיכֶם"
+      },
+      {
+        "ja": "ואד'בחו אלפסח",
+        "en": "and slaughter the Passover",
+        "he": "וְשַׁחֲטוּ הַפָּסַח"
+      }
+    ],
+    "22": [
+      {
+        "ja": "וכדו באקה מן צעתר",
+        "en": "And take a bundle of hyssop",
+        "he": "וּלְקַחְתֶּם אֲגֻדַּת אֵזוֹב"
+      },
+      {
+        "ja": "ואג'מסוהא פי אלדם אלד'י פי אלטסת",
+        "en": "and dip it in the blood which is in the basin",
+        "he": "וּטְבַלְתֶּם בַּדָּם אֲשֶׁר-בַּסַּף"
+      },
+      {
+        "ja": "ואדנו עלי' אלמטל וכ'די אלבאב. מן ד'אלך אלדם",
+        "en": "and apply it to the lintel and to the two cheeks of the door from that blood",
+        "he": "וְהִגַּעְתֶּם אֶל-הַמַּשְׁקוֹף וְאֶל-שְׁתֵּי הַמְּזוּזֹת מִן-הַדָּם אֲשֶׁר בַּסָּף"
+      },
+      {
+        "ja": "ולא יכ'ר'ג אנסאן מנכם. מן באב מנזלה אלי' אלג'דאה",
+        "en": "and let no person among you go out from the door of his dwelling until the morning",
+        "he": "וְאַתֶּם לֹא תֵצְאוּ אִישׁ מִפֶּתַח-בֵּיתוֹ--עַד-בֹּקֶר"
+      }
+    ],
+    "23": [
+      {
+        "ja": "פיתגלא אללה ליצדם אלמצריון",
+        "en": "For God shall appear to strike the Egyptians",
+        "he": "וְעָבַר יְהוָה לִנְגֹּף אֶת-מִצְרַיִם"
+      },
+      {
+        "ja": "וינצ'ר אלדם עלי אלמטל וכדי אלבאב",
+        "en": "and shall see the blood upon the lintel and the two cheeks of the door",
+        "he": "וְרָאָה אֶת-הַדָּם עַל-הַמַּשְׁקוֹף וְעַל שְׁתֵּי הַמְּזוּזֹת"
+      },
+      {
+        "ja": "פירת'י למן דאכלה",
+        "en": "and shall have compassion for whoever is within",
+        "he": "וּפָסַח יְהוָה עַל-הַפֶּתַח"
+      },
+      {
+        "ja": "ולא ידע אלמהלך. אן ידכ'ל אלי' ביותכם פיהלככם",
+        "en": "and He shall not permit the destroyer to enter into your houses to bring ruin",
+        "he": "וְלֹא יִתֵּן הַמַּשְׁחִית לָבֹא אֶל-בָּתֵּיכֶם לִנְגֹּף"
+      }
+    ],
+    "24": [
+      {
+        "ja": "ואחפצו הד'א אלאמר",
+        "en": "And keep this matter",
+        "he": "וּשְׁמַרְתֶּם אֶת-הַדָּבָר הַזֶּה"
+      },
+      {
+        "ja": "רסם לכם ולאגיאלכם אלי' אלדהר",
+        "en": "as an ordinance for you and for your generations forever",
+        "he": "לְחָק-לְךָ וּלְבָנֶיךָ עַד-עוֹלָם"
+      }
+    ],
+    "25": [
+      {
+        "ja": "ואד'א דכ'לתם אלי' אלבלד. אלד'י יעטיכם אללה כמא ועד",
+        "en": "And when you enter the land which God shall give you as He has promised",
+        "he": "וְהָיָה כִּי-תָבֹאוּ אֶל-הָאָרֶץ אֲשֶׁר יִתֵּן יְהוָה לָכֶם--כַּאֲשֶׁר דִּבֵּר"
+      },
+      {
+        "ja": "פאחפצו הד'ה אלצנעה",
+        "en": "then keep this rite",
+        "he": "וּשְׁמַרְתֶּם אֶת-הָעֲבֹדָה הַזֹּאת"
+      }
+    ],
+    "26": [
+      {
+        "ja": "ויכון אד'א קאלו לכם בניכם",
+        "en": "And it shall be, when your children say to you",
+        "he": "וְהָיָה כִּי-יֹאמְרוּ אֲלֵיכֶם בְּנֵיכֶם"
+      },
+      {
+        "ja": "מא הד'ה אלצנעה לכם",
+        "en": "What is this rite for you?",
+        "he": "מָה הָעֲבֹדָה הַזֹּאת לָכֶם"
+      }
+    ],
+    "27": [
+      {
+        "ja": "קולו הו דבח ארת'א ללה",
+        "en": "It is a slaughter of compassion unto God",
+        "he": "וַאֲמַרְתֶּם זֶבַח-פֶּסַח הוּא לַיהוָה"
+      },
+      {
+        "ja": "כמא ארת'א לביות בני אסראיל במצר",
+        "en": "for He showed compassion for the houses of the sons of Israel in Egypt",
+        "he": "אֲשֶׁר פָּסַח עַל-בָּתֵּי בְנֵי-יִשְׂרָאֵל בְּמִצְרַיִם"
+      },
+      {
+        "ja": "אד' צדם אלמצריון וכ'לץ ביותנא",
+        "en": "when He struck the Egyptians and delivered our houses",
+        "he": "בְּנָגְפּוֹ אֶת-מִצְרַיִם וְאֶת-בָּתֵּינוּ הִצִּיל"
+      },
+      {
+        "ja": "וכ'ר אלקום וסגדו",
+        "en": "And the people bowed down and prostrated themselves",
+        "he": "וַיִּקֹּד הָעָם וַיִּשְׁתַּחֲווּ"
+      }
+    ],
+    "28": [
+      {
+        "ja": "פמצ'ו בני אסראיל וצנעו",
+        "en": "And the sons of Israel went and did",
+        "he": "וַיֵּלְכוּ וַיַּעֲשׂוּ בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "כמא אמר אללה מוסי והרון",
+        "en": "as God had commanded Moses and Aaron",
+        "he": "כַּאֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה וְאַהֲרֹן"
+      },
+      {
+        "ja": "כד'אך צנעו",
+        "en": "so they did",
+        "he": "כֵּן עָשׂוּ"
+      }
+    ],
+    "29": [
+      {
+        "ja": "ולמא כאן פי נצף אלליל",
+        "en": "And when it was at the middle of the night",
+        "he": "וַיְהִי בַּחֲצִי הַלַּיְלָה"
+      },
+      {
+        "ja": "קתל אללה כל בכר פי בלד מצר",
+        "en": "God slew every firstborn in the land of Egypt",
+        "he": "וַיהוָה הִכָּה כָל-בְּכוֹר בְּאֶרֶץ מִצְרַיִם"
+      },
+      {
+        "ja": "מן בכר פרעון אלגאלס עלי' כרסיה",
+        "en": "from the firstborn of Pharaoh who sat upon his throne",
+        "he": "מִבְּכֹר פַּרְעֹה הַיֹּשֵׁב עַל-כִּסְאוֹ"
+      },
+      {
+        "ja": "אלי' בכר אלסבי אלד'י פי אלחבס",
+        "en": "to the firstborn of the captive who was in the prison",
+        "he": "עַד בְּכוֹר הַשְּׁבִי אֲשֶׁר בְּבֵית הַבּוֹר"
+      },
+      {
+        "ja": "וגמיע בכור אלבהאים",
+        "en": "and all the firstborn of the beasts",
+        "he": "וְכֹל בְּכוֹר בְּהֵמָה"
+      }
+    ],
+    "30": [
+      {
+        "ja": "פקאם פרעון לילא. הו וגמיע עבידה וסאיר אלמצריון",
+        "en": "And Pharaoh arose in the night — he and all his servants and the rest of the Egyptians",
+        "he": "וַיָּקָם פַּרְעֹה לַיְלָה הוּא וְכָל-עֲבָדָיו וְכָל-מִצְרַיִם"
+      },
+      {
+        "ja": "וכאן צראך' עצ'ים במצר",
+        "en": "and there was a great cry in Egypt",
+        "he": "וַתְּהִי צְעָקָה גְדֹלָה בְּמִצְרָיִם"
+      },
+      {
+        "ja": "אד' ליס בית. ליס פיה מיית",
+        "en": "since there was no house in which there was not a dead one",
+        "he": "כִּי-אֵין בַּיִת אֲשֶׁר אֵין-שָׁם מֵת"
+      }
+    ],
+    "31": [
+      {
+        "ja": "ודעא במוסי' והרון לילא",
+        "en": "And he called for Moses and Aaron in the night",
+        "he": "וַיִּקְרָא לְמֹשֶׁה וּלְאַהֲרֹן לַיְלָה"
+      },
+      {
+        "ja": "וקאל קומא אכ'רגא מן בית קומי",
+        "en": "and said: 'Arise, go out from among my people",
+        "he": "וַיֹּאמֶר קוּמוּ צְּאוּ מִתּוֹךְ עַמִּי"
+      },
+      {
+        "ja": "אנתמא ובני אסראיל",
+        "en": "you two and the sons of Israel",
+        "he": "גַּם-אַתֶּם גַּם-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ואמצ'ו. אעבדו אללה כמא קלתם",
+        "en": "and go forth; serve God as you have said",
+        "he": "וּלְכוּ עִבְדוּ אֶת-יְהוָה כְּדַבֶּרְכֶם"
+      }
+    ],
+    "32": [
+      {
+        "ja": "ואיצ'א ג'נמכם ובקרכם כ'דוהא. כמא קלתם",
+        "en": "'Also your flocks and your herds — take them, as you have said",
+        "he": "גַּם-צֹאנְכֶם גַּם-בְּקַרְכֶם קְחוּ כַּאֲשֶׁר דִּבַּרְתֶּם"
+      },
+      {
+        "ja": "ואמצ'ו",
+        "en": "and go",
+        "he": "וָלֵכוּ"
+      },
+      {
+        "ja": "ואגעלוני פי חל",
+        "en": "and release me from obligation",
+        "he": "וּבֵרַכְתֶּם גַּם-אֹתִי"
+      }
+    ],
+    "33": [
+      {
+        "ja": "פשדד אלמצריון עלי' אלקום",
+        "en": "And the Egyptians pressed upon the people",
+        "he": "וַתֶּחֱזַק מִצְרַיִם עַל-הָעָם"
+      },
+      {
+        "ja": "ליסרעו יטלקונהם מן אלבלד",
+        "en": "to hasten to send them out from the land",
+        "he": "לְמַהֵר לְשַׁלְּחָם מִן-הָאָרֶץ"
+      },
+      {
+        "ja": "לאנהם קאלו כלנא מאיתין",
+        "en": "for they said: 'We are all dying",
+        "he": "כִּי אָמְרוּ כֻּלָּנוּ מֵתִים"
+      }
+    ],
+    "34": [
+      {
+        "ja": "פחמל אלקום. עגינהם קבל אן יכ'תמר",
+        "en": "And the people carried their dough before it had leavened",
+        "he": "וַיִּשָּׂא הָעָם אֶת-בְּצֵקוֹ טֶרֶם יֶחְמָץ"
+      },
+      {
+        "ja": "וכאנת מעאגנהם. מצרורה פי ת'יאבהם עלי' אענאקהם",
+        "en": "and their kneading-bowls were bound up in their garments upon their necks",
+        "he": "מִשְׁאֲרֹתָם צְרֻרֹת בְּשִׂמְלֹתָם עַל-שִׁכְמָם"
+      }
+    ],
+    "35": [
+      {
+        "ja": "וצנעו בני אסראיל חיניד' כמא אמרהם מוסי'",
+        "en": "And the sons of Israel did at that time as Moses had commanded them",
+        "he": "וּבְנֵי-יִשְׂרָאֵל עָשׂוּ כִּדְבַר מֹשֶׁה"
+      },
+      {
+        "ja": "ואסתוהבו מן אלמצריון. אניה' פצ'ה. ואניה' ד'הב ות'יאבא",
+        "en": "and asked as gifts from the Egyptians vessels of silver, and vessels of gold, and garments",
+        "he": "וַיִּשְׁאֲלוּ מִמִּצְרַיִם כְּלֵי-כֶסֶף וּכְלֵי זָהָב וּשְׂמָלֹת"
+      }
+    ],
+    "36": [
+      {
+        "ja": "ואללה אעטא אלקום חצ'אא. ענד אלמצריון",
+        "en": "And God gave the people favor before the Egyptians",
+        "he": "וַיהוָה נָתַן אֶת-חֵן הָעָם בְּעֵינֵי מִצְרַיִם"
+      },
+      {
+        "ja": "פוהבוהא להם",
+        "en": "and they gave these as gifts to them",
+        "he": "וַיַּשְׁאִלוּם"
+      },
+      {
+        "ja": "ואנתספו אלמצריון",
+        "en": "and so the Egyptians were stripped",
+        "he": "וַיְנַצְּלוּ אֶת-מִצְרָיִם"
+      }
+    ],
+    "37": [
+      {
+        "ja": "ת'ם רחל בני אסראיל מן עין שמס אלי' סכות",
+        "en": "Then the sons of Israel journeyed from Ein Shams (Raamses) to Succoth",
+        "he": "וַיִּסְעוּ בְנֵי-יִשְׂרָאֵל מֵרַעְמְסֵס סֻכֹּתָה"
+      },
+      {
+        "ja": "שביה בסת מאיה' אלף רגל רגאל",
+        "en": "numbering about six hundred thousand on foot, adult men",
+        "he": "כְּשֵׁשׁ-מֵאוֹת אֶלֶף רַגְלִי הַגְּבָרִים"
+      },
+      {
+        "ja": "מא כ'לא אלאטפאל",
+        "en": "besides the little ones",
+        "he": "לְבַד מִטָּף"
+      }
+    ],
+    "38": [
+      {
+        "ja": "ואיצ'א כ'לט כת'יר צעד מעהם",
+        "en": "And also a great mixed multitude went up with them",
+        "he": "וְגַם-עֵרֶב רַב עָלָה אִתָּם"
+      },
+      {
+        "ja": "וג'נם ובקר. מואשי ע'צימה גדא",
+        "en": "and flocks and cattle — a very great quantity of livestock",
+        "he": "וְצֹאן וּבָקָר מִקְנֶה כָּבֵד מְאֹד"
+      }
+    ],
+    "39": [
+      {
+        "ja": "פאכ'תבזו אלעגין. אלד'י אכ'רגוה מן מצר",
+        "en": "And they baked the dough which they had brought out from Egypt",
+        "he": "וַיֹּאפוּ אֶת-הַבָּצֵק אֲשֶׁר הוֹצִיאוּ מִמִּצְרַיִם"
+      },
+      {
+        "ja": "מלילא פטירא",
+        "en": "as flat unleavened cakes",
+        "he": "עֻגֹת מַצּוֹת"
+      },
+      {
+        "ja": "אד' לם אכ'תמר",
+        "en": "for it had not leavened",
+        "he": "כִּי לֹא חָמֵץ"
+      },
+      {
+        "ja": "למא טרדו מן מצר. ולם יטיקו אן יתלבתו",
+        "en": "since they had been driven out from Egypt and had not been able to linger",
+        "he": "כִּי-גֹרְשׁוּ מִמִּצְרַיִם וְלֹא יָכְלוּ לְהִתְמַהְמֵהַּ"
+      },
+      {
+        "ja": "חתא זאדא לם יצנעו להם",
+        "en": "and even provisions they had not prepared for themselves",
+        "he": "וְגַם-צֵדָה לֹא-עָשׂוּ לָהֶם"
+      }
+    ],
+    "40": [
+      {
+        "ja": "וכאן מקאם בני אסראיל. אלד'י אקאמו פי אעמאל מצר",
+        "en": "And the sojourn of the sons of Israel, which they sojourned in the labors of Egypt",
+        "he": "וּמוֹשַׁב בְּנֵי יִשְׂרָאֵל אֲשֶׁר יָשְׁבוּ בְּמִצְרָיִם"
+      },
+      {
+        "ja": "ארבע מאיה ות'לאת'ין סנה",
+        "en": "was four hundred and thirty years",
+        "he": "שְׁלֹשִׁים שָׁנָה וְאַרְבַּע מֵאוֹת שָׁנָה"
+      }
+    ],
+    "41": [
+      {
+        "ja": "פלמא כאן בעד ארבע מאיה ות'לאת'ין סנה",
+        "en": "And when it was after four hundred and thirty years",
+        "he": "וַיְהִי מִקֵּץ שְׁלֹשִׁים שָׁנָה וְאַרְבַּע מֵאוֹת שָׁנָה"
+      },
+      {
+        "ja": "פי ד'את ד'אלך אליום",
+        "en": "on the very substance of that day",
+        "he": "וַיְהִי בְּעֶצֶם הַיּוֹם הַזֶּה"
+      },
+      {
+        "ja": "כ'רגו גמיע גיוש אללה מן בלד מצר",
+        "en": "all the hosts of God went out from the land of Egypt",
+        "he": "יָצְאוּ כָּל-צִבְאוֹת יְהוָה מֵאֶרֶץ מִצְרָיִם"
+      }
+    ],
+    "42": [
+      {
+        "ja": "וכמא כאן ליל חפץ' ללה. ליכ'רגהם מן בלד מצר",
+        "en": "And just as there had been a night of watching unto God, to bring them out from the land of Egypt",
+        "he": "לֵיל שִׁמֻּרִים הוּא לַיהוָה לְהוֹצִיאָם מֵאֶרֶץ מִצְרָיִם"
+      },
+      {
+        "ja": "כד'אך הד'א אלליל",
+        "en": "so this night",
+        "he": "הוּא-הַלַּיְלָה הַזֶּה לַיהוָה"
+      },
+      {
+        "ja": "מחפוצ'א לבני אסראיל לאגיאלהם",
+        "en": "is kept for the sons of Israel throughout their generations",
+        "he": "שִׁמֻּרִים לְכָל-בְּנֵי יִשְׂרָאֵל לְדֹרֹתָם"
+      }
+    ],
+    "43": [
+      {
+        "ja": "ת'ם קאל אללה למוסי' והרון",
+        "en": "Then God said to Moses and Aaron",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה וְאַהֲרֹן"
+      },
+      {
+        "ja": "הד'א רסם אלפסח",
+        "en": "'This is the ordinance of the Passover",
+        "he": "זֹאת חֻקַּת הַפָּסַח"
+      },
+      {
+        "ja": "כל אגנבי לא יאכל מנה",
+        "en": "no foreigner shall eat of it",
+        "he": "כָּל-בֶּן-נֵכָר לֹא-יֹאכַל בּוֹ"
+      }
+    ],
+    "44": [
+      {
+        "ja": "וכל עבד לאנסאן משתרא בת'מן",
+        "en": "But every slave belonging to a man, purchased for a price",
+        "he": "וְכָל-עֶבֶד אִישׁ מִקְנַת-כָּסֶף"
+      },
+      {
+        "ja": "פאכ'תנה",
+        "en": "circumcise him",
+        "he": "וּמַלְתָּה אֹתוֹ"
+      },
+      {
+        "ja": "וחיניד' יאכל מנה",
+        "en": "and then he may eat of it",
+        "he": "אָז יֹאכַל בּוֹ"
+      }
+    ],
+    "45": [
+      {
+        "ja": "ואלצ'יף ואלאגיר לא יאכלאן מנה",
+        "en": "The sojourner and the hired laborer shall not eat of it",
+        "he": "תּוֹשָׁב וְשָׂכִיר לֹא-יֹאכַל בּוֹ"
+      }
+    ],
+    "46": [
+      {
+        "ja": "ופי מנזל ואחד יוכל",
+        "en": "In one dwelling shall it be eaten",
+        "he": "בְּבַיִת אֶחָד יֵאָכֵל"
+      },
+      {
+        "ja": "לא תכ'רגו מן אלבית. מן אללחם כ'ארגא",
+        "en": "you shall not carry out from the house any of the flesh to the outside",
+        "he": "לֹא-תוֹצִיא מִן-הַבַּיִת מִן-הַבָּשָׂר חוּצָה"
+      },
+      {
+        "ja": "ו עצ'ם לא תכסרו מנה",
+        "en": "and a bone you shall not break of it",
+        "he": "וְעֶצֶם לֹא תִשְׁבְּרוּ-בוֹ"
+      }
+    ],
+    "47": [
+      {
+        "ja": "כד'אך אכת'ר גמאעה' בני אסראיל יצנעונה",
+        "en": "Thus shall the greater part of the assembly of the sons of Israel do it",
+        "he": "כָּל-עֲדַת יִשְׂרָאֵל יַעֲשׂוּ אֹתוֹ"
+      }
+    ],
+    "48": [
+      {
+        "ja": "ואד'א דכ'ל מעכם ג'ריב. ואראד אן יצנע פסחא ללה",
+        "en": "And when a stranger sojourns among you and wishes to make a Passover unto God",
+        "he": "וְכִי-יָגוּר אִתְּךָ גֵּר וְעָשָׂה פֶסַח לַיהוָה"
+      },
+      {
+        "ja": "פליכ'תתן כל ד'כר פי נאחיתה",
+        "en": "let every male in his vicinity be circumcised",
+        "he": "הִמּוֹל לוֹ כָל-זָכָר"
+      },
+      {
+        "ja": "וחיניד' יתקדם ליצנעה",
+        "en": "and then let him come forward to make it",
+        "he": "וְאָז יִקְרַב לַעֲשֹׂתוֹ"
+      },
+      {
+        "ja": "אד' יציר כצריח אלבלד",
+        "en": "for he shall become as a native of the land",
+        "he": "וְהָיָה כְּאֶזְרַח הָאָרֶץ"
+      },
+      {
+        "ja": "וכל אקלף לא יאכל מנ'ה",
+        "en": "but any uncircumcised person shall not eat of it",
+        "he": "וְכָל-עָרֵל לֹא-יֹאכַל בּוֹ"
+      }
+    ],
+    "49": [
+      {
+        "ja": "שריעה ואחדה. תכון לאלצריח",
+        "en": "One law shall there be for the native",
+        "he": "תּוֹרָה אַחַת יִהְיֶה לָאֶזְרָח"
+      },
+      {
+        "ja": "ואלג'ריב אלדכ'יל פי מא בינכם",
+        "en": "and for the stranger who has entered among you",
+        "he": "וְלַגֵּר הַגָּר בְּתוֹכְכֶם"
+      }
+    ],
+    "50": [
+      {
+        "ja": "פצנעו בני אסראיל",
+        "en": "And the sons of Israel did",
+        "he": "וַיַּעֲשׂוּ כָּל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "כמא אמר אללה מוסי והרון",
+        "en": "as God had commanded Moses and Aaron",
+        "he": "כַּאֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה וְאֶת-אַהֲרֹן"
+      },
+      {
+        "ja": "כד'אך צנעו",
+        "en": "so they did",
+        "he": "כֵּן עָשׂוּ"
+      }
+    ],
+    "51": [
+      {
+        "ja": "ולמא כאן פי ד'את ד'אלך אליום",
+        "en": "And when it was on the very substance of that day",
+        "he": "וַיְהִי בְּעֶצֶם הַיּוֹם הַזֶּה"
+      },
+      {
+        "ja": "אכ'רג אללה בני אסראיל. מן בלד מצר",
+        "en": "God brought out the sons of Israel from the land of Egypt",
+        "he": "הוֹצִיא יְהוָה אֶת-בְּנֵי יִשְׂרָאֵל מֵאֶרֶץ מִצְרַיִם"
+      },
+      {
+        "ja": "עלי' ג'יושהם",
+        "en": "by their hosts",
+        "he": "עַל-צִבְאֹתָם"
+      }
+    ]
+  }
+}

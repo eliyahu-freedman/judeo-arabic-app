@@ -1,0 +1,614 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 1. Hand-authored (no API) via scripts/handalign_shemot_1.py; validated against the source verses with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "2": [
+      {
+        "ja": "ראובן",
+        "en": "Reuben",
+        "he": "רְאוּבֵן"
+      },
+      {
+        "ja": "שמעון",
+        "en": "Simeon",
+        "he": "שִׁמְעוֹן"
+      },
+      {
+        "ja": "לוי",
+        "en": "Levi",
+        "he": "לֵוִי"
+      },
+      {
+        "ja": "ויהודה",
+        "en": "Judah",
+        "he": "וִיהוּדָה"
+      }
+    ],
+    "3": [
+      {
+        "ja": "יששכר",
+        "en": "Issachar",
+        "he": "יִשָּׂשכָר"
+      },
+      {
+        "ja": "זבולון",
+        "en": "Zebulun",
+        "he": "זְבוּלֻן"
+      },
+      {
+        "ja": "ובנימין",
+        "en": "Benjamin",
+        "he": "וּבִנְיָמִן"
+      }
+    ],
+    "4": [
+      {
+        "ja": "דן",
+        "en": "Dan",
+        "he": "דָּן"
+      },
+      {
+        "ja": "ונפתלי",
+        "en": "Naphtali",
+        "he": "וְנַפְתָּלִי"
+      },
+      {
+        "ja": "גד",
+        "en": "Gad",
+        "he": "גָּד"
+      },
+      {
+        "ja": "ואשר",
+        "en": "Asher",
+        "he": "וְאָשֵׁר"
+      }
+    ],
+    "5": [
+      {
+        "ja": "פכאן גמלה' אלנפוס",
+        "en": "And the sum of the souls",
+        "he": "וַיְהִי כָּל-נֶפֶשׁ"
+      },
+      {
+        "ja": "אלכ'ארגה מן צלב יעקוב",
+        "en": "those issuing from the loins of Jacob",
+        "he": "יֹצְאֵי יֶרֶךְ-יַעֲקֹב"
+      },
+      {
+        "ja": "סבעין נפסא",
+        "en": "was seventy souls",
+        "he": "שִׁבְעִים נָפֶשׁ"
+      },
+      {
+        "ja": "מע יוסף",
+        "en": "together with Joseph",
+        "he": "וְיוֹסֵף"
+      },
+      {
+        "ja": "אלד'י כאן במצר",
+        "en": "who was in Egypt",
+        "he": "הָיָה בְמִצְרָיִם"
+      }
+    ],
+    "6": [
+      {
+        "ja": "פמאת יוסף",
+        "en": "And Joseph died",
+        "he": "וַיָּמָת יוֹסֵף"
+      },
+      {
+        "ja": "וגמיע אכ'ותה",
+        "en": "and all his brothers",
+        "he": "וְכָל-אֶחָיו"
+      },
+      {
+        "ja": "וסאיר אהל ד'אלך אלגיל",
+        "en": "and the rest of the people of that generation",
+        "he": "וְכֹל הַדּוֹר הַהוּא"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ובני אסראיל",
+        "en": "And the sons of Israel",
+        "he": "וּבְנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "את'מרו",
+        "en": "bore fruit",
+        "he": "פָּרוּ"
+      },
+      {
+        "ja": "וסעו",
+        "en": "and spread out",
+        "he": "וַיִּשְׁרְצוּ"
+      },
+      {
+        "ja": "וכת'רו",
+        "en": "and multiplied",
+        "he": "וַיִּרְבּוּ"
+      },
+      {
+        "ja": "ועצ'מו",
+        "en": "and grew strong",
+        "he": "וַיַּעַצְמוּ"
+      },
+      {
+        "ja": "גדא גדא",
+        "en": "very, very",
+        "he": "בִּמְאֹד מְאֹד"
+      },
+      {
+        "ja": "חתי' אמתלא ד'אלך אלבלד מנהם",
+        "en": "until that land was filled with them",
+        "he": "וַתִּמָּלֵא הָאָרֶץ אֹתָם"
+      }
+    ],
+    "8": [
+      {
+        "ja": "וקאם מלך גדיד",
+        "en": "And a new king arose",
+        "he": "וַיָּקָם מֶלֶךְ-חָדָשׁ"
+      },
+      {
+        "ja": "עלי' מצר",
+        "en": "over Egypt",
+        "he": "עַל-מִצְרָיִם"
+      },
+      {
+        "ja": "מא לם ישאהד",
+        "en": "who had not seen",
+        "he": "אֲשֶׁר לֹא-יָדַע"
+      },
+      {
+        "ja": "יוסף",
+        "en": "Joseph",
+        "he": "אֶת-יוֹסֵף"
+      }
+    ],
+    "9": [
+      {
+        "ja": "פקאל לקומה",
+        "en": "And he said to his people",
+        "he": "וַיֹּאמֶר אֶל-עַמּוֹ"
+      },
+      {
+        "ja": "הודא",
+        "en": "Behold",
+        "he": "הִנֵּה"
+      },
+      {
+        "ja": "קום בני אסראיל",
+        "en": "the people of the sons of Israel",
+        "he": "עַם בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אכת'ר",
+        "en": "more numerous",
+        "he": "רַב"
+      },
+      {
+        "ja": "וא עצ'ם",
+        "en": "and stronger",
+        "he": "וְעָצוּם"
+      },
+      {
+        "ja": "מנא",
+        "en": "than us",
+        "he": "מִמֶּנּוּ"
+      }
+    ],
+    "10": [
+      {
+        "ja": "תעאלו",
+        "en": "Come",
+        "he": "הָבָה"
+      },
+      {
+        "ja": "נחתאל להם",
+        "en": "let us scheme against them",
+        "he": "נִתְחַכְּמָה לוֹ"
+      },
+      {
+        "ja": "פלא יכת'רון",
+        "en": "so that they shall not multiply",
+        "he": "פֶּן-יִרְבֶּה"
+      },
+      {
+        "ja": "ויכון",
+        "en": "and it shall be",
+        "he": "וְהָיָה"
+      },
+      {
+        "ja": "אדא ואפאנא אלחרב",
+        "en": "when war comes upon us",
+        "he": "כִּי-תִקְרֶאנָה מִלְחָמָה"
+      },
+      {
+        "ja": "אנצ'אפו הם איצ'א",
+        "en": "that they too will join",
+        "he": "וְנוֹסַף גַּם-הוּא"
+      },
+      {
+        "ja": "עלי . אעדאינא",
+        "en": "with our enemies",
+        "he": "עַל-שֹׂנְאֵינוּ"
+      },
+      {
+        "ja": "פיחארבונא",
+        "en": "and they shall war against us",
+        "he": "וְנִלְחַם-בָּנוּ"
+      },
+      {
+        "ja": "ויהרבונא מן אלבלד",
+        "en": "and shall drive us out from the land",
+        "he": "וְעָלָה מִן-הָאָרֶץ"
+      }
+    ],
+    "11": [
+      {
+        "ja": "פציירו עליהם",
+        "en": "And they appointed over them",
+        "he": "וַיָּשִׂימוּ עָלָיו"
+      },
+      {
+        "ja": "ולאה' ד'מה",
+        "en": "guards of tribute",
+        "he": "שָׂרֵי מִסִּים"
+      },
+      {
+        "ja": "לקבל אן יעד'בונהם",
+        "en": "so as to torment them",
+        "he": "לְמַעַן עַנֹּתוֹ"
+      },
+      {
+        "ja": "בנקלהם",
+        "en": "with their burdens",
+        "he": "בְּסִבְלֹתָם"
+      },
+      {
+        "ja": "פבנו קרא מכ'אזין",
+        "en": "and they built fortified storehouse-towns",
+        "he": "וַיִּבֶן עָרֵי מִסְכְּנוֹת"
+      },
+      {
+        "ja": "לפרעון",
+        "en": "for Pharaoh",
+        "he": "לְפַרְעֹה"
+      },
+      {
+        "ja": "פי אלפיום",
+        "en": "in al-Faiyum (Pithom)",
+        "he": "אֶת-פִּתֹם"
+      },
+      {
+        "ja": "ופי עין שמס",
+        "en": "and in Ein Shams (Raamses)",
+        "he": "וְאֶת-רַעַמְסֵס"
+      }
+    ],
+    "12": [
+      {
+        "ja": "וכאן כל מא עד'בוהם",
+        "en": "And as much as they tormented them",
+        "he": "וְכַאֲשֶׁר יְעַנּוּ אֹתוֹ"
+      },
+      {
+        "ja": "כדאך יכת'רון",
+        "en": "so they multiplied",
+        "he": "כֵּן יִרְבֶּה"
+      },
+      {
+        "ja": "וייסרון",
+        "en": "and prospered",
+        "he": "וְכֵן יִפְרֹץ"
+      },
+      {
+        "ja": "חתא צ'גרו",
+        "en": "until [the Egyptians] were filled with dread",
+        "he": "וַיָּקֻצוּ"
+      },
+      {
+        "ja": "מן קבל בני אסראיל",
+        "en": "before the sons of Israel",
+        "he": "מִפְּנֵי בְּנֵי יִשְׂרָאֵל"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ואסתכ'דם אלמצריון",
+        "en": "And the Egyptians pressed",
+        "he": "וַיַּעֲבִדוּ מִצְרַיִם"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "אֶת-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "באקמא",
+        "en": "into service with cruelty",
+        "he": "בְּפָרֶךְ"
+      }
+    ],
+    "14": [
+      {
+        "ja": "פאמרו חיותהם",
+        "en": "And they made their lives bitter",
+        "he": "וַיְמָרְרוּ אֶת-חַיֵּיהֶם"
+      },
+      {
+        "ja": "בכ'דמה צעבה",
+        "en": "with hard labor",
+        "he": "בַּעֲבֹדָה קָשָׁה"
+      },
+      {
+        "ja": "באלטין ואללבן",
+        "en": "with mortar and brick",
+        "he": "בְּחֹמֶר וּבִלְבֵנִים"
+      },
+      {
+        "ja": "וסאיר אעמאל אלצחרא",
+        "en": "and with all the labors of the open country",
+        "he": "וּבְכָל-עֲבֹדָה בַּשָּׂדֶה"
+      },
+      {
+        "ja": "גמיע כ'דמתהם",
+        "en": "all their service",
+        "he": "אֵת כָּל-עֲבֹדָתָם"
+      },
+      {
+        "ja": "אלד'י אסתכ'דמונהם",
+        "en": "which they pressed them into",
+        "he": "אֲשֶׁר-עָבְדוּ בָהֶם"
+      },
+      {
+        "ja": "באקמא",
+        "en": "with cruelty",
+        "he": "בְּפָרֶךְ"
+      }
+    ],
+    "15": [
+      {
+        "ja": "פקאל מלך מצר",
+        "en": "And the king of Egypt said",
+        "he": "וַיֹּאמֶר מֶלֶךְ מִצְרַיִם"
+      },
+      {
+        "ja": "לאלקואבל אלעבראנייאת",
+        "en": "to the Hebrew midwives",
+        "he": "לַמְיַלְּדֹת הָעִבְרִיֹּת"
+      },
+      {
+        "ja": "אלד'י אסם אחדהמא",
+        "en": "the name of one of whom was",
+        "he": "אֲשֶׁר שֵׁם הָאַחַת"
+      },
+      {
+        "ja": "שפרה",
+        "en": "Shiphrah",
+        "he": "שִׁפְרָה"
+      },
+      {
+        "ja": "ואלאכ'רי'",
+        "en": "and the other",
+        "he": "וְשֵׁם הַשֵּׁנִית"
+      },
+      {
+        "ja": "פועה",
+        "en": "Puah",
+        "he": "פּוּעָה"
+      }
+    ],
+    "16": [
+      {
+        "ja": "קאל",
+        "en": "He said",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "אד'א קבלתן אלעבראנייאת",
+        "en": "When you deliver the Hebrew women",
+        "he": "בְּיַלֶּדְכֶן אֶת-הָעִבְרִיּוֹת"
+      },
+      {
+        "ja": "פאנצ'רן ענד אלמת'בר",
+        "en": "look upon the birth-stool",
+        "he": "וּרְאִיתֶן עַל-הָאָבְנָיִם"
+      },
+      {
+        "ja": "אן כאן אבנא",
+        "en": "if it be a son",
+        "he": "אִם-בֵּן הוּא"
+      },
+      {
+        "ja": "פאקתלוה",
+        "en": "then kill him",
+        "he": "וַהֲמִתֶּן אֹתוֹ"
+      },
+      {
+        "ja": "ואן כאנת אבנה",
+        "en": "and if it be a daughter",
+        "he": "וְאִם-בַּת הִוא"
+      },
+      {
+        "ja": "פאסתבקוהא",
+        "en": "then let her live",
+        "he": "וָחָיָה"
+      }
+    ],
+    "17": [
+      {
+        "ja": "פכ'אפת אלקואבל",
+        "en": "But the midwives feared",
+        "he": "וַתִּירֶאןָ הַמְיַלְּדֹת"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "אֶת-הָאֱלֹהִים"
+      },
+      {
+        "ja": "ולם יצנען",
+        "en": "and did not do",
+        "he": "וְלֹא עָשׂוּ"
+      },
+      {
+        "ja": "כמא קאל להן מלך מצר",
+        "en": "as the king of Egypt had told them",
+        "he": "כַּאֲשֶׁר דִּבֶּר אֲלֵיהֶן מֶלֶךְ מִצְרָיִם"
+      },
+      {
+        "ja": "ואסתבקין אלבנין",
+        "en": "and they let the boys live",
+        "he": "וַתְּחַיֶּיןָ אֶת-הַיְלָדִים"
+      }
+    ],
+    "18": [
+      {
+        "ja": "פדעא בהן מלך מצר",
+        "en": "And the king of Egypt called for them",
+        "he": "וַיִּקְרָא מֶלֶךְ-מִצְרַיִם לַמְיַלְּדֹת"
+      },
+      {
+        "ja": "וקאל להן",
+        "en": "and said to them",
+        "he": "וַיֹּאמֶר לָהֶן"
+      },
+      {
+        "ja": "מא באלכן",
+        "en": "What is your concern",
+        "he": "מַדּוּעַ"
+      },
+      {
+        "ja": "צנעתן",
+        "en": "that you have done",
+        "he": "עֲשִׂיתֶן"
+      },
+      {
+        "ja": "הד'א אלאמר",
+        "en": "this thing",
+        "he": "הַדָּבָר הַזֶּה"
+      },
+      {
+        "ja": "ואסתבקיתן אלבנין",
+        "en": "and have let the boys live",
+        "he": "וַתְּחַיֶּיןָ אֶת-הַיְלָדִים"
+      }
+    ],
+    "19": [
+      {
+        "ja": "קאלתא לה",
+        "en": "They said to him",
+        "he": "וַתֹּאמַרְןָ הַמְיַלְּדֹת אֶל-פַּרְעֹה"
+      },
+      {
+        "ja": "אן ליס כאלנסא. אלמצריאת",
+        "en": "It is because — unlike the Egyptian women",
+        "he": "כִּי לֹא כַנָּשִׁים הַמִּצְרִיֹּת"
+      },
+      {
+        "ja": "אלעבראנייאת",
+        "en": "the Hebrew women",
+        "he": "הָעִבְרִיֹּת"
+      },
+      {
+        "ja": "בל הן בציראת",
+        "en": "are skilled",
+        "he": "כִּי-חָיוֹת הֵנָּה"
+      },
+      {
+        "ja": "קבל אן תדכ'ל אליהן. אלקאבלה",
+        "en": "before the midwife comes in to them",
+        "he": "בְּטֶרֶם תָּבוֹא אֲלֵהֶן הַמְיַלֶּדֶת"
+      },
+      {
+        "ja": "ילדן",
+        "en": "they have given birth",
+        "he": "וְיָלָדוּ"
+      }
+    ],
+    "20": [
+      {
+        "ja": "פאחסן אללה",
+        "en": "And God dealt well",
+        "he": "וַיֵּיטֶב אֱלֹהִים"
+      },
+      {
+        "ja": "אלי' אלקואבל",
+        "en": "with the midwives",
+        "he": "לַמְיַלְּדֹת"
+      },
+      {
+        "ja": "פכת'ר אלקום",
+        "en": "and the people multiplied",
+        "he": "וַיִּרֶב הָעָם"
+      },
+      {
+        "ja": "ועצמו גדא",
+        "en": "and grew very strong",
+        "he": "וַיַּעַצְמוּ מְאֹד"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ולמא כ'אפת אלקואבל",
+        "en": "And when the midwives feared",
+        "he": "וַיְהִי כִּי-יָרְאוּ הַמְיַלְּדֹת"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "אֶת-הָאֱלֹהִים"
+      },
+      {
+        "ja": "צנע להן",
+        "en": "He made for them",
+        "he": "וַיַּעַשׂ לָהֶם"
+      },
+      {
+        "ja": "ביותא חגבהן",
+        "en": "houses where they would be sheltered",
+        "he": "בָּתִּים"
+      }
+    ],
+    "22": [
+      {
+        "ja": "פאמר פרעון",
+        "en": "And Pharaoh commanded",
+        "he": "וַיְצַו פַּרְעֹה"
+      },
+      {
+        "ja": "גמיע קואדה",
+        "en": "all his officers",
+        "he": "לְכָל-עַמּוֹ"
+      },
+      {
+        "ja": "קאילא",
+        "en": "saying",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "כל אבן יולד להם",
+        "en": "Every son that is born to them",
+        "he": "כָּל-הַבֵּן הַיִּלּוֹד"
+      },
+      {
+        "ja": "אטרחוה באלניל",
+        "en": "throw him into the Nile",
+        "he": "הַיְאֹרָה תַּשְׁלִיכֻהוּ"
+      },
+      {
+        "ja": "וכל אבנה",
+        "en": "and every daughter",
+        "he": "וְכָל-הַבַּת"
+      },
+      {
+        "ja": "אסתבקוהא",
+        "en": "let her live",
+        "he": "תְּחַיּוּן"
+      }
+    ]
+  }
+}

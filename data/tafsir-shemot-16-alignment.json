@@ -1,0 +1,574 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Shemot 16. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/shemot_16.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ורחלו מן אילים",
+        "en": "And they journeyed from Elim",
+        "he": "וַיִּסְעוּ מֵאֵילִם"
+      },
+      {
+        "ja": "וגאת גמאעה' בני אסראיל אלי' ברייה' סין",
+        "en": "and the congregation of the sons of Israel came to the wilderness of Sin",
+        "he": "וַיָּבֹאוּ כָּל-עֲדַת בְּנֵי-יִשְׂרָאֵל אֶל-מִדְבַּר-סִין"
+      },
+      {
+        "ja": "אלד'י בין אילים ובין סיני",
+        "en": "which is between Elim and Sinai",
+        "he": "אֲשֶׁר בֵּין-אֵילִם וּבֵין סִינָי"
+      },
+      {
+        "ja": "מן אליום אלכ'מס עשר מן אלשהר אלת'אני. לכ'רוגהם מן בלד מצר",
+        "en": "on the fifteenth day of the second month after their departure from the land of Egypt.",
+        "he": "בַּחֲמִשָּׁה עָשָׂר יוֹם לַחֹדֶשׁ הַשֵּׁנִי לְצֵאתָם מֵאֶרֶץ מִצְרָיִם"
+      }
+    ],
+    "2": [
+      {
+        "ja": "פתד'מר גמאעה' בני אסראיל. עלי' מוסי' והרון פי תלך אלבריה",
+        "en": "And the congregation of the sons of Israel voiced their discontent against Moses and Aaron in that wilderness.",
+        "he": "וילינו (וַיִּלּוֹנוּ) כָּל-עֲדַת בְּנֵי-יִשְׂרָאֵל עַל-מֹשֶׁה וְעַל-אַהֲרֹן--בַּמִּדְבָּר"
+      }
+    ],
+    "3": [
+      {
+        "ja": "וקאלו להם בני אסראיל",
+        "en": "And the sons of Israel said to them",
+        "he": "וַיֹּאמְרוּ אֲלֵהֶם בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "יא ליתנא מתנא באמר אללה פי בלד מצר",
+        "en": "'Would that we had died by the decree of God in the land of Egypt",
+        "he": "מִי-יִתֵּן מוּתֵנוּ בְיַד-יְהוָה בְּאֶרֶץ מִצְרַיִם"
+      },
+      {
+        "ja": "פי גלוסנא עלי' קדור אללחם. ואכלנא מן אלטעאם שבענא",
+        "en": "when we sat over the pots of meat, and ate of food to our fill",
+        "he": "בְּשִׁבְתֵּנוּ עַל-סִיר הַבָּשָׂר בְּאָכְלֵנוּ לֶחֶם לָשֹׂבַע"
+      },
+      {
+        "ja": "אד' אכ'רגתמונא אלי' הד'ה אלבריה. לתקתלו גמיע הד'א אלגוק פי אלגוע",
+        "en": "since you have brought us out into this wilderness to kill this entire throng by hunger.'",
+        "he": "כִּי-הוֹצֵאתֶם אֹתָנוּ אֶל-הַמִּדְבָּר הַזֶּה לְהָמִית אֶת-כָּל-הַקָּהָל הַזֶּה בָּרָעָב"
+      }
+    ],
+    "4": [
+      {
+        "ja": "פקאל אללה למוסי'",
+        "en": "And God said to Moses",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "האנא מנזל לכם טעאמא מן אלסמא",
+        "en": "'Behold, I am about to send down for you food from the sky",
+        "he": "הִנְנִי מַמְטִיר לָכֶם לֶחֶם מִן-הַשָּׁמָיִם"
+      },
+      {
+        "ja": "יכ'רג אלקום פילקטונה אמר יום ביום",
+        "en": "the people shall go out and gather it, a day's portion each day",
+        "he": "וְיָצָא הָעָם וְלָקְטוּ דְּבַר-יוֹם בְּיוֹמוֹ"
+      },
+      {
+        "ja": "לקבל אן אמתחנהם. איסירו פי שראיעי אם לא",
+        "en": "so that I may test them — whether they will walk in my statutes or not.'",
+        "he": "לְמַעַן אֲנַסֶּנּוּ הֲיֵלֵךְ בְּתוֹרָתִי אִם-לֹא"
+      }
+    ],
+    "5": [
+      {
+        "ja": "פאד'א כאן פי אליום אלסאדס",
+        "en": "And when it is on the sixth day",
+        "he": "וְהָיָה בַּיּוֹם הַשִּׁשִּׁי"
+      },
+      {
+        "ja": "יצלחון מא יאתון בה",
+        "en": "they shall prepare what they bring in",
+        "he": "וְהֵכִינוּ אֵת אֲשֶׁר-יָבִיאוּ"
+      },
+      {
+        "ja": "פאנה יכון צ'עף מא ילקטון פי כל יום",
+        "en": "and it shall be double what they gather on every other day.",
+        "he": "וְהָיָה מִשְׁנֶה עַל אֲשֶׁר-יִלְקְטוּ יוֹם יוֹם"
+      }
+    ],
+    "6": [
+      {
+        "ja": "פקאל מוסי' והרון. לגמיע בני אסראיל",
+        "en": "And Moses and Aaron said to all the sons of Israel",
+        "he": "וַיֹּאמֶר מֹשֶׁה וְאַהֲרֹן אֶל-כָּל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "באלעשא תעלמו. אן אללה אכ'רגכם מן בלד מצר",
+        "en": "'At the evening you shall know that God has brought you out from the land of Egypt;",
+        "he": "עֶרֶב--וִידַעְתֶּם כִּי יְהוָה הוֹצִיא אֶתְכֶם מֵאֶרֶץ מִצְרָיִם"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ובאלג'דאה תנצ'רו כרם אללה",
+        "en": "and in the morning you shall behold the bounty of God",
+        "he": "וּבֹקֶר וּרְאִיתֶם אֶת-כְּבוֹד יְהוָה"
+      },
+      {
+        "ja": "אד' סמע תד'מרכם עליה",
+        "en": "since He has heard your discontent against Him",
+        "he": "בְּשָׁמְעוֹ אֶת-תְּלֻנֹּתֵיכֶם עַל-יְהוָה"
+      },
+      {
+        "ja": "ונחן מן. אד' תתד'מרון עלינא",
+        "en": "And who are we, that you voice your discontent against us?'",
+        "he": "וְנַחְנוּ מָה כִּי תלונו (תַלִּינוּ) עָלֵינוּ"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ת'ם קאל מוסי'. ד'אך באן יעטיכם אללה באלעשא לחמא תאכלונה",
+        "en": "Then Moses said: 'This shall be when God gives you meat to eat at the evening",
+        "he": "וַיֹּאמֶר מֹשֶׁה בְּתֵת יְהוָה לָכֶם בָּעֶרֶב בָּשָׂר לֶאֱכֹל"
+      },
+      {
+        "ja": "וטעאמא באלג'דאה תשבעונה",
+        "en": "and food to fill you in the morning",
+        "he": "וְלֶחֶם בַּבֹּקֶר לִשְׂבֹּעַ"
+      },
+      {
+        "ja": "אד' סמע תד'מרכם אלד'י תתד'מרו עליה",
+        "en": "since He has heard your discontent which you voice against Him",
+        "he": "בִּשְׁמֹעַ יְהוָה אֶת-תְּלֻנֹּתֵיכֶם אֲשֶׁר-אַתֶּם מַלִּינִם עָלָיו"
+      },
+      {
+        "ja": "ונחן מן. ליס עלינא תד'מרכם בל עלי' אללה",
+        "en": "And who are we? Your discontent is not against us but against God.'",
+        "he": "וְנַחְנוּ מָה לֹא-עָלֵינוּ תְלֻנֹּתֵיכֶם כִּי עַל-יְהוָה"
+      }
+    ],
+    "9": [
+      {
+        "ja": "פקאל מוסי' להרון",
+        "en": "And Moses said to Aaron",
+        "he": "וַיֹּאמֶר מֹשֶׁה אֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "קל לגמאעה' בני אסראיל. תקדמו בין ידי אללה",
+        "en": "'Say to the congregation of the sons of Israel: Come forward before God",
+        "he": "אֱמֹר אֶל-כָּל-עֲדַת בְּנֵי יִשְׂרָאֵל קִרְבוּ לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "פאנה קד סמע תד'מרכם",
+        "en": "for He has heard your discontent.'",
+        "he": "כִּי שָׁמַע אֵת תְּלֻנֹּתֵיכֶם"
+      }
+    ],
+    "10": [
+      {
+        "ja": "פכמא כלם הרון בד'אלך גמאעה' בני אסראיל",
+        "en": "And as Aaron spoke thus to the congregation of the sons of Israel",
+        "he": "וַיְהִי כְּדַבֵּר אַהֲרֹן אֶל-כָּל-עֲדַת בְּנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אלתפתו אלי' אלבר",
+        "en": "they turned toward the wilderness",
+        "he": "וַיִּפְנוּ אֶל-הַמִּדְבָּר"
+      },
+      {
+        "ja": "פאד'א בנור אללה. קד צ'הר פי אלג'מאם",
+        "en": "and behold, the light of God had appeared in the cloud.",
+        "he": "וְהִנֵּה כְּבוֹד יְהוָה נִרְאָה בֶּעָנָן"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ת'ם כלם אללה מוסי' תכלימא",
+        "en": "Then God spoke to Moses directly.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "12": [
+      {
+        "ja": "קד סמעת תד'מר בני אסראיל",
+        "en": "'I have heard the discontent of the sons of Israel",
+        "he": "שָׁמַעְתִּי אֶת-תְּלוּנֹּת בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "קל להם בין אלגרובין תאכלון לחמא",
+        "en": "Say to them: Between the two evenings you shall eat meat",
+        "he": "דַּבֵּר אֲלֵהֶם לֵאמֹר בֵּין הָעַרְבַּיִם תֹּאכְלוּ בָשָׂר"
+      },
+      {
+        "ja": "ובאלג'דאה תשבעון טעאמא",
+        "en": "and in the morning you shall be filled with food",
+        "he": "וּבַבֹּקֶר תִּשְׂבְּעוּ-לָחֶם"
+      },
+      {
+        "ja": "ותעלמון אני אללה רבכם",
+        "en": "and you shall know that I am God your Lord.'",
+        "he": "וִידַעְתֶּם כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם"
+      }
+    ],
+    "13": [
+      {
+        "ja": "פלמא כאן באלעשא. צעד אלסלוא. פג'טא אלעסכר",
+        "en": "And when it was at the evening, the quail came up and covered the camp",
+        "he": "וַיְהִי בָעֶרֶב--וַתַּעַל הַשְּׂלָו וַתְּכַס אֶת-הַמַּחֲנֶה"
+      },
+      {
+        "ja": "ובאלג'דאה כאן סכב אלטל. חואלי אלעסכר",
+        "en": "and in the morning there was a layer of dew around the camp.",
+        "he": "וּבַבֹּקֶר הָיְתָה שִׁכְבַת הַטַּל סָבִיב לַמַּחֲנֶה"
+      }
+    ],
+    "14": [
+      {
+        "ja": "ולמא צעד סכב אלטל",
+        "en": "And when the layer of dew lifted",
+        "he": "וַתַּעַל שִׁכְבַת הַטָּל"
+      },
+      {
+        "ja": "פאד'א עלי' וגה אלבריה בשי דקיק מדחרג",
+        "en": "behold, upon the face of the wilderness was something fine and rounded",
+        "he": "וְהִנֵּה עַל-פְּנֵי הַמִּדְבָּר דַּק מְחֻסְפָּס"
+      },
+      {
+        "ja": "דקיק כאלרמק עלי' אלארץ'",
+        "en": "fine as frost upon the ground.",
+        "he": "דַּק כַּכְּפֹר עַל-הָאָרֶץ"
+      }
+    ],
+    "15": [
+      {
+        "ja": "פנצ'רוה בני אסראיל. פקאל בעצ'הם לבעץ' הו מן",
+        "en": "And the sons of Israel saw it, and said one to another: 'It is manna'",
+        "he": "וַיִּרְאוּ בְנֵי-יִשְׂרָאֵל וַיֹּאמְרוּ אִישׁ אֶל-אָחִיו מָן הוּא"
+      },
+      {
+        "ja": "לאנהם לם יעלמו מא הו",
+        "en": "for they did not know what it was",
+        "he": "כִּי לֹא יָדְעוּ מַה-הוּא"
+      },
+      {
+        "ja": "פקאל מוסי' להם. הו אלטעאם. אלד'י אעטה אללה. ליכון לכם מאכלא",
+        "en": "And Moses said to them: 'It is the food which God has given, to be for you as food.'",
+        "he": "וַיֹּאמֶר מֹשֶׁה אֲלֵהֶם הוּא הַלֶּחֶם אֲשֶׁר נָתַן יְהוָה לָכֶם לְאָכְלָה"
+      }
+    ],
+    "16": [
+      {
+        "ja": "הד'א אלאמר אלד'י אמר אללה בה",
+        "en": "This is the matter which God has commanded",
+        "he": "זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָה"
+      },
+      {
+        "ja": "אן ילקטו מנה כל רגל עלי' קדר עיאלה",
+        "en": "let each man gather from it according to the measure of his household",
+        "he": "לִקְטוּ מִמֶּנּוּ אִישׁ לְפִי אָכְלוֹ"
+      },
+      {
+        "ja": "מרזבאן לכל גמגמה. עלי' אחצא אנפסכם",
+        "en": "a marzab for each head, by the count of your persons",
+        "he": "עֹמֶר לַגֻּלְגֹּלֶת מִסְפַּר נַפְשֹׁתֵיכֶם"
+      },
+      {
+        "ja": "כל רג'ל יאכד' למן פי ביתה",
+        "en": "each man shall take for those in his house.",
+        "he": "אִישׁ לַאֲשֶׁר בְּאָהֳלוֹ תִּקָּחוּ"
+      }
+    ],
+    "17": [
+      {
+        "ja": "פצנעו כד'אך בני אסראיל",
+        "en": "And the sons of Israel did so",
+        "he": "וַיַּעֲשׂוּ-כֵן בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ולקטו. מן כת'ר ומן קלל",
+        "en": "and gathered — some more and some less.",
+        "he": "וַיִּלְקְטוּ הַמַּרְבֶּה וְהַמַּמְעִיט"
+      }
+    ],
+    "18": [
+      {
+        "ja": "פכאלוה באלמרזבאן",
+        "en": "And they measured it by the marzab",
+        "he": "וַיָּמֹדּוּ בָעֹמֶר"
+      },
+      {
+        "ja": "ולם יפצ'ל מן כת'ר ומן קלל לם ינקצה",
+        "en": "and he who had gathered more had nothing left over, and he who had gathered less lacked nothing",
+        "he": "וְלֹא הֶעְדִּיף הַמַּרְבֶּה וְהַמַּמְעִיט לֹא הֶחְסִיר"
+      },
+      {
+        "ja": "כל רגל עלי' קדר עיאלה לקטו",
+        "en": "each man gathered according to the measure of his household.",
+        "he": "אִישׁ לְפִי-אָכְלוֹ לָקָטוּ"
+      }
+    ],
+    "19": [
+      {
+        "ja": "פקאל להם מוסי'",
+        "en": "And Moses said to them",
+        "he": "וַיֹּאמֶר מֹשֶׁה אֲלֵהֶם"
+      },
+      {
+        "ja": "לא יבק אנסאן מנה שייא אלי' אלג'דאה",
+        "en": "'Let no person leave any of it until the morning.'",
+        "he": "אִישׁ אַל-יוֹתֵר מִמֶּנּוּ עַד-בֹּקֶר"
+      }
+    ],
+    "20": [
+      {
+        "ja": "פלם יקבלו מן מוסי'",
+        "en": "But they did not heed Moses",
+        "he": "וְלֹא-שָׁמְעוּ אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "ובקו מנה אנאס אלי' אלג'דאה",
+        "en": "and some people left of it until the morning",
+        "he": "וַיּוֹתִרוּ אֲנָשִׁים מִמֶּנּוּ עַד-בֹּקֶר"
+      },
+      {
+        "ja": "פנתן ונג'ל דודא",
+        "en": "and it putrefied and swarmed with worms",
+        "he": "וַיָּרֻם תּוֹלָעִים וַיִּבְאַשׁ"
+      },
+      {
+        "ja": "פסכ'ט עליהם. מוסי'",
+        "en": "and Moses was angered with them.",
+        "he": "וַיִּקְצֹף עֲלֵהֶם מֹשֶׁה"
+      }
+    ],
+    "21": [
+      {
+        "ja": "וכאנו ילקטונה פי כל ג'דאה כל רגל עלי' קדר עיאלה",
+        "en": "And they would gather it each morning, every man according to the measure of his household",
+        "he": "וַיִּלְקְטוּ אֹתוֹ בַּבֹּקֶר בַּבֹּקֶר אִישׁ כְּפִי אָכְלוֹ"
+      },
+      {
+        "ja": "פאד'א חמית אלשמס תמאסא",
+        "en": "and when the sun grew hot, it melted away.",
+        "he": "וְחַם הַשֶּׁמֶשׁ וְנָמָס"
+      }
+    ],
+    "22": [
+      {
+        "ja": "ולמא כאן פי אליום אלסאדס. לקטו מן אלטעאם צעפא",
+        "en": "And when it was on the sixth day, they gathered food in double measure",
+        "he": "וַיְהִי בַּיּוֹם הַשִּׁשִּׁי לָקְטוּ לֶחֶם מִשְׁנֶה"
+      },
+      {
+        "ja": "מרזבאנין לכל ואחד",
+        "en": "two marzabs for each one",
+        "he": "שְׁנֵי הָעֹמֶר לָאֶחָד"
+      },
+      {
+        "ja": "פגאו גמיע אשראף אלגמאעה. ואכ'ברו מוסי'",
+        "en": "and all the nobles of the congregation came and informed Moses.",
+        "he": "וַיָּבֹאוּ כָּל-נְשִׂיאֵי הָעֵדָה וַיַּגִּידוּ לְמֹשֶׁה"
+      }
+    ],
+    "23": [
+      {
+        "ja": "פקאל להם. הו מא קאל אללה",
+        "en": "And he said to them: 'It is what God has said",
+        "he": "וַיֹּאמֶר אֲלֵהֶם הוּא אֲשֶׁר דִּבֶּר יְהוָה"
+      },
+      {
+        "ja": "עטלה הי סבת מקדסא ללה ג'דא",
+        "en": "a rest — it is a Sabbath consecrated to God tomorrow",
+        "he": "שַׁבָּתוֹן שַׁבַּת-קֹדֶשׁ לַיהוָה מָחָר"
+      },
+      {
+        "ja": "מא תרידו אן תכ'בזון אכ'בזו",
+        "en": "What you wish to bake, bake; and what you wish to cook, cook",
+        "he": "אֵת אֲשֶׁר-תֹּאפוּ אֵפוּ וְאֵת אֲשֶׁר-תְּבַשְּׁלוּ בַּשֵּׁלוּ"
+      },
+      {
+        "ja": "ומא פצ'ל. דעוה לכם מחפוצ'א אלי' אלג'דאה",
+        "en": "and what remains, leave it preserved for yourselves until the morning.'",
+        "he": "וְאֵת כָּל-הָעֹדֵף הַנִּיחוּ לָכֶם לְמִשְׁמֶרֶת עַד-הַבֹּקֶר"
+      }
+    ],
+    "24": [
+      {
+        "ja": "פודעוה אלי' אלג'דאה. כמא אמרהם מוסי'",
+        "en": "And they left it until the morning, as Moses had commanded them",
+        "he": "וַיַּנִּיחוּ אֹתוֹ עַד-הַבֹּקֶר כַּאֲשֶׁר צִוָּה מֹשֶׁה"
+      },
+      {
+        "ja": "ולם ינתן. ורמה לם תכון פיה",
+        "en": "and it did not putrefy, and there was no worm in it.",
+        "he": "וְלֹא הִבְאִישׁ וְרִמָּה לֹא-הָיְתָה בּוֹ"
+      }
+    ],
+    "25": [
+      {
+        "ja": "פקאל מוסי' כלוה אליום",
+        "en": "And Moses said: 'Eat it today",
+        "he": "וַיֹּאמֶר מֹשֶׁה אִכְלֻהוּ הַיּוֹם"
+      },
+      {
+        "ja": "לאן אליום סבת ללה",
+        "en": "for today is a Sabbath to God",
+        "he": "כִּי-שַׁבָּת הַיּוֹם לַיהוָה"
+      },
+      {
+        "ja": "ואליום לא תגדוה פי אלצחרי'",
+        "en": "today you will not find it in the wilderness.'",
+        "he": "הַיּוֹם לֹא תִמְצָאֻהוּ בַּשָּׂדֶה"
+      }
+    ],
+    "26": [
+      {
+        "ja": "סתה' איאם תלקטונה",
+        "en": "'Six days you shall gather it",
+        "he": "שֵׁשֶׁת יָמִים תִּלְקְטֻהוּ"
+      },
+      {
+        "ja": "ואליום אלסאבע. סבת לא יכון פיה",
+        "en": "and on the seventh day — it is a Sabbath; there will be none in it.'",
+        "he": "וּבַיּוֹם הַשְּׁבִיעִי שַׁבָּת לֹא יִהְיֶה-בּוֹ"
+      }
+    ],
+    "27": [
+      {
+        "ja": "פלמא כאן פי אליום אלסאבע",
+        "en": "And when it was on the seventh day",
+        "he": "וַיְהִי בַּיּוֹם הַשְּׁבִיעִי"
+      },
+      {
+        "ja": "כ'רג אנאס מן אלקום לילתקטון. פלם יגדו שייא",
+        "en": "some people from the clan went out to gather, but they found nothing.",
+        "he": "יָצְאוּ מִן-הָעָם לִלְקֹט וְלֹא מָצָאוּ"
+      }
+    ],
+    "28": [
+      {
+        "ja": "פקאל אללה למוסי'",
+        "en": "And God said to Moses",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "אלי' כם קד אביתם. אן תחפצו וצאיאי ושראיעי",
+        "en": "'How long have you refused to keep My commandments and My statutes?'",
+        "he": "עַד-אָנָה מֵאַנְתֶּם לִשְׁמֹר מִצְו‍ֹתַי וְתוֹרֹתָי"
+      }
+    ],
+    "29": [
+      {
+        "ja": "אנצ'רו. אן אללה קד אעטאכם שריעה' אלסבת",
+        "en": "'See that God has given you the statute of the Sabbath",
+        "he": "רְאוּ כִּי-יְהוָה נָתַן לָכֶם הַשַּׁבָּת"
+      },
+      {
+        "ja": "לד'אלך הו מעטיכם. פי אליום אלסאדס טעאם יומין",
+        "en": "therefore He is giving you on the sixth day food for two days",
+        "he": "עַל-כֵּן הוּא נֹתֵן לָכֶם בַּיּוֹם הַשִּׁשִּׁי לֶחֶם יוֹמָיִם"
+      },
+      {
+        "ja": "פליגלס כל אמר מכאנה. ולא יכ'ר'ג אחד מן מו'צעה פי אליום אלסאבע",
+        "en": "Let every person remain in his place; let no one go out from his place on the seventh day.'",
+        "he": "שְׁבוּ אִישׁ תַּחְתָּיו אַל-יֵצֵא אִישׁ מִמְּקֹמוֹ--בַּיּוֹם הַשְּׁבִיעִי"
+      }
+    ],
+    "30": [
+      {
+        "ja": "פאסבת אלקום פי אליום אלסאבע",
+        "en": "And the people observed the Sabbath on the seventh day.",
+        "he": "וַיִּשְׁבְּתוּ הָעָם בַּיּוֹם הַשְּׁבִעִי"
+      }
+    ],
+    "31": [
+      {
+        "ja": "וסמא אל אסראיל אסמה אלמן",
+        "en": "And the house of Israel called its name the manna",
+        "he": "וַיִּקְרְאוּ בֵית-יִשְׂרָאֵל אֶת-שְׁמוֹ מָן"
+      },
+      {
+        "ja": "והו כבזר אלכבזרה אביץ'",
+        "en": "and it was like the seed of coriander, white",
+        "he": "וְהוּא כְּזֶרַע גַּד לָבָן"
+      },
+      {
+        "ja": "וטעמה כקטאיף בעסל",
+        "en": "and its taste was like wafers with honey.",
+        "he": "וְטַעְמוֹ כְּצַפִּיחִת בִּדְבָשׁ"
+      }
+    ],
+    "32": [
+      {
+        "ja": "פקאל מוסי. הד'א אלאמר אלד'י אמר אללה בה",
+        "en": "And Moses said: 'This is the matter which God has commanded",
+        "he": "וַיֹּאמֶר מֹשֶׁה זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָה"
+      },
+      {
+        "ja": "מל אלמרזבאן מנה. יכון מחפוצא לאגיאלכם",
+        "en": "a marzab-full of it shall be kept for your generations",
+        "he": "מְלֹא הָעֹמֶר מִמֶּנּוּ לְמִשְׁמֶרֶת לְדֹרֹתֵיכֶם"
+      },
+      {
+        "ja": "לכי ינצרון אלטעאם אלד'י אטעמתכם פי אלבר",
+        "en": "so that they may see the food with which I fed you in the wilderness",
+        "he": "לְמַעַן יִרְאוּ אֶת-הַלֶּחֶם אֲשֶׁר הֶאֱכַלְתִּי אֶתְכֶם בַּמִּדְבָּר"
+      },
+      {
+        "ja": "חין אכ'רגתכם מן בלד מצר",
+        "en": "when I brought you out from the land of Egypt.'",
+        "he": "בְּהוֹצִיאִי אֶתְכֶם מֵאֶרֶץ מִצְרָיִם"
+      }
+    ],
+    "33": [
+      {
+        "ja": "פקאל מוסי' להרון",
+        "en": "And Moses said to Aaron",
+        "he": "וַיֹּאמֶר מֹשֶׁה אֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "כ'ד ברנייה ואחדה. ואגעל פיהא מל אלמרזבאן מנא",
+        "en": "'Take one jar, and put in it a marzab-full of manna",
+        "he": "קַח צִנְצֶנֶת אַחַת וְתֶן-שָׁמָּה מְלֹא-הָעֹמֶר מָן"
+      },
+      {
+        "ja": "וצעה בין ידי אללה. מחפוצא לאגיאלכם",
+        "en": "and place it before God, preserved for their generations.'",
+        "he": "וְהַנַּח אֹתוֹ לִפְנֵי יְהוָה לְמִשְׁמֶרֶת לְדֹרֹתֵיכֶם"
+      }
+    ],
+    "34": [
+      {
+        "ja": "כמא אמר אללה מוסי'",
+        "en": "As God commanded Moses",
+        "he": "כַּאֲשֶׁר צִוָּה יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "וצעה הרון. בין ידי אלשהאדה מחפוצא",
+        "en": "Aaron placed it before the testimony, preserved.",
+        "he": "וַיַּנִּיחֵהוּ אַהֲרֹן לִפְנֵי הָעֵדֻת לְמִשְׁמָרֶת"
+      }
+    ],
+    "35": [
+      {
+        "ja": "ובני אסראיל. אכלו אלמן ארבעין סנה",
+        "en": "And the sons of Israel ate the manna forty years",
+        "he": "וּבְנֵי יִשְׂרָאֵל אָכְלוּ אֶת-הַמָּן אַרְבָּעִים שָׁנָה"
+      },
+      {
+        "ja": "אלי' דכולהם אלי' בלד עאמר",
+        "en": "until their entry into an inhabited land",
+        "he": "עַד-בֹּאָם אֶל-אֶרֶץ נוֹשָׁבֶת"
+      },
+      {
+        "ja": "אכלוה אלי' דכולהם. אלי' טרף בלד כנעאן",
+        "en": "they ate it until their entry into the border of the land of Canaan.",
+        "he": "אֶת-הַמָּן אָכְלוּ--עַד-בֹּאָם אֶל-קְצֵה אֶרֶץ כְּנָעַן"
+      }
+    ],
+    "36": [
+      {
+        "ja": "וכאן אלמרזבאן עשר אלויבה",
+        "en": "And the marzab was a tenth of the waybah.",
+        "he": "וְהָעֹמֶר עֲשִׂרִית הָאֵיפָה הוּא"
+      }
+    ]
+  }
+}
