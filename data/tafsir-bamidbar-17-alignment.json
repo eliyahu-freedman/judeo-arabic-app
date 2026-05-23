@@ -1,0 +1,433 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 17. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_17.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ת'ם כלם אללה מוסי' תכלימא",
+        "en": "Then God spoke to Moses directly.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "2": [
+      {
+        "ja": "מר אלעזר אבן הרון אלאמאם",
+        "en": "Command Eleazar son of Aaron the priest",
+        "he": "אֱמֹר אֶל-אֶלְעָזָר בֶּן-אַהֲרֹן הַכֹּהֵן"
+      },
+      {
+        "ja": "באן ירפע אלמגאמר מן בין אלמחרקין",
+        "en": "that he lift the fire-pans from among the burned ones",
+        "he": "וְיָרֵם אֶת-הַמַּחְתֹּת מִבֵּין הַשְּׂרֵפָה"
+      },
+      {
+        "ja": "ויד'רי אלנאר הנאך",
+        "en": "and scatter the fire there",
+        "he": "וְאֶת-הָאֵשׁ זְרֵה-הָלְאָה"
+      },
+      {
+        "ja": "לאנהא קד תקדסת",
+        "en": "for they have become consecrated.",
+        "he": "כִּי קָדֵשׁוּ"
+      }
+    ],
+    "3": [
+      {
+        "ja": "אמא מגאמר הולאי אלמכ'טיין עלי' נפוסהם",
+        "en": "As for the fire-pans of these men who sinned against their own souls",
+        "he": "אֵת מַחְתּוֹת הַחַטָּאִים הָאֵלֶּה בְּנַפְשֹׁתָם"
+      },
+      {
+        "ja": "פיצנעוהא צפאיחא רקאק ג'שאא לאלמד'בח",
+        "en": "let them be made into thin beaten plates, a covering for the altar",
+        "he": "וְעָשׂוּ אֹתָם רִקֻּעֵי פַחִים צִפּוּי לַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "פאנהא למא קדמוהא בין ידי אללה קד תקדסת",
+        "en": "for since they presented them before God they have become consecrated",
+        "he": "כִּי-הִקְרִיבֻם לִפְנֵי-יְהוָה וַיִּקְדָּשׁוּ"
+      },
+      {
+        "ja": "ותציר עלאמה לבני אסראיל",
+        "en": "and they shall be a sign for the sons of Israel.",
+        "he": "וְיִהְיוּ לְאוֹת לִבְנֵי יִשְׂרָאֵל"
+      }
+    ],
+    "4": [
+      {
+        "ja": "פאכ'ד' אלעזר אלאמאם. מגאמר אלנחאס. אלד'י קדמוהא אלמחרקין",
+        "en": "And Eleazar the priest took the copper fire-pans which the burned ones had presented",
+        "he": "וַיִּקַּח אֶלְעָזָר הַכֹּהֵן אֵת מַחְתּוֹת הַנְּחֹשֶׁת אֲשֶׁר הִקְרִיבוּ הַשְּׂרֻפִים"
+      },
+      {
+        "ja": "פארקוהא צפאיחא לאלמד'בח",
+        "en": "and they beat them into plates for the altar",
+        "he": "וַיְרַקְּעוּם צִפּוּי לַמִּזְבֵּחַ"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ד'כרא לבני אסראיל",
+        "en": "a memorial for the sons of Israel",
+        "he": "זִכָּרוֹן לִבְנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "לכי לא יתקדם רגל אגנבי. מן ליס הו מן נסל הרון. ליבכ'ר בכ'ורא בין ידי אללה",
+        "en": "so that no outsider who is not of the lineage of Aaron shall draw near to burn incense before God",
+        "he": "לְמַעַן אֲשֶׁר לֹא-יִקְרַב אִישׁ זָר אֲשֶׁר לֹא מִזֶּרַע אַהֲרֹן הוּא לְהַקְטִיר קְטֹרֶת לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "ולא יכון כקרח וכגמועה",
+        "en": "and that none be like Korah and his assembly",
+        "he": "וְלֹא-יִהְיֶה כְקֹרַח וְכַעֲדָתוֹ"
+      },
+      {
+        "ja": "כמא נזל אללה. עלי' יד מוסי פיה",
+        "en": "as God laid down by the hand of Moses concerning him.",
+        "he": "כַּאֲשֶׁר דִּבֶּר יְהוָה בְּיַד-מֹשֶׁה לוֹ"
+      }
+    ],
+    "6": [
+      {
+        "ja": "פתד'מר. גמאעה' בני אסראיל מן ג'ד. עלי' מוסי' והרון",
+        "en": "And the whole congregation of the sons of Israel complained on the next day against Moses and Aaron",
+        "he": "וַיִּלֹּנוּ כָּל-עֲדַת בְּנֵי-יִשְׂרָאֵל מִמָּחֳרָת עַל-מֹשֶׁה וְעַל-אַהֲרֹן"
+      },
+      {
+        "ja": "קאילין",
+        "en": "saying",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "אנתמא קתלתמא מן אמה' אללה",
+        "en": "'You two have killed from the nation of God.'",
+        "he": "אַתֶּם הֲמִתֶּם אֶת-עַם יְהוָה"
+      }
+    ],
+    "7": [
+      {
+        "ja": "פלמא תגווקו עליהמא",
+        "en": "And when they had gathered against the two of them",
+        "he": "וַיְהִי בְּהִקָּהֵל הָעֵדָה עַל-מֹשֶׁה וְעַל-אַהֲרֹן"
+      },
+      {
+        "ja": "אלתפתו אלי' כ'בא אלמחצ'ר",
+        "en": "they turned toward the tent of the assembly",
+        "he": "וַיִּפְנוּ אֶל-אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "פאד'א בנור אללה. צהר פי אלג'מאם",
+        "en": "and behold, the light of God appeared in the cloud.",
+        "he": "וְהִנֵּה כִסָּהוּ הֶעָנָן וַיֵּרָא כְּבוֹד יְהוָה"
+      }
+    ],
+    "8": [
+      {
+        "ja": "פתקדם מוסי' והרון. בין ידי כ'בא אלמחצ'ר",
+        "en": "And Moses and Aaron came forward before the tent of the assembly.",
+        "he": "וַיָּבֹא מֹשֶׁה וְאַהֲרֹן אֶל-פְּנֵי אֹהֶל מוֹעֵד"
+      }
+    ],
+    "9": [
+      {
+        "ja": "ת'ם כלם אללה. מוסי' תכלימא",
+        "en": "Then God spoke to Moses directly.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "10": [
+      {
+        "ja": "אן ארתפעתם מן בין הד'א אלגמאעה",
+        "en": "'If you remove yourselves from among this congregation",
+        "he": "הֵרֹמּוּ מִתּוֹךְ הָעֵדָה הַזֹּאת"
+      },
+      {
+        "ja": "אפניתהם כטרפה",
+        "en": "I shall destroy them in the twinkling of an eye.'",
+        "he": "וַאֲכַלֶּה אֹתָם כְּרָגַע"
+      },
+      {
+        "ja": "פוקעא עלי' וגוההמא",
+        "en": "And the two of them fell upon their faces.",
+        "he": "וַיִּפְּלוּ עַל-פְּנֵיהֶם"
+      }
+    ],
+    "11": [
+      {
+        "ja": "פקאל מוסי' להרון",
+        "en": "And Moses said to Aaron",
+        "he": "וַיֹּאמֶר מֹשֶׁה אֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "כ'ד' אלמגמרה. ואגעל עליהא נארא. מן פוק אלמד'בח",
+        "en": "'Take the fire-pan, and place upon it fire from the altar",
+        "he": "קַח אֶת-הַמַּחְתָּה וְתֶן-עָלֶיהָ אֵשׁ מֵעַל הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "ואלקי בכורא",
+        "en": "and cast incense upon it",
+        "he": "וְשִׂים קְטֹרֶת"
+      },
+      {
+        "ja": "ואד'הב בה מסרעא. אלי' אלגמאעה ואסתג'פר ענהם",
+        "en": "and go with it quickly to the congregation, and seek forgiveness for them",
+        "he": "וְהוֹלֵךְ מְהֵרָה אֶל-הָעֵדָה וְכַפֵּר עֲלֵיהֶם"
+      },
+      {
+        "ja": "פאן אלסכ'ט. קד כ'רג מן בין ידי אללה. וקד בדא בהם אלצדאם",
+        "en": "for the wrath has gone forth from before God, and the plague has already begun among them.'",
+        "he": "כִּי-יָצָא הַקֶּצֶף מִלִּפְנֵי יְהוָה הֵחֵל הַנָּגֶף"
+      }
+    ],
+    "12": [
+      {
+        "ja": "פאכ'ד' ד'אלך הרון. כמא קאל מוסי",
+        "en": "And Aaron took it, just as Moses had said",
+        "he": "וַיִּקַּח אַהֲרֹן כַּאֲשֶׁר דִּבֶּר מֹשֶׁה"
+      },
+      {
+        "ja": "וחאצ'ר אלי' וסט אלגוק",
+        "en": "and he came to the midst of the assembly",
+        "he": "וַיָּרָץ אֶל-תּוֹךְ הַקָּהָל"
+      },
+      {
+        "ja": "פאד'א באלובא קד אבתדא בהם",
+        "en": "and behold, the pestilence had already begun among them",
+        "he": "וְהִנֵּה הֵחֵל הַנֶּגֶף בָּעָם"
+      },
+      {
+        "ja": "פבכ'ר אלבכור. ואסתג'פר ענהם",
+        "en": "and he burned the incense, and sought forgiveness for them.",
+        "he": "וַיִּתֵּן אֶת-הַקְּטֹרֶת וַיְכַפֵּר עַל-הָעָם"
+      }
+    ],
+    "13": [
+      {
+        "ja": "פוקף בין אלמותא ואלאחיא",
+        "en": "And he stood between the dead and the living",
+        "he": "וַיַּעֲמֹד בֵּין-הַמֵּתִים וּבֵין הַחַיִּים"
+      },
+      {
+        "ja": "ואנחבס אלובא",
+        "en": "and the pestilence was held back.",
+        "he": "וַתֵּעָצַר הַמַּגֵּפָה"
+      }
+    ],
+    "14": [
+      {
+        "ja": "פכאן עדד מן מאת בד'אלך אלובא. ארבעה' עשר אלף וסבע מאיה",
+        "en": "And the number of those who died in that pestilence was fourteen thousand and seven hundred",
+        "he": "וַיִּהְיוּ הַמֵּתִים בַּמַּגֵּפָה אַרְבָּעָה עָשָׂר אֶלֶף וּשְׁבַע מֵאוֹת"
+      },
+      {
+        "ja": "סוא מן מאת בסבב קרח",
+        "en": "besides those who died on account of Korah.",
+        "he": "מִלְּבַד הַמֵּתִים עַל-דְּבַר-קֹרַח"
+      }
+    ],
+    "15": [
+      {
+        "ja": "פרגע הרון אלי' מוסי. אלי' באב כ'בא אלמחצ'ר",
+        "en": "Then Aaron returned to Moses, to the entrance of the tent of the assembly",
+        "he": "וַיָּשָׁב אַהֲרֹן אֶל-מֹשֶׁה אֶל-פֶּתַח אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "וקד אנחבס אלובא",
+        "en": "and the pestilence had been held back.",
+        "he": "וְהַמַּגֵּפָה נֶעֱצָרָה"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ת'ם כלם אללה מוסי' תכלימא",
+        "en": "Then God spoke to Moses directly.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "17": [
+      {
+        "ja": "מר בני אסראיל",
+        "en": "'Command the sons of Israel",
+        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וכ'ד' מנהם. עצא עצא לכל בית אב. מן אשראפהם לביות אבאיהם",
+        "en": "and take from them a staff, one staff for each father's house, from their nobles, for the houses of their fathers",
+        "he": "וְקַח מֵאִתָּם מַטֶּה מַטֶּה לְבֵית אָב מֵאֵת כָּל-נְשִׂיאֵהֶם לְבֵית אֲבֹתָם"
+      },
+      {
+        "ja": "את'ני עשר עצא",
+        "en": "twelve staves",
+        "he": "שְׁנֵים עָשָׂר מַטּוֹת"
+      },
+      {
+        "ja": "ואכתב אסם כל רגל עלי' עצאה",
+        "en": "and write the name of each man upon his staff",
+        "he": "אִישׁ אֶת-שְׁמוֹ תִּכְתֹּב עַל-מַטֵּהוּ"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ואסם הרון. אכתב עלי' עצא לוי",
+        "en": "And Aaron's name — write it upon the staff of Levi",
+        "he": "וְאֵת שֵׁם אַהֲרֹן תִּכְתֹּב עַל-מַטֵּה לֵוִי"
+      },
+      {
+        "ja": "אנך אנמא תאכ'ד' עצא ואחד. לגמלה' ביות אבאיהם",
+        "en": "for you are to take but one staff for the whole body of the houses of their fathers.'",
+        "he": "כִּי מַטֶּה אֶחָד לְרֹאשׁ בֵּית אֲבוֹתָם"
+      }
+    ],
+    "19": [
+      {
+        "ja": "וצ'עהא פי כ'בא אלמחצ'ר. בין ידי אלשהאדה",
+        "en": "'And place them in the tent of the assembly, before the testimony",
+        "he": "וְהִנַּחְתָּם בְּאֹהֶל מוֹעֵד--לִפְנֵי הָעֵדוּת"
+      },
+      {
+        "ja": "אלד'י אחצ'רך הנאך",
+        "en": "where I shall meet you there.'",
+        "he": "אֲשֶׁר אִוָּעֵד לָכֶם שָׁמָּה"
+      }
+    ],
+    "20": [
+      {
+        "ja": "פאלרג'ל אלד'י אכ'תארה תפרע עצאה",
+        "en": "'And the man whom I shall choose — his staff shall put forth branches",
+        "he": "וְהָיָה הָאִישׁ אֲשֶׁר אֶבְחַר-בּוֹ--מַטֵּהוּ יִפְרָח"
+      },
+      {
+        "ja": "חתא אהדי עני. תדמר בני אסראיל",
+        "en": "so that I may quiet away from Me the complaining of the sons of Israel",
+        "he": "וַהֲשִׁכֹּתִי מֵעָלַי אֶת-תְּלֻנּוֹת בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אלד'י הם מתד'מרין עליכם",
+        "en": "which they are complaining against you.'",
+        "he": "אֲשֶׁר הֵם מַלִּינִם עֲלֵיכֶם"
+      }
+    ],
+    "21": [
+      {
+        "ja": "פכלם מוסי' בדאלך בני אסראיל",
+        "en": "And Moses spoke this to the sons of Israel",
+        "he": "וַיְדַבֵּר מֹשֶׁה אֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פדפע אליה כל אשראפהם. עצא מן כל שריף לביות אבאיהם",
+        "en": "and all their nobles gave to him a staff, one staff for each noble, for the houses of their fathers",
+        "he": "וַיִּתְּנוּ אֵלָיו כָּל-נְשִׂיאֵיהֶם מַטֶּה לְנָשִׂיא אֶחָד מַטֶּה לְנָשִׂיא אֶחָד לְבֵית אֲבֹתָם"
+      },
+      {
+        "ja": "את'ני עשר עצא",
+        "en": "twelve staves",
+        "he": "שְׁנֵים עָשָׂר מַטּוֹת"
+      },
+      {
+        "ja": "ועצא הרון פי מא בין עציהם",
+        "en": "and Aaron's staff was among their staves",
+        "he": "וּמַטֵּה אַהֲרֹן בְּתוֹךְ מַטּוֹתָם"
+      }
+    ],
+    "22": [
+      {
+        "ja": "פוצ'עהא מוסי' בין ידי אללה",
+        "en": "And Moses placed them before God",
+        "he": "וַיַּנַּח מֹשֶׁה אֶת-הַמַּטֹּת לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "פי כ'בא אלשהאדה",
+        "en": "in the tent of the testimony.",
+        "he": "בְּאֹהֶל הָעֵדֻת"
+      }
+    ],
+    "23": [
+      {
+        "ja": "ולמא כאן מן ג'ד",
+        "en": "And when the next day came",
+        "he": "וַיְהִי מִמָּחֳרָת"
+      },
+      {
+        "ja": "דכ'ל מוסי אלי' כ'בא אלשהאדה",
+        "en": "Moses entered the tent of the testimony",
+        "he": "וַיָּבֹא מֹשֶׁה אֶל-אֹהֶל הָעֵדוּת"
+      },
+      {
+        "ja": "פאד'א קד פרעת עצא הרון אלתי הי לבית לוי",
+        "en": "and behold, the staff of Aaron, which was for the house of Levi, had put forth branches",
+        "he": "וְהִנֵּה פָּרַח מַטֵּה-אַהֲרֹן לְבֵית לֵוִי"
+      },
+      {
+        "ja": "פאכ'רגת פרועא ונוורת נוארא. ועקדת לוזא",
+        "en": "it had brought out branches, and had burst into blossom, and had formed almonds.",
+        "he": "וַיֹּצֵא פֶרַח וַיָּצֵץ צִיץ וַיִּגְמֹל שְׁקֵדִים"
+      }
+    ],
+    "24": [
+      {
+        "ja": "פאכ'רג מוסי. גמיע אלעצי מן בין ידי אללה. אלי' גמיע בני אסראיל",
+        "en": "And Moses brought out all the staves from before God to all the sons of Israel",
+        "he": "וַיֹּצֵא מֹשֶׁה אֶת-כָּל-הַמַּטֹּת מִלִּפְנֵי יְהוָה אֶל-כָּל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פנצ'ר כל ואחד אלי' עצאה פאכ'ד'הא",
+        "en": "and each one looked at his own staff and took it.",
+        "he": "וַיִּרְאוּ וַיִּקְחוּ אִישׁ מַטֵּהוּ"
+      }
+    ],
+    "25": [
+      {
+        "ja": "ת'ם קאל אללה למוסי'",
+        "en": "Then God said to Moses",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "רד עצא הרון בין ידי אלשהאדה. תכון חפץ' עלאמה לד'וי אלכ'לף",
+        "en": "'Return Aaron's staff before the testimony, to be kept as a sign for those who are rebellious",
+        "he": "הָשֵׁב אֶת-מַטֵּה אַהֲרֹן לִפְנֵי הָעֵדוּת לְמִשְׁמֶרֶת לְאוֹת לִבְנֵי-מֶרִי"
+      },
+      {
+        "ja": "פיפנא תד'מרהם עליי ולא יהלכון",
+        "en": "that their complaining against Me may be brought to an end, and they shall not perish.'",
+        "he": "וּתְכַל תְּלוּנֹּתָם מֵעָלַי וְלֹא יָמֻתוּ"
+      }
+    ],
+    "26": [
+      {
+        "ja": "פצנע מוסי'. כמא אמרה אללה מן ד'אלך",
+        "en": "And Moses did as God had commanded him in this.",
+        "he": "וַיַּעַשׂ מֹשֶׁה כַּאֲשֶׁר צִוָּה יְהוָה אֹתוֹ כֵּן עָשָׂה"
+      }
+    ],
+    "27": [
+      {
+        "ja": "ת'ם קאל בני אסראיל למוסי'",
+        "en": "Then the sons of Israel said to Moses",
+        "he": "וַיֹּאמְרוּ בְּנֵי יִשְׂרָאֵל אֶל-מֹשֶׁה לֵאמֹר"
+      },
+      {
+        "ja": "הוד'א קד תופא מנא ובאד מנא",
+        "en": "'Behold, some of us have died and some of us have perished",
+        "he": "הֵן גָּוַעְנוּ אָבַדְנוּ"
+      },
+      {
+        "ja": "פכלנא האלכין",
+        "en": "so we are all doomed.'",
+        "he": "כֻּלָּנוּ אָבָדְנוּ"
+      }
+    ],
+    "28": [
+      {
+        "ja": "ואד'א כאן כל מתקדם. אלי' מסכן אללה יהלך",
+        "en": "And if every one who draws near to the dwelling of God is destroyed",
+        "he": "כֹּל הַקָּרֵב הַקָּרֵב אֶל-מִשְׁכַּן יְהוָה יָמוּת"
+      },
+      {
+        "ja": "פהוד'א נחן פאנון מתופון",
+        "en": "then behold — we are perishing, we are dying.'",
+        "he": "הַאִם תַּמְנוּ לִגְו‍ֹעַ"
+      }
+    ]
+  }
+}

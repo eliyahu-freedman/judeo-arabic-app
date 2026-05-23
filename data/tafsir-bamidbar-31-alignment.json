@@ -1,0 +1,570 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 31. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_31.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ת'ם כלם אללה מוסי' תכלימא",
+        "en": "Then God spoke to Moses directly.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "2": [
+      {
+        "ja": "אנתקם נקמה' בני אסראיל. מן אלמדיאניין",
+        "en": "'Exact the vengeance of the sons of Israel upon the Midianites",
+        "he": "נְקֹם נִקְמַת בְּנֵי יִשְׂרָאֵל מֵאֵת הַמִּדְיָנִים"
+      },
+      {
+        "ja": "בעד ד'אלך תנצ'ם אלי' קומך",
+        "en": "after that, you shall be gathered to your people.'",
+        "he": "אַחַר תֵּאָסֵף אֶל-עַמֶּיךָ"
+      }
+    ],
+    "3": [
+      {
+        "ja": "פכלם מוסי' קומה קאילא",
+        "en": "And Moses spoke to his people, saying:",
+        "he": "וַיְדַבֵּר מֹשֶׁה אֶל-הָעָם לֵאמֹר"
+      },
+      {
+        "ja": "גרדו מנכם. רגאלא לאלגיש",
+        "en": "'Detach from among you men for the army",
+        "he": "הֵחָלְצוּ מֵאִתְּכֶם אֲנָשִׁים לַצָּבָא"
+      },
+      {
+        "ja": "יג'זו אלי' מדין ליחל נקמה אללה בהם",
+        "en": "to campaign against Midian, that the vengeance of God may fall upon them.'",
+        "he": "וְיִהְיוּ עַל-מִדְיָן לָתֵת נִקְמַת-יְהוָה בְּמִדְיָן"
+      }
+    ],
+    "4": [
+      {
+        "ja": "אלף מן כל סבט. מן אסבאט בני אסראיל. תבעתו בהם לאלג'זו",
+        "en": "'A thousand from each tribe, from the tribes of the sons of Israel, you shall send forth for the campaign.'",
+        "he": "אֶלֶף לַמַּטֶּה אֶלֶף לַמַּטֶּה--לְכֹל מַטּוֹת יִשְׂרָאֵל תִּשְׁלְחוּ לַצָּבָא"
+      }
+    ],
+    "5": [
+      {
+        "ja": "פאנמאז מן אלוף בני אסראיל. אלף מן כל סבט",
+        "en": "And there were singled out from the thousands of the sons of Israel, a thousand from each tribe",
+        "he": "וַיִּמָּסְרוּ מֵאַלְפֵי יִשְׂרָאֵל אֶלֶף לַמַּטֶּה"
+      },
+      {
+        "ja": "פצארו את'ני עשר אלף מגרדין לאלג'זו",
+        "en": "and they became twelve thousand equipped for the campaign.",
+        "he": "שְׁנֵים-עָשָׂר אֶלֶף חֲלוּצֵי צָבָא"
+      }
+    ],
+    "6": [
+      {
+        "ja": "פבעת' בהם מוסי'",
+        "en": "And Moses sent them forth",
+        "he": "וַיִּשְׁלַח אֹתָם מֹשֶׁה אֶלֶף לַמַּטֶּה לַצָּבָא"
+      },
+      {
+        "ja": "ובפינחס אבן אלעזר אלאמאם לאלג'זו",
+        "en": "and Phinehas son of Eleazar the imām with them for the campaign",
+        "he": "אֹתָם וְאֶת-פִּינְחָס בֶּן-אֶלְעָזָר הַכֹּהֵן לַצָּבָא"
+      },
+      {
+        "ja": "ואניה' אלקדס. ואבואק אלתגליב פי ידה",
+        "en": "with the sacred vessels and the rallying trumpets in his hand.",
+        "he": "וּכְלֵי הַקֹּדֶשׁ וַחֲצֹצְרוֹת הַתְּרוּעָה בְּיָדוֹ"
+      }
+    ],
+    "7": [
+      {
+        "ja": "פג'זו אלי' מדין. כמא אמר אללה מוסי'",
+        "en": "And they campaigned against Midian, as God had commanded Moses",
+        "he": "וַיִּצְבְּאוּ עַל-מִדְיָן כַּאֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה"
+      },
+      {
+        "ja": "וקתלו כל ד'כר",
+        "en": "and they slew every male.",
+        "he": "וַיַּהַרְגוּ כָּל-זָכָר"
+      }
+    ],
+    "8": [
+      {
+        "ja": "וקתלו כ'מסה מלוך מדין מע קתלאהם",
+        "en": "And they slew the five kings of Midian together with their slain",
+        "he": "וְאֶת-מַלְכֵי מִדְיָן הָרְגוּ עַל-חַלְלֵיהֶם"
+      },
+      {
+        "ja": "אוי ורקם וצור וחור ורבע",
+        "en": "Evi, and Rekem, and Zur, and Hur, and Reba",
+        "he": "אֶת-אֱוִי וְאֶת-רֶקֶם וְאֶת-צוּר וְאֶת-חוּר וְאֶת-רֶבַע--חֲמֵשֶׁת מַלְכֵי מִדְיָן"
+      },
+      {
+        "ja": "ואיצ'א בלעם אבן בעור. קתלוה באלסיף",
+        "en": "and also Balaam son of Beor they slew with the sword.",
+        "he": "וְאֵת בִּלְעָם בֶּן-בְּעוֹר הָרְגוּ בֶּחָרֶב"
+      }
+    ],
+    "9": [
+      {
+        "ja": "וסבא בני אסראיל נסא מדין ואטפאלהם",
+        "en": "And the sons of Israel took captive the women of Midian and their children",
+        "he": "וַיִּשְׁבּוּ בְנֵי-יִשְׂרָאֵל אֶת-נְשֵׁי מִדְיָן וְאֶת-טַפָּם"
+      },
+      {
+        "ja": "וגמיע בהאימהם ומואשיהם. ואת'את'הם ג'נמו",
+        "en": "and all their beasts and their livestock, and their furnishings they plundered.",
+        "he": "וְאֵת כָּל-בְּהֶמְתָּם וְאֶת-כָּל-מִקְנֵהֶם וְאֶת-כָּל-חֵילָם בָּזָזוּ"
+      }
+    ],
+    "10": [
+      {
+        "ja": "וגמיע קראהם. מע מסאכנהם וקצורהם. אחרקוהא באלנאר",
+        "en": "And all their towns, together with their dwellings and their palaces, they burned with fire.",
+        "he": "וְאֵת כָּל-עָרֵיהֶם בְּמוֹשְׁבֹתָם וְאֵת כָּל-טִירֹתָם--שָׂרְפוּ בָּאֵשׁ"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ואכ'דו גמיע אלסלב ואלפי. מן אלנאס ואלבהאים",
+        "en": "And they took all the spoil and the fay — from the people and the beasts.",
+        "he": "וַיִּקְחוּ אֶת-כָּל-הַשָּׁלָל וְאֵת כָּל-הַמַּלְקוֹחַ--בָּאָדָם וּבַבְּהֵמָה"
+      }
+    ],
+    "12": [
+      {
+        "ja": "וגאו אלי' מוסי'. ואלי אלעזר אלאמאם וגמאעה' בני אסראיל",
+        "en": "And they came to Moses, and to Eleazar the imām, and to the assembly of the sons of Israel",
+        "he": "וַיָּבִאוּ אֶל-מֹשֶׁה וְאֶל-אֶלְעָזָר הַכֹּהֵן וְאֶל-עֲדַת בְּנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "באלסבי ואלפי ואלנהב",
+        "en": "with the captives and the fay and the plunder",
+        "he": "אֶת-הַשְּׁבִי וְאֶת-הַמַּלְקוֹחַ וְאֶת-הַשָּׁלָל"
+      },
+      {
+        "ja": "אלי' אלעסכר. אלי' בידאת מואב. אלתי עלי' ארדן יריחא",
+        "en": "to the encampment — to the wilderness plain of Moab, which is by the Jordan of Jericho.",
+        "he": "אֶל-הַמַּחֲנֶה אֶל-עַרְבֹת מוֹאָב אֲשֶׁר עַל-יַרְדֵּן יְרֵחוֹ"
+      }
+    ],
+    "13": [
+      {
+        "ja": "פכ'רג מוסי' ואלעזר אלאמאם. וסאיר אשראף אלגמאעה",
+        "en": "And Moses and Eleazar the imām, and the rest of the chiefs of the assembly",
+        "he": "וַיֵּצְאוּ מֹשֶׁה וְאֶלְעָזָר הַכֹּהֵן וְכָל-נְשִׂיאֵי הָעֵדָה"
+      },
+      {
+        "ja": "תלקאהם. אלי' כ'ארג אלעסכר",
+        "en": "went out to meet them, outside the encampment.",
+        "he": "לִקְרָאתָם אֶל-מִחוּץ לַמַּחֲנֶה"
+      }
+    ],
+    "14": [
+      {
+        "ja": "פסכ'ט מוסי'. עלי' אלמווכלין באלגיש",
+        "en": "And Moses was wrathful with those entrusted over the army",
+        "he": "וַיִּקְצֹף מֹשֶׁה עַל פְּקוּדֵי הֶחָיִל"
+      },
+      {
+        "ja": "רויסא אלאלוף ורויסא אלמיין. אלגאיין מן אלחרב",
+        "en": "the commanders of the thousands and the commanders of the hundreds — who were coming from the battle.",
+        "he": "שָׂרֵי הָאֲלָפִים וְשָׂרֵי הַמֵּאוֹת הַבָּאִים מִצְּבָא הַמִּלְחָמָה"
+      }
+    ],
+    "15": [
+      {
+        "ja": "פקאל להם מוסי'. הל אסתבקיתם כל אנתי'",
+        "en": "And Moses said to them: 'Have you let every female live?'",
+        "he": "וַיֹּאמֶר אֲלֵיהֶם מֹשֶׁה הַחִיִּיתֶם כָּל-נְקֵבָה"
+      }
+    ],
+    "16": [
+      {
+        "ja": "אליס הן כנן לבני אסראיל בקול בלעם",
+        "en": "'Were not these the ones who were to the sons of Israel, by the word of Balaam",
+        "he": "הֵן הֵנָּה הָיוּ לִבְנֵי יִשְׂרָאֵל בִּדְבַר בִּלְעָם"
+      },
+      {
+        "ja": "חתי אוקען נכת'א באללה בסבב פעור",
+        "en": "until they brought about a breach of faith with God on account of Peor",
+        "he": "לִמְסָר-מַעַל בַּיהוָה עַל-דְּבַר-פְּעוֹר"
+      },
+      {
+        "ja": "פחל אלובא בגמאעה' אללה",
+        "en": "and so the pestilence fell upon the assembly of God?'",
+        "he": "וַתְּהִי הַמַּגֵּפָה בַּעֲדַת יְהוָה"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ואלאן. אקתלו כל ד'כר מן אלאטפאל",
+        "en": "'And now: kill every male among the children",
+        "he": "וְעַתָּה הִרְגוּ כָל-זָכָר בַּטָּף"
+      },
+      {
+        "ja": "וכל אמראה. קד ערפת מצ'אגעה' אלרגאל אקתלוהא",
+        "en": "and every woman who has known the lying with men — kill her.'",
+        "he": "וְכָל-אִשָּׁה יֹדַעַת אִישׁ לְמִשְׁכַּב זָכָר--הֲרֹגוּ"
+      }
+    ],
+    "18": [
+      {
+        "ja": "וסאיר אטפאל אלנסא. אלד'י לם יערפן מצ'אגעה' אלרגאל. אסתבקוהן לכם",
+        "en": "'And the rest of the female children, who have not known the lying with men — let them live for yourselves.'",
+        "he": "וְכֹל הַטַּף בַּנָּשִׁים אֲשֶׁר לֹא-יָדְעוּ מִשְׁכַּב זָכָר--הַחֲיוּ לָכֶם"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ואנתם. פאנזלו כ'ארג אלעסכר סבעה' אייאם",
+        "en": "'And as for you — encamp outside the encampment seven days",
+        "he": "וְאַתֶּם חֲנוּ מִחוּץ לַמַּחֲנֶה--שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "כל מן קתל נפסא וכל מן דנא בקתיל",
+        "en": "every one who has slain a person, and every one who has approached a slain man",
+        "he": "כֹּל הֹרֵג נֶפֶשׁ וְכֹל נֹגֵעַ בֶּחָלָל"
+      },
+      {
+        "ja": "תתד'כו פי אליום אלת'אלת' ופי אליום אלסאבע. אנתם וסביכם",
+        "en": "shall be purified on the third day and on the seventh day — you and your captives.'",
+        "he": "תִּתְחַטְּאוּ בַּיּוֹם הַשְּׁלִישִׁי וּבַיּוֹם הַשְּׁבִיעִי--אַתֶּם וּשְׁבִיכֶם"
+      }
+    ],
+    "20": [
+      {
+        "ja": "וכל ת'וב ואניה מן גלוד. ומעמול מן מרעזא ואניה' כ'שב. תד'כוה",
+        "en": "'And every garment and every vessel of leather, and anything made of fine soft wool and vessels of wood — purify them.'",
+        "he": "וְכָל-בֶּגֶד וְכָל-כְּלִי-עוֹר וְכָל-מַעֲשֵׂה עִזִּים וְכָל-כְּלִי-עֵץ--תִּתְחַטָּאוּ"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ת'ם קאל אלעזר אלאמאם לאלרגאל אלג'זאה. אלגאיין מן אלחרב",
+        "en": "Then Eleazar the imām said to the men, the warriors, who were coming from the battle:",
+        "he": "וַיֹּאמֶר אֶלְעָזָר הַכֹּהֵן אֶל-אַנְשֵׁי הַצָּבָא הַבָּאִים לַמִּלְחָמָה"
+      },
+      {
+        "ja": "הד'א רסם אלשריעה. אלתי אמר אללה בהא מוסי'",
+        "en": "'This is the ordinance of the law which God commanded Moses.'",
+        "he": "זֹאת חֻקַּת הַתּוֹרָה אֲשֶׁר-צִוָּה יְהוָה אֶת-מֹשֶׁה"
+      }
+    ],
+    "22": [
+      {
+        "ja": "אמא אלד'הב ואלפצה. ואלנחאס ואלחדיד. ואלקלעי ואלאסרב",
+        "en": "'As for the gold and the silver, the copper and the iron, the tin and the lead —'",
+        "he": "אַךְ אֶת-הַזָּהָב וְאֶת-הַכָּסֶף אֶת-הַנְּחֹשֶׁת אֶת-הַבַּרְזֶל אֶת-הַבְּדִיל וְאֶת-הָעֹפָרֶת"
+      }
+    ],
+    "23": [
+      {
+        "ja": "פכל שי ימכן אן ידכ'ל פי אלנאר. אמרוה באלנאר ויטהר",
+        "en": "'every thing that can enter into fire — pass it through the fire and it shall be clean",
+        "he": "כָּל-דָּבָר אֲשֶׁר-יָבֹא בָאֵשׁ תַּעֲבִירוּ בָאֵשׁ וְטָהֵר"
+      },
+      {
+        "ja": "ואיצ'א יד'כא במא אלנצ'ח",
+        "en": "and it shall also be purified with the water of sprinkling.",
+        "he": "אַךְ בְּמֵי נִדָּה יִתְחַטָּא"
+      },
+      {
+        "ja": "וכל מא לא ידכ'ל. פי אלנאר אמרוה באלמא",
+        "en": "And everything that cannot enter into fire — pass it through the water.'",
+        "he": "וְכֹל אֲשֶׁר לֹא-יָבֹא בָּאֵשׁ תַּעֲבִירוּ בַמָּיִם"
+      }
+    ],
+    "24": [
+      {
+        "ja": "ואגסלו ת'יאבכם פי אליום אלסאבע ואטהרו",
+        "en": "'And wash your garments on the seventh day, and be clean",
+        "he": "וְכִבַּסְתֶּם בִּגְדֵיכֶם בַּיּוֹם הַשְּׁבִיעִי וּטְהַרְתֶּם"
+      },
+      {
+        "ja": "ובעד ד'אלך תדכ'לו אלי' אלעסכר",
+        "en": "and after that you shall enter the encampment.'",
+        "he": "וְאַחַר תָּבֹאוּ אֶל-הַמַּחֲנֶה"
+      }
+    ],
+    "25": [
+      {
+        "ja": "פקאל אללה למוסי קאילא",
+        "en": "And God said to Moses, saying:",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "26": [
+      {
+        "ja": "ארפע גמלה' פי אלסבי. מן אלנאס ואלבהאים",
+        "en": "'Take up the total count of what is in the captivity — of people and of beasts",
+        "he": "שָׂא אֵת רֹאשׁ מַלְקוֹחַ הַשְּׁבִי בָּאָדָם וּבַבְּהֵמָה"
+      },
+      {
+        "ja": "אנת ואלעזר אלאמאם. ורויסא אבא אלגמאעה",
+        "en": "you and Eleazar the imām and the heads of the fathers of the assembly.'",
+        "he": "אַתָּה וְאֶלְעָזָר הַכֹּהֵן וְרָאשֵׁי אֲבוֹת הָעֵדָה"
+      }
+    ],
+    "27": [
+      {
+        "ja": "ואקסם ד'אלך. בין אהל אלחרב. אלד'ין כ'רגו לאלג'זו. ובין סאיר אלגמאעה",
+        "en": "'And divide it between the men of war who went out for the campaign, and the rest of the assembly.'",
+        "he": "וְחָצִיתָ אֶת-הַמַּלְקוֹחַ בֵּין תֹּפְשֵׂי הַמִּלְחָמָה הַיֹּצְאִים לַצָּבָא--וּבֵין כָּל-הָעֵדָה"
+      }
+    ],
+    "28": [
+      {
+        "ja": "וארפע מכסא ללה. מן אהל אלחרב אלכ'ארגין לאלג'זו",
+        "en": "'And levy a tax for God from the men of war who went out for the campaign",
+        "he": "וַהֲרֵמֹתָ מֶכֶס לַיהוָה מֵאֵת אַנְשֵׁי הַמִּלְחָמָה הַיֹּצְאִים לַצָּבָא"
+      },
+      {
+        "ja": "ראסא ואחדא. מן כל כ'מס מאיה. מן אלנאס ואלבקר. ואלחמיר ואלג'נם",
+        "en": "one head from every five hundred, of the people, and of the cattle, and of the donkeys, and of the flock.'",
+        "he": "אֶחָד נֶפֶשׁ מֵחֲמֵשׁ הַמֵּאוֹת מִן-הָאָדָם וּמִן-הַבָּקָר וּמִן-הַחֲמֹרִים וּמִן-הַצֹּאן"
+      }
+    ],
+    "29": [
+      {
+        "ja": "כ'דו ד'אלך מן קסמהם",
+        "en": "'Take that from their portion",
+        "he": "מִמַּחֲצִיתָם תִּקָּחוּ"
+      },
+      {
+        "ja": "רפיעה ללה. ואדפעו ד'אלך לאלעזר אלאמאם",
+        "en": "as an elevation-gift for God, and deliver it to Eleazar the imām.'",
+        "he": "וְנָתַתָּה לְאֶלְעָזָר הַכֹּהֵן תְּרוּמַת יְהוָה"
+      }
+    ],
+    "30": [
+      {
+        "ja": "וכ'ד' מן קסם בני אסראיל ואחדא מן כ'מסין",
+        "en": "'And from the portion of the sons of Israel, take one from every fifty",
+        "he": "וּמִמַּחֲצִת בְּנֵי-יִשְׂרָאֵל תִּקַּח אֶחָד אָחֻז מִן-הַחֲמִשִּׁים"
+      },
+      {
+        "ja": "מן אלנאס ואלבקר. ואלחמיר ואלג'נם וסאיר אלבהאים",
+        "en": "of the people, and of the cattle, and of the donkeys, and of the flock, and the rest of the beasts",
+        "he": "מִן-הָאָדָם מִן-הַבָּקָר מִן-הַחֲמֹרִים וּמִן-הַצֹּאן--מִכָּל-הַבְּהֵמָה"
+      },
+      {
+        "ja": "ואדפע ד'אלך אלי' אלליואניין. חאפצ'י מחפץ' מסכן אללה",
+        "en": "and deliver it to the Levites, the keepers of the charge of the tabernacle of God.'",
+        "he": "וְנָתַתָּה אֹתָם לַלְוִיִּם שֹׁמְרֵי מִשְׁמֶרֶת מִשְׁכַּן יְהוָה"
+      }
+    ],
+    "31": [
+      {
+        "ja": "פצנע מוסי'. ואלעזר אלאמאם. כמא אמר אללה מוסי'",
+        "en": "And Moses and Eleazar the imām did as God had commanded Moses.",
+        "he": "וַיַּעַשׂ מֹשֶׁה וְאֶלְעָזָר הַכֹּהֵן כַּאֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה"
+      }
+    ],
+    "32": [
+      {
+        "ja": "וכאן אלפי. ג'מלה' אלג'נימה. אלתי ג'נמהא אלקום אלג'זאה",
+        "en": "And the fay — the total of the plunder which the raiding people had plundered",
+        "he": "וַיְהִי הַמַּלְקוֹחַ--יֶתֶר הַבָּז אֲשֶׁר בָּזְזוּ עַם הַצָּבָא"
+      },
+      {
+        "ja": "עדד אלג'נם. סת מאיה' אלף. וכמסה וסבעין אלפא",
+        "en": "the number of the flock: six hundred thousand and seventy-five thousand.",
+        "he": "צֹאן שֵׁשׁ-מֵאוֹת אֶלֶף וְשִׁבְעִים אֶלֶף--וַחֲמֵשֶׁת אֲלָפִים"
+      }
+    ],
+    "33": [
+      {
+        "ja": "ועדד אלבקר. את'נין וסבעין אלפא",
+        "en": "And the number of the cattle: seventy-two thousand.",
+        "he": "וּבָקָר שְׁנַיִם וְשִׁבְעִים אָלֶף"
+      }
+    ],
+    "34": [
+      {
+        "ja": "ועדד אלחמיר. ואחד וסתין אלפא",
+        "en": "And the number of the donkeys: sixty-one thousand.",
+        "he": "וַחֲמֹרִים אֶחָד וְשִׁשִּׁים אָלֶף"
+      }
+    ],
+    "35": [
+      {
+        "ja": "ומן אלנאס. מן אלנסא. אלתי לם יערפן מצ'אגעה' אלרגאל. את'נין ות'לאת'ין אלפא",
+        "en": "And from the people, from the women who had not known the lying with men: thirty-two thousand.",
+        "he": "וְנֶפֶשׁ אָדָם--מִן-הַנָּשִׁים אֲשֶׁר לֹא-יָדְעוּ מִשְׁכַּב זָכָר כָּל-נֶפֶשׁ שְׁנַיִם וּשְׁלֹשִׁים אָלֶף"
+      }
+    ],
+    "36": [
+      {
+        "ja": "פכאן נצף ד'אלך. והו נציב אלד'י כ'רגו לאלג'זו",
+        "en": "And the half thereof — being the portion of those who went out for the campaign",
+        "he": "וַתְּהִי הַמֶּחֱצָה--חֵלֶק הַיֹּצְאִים בַּצָּבָא"
+      },
+      {
+        "ja": "עדד אלג'נם. ת'לאת' מאיה אלף. וסבעה ות'לאת'ין אלפא וכ'מס מאיה",
+        "en": "the number of the flock: three hundred thousand and thirty-seven thousand and five hundred.",
+        "he": "מִסְפַּר הַצֹּאן שְׁלֹשׁ-מֵאוֹת אֶלֶף וּשְׁלֹשִׁים אֶלֶף וְשִׁבְעַת אֲלָפִים וַחֲמֵשׁ מֵאוֹת"
+      }
+    ],
+    "37": [
+      {
+        "ja": "פכאן עדד אלמכס ללה מן אלג'נם. סת מאיה וכמסה וסבעין ראסא",
+        "en": "And the number of the tax for God from the flock was six hundred and seventy-five head.",
+        "he": "וַיְהִי הַמֶּכֶס לַיהוָה מִן-הַצֹּאן--שֵׁשׁ מֵאוֹת חָמֵשׁ וְשִׁבְעִים"
+      }
+    ],
+    "38": [
+      {
+        "ja": "ואד' אלבקר סתה ות'לאת'ין אלפא. פמכסהם ללה את'נין וסבעין",
+        "en": "And the number of the cattle: thirty-six thousand; and their tax for God: seventy-two.",
+        "he": "וְהַבָּקָר--שִׁשָּׁה וּשְׁלֹשִׁים אָלֶף וּמִכְסָם לַיהוָה שְׁנַיִם וְשִׁבְעִים"
+      }
+    ],
+    "39": [
+      {
+        "ja": "ואד' אלחמיר. ת'לאת'ין אלפא וכ'מס מאיה. פמכסהם ללה ואחד וסתין",
+        "en": "And the number of the donkeys: thirty thousand and five hundred; and their tax for God: sixty-one.",
+        "he": "וַחֲמֹרִים שְׁלֹשִׁים אֶלֶף וַחֲמֵשׁ מֵאוֹת וּמִכְסָם לַיהוָה אֶחָד וְשִׁשִּׁים"
+      }
+    ],
+    "40": [
+      {
+        "ja": "ואד' נפוס אלנאס. סתה' עשר אלפא. פמכסהם ללה. את'נין ות'לאת'ין נפסא",
+        "en": "And the number of persons: sixteen thousand; and their tax for God: thirty-two persons.",
+        "he": "וְנֶפֶשׁ אָדָם שִׁשָּׁה עָשָׂר אָלֶף וּמִכְסָם לַיהוָה--שְׁנַיִם וּשְׁלֹשִׁים נָפֶשׁ"
+      }
+    ],
+    "41": [
+      {
+        "ja": "פדפע מוסי'. אלמכס אלמרפוע ללה. אלי' אלעזר אלאמאם. כמא אמרה אללה",
+        "en": "And Moses delivered the tax levied for God to Eleazar the imām, as God had commanded him.",
+        "he": "וַיִּתֵּן מֹשֶׁה אֶת-מֶכֶס תְּרוּמַת יְהוָה לְאֶלְעָזָר הַכֹּהֵן--כַּאֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה"
+      }
+    ],
+    "42": [
+      {
+        "ja": "ומן קסם בני אסראיל אלד'י קסם מוסי'. מן אלקום אלג'זאה",
+        "en": "And from the count of the portion of the sons of Israel which Moses had divided from the raiding people —",
+        "he": "וּמִמַּחֲצִית בְּנֵי יִשְׂרָאֵל אֲשֶׁר חָצָה מֹשֶׁה מִן-הָאֲנָשִׁים הַצֹּבְאִים"
+      }
+    ],
+    "43": [
+      {
+        "ja": "פכאן ד'אלך מן אלג'נם. ת'לאת' מאיה' אלף. וסבעה ות'לאת'ין אלפא וכ'מס מאיה",
+        "en": "that was, from the flock: three hundred thousand and thirty-seven thousand and five hundred;",
+        "he": "וַתְּהִי מֶחֱצַת הָעֵדָה מִן-הַצֹּאן--שְׁלֹשׁ-מֵאוֹת אֶלֶף וּשְׁלֹשִׁים אֶלֶף שִׁבְעַת אֲלָפִים וַחֲמֵשׁ מֵאוֹת"
+      }
+    ],
+    "44": [
+      {
+        "ja": "ומן אלבקר. סתה ות'לאת'ין אלפא",
+        "en": "and from the cattle: thirty-six thousand;",
+        "he": "וּבָקָר שִׁשָּׁה וּשְׁלֹשִׁים אָלֶף"
+      }
+    ],
+    "45": [
+      {
+        "ja": "ומן אלחמיר. ת'לאת'ין אלפא וכ'מס מאיה",
+        "en": "and from the donkeys: thirty thousand and five hundred;",
+        "he": "וַחֲמֹרִים שְׁלֹשִׁים אֶלֶף וַחֲמֵשׁ מֵאוֹת"
+      }
+    ],
+    "46": [
+      {
+        "ja": "ומן נפוס אלנאס. סתה' עשר אלפא",
+        "en": "and from the persons: sixteen thousand —",
+        "he": "וְנֶפֶשׁ אָדָם שִׁשָּׁה עָשָׂר אָלֶף"
+      }
+    ],
+    "47": [
+      {
+        "ja": "פאכ'ד' מוסי' מן ד'אלך. ואחדא מן כל כ'מסין. מן אלנאס ואלבהאים",
+        "en": "Moses took from that one from every fifty, of the people and the beasts",
+        "he": "וַיִּקַּח מֹשֶׁה מִמַּחֲצִת בְּנֵי-יִשְׂרָאֵל אֶת-הָאָחֻז אֶחָד מִן-הַחֲמִשִּׁים--מִן-הָאָדָם וּמִן-הַבְּהֵמָה"
+      },
+      {
+        "ja": "ודפעהא אלי' אלליוניין. חאפצ'י מחפץ' מסכן אללה. כמא אמרה",
+        "en": "and delivered it to the Levites, the keepers of the charge of the tabernacle of God, as He had commanded him.",
+        "he": "וַיִּתֵּן אֹתָם לַלְוִיִּם שֹׁמְרֵי מִשְׁמֶרֶת מִשְׁכַּן יְהוָה כַּאֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה"
+      }
+    ],
+    "48": [
+      {
+        "ja": "ת'ם תקדם אלי' מוסי' אלמווכלין באלוף אלגיש. רויסא אלאלוף ורויסא אלמיין",
+        "en": "Then those entrusted over the thousands of the army — the commanders of the thousands and the commanders of the hundreds — came forward to Moses,",
+        "he": "וַיִּקְרְבוּ אֶל-מֹשֶׁה הַפְּקֻדִים אֲשֶׁר לְאַלְפֵי הַצָּבָא--שָׂרֵי הָאֲלָפִים וְשָׂרֵי הַמֵּאוֹת"
+      }
+    ],
+    "49": [
+      {
+        "ja": "פקאלו למוסי. אן עבידך רפעו. ג'מלה' אהל אלחרב אלד'ין מענא",
+        "en": "and said to Moses: 'Your servants have tallied the total of the men of war who are with us",
+        "he": "וַיֹּאמְרוּ אֶל-מֹשֶׁה עֲבָדֶיךָ נָשְׂאוּ אֶת-רֹאשׁ אַנְשֵׁי הַמִּלְחָמָה אֲשֶׁר בְּיָדֵנוּ"
+      },
+      {
+        "ja": "ולם י'פקד מנא רגל",
+        "en": "and not a man is missing from us.'",
+        "he": "וְלֹא-נִפְקַד מִמֶּנּוּ אִישׁ"
+      }
+    ],
+    "50": [
+      {
+        "ja": "וקד קדמנא קרבאן אללה אי רגל מנא וגד אניה' ד'הב",
+        "en": "'And we have brought forward the offering of God — every man among us who found golden vessels",
+        "he": "וַנַּקְרֵב אֶת-קָרְבַּן יְהוָה אִישׁ אֲשֶׁר מָצָא כְלִי-זָהָב"
+      },
+      {
+        "ja": "מן דמלג וסואר. וחלקה ותרכי וחקאב",
+        "en": "armlets and bracelets, rings and earrings and girdles",
+        "he": "אֶצְעָדָה וְצָמִיד טַבַּעַת עָגִיל וְכוּמָז"
+      },
+      {
+        "ja": "לנסתג'פר ען נפוסנא בין ידי אללה",
+        "en": "to seek forgiveness for our souls before God.'",
+        "he": "לְכַפֵּר עַל-נַפְשֹׁתֵינוּ לִפְנֵי יְהוָה"
+      }
+    ],
+    "51": [
+      {
+        "ja": "פקבץ' מוסי' ואלעזר אלאמאם. ד'אלך אלד'הב מנהם. כל אניה מצווג'ה",
+        "en": "And Moses and Eleazar the imām received that gold from them — every wrought vessel.",
+        "he": "וַיִּקַּח מֹשֶׁה וְאֶלְעָזָר הַכֹּהֵן אֶת-הַזָּהָב--מֵאִתָּם כֹּל כְּלִי מַעֲשֶׂה"
+      }
+    ],
+    "52": [
+      {
+        "ja": "פכאן כל ד'הב אלרפיעה. אלד'י רפעו ללה",
+        "en": "And all the gold of the elevation-gifts which they raised up for God",
+        "he": "וַיְהִי כָּל-זְהַב הַתְּרוּמָה אֲשֶׁר הֵרִימוּ לַיהוָה"
+      },
+      {
+        "ja": "סתה' עשר אלף. וסבע מאיה וכ'מסין מת'קאל",
+        "en": "was sixteen thousand seven hundred and fifty weights",
+        "he": "שִׁשָּׁה עָשָׂר אֶלֶף שְׁבַע-מֵאוֹת וַחֲמִשִּׁים שָׁקֶל"
+      },
+      {
+        "ja": "מן רויסא אלאלוף. ומן רויסא אלמיין",
+        "en": "from the commanders of the thousands and from the commanders of the hundreds.",
+        "he": "מֵאֵת שָׂרֵי הָאֲלָפִים וּמֵאֵת שָׂרֵי הַמֵּאוֹת"
+      }
+    ],
+    "53": [
+      {
+        "ja": "אמא סאיר אהל אלג'זו. פמא ג'נמוה כל ואחד כאן לה",
+        "en": "As for the rest of the men of the campaign — whatever each one had plundered belonged to him.",
+        "he": "אַנְשֵׁי הַצָּבָא בָּזְזוּ אִישׁ לוֹ"
+      }
+    ],
+    "54": [
+      {
+        "ja": "ולמא אכ'ד' מוסי'. ואלעזר אלאמאם אלד'הב. מן רויסא אלאלוף ואלמיין",
+        "en": "And when Moses and Eleazar the imām had received the gold from the commanders of the thousands and the hundreds",
+        "he": "וַיִּקַּח מֹשֶׁה וְאֶלְעָזָר הַכֹּהֵן אֶת-הַזָּהָב מֵאֵת שָׂרֵי הָאֲלָפִים וְהַמֵּאוֹת"
+      },
+      {
+        "ja": "אתו בה אלי' כ'בא אלמחצ'ר. ד'כרא לבני אסראיל בין ידי אללה",
+        "en": "they brought it to the tent of the assembly, as a memorial for the sons of Israel before God.",
+        "he": "וַיָּבִאוּ אֹתוֹ אֶל-אֹהֶל מוֹעֵד זִכָּרוֹן לִבְנֵי-יִשְׂרָאֵל לִפְנֵי יְהוָה"
+      }
+    ]
+  }
+}

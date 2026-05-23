@@ -1,0 +1,562 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 21. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_21.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ת'ם סמע אלכנאעני מלך ערד אלמקים פי אלדארום",
+        "en": "Then the Canaanite, king of Arad, dwelling in the south, heard",
+        "he": "וַיִּשְׁמַע הַכְּנַעֲנִי מֶלֶךְ-עֲרָד יֹשֵׁב הַנֶּגֶב"
+      },
+      {
+        "ja": "באן בני אסראיל קד גאו. טריק אלאתרים",
+        "en": "that the sons of Israel had come by the way of the Atharim",
+        "he": "כִּי בָּא יִשְׂרָאֵל דֶּרֶךְ הָאֲתָרִים"
+      },
+      {
+        "ja": "פחארבהם",
+        "en": "and he fought against them",
+        "he": "וַיִּלָּחֶם בְּיִשְׂרָאֵל"
+      },
+      {
+        "ja": "וסבא מנהם סביא",
+        "en": "and took some of them captive.",
+        "he": "וַיִּשְׁבְּ מִמֶּנּוּ שֶׁבִי"
+      }
+    ],
+    "2": [
+      {
+        "ja": "פנד'ר אל אסראיל נד'רא. ללה",
+        "en": "And the house of Israel vowed a vow to God",
+        "he": "וַיִּדַּר יִשְׂרָאֵל נֶדֶר לַיהוָה"
+      },
+      {
+        "ja": "קאילין. אן אסלמת הולאי אלקום פי ידי",
+        "en": "saying: 'If You deliver this people into my hand",
+        "he": "וַיֹּאמַר אִם-נָתֹן תִּתֵּן אֶת-הָעָם הַזֶּה בְּיָדִי"
+      },
+      {
+        "ja": "געלת קראהם צואפי",
+        "en": "I shall make their towns devoted property.'",
+        "he": "וְהַחֲרַמְתִּי אֶת-עָרֵיהֶם"
+      }
+    ],
+    "3": [
+      {
+        "ja": "פסמע אללה דעא אל אסראיל",
+        "en": "And God heard the prayer of the house of Israel",
+        "he": "וַיִּשְׁמַע יְהוָה בְּקוֹל יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ואסלם פי אידיהם. אלכנאעני",
+        "en": "and delivered the Canaanite into their hands",
+        "he": "וַיִּתֵּן אֶת-הַכְּנַעֲנִי"
+      },
+      {
+        "ja": "פגעלוה וקראה צואפי",
+        "en": "and they made him and his towns devoted property",
+        "he": "וַיַּחֲרֵם אֶתְהֶם וְאֶת-עָרֵיהֶם"
+      },
+      {
+        "ja": "וסמא ד'אלך אלמוצ'ע חרמה",
+        "en": "and they named that place Hormah.",
+        "he": "וַיִּקְרָא שֵׁם-הַמָּקוֹם חָרְמָה"
+      }
+    ],
+    "4": [
+      {
+        "ja": "ת'ם רחלו מן גבל הור טריק בחר אלקלזם",
+        "en": "Then they journeyed from Mount Hor by the way of the Sea of Qulzum (Red Sea)",
+        "he": "וַיִּסְעוּ מֵהֹר הָהָר דֶּרֶךְ יַם-סוּף"
+      },
+      {
+        "ja": "ליסתדירו בלד אדום",
+        "en": "to go around the land of Edom",
+        "he": "לִסְבֹב אֶת-אֶרֶץ אֱדוֹם"
+      },
+      {
+        "ja": "פצ'גרת נפוס אלקום פי אלטריק",
+        "en": "and the souls of the people grew weary on the way.",
+        "he": "וַתִּקְצַר נֶפֶשׁ-הָעָם בַּדָּרֶךְ"
+      }
+    ],
+    "5": [
+      {
+        "ja": "פתכלמו פי אללה ופי מוסי'",
+        "en": "And they spoke against God and against Moses",
+        "he": "וַיְדַבֵּר הָעָם בֵּאלֹהִים וּבְמֹשֶׁה"
+      },
+      {
+        "ja": "וקאלו לם אצעדתמונא מן מצר. לנמות פי אלבר",
+        "en": "saying: 'Why did you bring us up from Egypt to die in the wilderness",
+        "he": "לָמָה הֶעֱלִיתֻנוּ מִמִּצְרַיִם לָמוּת בַּמִּדְבָּר"
+      },
+      {
+        "ja": "ממא ליס כ'בז ולא מא",
+        "en": "where there is no bread and no water",
+        "he": "כִּי אֵין לֶחֶם וְאֵין מַיִם"
+      },
+      {
+        "ja": "וקד צ'גרת נפוסנא. מן אלטעאם אלכ'פיף",
+        "en": "And our souls are weary of this light food.'",
+        "he": "וְנַפְשֵׁנוּ קָצָה בַּלֶּחֶם הַקְּלֹקֵל"
+      }
+    ],
+    "6": [
+      {
+        "ja": "פבעת' אללה פי אלקום. חיאת מחרקה",
+        "en": "And God sent among the people burning serpents",
+        "he": "וַיְשַׁלַּח יְהוָה בָּעָם אֵת הַנְּחָשִׁים הַשְּׂרָפִים"
+      },
+      {
+        "ja": "לסעתהם",
+        "en": "they bit them",
+        "he": "וַיְנַשְּׁכוּ אֶת-הָעָם"
+      },
+      {
+        "ja": "פמאת מנהם כת'ירין",
+        "en": "and many of them died.",
+        "he": "וַיָּמָת עַם-רָב מִיִּשְׂרָאֵל"
+      }
+    ],
+    "7": [
+      {
+        "ja": "פגאו אלי' מוסי' וקאלו קד אכ'טאנא",
+        "en": "And they came to Moses and said: 'We have erred",
+        "he": "וַיָּבֹא הָעָם אֶל-מֹשֶׁה וַיֹּאמְרוּ חָטָאנוּ"
+      },
+      {
+        "ja": "אד' תכלמנא פי אללה ופיך",
+        "en": "since we spoke against God and against you",
+        "he": "כִּי-דִבַּרְנוּ בַיהוָה וָבָךְ"
+      },
+      {
+        "ja": "אדע אלי' אללה. אן יזיל ענא אלחיאת",
+        "en": "Pray to God that He remove the serpents from us.'",
+        "he": "הִתְפַּלֵּל אֶל-יְהוָה וְיָסֵר מֵעָלֵינוּ אֶת-הַנָּחָשׁ"
+      },
+      {
+        "ja": "פדעא להם מוסי'",
+        "en": "And Moses prayed for them.",
+        "he": "וַיִּתְפַּלֵּל מֹשֶׁה בְּעַד הָעָם"
+      }
+    ],
+    "8": [
+      {
+        "ja": "פקאל אללה לה. אצנע לך מחרקא",
+        "en": "And God said to him: 'Make yourself a burning image",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה עֲשֵׂה לְךָ שָׂרָף"
+      },
+      {
+        "ja": "וארפעה עלי' עלם",
+        "en": "and raise it upon a standard",
+        "he": "וְשִׂים אֹתוֹ עַל-נֵס"
+      },
+      {
+        "ja": "פכל מלסוע. ילתפת אלי'ה תאיבא פיבקא",
+        "en": "then every one who has been bitten, if he turns toward it in repentance, shall survive.'",
+        "he": "וְהָיָה כָּל-הַנָּשׁוּךְ וְרָאָה אֹתוֹ וָחָי"
+      }
+    ],
+    "9": [
+      {
+        "ja": "פצנע מוסי' ת'עבאנא מן נחאס. ורפעה עלי' עלם",
+        "en": "And Moses made a serpent of bronze, and raised it upon a standard",
+        "he": "וַיַּעַשׂ מֹשֶׁה נְחַשׁ נְחֹשֶׁת וַיְשִׂמֵהוּ עַל-הַנֵּס"
+      },
+      {
+        "ja": "פכאן אלי' אנסאן לד'גה ת'עבאנא",
+        "en": "and it was that any person who had been bitten by a serpent",
+        "he": "וְהָיָה אִם-נָשַׁךְ הַנָּחָשׁ אֶת-אִישׁ"
+      },
+      {
+        "ja": "אלתפת אלי'ה תאיבא בקא חייא",
+        "en": "— if he turned toward it in repentance, he remained alive.",
+        "he": "וְהִבִּיט אֶל-נְחַשׁ הַנְּחֹשֶׁת וָחָי"
+      }
+    ],
+    "10": [
+      {
+        "ja": "פרחלו בני אסראיל",
+        "en": "And the sons of Israel journeyed",
+        "he": "וַיִּסְעוּ בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ונזלו פי אובות",
+        "en": "and encamped at Oboth.",
+        "he": "וַיַּחֲנוּ בְּאֹבֹת"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ורחלו מן אובות",
+        "en": "And they journeyed from Oboth",
+        "he": "וַיִּסְעוּ מֵאֹבֹת"
+      },
+      {
+        "ja": "ונזלו פי בלאקע אלמגאזאת. פי אלברייה",
+        "en": "and encamped in the open wastes of the crossings, in the wilderness",
+        "he": "וַיַּחֲנוּ בְּעִיֵּי הָעֲבָרִים בַּמִּדְבָּר"
+      },
+      {
+        "ja": "אלתי עלי'ה גהה' מואב. מן מטלע אלשמס",
+        "en": "that faces the direction of Moab, from the rising of the sun.",
+        "he": "אֲשֶׁר עַל-פְּנֵי מוֹאָב מִמִּזְרַח הַשָּׁמֶשׁ"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ורחלו מן ת'ם. ונזלו פי ואד זרד",
+        "en": "And they journeyed from there, and encamped in the valley of Zared.",
+        "he": "מִשָּׁם נָסָעוּ וַיַּחֲנוּ בְּנַחַל זָרֶד"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ורחלו מן ת'ם. ונזלו. פי גאנב ארנון",
+        "en": "And they journeyed from there, and encamped on the side of the Arnon",
+        "he": "מִשָּׁם נָסָעוּ וַיַּחֲנוּ מֵעֵבֶר אַרְנוֹן"
+      },
+      {
+        "ja": "אלד'י פי אלברייה. אלכ'ארג ען תכ'ם אלאמוריין",
+        "en": "which is in the wilderness, that goes out beyond the border of the Amorites",
+        "he": "אֲשֶׁר בַּמִּדְבָּר הַיֹּצֵא מִגְּבֻל הָאֱמֹרִי"
+      },
+      {
+        "ja": "לאן ארנון פי תח'ם מואב בין מואב ובין אלאמורי",
+        "en": "for the Arnon is on the border of Moab, between Moab and the Amorite.",
+        "he": "כִּי אַרְנוֹן גְּבוּל מוֹאָב בֵּין מוֹאָב וּבֵין הָאֱמֹרִי"
+      }
+    ],
+    "14": [
+      {
+        "ja": "לדא'לך יקאל. פי כתאב פתוח אללה",
+        "en": "Therefore it is said in the Book of the Conquests of God",
+        "he": "עַל-כֵּן יֵאָמַר בְּסֵפֶר מִלְחֲמֹת יְהוָה"
+      },
+      {
+        "ja": "מן אלדראדר אלקלזם. ומן אלאודיה פארנון",
+        "en": "'From the whirlpools of Qulzum, and from the valleys — even Arnon;",
+        "he": "אֶת-וָהֵב בְּסוּפָה וְאֶת-הַנְּחָלִים אַרְנוֹן"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ומצב אלאודיה. אלד'י מאילה אלי' עמארה' ער",
+        "en": "and the outflow of the valleys, which inclines toward the inhabited place of Ar",
+        "he": "וְאֶשֶׁד הַנְּחָלִים אֲשֶׁר נָטָה לְשֶׁבֶת עָר"
+      },
+      {
+        "ja": "ומסנדה אלי' ת'כם מואב",
+        "en": "and leans upon the border of Moab.'",
+        "he": "וְנִשְׁעַן לִגְבוּל מוֹאָב"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ורחלו מן ת'ם אלי' אלביר",
+        "en": "And they journeyed from there to the well",
+        "he": "וּמִשָּׁם בְּאֵרָה הִוא הַבְּאֵר"
+      },
+      {
+        "ja": "אלת'י קאל אללה למוסי' ענהא",
+        "en": "of which God had said to Moses",
+        "he": "אֲשֶׁר אָמַר יְהוָה לְמֹשֶׁה"
+      },
+      {
+        "ja": "אגמע אלקום. חתי' אעטיהם מאא",
+        "en": "'Gather the people, that I may give them water.'",
+        "he": "אֱסֹף אֶת-הָעָם וְאֶתְּנָה לָהֶם מָיִם"
+      }
+    ],
+    "17": [
+      {
+        "ja": "חיניד' אנשא אל אסראיל. הד'א אלאנשא",
+        "en": "Then the house of Israel sang this song",
+        "he": "אָז יָשִׁיר יִשְׂרָאֵל אֶת-הַשִּׁירָה הַזֹּאת"
+      },
+      {
+        "ja": "וקאלו. אצעדי יא ביר תגאובו להא",
+        "en": "and said: 'Rise up, O well!' — and they respond to it.",
+        "he": "עֲלִי בְאֵר עֱנוּ-לָהּ"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ביר חפרוא אלרויסא. וכראהא נבל אלקום",
+        "en": "'A well which the chiefs dug, which the nobles of the people hollowed out",
+        "he": "בְּאֵר חֲפָרוּהָ שָׂרִים כָּרוּהָ נְדִיבֵי הָעָם"
+      },
+      {
+        "ja": "רסמוהא בוכאיאתהם",
+        "en": "marked with their staffs.'",
+        "he": "בִּמְחֹקֵק בְּמִשְׁעֲנֹתָם"
+      },
+      {
+        "ja": "ת'ם רחלו מן תלך אלברייה אלי' ד'את אלעטא",
+        "en": "Then they journeyed from that wilderness to the place of bestowal.",
+        "he": "וּמִמִּדְבָּר מַתָּנָה"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ומן ד'את אלעטא אלי' אלואד אלאלי",
+        "en": "And from the place of bestowal to the central valley",
+        "he": "וּמִמַּתָּנָה נַחֲלִיאֵל"
+      },
+      {
+        "ja": "ומן ד'אלך אלואד אלי' ד'את אלכנאיס",
+        "en": "and from that valley to the place of the assemblies.",
+        "he": "וּמִנַּחֲלִיאֵל בָּמוֹת"
+      }
+    ],
+    "20": [
+      {
+        "ja": "ומן ת'ם. אלי' אלואד אלד'י פי בלד מואב",
+        "en": "And from there to the valley that is in the land of Moab",
+        "he": "וּמִבָּמוֹת הַגַּיְא אֲשֶׁר בִּשְׂדֵה מוֹאָב"
+      },
+      {
+        "ja": "ענד ראס אלקלעה. אלמטלעה עלא וגה אלסמאוא",
+        "en": "by the summit of the fortress that overlooks the face of the open waste.",
+        "he": "רֹאשׁ הַפִּסְגָּה וְנִשְׁקָפָה עַל-פְּנֵי הַיְשִׁימֹן"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ת'ם בעת' אל אסראיל ברסל. אלי' סיחון מלך אלאמוריין",
+        "en": "Then the house of Israel sent messengers to Sihon king of the Amorites",
+        "he": "וַיִּשְׁלַח יִשְׂרָאֵל מַלְאָכִים אֶל-סִיחֹן מֶלֶךְ-הָאֱמֹרִי"
+      },
+      {
+        "ja": "קאילא",
+        "en": "saying:",
+        "he": "לֵאמֹר"
+      }
+    ],
+    "22": [
+      {
+        "ja": "אריד אן אגוז פי בלדך",
+        "en": "'I wish to pass through your land",
+        "he": "אֶעְבְּרָה בְאַרְצֶךָ"
+      },
+      {
+        "ja": "וליסנא נמיל אלי' צ'יעה ולא כרם",
+        "en": "and we shall not turn aside to any farm or vineyard",
+        "he": "לֹא נִטֶּה בְּשָׂדֶה וּבְכֶרֶם"
+      },
+      {
+        "ja": "ולא נשרב מא צהריג",
+        "en": "nor shall we drink water from a cistern",
+        "he": "לֹא נִשְׁתֶּה מֵי בְאֵר"
+      },
+      {
+        "ja": "בל פי אלטריק אלגאדה נסיר. אלי' אן נגוז תכ'מך",
+        "en": "but we shall travel by the broad road, until we pass through your border.'",
+        "he": "בְּדֶרֶךְ הַמֶּלֶךְ נֵלֵךְ עַד אֲשֶׁר-נַעֲבֹר גְּבֻלֶךָ"
+      }
+    ],
+    "23": [
+      {
+        "ja": "ולם ידע סיחון בני אסראיל אן יגוזו פי תכ'מה",
+        "en": "But Sihon would not allow the sons of Israel to pass through his border",
+        "he": "וְלֹא-נָתַן סִיחֹן אֶת-יִשְׂרָאֵל עֲבֹר בִּגְבֻלוֹ"
+      },
+      {
+        "ja": "פגמע גמיע קומה",
+        "en": "and he gathered all his people",
+        "he": "וַיֶּאֱסֹף סִיחֹן אֶת-כָּל-עַמּוֹ"
+      },
+      {
+        "ja": "וכ'רג תלקאהם אלי' אלברייה",
+        "en": "and went out to meet them into the wilderness",
+        "he": "וַיֵּצֵא לִקְרַאת יִשְׂרָאֵל הַמִּדְבָּרָה"
+      },
+      {
+        "ja": "חתא ואפא יהץ. פחארבהם",
+        "en": "until he reached Jahaz; and he fought against them.",
+        "he": "וַיָּבֹא יָהְצָה וַיִּלָּחֶם בְּיִשְׂרָאֵל"
+      }
+    ],
+    "24": [
+      {
+        "ja": "פקתלוה בחד אלסיף",
+        "en": "And they slew him with the edge of the sword",
+        "he": "וַיַּכֵּהוּ יִשְׂרָאֵל לְפִי-חָרֶב"
+      },
+      {
+        "ja": "וחאזו בלדה מן ארנון. אלי' יבוק אלי' בני עמון",
+        "en": "and took possession of his land from Arnon to Jabbok, as far as the sons of Ammon",
+        "he": "וַיִּירַשׁ אֶת-אַרְצוֹ מֵאַרְנֹן עַד-יַבֹּק עַד-בְּנֵי עַמּוֹן"
+      },
+      {
+        "ja": "אד' כאן תכ'מהם שדידא עלי'ה",
+        "en": "for the border of the sons of Ammon was strong and high.",
+        "he": "כִּי עַז גְּבוּל בְּנֵי עַמּוֹן"
+      }
+    ],
+    "25": [
+      {
+        "ja": "פאכ'דו גמיע הד'ה אלקרא",
+        "en": "And they took all these towns",
+        "he": "וַיִּקַּח יִשְׂרָאֵל אֵת כָּל-הֶעָרִים הָאֵלֶּה"
+      },
+      {
+        "ja": "וסכנו פי גמיע קרא אלאמוריין. פי חשבון ורסאתיקהא",
+        "en": "and settled in all the towns of the Amorites — in Heshbon and its surrounding districts.",
+        "he": "וַיֵּשֶׁב יִשְׂרָאֵל בְּכָל-עָרֵי הָאֱמֹרִי בְּחֶשְׁבּוֹן וּבְכָל-בְּנֹתֶיהָ"
+      }
+    ],
+    "26": [
+      {
+        "ja": "וד'אלך אן חשבון. הי מנבר סיחון מלך אלאמוריין",
+        "en": "For Heshbon is the seat of Sihon king of the Amorites",
+        "he": "כִּי חֶשְׁבּוֹן--עִיר סִיחֹן מֶלֶךְ הָאֱמֹרִי הִוא"
+      },
+      {
+        "ja": "והו כאן קד חארב מלך מואב אלאוול",
+        "en": "and he had fought against the former king of Moab",
+        "he": "וְהוּא נִלְחַם בְּמֶלֶךְ מוֹאָב הָרִאשׁוֹן"
+      },
+      {
+        "ja": "פ'אכ'ד' גמיע בלדה. מן ידה אלי' ארנון",
+        "en": "and taken all his land from his hand as far as Arnon.",
+        "he": "וַיִּקַּח אֶת-כָּל-אַרְצוֹ מִיָּדוֹ עַד-אַרְנֹן"
+      }
+    ],
+    "27": [
+      {
+        "ja": "ולד'אלך יקולון אלממת'לין",
+        "en": "Therefore those who speak in parables say",
+        "he": "עַל-כֵּן יֹאמְרוּ הַמֹּשְׁלִים"
+      },
+      {
+        "ja": "אדכלו אלי' חשבון חתי' תבנא ותהייא קריה' סיחון",
+        "en": "'Enter Heshbon, that the town of Sihon may be built and established.'",
+        "he": "בֹּאוּ חֶשְׁבּוֹן תִּבָּנֶה וְתִכּוֹנֵן עִיר סִיחוֹן"
+      }
+    ],
+    "28": [
+      {
+        "ja": "לאן נארא כ'רגת מן חשבון. ולהיב מן קריה' סיחון",
+        "en": "'For a fire went out from Heshbon, and a flame from the town of Sihon",
+        "he": "כִּי-אֵשׁ יָצְאָה מֵחֶשְׁבּוֹן לֶהָבָה מִקִּרְיַת סִיחֹן"
+      },
+      {
+        "ja": "פאכלת ער מואב. ואצחאב ביאע ארנון",
+        "en": "it consumed Ar of Moab, and the lords of the marketplaces of Arnon.'",
+        "he": "אָכְלָה עָר מוֹאָב בַּעֲלֵי בָּמוֹת אַרְנֹן"
+      }
+    ],
+    "29": [
+      {
+        "ja": "פוילך יא מואב",
+        "en": "'Woe to you, O Moab!",
+        "he": "אוֹי-לְךָ מוֹאָב"
+      },
+      {
+        "ja": "כיף בדת יא עבדת כמוש",
+        "en": "How you are undone, O worshippers of Chemosh!",
+        "he": "אָבַדְתָּ עַם-כְּמוֹשׁ"
+      },
+      {
+        "ja": "לקד געל בניה אסארא ובנאתה סביא",
+        "en": "He has made his sons captives and his daughters taken prisoner",
+        "he": "נָתַן בָּנָיו פְּלֵיטִם וּבְנֹתָיו בַּשְּׁבִית"
+      },
+      {
+        "ja": "למלך אלאמורי סיחון",
+        "en": "— to the Amorite king Sihon.'",
+        "he": "לְמֶלֶךְ אֱמֹרִי סִיחוֹן"
+      }
+    ],
+    "30": [
+      {
+        "ja": "וזאל סימאהם מן חשבון אלי' דיבון",
+        "en": "And their mark has departed from Heshbon as far as Dibon",
+        "he": "וַנִּירָם אָבַד חֶשְׁבּוֹן עַד-דִּיבֹן"
+      },
+      {
+        "ja": "ותוחש אלי' נופח. אלד'י ענד מידבא",
+        "en": "and desolation has spread to Nophah, which is near Medeba.",
+        "he": "וַנַּשִּׁים עַד-נֹפַח אֲשֶׁר עַד-מֵידְבָא"
+      }
+    ],
+    "31": [
+      {
+        "ja": "ולמא אקאם אל אסראיל. פי בלד אלאמוריין",
+        "en": "And when the house of Israel settled in the land of the Amorites,",
+        "he": "וַיֵּשֶׁב יִשְׂרָאֵל בְּאֶרֶץ הָאֱמֹרִי"
+      }
+    ],
+    "32": [
+      {
+        "ja": "פבעת' מוסי' בקום ירומון יעזר",
+        "en": "Moses sent people to reconnoiter Jazer",
+        "he": "וַיִּשְׁלַח מֹשֶׁה לְרַגֵּל אֶת-יַעְזֵר"
+      },
+      {
+        "ja": "פפתחו רסאתיקהא",
+        "en": "and they captured its surrounding districts",
+        "he": "וַיִּלְכְּדוּ בְּנֹתֶיהָ"
+      },
+      {
+        "ja": "וקרצ'ו אלאמורי אלד'י פיהא",
+        "en": "and drove out the Amorites who were in them.",
+        "he": "ויירש (וַיּוֹרֶשׁ) אֶת-הָאֱמֹרִי אֲשֶׁר-שָׁם"
+      }
+    ],
+    "33": [
+      {
+        "ja": "ת'ם ולו וצעדו. טריק אלבת'נייה",
+        "en": "Then they turned and went up by the way of the Bashan",
+        "he": "וַיִּפְנוּ וַיַּעֲלוּ דֶּרֶךְ הַבָּשָׁן"
+      },
+      {
+        "ja": "פכ'רג עוג מלך אלבת'נייה תלקאהם הו וגמיע קומה",
+        "en": "and Og king of the Bashan came out to meet them — he and all his people",
+        "he": "וַיֵּצֵא עוֹג מֶלֶךְ-הַבָּשָׁן לִקְרָאתָם הוּא וְכָל-עַמּוֹ"
+      },
+      {
+        "ja": "לאלחרב אלי' אד'ראעאת",
+        "en": "to battle, at Edrei.",
+        "he": "לַמִּלְחָמָה--אֶדְרֶעִי"
+      }
+    ],
+    "34": [
+      {
+        "ja": "פקאל אללה למוסי' לא תכ'אפה",
+        "en": "And God said to Moses: 'Do not fear him",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה אַל-תִּירָא אֹתוֹ"
+      },
+      {
+        "ja": "פאני מסלמה פי ידך. וגמיע קומה ובלדה",
+        "en": "for I am delivering him into your hand — and all his people and his land",
+        "he": "כִּי בְיָדְךָ נָתַתִּי אֹתוֹ וְאֶת-כָּל-עַמּוֹ וְאֶת-אַרְצוֹ"
+      },
+      {
+        "ja": "פאצנע בה. כמא צנעת. בסיחון מלך אלאמוריין. אלמקים פי חשבון",
+        "en": "Do to him as you did to Sihon king of the Amorites who dwelt in Heshbon.'",
+        "he": "וְעָשִׂיתָ לּוֹ--כַּאֲשֶׁר עָשִׂיתָ לְסִיחֹן מֶלֶךְ הָאֱמֹרִי אֲשֶׁר יוֹשֵׁב בְּחֶשְׁבּוֹן"
+      }
+    ],
+    "35": [
+      {
+        "ja": "פקתלוה ובניה וגמיע קומה",
+        "en": "And they slew him and his sons and all his people",
+        "he": "וַיַּכּוּ אֹתוֹ וְאֶת-בָּנָיו וְאֶת-כָּל-עַמּוֹ"
+      },
+      {
+        "ja": "חתי' לם יבק לה שרידא",
+        "en": "until not a survivor remained to him",
+        "he": "עַד-בִּלְתִּי הִשְׁאִיר-לוֹ שָׂרִיד"
+      },
+      {
+        "ja": "וחאזו בלדה",
+        "en": "and they took possession of his land.",
+        "he": "וַיִּירְשׁוּ אֶת-אַרְצוֹ"
+      }
+    ]
+  }
+}
