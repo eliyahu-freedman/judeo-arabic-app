@@ -1,0 +1,358 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 22. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_22.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ת'ם כלם אללה מוסי' תכלימא",
+        "en": "Then God spoke to Moses directly.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "2": [
+      {
+        "ja": "מר הרון ובניה. באן יגאנבו אקדאס בני אסראיל",
+        "en": "Command Aaron and his sons, that they keep away from the holy things of the sons of Israel,",
+        "he": "דַּבֵּר אֶל-אַהֲרֹן וְאֶל-בָּנָיו וְיִנָּזְרוּ מִקָּדְשֵׁי בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ולא יבד'לו מא סמיתה קדסא. ממא הם מקדסוה לי. אנא אללה שרפתה",
+        "en": "and not treat lightly what I have called by the name of holy — of what they are consecrating to Me. I am God, who has honored it.",
+        "he": "וְלֹא יְחַלְּלוּ אֶת-שֵׁם קָדְשִׁי--אֲשֶׁר הֵם מַקְדִּשִׁים לִי אֲנִי יְהוָה"
+      }
+    ],
+    "3": [
+      {
+        "ja": "קל להם. אי רגל מן נסלכם עלי' מר אגיאלכם. תקדם אלי' אלאקדאס אלדי יקדסוהא בני אסראיל ללה",
+        "en": "Say to them: any man from your lineage, throughout the passing of your generations, who approaches the holy things which the sons of Israel consecrate to God,",
+        "he": "אֱמֹר אֲלֵהֶם לְדֹרֹתֵיכֶם כָּל-אִישׁ אֲשֶׁר-יִקְרַב מִכָּל-זַרְעֲכֶם אֶל-הַקֳּדָשִׁים אֲשֶׁר יַקְדִּישׁוּ בְנֵי-יִשְׂרָאֵל לַיהוָה"
+      },
+      {
+        "ja": "והו פי חד נגס ילזמה פתכ'תרם תלך אלנפס מן עאלמי. אנא אללה אלמעאקב",
+        "en": "while he is in a state of impurity that clings to him — that soul shall be cut off from My world. I am God, the Punisher.",
+        "he": "וְטֻמְאָתוֹ עָלָיו וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מִלְּפָנַי--אֲנִי יְהוָה"
+      }
+    ],
+    "4": [
+      {
+        "ja": "אי רג'ל מן נסל הרון. פי מא הו אברץ או ד'איב. פלא יאכ'ל מן אלאקדאס. אלי' אן יטהר",
+        "en": "Any man of the lineage of Aaron who is afflicted with a skin-disease or has a discharge shall not eat of the holy things until he is purified;",
+        "he": "אִישׁ אִישׁ מִזֶּרַע אַהֲרֹן וְהוּא צָרוּעַ אוֹ זָב--בַּקֳּדָשִׁים לֹא יֹאכַל עַד אֲשֶׁר יִטְהָר"
+      },
+      {
+        "ja": "ומן מס נגיס במיית. או כ'רגת מנה נטפה' אנסאל",
+        "en": "and whoever touches one who is impure through contact with a dead person, or from whom a drop of seminal emission has issued —",
+        "he": "וְהַנֹּגֵעַ בְּכָל-טְמֵא-נֶפֶשׁ אוֹ אִישׁ אֲשֶׁר-תֵּצֵא מִמֶּנּוּ שִׁכְבַת-זָרַע"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ואי רג'ל דנא. בכל דביב סבילה אן ינגס מנה",
+        "en": "and any man who has approached any creeping thing by which he may become impure,",
+        "he": "אוֹ-אִישׁ אֲשֶׁר יִגַּע בְּכָל-שֶׁרֶץ אֲשֶׁר יִטְמָא-לוֹ"
+      },
+      {
+        "ja": "או באנסאן סבילה אן ינגס מנה. עלי' צ'רוב נגאסתה",
+        "en": "or a person by whom he may become impure — according to the ways of his impurity —",
+        "he": "אוֹ בְאָדָם אֲשֶׁר יִטְמָא-לוֹ לְכֹל טֻמְאָתוֹ"
+      }
+    ],
+    "6": [
+      {
+        "ja": "פאי אנסאן דנא בשי מן ד'אלך. פלינגס אלי' אלליל. ולא יאכל מן אלאקדאס",
+        "en": "any person who has approached any such thing shall be impure until the night, and shall not eat of the holy things",
+        "he": "נֶפֶשׁ אֲשֶׁר תִּגַּע-בּוֹ וְטָמְאָה עַד-הָעָרֶב וְלֹא יֹאכַל מִן-הַקֳּדָשִׁים"
+      },
+      {
+        "ja": "אלא אן ג'סל בדנה באלמא",
+        "en": "unless he has washed his body with water.",
+        "he": "כִּי אִם-רָחַץ בְּשָׂרוֹ בַּמָּיִם"
+      }
+    ],
+    "7": [
+      {
+        "ja": "פאד'א ג'אבת אלשמס פקד טהר",
+        "en": "And when the sun has set, he is then purified;",
+        "he": "וּבָא הַשֶּׁמֶשׁ וְטָהֵר"
+      },
+      {
+        "ja": "ובעד ד'אלך יאכל מן אלאקדאס. לאנה טעאמה",
+        "en": "and after that he may eat of the holy things, for it is his food.",
+        "he": "וְאַחַר יֹאכַל מִן-הַקֳּדָשִׁים כִּי לַחְמוֹ הוּא"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ואלנבילה ואלסקימה. לא יאכלהא פיעציני בהא",
+        "en": "The carcass and the diseased animal he shall not eat, lest he disobey Me through it.",
+        "he": "נְבֵלָה וּטְרֵפָה לֹא יֹאכַל לְטָמְאָה-בָהּ"
+      },
+      {
+        "ja": "אנא אללה אלמעאקב",
+        "en": "I am God, the Punisher.",
+        "he": "אֲנִי יְהוָה"
+      }
+    ],
+    "9": [
+      {
+        "ja": "פליחפצו מא אסתחפצ'תהם. ולא יחמלו ענה וזרא",
+        "en": "They shall guard what I have entrusted to their guardianship, and shall not bear sin because of it,",
+        "he": "וְשָׁמְרוּ אֶת-מִשְׁמַרְתִּי וְלֹא-יִשְׂאוּ עָלָיו חֵטְא"
+      },
+      {
+        "ja": "פיהלכון אד' הם תבד'לוה. לאני אללה מקדסהם בד'אלך",
+        "en": "lest they be destroyed when they have treated it lightly — for I am God who sanctifies them thereby.",
+        "he": "וּמֵתוּ בוֹ כִּי יְחַלְּלֻהוּ אֲנִי יְהוָה מְקַדְּשָׁם"
+      }
+    ],
+    "10": [
+      {
+        "ja": "וכל אגנבי לא יאכל קדסא",
+        "en": "And no outsider shall eat of a holy thing —",
+        "he": "וְכָל-זָר לֹא-יֹאכַל קֹדֶשׁ"
+      },
+      {
+        "ja": "חתא צ'יף אלאמאם ואגירה לא יאכ'ל קדסא",
+        "en": "not even the guest of the priest nor his hired worker shall eat of a holy thing.",
+        "he": "תּוֹשַׁב כֹּהֵן וְשָׂכִיר לֹא-יֹאכַל קֹדֶשׁ"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ואי אמאם אשתרא אנסאן שראא במאלה. פהו יאכל מנה",
+        "en": "But any priest who has purchased a person by purchase with his money — he may eat of it;",
+        "he": "וְכֹהֵן כִּי-יִקְנֶה נֶפֶשׁ קִנְיַן כַּסְפּוֹ--הוּא יֹאכַל בּוֹ"
+      },
+      {
+        "ja": "וכד'אלך תיאליד ביתה. הם יאכלון מן טעאמה",
+        "en": "and likewise those born into his household, they may eat of his food.",
+        "he": "וִילִיד בֵּיתוֹ הֵם יֹאכְלוּ בְלַחְמוֹ"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ואייה' אבנה' אמאם. תזווגת רגלא אגנבייא. פהי לא תאכל מן רפאיע אלאקדאס",
+        "en": "And any daughter of a priest who has married an outsider man — she shall not eat of the elevated portions of the holy things.",
+        "he": "וּבַת-כֹּהֵן--כִּי תִהְיֶה לְאִישׁ זָר הִוא בִּתְרוּמַת הַקֳּדָשִׁים לֹא תֹאכֵל"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ואייה' אבנה' אמאם צארת ארמלה או מטלקה. ולא נסל להא. פלתעוד אלי' בית אביהא כחכם צבאיהא",
+        "en": "But any daughter of a priest who has become a widow or been divorced, and has no offspring — let her return to her father's house, as in the rule of her girlhood,",
+        "he": "וּבַת-כֹּהֵן כִּי תִהְיֶה אַלְמָנָה וּגְרוּשָׁה וְזֶרַע אֵין לָהּ--וְשָׁבָה אֶל-בֵּית אָבִיהָ כִּנְעוּרֶיהָ"
+      },
+      {
+        "ja": "ומן טעאמה תאכל. וסאיר אלאגנביין לא יאכלו מנה",
+        "en": "and of his food she may eat; and the rest of the outsiders shall not eat of it.",
+        "he": "מִלֶּחֶם אָבִיהָ תֹּאכֵל וְכָל-זָר לֹא-יֹאכַל בּוֹ"
+      }
+    ],
+    "14": [
+      {
+        "ja": "ואי אנסאן אכל שייא מן אלאקדאס סהוא. פליזיד עליה מת'ל כמסה",
+        "en": "And any person who has eaten of the holy things inadvertently shall add to it the like of its fifth,",
+        "he": "וְאִישׁ כִּי-יֹאכַל קֹדֶשׁ בִּשְׁגָגָה--וְיָסַף חֲמִשִׁיתוֹ עָלָיו"
+      },
+      {
+        "ja": "וידפעה אלי' אלאמאם ען אלקדס",
+        "en": "and shall pay it to the priest for the holy thing.",
+        "he": "וְנָתַן לַכֹּהֵן אֶת-הַקֹּדֶשׁ"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ולא יבד'לו אקדאס בני אסראיל. ומא ירפעונה ללה",
+        "en": "And they shall not treat lightly the holy things of the sons of Israel, and what they present to God.",
+        "he": "וְלֹא יְחַלְּלוּ אֶת-קָדְשֵׁי בְּנֵי יִשְׂרָאֵל--אֵת אֲשֶׁר-יָרִימוּ לַיהוָה"
+      }
+    ],
+    "16": [
+      {
+        "ja": "פיחמלו ענהא ד'נובא ואת'אמא. אד'א אכלו כד'אך אקדאסהם",
+        "en": "For they would bear sins and guilt thereby, when they ate thus of their holy things —",
+        "he": "וְהִשִּׂיאוּ אוֹתָם עֲו‍ֹן אַשְׁמָה בְּאָכְלָם אֶת-קָדְשֵׁיהֶם"
+      },
+      {
+        "ja": "לאני אללה מקדסהם",
+        "en": "for I am God who sanctifies them.",
+        "he": "כִּי אֲנִי יְהוָה מְקַדְּשָׁם"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ת'ם כלם אללה מוסי' תכלימא",
+        "en": "Then God spoke to Moses directly.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "18": [
+      {
+        "ja": "מר הרון ובניה. וסאיר אל אסראיל. וקל להם",
+        "en": "Command Aaron and his sons, and the rest of the house of Israel, and say to them:",
+        "he": "דַּבֵּר אֶל-אַהֲרֹן וְאֶל-בָּנָיו וְאֶל כָּל-בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם"
+      },
+      {
+        "ja": "אי רג'ל מן אל אסראיל או מן אלג'רבא אלדאכ'לין פיהם. שא אן יקרב קרבאנא עלי' צ'רוב מן נדורהם ותברעהם. אלתי יקרבונהא ללה צעידה",
+        "en": "any man of the house of Israel, or of the strangers who have entered among them, who wills to bring an offering, according to any manner of their vows and their freewill gifts which they bring to God as a burnt offering —",
+        "he": "אִישׁ אִישׁ מִבֵּית יִשְׂרָאֵל וּמִן-הַגֵּר בְּיִשְׂרָאֵל אֲשֶׁר יַקְרִיב קָרְבָּנוֹ לְכָל-נִדְרֵיהֶם וּלְכָל-נִדְבוֹתָם אֲשֶׁר-יַקְרִיבוּ לַיהוָה לְעֹלָה"
+      }
+    ],
+    "19": [
+      {
+        "ja": "פלמרתצ'א מנכם. אן יכון ד'כרא צחיחא מן אלבקר ואלצאן ואלמאעז",
+        "en": "that which is acceptable from you shall be a sound male, from the cattle, the sheep, or the goats.",
+        "he": "לִרְצֹנְכֶם תָּמִים זָכָר--בַּבָּקָר בַּכְּשָׂבִים וּבָעִזִּים"
+      }
+    ],
+    "20": [
+      {
+        "ja": "וכל מא פיה עיב לא תקרבוה. פאנה לא ירתצ'א מנכם",
+        "en": "But anything that has a blemish you shall not offer, for it shall not be acceptable from you.",
+        "he": "כֹּל אֲשֶׁר-בּוֹ מוּם לֹא תַקְרִיבוּ כִּי-לֹא לְרָצוֹן יִהְיֶה לָכֶם"
+      }
+    ],
+    "21": [
+      {
+        "ja": "וכד'אלך אי אנסאן שא אן יקרב ד'בח סלאמה ללה. תסויג' נד'רא או תברעא. מן אלבקר או מן אלג'נם",
+        "en": "And likewise, any person who wills to bring a peace-offering to God, in fulfillment of a vow or as a freewill gift, from the cattle or from the flock —",
+        "he": "וְאִישׁ כִּי-יַקְרִיב זֶבַח-שְׁלָמִים לַיהוָה לְפַלֵּא-נֶדֶר אוֹ לִנְדָבָה בַּבָּקָר אוֹ בַצֹּאן"
+      },
+      {
+        "ja": "פאלצחיח הו אלמרתצ'א מנה. לא יכון פיה שי מן אלעיוב",
+        "en": "the sound one is what is acceptable from it; there shall be no blemish of any kind in it.",
+        "he": "תָּמִים יִהְיֶה לְרָצוֹן כָּל-מוּם לֹא יִהְיֶה-בּוֹ"
+      }
+    ],
+    "22": [
+      {
+        "ja": "מן עורא או מכסורה או מבתורה או ד'את ת'אלול. או בה גרב או חזאז. פלא תקרבוהא ללה",
+        "en": "Whether blind, or broken, or severed, or having a wart, or with mange or scurf — you shall not offer these to God,",
+        "he": "עַוֶּרֶת אוֹ שָׁבוּר אוֹ-חָרוּץ אוֹ-יַבֶּלֶת אוֹ גָרָב אוֹ יַלֶּפֶת--לֹא-תַקְרִיבוּ אֵלֶּה לַיהוָה"
+      },
+      {
+        "ja": "ולא תגעלו מנהא קרבאנא עלי' מד'בח אללה",
+        "en": "and you shall not make from them an offering upon the altar of God.",
+        "he": "וְאִשֶּׁה לֹא-תִתְּנוּ מֵהֶם עַל-הַמִּזְבֵּחַ--לַיהוָה"
+      }
+    ],
+    "23": [
+      {
+        "ja": "ואי ת'ור או שאה כאנת גאמזה או מדמג'ה. פאצנעה עלי' גהה' אלתברע",
+        "en": "And any ox or sheep that is lame or stunted — you may make it for a freewill gift;",
+        "he": "וְשׁוֹר וָשֶׂה שָׂרוּעַ וְקָלוּט--נְדָבָה תַּעֲשֶׂה אֹתוֹ"
+      },
+      {
+        "ja": "ואמא עלי' גהה' אלנד'ר פלא ירתצ'א",
+        "en": "but as regards a vow it shall not be acceptable.",
+        "he": "וּלְנֵדֶר לֹא יֵרָצֶה"
+      }
+    ],
+    "24": [
+      {
+        "ja": "ואלממרוס ואלמדקוק ואלמנצול ואלמקטוע. פלא תקרבוהא ללה",
+        "en": "The bruised, or the crushed, or the torn-out, or the severed — you shall not offer these to God;",
+        "he": "וּמָעוּךְ וְכָתוּת וְנָתוּק וְכָרוּת לֹא תַקְרִיבוּ לַיהוָה"
+      },
+      {
+        "ja": "ופי בלדאנכם לא תצנעוהא",
+        "en": "and in your lands you shall not do this.",
+        "he": "וּבְאַרְצְכֶם לֹא תַעֲשׂוּ"
+      }
+    ],
+    "25": [
+      {
+        "ja": "ומן יד אלאמם . לא תקרבו. קרבאן רבכם אלדאים ופיה שייא מן הד'א אלעיוב",
+        "en": "And from the hand of the nations you shall not offer the perpetual offering of your Lord when there is any of these blemishes in it —",
+        "he": "וּמִיַּד בֶּן-נֵכָר לֹא תַקְרִיבוּ אֶת-לֶחֶם אֱלֹהֵיכֶם--מִכָּל-אֵלֶּה"
+      },
+      {
+        "ja": "לאן פסאדהא מעהא והו אלעיב אלד'י פיהא. פלא תרתצ'א מנכם",
+        "en": "for their corruption is with them, that is the blemish which is in them; they shall not be acceptable from you.",
+        "he": "כִּי מָשְׁחָתָם בָּהֶם מוּם בָּם לֹא יֵרָצוּ לָכֶם"
+      }
+    ],
+    "26": [
+      {
+        "ja": "ת'ם כלם אללה מוסי' תכלימא",
+        "en": "Then God spoke to Moses directly.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "27": [
+      {
+        "ja": "ואי עגל או חמל או גדי אד'א יולד. פליקם סבעה' אייאם מע אמה",
+        "en": "Any calf, or lamb, or kid — when it is born, let it remain seven days with its mother;",
+        "he": "שׁוֹר אוֹ-כֶשֶׂב אוֹ-עֵז כִּי יִוָּלֵד וְהָיָה שִׁבְעַת יָמִים תַּחַת אִמּוֹ"
+      },
+      {
+        "ja": "ומן אליום אלת'אמן פצאעדא. ירתצ'א אן יקרב קרבאנא ללה",
+        "en": "and from the eighth day onward, it shall be acceptable to be brought as an offering to God.",
+        "he": "וּמִיּוֹם הַשְּׁמִינִי וָהָלְאָה יֵרָצֶה לְקָרְבַּן אִשֶּׁה לַיהוָה"
+      }
+    ],
+    "28": [
+      {
+        "ja": "ואלבקרה ואלנעגה. הי וולדהא. לא תד'בחוהמא פי יום ואחד",
+        "en": "And the cow and the ewe — it and its young — you shall not slaughter both of them on one day.",
+        "he": "וְשׁוֹר אוֹ-שֶׂה--אֹתוֹ וְאֶת-בְּנוֹ לֹא תִשְׁחֲטוּ בְּיוֹם אֶחָד"
+      }
+    ],
+    "29": [
+      {
+        "ja": "ואד'א ד'בחתם ד'בח שכר ללה. פעלי' מא ירתצ'א מנכם אד'בחוה",
+        "en": "And when you slaughter a thanksgiving sacrifice to God, slaughter it in the manner that is acceptable from you.",
+        "he": "וְכִי-תִזְבְּחוּ זֶבַח-תּוֹדָה לַיהוָה--לִרְצֹנְכֶם תִּזְבָּחוּ"
+      }
+    ],
+    "30": [
+      {
+        "ja": "אן יוכל פי ד'אלך אליום פקט לא יבקו מנה אלי' אלג'דאה",
+        "en": "It shall be eaten on that day only; you shall leave none of it until the morning.",
+        "he": "בַּיּוֹם הַהוּא יֵאָכֵל לֹא-תוֹתִירוּ מִמֶּנּוּ עַד-בֹּקֶר"
+      },
+      {
+        "ja": "אנא אללה אמרת בד'אלך",
+        "en": "I am God, who commanded this.",
+        "he": "אֲנִי יְהוָה"
+      }
+    ],
+    "31": [
+      {
+        "ja": "פאחפצו וצאיאי. ואעמלו בהא",
+        "en": "Guard My commandments and act according to them.",
+        "he": "וּשְׁמַרְתֶּם מִצְו‍ֹתַי וַעֲשִׂיתֶם אֹתָם"
+      },
+      {
+        "ja": "אנא אללה אגאזיכם כ'ירא",
+        "en": "I am God, who rewards you with good.",
+        "he": "אֲנִי יְהוָה"
+      }
+    ],
+    "32": [
+      {
+        "ja": "ולא תבד'לו אסם קדסי",
+        "en": "And do not treat lightly My holy name;",
+        "he": "וְלֹא תְחַלְּלוּ אֶת-שֵׁם קָדְשִׁי"
+      },
+      {
+        "ja": "בל אתקדס פי מא בין בני אסראיל. אנא אללה מקדסכם",
+        "en": "but rather I shall be sanctified among the sons of Israel. I am God who sanctifies you —",
+        "he": "וְנִקְדַּשְׁתִּי בְּתוֹךְ בְּנֵי יִשְׂרָאֵל אֲנִי יְהוָה מְקַדִּשְׁכֶם"
+      }
+    ],
+    "33": [
+      {
+        "ja": "אלמכ'רגכם מן בלד מצר. לאכון לכם אלאהא",
+        "en": "who brought you out from the land of Egypt, to be your God.",
+        "he": "הַמּוֹצִיא אֶתְכֶם מֵאֶרֶץ מִצְרַיִם לִהְיוֹת לָכֶם לֵאלֹהִים"
+      },
+      {
+        "ja": "אנא אללה אלמעאקב",
+        "en": "I am God, the Punisher.",
+        "he": "אֲנִי יְהוָה"
+      }
+    ]
+  }
+}

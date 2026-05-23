@@ -1,0 +1,640 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 13. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_13.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ת'ם כלם אללה. מוסי' והרון תכלימא",
+        "en": "Then God spoke to Moses and Aaron directly.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה וְאֶל-אַהֲרֹן לֵאמֹר"
+      }
+    ],
+    "2": [
+      {
+        "ja": "אי אנסאן כאן פי גלד בדנה שאמה או עארצ'ה או בקעה",
+        "en": "Any person in whose skin of his body there was a mark, or a blemish, or a spot —",
+        "he": "אָדָם כִּי-יִהְיֶה בְעוֹר-בְּשָׂרוֹ שְׂאֵת אוֹ-סַפַּחַת אוֹ בַהֶרֶת"
+      },
+      {
+        "ja": "או צאר פי גלד בדנה בלא ברץ",
+        "en": "or there appeared in the skin of his body an affliction of leprosy —",
+        "he": "וְהָיָה בְעוֹר-בְּשָׂרוֹ לְנֶגַע צָרָעַת"
+      },
+      {
+        "ja": "פליותא בה אלי' הרון אלאמאם. או אלי' אחד מן בניה אלאימה",
+        "en": "he shall be brought to Aaron the imām, or to one of his sons the imāms.",
+        "he": "וְהוּבָא אֶל-אַהֲרֹן הַכֹּהֵן אוֹ אֶל-אַחַד מִבָּנָיו הַכֹּהֲנִים"
+      }
+    ],
+    "3": [
+      {
+        "ja": "פינצ'ר אלאמאם אלבלא פי גלד אלבדן. פאן כאן פיה שער קד אנקלב אביצ'א",
+        "en": "And the imām shall inspect the affliction in the skin of the body; if there is in it hair that has turned white,",
+        "he": "וְרָאָה הַכֹּהֵן אֶת-הַנֶּגַע בְּעוֹר-הַבָּשָׂר וְשֵׂעָר בַּנֶּגַע הָפַךְ לָבָן"
+      },
+      {
+        "ja": "ומנצ'ר אלבלא עמיק מן גלד בדנה. פהו בלא ברץ",
+        "en": "and the appearance of the affliction is deep from the skin of his body, it is an affliction of leprosy —",
+        "he": "וּמַרְאֵה הַנֶּגַע עָמֹק מֵעוֹר בְּשָׂרוֹ--נֶגַע צָרַעַת הוּא"
+      },
+      {
+        "ja": "פאד'י ראה כד'אך פלינגסה",
+        "en": "and when it is seen thus, he shall declare him impure.",
+        "he": "וְרָאָהוּ הַכֹּהֵן וְטִמֵּא אֹתוֹ"
+      }
+    ],
+    "4": [
+      {
+        "ja": "ואן כאנת בקעה ביצ'א פי גלד בדנה. וליס ומנצ'רהא עמיק מן אלגלד. ושערהא לם ינקלב אביצ'א",
+        "en": "But if the spot in the skin of his body is white, and its appearance is not deep from the skin, and its hair has not turned white,",
+        "he": "וְאִם-בַּהֶרֶת לְבָנָה הִוא בְּעוֹר בְּשָׂרוֹ וְעָמֹק אֵין-מַרְאֶהָ מִן-הָעוֹר וּשְׂעָרָה לֹא-הָפַךְ לָבָן"
+      },
+      {
+        "ja": "פליוקפה סבעה' איאם",
+        "en": "he shall confine him for seven days.",
+        "he": "וְהִסְגִּיר הַכֹּהֵן אֶת-הַנֶּגַע שִׁבְעַת יָמִים"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ת'ם ינצ'רה פי אליום אלסאבע. פאן וקף אלבלא בעינה. ולם יתפש פי אלגלד",
+        "en": "Then he shall inspect him on the seventh day; if the affliction has stood as it was and has not spread in the skin,",
+        "he": "וְרָאָהוּ הַכֹּהֵן בַּיּוֹם הַשְּׁבִיעִי וְהִנֵּה הַנֶּגַע עָמַד בְּעֵינָיו לֹא-פָשָׂה הַנֶּגַע בָּעוֹר"
+      },
+      {
+        "ja": "פליוקפה סבעה' איאם ת'אניה",
+        "en": "he shall confine him for a second seven days.",
+        "he": "וְהִסְגִּירוֹ הַכֹּהֵן שִׁבְעַת יָמִים שֵׁנִית"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ת'ם ינצ'רה פי אליום אלסאבע ת'אניה. פאן כבא ולם יתפש פי אלגלד",
+        "en": "Then he shall inspect him on the seventh day a second time; if it has dimmed and has not spread in the skin,",
+        "he": "וְרָאָה הַכֹּהֵן אֹתוֹ בַּיּוֹם הַשְּׁבִיעִי שֵׁנִית וְהִנֵּה כֵּהָה הַנֶּגַע וְלֹא-פָשָׂה הַנֶּגַע בָּעוֹר"
+      },
+      {
+        "ja": "פליטהרה פאנהא עארצ'ה",
+        "en": "he shall declare him pure — for it is a blemish —",
+        "he": "וְטִהֲרוֹ הַכֹּהֵן מִסְפַּחַת הִוא"
+      },
+      {
+        "ja": "ויג'סל ת'יאבה ויטהר",
+        "en": "and he shall wash his garments and be pure.",
+        "he": "וְכִבֶּס בְּגָדָיו וְטָהֵר"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ואן תפשת אלעארצ'ה פי אלגלד. בעד מא אורי' לאלאמאם פטהרה",
+        "en": "But if the blemish spreads in the skin after he was shown to the imām and he declared him pure,",
+        "he": "וְאִם-פָּשֹׂה תִפְשֶׂה הַמִּסְפַּחַת בָּעוֹר אַחֲרֵי הֵרָאֹתוֹ אֶל-הַכֹּהֵן לְטָהֳרָתוֹ"
+      },
+      {
+        "ja": "פליורא לה ת'אניה",
+        "en": "he shall be shown to him a second time.",
+        "he": "וְנִרְאָה שֵׁנִית אֶל-הַכֹּהֵן"
+      }
+    ],
+    "8": [
+      {
+        "ja": "פאד'א ראהא אלאמאם. קד תפשת פי גלדה",
+        "en": "And if the imām sees that it has spread in his skin,",
+        "he": "וְרָאָה הַכֹּהֵן וְהִנֵּה פָּשְׂתָה הַמִּסְפַּחַת בָּעוֹר"
+      },
+      {
+        "ja": "פלינגסה פאנהא ברץ",
+        "en": "he shall declare him impure — for it is leprosy.",
+        "he": "וְטִמְּאוֹ הַכֹּהֵן צָרַעַת הִוא"
+      }
+    ],
+    "9": [
+      {
+        "ja": "פאד'א כאן באנסאן בלא ברץ. פיותא בה אלי' אלאמאם",
+        "en": "If there is on a person an affliction of leprosy, he shall be brought to the imām.",
+        "he": "נֶגַע צָרַעַת כִּי תִהְיֶה בְּאָדָם וְהוּבָא אֶל-הַכֹּהֵן"
+      }
+    ],
+    "10": [
+      {
+        "ja": "פינצר אלאמאם. פאד'א בשאמה ביצ'א פי גלדה. וקד אקלבת אלשער אביצ'א",
+        "en": "And the imām shall inspect — and behold, if there is a white mark in his skin and the hair has turned white,",
+        "he": "וְרָאָה הַכֹּהֵן וְהִנֵּה שְׂאֵת-לְבָנָה בָּעוֹר וְהִיא הָפְכָה שֵׂעָר לָבָן"
+      },
+      {
+        "ja": "או גז מן אללחם נקי פי אלשאמה",
+        "en": "or there is a portion of raw flesh in the mark,",
+        "he": "וּמִחְיַת בָּשָׂר חַי בַּשְׂאֵת"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ברץ עתיק הו פי גלד בדנה",
+        "en": "it is an old leprosy in the skin of his body;",
+        "he": "צָרַעַת נוֹשֶׁנֶת הִוא בְּעוֹר בְּשָׂרוֹ"
+      },
+      {
+        "ja": "פלינגסה אלאמאם. ולא יוקפה. אד' הו נגס",
+        "en": "the imām shall declare him impure and shall not confine him, since he is impure.",
+        "he": "וְטִמְּאוֹ הַכֹּהֵן לֹא יַסְגִּרֶנּוּ כִּי טָמֵא הוּא"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ואן אנתשר אלברץ פי אלבדן. חתי' ג'טא גמיע גלד אלמבתלא. מן ראסה אלי' רגליה",
+        "en": "And if the leprosy spreads throughout the body, until it covers all the skin of the afflicted one from his head to his feet —",
+        "he": "וְאִם-פָּרוֹחַ תִּפְרַח הַצָּרַעַת בָּעוֹר וְכִסְּתָה הַצָּרַעַת אֵת כָּל-עוֹר הַנֶּגַע מֵרֹאשׁוֹ וְעַד-רַגְלָיו"
+      },
+      {
+        "ja": "גמיע מנצ'ר עיני אלאמאם",
+        "en": "entirely within the sight of the imām's eyes —",
+        "he": "לְכָל-מַרְאֵה עֵינֵי הַכֹּהֵן"
+      }
+    ],
+    "13": [
+      {
+        "ja": "פ לינצ'ר אלאמאם. פאד'א קד ג'טא אלברץ גמיע בדנה",
+        "en": "the imām shall inspect; and if the leprosy has covered all his body,",
+        "he": "וְרָאָה הַכֹּהֵן וְהִנֵּה כִסְּתָה הַצָּרַעַת אֶת-כָּל-בְּשָׂרוֹ"
+      },
+      {
+        "ja": "פליטהרה. אד' קד אנקלב כלה אביצ'א פהו טאהר",
+        "en": "he shall declare him pure, since it has all turned white — he is pure.",
+        "he": "וְטִהַר אֶת-הַנָּגַע כֻּלּוֹ הָפַךְ לָבָן טָהוֹר הוּא"
+      }
+    ],
+    "14": [
+      {
+        "ja": "ואי יום צ'הר פיה לחם נקי פלינגסה",
+        "en": "But on whatever day raw flesh appears in him, he shall declare him impure.",
+        "he": "וּבְיוֹם הֵרָאוֹת בּוֹ בָּשָׂר חַי יִטְמָא"
+      }
+    ],
+    "15": [
+      {
+        "ja": "באן ירא אלאמאם. אללחם אלנקי פינגסה",
+        "en": "For when the imām sees the raw flesh, he shall declare him impure —",
+        "he": "וְרָאָה הַכֹּהֵן אֶת-הַבָּשָׂר הַחַי וְטִמְּאוֹ"
+      },
+      {
+        "ja": "לאן גז מן אללחם אלנקי מע אלברץ נגס הו",
+        "en": "for a portion of raw flesh together with the leprosy is impure.",
+        "he": "הַבָּשָׂר הַחַי טָמֵא הוּא צָרַעַת הוּא"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ואן רגע אללחם אלנקי ואנקלב אביצ'א. פליגי אלי' אלאמאם",
+        "en": "But if the raw flesh turns back and becomes white, he shall come to the imām.",
+        "he": "אוֹ כִי יָשׁוּב הַבָּשָׂר הַחַי וְנֶהְפַּךְ לְלָבָן וּבָא אֶל-הַכֹּהֵן"
+      }
+    ],
+    "17": [
+      {
+        "ja": "פאד'א נצ'ר אלאמאם. אן אלבלא קד אנקלב אביצ'א",
+        "en": "And if the imām inspects and the affliction has turned white,",
+        "he": "וְרָאָהוּ הַכֹּהֵן וְהִנֵּה נֶהְפַּךְ הַנֶּגַע לְלָבָן"
+      },
+      {
+        "ja": "פליטהרה אנה טאהר",
+        "en": "he shall declare him pure — he is pure.",
+        "he": "וְטִהַר הַכֹּהֵן אֶת-הַנֶּגַע טָהוֹר הוּא"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ואי אנסאן. כאן פי גלד בדנה קרח. פברא",
+        "en": "And any person in whose skin of his body there was a sore, and it healed —",
+        "he": "וּבָשָׂר כִּי-יִהְיֶה בוֹ-בְעֹרוֹ שְׁחִין וְנִרְפָּא"
+      }
+    ],
+    "19": [
+      {
+        "ja": "וצאר פי מוצ'עה שאמה ביצ'א או בקעה ביצ'א מחמרה",
+        "en": "and there appeared in its place a white mark, or a white spot tinged with red —",
+        "he": "וְהָיָה בִּמְקוֹם הַשְּׁחִין שְׂאֵת לְבָנָה אוֹ בַהֶרֶת לְבָנָה אֲדַמְדָּמֶת"
+      },
+      {
+        "ja": "פליורא לאלאמאם",
+        "en": "he shall be shown to the imām.",
+        "he": "וְנִרְאָה אֶל-הַכֹּהֵן"
+      }
+    ],
+    "20": [
+      {
+        "ja": "פאד'א ראי' אלאמאם. ומנצ'רהא מתספל מן אלגלד. ושערהא קד אנקלב אביצ'א",
+        "en": "And if the imām sees that its appearance is sunken below the skin and its hair has turned white,",
+        "he": "וְרָאָה הַכֹּהֵן וְהִנֵּה מַרְאֶהָ שָׁפָל מִן-הָעוֹר וּשְׂעָרָהּ הָפַךְ לָבָן"
+      },
+      {
+        "ja": "פלינגסה. לאנהא בלא ברץ קד אנתשר פי אלקרח",
+        "en": "he shall declare him impure — for it is an affliction of leprosy that has spread in the sore.",
+        "he": "וְטִמְּאוֹ הַכֹּהֵן נֶגַע-צָרַעַת הִוא בַּשְּׁחִין פָּרָחָה"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ואן הו ינצ'רהא. ולם יכון פיהא שער אביץ'. וליסת מתספלה מן אלגלד. בל כאביה",
+        "en": "But if he inspects it and there is no white hair in it, and it is not sunken below the skin but is rather dim,",
+        "he": "וְאִם יִרְאֶנָּה הַכֹּהֵן וְהִנֵּה אֵין-בָּהּ שֵׂעָר לָבָן וּשְׁפָלָה אֵינֶנָּה מִן-הָעוֹר וְהִיא כֵהָה"
+      },
+      {
+        "ja": "פליוקפה סבעה' איאם",
+        "en": "he shall confine him for seven days.",
+        "he": "וְהִסְגִּירוֹ הַכֹּהֵן שִׁבְעַת יָמִים"
+      }
+    ],
+    "22": [
+      {
+        "ja": "ואן הי תפשת פי אלגלד",
+        "en": "And if it spreads in the skin,",
+        "he": "וְאִם-פָּשֹׂה תִפְשֶׂה בָּעוֹר"
+      },
+      {
+        "ja": "פלינגסה פאנהא בלא",
+        "en": "he shall declare him impure — for it is an affliction.",
+        "he": "וְטִמֵּא הַכֹּהֵן אֹתוֹ נֶגַע הִוא"
+      }
+    ],
+    "23": [
+      {
+        "ja": "פאן וקפת מכאנהא ולם תתפש",
+        "en": "But if it stays in its place and has not spread,",
+        "he": "וְאִם-תַּחְתֶּיהָ תַּעֲמֹד הַבַּהֶרֶת לֹא פָשָׂתָה"
+      },
+      {
+        "ja": "פהי מן את'ר אלקרח. פליטהרה אלאמאם",
+        "en": "it is from the trace of the sore; the imām shall declare him pure.",
+        "he": "צָרֶבֶת הַשְּׁחִין הִוא וְטִהֲרוֹ הַכֹּהֵן"
+      }
+    ],
+    "24": [
+      {
+        "ja": "אי אנסאן כאן פי גלדה כי נאר",
+        "en": "Any person in whose skin there was a burn from fire,",
+        "he": "אוֹ בָשָׂר כִּי-יִהְיֶה בְעֹרוֹ מִכְוַת-אֵשׁ"
+      },
+      {
+        "ja": "ת'ם צאר גז אלכי. בקעה ביצ'א מחמרה או ביצ'א פקט",
+        "en": "and the part of the burn became a white spot tinged with red, or white only —",
+        "he": "וְהָיְתָה מִחְיַת הַמִּכְוָה בַּהֶרֶת לְבָנָה אֲדַמְדֶּמֶת--אוֹ לְבָנָה"
+      }
+    ],
+    "25": [
+      {
+        "ja": "פלינצ'רהא אלאמאם. פאן אנקלב אלשער אביצ'א וכאן ומנצ'רהא עמיק מן אלגלד",
+        "en": "the imām shall inspect it; and if the hair has turned white and its appearance is deep from the skin,",
+        "he": "וְרָאָה אֹתָהּ הַכֹּהֵן וְהִנֵּה נֶהְפַּךְ שֵׂעָר לָבָן בַּבַּהֶרֶת וּמַרְאֶהָ עָמֹק מִן-הָעוֹר"
+      },
+      {
+        "ja": "פהו ברץ אנתשר פי אלכי. פלינגסה אלאמאם",
+        "en": "it is leprosy that has spread in the burn — the imām shall declare him impure.",
+        "he": "צָרַעַת הִוא בַּמִּכְוָה פָּרָחָה וְטִמֵּא אֹתוֹ הַכֹּהֵן נֶגַע צָרַעַת הִוא"
+      }
+    ],
+    "26": [
+      {
+        "ja": "פאן ראהא אלאמאם. וליס פיה שער אביץ'. וליסת מתספלה מן אלגלד. בל כאביה",
+        "en": "But if the imām sees that there is no white hair in it, and it is not sunken below the skin but is rather dim,",
+        "he": "וְאִם יִרְאֶנָּה הַכֹּהֵן וְהִנֵּה אֵין-בַּבַּהֶרֶת שֵׂעָר לָבָן וּשְׁפָלָה אֵינֶנָּה מִן-הָעוֹר וְהִוא כֵהָה"
+      },
+      {
+        "ja": "פליוקפה סבעה' איאם",
+        "en": "he shall confine him for seven days.",
+        "he": "וְהִסְגִּירוֹ הַכֹּהֵן שִׁבְעַת יָמִים"
+      }
+    ],
+    "27": [
+      {
+        "ja": "פינצ'רהא פי אליום אלסאבע. פאן תפשת פי אלגלד",
+        "en": "Then he shall inspect it on the seventh day; if it has spread in the skin,",
+        "he": "וְרָאָהוּ הַכֹּהֵן בַּיּוֹם הַשְּׁבִיעִי אִם-פָּשֹׂה תִפְשֶׂה בָּעוֹר"
+      },
+      {
+        "ja": "פלינגסה פאנהא בלא ברץ",
+        "en": "he shall declare him impure — for it is an affliction of leprosy.",
+        "he": "וְטִמֵּא הַכֹּהֵן אֹתוֹ נֶגַע צָרַעַת הִוא"
+      }
+    ],
+    "28": [
+      {
+        "ja": "ואן וקפת מכאנהא. לם תתפש פי אלגלד והי כאביה",
+        "en": "But if it stays in its place and has not spread in the skin, and it is dim —",
+        "he": "וְאִם-תַּחְתֶּיהָ תַעֲמֹד הַבַּהֶרֶת לֹא-פָשְׂתָה בָעוֹר וְהִוא כֵהָה"
+      },
+      {
+        "ja": "פהי מן את'ר אלכי. פליטהרה אלאמאם. פאנהא תשייט אלכי",
+        "en": "it is from the trace of the burn; the imām shall declare him pure, for it is a scorching of the burn.",
+        "he": "שְׂאֵת הַמִּכְוָה הִוא וְטִהֲרוֹ הַכֹּהֵן--כִּי-צָרֶבֶת הַמִּכְוָה הִוא"
+      }
+    ],
+    "29": [
+      {
+        "ja": "ואי רגל או אמראה. כאן בה בלא ברץ. פי ראסה או פי לחיתה",
+        "en": "And any man or woman in whom there is an affliction of leprosy in the head or in the beard —",
+        "he": "וְאִישׁ אוֹ אִשָּׁה כִּי-יִהְיֶה בוֹ נָגַע בְּרֹאשׁ אוֹ בְזָקָן"
+      }
+    ],
+    "30": [
+      {
+        "ja": "פלינצ'רה אלאמאם. פאן כאן מנצ'רה עמיק מן אלגלד. ופיה שער אצהב דקיק",
+        "en": "the imām shall inspect it; and if its appearance is deep from the skin and there is in it thin yellowish hair,",
+        "he": "וְרָאָה הַכֹּהֵן אֶת-הַנֶּגַע וְהִנֵּה מַרְאֵהוּ עָמֹק מִן-הָעוֹר וּבוֹ שֵׂעָר צָהֹב דָּק"
+      },
+      {
+        "ja": "פלינגסה אלאמאם פאנה כ'לף. והו ברץ אלראס או אללחיה",
+        "en": "the imām shall declare him impure — for it is a blight, and it is leprosy of the head or the beard.",
+        "he": "וְטִמֵּא אֹתוֹ הַכֹּהֵן נֶתֶק הוּא צָרַעַת הָרֹאשׁ אוֹ הַזָּקָן הוּא"
+      }
+    ],
+    "31": [
+      {
+        "ja": "ואד'א ראה. וליס מנצ'רה עמיק מן אלגלד. וליס פיה שער אסוד",
+        "en": "But if it is seen, and its appearance is not deep from the skin and there is no black hair in it,",
+        "he": "וְכִי-יִרְאֶה הַכֹּהֵן אֶת-נֶגַע הַנֶּתֶק וְהִנֵּה אֵין-מַרְאֵהוּ עָמֹק מִן-הָעוֹר וְשֵׂעָר שָׁחֹר אֵין בּוֹ"
+      },
+      {
+        "ja": "פליוקפה סבעה' איאם",
+        "en": "he shall confine him for seven days.",
+        "he": "וְהִסְגִּיר הַכֹּהֵן אֶת-נֶגַע הַנֶּתֶק שִׁבְעַת יָמִים"
+      }
+    ],
+    "32": [
+      {
+        "ja": "ת'ם ינצרה פי אליום אלסאבע. פהו אן לם יתפש. ולם יציר פיה שער אצהב. ומנצ'רה ליס עמיק מן אלגלד",
+        "en": "Then he shall inspect it on the seventh day — if it has not spread, and there has not appeared in it yellowish hair, and its appearance is not deep from the skin —",
+        "he": "וְרָאָה הַכֹּהֵן אֶת-הַנֶּגַע בַּיּוֹם הַשְּׁבִיעִי וְהִנֵּה לֹא-פָשָׂה הַנֶּתֶק וְלֹא-הָיָה בוֹ שֵׂעָר צָהֹב וּמַרְאֵה הַנֶּתֶק אֵין עָמֹק מִן-הָעוֹר"
+      }
+    ],
+    "33": [
+      {
+        "ja": "פיחלק שערה. סוא מוצ'ע אלכ'לף",
+        "en": "he shall shave his hair, except for the place of the blight,",
+        "he": "וְהִתְגַּלָּח--וְאֶת-הַנֶּתֶק לֹא יְגַלֵּחַ"
+      },
+      {
+        "ja": "ויוקפה סבעה' איאם ת'אניה",
+        "en": "and he shall confine him for a second seven days.",
+        "he": "וְהִסְגִּיר הַכֹּהֵן אֶת-הַנֶּתֶק שִׁבְעַת יָמִים שֵׁנִית"
+      }
+    ],
+    "34": [
+      {
+        "ja": "ת'ם ינצ'רה פי אליום אלסאבע. פאן הו לם יתפש פי אלגלד. ומנצ'רה מע ד'אך ליס עמיק מן אלגלד",
+        "en": "Then he shall inspect it on the seventh day; if it has not spread in the skin, and its appearance is moreover not deep from the skin,",
+        "he": "וְרָאָה הַכֹּהֵן אֶת-הַנֶּתֶק בַּיּוֹם הַשְּׁבִיעִי וְהִנֵּה לֹא-פָשָׂה הַנֶּתֶק בָּעוֹר וּמַרְאֵהוּ אֵינֶנּוּ עָמֹק מִן-הָעוֹר"
+      },
+      {
+        "ja": "פליטהרה אלאמאם. ויג'סל ת'יאבה ליטהר",
+        "en": "the imām shall declare him pure; and he shall wash his garments, that he may be pure.",
+        "he": "וְטִהַר אֹתוֹ הַכֹּהֵן וְכִבֶּס בְּגָדָיו וְטָהֵר"
+      }
+    ],
+    "35": [
+      {
+        "ja": "ואן תפשא אלכ'לף פי בדנה. בעד טהרה",
+        "en": "But if the blight spreads in his body after his purification —",
+        "he": "וְאִם-פָּשֹׂה יִפְשֶׂה הַנֶּתֶק בָּעוֹר אַחֲרֵי טָהֳרָתוֹ"
+      }
+    ],
+    "36": [
+      {
+        "ja": "פינצ'רה אלאמאם. קד תפשא פי אלגלד. פלא יפחץ ען אלשער אלאצהב. בברהאן אנה נגס",
+        "en": "the imām shall inspect it, and behold it has spread in the skin: he need not examine for the yellowish hair — by proof that he is impure.",
+        "he": "וְרָאָהוּ הַכֹּהֵן וְהִנֵּה פָּשָׂה הַנֶּתֶק בָּעוֹר--לֹא-יְבַקֵּר הַכֹּהֵן לַשֵּׂעָר הַצָּהֹב טָמֵא הוּא"
+      }
+    ],
+    "37": [
+      {
+        "ja": "ואן הו וקף בעינה. ונבת פיה שער אסוד. פקד ברא והו טאהר. פליטהרה אלאמאם",
+        "en": "But if it has stood as it was, and black hair has grown in it, then it has healed and he is pure; the imām shall declare him pure.",
+        "he": "וְאִם-בְּעֵינָיו עָמַד הַנֶּתֶק וְשֵׂעָר שָׁחֹר צָמַח-בּוֹ נִרְפָּא הַנֶּתֶק--טָהוֹר הוּא וְטִהֲרוֹ הַכֹּהֵן"
+      }
+    ],
+    "38": [
+      {
+        "ja": "ואי רגל או אמראה. כאן פי גלד בדנה בקע בקע ביץ'",
+        "en": "And any man or woman in whose skin of his body there are spots — spots that are white —",
+        "he": "וְאִישׁ אוֹ-אִשָּׁה כִּי-יִהְיֶה בְעוֹר-בְּשָׂרָם בֶּהָרֹת--בֶּהָרֹת לְבָנֹת"
+      }
+    ],
+    "39": [
+      {
+        "ja": "פינצ'ר אלאמאם. פאד'א פי גלוד אבדאנהם. בקע כאביה פי ביאצ'הא",
+        "en": "the imām shall inspect; and if in the skin of their bodies the spots are dim in their whiteness,",
+        "he": "וְרָאָה הַכֹּהֵן וְהִנֵּה בְעוֹר-בְּשָׂרָם בֶּהָרֹת--כֵּהוֹת לְבָנֹת"
+      },
+      {
+        "ja": "פהו בהק. אנתשר פי אלגלד והו טאהר",
+        "en": "it is vitiligo that has spread in the skin — and he is pure.",
+        "he": "בֹּהַק הוּא פָּרַח בָּעוֹר טָהוֹר הוּא"
+      }
+    ],
+    "40": [
+      {
+        "ja": "ואי אנסאן אנתתף שערה. פהו אלאצלע והו טאהר",
+        "en": "And any person whose hair has fallen out — he is the bald one, and he is pure.",
+        "he": "וְאִישׁ כִּי יִמָּרֵט רֹאשׁוֹ--קֵרֵחַ הוּא טָהוֹר הוּא"
+      }
+    ],
+    "41": [
+      {
+        "ja": "ואן אנתתף מן גהה' וגהה. פהו אלאגלח והו טאהר",
+        "en": "And if it has fallen out from the side of his face, he is the forehead-bald one, and he is pure.",
+        "he": "וְאִם מִפְּאַת פָּנָיו יִמָּרֵט רֹאשׁוֹ--גִּבֵּחַ הוּא טָהוֹר הוּא"
+      }
+    ],
+    "42": [
+      {
+        "ja": "פאן כאן פי אלצלעה או פי אלגלחה. בלא ביאץ' מחמר",
+        "en": "But if there is in the bald patch or in the forehead-bald patch a white affliction tinged with red,",
+        "he": "וְכִי-יִהְיֶה בַקָּרַחַת אוֹ בַגַּבַּחַת נֶגַע לָבָן אֲדַמְדָּם"
+      },
+      {
+        "ja": "פימכן אן יכון ברץ. קד אנתשר פי צלעתה או פי גלחתה",
+        "en": "it may be leprosy that has spread in his bald patch or his forehead-bald patch.",
+        "he": "צָרַעַת פֹּרַחַת הִוא בְּקָרַחְתּוֹ אוֹ בְגַבַּחְתּוֹ"
+      }
+    ],
+    "43": [
+      {
+        "ja": "פ לינצ'ר אלאמאם. אן כאנת שאמה' אלבלא ביצ'א מחמרה. פי צלעתה או פי גלחתה",
+        "en": "The imām shall inspect: if the mark of the affliction is white tinged with red, in his bald patch or his forehead-bald patch,",
+        "he": "וְרָאָה אֹתוֹ הַכֹּהֵן וְהִנֵּה שְׂאֵת-הַנֶּגַע לְבָנָה אֲדַמְדֶּמֶת בְּקָרַחְתּוֹ אוֹ בְגַבַּחְתּוֹ"
+      },
+      {
+        "ja": "עלי' סביל מנאצ'ר ברץ סאיר גלד אלבדן ואחכאמהא",
+        "en": "after the manner of the appearances of leprosy of the rest of the skin of the body and its rulings —",
+        "he": "כְּמַרְאֵה צָרַעַת עוֹר בָּשָׂר"
+      }
+    ],
+    "44": [
+      {
+        "ja": "פהו רגל אברץ והו נגס",
+        "en": "he is a leprous man and he is impure;",
+        "he": "אִישׁ-צָרוּעַ הוּא טָמֵא הוּא"
+      },
+      {
+        "ja": "פלינגסה אלאמאם תנגיסא פאן בלאה פי ראסה",
+        "en": "the imām shall declare him thoroughly impure, for his affliction is in his head.",
+        "he": "טַמֵּא יְטַמְּאֶנּוּ הַכֹּהֵן בְּרֹאשׁוֹ נִגְעוֹ"
+      }
+    ],
+    "45": [
+      {
+        "ja": "ואלאברץ אלד'י בה אלבלא. יגב אן תכון ת'יאבה ממזקה וראסה יכון שעת'א",
+        "en": "And the leper in whom the affliction is — his garments must be torn and his head shall be disheveled,",
+        "he": "וְהַצָּרוּעַ אֲשֶׁר-בּוֹ הַנֶּגַע בְּגָדָיו יִהְיוּ פְרֻמִים וְרֹאשׁוֹ יִהְיֶה פָרוּעַ"
+      },
+      {
+        "ja": "ויתלת'ם עלי' שארבה. וינאדי אלנגס אלנגס",
+        "en": "and he shall cover over his mustache, and he shall call out: 'Impure! Impure!'",
+        "he": "וְעַל-שָׂפָם יַעְטֶה וְטָמֵא טָמֵא יִקְרָא"
+      }
+    ],
+    "46": [
+      {
+        "ja": "טול מא אקאם פיה אלבלא. ינגס פאנה נגס",
+        "en": "For as long as the affliction remains in him he shall be impure — for he is impure;",
+        "he": "כָּל-יְמֵי אֲשֶׁר הַנֶּגַע בּוֹ יִטְמָא--טָמֵא הוּא"
+      },
+      {
+        "ja": "פליגלס פרדא. כ'ארג אלעסכר יכון מקאמה",
+        "en": "he shall dwell alone, outside the camp shall be his dwelling-place.",
+        "he": "בָּדָד יֵשֵׁב מִחוּץ לַמַּחֲנֶה מוֹשָׁבוֹ"
+      }
+    ],
+    "47": [
+      {
+        "ja": "ואי תוב כאן פיה בלא ברץ. מן ת'וב צוף או כתאן",
+        "en": "And any garment in which there is an affliction of leprosy — whether a garment of wool or",
+        "he": "וְהַבֶּגֶד כִּי-יִהְיֶה בוֹ נֶגַע צָרָעַת בְּבֶגֶד צֶמֶר אוֹ בְּבֶגֶד פִּשְׁתִּים"
+      }
+    ],
+    "48": [
+      {
+        "ja": "או סדא או לחמה. מן כתאן וצוף. או פי גלד. או ממא צנע מנה",
+        "en": "of linen, or in warp or weft of linen or wool, or in hide, or in anything made from it —",
+        "he": "אוֹ בִשְׁתִי אוֹ בְעֵרֶב לַפִּשְׁתִּים וְלַצָּמֶר אוֹ בְעוֹר אוֹ בְּכָל-מְלֶאכֶת עוֹר"
+      }
+    ],
+    "49": [
+      {
+        "ja": "וכאן אלבלא. אכ'צ'רא או אחמרא. פי אלתוב או אלגלד. או אלס'דא או אלחמה או פי שי מן אנא אלגלוד",
+        "en": "and the affliction is green or red, in the garment or the hide, or the warp or the weft, or in any article of hides —",
+        "he": "וְהָיָה הַנֶּגַע יְרַקְרַק אוֹ אֲדַמְדָּם בַּבֶּגֶד אוֹ בָעוֹר אוֹ-בַשְּׁתִי אוֹ-בָעֵרֶב אוֹ בְכָל-כְּלִי-עוֹר"
+      },
+      {
+        "ja": "פד'אלך הו בלא ברץ. פליורא לאלאמאם",
+        "en": "that is an affliction of leprosy; it shall be shown to the imām.",
+        "he": "נֶגַע צָרַעַת הוּא וְהָרְאָה אֶת-הַכֹּהֵן"
+      }
+    ],
+    "50": [
+      {
+        "ja": "פאד'א ראה אוקפה סבעה' איאם",
+        "en": "When it is seen, he shall confine it for seven days.",
+        "he": "וְרָאָה הַכֹּהֵן אֶת-הַנָּגַע וְהִסְגִּיר אֶת-הַנֶּגַע שִׁבְעַת יָמִים"
+      }
+    ],
+    "51": [
+      {
+        "ja": "ת'ם ינצ'רה פי אליום אלסאבע. פאן תפשא אלבלא. פי אלת'וב או אלס'דא או אלחמה או פי אלגלד. וסאיר מא יעמל מן אלגלוד מצנועא",
+        "en": "Then he shall inspect it on the seventh day; if the affliction has spread in the garment, or the warp or the weft, or in the hide, or in the rest of what is made from hides as a manufactured article —",
+        "he": "וְרָאָה אֶת-הַנֶּגַע בַּיּוֹם הַשְּׁבִיעִי כִּי-פָשָׂה הַנֶּגַע בַּבֶּגֶד אוֹ-בַשְּׁתִי אוֹ-בָעֵרֶב אוֹ בָעוֹר לְכֹל אֲשֶׁר-יֵעָשֶׂה הָעוֹר לִמְלָאכָה"
+      },
+      {
+        "ja": "פד'אך בלא ברץ מאחק והו נגס",
+        "en": "that is a consuming affliction of leprosy, and it is impure.",
+        "he": "צָרַעַת מַמְאֶרֶת הַנֶּגַע טָמֵא הוּא"
+      }
+    ],
+    "52": [
+      {
+        "ja": "פליחרק אלת'וב. או אלסדא או אללחמה. כאן מן צוף או כתאן. או גמיע אניה' אלגלוד. אלד'י יכון פיהא אלבלא",
+        "en": "He shall burn the garment, or the warp or the weft, whether of wool or linen, or all the articles of hides in which the affliction is —",
+        "he": "וְשָׂרַף אֶת-הַבֶּגֶד אוֹ אֶת-הַשְּׁתִי אוֹ אֶת-הָעֵרֶב בַּצֶּמֶר אוֹ בַפִּשְׁתִּים אוֹ אֶת-כָּל-כְּלִי הָעוֹר אֲשֶׁר-יִהְיֶה בוֹ הַנָּגַע"
+      },
+      {
+        "ja": "פאנה ברץ מאחק. לד'אלך יחרק באלנאר",
+        "en": "for it is a consuming leprosy; therefore it shall be burned with fire.",
+        "he": "כִּי-צָרַעַת מַמְאֶרֶת הִוא בָּאֵשׁ תִּשָּׂרֵף"
+      }
+    ],
+    "53": [
+      {
+        "ja": "ואן ראה אלאמאם. פאד'אה לם יתפש פי אלת'וב. או אלסדא או אללחמה. או גמיע אניה' אלגלוד",
+        "en": "But if the imām sees that it has not spread in the garment, or the warp or the weft, or in any article of hides —",
+        "he": "וְאִם יִרְאֶה הַכֹּהֵן וְהִנֵּה לֹא-פָשָׂה הַנֶּגַע בַּבֶּגֶד אוֹ בַשְּׁתִי אוֹ בָעֵרֶב אוֹ בְּכָל-כְּלִי-עוֹר"
+      }
+    ],
+    "54": [
+      {
+        "ja": "פליאמר בג'סלה. ויוקפה סבעה' איאם ת'אניה",
+        "en": "he shall command that it be washed, and he shall confine it for a second seven days.",
+        "he": "וְצִוָּה הַכֹּהֵן וְכִבְּסוּ אֵת אֲשֶׁר-בּוֹ הַנָּגַע וְהִסְגִּירוֹ שִׁבְעַת-יָמִים שֵׁנִית"
+      }
+    ],
+    "55": [
+      {
+        "ja": "ת'ם ינצ'רה בעד מא ג'סל. פאן כאן לם ינקלב לונה ולם יתפש. פהו נגס. פליחרק באלנאר",
+        "en": "Then he shall inspect it after it has been washed; if its color has not changed and it has not spread, it is impure — it shall be burned with fire;",
+        "he": "וְרָאָה הַכֹּהֵן אַחֲרֵי הֻכַּבֵּס אֶת-הַנֶּגַע וְהִנֵּה לֹא-הָפַךְ הַנֶּגַע אֶת-עֵינוֹ וְהַנֶּגַע לֹא-פָשָׂה--טָמֵא הוּא בָּאֵשׁ תִּשְׂרְפֶנּוּ"
+      },
+      {
+        "ja": "והי מהלכה כאנת פי סחקתה או פי זיברתה",
+        "en": "it was a destructive thing, whether in its worn part or in its new part.",
+        "he": "פְּחֶתֶת הִוא בְּקָרַחְתּוֹ אוֹ בְגַבַּחְתּוֹ"
+      }
+    ],
+    "56": [
+      {
+        "ja": "ואן ראה קד כבי בעד מא גסל",
+        "en": "But if he sees that it has dimmed after it was washed,",
+        "he": "וְאִם רָאָה הַכֹּהֵן וְהִנֵּה כֵּהָה הַנֶּגַע אַחֲרֵי הֻכַּבֵּס אֹתוֹ"
+      },
+      {
+        "ja": "פליכ'רקה מן אלת'וב או אלגלד. ויקטעה מן אלסדא או אללחמה",
+        "en": "he shall scrape it from the garment or the hide, and cut it out from the warp or the weft.",
+        "he": "וְקָרַע אֹתוֹ מִן-הַבֶּגֶד אוֹ מִן-הָעוֹר אוֹ מִן-הַשְּׁתִי אוֹ מִן-הָעֵרֶב"
+      }
+    ],
+    "57": [
+      {
+        "ja": "ואן צ'הרת זיאדה פי אלת'וב. או אלסדא או אללחמה או גמיע אניה' אלגלוד. פהי אלמנתשרה",
+        "en": "And if it appears further in the garment, or the warp or the weft, or in any article of hides — it is the spreading one;",
+        "he": "וְאִם-תֵּרָאֶה עוֹד בַּבֶּגֶד אוֹ-בַשְּׁתִי אוֹ-בָעֵרֶב אוֹ בְכָל-כְּלִי-עוֹר--פֹּרַחַת הִוא"
+      },
+      {
+        "ja": "פלתחרק באלנאר. אלת'וב אלד'י פי אלבלא",
+        "en": "the garment in which the affliction is shall be burned with fire.",
+        "he": "בָּאֵשׁ תִּשְׂרְפֶנּוּ אֵת אֲשֶׁר-בּוֹ הַנָּגַע"
+      }
+    ],
+    "58": [
+      {
+        "ja": "ואלת'וב. או אלסדא או אללחמה או גמיע אנא אלגלוד אן ג'סלת. וזאל ענהא אלבלא",
+        "en": "But the garment, or the warp or the weft, or any article of hides — if they are washed and the affliction departs from them,",
+        "he": "וְהַבֶּגֶד אוֹ-הַשְּׁתִי אוֹ-הָעֵרֶב אוֹ-כָל-כְּלִי הָעוֹר אֲשֶׁר תְּכַבֵּס וְסָר מֵהֶם הַנָּגַע"
+      },
+      {
+        "ja": "פלתג'סל ת'אניה ותטהר",
+        "en": "they shall be washed a second time and they shall be pure.",
+        "he": "וְכֻבַּס שֵׁנִית וְטָהֵר"
+      }
+    ],
+    "59": [
+      {
+        "ja": "הד'ה שריעה' בלא אלברץ. אלכאין פי ת'וב צוף או כתאן. או סדא או לחמה. או שי מן אנא אלגלוד",
+        "en": "This is the ordinance of the affliction of leprosy in a garment of wool or linen, or warp or weft, or any article of hides —",
+        "he": "זֹאת תּוֹרַת נֶגַע-צָרַעַת בֶּגֶד הַצֶּמֶר אוֹ הַפִּשְׁתִּים אוֹ הַשְּׁתִי אוֹ הָעֵרֶב אוֹ כָּל-כְּלִי-עוֹר"
+      },
+      {
+        "ja": "ליטהר או ינגס",
+        "en": "to declare it pure or to declare it impure.",
+        "he": "לְטַהֲרוֹ אוֹ לְטַמְּאוֹ"
+      }
+    ]
+  }
+}

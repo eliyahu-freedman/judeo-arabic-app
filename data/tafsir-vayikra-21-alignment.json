@@ -1,0 +1,245 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 21. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_21.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ת'ם קאל אללה למוסי. מר אלאימה בני הרון",
+        "en": "Then God said to Moses: 'Command the imāms, the sons of Aaron,",
+        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה אֱמֹר אֶל-הַכֹּהֲנִים בְּנֵי אַהֲרֹן"
+      },
+      {
+        "ja": "וקל להם לא ינגס כל ואחד מנכם במיית מן קומה",
+        "en": "and say to them: Let no one among you become impure through a dead person of his people —",
+        "he": "וְאָמַרְתָּ אֲלֵהֶם לְנֶפֶשׁ לֹא-יִטַּמָּא בְּעַמָּיו"
+      }
+    ],
+    "2": [
+      {
+        "ja": "אלא לנסיבה. אלאקרב אליה. אמה ואביה",
+        "en": "except for his next of kin, who is close to him: his mother and his father,",
+        "he": "כִּי אִם-לִשְׁאֵרוֹ הַקָּרֹב אֵלָיו לְאִמּוֹ וּלְאָבִיו"
+      },
+      {
+        "ja": "ואבנה ואבנתה ואכ'יה",
+        "en": "and his son and his daughter and his brother,",
+        "he": "וְלִבְנוֹ וּלְבִתּוֹ וּלְאָחִיו"
+      }
+    ],
+    "3": [
+      {
+        "ja": "ואכ'תה אלבכר אלאקרב אליה. והי אלתי לם תציר לרגל. פבהא ינגס",
+        "en": "and his virgin sister who is closest to him — she who has not yet become belonging to a man; for her he shall become impure, as is obligatory.",
+        "he": "וְלַאֲחֹתוֹ הַבְּתוּלָה הַקְּרוֹבָה אֵלָיו אֲשֶׁר לֹא-הָיְתָה לְאִישׁ--לָהּ יִטַּמָּא"
+      }
+    ],
+    "4": [
+      {
+        "ja": "ולא ינגס בכ'טיר מן קומה. לאנה תבד'לה",
+        "en": "But he shall not become impure through a person of consequence from his people, as that would debase him.",
+        "he": "לֹא יִטַּמָּא בַּעַל בְּעַמָּיו--לְהֵחַלּוֹ"
+      }
+    ],
+    "5": [
+      {
+        "ja": "לא ינתפו נתפא מן שער רוסהם. וזואיא לחאהם לא יחלקוהא",
+        "en": "They shall not pluck a plucking from the hair of their heads, nor shall they shave the corners of their beards,",
+        "he": "לֹא-יקרחה (יִקְרְחוּ) קָרְחָה בְּרֹאשָׁם וּפְאַת זְקָנָם לֹא יְגַלֵּחוּ"
+      },
+      {
+        "ja": "ופי אבדאנהם. לא יכ'דשון כ'דשא",
+        "en": "nor shall they scratch a scratch upon their bodies.",
+        "he": "וּבִבְשָׂרָם--לֹא יִשְׂרְטוּ שָׂרָטֶת"
+      }
+    ],
+    "6": [
+      {
+        "ja": "וליכונו מקדסין לרבהם. ולא יבד'לו אסם רבהם",
+        "en": "And they shall be consecrated to their Lord, and shall not debase the name of their Lord —",
+        "he": "קְדֹשִׁים יִהְיוּ לֵאלֹהֵיהֶם וְלֹא יְחַלְּלוּ שֵׁם אֱלֹהֵיהֶם"
+      },
+      {
+        "ja": "פאנהם למא הם מקרבין קראבין אללה רבהם אלדאימה יכונו מקדסין",
+        "en": "for, inasmuch as they are those who offer the offerings of God their Lord continually, they shall be consecrated.",
+        "he": "כִּי אֶת-אִשֵּׁי יְהוָה לֶחֶם אֱלֹהֵיהֶם הֵם מַקְרִיבִם--וְהָיוּ קֹדֶשׁ"
+      }
+    ],
+    "7": [
+      {
+        "ja": "באמראה פאגרה ומבד'ולה לא יתזווגו",
+        "en": "With a wanton and debased woman they shall not marry,",
+        "he": "אִשָּׁה זֹנָה וַחֲלָלָה לֹא יִקָּחוּ"
+      },
+      {
+        "ja": "ובאמראה מטלקה מן בעלהא לא יתזווגו. פאן כל ואחד מנהם מקדס לרבה",
+        "en": "and with a woman divorced from her husband they shall not marry — for every one of them is consecrated to his Lord.",
+        "he": "וְאִשָּׁה גְּרוּשָׁה מֵאִישָׁהּ לֹא יִקָּחוּ כִּי-קָדֹשׁ הוּא לֵאלֹהָיו"
+      }
+    ],
+    "8": [
+      {
+        "ja": "וקדסה באלאלזאם. לאנה יקרב קרבאן רבך אלדאים",
+        "en": "And you shall consecrate him, as is obligatory — for he offers the offering of your Lord the Eternal;",
+        "he": "וְקִדַּשְׁתּוֹ--כִּי-אֶת-לֶחֶם אֱלֹהֶיךָ הוּא מַקְרִיב"
+      },
+      {
+        "ja": "פליכון לך מקדסא. כמא אני אללה מקדסכם",
+        "en": "he shall therefore be consecrated to you, even as I, God, consecrate you.",
+        "he": "קָדֹשׁ יִהְיֶה-לָּךְ--כִּי קָדוֹשׁ אֲנִי יְהוָה מְקַדִּשְׁכֶם"
+      }
+    ],
+    "9": [
+      {
+        "ja": "ואיי אבנה' רג'ל אמאם. תבד'לת פפגרת. פקד פצ'חת אביהא",
+        "en": "And whichever daughter of a man who is an imām has debased herself and acted wantonly — she has brought public disgrace upon her father;",
+        "he": "וּבַת אִישׁ כֹּהֵן כִּי תֵחֵל לִזְנוֹת--אֶת-אָבִיהָ הִיא מְחַלֶּלֶת"
+      },
+      {
+        "ja": "פלתחרק באלנאר",
+        "en": "she shall be burned with fire.",
+        "he": "בָּאֵשׁ תִּשָּׂרֵף"
+      }
+    ],
+    "10": [
+      {
+        "ja": "ואלאמאם אלכביר מן אכ'ותה. אלדי י'צב עלי' ראסה דהן אלמסח ויכמל ואגבה בלבס אלת'יאב",
+        "en": "And the great imām among his brothers, upon whose head the anointing oil is poured and whose obligation is fulfilled by the wearing of the vestments —",
+        "he": "וְהַכֹּהֵן הַגָּדוֹל מֵאֶחָיו אֲשֶׁר-יוּצַק עַל-רֹאשׁוֹ שֶׁמֶן הַמִּשְׁחָה וּמִלֵּא אֶת-יָדוֹ לִלְבֹּשׁ אֶת-הַבְּגָדִים"
+      },
+      {
+        "ja": "פלא ישעת ראסה. ות'יאבה לא ימזקהא",
+        "en": "he shall not dishevel his head, nor shall he tear his garments.",
+        "he": "אֶת-רֹאשׁוֹ לֹא יִפְרָע וּבְגָדָיו לֹא יִפְרֹם"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ועלי אי אנסאן מיית לא ידכ'ל",
+        "en": "Over any dead person he shall not enter;",
+        "he": "וְעַל כָּל-נַפְשֹׁת מֵת לֹא יָבֹא"
+      },
+      {
+        "ja": "חתא באביה ואמה לא ינגס",
+        "en": "even for his father and his mother he shall not become impure.",
+        "he": "לְאָבִיו וּלְאִמּוֹ לֹא יִטַּמָּא"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ומן אלמקדס לא יכ'רג וראהמא. ולא יבד'ל קדס רבה",
+        "en": "And from the sanctuary he shall not go out after them, nor shall he debase the consecration of his Lord —",
+        "he": "וּמִן-הַמִּקְדָּשׁ לֹא יֵצֵא וְלֹא יְחַלֵּל אֵת מִקְדַּשׁ אֱלֹהָיו"
+      },
+      {
+        "ja": "לאן למא תאג דהן מסח רבה עליה. אנא אללה שרפתה",
+        "en": "for, inasmuch as the crown of his Lord's anointing oil is upon him, I, God, have honored him.",
+        "he": "כִּי נֵזֶר שֶׁמֶן מִשְׁחַת אֱלֹהָיו עָלָיו--אֲנִי יְהוָה"
+      }
+    ],
+    "13": [
+      {
+        "ja": "והו פלא יתזווג אלא באמראה בכר",
+        "en": "And he — he shall marry none but a virgin woman.",
+        "he": "וְהוּא אִשָּׁה בִבְתוּלֶיהָ יִקָּח"
+      }
+    ],
+    "14": [
+      {
+        "ja": "אמא ארמלה או מטלקה ומבד'ולה ופאגרה. פלא יתזווג באחדי' מן הולאי",
+        "en": "As for a widow, or a divorced woman, or a debased woman, or a wanton woman — he shall not marry any of these;",
+        "he": "אַלְמָנָה וּגְרוּשָׁה וַחֲלָלָה זֹנָה אֶת-אֵלֶּה לֹא יִקָּח"
+      },
+      {
+        "ja": "אלא באמראה בכר מן קומה יתזווג",
+        "en": "only a virgin woman from his people shall he marry.",
+        "he": "כִּי אִם-בְּתוּלָה מֵעַמָּיו יִקַּח אִשָּׁה"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ולא יבד'ל נסלה בסואהא מן קומה לאני אללה מקדסה",
+        "en": "And he shall not debase his offspring through any other than her from his people — for I, God, consecrate him.'",
+        "he": "וְלֹא-יְחַלֵּל זַרְעוֹ בְּעַמָּיו כִּי אֲנִי יְהוָה מְקַדְּשׁוֹ"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ת'ם כלם אללה מוסי' תכלימא",
+        "en": "Then God spoke to Moses in speech.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "17": [
+      {
+        "ja": "מר הרון וקל לה. אי רגל מן נסלך עלי' מר אגיאלהם. יכון פיה עיב. לא יתקדם. ליקרב קרבאן רבה",
+        "en": "'Command Aaron and say to him: Any man from your offspring, throughout their generations, in whom there is a blemish — he shall not come forward to offer the offering of his Lord.",
+        "he": "דַּבֵּר אֶל-אַהֲרֹן לֵאמֹר אִישׁ מִזַּרְעֲךָ לְדֹרֹתָם אֲשֶׁר יִהְיֶה בוֹ מוּם--לֹא יִקְרַב לְהַקְרִיב לֶחֶם אֱלֹהָיו"
+      }
+    ],
+    "18": [
+      {
+        "ja": "לאן כל רגל פיה עיב לא יתקדם",
+        "en": "For every man in whom there is a blemish shall not come forward.",
+        "he": "כִּי כָל-אִישׁ אֲשֶׁר-בּוֹ מוּם לֹא יִקְרָב"
+      },
+      {
+        "ja": "פמן ד'אלך אלאעמא ואלאזמן. ואלאכ'רם ואלכ'אמע",
+        "en": "Among such: the blind and the lame, and one with a cleft nose and one who limps,",
+        "he": "אִישׁ עִוֵּר אוֹ פִסֵּחַ אוֹ חָרֻם אוֹ שָׂרוּעַ"
+      }
+    ],
+    "19": [
+      {
+        "ja": "או רגל יכון פיה כסר רגל. או כסר יד",
+        "en": "or a man in whom there is a broken leg or a broken arm,",
+        "he": "אוֹ אִישׁ אֲשֶׁר-יִהְיֶה בוֹ שֶׁבֶר רָגֶל אוֹ שֶׁבֶר יָד"
+      }
+    ],
+    "20": [
+      {
+        "ja": "או אחדב או אכ'פש. או כת'יב פי עינה. או בה גרב או חזאז. או אדר",
+        "en": "or a hunchback, or one of dim sight, or one with a cataract in his eye, or in whom there is mange or thick scaling of the head, or one with a crushed testicle —",
+        "he": "אוֹ-גִבֵּן אוֹ-דַק אוֹ תְּבַלֻּל בְּעֵינוֹ אוֹ גָרָב אוֹ יַלֶּפֶת אוֹ מְרוֹחַ אָשֶׁךְ"
+      }
+    ],
+    "21": [
+      {
+        "ja": "כד'אך כל רג'ל פיה עיב. מן נסל הרון אלאמאם. לא יתקדם ליקרב קרבאן אללה",
+        "en": "so too every man in whom there is a blemish, from the offspring of Aaron the imām: he shall not come forward to offer the offering of God;",
+        "he": "כָּל-אִישׁ אֲשֶׁר-בּוֹ מוּם מִזֶּרַע אַהֲרֹן הַכֹּהֵן--לֹא יִגַּשׁ לְהַקְרִיב אֶת-אִשֵּׁי יְהוָה"
+      },
+      {
+        "ja": "ומהמא ד'אלך אלעיב פיה. פקרבאן רבה. לא יתקדם ליקרבה",
+        "en": "and whatever that blemish be in him, the offering of his Lord he shall not come forward to offer.",
+        "he": "מוּם בּוֹ--אֵת לֶחֶם אֱלֹהָיו לֹא יִגַּשׁ לְהַקְרִיב"
+      }
+    ],
+    "22": [
+      {
+        "ja": "לאכן רזק רבה. מן כ'ואץ אלאקדאס. ועואמהא יאכל",
+        "en": "However, the provision of his Lord — from the choicest of the holy things and from the general portions thereof — he may eat.",
+        "he": "לֶחֶם אֱלֹהָיו מִקָּדְשֵׁי הַקֳּדָשִׁים וּמִן-הַקֳּדָשִׁים יֹאכֵל"
+      }
+    ],
+    "23": [
+      {
+        "ja": "אמא אלי' אלסגף פלא ידכ'ל. ואלי אלמד'בח. פלא יתקדם אד' פיה עיב",
+        "en": "But into the curtain he shall not enter, and to the altar he shall not come forward, since there is a blemish in him;",
+        "he": "אַךְ אֶל-הַפָּרֹכֶת לֹא יָבֹא וְאֶל-הַמִּזְבֵּחַ לֹא יִגַּשׁ--כִּי-מוּם בּוֹ"
+      },
+      {
+        "ja": "ולא יבד'ל מקאדסי. לאני אללה מקדסהמא",
+        "en": "and he shall not debase My sacred things — for I, God, consecrate them.'",
+        "he": "וְלֹא יְחַלֵּל אֶת-מִקְדָּשַׁי כִּי אֲנִי יְהוָה מְקַדְּשָׁם"
+      }
+    ],
+    "24": [
+      {
+        "ja": "פאמר מוסי' בד'אלך הרון ובניה. וסאיר בני אסראיל",
+        "en": "And Moses commanded thereby Aaron and his sons, and the rest of the sons of Israel.",
+        "he": "וַיְדַבֵּר מֹשֶׁה אֶל-אַהֲרֹן וְאֶל-בָּנָיו וְאֶל-כָּל-בְּנֵי יִשְׂרָאֵל"
+      }
+    ]
+  }
+}

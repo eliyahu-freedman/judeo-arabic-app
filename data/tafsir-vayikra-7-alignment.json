@@ -1,0 +1,356 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 7. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_7.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "והד'א שריעה' קרבאן אלאת'ם. הו איצ'א מן כ'ואץ אלאקדאס",
+        "en": "And these are the ordinances of the guilt-offering — it too is among the choicest of the consecrated things.",
+        "he": "וְזֹאת תּוֹרַת הָאָשָׁם קֹדֶשׁ קָדָשִׁים הוּא"
+      }
+    ],
+    "2": [
+      {
+        "ja": "פי מוצ'ע תד'בח אלצעידה. יד'בח קרבאן אלאת'ם.",
+        "en": "In the place where they slaughter the elevation-offering, they shall slaughter the guilt-offering;",
+        "he": "בִּמְקוֹם אֲשֶׁר יִשְׁחֲטוּ אֶת-הָעֹלָה יִשְׁחֲטוּ אֶת-הָאָשָׁם"
+      },
+      {
+        "ja": "ודמה ירש עלי' אלמד'בח מסתדירא",
+        "en": "and its blood shall be sprinkled upon the altar all around.",
+        "he": "וְאֶת-דָּמוֹ יִזְרֹק עַל-הַמִּזְבֵּחַ סָבִיב"
+      }
+    ],
+    "3": [
+      {
+        "ja": "וגמיע שחמה ירפע מנה. אלאליה ואלת'רב אלמג'טי אלגוף",
+        "en": "And all its fat shall be lifted from it — the broad tail and the suet that covers the innards,",
+        "he": "וְאֵת כָּל-חֶלְבּוֹ יַקְרִיב מִמֶּנּוּ--אֵת הָאַלְיָה וְאֶת-הַחֵלֶב הַמְכַסֶּה אֶת-הַקֶּרֶב"
+      }
+    ],
+    "4": [
+      {
+        "ja": "ואלכלותין. ואלשחם אלד'י עליהמא. אלד'י עלי' אלאחשא.",
+        "en": "and the two kidneys and the fat that is upon them, which is upon the entrails,",
+        "he": "וְאֵת שְׁתֵּי הַכְּלָיֹת וְאֶת-הַחֵלֶב אֲשֶׁר עֲלֵיהֶן אֲשֶׁר עַל-הַכְּסָלִים"
+      },
+      {
+        "ja": "וזיאדה' אלכבד. מע אלכלי' ינזעהא",
+        "en": "and the lobe of the liver — along with the kidneys he shall remove them.",
+        "he": "וְאֶת-הַיֹּתֶרֶת עַל-הַכָּבֵד עַל-הַכְּלָיֹת יְסִירֶנָּה"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ויקתרהא אלאמאם עלי' אלמד'בח. קרבאנא ללה. כד'אך מא יציר קרבאן אלאת'ם",
+        "en": "And the imām shall burn them upon the altar as an offering to God — thus is what the guilt-offering becomes.",
+        "he": "וְהִקְטִיר אֹתָם הַכֹּהֵן הַמִּזְבֵּחָה אִשֶּׁה לַיהוָה אָשָׁם הוּא"
+      }
+    ],
+    "6": [
+      {
+        "ja": "כל ד'כר מן אלאיימה יאכלה. פי מוצ'ע מקדס יוכל.",
+        "en": "Every male among the imāms may eat it; in a consecrated place it shall be eaten,",
+        "he": "כָּל-זָכָר בַּכֹּהֲנִים יֹאכְלֶנּוּ בְּמָקוֹם קָדוֹשׁ יֵאָכֵל"
+      },
+      {
+        "ja": "לאנה מן כ'ואץ אלאקדאס",
+        "en": "for it is among the choicest of the consecrated things.",
+        "he": "קֹדֶשׁ קָדָשִׁים הוּא"
+      }
+    ],
+    "7": [
+      {
+        "ja": "קרבאן אלאת'ם כאלדכוה. שריעה ואחדה להמא.",
+        "en": "The guilt-offering is like the sin-offering — one ordinance for them both;",
+        "he": "כַּחַטָּאת כָּאָשָׁם--תּוֹרָה אַחַת לָהֶם"
+      },
+      {
+        "ja": "אלאמאם. אלד'י יכפר בה לה יכון",
+        "en": "the imām who makes atonement through it, to him it shall belong.",
+        "he": "הַכֹּהֵן אֲשֶׁר יְכַפֶּר-בּוֹ לוֹ יִהְיֶה"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ואלאמאם. אלמקרב צעידה ען אמר. פגלדהא בעד תקריבהא יכון לה",
+        "en": "And the imām who offers an elevation-offering on behalf of a man — its hide, after its having been offered, shall be his.",
+        "he": "וְהַכֹּהֵן--הַמַּקְרִיב אֶת-עֹלַת אִישׁ עוֹר הָעֹלָה אֲשֶׁר הִקְרִיב לַכֹּהֵן לוֹ יִהְיֶה"
+      }
+    ],
+    "10": [
+      {
+        "ja": "וכל הדייה. מלתותה בדהן או גאפה. לגמיע בני הרון תכון. אלואחד כאלאכ'ר",
+        "en": "And every gift-offering mixed with oil or dry shall belong to all the sons of Aaron — one the same as another.",
+        "he": "וְכָל-מִנְחָה בְלוּלָה-בַשֶּׁמֶן וַחֲרֵבָה--לְכָל-בְּנֵי אַהֲרֹן תִּהְיֶה אִישׁ כְּאָחִיו"
+      }
+    ],
+    "11": [
+      {
+        "ja": "והד'א שריעה' ד'בח אלסלאמה. אלד'י יקרבה ללה",
+        "en": "And these are the ordinances of the peace-offering sacrifice which one offers to God.",
+        "he": "וְזֹאת תּוֹרַת זֶבַח הַשְּׁלָמִים אֲשֶׁר יַקְרִיב לַיהוָה"
+      }
+    ],
+    "12": [
+      {
+        "ja": "אן קרבה עלי' שכר. פיקרב מעה. גראדק פטיר מלתותה בדהן.",
+        "en": "If he offers it as a thanksgiving, then he shall offer with it loaves of unleavened bread mixed with oil,",
+        "he": "אִם עַל-תּוֹדָה יַקְרִיבֶנּוּ--וְהִקְרִיב עַל-זֶבַח הַתּוֹדָה חַלּוֹת מַצּוֹת בְּלוּלֹת בַּשֶּׁמֶן"
+      },
+      {
+        "ja": "ורקאק פטיר ממסוחה בדהן וסמד סתותייה גראדק מלתותה בדהן",
+        "en": "and wafers of unleavened bread smeared with oil, and layers of fine flour — loaves mixed with oil.",
+        "he": "וּרְקִיקֵי מַצּוֹת מְשֻׁחִים בַּשָּׁמֶן וְסֹלֶת מֻרְבֶּכֶת חַלֹּת בְּלוּלֹת בַּשָּׁמֶן"
+      }
+    ],
+    "13": [
+      {
+        "ja": "מע גראדק כ'בז כ'מיר. יקרב קרבאנה. מע ד'בח שכר סלאמתה",
+        "en": "Together with loaves of leavened bread he shall offer his offering, with the thanksgiving sacrifice of his peace-offering.",
+        "he": "עַל-חַלֹּת לֶחֶם חָמֵץ יַקְרִיב קָרְבָּנוֹ עַל-זֶבַח תּוֹדַת שְׁלָמָיו"
+      }
+    ],
+    "14": [
+      {
+        "ja": "פליקרב מן ד'אלך רג'יפא ואחדא מן כל קרבאן. רפיעה ללה.",
+        "en": "And he shall offer from it one loaf from each offering, as an elevation to God;",
+        "he": "וְהִקְרִיב מִמֶּנּוּ אֶחָד מִכָּל-קָרְבָּן תְּרוּמָה לַיהוָה"
+      },
+      {
+        "ja": "לאלאמאם. אלד'י ינצ'ח מן דם אלסלאמה לה יכון",
+        "en": "to the imām who sprinkles the blood of the peace-offering — to him it shall belong.",
+        "he": "לַכֹּהֵן הַזֹּרֵק אֶת-דַּם הַשְּׁלָמִים--לוֹ יִהְיֶה"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ולחם ד'בח שכר אלסלאמה. פי יום קרבאנה יוכל לא יבקי מנה אלי' אלג'דאה",
+        "en": "And the flesh of the thanksgiving sacrifice of the peace-offering shall be eaten on the day of its offering; he shall not leave any of it until morning.",
+        "he": "וּבְשַׂר זֶבַח תּוֹדַת שְׁלָמָיו--בְּיוֹם קָרְבָּנוֹ יֵאָכֵל לֹא-יַנִּיחַ מִמֶּנּוּ עַד-בֹּקֶר"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ואן כאן ד'בח קרבאנה. נד'רא או תברעא. פליוכל פי יום תקריבה לה.",
+        "en": "But if the sacrifice of his offering be a vow or a freewill-offering, it shall be eaten on the day of his offering it;",
+        "he": "וְאִם-נֶדֶר אוֹ נְדָבָה זֶבַח קָרְבָּנוֹ--בְּיוֹם הַקְרִיבוֹ אֶת-זִבְחוֹ יֵאָכֵל"
+      },
+      {
+        "ja": "ומן ג'ד. מא פצ'ל מנה יוכל",
+        "en": "and on the morrow, what remains of it shall be eaten.",
+        "he": "וּמִמָּחֳרָת וְהַנּוֹתָר מִמֶּנּוּ יֵאָכֵל"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ואלפאצ'ל מן לחם אלד'בח. פי אליום אלת'אלת'. פליחרק באלנאר",
+        "en": "And what is left of the flesh of the sacrifice on the third day shall be burned with fire.",
+        "he": "וְהַנּוֹתָר מִבְּשַׂר הַזָּבַח--בַּיּוֹם הַשְּׁלִישִׁי בָּאֵשׁ יִשָּׂרֵף"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ואן אכל אכלא. מן לחם ד'בח אלסלאמה. פי אליום אלת'לאת' פלא ירתצ'א.",
+        "en": "And if any of the flesh of the peace-offering sacrifice be eaten on the third day, it shall not be accepted;",
+        "he": "וְאִם הֵאָכֹל יֵאָכֵל מִבְּשַׂר-זֶבַח שְׁלָמָיו בַּיּוֹם הַשְּׁלִישִׁי לֹא יֵרָצֶה"
+      },
+      {
+        "ja": "ואלמקרב לה. לא יחסב לה בל יכון כאלאכ'ס.",
+        "en": "and the one who offered it — it shall not be counted to him, but shall be as something abhorrent;",
+        "he": "הַמַּקְרִיב אֹתוֹ לֹא יֵחָשֵׁב לוֹ פִּגּוּל יִהְיֶה"
+      },
+      {
+        "ja": "ואי אנסאן. אכל מנה פקד חמל וזרה",
+        "en": "and any person who eats of it shall have borne his burden of guilt.",
+        "he": "וְהַנֶּפֶשׁ הָאֹכֶלֶת מִמֶּנּוּ עֲו‍ֹנָהּ תִּשָּׂא"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ולחם אלאקדאס. אן דנא בשי מן אלנגאסאת פלא יוכל. בל יחרק באלנאר.",
+        "en": "And the flesh of the consecrated things — if it comes near to anything of the impurities, it shall not be eaten, but shall be burned with fire;",
+        "he": "וְהַבָּשָׂר אֲשֶׁר-יִגַּע בְּכָל-טָמֵא לֹא יֵאָכֵל--בָּאֵשׁ יִשָּׂרֵף"
+      },
+      {
+        "ja": "ואלטאהר מנה. פלא יאכלה אלא טאהר",
+        "en": "and as for what is pure of it, none but one who is pure shall eat it.",
+        "he": "וְהַבָּשָׂר--כָּל-טָהוֹר יֹאכַל בָּשָׂר"
+      }
+    ],
+    "20": [
+      {
+        "ja": "ואי אנסאן אכל לחמא. מן ד'בח אלסלאמה אלד'י ללה. ונגאסתה עליה.",
+        "en": "And any person who eats flesh from the peace-offering sacrifice that belongs to God, while his impurity is upon him —",
+        "he": "וְהַנֶּפֶשׁ אֲשֶׁר-תֹּאכַל בָּשָׂר מִזֶּבַח הַשְּׁלָמִים אֲשֶׁר לַיהוָה וְטֻמְאָתוֹ עָלָיו"
+      },
+      {
+        "ja": "פינקטע ד'אלך אלאנסאן מן בין קומה",
+        "en": "that person shall be cut off from among his people.",
+        "he": "וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מֵעַמֶּיהָ"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ואי אנסאן לאמס שייא מן אלנגאסאת. בנגאסה' אנסאן או בבהימה נגסה או בשי מן אלדביב אלנגס.",
+        "en": "And any person who touches anything of the impurities — whether the impurity of a human, or an impure beast, or anything of impure creeping things —",
+        "he": "וְנֶפֶשׁ כִּי-תִגַּע בְּכָל-טָמֵא בְּטֻמְאַת אָדָם אוֹ בִּבְהֵמָה טְמֵאָה אוֹ בְּכָל-שֶׁקֶץ טָמֵא"
+      },
+      {
+        "ja": "ואכל מן לחם ד'בח אלסלאמה אלד'י ללה. פינקטע ד'אלך אלאנסאן מן קומה",
+        "en": "and eats of the flesh of the peace-offering sacrifice that belongs to God, that person shall be cut off from his people.",
+        "he": "וְאָכַל מִבְּשַׂר-זֶבַח הַשְּׁלָמִים אֲשֶׁר לַיהוָה--וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מֵעַמֶּיהָ"
+      }
+    ],
+    "22": [
+      {
+        "ja": "ת'ם כלם אללה מוסי'' תכלימא",
+        "en": "Then God spoke to Moses in speech.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "23": [
+      {
+        "ja": "מר בני אסראיל קאילא. כל שחם בקר וצ'אן. ומאעז לא תאכלו",
+        "en": "Command the sons of Israel, saying: All fat of cattle and sheep and goats — you shall not eat.",
+        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל לֵאמֹר כָּל-חֵלֶב שׁוֹר וְכֶשֶׂב וָעֵז--לֹא תֹאכֵלוּ"
+      }
+    ],
+    "24": [
+      {
+        "ja": "ושחם אלנבילה ואלסקימה. אסתעמלוה פי כל צנעה. ואכל לא תאכלוה",
+        "en": "And the fat of a carcass and the fat of a diseased animal — use it for any craft, but as food you shall not eat it.",
+        "he": "וְחֵלֶב נְבֵלָה וְחֵלֶב טְרֵפָה יֵעָשֶׂה לְכָל-מְלָאכָה וְאָכֹל לֹא תֹאכְלֻהוּ"
+      }
+    ],
+    "25": [
+      {
+        "ja": "פאן כל מן יאכל שחמא. מן אלבהאים. אלתי יקרב מנהא. קרבאנא ללה.",
+        "en": "For anyone who eats any fat of the beasts from which an offering is brought to God —",
+        "he": "כִּי כָּל-אֹכֵל חֵלֶב מִן-הַבְּהֵמָה אֲשֶׁר יַקְרִיב מִמֶּנָּה אִשֶּׁה לַיהוָה"
+      },
+      {
+        "ja": "ינקטע ד'אלך אלאנסאן מן בין קומה",
+        "en": "that person shall be cut off from among his people.",
+        "he": "וְנִכְרְתָה הַנֶּפֶשׁ הָאֹכֶלֶת מֵעַמֶּיהָ"
+      }
+    ],
+    "26": [
+      {
+        "ja": "וכל דם לא תאכלו. פי גמיע מסאכנכם. מן אלטאיר ואלבהאים",
+        "en": "And all blood you shall not eat, in all your dwellings, whether of bird or of beasts.",
+        "he": "וְכָל-דָּם לֹא תֹאכְלוּ בְּכֹל מוֹשְׁבֹתֵיכֶם לָעוֹף וְלַבְּהֵמָה"
+      }
+    ],
+    "27": [
+      {
+        "ja": "אי אנסאן אכל שייא מן אלדם. ינקטע ד'אלך אלאנסאן מן בין קומה",
+        "en": "Any person who eats any of the blood — that person shall be cut off from among his people.",
+        "he": "כָּל-נֶפֶשׁ אֲשֶׁר-תֹּאכַל כָּל-דָּם--וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מֵעַמֶּיהָ"
+      }
+    ],
+    "28": [
+      {
+        "ja": "ת'ם כלם אללה מוסי' תכלימא",
+        "en": "Then God spoke to Moses in speech.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "29": [
+      {
+        "ja": "כ'אטב בני אסראיל וקל להם. אלמקרב ד'בח אלסלאמה ללה.",
+        "en": "Address the sons of Israel and say to them: He who offers the peace-offering sacrifice to God —",
+        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל לֵאמֹר הַמַּקְרִיב אֶת-זֶבַח שְׁלָמָיו לַיהוָה"
+      },
+      {
+        "ja": "הו אלד'י יאתי בקרבאנה. ללה מן ד'בח סלאמתה",
+        "en": "he is the one who shall bring his offering to God from the sacrifice of his peace-offering.",
+        "he": "יָבִיא אֶת-קָרְבָּנוֹ לַיהוָה מִזֶּבַח שְׁלָמָיו"
+      }
+    ],
+    "30": [
+      {
+        "ja": "ידאה תחמל קראבין אללה. אלשחם מע אלקץ יאתי מעה.",
+        "en": "His own hands shall carry the offerings of God; the fat together with the breast he shall bring with it,",
+        "he": "יָדָיו תְּבִיאֶינָה אֵת אִשֵּׁי יְהוָה אֶת-הַחֵלֶב עַל-הֶחָזֶה יְבִיאֶנּוּ"
+      },
+      {
+        "ja": "פיחרכה תחריכא בין ידי אללה",
+        "en": "and he shall wave it as a waving before God.",
+        "he": "אֵת הֶחָזֶה לְהָנִיף אֹתוֹ תְּנוּפָה לִפְנֵי יְהוָה"
+      }
+    ],
+    "31": [
+      {
+        "ja": "ויקתר אלאמאם. אלשחם עלי' אלמד'בח.",
+        "en": "And the imām shall burn the fat upon the altar,",
+        "he": "וְהִקְטִיר הַכֹּהֵן אֶת-הַחֵלֶב הַמִּזְבֵּחָה"
+      },
+      {
+        "ja": "ויציר אלקץ. להרון ובניה",
+        "en": "and the breast shall become Aaron's and his sons'.",
+        "he": "וְהָיָה הֶחָזֶה לְאַהֲרֹן וּלְבָנָיו"
+      }
+    ],
+    "32": [
+      {
+        "ja": "ואלסאק אלאימן. אעטוה רפיעה לאלאמאם. מן ד'באיח סלאמתכם",
+        "en": "And the right haunch — give it as an elevation to the imām from the sacrifices of your peace-offerings.",
+        "he": "וְאֵת שׁוֹק הַיָּמִין תִּתְּנוּ תְרוּמָה לַכֹּהֵן מִזִּבְחֵי שַׁלְמֵיכֶם"
+      }
+    ],
+    "33": [
+      {
+        "ja": "אלמקרב דם אלסלאמה. ואלשחם מן בני הרון. לה יכון. סאק אלאימן נציבא",
+        "en": "He among the sons of Aaron who offers the blood of the peace-offering and the fat — to him shall belong the right haunch as his portion.",
+        "he": "הַמַּקְרִיב אֶת-דַּם הַשְּׁלָמִים וְאֶת-הַחֵלֶב--מִבְּנֵי אַהֲרֹן לוֹ תִהְיֶה שׁוֹק הַיָּמִין לְמָנָה"
+      }
+    ],
+    "34": [
+      {
+        "ja": "לאן קץ אלתחריך וסאק אלרפיעה. אכ'ד'תהא מן בני אסראיל. מן ד'באיח סלאמתהם.",
+        "en": "For the breast of the waving and the haunch of the elevation I have taken from the sons of Israel, from the sacrifices of their peace-offerings,",
+        "he": "כִּי אֶת-חֲזֵה הַתְּנוּפָה וְאֵת שׁוֹק הַתְּרוּמָה לָקַחְתִּי מֵאֵת בְּנֵי-יִשְׂרָאֵל מִזִּבְחֵי שַׁלְמֵיהֶם"
+      },
+      {
+        "ja": "ואעטיתהא להרון אלאמאם ובניה. רסם אלדהר מן בני אסראיל",
+        "en": "and I have given them to Aaron the imām and to his sons — an ordinance forever from the sons of Israel.",
+        "he": "וָאֶתֵּן אֹתָם לְאַהֲרֹן הַכֹּהֵן וּלְבָנָיו לְחָק-עוֹלָם מֵאֵת בְּנֵי יִשְׂרָאֵל"
+      }
+    ],
+    "35": [
+      {
+        "ja": "הד'ה חצה' הרון ובניה. מן קראבין אללה. פי יום קדמו. ליאמו ללה",
+        "en": "This is the portion of Aaron and his sons from the offerings of God, on the day they were presented to serve as imāms before God.",
+        "he": "זֹאת מִשְׁחַת אַהֲרֹן וּמִשְׁחַת בָּנָיו מֵאִשֵּׁי יְהוָה בְּיוֹם הִקְרִיב אֹתָם לְכַהֵן לַיהוָה"
+      }
+    ],
+    "36": [
+      {
+        "ja": "אלד'י אמר אללה בהא אן יעטוהא. פי יום מסחהם. מן בני אסראיל. רסם אלדהר לאגיאלהם",
+        "en": "Which God commanded to be given to them on the day of their anointing, from the sons of Israel — an ordinance forever for their generations.",
+        "he": "אֲשֶׁר צִוָּה יְהוָה לָתֵת לָהֶם בְּיוֹם מָשְׁחוֹ אֹתָם מֵאֵת בְּנֵי יִשְׂרָאֵל--חֻקַּת עוֹלָם לְדֹרֹתָם"
+      }
+    ],
+    "37": [
+      {
+        "ja": "הד'ה אלשריעה לאלצעידה ואלהדייה. ואלדכוה וקרבאן אלאת'ם.",
+        "en": "These are the ordinances for the elevation-offering and the gift-offering, and the sin-offering and the guilt-offering,",
+        "he": "זֹאת הַתּוֹרָה לָעֹלָה לַמִּנְחָה וְלַחַטָּאת וְלָאָשָׁם"
+      },
+      {
+        "ja": "וללכמאל. ולד'בח אלסלאמה",
+        "en": "and for the investiture, and for the peace-offering sacrifice —",
+        "he": "וְלַמִּלּוּאִים--וּלְזֶבַח הַשְּׁלָמִים"
+      }
+    ],
+    "38": [
+      {
+        "ja": "אלתי אמר אללה בהא מוסי' פי גבל סיני. פי וקת אמר בני אסראיל. אן יקרבו קראבינהם. ללה פי ברייה' סיני",
+        "en": "which God commanded Moses on the mountain of Sinai, at the time He commanded the sons of Israel to offer their offerings to God in the wilderness of Sinai.",
+        "he": "אֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה בְּהַר סִינָי בְּיוֹם צַוֹּתוֹ אֶת-בְּנֵי יִשְׂרָאֵל לְהַקְרִיב אֶת-קָרְבְּנֵיהֶם לַיהוָה--בְּמִדְבַּר סִינָי"
+      }
+    ]
+  }
+}

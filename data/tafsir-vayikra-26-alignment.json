@@ -1,0 +1,567 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 26. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_26.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "לא תצנעו לכם אות'אנא. ומנחותה ונצבה לא תקימו לכם",
+        "en": "Do not make for yourselves idols; and a carved thing and a standing-stone do not erect for yourselves;",
+        "he": "לֹא-תַעֲשׂוּ לָכֶם אֱלִילִם וּפֶסֶל וּמַצֵּבָה לֹא-תָקִימוּ לָכֶם"
+      },
+      {
+        "ja": "וחגר מזכ'רפא. לא תצנעו פי בלאדכם. לתסגדו לה",
+        "en": "and an ornamental stone do not make in your lands to bow down to it.",
+        "he": "וְאֶבֶן מַשְׂכִּית לֹא תִתְּנוּ בְּאַרְצְכֶם לְהִשְׁתַּחֲו‍ֹת עָלֶיהָ"
+      },
+      {
+        "ja": "אנא אללה רבכם אלואחד",
+        "en": "I am God, your Lord, the One.",
+        "he": "כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם"
+      }
+    ],
+    "2": [
+      {
+        "ja": "סבותי [פאחפט'והא[ פאחפצ'והא",
+        "en": "My sabbaths — keep them;",
+        "he": "אֶת-שַׁבְּתֹתַי תִּשְׁמֹרוּ"
+      },
+      {
+        "ja": "ומקדסי פהאבוה",
+        "en": "and My sanctuary — hold it in awe.",
+        "he": "וּמִקְדָּשִׁי תִּירָאוּ"
+      },
+      {
+        "ja": "אנא אללה אגאזיכם כ'ירא",
+        "en": "I am God; I shall recompense you with good.",
+        "he": "אֲנִי יְהוָה"
+      }
+    ],
+    "3": [
+      {
+        "ja": "אלא אן סרתם פי רסומי. וחפצ'תם וצאיאי. ועמלתם בהא",
+        "en": "Only if you walk in My statutes, and keep My commandments, and act according to them —",
+        "he": "אִם-בְּחֻקֹּתַי תֵּלֵכוּ וְאֶת-מִצְו‍ֹתַי תִּשְׁמְרוּ וַעֲשִׂיתֶם אֹתָם"
+      }
+    ],
+    "4": [
+      {
+        "ja": "נזלת אג'יאתכם פי אוקאתהא",
+        "en": "I shall send down your rains in their seasons,",
+        "he": "וְנָתַתִּי גִשְׁמֵיכֶם בְּעִתָּם"
+      },
+      {
+        "ja": "ואכ'רגת אלארץ' אדאהא",
+        "en": "and the earth shall bring forth its yield,",
+        "he": "וְנָתְנָה הָאָרֶץ יְבוּלָהּ"
+      },
+      {
+        "ja": "ושגר אלצחרא יכ'רג תמרה",
+        "en": "and the trees of the wilderness shall bring forth their fruit;",
+        "he": "וְעֵץ הַשָּׂדֶה יִתֵּן פִּרְיוֹ"
+      }
+    ],
+    "5": [
+      {
+        "ja": "חתי' ידרך לכם אלדוס אלקטאף. ואלקטאף ידרך אלבדאר",
+        "en": "until the threshing shall overtake for you the harvest, and the harvest shall overtake the sowing;",
+        "he": "וְהִשִּׂיג לָכֶם דַּיִשׁ אֶת-בָּצִיר וּבָצִיר יַשִּׂיג אֶת-זָרַע"
+      },
+      {
+        "ja": "ותאכלון טעאמכם הנייא. ותקימון ואת'קין פי בלדכם",
+        "en": "and you shall eat your food with pleasure, and you shall dwell secure in your land.",
+        "he": "וַאֲכַלְתֶּם לַחְמְכֶם לָשֹׂבַע וִישַׁבְתֶּם לָבֶטַח בְּאַרְצְכֶם"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ואגעל לכם אלסלאמה פי אלבלד. פתנצ'געון וליס מזעג",
+        "en": "And I shall establish peace for you in the land, so that you shall lie down with nothing to disturb you;",
+        "he": "וְנָתַתִּי שָׁלוֹם בָּאָרֶץ וּשְׁכַבְתֶּם וְאֵין מַחֲרִיד"
+      },
+      {
+        "ja": "ואעטל שר אלחיואן אלמפסד מן אלארץ'",
+        "en": "and I shall cause the harm of the destructive beast to cease from the land;",
+        "he": "וְהִשְׁבַּתִּי חַיָּה רָעָה מִן-הָאָרֶץ"
+      },
+      {
+        "ja": "וסיף לא ימר פי בלדכם",
+        "en": "and no sword shall pass through your land.",
+        "he": "וְחֶרֶב לֹא-תַעֲבֹר בְּאַרְצְכֶם"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ואד'א כלבתם אעדאיכם",
+        "en": "And when you hunt down your enemies,",
+        "he": "וּרְדַפְתֶּם אֶת-אֹיְבֵיכֶם"
+      },
+      {
+        "ja": "וקעו בין אידיכם תחת סיופכם",
+        "en": "they shall fall before you under your swords.",
+        "he": "וְנָפְלוּ לִפְנֵיכֶם לֶחָרֶב"
+      }
+    ],
+    "8": [
+      {
+        "ja": "חתי' יכלב מנכם אלכ'מסה מאיה. ואלמאיה תכלב רבווה",
+        "en": "Until five of you shall hunt down hundreds, and a hundred of you shall hunt down a multitude;",
+        "he": "וְרָדְפוּ מִכֶּם חֲמִשָּׁה מֵאָה וּמֵאָה מִכֶּם רְבָבָה יִרְדֹּפוּ"
+      },
+      {
+        "ja": "ויקע אעדאיכם. בין אידיכם תחת סיופכם",
+        "en": "and your enemies shall fall before you under your swords.",
+        "he": "וְנָפְלוּ אֹיְבֵיכֶם לִפְנֵיכֶם לֶחָרֶב"
+      }
+    ],
+    "9": [
+      {
+        "ja": "ואקבל אליכם. ואת'מרכם ואכת'רכם",
+        "en": "And I shall turn toward you, and make you fruitful and multiply you,",
+        "he": "וּפָנִיתִי אֲלֵיכֶם--וְהִפְרֵיתִי אֶתְכֶם וְהִרְבֵּיתִי אֶתְכֶם"
+      },
+      {
+        "ja": "ואפי בעהדי לכם",
+        "en": "and I shall fulfil My covenant with you.",
+        "he": "וַהֲקִימֹתִי אֶת-בְּרִיתִי אִתְּכֶם"
+      }
+    ],
+    "10": [
+      {
+        "ja": "ותאכלון אלעתיק אלמעתק",
+        "en": "And you shall eat the aged, long-stored;",
+        "he": "וַאֲכַלְתֶּם יָשָׁן נוֹשָׁן"
+      },
+      {
+        "ja": "ותכ'רגון אלעתיק מן חצ'רה' אלחדית'",
+        "en": "and you shall bring out the aged to make room for the new.",
+        "he": "וְיָשָׁן מִפְּנֵי חָדָשׁ תּוֹצִיאוּ"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ואגעל מסכני פי מא בינכם",
+        "en": "And I shall set My dwelling-place among you,",
+        "he": "וְנָתַתִּי מִשְׁכָּנִי בְּתוֹכְכֶם"
+      },
+      {
+        "ja": "ולא אקלאכם",
+        "en": "and I shall not loathe you.",
+        "he": "וְלֹא-תִגְעַל נַפְשִׁי אֶתְכֶם"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ואסייר נורי פי מא בינכם",
+        "en": "And I shall cause My light to move among you,",
+        "he": "וְהִתְהַלַּכְתִּי בְּתוֹכְכֶם"
+      },
+      {
+        "ja": "ואכון לכם אלאהא",
+        "en": "and I shall be the God for you,",
+        "he": "וְהָיִיתִי לָכֶם לֵאלֹהִים"
+      },
+      {
+        "ja": "ואנתם תכונו לי שעבא כ'אצה",
+        "en": "and you shall be for Me a special people.",
+        "he": "וְאַתֶּם תִּהְיוּ-לִי לְעָם"
+      }
+    ],
+    "13": [
+      {
+        "ja": "אנא אללה רבכם. אלד'י אכ'רגתכם מן בלד מצר. מן אן תכונו להם עבידא",
+        "en": "I am God your Lord, who brought you out from the land of Egypt, from being slaves to them;",
+        "he": "אֲנִי יְהוָה אֱלֹהֵיכֶם אֲשֶׁר הוֹצֵאתִי אֶתְכֶם מֵאֶרֶץ מִצְרַיִם מִהְיֹת לָהֶם עֲבָדִים"
+      },
+      {
+        "ja": "וכסרת קראביס אצרכם. וסיירתכם אחרארא",
+        "en": "and I broke the yoke-bars of your bonds, and led you forth as free people.",
+        "he": "וָאֶשְׁבֹּר מֹטֹת עֻלְּכֶם וָאוֹלֵךְ אֶתְכֶם קוֹמְמִיּוּת"
+      }
+    ],
+    "14": [
+      {
+        "ja": "ואן לם תסמעו לי ותטיעו. ולם תעמלו. בגמיע הד'ה אלוצאיא",
+        "en": "But if you do not hearken to Me and obey, and do not act according to all these commandments —",
+        "he": "וְאִם-לֹא תִשְׁמְעוּ לִי וְלֹא תַעֲשׂוּ אֵת כָּל-הַמִּצְו‍ֹת הָאֵלֶּה"
+      }
+    ],
+    "15": [
+      {
+        "ja": "בל זהדתם פי רסומי. ואקלאת אנפסכם אחכאמי",
+        "en": "but rather you have turned away from My statutes, and your souls have come to loathe My ordinances",
+        "he": "וְאִם-בְּחֻקֹּתַי תִּמְאָסוּ וְאִם אֶת-מִשְׁפָּטַי תִּגְעַל נַפְשְׁכֶם"
+      },
+      {
+        "ja": "ללא תעמלו וצאיאי. ותפסכו עהדי",
+        "en": "so as not to act according to My commandments, and you break My covenant —",
+        "he": "לְבִלְתִּי עֲשׂוֹת אֶת-כָּל-מִצְו‍ֹתַי לְהַפְרְכֶם אֶת-בְּרִיתִי"
+      }
+    ],
+    "16": [
+      {
+        "ja": "אנא איצ'א אצנע בכם הד'ה אלעקובאת. פאוכל בכם עלי' סרעה מן חמא אלסל ואלחארה. מא תשכץ עיונכם ותד'בל נפוסכם",
+        "en": "I too shall do to you these punishments: I shall set over you in haste the fever of consumption and the burning heat, which make your eyes stare and drain away your souls;",
+        "he": "אַף-אֲנִי אֶעֱשֶׂה-זֹּאת לָכֶם וְהִפְקַדְתִּי עֲלֵיכֶם בֶּהָלָה אֶת-הַשַּׁחֶפֶת וְאֶת-הַקַּדַּחַת מְכַלּוֹת עֵינַיִם וּמְדִיבֹת נָפֶשׁ"
+      },
+      {
+        "ja": "ותזרעון זרעכם לאלפראג'. ויאכלונה אעדאיכם",
+        "en": "and you shall sow your seed for nothing, and your enemies shall eat it.",
+        "he": "וּזְרַעְתֶּם לָרִיק זַרְעֲכֶם וַאֲכָלֻהוּ אֹיְבֵיכֶם"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ואחל ג'צ'בי בכם. פתנצדמון בין ידי אעדאיכם",
+        "en": "And I shall bring My wrath upon you, so that you shall be struck down before your enemies;",
+        "he": "וְנָתַתִּי פָנַי בָּכֶם וְנִגַּפְתֶּם לִפְנֵי אֹיְבֵיכֶם"
+      },
+      {
+        "ja": "ויסתולי עליכם שאניכם",
+        "en": "and those who hate you shall rule over you,",
+        "he": "וְרָדוּ בָכֶם שֹׂנְאֵיכֶם"
+      },
+      {
+        "ja": "פתפרון ולא כאלב לכם",
+        "en": "and you shall flee with none pursuing you.",
+        "he": "וְנַסְתֶּם וְאֵין-רֹדֵף אֶתְכֶם"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ואן לם תקבלו מני מע הד'ה",
+        "en": "And if you still do not accept from Me with all this,",
+        "he": "וְאִם-עַד-אֵלֶּה--לֹא תִשְׁמְעוּ לִי"
+      },
+      {
+        "ja": "זדתכם פי אלתאדיב. סבע עלי' כטאיאכם",
+        "en": "I shall increase your chastisement sevenfold upon your sins.",
+        "he": "וְיָסַפְתִּי לְיַסְּרָה אֶתְכֶם שֶׁבַע עַל-חַטֹּאתֵיכֶם"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ואכסר אקתדאר עזכם",
+        "en": "And I shall break the might of your pride,",
+        "he": "וְשָׁבַרְתִּי אֶת-גְּאוֹן עֻזְּכֶם"
+      },
+      {
+        "ja": "ואגעל סמאכם כאלחדיד. וארצכם כאלנחאס",
+        "en": "and make your sky like iron and your earth like copper.",
+        "he": "וְנָתַתִּי אֶת-שְׁמֵיכֶם כַּבַּרְזֶל וְאֶת-אַרְצְכֶם כַּנְּחֻשָׁה"
+      }
+    ],
+    "20": [
+      {
+        "ja": "פיפנא קואכם פראג'א",
+        "en": "And your strength shall perish for nothing;",
+        "he": "וְתַם לָרִיק כֹּחֲכֶם"
+      },
+      {
+        "ja": "ולא תכ'רג ארצ'כם אדאהא. ושגר אלצחרא לא יכ'רג ת'מרה",
+        "en": "and your land shall not bring forth its yield, and the trees of the wilderness shall not bring forth their fruit.",
+        "he": "וְלֹא-תִתֵּן אַרְצְכֶם אֶת-יְבוּלָהּ וְעֵץ הָאָרֶץ לֹא יִתֵּן פִּרְיוֹ"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ואן סלכתם מעי לגאגא. ולם תשו אן תסמעו לי",
+        "en": "And if you have walked with Me in contention, and have not been willing to hearken to Me,",
+        "he": "וְאִם-תֵּלְכוּ עִמִּי קֶרִי וְלֹא תֹאבוּ לִשְׁמֹעַ לִי"
+      },
+      {
+        "ja": "זדתכם צ'רבה. הי סבע עלי' כטאיאכם",
+        "en": "I shall add upon you a blow — sevenfold upon your sins.",
+        "he": "וְיָסַפְתִּי עֲלֵיכֶם מַכָּה שֶׁבַע כְּחַטֹּאתֵיכֶם"
+      }
+    ],
+    "22": [
+      {
+        "ja": "ואטלק פיכם. חיואן אלצחרא פית'כל מנכם",
+        "en": "And I shall release against you the beasts of the wilderness, and they shall bereave you of your children,",
+        "he": "וְהִשְׁלַחְתִּי בָכֶם אֶת-חַיַּת הַשָּׂדֶה וְשִׁכְּלָה אֶתְכֶם"
+      },
+      {
+        "ja": "ויקטע מן בהאימכם. ויקלל עדדכם",
+        "en": "and cut down your cattle, and reduce your number;",
+        "he": "וְהִכְרִיתָה אֶת-בְּהֶמְתְּכֶם וְהִמְעִיטָה אֶתְכֶם"
+      },
+      {
+        "ja": "ותתוחש טרקאתכם",
+        "en": "and your roads shall become desolate.",
+        "he": "וְנָשַׁמּוּ דַּרְכֵיכֶם"
+      }
+    ],
+    "23": [
+      {
+        "ja": "ואן לם תתאדבו לי בהד'ה אלעקובאת וסלכתם מעי לגאגא",
+        "en": "And if you are not disciplined toward Me by these punishments, and you walk with Me in contention —",
+        "he": "וְאִם-בְּאֵלֶּה--לֹא תִוָּסְרוּ לִי וַהֲלַכְתֶּם עִמִּי קֶרִי"
+      }
+    ],
+    "24": [
+      {
+        "ja": "סרת אנא איצ'א מעכם עלי' אללגאג",
+        "en": "I too shall walk with you in contention,",
+        "he": "וְהָלַכְתִּי אַף-אֲנִי עִמָּכֶם בְּקֶרִי"
+      },
+      {
+        "ja": "וצ'רבתכם בסבע עלי' כטאיאכם",
+        "en": "and I shall smite you sevenfold upon your sins.",
+        "he": "וְהִכֵּיתִי אֶתְכֶם גַּם-אָנִי שֶׁבַע עַל-חַטֹּאתֵיכֶם"
+      }
+    ],
+    "25": [
+      {
+        "ja": "ואג'זיכם סיפא. מנתקמא נקמה' אלעהד",
+        "en": "And I shall recompense you with a sword that avenges the vengeance of the covenant;",
+        "he": "וְהֵבֵאתִי עֲלֵיכֶם חֶרֶב נֹקֶמֶת נְקַם-בְּרִית"
+      },
+      {
+        "ja": "פתגתמעון אלי' קראכם. ואבעת' באלובא פי מא בינכם",
+        "en": "and you shall gather into your towns, and I shall send pestilence among you,",
+        "he": "וְנֶאֱסַפְתֶּם אֶל-עָרֵיכֶם וְשִׁלַּחְתִּי דֶבֶר בְּתוֹכְכֶם"
+      },
+      {
+        "ja": "ותסלמון פי יד אלעדו",
+        "en": "and you shall be delivered into the hand of the enemy.",
+        "he": "וְנִתַּתֶּם בְּיַד-אוֹיֵב"
+      }
+    ],
+    "26": [
+      {
+        "ja": "ואכסר לכם מעין אלטעאם. פיכבז כתיר מן אלנסא טעאמכם פי תנור ואחד",
+        "en": "And I shall break for you the spring of food, so that many women shall bake your bread in one oven,",
+        "he": "בְּשִׁבְרִי לָכֶם מַטֵּה-לֶחֶם וְאָפוּ עֶשֶׂר נָשִׁים לַחְמְכֶם בְּתַנּוּר אֶחָד"
+      },
+      {
+        "ja": "וירדונה באלמיזאן ותאכלון ולא תשבעון",
+        "en": "and they shall return it by weight; and you shall eat and not be satisfied.",
+        "he": "וְהֵשִׁיבוּ לַחְמְכֶם בַּמִּשְׁקָל וַאֲכַלְתֶּם וְלֹא תִשְׂבָּעוּ"
+      }
+    ],
+    "27": [
+      {
+        "ja": "ואן לם תסמעו לי ותטיעו. בהד'ה אלעקובאת",
+        "en": "And if you do not hearken to Me and obey, with all these punishments,",
+        "he": "וְאִם-בְּזֹאת--לֹא תִשְׁמְעוּ לִי"
+      },
+      {
+        "ja": "וסלכתם מעי לגאגא",
+        "en": "and you walk with Me in contention —",
+        "he": "וַהֲלַכְתֶּם עִמִּי בְּקֶרִי"
+      }
+    ],
+    "28": [
+      {
+        "ja": "סרת אנא איצ'א מעכם בעקובאת אללגאג",
+        "en": "I too shall walk with you with the punishments of contention,",
+        "he": "וְהָלַכְתִּי עִמָּכֶם בַּחֲמַת-קֶרִי"
+      },
+      {
+        "ja": "ואדבתכם בסבע עלי' כטאיאכם",
+        "en": "and I shall discipline you sevenfold upon your sins.",
+        "he": "וְיִסַּרְתִּי אֶתְכֶם אַף-אָנִי שֶׁבַע עַל-חַטֹּאתֵיכֶם"
+      }
+    ],
+    "29": [
+      {
+        "ja": "חתי' תאכלון לחום בניכם ובנאתכם",
+        "en": "Until you eat the flesh of your sons and the flesh of your daughters.",
+        "he": "וַאֲכַלְתֶּם בְּשַׂר בְּנֵיכֶם וּבְשַׂר בְּנֹתֵיכֶם תֹּאכֵלוּ"
+      }
+    ],
+    "31": [
+      {
+        "ja": "ואגעל קראכם כ'ראבא. ואוחש מקאדסכם",
+        "en": "And I shall make your towns a ruin, and cause desolation in your sanctuaries,",
+        "he": "וְנָתַתִּי אֶת-עָרֵיכֶם חָרְבָּה וַהֲשִׁמּוֹתִי אֶת-מִקְדְּשֵׁיכֶם"
+      },
+      {
+        "ja": "ולא אקבל ולא ארצ'א קראבינכם",
+        "en": "and I shall neither accept nor be pleased with your offerings.",
+        "he": "וְלֹא אָרִיחַ בְּרֵיחַ נִיחֹחֲכֶם"
+      }
+    ],
+    "32": [
+      {
+        "ja": "ואוחש אנא אלבלד מנכם",
+        "en": "And I shall desolate the land of you,",
+        "he": "וַהֲשִׁמֹּתִי אֲנִי אֶת-הָאָרֶץ"
+      },
+      {
+        "ja": "ויסתוחש מנהא אעדאיכם. אלמקימין בהא",
+        "en": "and your enemies who dwell in it shall be desolated of it.",
+        "he": "וְשָׁמְמוּ עָלֶיהָ אֹיְבֵיכֶם הַיֹּשְׁבִים בָּהּ"
+      }
+    ],
+    "33": [
+      {
+        "ja": "ואד'ריכם פי מא בין אלאמם. ואגרד אלסיף וראכם",
+        "en": "And I shall scatter you among the nations, and I shall draw the sword after you;",
+        "he": "וְאֶתְכֶם אֱזָרֶה בַגּוֹיִם וַהֲרִיקֹתִי אַחֲרֵיכֶם חָרֶב"
+      },
+      {
+        "ja": "פתציר ארצכם וחשה. וקראכם. כ'ראבא",
+        "en": "and your land shall become a waste, and your towns a ruin.",
+        "he": "וְהָיְתָה אַרְצְכֶם שְׁמָמָה וְעָרֵיכֶם יִהְיוּ חָרְבָּה"
+      }
+    ],
+    "34": [
+      {
+        "ja": "חיניד' תסתופי אלארץ' עטלהא. טול אייאם וחשתהא",
+        "en": "At that time the land shall receive its rest — all the days of its desolation —",
+        "he": "אָז תִּרְצֶה הָאָרֶץ אֶת-שַׁבְּתֹתֶיהָ כֹּל יְמֵי הָשַּׁמָּה"
+      },
+      {
+        "ja": "ואנתם פי בלד אעדאיכם. חיניד' תתסייב אלארץ'. ותסתופי עטלהא",
+        "en": "while you are in the land of your enemies; at that time the land shall be left fallow, and receive its rest.",
+        "he": "וְאַתֶּם בְּאֶרֶץ אֹיְבֵיכֶם אָז תִּשְׁבַּת הָאָרֶץ וְהִרְצָת אֶת-שַׁבְּתֹתֶיהָ"
+      }
+    ],
+    "35": [
+      {
+        "ja": "וסבב טול אייאם וחשתהא אן תתעטל. כמא לם תעטלונהא פי עטלכם פי מקאמכם בהא",
+        "en": "And the reason for the length of the days of its desolation is that it shall rest, even as you did not let it rest in its rest-times while you were dwelling upon it.",
+        "he": "כָּל-יְמֵי הָשַּׁמָּה תִּשְׁבֹּת אֵת אֲשֶׁר לֹא-שָׁבְתָה בְּשַׁבְּתֹתֵיכֶם בְּשִׁבְתְּכֶם עָלֶיהָ"
+      }
+    ],
+    "36": [
+      {
+        "ja": "ואלבאקיון מנכם אדכל אלגבן פי קלובהם. פי בלדאן אעדאיהם",
+        "en": "And those of you who remain — I shall bring cowardice into their hearts in the lands of their enemies,",
+        "he": "וְהַנִּשְׁאָרִים בָּכֶם--וְהֵבֵאתִי מֹרֶךְ בִּלְבָבָם בְּאַרְצֹת אֹיְבֵיהֶם"
+      },
+      {
+        "ja": "חתי' אנה לו לחקהם צות ורקה מנדפעה. והרבו כאלהארב מן אלסיף",
+        "en": "so that even if the sound of a driven leaf overtook them, they would flee as one fleeing from the sword,",
+        "he": "וְרָדַף אֹתָם קוֹל עָלֶה נִדָּף וְנָסוּ מְנֻסַת-חֶרֶב"
+      },
+      {
+        "ja": "ווקעו מן ג'יר כאלב",
+        "en": "and they would fall with none pursuing them.",
+        "he": "וְנָפְלוּ וְאֵין רֹדֵף"
+      }
+    ],
+    "37": [
+      {
+        "ja": "ויעת'ר בעצהם בבעץ'. כמא יכון מן קבל אלסיף מן ג'יר כאלב",
+        "en": "And they shall stumble over one another, as happens before the sword, with none pursuing;",
+        "he": "וְכָשְׁלוּ אִישׁ-בְּאָחִיו כְּמִפְּנֵי-חֶרֶב וְרֹדֵף אָיִן"
+      },
+      {
+        "ja": "ולא יכון לכם קואם. בין ידי אעדאיכם",
+        "en": "and you shall have no power to stand before your enemies.",
+        "he": "וְלֹא-תִהְיֶה לָכֶם תְּקוּמָה לִפְנֵי אֹיְבֵיכֶם"
+      }
+    ],
+    "38": [
+      {
+        "ja": "ויביד מנכם פי מא בין אלאמם",
+        "en": "And some of you shall perish among the nations,",
+        "he": "וַאֲבַדְתֶּם בַּגּוֹיִם"
+      },
+      {
+        "ja": "ויפניכם בלד אעדאיכם",
+        "en": "and the land of your enemies shall consume you.",
+        "he": "וְאָכְלָה אֶתְכֶם אֶרֶץ אֹיְבֵיכֶם"
+      }
+    ],
+    "39": [
+      {
+        "ja": "ואלבאקיון מנכם. יכ'סעון בד'נובהם. פי בלדאן אעדאיכם",
+        "en": "And those of you who remain shall be humbled by their sins in the lands of your enemies;",
+        "he": "וְהַנִּשְׁאָרִים בָּכֶם יִמַּקּוּ בַּעֲו‍ֹנָם בְּאַרְצֹת אֹיְבֵיכֶם"
+      },
+      {
+        "ja": "ואיצ'א בד'נוב אבאיהם אלד'ין מעהם יכ'סעון",
+        "en": "and also by the sins of their fathers who are with them they shall be humbled.",
+        "he": "וְאַף בַּעֲו‍ֹנֹת אֲבֹתָם אִתָּם יִמָּקּוּ"
+      }
+    ],
+    "40": [
+      {
+        "ja": "פאן אקרו בד'נובהם וד'נוב אבאיהם. בנכת'הם אלד'י נכתו בי",
+        "en": "But if they confess their sins and the sins of their fathers — in their treachery with which they were treacherous against Me,",
+        "he": "וְהִתְוַדּוּ אֶת-עֲו‍ֹנָם וְאֶת-עֲו‍ֹן אֲבֹתָם בְּמַעֲלָם אֲשֶׁר מָעֲלוּ-בִי"
+      },
+      {
+        "ja": "ומא סלכו מעי לגאגא ולם יתובון",
+        "en": "and in that they walked with Me in contention and did not repent —",
+        "he": "וְאַף אֲשֶׁר-הָלְכוּ עִמִּי בְּקֶרִי"
+      }
+    ],
+    "41": [
+      {
+        "ja": "אנא איצ'א אסיר מעהם עלי' אללגאג. ואדכ'להם אלי' בלדאן אעדאיהם אכ'רין",
+        "en": "I too shall walk with them in contention, and I shall bring them into the lands of their enemies again;",
+        "he": "אַף-אֲנִי אֵלֵךְ עִמָּם בְּקֶרִי וְהֵבֵאתִי אֹתָם בְּאֶרֶץ אֹיְבֵיהֶם"
+      },
+      {
+        "ja": "או אלי' אן ינהזם קלבהם אלג'אש. או אלי' אן יסתופון ד'נובהם",
+        "en": "or until their obdurate heart is subdued, or until they have paid the full price of their sins.",
+        "he": "אוֹ-אָז יִכָּנַע לְבָבָם הֶעָרֵל וְאָז יִרְצוּ אֶת-עֲו‍ֹנָם"
+      }
+    ],
+    "42": [
+      {
+        "ja": "ואד'כר להם עהדי אלד'י מע יעקוב. ואיצ'א עהדי אלד'י מע יצחק. ואיצ'א עהדי אלד'י מע אברהים. אדכרה להם",
+        "en": "Then I shall remember for them My covenant with Jacob, and also My covenant with Isaac, and also My covenant with Abraham — I shall remember it for them",
+        "he": "וְזָכַרְתִּי אֶת-בְּרִיתִי יַעֲקוֹב וְאַף אֶת-בְּרִיתִי יִצְחָק וְאַף אֶת-בְּרִיתִי אַבְרָהָם אֶזְכֹּר"
+      },
+      {
+        "ja": "ולנסלהם",
+        "en": "and for their offspring.",
+        "he": "וְהָאָרֶץ אֶזְכֹּר"
+      }
+    ],
+    "43": [
+      {
+        "ja": "ואלארץ' אלד'י תרכת מנהם ואסתופת עטלהא. באסתוחאשהא מנהם",
+        "en": "And the land that was left of them, and received its rest through being desolated of them —",
+        "he": "וְהָאָרֶץ תֵּעָזֵב מֵהֶם וְתִרֶץ אֶת-שַׁבְּתֹתֶיהָ בָּהְשַׁמָּה מֵהֶם"
+      },
+      {
+        "ja": "והם אסתופו ד'נובהם. גזאהם ומן גזאהם. אד' זהדו פי אחכאמי. ורסומי אקלאתהא אנפסהם",
+        "en": "and they, for their part, paid the full price of their sins, as their recompense and part of their recompense — since they had turned away from My ordinances, and their souls had loathed My statutes.",
+        "he": "וְהֵם יִרְצוּ אֶת-עֲו‍ֹנָם יַעַן וּבְיַעַן--בְּמִשְׁפָּטַי מָאָסוּ וְאֶת-חֻקֹּתַי גָּעֲלָה נַפְשָׁם"
+      }
+    ],
+    "44": [
+      {
+        "ja": "ואיצ'א מע הד'ה אלאמור. מע כונהם פי בלדאן אעדאיהם. לא אזהד פיהם ולא אקלאהם לאפנאהם",
+        "en": "And also, along with all these things — even while they are in the lands of their enemies — I shall not turn away from them, nor shall I loathe them to destroy them,",
+        "he": "וְאַף-גַּם-זֹאת בִּהְיוֹתָם בְּאֶרֶץ אֹיְבֵיהֶם לֹא-מְאַסְתִּים וְלֹא-גְעַלְתִּים לְכַלֹּתָם"
+      },
+      {
+        "ja": "ולא אפסך' עהדי מעהם. לאני אללה רבהם",
+        "en": "nor shall I annul My covenant with them; for I am God their Lord.",
+        "he": "לְהָפֵר בְּרִיתִי אִתָּם כִּי אֲנִי יְהוָה אֱלֹהֵיהֶם"
+      }
+    ],
+    "45": [
+      {
+        "ja": "ואדכר להם עהד אלאוולין. אלד'ין אכ'רגתהם מן בלד מצר בחצ'רה אלאמם",
+        "en": "And I shall remember for them the covenant of the first ones, whom I brought out from the land of Egypt in the presence of the nations,",
+        "he": "וְזָכַרְתִּי לָהֶם בְּרִית רִאשֹׁנִים אֲשֶׁר הוֹצֵאתִי-אֹתָם מֵאֶרֶץ מִצְרַיִם לְעֵינֵי הַגּוֹיִם"
+      },
+      {
+        "ja": "לאכון להם אלאהא. אנא אללה צאדק אלועד",
+        "en": "to be their God. I am God, true to My promise.",
+        "he": "לִהְיוֹת לָהֶם לֵאלֹהִים--אֲנִי יְהוָה"
+      }
+    ],
+    "46": [
+      {
+        "ja": "הד'ה אלרסום ואלאחכאם ואלדלאיל. אלתי געלהא אללה. בינה ובין בני אסראיל",
+        "en": "These are the statutes and the ordinances and the guiding principles which God established between Him and the sons of Israel,",
+        "he": "אֵלֶּה הַחֻקִּים וְהַמִּשְׁפָּטִים וְהַתּוֹרֹת אֲשֶׁר נָתַן יְהוָה בֵּינוֹ וּבֵין בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "עלי' טור סיני עלי' יד מוסי",
+        "en": "upon Mount Sinai, by the hand of Moses.",
+        "he": "בְּהַר סִינַי בְּיַד-מֹשֶׁה"
+      }
+    ]
+  }
+}

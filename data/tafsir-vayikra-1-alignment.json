@@ -1,0 +1,204 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 1. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_1.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "2": [
+      {
+        "ja": "כ'אטב בני אסראיל וקל להם",
+        "en": "Address the sons of Israel and say to them",
+        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם"
+      },
+      {
+        "ja": "אי אנסאן קרב מנכם קרבאנא ללה",
+        "en": "any person among you who brings an offering to God",
+        "he": "אָדָם כִּי-יַקְרִיב מִכֶּם קָרְבָּן לַיהוָה"
+      },
+      {
+        "ja": "מן אלבהאים. פמן אלבקר ואלג'נם תקרבונה",
+        "en": "from the beasts, from the cattle and the flock shall you bring it.",
+        "he": "מִן-הַבְּהֵמָה מִן-הַבָּקָר וּמִן-הַצֹּאן תַּקְרִיבוּ אֶת-קָרְבַּנְכֶם"
+      }
+    ],
+    "3": [
+      {
+        "ja": "אן כאן קרבאנה צעידה מן אלבקר. פד'כר צחיח יקרבה",
+        "en": "If his offering is an ascent-offering from the cattle, a sound male shall he bring it",
+        "he": "אִם-עֹלָה קָרְבָּנוֹ מִן-הַבָּקָר זָכָר תָּמִים יַקְרִיבֶנּוּ"
+      },
+      {
+        "ja": "פליקדמה אלי' באב כ'בא אלמחצ'ר. עלי' מא ירתצ'א ענה בין ידי אללה",
+        "en": "he shall present it at the entrance of the tent of the assembly, according to what shall be acceptable of him before God.",
+        "he": "אֶל-פֶּתַח אֹהֶל מוֹעֵד יַקְרִיב אֹתוֹ לִרְצֹנוֹ לִפְנֵי יְהוָה"
+      }
+    ],
+    "4": [
+      {
+        "ja": "ויסנד ידה עלי' ראסה",
+        "en": "And he shall lean his hand upon its head",
+        "he": "וְסָמַךְ יָדוֹ עַל רֹאשׁ הָעֹלָה"
+      },
+      {
+        "ja": "וירצ'א ענה ויג'פר לה",
+        "en": "and it shall be accepted of him and forgiven him.",
+        "he": "וְנִרְצָה לוֹ לְכַפֵּר עָלָיו"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ויד'בח אלרת' בין ידי אללה",
+        "en": "And he shall slaughter the bullock before God",
+        "he": "וְשָׁחַט אֶת-בֶּן הַבָּקָר לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "ויקרב בני הרון אלאיימה אלדם",
+        "en": "and the sons of Aaron, the priests, shall bring the blood near",
+        "he": "וְהִקְרִיבוּ בְּנֵי אַהֲרֹן הַכֹּהֲנִים אֶת-הַדָּם"
+      },
+      {
+        "ja": "וירשוה עלי' אלמד'בח מסתדירא. אלד'י ענד באב כ'בא אלמחצ'ר",
+        "en": "and shall sprinkle it upon the altar all around, which is at the entrance of the tent of the assembly.",
+        "he": "וְזָרְקוּ אֶת-הַדָּם עַל-הַמִּזְבֵּחַ סָבִיב אֲשֶׁר-פֶּתַח אֹהֶל מוֹעֵד"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ויסלך' אלצעידה ויעצ'יהא אעצ'אא",
+        "en": "And he shall flay the ascent-offering and divide it into its limbs.",
+        "he": "וְהִפְשִׁיט אֶת-הָעֹלָה וְנִתַּח אֹתָהּ לִנְתָחֶיהָ"
+      }
+    ],
+    "7": [
+      {
+        "ja": "וישעלון בני הרון אלאמאם. נארא עלי' אלמד'בח",
+        "en": "And the sons of Aaron, the priest, shall kindle fire upon the altar",
+        "he": "וְנָתְנוּ בְּנֵי אַהֲרֹן הַכֹּהֵן אֵשׁ--עַל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "וינצ'דון עליהא חטבא",
+        "en": "and shall arrange wood upon it.",
+        "he": "וְעָרְכוּ עֵצִים עַל-הָאֵשׁ"
+      }
+    ],
+    "8": [
+      {
+        "ja": "וינצ'ד בני הרון אלאיימה. אלאעצ'א ואלראס ואלקצבה",
+        "en": "And the sons of Aaron, the priests, shall arrange the limbs, and the head, and the spinal column",
+        "he": "וְעָרְכוּ בְּנֵי אַהֲרֹן הַכֹּהֲנִים אֵת הַנְּתָחִים אֶת-הָרֹאשׁ וְאֶת-הַפָּדֶר"
+      },
+      {
+        "ja": "עלי' אלחטב אלד'י עלי' אלנאר. אלד'י עלי' אלמד'בח",
+        "en": "upon the wood that is upon the fire, which is upon the altar.",
+        "he": "עַל-הָעֵצִים אֲשֶׁר עַל-הָאֵשׁ אֲשֶׁר עַל-הַמִּזְבֵּחַ"
+      }
+    ],
+    "9": [
+      {
+        "ja": "וגופה ואכארעה יג'סלהא באלמא",
+        "en": "Its innards and its legs shall he wash with water",
+        "he": "וְקִרְבּוֹ וּכְרָעָיו יִרְחַץ בַּמָּיִם"
+      },
+      {
+        "ja": "ויקתר אלאמאם אלכל עלי' אלמד'בח. צעידה קרבאן מקבול מרצ'י ללה",
+        "en": "and the priest shall burn the whole upon the altar — an ascent-offering, an acceptable and pleasing offering to God.",
+        "he": "וְהִקְטִיר הַכֹּהֵן אֶת-הַכֹּל הַמִּזְבֵּחָה עֹלָה אִשֵּׁה רֵיחַ-נִיחוֹחַ לַיהוָה"
+      }
+    ],
+    "10": [
+      {
+        "ja": "ואן כאן קרבאנה מן אלג'נם. פמן אלצ'אן או מן אלמאעז צעידה",
+        "en": "And if his offering is from the flock — from the sheep or from the goats — an ascent-offering",
+        "he": "וְאִם-מִן-הַצֹּאן קָרְבָּנוֹ מִן-הַכְּשָׂבִים אוֹ מִן-הָעִזִּים לְעֹלָה"
+      },
+      {
+        "ja": "פליקרבה ד'כרא צחיחא",
+        "en": "he shall bring it as a sound male.",
+        "he": "זָכָר תָּמִים יַקְרִיבֶנּוּ"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ויד'בחה עלי' גאנב אלמד'בח. שמאלייא בין ידי אללה",
+        "en": "And he shall slaughter it on the side of the altar, northward, before God",
+        "he": "וְשָׁחַט אֹתוֹ עַל יֶרֶךְ הַמִּזְבֵּחַ צָפֹנָה--לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "וירש בני הרון אלאיימה דמה. עלי' אלמד'בח מסתדירא",
+        "en": "and the sons of Aaron, the priests, shall sprinkle its blood upon the altar all around.",
+        "he": "וְזָרְקוּ בְּנֵי אַהֲרֹן הַכֹּהֲנִים אֶת-דָּמוֹ עַל-הַמִּזְבֵּחַ--סָבִיב"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ויעצ'יה אעצ'אא. וראסה וקצבתה",
+        "en": "And he shall divide it into its limbs, and its head and its spinal column",
+        "he": "וְנִתַּח אֹתוֹ לִנְתָחָיו וְאֶת-רֹאשׁוֹ וְאֶת-פִּדְרוֹ"
+      },
+      {
+        "ja": "וינצ'דהא אלאמאם. עלי' אלחטב אלד'י עלי' אלנאר. אלד'י עלי' אלמד'בח",
+        "en": "and the priest shall arrange them upon the wood that is upon the fire, which is upon the altar.",
+        "he": "וְעָרַךְ הַכֹּהֵן אֹתָם עַל-הָעֵצִים אֲשֶׁר עַל-הָאֵשׁ אֲשֶׁר עַל-הַמִּזְבֵּחַ"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ואלגוף ואלאכארע יג'סלהא באלמא",
+        "en": "And the innards and the legs shall he wash with water",
+        "he": "וְהַקֶּרֶב וְהַכְּרָעַיִם יִרְחַץ בַּמָּיִם"
+      },
+      {
+        "ja": "ויקדם אלאמאם אלכל ויקתרה עלי' אלמד'בח. הו צעידה. קרבאן מקבול מרצ'י ללה",
+        "en": "and the priest shall present the whole and burn it upon the altar — it is an ascent-offering, an acceptable and pleasing offering to God.",
+        "he": "וְהִקְרִיב הַכֹּהֵן אֶת-הַכֹּל וְהִקְטִיר הַמִּזְבֵּחָה--עֹלָה הוּא אִשֵּׁה רֵיחַ נִיחֹחַ לַיהוָה"
+      }
+    ],
+    "14": [
+      {
+        "ja": "ואן כאן קרבאנה מן אלטאיר צעידה ללה",
+        "en": "And if his offering to God is an ascent-offering from birds",
+        "he": "וְאִם מִן-הָעוֹף עֹלָה קָרְבָּנוֹ לַיהוָה"
+      },
+      {
+        "ja": "פליקרבה מן אלשפאנין. או מן פראך' אלחמאם",
+        "en": "he shall bring it from the turtledoves or from the young of the pigeons.",
+        "he": "וְהִקְרִיב מִן-הַתֹּרִים אוֹ מִן-בְּנֵי הַיּוֹנָה--אֶת-קָרְבָּנוֹ"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ויקדמה אלאמאם אלי' אלמד'בח. ויפצל ראסה",
+        "en": "And the priest shall present it to the altar, and shall separate its head",
+        "he": "וְהִקְרִיבוֹ הַכֹּהֵן אֶל-הַמִּזְבֵּחַ וּמָלַק אֶת-רֹאשׁוֹ"
+      },
+      {
+        "ja": "ת'ם יקתרה עלי' אלמד'בח. וימצ'י דמה. עלי' חאיט אלמד'בח",
+        "en": "then he shall burn it upon the altar, and its blood shall drain upon the wall of the altar.",
+        "he": "וְהִקְטִיר הַמִּזְבֵּחָה וְנִמְצָה דָמוֹ עַל קִיר הַמִּזְבֵּחַ"
+      }
+    ],
+    "16": [
+      {
+        "ja": "וינזע חוצלתה מע קאנצתה",
+        "en": "And he shall remove its crop along with its gizzard",
+        "he": "וְהֵסִיר אֶת-מֻרְאָתוֹ בְּנֹצָתָהּ"
+      },
+      {
+        "ja": "ויטרחהא לזק אלמד'בח שרקייא. פי מוצ'ע מטרח אלרמאד",
+        "en": "and shall throw them beside the altar on the east side, at the place where the ash is cast.",
+        "he": "וְהִשְׁלִיךְ אֹתָהּ אֵצֶל הַמִּזְבֵּחַ קֵדְמָה--אֶל-מְקוֹם הַדָּשֶׁן"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ויפצלה מן אגנחתה ולא יפרזה",
+        "en": "And he shall split it open by its wings without severing it completely",
+        "he": "וְשִׁסַּע אֹתוֹ בִכְנָפָיו לֹא יַבְדִּיל"
+      },
+      {
+        "ja": "ת'ם יקתרה אלאמאם עלי' אלמד'בח. עלי' אלחטב אלד'י עלי' אלנאר צעידה. קרבאן מקבול מרצ'י ללה",
+        "en": "then the priest shall burn it upon the altar, upon the wood that is upon the fire — an ascent-offering, an acceptable and pleasing offering to God.",
+        "he": "וְהִקְטִיר אֹתוֹ הַכֹּהֵן הַמִּזְבֵּחָה עַל-הָעֵצִים אֲשֶׁר עַל-הָאֵשׁ עֹלָה הוּא אִשֵּׁה רֵיחַ נִיחֹחַ--לַיהוָה"
+      }
+    ]
+  }
+}

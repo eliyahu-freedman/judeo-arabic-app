@@ -1,0 +1,387 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 4. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_4.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ת'ם כלם אללה מוסי תכלימא",
+        "en": "Then God spoke to Moses in speech.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "2": [
+      {
+        "ja": "מר בני אסראיל קאילא",
+        "en": "Command the sons of Israel, saying",
+        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל לֵאמֹר"
+      },
+      {
+        "ja": "אי אנסאן אכ'טא בסהו מן פראיץ' אללה. אלתי לא תעמל",
+        "en": "any person who errs through inattention regarding the commandments of God which are not to be done",
+        "he": "נֶפֶשׁ כִּי-תֶחֱטָא בִשְׁגָגָה מִכֹּל מִצְו‍ֹת יְהוָה אֲשֶׁר לֹא תֵעָשֶׂינָה"
+      },
+      {
+        "ja": "פעמל וחדה מנהם",
+        "en": "and does one of them —",
+        "he": "וְעָשָׂה מֵאַחַת מֵהֵנָּה"
+      }
+    ],
+    "3": [
+      {
+        "ja": "אן אכ'טא אלאמאם אלממסוח. עלי' סביל כ'טא אלנאס",
+        "en": "if the anointed imām errs in the manner of the people's error",
+        "he": "אִם הַכֹּהֵן הַמָּשִׁיחַ יֶחֱטָא לְאַשְׁמַת הָעָם"
+      },
+      {
+        "ja": "פליקרב. עלי' כ'טייתה אלתי אכ'טא. רת'א מן אלבקר צחיחא. ללה ד'כוה",
+        "en": "let him bring, for his transgression which he transgressed, a bull from the cattle, sound, as an offering to God.",
+        "he": "וְהִקְרִיב עַל חַטָּאתוֹ אֲשֶׁר חָטָא פַּר בֶּן-בָּקָר תָּמִים לַיהוָה--לְחַטָּאת"
+      }
+    ],
+    "4": [
+      {
+        "ja": "ויאתי באלרת'. אלי' באב כ'בא אלמחצ'ר בין ידי אללה",
+        "en": "And he shall bring the bull to the entrance of the tent of the assembly, before God",
+        "he": "וְהֵבִיא אֶת-הַפָּר אֶל-פֶּתַח אֹהֶל מוֹעֵד--לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "ויסנד ידה עלי' ראסה. ויד'בחה בין ידי אללה",
+        "en": "and he shall lean his hand upon its head, and shall slaughter it before God.",
+        "he": "וְסָמַךְ אֶת-יָדוֹ עַל-רֹאשׁ הַפָּר וְשָׁחַט אֶת-הַפָּר לִפְנֵי יְהוָה"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ויאכד' אלאמאם אלממסוח מן דמה",
+        "en": "And the anointed imām shall take of its blood",
+        "he": "וְלָקַח הַכֹּהֵן הַמָּשִׁיחַ מִדַּם הַפָּר"
+      },
+      {
+        "ja": "וידכלה אלי' כ'בא אלמחצ'ר",
+        "en": "and bring it into the tent of the assembly.",
+        "he": "וְהֵבִיא אֹתוֹ אֶל-אֹהֶל מוֹעֵד"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ויג'מס אצבעה פי אלדם",
+        "en": "And he shall dip his finger in the blood",
+        "he": "וְטָבַל הַכֹּהֵן אֶת-אֶצְבָּעוֹ בַּדָּם"
+      },
+      {
+        "ja": "וינצח מנה. סבע מראר בין ידי אללה. קבאלה' סגף אלקדס",
+        "en": "and sprinkle from it seven times before God, facing the veil of the sanctuary.",
+        "he": "וְהִזָּה מִן-הַדָּם שֶׁבַע פְּעָמִים לִפְנֵי יְהוָה אֶת-פְּנֵי פָּרֹכֶת הַקֹּדֶשׁ"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ת'ם יצע אלאמאם מן אלדם. עלי' ארכאן מד'בח בכור אלצמוג' בין ידי אללה. אלד'י פי כ'בא אלמחצ'ר",
+        "en": "Then the imām shall put of the blood upon the horns of the altar of the incense of resins, before God, which is in the tent of the assembly",
+        "he": "וְנָתַן הַכֹּהֵן מִן-הַדָּם עַל-קַרְנוֹת מִזְבַּח קְטֹרֶת הַסַּמִּים לִפְנֵי יְהוָה אֲשֶׁר בְּאֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "ובאקי אלדם. יצ'בה ענד אסאס מד'בח אלצעידה אלד'י ענד באב כ'בא אלמחצ'ר",
+        "en": "and the remainder of the blood he shall pour out at the base of the altar of the burnt-offering which is at the entrance of the tent of the assembly.",
+        "he": "וְאֵת כָּל-דַּם הַפָּר יִשְׁפֹּךְ אֶל-יְסוֹד מִזְבַּח הָעֹלָה אֲשֶׁר-פֶּתַח אֹהֶל מוֹעֵד"
+      }
+    ],
+    "8": [
+      {
+        "ja": "וגמיע שחם רת' אלד'כוה ינזעה מנה. אלת'רב אלמג'טי אלגוף",
+        "en": "And all the fat of the bull of the offering he shall remove from it — the caul covering the entrails",
+        "he": "וְאֶת-כָּל-חֵלֶב פַּר הַחַטָּאת יָרִים מִמֶּנּוּ--אֶת-הַחֵלֶב הַמְכַסֶּה עַל-הַקֶּרֶב"
+      },
+      {
+        "ja": "וסאיר אלשחם. אלד'י עלי' אלגוף",
+        "en": "and the rest of the fat which is upon the entrails,",
+        "he": "וְאֵת כָּל-הַחֵלֶב אֲשֶׁר עַל-הַקֶּרֶב"
+      }
+    ],
+    "9": [
+      {
+        "ja": "ואלכלותין. ואלשחם אלד'י עליהמא. אלד'י עלי' אלאחשא",
+        "en": "and the two kidneys, and the fat which is upon them, which is upon the viscera",
+        "he": "וְאֵת שְׁתֵּי הַכְּלָיֹת וְאֶת-הַחֵלֶב אֲשֶׁר עֲלֵיהֶן אֲשֶׁר עַל-הַכְּסָלִים"
+      },
+      {
+        "ja": "וזיאדה' אלכבד. מע אלכלי'' ינזעהא",
+        "en": "and the lobe of the liver — together with the kidneys he shall remove them.",
+        "he": "וְאֶת-הַיֹּתֶרֶת עַל-הַכָּבֵד עַל-הַכְּלָיוֹת יְסִירֶנָּה"
+      }
+    ],
+    "10": [
+      {
+        "ja": "כמא ירפע. מן ת'ור ד'בח אלסלאמה. ויקתרה עלי' מד'בח אלצעידה",
+        "en": "As it is raised from the bull of the peace-offering; and the imām shall burn them in smoke upon the altar of the burnt-offering.",
+        "he": "כַּאֲשֶׁר יוּרַם מִשּׁוֹר זֶבַח הַשְּׁלָמִים וְהִקְטִירָם הַכֹּהֵן עַל מִזְבַּח הָעֹלָה"
+      }
+    ],
+    "11": [
+      {
+        "ja": "וגלד אלת'ור וגמיע לחמה. מע ראסה ואכארעה. ובטנה ופרתה",
+        "en": "And the hide of the bull and all its flesh, together with its head and its legs, and its belly and its dung —",
+        "he": "וְאֶת-עוֹר הַפָּר וְאֶת-כָּל-בְּשָׂרוֹ עַל-רֹאשׁוֹ וְעַל-כְּרָעָיו וְקִרְבּוֹ וּפִרְשׁוֹ"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ויכ'רג גמיע ד'אלך. אלי' כ'ארג אלעסכר. אלי' מוצ'ע טאהר אלי' מטרח אלרמאד",
+        "en": "he shall carry all of it outside the camp, to a clean place, to the place where the ash is cast",
+        "he": "וְהוֹצִיא אֶת-כָּל-הַפָּר אֶל-מִחוּץ לַמַּחֲנֶה אֶל-מָקוֹם טָהוֹר אֶל-שֶׁפֶךְ הַדֶּשֶׁן"
+      },
+      {
+        "ja": "ויחרקה עלי' חטב באלנאר. פי מוצ'ע מטרח אלרמאד יחרק",
+        "en": "and shall burn it upon wood with fire; at the place where the ash is cast it shall be burned.",
+        "he": "וְשָׂרַף אֹתוֹ עַל-עֵצִים בָּאֵשׁ עַל-שֶׁפֶךְ הַדֶּשֶׁן יִשָּׂרֵף"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ואן סהי' גמע מן גמיע אל אסראיל. וג'בי אמר מן עיון אלגוק",
+        "en": "And if a congregation from all the house of Israel errs, and a matter is hidden from the eyes of the assembly",
+        "he": "וְאִם כָּל-עֲדַת יִשְׂרָאֵל יִשְׁגּוּ וְנֶעְלַם דָּבָר מֵעֵינֵי הַקָּהָל"
+      },
+      {
+        "ja": "פעמלו. ואחדה מן פראיץ' אללה. אלתי לא תעמל פאת'מו",
+        "en": "and they do one of the commandments of God which are not to be done, and they sin —",
+        "he": "וְעָשׂוּ אַחַת מִכָּל-מִצְו‍ֹת יְהוָה אֲשֶׁר לֹא-תֵעָשֶׂינָה--וְאָשֵׁמוּ"
+      }
+    ],
+    "14": [
+      {
+        "ja": "ת'ם ערפת אלכ'טייה. אלתי אכ'טו בהא",
+        "en": "then the transgression which they committed becomes known",
+        "he": "וְנוֹדְעָה הַחַטָּאת אֲשֶׁר חָטְאוּ עָלֶיהָ"
+      },
+      {
+        "ja": "פליקרב אלגוק. רת'א מן אלבקר לאלד'כוה. ויאתו בה. אלי' באב כ'בא אלמחצ'ר",
+        "en": "let the assembly bring a bull from the cattle as an offering, and bring it to the entrance of the tent of the assembly.",
+        "he": "וְהִקְרִיבוּ הַקָּהָל פַּר בֶּן-בָּקָר לְחַטָּאת וְהֵבִיאוּ אֹתוֹ לִפְנֵי אֹהֶל מוֹעֵד"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ויסנד. שיוך' אלגמאעה אידיהם. עלי' ראס אלת'ור בין ידי אללה",
+        "en": "And the elders of the congregation shall lean their hands upon the head of the bull before God",
+        "he": "וְסָמְכוּ זִקְנֵי הָעֵדָה אֶת-יְדֵיהֶם עַל-רֹאשׁ הַפָּר--לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "ויד'בחה בין ידי אללה",
+        "en": "and it shall be slaughtered before God.",
+        "he": "וְשָׁחַט אֶת-הַפָּר לִפְנֵי יְהוָה"
+      }
+    ],
+    "16": [
+      {
+        "ja": "וידכ'ל. אלאמאם אלממסוח מן דמה. אלי' כ'בא אלמחצ'ר",
+        "en": "And the anointed imām shall bring of its blood into the tent of the assembly.",
+        "he": "וְהֵבִיא הַכֹּהֵן הַמָּשִׁיחַ מִדַּם הַפָּר אֶל-אֹהֶל מוֹעֵד"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ויג'מס אצבעה פיה. וינצח מנה. סבע מראר בין ידי אללה. קבאלה' אלסגף",
+        "en": "And he shall dip his finger in it, and sprinkle from it seven times before God, facing the veil.",
+        "he": "וְטָבַל הַכֹּהֵן אֶצְבָּעוֹ מִן-הַדָּם וְהִזָּה שֶׁבַע פְּעָמִים לִפְנֵי יְהוָה אֵת פְּנֵי הַפָּרֹכֶת"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ומנה. יצע עלי' ארכאן אלמד'בח. אלד'י בין ידי אללה. אלד'י פי כ'בא אלמחצ'ר",
+        "en": "And from it he shall put upon the horns of the altar which is before God, which is in the tent of the assembly",
+        "he": "וּמִן-הַדָּם יִתֵּן עַל-קַרְנֹת הַמִּזְבֵּחַ אֲשֶׁר לִפְנֵי יְהוָה אֲשֶׁר בְּאֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "ובאקיה יצבה ענד אסאס מד'בח אלצעידה. אלד'י ענד באב כ'בא אלמחצ'ר",
+        "en": "and the remainder of it he shall pour out at the base of the altar of the burnt-offering which is at the entrance of the tent of the assembly.",
+        "he": "וְאֵת כָּל-הַדָּם יִשְׁפֹּךְ אֶל-יְסוֹד מִזְבַּח הָעֹלָה אֲשֶׁר-פֶּתַח אֹהֶל מוֹעֵד"
+      }
+    ],
+    "19": [
+      {
+        "ja": "וגמיע שחמה ירפעה מנה. ויקתרה עלי' אלמד'בח",
+        "en": "And all its fat he shall remove from it, and burn it in smoke upon the altar.",
+        "he": "וְאֵת כָּל-חֶלְבּוֹ יָרִים מִמֶּנּוּ וְהִקְטִיר הַמִּזְבֵּחָה"
+      }
+    ],
+    "20": [
+      {
+        "ja": "ויעמל בה כמא עמל ברת' אלדכוה. כד'אך יעמל בה",
+        "en": "And he shall do with it as he did with the bull of the offering — thus shall he do with it",
+        "he": "וְעָשָׂה לַפָּר--כַּאֲשֶׁר עָשָׂה לְפַר הַחַטָּאת כֵּן יַעֲשֶׂה-לּוֹ"
+      },
+      {
+        "ja": "ויסתג'פר ענהם. אלאמאם ויג'פר להם",
+        "en": "and the imām shall seek forgiveness for them, and they shall be forgiven.",
+        "he": "וְכִפֶּר עֲלֵהֶם הַכֹּהֵן וְנִסְלַח לָהֶם"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ויכ'רג גמיע אלת'ור אלי' כ'ארג אלעסכר. ויחרקה. כמא אחרק אלת'ור אלאוול",
+        "en": "And he shall carry all of the bull outside the camp, and shall burn it, as he burned the first bull —",
+        "he": "וְהוֹצִיא אֶת-הַפָּר אֶל-מִחוּץ לַמַּחֲנֶה וְשָׂרַף אֹתוֹ כַּאֲשֶׁר שָׂרַף אֵת הַפָּר הָרִאשׁוֹן"
+      },
+      {
+        "ja": "הו ד'כוה' אלגוק",
+        "en": "it is the offering of the assembly.",
+        "he": "חַטַּאת הַקָּהָל הוּא"
+      }
+    ],
+    "22": [
+      {
+        "ja": "ואן אכ'טא שריף. ועמל ואחדה מן פראיץ' אללה רבה. אלתי לא תעמל. סהוא פאת'מו",
+        "en": "And if a noble errs, and does one of the commandments of God his Lord which are not to be done, inadvertently, and so sins —",
+        "he": "אֲשֶׁר נָשִׂיא יֶחֱטָא וְעָשָׂה אַחַת מִכָּל-מִצְו‍ֹת יְהוָה אֱלֹהָיו אֲשֶׁר לֹא-תֵעָשֶׂינָה בִּשְׁגָגָה--וְאָשֵׁם"
+      }
+    ],
+    "23": [
+      {
+        "ja": "ת'ם עלם בכ'טייתה אלד'י אכ'טא",
+        "en": "then his transgression which he transgressed becomes known",
+        "he": "אוֹ-הוֹדַע אֵלָיו חַטָּאתוֹ אֲשֶׁר חָטָא בָּהּ"
+      },
+      {
+        "ja": "פליאת בקרבאנה. עתוד מן אלמאעז ד'כר צחיח",
+        "en": "let him bring his offering, a he-goat from the goats, a male, sound.",
+        "he": "וְהֵבִיא אֶת-קָרְבָּנוֹ שְׂעִיר עִזִּים זָכָר תָּמִים"
+      }
+    ],
+    "24": [
+      {
+        "ja": "ויסנד ידה עלי' ראסה. ויד'בחה",
+        "en": "And he shall lean his hand upon its head, and shall slaughter it",
+        "he": "וְסָמַךְ יָדוֹ עַל-רֹאשׁ הַשָּׂעִיר וְשָׁחַט אֹתוֹ"
+      },
+      {
+        "ja": "פי מוצ'ע יד'בח אלצעידה בין ידי אללה. כד'אך מא יכון ד'כוה",
+        "en": "in the place where the burnt-offering is slaughtered, before God — such is what constitutes an offering.",
+        "he": "בִּמְקוֹם אֲשֶׁר-יִשְׁחַט אֶת-הָעֹלָה לִפְנֵי יְהוָה חַטָּאת הוּא"
+      }
+    ],
+    "25": [
+      {
+        "ja": "ויאכ'ד' אלאמאם מן דמה באצבעה. ויגעל. עלי' ארכאן מד'בח אלצעידה",
+        "en": "And the imām shall take of its blood with his finger, and shall place it upon the horns of the altar of the burnt-offering",
+        "he": "וְלָקַח הַכֹּהֵן מִדַּם הַחַטָּאת בְּאֶצְבָּעוֹ וְנָתַן עַל-קַרְנֹת מִזְבַּח הָעֹלָה"
+      },
+      {
+        "ja": "וסאיר דמה. יצבה ענד אסאסה",
+        "en": "and the rest of its blood he shall pour out at its base.",
+        "he": "וְאֶת-דָּמוֹ יִשְׁפֹּךְ אֶל-יְסוֹד מִזְבַּח הָעֹלָה"
+      }
+    ],
+    "26": [
+      {
+        "ja": "וגמיע שחמה יקתרה עלי' אלמד'בח. כשחם ד'בח אלסלאמה",
+        "en": "And all its fat he shall burn in smoke upon the altar, like the fat of the peace-offering",
+        "he": "וְאֶת-כָּל-חֶלְבּוֹ יַקְטִיר הַמִּזְבֵּחָה כְּחֵלֶב זֶבַח הַשְּׁלָמִים"
+      },
+      {
+        "ja": "ויסתג'פר ענה אלאמאם. מן כ'טייתה אלד'י אכ'טא ויג'פר לה",
+        "en": "and the imām shall seek forgiveness for him from the transgression he transgressed, and he shall be forgiven.",
+        "he": "וְכִפֶּר עָלָיו הַכֹּהֵן מֵחַטָּאתוֹ וְנִסְלַח לוֹ"
+      }
+    ],
+    "27": [
+      {
+        "ja": "ואן אכ'טא אנסאן ואחד מן עואם אלבלד סהוא. פעמל. ואחדה מן פראיץ' אללה. אלתי לא תעמל פאת'ם",
+        "en": "And if a single person from among the common people of the land errs inadvertently, and does one of the commandments of God which are not to be done, and sins —",
+        "he": "וְאִם-נֶפֶשׁ אַחַת תֶּחֱטָא בִשְׁגָגָה מֵעַם הָאָרֶץ בַּעֲשֹׂתָהּ אַחַת מִמִּצְו‍ֹת יְהוָה אֲשֶׁר לֹא-תֵעָשֶׂינָה--וְאָשֵׁם"
+      }
+    ],
+    "28": [
+      {
+        "ja": "ת'ם ערף. בכ'טייתה אלד'י אכ'טא",
+        "en": "then his transgression which he transgressed becomes known",
+        "he": "אוֹ הוֹדַע אֵלָיו חַטָּאתוֹ אֲשֶׁר חָטָא"
+      },
+      {
+        "ja": "פליאת בקרבאנה. שאה מן אלמאעז צחיחה אנת'י. עלי' כ'טייתה אלד'י אכ'טא",
+        "en": "let him bring his offering, a she-goat from the goats, sound, a female, for his transgression which he transgressed.",
+        "he": "וְהֵבִיא קָרְבָּנוֹ שְׂעִירַת עִזִּים תְּמִימָה נְקֵבָה עַל-חַטָּאתוֹ אֲשֶׁר חָטָא"
+      }
+    ],
+    "29": [
+      {
+        "ja": "ויסנד ידה עלי' ראסהא. ויד'בחהא. פי מו'צע אלצעידה",
+        "en": "And he shall lean his hand upon its head, and shall slaughter it at the place of the burnt-offering.",
+        "he": "וְסָמַךְ אֶת-יָדוֹ עַל רֹאשׁ הַחַטָּאת וְשָׁחַט אֶת-הַחַטָּאת בִּמְקוֹם הָעֹלָה"
+      }
+    ],
+    "30": [
+      {
+        "ja": "ויאכ'ד' אלאמאם מן דמהא באצבעה. ויגעל. עלי' ארכאן מד'בח אלצעידה",
+        "en": "And the imām shall take of its blood with his finger, and shall place it upon the horns of the altar of the burnt-offering",
+        "he": "וְלָקַח הַכֹּהֵן מִדָּמָהּ בְּאֶצְבָּעוֹ וְנָתַן עַל-קַרְנֹת מִזְבַּח הָעֹלָה"
+      },
+      {
+        "ja": "וסאיר דמהא יצ'בה. ענד אסאס אלמד'בח",
+        "en": "and the rest of its blood he shall pour out at the base of the altar.",
+        "he": "וְאֶת-כָּל-דָּמָהּ יִשְׁפֹּךְ אֶל-יְסוֹד הַמִּזְבֵּחַ"
+      }
+    ],
+    "31": [
+      {
+        "ja": "וגמיע שחמהא ינזעה. כמא נזע שחם אלמאעז מן ד'בח אלסלאמה",
+        "en": "And all its fat he shall remove, as the fat of the goats is removed from the peace-offering",
+        "he": "וְאֶת-כָּל-חֶלְבָּהּ יָסִיר כַּאֲשֶׁר הוּסַר חֵלֶב מֵעַל זֶבַח הַשְּׁלָמִים"
+      },
+      {
+        "ja": "ויקתרה אלאמאם עלי' אלמד'בח. עלי' קראבין אללה",
+        "en": "and the imām shall burn it in smoke upon the altar, above the offerings to God",
+        "he": "וְהִקְטִיר הַכֹּהֵן הַמִּזְבֵּחָה לְרֵיחַ נִיחֹחַ לַיהוָה"
+      },
+      {
+        "ja": "ויסתג'פר ענה. אלאמאם ויג'פר לה",
+        "en": "and the imām shall seek forgiveness for him, and he shall be forgiven.",
+        "he": "וְכִפֶּר עָלָיו הַכֹּהֵן וְנִסְלַח לוֹ"
+      }
+    ],
+    "32": [
+      {
+        "ja": "ואן הו גאב קרבאנא מן אלצ'אן לאלד'כוה. פליאת בה אנת'י צחיחה",
+        "en": "And if he brings his offering from the flock as an offering, let him bring it as a female, sound.",
+        "he": "וְאִם-כֶּבֶשׂ יָבִיא קָרְבָּנוֹ לְחַטָּאת--נְקֵבָה תְמִימָה יְבִיאֶנָּה"
+      }
+    ],
+    "33": [
+      {
+        "ja": "ויסנד ידה עלי' ראסהא. ויד'בחהא לאלד'כוה. פי מוצ'ע אלצעידה",
+        "en": "And he shall lean his hand upon its head, and shall slaughter it as an offering, at the place of the burnt-offering.",
+        "he": "וְסָמַךְ אֶת-יָדוֹ עַל רֹאשׁ הַחַטָּאת וְשָׁחַט אֹתָהּ לְחַטָּאת בִּמְקוֹם אֲשֶׁר יִשְׁחַט אֶת-הָעֹלָה"
+      }
+    ],
+    "34": [
+      {
+        "ja": "ויאכד מן דמהא באצבעה. ויצ'ע. עלי' ארכאן מד'בח אלצעידה",
+        "en": "And he shall take of its blood with his finger, and shall place it upon the horns of the altar of the burnt-offering",
+        "he": "וְלָקַח הַכֹּהֵן מִדַּם הַחַטָּאת בְּאֶצְבָּעוֹ וְנָתַן עַל-קַרְנֹת מִזְבַּח הָעֹלָה"
+      },
+      {
+        "ja": "וסאיר דמהא יצ'בה. ענד אסאסה",
+        "en": "and the rest of its blood he shall pour out at its base.",
+        "he": "וְאֶת-כָּל-דָּמָהּ יִשְׁפֹּךְ אֶל-יְסוֹד הַמִּזְבֵּחַ"
+      }
+    ],
+    "35": [
+      {
+        "ja": "וגמיע שחמהא ינזעה. כמא ינזע שחם אלצ'אן מן ד'בח אלסלאמה",
+        "en": "And all its fat he shall remove, as the fat of the sheep is removed from the peace-offering",
+        "he": "וְאֶת-כָּל-חֶלְבָּהּ יָסִיר כַּאֲשֶׁר יוּסַר חֵלֶב-הַכֶּשֶׂב מִזֶּבַח הַשְּׁלָמִים"
+      },
+      {
+        "ja": "ויקתרהא אלאמאם עלי' אלמד'בח. עלי' קראבין אללה",
+        "en": "and the imām shall burn them in smoke upon the altar, above the offerings to God",
+        "he": "וְהִקְטִיר הַכֹּהֵן אֹתָם הַמִּזְבֵּחָה עַל אִשֵּׁי יְהוָה"
+      },
+      {
+        "ja": "ויסתג'פר ענה אלאמאם. ען כ'טייתה אלד'י אכ'טא פיג'פר לה",
+        "en": "and the imām shall seek forgiveness for him from his transgression which he transgressed — and he shall be forgiven.",
+        "he": "וְכִפֶּר עָלָיו הַכֹּהֵן עַל-חַטָּאתוֹ אֲשֶׁר-חָטָא וְנִסְלַח לוֹ"
+      }
+    ]
+  }
+}

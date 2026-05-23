@@ -1,0 +1,564 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 14. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_14.py; validated against the source with a sequential per-side cursor.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ת'ם כלם אללה מוסי' תכלימא",
+        "en": "Then God spoke to Moses directly.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+      }
+    ],
+    "2": [
+      {
+        "ja": "הד'א תכון שריעה' אלאברץ. פי וקת טהרה",
+        "en": "This shall be the law of the one afflicted with leprosy, at the time of his purification —",
+        "he": "זֹאת תִּהְיֶה תּוֹרַת הַמְּצֹרָע בְּיוֹם טָהֳרָתוֹ"
+      },
+      {
+        "ja": "אן יותא בכ'ברה אלי' אלאמאם",
+        "en": "that report of him be brought to the imām.",
+        "he": "וְהוּבָא אֶל-הַכֹּהֵן"
+      }
+    ],
+    "3": [
+      {
+        "ja": "ויכ'רג אלאמאם אלי' כ'ארג אלעסכר. פאד'א ראי'",
+        "en": "And the imām shall go out to outside the camp; and if he sees",
+        "he": "וְיָצָא הַכֹּהֵן אֶל-מִחוּץ לַמַּחֲנֶה וְרָאָה הַכֹּהֵן"
+      },
+      {
+        "ja": "אן אלאברץ קד אשפא מן בלא אלברץ. אמר פיה במא יגב",
+        "en": "that the one afflicted with leprosy has recovered from the affliction of the leprosy, he shall ordain for him what is required.",
+        "he": "וְהִנֵּה נִרְפָּא נֶגַע-הַצָּרַעַת מִן-הַצָּרוּעַ"
+      }
+    ],
+    "4": [
+      {
+        "ja": "פיאמר אלאמאם. ויאכ'ד' לאלמתטהר. עצפורין טאהרין. ועוד ארז. וחריר קרמז וצעתר",
+        "en": "Then the imām shall give the order, and there shall be taken for the one being purified two clean sparrows, and a rod of cedar, and crimson silk, and hyssop.",
+        "he": "וְצִוָּה הַכֹּהֵן וְלָקַח לַמִּטַּהֵר שְׁתֵּי-צִפֳּרִים חַיּוֹת טְהֹרוֹת וְעֵץ אֶרֶז וּשְׁנִי תוֹלַעַת וְאֵזֹב"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ת'ם יאמר אלאמאם בד'בח אחדהמא. פי אנא מן כ'זף עלי' מא מן נביע",
+        "en": "Then the imām shall give the order to slaughter one of them, in a clay vessel over water from a spring.",
+        "he": "וְצִוָּה הַכֹּהֵן וְשָׁחַט אֶת-הַצִּפּוֹר הָאֶחָת--אֶל-כְּלִי-חֶרֶשׂ עַל-מַיִם חַיִּים"
+      }
+    ],
+    "6": [
+      {
+        "ja": "וליאכ'ד' אלעצפור אלחי. ואלעוד אלארז. וחריר אלקרמז ואלצעתר",
+        "en": "And he shall take the living sparrow, and the cedar rod, and the crimson silk and the hyssop,",
+        "he": "אֶת-הַצִּפֹּר הַחַיָּה יִקַּח אֹתָהּ וְאֶת-עֵץ הָאֶרֶז וְאֶת-שְׁנִי הַתּוֹלַעַת וְאֶת-הָאֵזֹב"
+      },
+      {
+        "ja": "ויג'מס ד'אלך מע אלעצפור אלחי. בדם אלעצפור אלמד'בוח. עלי' אלמא אלד'י מן נביע",
+        "en": "and shall dip them — together with the living sparrow — in the blood of the slaughtered sparrow, over the water from a spring.",
+        "he": "וְטָבַל אוֹתָם וְאֵת הַצִּפֹּר הַחַיָּה בְּדַם הַצִּפֹּר הַשְּׁחֻטָה עַל הַמַּיִם הַחַיִּים"
+      }
+    ],
+    "7": [
+      {
+        "ja": "וינצ'ח עלי' אלמתטהר. מן אלברץ סבע מראר. ויטהרה",
+        "en": "And he shall sprinkle upon the one being purified from the leprosy seven times, and shall declare him pure;",
+        "he": "וְהִזָּה עַל הַמִּטַּהֵר מִן-הַצָּרַעַת--שֶׁבַע פְּעָמִים וְטִהֲרוֹ"
+      },
+      {
+        "ja": "ויטלק אלעצפור אלחי עלי' וגה אלצחרי'",
+        "en": "and he shall release the living sparrow upon the face of the wilderness.",
+        "he": "וְשִׁלַּח אֶת-הַצִּפֹּר הַחַיָּה עַל-פְּנֵי הַשָּׂדֶה"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ת'ם יג'סל אלמתטהר ת'יאבה ויחלק גמיע שערה. וירחץ' באלמא ויטהר",
+        "en": "Then the one being purified shall wash his garments and shave off all his hair, and shall bathe in water and be pure;",
+        "he": "וְכִבֶּס הַמִּטַּהֵר אֶת-בְּגָדָיו וְגִלַּח אֶת-כָּל-שְׂעָרוֹ וְרָחַץ בַּמַּיִם וְטָהֵר"
+      },
+      {
+        "ja": "ובעד ד'אלך ידכ'ל אלי' אלעסכר. ויקים כ'ארג מנזלה סבעה' אייאם",
+        "en": "and after that he shall enter into the camp, and shall remain outside his dwelling for seven days.",
+        "he": "וְאַחַר יָבוֹא אֶל-הַמַּחֲנֶה וְיָשַׁב מִחוּץ לְאָהֳלוֹ שִׁבְעַת יָמִים"
+      }
+    ],
+    "9": [
+      {
+        "ja": "פאד'א כאן פי אליום אלסאבע יחלק גמיע שערה. ראסה ולחיתה וחואגב עיניה. מע סאיר שערה",
+        "en": "And on the seventh day he shall shave all the hair of his head and his beard and his eyebrows, together with the rest of his hair;",
+        "he": "וְהָיָה בַיּוֹם הַשְּׁבִיעִי יְגַלַּח אֶת-כָּל-שְׂעָרוֹ אֶת-רֹאשׁוֹ וְאֶת-זְקָנוֹ וְאֵת גַּבֹּת עֵינָיו וְאֶת-כָּל-שְׂעָרוֹ יְגַלֵּחַ"
+      },
+      {
+        "ja": "ויג'סל ת'יאבה. וירחץ' בדנה באלמא ויטהר",
+        "en": "and he shall wash his garments, and shall bathe his body in water and be pure.",
+        "he": "וְכִבֶּס אֶת-בְּגָדָיו וְרָחַץ אֶת-בְּשָׂרוֹ בַּמַּיִם--וְטָהֵר"
+      }
+    ],
+    "10": [
+      {
+        "ja": "ופי אליום אלתאמן יקדם כ'רופין צחיחין. ורכלה אבנה' סנתהא צחיחה",
+        "en": "And on the eighth day he shall bring forward two sound rams, and one sound ewe-lamb in its first year,",
+        "he": "וּבַיּוֹם הַשְּׁמִינִי יִקַּח שְׁנֵי-כְבָשִׂים תְּמִימִם וְכַבְשָׂה אַחַת בַּת-שְׁנָתָהּ תְּמִימָה"
+      },
+      {
+        "ja": "ותלאתה' עשור סמד. הדייה מלתותה בדהן. ולג דהן",
+        "en": "and three tenths of fine flour as an offering mixed with oil, and a log of oil.",
+        "he": "וּשְׁלֹשָׁה עֶשְׂרֹנִים סֹלֶת מִנְחָה בְּלוּלָה בַשֶּׁמֶן וְלֹג אֶחָד שָׁמֶן"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ויוקף אלאמאם אלמטהר. אלרגל אלמתטהר והם. בין ידי אללה. ענד באב כ'בא אלמחצ'ר",
+        "en": "And the purifying imām shall station the purified man — and them — before God, at the entrance of the tent of the assembly.",
+        "he": "וְהֶעֱמִיד הַכֹּהֵן הַמְטַהֵר אֵת הָאִישׁ הַמִּטַּהֵר--וְאֹתָם לִפְנֵי יְהוָה פֶּתַח אֹהֶל מוֹעֵד"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ויאכ'ד' אלאמאם אחד אלכ'רופין. ליקרבה ען אלאתם ואלג אלדהן",
+        "en": "And the imām shall take one of the rams, to present it for the guilt-offering, along with the log of oil;",
+        "he": "וְלָקַח הַכֹּהֵן אֶת-הַכֶּבֶשׂ הָאֶחָד וְהִקְרִיב אֹתוֹ לְאָשָׁם--וְאֶת-לֹג הַשָּׁמֶן"
+      },
+      {
+        "ja": "ויחרכהא תחריכא בין ידי אללה",
+        "en": "and he shall wave them as a waving before God.",
+        "he": "וְהֵנִיף אֹתָם תְּנוּפָה לִפְנֵי יְהוָה"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ת'ם יד'בחה. פי אלמוצ'ע אלד'י יד'בח אלד'כוה. ואלצעידה פי מוצ'ע אלקד'ס",
+        "en": "Then he shall slaughter it in the place where the purification-offering and the ascending-offering are slaughtered — in the holy place —",
+        "he": "וְשָׁחַט אֶת-הַכֶּבֶשׂ בִּמְקוֹם אֲשֶׁר יִשְׁחַט אֶת-הַחַטָּאת וְאֶת-הָעֹלָה--בִּמְקוֹם הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "לאן קרבאן אלאת'ם. הו כאלד'כוה לאלאמאם. מן כ'ואץ אלאקדאס",
+        "en": "for the guilt-offering is like the purification-offering for the imām; it is among the choicest of the holy things.",
+        "he": "כִּי כַּחַטָּאת הָאָשָׁם הוּא לַכֹּהֵן--קֹדֶשׁ קָדָשִׁים הוּא"
+      }
+    ],
+    "14": [
+      {
+        "ja": "ת'ם יאכ'ד' מן דמה. ויגעל עלי' שחמה' אד'ן אלמתטהר אלימני",
+        "en": "Then he shall take some of its blood and place it on the cartilage of the earlobe of the one being purified — the right one —",
+        "he": "וְלָקַח הַכֹּהֵן מִדַּם הָאָשָׁם וְנָתַן הַכֹּהֵן עַל-תְּנוּךְ אֹזֶן הַמִּטַּהֵר הַיְמָנִית"
+      },
+      {
+        "ja": "ועלי' אבהאם ידה אלימני. ואבהאם רגלה אלימני",
+        "en": "and on the thumb of his right hand, and on the thumb of his right foot.",
+        "he": "וְעַל-בֹּהֶן יָדוֹ הַיְמָנִית וְעַל-בֹּהֶן רַגְלוֹ הַיְמָנִית"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ויאכ'ד' אלאמאם מן לג אלדהן ויצב עלי' כפה אליסרי",
+        "en": "And the imām shall take from the log of oil and pour it into his left palm.",
+        "he": "וְלָקַח הַכֹּהֵן מִלֹּג הַשָּׁמֶן וְיָצַק עַל-כַּף הַכֹּהֵן הַשְּׂמָאלִית"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ויג'מס אצבעה אלימני. מן אלד'הן אלד'י עלי' ידה אליסרי",
+        "en": "And he shall dip his right finger from the oil that is on his left hand,",
+        "he": "וְטָבַל הַכֹּהֵן אֶת-אֶצְבָּעוֹ הַיְמָנִית מִן-הַשֶּׁמֶן אֲשֶׁר עַל-כַּפּוֹ הַשְּׂמָאלִית"
+      },
+      {
+        "ja": "וינצ'ח מנה באצבעה. סבע מראר בין ידי אללה",
+        "en": "and shall sprinkle from it with his finger seven times before God.",
+        "he": "וְהִזָּה מִן-הַשֶּׁמֶן בְּאֶצְבָּעוֹ שֶׁבַע פְּעָמִים לִפְנֵי יְהוָה"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ת'ם יצ'ע מן באקיה. עלי' שחמה' אד'ן אלמתטהר אלימני. ועלי' אבהאם ידה אלימני. ואבהאם רגלה אלימני. עלי' דם קרבאן אלאת'ם",
+        "en": "Then he shall place some of the remainder upon the cartilage of the earlobe of the one being purified — the right one — and on the thumb of his right hand, and on the thumb of his right foot, upon the blood of the guilt-offering.",
+        "he": "וּמִיֶּתֶר הַשֶּׁמֶן אֲשֶׁר עַל-כַּפּוֹ יִתֵּן הַכֹּהֵן עַל-תְּנוּךְ אֹזֶן הַמִּטַּהֵר הַיְמָנִית וְעַל-בֹּהֶן יָדוֹ הַיְמָנִית וְעַל-בֹּהֶן רַגְלוֹ הַיְמָנִית--עַל דַּם הָאָשָׁם"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ואלפאצ'ל מנה. יצ'עה עלי' ראס אלמתטהר",
+        "en": "And what remains of it he shall place upon the head of the one being purified,",
+        "he": "וְהַנּוֹתָר בַּשֶּׁמֶן אֲשֶׁר עַל-כַּף הַכֹּהֵן יִתֵּן עַל-רֹאשׁ הַמִּטַּהֵר"
+      },
+      {
+        "ja": "ויסתג'פר ענה בין ידי אללה",
+        "en": "and shall seek forgiveness for him before God.",
+        "he": "וְכִפֶּר עָלָיו הַכֹּהֵן לִפְנֵי יְהוָה"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ת'ם יעמל אלאמאם אלד'כוה. ויסתג'פר ען אלמתטהר מן נגאסתה",
+        "en": "Then the imām shall perform the purification-offering, and shall seek forgiveness for the one being purified from his impurity;",
+        "he": "וְעָשָׂה הַכֹּהֵן אֶת-הַחַטָּאת וְכִפֶּר עַל-הַמִּטַּהֵר מִטֻּמְאָתוֹ"
+      },
+      {
+        "ja": "ובעד ד'אלך יד'בח אלצעידה",
+        "en": "and after that he shall slaughter the ascending-offering.",
+        "he": "וְאַחַר יִשְׁחַט אֶת-הָעֹלָה"
+      }
+    ],
+    "20": [
+      {
+        "ja": "ת'ם יצעד אלצעידה ואלהדייה עלי' אלמד'בח",
+        "en": "Then he shall cause the ascending-offering and the gift-offering to ascend upon the altar;",
+        "he": "וְהֶעֱלָה הַכֹּהֵן אֶת-הָעֹלָה וְאֶת-הַמִּנְחָה הַמִּזְבֵּחָה"
+      },
+      {
+        "ja": "ויסתג'פר ענה אלאמאם ויטהר",
+        "en": "and the imām shall seek forgiveness for him, and he shall be pure.",
+        "he": "וְכִפֶּר עָלָיו הַכֹּהֵן וְטָהֵר"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ואן כאן פקירא. לם תנאל ידה ד'אלך",
+        "en": "And if he is poor, his hand not reaching to that,",
+        "he": "וְאִם-דַּל הוּא וְאֵין יָדוֹ מַשֶּׂגֶת"
+      },
+      {
+        "ja": "פליקרב כ'רופא ואחדא קרבאן אלאת'ם. לאלתחריך ליסתג'פר ענה",
+        "en": "then let him bring one ram as the guilt-offering, for the waving, that forgiveness be sought for him;",
+        "he": "וְלָקַח כֶּבֶשׂ אֶחָד אָשָׁם לִתְנוּפָה לְכַפֵּר עָלָיו"
+      },
+      {
+        "ja": "ועשר מן סמד מלתות בד'הן. הדייה ולג דהן",
+        "en": "and one tenth of fine flour mixed with oil as a gift-offering, and a log of oil.",
+        "he": "וְעִשָּׂרוֹן סֹלֶת אֶחָד בָּלוּל בַּשֶּׁמֶן לְמִנְחָה--וְלֹג שָׁמֶן"
+      }
+    ],
+    "22": [
+      {
+        "ja": "ושפנינין. או פרכ'י חמאם. עלי' מא תנאל ידה",
+        "en": "And two turtle-doves or two young pigeons, according to what his hand can reach —",
+        "he": "וּשְׁתֵּי תֹרִים אוֹ שְׁנֵי בְּנֵי יוֹנָה אֲשֶׁר תַּשִּׂיג יָדוֹ"
+      },
+      {
+        "ja": "פיכון אחדהמא ד'כוה. ואלאכ'ר צעידה",
+        "en": "one of them shall be a purification-offering, and the other an ascending-offering.",
+        "he": "וְהָיָה אֶחָד חַטָּאת וְהָאֶחָד עֹלָה"
+      }
+    ],
+    "23": [
+      {
+        "ja": "פליאת בהמא. פי אליום אלת'אמן. מן אוול טהרה אלי' אלאמאם. אלי' באב כ'בא אלמחצ'ר בין ידי אללה",
+        "en": "He shall bring them, on the eighth day from the beginning of his purification, to the imām, to the entrance of the tent of the assembly, before God.",
+        "he": "וְהֵבִיא אֹתָם בַּיּוֹם הַשְּׁמִינִי לְטָהֳרָתוֹ--אֶל-הַכֹּהֵן אֶל-פֶּתַח אֹהֶל-מוֹעֵד לִפְנֵי יְהוָה"
+      }
+    ],
+    "24": [
+      {
+        "ja": "ויאכ'ד' אלאמאם. כ'רוף קרבאן אלאת'ם ואללג אלדהן",
+        "en": "And the imām shall take the ram of the guilt-offering and the log of oil,",
+        "he": "וְלָקַח הַכֹּהֵן אֶת-כֶּבֶשׂ הָאָשָׁם וְאֶת-לֹג הַשָּׁמֶן"
+      },
+      {
+        "ja": "ויחרכהא אלאמאם תחריכא בין ידי אללה",
+        "en": "and the imām shall wave them as a waving before God.",
+        "he": "וְהֵנִיף אֹתָם הַכֹּהֵן תְּנוּפָה לִפְנֵי יְהוָה"
+      }
+    ],
+    "25": [
+      {
+        "ja": "ת'ם יד'בחה. ויאכ'ד מן דמה ויצע. עלי' שחמה' אד'ן אלמתטהר אלימני",
+        "en": "Then he shall slaughter it; and he shall take some of its blood and place it on the cartilage of the earlobe of the one being purified — the right one —",
+        "he": "וְשָׁחַט אֶת-כֶּבֶשׂ הָאָשָׁם וְלָקַח הַכֹּהֵן מִדַּם הָאָשָׁם וְנָתַן עַל-תְּנוּךְ אֹזֶן-הַמִּטַּהֵר הַיְמָנִית"
+      },
+      {
+        "ja": "ועלי' אבהאם רגלה אלימני",
+        "en": "and on the thumb of his right hand, and on the thumb of his right foot.",
+        "he": "וְעַל-בֹּהֶן יָדוֹ הַיְמָנִית וְעַל-בֹּהֶן רַגְלוֹ הַיְמָנִית"
+      }
+    ],
+    "26": [
+      {
+        "ja": "ומן אלדהן יצב . פי כפה אליסרי",
+        "en": "And from the oil the imām shall pour into his left palm.",
+        "he": "וּמִן-הַשֶּׁמֶן יִצֹק הַכֹּהֵן עַל-כַּף הַכֹּהֵן הַשְּׂמָאלִית"
+      }
+    ],
+    "27": [
+      {
+        "ja": "וינצ'ח באצבעה אלימני. מן ד'אלך אלד'הן. אלד'י עלי' כפה אליסרי. סבע מראר בין ידי אללה",
+        "en": "And he shall sprinkle with his right finger from that oil which is on his left palm, seven times before God.",
+        "he": "וְהִזָּה הַכֹּהֵן בְּאֶצְבָּעוֹ הַיְמָנִית מִן-הַשֶּׁמֶן אֲשֶׁר עַל-כַּפּוֹ הַשְּׂמָאלִית--שֶׁבַע פְּעָמִים לִפְנֵי יְהוָה"
+      }
+    ],
+    "28": [
+      {
+        "ja": "ת'ם יצ'ע מן אלד'הן אלד'י פי כפה. עלי' שחמה' אד'ן אלמתטהר אלימני. ועלי' אבהאם ידה אלימני. ועלי' אבהאם רגלה אלימני",
+        "en": "Then he shall place from the oil that is in his palm upon the cartilage of the earlobe of the one being purified — the right one — and on the thumb of his right hand, and on the thumb of his right foot,",
+        "he": "וְנָתַן הַכֹּהֵן מִן-הַשֶּׁמֶן אֲשֶׁר עַל-כַּפּוֹ עַל-תְּנוּךְ אֹזֶן הַמִּטַּהֵר הַיְמָנִית וְעַל-בֹּהֶן יָדוֹ הַיְמָנִית וְעַל-בֹּהֶן רַגְלוֹ הַיְמָנִית"
+      },
+      {
+        "ja": "עלי' מוצ'ע דם קרבאן אלאת'ם",
+        "en": "upon the place of the blood of the guilt-offering.",
+        "he": "עַל-מְקוֹם דַּם הָאָשָׁם"
+      }
+    ],
+    "29": [
+      {
+        "ja": "ובאקיה יצ'בה כעלי' ראס אלמתטהר",
+        "en": "And the remainder of it he shall pour upon the head of the one being purified,",
+        "he": "וְהַנּוֹתָר מִן-הַשֶּׁמֶן אֲשֶׁר עַל-כַּף הַכֹּהֵן יִתֵּן עַל-רֹאשׁ הַמִּטַּהֵר"
+      },
+      {
+        "ja": "ויסתג'פר ענה בין ידי אללה",
+        "en": "and shall seek forgiveness for him before God.",
+        "he": "לְכַפֵּר עָלָיו לִפְנֵי יְהוָה"
+      }
+    ],
+    "30": [
+      {
+        "ja": "ת'ם יעמל ואחד מן אלשפאנין. או מן פרכ'י אלחמאם. עלי' מא תנאל ידה",
+        "en": "Then he shall perform one of the turtle-doves or of the young pigeons, according to what his hand can reach.",
+        "he": "וְעָשָׂה אֶת-הָאֶחָד מִן-הַתֹּרִים אוֹ מִן-בְּנֵי הַיּוֹנָה מֵאֲשֶׁר תַּשִּׂיג יָדוֹ"
+      }
+    ],
+    "31": [
+      {
+        "ja": "מע מא תנאל ידה. אחדהמא ד'כוה. ואלאכ'ר צעידה מע אלהדייה",
+        "en": "According to what his hand can reach — one of them a purification-offering, and the other an ascending-offering, together with the gift-offering;",
+        "he": "אֵת אֲשֶׁר-תַּשִּׂיג יָדוֹ אֶת-הָאֶחָד חַטָּאת וְאֶת-הָאֶחָד עֹלָה--עַל-הַמִּנְחָה"
+      },
+      {
+        "ja": "ויסתג'פר ענה בין ידי אללה",
+        "en": "and he shall seek forgiveness for him before God.",
+        "he": "וְכִפֶּר הַכֹּהֵן עַל הַמִּטַּהֵר לִפְנֵי יְהוָה"
+      }
+    ],
+    "32": [
+      {
+        "ja": "הד'ה שריעה' מן כאן בה בלא ברץ. ולם תנאל ידה פי וקת טהרה",
+        "en": "This is the law for one who has had the affliction of leprosy, whose hand has not reached to that, at the time of his purification.",
+        "he": "זֹאת תּוֹרַת אֲשֶׁר-בּוֹ נֶגַע צָרָעַת אֲשֶׁר לֹא-תַשִּׂיג יָדוֹ בְּטָהֳרָתוֹ"
+      }
+    ],
+    "33": [
+      {
+        "ja": "ת'ם כלם אללה מוסי'' והרון תכלימא",
+        "en": "Then God spoke to Moses and Aaron directly.",
+        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה וְאֶל-אַהֲרֹן לֵאמֹר"
+      }
+    ],
+    "34": [
+      {
+        "ja": "אד'א דכ'לתם אלי' בלד כנעאן. אלד'י אנא מעטיכמוהא חוזא",
+        "en": "When you enter the land of Canaan, which I am giving you as a possession,",
+        "he": "כִּי תָבֹאוּ אֶל-אֶרֶץ כְּנַעַן אֲשֶׁר אֲנִי נֹתֵן לָכֶם לַאֲחֻזָּה"
+      },
+      {
+        "ja": "פאחללת בלא ברץ. פי בעץ' ביות ארץ' חוזכם",
+        "en": "and I bring about an affliction of leprosy in some of the houses of the land of your possession —",
+        "he": "וְנָתַתִּי נֶגַע צָרַעַת בְּבֵית אֶרֶץ אֲחֻזַּתְכֶם"
+      }
+    ],
+    "35": [
+      {
+        "ja": "פליאת אלד'י לה אלבית. ויכ'בר אלאמאם קאילא",
+        "en": "then the owner of the house shall come and inform the imām, saying:",
+        "he": "וּבָא אֲשֶׁר-לוֹ הַבַּיִת וְהִגִּיד לַכֹּהֵן לֵאמֹר"
+      },
+      {
+        "ja": "קד צ'הר לי פי אלבית שבה בלא",
+        "en": "'There has appeared to me in the house something resembling an affliction.'",
+        "he": "כְּנֶגַע נִרְאָה לִי בַּבָּיִת"
+      }
+    ],
+    "36": [
+      {
+        "ja": "פיאמר אלאמאם וינגלו אלבית. קבל אן ידכ'ל לינצר אלבלא. ולא ינג'ס גמיע מא פיה",
+        "en": "And the imām shall give the order, and they shall clear the house before he enters to inspect the affliction, so that nothing in it be made impure;",
+        "he": "וְצִוָּה הַכֹּהֵן וּפִנּוּ אֶת-הַבַּיִת בְּטֶרֶם יָבֹא הַכֹּהֵן לִרְאוֹת אֶת-הַנֶּגַע וְלֹא יִטְמָא כָּל-אֲשֶׁר בַּבָּיִת"
+      },
+      {
+        "ja": "ובעד ד'אלך ידכ'ל וינצ'ר אליה",
+        "en": "and after that he shall enter and look upon it.",
+        "he": "וְאַחַר כֵּן יָבֹא הַכֹּהֵן לִרְאוֹת אֶת-הַבָּיִת"
+      }
+    ],
+    "37": [
+      {
+        "ja": "פאן ראי' אלבלא. פאד'אה פי חיטאן אלבית. כ'טוט מ'כ'צרה. או מחמרה",
+        "en": "And if he sees the affliction — behold, it is in the walls of the house as streaks of greenish or reddish hue,",
+        "he": "וְרָאָה אֶת-הַנֶּגַע וְהִנֵּה הַנֶּגַע בְּקִירֹת הַבַּיִת שְׁקַעֲרוּרֹת יְרַקְרַקֹּת אוֹ אֲדַמְדַּמֹּת"
+      },
+      {
+        "ja": "ומנצ'רהן מסתפל פי אלחאיט",
+        "en": "and their appearance is sunken in the wall —",
+        "he": "וּמַרְאֵיהֶן שָׁפָל מִן-הַקִּיר"
+      }
+    ],
+    "38": [
+      {
+        "ja": "פליכ'רג מן אלבית אלי' באבה. ויוקפה סבעה' אייאם",
+        "en": "then let him go out from the house to its doorway, and quarantine it for seven days.",
+        "he": "וְיָצָא הַכֹּהֵן מִן-הַבַּיִת אֶל-פֶּתַח הַבָּיִת וְהִסְגִּיר אֶת-הַבַּיִת שִׁבְעַת יָמִים"
+      }
+    ],
+    "39": [
+      {
+        "ja": "ת'ם ירגע פי אליום אלסאבע. פאן ראי' אלבלא קד תפשא פי חיטאן אלבית",
+        "en": "Then he shall return on the seventh day; and if he sees that the affliction has spread in the walls of the house,",
+        "he": "וְשָׁב הַכֹּהֵן בַּיּוֹם הַשְּׁבִיעִי וְרָאָה וְהִנֵּה פָּשָׂה הַנֶּגַע בְּקִירֹת הַבָּיִת"
+      }
+    ],
+    "41": [
+      {
+        "ja": "ויקשר אלבית מן דאכ'ל מסתדירא. וירמו אלתראב אלד'י קשרוה. כ'ארג אלקריה פי מוצ'ע נגס",
+        "en": "And the house shall be scraped on the inside all around, and they shall cast the plaster which they have scraped outside the town into an impure place.",
+        "he": "וְאֶת-הַבַּיִת יַקְצִעַ מִבַּיִת סָבִיב וְשָׁפְכוּ אֶת-הֶעָפָר אֲשֶׁר הִקְצוּ אֶל-מִחוּץ לָעִיר אֶל-מָקוֹם טָמֵא"
+      }
+    ],
+    "42": [
+      {
+        "ja": "ויאכ'דו חגאר אכ'ר. וידכ'לוהא מוצ'ע תלך אלחגארה",
+        "en": "And they shall take other stones, and bring them in place of those stones;",
+        "he": "וְלָקְחוּ אֲבָנִים אֲחֵרוֹת וְהֵבִיאוּ אֶל-תַּחַת הָאֲבָנִים"
+      },
+      {
+        "ja": "ותראב אכ'ר. יוכ'ד' ויטיין אלבית",
+        "en": "and fresh plaster shall be taken and the house shall be re-plastered.",
+        "he": "וְעָפָר אַחֵר יִקַּח וְטָח אֶת-הַבָּיִת"
+      }
+    ],
+    "43": [
+      {
+        "ja": "ואן עאד אלבלא ואנתשר פי אלבית. בעד מא כ'לעת אלחגארה. ובעד מא קשר אלבית וטיין",
+        "en": "And if the affliction returns and spreads in the house after the stones have been removed, and after the house has been scraped and re-plastered —",
+        "he": "וְאִם-יָשׁוּב הַנֶּגַע וּפָרַח בַּבַּיִת אַחַר חִלֵּץ אֶת-הָאֲבָנִים וְאַחֲרֵי הִקְצוֹת אֶת-הַבַּיִת וְאַחֲרֵי הִטּוֹחַ"
+      }
+    ],
+    "44": [
+      {
+        "ja": "פדכ'ל אלאמאם. פנצ'ר. פאד'א קד תפשא אלבלא פי אלבית",
+        "en": "then the imām shall enter and look; and behold, if the affliction has spread in the house,",
+        "he": "וּבָא הַכֹּהֵן וְרָאָה וְהִנֵּה פָּשָׂה הַנֶּגַע בַּבָּיִת"
+      },
+      {
+        "ja": "פהו ברץ מאחק. פי אלבית והו נגס",
+        "en": "it is a consuming leprosy in the house — it is impure.",
+        "he": "צָרַעַת מַמְאֶרֶת הִוא בַּבַּיִת טָמֵא הוּא"
+      }
+    ],
+    "45": [
+      {
+        "ja": "פלינקצ'ה. מן חגארה וכ'שבה וגמיע תראבה",
+        "en": "And let him demolish it — its stones and its timber and all its plaster —",
+        "he": "וְנָתַץ אֶת-הַבַּיִת אֶת-אֲבָנָיו וְאֶת-עֵצָיו וְאֵת כָּל-עֲפַר הַבָּיִת"
+      },
+      {
+        "ja": "וירמי ד'אלך אלי' כ'ארג אלקריה. אלי' מוצ'ע נגס",
+        "en": "and cast that outside the town into an impure place.",
+        "he": "וְהוֹצִיא אֶל-מִחוּץ לָעִיר אֶל-מָקוֹם טָמֵא"
+      }
+    ],
+    "46": [
+      {
+        "ja": "ומן דכ'ל אלי' אלבית. טול אלאייאם אלד'י אוקף פיהא. פלינגס אלי' אלמג'יב",
+        "en": "And whoever enters the house throughout all the days during which it is in quarantine shall be impure until the evening.",
+        "he": "וְהַבָּא אֶל-הַבַּיִת כָּל-יְמֵי הִסְגִּיר אֹתוֹ--יִטְמָא עַד-הָעָרֶב"
+      }
+    ],
+    "47": [
+      {
+        "ja": "ומן אנצ'גע פיה פליג'סל ת'יאבה",
+        "en": "And whoever lies down in it shall wash his garments;",
+        "he": "וְהַשֹּׁכֵב בַּבַּיִת יְכַבֵּס אֶת-בְּגָדָיו"
+      },
+      {
+        "ja": "וכד'לך כל מן אכל פיה. פליג'סל ת'יאבה",
+        "en": "and likewise everyone who eats in it shall wash his garments.",
+        "he": "וְהָאֹכֵל בַּבַּיִת יְכַבֵּס אֶת-בְּגָדָיו"
+      }
+    ],
+    "48": [
+      {
+        "ja": "פאן דכ'ל אלאמאם פנצ'ר. פאד'י לם יתפש אלבלא פי אלבית בעד מא טיין",
+        "en": "And if the imām enters and looks, and behold the affliction has not spread in the house after the plastering,",
+        "he": "וְאִם-בֹּא יָבֹא הַכֹּהֵן וְרָאָה וְהִנֵּה לֹא-פָשָׂה הַנֶּגַע בַּבַּיִת אַחֲרֵי הִטֹּחַ אֶת-הַבָּיִת"
+      },
+      {
+        "ja": "פליטהרה. פאן אלבלא קד ברא",
+        "en": "then let him declare it pure — for the affliction has healed.",
+        "he": "וְטִהַר הַכֹּהֵן אֶת-הַבַּיִת כִּי נִרְפָּא הַנָּגַע"
+      }
+    ],
+    "49": [
+      {
+        "ja": "ויאכ'ד' לתד'כיתה עצפורין. ועוד ארז. וחריר קרמז וצעתר",
+        "en": "And he shall take for its purification-offering two sparrows, and a cedar rod, and crimson silk and hyssop.",
+        "he": "וְלָקַח לְחַטֵּא אֶת-הַבַּיִת שְׁתֵּי צִפֳּרִים וְעֵץ אֶרֶז וּשְׁנִי תוֹלַעַת וְאֵזֹב"
+      }
+    ],
+    "50": [
+      {
+        "ja": "ויד'בח אחדהמא. פי אנא כ'זף מע מא מן נביע",
+        "en": "And he shall slaughter one of them in a clay vessel over water from a spring.",
+        "he": "וְשָׁחַט אֶת-הַצִּפֹּר הָאֶחָת אֶל-כְּלִי-חֶרֶשׂ עַל-מַיִם חַיִּים"
+      }
+    ],
+    "51": [
+      {
+        "ja": "ויאכ'ד' עוד אלארז ואלצעתר. וחריר אלקרמז ואלעצפור אלחי. ויג'מסהא פי דם אלעצפור אלמד'בוח. ואלמא אלד'י מן נביע",
+        "en": "And he shall take the cedar rod and the hyssop, and the crimson silk and the living sparrow, and shall dip them in the blood of the slaughtered sparrow and in the water from a spring,",
+        "he": "וְלָקַח אֶת-עֵץ-הָאֶרֶז וְאֶת-הָאֵזֹב וְאֵת שְׁנִי הַתּוֹלַעַת וְאֵת הַצִּפֹּר הַחַיָּה וְטָבַל אֹתָם בְּדַם הַצִּפֹּר הַשְּׁחוּטָה וּבַמַּיִם הַחַיִּים"
+      },
+      {
+        "ja": "וינצ'חה עלי' אלבית סבע מראר",
+        "en": "and shall sprinkle it upon the house seven times.",
+        "he": "וְהִזָּה אֶל-הַבַּיִת שֶׁבַע פְּעָמִים"
+      }
+    ],
+    "52": [
+      {
+        "ja": "ויד'כיה בדם אלעצפור אלמד'בוח. ואלמא אלנביע. ואלעצפור אלחי. ואלעוד אלארז ואלצעתר וחריר אלקרמז",
+        "en": "And he shall declare it pure by means of the blood of the slaughtered sparrow, and the spring water, and the living sparrow, and the cedar rod, and the hyssop, and the crimson silk.",
+        "he": "וְחִטֵּא אֶת-הַבַּיִת--בְּדַם הַצִּפּוֹר וּבַמַּיִם הַחַיִּים וּבַצִּפֹּר הַחַיָּה וּבְעֵץ הָאֶרֶז וּבָאֵזֹב--וּבִשְׁנִי הַתּוֹלָעַת"
+      }
+    ],
+    "53": [
+      {
+        "ja": "ויטלק אלעצפור אלחי. כ'ארג אלקריה אלי' וגה אלצחרי",
+        "en": "And he shall release the living sparrow outside the town toward the face of the wilderness,",
+        "he": "וְשִׁלַּח אֶת-הַצִּפֹּר הַחַיָּה אֶל-מִחוּץ לָעִיר--אֶל-פְּנֵי הַשָּׂדֶה"
+      },
+      {
+        "ja": "ויסתג'פר ען מא פי אלבית ויטהר",
+        "en": "and shall seek forgiveness for what is in the house, and it shall be pure.",
+        "he": "וְכִפֶּר עַל-הַבַּיִת וְטָהֵר"
+      }
+    ],
+    "54": [
+      {
+        "ja": "הד'ה שריעה' גמיע בלא אלברץ ואלכ'לף",
+        "en": "This is the law for all affliction of leprosy and of the scall,",
+        "he": "זֹאת הַתּוֹרָה לְכָל-נֶגַע הַצָּרַעַת וְלַנָּתֶק"
+      }
+    ],
+    "55": [
+      {
+        "ja": "וברץ אלת'יאב ואלביות",
+        "en": "and the leprosy of garments and of houses,",
+        "he": "וּלְצָרַעַת הַבֶּגֶד וְלַבָּיִת"
+      }
+    ],
+    "56": [
+      {
+        "ja": "ואלשאמה ואלעארצ'ה ואלבקעה",
+        "en": "and the blemish and the spreading mark and the spot —",
+        "he": "וְלַשְׂאֵת וְלַסַּפַּחַת וְלַבֶּהָרֶת"
+      }
+    ],
+    "57": [
+      {
+        "ja": "תדל עלי' וקת אלתנגיס ווקת אלתטהיר. וכלהא שראיע אלברץ",
+        "en": "to indicate the time of becoming impure and the time of purification. These are all the laws of leprosy.",
+        "he": "לְהוֹרֹת בְּיוֹם הַטָּמֵא וּבְיוֹם הַטָּהֹר זֹאת תּוֹרַת הַצָּרָעַת"
+      }
+    ]
+  }
+}
