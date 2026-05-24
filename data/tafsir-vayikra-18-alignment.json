@@ -1,291 +1,1695 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 18. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_18.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 18. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_18.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses in speech.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "in speech",
+        "he": "לֵּאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "מר בני אסראיל. וקל להם.",
-        "en": "Command the sons of Israel and say to them:",
-        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "אנא אללה רבכם",
-        "en": "I am God, your Lord.",
-        "he": "אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶל-בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "להם",
+        "en": "to them",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
       }
     ],
     "3": [
       {
-        "ja": "כצנאיע אהל בלד מצר. אלד'י אקמתם פיה לא תצנעו.",
-        "en": "Do not do as the deeds of the people of the land of Egypt, in which you dwelt;",
-        "he": "כְּמַעֲשֵׂה אֶרֶץ-מִצְרַיִם אֲשֶׁר יְשַׁבְתֶּם-בָּהּ לֹא תַעֲשׂוּ"
+        "ja": "כצנאיע",
+        "en": "as the deeds of",
+        "he": "כְּמַעֲשֵׂה"
       },
       {
-        "ja": "וכצנאיע אהל בלד כנעאן. אלד'י אנא מדכ'לכם הנאך לא תצנעו.",
-        "en": "and do not do as the deeds of the people of the land of Canaan, to which I am bringing you in there;",
-        "he": "וּכְמַעֲשֵׂה אֶרֶץ-כְּנַעַן אֲשֶׁר אֲנִי מֵבִיא אֶתְכֶם שָׁמָּה לֹא תַעֲשׂוּ"
+        "ja": "אהל",
+        "en": "the people of"
       },
       {
-        "ja": "וברסומהם לא תסירו",
-        "en": "and do not follow their customs.",
-        "he": "וּבְחֻקֹּתֵיהֶם לֹא תֵלֵכוּ"
+        "ja": "בלד",
+        "en": "the land of",
+        "he": "אֶרֶץ"
+      },
+      {
+        "ja": "מצר",
+        "en": "Egypt",
+        "he": "מִצְרַיִם"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "in which",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "אקמתם",
+        "en": "you dwelt",
+        "he": "יְשַׁבְתֶּם-בָּהּ"
+      },
+      {
+        "ja": "לא תצנעו",
+        "en": "Do not do",
+        "he": "לֹא תַעֲשׂוּ"
+      },
+      {
+        "ja": "וכצנאיע",
+        "en": "as the deeds of",
+        "he": "וּכְמַעֲשֵׂה"
+      },
+      {
+        "ja": "אהל",
+        "en": "the people of"
+      },
+      {
+        "ja": "בלד",
+        "en": "the land of",
+        "he": "אֶרֶץ"
+      },
+      {
+        "ja": "כנעאן",
+        "en": "Canaan",
+        "he": "כְּנַעַן"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "to which",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "מדכ'לכם",
+        "en": "bringing you",
+        "he": "מֵבִיא אֶתְכֶם"
+      },
+      {
+        "ja": "הנאך",
+        "en": "in there",
+        "he": "שָׁמָּה"
+      },
+      {
+        "ja": "לא תצנעו",
+        "en": "do not do",
+        "he": "לֹא תַעֲשׂוּ"
+      },
+      {
+        "ja": "וברסומהם",
+        "en": "their customs",
+        "he": "וּבְחֻקֹּתֵיהֶם"
+      },
+      {
+        "ja": "לא תסירו",
+        "en": "do not follow",
+        "he": "לֹא תֵלֵכוּ"
       }
     ],
     "4": [
       {
-        "ja": "אחכאמי פאצנעו. ורסומי אחפצו וסירו בהא.",
-        "en": "My ordinances you shall carry out, and My statutes you shall keep and follow them.",
-        "he": "אֶת-מִשְׁפָּטַי תַּעֲשׂוּ וְאֶת-חֻקֹּתַי תִּשְׁמְרוּ לָלֶכֶת בָּהֶם"
+        "ja": "אחכאמי",
+        "en": "My ordinances",
+        "he": "אֶת-מִשְׁפָּטַי"
       },
       {
-        "ja": "אנא אללה רבכם אגאזיכם כ'ירא",
-        "en": "I am God, your Lord — I shall recompense you with good.",
-        "he": "אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "פאצנעו",
+        "en": "you shall carry out",
+        "he": "תַּעֲשׂוּ"
+      },
+      {
+        "ja": "ורסומי",
+        "en": "and My statutes",
+        "he": "וְאֶת-חֻקֹּתַי"
+      },
+      {
+        "ja": "אחפצו",
+        "en": "you shall keep",
+        "he": "תִּשְׁמְרוּ"
+      },
+      {
+        "ja": "וסירו",
+        "en": "and follow",
+        "he": "לָלֶכֶת"
+      },
+      {
+        "ja": "בהא",
+        "en": "them",
+        "he": "בָּהֶם"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אגאזיכם כ'ירא",
+        "en": "I shall recompense you with good"
       }
     ],
     "5": [
       {
-        "ja": "פאחפצו רסומי ואחכאמי. פאן גזא אי אנסאן עמל בהא. אן יחיא אלחיאה אלדאימה.",
-        "en": "Keep My statutes and My ordinances, for the recompense of any person who acts according to them is that he shall live the everlasting life.",
-        "he": "וּשְׁמַרְתֶּם אֶת-חֻקֹּתַי וְאֶת-מִשְׁפָּטַי אֲשֶׁר יַעֲשֶׂה אֹתָם הָאָדָם וָחַי בָּהֶם"
+        "ja": "פאחפצו",
+        "en": "Keep",
+        "he": "וּשְׁמַרְתֶּם"
       },
       {
-        "ja": "אנא אללה דאים אלבקא",
-        "en": "I am God, enduring in existence.",
-        "he": "אֲנִי יְהוָה"
+        "ja": "רסומי",
+        "en": "My statutes",
+        "he": "אֶת-חֻקֹּתַי"
+      },
+      {
+        "ja": "ואחכאמי",
+        "en": "and My ordinances",
+        "he": "וְאֶת-מִשְׁפָּטַי"
+      },
+      {
+        "ja": "פאן",
+        "en": "for"
+      },
+      {
+        "ja": "גזא",
+        "en": "the recompense"
+      },
+      {
+        "ja": "אי",
+        "en": "of any"
+      },
+      {
+        "ja": "אנסאן",
+        "en": "person",
+        "he": "הָאָדָם"
+      },
+      {
+        "ja": "עמל",
+        "en": "who acts",
+        "he": "אֲשֶׁר יַעֲשֶׂה"
+      },
+      {
+        "ja": "בהא",
+        "en": "according to them",
+        "he": "אֹתָם"
+      },
+      {
+        "ja": "אן",
+        "en": "is that"
+      },
+      {
+        "ja": "יחיא",
+        "en": "he shall live",
+        "he": "וָחַי"
+      },
+      {
+        "ja": "אלחיאה אלדאימה",
+        "en": "the everlasting life"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "דאים אלבקא",
+        "en": "enduring in existence"
       }
     ],
     "6": [
       {
-        "ja": "כל רגל מנכם אלי' נסיב ד'אתה. לא יתקדם לכשף סותהא.",
-        "en": "Every man among you shall not approach a kinswoman of his own to uncover her nakedness.",
-        "he": "אִישׁ אִישׁ אֶל-כָּל-שְׁאֵר בְּשָׂרוֹ לֹא תִקְרְבוּ לְגַלּוֹת עֶרְוָה"
+        "ja": "כל",
+        "en": "Every",
+        "he": "אִישׁ"
       },
       {
-        "ja": "אנא אללה נהיתכם ען ד'אלך",
-        "en": "I am God — I have forbidden you this.",
-        "he": "אֲנִי יְהוָה"
+        "ja": "רגל",
+        "en": "man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "מנכם",
+        "en": "among you"
+      },
+      {
+        "ja": "נסיב",
+        "en": "a kinswoman",
+        "he": "שְׁאֵר"
+      },
+      {
+        "ja": "ד'אתה",
+        "en": "of his own",
+        "he": "בְּשָׂרוֹ"
+      },
+      {
+        "ja": "לא",
+        "en": "shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "יתקדם",
+        "en": "approach",
+        "he": "תִקְרְבוּ"
+      },
+      {
+        "ja": "לכשף",
+        "en": "to uncover",
+        "he": "לְגַלּוֹת"
+      },
+      {
+        "ja": "סותהא",
+        "en": "her nakedness",
+        "he": "עֶרְוָה"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "נהיתכם ען ד'אלך",
+        "en": "I have forbidden you this"
       }
     ],
     "7": [
       {
-        "ja": "סוות אביך. וסוות אמך לא תכשף.",
-        "en": "The nakedness of your father, and the nakedness of your mother, you shall not uncover.",
-        "he": "עֶרְוַת אָבִיךָ וְעֶרְוַת אִמְּךָ לֹא תְגַלֵּה"
+        "ja": "סוות",
+        "en": "The nakedness of",
+        "he": "עֶרְוַת"
       },
       {
-        "ja": "אמא וקלת סוות אמך פהי אמך נפסהא. לא תכשפן סוותהא",
-        "en": "Now when I said 'the nakedness of your mother' — she is your mother herself; you shall not uncover her nakedness.",
-        "he": "אִמְּךָ הִוא לֹא תְגַלֶּה עֶרְוָתָהּ"
+        "ja": "אביך",
+        "en": "your father",
+        "he": "אָבִיךָ"
+      },
+      {
+        "ja": "וסוות",
+        "en": "and the nakedness of",
+        "he": "וְעֶרְוַת"
+      },
+      {
+        "ja": "אמך",
+        "en": "your mother",
+        "he": "אִמְּךָ"
+      },
+      {
+        "ja": "לא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תכשף",
+        "en": "uncover",
+        "he": "תְגַלֵּה"
+      },
+      {
+        "ja": "אמא",
+        "en": "Now"
+      },
+      {
+        "ja": "וקלת",
+        "en": "when I said"
+      },
+      {
+        "ja": "סוות",
+        "en": "'the nakedness of"
+      },
+      {
+        "ja": "אמך",
+        "en": "your mother'"
+      },
+      {
+        "ja": "פהי",
+        "en": "she is",
+        "he": "הִוא"
+      },
+      {
+        "ja": "אמך",
+        "en": "your mother",
+        "he": "אִמְּךָ"
+      },
+      {
+        "ja": "נפסהא",
+        "en": "herself"
+      },
+      {
+        "ja": "לא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תכשפן",
+        "en": "uncover",
+        "he": "תְגַלֶּה"
+      },
+      {
+        "ja": "סוותהא",
+        "en": "her nakedness",
+        "he": "עֶרְוָתָהּ"
       }
     ],
     "8": [
       {
-        "ja": "ואמא סוות אביך פהי זוגה' אביך. לא תכשפן סוותהא",
-        "en": "And as for the nakedness of your father — it is the wife of your father; you shall not uncover her nakedness.",
-        "he": "עֶרְוַת אֵשֶׁת-אָבִיךָ לֹא תְגַלֵּה עֶרְוַת אָבִיךָ הִוא"
+        "ja": "ואמא",
+        "en": "And as for"
+      },
+      {
+        "ja": "סוות",
+        "en": "the nakedness of",
+        "he": "עֶרְוַת"
+      },
+      {
+        "ja": "אביך",
+        "en": "your father",
+        "he": "אָבִיךָ"
+      },
+      {
+        "ja": "פהי",
+        "en": "it is"
+      },
+      {
+        "ja": "זוגה'",
+        "en": "the wife of",
+        "he": "אֵשֶׁת"
+      },
+      {
+        "ja": "אביך",
+        "en": "your father",
+        "he": "אָבִיךָ"
+      },
+      {
+        "ja": "לא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תכשפן",
+        "en": "uncover",
+        "he": "תְגַלֵּה"
+      },
+      {
+        "ja": "סוותהא",
+        "en": "her nakedness"
       }
     ],
     "9": [
       {
-        "ja": "וסוות אכ'תך אבנה' אביך או אבנה' אמך. אלמולודה דאכ'לא או כ'ארגא. לא תכשפן סוותהמא",
-        "en": "And the nakedness of your sister, the daughter of your father or the daughter of your mother, whether born within or without — you shall not uncover their nakedness.",
-        "he": "עֶרְוַת אֲחוֹתְךָ בַת-אָבִיךָ אוֹ בַת-אִמֶּךָ מוֹלֶדֶת בַּיִת אוֹ מוֹלֶדֶת חוּץ--לֹא תְגַלֶּה עֶרְוָתָן"
+        "ja": "וסוות",
+        "en": "And the nakedness of",
+        "he": "עֶרְוַת"
+      },
+      {
+        "ja": "אכ'תך",
+        "en": "your sister",
+        "he": "אֲחוֹתְךָ"
+      },
+      {
+        "ja": "אבנה'",
+        "en": "the daughter of",
+        "he": "בַת"
+      },
+      {
+        "ja": "אביך",
+        "en": "your father",
+        "he": "אָבִיךָ"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "אבנה'",
+        "en": "the daughter of",
+        "he": "בַת"
+      },
+      {
+        "ja": "אמך",
+        "en": "your mother",
+        "he": "אִמֶּךָ"
+      },
+      {
+        "ja": "אלמולודה",
+        "en": "whether born",
+        "he": "מוֹלֶדֶת"
+      },
+      {
+        "ja": "דאכ'לא",
+        "en": "within",
+        "he": "בַּיִת"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "כ'ארגא",
+        "en": "without",
+        "he": "מוֹלֶדֶת חוּץ"
+      },
+      {
+        "ja": "לא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תכשפן",
+        "en": "uncover",
+        "he": "תְגַלֶּה"
+      },
+      {
+        "ja": "סוותהמא",
+        "en": "their nakedness",
+        "he": "עֶרְוָתָן"
       }
     ],
     "10": [
       {
-        "ja": "וסוות אבנה' אבנך או אבנה' אבנתך. לא תכשפהמא. לאנהמא סוואתך",
-        "en": "And the nakedness of the daughter of your son or the daughter of your daughter — you shall not uncover either of them, for they are your own nakedness.",
-        "he": "עֶרְוַת בַּת-בִּנְךָ אוֹ בַת-בִּתְּךָ לֹא תְגַלֶּה עֶרְוָתָן כִּי עֶרְוָתְךָ הֵנָּה"
+        "ja": "וסוות",
+        "en": "And the nakedness of",
+        "he": "עֶרְוַת"
+      },
+      {
+        "ja": "אבנה'",
+        "en": "the daughter of",
+        "he": "בַּת"
+      },
+      {
+        "ja": "אבנך",
+        "en": "your son",
+        "he": "בִּנְךָ"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "אבנה'",
+        "en": "the daughter of",
+        "he": "בַת"
+      },
+      {
+        "ja": "אבנתך",
+        "en": "your daughter",
+        "he": "בִּתְּךָ"
+      },
+      {
+        "ja": "לא תכשפהמא",
+        "en": "you shall not uncover either of them",
+        "he": "לֹא תְגַלֶּה עֶרְוָתָן"
+      },
+      {
+        "ja": "לאנהמא",
+        "en": "for they are",
+        "he": "כִּי"
+      },
+      {
+        "ja": "סוואתך",
+        "en": "your own nakedness",
+        "he": "עֶרְוָתְךָ"
       }
     ],
     "11": [
       {
-        "ja": "וסוות אבנה' זוגה' אביך אלמולודה מן אביך. הי אלתי ביינת אנהא אכ'תך. לא תכשפן סוותהא",
-        "en": "And the nakedness of the daughter of the wife of your father, born of your father — she is the one who has been shown to be your sister; you shall not uncover her nakedness.",
-        "he": "עֶרְוַת בַּת-אֵשֶׁת אָבִיךָ מוֹלֶדֶת אָבִיךָ אֲחוֹתְךָ הִוא--לֹא תְגַלֶּה עֶרְוָתָהּ"
+        "ja": "וסוות",
+        "en": "And the nakedness of",
+        "he": "עֶרְוַת"
+      },
+      {
+        "ja": "אבנה'",
+        "en": "the daughter of",
+        "he": "בַּת"
+      },
+      {
+        "ja": "זוגה'",
+        "en": "the wife of",
+        "he": "אֵשֶׁת"
+      },
+      {
+        "ja": "אביך",
+        "en": "your father",
+        "he": "אָבִיךָ"
+      },
+      {
+        "ja": "אלמולודה",
+        "en": "born",
+        "he": "מוֹלֶדֶת"
+      },
+      {
+        "ja": "מן",
+        "en": "of"
+      },
+      {
+        "ja": "אביך",
+        "en": "your father",
+        "he": "אָבִיךָ"
+      },
+      {
+        "ja": "הי",
+        "en": "she is",
+        "he": "הִוא"
+      },
+      {
+        "ja": "אלתי",
+        "en": "the one who"
+      },
+      {
+        "ja": "ביינת",
+        "en": "has been shown"
+      },
+      {
+        "ja": "אנהא",
+        "en": "to be"
+      },
+      {
+        "ja": "אכ'תך",
+        "en": "your sister",
+        "he": "אֲחוֹתְךָ"
+      },
+      {
+        "ja": "לא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תכשפן",
+        "en": "uncover",
+        "he": "תְגַלֶּה"
+      },
+      {
+        "ja": "סוותהא",
+        "en": "her nakedness",
+        "he": "עֶרְוָתָהּ"
       }
     ],
     "12": [
       {
-        "ja": "וסוות אכ'ת אביך פלא תכשף. לאנהא נסיבה' אביך",
-        "en": "And the nakedness of your father's sister you shall not uncover, for she is a kinswoman of your father.",
-        "he": "עֶרְוַת אֲחוֹת-אָבִיךָ לֹא תְגַלֵּה שְׁאֵר אָבִיךָ הִוא"
+        "ja": "וסוות",
+        "en": "And the nakedness of",
+        "he": "עֶרְוַת"
+      },
+      {
+        "ja": "אכ'ת",
+        "en": "sister",
+        "he": "אֲחוֹת"
+      },
+      {
+        "ja": "אביך",
+        "en": "your father's",
+        "he": "אָבִיךָ"
+      },
+      {
+        "ja": "פלא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תכשף",
+        "en": "uncover",
+        "he": "תְגַלֵּה"
+      },
+      {
+        "ja": "לאנהא",
+        "en": "for she is"
+      },
+      {
+        "ja": "נסיבה'",
+        "en": "a kinswoman of",
+        "he": "שְׁאֵר"
+      },
+      {
+        "ja": "אביך",
+        "en": "your father",
+        "he": "אָבִיךָ"
       }
     ],
     "13": [
       {
-        "ja": "וסוות אכ'ת אמך פלא תכשף. לאנהא נסיבה' אמך",
-        "en": "And the nakedness of your mother's sister you shall not uncover, for she is a kinswoman of your mother.",
-        "he": "עֶרְוַת אֲחוֹת-אִמְּךָ לֹא תְגַלֵּה כִּי-שְׁאֵר אִמְּךָ הִוא"
+        "ja": "וסוות",
+        "en": "And the nakedness of",
+        "he": "עֶרְוַת"
+      },
+      {
+        "ja": "אכ'ת",
+        "en": "sister",
+        "he": "אֲחוֹת"
+      },
+      {
+        "ja": "אמך",
+        "en": "your mother's",
+        "he": "אִמְּךָ"
+      },
+      {
+        "ja": "פלא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תכשף",
+        "en": "uncover",
+        "he": "תְגַלֵּה"
+      },
+      {
+        "ja": "לאנהא",
+        "en": "for she is"
+      },
+      {
+        "ja": "נסיבה'",
+        "en": "a kinswoman of",
+        "he": "שְׁאֵר"
+      },
+      {
+        "ja": "אמך",
+        "en": "your mother",
+        "he": "אִמְּךָ"
       }
     ],
     "14": [
       {
-        "ja": "וסוות עמך לא תכשף. וד'אלך אן לא תתקדם אלי' זוגתה. אד' הי כעמתך",
-        "en": "And the nakedness of your uncle you shall not uncover — that is, you shall not approach his wife, for she is as your aunt.",
-        "he": "עֶרְוַת אֲחִי-אָבִיךָ לֹא תְגַלֵּה אֶל-אִשְׁתּוֹ לֹא תִקְרָב דֹּדָתְךָ הִוא"
+        "ja": "וסוות",
+        "en": "And the nakedness of",
+        "he": "עֶרְוַת"
+      },
+      {
+        "ja": "עמך",
+        "en": "your uncle",
+        "he": "אֲחִי-אָבִיךָ"
+      },
+      {
+        "ja": "לא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תכשף",
+        "en": "uncover",
+        "he": "תְגַלֵּה"
+      },
+      {
+        "ja": "וד'אלך אן",
+        "en": "that is"
+      },
+      {
+        "ja": "לא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תתקדם",
+        "en": "approach",
+        "he": "תִקְרָב"
+      },
+      {
+        "ja": "אלי' זוגתה",
+        "en": "his wife",
+        "he": "אֶל-אִשְׁתּוֹ"
+      },
+      {
+        "ja": "אד'",
+        "en": "for"
+      },
+      {
+        "ja": "כעמתך",
+        "en": "she is as your aunt",
+        "he": "דֹּדָתְךָ"
       }
     ],
     "15": [
       {
-        "ja": "וסוות כנתך פלא תכשף. והי זוגה' אבנך. לא תכשף סוותהא",
-        "en": "And the nakedness of your daughter-in-law you shall not uncover — she is your son's wife; you shall not uncover her nakedness.",
-        "he": "עֶרְוַת כַּלָּתְךָ לֹא תְגַלֵּה אֵשֶׁת בִּנְךָ הִוא לֹא תְגַלֶּה עֶרְוָתָהּ"
+        "ja": "וסוות",
+        "en": "And the nakedness of",
+        "he": "עֶרְוַת"
+      },
+      {
+        "ja": "כנתך",
+        "en": "your daughter-in-law",
+        "he": "כַּלָּתְךָ"
+      },
+      {
+        "ja": "פלא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תכשף",
+        "en": "uncover",
+        "he": "תְגַלֵּה"
+      },
+      {
+        "ja": "והי",
+        "en": "she is",
+        "he": "הִוא"
+      },
+      {
+        "ja": "זוגה'",
+        "en": "wife",
+        "he": "אֵשֶׁת"
+      },
+      {
+        "ja": "אבנך",
+        "en": "your son's",
+        "he": "בִּנְךָ"
+      },
+      {
+        "ja": "לא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תכשף",
+        "en": "uncover",
+        "he": "תְגַלֶּה"
+      },
+      {
+        "ja": "סוותהא",
+        "en": "her nakedness",
+        "he": "עֶרְוָתָהּ"
       }
     ],
     "16": [
       {
-        "ja": "וסוות זוגה' אכ'יך פלא תכשף. אד' הי כסוות אכ'יך",
-        "en": "And the nakedness of your brother's wife you shall not uncover, for she is as the nakedness of your brother.",
-        "he": "עֶרְוַת אֵשֶׁת-אָחִיךָ לֹא תְגַלֵּה עֶרְוַת אָחִיךָ הִוא"
+        "ja": "וסוות",
+        "en": "And the nakedness of",
+        "he": "עֶרְוַת"
+      },
+      {
+        "ja": "זוגה'",
+        "en": "wife",
+        "he": "אֵשֶׁת"
+      },
+      {
+        "ja": "אכ'יך",
+        "en": "your brother's",
+        "he": "אָחִיךָ"
+      },
+      {
+        "ja": "פלא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תכשף",
+        "en": "uncover",
+        "he": "תְגַלֵּה"
+      },
+      {
+        "ja": "אד' הי",
+        "en": "for she is as"
+      },
+      {
+        "ja": "כסוות",
+        "en": "the nakedness of",
+        "he": "עֶרְוַת"
+      },
+      {
+        "ja": "אכ'יך",
+        "en": "your brother",
+        "he": "אָחִיךָ"
       }
     ],
     "17": [
       {
-        "ja": "וסוות אמראה ואבנתהא לא תכשף.",
-        "en": "And the nakedness of a woman and her daughter you shall not uncover;",
-        "he": "עֶרְוַת אִשָּׁה וּבִתָּהּ לֹא תְגַלֵּה"
+        "ja": "וסוות",
+        "en": "And the nakedness of",
+        "he": "עֶרְוַת"
       },
       {
-        "ja": "וכד'אלך אבנה' אבנהא ואבנה' אבנתהא. לא תתכ'ד' לתכשף סואתהמא. אד' הן נסאיב והי פאחשה",
-        "en": "likewise the daughter of her son or the daughter of her daughter — you shall not take her so as to uncover their nakedness, for they are kinswomen of one another, and this is lewdness.",
-        "he": "אֶת-בַּת-בְּנָהּ וְאֶת-בַּת-בִּתָּהּ לֹא תִקַּח לְגַלּוֹת עֶרְוָתָהּ--שַׁאֲרָה הֵנָּה זִמָּה הִוא"
+        "ja": "אמראה",
+        "en": "a woman",
+        "he": "אִשָּׁה"
+      },
+      {
+        "ja": "ואבנתהא",
+        "en": "and her daughter",
+        "he": "וּבִתָּהּ"
+      },
+      {
+        "ja": "לא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תכשף",
+        "en": "uncover",
+        "he": "תְגַלֵּה"
+      },
+      {
+        "ja": "וכד'אלך",
+        "en": "likewise"
+      },
+      {
+        "ja": "אבנה'",
+        "en": "the daughter of",
+        "he": "בַּת"
+      },
+      {
+        "ja": "אבנהא",
+        "en": "her son",
+        "he": "בְּנָהּ"
+      },
+      {
+        "ja": "ואבנה'",
+        "en": "or the daughter of",
+        "he": "וְאֶת-בַּת"
+      },
+      {
+        "ja": "אבנתהא",
+        "en": "her daughter",
+        "he": "בִּתָּהּ"
+      },
+      {
+        "ja": "לא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תתכ'ד'",
+        "en": "take her",
+        "he": "תִקַּח"
+      },
+      {
+        "ja": "לתכשף",
+        "en": "so as to uncover",
+        "he": "לְגַלּוֹת"
+      },
+      {
+        "ja": "סואתהמא",
+        "en": "their nakedness",
+        "he": "עֶרְוָתָהּ"
+      },
+      {
+        "ja": "אד'",
+        "en": "for"
+      },
+      {
+        "ja": "הן",
+        "en": "they are"
+      },
+      {
+        "ja": "נסאיב",
+        "en": "kinswomen of one another",
+        "he": "שַׁאֲרָה"
+      },
+      {
+        "ja": "והי",
+        "en": "and this is"
+      },
+      {
+        "ja": "פאחשה",
+        "en": "lewdness",
+        "he": "זִמָּה"
       }
     ],
     "18": [
       {
-        "ja": "ואמראה מע אכ'תהא לא תתכ'ד'. לתכון צ'ארתין. לתכשף סוותהא. מעהא פי חיאתהא",
-        "en": "And a woman alongside her sister you shall not take, to be a rival to her, to uncover her nakedness along with her in her lifetime.",
-        "he": "וְאִשָּׁה אֶל-אֲחֹתָהּ לֹא תִקָּח לִצְרֹר לְגַלּוֹת עֶרְוָתָהּ עָלֶיהָ--בְּחַיֶּיהָ"
+        "ja": "ואמראה",
+        "en": "And a woman",
+        "he": "וְאִשָּׁה"
+      },
+      {
+        "ja": "מע אכ'תהא",
+        "en": "alongside her sister",
+        "he": "אֶל-אֲחֹתָהּ"
+      },
+      {
+        "ja": "לא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תתכ'ד'",
+        "en": "take",
+        "he": "תִקָּח"
+      },
+      {
+        "ja": "לתכון צ'ארתין",
+        "en": "to be a rival to her",
+        "he": "לִצְרֹר"
+      },
+      {
+        "ja": "לתכשף",
+        "en": "to uncover",
+        "he": "לְגַלּוֹת"
+      },
+      {
+        "ja": "סוותהא",
+        "en": "her nakedness",
+        "he": "עֶרְוָתָהּ"
+      },
+      {
+        "ja": "מעהא",
+        "en": "along with her",
+        "he": "עָלֶיהָ"
+      },
+      {
+        "ja": "פי חיאתהא",
+        "en": "in her lifetime",
+        "he": "בְּחַיֶּיהָ"
       }
     ],
     "19": [
       {
-        "ja": "ואלי' אמראה פי חיצ'ה' נגאסתהא. לא תתקדם. לתכשף סוותהא",
-        "en": "And to a woman in the impurity of her menstrual flow, you shall not approach to uncover her nakedness.",
-        "he": "וְאֶל-אִשָּׁה בְּנִדַּת טֻמְאָתָהּ--לֹא תִקְרַב לְגַלּוֹת עֶרְוָתָהּ"
+        "ja": "ואלי'",
+        "en": "And to",
+        "he": "וְאֶל"
+      },
+      {
+        "ja": "אמראה",
+        "en": "a woman",
+        "he": "אִשָּׁה"
+      },
+      {
+        "ja": "פי",
+        "en": "in"
+      },
+      {
+        "ja": "חיצ'ה'",
+        "en": "menstrual flow",
+        "he": "בְּנִדַּת"
+      },
+      {
+        "ja": "נגאסתהא",
+        "en": "the impurity of her",
+        "he": "טֻמְאָתָהּ"
+      },
+      {
+        "ja": "לא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תתקדם",
+        "en": "approach",
+        "he": "תִקְרַב"
+      },
+      {
+        "ja": "לתכשף",
+        "en": "to uncover",
+        "he": "לְגַלּוֹת"
+      },
+      {
+        "ja": "סוותהא",
+        "en": "her nakedness",
+        "he": "עֶרְוָתָהּ"
       }
     ],
     "20": [
       {
-        "ja": "ומע זוגה' צאחבך. לא תגעל מצ'אגעתך לאנסאל. ולא לאלתנגס בהא",
-        "en": "And with the wife of your fellow, you shall not make your lying for seed, nor to defile yourself with her.",
-        "he": "וְאֶל-אֵשֶׁת עֲמִיתְךָ--לֹא-תִתֵּן שְׁכָבְתְּךָ לְזָרַע לְטָמְאָה-בָהּ"
+        "ja": "ומע",
+        "en": "And with",
+        "he": "וְאֶל"
+      },
+      {
+        "ja": "זוגה'",
+        "en": "the wife of",
+        "he": "אֵשֶׁת"
+      },
+      {
+        "ja": "צאחבך",
+        "en": "your fellow",
+        "he": "עֲמִיתְךָ"
+      },
+      {
+        "ja": "לא תגעל",
+        "en": "you shall not make",
+        "he": "לֹא-תִתֵּן"
+      },
+      {
+        "ja": "מצ'אגעתך",
+        "en": "your lying",
+        "he": "שְׁכָבְתְּךָ"
+      },
+      {
+        "ja": "לאנסאל",
+        "en": "for seed",
+        "he": "לְזָרַע"
+      },
+      {
+        "ja": "ולא",
+        "en": "nor"
+      },
+      {
+        "ja": "לאלתנגס",
+        "en": "to defile yourself",
+        "he": "לְטָמְאָה"
+      },
+      {
+        "ja": "בהא",
+        "en": "with her",
+        "he": "בָהּ"
       }
     ],
     "21": [
       {
-        "ja": "ולא תעט מן נסלך לאלתקריב לאלצנם.",
-        "en": "And do not give of your offspring for offering to idols,",
-        "he": "וּמִזַּרְעֲךָ לֹא-תִתֵּן לְהַעֲבִיר לַמֹּלֶךְ"
+        "ja": "לא תעט",
+        "en": "And do not give",
+        "he": "לֹא-תִתֵּן"
       },
       {
-        "ja": "ולא תבד'ל אסם רבך. אנא אללה אלמעאקב",
-        "en": "nor profane the name of your Lord. I am God, the Punisher.",
-        "he": "וְלֹא תְחַלֵּל אֶת-שֵׁם אֱלֹהֶיךָ אֲנִי יְהוָה"
+        "ja": "מן נסלך",
+        "en": "of your offspring",
+        "he": "וּמִזַּרְעֲךָ"
+      },
+      {
+        "ja": "לאלתקריב",
+        "en": "for offering",
+        "he": "לְהַעֲבִיר"
+      },
+      {
+        "ja": "לאלצנם",
+        "en": "to idols",
+        "he": "לַמֹּלֶךְ"
+      },
+      {
+        "ja": "ולא",
+        "en": "nor",
+        "he": "וְלֹא"
+      },
+      {
+        "ja": "תבד'ל",
+        "en": "profane",
+        "he": "תְחַלֵּל"
+      },
+      {
+        "ja": "אסם",
+        "en": "the name of",
+        "he": "אֶת-שֵׁם"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אלמעאקב",
+        "en": "the Punisher"
       }
     ],
     "22": [
       {
-        "ja": "ואלד'כר פלא תצ'אגעה עלי' צ'רוב מצ'אגעת אלנסא. פאנהא כריהה",
-        "en": "And a male — you shall not lie with him after the manner of lying with women, for it is an abomination.",
-        "he": "וְאֶת-זָכָר--לֹא תִשְׁכַּב מִשְׁכְּבֵי אִשָּׁה תּוֹעֵבָה הִוא"
+        "ja": "ואלד'כר",
+        "en": "And a male",
+        "he": "וְאֶת-זָכָר"
+      },
+      {
+        "ja": "פלא",
+        "en": "you shall not",
+        "he": "לֹא"
+      },
+      {
+        "ja": "תצ'אגעה",
+        "en": "lie with him",
+        "he": "תִשְׁכַּב"
+      },
+      {
+        "ja": "עלי'",
+        "en": "after"
+      },
+      {
+        "ja": "צ'רוב",
+        "en": "the manner of"
+      },
+      {
+        "ja": "מצ'אגעת",
+        "en": "lying with",
+        "he": "מִשְׁכְּבֵי"
+      },
+      {
+        "ja": "אלנסא",
+        "en": "women",
+        "he": "אִשָּׁה"
+      },
+      {
+        "ja": "פאנהא",
+        "en": "for it is"
+      },
+      {
+        "ja": "כריהה",
+        "en": "an abomination",
+        "he": "תּוֹעֵבָה"
       }
     ],
     "23": [
       {
-        "ja": "ומע שי מן אלבהאים. לא תגעל מצ'אגעתך לאלתנגס בהא.",
-        "en": "And with any of the beasts, you shall not make your lying so as to defile yourself with it;",
-        "he": "וּבְכָל-בְּהֵמָה לֹא-תִתֵּן שְׁכָבְתְּךָ לְטָמְאָה-בָהּ"
+        "ja": "ומע",
+        "en": "And with"
       },
       {
-        "ja": "וכד'אלך אלאמראה לא תקף. בין ידי בהימה לתנזוהא פאנהא דאהיה",
-        "en": "and likewise a woman shall not present herself before a beast for it to mount her, for it is a grave calamity.",
-        "he": "וְאִשָּׁה לֹא-תַעֲמֹד לִפְנֵי בְהֵמָה לְרִבְעָהּ--תֶּבֶל הוּא"
+        "ja": "שי מן",
+        "en": "any of"
+      },
+      {
+        "ja": "אלבהאים",
+        "en": "the beasts",
+        "he": "בְּהֵמָה"
+      },
+      {
+        "ja": "לא תגעל",
+        "en": "you shall not make",
+        "he": "לֹא-תִתֵּן"
+      },
+      {
+        "ja": "מצ'אגעתך",
+        "en": "your lying",
+        "he": "שְׁכָבְתְּךָ"
+      },
+      {
+        "ja": "לאלתנגס",
+        "en": "so as to defile yourself",
+        "he": "לְטָמְאָה"
+      },
+      {
+        "ja": "בהא",
+        "en": "with it",
+        "he": "בָהּ"
+      },
+      {
+        "ja": "וכד'אלך",
+        "en": "and likewise"
+      },
+      {
+        "ja": "אלאמראה",
+        "en": "a woman",
+        "he": "וְאִשָּׁה"
+      },
+      {
+        "ja": "לא תקף",
+        "en": "shall not present herself",
+        "he": "לֹא-תַעֲמֹד"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "בהימה",
+        "en": "a beast",
+        "he": "בְהֵמָה"
+      },
+      {
+        "ja": "לתנזוהא",
+        "en": "for it to mount her",
+        "he": "לְרִבְעָהּ"
+      },
+      {
+        "ja": "פאנהא",
+        "en": "for it is"
+      },
+      {
+        "ja": "דאהיה",
+        "en": "a grave calamity",
+        "he": "תֶּבֶל"
       }
     ],
     "24": [
       {
-        "ja": "לא תעצוני בשי מן הד'ה.",
-        "en": "Do not disobey Me in any of these things,",
-        "he": "אַל-תִּטַּמְּאוּ בְּכָל-אֵלֶּה"
+        "ja": "לא תעצוני",
+        "en": "Do not disobey Me",
+        "he": "אַל-תִּטַּמְּאוּ"
       },
       {
-        "ja": "לאן במת'להא עצאני אלאמם. אלד'י אנא טארדהם מן בין ידיכם",
-        "en": "for by the like of them the nations disobeyed Me — those whom I am expelling from before you.",
-        "he": "כִּי בְכָל-אֵלֶּה נִטְמְאוּ הַגּוֹיִם אֲשֶׁר-אֲנִי מְשַׁלֵּחַ מִפְּנֵיכֶם"
+        "ja": "בשי מן",
+        "en": "in any of"
+      },
+      {
+        "ja": "הד'ה",
+        "en": "these things",
+        "he": "בְּכָל-אֵלֶּה"
+      },
+      {
+        "ja": "לאן",
+        "en": "for",
+        "he": "כִּי"
+      },
+      {
+        "ja": "במת'להא",
+        "en": "by the like of them",
+        "he": "בְכָל-אֵלֶּה"
+      },
+      {
+        "ja": "עצאני",
+        "en": "disobeyed Me",
+        "he": "נִטְמְאוּ"
+      },
+      {
+        "ja": "אלאמם",
+        "en": "the nations",
+        "he": "הַגּוֹיִם"
+      },
+      {
+        "ja": "אלד'י אנא",
+        "en": "those whom I am",
+        "he": "אֲשֶׁר-אֲנִי"
+      },
+      {
+        "ja": "טארדהם",
+        "en": "expelling",
+        "he": "מְשַׁלֵּחַ"
+      },
+      {
+        "ja": "מן בין ידיכם",
+        "en": "from before you",
+        "he": "מִפְּנֵיכֶם"
       }
     ],
     "25": [
       {
-        "ja": "פלמא נגס אהל אלבלד. טאלבתהם בד'נובהם.",
-        "en": "And when the people of the land became defiled, I called them to account for their sins,",
-        "he": "וַתִּטְמָא הָאָרֶץ וָאֶפְקֹד עֲו‍ֹנָהּ עָלֶיהָ"
+        "ja": "פלמא",
+        "en": "And when"
       },
       {
-        "ja": "פשתת אלבלד אהלה",
-        "en": "and the land scattered its inhabitants.",
-        "he": "וַתָּקִא הָאָרֶץ אֶת-יֹשְׁבֶיהָ"
+        "ja": "אהל",
+        "en": "the people of"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "the land",
+        "he": "הָאָרֶץ"
+      },
+      {
+        "ja": "נגס",
+        "en": "became defiled",
+        "he": "וַתִּטְמָא"
+      },
+      {
+        "ja": "טאלבתהם",
+        "en": "I called them to account",
+        "he": "וָאֶפְקֹד"
+      },
+      {
+        "ja": "בד'נובהם",
+        "en": "for their sins",
+        "he": "עֲו‍ֹנָהּ"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "and the land",
+        "he": "הָאָרֶץ"
+      },
+      {
+        "ja": "פשתת",
+        "en": "scattered",
+        "he": "וַתָּקִא"
+      },
+      {
+        "ja": "אהלה",
+        "en": "its inhabitants",
+        "he": "אֶת-יֹשְׁבֶיהָ"
       }
     ],
     "26": [
       {
-        "ja": "פאחפצו אנתם רסומי ואחכאמי.",
-        "en": "So keep, yourselves, My statutes and My ordinances,",
-        "he": "וּשְׁמַרְתֶּם אַתֶּם אֶת-חֻקֹּתַי וְאֶת-מִשְׁפָּטַי"
+        "ja": "פאחפצו",
+        "en": "So keep",
+        "he": "וּשְׁמַרְתֶּם"
       },
       {
-        "ja": "ולא תצנעו שייא מן הד'ה אלמכארה. אלצריח. ואלג'ריב אלדכ'יל פי מא בינכם",
-        "en": "and do nothing of all these abhorrent things — whether the native-born or the stranger who has come to dwell among you.",
-        "he": "וְלֹא תַעֲשׂוּ מִכֹּל הַתּוֹעֵבֹת הָאֵלֶּה הָאֶזְרָח וְהַגֵּר הַגָּר בְּתוֹכְכֶם"
+        "ja": "אנתם",
+        "en": "yourselves",
+        "he": "אַתֶּם"
+      },
+      {
+        "ja": "רסומי",
+        "en": "My statutes",
+        "he": "אֶת-חֻקֹּתַי"
+      },
+      {
+        "ja": "ואחכאמי",
+        "en": "and My ordinances",
+        "he": "וְאֶת-מִשְׁפָּטַי"
+      },
+      {
+        "ja": "ולא תצנעו",
+        "en": "and do",
+        "he": "וְלֹא תַעֲשׂוּ"
+      },
+      {
+        "ja": "שייא",
+        "en": "nothing"
+      },
+      {
+        "ja": "מן",
+        "en": "of all",
+        "he": "מִכֹּל"
+      },
+      {
+        "ja": "הד'ה",
+        "en": "these",
+        "he": "הָאֵלֶּה"
+      },
+      {
+        "ja": "אלמכארה",
+        "en": "abhorrent things",
+        "he": "הַתּוֹעֵבֹת"
+      },
+      {
+        "ja": "אלצריח",
+        "en": "whether the native-born",
+        "he": "הָאֶזְרָח"
+      },
+      {
+        "ja": "ואלג'ריב",
+        "en": "or the stranger",
+        "he": "וְהַגֵּר"
+      },
+      {
+        "ja": "אלדכ'יל",
+        "en": "who has come to dwell",
+        "he": "הַגָּר"
+      },
+      {
+        "ja": "פי מא בינכם",
+        "en": "among you",
+        "he": "בְּתוֹכְכֶם"
       }
     ],
     "27": [
       {
-        "ja": "אד' גמיע הד'ה אלמכארה. צנעהא אהל אלבלד אלד'י מן קבלכם. חתא נגס",
-        "en": "For all these abhorrent things were done by the people of the land who were before you, until it became defiled.",
-        "he": "כִּי אֶת-כָּל-הַתּוֹעֵבֹת הָאֵל עָשׂוּ אַנְשֵׁי-הָאָרֶץ אֲשֶׁר לִפְנֵיכֶם וַתִּטְמָא הָאָרֶץ"
+        "ja": "אד'",
+        "en": "For",
+        "he": "כִּי"
+      },
+      {
+        "ja": "גמיע",
+        "en": "all",
+        "he": "אֶת-כָּל"
+      },
+      {
+        "ja": "הד'ה",
+        "en": "these",
+        "he": "הָאֵל"
+      },
+      {
+        "ja": "אלמכארה",
+        "en": "abhorrent things",
+        "he": "הַתּוֹעֵבֹת"
+      },
+      {
+        "ja": "צנעהא",
+        "en": "were done by",
+        "he": "עָשׂוּ"
+      },
+      {
+        "ja": "אהל אלבלד",
+        "en": "the people of the land",
+        "he": "אַנְשֵׁי-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "who were",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "מן קבלכם",
+        "en": "before you",
+        "he": "לִפְנֵיכֶם"
+      },
+      {
+        "ja": "חתא נגס",
+        "en": "until it became defiled",
+        "he": "וַתִּטְמָא"
       }
     ],
     "28": [
       {
-        "ja": "ללא ישתתכם אלבלד אלד'י נגסתמוה. כמא שתת אלאמם אלד'ין מן קבלכם",
-        "en": "So that the land to which you have brought defilement shall not scatter you, as it scattered the nations that were before you.",
-        "he": "וְלֹא-תָקִיא הָאָרֶץ אֶתְכֶם בְּטַמַּאֲכֶם אֹתָהּ כַּאֲשֶׁר קָאָה אֶת-הַגּוֹי אֲשֶׁר לִפְנֵיכֶם"
+        "ja": "ללא",
+        "en": "So that"
+      },
+      {
+        "ja": "ישתתכם",
+        "en": "shall not scatter you",
+        "he": "וְלֹא-תָקִיא"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "the land",
+        "he": "הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "to which"
+      },
+      {
+        "ja": "נגסתמוה",
+        "en": "you have brought defilement",
+        "he": "בְּטַמַּאֲכֶם"
+      },
+      {
+        "ja": "כמא",
+        "en": "as",
+        "he": "כַּאֲשֶׁר"
+      },
+      {
+        "ja": "שתת",
+        "en": "it scattered",
+        "he": "קָאָה"
+      },
+      {
+        "ja": "אלאמם",
+        "en": "the nations",
+        "he": "אֶת-הַגּוֹי"
+      },
+      {
+        "ja": "אלד'ין",
+        "en": "that were",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "קבלכם",
+        "en": "before you",
+        "he": "לִפְנֵיכֶם"
       }
     ],
     "29": [
       {
-        "ja": "ואעלמו אן כל מן יצנע שייא מן גמיע הד'ה אלמכארה.",
-        "en": "And know that whoever does anything of all these abhorrent things —",
-        "he": "כִּי כָּל-אֲשֶׁר יַעֲשֶׂה מִכֹּל הַתּוֹעֵבֹת הָאֵלֶּה"
+        "ja": "ואעלמו",
+        "en": "And know"
       },
       {
-        "ja": "תנקטע תלך אלנפוס אלצאנעאת מן בין קומהא",
-        "en": "those souls that do them shall be cut off from among their people.",
-        "he": "וְנִכְרְתוּ הַנְּפָשׁוֹת הָעֹשֹׂת מִקֶּרֶב עַמָּם"
+        "ja": "אן",
+        "en": "that"
+      },
+      {
+        "ja": "כל מן",
+        "en": "whoever",
+        "he": "כָּל-אֲשֶׁר"
+      },
+      {
+        "ja": "יצנע",
+        "en": "does",
+        "he": "יַעֲשֶׂה"
+      },
+      {
+        "ja": "שייא",
+        "en": "anything"
+      },
+      {
+        "ja": "מן",
+        "en": "of"
+      },
+      {
+        "ja": "גמיע",
+        "en": "all",
+        "he": "מִכֹּל"
+      },
+      {
+        "ja": "הד'ה",
+        "en": "these",
+        "he": "הָאֵלֶּה"
+      },
+      {
+        "ja": "אלמכארה",
+        "en": "abhorrent things",
+        "he": "הַתּוֹעֵבֹת"
+      },
+      {
+        "ja": "תנקטע",
+        "en": "shall be cut off",
+        "he": "וְנִכְרְתוּ"
+      },
+      {
+        "ja": "תלך",
+        "en": "those"
+      },
+      {
+        "ja": "אלנפוס",
+        "en": "souls",
+        "he": "הַנְּפָשׁוֹת"
+      },
+      {
+        "ja": "אלצאנעאת",
+        "en": "that do them",
+        "he": "הָעֹשֹׂת"
+      },
+      {
+        "ja": "מן בין",
+        "en": "from among",
+        "he": "מִקֶּרֶב"
+      },
+      {
+        "ja": "קומהא",
+        "en": "their people",
+        "he": "עַמָּם"
       }
     ],
     "30": [
       {
-        "ja": "ואחפצו מא אסתחפצתכם. ללא תצנעו. מן רסום אלמכארה אלתי צנעת מן קבלכם.",
-        "en": "And keep what I have entrusted to you to keep, so that you do not do any of the customs of the abhorrent things that were done before you,",
-        "he": "וּשְׁמַרְתֶּם אֶת-מִשְׁמַרְתִּי לְבִלְתִּי עֲשׂוֹת מֵחֻקּוֹת הַתּוֹעֵבֹת אֲשֶׁר נַעֲשׂוּ לִפְנֵיכֶם"
+        "ja": "ואחפצו",
+        "en": "And keep",
+        "he": "וּשְׁמַרְתֶּם"
       },
       {
-        "ja": "ולא תעצוני בהא. אנא אללה רבכם אגאזיכם כ'ירא",
-        "en": "and do not disobey Me in them. I am God, your Lord — I shall recompense you with good.",
-        "he": "וְלֹא תִטַּמְּאוּ בָּהֶם אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "מא אסתחפצתכם",
+        "en": "what I have entrusted to you to keep",
+        "he": "אֶת-מִשְׁמַרְתִּי"
+      },
+      {
+        "ja": "ללא תצנעו",
+        "en": "so that you do not do",
+        "he": "לְבִלְתִּי עֲשׂוֹת"
+      },
+      {
+        "ja": "מן",
+        "en": "any of"
+      },
+      {
+        "ja": "רסום",
+        "en": "the customs of",
+        "he": "מֵחֻקּוֹת"
+      },
+      {
+        "ja": "אלמכארה",
+        "en": "the abhorrent things",
+        "he": "הַתּוֹעֵבֹת"
+      },
+      {
+        "ja": "אלתי",
+        "en": "that",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "צנעת",
+        "en": "were done",
+        "he": "נַעֲשׂוּ"
+      },
+      {
+        "ja": "מן קבלכם",
+        "en": "before you",
+        "he": "לִפְנֵיכֶם"
+      },
+      {
+        "ja": "ולא תעצוני",
+        "en": "and do not disobey Me",
+        "he": "וְלֹא תִטַּמְּאוּ"
+      },
+      {
+        "ja": "בהא",
+        "en": "in them",
+        "he": "בָּהֶם"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אגאזיכם כ'ירא",
+        "en": "I shall recompense you with good"
       }
     ]
   }

@@ -1,475 +1,2156 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 11. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_11.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 11. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_11.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "פכלם אללה מוסי' והרון וקאל להמא",
-        "en": "And God spoke to Moses and Aaron, and said to them:",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה וְאֶל-אַהֲרֹן לֵאמֹר אֲלֵהֶם"
+        "ja": "פ",
+        "en": "And"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "והרון",
+        "en": "and Aaron",
+        "he": "וְאֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "וקאל",
+        "en": "and said"
+      },
+      {
+        "ja": "להמא",
+        "en": "to them",
+        "he": "אֲלֵהֶם"
       }
     ],
     "2": [
       {
-        "ja": "כלמא בני אסראיל וקולא להם",
-        "en": "\"Speak to the sons of Israel, and say to them:",
-        "he": "דַּבְּרוּ אֶל-בְּנֵי יִשְׂרָאֵל לֵאמֹר"
+        "ja": "כלמא",
+        "en": "Speak",
+        "he": "דַּבְּרוּ"
       },
       {
-        "ja": "הד'א אלחיואן אלד'י יגוז אן תאכלוה. מן גמיע אלבהאים אלתי עלי' אלארץ'",
-        "en": "This is the animal which it is permitted that you eat, from all the beasts that walk upon the earth:",
-        "he": "זֹאת הַחַיָּה אֲשֶׁר תֹּאכְלוּ מִכָּל-הַבְּהֵמָה אֲשֶׁר עַל-הָאָרֶץ"
+        "ja": "בני",
+        "en": "to the sons of",
+        "he": "אֶל-בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקולא",
+        "en": "and say",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "להם",
+        "en": "to them"
+      },
+      {
+        "ja": "הד'א",
+        "en": "This is",
+        "he": "זֹאת"
+      },
+      {
+        "ja": "אלחיואן",
+        "en": "the animal",
+        "he": "הַחַיָּה"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "which"
+      },
+      {
+        "ja": "יגוז",
+        "en": "it is permitted"
+      },
+      {
+        "ja": "אן",
+        "en": "that"
+      },
+      {
+        "ja": "תאכלוה",
+        "en": "you eat",
+        "he": "תֹּאכְלוּ"
+      },
+      {
+        "ja": "מן גמיע",
+        "en": "from all",
+        "he": "מִכָּל"
+      },
+      {
+        "ja": "אלבהאים",
+        "en": "the beasts",
+        "he": "הַבְּהֵמָה"
+      },
+      {
+        "ja": "אלתי",
+        "en": "that",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "עלי' אלארץ'",
+        "en": "walk upon the earth",
+        "he": "עַל-הָאָרֶץ"
       }
     ],
     "3": [
       {
-        "ja": "כל מצ'לפה בצ'לף. ומפרק צ'לפהא תפריקא. ומצעדה אגתראר מן אלבהאים. פכלוהא",
-        "en": "every one that is hoofed with a hoof, and whose hooves are divided in a division, and that brings up cud, among the beasts — eat it.",
-        "he": "כֹּל מַפְרֶסֶת פַּרְסָה וְשֹׁסַעַת שֶׁסַע פְּרָסֹת מַעֲלַת גֵּרָה בַּבְּהֵמָה--אֹתָהּ תֹּאכֵלוּ"
+        "ja": "כל",
+        "en": "every one",
+        "he": "כֹּל"
+      },
+      {
+        "ja": "מצ'לפה",
+        "en": "that is hoofed",
+        "he": "מַפְרֶסֶת"
+      },
+      {
+        "ja": "בצ'לף",
+        "en": "with a hoof",
+        "he": "פַּרְסָה"
+      },
+      {
+        "ja": "ומפרק",
+        "en": "and whose hooves are divided",
+        "he": "וְשֹׁסַעַת"
+      },
+      {
+        "ja": "צ'לפהא תפריקא",
+        "en": "in a division",
+        "he": "שֶׁסַע פְּרָסֹת"
+      },
+      {
+        "ja": "ומצעדה",
+        "en": "and that brings up",
+        "he": "מַעֲלַת"
+      },
+      {
+        "ja": "אגתראר",
+        "en": "cud",
+        "he": "גֵּרָה"
+      },
+      {
+        "ja": "מן אלבהאים",
+        "en": "among the beasts",
+        "he": "בַּבְּהֵמָה"
+      },
+      {
+        "ja": "פכלוהא",
+        "en": "eat it",
+        "he": "אֹתָהּ תֹּאכֵלוּ"
       }
     ],
     "4": [
       {
-        "ja": "ואמא הד'א פלא תאכלוה מן אלמצעדי אלאגתראר. ואלמפרק אלצלף",
-        "en": "But this you shall not eat, from those that bring up cud and those that are divided of hoof:",
-        "he": "אַךְ אֶת-זֶה לֹא תֹאכְלוּ מִמַּעֲלֵי הַגֵּרָה וּמִמַּפְרִסֵי הַפַּרְסָה"
+        "ja": "ואמא",
+        "en": "But"
       },
       {
-        "ja": "אלגמל. פאנה מצעד אגתראר. ג'יר מצ'לף בצ'לף. והו נגס לכם",
-        "en": "the camel — for it brings up cud yet is not hoofed with a hoof; it is impure for you.",
-        "he": "אֶת-הַגָּמָל כִּי-מַעֲלֵה גֵרָה הוּא וּפַרְסָה אֵינֶנּוּ מַפְרִיס--טָמֵא הוּא לָכֶם"
+        "ja": "הד'א",
+        "en": "this",
+        "he": "אַךְ אֶת-זֶה"
+      },
+      {
+        "ja": "פלא תאכלוה",
+        "en": "you shall not eat, from those that bring up cud",
+        "he": "לֹא תֹאכְלוּ"
+      },
+      {
+        "ja": "מן אלמצעדי אלאגתראר",
+        "en": "and those that are divided of hoof",
+        "he": "מִמַּעֲלֵי הַגֵּרָה"
+      },
+      {
+        "ja": "ואלמפרק אלצלף",
+        "en": "the camel",
+        "he": "וּמִמַּפְרִסֵי הַפַּרְסָה"
+      },
+      {
+        "ja": "אלגמל",
+        "en": "for it brings up cud",
+        "he": "אֶת-הַגָּמָל"
+      },
+      {
+        "ja": "פאנה מצעד אגתראר",
+        "en": "yet",
+        "he": "כִּי-מַעֲלֵה גֵרָה"
+      },
+      {
+        "ja": "ג'יר מצ'לף בצ'לף",
+        "en": "is not hoofed with a hoof",
+        "he": "וּפַרְסָה אֵינֶנּוּ מַפְרִיס"
+      },
+      {
+        "ja": "והו נגס",
+        "en": "it is impure",
+        "he": "טָמֵא הוּא"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
       }
     ],
     "5": [
       {
-        "ja": "ואלובר פאנה מצעד אגתראר. ג'יר מצ'לף בצ'לף. והו נגס לכם",
-        "en": "And the hyrax — for it brings up cud yet is not hoofed with a hoof; it is impure for you.",
-        "he": "וְאֶת-הַשָּׁפָן כִּי-מַעֲלֵה גֵרָה הוּא וּפַרְסָה לֹא יַפְרִיס טָמֵא הוּא לָכֶם"
+        "ja": "ואלובר",
+        "en": "And the hyrax",
+        "he": "וְאֶת-הַשָּׁפָן"
+      },
+      {
+        "ja": "פ",
+        "en": "for it"
+      },
+      {
+        "ja": "אנה",
+        "en": "brings up"
+      },
+      {
+        "ja": "מצעד",
+        "en": "cud",
+        "he": "כִּי-מַעֲלֵה"
+      },
+      {
+        "ja": "אגתראר",
+        "en": "yet",
+        "he": "גֵרָה"
+      },
+      {
+        "ja": "ג'יר מצ'לף בצ'לף",
+        "en": "is not hoofed with a hoof",
+        "he": "וּפַרְסָה לֹא יַפְרִיס"
+      },
+      {
+        "ja": "והו נגס",
+        "en": "it is impure",
+        "he": "טָמֵא הוּא"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
       }
     ],
     "6": [
       {
-        "ja": "ואלארנב. פאנהא מצעדה אגתראר. והי ג'יר מצ'לפה. והי נגסה לכם",
-        "en": "And the hare — for it brings up cud, yet it is not hoofed; it is impure for you.",
-        "he": "וְאֶת-הָאַרְנֶבֶת כִּי-מַעֲלַת גֵּרָה הִוא וּפַרְסָה לֹא הִפְרִיסָה טְמֵאָה הִוא לָכֶם"
+        "ja": "ואלארנב",
+        "en": "And the hare",
+        "he": "וְאֶת-הָאַרְנֶבֶת"
+      },
+      {
+        "ja": "פ",
+        "en": "for"
+      },
+      {
+        "ja": "אנהא",
+        "en": "it"
+      },
+      {
+        "ja": "מצעדה",
+        "en": "brings up",
+        "he": "כִּי-מַעֲלַת"
+      },
+      {
+        "ja": "אגתראר",
+        "en": "cud",
+        "he": "גֵּרָה"
+      },
+      {
+        "ja": "והי ג'יר מצ'לפה",
+        "en": "yet it is not hoofed",
+        "he": "וּפַרְסָה לֹא הִפְרִיסָה"
+      },
+      {
+        "ja": "והי נגסה",
+        "en": "it is impure",
+        "he": "טְמֵאָה"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
       }
     ],
     "7": [
       {
-        "ja": "ואלכ'נזיר פאנה מצ'לף בצ'לף. וצ'לפה מפרק תפריקא",
-        "en": "And the swine — for it is hoofed with a hoof, and its hoof is divided in a division,",
-        "he": "וְאֶת-הַחֲזִיר כִּי-מַפְרִיס פַּרְסָה הוּא וְשֹׁסַע שֶׁסַע פַּרְסָה"
+        "ja": "ואלכ'נזיר",
+        "en": "And the swine",
+        "he": "וְאֶת-הַחֲזִיר"
       },
       {
-        "ja": "והו אגתראר לא יגתר. פהו נגס לכם",
-        "en": "yet it is one that does not chew cud; it is impure for you.",
-        "he": "וְהוּא גֵּרָה לֹא-יִגָּר טָמֵא הוּא לָכֶם"
+        "ja": "פ",
+        "en": "for"
+      },
+      {
+        "ja": "אנה",
+        "en": "it"
+      },
+      {
+        "ja": "מצ'לף",
+        "en": "is hoofed",
+        "he": "כִּי-מַפְרִיס"
+      },
+      {
+        "ja": "בצ'לף",
+        "en": "with a hoof",
+        "he": "פַּרְסָה"
+      },
+      {
+        "ja": "וצ'לפה מפרק",
+        "en": "and its hoof is divided",
+        "he": "וְשֹׁסַע"
+      },
+      {
+        "ja": "תפריקא",
+        "en": "in a division",
+        "he": "שֶׁסַע פַּרְסָה"
+      },
+      {
+        "ja": "והו אגתראר",
+        "en": "yet it is one",
+        "he": "וְהוּא גֵּרָה"
+      },
+      {
+        "ja": "לא יגתר",
+        "en": "that does not chew cud",
+        "he": "לֹא-יִגָּר"
+      },
+      {
+        "ja": "פהו נגס",
+        "en": "it is impure",
+        "he": "טָמֵא"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
       }
     ],
     "8": [
       {
-        "ja": "מן לחומהא לא תאכלו. ובנבאילהא לא תדנו. כד'אך הי נגסה לכם",
-        "en": "Of their flesh you shall not eat, and to their carcasses you shall not approach; thus they are impure for you.",
-        "he": "מִבְּשָׂרָם לֹא תֹאכֵלוּ וּבְנִבְלָתָם לֹא תִגָּעוּ טְמֵאִים הֵם לָכֶם"
+        "ja": "מן לחומהא",
+        "en": "Of their flesh",
+        "he": "מִבְּשָׂרָם"
+      },
+      {
+        "ja": "לא תאכלו",
+        "en": "you shall not eat",
+        "he": "לֹא תֹאכֵלוּ"
+      },
+      {
+        "ja": "ובנבאילהא",
+        "en": "and to their carcasses",
+        "he": "וּבְנִבְלָתָם"
+      },
+      {
+        "ja": "לא תדנו",
+        "en": "you shall not approach",
+        "he": "לֹא תִגָּעוּ"
+      },
+      {
+        "ja": "כד'אך",
+        "en": "thus"
+      },
+      {
+        "ja": "הי נגסה",
+        "en": "they are impure",
+        "he": "טְמֵאִים"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
       }
     ],
     "9": [
       {
-        "ja": "הד'א מא יגוז אן תאכלוה. מן גמיע מא פי אלמא",
-        "en": "This is what it is permitted that you eat from all that is in the water:",
-        "he": "אֶת-זֶה תֹּאכְלוּ מִכֹּל אֲשֶׁר בַּמָּיִם"
+        "ja": "הד'א",
+        "en": "This",
+        "he": "אֶת-זֶה"
       },
       {
-        "ja": "כל מא לה אגנחה ופלוס פי אלמא. פי אלבחאר ואלאודיה פכלוה",
-        "en": "everything that has fins and scales in the water, in the seas and the wadis — eat it.",
-        "he": "כֹּל אֲשֶׁר-לוֹ סְנַפִּיר וְקַשְׂקֶשֶׂת בַּמַּיִם בַּיַּמִּים וּבַנְּחָלִים--אֹתָם תֹּאכֵלוּ"
+        "ja": "מא",
+        "en": "is what"
+      },
+      {
+        "ja": "יגוז",
+        "en": "it is permitted"
+      },
+      {
+        "ja": "אן",
+        "en": "that"
+      },
+      {
+        "ja": "תאכלוה",
+        "en": "you eat",
+        "he": "תֹּאכְלוּ"
+      },
+      {
+        "ja": "מן גמיע",
+        "en": "from all",
+        "he": "מִכֹּל"
+      },
+      {
+        "ja": "מא פי אלמא",
+        "en": "that is in the water",
+        "he": "אֲשֶׁר בַּמָּיִם"
+      },
+      {
+        "ja": "כל",
+        "en": "everything",
+        "he": "כֹּל"
+      },
+      {
+        "ja": "מא",
+        "en": "that"
+      },
+      {
+        "ja": "לה",
+        "en": "has",
+        "he": "אֲשֶׁר-לוֹ"
+      },
+      {
+        "ja": "אגנחה",
+        "en": "fins",
+        "he": "סְנַפִּיר"
+      },
+      {
+        "ja": "ופלוס",
+        "en": "and scales",
+        "he": "וְקַשְׂקֶשֶׂת"
+      },
+      {
+        "ja": "פי אלמא",
+        "en": "in the water",
+        "he": "בַּמַּיִם"
+      },
+      {
+        "ja": "פי אלבחאר",
+        "en": "in the seas",
+        "he": "בַּיַּמִּים"
+      },
+      {
+        "ja": "ואלאודיה",
+        "en": "and the wadis",
+        "he": "וּבַנְּחָלִים"
+      },
+      {
+        "ja": "פכלוה",
+        "en": "eat it",
+        "he": "אֹתָם תֹּאכֵלוּ"
       }
     ],
     "10": [
       {
-        "ja": "וכל מא ליס לה אגנחה ופלוס. פי אלבחאר ואלאודיה",
-        "en": "But everything that has no fins and scales, in the seas and the wadis,",
-        "he": "וְכֹל אֲשֶׁר אֵין-לוֹ סְנַפִּיר וְקַשְׂקֶשֶׂת בַּיַּמִּים וּבַנְּחָלִים"
+        "ja": "וכל",
+        "en": "But everything",
+        "he": "וְכֹל"
       },
       {
-        "ja": "מן גמיע דביב אלמא. וגמיע אלחיואן אלד'י פי אלמא. פהו רגס לכם",
-        "en": "from all the creeping things of the water, and all the animals that are in the water — it is an abomination for you.",
-        "he": "מִכֹּל שֶׁרֶץ הַמַּיִם וּמִכֹּל נֶפֶשׁ הַחַיָּה אֲשֶׁר בַּמָּיִם--שֶׁקֶץ הֵם לָכֶם"
+        "ja": "מא",
+        "en": "that"
+      },
+      {
+        "ja": "ליס לה",
+        "en": "has no",
+        "he": "אֲשֶׁר אֵין-לוֹ"
+      },
+      {
+        "ja": "אגנחה",
+        "en": "fins",
+        "he": "סְנַפִּיר"
+      },
+      {
+        "ja": "ופלוס",
+        "en": "and scales",
+        "he": "וְקַשְׂקֶשֶׂת"
+      },
+      {
+        "ja": "פי אלבחאר",
+        "en": "in the seas",
+        "he": "בַּיַּמִּים"
+      },
+      {
+        "ja": "ואלאודיה",
+        "en": "and the wadis",
+        "he": "וּבַנְּחָלִים"
+      },
+      {
+        "ja": "מן גמיע",
+        "en": "from all",
+        "he": "מִכֹּל"
+      },
+      {
+        "ja": "דביב אלמא",
+        "en": "the creeping things of the water",
+        "he": "שֶׁרֶץ הַמַּיִם"
+      },
+      {
+        "ja": "וגמיע",
+        "en": "and all",
+        "he": "וּמִכֹּל"
+      },
+      {
+        "ja": "אלחיואן",
+        "en": "the animals",
+        "he": "נֶפֶשׁ הַחַיָּה"
+      },
+      {
+        "ja": "אלד'י פי אלמא",
+        "en": "that are in the water",
+        "he": "אֲשֶׁר בַּמָּיִם"
+      },
+      {
+        "ja": "פהו רגס",
+        "en": "it is an abomination",
+        "he": "שֶׁקֶץ"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
       }
     ],
     "11": [
       {
-        "ja": "וכונהא ארגאס לכם. מן לחומהא לא תאכלו",
-        "en": "Their being abominations for you — of their flesh you shall not eat,",
-        "he": "וְשֶׁקֶץ יִהְיוּ לָכֶם מִבְּשָׂרָם לֹא תֹאכֵלוּ"
+        "ja": "וכונהא ארגאס",
+        "en": "Their being abominations",
+        "he": "וְשֶׁקֶץ יִהְיוּ"
       },
       {
-        "ja": "ונבאילהא תרגסו",
-        "en": "and their carcasses you shall treat as abominations.",
-        "he": "וְאֶת-נִבְלָתָם תְּשַׁקֵּצוּ"
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "מן לחומהא",
+        "en": "of their flesh",
+        "he": "מִבְּשָׂרָם"
+      },
+      {
+        "ja": "לא תאכלו",
+        "en": "you shall not eat",
+        "he": "לֹא תֹאכֵלוּ"
+      },
+      {
+        "ja": "ונבאילהא",
+        "en": "and their carcasses",
+        "he": "וְאֶת-נִבְלָתָם"
+      },
+      {
+        "ja": "תרגסו",
+        "en": "you shall treat as abominations",
+        "he": "תְּשַׁקֵּצוּ"
       }
     ],
     "12": [
       {
-        "ja": "כד'אך כל מא ליס לה. אגנחה ופלוס פי אלמא. פהו רגס לכם",
-        "en": "Thus everything that has no fins and scales in the water — it is an abomination for you.",
-        "he": "כֹּל אֲשֶׁר אֵין-לוֹ סְנַפִּיר וְקַשְׂקֶשֶׂת בַּמָּיִם--שֶׁקֶץ הוּא לָכֶם"
+        "ja": "כד'אך",
+        "en": "Thus"
+      },
+      {
+        "ja": "כל",
+        "en": "everything",
+        "he": "כֹּל"
+      },
+      {
+        "ja": "מא",
+        "en": "that"
+      },
+      {
+        "ja": "ליס לה",
+        "en": "has no",
+        "he": "אֲשֶׁר אֵין-לוֹ"
+      },
+      {
+        "ja": "אגנחה",
+        "en": "fins",
+        "he": "סְנַפִּיר"
+      },
+      {
+        "ja": "ופלוס",
+        "en": "and scales",
+        "he": "וְקַשְׂקֶשֶׂת"
+      },
+      {
+        "ja": "פי אלמא",
+        "en": "in the water",
+        "he": "בַּמָּיִם"
+      },
+      {
+        "ja": "פהו רגס",
+        "en": "it is an abomination",
+        "he": "שֶׁקֶץ"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
       }
     ],
     "13": [
       {
-        "ja": "והד'א מא תרגסו מן אלטאיר. לא יוכלו אנהא ארגאס",
-        "en": "And these are what you shall treat as abominations from the birds — they shall not be eaten, for they are abominations:",
-        "he": "וְאֶת-אֵלֶּה תְּשַׁקְּצוּ מִן-הָעוֹף לֹא יֵאָכְלוּ שֶׁקֶץ הֵם"
+        "ja": "והד'א",
+        "en": "And these",
+        "he": "וְאֶת-אֵלֶּה"
       },
       {
-        "ja": "אלנסר ואלעקאב ואלענקא",
-        "en": "the vulture, and the eagle, and the 'anqah.",
-        "he": "אֶת-הַנֶּשֶׁר וְאֶת-הַפֶּרֶס וְאֵת הָעָזְנִיָּה"
+        "ja": "מא",
+        "en": "are what"
+      },
+      {
+        "ja": "תרגסו",
+        "en": "you shall treat as abominations",
+        "he": "תְּשַׁקְּצוּ"
+      },
+      {
+        "ja": "מן אלטאיר",
+        "en": "from the birds",
+        "he": "מִן-הָעוֹף"
+      },
+      {
+        "ja": "לא יוכלו",
+        "en": "they shall not be eaten",
+        "he": "לֹא יֵאָכְלוּ"
+      },
+      {
+        "ja": "אנהא",
+        "en": "for they are"
+      },
+      {
+        "ja": "ארגאס",
+        "en": "abominations",
+        "he": "שֶׁקֶץ הֵם"
+      },
+      {
+        "ja": "אלנסר",
+        "en": "the vulture",
+        "he": "אֶת-הַנֶּשֶׁר"
+      },
+      {
+        "ja": "ואלעקאב",
+        "en": "and the eagle",
+        "he": "וְאֶת-הַפֶּרֶס"
+      },
+      {
+        "ja": "ואלענקא",
+        "en": "and the 'anqah",
+        "he": "וְאֵת הָעָזְנִיָּה"
       }
     ],
     "14": [
       {
-        "ja": "ואלחדא. ואלצדא באצנאפהא",
-        "en": "And the kite, and the buzzard according to its kinds.",
-        "he": "וְאֶת-הַדָּאָה--וְאֶת-הָאַיָּה לְמִינָהּ"
+        "ja": "ואלחדא",
+        "en": "And the kite",
+        "he": "וְאֶת-הַדָּאָה"
+      },
+      {
+        "ja": "ואלצדא",
+        "en": "and the buzzard",
+        "he": "וְאֶת-הָאַיָּה"
+      },
+      {
+        "ja": "באצנאפהא",
+        "en": "according to its kinds",
+        "he": "לְמִינָהּ"
       }
     ],
     "15": [
       {
-        "ja": "וגמיע אלג'ראביב באצנאפהא",
-        "en": "And all the ravens according to their kinds.",
-        "he": "אֵת כָּל-עֹרֵב לְמִינוֹ"
+        "ja": "וגמיע אלג'ראביב",
+        "en": "And all the ravens",
+        "he": "אֵת כָּל-עֹרֵב"
+      },
+      {
+        "ja": "באצנאפהא",
+        "en": "according to their kinds",
+        "he": "לְמִינוֹ"
       }
     ],
     "16": [
       {
-        "ja": "ואלנעאמה. ואלכ'טאף ואלסאף. ואלבאז לאצנאפה",
-        "en": "And the ostrich, and the swift and the 'saf', and the hawk according to its kinds.",
-        "he": "וְאֵת בַּת הַיַּעֲנָה וְאֶת-הַתַּחְמָס וְאֶת-הַשָּׁחַף וְאֶת-הַנֵּץ לְמִינֵהוּ"
+        "ja": "ואלנעאמה",
+        "en": "And the ostrich",
+        "he": "וְאֵת בַּת הַיַּעֲנָה"
+      },
+      {
+        "ja": "ואלכ'טאף",
+        "en": "and the swift",
+        "he": "וְאֶת-הַתַּחְמָס"
+      },
+      {
+        "ja": "ואלסאף",
+        "en": "and the 'saf'",
+        "he": "וְאֶת-הַשָּׁחַף"
+      },
+      {
+        "ja": "ואלבאז",
+        "en": "and the hawk",
+        "he": "וְאֶת-הַנֵּץ"
+      },
+      {
+        "ja": "לאצנאפה",
+        "en": "according to its kinds",
+        "he": "לְמִינֵהוּ"
       }
     ],
     "17": [
       {
-        "ja": "ואלבום ואלזמג ואלבאשק",
-        "en": "And the owl, and the cormorant, and the eagle-owl.",
-        "he": "וְאֶת-הַכּוֹס וְאֶת-הַשָּׁלָךְ וְאֶת-הַיַּנְשׁוּף"
+        "ja": "ואלבום",
+        "en": "And the owl",
+        "he": "וְאֶת-הַכּוֹס"
+      },
+      {
+        "ja": "ואלזמג",
+        "en": "and the cormorant",
+        "he": "וְאֶת-הַשָּׁלָךְ"
+      },
+      {
+        "ja": "ואלבאשק",
+        "en": "and the eagle-owl",
+        "he": "וְאֶת-הַיַּנְשׁוּף"
       }
     ],
     "18": [
       {
-        "ja": "ואלשאהין ואלקו ואלרכ'ם",
-        "en": "And the falcon, and the pelican, and the vulture.",
-        "he": "וְאֶת-הַתִּנְשֶׁמֶת וְאֶת-הַקָּאָת וְאֶת-הָרָחָם"
+        "ja": "ואלשאהין",
+        "en": "And the falcon",
+        "he": "וְאֶת-הַתִּנְשֶׁמֶת"
+      },
+      {
+        "ja": "ואלקו",
+        "en": "and the pelican",
+        "he": "וְאֶת-הַקָּאָת"
+      },
+      {
+        "ja": "ואלרכ'ם",
+        "en": "and the vulture",
+        "he": "וְאֶת-הָרָחָם"
       }
     ],
     "19": [
       {
-        "ja": "ואלצקר ואלבג'בג'ה באצנאפהא. ואלהדהד ואלכ'פאש",
-        "en": "And the saker and the parrot according to its kinds, and the hoopoe and the bat.",
-        "he": "וְאֵת הַחֲסִידָה הָאֲנָפָה לְמִינָהּ וְאֶת-הַדּוּכִיפַת וְאֶת-הָעֲטַלֵּף"
+        "ja": "ואלצקר",
+        "en": "And the saker",
+        "he": "וְאֵת הַחֲסִידָה"
+      },
+      {
+        "ja": "ואלבג'בג'ה",
+        "en": "and the parrot",
+        "he": "הָאֲנָפָה"
+      },
+      {
+        "ja": "באצנאפהא",
+        "en": "according to its kinds",
+        "he": "לְמִינָהּ"
+      },
+      {
+        "ja": "ואלהדהד",
+        "en": "and the hoopoe",
+        "he": "וְאֶת-הַדּוּכִיפַת"
+      },
+      {
+        "ja": "ואלכ'פאש",
+        "en": "and the bat",
+        "he": "וְאֶת-הָעֲטַלֵּף"
       }
     ],
     "20": [
       {
-        "ja": "וגמיע דביב אלטאיר. אלסאלך עלי' ארבע. רגס הו לכם",
-        "en": "And all the creeping things of the birds that walk on four — it is an abomination for you.",
-        "he": "כֹּל שֶׁרֶץ הָעוֹף הַהֹלֵךְ עַל-אַרְבַּע--שֶׁקֶץ הוּא לָכֶם"
+        "ja": "וגמיע",
+        "en": "And all",
+        "he": "כֹּל"
+      },
+      {
+        "ja": "דביב אלטאיר",
+        "en": "the creeping things of the birds",
+        "he": "שֶׁרֶץ הָעוֹף"
+      },
+      {
+        "ja": "אלסאלך",
+        "en": "that walk",
+        "he": "הַהֹלֵךְ"
+      },
+      {
+        "ja": "עלי' ארבע",
+        "en": "on four",
+        "he": "עַל-אַרְבַּע"
+      },
+      {
+        "ja": "רגס",
+        "en": "an abomination",
+        "he": "שֶׁקֶץ"
+      },
+      {
+        "ja": "הו",
+        "en": "it is"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
       }
     ],
     "21": [
       {
-        "ja": "והד'א מא יגוז אן תאכלוה. מן גמיע דביב אלטאיר. אלסאלך עלי' ארבע",
-        "en": "But this is what it is permitted that you eat from all the creeping things of the birds that walk on four:",
-        "he": "אַךְ אֶת-זֶה תֹּאכְלוּ מִכֹּל שֶׁרֶץ הָעוֹף הַהֹלֵךְ עַל-אַרְבַּע"
+        "ja": "ו",
+        "en": "But"
       },
       {
-        "ja": "מא לה כראעין פוק רגליה. לית'ב בהמא עלי' אלארץ'",
-        "en": "whatever has two jumping-legs above its feet, with which to leap upon the earth.",
-        "he": "אֲשֶׁר-לא (לוֹ) כְרָעַיִם מִמַּעַל לְרַגְלָיו לְנַתֵּר בָּהֵן עַל-הָאָרֶץ"
+        "ja": "הד'א",
+        "en": "this",
+        "he": "אַךְ אֶת-זֶה"
+      },
+      {
+        "ja": "מא",
+        "en": "is what"
+      },
+      {
+        "ja": "יגוז",
+        "en": "it is permitted"
+      },
+      {
+        "ja": "אן",
+        "en": "that"
+      },
+      {
+        "ja": "תאכלוה",
+        "en": "you eat",
+        "he": "תֹּאכְלוּ"
+      },
+      {
+        "ja": "מן גמיע",
+        "en": "from all",
+        "he": "מִכֹּל"
+      },
+      {
+        "ja": "דביב אלטאיר",
+        "en": "the creeping things of the birds",
+        "he": "שֶׁרֶץ הָעוֹף"
+      },
+      {
+        "ja": "אלסאלך",
+        "en": "that walk",
+        "he": "הַהֹלֵךְ"
+      },
+      {
+        "ja": "עלי' ארבע",
+        "en": "on four",
+        "he": "עַל-אַרְבַּע"
+      },
+      {
+        "ja": "מא",
+        "en": "whatever"
+      },
+      {
+        "ja": "לה",
+        "en": "has",
+        "he": "אֲשֶׁר-לא (לוֹ)"
+      },
+      {
+        "ja": "כראעין",
+        "en": "two jumping-legs",
+        "he": "כְרָעַיִם"
+      },
+      {
+        "ja": "פוק",
+        "en": "above",
+        "he": "מִמַּעַל"
+      },
+      {
+        "ja": "רגליה",
+        "en": "its feet",
+        "he": "לְרַגְלָיו"
+      },
+      {
+        "ja": "לית'ב",
+        "en": "with which to leap",
+        "he": "לְנַתֵּר"
+      },
+      {
+        "ja": "בהמא",
+        "en": "upon",
+        "he": "בָּהֵן"
+      },
+      {
+        "ja": "עלי' אלארץ'",
+        "en": "the earth",
+        "he": "עַל-הָאָרֶץ"
       }
     ],
     "22": [
       {
-        "ja": "הד'א מא תאכלוה מנהא",
-        "en": "These are what you may eat from them:",
-        "he": "אֶת-אֵלֶּה מֵהֶם תֹּאכֵלוּ"
+        "ja": "הד'א",
+        "en": "These are",
+        "he": "אֶת-אֵלֶּה"
       },
       {
-        "ja": "אלגראד וצנופה. ואלדבא וצנופה. ואלחרגל וצנופה. ואלגנדב וצנופה",
-        "en": "the locust and its kinds, and the duba and its kinds, and the harjal and its kinds, and the grasshopper and its kinds.",
-        "he": "אֶת-הָאַרְבֶּה לְמִינוֹ וְאֶת-הַסָּלְעָם לְמִינֵהוּ וְאֶת-הַחַרְגֹּל לְמִינֵהוּ וְאֶת-הֶחָגָב לְמִינֵהוּ"
+        "ja": "מא",
+        "en": "what"
+      },
+      {
+        "ja": "תאכלוה",
+        "en": "you may eat",
+        "he": "תֹּאכֵלוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from them",
+        "he": "מֵהֶם"
+      },
+      {
+        "ja": "אלגראד",
+        "en": "the locust",
+        "he": "אֶת-הָאַרְבֶּה"
+      },
+      {
+        "ja": "וצנופה",
+        "en": "and its kinds",
+        "he": "לְמִינוֹ"
+      },
+      {
+        "ja": "ואלדבא",
+        "en": "and the duba",
+        "he": "וְאֶת-הַסָּלְעָם"
+      },
+      {
+        "ja": "וצנופה",
+        "en": "and its kinds",
+        "he": "לְמִינֵהוּ"
+      },
+      {
+        "ja": "ואלחרגל",
+        "en": "and the harjal",
+        "he": "וְאֶת-הַחַרְגֹּל"
+      },
+      {
+        "ja": "וצנופה",
+        "en": "and its kinds",
+        "he": "לְמִינֵהוּ"
+      },
+      {
+        "ja": "ואלגנדב",
+        "en": "and the grasshopper",
+        "he": "וְאֶת-הֶחָגָב"
+      },
+      {
+        "ja": "וצנופה",
+        "en": "and its kinds",
+        "he": "לְמִינֵהוּ"
       }
     ],
     "23": [
       {
-        "ja": "וסאיר דביב אלטאיר. אלד'י לה ארבע ארגל. פהו רגס לכם",
-        "en": "And the rest of the creeping things of the birds that have four legs — it is an abomination for you.",
-        "he": "וְכֹל שֶׁרֶץ הָעוֹף אֲשֶׁר-לוֹ אַרְבַּע רַגְלָיִם--שֶׁקֶץ הוּא לָכֶם"
+        "ja": "וסאיר",
+        "en": "And the rest of",
+        "he": "וְכֹל"
+      },
+      {
+        "ja": "דביב אלטאיר",
+        "en": "the creeping things of the birds",
+        "he": "שֶׁרֶץ הָעוֹף"
+      },
+      {
+        "ja": "אלד'י לה",
+        "en": "that have",
+        "he": "אֲשֶׁר-לוֹ"
+      },
+      {
+        "ja": "ארבע",
+        "en": "four",
+        "he": "אַרְבַּע"
+      },
+      {
+        "ja": "ארגל",
+        "en": "legs",
+        "he": "רַגְלָיִם"
+      },
+      {
+        "ja": "פהו רגס",
+        "en": "it is an abomination",
+        "he": "שֶׁקֶץ"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
       }
     ],
     "24": [
       {
-        "ja": "ומן הד'ה פאנגסו. כל מן דנא בנבאילהם. יג'סל ת'יאבה וינגס אלי' אלמגיב",
-        "en": "And by these you shall become impure: every one who approaches their carcasses shall wash his garments and be impure until the setting.",
-        "he": "וּלְאֵלֶּה תִּטַּמָּאוּ כָּל-הַנֹּגֵעַ בְּנִבְלָתָם יִטְמָא עַד-הָעָרֶב"
+        "ja": "ומן הד'ה",
+        "en": "And by these",
+        "he": "וּלְאֵלֶּה"
+      },
+      {
+        "ja": "פאנגסו",
+        "en": "you shall become impure",
+        "he": "תִּטַּמָּאוּ"
+      },
+      {
+        "ja": "כל מן דנא",
+        "en": "every one who approaches",
+        "he": "כָּל-הַנֹּגֵעַ"
+      },
+      {
+        "ja": "בנבאילהם",
+        "en": "their carcasses",
+        "he": "בְּנִבְלָתָם"
+      },
+      {
+        "ja": "יג'סל",
+        "en": "shall wash"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments"
+      },
+      {
+        "ja": "ו",
+        "en": "and"
+      },
+      {
+        "ja": "ינגס",
+        "en": "be impure",
+        "he": "יִטְמָא"
+      },
+      {
+        "ja": "אלי'",
+        "en": "until"
+      },
+      {
+        "ja": "אלמגיב",
+        "en": "the setting",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "25": [
       {
-        "ja": "וכל מן חמל מן נבאילהם. גסל ת'יאבה וינגס אלי' אלמג'יב",
-        "en": "And every one who carries from their carcasses shall wash his garments and be impure until the setting.",
-        "he": "וְכָל-הַנֹּשֵׂא מִנִּבְלָתָם--יְכַבֵּס בְּגָדָיו וְטָמֵא עַד-הָעָרֶב"
+        "ja": "וכל מן חמל",
+        "en": "And every one who carries",
+        "he": "וְכָל-הַנֹּשֵׂא"
+      },
+      {
+        "ja": "מן נבאילהם",
+        "en": "from their carcasses",
+        "he": "מִנִּבְלָתָם"
+      },
+      {
+        "ja": "גסל",
+        "en": "shall wash",
+        "he": "יְכַבֵּס"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until the setting",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "26": [
       {
-        "ja": "מן גמיע אלבהאים. אלתי הי מצ'לפה בצ'לף. ותפריק ליסהא מפרקה. ואגתראר ליסהא מצעדה. פהי נגסה לכם",
-        "en": "From all the beasts that are hoofed with a hoof, yet division is not in them as divided, and cud-chewing is not in them as bringing up — they are impure for you;",
-        "he": "לְכָל-הַבְּהֵמָה אֲשֶׁר הִוא מַפְרֶסֶת פַּרְסָה וְשֶׁסַע אֵינֶנָּה שֹׁסַעַת וְגֵרָה אֵינֶנָּה מַעֲלָה--טְמֵאִים הֵם לָכֶם"
+        "ja": "מן גמיע אלבהאים",
+        "en": "From all the beasts",
+        "he": "לְכָל-הַבְּהֵמָה"
       },
       {
-        "ja": "כל מן דנא בהא ינגס",
-        "en": "every one who approaches them shall be impure.",
-        "he": "כָּל-הַנֹּגֵעַ בָּהֶם יִטְמָא"
+        "ja": "אלתי הי",
+        "en": "that are",
+        "he": "אֲשֶׁר הִוא"
+      },
+      {
+        "ja": "מצ'לפה",
+        "en": "hoofed",
+        "he": "מַפְרֶסֶת"
+      },
+      {
+        "ja": "בצ'לף",
+        "en": "with a hoof",
+        "he": "פַּרְסָה"
+      },
+      {
+        "ja": "ותפריק ליסהא מפרקה",
+        "en": "yet division is not in them as divided",
+        "he": "וְשֶׁסַע אֵינֶנָּה שֹׁסַעַת"
+      },
+      {
+        "ja": "ואגתראר ליסהא מצעדה",
+        "en": "and cud-chewing is not in them as bringing up",
+        "he": "וְגֵרָה אֵינֶנָּה מַעֲלָה"
+      },
+      {
+        "ja": "פהי נגסה",
+        "en": "they are impure",
+        "he": "טְמֵאִים"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "כל מן דנא",
+        "en": "every one who approaches",
+        "he": "כָּל-הַנֹּגֵעַ"
+      },
+      {
+        "ja": "בהא",
+        "en": "them",
+        "he": "בָּהֶם"
+      },
+      {
+        "ja": "ינגס",
+        "en": "shall be impure",
+        "he": "יִטְמָא"
       }
     ],
     "27": [
       {
-        "ja": "וכל סאלך עלי' כפיה. מן גמיע אלוחש אלסאלך עלי' ארבע. פהו נגס לכם",
-        "en": "And every one that walks on its paws, from all the wild creatures that walk on four — it is impure for you;",
-        "he": "וְכֹל הוֹלֵךְ עַל-כַּפָּיו בְּכָל-הַחַיָּה הַהֹלֶכֶת עַל-אַרְבַּע--טְמֵאִים הֵם לָכֶם"
+        "ja": "וכל",
+        "en": "And every one",
+        "he": "וְכֹל"
       },
       {
-        "ja": "כל מן דנא בנבאילהם ינגס אלי' אלמג'יב",
-        "en": "every one who approaches their carcasses shall be impure until the setting.",
-        "he": "כָּל-הַנֹּגֵעַ בְּנִבְלָתָם יִטְמָא עַד-הָעָרֶב"
+        "ja": "סאלך",
+        "en": "that walks",
+        "he": "הוֹלֵךְ"
+      },
+      {
+        "ja": "עלי' כפיה",
+        "en": "on its paws",
+        "he": "עַל-כַּפָּיו"
+      },
+      {
+        "ja": "מן גמיע אלוחש",
+        "en": "from all the wild creatures",
+        "he": "בְּכָל-הַחַיָּה"
+      },
+      {
+        "ja": "אלסאלך",
+        "en": "that walk",
+        "he": "הַהֹלֶכֶת"
+      },
+      {
+        "ja": "עלי' ארבע",
+        "en": "on four",
+        "he": "עַל-אַרְבַּע"
+      },
+      {
+        "ja": "פהו נגס",
+        "en": "it is impure",
+        "he": "טְמֵאִים"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "כל מן דנא",
+        "en": "every one who approaches",
+        "he": "כָּל-הַנֹּגֵעַ"
+      },
+      {
+        "ja": "בנבאילהם",
+        "en": "their carcasses",
+        "he": "בְּנִבְלָתָם"
+      },
+      {
+        "ja": "ינגס",
+        "en": "shall be impure",
+        "he": "יִטְמָא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until the setting",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "28": [
       {
-        "ja": "ומן חמל מן נבאילהם. יג'סל ת'יאבה וינגס אלי' אלמג'יב",
-        "en": "And whoever carries from their carcasses shall wash his garments and be impure until the setting.",
-        "he": "וְהַנֹּשֵׂא אֶת-נִבְלָתָם--יְכַבֵּס בְּגָדָיו וְטָמֵא עַד-הָעָרֶב"
+        "ja": "ומן חמל",
+        "en": "And whoever carries",
+        "he": "וְהַנֹּשֵׂא"
       },
       {
-        "ja": "כד'אך הי אנגאס לכם",
-        "en": "Thus they are impurities for you.",
-        "he": "טְמֵאִים הֵמָּה לָכֶם"
+        "ja": "מן נבאילהם",
+        "en": "from their carcasses",
+        "he": "אֶת-נִבְלָתָם"
+      },
+      {
+        "ja": "יג'סל",
+        "en": "shall wash",
+        "he": "יְכַבֵּס"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until the setting",
+        "he": "עַד-הָעָרֶב"
+      },
+      {
+        "ja": "כד'אך",
+        "en": "Thus"
+      },
+      {
+        "ja": "הי אנגאס",
+        "en": "they are impurities",
+        "he": "טְמֵאִים הֵמָּה"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
       }
     ],
     "29": [
       {
-        "ja": "והד'א לכם אלנגס. מן אלדביב אלדאב עלי' אלארץ'",
-        "en": "And this is what is impure for you from the creeping things that creep upon the earth:",
-        "he": "וְזֶה לָכֶם הַטָּמֵא בַּשֶּׁרֶץ הַשֹּׁרֵץ עַל-הָאָרֶץ"
+        "ja": "ו",
+        "en": "And"
       },
       {
-        "ja": "אלכ'לד ואלפאר ואלצ'ב ואצנאפה",
-        "en": "the mole, and the mouse, and the spiny lizard according to its kinds.",
-        "he": "הַחֹלֶד וְהָעַכְבָּר וְהַצָּב לְמִינֵהוּ"
+        "ja": "הד'א",
+        "en": "this",
+        "he": "וְזֶה"
+      },
+      {
+        "ja": "לכם",
+        "en": "is what",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "אלנגס",
+        "en": "is impure for you",
+        "he": "הַטָּמֵא"
+      },
+      {
+        "ja": "מן אלדביב",
+        "en": "from the creeping things",
+        "he": "בַּשֶּׁרֶץ"
+      },
+      {
+        "ja": "אלדאב",
+        "en": "that creep",
+        "he": "הַשֹּׁרֵץ"
+      },
+      {
+        "ja": "עלי' אלארץ'",
+        "en": "upon the earth",
+        "he": "עַל-הָאָרֶץ"
+      },
+      {
+        "ja": "אלכ'לד",
+        "en": "the mole",
+        "he": "הַחֹלֶד"
+      },
+      {
+        "ja": "ואלפאר",
+        "en": "and the mouse",
+        "he": "וְהָעַכְבָּר"
+      },
+      {
+        "ja": "ואלצ'ב",
+        "en": "and the spiny lizard",
+        "he": "וְהַצָּב"
+      },
+      {
+        "ja": "ואצנאפה",
+        "en": "according to its kinds",
+        "he": "לְמִינֵהוּ"
       }
     ],
     "30": [
       {
-        "ja": "ואלורל ואלחרדון ואלעצ'איה ואלחרבא ואלסמברץ",
-        "en": "And the monitor lizard, and the gecko, and the chameleon, and the agama, and the skink.",
-        "he": "וְהָאֲנָקָה וְהַכֹּחַ וְהַלְּטָאָה וְהַחֹמֶט וְהַתִּנְשָׁמֶת"
+        "ja": "ואלורל",
+        "en": "And the monitor lizard",
+        "he": "וְהָאֲנָקָה"
+      },
+      {
+        "ja": "ואלחרדון",
+        "en": "and the gecko",
+        "he": "וְהַכֹּחַ"
+      },
+      {
+        "ja": "ואלעצ'איה",
+        "en": "and the chameleon",
+        "he": "וְהַלְּטָאָה"
+      },
+      {
+        "ja": "ואלחרבא",
+        "en": "and the agama",
+        "he": "וְהַחֹמֶט"
+      },
+      {
+        "ja": "ואלסמברץ",
+        "en": "and the skink",
+        "he": "וְהַתִּנְשָׁמֶת"
       }
     ],
     "31": [
       {
-        "ja": "הד'א אלנגסה לכם מן גמיע אלדביב",
-        "en": "These are the impure for you from all the creeping things;",
-        "he": "אֵלֶּה הַטְּמֵאִים לָכֶם בְּכָל-הַשָּׁרֶץ"
+        "ja": "הד'א",
+        "en": "These are",
+        "he": "אֵלֶּה"
       },
       {
-        "ja": "כל מן דנא בהא. פי חאל מותהא ינגס אלי' אלמג'יב",
-        "en": "every one who approaches them at the time of their death shall be impure until the setting.",
-        "he": "כָּל-הַנֹּגֵעַ בָּהֶם בְּמֹתָם יִטְמָא עַד-הָעָרֶב"
+        "ja": "אלנגסה",
+        "en": "the impure",
+        "he": "הַטְּמֵאִים"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "מן גמיע אלדביב",
+        "en": "from all the creeping things",
+        "he": "בְּכָל-הַשָּׁרֶץ"
+      },
+      {
+        "ja": "כל מן דנא",
+        "en": "every one who approaches",
+        "he": "כָּל-הַנֹּגֵעַ"
+      },
+      {
+        "ja": "בהא",
+        "en": "them",
+        "he": "בָּהֶם"
+      },
+      {
+        "ja": "פי",
+        "en": "at"
+      },
+      {
+        "ja": "חאל מותהא",
+        "en": "the time of their death",
+        "he": "בְּמֹתָם"
+      },
+      {
+        "ja": "ינגס",
+        "en": "shall be impure",
+        "he": "יִטְמָא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until the setting",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "32": [
       {
-        "ja": "וכל מן וקע עלי'ה מנהא בעד מותהא ינגס",
-        "en": "And everything upon which any of them falls after their death shall be impure —",
-        "he": "וְכֹל אֲשֶׁר-יִפֹּל-עָלָיו מֵהֶם בְּמֹתָם יִטְמָא"
+        "ja": "וכל",
+        "en": "And everything",
+        "he": "וְכֹל"
       },
       {
-        "ja": "מן גמיע אניה' אלכ'שב או ת'וב או גלד או מסח. וכל אניה יעמל בהא צנאעה",
-        "en": "from any vessel of wood, or cloth, or leather, or sacking; and every vessel with which work is done",
-        "he": "מִכָּל-כְּלִי-עֵץ אוֹ בֶגֶד אוֹ-עוֹר אוֹ שָׂק כָּל-כְּלִי אֲשֶׁר-יֵעָשֶׂה מְלָאכָה בָּהֶם"
+        "ja": "מן",
+        "en": "upon which"
       },
       {
-        "ja": "ידכ'ל פי אלמא. וינגס אלי' אלמג'יב ויטהר",
-        "en": "shall be brought into the water, and shall be impure until the setting, and then it shall be pure.",
-        "he": "בַּמַּיִם יוּבָא וְטָמֵא עַד-הָעֶרֶב וְטָהֵר"
+        "ja": "וקע עלי'ה",
+        "en": "falls",
+        "he": "אֲשֶׁר-יִפֹּל-עָלָיו"
+      },
+      {
+        "ja": "מנהא",
+        "en": "any of them",
+        "he": "מֵהֶם"
+      },
+      {
+        "ja": "בעד מותהא",
+        "en": "after their death",
+        "he": "בְּמֹתָם"
+      },
+      {
+        "ja": "ינגס",
+        "en": "shall be impure",
+        "he": "יִטְמָא"
+      },
+      {
+        "ja": "מן גמיע אניה' אלכ'שב",
+        "en": "from any vessel of wood",
+        "he": "מִכָּל-כְּלִי-עֵץ"
+      },
+      {
+        "ja": "או ת'וב",
+        "en": "or cloth",
+        "he": "אוֹ בֶגֶד"
+      },
+      {
+        "ja": "או גלד",
+        "en": "or leather",
+        "he": "אוֹ-עוֹר"
+      },
+      {
+        "ja": "או מסח",
+        "en": "or sacking",
+        "he": "אוֹ שָׂק"
+      },
+      {
+        "ja": "וכל אניה",
+        "en": "and every vessel",
+        "he": "כָּל-כְּלִי"
+      },
+      {
+        "ja": "יעמל בהא צנאעה",
+        "en": "with which work is done",
+        "he": "אֲשֶׁר-יֵעָשֶׂה מְלָאכָה בָּהֶם"
+      },
+      {
+        "ja": "ידכ'ל פי אלמא",
+        "en": "shall be brought into the water",
+        "he": "בַּמַּיִם יוּבָא"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and shall be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until the setting",
+        "he": "עַד-הָעֶרֶב"
+      },
+      {
+        "ja": "ויטהר",
+        "en": "and then it shall be pure",
+        "he": "וְטָהֵר"
       }
     ],
     "33": [
       {
-        "ja": "וכל אנא כ'זף. יקע מנהא שיא אלי' דאכ'לה",
-        "en": "And any earthen vessel into which anything of them falls —",
-        "he": "וְכָל-כְּלִי-חֶרֶשׂ--אֲשֶׁר-יִפֹּל מֵהֶם אֶל-תּוֹכוֹ"
+        "ja": "וכל אנא כ'זף",
+        "en": "And any earthen vessel",
+        "he": "וְכָל-כְּלִי-חֶרֶשׂ"
       },
       {
-        "ja": "כל מא פי דאכ'לה. ינגס ואייאה פאכסרו",
-        "en": "everything within it shall be impure, and it itself you shall break.",
-        "he": "כֹּל אֲשֶׁר בְּתוֹכוֹ יִטְמָא וְאֹתוֹ תִשְׁבֹּרוּ"
+        "ja": "יקע מנהא שיא אלי' דאכ'לה",
+        "en": "into which anything of them falls",
+        "he": "אֲשֶׁר-יִפֹּל מֵהֶם אֶל-תּוֹכוֹ"
+      },
+      {
+        "ja": "כל מא פי דאכ'לה",
+        "en": "everything within it",
+        "he": "כֹּל אֲשֶׁר בְּתוֹכוֹ"
+      },
+      {
+        "ja": "ינגס",
+        "en": "shall be impure",
+        "he": "יִטְמָא"
+      },
+      {
+        "ja": "ואייאה",
+        "en": "and it itself",
+        "he": "וְאֹתוֹ"
+      },
+      {
+        "ja": "פאכסרו",
+        "en": "you shall break",
+        "he": "תִשְׁבֹּרוּ"
       }
     ],
     "34": [
       {
-        "ja": "מן גמיע אלטעאם אלד'י יוכל. ממא ידכ'לה אלמא ינגס",
-        "en": "From all food that is eaten, if water enters it, it shall be impure;",
-        "he": "מִכָּל-הָאֹכֶל אֲשֶׁר יֵאָכֵל אֲשֶׁר יָבוֹא עָלָיו מַיִם--יִטְמָא"
+        "ja": "מן גמיע אלטעאם",
+        "en": "From all food",
+        "he": "מִכָּל-הָאֹכֶל"
       },
       {
-        "ja": "וגמיע אלשראב אלד'י ישרב. פי כל אנא ינגס",
-        "en": "and all drink that is drunk, in any vessel, shall be impure.",
-        "he": "וְכָל-מַשְׁקֶה אֲשֶׁר יִשָּׁתֶה בְּכָל-כְּלִי יִטְמָא"
+        "ja": "אלד'י יוכל",
+        "en": "that is eaten",
+        "he": "אֲשֶׁר יֵאָכֵל"
+      },
+      {
+        "ja": "ממא ידכ'לה",
+        "en": "if",
+        "he": "אֲשֶׁר יָבוֹא עָלָיו"
+      },
+      {
+        "ja": "אלמא",
+        "en": "water enters it",
+        "he": "מַיִם"
+      },
+      {
+        "ja": "ינגס",
+        "en": "it shall be impure",
+        "he": "יִטְמָא"
+      },
+      {
+        "ja": "וגמיע אלשראב",
+        "en": "and all drink",
+        "he": "וְכָל-מַשְׁקֶה"
+      },
+      {
+        "ja": "אלד'י ישרב",
+        "en": "that is drunk",
+        "he": "אֲשֶׁר יִשָּׁתֶה"
+      },
+      {
+        "ja": "פי כל אנא",
+        "en": "in any vessel",
+        "he": "בְּכָל-כְּלִי"
+      },
+      {
+        "ja": "ינגס",
+        "en": "shall be impure",
+        "he": "יִטְמָא"
       }
     ],
     "35": [
       {
-        "ja": "וכל מא וקע מן נבאילהם עלי'ה ינגס",
-        "en": "And everything upon which any of their carcasses falls shall be impure —",
-        "he": "וְכֹל אֲשֶׁר-יִפֹּל מִנִּבְלָתָם עָלָיו יִטְמָא"
+        "ja": "וכל מא וקע מן נבאילהם עלי'ה",
+        "en": "And everything upon which any of their carcasses falls",
+        "he": "וְכֹל אֲשֶׁר-יִפֹּל מִנִּבְלָתָם עָלָיו"
       },
       {
-        "ja": "מן תנור ומסתוקד. פאנקצ'והמא לאנהא נגסה. וכד'אך הי לכם אנגאס",
-        "en": "whether an oven or a stove, demolish them both, for they are impure; and thus they are impurities for you.",
-        "he": "תַּנּוּר וְכִירַיִם יֻתָּץ טְמֵאִים הֵם וּטְמֵאִים יִהְיוּ לָכֶם"
+        "ja": "ינגס",
+        "en": "shall be impure",
+        "he": "יִטְמָא"
+      },
+      {
+        "ja": "מן תנור",
+        "en": "whether an oven",
+        "he": "תַּנּוּר"
+      },
+      {
+        "ja": "ומסתוקד",
+        "en": "or a stove",
+        "he": "וְכִירַיִם"
+      },
+      {
+        "ja": "פאנקצ'והמא",
+        "en": "demolish them both",
+        "he": "יֻתָּץ"
+      },
+      {
+        "ja": "לאנהא",
+        "en": "for they are"
+      },
+      {
+        "ja": "נגסה",
+        "en": "impure",
+        "he": "טְמֵאִים הֵם"
+      },
+      {
+        "ja": "וכד'אך",
+        "en": "and thus"
+      },
+      {
+        "ja": "הי לכם",
+        "en": "they are impurities",
+        "he": "וּטְמֵאִים יִהְיוּ"
+      },
+      {
+        "ja": "אנגאס",
+        "en": "for you",
+        "he": "לָכֶם"
       }
     ],
     "36": [
       {
-        "ja": "אמא אלמעין ואלביר. ומלאם אלמא פיכון טאהרא",
-        "en": "But a spring and a well, and a gathering of water, shall remain pure;",
-        "he": "אַךְ מַעְיָן וּבוֹר מִקְוֵה-מַיִם יִהְיֶה טָהוֹר"
+        "ja": "אמא",
+        "en": "But"
       },
       {
-        "ja": "ומן דנא בנבאילהא פיהא ינגס",
-        "en": "yet whoever approaches their carcasses in it shall be impure.",
-        "he": "וְנֹגֵעַ בְּנִבְלָתָם יִטְמָא"
+        "ja": "אלמעין",
+        "en": "a spring",
+        "he": "אַךְ מַעְיָן"
+      },
+      {
+        "ja": "ואלביר",
+        "en": "and a well",
+        "he": "וּבוֹר"
+      },
+      {
+        "ja": "ומלאם אלמא",
+        "en": "and a gathering of water",
+        "he": "מִקְוֵה-מַיִם"
+      },
+      {
+        "ja": "פיכון טאהרא",
+        "en": "shall remain pure",
+        "he": "יִהְיֶה טָהוֹר"
+      },
+      {
+        "ja": "ומן דנא",
+        "en": "yet whoever approaches",
+        "he": "וְנֹגֵעַ"
+      },
+      {
+        "ja": "בנבאילהא",
+        "en": "their carcasses",
+        "he": "בְּנִבְלָתָם"
+      },
+      {
+        "ja": "פיהא",
+        "en": "in it"
+      },
+      {
+        "ja": "ינגס",
+        "en": "shall be impure",
+        "he": "יִטְמָא"
       }
     ],
     "37": [
       {
-        "ja": "ואן וקע מן נבאילהא. עלי' שי מן אלנבאת ואלחב אלד'י יזרע. פהו טאהר",
-        "en": "And if any of their carcasses falls upon any of the vegetation and grain that is sown, it is pure.",
-        "he": "וְכִי יִפֹּל מִנִּבְלָתָם עַל-כָּל-זֶרַע זֵרוּעַ אֲשֶׁר יִזָּרֵעַ--טָהוֹר הוּא"
+        "ja": "ו",
+        "en": "And"
+      },
+      {
+        "ja": "אן וקע",
+        "en": "if any",
+        "he": "וְכִי יִפֹּל"
+      },
+      {
+        "ja": "מן נבאילהא",
+        "en": "of their carcasses falls",
+        "he": "מִנִּבְלָתָם"
+      },
+      {
+        "ja": "עלי' שי מן אלנבאת ואלחב",
+        "en": "upon any of the vegetation and grain",
+        "he": "עַל-כָּל-זֶרַע"
+      },
+      {
+        "ja": "אלד'י יזרע",
+        "en": "that is sown",
+        "he": "זֵרוּעַ אֲשֶׁר יִזָּרֵעַ"
+      },
+      {
+        "ja": "פהו טאהר",
+        "en": "it is pure",
+        "he": "טָהוֹר הוּא"
       }
     ],
     "38": [
       {
-        "ja": "פאן געל מא עלי'הא. ווקע מן נבאילהא עלי'ה. פהו נגס לכם",
-        "en": "But if water has been placed upon it and then any of their carcasses falls upon it, it is impure for you.",
-        "he": "וְכִי יֻתַּן-מַיִם עַל-זֶרַע וְנָפַל מִנִּבְלָתָם עָלָיו--טָמֵא הוּא לָכֶם"
+        "ja": "פ",
+        "en": "But"
+      },
+      {
+        "ja": "אן געל מא",
+        "en": "if water has been placed",
+        "he": "וְכִי יֻתַּן-מַיִם"
+      },
+      {
+        "ja": "עלי'הא",
+        "en": "upon it",
+        "he": "עַל-זֶרַע"
+      },
+      {
+        "ja": "ווקע",
+        "en": "and then",
+        "he": "וְנָפַל"
+      },
+      {
+        "ja": "מן נבאילהא",
+        "en": "any of their carcasses falls",
+        "he": "מִנִּבְלָתָם"
+      },
+      {
+        "ja": "עלי'ה",
+        "en": "upon it",
+        "he": "עָלָיו"
+      },
+      {
+        "ja": "פהו נגס",
+        "en": "it is impure",
+        "he": "טָמֵא"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
       }
     ],
     "39": [
       {
-        "ja": "ואד'א מאת מן אלחיואן. אלד'י הו טלק לכם אן תאכלוה",
-        "en": "And when there dies from the animals which it is permitted for you to eat,",
-        "he": "וְכִי יָמוּת מִן-הַבְּהֵמָה אֲשֶׁר-הִיא לָכֶם לְאָכְלָה"
+        "ja": "ו",
+        "en": "And"
       },
       {
-        "ja": "מן דנא בנבילתה פינגס אלי' אלמג'יב",
-        "en": "whoever approaches its carcass shall be impure until the setting.",
-        "he": "הַנֹּגֵעַ בְּנִבְלָתָהּ יִטְמָא עַד-הָעָרֶב"
+        "ja": "אד'א מאת",
+        "en": "when there dies",
+        "he": "וְכִי יָמוּת"
+      },
+      {
+        "ja": "מן אלחיואן",
+        "en": "from the animals",
+        "he": "מִן-הַבְּהֵמָה"
+      },
+      {
+        "ja": "אלד'י הו",
+        "en": "which",
+        "he": "אֲשֶׁר-הִיא"
+      },
+      {
+        "ja": "טלק",
+        "en": "it is permitted"
+      },
+      {
+        "ja": "לכם אן תאכלוה",
+        "en": "for you to eat",
+        "he": "לָכֶם לְאָכְלָה"
+      },
+      {
+        "ja": "מן דנא",
+        "en": "whoever approaches",
+        "he": "הַנֹּגֵעַ"
+      },
+      {
+        "ja": "בנבילתה",
+        "en": "its carcass",
+        "he": "בְּנִבְלָתָהּ"
+      },
+      {
+        "ja": "פינגס",
+        "en": "shall be impure",
+        "he": "יִטְמָא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until the setting",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "40": [
       {
-        "ja": "ומן אכל מנהא. יג'סל ת'יאבה וינגס אלי' אלמג'יב",
-        "en": "And whoever eats from it shall wash his garments and be impure until the setting;",
-        "he": "וְהָאֹכֵל מִנִּבְלָתָהּ--יְכַבֵּס בְּגָדָיו וְטָמֵא עַד-הָעָרֶב"
+        "ja": "ומן אכל",
+        "en": "And whoever eats",
+        "he": "וְהָאֹכֵל"
       },
       {
-        "ja": "ומן חמל מנהא. יג'סל ת'יאבה וינגס אלי' אלמג'יב",
-        "en": "and whoever carries from it shall wash his garments and be impure until the setting.",
-        "he": "וְהַנֹּשֵׂא אֶת-נִבְלָתָהּ--יְכַבֵּס בְּגָדָיו וְטָמֵא עַד-הָעָרֶב"
+        "ja": "מנהא",
+        "en": "from it",
+        "he": "מִנִּבְלָתָהּ"
+      },
+      {
+        "ja": "יג'סל",
+        "en": "shall wash",
+        "he": "יְכַבֵּס"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until the setting",
+        "he": "עַד-הָעָרֶב"
+      },
+      {
+        "ja": "ומן חמל",
+        "en": "and whoever carries",
+        "he": "וְהַנֹּשֵׂא"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from it",
+        "he": "אֶת-נִבְלָתָהּ"
+      },
+      {
+        "ja": "יג'סל",
+        "en": "shall wash",
+        "he": "יְכַבֵּס"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until the setting",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "41": [
       {
-        "ja": "וגמיע אלדביב אלדאב עלי' אלארץ'. פהו רגס לא יוכל",
-        "en": "And all the creeping things that creep upon the earth — it is an abomination, it shall not be eaten.",
-        "he": "וְכָל-הַשֶּׁרֶץ הַשֹּׁרֵץ עַל-הָאָרֶץ--שֶׁקֶץ הוּא לֹא יֵאָכֵל"
+        "ja": "וגמיע אלדביב",
+        "en": "And all the creeping things",
+        "he": "וְכָל-הַשֶּׁרֶץ"
+      },
+      {
+        "ja": "אלדאב",
+        "en": "that creep",
+        "he": "הַשֹּׁרֵץ"
+      },
+      {
+        "ja": "עלי' אלארץ'",
+        "en": "upon the earth",
+        "he": "עַל-הָאָרֶץ"
+      },
+      {
+        "ja": "פהו רגס",
+        "en": "it is an abomination",
+        "he": "שֶׁקֶץ הוּא"
+      },
+      {
+        "ja": "לא יוכל",
+        "en": "it shall not be eaten",
+        "he": "לֹא יֵאָכֵל"
       }
     ],
     "42": [
       {
-        "ja": "וכל סאלך עלי' צדרה. וכל סאלך עלי' ארבע. למא כת'רה' ארגלה",
-        "en": "Every one that walks on its belly, and every one that walks on four, and whatever has many legs,",
-        "he": "כֹּל הוֹלֵךְ עַל-גָּחוֹן וְכֹל הוֹלֵךְ עַל-אַרְבַּע עַד כָּל-מַרְבֵּה רַגְלַיִם"
+        "ja": "וכל סאלך",
+        "en": "Every one that walks",
+        "he": "כֹּל הוֹלֵךְ"
       },
       {
-        "ja": "מן גמיע אלדביב אלדאב עלי' אלארץ'. לא תאכלונהם פאנהם ארגאס",
-        "en": "from all the creeping things that creep upon the earth — do not eat them, for they are abominations.",
-        "he": "לְכָל-הַשֶּׁרֶץ הַשֹּׁרֵץ עַל-הָאָרֶץ--לֹא תֹאכְלוּם כִּי-שֶׁקֶץ הֵם"
+        "ja": "עלי' צדרה",
+        "en": "on its belly",
+        "he": "עַל-גָּחוֹן"
+      },
+      {
+        "ja": "וכל סאלך",
+        "en": "and every one that walks",
+        "he": "וְכֹל הוֹלֵךְ"
+      },
+      {
+        "ja": "עלי' ארבע",
+        "en": "on four",
+        "he": "עַל-אַרְבַּע"
+      },
+      {
+        "ja": "למא כת'רה' ארגלה",
+        "en": "and whatever has many legs",
+        "he": "עַד כָּל-מַרְבֵּה רַגְלַיִם"
+      },
+      {
+        "ja": "מן גמיע אלדביב",
+        "en": "from all the creeping things",
+        "he": "לְכָל-הַשֶּׁרֶץ"
+      },
+      {
+        "ja": "אלדאב",
+        "en": "that creep",
+        "he": "הַשֹּׁרֵץ"
+      },
+      {
+        "ja": "עלי' אלארץ'",
+        "en": "upon the earth",
+        "he": "עַל-הָאָרֶץ"
+      },
+      {
+        "ja": "לא תאכלונהם",
+        "en": "do not eat them",
+        "he": "לֹא תֹאכְלוּם"
+      },
+      {
+        "ja": "פ",
+        "en": "for"
+      },
+      {
+        "ja": "אנהם ארגאס",
+        "en": "they are abominations",
+        "he": "כִּי-שֶׁקֶץ הֵם"
       }
     ],
     "43": [
       {
-        "ja": "ולא תרגסו אנפסכם. בשי מן אלדביב אלדאב",
-        "en": "And do not make your souls abominable with anything of the creeping things that creep,",
-        "he": "אַל-תְּשַׁקְּצוּ אֶת-נַפְשֹׁתֵיכֶם בְּכָל-הַשֶּׁרֶץ הַשֹּׁרֵץ"
+        "ja": "ולא תרגסו",
+        "en": "And do not make",
+        "he": "אַל-תְּשַׁקְּצוּ"
       },
       {
-        "ja": "ולא תתנגסו בהם. פתעצוני בד'אלך",
-        "en": "and do not defile yourselves with them, lest you disobey Me thereby.",
-        "he": "וְלֹא תִטַּמְּאוּ בָּהֶם וְנִטְמֵתֶם בָּם"
+        "ja": "אנפסכם",
+        "en": "your souls",
+        "he": "אֶת-נַפְשֹׁתֵיכֶם"
+      },
+      {
+        "ja": "בשי מן",
+        "en": "with anything of"
+      },
+      {
+        "ja": "אלדביב אלדאב",
+        "en": "the creeping things that creep",
+        "he": "בְּכָל-הַשֶּׁרֶץ הַשֹּׁרֵץ"
+      },
+      {
+        "ja": "ולא תתנגסו",
+        "en": "and do not defile yourselves",
+        "he": "וְלֹא תִטַּמְּאוּ"
+      },
+      {
+        "ja": "בהם",
+        "en": "with them",
+        "he": "בָּהֶם"
+      },
+      {
+        "ja": "פ",
+        "en": "lest"
+      },
+      {
+        "ja": "תעצוני",
+        "en": "you disobey Me",
+        "he": "וְנִטְמֵתֶם"
+      },
+      {
+        "ja": "בד'אלך",
+        "en": "thereby",
+        "he": "בָּם"
       }
     ],
     "44": [
       {
-        "ja": "לאני אללה רבכם. פתקדסו וכונו מקדסין. פאני קדוס",
-        "en": "For I am God your Lord — sanctify yourselves and be holy, for I am holy;",
-        "he": "כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם וְהִתְקַדִּשְׁתֶּם וִהְיִיתֶם קְדֹשִׁים כִּי קָדוֹשׁ אָנִי"
+        "ja": "ל",
+        "en": "For"
       },
       {
-        "ja": "ולא תנגסו אנפסכם. בשי מן אלדביב אלדאב עלי' אלארץ'",
-        "en": "and do not defile your souls with anything of the creeping things that creep upon the earth.",
-        "he": "וְלֹא תְטַמְּאוּ אֶת-נַפְשֹׁתֵיכֶם בְּכָל-הַשֶּׁרֶץ הָרֹמֵשׂ עַל-הָאָרֶץ"
+        "ja": "אני",
+        "en": "I am",
+        "he": "כִּי אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "פתקדסו",
+        "en": "sanctify yourselves",
+        "he": "וְהִתְקַדִּשְׁתֶּם"
+      },
+      {
+        "ja": "וכונו",
+        "en": "and be",
+        "he": "וִהְיִיתֶם"
+      },
+      {
+        "ja": "מקדסין",
+        "en": "holy",
+        "he": "קְדֹשִׁים"
+      },
+      {
+        "ja": "פ",
+        "en": "for"
+      },
+      {
+        "ja": "אני קדוס",
+        "en": "I am holy",
+        "he": "כִּי קָדוֹשׁ"
+      },
+      {
+        "ja": "ולא תנגסו",
+        "en": "and do not defile",
+        "he": "וְלֹא תְטַמְּאוּ"
+      },
+      {
+        "ja": "אנפסכם",
+        "en": "your souls",
+        "he": "אֶת-נַפְשֹׁתֵיכֶם"
+      },
+      {
+        "ja": "בשי מן",
+        "en": "with anything of"
+      },
+      {
+        "ja": "אלדביב",
+        "en": "the creeping things",
+        "he": "בְּכָל-הַשֶּׁרֶץ"
+      },
+      {
+        "ja": "אלדאב",
+        "en": "that creep",
+        "he": "הָרֹמֵשׂ"
+      },
+      {
+        "ja": "עלי' אלארץ'",
+        "en": "upon the earth",
+        "he": "עַל-הָאָרֶץ"
       }
     ],
     "45": [
       {
-        "ja": "לאני אללה. אלמצעדכם מן בלד מצר. לאכון לכם אלאהא",
-        "en": "For I am God, who brought you up from the land of Egypt, to be your God —",
-        "he": "כִּי אֲנִי יְהוָה הַמַּעֲלֶה אֶתְכֶם מֵאֶרֶץ מִצְרַיִם לִהְיֹת לָכֶם לֵאלֹהִים"
+        "ja": "ל",
+        "en": "For"
       },
       {
-        "ja": "פכונו מקדסין. לאני אלקדוס",
-        "en": "so be holy, for I am the Holy One.",
-        "he": "וִהְיִיתֶם קְדֹשִׁים כִּי קָדוֹשׁ אָנִי"
+        "ja": "אני",
+        "en": "I am",
+        "he": "כִּי אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אלמצעדכם",
+        "en": "who brought you up",
+        "he": "הַמַּעֲלֶה אֶתְכֶם"
+      },
+      {
+        "ja": "מן בלד",
+        "en": "from the land of",
+        "he": "מֵאֶרֶץ"
+      },
+      {
+        "ja": "מצר",
+        "en": "Egypt",
+        "he": "מִצְרַיִם"
+      },
+      {
+        "ja": "לאכון לכם אלאהא",
+        "en": "to be your God",
+        "he": "לִהְיֹת לָכֶם לֵאלֹהִים"
+      },
+      {
+        "ja": "פכונו",
+        "en": "so be",
+        "he": "וִהְיִיתֶם"
+      },
+      {
+        "ja": "מקדסין",
+        "en": "holy",
+        "he": "קְדֹשִׁים"
+      },
+      {
+        "ja": "ל",
+        "en": "for"
+      },
+      {
+        "ja": "אני אלקדוס",
+        "en": "I am the Holy One",
+        "he": "כִּי קָדוֹשׁ אָנִי"
       }
     ],
     "46": [
       {
-        "ja": "הד'א שריעה' אלבהאים ואלטאיר. וגמיע נפוס אלחייה. אלדאבה פי אלמא",
-        "en": "This is the law of the beasts and the birds, and all the living souls that creep in the water,",
-        "he": "זֹאת תּוֹרַת הַבְּהֵמָה וְהָעוֹף וְכֹל נֶפֶשׁ הַחַיָּה הָרֹמֶשֶׂת בַּמָּיִם"
+        "ja": "הד'א",
+        "en": "This is",
+        "he": "זֹאת"
       },
       {
-        "ja": "וסאיר אלנפוס אלדאבה עלי' אלארץ'",
-        "en": "and the rest of the souls that creep upon the earth:",
-        "he": "וּלְכָל-נֶפֶשׁ הַשֹּׁרֶצֶת עַל-הָאָרֶץ"
+        "ja": "שריעה'",
+        "en": "the law of",
+        "he": "תּוֹרַת"
+      },
+      {
+        "ja": "אלבהאים",
+        "en": "the beasts",
+        "he": "הַבְּהֵמָה"
+      },
+      {
+        "ja": "ואלטאיר",
+        "en": "and the birds",
+        "he": "וְהָעוֹף"
+      },
+      {
+        "ja": "וגמיע",
+        "en": "and all",
+        "he": "וְכֹל"
+      },
+      {
+        "ja": "נפוס אלחייה",
+        "en": "the living souls",
+        "he": "נֶפֶשׁ הַחַיָּה"
+      },
+      {
+        "ja": "אלדאבה",
+        "en": "that creep",
+        "he": "הָרֹמֶשֶׂת"
+      },
+      {
+        "ja": "פי אלמא",
+        "en": "in the water",
+        "he": "בַּמָּיִם"
+      },
+      {
+        "ja": "וסאיר אלנפוס",
+        "en": "and the rest of the souls",
+        "he": "וּלְכָל-נֶפֶשׁ"
+      },
+      {
+        "ja": "אלדאבה",
+        "en": "that creep",
+        "he": "הַשֹּׁרֶצֶת"
+      },
+      {
+        "ja": "עלי' אלארץ'",
+        "en": "upon the earth",
+        "he": "עַל-הָאָרֶץ"
       }
     ],
     "47": [
       {
-        "ja": "תפרז. בין אלנגס ואלטאהר",
-        "en": "that you separate between the impure and the pure,",
-        "he": "לְהַבְדִּיל בֵּין הַטָּמֵא וּבֵין הַטָּהֹר"
+        "ja": "תפרז",
+        "en": "that you separate",
+        "he": "לְהַבְדִּיל"
       },
       {
-        "ja": "ובין אלחיואן אלד'י יוכל. ואלד'י לא יוכל",
-        "en": "and between the animal that may be eaten and that which may not be eaten.\"",
-        "he": "וּבֵין הַחַיָּה הַנֶּאֱכֶלֶת וּבֵין הַחַיָּה אֲשֶׁר לֹא תֵאָכֵל"
+        "ja": "בין אלנגס",
+        "en": "between the impure",
+        "he": "בֵּין הַטָּמֵא"
+      },
+      {
+        "ja": "ואלטאהר",
+        "en": "and the pure",
+        "he": "וּבֵין הַטָּהֹר"
+      },
+      {
+        "ja": "ובין אלחיואן אלד'י יוכל",
+        "en": "and between the animal that may be eaten",
+        "he": "וּבֵין הַחַיָּה הַנֶּאֱכֶלֶת"
+      },
+      {
+        "ja": "ואלד'י לא יוכל",
+        "en": "and that which may not be eaten",
+        "he": "וּבֵין הַחַיָּה אֲשֶׁר לֹא תֵאָכֵל"
       }
     ]
   }

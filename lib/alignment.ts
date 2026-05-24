@@ -36,12 +36,59 @@ export type VerseAlignment = {
   en: Span[];
 };
 
+/** Per-side matching state: claimed character ranges + a forward cursor. */
+type SideState = { claimed: { start: number; end: number }[]; cursor: number };
+
+const newSide = (): SideState => ({ claimed: [], cursor: 0 });
+
+/**
+ * Locate `needle` in `text` and claim its range so no later pair can reuse
+ * it. Prefer the leftmost unclaimed occurrence at or after the side's cursor
+ * (advancing the cursor past it, exactly like a forward scan); only when no
+ * occurrence lies ahead does it fall back to the leftmost unclaimed
+ * occurrence anywhere, without moving the cursor.
+ *
+ * The forward preference keeps short anchors (e.g. a lone "a") matching in
+ * reading order, so data authored left-to-right resolves identically to the
+ * old single-cursor walk. The backward fallback is what lets a JA word reach
+ * its English/Hebrew counterpart across a word-order crossing — verb-subject
+ * inversions, English-fronted negations — instead of clumping a whole clause
+ * into one group.
+ */
+function claim(
+  text: string,
+  needle: string,
+  side: SideState,
+): { start: number; end: number } | null {
+  const free = (idx: number, end: number) =>
+    !side.claimed.some((c) => idx < c.end && end > c.start);
+  const take = (idx: number, advance: boolean) => {
+    const range = { start: idx, end: idx + needle.length };
+    side.claimed.push(range);
+    if (advance) side.cursor = range.end;
+    return range;
+  };
+  for (let from = side.cursor; ; ) {
+    const idx = text.indexOf(needle, from);
+    if (idx === -1) break;
+    if (free(idx, idx + needle.length)) return take(idx, true);
+    from = idx + 1;
+  }
+  for (let from = 0; ; ) {
+    const idx = text.indexOf(needle, from);
+    if (idx === -1) return null;
+    if (free(idx, idx + needle.length)) return take(idx, false);
+    from = idx + 1;
+  }
+}
+
 /**
  * Resolve a list of phrase pairs against the Hebrew, JA, and EN verse
- * strings. Each pair becomes one group id (0-indexed). A side whose
- * substring isn't found at or after the current cursor is silently dropped
- * for that pair (so a missing Hebrew anchor doesn't kill the JA↔EN match).
- * Side cursors are only advanced when that side's substring resolved.
+ * strings. Each pair becomes one group id (0-indexed). Each side is matched
+ * independently (see `claim`), and a side whose substring has no free
+ * occurrence is silently dropped for that pair — so a missing Hebrew anchor
+ * doesn't kill the JA↔EN match. Resulting spans are returned sorted by start
+ * position (sliceByGroups requires that).
  */
 export function resolveVerseAlignment(
   he: string,
@@ -50,25 +97,24 @@ export function resolveVerseAlignment(
   pairs: AlignmentPair[],
 ): VerseAlignment {
   const out: VerseAlignment = { he: [], ja: [], en: [] };
-  let heCursor = 0;
-  let jaCursor = 0;
-  let enCursor = 0;
+  const heSide = newSide();
+  const jaSide = newSide();
+  const enSide = newSide();
   pairs.forEach((p, i) => {
-    const ji = ja.indexOf(p.ja, jaCursor);
-    const ei = en.indexOf(p.en, enCursor);
-    if (ji === -1 || ei === -1) return;
-    out.ja.push({ start: ji, end: ji + p.ja.length, groupId: i });
-    out.en.push({ start: ei, end: ei + p.en.length, groupId: i });
-    jaCursor = ji + p.ja.length;
-    enCursor = ei + p.en.length;
+    const jr = claim(ja, p.ja, jaSide);
+    const er = claim(en, p.en, enSide);
+    if (!jr || !er) return;
+    out.ja.push({ ...jr, groupId: i });
+    out.en.push({ ...er, groupId: i });
     if (p.he) {
-      const hi = he.indexOf(p.he, heCursor);
-      if (hi !== -1) {
-        out.he.push({ start: hi, end: hi + p.he.length, groupId: i });
-        heCursor = hi + p.he.length;
-      }
+      const hr = claim(he, p.he, heSide);
+      if (hr) out.he.push({ ...hr, groupId: i });
     }
   });
+  const bystart = (a: Span, b: Span) => a.start - b.start;
+  out.he.sort(bystart);
+  out.ja.sort(bystart);
+  out.en.sort(bystart);
   return out;
 }
 

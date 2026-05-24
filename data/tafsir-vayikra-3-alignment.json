@@ -1,195 +1,853 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 3. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_3.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 3. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_3.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ואן כאן קרבאנה ד'בח סלאמה מן אלבקר. ד'כר או אנת'י",
-        "en": "And if his offering be a peace-sacrifice from the cattle — male or female —",
-        "he": "וְאִם-זֶבַח שְׁלָמִים קָרְבָּנוֹ--אִם מִן-הַבָּקָר הוּא מַקְרִיב אִם-זָכָר אִם-נְקֵבָה"
+        "ja": "ואן",
+        "en": "And if"
       },
       {
-        "ja": "פליקרבה צחיחא בין ידי אללה",
-        "en": "he shall bring it unblemished before God.",
-        "he": "תָּמִים יַקְרִיבֶנּוּ לִפְנֵי יְהוָה"
+        "ja": "כאן",
+        "en": "be"
+      },
+      {
+        "ja": "קרבאנה",
+        "en": "his offering",
+        "he": "קָרְבָּנוֹ"
+      },
+      {
+        "ja": "ד'בח סלאמה",
+        "en": "a peace-sacrifice",
+        "he": "זֶבַח שְׁלָמִים"
+      },
+      {
+        "ja": "מן אלבקר",
+        "en": "from the cattle",
+        "he": "מִן-הַבָּקָר"
+      },
+      {
+        "ja": "ד'כר",
+        "en": "male",
+        "he": "זָכָר"
+      },
+      {
+        "ja": "או",
+        "en": "or"
+      },
+      {
+        "ja": "אנת'י",
+        "en": "female",
+        "he": "נְקֵבָה"
+      },
+      {
+        "ja": "צחיחא",
+        "en": "unblemished",
+        "he": "תָּמִים"
+      },
+      {
+        "ja": "פליקרבה",
+        "en": "he shall bring it",
+        "he": "יַקְרִיבֶנּוּ"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
       }
     ],
     "2": [
       {
-        "ja": "ויסנד ידה עלי' ראס קרבאנה. ויד'בחה. ענד באב כ'בא אלמחצ'ר",
-        "en": "And he shall lay his hand upon the head of his offering, and slaughter it at the door of the tent of the assembly",
-        "he": "וְסָמַךְ יָדוֹ עַל-רֹאשׁ קָרְבָּנוֹ וּשְׁחָטוֹ פֶּתַח אֹהֶל מוֹעֵד"
+        "ja": "ויסנד",
+        "en": "And he shall lay",
+        "he": "וְסָמַךְ"
       },
       {
-        "ja": "וירשו. בני הרון אלאיימה אלדם. עלי' אלמד'בח מסתדירא",
-        "en": "and the sons of Aaron the priests shall sprinkle the blood upon the altar all around.",
-        "he": "וְזָרְקוּ בְּנֵי אַהֲרֹן הַכֹּהֲנִים אֶת-הַדָּם עַל-הַמִּזְבֵּחַ--סָבִיב"
+        "ja": "ידה",
+        "en": "his hand",
+        "he": "יָדוֹ"
+      },
+      {
+        "ja": "עלי' ראס",
+        "en": "upon the head of",
+        "he": "עַל-רֹאשׁ"
+      },
+      {
+        "ja": "קרבאנה",
+        "en": "his offering",
+        "he": "קָרְבָּנוֹ"
+      },
+      {
+        "ja": "ויד'בחה",
+        "en": "and slaughter it",
+        "he": "וּשְׁחָטוֹ"
+      },
+      {
+        "ja": "ענד באב",
+        "en": "at the door of",
+        "he": "פֶּתַח"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of the assembly",
+        "he": "אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "וירשו",
+        "en": "shall sprinkle",
+        "he": "וְזָרְקוּ"
+      },
+      {
+        "ja": "בני הרון",
+        "en": "the sons of Aaron",
+        "he": "בְּנֵי אַהֲרֹן"
+      },
+      {
+        "ja": "אלאיימה",
+        "en": "the priests",
+        "he": "הַכֹּהֲנִים"
+      },
+      {
+        "ja": "אלדם",
+        "en": "the blood",
+        "he": "אֶת-הַדָּם"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "עַל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "מסתדירא",
+        "en": "all around",
+        "he": "סָבִיב"
       }
     ],
     "3": [
       {
-        "ja": "ויקרב מן ד'בח אלסלאמה קרבאנא ללה. אלת'רב אלמג'טי אלגוף",
-        "en": "And he shall offer from the peace-sacrifice an offering to God: the caul-fat covering the innards",
-        "he": "וְהִקְרִיב מִזֶּבַח הַשְּׁלָמִים אִשֶּׁה לַיהוָה--אֶת-הַחֵלֶב הַמְכַסֶּה אֶת-הַקֶּרֶב"
+        "ja": "ויקרב",
+        "en": "And he shall offer",
+        "he": "וְהִקְרִיב"
       },
       {
-        "ja": "וסאיר אלשחם. אלד'י עלי' אלגוף",
-        "en": "and all the rest of the fat which is upon the innards,",
-        "he": "וְאֵת כָּל-הַחֵלֶב אֲשֶׁר עַל-הַקֶּרֶב"
+        "ja": "מן ד'בח אלסלאמה",
+        "en": "from the peace-sacrifice",
+        "he": "מִזֶּבַח הַשְּׁלָמִים"
+      },
+      {
+        "ja": "קרבאנא",
+        "en": "an offering"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "אלת'רב",
+        "en": "the caul-fat",
+        "he": "הַחֵלֶב"
+      },
+      {
+        "ja": "אלמג'טי",
+        "en": "covering",
+        "he": "הַמְכַסֶּה"
+      },
+      {
+        "ja": "אלגוף",
+        "en": "the innards",
+        "he": "אֶת-הַקֶּרֶב"
+      },
+      {
+        "ja": "וסאיר",
+        "en": "and all the rest of"
+      },
+      {
+        "ja": "אלשחם",
+        "en": "the fat",
+        "he": "הַחֵלֶב"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "which is",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "עלי' אלגוף",
+        "en": "upon the innards",
+        "he": "עַל-הַקֶּרֶב"
       }
     ],
     "4": [
       {
-        "ja": "ואלכלותין ואלשחם אלד'י עליהמא. אלד'י עלי' אלאחשא",
-        "en": "and the two kidneys and the fat which is upon them, which is upon the entrails",
-        "he": "וְאֵת שְׁתֵּי הַכְּלָיֹת וְאֶת-הַחֵלֶב אֲשֶׁר עֲלֵהֶן אֲשֶׁר עַל-הַכְּסָלִים"
+        "ja": "ואלכלותין",
+        "en": "and the two kidneys",
+        "he": "שְׁתֵּי הַכְּלָיֹת"
       },
       {
-        "ja": "וזיאדה' אלכבד. מע אלכלי' ינזעהא",
-        "en": "and the appendage of the liver — together with the kidneys he shall remove them.",
-        "he": "וְאֶת-הַיֹּתֶרֶת עַל-הַכָּבֵד עַל-הַכְּלָיוֹת יְסִירֶנָּה"
+        "ja": "ואלשחם",
+        "en": "and the fat",
+        "he": "וְאֶת-הַחֵלֶב"
+      },
+      {
+        "ja": "אלד'י עליהמא",
+        "en": "which is upon them",
+        "he": "אֲשֶׁר עֲלֵהֶן"
+      },
+      {
+        "ja": "אלד'י עלי' אלאחשא",
+        "en": "which is upon the entrails",
+        "he": "אֲשֶׁר עַל-הַכְּסָלִים"
+      },
+      {
+        "ja": "וזיאדה'",
+        "en": "and the appendage of",
+        "he": "וְאֶת-הַיֹּתֶרֶת"
+      },
+      {
+        "ja": "אלכבד",
+        "en": "the liver",
+        "he": "הַכָּבֵד"
+      },
+      {
+        "ja": "מע אלכלי'",
+        "en": "together with the kidneys",
+        "he": "עַל-הַכְּלָיוֹת"
+      },
+      {
+        "ja": "ינזעהא",
+        "en": "he shall remove them",
+        "he": "יְסִירֶנָּה"
       }
     ],
     "5": [
       {
-        "ja": "ויקתרו ד'אלך בני הרון עלי' אלמד'בח. עלי' אלצעידה . אלתי עלי' אלחטב אלד'י עלי' אלנאר",
-        "en": "And the sons of Aaron shall burn that upon the altar, upon the layer which is upon the wood that is upon the fire —",
-        "he": "וְהִקְטִירוּ אֹתוֹ בְנֵי-אַהֲרֹן הַמִּזְבֵּחָה עַל-הָעֹלָה אֲשֶׁר עַל-הָעֵצִים אֲשֶׁר עַל-הָאֵשׁ"
+        "ja": "ויקתרו",
+        "en": "shall burn",
+        "he": "וְהִקְטִירוּ"
       },
       {
-        "ja": "קרבאן מקבול מרצ'י ללה",
-        "en": "an offering acceptable and pleasing to God.",
-        "he": "אִשֵּׁה רֵיחַ נִיחֹחַ לַיהוָה"
+        "ja": "ד'אלך",
+        "en": "that",
+        "he": "אֹתוֹ"
+      },
+      {
+        "ja": "בני הרון",
+        "en": "the sons of Aaron",
+        "he": "בְנֵי-אַהֲרֹן"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "הַמִּזְבֵּחָה"
+      },
+      {
+        "ja": "עלי' אלצעידה",
+        "en": "upon the layer",
+        "he": "עַל-הָעֹלָה"
+      },
+      {
+        "ja": "אלתי עלי' אלחטב",
+        "en": "which is upon the wood",
+        "he": "אֲשֶׁר עַל-הָעֵצִים"
+      },
+      {
+        "ja": "אלד'י עלי' אלנאר",
+        "en": "that is upon the fire",
+        "he": "אֲשֶׁר עַל-הָאֵשׁ"
+      },
+      {
+        "ja": "קרבאן",
+        "en": "an offering",
+        "he": "אִשֵּׁה"
+      },
+      {
+        "ja": "מקבול מרצ'י",
+        "en": "acceptable and pleasing",
+        "he": "רֵיחַ נִיחֹחַ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
       }
     ],
     "6": [
       {
-        "ja": "ואן כאן קרבאנה מן אלג'נם. ד'בח סלאמה ללה. ד'כר או אנת'י",
-        "en": "And if his offering be from the flock — a peace-sacrifice to God — male or female",
-        "he": "וְאִם-מִן-הַצֹּאן קָרְבָּנוֹ לְזֶבַח שְׁלָמִים לַיהוָה--זָכָר אוֹ נְקֵבָה"
+        "ja": "ואן",
+        "en": "And if"
       },
       {
-        "ja": "פליקרבה צחיחא",
-        "en": "he shall bring it unblemished.",
-        "he": "תָּמִים יַקְרִיבֶנּוּ"
+        "ja": "כאן",
+        "en": "be"
+      },
+      {
+        "ja": "קרבאנה",
+        "en": "his offering",
+        "he": "קָרְבָּנוֹ"
+      },
+      {
+        "ja": "מן אלג'נם",
+        "en": "from the flock",
+        "he": "מִן-הַצֹּאן"
+      },
+      {
+        "ja": "ד'בח סלאמה",
+        "en": "a peace-sacrifice",
+        "he": "לְזֶבַח שְׁלָמִים"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "ד'כר",
+        "en": "male",
+        "he": "זָכָר"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "אנת'י",
+        "en": "female",
+        "he": "נְקֵבָה"
+      },
+      {
+        "ja": "צחיחא",
+        "en": "unblemished",
+        "he": "תָּמִים"
+      },
+      {
+        "ja": "פליקרבה",
+        "en": "he shall bring it",
+        "he": "יַקְרִיבֶנּוּ"
       }
     ],
     "7": [
       {
-        "ja": "פאן כאן קרבאנה חמלא. פליקרבה בין ידי אללה",
-        "en": "If his offering be a lamb, he shall bring it before God.",
-        "he": "אִם-כֶּשֶׂב הוּא-מַקְרִיב אֶת-קָרְבָּנוֹ--וְהִקְרִיב אֹתוֹ לִפְנֵי יְהוָה"
+        "ja": "פאן",
+        "en": "If"
+      },
+      {
+        "ja": "כאן",
+        "en": "be"
+      },
+      {
+        "ja": "קרבאנה",
+        "en": "his offering",
+        "he": "קָרְבָּנוֹ"
+      },
+      {
+        "ja": "חמלא",
+        "en": "a lamb",
+        "he": "כֶּשֶׂב"
+      },
+      {
+        "ja": "פליקרבה",
+        "en": "he shall bring it",
+        "he": "וְהִקְרִיב אֹתוֹ"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
       }
     ],
     "8": [
       {
-        "ja": "ויסנד ידה עלי' ראס קרבאנה. ויד'בחה בין ידי כ'בא אלמחצ'ר",
-        "en": "And he shall lay his hand upon the head of his offering, and slaughter it before the tent of the assembly",
-        "he": "וְסָמַךְ אֶת-יָדוֹ עַל-רֹאשׁ קָרְבָּנוֹ וְשָׁחַט אֹתוֹ לִפְנֵי אֹהֶל מוֹעֵד"
+        "ja": "ויסנד",
+        "en": "And he shall lay",
+        "he": "וְסָמַךְ"
       },
       {
-        "ja": "וירשו בני הרון דמה. עלי' אלמד'בח מסתדירא",
-        "en": "and the sons of Aaron shall sprinkle its blood upon the altar all around.",
-        "he": "וְזָרְקוּ בְּנֵי אַהֲרֹן אֶת-דָּמוֹ עַל-הַמִּזְבֵּחַ--סָבִיב"
+        "ja": "ידה",
+        "en": "his hand",
+        "he": "אֶת-יָדוֹ"
+      },
+      {
+        "ja": "עלי' ראס",
+        "en": "upon the head of",
+        "he": "עַל-רֹאשׁ"
+      },
+      {
+        "ja": "קרבאנה",
+        "en": "his offering",
+        "he": "קָרְבָּנוֹ"
+      },
+      {
+        "ja": "ויד'בחה",
+        "en": "and slaughter it",
+        "he": "וְשָׁחַט אֹתוֹ"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of the assembly",
+        "he": "אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "וירשו",
+        "en": "shall sprinkle",
+        "he": "וְזָרְקוּ"
+      },
+      {
+        "ja": "בני הרון",
+        "en": "the sons of Aaron",
+        "he": "בְּנֵי אַהֲרֹן"
+      },
+      {
+        "ja": "דמה",
+        "en": "its blood",
+        "he": "אֶת-דָּמוֹ"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "עַל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "מסתדירא",
+        "en": "all around",
+        "he": "סָבִיב"
       }
     ],
     "9": [
       {
-        "ja": "ויקרב מן ד'בח אלסלאמה קרבאנא ללה. אלת'רב ואלאליה צחיחה . אמאם אלעצעץ ינזעהא",
-        "en": "And he shall offer from the peace-sacrifice an offering to God: the caul-fat and the fat-tail, whole, removing it before the base of the spine",
-        "he": "וְהִקְרִיב מִזֶּבַח הַשְּׁלָמִים אִשֶּׁה לַיהוָה--חֶלְבּוֹ הָאַלְיָה תְמִימָה לְעֻמַּת הֶעָצֶה יְסִירֶנָּה"
+        "ja": "ויקרב",
+        "en": "And he shall offer",
+        "he": "וְהִקְרִיב"
       },
       {
-        "ja": "ואלת'רב אלמג'טי אלגוף. וסאיר אלשחם. אלד'י עלי' אלגוף",
-        "en": "and the caul-fat covering the innards, and all the rest of the fat which is upon the innards,",
-        "he": "וְאֶת-הַחֵלֶב הַמְכַסֶּה אֶת-הַקֶּרֶב וְאֵת כָּל-הַחֵלֶב אֲשֶׁר עַל-הַקֶּרֶב"
+        "ja": "מן ד'בח אלסלאמה",
+        "en": "from the peace-sacrifice",
+        "he": "מִזֶּבַח הַשְּׁלָמִים"
+      },
+      {
+        "ja": "קרבאנא",
+        "en": "an offering"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "אלת'רב",
+        "en": "the caul-fat",
+        "he": "חֶלְבּוֹ"
+      },
+      {
+        "ja": "ואלאליה",
+        "en": "and the fat-tail",
+        "he": "הָאַלְיָה"
+      },
+      {
+        "ja": "צחיחה",
+        "en": "whole",
+        "he": "תְמִימָה"
+      },
+      {
+        "ja": "אמאם",
+        "en": "before",
+        "he": "לְעֻמַּת"
+      },
+      {
+        "ja": "אלעצעץ",
+        "en": "the base of the spine",
+        "he": "הֶעָצֶה"
+      },
+      {
+        "ja": "ינזעהא",
+        "en": "removing it",
+        "he": "יְסִירֶנָּה"
+      },
+      {
+        "ja": "ואלת'רב",
+        "en": "and the caul-fat",
+        "he": "הַחֵלֶב"
+      },
+      {
+        "ja": "אלמג'טי",
+        "en": "covering",
+        "he": "הַמְכַסֶּה"
+      },
+      {
+        "ja": "אלגוף",
+        "en": "the innards",
+        "he": "אֶת-הַקֶּרֶב"
+      },
+      {
+        "ja": "וסאיר",
+        "en": "and all the rest of"
+      },
+      {
+        "ja": "אלשחם",
+        "en": "the fat",
+        "he": "הַחֵלֶב"
+      },
+      {
+        "ja": "אלד'י עלי' אלגוף",
+        "en": "which is upon the innards",
+        "he": "אֲשֶׁר עַל-הַקֶּרֶב"
       }
     ],
     "10": [
       {
-        "ja": "ואלכלותין. ואלשחם אלד'י עליהמא. אלד'י עלי' אלאחשא",
-        "en": "and the two kidneys and the fat which is upon them, which is upon the entrails",
-        "he": "וְאֵת שְׁתֵּי הַכְּלָיֹת וְאֶת-הַחֵלֶב אֲשֶׁר עֲלֵהֶן אֲשֶׁר עַל-הַכְּסָלִים"
+        "ja": "ואלכלותין",
+        "en": "and the two kidneys",
+        "he": "שְׁתֵּי הַכְּלָיֹת"
       },
       {
-        "ja": "וזיאדה' אלכבד. מע אלכלי' ינזעהא",
-        "en": "and the appendage of the liver — together with the kidneys he shall remove them.",
-        "he": "וְאֶת-הַיֹּתֶרֶת עַל-הַכָּבֵד עַל-הַכְּלָיֹת יְסִירֶנָּה"
+        "ja": "ואלשחם",
+        "en": "and the fat",
+        "he": "וְאֶת-הַחֵלֶב"
+      },
+      {
+        "ja": "אלד'י עליהמא",
+        "en": "which is upon them",
+        "he": "אֲשֶׁר עֲלֵהֶן"
+      },
+      {
+        "ja": "אלד'י עלי' אלאחשא",
+        "en": "which is upon the entrails",
+        "he": "אֲשֶׁר עַל-הַכְּסָלִים"
+      },
+      {
+        "ja": "וזיאדה'",
+        "en": "and the appendage of",
+        "he": "וְאֶת-הַיֹּתֶרֶת"
+      },
+      {
+        "ja": "אלכבד",
+        "en": "the liver",
+        "he": "הַכָּבֵד"
+      },
+      {
+        "ja": "מע אלכלי'",
+        "en": "together with the kidneys",
+        "he": "עַל-הַכְּלָיֹת"
+      },
+      {
+        "ja": "ינזעהא",
+        "en": "he shall remove them",
+        "he": "יְסִירֶנָּה"
       }
     ],
     "11": [
       {
-        "ja": "ויקתר ד'אלך אלאמאם עלי' אלמד'בח. קרבאן מקבול ללה",
-        "en": "And the priest shall burn that upon the altar — an offering acceptable to God.",
-        "he": "וְהִקְטִירוֹ הַכֹּהֵן הַמִּזְבֵּחָה--לֶחֶם אִשֶּׁה לַיהוָה"
+        "ja": "ויקתר",
+        "en": "shall burn",
+        "he": "וְהִקְטִירוֹ"
+      },
+      {
+        "ja": "ד'אלך",
+        "en": "that"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "the priest",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "הַמִּזְבֵּחָה"
+      },
+      {
+        "ja": "קרבאן",
+        "en": "an offering",
+        "he": "אִשֶּׁה"
+      },
+      {
+        "ja": "מקבול",
+        "en": "acceptable"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
       }
     ],
     "12": [
       {
-        "ja": "ואן כאן קרבאנה מן אלמאעז. פליקרבה בין ידי אללה",
-        "en": "And if his offering be from the goats, he shall bring it before God.",
-        "he": "וְאִם עֵז קָרְבָּנוֹ--וְהִקְרִיבוֹ לִפְנֵי יְהוָה"
+        "ja": "ואן",
+        "en": "And if"
+      },
+      {
+        "ja": "כאן",
+        "en": "be"
+      },
+      {
+        "ja": "קרבאנה",
+        "en": "his offering",
+        "he": "קָרְבָּנוֹ"
+      },
+      {
+        "ja": "מן אלמאעז",
+        "en": "from the goats",
+        "he": "עֵז"
+      },
+      {
+        "ja": "פליקרבה",
+        "en": "he shall bring it",
+        "he": "וְהִקְרִיבוֹ"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
       }
     ],
     "13": [
       {
-        "ja": "ויסנד ידה עלי' ראסה. ויד'בחה. בין ידי כ'בא אלמחצ'ר",
-        "en": "And he shall lay his hand upon its head, and slaughter it before the tent of the assembly",
-        "he": "וְסָמַךְ אֶת-יָדוֹ עַל-רֹאשׁוֹ וְשָׁחַט אֹתוֹ לִפְנֵי אֹהֶל מוֹעֵד"
+        "ja": "ויסנד",
+        "en": "And he shall lay",
+        "he": "וְסָמַךְ"
       },
       {
-        "ja": "וירשון. בני הרון דמה. עלי' אלמד'בח מסתדירא",
-        "en": "and the sons of Aaron shall sprinkle its blood upon the altar all around.",
-        "he": "וְזָרְקוּ בְּנֵי אַהֲרֹן אֶת-דָּמוֹ עַל-הַמִּזְבֵּחַ--סָבִיב"
+        "ja": "ידה",
+        "en": "his hand",
+        "he": "אֶת-יָדוֹ"
+      },
+      {
+        "ja": "עלי' ראסה",
+        "en": "upon its head",
+        "he": "עַל-רֹאשׁוֹ"
+      },
+      {
+        "ja": "ויד'בחה",
+        "en": "and slaughter it",
+        "he": "וְשָׁחַט אֹתוֹ"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of the assembly",
+        "he": "אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "וירשון",
+        "en": "shall sprinkle",
+        "he": "וְזָרְקוּ"
+      },
+      {
+        "ja": "בני הרון",
+        "en": "the sons of Aaron",
+        "he": "בְּנֵי אַהֲרֹן"
+      },
+      {
+        "ja": "דמה",
+        "en": "its blood",
+        "he": "אֶת-דָּמוֹ"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "עַל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "מסתדירא",
+        "en": "all around",
+        "he": "סָבִיב"
       }
     ],
     "14": [
       {
-        "ja": "ויקרב מנה קרבאנא ללה. אלת'רב אלמג'טי אלגוף",
-        "en": "And he shall offer from it an offering to God: the caul-fat covering the innards",
-        "he": "וְהִקְרִיב מִמֶּנּוּ קָרְבָּנוֹ אִשֶּׁה לַיהוָה--אֶת-הַחֵלֶב הַמְכַסֶּה אֶת-הַקֶּרֶב"
+        "ja": "ויקרב",
+        "en": "And he shall offer",
+        "he": "וְהִקְרִיב"
       },
       {
-        "ja": "וסאיר אלשחם. אלד'י עלי' אלגוף",
-        "en": "and all the rest of the fat which is upon the innards,",
-        "he": "וְאֵת כָּל-הַחֵלֶב אֲשֶׁר עַל-הַקֶּרֶב"
+        "ja": "מנה",
+        "en": "from it",
+        "he": "מִמֶּנּוּ"
+      },
+      {
+        "ja": "קרבאנא",
+        "en": "an offering"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "אלת'רב",
+        "en": "the caul-fat",
+        "he": "הַחֵלֶב"
+      },
+      {
+        "ja": "אלמג'טי",
+        "en": "covering",
+        "he": "הַמְכַסֶּה"
+      },
+      {
+        "ja": "אלגוף",
+        "en": "the innards",
+        "he": "אֶת-הַקֶּרֶב"
+      },
+      {
+        "ja": "וסאיר",
+        "en": "and all the rest of"
+      },
+      {
+        "ja": "אלשחם",
+        "en": "the fat",
+        "he": "הַחֵלֶב"
+      },
+      {
+        "ja": "אלד'י עלי' אלגוף",
+        "en": "which is upon the innards",
+        "he": "אֲשֶׁר עַל-הַקֶּרֶב"
       }
     ],
     "15": [
       {
-        "ja": "ואלכלותין. ואלשחם אלד'י עליהמא. אלד'י עלי' אלאחשא",
-        "en": "and the two kidneys and the fat which is upon them, which is upon the entrails",
-        "he": "וְאֵת שְׁתֵּי הַכְּלָיֹת וְאֶת-הַחֵלֶב אֲשֶׁר עֲלֵהֶן אֲשֶׁר עַל-הַכְּסָלִים"
+        "ja": "ואלכלותין",
+        "en": "and the two kidneys",
+        "he": "שְׁתֵּי הַכְּלָיֹת"
       },
       {
-        "ja": "וזיאדה' אלכבד. מע אלכלי'' ינזעהא",
-        "en": "and the appendage of the liver — together with the kidneys he shall remove them.",
-        "he": "וְאֶת-הַיֹּתֶרֶת עַל-הַכָּבֵד עַל-הַכְּלָיֹת יְסִירֶנָּה"
+        "ja": "ואלשחם",
+        "en": "and the fat",
+        "he": "וְאֶת-הַחֵלֶב"
+      },
+      {
+        "ja": "אלד'י עליהמא",
+        "en": "which is upon them",
+        "he": "אֲשֶׁר עֲלֵהֶן"
+      },
+      {
+        "ja": "אלד'י עלי' אלאחשא",
+        "en": "which is upon the entrails",
+        "he": "אֲשֶׁר עַל-הַכְּסָלִים"
+      },
+      {
+        "ja": "וזיאדה'",
+        "en": "and the appendage of",
+        "he": "וְאֶת-הַיֹּתֶרֶת"
+      },
+      {
+        "ja": "אלכבד",
+        "en": "the liver",
+        "he": "הַכָּבֵד"
+      },
+      {
+        "ja": "מע אלכלי''",
+        "en": "together with the kidneys",
+        "he": "עַל-הַכְּלָיֹת"
+      },
+      {
+        "ja": "ינזעהא",
+        "en": "he shall remove them",
+        "he": "יְסִירֶנָּה"
       }
     ],
     "16": [
       {
-        "ja": "ויקתרהא אלאמאם עלי' אלמד'בח. קרבאנא מחרקא מרצ'י מקבול",
-        "en": "And the priest shall burn them upon the altar — a burnt offering, pleasing and acceptable",
-        "he": "וְהִקְטִירָם הַכֹּהֵן הַמִּזְבֵּחָה--לֶחֶם אִשֶּׁה לְרֵיחַ נִיחֹחַ"
+        "ja": "ויקתרהא",
+        "en": "shall burn them",
+        "he": "וְהִקְטִירָם"
       },
       {
-        "ja": "כל שחם כד'אך ללה",
-        "en": "all fat is thus for God.",
-        "he": "כָּל-חֵלֶב לַיהוָה"
+        "ja": "אלאמאם",
+        "en": "the priest",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "הַמִּזְבֵּחָה"
+      },
+      {
+        "ja": "קרבאנא",
+        "en": "a"
+      },
+      {
+        "ja": "מחרקא",
+        "en": "burnt offering"
+      },
+      {
+        "ja": "מרצ'י",
+        "en": "pleasing"
+      },
+      {
+        "ja": "מקבול",
+        "en": "and acceptable"
+      },
+      {
+        "ja": "כל שחם",
+        "en": "all fat",
+        "he": "כָּל-חֵלֶב"
+      },
+      {
+        "ja": "כד'אך",
+        "en": "is thus"
+      },
+      {
+        "ja": "ללה",
+        "en": "for God",
+        "he": "לַיהוָה"
       }
     ],
     "17": [
       {
-        "ja": "רסם אלדהר עלי' מר אגיאלכם. פי גמיע מסאכנכם",
-        "en": "A perpetual ordinance throughout your generations, in all your dwellings",
-        "he": "חֻקַּת עוֹלָם לְדֹרֹתֵיכֶם בְּכֹל מוֹשְׁבֹתֵיכֶם"
+        "ja": "רסם אלדהר",
+        "en": "A perpetual ordinance",
+        "he": "חֻקַּת עוֹלָם"
       },
       {
-        "ja": "כל שחם וכל דם לא תאכלו",
-        "en": "no fat and no blood shall you eat.",
-        "he": "כָּל-חֵלֶב וְכָל-דָּם לֹא תֹאכֵלוּ"
+        "ja": "עלי' מר אגיאלכם",
+        "en": "throughout your generations",
+        "he": "לְדֹרֹתֵיכֶם"
+      },
+      {
+        "ja": "פי גמיע מסאכנכם",
+        "en": "in all your dwellings",
+        "he": "בְּכֹל מוֹשְׁבֹתֵיכֶם"
+      },
+      {
+        "ja": "כל שחם",
+        "en": "no fat",
+        "he": "כָּל-חֵלֶב"
+      },
+      {
+        "ja": "וכל דם",
+        "en": "and no blood",
+        "he": "וְכָל-דָּם"
+      },
+      {
+        "ja": "לא תאכלו",
+        "en": "shall you eat",
+        "he": "לֹא תֹאכֵלוּ"
       }
     ]
   }
