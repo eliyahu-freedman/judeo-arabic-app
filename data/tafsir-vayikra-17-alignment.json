@@ -1,188 +1,837 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 17. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_17.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 17. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_17.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly",
+        "he": "לֵּאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "מר הרון ובניה וסאיר בני אסראיל.",
-        "en": "Command Aaron and his sons and the rest of the sons of Israel,",
-        "he": "דַּבֵּר אֶל-אַהֲרֹן וְאֶל-בָּנָיו וְאֶל כָּל-בְּנֵי יִשְׂרָאֵל"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "וקל להם. הדא אלאמר אלד'י אמר בה אללה",
-        "en": "and say to them: This is the matter which God has commanded.",
-        "he": "וְאָמַרְתָּ אֲלֵיהֶם זֶה הַדָּבָר אֲשֶׁר-צִוָּה יְהוָה לֵאמֹר"
+        "ja": "הרון",
+        "en": "Aaron",
+        "he": "אֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "ובניה",
+        "en": "and his sons",
+        "he": "וְאֶל-בָּנָיו"
+      },
+      {
+        "ja": "וסאיר בני אסראיל.",
+        "en": "and the rest of the sons of Israel",
+        "he": "וְאֶל כָּל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "להם.",
+        "en": "to them",
+        "he": "אֲלֵיהֶם"
+      },
+      {
+        "ja": "הדא אלאמר",
+        "en": "This is the matter",
+        "he": "זֶה הַדָּבָר"
+      },
+      {
+        "ja": "אלד'י אמר בה",
+        "en": "which",
+        "he": "אֲשֶׁר-צִוָּה"
+      },
+      {
+        "ja": "אללה",
+        "en": "God has commanded",
+        "he": "יְהוָה"
       }
     ],
     "3": [
       {
-        "ja": "אי רגל מן בני אסראיל. יד'בח ת'ורא או כבשא. או ענזא פי אלעסכר. או פי כ'ארגה",
-        "en": "Any man from the sons of Israel who slaughters an ox or a ram or a goat — in the camp or outside of it —",
-        "he": "אִישׁ אִישׁ מִבֵּית יִשְׂרָאֵל אֲשֶׁר יִשְׁחַט שׁוֹר אוֹ-כֶשֶׂב אוֹ-עֵז בַּמַּחֲנֶה אוֹ אֲשֶׁר יִשְׁחַט מִחוּץ לַמַּחֲנֶה"
+        "ja": "אי רגל",
+        "en": "Any man",
+        "he": "אִישׁ אִישׁ"
+      },
+      {
+        "ja": "מן בני אסראיל.",
+        "en": "from the sons of Israel",
+        "he": "מִבֵּית יִשְׂרָאֵל"
+      },
+      {
+        "ja": "יד'בח",
+        "en": "who slaughters",
+        "he": "אֲשֶׁר יִשְׁחַט"
+      },
+      {
+        "ja": "ת'ורא",
+        "en": "an ox",
+        "he": "שׁוֹר"
+      },
+      {
+        "ja": "או כבשא.",
+        "en": "or a ram",
+        "he": "אוֹ-כֶשֶׂב"
+      },
+      {
+        "ja": "או ענזא",
+        "en": "or a goat",
+        "he": "אוֹ-עֵז"
+      },
+      {
+        "ja": "פי אלעסכר.",
+        "en": "in the camp",
+        "he": "בַּמַּחֲנֶה"
+      },
+      {
+        "ja": "או פי כ'ארגה",
+        "en": "or outside of it",
+        "he": "אוֹ אֲשֶׁר יִשְׁחַט מִחוּץ לַמַּחֲנֶה"
       }
     ],
     "4": [
       {
-        "ja": "ולם יאתי בה אלי' באב כ'בא אלמחצ'ר. פיקרבה אד' הו קרבאן ללה בין ידי מסכנה.",
-        "en": "and did not bring it to the entrance of the tent of the assembly to offer it, since it is an offering to God before His dwelling —",
-        "he": "וְאֶל-פֶּתַח אֹהֶל מוֹעֵד לֹא הֱבִיאוֹ לְהַקְרִיב קָרְבָּן לַיהוָה לִפְנֵי מִשְׁכַּן יְהוָה"
+        "ja": "ולם יאתי בה אלי' באב",
+        "en": "and did not bring it to the entrance",
+        "he": "וְאֶל-פֶּתַח"
       },
       {
-        "ja": "פהו יחסב עליה כמן קד ספך' דם אנסאן. וינקטע ד'אלך אלאנסאן מן בין קומה",
-        "en": "it shall be reckoned against him as one who has shed human blood, and that person shall be cut off from among his people.",
-        "he": "דָּם יֵחָשֵׁב לָאִישׁ הַהוּא דָּם שָׁפָךְ וְנִכְרַת הָאִישׁ הַהוּא מִקֶּרֶב עַמּוֹ"
+        "ja": "כ'בא אלמחצ'ר.",
+        "en": "of the tent of the assembly",
+        "he": "אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "פיקרבה",
+        "en": "to offer it"
+      },
+      {
+        "ja": "אד'",
+        "en": "since"
+      },
+      {
+        "ja": "הו",
+        "en": "it is"
+      },
+      {
+        "ja": "קרבאן",
+        "en": "an offering",
+        "he": "קָרְבָּן"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "מסכנה.",
+        "en": "His dwelling",
+        "he": "מִשְׁכַּן יְהוָה"
+      },
+      {
+        "ja": "פהו יחסב עליה",
+        "en": "it shall be reckoned against him",
+        "he": "דָּם יֵחָשֵׁב"
+      },
+      {
+        "ja": "כמן",
+        "en": "as one who has"
+      },
+      {
+        "ja": "ספך' דם",
+        "en": "shed",
+        "he": "דָּם שָׁפָךְ"
+      },
+      {
+        "ja": "אנסאן.",
+        "en": "human blood"
+      },
+      {
+        "ja": "וינקטע",
+        "en": "shall be cut off",
+        "he": "וְנִכְרַת"
+      },
+      {
+        "ja": "ד'אלך אלאנסאן",
+        "en": "that person",
+        "he": "הָאִישׁ הַהוּא"
+      },
+      {
+        "ja": "מן בין קומה",
+        "en": "from among his people",
+        "he": "מִקֶּרֶב עַמּוֹ"
       }
     ],
     "5": [
       {
-        "ja": "לכי יאתון בני אסראיל. בד'באיחהם",
-        "en": "This is so that the sons of Israel may bring their sacrifices —",
-        "he": "לְמַעַן אֲשֶׁר יָבִיאוּ בְּנֵי יִשְׂרָאֵל אֶת-זִבְחֵיהֶם"
+        "ja": "לכי",
+        "en": "This is so that",
+        "he": "לְמַעַן"
       },
       {
-        "ja": "אלתי לעלהם אן יד'בחונהא עלי' וגה אלצחרא.",
-        "en": "those which they might slaughter upon the face of the wilderness —",
-        "he": "אֲשֶׁר הֵם זֹבְחִים עַל-פְּנֵי הַשָּׂדֶה"
+        "ja": "יאתון",
+        "en": "may bring",
+        "he": "אֲשֶׁר יָבִיאוּ"
       },
       {
-        "ja": "פיגו בהא בין ידי אללה. אלי' באב כ'בא אלמחצ'ר אלי' אלאמאם. פיד'בחוהא ד'באיח סלאמה ללה",
-        "en": "and bring them before God, to the entrance of the tent of the assembly, to the priest, and slaughter them as peace-offerings to God.",
-        "he": "וֶהֱבִיאֻם לַיהוָה אֶל-פֶּתַח אֹהֶל מוֹעֵד אֶל-הַכֹּהֵן וְזָבְחוּ זִבְחֵי שְׁלָמִים לַיהוָה--אוֹתָם"
+        "ja": "בני אסראיל.",
+        "en": "the sons of Israel",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "בד'באיחהם",
+        "en": "their sacrifices",
+        "he": "אֶת-זִבְחֵיהֶם"
+      },
+      {
+        "ja": "אלתי לעלהם אן יד'בחונהא",
+        "en": "those which they might slaughter",
+        "he": "אֲשֶׁר הֵם זֹבְחִים"
+      },
+      {
+        "ja": "עלי' וגה אלצחרא.",
+        "en": "upon the face of the wilderness",
+        "he": "עַל-פְּנֵי הַשָּׂדֶה"
+      },
+      {
+        "ja": "פיגו בהא",
+        "en": "and bring them",
+        "he": "וֶהֱבִיאֻם"
+      },
+      {
+        "ja": "בין ידי אללה.",
+        "en": "before God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "אלי' באב כ'בא אלמחצ'ר",
+        "en": "to the entrance of the tent of the assembly",
+        "he": "אֶל-פֶּתַח אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "אלי' אלאמאם.",
+        "en": "to the priest",
+        "he": "אֶל-הַכֹּהֵן"
+      },
+      {
+        "ja": "פיד'בחוהא",
+        "en": "and slaughter them",
+        "he": "וְזָבְחוּ"
+      },
+      {
+        "ja": "ד'באיח סלאמה",
+        "en": "as peace-offerings",
+        "he": "זִבְחֵי שְׁלָמִים"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
       }
     ],
     "6": [
       {
-        "ja": "וירש אלאמאם דמהא עלי' מד'בח אללה. אלד'י ענד באב כ'בא אלמחצ'ר.",
-        "en": "And the priest shall sprinkle their blood upon the altar of God which is at the entrance of the tent of the assembly,",
-        "he": "וְזָרַק הַכֹּהֵן אֶת-הַדָּם עַל-מִזְבַּח יְהוָה פֶּתַח אֹהֶל מוֹעֵד"
+        "ja": "וירש",
+        "en": "shall sprinkle",
+        "he": "וְזָרַק"
       },
       {
-        "ja": "ויקתר שחמהא. מקבולא מרצ'ייא ללה",
-        "en": "and burn their fat — acceptable and pleasing to God.",
-        "he": "וְהִקְטִיר הַחֵלֶב לְרֵיחַ נִיחֹחַ לַיהוָה"
+        "ja": "אלאמאם",
+        "en": "And the priest",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "דמהא",
+        "en": "their blood",
+        "he": "אֶת-הַדָּם"
+      },
+      {
+        "ja": "עלי' מד'בח אללה.",
+        "en": "upon the altar of God",
+        "he": "עַל-מִזְבַּח יְהוָה"
+      },
+      {
+        "ja": "אלד'י ענד באב כ'בא אלמחצ'ר.",
+        "en": "which is at the entrance of the tent of the assembly",
+        "he": "פֶּתַח אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "ויקתר",
+        "en": "and burn",
+        "he": "וְהִקְטִיר"
+      },
+      {
+        "ja": "שחמהא.",
+        "en": "their fat",
+        "he": "הַחֵלֶב"
+      },
+      {
+        "ja": "מקבולא",
+        "en": "acceptable"
+      },
+      {
+        "ja": "מרצ'ייא",
+        "en": "and pleasing"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
       }
     ],
     "7": [
       {
-        "ja": "ולא יד'בחו אבדא ד'באיחהם. לאלשיאטין. אלד'י הם יטגון פי תבעהא.",
-        "en": "And they shall nevermore slaughter their sacrifices to the demons, after which they go astray in following them.",
-        "he": "וְלֹא-יִזְבְּחוּ עוֹד אֶת-זִבְחֵיהֶם לַשְּׂעִירִם אֲשֶׁר הֵם זֹנִים אַחֲרֵיהֶם"
+        "ja": "ולא יד'בחו",
+        "en": "And they shall",
+        "he": "וְלֹא-יִזְבְּחוּ"
       },
       {
-        "ja": "פיכון ד'אלך להם. רסם אלדהר לאגיאלהם",
-        "en": "This shall be for them a statute forever, for their generations.",
-        "he": "חֻקַּת עוֹלָם תִּהְיֶה-זֹּאת לָהֶם לְדֹרֹתָם"
+        "ja": "אבדא",
+        "en": "nevermore slaughter",
+        "he": "עוֹד"
+      },
+      {
+        "ja": "ד'באיחהם.",
+        "en": "their sacrifices",
+        "he": "אֶת-זִבְחֵיהֶם"
+      },
+      {
+        "ja": "לאלשיאטין.",
+        "en": "to the demons",
+        "he": "לַשְּׂעִירִם"
+      },
+      {
+        "ja": "אלד'י הם",
+        "en": "after which they",
+        "he": "אֲשֶׁר הֵם"
+      },
+      {
+        "ja": "יטגון",
+        "en": "go astray",
+        "he": "זֹנִים"
+      },
+      {
+        "ja": "פי תבעהא.",
+        "en": "in following them",
+        "he": "אַחֲרֵיהֶם"
+      },
+      {
+        "ja": "פיכון",
+        "en": "This shall be"
+      },
+      {
+        "ja": "ד'אלך",
+        "en": "for them"
+      },
+      {
+        "ja": "רסם אלדהר",
+        "en": "a statute forever",
+        "he": "חֻקַּת עוֹלָם"
+      },
+      {
+        "ja": "להם.",
+        "en": "for their",
+        "he": "תִּהְיֶה-זֹּאת לָהֶם"
+      },
+      {
+        "ja": "לאגיאלהם",
+        "en": "generations",
+        "he": "לְדֹרֹתָם"
       }
     ],
     "8": [
       {
-        "ja": "וקל להם. אי רגל מן בני אסראיל. ומן אלג'ריב אלדכ'יל פי מא בינהם.",
-        "en": "And say to them: Any man from the sons of Israel, or from the stranger who has come in among them,",
-        "he": "וַאֲלֵהֶם תֹּאמַר--אִישׁ אִישׁ מִבֵּית יִשְׂרָאֵל וּמִן-הַגֵּר אֲשֶׁר-יָגוּר בְּתוֹכָם"
+        "ja": "וקל להם.",
+        "en": "And say to them",
+        "he": "וַאֲלֵהֶם תֹּאמַר"
       },
       {
-        "ja": "יחרק צעידה או ד'בחא",
-        "en": "who burns an offering or a sacrifice —",
-        "he": "אֲשֶׁר-יַעֲלֶה עֹלָה אוֹ-זָבַח"
+        "ja": "אי רגל",
+        "en": "Any man",
+        "he": "אִישׁ אִישׁ"
+      },
+      {
+        "ja": "מן בני אסראיל.",
+        "en": "from the sons of Israel",
+        "he": "מִבֵּית יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ומן אלג'ריב",
+        "en": "or from the stranger",
+        "he": "וּמִן-הַגֵּר"
+      },
+      {
+        "ja": "אלדכ'יל",
+        "en": "who has come in",
+        "he": "אֲשֶׁר-יָגוּר"
+      },
+      {
+        "ja": "פי מא בינהם.",
+        "en": "among them",
+        "he": "בְּתוֹכָם"
+      },
+      {
+        "ja": "יחרק צעידה",
+        "en": "who burns an offering",
+        "he": "אֲשֶׁר-יַעֲלֶה עֹלָה"
+      },
+      {
+        "ja": "או ד'בחא",
+        "en": "or a sacrifice",
+        "he": "אוֹ-זָבַח"
       }
     ],
     "9": [
       {
-        "ja": "ואלי' באב כ'בא אלמחצ'ר לם יאתי בה. ליקרבה כד'אך ללה.",
-        "en": "and did not bring it to the entrance of the tent of the assembly to offer it thus to God —",
-        "he": "וְאֶל-פֶּתַח אֹהֶל מוֹעֵד לֹא יְבִיאֶנּוּ לַעֲשׂוֹת אֹתוֹ לַיהוָה"
+        "ja": "ואלי' באב",
+        "en": "and did not bring it to the entrance",
+        "he": "וְאֶל-פֶּתַח"
       },
       {
-        "ja": "פינקטע ד'אלך אלאנסאן מן קומה",
-        "en": "that person shall be cut off from his people.",
-        "he": "וְנִכְרַת הָאִישׁ הַהוּא מֵעַמָּיו"
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "of the tent of the assembly",
+        "he": "אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "לם יאתי בה.",
+        "en": "to offer it",
+        "he": "לֹא יְבִיאֶנּוּ"
+      },
+      {
+        "ja": "ליקרבה כד'אך",
+        "en": "thus",
+        "he": "לַעֲשׂוֹת אֹתוֹ"
+      },
+      {
+        "ja": "ללה.",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "פינקטע",
+        "en": "shall be cut off",
+        "he": "וְנִכְרַת"
+      },
+      {
+        "ja": "ד'אלך אלאנסאן",
+        "en": "that person",
+        "he": "הָאִישׁ הַהוּא"
+      },
+      {
+        "ja": "מן קומה",
+        "en": "from his people",
+        "he": "מֵעַמָּיו"
       }
     ],
     "10": [
       {
-        "ja": "ואי רגל מן אל אסראיל. ומן אלג'ריב אלדכ'יל פי מא בינהם. יאכל שייא מן אלדם.",
-        "en": "And any man from the house of Israel, or from the stranger who has come in among them, who eats anything of blood —",
-        "he": "וְאִישׁ אִישׁ מִבֵּית יִשְׂרָאֵל וּמִן-הַגֵּר הַגָּר בְּתוֹכָם אֲשֶׁר יֹאכַל כָּל-דָּם"
+        "ja": "ואי רגל",
+        "en": "And any man",
+        "he": "וְאִישׁ אִישׁ"
       },
       {
-        "ja": "אחללת ג'צ'בי פיה. וקטעתה מן בין קומה",
-        "en": "I shall unleash My wrath upon him, and shall cut him off from among his people.",
-        "he": "וְנָתַתִּי פָנַי בַּנֶּפֶשׁ הָאֹכֶלֶת אֶת-הַדָּם וְהִכְרַתִּי אֹתָהּ מִקֶּרֶב עַמָּהּ"
+        "ja": "מן אל אסראיל.",
+        "en": "from the house of Israel",
+        "he": "מִבֵּית יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ומן אלג'ריב אלדכ'יל",
+        "en": "or from the stranger who has come in",
+        "he": "וּמִן-הַגֵּר הַגָּר"
+      },
+      {
+        "ja": "פי מא בינהם.",
+        "en": "among them",
+        "he": "בְּתוֹכָם"
+      },
+      {
+        "ja": "יאכל שייא מן אלדם.",
+        "en": "who eats anything of blood",
+        "he": "אֲשֶׁר יֹאכַל כָּל-דָּם"
+      },
+      {
+        "ja": "אחללת ג'צ'בי",
+        "en": "I shall unleash My wrath",
+        "he": "וְנָתַתִּי פָנַי"
+      },
+      {
+        "ja": "פיה.",
+        "en": "upon him",
+        "he": "בַּנֶּפֶשׁ הָאֹכֶלֶת"
+      },
+      {
+        "ja": "וקטעתה",
+        "en": "and shall cut him off",
+        "he": "וְהִכְרַתִּי"
+      },
+      {
+        "ja": "מן בין קומה",
+        "en": "from among his people",
+        "he": "מִקֶּרֶב עַמָּהּ"
       }
     ],
     "11": [
       {
-        "ja": "לאן נפס גמיע אלבשריון אלדם מסכנהא. ולד'אלך געלתה לכם עלי' אלמד'בח. ליסתג'פר בה ען אנפסכם.",
-        "en": "For the soul of all fleshly beings — blood is its dwelling; and therefore I have appointed it for you upon the altar, that forgiveness may be sought by it for your souls —",
-        "he": "כִּי נֶפֶשׁ הַבָּשָׂר בַּדָּם הִוא וַאֲנִי נְתַתִּיו לָכֶם עַל-הַמִּזְבֵּחַ לְכַפֵּר עַל-נַפְשֹׁתֵיכֶם"
+        "ja": "לאן",
+        "en": "For",
+        "he": "כִּי"
       },
       {
-        "ja": "לאן אלדם יכפר ען אלנפס",
-        "en": "for blood makes atonement for the soul.",
-        "he": "כִּי-הַדָּם הוּא בַּנֶּפֶשׁ יְכַפֵּר"
+        "ja": "נפס גמיע אלבשריון",
+        "en": "the soul of all fleshly beings",
+        "he": "נֶפֶשׁ הַבָּשָׂר"
+      },
+      {
+        "ja": "אלדם",
+        "en": "blood",
+        "he": "בַּדָּם"
+      },
+      {
+        "ja": "מסכנהא.",
+        "en": "is its dwelling",
+        "he": "הִוא"
+      },
+      {
+        "ja": "ולד'אלך געלתה",
+        "en": "and therefore I have appointed it",
+        "he": "וַאֲנִי נְתַתִּיו"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "עלי' אלמד'בח.",
+        "en": "upon the altar",
+        "he": "עַל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "ליסתג'פר בה",
+        "en": "that forgiveness may be sought by it",
+        "he": "לְכַפֵּר"
+      },
+      {
+        "ja": "ען אנפסכם.",
+        "en": "for your souls",
+        "he": "עַל-נַפְשֹׁתֵיכֶם"
+      },
+      {
+        "ja": "לאן אלדם",
+        "en": "for blood",
+        "he": "כִּי-הַדָּם"
+      },
+      {
+        "ja": "יכפר ען אלנפס",
+        "en": "makes atonement for the soul",
+        "he": "הוּא בַּנֶּפֶשׁ יְכַפֵּר"
       }
     ],
     "12": [
       {
-        "ja": "ולד'אלך קלת לבני אסראיל. כל אנסאן מנכם לא יאכל דמא.",
-        "en": "Therefore I have said to the sons of Israel: no person among you shall eat blood;",
-        "he": "עַל-כֵּן אָמַרְתִּי לִבְנֵי יִשְׂרָאֵל כָּל-נֶפֶשׁ מִכֶּם לֹא-תֹאכַל דָּם"
+        "ja": "ולד'אלך",
+        "en": "Therefore",
+        "he": "עַל-כֵּן"
       },
       {
-        "ja": "חתי' אלג'ריב אלדכ'יל פי מא בינכם לא יאכל דמא",
-        "en": "and even the stranger who has come in among you shall not eat blood.",
-        "he": "וְהַגֵּר הַגָּר בְּתוֹכְכֶם לֹא-יֹאכַל דָּם"
+        "ja": "קלת",
+        "en": "I have said",
+        "he": "אָמַרְתִּי"
+      },
+      {
+        "ja": "לבני אסראיל.",
+        "en": "to the sons of Israel",
+        "he": "לִבְנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "כל אנסאן",
+        "en": "no person",
+        "he": "כָּל-נֶפֶשׁ"
+      },
+      {
+        "ja": "מנכם",
+        "en": "among you",
+        "he": "מִכֶּם"
+      },
+      {
+        "ja": "לא יאכל דמא.",
+        "en": "shall eat blood",
+        "he": "לֹא-תֹאכַל דָּם"
+      },
+      {
+        "ja": "חתי' אלג'ריב אלדכ'יל",
+        "en": "and even the stranger who has come in",
+        "he": "וְהַגֵּר הַגָּר"
+      },
+      {
+        "ja": "פי מא בינכם",
+        "en": "among you",
+        "he": "בְּתוֹכְכֶם"
+      },
+      {
+        "ja": "לא יאכל דמא",
+        "en": "shall not eat blood",
+        "he": "לֹא-יֹאכַל דָּם"
       }
     ],
     "13": [
       {
-        "ja": "ואי רגל מן בני אסראיל. ומן אלג'ריב אלדכ'יל פי מא בינהם. אצטאד צידא מן אלוחש או מן אלטאיר אלד'י אכלה חלאל.",
-        "en": "And any man from the sons of Israel, or from the stranger who has come in among them, who hunts game — from the wild creatures or from the birds whose eating is permitted —",
-        "he": "וְאִישׁ אִישׁ מִבְּנֵי יִשְׂרָאֵל וּמִן-הַגֵּר הַגָּר בְּתוֹכָם אֲשֶׁר יָצוּד צֵיד חַיָּה אוֹ-עוֹף אֲשֶׁר יֵאָכֵל"
+        "ja": "ואי רגל",
+        "en": "And any man",
+        "he": "וְאִישׁ אִישׁ"
       },
       {
-        "ja": "פליצב דמה. ויוארה באלתראב",
-        "en": "let him pour out its blood and cover it with earth.",
-        "he": "וְשָׁפַךְ אֶת-דָּמוֹ וְכִסָּהוּ בֶּעָפָר"
+        "ja": "מן בני אסראיל.",
+        "en": "from the sons of Israel",
+        "he": "מִבְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ומן אלג'ריב אלדכ'יל",
+        "en": "or from the stranger who has come in",
+        "he": "וּמִן-הַגֵּר הַגָּר"
+      },
+      {
+        "ja": "פי מא בינהם.",
+        "en": "among them",
+        "he": "בְּתוֹכָם"
+      },
+      {
+        "ja": "אצטאד",
+        "en": "who hunts",
+        "he": "אֲשֶׁר יָצוּד"
+      },
+      {
+        "ja": "צידא",
+        "en": "game",
+        "he": "צֵיד"
+      },
+      {
+        "ja": "מן אלוחש",
+        "en": "from the wild creatures",
+        "he": "חַיָּה"
+      },
+      {
+        "ja": "או מן אלטאיר",
+        "en": "or from the birds",
+        "he": "אוֹ-עוֹף"
+      },
+      {
+        "ja": "אלד'י אכלה חלאל.",
+        "en": "whose eating is permitted",
+        "he": "אֲשֶׁר יֵאָכֵל"
+      },
+      {
+        "ja": "פליצב",
+        "en": "let him pour out",
+        "he": "וְשָׁפַךְ"
+      },
+      {
+        "ja": "דמה.",
+        "en": "its blood",
+        "he": "אֶת-דָּמוֹ"
+      },
+      {
+        "ja": "ויוארה",
+        "en": "and cover it",
+        "he": "וְכִסָּהוּ"
+      },
+      {
+        "ja": "באלתראב",
+        "en": "with earth",
+        "he": "בֶּעָפָר"
       }
     ],
     "14": [
       {
-        "ja": "לאן נפס גמיע אלבשריון. כל ואחד פי דמה. ולאני קלת לבני אסראיל. דם כל בשרי לא תאכלו.",
-        "en": "For the soul of all fleshly beings — each one resides in its blood; and since I have said to the sons of Israel: the blood of every creature of flesh you shall not eat —",
-        "he": "כִּי-נֶפֶשׁ כָּל-בָּשָׂר דָּמוֹ בְנַפְשׁוֹ הוּא וָאֹמַר לִבְנֵי יִשְׂרָאֵל דַּם כָּל-בָּשָׂר לֹא תֹאכֵלוּ"
+        "ja": "לאן נפס",
+        "en": "For the soul",
+        "he": "כִּי-נֶפֶשׁ"
       },
       {
-        "ja": "אד' נפס כל בשרי אלדם מסכנהא. וכל מן אכלה ינקטע",
-        "en": "for the soul of every creature of flesh, blood is its dwelling — and whoever eats it shall be cut off.",
-        "he": "כִּי נֶפֶשׁ כָּל-בָּשָׂר דָּמוֹ הִוא כָּל-אֹכְלָיו יִכָּרֵת"
+        "ja": "גמיע אלבשריון.",
+        "en": "of all fleshly beings",
+        "he": "כָּל-בָּשָׂר"
+      },
+      {
+        "ja": "כל ואחד",
+        "en": "each one"
+      },
+      {
+        "ja": "פי דמה.",
+        "en": "resides in its blood",
+        "he": "דָּמוֹ בְנַפְשׁוֹ הוּא"
+      },
+      {
+        "ja": "ולאני קלת",
+        "en": "and since I have said",
+        "he": "וָאֹמַר"
+      },
+      {
+        "ja": "לבני אסראיל.",
+        "en": "to the sons of Israel",
+        "he": "לִבְנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "דם כל בשרי",
+        "en": "the blood of every creature of flesh",
+        "he": "דַּם כָּל-בָּשָׂר"
+      },
+      {
+        "ja": "לא תאכלו.",
+        "en": "you shall not eat",
+        "he": "לֹא תֹאכֵלוּ"
+      },
+      {
+        "ja": "אד'",
+        "en": "for",
+        "he": "כִּי"
+      },
+      {
+        "ja": "נפס כל בשרי",
+        "en": "the soul of every creature of flesh",
+        "he": "נֶפֶשׁ כָּל-בָּשָׂר"
+      },
+      {
+        "ja": "אלדם מסכנהא.",
+        "en": "blood is its dwelling",
+        "he": "דָּמוֹ הִוא"
+      },
+      {
+        "ja": "וכל מן אכלה",
+        "en": "and whoever eats it",
+        "he": "כָּל-אֹכְלָיו"
+      },
+      {
+        "ja": "ינקטע",
+        "en": "shall be cut off",
+        "he": "יִכָּרֵת"
       }
     ],
     "15": [
       {
-        "ja": "ואי אנסאן אכל נבילה או סקימה. מן אלצריח ואלג'ריב.",
-        "en": "And any person who eats what has died of itself or what is diseased — whether native-born or stranger —",
-        "he": "וְכָל-נֶפֶשׁ אֲשֶׁר תֹּאכַל נְבֵלָה וּטְרֵפָה בָּאֶזְרָח וּבַגֵּר"
+        "ja": "ואי אנסאן",
+        "en": "And any person",
+        "he": "וְכָל-נֶפֶשׁ"
       },
       {
-        "ja": "פליג'סל ת'יאבה. וירחץ' באלמא. וינגס אלי' אלמג'יב ויטהר",
-        "en": "let him wash his garments and bathe in water, and he shall be impure until the evening, and then be pure.",
-        "he": "וְכִבֶּס בְּגָדָיו וְרָחַץ בַּמַּיִם וְטָמֵא עַד-הָעֶרֶב--וְטָהֵר"
+        "ja": "אכל",
+        "en": "who eats",
+        "he": "אֲשֶׁר תֹּאכַל"
+      },
+      {
+        "ja": "נבילה",
+        "en": "what has died of itself",
+        "he": "נְבֵלָה"
+      },
+      {
+        "ja": "או סקימה.",
+        "en": "or what is diseased",
+        "he": "וּטְרֵפָה"
+      },
+      {
+        "ja": "מן אלצריח",
+        "en": "whether native-born",
+        "he": "בָּאֶזְרָח"
+      },
+      {
+        "ja": "ואלג'ריב.",
+        "en": "or stranger",
+        "he": "וּבַגֵּר"
+      },
+      {
+        "ja": "פליג'סל",
+        "en": "let him wash",
+        "he": "וְכִבֶּס"
+      },
+      {
+        "ja": "ת'יאבה.",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וירחץ'",
+        "en": "and bathe",
+        "he": "וְרָחַץ"
+      },
+      {
+        "ja": "באלמא.",
+        "en": "in water",
+        "he": "בַּמַּיִם"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and he shall be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until the evening",
+        "he": "עַד-הָעֶרֶב"
+      },
+      {
+        "ja": "ויטהר",
+        "en": "and then be pure",
+        "he": "וְטָהֵר"
       }
     ],
     "16": [
       {
-        "ja": "פאן הו לם יג'סלה. או לם ירחץ' בדנה. פקד חמל וזרה",
-        "en": "But if he does not wash them, or does not bathe his body, he shall have borne his guilt.",
-        "he": "וְאִם לֹא יְכַבֵּס וּבְשָׂרוֹ לֹא יִרְחָץ--וְנָשָׂא עֲו‍ֹנוֹ"
+        "ja": "פאן",
+        "en": "But if",
+        "he": "וְאִם"
+      },
+      {
+        "ja": "הו לם יג'סלה.",
+        "en": "he does not wash them",
+        "he": "לֹא יְכַבֵּס"
+      },
+      {
+        "ja": "או לם ירחץ' בדנה.",
+        "en": "or does not bathe his body",
+        "he": "וּבְשָׂרוֹ"
+      },
+      {
+        "ja": "פקד",
+        "en": "he shall have",
+        "he": "לֹא יִרְחָץ"
+      },
+      {
+        "ja": "חמל וזרה",
+        "en": "borne his guilt",
+        "he": "וְנָשָׂא עֲו‍ֹנוֹ"
       }
     ]
   }

@@ -1,380 +1,1594 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 15. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_15.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 15. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_15.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי'' והרון תכלימא",
-        "en": "Then God spoke to Moses and Aaron directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה וְאֶל-אַהֲרֹן לֵאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי''",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "ו",
+        "en": "and"
+      },
+      {
+        "ja": "הרון",
+        "en": "Aaron",
+        "he": "וְאֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly",
+        "he": "לֵאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "כלמא בני אסראיל. וקולא להמא.",
-        "en": "Speak to the sons of Israel, and say to them:",
-        "he": "דַּבְּרוּ אֶל-בְּנֵי יִשְׂרָאֵל וַאֲמַרְתֶּם אֲלֵהֶם"
+        "ja": "כלמא",
+        "en": "Speak",
+        "he": "דַּבְּרוּ"
       },
       {
-        "ja": "אי רגל כאן ד'איבא מן אחלילה. פד'ובה ד'אך הו נגס",
-        "en": "any man who has a discharge from his member — his discharge is impure.",
-        "he": "אִישׁ אִישׁ כִּי יִהְיֶה זָב מִבְּשָׂרוֹ--זוֹבוֹ טָמֵא הוּא"
+        "ja": "בני",
+        "en": "to the sons of",
+        "he": "אֶל-בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקולא",
+        "en": "and say",
+        "he": "וַאֲמַרְתֶּם"
+      },
+      {
+        "ja": "להמא",
+        "en": "to them",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "אי",
+        "en": "any",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "רגל",
+        "en": "man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "כאן ד'איבא",
+        "en": "who has a discharge",
+        "he": "כִּי יִהְיֶה זָב"
+      },
+      {
+        "ja": "מן אחלילה",
+        "en": "from his member",
+        "he": "מִבְּשָׂרוֹ"
+      },
+      {
+        "ja": "פד'ובה",
+        "en": "his discharge",
+        "he": "זוֹבוֹ"
+      },
+      {
+        "ja": "ד'אך",
+        "en": "—"
+      },
+      {
+        "ja": "הו",
+        "en": "is",
+        "he": "הוּא"
+      },
+      {
+        "ja": "נגס",
+        "en": "impure",
+        "he": "טָמֵא"
       }
     ],
     "3": [
       {
-        "ja": "והד'ה צפה' ד'ובה אלד'י תכון בה נגאסתה.",
-        "en": "And this is the description of his discharge by which his impurity occurs:",
-        "he": "וְזֹאת תִּהְיֶה טֻמְאָתוֹ בְּזוֹבוֹ"
+        "ja": "ו",
+        "en": "And"
       },
       {
-        "ja": "אמא אן יגעל אחלילה אלד'וב כאלריאל.",
-        "en": "whether his member lets the discharge flow like a coin,",
-        "he": "רָר בְּשָׂרוֹ אֶת-זוֹבוֹ"
+        "ja": "הד'ה",
+        "en": "this",
+        "he": "וְזֹאת"
       },
       {
-        "ja": "או ינכ'תם מנה. פתלך נגאסתה",
-        "en": "or it becomes sealed from it — that is his impurity.",
-        "he": "אוֹ-הֶחְתִּים בְּשָׂרוֹ מִזּוֹבוֹ--טֻמְאָתוֹ הִוא"
+        "ja": "צפה'",
+        "en": "is the description"
+      },
+      {
+        "ja": "ד'ובה",
+        "en": "of his discharge",
+        "he": "בְּזוֹבוֹ"
+      },
+      {
+        "ja": "אלד'י תכון בה נגאסתה",
+        "en": "by which his impurity occurs",
+        "he": "תִּהְיֶה טֻמְאָתוֹ"
+      },
+      {
+        "ja": "אמא אן יגעל אחלילה אלד'וב",
+        "en": "whether his member lets the discharge flow",
+        "he": "רָר בְּשָׂרוֹ"
+      },
+      {
+        "ja": "כאלריאל",
+        "en": "like a coin"
+      },
+      {
+        "ja": "או ינכ'תם",
+        "en": "or it becomes sealed",
+        "he": "אוֹ-הֶחְתִּים"
+      },
+      {
+        "ja": "מנה",
+        "en": "from it",
+        "he": "מִזּוֹבוֹ"
+      },
+      {
+        "ja": "פתלך",
+        "en": "that is",
+        "he": "טֻמְאָתוֹ"
+      },
+      {
+        "ja": "נגאסתה",
+        "en": "his impurity",
+        "he": "הִוא"
       }
     ],
     "4": [
       {
-        "ja": "וחכמה אן יכון כל מצ'גע ינצ'גע עליה ינגס.",
-        "en": "And his ruling is that every bed upon which he lies shall become impure,",
-        "he": "כָּל-הַמִּשְׁכָּב אֲשֶׁר יִשְׁכַּב עָלָיו הַזָּב--יִטְמָא"
+        "ja": "ו",
+        "en": "And"
       },
       {
-        "ja": "וכל אנא יגלס עליה ינגס",
-        "en": "and every vessel upon which he sits shall become impure.",
-        "he": "וְכָל-הַכְּלִי אֲשֶׁר-יֵשֵׁב עָלָיו יִטְמָא"
+        "ja": "חכמה",
+        "en": "his ruling"
+      },
+      {
+        "ja": "אן יכון",
+        "en": "is that"
+      },
+      {
+        "ja": "כל מצ'גע",
+        "en": "every bed",
+        "he": "כָּל-הַמִּשְׁכָּב"
+      },
+      {
+        "ja": "ינצ'גע עליה",
+        "en": "upon which he lies",
+        "he": "אֲשֶׁר יִשְׁכַּב עָלָיו"
+      },
+      {
+        "ja": "ינגס",
+        "en": "shall become impure",
+        "he": "יִטְמָא"
+      },
+      {
+        "ja": "וכל אנא",
+        "en": "and every vessel",
+        "he": "וְכָל-הַכְּלִי"
+      },
+      {
+        "ja": "יגלס עליה",
+        "en": "upon which he sits",
+        "he": "אֲשֶׁר-יֵשֵׁב עָלָיו"
+      },
+      {
+        "ja": "ינגס",
+        "en": "shall become impure",
+        "he": "יִטְמָא"
       }
     ],
     "5": [
       {
-        "ja": "ואי אנסאן דנא מן מצ'געה. פליג'סל ת'יאבה. וירחץ' באלמא",
-        "en": "And any person who approaches his bed shall wash his garments, and bathe in water,",
-        "he": "וְאִישׁ אֲשֶׁר יִגַּע בְּמִשְׁכָּבוֹ--יְכַבֵּס בְּגָדָיו וְרָחַץ בַּמַּיִם"
+        "ja": "ואי אנסאן",
+        "en": "And any person",
+        "he": "וְאִישׁ"
       },
       {
-        "ja": "וינגס אלי' אלמג'יב",
-        "en": "and be impure until sunset.",
-        "he": "וְטָמֵא עַד-הָעָרֶב"
+        "ja": "דנא",
+        "en": "who approaches",
+        "he": "אֲשֶׁר יִגַּע"
+      },
+      {
+        "ja": "מן מצ'געה",
+        "en": "his bed",
+        "he": "בְּמִשְׁכָּבוֹ"
+      },
+      {
+        "ja": "פליג'סל",
+        "en": "shall wash",
+        "he": "יְכַבֵּס"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וירחץ'",
+        "en": "and bathe",
+        "he": "וְרָחַץ"
+      },
+      {
+        "ja": "באלמא",
+        "en": "in water",
+        "he": "בַּמַּיִם"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "6": [
       {
-        "ja": "ומן גלס עלי' אלאנא. אלד'י יגלס עליה אלד'איב. פליג'סל ת'יאבה. וירחץ' באלמא",
-        "en": "And whoever sits upon the vessel upon which the one with a discharge sits shall wash his garments, and bathe in water,",
-        "he": "וְהַיֹּשֵׁב עַל-הַכְּלִי אֲשֶׁר-יֵשֵׁב עָלָיו הַזָּב--יְכַבֵּס בְּגָדָיו וְרָחַץ בַּמַּיִם"
+        "ja": "ומן גלס",
+        "en": "And whoever sits",
+        "he": "וְהַיֹּשֵׁב"
       },
       {
-        "ja": "וינגס אלי' אלמג'יב",
-        "en": "and be impure until sunset.",
-        "he": "וְטָמֵא עַד-הָעָרֶב"
+        "ja": "עלי' אלאנא",
+        "en": "upon the vessel",
+        "he": "עַל-הַכְּלִי"
+      },
+      {
+        "ja": "אלד'י יגלס עליה",
+        "en": "upon which",
+        "he": "אֲשֶׁר-יֵשֵׁב עָלָיו"
+      },
+      {
+        "ja": "אלד'איב",
+        "en": "the one with a discharge sits",
+        "he": "הַזָּב"
+      },
+      {
+        "ja": "פליג'סל",
+        "en": "shall wash",
+        "he": "יְכַבֵּס"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וירחץ'",
+        "en": "and bathe",
+        "he": "וְרָחַץ"
+      },
+      {
+        "ja": "באלמא",
+        "en": "in water",
+        "he": "בַּמַּיִם"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "7": [
       {
-        "ja": "ומן דנא בגסמה. פליג'סל ת'יאבה. וירחץ' באלמא",
-        "en": "And whoever approaches him bodily shall wash his garments, and bathe in water,",
-        "he": "וְהַנֹּגֵעַ בִּבְשַׂר הַזָּב--יְכַבֵּס בְּגָדָיו וְרָחַץ בַּמַּיִם"
+        "ja": "ומן דנא",
+        "en": "And whoever approaches",
+        "he": "וְהַנֹּגֵעַ"
       },
       {
-        "ja": "וינגס אלי' אלמג'יב",
-        "en": "and be impure until sunset.",
-        "he": "וְטָמֵא עַד-הָעָרֶב"
+        "ja": "בגסמה",
+        "en": "him bodily",
+        "he": "בִּבְשַׂר הַזָּב"
+      },
+      {
+        "ja": "פליג'סל",
+        "en": "shall wash",
+        "he": "יְכַבֵּס"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וירחץ'",
+        "en": "and bathe",
+        "he": "וְרָחַץ"
+      },
+      {
+        "ja": "באלמא",
+        "en": "in water",
+        "he": "בַּמַּיִם"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "8": [
       {
-        "ja": "ואד'א בצק אלד'איב עלי' אלטאהר. פליג'סל ת'יאבה. וירחץ' באלמא",
-        "en": "And if the one with a discharge spits upon the pure person, he shall wash his garments, and bathe in water,",
-        "he": "וְכִי-יָרֹק הַזָּב בַּטָּהוֹר--וְכִבֶּס בְּגָדָיו וְרָחַץ בַּמַּיִם"
+        "ja": "ואד'א בצק",
+        "en": "And if the one with",
+        "he": "וְכִי-יָרֹק"
       },
       {
-        "ja": "וינגס אלי' אלמג'יב",
-        "en": "and be impure until sunset.",
-        "he": "וְטָמֵא עַד-הָעָרֶב"
+        "ja": "אלד'איב",
+        "en": "a discharge spits",
+        "he": "הַזָּב"
+      },
+      {
+        "ja": "עלי' אלטאהר",
+        "en": "upon the pure person",
+        "he": "בַּטָּהוֹר"
+      },
+      {
+        "ja": "פליג'סל",
+        "en": "he shall wash",
+        "he": "וְכִבֶּס"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וירחץ'",
+        "en": "and bathe",
+        "he": "וְרָחַץ"
+      },
+      {
+        "ja": "באלמא",
+        "en": "in water",
+        "he": "בַּמַּיִם"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "10": [
       {
-        "ja": "ומן דנא בשי מן מא יכון תחתה. ינג'ס אלי' אלמג'יב.",
-        "en": "And whoever approaches anything that was beneath him shall be made impure until sunset;",
-        "he": "וְכָל-הַנֹּגֵעַ בְּכֹל אֲשֶׁר יִהְיֶה תַחְתָּיו--יִטְמָא עַד-הָעָרֶב"
+        "ja": "ומן דנא",
+        "en": "And whoever approaches",
+        "he": "וְכָל-הַנֹּגֵעַ"
       },
       {
-        "ja": "ומן חמל שי מנהא. יג'סל ת'יאבה. וירחץ' באלמא וינגס אלי' אלמג'יב",
-        "en": "and whoever carries any of those things shall wash his garments, and bathe in water, and be impure until sunset.",
-        "he": "וְהַנּוֹשֵׂא אוֹתָם--יְכַבֵּס בְּגָדָיו וְרָחַץ בַּמַּיִם וְטָמֵא עַד-הָעָרֶב"
+        "ja": "בשי מן מא",
+        "en": "anything that",
+        "he": "בְּכֹל אֲשֶׁר"
+      },
+      {
+        "ja": "יכון תחתה",
+        "en": "was beneath him",
+        "he": "יִהְיֶה תַחְתָּיו"
+      },
+      {
+        "ja": "ינג'ס",
+        "en": "shall be made impure",
+        "he": "יִטְמָא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
+      },
+      {
+        "ja": "ומן חמל",
+        "en": "and whoever carries",
+        "he": "וְהַנּוֹשֵׂא"
+      },
+      {
+        "ja": "שי מנהא",
+        "en": "any of those things",
+        "he": "אוֹתָם"
+      },
+      {
+        "ja": "יג'סל",
+        "en": "shall wash",
+        "he": "יְכַבֵּס"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וירחץ'",
+        "en": "and bathe",
+        "he": "וְרָחַץ"
+      },
+      {
+        "ja": "באלמא",
+        "en": "in water",
+        "he": "בַּמַּיִם"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "11": [
       {
-        "ja": "וכל מן דנא בה אלד'איב. וד'אתה לם יג'סל באלמא.",
-        "en": "And everyone whom the one with a discharge approaches, he himself not having washed in water,",
-        "he": "וְכֹל אֲשֶׁר יִגַּע-בּוֹ הַזָּב וְיָדָיו לֹא-שָׁטַף בַּמָּיִם"
+        "ja": "וכל מן דנא בה",
+        "en": "And everyone whom",
+        "he": "וְכֹל אֲשֶׁר יִגַּע-בּוֹ"
       },
       {
-        "ja": "פליג'סל ת'יאבה. וירחץ' באלמא וינג'ס אלי' אלמג'יב",
-        "en": "shall wash his garments, and bathe in water, and be made impure until sunset.",
-        "he": "וְכִבֶּס בְּגָדָיו וְרָחַץ בַּמַּיִם וְטָמֵא עַד-הָעָרֶב"
+        "ja": "אלד'איב",
+        "en": "the one with a discharge approaches",
+        "he": "הַזָּב"
+      },
+      {
+        "ja": "וד'אתה",
+        "en": "he himself",
+        "he": "וְיָדָיו"
+      },
+      {
+        "ja": "לם יג'סל",
+        "en": "not having washed",
+        "he": "לֹא-שָׁטַף"
+      },
+      {
+        "ja": "באלמא",
+        "en": "in water",
+        "he": "בַּמָּיִם"
+      },
+      {
+        "ja": "פליג'סל",
+        "en": "shall wash",
+        "he": "וְכִבֶּס"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וירחץ'",
+        "en": "and bathe",
+        "he": "וְרָחַץ"
+      },
+      {
+        "ja": "באלמא",
+        "en": "in water",
+        "he": "בַּמַּיִם"
+      },
+      {
+        "ja": "וינג'ס",
+        "en": "and be made impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "12": [
       {
-        "ja": "ואי אנא כ'זף. דנא בה אלד'איב פליכסר.",
-        "en": "And any earthenware vessel which the one with a discharge approaches shall be broken;",
-        "he": "וּכְלִי-חֶרֶשׂ אֲשֶׁר-יִגַּע-בּוֹ הַזָּב יִשָּׁבֵר"
+        "ja": "ואי אנא כ'זף",
+        "en": "And any earthenware vessel",
+        "he": "וּכְלִי-חֶרֶשׂ"
       },
       {
-        "ja": "ואי אנא כ'שב. פליג'סל באלמא",
-        "en": "and any wooden vessel shall be washed in water.",
-        "he": "וְכָל-כְּלִי-עֵץ--יִשָּׁטֵף בַּמָּיִם"
+        "ja": "דנא בה",
+        "en": "which the one with",
+        "he": "אֲשֶׁר-יִגַּע-בּוֹ"
+      },
+      {
+        "ja": "אלד'איב",
+        "en": "a discharge approaches",
+        "he": "הַזָּב"
+      },
+      {
+        "ja": "פליכסר",
+        "en": "shall be broken",
+        "he": "יִשָּׁבֵר"
+      },
+      {
+        "ja": "ואי אנא כ'שב",
+        "en": "and any wooden vessel",
+        "he": "וְכָל-כְּלִי-עֵץ"
+      },
+      {
+        "ja": "פליג'סל",
+        "en": "shall be washed",
+        "he": "יִשָּׁטֵף"
+      },
+      {
+        "ja": "באלמא",
+        "en": "in water",
+        "he": "בַּמָּיִם"
       }
     ],
     "13": [
       {
-        "ja": "פאד'א הו טהר מן ד'ובה. פליחץ סבעה' אייאם לטהרה",
-        "en": "And when he is purified from his discharge, he shall count off seven days for his purification",
-        "he": "וְכִי-יִטְהַר הַזָּב מִזּוֹבוֹ--וְסָפַר לוֹ שִׁבְעַת יָמִים לְטָהֳרָתוֹ"
+        "ja": "פ",
+        "en": "And"
       },
       {
-        "ja": "ויג'סל ת'יאבה. וירחץ' בדנה. במא מן נביע ויטהר",
-        "en": "and wash his garments, and bathe his body in water from a spring, and he shall be pure.",
-        "he": "וְכִבֶּס בְּגָדָיו וְרָחַץ בְּשָׂרוֹ בְּמַיִם חַיִּים וְטָהֵר"
+        "ja": "אד'א הו טהר",
+        "en": "when he is purified",
+        "he": "וְכִי-יִטְהַר"
+      },
+      {
+        "ja": "מן ד'ובה",
+        "en": "from his discharge",
+        "he": "מִזּוֹבוֹ"
+      },
+      {
+        "ja": "פליחץ",
+        "en": "he shall count off",
+        "he": "וְסָפַר לוֹ"
+      },
+      {
+        "ja": "סבעה' אייאם",
+        "en": "seven days",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "לטהרה",
+        "en": "for his purification",
+        "he": "לְטָהֳרָתוֹ"
+      },
+      {
+        "ja": "ויג'סל",
+        "en": "and wash",
+        "he": "וְכִבֶּס"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וירחץ'",
+        "en": "and bathe",
+        "he": "וְרָחַץ"
+      },
+      {
+        "ja": "בדנה",
+        "en": "his body",
+        "he": "בְּשָׂרוֹ"
+      },
+      {
+        "ja": "במא מן נביע",
+        "en": "in water from a spring",
+        "he": "בְּמַיִם חַיִּים"
+      },
+      {
+        "ja": "ויטהר",
+        "en": "and he shall be pure",
+        "he": "וְטָהֵר"
       }
     ],
     "14": [
       {
-        "ja": "ופי אליום אלת'אמן. יאתי בשפנינין. או פרכ'י חמאם.",
-        "en": "And on the eighth day he shall bring two turtledoves or two young pigeons,",
-        "he": "וּבַיּוֹם הַשְּׁמִינִי יִקַּח-לוֹ שְׁתֵּי תֹרִים אוֹ שְׁנֵי בְּנֵי יוֹנָה"
+        "ja": "ופי אליום",
+        "en": "And on the",
+        "he": "וּבַיּוֹם"
       },
       {
-        "ja": "ויאתי בין ידי אללה. אלי' באב כ'בא אלמחצ'ר. ויסלמהא אלי' אלאמאם",
-        "en": "and come before God to the entrance of the tent of the assembly, and deliver them to the priest.",
-        "he": "וּבָא לִפְנֵי יְהוָה אֶל-פֶּתַח אֹהֶל מוֹעֵד וּנְתָנָם אֶל-הַכֹּהֵן"
+        "ja": "אלת'אמן",
+        "en": "eighth day",
+        "he": "הַשְּׁמִינִי"
+      },
+      {
+        "ja": "יאתי ב",
+        "en": "he shall bring",
+        "he": "יִקַּח-לוֹ"
+      },
+      {
+        "ja": "שפנינין",
+        "en": "two turtledoves",
+        "he": "שְׁתֵּי תֹרִים"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "פרכ'י חמאם",
+        "en": "two young pigeons",
+        "he": "שְׁנֵי בְּנֵי יוֹנָה"
+      },
+      {
+        "ja": "ויאתי",
+        "en": "and come",
+        "he": "וּבָא"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "אלי' באב",
+        "en": "to the entrance of",
+        "he": "אֶל-פֶּתַח"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of the assembly",
+        "he": "אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "ויסלמהא",
+        "en": "and deliver them",
+        "he": "וּנְתָנָם"
+      },
+      {
+        "ja": "אלי' אלאמאם",
+        "en": "to the priest",
+        "he": "אֶל-הַכֹּהֵן"
       }
     ],
     "15": [
       {
-        "ja": "ויעמל אלאמאם אחדהמא ד'כוה. ואלאכ'ר צעידה.",
-        "en": "And the priest shall make one of them a purification-offering and the other a burnt-offering,",
-        "he": "וְעָשָׂה אֹתָם הַכֹּהֵן--אֶחָד חַטָּאת וְהָאֶחָד עֹלָה"
+        "ja": "ויעמל",
+        "en": "And",
+        "he": "וְעָשָׂה"
       },
       {
-        "ja": "ויסתג'פר ענה בין ידי אללה מן ד'ובה",
-        "en": "and shall seek forgiveness for him before God on account of his discharge.",
-        "he": "וְכִפֶּר עָלָיו הַכֹּהֵן לִפְנֵי יְהוָה מִזּוֹבוֹ"
+        "ja": "אלאמאם",
+        "en": "the priest shall make",
+        "he": "אֹתָם הַכֹּהֵן"
+      },
+      {
+        "ja": "אחדהמא",
+        "en": "one of them",
+        "he": "אֶחָד"
+      },
+      {
+        "ja": "ד'כוה",
+        "en": "a purification-offering",
+        "he": "חַטָּאת"
+      },
+      {
+        "ja": "ואלאכ'ר",
+        "en": "and the other",
+        "he": "וְהָאֶחָד"
+      },
+      {
+        "ja": "צעידה",
+        "en": "a burnt-offering",
+        "he": "עֹלָה"
+      },
+      {
+        "ja": "ויסתג'פר",
+        "en": "and shall seek forgiveness",
+        "he": "וְכִפֶּר"
+      },
+      {
+        "ja": "ענה",
+        "en": "for him",
+        "he": "עָלָיו"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "מן ד'ובה",
+        "en": "on account of his discharge",
+        "he": "מִזּוֹבוֹ"
       }
     ],
     "16": [
       {
-        "ja": "ואיי רגל כ'רגת מנה נטפה' אנסאל. פליג'סל גמיע בדנה באלמא.",
-        "en": "And any man from whom a drop of seed of propagation goes forth shall wash all his body in water,",
-        "he": "וְאִישׁ כִּי-תֵצֵא מִמֶּנּוּ שִׁכְבַת-זָרַע--וְרָחַץ בַּמַּיִם אֶת-כָּל-בְּשָׂרוֹ"
+        "ja": "ואיי רגל",
+        "en": "And any man",
+        "he": "וְאִישׁ"
       },
       {
-        "ja": "וינגס אלי' אלמג'יב",
-        "en": "and be impure until sunset.",
-        "he": "וְטָמֵא עַד-הָעָרֶב"
+        "ja": "כ'רגת",
+        "en": "goes forth",
+        "he": "כִּי-תֵצֵא"
+      },
+      {
+        "ja": "מנה",
+        "en": "from whom",
+        "he": "מִמֶּנּוּ"
+      },
+      {
+        "ja": "נטפה' אנסאל",
+        "en": "a drop of seed of propagation",
+        "he": "שִׁכְבַת-זָרַע"
+      },
+      {
+        "ja": "פליג'סל",
+        "en": "shall wash",
+        "he": "וְרָחַץ"
+      },
+      {
+        "ja": "גמיע",
+        "en": "all",
+        "he": "אֶת-כָּל-בְּשָׂרוֹ"
+      },
+      {
+        "ja": "בדנה",
+        "en": "his body"
+      },
+      {
+        "ja": "באלמא",
+        "en": "in water",
+        "he": "בַּמַּיִם"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "17": [
       {
-        "ja": "ואיי ת'וב או גלד. צאר עליה מנה שי. פליג'סל באלמא",
-        "en": "And any garment or skin upon which anything from it has fallen shall be washed in water,",
-        "he": "וְכָל-בֶּגֶד וְכָל-עוֹר אֲשֶׁר-יִהְיֶה עָלָיו שִׁכְבַת-זָרַע--וְכֻבַּס בַּמַּיִם"
+        "ja": "ואיי ת'וב",
+        "en": "And any garment",
+        "he": "וְכָל-בֶּגֶד"
       },
       {
-        "ja": "וינגס אלי' אלמג'יב",
-        "en": "and be impure until sunset.",
-        "he": "וְטָמֵא עַד-הָעָרֶב"
+        "ja": "או גלד",
+        "en": "or skin",
+        "he": "וְכָל-עוֹר"
+      },
+      {
+        "ja": "צאר עליה",
+        "en": "upon which",
+        "he": "אֲשֶׁר-יִהְיֶה עָלָיו"
+      },
+      {
+        "ja": "מנה שי",
+        "en": "anything from it has fallen",
+        "he": "שִׁכְבַת-זָרַע"
+      },
+      {
+        "ja": "פליג'סל",
+        "en": "shall be washed",
+        "he": "וְכֻבַּס"
+      },
+      {
+        "ja": "באלמא",
+        "en": "in water",
+        "he": "בַּמַּיִם"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "18": [
       {
-        "ja": "ואייה' אמראה צ'אגעהא רג'ל בנטפה. פלירחצ'א באלמא.",
-        "en": "And any woman with whom a man lies with a drop of seed — both of them shall bathe in water,",
-        "he": "וְאִשָּׁה אֲשֶׁר יִשְׁכַּב אִישׁ אֹתָהּ שִׁכְבַת-זָרַע--וְרָחֲצוּ בַמַּיִם"
+        "ja": "ואייה' אמראה",
+        "en": "And any woman",
+        "he": "וְאִשָּׁה"
       },
       {
-        "ja": "וינגסא אלי' אלמג'יב",
-        "en": "and be made impure until sunset.",
-        "he": "וְטָמְאוּ עַד-הָעָרֶב"
+        "ja": "צ'אגעהא",
+        "en": "with whom",
+        "he": "אֲשֶׁר יִשְׁכַּב"
+      },
+      {
+        "ja": "רג'ל",
+        "en": "a man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "בנטפה",
+        "en": "lies with a drop of seed",
+        "he": "שִׁכְבַת-זָרַע"
+      },
+      {
+        "ja": "פלירחצ'א",
+        "en": "both of them shall bathe",
+        "he": "וְרָחֲצוּ"
+      },
+      {
+        "ja": "באלמא",
+        "en": "in water",
+        "he": "בַמַּיִם"
+      },
+      {
+        "ja": "וינגסא",
+        "en": "and be made impure",
+        "he": "וְטָמְאוּ"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "19": [
       {
-        "ja": "אייה' אמראה כאנת ד'איבה. והו אן יכון אלדם ינחל מן פרגהא.",
-        "en": "Any woman who has a discharge — that is, when blood flows from her opening —",
-        "he": "וְאִשָּׁה כִּי-תִהְיֶה זָבָה דָּם יִהְיֶה זֹבָהּ בִּבְשָׂרָהּ"
+        "ja": "אייה' אמראה",
+        "en": "Any woman",
+        "he": "וְאִשָּׁה"
       },
       {
-        "ja": "פלתקים סבעה' אייאם פי חיצ'תהא. וכל מן דנא בהא ינג'ס אלי' אלמג'יב",
-        "en": "she shall remain seven days in her menstrual period; and everyone who approaches her shall be made impure until sunset.",
-        "he": "שִׁבְעַת יָמִים תִּהְיֶה בְנִדָּתָהּ וְכָל-הַנֹּגֵעַ בָּהּ יִטְמָא עַד-הָעָרֶב"
+        "ja": "כאנת ד'איבה",
+        "en": "who has a discharge",
+        "he": "כִּי-תִהְיֶה זָבָה"
+      },
+      {
+        "ja": "ו",
+        "en": "that is"
+      },
+      {
+        "ja": "הו אן יכון",
+        "en": "when"
+      },
+      {
+        "ja": "אלדם",
+        "en": "blood",
+        "he": "דָּם"
+      },
+      {
+        "ja": "ינחל",
+        "en": "flows",
+        "he": "יִהְיֶה זֹבָהּ"
+      },
+      {
+        "ja": "מן פרגהא",
+        "en": "from her opening",
+        "he": "בִּבְשָׂרָהּ"
+      },
+      {
+        "ja": "סבעה' אייאם",
+        "en": "seven days",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "פי חיצ'תהא",
+        "en": "in her menstrual period",
+        "he": "תִּהְיֶה בְנִדָּתָהּ"
+      },
+      {
+        "ja": "פלתקים",
+        "en": "she shall remain"
+      },
+      {
+        "ja": "וכל מן דנא",
+        "en": "and everyone who approaches",
+        "he": "וְכָל-הַנֹּגֵעַ"
+      },
+      {
+        "ja": "בהא",
+        "en": "her",
+        "he": "בָּהּ"
+      },
+      {
+        "ja": "ינג'ס",
+        "en": "shall be made impure",
+        "he": "יִטְמָא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "20": [
       {
-        "ja": "וגמיע מא תנצ'גע עליה פי חיצ'תהא ינג'ס.",
-        "en": "And everything upon which she lies during her menstrual period shall become impure,",
-        "he": "וְכֹל אֲשֶׁר תִּשְׁכַּב עָלָיו בְּנִדָּתָהּ יִטְמָא"
+        "ja": "וגמיע מא",
+        "en": "And everything upon which",
+        "he": "וְכֹל אֲשֶׁר"
       },
       {
-        "ja": "וגמיע אלא'נא אלד'י תגלס עליה ינגס",
-        "en": "and every vessel upon which she sits shall become impure.",
-        "he": "וְכֹל אֲשֶׁר-תֵּשֵׁב עָלָיו יִטְמָא"
+        "ja": "תנצ'גע עליה",
+        "en": "she lies",
+        "he": "תִּשְׁכַּב עָלָיו"
+      },
+      {
+        "ja": "פי חיצ'תהא",
+        "en": "during her menstrual period",
+        "he": "בְּנִדָּתָהּ"
+      },
+      {
+        "ja": "ינג'ס",
+        "en": "shall become impure",
+        "he": "יִטְמָא"
+      },
+      {
+        "ja": "וגמיע",
+        "en": "and every",
+        "he": "וְכֹל"
+      },
+      {
+        "ja": "אלא'נא אלד'י תגלס עליה",
+        "en": "vessel upon which she sits",
+        "he": "אֲשֶׁר-תֵּשֵׁב עָלָיו"
+      },
+      {
+        "ja": "ינגס",
+        "en": "shall become impure",
+        "he": "יִטְמָא"
       }
     ],
     "21": [
       {
-        "ja": "וכל מן דנא במצ'געהא. יג'סל ת'יאבה. וירחץ' באלמא",
-        "en": "And everyone who approaches her bed shall wash his garments, and bathe in water,",
-        "he": "וְכָל-הַנֹּגֵעַ בְּמִשְׁכָּבָהּ--יְכַבֵּס בְּגָדָיו וְרָחַץ בַּמַּיִם"
+        "ja": "וכל מן דנא",
+        "en": "And everyone who approaches",
+        "he": "וְכָל-הַנֹּגֵעַ"
       },
       {
-        "ja": "וינגס אלי' אלמג'יב",
-        "en": "and be impure until sunset.",
-        "he": "וְטָמֵא עַד-הָעָרֶב"
+        "ja": "במצ'געהא",
+        "en": "her bed",
+        "he": "בְּמִשְׁכָּבָהּ"
+      },
+      {
+        "ja": "יג'סל",
+        "en": "shall wash",
+        "he": "יְכַבֵּס"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וירחץ'",
+        "en": "and bathe",
+        "he": "וְרָחַץ"
+      },
+      {
+        "ja": "באלמא",
+        "en": "in water",
+        "he": "בַּמַּיִם"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "22": [
       {
-        "ja": "וכל מן דנא בשי. מן אלאניה אלד'י תגלס עליה. יג'סל ת'יאבה. וירחץ' באלמא",
-        "en": "And everyone who approaches anything from the vessels upon which she sits shall wash his garments, and bathe in water,",
-        "he": "וְכָל-הַנֹּגֵעַ--בְּכָל-כְּלִי אֲשֶׁר-תֵּשֵׁב עָלָיו יְכַבֵּס בְּגָדָיו וְרָחַץ בַּמַּיִם"
+        "ja": "וכל מן דנא",
+        "en": "And everyone who approaches",
+        "he": "וְכָל-הַנֹּגֵעַ"
       },
       {
-        "ja": "וינגס אלי' אלמג'יב",
-        "en": "and be impure until sunset.",
-        "he": "וְטָמֵא עַד-הָעָרֶב"
+        "ja": "בשי",
+        "en": "anything"
+      },
+      {
+        "ja": "מן אלאניה",
+        "en": "from the vessels",
+        "he": "בְּכָל-כְּלִי"
+      },
+      {
+        "ja": "אלד'י תגלס עליה",
+        "en": "upon which she sits",
+        "he": "אֲשֶׁר-תֵּשֵׁב עָלָיו"
+      },
+      {
+        "ja": "יג'סל",
+        "en": "shall wash",
+        "he": "יְכַבֵּס"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וירחץ'",
+        "en": "and bathe",
+        "he": "וְרָחַץ"
+      },
+      {
+        "ja": "באלמא",
+        "en": "in water",
+        "he": "בַּמַּיִם"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "23": [
       {
-        "ja": "ואן כאן עלי' מצ'געהא. או עלי' אלאנא אלתי הי גאלסה עליה",
-        "en": "And if there is contact with it — whether upon her bed or upon the vessel upon which she is sitting —",
-        "he": "וְאִם עַל-הַמִּשְׁכָּב הוּא אוֹ עַל-הַכְּלִי אֲשֶׁר-הִוא יֹשֶׁבֶת-עָלָיו"
+        "ja": "ואן",
+        "en": "And if",
+        "he": "וְאִם"
       },
       {
-        "ja": "ממאסה לה פלינגס אלי' אלמג'יב",
-        "en": "he shall be impure until sunset.",
-        "he": "בְּנָגְעוֹ-בוֹ יִטְמָא עַד-הָעָרֶב"
+        "ja": "כאן",
+        "en": "there is"
+      },
+      {
+        "ja": "עלי' מצ'געהא",
+        "en": "whether upon her bed",
+        "he": "עַל-הַמִּשְׁכָּב"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "עלי' אלאנא",
+        "en": "upon the vessel",
+        "he": "עַל-הַכְּלִי"
+      },
+      {
+        "ja": "אלתי הי גאלסה עליה",
+        "en": "upon which she is sitting",
+        "he": "אֲשֶׁר-הִוא יֹשֶׁבֶת-עָלָיו"
+      },
+      {
+        "ja": "ממאסה לה",
+        "en": "contact with it",
+        "he": "בְּנָגְעוֹ-בוֹ"
+      },
+      {
+        "ja": "פלינגס",
+        "en": "he shall be impure",
+        "he": "יִטְמָא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "24": [
       {
-        "ja": "ואן צ'אגעהא רג'ל. פקד צאר חכם חיצ'תהא עליה. וינגס סבעה' אייאם",
-        "en": "And if a man lies with her, then the ruling of her menstrual period comes upon him, and he shall be impure seven days;",
-        "he": "וְאִם שָׁכֹב יִשְׁכַּב אִישׁ אֹתָהּ וּתְהִי נִדָּתָהּ עָלָיו--וְטָמֵא שִׁבְעַת יָמִים"
+        "ja": "ו",
+        "en": "And"
       },
       {
-        "ja": "וכל מצ'גע ינצ'גע עליה ינגס",
-        "en": "and every bed upon which he lies shall become impure.",
-        "he": "וְכָל-הַמִּשְׁכָּב אֲשֶׁר-יִשְׁכַּב עָלָיו יִטְמָא"
+        "ja": "אן",
+        "en": "if",
+        "he": "וְאִם"
+      },
+      {
+        "ja": "צ'אגעהא",
+        "en": "lies with her",
+        "he": "שָׁכֹב יִשְׁכַּב"
+      },
+      {
+        "ja": "רג'ל",
+        "en": "a man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "פקד צאר חכם חיצ'תהא עליה",
+        "en": "then the ruling of her menstrual period comes upon him",
+        "he": "וּתְהִי נִדָּתָהּ עָלָיו"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and he shall be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "סבעה' אייאם",
+        "en": "seven days",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "וכל מצ'גע",
+        "en": "and every bed",
+        "he": "וְכָל-הַמִּשְׁכָּב"
+      },
+      {
+        "ja": "ינצ'גע עליה",
+        "en": "upon which he lies",
+        "he": "אֲשֶׁר-יִשְׁכַּב עָלָיו"
+      },
+      {
+        "ja": "ינגס",
+        "en": "shall become impure",
+        "he": "יִטְמָא"
       }
     ],
     "25": [
       {
-        "ja": "ואייה' אמראה פאץ' דמהא אייאמא כתירה. פי ג'יר וקת חיצ'תהא או בעקבה.",
-        "en": "And any woman whose blood flows for many days outside the time of her menstrual period, or following upon it —",
-        "he": "וְאִשָּׁה כִּי-יָזוּב זוֹב דָּמָהּ יָמִים רַבִּים בְּלֹא עֶת-נִדָּתָהּ אוֹ כִי-תָזוּב עַל-נִדָּתָהּ"
+        "ja": "ואייה' אמראה",
+        "en": "And any woman",
+        "he": "וְאִשָּׁה"
       },
       {
-        "ja": "פגמיע אייאם פיץ' נגאסתהא. פלתכון פיהא כאייאם חיצ'תהא נגסה",
-        "en": "all the days of the flow of her impurity she shall be in it as in the days of her menstrual period: impure.",
-        "he": "כָּל-יְמֵי זוֹב טֻמְאָתָהּ כִּימֵי נִדָּתָהּ תִּהְיֶה--טְמֵאָה הִוא"
+        "ja": "פאץ' דמהא",
+        "en": "whose blood flows",
+        "he": "כִּי-יָזוּב זוֹב דָּמָהּ"
+      },
+      {
+        "ja": "אייאמא כתירה",
+        "en": "for many days",
+        "he": "יָמִים רַבִּים"
+      },
+      {
+        "ja": "פי ג'יר וקת חיצ'תהא",
+        "en": "outside the time of her menstrual period",
+        "he": "בְּלֹא עֶת-נִדָּתָהּ"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "בעקבה",
+        "en": "following upon it",
+        "he": "כִי-תָזוּב עַל-נִדָּתָהּ"
+      },
+      {
+        "ja": "פגמיע אייאם",
+        "en": "all the days",
+        "he": "כָּל-יְמֵי"
+      },
+      {
+        "ja": "פיץ' נגאסתהא",
+        "en": "of the flow of her impurity",
+        "he": "זוֹב טֻמְאָתָהּ"
+      },
+      {
+        "ja": "כאייאם חיצ'תהא",
+        "en": "as in the days of her menstrual period",
+        "he": "כִּימֵי נִדָּתָהּ"
+      },
+      {
+        "ja": "פלתכון פיהא",
+        "en": "she shall be in it",
+        "he": "תִּהְיֶה"
+      },
+      {
+        "ja": "נגסה",
+        "en": "impure",
+        "he": "טְמֵאָה הִוא"
       }
     ],
     "26": [
       {
-        "ja": "וגמיע אלמצ'גע. אלד'י תנצ'גע עליה טול אייאם פיצ'האכ. פלתכון להא כמצ'גע חיצ'תהא.",
-        "en": "And every bed upon which she lies throughout the days of her flow shall be to her as her bed during her menstrual period;",
-        "he": "כָּל-הַמִּשְׁכָּב אֲשֶׁר-תִּשְׁכַּב עָלָיו כָּל-יְמֵי זוֹבָהּ--כְּמִשְׁכַּב נִדָּתָהּ יִהְיֶה-לָּהּ"
+        "ja": "וגמיע אלמצ'גע",
+        "en": "And every bed",
+        "he": "כָּל-הַמִּשְׁכָּב"
       },
       {
-        "ja": "וגמיע אלאנא אלד'י תגלס עליה. פליכון נגסא. כנגאסתה פי חיצ'תהא",
-        "en": "and every vessel upon which she sits shall be impure, as its impurity during her menstrual period.",
-        "he": "וְכָל-הַכְּלִי אֲשֶׁר תֵּשֵׁב עָלָיו--טָמֵא יִהְיֶה כְּטֻמְאַת נִדָּתָהּ"
+        "ja": "אלד'י תנצ'גע עליה",
+        "en": "upon which she lies",
+        "he": "אֲשֶׁר-תִּשְׁכַּב עָלָיו"
+      },
+      {
+        "ja": "טול אייאם פיצ'האכ",
+        "en": "throughout the days of her flow",
+        "he": "כָּל-יְמֵי זוֹבָהּ"
+      },
+      {
+        "ja": "כמצ'גע חיצ'תהא",
+        "en": "as her bed during her menstrual period",
+        "he": "כְּמִשְׁכַּב נִדָּתָהּ"
+      },
+      {
+        "ja": "פלתכון להא",
+        "en": "shall be to her",
+        "he": "יִהְיֶה-לָּהּ"
+      },
+      {
+        "ja": "וגמיע אלאנא",
+        "en": "and every vessel",
+        "he": "וְכָל-הַכְּלִי"
+      },
+      {
+        "ja": "אלד'י תגלס עליה",
+        "en": "upon which she sits",
+        "he": "אֲשֶׁר תֵּשֵׁב עָלָיו"
+      },
+      {
+        "ja": "פליכון נגסא",
+        "en": "shall be impure",
+        "he": "טָמֵא יִהְיֶה"
+      },
+      {
+        "ja": "כנגאסתה פי חיצ'תהא",
+        "en": "as its impurity during her menstrual period",
+        "he": "כְּטֻמְאַת נִדָּתָהּ"
       }
     ],
     "27": [
       {
-        "ja": "וכל מן דנא בשי מנהא ינגס.",
-        "en": "And everyone who approaches anything of hers shall become impure;",
-        "he": "וְכָל-הַנּוֹגֵעַ בָּם יִטְמָא"
+        "ja": "וכל מן דנא",
+        "en": "And everyone who approaches",
+        "he": "וְכָל-הַנּוֹגֵעַ"
       },
       {
-        "ja": "פיג'סל ת'יאבה. וירחץ' באלמא וינגס אלי' אלמג'יב",
-        "en": "and he shall wash his garments, and bathe in water, and be impure until sunset.",
-        "he": "וְכִבֶּס בְּגָדָיו וְרָחַץ בַּמַּיִם וְטָמֵא עַד-הָעָרֶב"
+        "ja": "בשי מנהא",
+        "en": "anything of hers",
+        "he": "בָּם"
+      },
+      {
+        "ja": "ינגס",
+        "en": "shall become impure",
+        "he": "יִטְמָא"
+      },
+      {
+        "ja": "פיג'סל",
+        "en": "and he shall wash",
+        "he": "וְכִבֶּס"
+      },
+      {
+        "ja": "ת'יאבה",
+        "en": "his garments",
+        "he": "בְּגָדָיו"
+      },
+      {
+        "ja": "וירחץ'",
+        "en": "and bathe",
+        "he": "וְרָחַץ"
+      },
+      {
+        "ja": "באלמא",
+        "en": "in water",
+        "he": "בַּמַּיִם"
+      },
+      {
+        "ja": "וינגס",
+        "en": "and be impure",
+        "he": "וְטָמֵא"
+      },
+      {
+        "ja": "אלי' אלמג'יב",
+        "en": "until sunset",
+        "he": "עַד-הָעָרֶב"
       }
     ],
     "28": [
       {
-        "ja": "פאן טהרת מן פיצ'הא. פלתחץ סבעה אייאם ובעד ד'אלך תטהר",
-        "en": "But if she is purified from her flow, she shall count off seven days, and after that she shall be pure.",
-        "he": "וְאִם-טָהֲרָה מִזּוֹבָהּ--וְסָפְרָה לָּהּ שִׁבְעַת יָמִים וְאַחַר תִּטְהָר"
+        "ja": "פ",
+        "en": "But"
+      },
+      {
+        "ja": "אן טהרת",
+        "en": "if she is purified",
+        "he": "וְאִם-טָהֲרָה"
+      },
+      {
+        "ja": "מן פיצ'הא",
+        "en": "from her flow",
+        "he": "מִזּוֹבָהּ"
+      },
+      {
+        "ja": "פלתחץ",
+        "en": "she shall count off",
+        "he": "וְסָפְרָה לָּהּ"
+      },
+      {
+        "ja": "סבעה אייאם",
+        "en": "seven days",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "ובעד ד'אלך",
+        "en": "and after that",
+        "he": "וְאַחַר"
+      },
+      {
+        "ja": "תטהר",
+        "en": "she shall be pure",
+        "he": "תִּטְהָר"
       }
     ],
     "29": [
       {
-        "ja": "ופי אליום אלת'אמן. תאכ'ד' שפנינין. או פרכ'י חמאם.",
-        "en": "And on the eighth day she shall take two turtledoves or two young pigeons,",
-        "he": "וּבַיּוֹם הַשְּׁמִינִי תִּקַּח-לָהּ שְׁתֵּי תֹרִים אוֹ שְׁנֵי בְּנֵי יוֹנָה"
+        "ja": "ופי אליום",
+        "en": "And on the",
+        "he": "וּבַיּוֹם"
       },
       {
-        "ja": "ותאתי בהמא אלי' אלאמאם. אלי' באב כ'בא אלמחצ'ר",
-        "en": "and bring them to the priest, to the entrance of the tent of the assembly.",
-        "he": "וְהֵבִיאָה אוֹתָם אֶל-הַכֹּהֵן אֶל-פֶּתַח אֹהֶל מוֹעֵד"
+        "ja": "אלת'אמן",
+        "en": "eighth day",
+        "he": "הַשְּׁמִינִי"
+      },
+      {
+        "ja": "תאכ'ד'",
+        "en": "she shall take",
+        "he": "תִּקַּח-לָהּ"
+      },
+      {
+        "ja": "שפנינין",
+        "en": "two turtledoves",
+        "he": "שְׁתֵּי תֹרִים"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "פרכ'י חמאם",
+        "en": "two young pigeons",
+        "he": "שְׁנֵי בְּנֵי יוֹנָה"
+      },
+      {
+        "ja": "ותאתי בהמא",
+        "en": "and bring them",
+        "he": "וְהֵבִיאָה"
+      },
+      {
+        "ja": "אלי' אלאמאם",
+        "en": "to the priest",
+        "he": "אֶל-הַכֹּהֵן"
+      },
+      {
+        "ja": "אלי' באב",
+        "en": "to the entrance of",
+        "he": "אֶל-פֶּתַח"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of the assembly",
+        "he": "אֹהֶל מוֹעֵד"
       }
     ],
     "30": [
       {
-        "ja": "ויעמל אלאמאם אחדהמא ד'כוה. ואלאכ'ר צעידה.",
-        "en": "And the priest shall make one of them a purification-offering and the other a burnt-offering,",
-        "he": "וְעָשָׂה הַכֹּהֵן אֶת-הָאֶחָד חַטָּאת וְאֶת-הָאֶחָד עֹלָה"
+        "ja": "ויעמל",
+        "en": "And",
+        "he": "וְעָשָׂה"
       },
       {
-        "ja": "ויסתג'פר ענהא בין ידי אללה. מן פיץ' נגאסתהא",
-        "en": "and shall seek forgiveness for her before God on account of the flow of her impurity.",
-        "he": "וְכִפֶּר עָלֶיהָ הַכֹּהֵן לִפְנֵי יְהוָה מִזּוֹב טֻמְאָתָהּ"
+        "ja": "אלאמאם",
+        "en": "the priest shall make",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "אחדהמא",
+        "en": "one of them",
+        "he": "אֶת-הָאֶחָד"
+      },
+      {
+        "ja": "ד'כוה",
+        "en": "a purification-offering",
+        "he": "חַטָּאת"
+      },
+      {
+        "ja": "ואלאכ'ר",
+        "en": "and the other",
+        "he": "וְאֶת-הָאֶחָד"
+      },
+      {
+        "ja": "צעידה",
+        "en": "a burnt-offering",
+        "he": "עֹלָה"
+      },
+      {
+        "ja": "ויסתג'פר",
+        "en": "and shall seek forgiveness",
+        "he": "וְכִפֶּר"
+      },
+      {
+        "ja": "ענהא",
+        "en": "for her",
+        "he": "עָלֶיהָ"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "מן פיץ' נגאסתהא",
+        "en": "on account of the flow of her impurity",
+        "he": "מִזּוֹב טֻמְאָתָהּ"
       }
     ],
     "31": [
       {
-        "ja": "פיגב אן תגאנבא בני אסראיל מן נגאסתהם. ולא יהלכון בנגאסתהם.",
-        "en": "It is therefore required that the sons of Israel be kept apart from their impurity, so that they do not perish through their impurity —",
-        "he": "וְהִזַּרְתֶּם אֶת-בְּנֵי-יִשְׂרָאֵל מִטֻּמְאָתָם וְלֹא יָמֻתוּ בְּטֻמְאָתָם"
+        "ja": "פ",
+        "en": "It is therefore"
       },
       {
-        "ja": "אד' הם נגסו מסכני אלד'י פי מא בינהם",
-        "en": "for they would defile My dwelling that is among them.",
-        "he": "בְּטַמְּאָם אֶת-מִשְׁכָּנִי אֲשֶׁר בְּתוֹכָם"
+        "ja": "יגב אן",
+        "en": "required that"
+      },
+      {
+        "ja": "תגאנבא",
+        "en": "be kept apart",
+        "he": "וְהִזַּרְתֶּם"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "אֶת-בְּנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "מן נגאסתהם",
+        "en": "from their impurity",
+        "he": "מִטֻּמְאָתָם"
+      },
+      {
+        "ja": "ולא יהלכון",
+        "en": "so that they do not perish",
+        "he": "וְלֹא יָמֻתוּ"
+      },
+      {
+        "ja": "בנגאסתהם",
+        "en": "through their impurity",
+        "he": "בְּטֻמְאָתָם"
+      },
+      {
+        "ja": "אד'",
+        "en": "for"
+      },
+      {
+        "ja": "הם נגסו",
+        "en": "they would defile",
+        "he": "בְּטַמְּאָם"
+      },
+      {
+        "ja": "מסכני",
+        "en": "My dwelling",
+        "he": "אֶת-מִשְׁכָּנִי"
+      },
+      {
+        "ja": "אלד'י פי מא בינהם",
+        "en": "that is among them",
+        "he": "אֲשֶׁר בְּתוֹכָם"
       }
     ],
     "32": [
       {
-        "ja": "הד'ה שריעה' אלד'איב ומן תכ'ר'ג מנה נטפה לאלתנגס בהא",
-        "en": "This is the ordinance of the one with a discharge, and of him from whom a drop of seed goes forth, causing impurity.",
-        "he": "זֹאת תּוֹרַת הַזָּב וַאֲשֶׁר תֵּצֵא מִמֶּנּוּ שִׁכְבַת-זֶרַע לְטָמְאָה-בָהּ"
+        "ja": "הד'ה",
+        "en": "This",
+        "he": "זֹאת"
+      },
+      {
+        "ja": "שריעה' אלד'איב",
+        "en": "is the ordinance of the one with a discharge",
+        "he": "תּוֹרַת הַזָּב"
+      },
+      {
+        "ja": "ומן",
+        "en": "and of him from whom",
+        "he": "וַאֲשֶׁר"
+      },
+      {
+        "ja": "תכ'ר'ג מנה",
+        "en": "goes forth",
+        "he": "תֵּצֵא מִמֶּנּוּ"
+      },
+      {
+        "ja": "נטפה",
+        "en": "a drop of seed",
+        "he": "שִׁכְבַת-זֶרַע"
+      },
+      {
+        "ja": "לאלתנגס בהא",
+        "en": "causing impurity",
+        "he": "לְטָמְאָה-בָהּ"
       }
     ],
     "33": [
       {
-        "ja": "ואלחאיץ' פי טמת'הא. ואלפאיץ' פי ד'ובה. מן ד'כר ואנת'י.",
-        "en": "And of the menstruating woman in her menstruation, and of the one with a flow in his discharge — male and female —",
-        "he": "וְהַדָּוָה בְּנִדָּתָהּ וְהַזָּב אֶת-זוֹבוֹ לַזָּכָר וְלַנְּקֵבָה"
+        "ja": "ואלחאיץ'",
+        "en": "And of the menstruating woman",
+        "he": "וְהַדָּוָה"
       },
       {
-        "ja": "ורג'ל יצ'אגע נגסה",
-        "en": "and of a man who lies with an impure woman.",
-        "he": "וּלְאִישׁ אֲשֶׁר יִשְׁכַּב עִם-טְמֵאָה"
+        "ja": "פי טמת'הא",
+        "en": "in her menstruation",
+        "he": "בְּנִדָּתָהּ"
+      },
+      {
+        "ja": "ואלפאיץ'",
+        "en": "and of the one with a flow",
+        "he": "וְהַזָּב"
+      },
+      {
+        "ja": "פי ד'ובה",
+        "en": "in his discharge",
+        "he": "אֶת-זוֹבוֹ"
+      },
+      {
+        "ja": "מן ד'כר",
+        "en": "male",
+        "he": "לַזָּכָר"
+      },
+      {
+        "ja": "ואנת'י",
+        "en": "and female",
+        "he": "וְלַנְּקֵבָה"
+      },
+      {
+        "ja": "ורג'ל",
+        "en": "and of a man",
+        "he": "וּלְאִישׁ"
+      },
+      {
+        "ja": "יצ'אגע",
+        "en": "who lies",
+        "he": "אֲשֶׁר יִשְׁכַּב"
+      },
+      {
+        "ja": "נגסה",
+        "en": "with an impure woman",
+        "he": "עִם-טְמֵאָה"
       }
     ]
   }

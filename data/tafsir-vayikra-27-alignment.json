@@ -1,374 +1,1263 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 27. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_27.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 27. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_27.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי תכלימא",
-        "en": "Then God spoke to Moses in [divine] speech.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "in [divine] speech",
+        "he": "לֵּאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "מר בני אסראיל וקל להם",
-        "en": "Command the sons of Israel and say to them:",
-        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "אי אנסאן סווג' נד'רא. מן אלנפוס ללה",
-        "en": "any person who has vowed a vow of souls to God —",
-        "he": "אִישׁ כִּי יַפְלִא נֶדֶר--בְּעֶרְכְּךָ נְפָשֹׁת לַיהוָה"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶל-בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "להם",
+        "en": "to them",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "אי",
+        "en": "any"
+      },
+      {
+        "ja": "אנסאן",
+        "en": "person",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "סווג'",
+        "en": "who has vowed",
+        "he": "כִּי יַפְלִא"
+      },
+      {
+        "ja": "נד'רא",
+        "en": "a vow"
+      },
+      {
+        "ja": "מן אלנפוס",
+        "en": "of souls",
+        "he": "נְפָשֹׁת"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
       }
     ],
     "3": [
       {
-        "ja": "פיכון קימה' אלדכר. מן אבן עשרין סנה. ואלי' אבן סתין סנה",
-        "en": "the valuation of the male, from twenty years of age to sixty years of age,",
-        "he": "וְהָיָה עֶרְכְּךָ הַזָּכָר מִבֶּן עֶשְׂרִים שָׁנָה וְעַד בֶּן-שִׁשִּׁים שָׁנָה"
+        "ja": "פיכון קימה' אלדכר",
+        "en": "the valuation of the male",
+        "he": "וְהָיָה עֶרְכְּךָ הַזָּכָר"
       },
       {
-        "ja": "פליכון קימתה. כ'מסין מת'קאל פצ'ה במת'קאל אלקדס",
-        "en": "shall be fifty mithqals of silver by the mithqal of the sanctuary;",
-        "he": "וְהָיָה עֶרְכְּךָ חֲמִשִּׁים שֶׁקֶל כֶּסֶף--בְּשֶׁקֶל הַקֹּדֶשׁ"
+        "ja": "מן אבן עשרין סנה",
+        "en": "from twenty years of age",
+        "he": "מִבֶּן עֶשְׂרִים שָׁנָה"
+      },
+      {
+        "ja": "ואלי' אבן סתין סנה",
+        "en": "to sixty years of age",
+        "he": "וְעַד בֶּן-שִׁשִּׁים שָׁנָה"
+      },
+      {
+        "ja": "פליכון קימתה",
+        "en": "shall be",
+        "he": "וְהָיָה עֶרְכְּךָ"
+      },
+      {
+        "ja": "כ'מסין",
+        "en": "fifty",
+        "he": "חֲמִשִּׁים"
+      },
+      {
+        "ja": "מת'קאל",
+        "en": "mithqals",
+        "he": "שֶׁקֶל"
+      },
+      {
+        "ja": "פצ'ה",
+        "en": "of silver",
+        "he": "כֶּסֶף"
+      },
+      {
+        "ja": "במת'קאל אלקדס",
+        "en": "by the mithqal of the sanctuary",
+        "he": "בְּשֶׁקֶל הַקֹּדֶשׁ"
       }
     ],
     "4": [
       {
-        "ja": "ואן כאנת אנת'א. פקימתהא ת'לאת'ין",
-        "en": "and if it be a female, her valuation shall be thirty;",
-        "he": "וְאִם-נְקֵבָה הִוא--וְהָיָה עֶרְכְּךָ שְׁלֹשִׁים שָׁקֶל"
+        "ja": "ואן",
+        "en": "and if",
+        "he": "וְאִם"
+      },
+      {
+        "ja": "כאנת אנת'א",
+        "en": "it be a female",
+        "he": "נְקֵבָה"
+      },
+      {
+        "ja": "פקימתהא",
+        "en": "her valuation shall be"
+      },
+      {
+        "ja": "ת'לאת'ין",
+        "en": "thirty",
+        "he": "שְׁלֹשִׁים"
       }
     ],
     "5": [
       {
-        "ja": "ואן כאן מן אבן כ'מס סנין. ואלי' אבן עשרין סנה",
-        "en": "and if it be from five years of age to twenty years of age,",
-        "he": "וְאִם מִבֶּן-חָמֵשׁ שָׁנִים וְעַד בֶּן-עֶשְׂרִים שָׁנָה"
+        "ja": "ואן",
+        "en": "and if",
+        "he": "וְאִם"
       },
       {
-        "ja": "פקימה' אלד'כר עשרין מת'קאל. ואלאנת'א עשרה",
-        "en": "the valuation of the male shall be twenty mithqals, and the female ten;",
-        "he": "וְהָיָה עֶרְכְּךָ הַזָּכָר עֶשְׂרִים שְׁקָלִים וְלַנְּקֵבָה עֲשֶׂרֶת שְׁקָלִים"
+        "ja": "כאן",
+        "en": "it be"
+      },
+      {
+        "ja": "מן אבן כ'מס",
+        "en": "from five",
+        "he": "מִבֶּן-חָמֵשׁ"
+      },
+      {
+        "ja": "סנין",
+        "en": "years of age",
+        "he": "שָׁנִים"
+      },
+      {
+        "ja": "ואלי'",
+        "en": "to",
+        "he": "וְעַד"
+      },
+      {
+        "ja": "אבן עשרין",
+        "en": "twenty",
+        "he": "בֶּן-עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פקימה'",
+        "en": "the valuation of"
+      },
+      {
+        "ja": "אלד'כר",
+        "en": "the male",
+        "he": "הַזָּכָר"
+      },
+      {
+        "ja": "עשרין",
+        "en": "shall be twenty",
+        "he": "עֶשְׂרִים"
+      },
+      {
+        "ja": "מת'קאל",
+        "en": "mithqals",
+        "he": "שְׁקָלִים"
+      },
+      {
+        "ja": "ואלאנת'א",
+        "en": "and the female",
+        "he": "וְלַנְּקֵבָה"
+      },
+      {
+        "ja": "עשרה",
+        "en": "ten",
+        "he": "עֲשֶׂרֶת"
       }
     ],
     "6": [
       {
-        "ja": "ואן כאן מן אבן שהר. ואלי' אבן כ'מס סנין",
-        "en": "and if it be from one month of age to five years of age,",
-        "he": "וְאִם מִבֶּן-חֹדֶשׁ וְעַד בֶּן-חָמֵשׁ שָׁנִים"
+        "ja": "ואן",
+        "en": "and if",
+        "he": "וְאִם"
       },
       {
-        "ja": "פקימה' אלד'כר כ'מסה מת'אקיל פצ'ה. ואלאנת'א ת'לאת'ה",
-        "en": "the valuation of the male shall be five mithqals of silver, and the female three;",
-        "he": "וְהָיָה עֶרְכְּךָ הַזָּכָר חֲמִשָּׁה שְׁקָלִים כָּסֶף וְלַנְּקֵבָה עֶרְכְּךָ שְׁלֹשֶׁת שְׁקָלִים כָּסֶף"
+        "ja": "כאן",
+        "en": "it be"
+      },
+      {
+        "ja": "מן אבן שהר",
+        "en": "from one month of age",
+        "he": "מִבֶּן-חֹדֶשׁ"
+      },
+      {
+        "ja": "ואלי'",
+        "en": "to",
+        "he": "וְעַד"
+      },
+      {
+        "ja": "אבן כ'מס",
+        "en": "five",
+        "he": "בֶּן-חָמֵשׁ"
+      },
+      {
+        "ja": "סנין",
+        "en": "years of age",
+        "he": "שָׁנִים"
+      },
+      {
+        "ja": "פקימה'",
+        "en": "the valuation of"
+      },
+      {
+        "ja": "אלד'כר",
+        "en": "the male",
+        "he": "הַזָּכָר"
+      },
+      {
+        "ja": "כ'מסה",
+        "en": "shall be five",
+        "he": "חֲמִשָּׁה"
+      },
+      {
+        "ja": "מת'אקיל",
+        "en": "mithqals of",
+        "he": "שְׁקָלִים"
+      },
+      {
+        "ja": "פצ'ה",
+        "en": "silver",
+        "he": "כָּסֶף"
+      },
+      {
+        "ja": "ואלאנת'א",
+        "en": "and the female",
+        "he": "וְלַנְּקֵבָה"
+      },
+      {
+        "ja": "ת'לאת'ה",
+        "en": "three",
+        "he": "שְׁלֹשֶׁת"
       }
     ],
     "7": [
       {
-        "ja": "ואן כאן מן אבן סתין סנה פצאעדא",
-        "en": "and if it be from sixty years of age and upward,",
-        "he": "וְאִם מִבֶּן-שִׁשִּׁים שָׁנָה וָמַעְלָה אִם-זָכָר"
+        "ja": "ואן כאן מן אבן סתין סנה",
+        "en": "and if it be from sixty years of age",
+        "he": "וְאִם מִבֶּן-שִׁשִּׁים שָׁנָה"
       },
       {
-        "ja": "פקימה' אלד'כר כ'מסה' עשר מת'קאל. ואלאנת'א עשרה",
-        "en": "the valuation of the male shall be fifteen mithqals, and the female ten;",
-        "he": "וְהָיָה עֶרְכְּךָ חֲמִשָּׁה עָשָׂר שָׁקֶל וְלַנְּקֵבָה עֲשָׂרָה שְׁקָלִים"
+        "ja": "פצאעדא",
+        "en": "and upward",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "פקימה' אלד'כר",
+        "en": "the valuation of the male",
+        "he": "אִם-זָכָר"
+      },
+      {
+        "ja": "כ'מסה' עשר",
+        "en": "shall be fifteen",
+        "he": "חֲמִשָּׁה עָשָׂר"
+      },
+      {
+        "ja": "מת'קאל",
+        "en": "mithqals",
+        "he": "שָׁקֶל"
+      },
+      {
+        "ja": "ואלאנת'א",
+        "en": "and the female",
+        "he": "וְלַנְּקֵבָה"
+      },
+      {
+        "ja": "עשרה",
+        "en": "ten",
+        "he": "עֲשָׂרָה"
       }
     ],
     "8": [
       {
-        "ja": "ואן כאן מהינא מן אלקימה. פליוקף בין ידי אלאמאם",
-        "en": "and if he be too lowly for the valuation, he shall stand before the imām,",
-        "he": "וְאִם-מָךְ הוּא מֵעֶרְכֶּךָ--וְהֶעֱמִידוֹ לִפְנֵי הַכֹּהֵן"
+        "ja": "ואן כאן מהינא",
+        "en": "and if he be too lowly",
+        "he": "וְאִם-מָךְ הוּא"
       },
       {
-        "ja": "ויקימה חסב מא תנאל יד אלנאד'ר. כד'אך יקימה אלאמאם",
-        "en": "and the imām shall value him according to what the hand of the one who vowed can reach — thus shall the imām value him.",
-        "he": "וְהֶעֱרִיךְ אֹתוֹ הַכֹּהֵן עַל-פִּי אֲשֶׁר תַּשִּׂיג יַד הַנֹּדֵר--יַעֲרִיכֶנּוּ הַכֹּהֵן"
+        "ja": "מן אלקימה",
+        "en": "for the valuation",
+        "he": "מֵעֶרְכֶּךָ"
+      },
+      {
+        "ja": "פליוקף",
+        "en": "he shall stand"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "the imām,",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "ויקימה",
+        "en": "and the imām shall value him",
+        "he": "וְהֶעֱרִיךְ אֹתוֹ הַכֹּהֵן"
+      },
+      {
+        "ja": "חסב",
+        "en": "according to"
+      },
+      {
+        "ja": "מא תנאל יד אלנאד'ר",
+        "en": "what the hand of the one who vowed",
+        "he": "עַל-פִּי אֲשֶׁר תַּשִּׂיג יַד הַנֹּדֵר"
+      },
+      {
+        "ja": "כד'אך יקימה אלאמאם",
+        "en": "thus shall the imām value him",
+        "he": "יַעֲרִיכֶנּוּ הַכֹּהֵן"
       }
     ],
     "9": [
       {
-        "ja": "ואן כאנת בהימה. יצלח אן יקרב מנהא קרבאנא ללה",
-        "en": "And if it be a beast from which an offering may be brought near to God,",
-        "he": "וְאִם-בְּהֵמָה--אֲשֶׁר יַקְרִיבוּ מִמֶּנָּה קָרְבָּן לַיהוָה"
+        "ja": "ואן כאנת בהימה",
+        "en": "And if it be a beast",
+        "he": "וְאִם-בְּהֵמָה"
       },
       {
-        "ja": "פכל מא יגעל מן ד'אלך ללה יכון קדסא בעינה",
-        "en": "then everything they designate of it for God shall itself be sacred.",
-        "he": "כֹּל אֲשֶׁר יִתֵּן מִמֶּנּוּ לַיהוָה יִהְיֶה-קֹּדֶשׁ"
+        "ja": "יצלח אן",
+        "en": "from which"
+      },
+      {
+        "ja": "יקרב מנהא קרבאנא ללה",
+        "en": "an offering may be brought near to God",
+        "he": "אֲשֶׁר יַקְרִיבוּ מִמֶּנָּה קָרְבָּן לַיהוָה"
+      },
+      {
+        "ja": "פכל מא יגעל מן ד'אלך",
+        "en": "then everything they designate of it"
+      },
+      {
+        "ja": "ללה",
+        "en": "for God",
+        "he": "כֹּל אֲשֶׁר יִתֵּן מִמֶּנּוּ לַיהוָה"
+      },
+      {
+        "ja": "יכון קדסא בעינה",
+        "en": "shall itself be sacred",
+        "he": "יִהְיֶה-קֹּדֶשׁ"
       }
     ],
     "10": [
       {
-        "ja": "לא יבדלה ולא יג'יירה. גייד ברדי ולא רדי בגייד",
-        "en": "He shall not exchange it nor substitute it — good for inferior, nor inferior for good;",
-        "he": "לֹא יַחֲלִיפֶנּוּ וְלֹא-יָמִיר אֹתוֹ טוֹב בְּרָע--אוֹ-רַע בְּטוֹב"
+        "ja": "לא יבדלה",
+        "en": "He shall not exchange it",
+        "he": "לֹא יַחֲלִיפֶנּוּ"
       },
       {
-        "ja": "פאן ג'ייר בהימה בבהימה. פקד צאר הו ובדילה קדסא",
-        "en": "and if he does substitute one beast for another, then both it and its substitute shall become sacred.",
-        "he": "וְאִם-הָמֵר יָמִיר בְּהֵמָה בִּבְהֵמָה וְהָיָה-הוּא וּתְמוּרָתוֹ יִהְיֶה-קֹּדֶשׁ"
+        "ja": "ולא יג'יירה",
+        "en": "nor substitute it",
+        "he": "וְלֹא-יָמִיר"
+      },
+      {
+        "ja": "גייד",
+        "en": "good",
+        "he": "טוֹב"
+      },
+      {
+        "ja": "ברדי",
+        "en": "for inferior",
+        "he": "בְּרָע"
+      },
+      {
+        "ja": "ולא רדי",
+        "en": "nor inferior",
+        "he": "אוֹ-רַע"
+      },
+      {
+        "ja": "בגייד",
+        "en": "for good",
+        "he": "בְּטוֹב"
+      },
+      {
+        "ja": "פאן ג'ייר",
+        "en": "and if he does substitute",
+        "he": "וְאִם-הָמֵר יָמִיר"
+      },
+      {
+        "ja": "בהימה",
+        "en": "one beast",
+        "he": "בְּהֵמָה"
+      },
+      {
+        "ja": "בבהימה",
+        "en": "for another",
+        "he": "בִּבְהֵמָה"
+      },
+      {
+        "ja": "פקד צאר",
+        "en": "then both"
+      },
+      {
+        "ja": "הו",
+        "en": "it",
+        "he": "וְהָיָה-הוּא"
+      },
+      {
+        "ja": "ובדילה",
+        "en": "and its substitute",
+        "he": "וּתְמוּרָתוֹ"
+      },
+      {
+        "ja": "קדסא",
+        "en": "shall become sacred",
+        "he": "יִהְיֶה-קֹּדֶשׁ"
       }
     ],
     "11": [
       {
-        "ja": "ואן כאנת בהימה נגסה. או מא לא יקרב מנהא. קרבאנא ללה",
-        "en": "And if it be an impure beast, or one from which no offering may be brought near to God,",
-        "he": "וְאִם כָּל-בְּהֵמָה טְמֵאָה אֲשֶׁר לֹא-יַקְרִיבוּ מִמֶּנָּה קָרְבָּן לַיהוָה"
+        "ja": "ואן כאנת בהימה נגסה",
+        "en": "And if it be an impure beast",
+        "he": "וְאִם כָּל-בְּהֵמָה טְמֵאָה"
       },
       {
-        "ja": "פלתוקף בין ידי אלאמאם",
-        "en": "it shall be set before the imām;",
+        "ja": "או מא לא יקרב מנהא. קרבאנא ללה",
+        "en": "or one from which no offering may be brought near to God",
+        "he": "אֲשֶׁר לֹא-יַקְרִיבוּ מִמֶּנָּה קָרְבָּן לַיהוָה"
+      },
+      {
+        "ja": "פלתוקף",
+        "en": "it shall be set"
+      },
+      {
+        "ja": "בין ידי אלאמאם",
+        "en": "before the imām",
         "he": "וְהֶעֱמִיד אֶת-הַבְּהֵמָה לִפְנֵי הַכֹּהֵן"
       }
     ],
     "12": [
       {
-        "ja": "פיקימהא אלאמאם. עלי' קדר גודתהא או רדאתהא",
-        "en": "and the imām shall value it according to its quality, whether good or inferior —",
-        "he": "וְהֶעֱרִיךְ הַכֹּהֵן אֹתָהּ בֵּין טוֹב וּבֵין רָע"
+        "ja": "פיקימהא אלאמאם",
+        "en": "and the imām shall value it",
+        "he": "וְהֶעֱרִיךְ הַכֹּהֵן אֹתָהּ"
       },
       {
-        "ja": "פליכון אלואגב כמא קים אלאמאם",
-        "en": "as the imām values it, so shall it be obligatory.",
+        "ja": "עלי' קדר גודתהא",
+        "en": "according to its quality,",
+        "he": "בֵּין טוֹב"
+      },
+      {
+        "ja": "או רדאתהא",
+        "en": "whether good or inferior",
+        "he": "וּבֵין רָע"
+      },
+      {
+        "ja": "פליכון",
+        "en": "so shall it be"
+      },
+      {
+        "ja": "אלואגב כמא קים אלאמאם",
+        "en": "obligatory.",
         "he": "כְּעֶרְכְּךָ הַכֹּהֵן כֵּן יִהְיֶה"
       }
     ],
     "13": [
       {
-        "ja": "פאן שא פכאכהא. פליזיד עלי' אלקימה כמסהא",
-        "en": "And if he wishes to redeem it, he shall add a fifth of the valuation to it.",
-        "he": "וְאִם-גָּאֹל יִגְאָלֶנָּה--וְיָסַף חֲמִישִׁתוֹ עַל-עֶרְכֶּךָ"
+        "ja": "פאן שא פכאכהא",
+        "en": "And if he wishes to redeem it",
+        "he": "וְאִם-גָּאֹל יִגְאָלֶנָּה"
+      },
+      {
+        "ja": "פליזיד",
+        "en": "he shall add"
+      },
+      {
+        "ja": "עלי' אלקימה כמסהא",
+        "en": "a fifth of the valuation to it",
+        "he": "חֲמִישִׁתוֹ"
       }
     ],
     "14": [
       {
-        "ja": "ואי רגל אקדס ביתה קדסא ללה",
-        "en": "And whatever man consecrates his house as sacred to God,",
-        "he": "וְאִישׁ כִּי-יַקְדִּשׁ אֶת-בֵּיתוֹ קֹדֶשׁ לַיהוָה"
+        "ja": "ואי רגל אקדס",
+        "en": "And whatever man consecrates",
+        "he": "וְאִישׁ כִּי-יַקְדִּשׁ"
       },
       {
-        "ja": "פליקימה אלאמאם. עלי גודתה או רדאתה. כמא יקימה כד'אך יגב",
-        "en": "the imām shall value it according to its quality, whether good or inferior — as he values it, so shall it be obligatory.",
-        "he": "וְהֶעֱרִיכוֹ הַכֹּהֵן בֵּין טוֹב וּבֵין רָע כַּאֲשֶׁר יַעֲרִיךְ אֹתוֹ הַכֹּהֵן כֵּן יָקוּם"
+        "ja": "ביתה",
+        "en": "his house",
+        "he": "אֶת-בֵּיתוֹ"
+      },
+      {
+        "ja": "קדסא",
+        "en": "as sacred",
+        "he": "קֹדֶשׁ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God,",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "פליקימה אלאמאם",
+        "en": "the imām shall value it",
+        "he": "וְהֶעֱרִיכוֹ הַכֹּהֵן"
+      },
+      {
+        "ja": "עלי גודתה",
+        "en": "according to its quality,",
+        "he": "בֵּין טוֹב"
+      },
+      {
+        "ja": "או רדאתה",
+        "en": "whether good or inferior",
+        "he": "וּבֵין רָע"
+      },
+      {
+        "ja": "כמא יקימה כד'אך יגב",
+        "en": "as he values it, so shall it be obligatory",
+        "he": "כַּאֲשֶׁר יַעֲרִיךְ אֹתוֹ הַכֹּהֵן כֵּן יָקוּם"
       }
     ],
     "15": [
       {
-        "ja": "פאן שא אלמקדס פכאך מנזלה",
-        "en": "And if the one who consecrated it wishes to redeem his dwelling,",
-        "he": "וְאִם-הַמַּקְדִּישׁ--יִגְאַל אֶת-בֵּיתוֹ"
+        "ja": "פאן שא אלמקדס",
+        "en": "And if the one who consecrated it wishes",
+        "he": "וְאִם-הַמַּקְדִּישׁ"
       },
       {
-        "ja": "פליזיד עלי' קימתה כ'מסהא ויכון לה",
-        "en": "he shall add a fifth to its valuation, and it shall be his.",
-        "he": "וְיָסַף חֲמִישִׁית כֶּסֶף-עֶרְכְּךָ עָלָיו--וְהָיָה לוֹ"
+        "ja": "פכאך מנזלה",
+        "en": "to redeem his dwelling",
+        "he": "יִגְאַל אֶת-בֵּיתוֹ"
+      },
+      {
+        "ja": "פליזיד",
+        "en": "he shall add"
+      },
+      {
+        "ja": "עלי' קימתה כ'מסהא",
+        "en": "a fifth to its valuation",
+        "he": "וְיָסַף חֲמִישִׁית כֶּסֶף-עֶרְכְּךָ עָלָיו"
+      },
+      {
+        "ja": "ויכון לה",
+        "en": "and it shall be his",
+        "he": "וְהָיָה לוֹ"
       }
     ],
     "16": [
       {
         "ja": "ואן אקדס אנסאן ללה שייא מן צ'יעה' חוזה",
-        "en": "And if a person consecrates to God something from the fields of his holding,",
+        "en": "And if a person consecrates to God something from the fields of his holding",
         "he": "וְאִם מִשְּׂדֵה אֲחֻזָּתוֹ יַקְדִּישׁ אִישׁ לַיהוָה"
       },
       {
-        "ja": "פלתכון אלקימה עלי' קדר בד'רה. כל מבד'ר כור מן שעיר. בכ'מסין מתקאל פצ'ה",
-        "en": "the valuation shall be according to the measure of its seed — every unit sown of barley at fifty mithqals of silver.",
-        "he": "וְהָיָה עֶרְכְּךָ לְפִי זַרְעוֹ זֶרַע חֹמֶר שְׂעֹרִים בַּחֲמִשִּׁים שֶׁקֶל כָּסֶף"
+        "ja": "פלתכון אלקימה",
+        "en": "the valuation shall be",
+        "he": "וְהָיָה עֶרְכְּךָ"
+      },
+      {
+        "ja": "עלי' קדר בד'רה",
+        "en": "according to the measure of its seed",
+        "he": "לְפִי זַרְעוֹ"
+      },
+      {
+        "ja": "כל מבד'ר",
+        "en": "every unit sown",
+        "he": "זֶרַע חֹמֶר"
+      },
+      {
+        "ja": "מן שעיר",
+        "en": "of barley",
+        "he": "שְׂעֹרִים"
+      },
+      {
+        "ja": "בכ'מסין",
+        "en": "at fifty",
+        "he": "בַּחֲמִשִּׁים"
+      },
+      {
+        "ja": "מתקאל",
+        "en": "mithqals",
+        "he": "שֶׁקֶל"
+      },
+      {
+        "ja": "פצ'ה",
+        "en": "of silver",
+        "he": "כָּסֶף"
       }
     ],
     "17": [
       {
-        "ja": "פאן אקדס צ'יעתה מן סנה' אלאטלאק. פאלקימה ת'אבתה בחאלהא",
-        "en": "And if he consecrates his field from the year of release, the valuation shall remain fixed as it is.",
-        "he": "אִם-מִשְּׁנַת הַיֹּבֵל יַקְדִּישׁ שָׂדֵהוּ--כְּעֶרְכְּךָ יָקוּם"
+        "ja": "פאן אקדס צ'יעתה מן סנה' אלאטלאק",
+        "en": "And if he consecrates his field from the year of release",
+        "he": "אִם-מִשְּׁנַת הַיֹּבֵל יַקְדִּישׁ שָׂדֵהוּ"
+      },
+      {
+        "ja": "פאלקימה ת'אבתה בחאלהא",
+        "en": "the valuation shall remain fixed as it is",
+        "he": "כְּעֶרְכְּךָ יָקוּם"
       }
     ],
     "18": [
       {
         "ja": "ואן אקדסהא בעד סנה' אלאטלאק",
-        "en": "But if he consecrates it after the year of release,",
+        "en": "But if he consecrates it after the year of release",
         "he": "וְאִם-אַחַר הַיֹּבֵל יַקְדִּישׁ שָׂדֵהוּ"
       },
       {
-        "ja": "פליחסב לה אלאמאם אלדראהם. עלי' קדר אלסנין אלבאקיאת. אלי' סנה' אלאטלאק. וינקץ מן אלקימה",
-        "en": "the imām shall reckon for him the silver according to the number of years remaining until the year of release, and it shall be deducted from the full valuation.",
-        "he": "וְחִשַּׁב-לוֹ הַכֹּהֵן אֶת-הַכֶּסֶף עַל-פִּי הַשָּׁנִים הַנּוֹתָרֹת עַד שְׁנַת הַיֹּבֵל וְנִגְרַע מֵעֶרְכֶּךָ"
+        "ja": "פליחסב לה אלאמאם",
+        "en": "the imām shall reckon for him",
+        "he": "וְחִשַּׁב-לוֹ הַכֹּהֵן"
+      },
+      {
+        "ja": "אלדראהם",
+        "en": "the silver",
+        "he": "אֶת-הַכֶּסֶף"
+      },
+      {
+        "ja": "עלי' קדר אלסנין אלבאקיאת",
+        "en": "according to the number of years remaining",
+        "he": "עַל-פִּי הַשָּׁנִים הַנּוֹתָרֹת"
+      },
+      {
+        "ja": "אלי' סנה' אלאטלאק",
+        "en": "until the year of release",
+        "he": "עַד שְׁנַת הַיֹּבֵל"
+      },
+      {
+        "ja": "וינקץ",
+        "en": "and it shall be deducted",
+        "he": "וְנִגְרַע"
+      },
+      {
+        "ja": "מן אלקימה",
+        "en": "from the full valuation",
+        "he": "מֵעֶרְכֶּךָ"
       }
     ],
     "19": [
       {
         "ja": "ואן שא אלרגל אלמקדס אלצ'יעה אן יפתכהא",
-        "en": "And if the man who consecrated the field wishes to redeem it,",
+        "en": "And if the man who consecrated the field wishes to redeem it",
         "he": "וְאִם-גָּאֹל יִגְאַל אֶת-הַשָּׂדֶה הַמַּקְדִּישׁ אֹתוֹ"
       },
       {
-        "ja": "פליזיד עלי' אלקימה כ'מסהא. ותגב לה",
-        "en": "he shall add a fifth to the valuation, and it shall be secured to him.",
-        "he": "וְיָסַף חֲמִשִׁית כֶּסֶף-עֶרְכְּךָ עָלָיו--וְקָם לוֹ"
+        "ja": "פליזיד",
+        "en": "he shall add"
+      },
+      {
+        "ja": "עלי' אלקימה כ'מסהא",
+        "en": "a fifth to the valuation",
+        "he": "וְיָסַף חֲמִשִׁית כֶּסֶף-עֶרְכְּךָ עָלָיו"
+      },
+      {
+        "ja": "ותגב לה",
+        "en": "and it shall be secured to him",
+        "he": "וְקָם לוֹ"
       }
     ],
     "20": [
       {
-        "ja": "ואן לם יפתכהא. ובאעהא אלאמין לרגל אכ'ר",
-        "en": "But if he does not redeem it, and the trustee has sold it to another man,",
-        "he": "וְאִם-לֹא יִגְאַל אֶת-הַשָּׂדֶה וְאִם-מָכַר אֶת-הַשָּׂדֶה לְאִישׁ אַחֵר"
+        "ja": "ואן לם יפתכהא",
+        "en": "But if he does not redeem it",
+        "he": "וְאִם-לֹא יִגְאַל אֶת-הַשָּׂדֶה"
+      },
+      {
+        "ja": "ובאעהא אלאמין",
+        "en": "and the trustee has sold it",
+        "he": "וְאִם-מָכַר אֶת-הַשָּׂדֶה"
+      },
+      {
+        "ja": "לרגל אכ'ר",
+        "en": "to another man",
+        "he": "לְאִישׁ אַחֵר"
       },
       {
         "ja": "פלא תפתך אבדא",
-        "en": "it shall not be redeemed ever.",
+        "en": "it shall not be redeemed ever",
         "he": "לֹא יִגָּאֵל עוֹד"
       }
     ],
     "21": [
       {
-        "ja": "ותכון ענד כ'רוגהא. מן יד אלמשתרי פי סנה' אלאטלאק. קדסא ללה",
-        "en": "And it shall be, upon its passing out of the purchaser's hand in the year of release, sacred to God —",
-        "he": "וְהָיָה הַשָּׂדֶה בְּצֵאתוֹ בַיֹּבֵל קֹדֶשׁ לַיהוָה"
+        "ja": "ותכון",
+        "en": "And it shall be",
+        "he": "וְהָיָה"
       },
       {
-        "ja": "כצ'יאע אלצואפי. ותציר לאלאמאם",
-        "en": "like the lands of the endowments irrevocably devoted — and it shall become the imām's.",
-        "he": "כִּשְׂדֵה הַחֵרֶם לַכֹּהֵן תִּהְיֶה אֲחֻזָּתוֹ"
+        "ja": "ענד כ'רוגהא",
+        "en": "upon its passing out",
+        "he": "הַשָּׂדֶה"
+      },
+      {
+        "ja": "מן יד אלמשתרי",
+        "en": "of the purchaser's hand",
+        "he": "בְּצֵאתוֹ"
+      },
+      {
+        "ja": "פי סנה' אלאטלאק",
+        "en": "in the year of release",
+        "he": "בַיֹּבֵל"
+      },
+      {
+        "ja": "קדסא",
+        "en": "sacred",
+        "he": "קֹדֶשׁ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "כצ'יאע אלצואפי",
+        "en": "like the lands of the endowments irrevocably devoted",
+        "he": "כִּשְׂדֵה הַחֵרֶם"
+      },
+      {
+        "ja": "לאלאמאם",
+        "en": "the imām's",
+        "he": "לַכֹּהֵן"
+      },
+      {
+        "ja": "ותציר",
+        "en": "and it shall become",
+        "he": "תִּהְיֶה"
       }
     ],
     "22": [
       {
-        "ja": "ואן אקדס צ'יעה אשתראהא. וליסת לה בחוז",
-        "en": "And if a person consecrates a field he has purchased, which is not his by right of holding —",
-        "he": "וְאִם אֶת-שְׂדֵה מִקְנָתוֹ אֲשֶׁר לֹא מִשְּׂדֵה אֲחֻזָּתוֹ--יַקְדִּישׁ לַיהוָה"
+        "ja": "ואן",
+        "en": "And if",
+        "he": "וְאִם"
+      },
+      {
+        "ja": "אקדס",
+        "en": "consecrates",
+        "he": "יַקְדִּישׁ"
+      },
+      {
+        "ja": "צ'יעה אשתראהא",
+        "en": "a field he has purchased",
+        "he": "אֶת-שְׂדֵה מִקְנָתוֹ"
+      },
+      {
+        "ja": "וליסת",
+        "en": "which is not",
+        "he": "אֲשֶׁר לֹא"
+      },
+      {
+        "ja": "לה בחוז",
+        "en": "his by right of holding",
+        "he": "מִשְּׂדֵה אֲחֻזָּתוֹ"
       }
     ],
     "23": [
       {
-        "ja": "פליחסב לה אלאמאם תקסיט אלקימה. מן סנתה אלי' סנה' אלאטלאק",
-        "en": "the imām shall reckon for him the installments of the valuation from its year until the year of release,",
-        "he": "וְחִשַּׁב-לוֹ הַכֹּהֵן אֵת מִכְסַת הָעֶרְכְּךָ עַד שְׁנַת הַיֹּבֵל"
+        "ja": "פליחסב לה אלאמאם",
+        "en": "the imām shall reckon for him",
+        "he": "וְחִשַּׁב-לוֹ הַכֹּהֵן"
       },
       {
-        "ja": "וידפעהא פי ד'אלך אליום קדסא ללה",
-        "en": "and he shall pay it on that day as sacred to God.",
-        "he": "וְנָתַן אֶת-הָעֶרְכְּךָ בַּיּוֹם הַהוּא קֹדֶשׁ לַיהוָה"
+        "ja": "תקסיט אלקימה",
+        "en": "the installments of the valuation",
+        "he": "אֵת מִכְסַת הָעֶרְכְּךָ"
+      },
+      {
+        "ja": "מן סנתה אלי' סנה' אלאטלאק",
+        "en": "from its year until the year of release",
+        "he": "עַד שְׁנַת הַיֹּבֵל"
+      },
+      {
+        "ja": "וידפעהא",
+        "en": "and he shall pay it",
+        "he": "וְנָתַן אֶת-הָעֶרְכְּךָ"
+      },
+      {
+        "ja": "פי ד'אלך אליום",
+        "en": "on that day",
+        "he": "בַּיּוֹם הַהוּא"
+      },
+      {
+        "ja": "קדסא",
+        "en": "as sacred",
+        "he": "קֹדֶשׁ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
       }
     ],
     "24": [
       {
-        "ja": "ותרגע אלצ'יעה פי סנה' אלאטלאק. לאלבאיע אלד'י אשתראהא מנה",
-        "en": "And the field shall revert in the year of release to the seller from whom he purchased it —",
-        "he": "בִּשְׁנַת הַיּוֹבֵל יָשׁוּב הַשָּׂדֶה לַאֲשֶׁר קָנָהוּ מֵאִתּוֹ"
+        "ja": "ותרגע אלצ'יעה פי סנה' אלאטלאק",
+        "en": "And the field shall revert in the year of release",
+        "he": "בִּשְׁנַת הַיּוֹבֵל"
+      },
+      {
+        "ja": "לאלבאיע",
+        "en": "to the seller",
+        "he": "יָשׁוּב הַשָּׂדֶה"
+      },
+      {
+        "ja": "אלד'י אשתראהא מנה",
+        "en": "from whom he purchased it",
+        "he": "לַאֲשֶׁר קָנָהוּ מֵאִתּוֹ"
       },
       {
         "ja": "אלד'י לה רקבה' אלארץ'",
-        "en": "to the one who holds title to the land.",
+        "en": "to the one who holds title to the land",
         "he": "לַאֲשֶׁר-לוֹ אֲחֻזַּת הָאָרֶץ"
       }
     ],
     "25": [
       {
-        "ja": "וגמיע קימתך. תכון במת'קאל אלקדס",
-        "en": "And all your valuations shall be by the mithqal of the sanctuary —",
-        "he": "וְכָל-עֶרְכְּךָ--יִהְיֶה בְּשֶׁקֶל הַקֹּדֶשׁ"
+        "ja": "וגמיע",
+        "en": "And all",
+        "he": "וְכָל"
       },
       {
-        "ja": "כל מת'קאל עשרין דאנק",
-        "en": "every mithqal being twenty dāniqs.",
-        "he": "עֶשְׂרִים גֵּרָה יִהְיֶה הַשָּׁקֶל"
+        "ja": "קימתך",
+        "en": "your valuations",
+        "he": "עֶרְכְּךָ"
+      },
+      {
+        "ja": "תכון",
+        "en": "shall be"
+      },
+      {
+        "ja": "במת'קאל אלקדס",
+        "en": "by the mithqal of the sanctuary",
+        "he": "בְּשֶׁקֶל הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "כל מת'קאל עשרין",
+        "en": "every mithqal being twenty",
+        "he": "עֶשְׂרִים"
+      },
+      {
+        "ja": "דאנק",
+        "en": "dāniqs",
+        "he": "גֵּרָה"
       }
     ],
     "26": [
       {
-        "ja": "אמא בכר. יבכר ללה מן אלבהאים. פלא יחתאג אן יקדסה אנסאנא",
-        "en": "As for a firstborn animal that is made firstborn to God from among the beasts, a person need not consecrate it:",
-        "he": "אַךְ-בְּכוֹר אֲשֶׁר-יְבֻכַּר לַיהוָה בִּבְהֵמָה--לֹא-יַקְדִּישׁ אִישׁ אֹתוֹ"
+        "ja": "אמא בכר",
+        "en": "As for a firstborn animal",
+        "he": "אַךְ-בְּכוֹר"
       },
       {
-        "ja": "אן כאן מן אלבקר או מן אלג'נם. פהו ללה",
-        "en": "whether it be from the cattle or from the flock, it already belongs to God.",
-        "he": "אִם-שׁוֹר אִם-שֶׂה לַיהוָה הוּא"
+        "ja": "יבכר ללה מן אלבהאים",
+        "en": "that is made firstborn to God from among the beasts,",
+        "he": "אֲשֶׁר-יְבֻכַּר לַיהוָה בִּבְהֵמָה"
+      },
+      {
+        "ja": "פלא יחתאג אן יקדסה אנסאנא",
+        "en": "a person need not consecrate it",
+        "he": "לֹא-יַקְדִּישׁ אִישׁ אֹתוֹ"
+      },
+      {
+        "ja": "אן כאן מן אלבקר",
+        "en": "whether it be from the cattle",
+        "he": "אִם-שׁוֹר"
+      },
+      {
+        "ja": "או מן אלג'נם",
+        "en": "or from the flock",
+        "he": "אִם-שֶׂה"
+      },
+      {
+        "ja": "פהו ללה",
+        "en": "it already belongs to God",
+        "he": "לַיהוָה"
       }
     ],
     "27": [
       {
-        "ja": "ואן אקדס שייא מן אלבהאים אלנגסה. פליפדהא בקימתה. ויזיד עליהא כ'מסהא",
-        "en": "And if one consecrates something from the impure beasts, he shall redeem it at its valuation and add a fifth to it;",
-        "he": "וְאִם בַּבְּהֵמָה הַטְּמֵאָה וּפָדָה בְעֶרְכֶּךָ וְיָסַף חֲמִשִׁתוֹ עָלָיו"
+        "ja": "ואן",
+        "en": "And if",
+        "he": "וְאִם"
       },
       {
-        "ja": "ואן לם יפתכה פליבאע בקימתה",
-        "en": "and if he does not redeem it, it shall be sold at its valuation.",
-        "he": "וְאִם-לֹא יִגָּאֵל וְנִמְכַּר בְּעֶרְכֶּךָ"
+        "ja": "אקדס שייא מן אלבהאים אלנגסה",
+        "en": "one consecrates something from the impure beasts",
+        "he": "בַּבְּהֵמָה הַטְּמֵאָה"
+      },
+      {
+        "ja": "פליפדהא",
+        "en": "he shall redeem it",
+        "he": "וּפָדָה"
+      },
+      {
+        "ja": "בקימתה",
+        "en": "at its valuation",
+        "he": "בְעֶרְכֶּךָ"
+      },
+      {
+        "ja": "ויזיד",
+        "en": "and add",
+        "he": "וְיָסַף"
+      },
+      {
+        "ja": "עליהא כ'מסהא",
+        "en": "a fifth to it",
+        "he": "חֲמִשִׁתוֹ"
+      },
+      {
+        "ja": "ואן לם",
+        "en": "and if he does not",
+        "he": "וְאִם-לֹא"
+      },
+      {
+        "ja": "יפתכה",
+        "en": "redeem it",
+        "he": "יִגָּאֵל"
+      },
+      {
+        "ja": "פליבאע",
+        "en": "it shall be sold"
+      },
+      {
+        "ja": "בקימתה",
+        "en": "at its valuation",
+        "he": "וְנִמְכַּר"
       }
     ],
     "28": [
       {
-        "ja": "ואמא כל צואף. יגעלה אלאנסאן ללה מן גמיע מאלה. מן עביד ובהאים וצ'יעה' חוזה",
-        "en": "But every irrevocable devotion that a person makes to God from all that he has — whether slaves, or beasts, or the fields of his holding —",
-        "he": "אַךְ-כָּל-חֵרֶם אֲשֶׁר יַחֲרִם אִישׁ לַיהוָה מִכָּל-אֲשֶׁר-לוֹ מֵאָדָם וּבְהֵמָה וּמִשְּׂדֵה אֲחֻזָּתוֹ"
+        "ja": "ואמא כל צואף",
+        "en": "But every irrevocable devotion",
+        "he": "אַךְ-כָּל-חֵרֶם"
       },
       {
-        "ja": "פלא יבאע ולא יפתך. בל יכון מן כ'ואץ אלאקדאס ללה",
-        "en": "shall not be sold and shall not be redeemed; it shall be of the most sacred consecrations to God.",
-        "he": "לֹא יִמָּכֵר וְלֹא יִגָּאֵל כָּל-חֵרֶם קֹדֶשׁ-קָדָשִׁים הוּא לַיהוָה"
+        "ja": "יגעלה אלאנסאן ללה",
+        "en": "that a person makes to God",
+        "he": "אֲשֶׁר יַחֲרִם אִישׁ לַיהוָה"
+      },
+      {
+        "ja": "מן גמיע מאלה",
+        "en": "from all that he has",
+        "he": "מִכָּל-אֲשֶׁר-לוֹ"
+      },
+      {
+        "ja": "מן עביד",
+        "en": "whether slaves",
+        "he": "מֵאָדָם"
+      },
+      {
+        "ja": "ובהאים",
+        "en": "or beasts",
+        "he": "וּבְהֵמָה"
+      },
+      {
+        "ja": "וצ'יעה' חוזה",
+        "en": "or the fields of his holding",
+        "he": "וּמִשְּׂדֵה אֲחֻזָּתוֹ"
+      },
+      {
+        "ja": "פלא יבאע",
+        "en": "shall not be sold",
+        "he": "לֹא יִמָּכֵר"
+      },
+      {
+        "ja": "ולא יפתך",
+        "en": "and shall not be redeemed",
+        "he": "וְלֹא יִגָּאֵל"
+      },
+      {
+        "ja": "בל",
+        "en": "it shall be"
+      },
+      {
+        "ja": "יכון מן כ'ואץ אלאקדאס ללה",
+        "en": "of the most sacred consecrations to God",
+        "he": "קֹדֶשׁ-קָדָשִׁים הוּא לַיהוָה"
       }
     ],
     "29": [
       {
-        "ja": "וכל מתלוף אסתחק אלתלף. מן אלנאס פלא יפדא. בל יקתל קתלא",
-        "en": "And every person condemned to destruction who has deserved destruction shall not be redeemed — he shall be put to death.",
-        "he": "כָּל-חֵרֶם אֲשֶׁר יָחֳרַם מִן-הָאָדָם--לֹא יִפָּדֶה מוֹת יוּמָת"
+        "ja": "וכל מתלוף אסתחק אלתלף. מן אלנאס",
+        "en": "And every person condemned to destruction who has deserved destruction",
+        "he": "כָּל-חֵרֶם אֲשֶׁר יָחֳרַם מִן-הָאָדָם"
+      },
+      {
+        "ja": "פלא יפדא",
+        "en": "shall not be redeemed",
+        "he": "לֹא יִפָּדֶה"
+      },
+      {
+        "ja": "בל",
+        "en": "he shall be"
+      },
+      {
+        "ja": "יקתל קתלא",
+        "en": "put to death",
+        "he": "מוֹת יוּמָת"
       }
     ],
     "30": [
       {
-        "ja": "וגמיע עשור אלארץ'. מן חבהא ומן ת'מר אלשגר",
-        "en": "And all the tithes of the land — from its grain and from the fruit of the tree —",
-        "he": "וְכָל-מַעְשַׂר הָאָרֶץ מִזֶּרַע הָאָרֶץ מִפְּרִי הָעֵץ"
+        "ja": "וגמיע עשור",
+        "en": "And all the tithes of",
+        "he": "וְכָל-מַעְשַׂר"
       },
       {
-        "ja": "פהו ללה קדסא",
-        "en": "they belong to God as sacred.",
-        "he": "לַיהוָה הוּא קֹדֶשׁ לַיהוָה"
+        "ja": "אלארץ'",
+        "en": "the land",
+        "he": "הָאָרֶץ"
+      },
+      {
+        "ja": "מן חבהא",
+        "en": "from its grain",
+        "he": "מִזֶּרַע הָאָרֶץ"
+      },
+      {
+        "ja": "ומן ת'מר אלשגר",
+        "en": "and from the fruit of the tree",
+        "he": "מִפְּרִי הָעֵץ"
+      },
+      {
+        "ja": "פהו ללה",
+        "en": "they belong to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "קדסא",
+        "en": "as sacred",
+        "he": "הוּא קֹדֶשׁ לַיהוָה"
       }
     ],
     "31": [
       {
-        "ja": "פאן אפתך אנסאן שייא מן עשורה. פליזיד עליה כ'מס ת'מנה",
-        "en": "And if a person redeems any of his tithe, he shall add a fifth of its value to it.",
-        "he": "וְאִם-גָּאֹל יִגְאַל אִישׁ מִמַּעַשְׂרוֹ--חֲמִשִׁיתוֹ יֹסֵף עָלָיו"
+        "ja": "פאן",
+        "en": "And if",
+        "he": "וְאִם"
+      },
+      {
+        "ja": "אפתך",
+        "en": "redeems",
+        "he": "גָּאֹל יִגְאַל"
+      },
+      {
+        "ja": "אנסאן",
+        "en": "a person",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "שייא מן עשורה",
+        "en": "any of his tithe",
+        "he": "מִמַּעַשְׂרוֹ"
+      },
+      {
+        "ja": "פליזיד",
+        "en": "he shall add"
+      },
+      {
+        "ja": "כ'מס",
+        "en": "a fifth of",
+        "he": "חֲמִשִׁיתוֹ"
+      },
+      {
+        "ja": "ת'מנה",
+        "en": "its value to it",
+        "he": "עָלָיו"
       }
     ],
     "32": [
       {
-        "ja": "וגמיע עשור אלבקר ואלג'נם. מא יגוז תחת אלעצא",
-        "en": "And all the tithes of cattle and of the flock — whatever passes under the staff —",
-        "he": "וְכָל-מַעְשַׂר בָּקָר וָצֹאן כֹּל אֲשֶׁר-יַעֲבֹר תַּחַת הַשָּׁבֶט"
+        "ja": "וגמיע עשור",
+        "en": "And all the tithes of",
+        "he": "וְכָל-מַעְשַׂר"
       },
       {
-        "ja": "פאלעאשר יכון קדסא ללה",
-        "en": "the tenth shall be sacred to God.",
-        "he": "הָעֲשִׂירִי יִהְיֶה-קֹּדֶשׁ לַיהוָה"
+        "ja": "אלבקר",
+        "en": "cattle",
+        "he": "בָּקָר"
+      },
+      {
+        "ja": "ואלג'נם",
+        "en": "and of the flock",
+        "he": "וָצֹאן"
+      },
+      {
+        "ja": "מא יגוז",
+        "en": "whatever passes",
+        "he": "כֹּל אֲשֶׁר-יַעֲבֹר"
+      },
+      {
+        "ja": "תחת אלעצא",
+        "en": "under the staff",
+        "he": "תַּחַת הַשָּׁבֶט"
+      },
+      {
+        "ja": "פאלעאשר",
+        "en": "the tenth",
+        "he": "הָעֲשִׂירִי"
+      },
+      {
+        "ja": "יכון",
+        "en": "shall be"
+      },
+      {
+        "ja": "קדסא",
+        "en": "sacred",
+        "he": "יִהְיֶה-קֹּדֶשׁ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
       }
     ],
     "33": [
       {
-        "ja": "לא יפחץ ענה. בין גייד לרדי ולא יג'יירה",
-        "en": "He shall not examine it as between good and inferior, nor shall he substitute it;",
-        "he": "לֹא יְבַקֵּר בֵּין-טוֹב לָרַע וְלֹא יְמִירֶנּוּ"
+        "ja": "לא יפחץ",
+        "en": "He shall not examine it",
+        "he": "לֹא יְבַקֵּר"
       },
       {
-        "ja": "פאן ג'יירה פקד צאר הו ובדילה. קדסא לא יפתך",
-        "en": "and if he does substitute it, then both it and its substitute shall become sacred and shall not be redeemed.",
-        "he": "וְאִם-הָמֵר יְמִירֶנּוּ וְהָיָה-הוּא וּתְמוּרָתוֹ יִהְיֶה-קֹּדֶשׁ לֹא יִגָּאֵל"
+        "ja": "ענה",
+        "en": "as between"
+      },
+      {
+        "ja": "בין גייד",
+        "en": "good",
+        "he": "בֵּין-טוֹב"
+      },
+      {
+        "ja": "לרדי",
+        "en": "and inferior",
+        "he": "לָרַע"
+      },
+      {
+        "ja": "ולא יג'יירה",
+        "en": "nor shall he substitute it",
+        "he": "וְלֹא יְמִירֶנּוּ"
+      },
+      {
+        "ja": "פאן ג'יירה",
+        "en": "and if he does substitute it",
+        "he": "וְאִם-הָמֵר יְמִירֶנּוּ"
+      },
+      {
+        "ja": "פקד צאר",
+        "en": "then both"
+      },
+      {
+        "ja": "הו",
+        "en": "it",
+        "he": "וְהָיָה-הוּא"
+      },
+      {
+        "ja": "ובדילה",
+        "en": "and its substitute",
+        "he": "וּתְמוּרָתוֹ"
+      },
+      {
+        "ja": "קדסא",
+        "en": "shall become sacred",
+        "he": "יִהְיֶה-קֹּדֶשׁ"
+      },
+      {
+        "ja": "לא יפתך",
+        "en": "and shall not be redeemed",
+        "he": "לֹא יִגָּאֵל"
       }
     ],
     "34": [
       {
-        "ja": "הד'ה אלוצאיא. אלתי אמר אללה בהא מוסי. אלי' בני אסראיל פי גבל סיני",
-        "en": "These are the commandments which God charged Moses with, to the sons of Israel at Mount Sinai.",
-        "he": "אֵלֶּה הַמִּצְו‍ֹת אֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה--אֶל-בְּנֵי יִשְׂרָאֵל בְּהַר סִינָי"
+        "ja": "הד'ה",
+        "en": "These are",
+        "he": "אֵלֶּה"
+      },
+      {
+        "ja": "אלוצאיא",
+        "en": "the commandments",
+        "he": "הַמִּצְו‍ֹת"
+      },
+      {
+        "ja": "אלתי",
+        "en": "which",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "אמר",
+        "en": "charged",
+        "he": "צִוָּה"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "בהא מוסי",
+        "en": "Moses with",
+        "he": "אֶת-מֹשֶׁה"
+      },
+      {
+        "ja": "אלי' בני",
+        "en": "to the sons of",
+        "he": "אֶל-בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פי גבל",
+        "en": "at Mount",
+        "he": "בְּהַר"
+      },
+      {
+        "ja": "סיני",
+        "en": "Sinai",
+        "he": "סִינָי"
       }
     ]
   }

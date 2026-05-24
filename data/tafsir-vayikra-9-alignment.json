@@ -1,302 +1,1095 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 9. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_9.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 9. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_9.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "פלמא כאן פי אליום אלת'אמן",
-        "en": "And it was on the eighth day",
-        "he": "וַיְהִי בַּיּוֹם הַשְּׁמִינִי"
+        "ja": "פלמא",
+        "en": "And it was"
       },
       {
-        "ja": "דעא מוסי' בהרון ובניה",
-        "en": "Moses called to Aaron and his sons",
-        "he": "קָרָא מֹשֶׁה לְאַהֲרֹן וּלְבָנָיו"
+        "ja": "כאן",
+        "en": "on"
       },
       {
-        "ja": "ואשיאך' בני אסראיל",
-        "en": "and to the elders of the sons of Israel.",
-        "he": "וּלְזִקְנֵי יִשְׂרָאֵל"
+        "ja": "פי אליום",
+        "en": "the eighth day",
+        "he": "בַּיּוֹם"
+      },
+      {
+        "ja": "אלת'אמן",
+        "en": "—",
+        "he": "הַשְּׁמִינִי"
+      },
+      {
+        "ja": "דעא",
+        "en": "called",
+        "he": "קָרָא"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "בהרון",
+        "en": "to Aaron",
+        "he": "לְאַהֲרֹן"
+      },
+      {
+        "ja": "ובניה",
+        "en": "and his sons",
+        "he": "וּלְבָנָיו"
+      },
+      {
+        "ja": "ואשיאך'",
+        "en": "and to the elders",
+        "he": "וּלְזִקְנֵי"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "of the sons of Israel",
+        "he": "יִשְׂרָאֵל"
       }
     ],
     "2": [
       {
-        "ja": "וקאל להרון",
-        "en": "And he said to Aaron:",
-        "he": "וַיֹּאמֶר אֶל-אַהֲרֹן"
+        "ja": "וקאל",
+        "en": "And he said",
+        "he": "וַיֹּאמֶר"
       },
       {
-        "ja": "כ'ד' עגלא מן אלבקר לאלד'כוה. וכבשא לאלצעידה צחיחאן",
-        "en": "'Take a calf from the cattle for the purification-offering, and a ram for the ascent-offering — both without blemish",
-        "he": "קַח-לְךָ עֵגֶל בֶּן-בָּקָר לְחַטָּאת וְאַיִל לְעֹלָה--תְּמִימִם"
+        "ja": "להרון",
+        "en": "to Aaron",
+        "he": "אֶל-אַהֲרֹן"
       },
       {
-        "ja": "וקרבהמא בין ידי אללה",
-        "en": "— and bring them near before God.'",
-        "he": "וְהַקְרֵב לִפְנֵי יְהוָה"
+        "ja": "כ'ד'",
+        "en": "Take",
+        "he": "קַח-לְךָ"
+      },
+      {
+        "ja": "עגלא",
+        "en": "a calf",
+        "he": "עֵגֶל"
+      },
+      {
+        "ja": "מן אלבקר",
+        "en": "from the cattle",
+        "he": "בֶּן-בָּקָר"
+      },
+      {
+        "ja": "לאלד'כוה",
+        "en": "for the purification-offering",
+        "he": "לְחַטָּאת"
+      },
+      {
+        "ja": "וכבשא",
+        "en": "and a ram",
+        "he": "וְאַיִל"
+      },
+      {
+        "ja": "לאלצעידה",
+        "en": "for the ascent-offering",
+        "he": "לְעֹלָה"
+      },
+      {
+        "ja": "צחיחאן",
+        "en": "both without blemish",
+        "he": "תְּמִימִם"
+      },
+      {
+        "ja": "וקרבהמא",
+        "en": "and bring them near",
+        "he": "וְהַקְרֵב"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God",
+        "he": "לִפְנֵי יְהוָה"
       }
     ],
     "3": [
       {
-        "ja": "ומר בני אסראיל קאילא",
-        "en": "And command the sons of Israel, saying:",
-        "he": "וְאֶל-בְּנֵי יִשְׂרָאֵל תְּדַבֵּר לֵאמֹר"
+        "ja": "ומר בני אסראיל",
+        "en": "And command the sons of Israel",
+        "he": "וְאֶל-בְּנֵי יִשְׂרָאֵל"
       },
       {
-        "ja": "כ'ד'ו עתודא מן אלמאעז לאלד'כוה",
-        "en": "Take a he-goat from the goats for the purification-offering,",
-        "he": "קְחוּ שְׂעִיר-עִזִּים לְחַטָּאת"
+        "ja": "קאילא",
+        "en": "saying",
+        "he": "תְּדַבֵּר"
       },
       {
-        "ja": "ועגלא וכרופא אבני סנה. צחיחאן לאלצעידה",
-        "en": "and a calf and a lamb, sons of a year, without blemish, for the ascent-offering;",
-        "he": "וְעֵגֶל וָכֶבֶשׂ בְּנֵי-שָׁנָה תְּמִימִם לְעֹלָה"
+        "ja": "כ'ד'ו",
+        "en": "Take",
+        "he": "קְחוּ"
+      },
+      {
+        "ja": "עתודא מן אלמאעז",
+        "en": "a he-goat from the goats",
+        "he": "שְׂעִיר-עִזִּים"
+      },
+      {
+        "ja": "לאלד'כוה",
+        "en": "for the purification-offering",
+        "he": "לְחַטָּאת"
+      },
+      {
+        "ja": "ועגלא",
+        "en": "and a calf",
+        "he": "וְעֵגֶל"
+      },
+      {
+        "ja": "וכרופא",
+        "en": "and a lamb",
+        "he": "וָכֶבֶשׂ"
+      },
+      {
+        "ja": "אבני סנה",
+        "en": "sons of a year",
+        "he": "בְּנֵי-שָׁנָה"
+      },
+      {
+        "ja": "צחיחאן",
+        "en": "without blemish",
+        "he": "תְּמִימִם"
+      },
+      {
+        "ja": "לאלצעידה",
+        "en": "for the ascent-offering",
+        "he": "לְעֹלָה"
       }
     ],
     "4": [
       {
-        "ja": "ות'ורא וכבשא לאלסלאמה. יד'בחאן בין ידי אללה",
-        "en": "and a bull and a ram for the well-being offering, to be slaughtered before God;",
-        "he": "וְשׁוֹר וָאַיִל לִשְׁלָמִים לִזְבֹּחַ לִפְנֵי יְהוָה"
+        "ja": "ות'ורא",
+        "en": "and a bull",
+        "he": "וְשׁוֹר"
       },
       {
-        "ja": "והדייה מלתותה בדהן",
-        "en": "and a gift-offering mixed with oil",
-        "he": "וּמִנְחָה בְּלוּלָה בַשָּׁמֶן"
+        "ja": "וכבשא",
+        "en": "and a ram",
+        "he": "וָאַיִל"
       },
       {
-        "ja": "לאן אליום. אללה יתגלא לכם",
-        "en": "— for today God shall reveal Himself to you.'",
-        "he": "כִּי הַיּוֹם יְהוָה נִרְאָה אֲלֵיכֶם"
+        "ja": "לאלסלאמה",
+        "en": "for the well-being offering",
+        "he": "לִשְׁלָמִים"
+      },
+      {
+        "ja": "יד'בחאן",
+        "en": "to be slaughtered",
+        "he": "לִזְבֹּחַ"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "והדייה",
+        "en": "and a gift-offering",
+        "he": "וּמִנְחָה"
+      },
+      {
+        "ja": "מלתותה",
+        "en": "mixed",
+        "he": "בְּלוּלָה"
+      },
+      {
+        "ja": "בדהן",
+        "en": "with oil",
+        "he": "בַשָּׁמֶן"
+      },
+      {
+        "ja": "לאן",
+        "en": "for",
+        "he": "כִּי"
+      },
+      {
+        "ja": "אליום",
+        "en": "today",
+        "he": "הַיּוֹם"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "יתגלא",
+        "en": "shall reveal Himself",
+        "he": "נִרְאָה"
+      },
+      {
+        "ja": "לכם",
+        "en": "to you",
+        "he": "אֲלֵיכֶם"
       }
     ],
     "5": [
       {
-        "ja": "פקדמו מא אמר בה מוסי'. אלי' באב כ'בא אלמחצ'ר",
-        "en": "And they brought forward what Moses had commanded, to the entrance of the tent of the assembly;",
-        "he": "וַיִּקְחוּ אֵת אֲשֶׁר צִוָּה מֹשֶׁה אֶל-פְּנֵי אֹהֶל מוֹעֵד"
+        "ja": "פקדמו",
+        "en": "And they brought forward"
       },
       {
-        "ja": "ותקדם גמיע אלגמע. ווקפו בין ידי אללה",
-        "en": "and all the congregation drew near, and stood before God.",
-        "he": "וַיִּקְרְבוּ כָּל-הָעֵדָה וַיַּעַמְדוּ לִפְנֵי יְהוָה"
+        "ja": "מא",
+        "en": "what",
+        "he": "אֵת אֲשֶׁר"
+      },
+      {
+        "ja": "אמר בה",
+        "en": "had commanded",
+        "he": "צִוָּה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "אלי' באב כ'בא אלמחצ'ר",
+        "en": "to the entrance of the tent of the assembly",
+        "he": "אֶל-פְּנֵי אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "ותקדם",
+        "en": "drew near",
+        "he": "וַיִּקְרְבוּ"
+      },
+      {
+        "ja": "גמיע אלגמע",
+        "en": "all the congregation",
+        "he": "כָּל-הָעֵדָה"
+      },
+      {
+        "ja": "ווקפו",
+        "en": "and stood",
+        "he": "וַיַּעַמְדוּ"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God",
+        "he": "לִפְנֵי יְהוָה"
       }
     ],
     "6": [
       {
-        "ja": "וקאל מוסי' הד'י אלאמר. אלד'י אמרכם אללה בה אעמלוה",
-        "en": "And Moses said: 'This is the matter which God has commanded you — do it,",
-        "he": "וַיֹּאמֶר מֹשֶׁה זֶה הַדָּבָר אֲשֶׁר-צִוָּה יְהוָה תַּעֲשׂוּ"
+        "ja": "וקאל",
+        "en": "said",
+        "he": "וַיֹּאמֶר"
       },
       {
-        "ja": "ויתגלא לכם כרם אללה",
-        "en": "and the munificence of God shall reveal itself to you.'",
-        "he": "וְיֵרָא אֲלֵיכֶם כְּבוֹד יְהוָה"
+        "ja": "מוסי'",
+        "en": "Moses",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "הד'י",
+        "en": "This is",
+        "he": "זֶה"
+      },
+      {
+        "ja": "אלאמר",
+        "en": "the matter",
+        "he": "הַדָּבָר"
+      },
+      {
+        "ja": "אלד'י אמרכם",
+        "en": "which God has commanded you",
+        "he": "אֲשֶׁר-צִוָּה"
+      },
+      {
+        "ja": "אללה",
+        "en": "—",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "בה אעמלוה",
+        "en": "do it",
+        "he": "תַּעֲשׂוּ"
+      },
+      {
+        "ja": "ויתגלא",
+        "en": "shall reveal itself",
+        "he": "וְיֵרָא"
+      },
+      {
+        "ja": "לכם",
+        "en": "to you",
+        "he": "אֲלֵיכֶם"
+      },
+      {
+        "ja": "כרם אללה",
+        "en": "the munificence of God",
+        "he": "כְּבוֹד יְהוָה"
       }
     ],
     "7": [
       {
-        "ja": "וקאל להרון. תקדם אלי' אלמד'בח",
-        "en": "And he said to Aaron: 'Draw near to the altar",
-        "he": "וַיֹּאמֶר מֹשֶׁה אֶל-אַהֲרֹן קְרַב אֶל-הַמִּזְבֵּחַ"
+        "ja": "וקאל",
+        "en": "And he said",
+        "he": "וַיֹּאמֶר"
       },
       {
-        "ja": "ואעמל. ד'כותך וצעידתך. ואסתג'פר ענך וען אלקום",
-        "en": "and perform your purification-offering and your ascent-offering, and seek forgiveness for yourself and for the people;",
-        "he": "וַעֲשֵׂה אֶת-חַטָּאתְךָ וְאֶת-עֹלָתֶךָ וְכַפֵּר בַּעַדְךָ וּבְעַד הָעָם"
+        "ja": "להרון",
+        "en": "to Aaron",
+        "he": "אֶל-אַהֲרֹן"
       },
       {
-        "ja": "ואעמל קרבאנהם ואסתג'פר ענהם. כמא אמר אללה",
-        "en": "then perform their offering and seek forgiveness for them — as God has commanded.'",
-        "he": "וַעֲשֵׂה אֶת-קָרְבַּן הָעָם וְכַפֵּר בַּעֲדָם כַּאֲשֶׁר צִוָּה יְהוָה"
+        "ja": "תקדם",
+        "en": "Draw near",
+        "he": "קְרַב"
+      },
+      {
+        "ja": "אלי' אלמד'בח",
+        "en": "to the altar",
+        "he": "אֶל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "ואעמל",
+        "en": "and perform",
+        "he": "וַעֲשֵׂה"
+      },
+      {
+        "ja": "ד'כותך",
+        "en": "your purification-offering",
+        "he": "אֶת-חַטָּאתְךָ"
+      },
+      {
+        "ja": "וצעידתך",
+        "en": "and your ascent-offering",
+        "he": "וְאֶת-עֹלָתֶךָ"
+      },
+      {
+        "ja": "ואסתג'פר",
+        "en": "and seek forgiveness",
+        "he": "וְכַפֵּר"
+      },
+      {
+        "ja": "ענך",
+        "en": "for yourself",
+        "he": "בַּעַדְךָ"
+      },
+      {
+        "ja": "וען אלקום",
+        "en": "and for the people",
+        "he": "וּבְעַד הָעָם"
+      },
+      {
+        "ja": "ואעמל",
+        "en": "then perform",
+        "he": "וַעֲשֵׂה"
+      },
+      {
+        "ja": "קרבאנהם",
+        "en": "their offering",
+        "he": "אֶת-קָרְבַּן הָעָם"
+      },
+      {
+        "ja": "ואסתג'פר",
+        "en": "and seek forgiveness",
+        "he": "וְכַפֵּר"
+      },
+      {
+        "ja": "ענהם",
+        "en": "for them",
+        "he": "בַּעֲדָם"
+      },
+      {
+        "ja": "כמא אמר אללה",
+        "en": "as God has commanded",
+        "he": "כַּאֲשֶׁר צִוָּה יְהוָה"
       }
     ],
     "8": [
       {
-        "ja": "פתקדם הרון אלי' אלמד'בח",
-        "en": "And Aaron drew near to the altar,",
-        "he": "וַיִּקְרַב אַהֲרֹן אֶל-הַמִּזְבֵּחַ"
+        "ja": "פתקדם",
+        "en": "drew near",
+        "he": "וַיִּקְרַב"
       },
       {
-        "ja": "פד'בח עגל אלדכוה אלד'י לה",
-        "en": "and slaughtered the calf of the purification-offering which was his.",
-        "he": "וַיִּשְׁחַט אֶת-עֵגֶל הַחַטָּאת אֲשֶׁר-לוֹ"
+        "ja": "הרון",
+        "en": "Aaron",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "אלי' אלמד'בח",
+        "en": "to the altar",
+        "he": "אֶל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "פד'בח",
+        "en": "and slaughtered",
+        "he": "וַיִּשְׁחַט"
+      },
+      {
+        "ja": "עגל אלדכוה",
+        "en": "the calf of the purification-offering",
+        "he": "אֶת-עֵגֶל הַחַטָּאת"
+      },
+      {
+        "ja": "אלד'י לה",
+        "en": "which was his",
+        "he": "אֲשֶׁר-לוֹ"
       }
     ],
     "9": [
       {
-        "ja": "פקדם בני הרון אליה אלדם. פג'מס אצבעה פיה",
-        "en": "And the sons of Aaron brought the blood to him; and he dipped his finger in it,",
-        "he": "וַיַּקְרִבוּ בְּנֵי אַהֲרֹן אֶת-הַדָּם אֵלָיו וַיִּטְבֹּל אֶצְבָּעוֹ בַּדָּם"
+        "ja": "פקדם",
+        "en": "brought",
+        "he": "וַיַּקְרִבוּ"
       },
       {
-        "ja": "וגעל עלי' ארכאן אלמד'בח",
-        "en": "and placed it upon the corners of the altar;",
-        "he": "וַיִּתֵּן עַל-קַרְנוֹת הַמִּזְבֵּחַ"
+        "ja": "בני הרון",
+        "en": "the sons of Aaron",
+        "he": "בְּנֵי אַהֲרֹן"
       },
       {
-        "ja": "ובאקי אלדם. צבה ענד אסאסה",
-        "en": "and the remainder of the blood he poured out at its base.",
-        "he": "וְאֶת-הַדָּם יָצַק אֶל-יְסוֹד הַמִּזְבֵּחַ"
+        "ja": "אליה אלדם",
+        "en": "the blood to him",
+        "he": "אֶת-הַדָּם אֵלָיו"
+      },
+      {
+        "ja": "פג'מס",
+        "en": "and he dipped",
+        "he": "וַיִּטְבֹּל"
+      },
+      {
+        "ja": "אצבעה",
+        "en": "his finger",
+        "he": "אֶצְבָּעוֹ"
+      },
+      {
+        "ja": "פיה",
+        "en": "in it",
+        "he": "בַּדָּם"
+      },
+      {
+        "ja": "וגעל",
+        "en": "and placed it",
+        "he": "וַיִּתֵּן"
+      },
+      {
+        "ja": "עלי' ארכאן",
+        "en": "upon the corners",
+        "he": "עַל-קַרְנוֹת"
+      },
+      {
+        "ja": "אלמד'בח",
+        "en": "of the altar",
+        "he": "הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "ובאקי אלדם",
+        "en": "and the remainder of the blood",
+        "he": "וְאֶת-הַדָּם"
+      },
+      {
+        "ja": "צבה",
+        "en": "he poured out",
+        "he": "יָצַק"
+      },
+      {
+        "ja": "ענד אסאסה",
+        "en": "at its base",
+        "he": "אֶל-יְסוֹד הַמִּזְבֵּחַ"
       }
     ],
     "11": [
       {
-        "ja": "ולחמה וגל'דה. אחרקה באלנאר. כ'ארג אלעסכר",
-        "en": "And its flesh and its hide he burned with fire, outside the encampment.",
-        "he": "וְאֶת-הַבָּשָׂר וְאֶת-הָעוֹר שָׂרַף בָּאֵשׁ מִחוּץ לַמַּחֲנֶה"
+        "ja": "ולחמה",
+        "en": "And its flesh",
+        "he": "וְאֶת-הַבָּשָׂר"
+      },
+      {
+        "ja": "וגל'דה",
+        "en": "and its hide",
+        "he": "וְאֶת-הָעוֹר"
+      },
+      {
+        "ja": "אחרקה",
+        "en": "he burned",
+        "he": "שָׂרַף"
+      },
+      {
+        "ja": "באלנאר",
+        "en": "with fire",
+        "he": "בָּאֵשׁ"
+      },
+      {
+        "ja": "כ'ארג אלעסכר",
+        "en": "outside the encampment",
+        "he": "מִחוּץ לַמַּחֲנֶה"
       }
     ],
     "12": [
       {
-        "ja": "ת'ם ד'בח אלצעידה",
-        "en": "Then he slaughtered the ascent-offering;",
-        "he": "וַיִּשְׁחַט אֶת-הָעֹלָה"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "ובלג' בני הרון אלדם אליה. ורשה עלי' אלמד'בח מסתדירא",
-        "en": "and the sons of Aaron conveyed the blood to him, and he sprinkled it upon the altar all around.",
-        "he": "וַיַּמְצִאוּ בְּנֵי אַהֲרֹן אֵלָיו אֶת-הַדָּם וַיִּזְרְקֵהוּ עַל-הַמִּזְבֵּחַ סָבִיב"
+        "ja": "ד'בח",
+        "en": "he slaughtered",
+        "he": "וַיִּשְׁחַט"
+      },
+      {
+        "ja": "אלצעידה",
+        "en": "the ascent-offering",
+        "he": "אֶת-הָעֹלָה"
+      },
+      {
+        "ja": "ובלג'",
+        "en": "conveyed",
+        "he": "וַיַּמְצִאוּ"
+      },
+      {
+        "ja": "בני הרון",
+        "en": "the sons of Aaron",
+        "he": "בְּנֵי אַהֲרֹן"
+      },
+      {
+        "ja": "אלדם",
+        "en": "the blood",
+        "he": "אֶת-הַדָּם"
+      },
+      {
+        "ja": "אליה",
+        "en": "to him",
+        "he": "אֵלָיו"
+      },
+      {
+        "ja": "ורשה",
+        "en": "and he sprinkled it",
+        "he": "וַיִּזְרְקֵהוּ"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "עַל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "מסתדירא",
+        "en": "all around",
+        "he": "סָבִיב"
       }
     ],
     "13": [
       {
-        "ja": "ובלג'ו אליה. אעצ'א אלצעידה מע אלראס",
-        "en": "And they conveyed to him the limbs of the ascent-offering together with the head;",
-        "he": "וְאֶת-הָעֹלָה הִמְצִיאוּ אֵלָיו לִנְתָחֶיהָ--וְאֶת-הָרֹאשׁ"
+        "ja": "ובלג'ו אליה",
+        "en": "And they conveyed to him",
+        "he": "וְאֶת-הָעֹלָה"
       },
       {
-        "ja": "וקתר ד'אלך עלי' אלמד'בח",
-        "en": "and he burned them in fire upon the altar.",
-        "he": "וַיַּקְטֵר עַל-הַמִּזְבֵּחַ"
+        "ja": "אעצ'א אלצעידה",
+        "en": "the limbs of the ascent-offering",
+        "he": "הִמְצִיאוּ אֵלָיו לִנְתָחֶיהָ"
+      },
+      {
+        "ja": "מע אלראס",
+        "en": "together with the head",
+        "he": "וְאֶת-הָרֹאשׁ"
+      },
+      {
+        "ja": "וקתר ד'אלך",
+        "en": "and he burned them in fire",
+        "he": "וַיַּקְטֵר"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "עַל-הַמִּזְבֵּחַ"
       }
     ],
     "14": [
       {
-        "ja": "וג'סל אלגוף ואלאכארע",
-        "en": "And he washed the entrails and the legs,",
-        "he": "וַיִּרְחַץ אֶת-הַקֶּרֶב וְאֶת-הַכְּרָעָיִם"
+        "ja": "וג'סל",
+        "en": "And he washed",
+        "he": "וַיִּרְחַץ"
       },
       {
-        "ja": "וקתר ד'אלך עלי' אלמד'בח",
-        "en": "and burned them in fire upon the altar.",
-        "he": "וַיַּקְטֵר עַל-הָעֹלָה הַמִּזְבֵּחָה"
+        "ja": "אלגוף",
+        "en": "the entrails",
+        "he": "אֶת-הַקֶּרֶב"
+      },
+      {
+        "ja": "ואלאכארע",
+        "en": "and the legs",
+        "he": "וְאֶת-הַכְּרָעָיִם"
+      },
+      {
+        "ja": "וקתר ד'אלך",
+        "en": "and burned them in fire",
+        "he": "וַיַּקְטֵר"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "עַל-הָעֹלָה הַמִּזְבֵּחָה"
       }
     ],
     "15": [
       {
-        "ja": "ת'ם קדם קרבאן אלקום",
-        "en": "Then he brought forward the offering of the people,",
-        "he": "וַיַּקְרֵב אֵת קָרְבַּן הָעָם"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "ואכ'ד' עתוד אלדכוה אלד'י להם. פד'בחה וד'כא בה כאלאוול",
-        "en": "and took the he-goat of the purification-offering which was theirs, and slaughtered it, and performed the purification with it as with the first.",
-        "he": "וַיִּקַּח אֶת-שְׂעִיר הַחַטָּאת אֲשֶׁר לָעָם וַיִּשְׁחָטֵהוּ וַיְחַטְּאֵהוּ כָּרִאשׁוֹן"
+        "ja": "קדם",
+        "en": "he brought forward",
+        "he": "וַיַּקְרֵב"
+      },
+      {
+        "ja": "קרבאן אלקום",
+        "en": "the offering of the people",
+        "he": "קָרְבַּן הָעָם"
+      },
+      {
+        "ja": "ואכ'ד'",
+        "en": "and took",
+        "he": "וַיִּקַּח"
+      },
+      {
+        "ja": "עתוד אלדכוה",
+        "en": "the he-goat of the purification-offering",
+        "he": "אֶת-שְׂעִיר הַחַטָּאת"
+      },
+      {
+        "ja": "אלד'י להם",
+        "en": "which was theirs",
+        "he": "אֲשֶׁר לָעָם"
+      },
+      {
+        "ja": "פד'בחה",
+        "en": "and slaughtered it",
+        "he": "וַיִּשְׁחָטֵהוּ"
+      },
+      {
+        "ja": "וד'כא בה",
+        "en": "and performed the purification with it",
+        "he": "וַיְחַטְּאֵהוּ"
+      },
+      {
+        "ja": "כאלאוול",
+        "en": "as with the first",
+        "he": "כָּרִאשׁוֹן"
       }
     ],
     "16": [
       {
-        "ja": "ת'ם קדם אלצעידה. ועמלהא כאלסירה",
-        "en": "Then he brought forward the ascent-offering, and performed it according to the established practice.",
-        "he": "וַיַּקְרֵב אֶת-הָעֹלָה וַיַּעֲשֶׂהָ כַּמִּשְׁפָּט"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "קדם",
+        "en": "he brought forward",
+        "he": "וַיַּקְרֵב"
+      },
+      {
+        "ja": "אלצעידה",
+        "en": "the ascent-offering",
+        "he": "אֶת-הָעֹלָה"
+      },
+      {
+        "ja": "ועמלהא",
+        "en": "and performed it",
+        "he": "וַיַּעֲשֶׂהָ"
+      },
+      {
+        "ja": "כאלסירה",
+        "en": "according to the established practice",
+        "he": "כַּמִּשְׁפָּט"
       }
     ],
     "17": [
       {
-        "ja": "ת'ם קדם אלהדייה. ומלא כפה מנהא",
-        "en": "Then he brought forward the gift-offering, and filled his palm from it,",
-        "he": "וַיַּקְרֵב אֶת-הַמִּנְחָה וַיְמַלֵּא כַפּוֹ מִמֶּנָּה"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "וקתר ד'אלך עלי' אלמד'בח. מא כ'לא צעידה' אלג'דאה",
-        "en": "and burned it in fire upon the altar — in addition to the morning ascent-offering.",
-        "he": "וַיַּקְטֵר עַל-הַמִּזְבֵּחַ--מִלְּבַד עֹלַת הַבֹּקֶר"
+        "ja": "קדם",
+        "en": "he brought forward",
+        "he": "וַיַּקְרֵב"
+      },
+      {
+        "ja": "אלהדייה",
+        "en": "the gift-offering",
+        "he": "אֶת-הַמִּנְחָה"
+      },
+      {
+        "ja": "ומלא",
+        "en": "and filled",
+        "he": "וַיְמַלֵּא"
+      },
+      {
+        "ja": "כפה",
+        "en": "his palm",
+        "he": "כַפּוֹ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from it",
+        "he": "מִמֶּנָּה"
+      },
+      {
+        "ja": "וקתר ד'אלך",
+        "en": "and burned it in fire",
+        "he": "וַיַּקְטֵר"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "עַל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "מא כ'לא",
+        "en": "in addition to",
+        "he": "מִלְּבַד"
+      },
+      {
+        "ja": "צעידה' אלג'דאה",
+        "en": "the morning ascent-offering",
+        "he": "עֹלַת הַבֹּקֶר"
       }
     ],
     "18": [
       {
-        "ja": "וד'בח אלת'ור ואלכבש. ד'בח אלסלאמה אלד'י לאלקום",
-        "en": "And he slaughtered the bull and the ram — the well-being sacrifice belonging to the people;",
-        "he": "וַיִּשְׁחַט אֶת-הַשּׁוֹר וְאֶת-הָאַיִל זֶבַח הַשְּׁלָמִים אֲשֶׁר לָעָם"
+        "ja": "וד'בח",
+        "en": "And he slaughtered",
+        "he": "וַיִּשְׁחַט"
       },
       {
-        "ja": "ובלג' בני הרון אלדם אליה. ורשה עלי' אלמד'בח מסתדירא",
-        "en": "and the sons of Aaron conveyed the blood to him, and he sprinkled it upon the altar all around.",
-        "he": "וַיַּמְצִאוּ בְּנֵי אַהֲרֹן אֶת-הַדָּם אֵלָיו וַיִּזְרְקֵהוּ עַל-הַמִּזְבֵּחַ סָבִיב"
+        "ja": "אלת'ור",
+        "en": "the bull",
+        "he": "אֶת-הַשּׁוֹר"
+      },
+      {
+        "ja": "ואלכבש",
+        "en": "and the ram",
+        "he": "וְאֶת-הָאַיִל"
+      },
+      {
+        "ja": "ד'בח אלסלאמה",
+        "en": "the well-being sacrifice",
+        "he": "זֶבַח הַשְּׁלָמִים"
+      },
+      {
+        "ja": "אלד'י לאלקום",
+        "en": "belonging to the people",
+        "he": "אֲשֶׁר לָעָם"
+      },
+      {
+        "ja": "ובלג'",
+        "en": "conveyed",
+        "he": "וַיַּמְצִאוּ"
+      },
+      {
+        "ja": "בני הרון",
+        "en": "the sons of Aaron",
+        "he": "בְּנֵי אַהֲרֹן"
+      },
+      {
+        "ja": "אלדם",
+        "en": "the blood",
+        "he": "אֶת-הַדָּם"
+      },
+      {
+        "ja": "אליה",
+        "en": "to him",
+        "he": "אֵלָיו"
+      },
+      {
+        "ja": "ורשה",
+        "en": "and he sprinkled it",
+        "he": "וַיִּזְרְקֵהוּ"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "עַל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "מסתדירא",
+        "en": "all around",
+        "he": "סָבִיב"
       }
     ],
     "19": [
       {
-        "ja": "ואלשחום מן אלת'ור. ומן אלכבש",
-        "en": "And the fats from the bull and from the ram —",
-        "he": "וְאֶת-הַחֲלָבִים מִן-הַשּׁוֹר וּמִן-הָאַיִל"
+        "ja": "ואלשחום",
+        "en": "And the fats",
+        "he": "וְאֶת-הַחֲלָבִים"
       },
       {
-        "ja": "אלאליה ואלמג'טי אלגוף ואלכלותין. וזיאדה' אלכבד",
-        "en": "the broad tail, and what covers the entrails, and the two kidneys, and the lobe of the liver —",
-        "he": "הָאַלְיָה וְהַמְכַסֶּה וְהַכְּלָיֹת וְיֹתֶרֶת הַכָּבֵד"
+        "ja": "מן אלת'ור",
+        "en": "from the bull",
+        "he": "מִן-הַשּׁוֹר"
+      },
+      {
+        "ja": "ומן אלכבש",
+        "en": "and from the ram",
+        "he": "וּמִן-הָאַיִל"
+      },
+      {
+        "ja": "אלאליה",
+        "en": "the broad tail",
+        "he": "הָאַלְיָה"
+      },
+      {
+        "ja": "ואלמג'טי",
+        "en": "and what covers",
+        "he": "וְהַמְכַסֶּה"
+      },
+      {
+        "ja": "אלגוף",
+        "en": "the entrails"
+      },
+      {
+        "ja": "ואלכלותין",
+        "en": "and the two kidneys",
+        "he": "וְהַכְּלָיֹת"
+      },
+      {
+        "ja": "וזיאדה' אלכבד",
+        "en": "and the lobe of the liver",
+        "he": "וְיֹתֶרֶת הַכָּבֵד"
       }
     ],
     "20": [
       {
-        "ja": "וציירו אלשחם מע אלקצוץ",
-        "en": "they placed the fat together with the breasts;",
-        "he": "וַיָּשִׂימוּ אֶת-הַחֲלָבִים עַל-הֶחָזוֹת"
+        "ja": "וציירו",
+        "en": "they placed",
+        "he": "וַיָּשִׂימוּ"
       },
       {
-        "ja": "וקתר אלשחום עלי' אלמד'בח",
-        "en": "and he burned the fats in fire upon the altar.",
-        "he": "וַיַּקְטֵר הַחֲלָבִים הַמִּזְבֵּחָה"
+        "ja": "אלשחם",
+        "en": "the fat",
+        "he": "אֶת-הַחֲלָבִים"
+      },
+      {
+        "ja": "מע אלקצוץ",
+        "en": "together with the breasts",
+        "he": "עַל-הֶחָזוֹת"
+      },
+      {
+        "ja": "וקתר",
+        "en": "and he burned",
+        "he": "וַיַּקְטֵר"
+      },
+      {
+        "ja": "אלשחום",
+        "en": "the fats",
+        "he": "הַחֲלָבִים"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "in fire upon the altar",
+        "he": "הַמִּזְבֵּחָה"
       }
     ],
     "21": [
       {
-        "ja": "ואלקצוץ. ואלסאק אלאימן. חרכהא הרון. תחריכא בין ידי אללה",
-        "en": "And the breasts and the right thigh — Aaron waved them in a waving before God,",
-        "he": "וְאֵת הֶחָזוֹת וְאֵת שׁוֹק הַיָּמִין הֵנִיף אַהֲרֹן תְּנוּפָה לִפְנֵי יְהוָה"
+        "ja": "ואלקצוץ",
+        "en": "And the breasts",
+        "he": "וְאֵת הֶחָזוֹת"
       },
       {
-        "ja": "כמא אמר מוסי'",
-        "en": "as Moses had commanded.",
-        "he": "כַּאֲשֶׁר צִוָּה מֹשֶׁה"
+        "ja": "ואלסאק אלאימן",
+        "en": "and the right thigh",
+        "he": "וְאֵת שׁוֹק הַיָּמִין"
+      },
+      {
+        "ja": "חרכהא",
+        "en": "waved them",
+        "he": "הֵנִיף"
+      },
+      {
+        "ja": "הרון",
+        "en": "Aaron",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "תחריכא",
+        "en": "in a waving",
+        "he": "תְּנוּפָה"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "כמא אמר",
+        "en": "as Moses had commanded",
+        "he": "כַּאֲשֶׁר צִוָּה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "—",
+        "he": "מֹשֶׁה"
       }
     ],
     "22": [
       {
-        "ja": "ת'ם של הרון ידיה. אלי' אלקום ובארך עליהם",
-        "en": "Then Aaron lifted up his hands toward the people and blessed them;",
-        "he": "וַיִּשָּׂא אַהֲרֹן אֶת-יָדָו אֶל-הָעָם וַיְבָרְכֵם"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "בעד אן נזל מן עמל אלדכוה. ואלצעידה וד'בח אלסלאמה",
-        "en": "and he descended from performing the purification-offering, and the ascent-offering, and the well-being sacrifice.",
-        "he": "וַיֵּרֶד מֵעֲשֹׂת הַחַטָּאת וְהָעֹלָה--וְהַשְּׁלָמִים"
+        "ja": "של",
+        "en": "lifted up",
+        "he": "וַיִּשָּׂא"
+      },
+      {
+        "ja": "הרון",
+        "en": "Aaron",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "ידיה",
+        "en": "his hands",
+        "he": "אֶת-יָדָו"
+      },
+      {
+        "ja": "אלי' אלקום",
+        "en": "toward the people",
+        "he": "אֶל-הָעָם"
+      },
+      {
+        "ja": "ובארך עליהם",
+        "en": "and blessed them",
+        "he": "וַיְבָרְכֵם"
+      },
+      {
+        "ja": "בעד אן",
+        "en": "and he descended"
+      },
+      {
+        "ja": "נזל מן עמל",
+        "en": "from performing",
+        "he": "מֵעֲשֹׂת"
+      },
+      {
+        "ja": "אלדכוה",
+        "en": "the purification-offering",
+        "he": "הַחַטָּאת"
+      },
+      {
+        "ja": "ואלצעידה",
+        "en": "and the ascent-offering",
+        "he": "וְהָעֹלָה"
+      },
+      {
+        "ja": "וד'בח אלסלאמה",
+        "en": "and the well-being sacrifice",
+        "he": "וְהַשְּׁלָמִים"
       }
     ],
     "23": [
       {
-        "ja": "פדכ'ל מוסי' והרון אלי' כ'בא אלמחצ'ר. וכ'רגא. ובארכא עלי' אלקום",
-        "en": "And Moses and Aaron entered into the tent of the assembly, and they came out and blessed the people;",
-        "he": "וַיָּבֹא מֹשֶׁה וְאַהֲרֹן אֶל-אֹהֶל מוֹעֵד וַיֵּצְאוּ וַיְבָרְכוּ אֶת-הָעָם"
+        "ja": "פדכ'ל מוסי' והרון",
+        "en": "And Moses and Aaron entered",
+        "he": "וַיָּבֹא"
       },
       {
-        "ja": "פתגלא להם כרם אללה",
-        "en": "and the munificence of God revealed itself to them.",
-        "he": "וַיֵּרָא כְבוֹד-יְהוָה אֶל-כָּל-הָעָם"
+        "ja": "אלי' כ'בא אלמחצ'ר",
+        "en": "into the tent of the assembly",
+        "he": "אֶל-אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "וכ'רגא",
+        "en": "and they came out",
+        "he": "וַיֵּצְאוּ"
+      },
+      {
+        "ja": "ובארכא עלי' אלקום",
+        "en": "and blessed the people",
+        "he": "וַיְבָרְכוּ אֶת-הָעָם"
+      },
+      {
+        "ja": "פתגלא",
+        "en": "revealed itself",
+        "he": "וַיֵּרָא"
+      },
+      {
+        "ja": "כרם אללה",
+        "en": "the munificence of God",
+        "he": "כְבוֹד-יְהוָה"
+      },
+      {
+        "ja": "להם",
+        "en": "to them",
+        "he": "אֶל-כָּל-הָעָם"
       }
     ],
     "24": [
       {
-        "ja": "באן כ'רגת נארא מן ענד אללה. פאכלת עלי' אלמד'בח. אלצעידה ואלשחום",
-        "en": "For a fire came forth from the presence of God, and consumed upon the altar the ascent-offering and the fats;",
-        "he": "וַתֵּצֵא אֵשׁ מִלִּפְנֵי יְהוָה וַתֹּאכַל עַל-הַמִּזְבֵּחַ אֶת-הָעֹלָה וְאֶת-הַחֲלָבִים"
+        "ja": "באן",
+        "en": "For"
       },
       {
-        "ja": "פנצ'ר דא'לך אלקום ורנו. ווקעו עלי' וגוההם",
-        "en": "and when the people saw this, they cried out, and fell upon their faces.",
-        "he": "וַיַּרְא כָּל-הָעָם וַיָּרֹנּוּ וַיִּפְּלוּ עַל-פְּנֵיהֶם"
+        "ja": "כ'רגת",
+        "en": "came forth",
+        "he": "וַתֵּצֵא"
+      },
+      {
+        "ja": "נארא",
+        "en": "a fire",
+        "he": "אֵשׁ"
+      },
+      {
+        "ja": "מן ענד אללה",
+        "en": "from the presence of God",
+        "he": "מִלִּפְנֵי יְהוָה"
+      },
+      {
+        "ja": "פאכלת",
+        "en": "and consumed",
+        "he": "וַתֹּאכַל"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "עַל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "אלצעידה",
+        "en": "the ascent-offering",
+        "he": "אֶת-הָעֹלָה"
+      },
+      {
+        "ja": "ואלשחום",
+        "en": "and the fats",
+        "he": "וְאֶת-הַחֲלָבִים"
+      },
+      {
+        "ja": "פנצ'ר",
+        "en": "saw",
+        "he": "וַיַּרְא"
+      },
+      {
+        "ja": "דא'לך",
+        "en": "this"
+      },
+      {
+        "ja": "אלקום",
+        "en": "the people",
+        "he": "כָּל-הָעָם"
+      },
+      {
+        "ja": "ורנו",
+        "en": "they cried out",
+        "he": "וַיָּרֹנּוּ"
+      },
+      {
+        "ja": "ווקעו",
+        "en": "and fell",
+        "he": "וַיִּפְּלוּ"
+      },
+      {
+        "ja": "עלי' וגוההם",
+        "en": "upon their faces",
+        "he": "עַל-פְּנֵיהֶם"
       }
     ]
   }

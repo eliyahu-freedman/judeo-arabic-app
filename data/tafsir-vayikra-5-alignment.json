@@ -1,298 +1,1465 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 5. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_5.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 5. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_5.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ואי אנסאן אכ'טא. באן סמע צות חרג. והו שאהד. או ראי ד'אלך",
-        "en": "And any person who erred — in that he heard a voice of distress, and he was a witness, or saw that,",
-        "he": "וְנֶפֶשׁ כִּי-תֶחֱטָא וְשָׁמְעָה קוֹל אָלָה וְהוּא עֵד אוֹ רָאָה"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "או עלם בה. ולם יכ'בר פקד חמל וזרה",
-        "en": "or came to know of it, and did not report it — he has borne his burden of guilt.",
-        "he": "אוֹ יָדָע אִם-לוֹא יַגִּיד וְנָשָׂא עֲו‍ֹנוֹ"
+        "ja": "אנסאן",
+        "en": "person",
+        "he": "וְנֶפֶשׁ"
+      },
+      {
+        "ja": "אכ'טא.",
+        "en": "who erred",
+        "he": "כִּי-תֶחֱטָא"
+      },
+      {
+        "ja": "באן",
+        "en": "in that"
+      },
+      {
+        "ja": "סמע",
+        "en": "he heard",
+        "he": "וְשָׁמְעָה"
+      },
+      {
+        "ja": "צות",
+        "en": "a voice of",
+        "he": "קוֹל"
+      },
+      {
+        "ja": "חרג.",
+        "en": "distress,",
+        "he": "אָלָה"
+      },
+      {
+        "ja": "והו",
+        "en": "and he was",
+        "he": "וְהוּא"
+      },
+      {
+        "ja": "שאהד.",
+        "en": "a witness,",
+        "he": "עֵד"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "ראי",
+        "en": "saw",
+        "he": "רָאָה"
+      },
+      {
+        "ja": "ד'אלך",
+        "en": "that,"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "עלם",
+        "en": "came to know",
+        "he": "יָדָע"
+      },
+      {
+        "ja": "בה.",
+        "en": "of it,"
+      },
+      {
+        "ja": "ולם יכ'בר",
+        "en": "and did not report it",
+        "he": "אִם-לוֹא יַגִּיד"
+      },
+      {
+        "ja": "פקד חמל",
+        "en": "he has borne",
+        "he": "וְנָשָׂא"
+      },
+      {
+        "ja": "וזרה",
+        "en": "his burden of guilt.",
+        "he": "עֲו‍ֹנוֹ"
       }
     ],
     "2": [
       {
-        "ja": "ואי אנסאן. דנא בשי מן אלאמור אלנגסה או בנבילה' וחש נגס. או בנבילה' בהימה נגסה.",
-        "en": "And any person who approached any of the impure matters, or the carcass of an impure wild creature, or the carcass of an impure beast,",
-        "he": "אוֹ נֶפֶשׁ אֲשֶׁר תִּגַּע בְּכָל-דָּבָר טָמֵא אוֹ בְנִבְלַת חַיָּה טְמֵאָה אוֹ בְּנִבְלַת בְּהֵמָה טְמֵאָה"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "או בנבילה' שי מן אלדביב אלנגס. וג'בי ד'אלך ענה. והו נגס פאת'ם",
-        "en": "or the carcass of any impure creeping thing — and that was hidden from him, and he is impure — then he has sinned.",
-        "he": "אוֹ בְּנִבְלַת שֶׁרֶץ טָמֵא וְנֶעְלַם מִמֶּנּוּ וְהוּא טָמֵא וְאָשֵׁם"
+        "ja": "אנסאן.",
+        "en": "person",
+        "he": "אוֹ נֶפֶשׁ"
+      },
+      {
+        "ja": "דנא",
+        "en": "who approached",
+        "he": "אֲשֶׁר תִּגַּע"
+      },
+      {
+        "ja": "בשי",
+        "en": "any of"
+      },
+      {
+        "ja": "מן",
+        "en": "the impure matters,"
+      },
+      {
+        "ja": "אלאמור אלנגסה",
+        "en": "or the carcass of an impure wild creature,",
+        "he": "בְּכָל-דָּבָר טָמֵא"
+      },
+      {
+        "ja": "או בנבילה' וחש נגס.",
+        "en": "or the carcass of an impure beast,",
+        "he": "אוֹ בְנִבְלַת חַיָּה טְמֵאָה"
+      },
+      {
+        "ja": "או בנבילה' בהימה נגסה.",
+        "en": "or the carcass of any impure creeping thing",
+        "he": "אוֹ בְּנִבְלַת בְּהֵמָה טְמֵאָה"
+      },
+      {
+        "ja": "או בנבילה' שי מן אלדביב אלנגס.",
+        "en": "— and that was hidden from him,",
+        "he": "אוֹ בְּנִבְלַת שֶׁרֶץ טָמֵא"
+      },
+      {
+        "ja": "וג'בי ד'אלך ענה.",
+        "en": "and he is impure",
+        "he": "וְנֶעְלַם מִמֶּנּוּ"
+      },
+      {
+        "ja": "והו נגס",
+        "en": "— then",
+        "he": "וְהוּא טָמֵא"
+      },
+      {
+        "ja": "פאת'ם",
+        "en": "he has sinned.",
+        "he": "וְאָשֵׁם"
       }
     ],
     "3": [
       {
-        "ja": "או דנא בנגאסה' אנסאן. בשי מן נגאסתה. ממא סבילה אן ינגס בהא.",
-        "en": "Or he approached the impurity of a human, with something of his impurity, of that which is capable of making him impure,",
-        "he": "אוֹ כִי יִגַּע בְּטֻמְאַת אָדָם לְכֹל טֻמְאָתוֹ אֲשֶׁר יִטְמָא בָּהּ"
+        "ja": "או",
+        "en": "Or",
+        "he": "אוֹ"
       },
       {
-        "ja": "פגבי ענה. פאת'מו והו עאלם במא פעל",
-        "en": "and it was concealed from him — then he has sinned, though he knew what he had done.",
-        "he": "וְנֶעְלַם מִמֶּנּוּ וְהוּא יָדַע וְאָשֵׁם"
+        "ja": "דנא",
+        "en": "he approached",
+        "he": "כִי יִגַּע"
+      },
+      {
+        "ja": "בנגאסה'",
+        "en": "the impurity of",
+        "he": "בְּטֻמְאַת"
+      },
+      {
+        "ja": "אנסאן.",
+        "en": "a human,",
+        "he": "אָדָם"
+      },
+      {
+        "ja": "בשי",
+        "en": "with something"
+      },
+      {
+        "ja": "מן נגאסתה.",
+        "en": "of his impurity,",
+        "he": "לְכֹל טֻמְאָתוֹ"
+      },
+      {
+        "ja": "ממא סבילה אן ינגס בהא.",
+        "en": "of that which is capable of making him impure,",
+        "he": "אֲשֶׁר יִטְמָא בָּהּ"
+      },
+      {
+        "ja": "פגבי",
+        "en": "and it was concealed",
+        "he": "וְנֶעְלַם"
+      },
+      {
+        "ja": "ענה.",
+        "en": "from him"
+      },
+      {
+        "ja": "פאת'מו",
+        "en": "then he has sinned,",
+        "he": "וְאָשֵׁם"
+      },
+      {
+        "ja": "והו עאלם",
+        "en": "though he knew",
+        "he": "וְהוּא יָדַע"
+      },
+      {
+        "ja": "במא",
+        "en": "what"
+      },
+      {
+        "ja": "פעל",
+        "en": "he had done."
       }
     ],
     "4": [
       {
-        "ja": "ואי אנסאן. חלף ]בלפט'] בלפץ' שפתיה. לאסאה או אחסאן.",
-        "en": "And any person who swore with the utterance of his lips — to do harm or to do good —",
-        "he": "אוֹ נֶפֶשׁ כִּי תִשָּׁבַע לְבַטֵּא בִשְׂפָתַיִם לְהָרַע אוֹ לְהֵיטִיב"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "עלי' גמיע מא ילפץ' אלאנסאן. בימין וג'בי ד'אלך ענה. ת'ם עלם במא פעל. ואת'ם בואחדה מן הד'ה",
-        "en": "regarding all that a person may utter in an oath, and that was hidden from him, then he came to know what he had done — and he has sinned by one of these.",
-        "he": "לְכֹל אֲשֶׁר יְבַטֵּא הָאָדָם בִּשְׁבֻעָה--וְנֶעְלַם מִמֶּנּוּ וְהוּא-יָדַע וְאָשֵׁם לְאַחַת מֵאֵלֶּה"
+        "ja": "אנסאן.",
+        "en": "person",
+        "he": "אוֹ נֶפֶשׁ"
+      },
+      {
+        "ja": "חלף",
+        "en": "who swore",
+        "he": "כִּי תִשָּׁבַע"
+      },
+      {
+        "ja": "]בלפט'] בלפץ'",
+        "en": "with the utterance of",
+        "he": "לְבַטֵּא"
+      },
+      {
+        "ja": "שפתיה.",
+        "en": "his lips —",
+        "he": "בִשְׂפָתַיִם"
+      },
+      {
+        "ja": "לאסאה",
+        "en": "to do harm",
+        "he": "לְהָרַע"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "אחסאן.",
+        "en": "to do good —",
+        "he": "לְהֵיטִיב"
+      },
+      {
+        "ja": "עלי'",
+        "en": "regarding",
+        "he": "לְכֹל"
+      },
+      {
+        "ja": "גמיע מא ילפץ'",
+        "en": "all that",
+        "he": "אֲשֶׁר יְבַטֵּא"
+      },
+      {
+        "ja": "אלאנסאן.",
+        "en": "a person may utter",
+        "he": "הָאָדָם"
+      },
+      {
+        "ja": "בימין",
+        "en": "in an oath,",
+        "he": "בִּשְׁבֻעָה"
+      },
+      {
+        "ja": "וג'בי",
+        "en": "and that was hidden",
+        "he": "וְנֶעְלַם"
+      },
+      {
+        "ja": "ד'אלך",
+        "en": "from"
+      },
+      {
+        "ja": "ענה.",
+        "en": "him,"
+      },
+      {
+        "ja": "ת'ם",
+        "en": "then"
+      },
+      {
+        "ja": "עלם",
+        "en": "he came to know",
+        "he": "וְהוּא-יָדַע"
+      },
+      {
+        "ja": "במא",
+        "en": "what"
+      },
+      {
+        "ja": "פעל.",
+        "en": "he had done —"
+      },
+      {
+        "ja": "ואת'ם",
+        "en": "and he has sinned",
+        "he": "וְאָשֵׁם"
+      },
+      {
+        "ja": "בואחדה מן הד'ה",
+        "en": "by one of these.",
+        "he": "לְאַחַת מֵאֵלֶּה"
       }
     ],
     "5": [
       {
-        "ja": "פאד'א את'ם בואחדה מן הד'ה.",
-        "en": "And when he has sinned by one of these,",
-        "he": "וְהָיָה כִי-יֶאְשַׁם לְאַחַת מֵאֵלֶּה"
+        "ja": "פאד'א את'ם",
+        "en": "And when he has sinned",
+        "he": "וְהָיָה כִי-יֶאְשַׁם"
       },
       {
-        "ja": "ת'ם אקר במא אכ'טא",
-        "en": "then he shall confess what he erred in.",
-        "he": "וְהִתְוַדָּה--אֲשֶׁר חָטָא עָלֶיהָ"
+        "ja": "בואחדה מן הד'ה.",
+        "en": "by one of these,",
+        "he": "לְאַחַת מֵאֵלֶּה"
+      },
+      {
+        "ja": "ת'ם",
+        "en": "then"
+      },
+      {
+        "ja": "אקר",
+        "en": "he shall confess",
+        "he": "וְהִתְוַדָּה"
+      },
+      {
+        "ja": "במא",
+        "en": "what"
+      },
+      {
+        "ja": "אכ'טא",
+        "en": "he erred in.",
+        "he": "אֲשֶׁר חָטָא"
       }
     ],
     "6": [
       {
-        "ja": "פליאת בקרבאנה ללה. עלי' כ'טאה אלד'י אכ'טאה. אנת'י מן אלג'נם נעגה. או שאה מן אלמאעז לאלד'כוה.",
-        "en": "And he shall bring his offering to God for his transgression which he transgressed — a female from the flock, a ewe, or a she-goat from the goats, for the sin-offering;",
-        "he": "וְהֵבִיא אֶת-אֲשָׁמוֹ לַיהוָה עַל חַטָּאתוֹ אֲשֶׁר חָטָא נְקֵבָה מִן-הַצֹּאן כִּשְׂבָּה אוֹ-שְׂעִירַת עִזִּים--לְחַטָּאת"
+        "ja": "פליאת",
+        "en": "And he shall bring",
+        "he": "וְהֵבִיא"
       },
       {
-        "ja": "ויסתג'פר עליה. אלאמאם מן כ'טאיה",
-        "en": "and the imām shall seek forgiveness for him for his sins.",
-        "he": "וְכִפֶּר עָלָיו הַכֹּהֵן מֵחַטָּאתוֹ"
+        "ja": "בקרבאנה",
+        "en": "his offering"
+      },
+      {
+        "ja": "ללה.",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "עלי' כ'טאה",
+        "en": "for his transgression",
+        "he": "עַל חַטָּאתוֹ"
+      },
+      {
+        "ja": "אלד'י אכ'טאה.",
+        "en": "which he transgressed —",
+        "he": "אֲשֶׁר חָטָא"
+      },
+      {
+        "ja": "אנת'י",
+        "en": "a female",
+        "he": "נְקֵבָה"
+      },
+      {
+        "ja": "מן אלג'נם",
+        "en": "from the flock,",
+        "he": "מִן-הַצֹּאן"
+      },
+      {
+        "ja": "נעגה.",
+        "en": "a ewe,",
+        "he": "כִּשְׂבָּה"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "שאה",
+        "en": "a she-goat",
+        "he": "שְׂעִירַת"
+      },
+      {
+        "ja": "מן אלמאעז",
+        "en": "from the goats,",
+        "he": "עִזִּים"
+      },
+      {
+        "ja": "לאלד'כוה.",
+        "en": "for the sin-offering;",
+        "he": "לְחַטָּאת"
+      },
+      {
+        "ja": "ויסתג'פר",
+        "en": "shall seek forgiveness",
+        "he": "וְכִפֶּר"
+      },
+      {
+        "ja": "עליה.",
+        "en": "for him"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "the imām",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "מן כ'טאיה",
+        "en": "for his sins.",
+        "he": "מֵחַטָּאתוֹ"
       }
     ],
     "7": [
       {
-        "ja": "ואן לם תנאל ידה מקדאר שאה. פליאת בקרבאנה עלי' מא אכ'טא. שפנינין או פרכ'י חמאם ללה.",
-        "en": "And if his means do not reach to the price of a sheep, he shall bring his offering for what he erred — two turtledoves or two young pigeons — to God:",
-        "he": "וְאִם-לֹא תַגִּיעַ יָדוֹ דֵּי שֶׂה--וְהֵבִיא אֶת-אֲשָׁמוֹ אֲשֶׁר חָטָא שְׁתֵּי תֹרִים אוֹ-שְׁנֵי בְנֵי-יוֹנָה לַיהוָה"
+        "ja": "ואן לם תנאל",
+        "en": "And if his means do not reach",
+        "he": "וְאִם-לֹא תַגִּיעַ"
       },
       {
-        "ja": "אחדהמא לאלד'כוה ואלאכ'ר לאלצעידה",
-        "en": "one of them for the sin-offering and the other for the burnt-offering.",
-        "he": "אֶחָד לְחַטָּאת וְאֶחָד לְעֹלָה"
+        "ja": "ידה",
+        "en": "to",
+        "he": "יָדוֹ"
+      },
+      {
+        "ja": "מקדאר שאה.",
+        "en": "the price of a sheep,",
+        "he": "דֵּי שֶׂה"
+      },
+      {
+        "ja": "פליאת",
+        "en": "he shall bring",
+        "he": "וְהֵבִיא"
+      },
+      {
+        "ja": "בקרבאנה",
+        "en": "his offering"
+      },
+      {
+        "ja": "עלי' מא אכ'טא.",
+        "en": "for what he erred —",
+        "he": "אֲשֶׁר חָטָא"
+      },
+      {
+        "ja": "שפנינין",
+        "en": "two turtledoves",
+        "he": "שְׁתֵּי תֹרִים"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "פרכ'י חמאם",
+        "en": "two young pigeons —",
+        "he": "שְׁנֵי בְנֵי-יוֹנָה"
+      },
+      {
+        "ja": "ללה.",
+        "en": "to God:",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "אחדהמא לאלד'כוה",
+        "en": "one of them for the sin-offering",
+        "he": "אֶחָד לְחַטָּאת"
+      },
+      {
+        "ja": "ואלאכ'ר לאלצעידה",
+        "en": "and the other for the burnt-offering.",
+        "he": "וְאֶחָד לְעֹלָה"
       }
     ],
     "8": [
       {
-        "ja": "פאד'י אתי' בהמא אלי' אלאמאם. פליקרב. אלד'י לאלד'כוה אוולא.",
-        "en": "And when he brings them to the imām, he shall present that which is for the sin-offering first,",
-        "he": "וְהֵבִיא אֹתָם אֶל-הַכֹּהֵן וְהִקְרִיב אֶת-אֲשֶׁר לַחַטָּאת רִאשׁוֹנָה"
+        "ja": "פאד'י אתי' בהמא",
+        "en": "And when he brings them",
+        "he": "וְהֵבִיא אֹתָם"
       },
       {
-        "ja": "ויפצ'ל ראסה. ממא ילי קפאה ולא יפרזה",
-        "en": "and shall separate its head from the side of its nape, but shall not sever it completely.",
-        "he": "וּמָלַק אֶת-רֹאשׁוֹ מִמּוּל עָרְפּוֹ וְלֹא יַבְדִּיל"
+        "ja": "אלי' אלאמאם.",
+        "en": "to the imām,",
+        "he": "אֶל-הַכֹּהֵן"
+      },
+      {
+        "ja": "פליקרב.",
+        "en": "he shall present",
+        "he": "וְהִקְרִיב"
+      },
+      {
+        "ja": "אלד'י לאלד'כוה",
+        "en": "that which is for the sin-offering",
+        "he": "אֶת-אֲשֶׁר לַחַטָּאת"
+      },
+      {
+        "ja": "אוולא.",
+        "en": "first,",
+        "he": "רִאשׁוֹנָה"
+      },
+      {
+        "ja": "ויפצ'ל",
+        "en": "and shall separate",
+        "he": "וּמָלַק"
+      },
+      {
+        "ja": "ראסה.",
+        "en": "its head",
+        "he": "אֶת-רֹאשׁוֹ"
+      },
+      {
+        "ja": "ממא ילי קפאה",
+        "en": "from the side of its nape,",
+        "he": "מִמּוּל עָרְפּוֹ"
+      },
+      {
+        "ja": "ולא יפרזה",
+        "en": "but shall not sever it completely.",
+        "he": "וְלֹא יַבְדִּיל"
       }
     ],
     "9": [
       {
-        "ja": "וינצ'ח מן דמה עלי' חאיט אלמד'בח.",
-        "en": "And he shall sprinkle some of its blood upon the wall of the altar,",
-        "he": "וְהִזָּה מִדַּם הַחַטָּאת עַל-קִיר הַמִּזְבֵּחַ"
+        "ja": "וינצ'ח",
+        "en": "And he shall sprinkle",
+        "he": "וְהִזָּה"
       },
       {
-        "ja": "ואלפאצ'ל מן אלדם. ימצ'יה עלי' אסאסה. כד'אך מא יכון ד'כוה",
-        "en": "and the remainder of the blood he shall drain out at its base — such is what constitutes a sin-offering.",
-        "he": "וְהַנִּשְׁאָר בַּדָּם יִמָּצֵה אֶל-יְסוֹד הַמִּזְבֵּחַ חַטָּאת הוּא"
+        "ja": "מן דמה",
+        "en": "some of its blood",
+        "he": "מִדַּם הַחַטָּאת"
+      },
+      {
+        "ja": "עלי' חאיט",
+        "en": "upon the wall of",
+        "he": "עַל-קִיר"
+      },
+      {
+        "ja": "אלמד'בח.",
+        "en": "the altar,",
+        "he": "הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "ואלפאצ'ל",
+        "en": "and the remainder",
+        "he": "וְהַנִּשְׁאָר"
+      },
+      {
+        "ja": "מן אלדם.",
+        "en": "of the blood",
+        "he": "בַּדָּם"
+      },
+      {
+        "ja": "ימצ'יה",
+        "en": "he shall drain out",
+        "he": "יִמָּצֵה"
+      },
+      {
+        "ja": "עלי' אסאסה.",
+        "en": "at its base —",
+        "he": "אֶל-יְסוֹד"
+      },
+      {
+        "ja": "כד'אך מא יכון ד'כוה",
+        "en": "such is what constitutes a sin-offering.",
+        "he": "חַטָּאת"
       }
     ],
     "10": [
       {
-        "ja": "ואלתאני. יעמלה צעידה כאלסירה.",
-        "en": "And the second he shall perform as a burnt-offering, according to the established rite;",
-        "he": "וְאֶת-הַשֵּׁנִי יַעֲשֶׂה עֹלָה כַּמִּשְׁפָּט"
+        "ja": "ואלתאני.",
+        "en": "And the second",
+        "he": "וְאֶת-הַשֵּׁנִי"
       },
       {
-        "ja": "ויסתג'פר ענה אלאמאם. מן כ'טייתה אלד'י אכ'טא ויג'פר לה",
-        "en": "and the imām shall seek forgiveness for him for his transgression which he transgressed, and he shall be forgiven.",
-        "he": "וְכִפֶּר עָלָיו הַכֹּהֵן מֵחַטָּאתוֹ אֲשֶׁר-חָטָא וְנִסְלַח לוֹ"
+        "ja": "יעמלה צעידה",
+        "en": "he shall perform as a burnt-offering,",
+        "he": "יַעֲשֶׂה עֹלָה"
+      },
+      {
+        "ja": "כאלסירה.",
+        "en": "according to the established rite;",
+        "he": "כַּמִּשְׁפָּט"
+      },
+      {
+        "ja": "ויסתג'פר",
+        "en": "shall seek forgiveness",
+        "he": "וְכִפֶּר"
+      },
+      {
+        "ja": "ענה",
+        "en": "for him"
+      },
+      {
+        "ja": "אלאמאם.",
+        "en": "the imām",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "מן כ'טייתה",
+        "en": "for his transgression",
+        "he": "מֵחַטָּאתוֹ"
+      },
+      {
+        "ja": "אלד'י אכ'טא",
+        "en": "which he transgressed,",
+        "he": "אֲשֶׁר-חָטָא"
+      },
+      {
+        "ja": "ויג'פר לה",
+        "en": "and he shall be forgiven.",
+        "he": "וְנִסְלַח לוֹ"
       }
     ],
     "11": [
       {
-        "ja": "ואן לם תנאל ידה ת'מן שפנינין. או פרכ'י חמאם. פליאת בקרבאנה עלי' מא אכ'טא.",
-        "en": "And if his means do not reach to the price of two turtledoves or two young pigeons, he shall bring as his offering for what he erred —",
-        "he": "וְאִם-לֹא תַשִּׂיג יָדוֹ לִשְׁתֵּי תֹרִים אוֹ לִשְׁנֵי בְנֵי-יוֹנָה--וְהֵבִיא אֶת-קָרְבָּנוֹ אֲשֶׁר חָטָא"
+        "ja": "ואן לם תנאל",
+        "en": "And if his means do not reach",
+        "he": "וְאִם-לֹא תַשִּׂיג"
       },
       {
-        "ja": "עשר אלויבה סמד לאלד'כוה. לא יצב עליהא דהנא. ולא יגעל עליהא לבאנא. לאנהא ד'כוה",
-        "en": "a tenth of a wayba of fine flour for the sin-offering; he shall not pour oil upon it, nor place frankincense upon it, for it is a sin-offering.",
-        "he": "עֲשִׂירִת הָאֵפָה סֹלֶת לְחַטָּאת לֹא-יָשִׂים עָלֶיהָ שֶׁמֶן וְלֹא-יִתֵּן עָלֶיהָ לְבֹנָה--כִּי חַטָּאת הִוא"
+        "ja": "ידה",
+        "en": "to",
+        "he": "יָדוֹ"
+      },
+      {
+        "ja": "ת'מן שפנינין.",
+        "en": "the price of two turtledoves",
+        "he": "לִשְׁתֵּי תֹרִים"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "פרכ'י חמאם.",
+        "en": "two young pigeons,",
+        "he": "לִשְׁנֵי בְנֵי-יוֹנָה"
+      },
+      {
+        "ja": "פליאת",
+        "en": "he shall bring",
+        "he": "וְהֵבִיא"
+      },
+      {
+        "ja": "בקרבאנה",
+        "en": "as his offering",
+        "he": "אֶת-קָרְבָּנוֹ"
+      },
+      {
+        "ja": "עלי' מא אכ'טא.",
+        "en": "for what he erred —",
+        "he": "אֲשֶׁר חָטָא"
+      },
+      {
+        "ja": "עשר אלויבה",
+        "en": "a tenth of a wayba",
+        "he": "עֲשִׂירִת הָאֵפָה"
+      },
+      {
+        "ja": "סמד",
+        "en": "of fine flour",
+        "he": "סֹלֶת"
+      },
+      {
+        "ja": "לאלד'כוה.",
+        "en": "for the sin-offering;",
+        "he": "לְחַטָּאת"
+      },
+      {
+        "ja": "לא יצב עליהא דהנא.",
+        "en": "he shall not pour oil upon it,",
+        "he": "לֹא-יָשִׂים עָלֶיהָ שֶׁמֶן"
+      },
+      {
+        "ja": "ולא יגעל עליהא לבאנא.",
+        "en": "nor place frankincense upon it,",
+        "he": "וְלֹא-יִתֵּן עָלֶיהָ לְבֹנָה"
+      },
+      {
+        "ja": "לאנהא ד'כוה",
+        "en": "for it is a sin-offering.",
+        "he": "כִּי חַטָּאת הִוא"
       }
     ],
     "12": [
       {
-        "ja": "פיאתי בהא אלי' אלאמאם. פיקבץ' מנהא אלאמאם. מל קבצ'תה. מן פיחהא",
-        "en": "He shall bring it to the imām, and the imām shall take from it a full fistful from its fine portion,",
-        "he": "וֶהֱבִיאָהּ אֶל-הַכֹּהֵן וְקָמַץ הַכֹּהֵן מִמֶּנָּה מְלוֹא קֻמְצוֹ אֶת-אַזְכָּרָתָהּ"
+        "ja": "פיאתי בהא",
+        "en": "He shall bring it",
+        "he": "וֶהֱבִיאָהּ"
       },
       {
-        "ja": "עלי' אלמד'בח. מע קראבין אללה. כד'אך מא תציר ד'כוה",
-        "en": "and burn it upon the altar together with the offerings of God — such is what becomes a sin-offering.",
-        "he": "וְהִקְטִיר הַמִּזְבֵּחָה עַל אִשֵּׁי יְהוָה חַטָּאת הִוא"
+        "ja": "אלי' אלאמאם.",
+        "en": "to the imām,",
+        "he": "אֶל-הַכֹּהֵן"
+      },
+      {
+        "ja": "פיקבץ'",
+        "en": "shall take",
+        "he": "וְקָמַץ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from it"
+      },
+      {
+        "ja": "אלאמאם.",
+        "en": "the imām",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "מל קבצ'תה.",
+        "en": "a full fistful",
+        "he": "מְלוֹא קֻמְצוֹ"
+      },
+      {
+        "ja": "מן פיחהא",
+        "en": "from its fine portion,",
+        "he": "אֶת-אַזְכָּרָתָהּ"
+      },
+      {
+        "ja": "עלי' אלמד'בח.",
+        "en": "and burn it upon the altar",
+        "he": "וְהִקְטִיר"
+      },
+      {
+        "ja": "מע",
+        "en": "together with"
+      },
+      {
+        "ja": "קראבין אללה.",
+        "en": "the offerings of God —",
+        "he": "אִשֵּׁי יְהוָה"
+      },
+      {
+        "ja": "כד'אך מא תציר ד'כוה",
+        "en": "such is what becomes a sin-offering.",
+        "he": "חַטָּאת הִוא"
       }
     ],
     "13": [
       {
-        "ja": "יסתג'פר ענה אלאמאם. ען כ'טייתה אלד'י אכ'טא. בואחדה מן הד'ה פיג'פר לה.",
-        "en": "And the imām shall seek forgiveness for him for his transgression which he transgressed by one of these, and he shall be forgiven;",
-        "he": "וְכִפֶּר עָלָיו הַכֹּהֵן עַל-חַטָּאתוֹ אֲשֶׁר-חָטָא מֵאַחַת מֵאֵלֶּה--וְנִסְלַח לוֹ"
+        "ja": "יסתג'פר",
+        "en": "shall seek forgiveness",
+        "he": "וְכִפֶּר"
       },
       {
-        "ja": "ותציר לאלאמאם כסאיר אלהדאיא",
-        "en": "and it shall belong to the imām like the rest of the gift-offerings.",
-        "he": "וְהָיְתָה לַכֹּהֵן כַּמִּנְחָה"
+        "ja": "ענה אלאמאם.",
+        "en": "for him",
+        "he": "עָלָיו הַכֹּהֵן"
+      },
+      {
+        "ja": "ען כ'טייתה",
+        "en": "for his transgression",
+        "he": "עַל-חַטָּאתוֹ"
+      },
+      {
+        "ja": "אלד'י אכ'טא.",
+        "en": "which he transgressed",
+        "he": "אֲשֶׁר-חָטָא"
+      },
+      {
+        "ja": "בואחדה מן הד'ה",
+        "en": "by one of these,",
+        "he": "מֵאַחַת מֵאֵלֶּה"
+      },
+      {
+        "ja": "פיג'פר לה.",
+        "en": "and he shall be forgiven;",
+        "he": "וְנִסְלַח לוֹ"
+      },
+      {
+        "ja": "ותציר לאלאמאם",
+        "en": "and it shall belong to the imām",
+        "he": "וְהָיְתָה לַכֹּהֵן"
+      },
+      {
+        "ja": "כסאיר אלהדאיא",
+        "en": "like the rest of the gift-offerings.",
+        "he": "כַּמִּנְחָה"
       }
     ],
     "14": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses in speech.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "in speech.",
+        "he": "לֵּאמֹר"
       }
     ],
     "15": [
       {
-        "ja": "אי אנסאן נכת' נכת'א. ואכ'טא סהוא. בשי מן אקדאס אללה.",
-        "en": "Any person who acted in violation — violating and erring inadvertently in something from the sacred things of God —",
-        "he": "נֶפֶשׁ כִּי-תִמְעֹל מַעַל וְחָטְאָה בִּשְׁגָגָה מִקָּדְשֵׁי יְהוָה"
+        "ja": "אי",
+        "en": "Any"
       },
       {
-        "ja": "פליאת בקרבאנה ללה כבש צחיח מן אלג'נם. בקימתה מת'אקיל פ'צה במת'קאל אלקדס לאלקרבאן",
-        "en": "he shall bring his offering to God: a sound ram from the flock, at its value in weights of silver by the weight of the sanctuary, as the offering.",
-        "he": "וְהֵבִיא אֶת-אֲשָׁמוֹ לַיהוָה אַיִל תָּמִים מִן-הַצֹּאן בְּעֶרְכְּךָ כֶּסֶף-שְׁקָלִים בְּשֶׁקֶל-הַקֹּדֶשׁ--לְאָשָׁם"
+        "ja": "אנסאן",
+        "en": "person",
+        "he": "נֶפֶשׁ"
+      },
+      {
+        "ja": "נכת'",
+        "en": "who acted in violation",
+        "he": "כִּי-תִמְעֹל"
+      },
+      {
+        "ja": "נכת'א.",
+        "en": "— violating",
+        "he": "מַעַל"
+      },
+      {
+        "ja": "ואכ'טא",
+        "en": "and erring",
+        "he": "וְחָטְאָה"
+      },
+      {
+        "ja": "סהוא.",
+        "en": "inadvertently",
+        "he": "בִּשְׁגָגָה"
+      },
+      {
+        "ja": "בשי",
+        "en": "in something"
+      },
+      {
+        "ja": "מן אקדאס",
+        "en": "from the sacred things of",
+        "he": "מִקָּדְשֵׁי"
+      },
+      {
+        "ja": "אללה.",
+        "en": "God —",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "פליאת",
+        "en": "he shall bring",
+        "he": "וְהֵבִיא"
+      },
+      {
+        "ja": "בקרבאנה",
+        "en": "his offering",
+        "he": "אֶת-אֲשָׁמוֹ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God:",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "כבש צחיח",
+        "en": "a sound ram",
+        "he": "אַיִל תָּמִים"
+      },
+      {
+        "ja": "מן אלג'נם.",
+        "en": "from the flock,",
+        "he": "מִן-הַצֹּאן"
+      },
+      {
+        "ja": "בקימתה",
+        "en": "at its value",
+        "he": "בְּעֶרְכְּךָ"
+      },
+      {
+        "ja": "מת'אקיל פ'צה",
+        "en": "in weights of silver",
+        "he": "כֶּסֶף-שְׁקָלִים"
+      },
+      {
+        "ja": "במת'קאל אלקדס",
+        "en": "by the weight of the sanctuary,",
+        "he": "בְּשֶׁקֶל-הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "לאלקרבאן",
+        "en": "as the offering.",
+        "he": "לְאָשָׁם"
       }
     ],
     "16": [
       {
-        "ja": "ואלד'י אכ'טא פיה מן אלקדס יסלם מת'לה. ויזיד עלי'ה כמסה. ויעטיה לאלאמאם.",
-        "en": "And that which he erred in from the sacred things he shall repay in its equivalent, and add a fifth to it, and give it to the imām;",
-        "he": "וְאֵת אֲשֶׁר חָטָא מִן-הַקֹּדֶשׁ יְשַׁלֵּם וְאֶת-חֲמִישִׁתוֹ יוֹסֵף עָלָיו וְנָתַן אֹתוֹ לַכֹּהֵן"
+        "ja": "ואלד'י אכ'טא",
+        "en": "And that which he erred in",
+        "he": "וְאֵת אֲשֶׁר חָטָא"
       },
       {
-        "ja": "ויסתג'פר ענה. בכבש אלקרבאן ויג'פר לה",
-        "en": "and the imām shall seek forgiveness for him with the ram of the offering, and he shall be forgiven.",
-        "he": "וְהַכֹּהֵן יְכַפֵּר עָלָיו בְּאֵיל הָאָשָׁם--וְנִסְלַח לוֹ"
+        "ja": "פיה מן אלקדס",
+        "en": "from the sacred things",
+        "he": "מִן-הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "יסלם",
+        "en": "he shall repay",
+        "he": "יְשַׁלֵּם"
+      },
+      {
+        "ja": "מת'לה.",
+        "en": "in its equivalent,"
+      },
+      {
+        "ja": "ויזיד עלי'ה כמסה.",
+        "en": "and add a fifth to it,",
+        "he": "וְאֶת-חֲמִישִׁתוֹ"
+      },
+      {
+        "ja": "ויעטיה",
+        "en": "and give it",
+        "he": "וְנָתַן אֹתוֹ"
+      },
+      {
+        "ja": "לאלאמאם.",
+        "en": "to the imām;",
+        "he": "לַכֹּהֵן"
+      },
+      {
+        "ja": "ויסתג'פר",
+        "en": "shall seek forgiveness",
+        "he": "וְהַכֹּהֵן יְכַפֵּר"
+      },
+      {
+        "ja": "ענה.",
+        "en": "for him"
+      },
+      {
+        "ja": "בכבש אלקרבאן",
+        "en": "with the ram of the offering,",
+        "he": "בְּאֵיל הָאָשָׁם"
+      },
+      {
+        "ja": "ויג'פר לה",
+        "en": "and he shall be forgiven.",
+        "he": "וְנִסְלַח לוֹ"
       }
     ],
     "17": [
       {
-        "ja": "ואי אנסאן אכ'טא. פעמל. ואחדה מן פראיץ' אללה. אלתי לא תעמל.",
-        "en": "And any person who erred and did one of the commandments of God which are not to be done,",
-        "he": "וְאִם-נֶפֶשׁ כִּי תֶחֱטָא וְעָשְׂתָה אַחַת מִכָּל-מִצְו‍ֹת יְהוָה אֲשֶׁר לֹא תֵעָשֶׂינָה"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "ולם יעלם באנה קד את'ם וחמל וזרה",
-        "en": "and did not know that he had already sinned — he has borne his burden of guilt.",
-        "he": "וְלֹא-יָדַע וְאָשֵׁם וְנָשָׂא עֲו‍ֹנוֹ"
+        "ja": "אנסאן",
+        "en": "person",
+        "he": "וְאִם-נֶפֶשׁ"
+      },
+      {
+        "ja": "אכ'טא.",
+        "en": "who erred",
+        "he": "כִּי תֶחֱטָא"
+      },
+      {
+        "ja": "פעמל.",
+        "en": "and did",
+        "he": "וְעָשְׂתָה"
+      },
+      {
+        "ja": "ואחדה",
+        "en": "one",
+        "he": "אַחַת"
+      },
+      {
+        "ja": "מן פראיץ'",
+        "en": "of the commandments of",
+        "he": "מִכָּל-מִצְו‍ֹת"
+      },
+      {
+        "ja": "אללה.",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אלתי לא תעמל.",
+        "en": "which are not to be done,",
+        "he": "אֲשֶׁר לֹא תֵעָשֶׂינָה"
+      },
+      {
+        "ja": "ולם יעלם",
+        "en": "and did not know",
+        "he": "וְלֹא-יָדַע"
+      },
+      {
+        "ja": "באנה",
+        "en": "that"
+      },
+      {
+        "ja": "קד",
+        "en": "he had"
+      },
+      {
+        "ja": "את'ם",
+        "en": "already sinned —",
+        "he": "וְאָשֵׁם"
+      },
+      {
+        "ja": "וחמל וזרה",
+        "en": "he has borne his burden of guilt.",
+        "he": "וְנָשָׂא עֲו‍ֹנוֹ"
       }
     ],
     "18": [
       {
-        "ja": "פליאת בכבש צחיח מן אלג'נם. בקימתה לאלקרבאן אלי' אלאמאם.",
-        "en": "He shall bring a sound ram from the flock, at its value as an offering, to the imām;",
-        "he": "וְהֵבִיא אַיִל תָּמִים מִן-הַצֹּאן בְּעֶרְכְּךָ לְאָשָׁם--אֶל-הַכֹּהֵן"
+        "ja": "פליאת",
+        "en": "He shall bring",
+        "he": "וְהֵבִיא"
       },
       {
-        "ja": "ויסתג'פר ענה אלאמאם. ען סהותה אלד'י סהא. והו לם יעלם ויג'פר לה",
-        "en": "and the imām shall seek forgiveness for him for his inadvertent act in which he erred, though he did not know — and he shall be forgiven.",
-        "he": "וְכִפֶּר עָלָיו הַכֹּהֵן עַל שִׁגְגָתוֹ אֲשֶׁר-שָׁגָג וְהוּא לֹא-יָדַע--וְנִסְלַח לוֹ"
+        "ja": "בכבש צחיח",
+        "en": "a sound ram",
+        "he": "אַיִל תָּמִים"
+      },
+      {
+        "ja": "מן אלג'נם.",
+        "en": "from the flock,",
+        "he": "מִן-הַצֹּאן"
+      },
+      {
+        "ja": "בקימתה",
+        "en": "at its value",
+        "he": "בְּעֶרְכְּךָ"
+      },
+      {
+        "ja": "לאלקרבאן",
+        "en": "as an offering,",
+        "he": "לְאָשָׁם"
+      },
+      {
+        "ja": "אלי' אלאמאם.",
+        "en": "to the imām;",
+        "he": "אֶל-הַכֹּהֵן"
+      },
+      {
+        "ja": "ויסתג'פר",
+        "en": "shall seek forgiveness",
+        "he": "וְכִפֶּר"
+      },
+      {
+        "ja": "ענה",
+        "en": "for him"
+      },
+      {
+        "ja": "אלאמאם.",
+        "en": "the imām",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "ען סהותה",
+        "en": "for his inadvertent act",
+        "he": "עַל שִׁגְגָתוֹ"
+      },
+      {
+        "ja": "אלד'י סהא.",
+        "en": "in which he erred,",
+        "he": "אֲשֶׁר-שָׁגָג"
+      },
+      {
+        "ja": "והו לם יעלם",
+        "en": "though he did not know —",
+        "he": "וְהוּא לֹא-יָדַע"
+      },
+      {
+        "ja": "ויג'פר לה",
+        "en": "and he shall be forgiven.",
+        "he": "וְנִסְלַח לוֹ"
       }
     ],
     "19": [
       {
-        "ja": "והו קרבאן אלאת'ם. ען את'מה אלד'י את'ם ללה",
-        "en": "And it is a guilt-offering — for his guilt which he incurred before God.",
-        "he": "אָשָׁם הוּא אָשֹׁם אָשַׁם לַיהוָה"
+        "ja": "והו קרבאן אלאת'ם.",
+        "en": "And it is a guilt-offering —",
+        "he": "אָשָׁם הוּא"
+      },
+      {
+        "ja": "ען את'מה",
+        "en": "for his guilt",
+        "he": "אָשֹׁם אָשַׁם"
+      },
+      {
+        "ja": "אלד'י את'ם ללה",
+        "en": "which he incurred before God.",
+        "he": "לַיהוָה"
       }
     ],
     "20": [
       {
-        "ja": "ת'ם כלם אללה מוסי תכלימא",
-        "en": "Then God spoke to Moses in speech.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "in speech.",
+        "he": "לֵּאמֹר"
       }
     ],
     "21": [
       {
-        "ja": "אי אנסאן אכ'טא. ונכת' נכת'א באללה פגחד צאחבה ודיעה או מעאמלה.",
-        "en": "Any person who erred and acted in violation before God — in that he denied to his fellow a deposit or a financial transaction,",
-        "he": "נֶפֶשׁ כִּי תֶחֱטָא וּמָעֲלָה מַעַל בַּיהוָה וְכִחֵשׁ בַּעֲמִיתוֹ בְּפִקָּדוֹן אוֹ-בִתְשׂוּמֶת יָד"
+        "ja": "אי",
+        "en": "Any"
       },
       {
-        "ja": "או ג'צב או ג'שם צאחבה",
-        "en": "or seized by force, or defrauded his fellow —",
-        "he": "אוֹ בְגָזֵל אוֹ עָשַׁק אֶת-עֲמִיתוֹ"
+        "ja": "אנסאן",
+        "en": "person",
+        "he": "נֶפֶשׁ"
+      },
+      {
+        "ja": "אכ'טא.",
+        "en": "who erred",
+        "he": "כִּי תֶחֱטָא"
+      },
+      {
+        "ja": "ונכת' נכת'א",
+        "en": "and acted in violation",
+        "he": "וּמָעֲלָה מַעַל"
+      },
+      {
+        "ja": "באללה",
+        "en": "before God —",
+        "he": "בַּיהוָה"
+      },
+      {
+        "ja": "פגחד",
+        "en": "in that he denied",
+        "he": "וְכִחֵשׁ"
+      },
+      {
+        "ja": "צאחבה",
+        "en": "to his fellow",
+        "he": "בַּעֲמִיתוֹ"
+      },
+      {
+        "ja": "ודיעה",
+        "en": "a deposit",
+        "he": "בְּפִקָּדוֹן"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "מעאמלה.",
+        "en": "a financial transaction,",
+        "he": "בִתְשׂוּמֶת יָד"
+      },
+      {
+        "ja": "או ג'צב",
+        "en": "or seized by force,",
+        "he": "אוֹ בְגָזֵל"
+      },
+      {
+        "ja": "או ג'שם",
+        "en": "or defrauded",
+        "he": "אוֹ עָשַׁק"
+      },
+      {
+        "ja": "צאחבה",
+        "en": "his fellow —",
+        "he": "אֶת-עֲמִיתוֹ"
       }
     ],
     "22": [
       {
-        "ja": "או וגד צ'אלה. פגחדהא וחלף עלי' באטל.",
-        "en": "or found a lost thing and denied it, and swore falsely —",
-        "he": "אוֹ-מָצָא אֲבֵדָה וְכִחֶשׁ בָּהּ וְנִשְׁבַּע עַל-שָׁקֶר"
+        "ja": "או וגד",
+        "en": "or found",
+        "he": "אוֹ-מָצָא"
       },
       {
-        "ja": "עלי' אי כ'לה. מן גמיע מא יעמל אלאנסאן פיכ'טי בהא",
-        "en": "regarding any such failing, from all that a person may do and thereby err —",
-        "he": "עַל-אַחַת מִכֹּל אֲשֶׁר-יַעֲשֶׂה הָאָדָם--לַחֲטֹא בָהֵנָּה"
+        "ja": "צ'אלה.",
+        "en": "a lost thing",
+        "he": "אֲבֵדָה"
+      },
+      {
+        "ja": "פגחדהא",
+        "en": "and denied it,",
+        "he": "וְכִחֶשׁ בָּהּ"
+      },
+      {
+        "ja": "וחלף",
+        "en": "and swore",
+        "he": "וְנִשְׁבַּע"
+      },
+      {
+        "ja": "עלי' באטל.",
+        "en": "falsely —",
+        "he": "עַל-שָׁקֶר"
+      },
+      {
+        "ja": "עלי' אי",
+        "en": "regarding any such",
+        "he": "עַל-אַחַת"
+      },
+      {
+        "ja": "כ'לה.",
+        "en": "failing,",
+        "he": "מִכֹּל"
+      },
+      {
+        "ja": "מן",
+        "en": "from"
+      },
+      {
+        "ja": "גמיע מא יעמל",
+        "en": "all that",
+        "he": "אֲשֶׁר-יַעֲשֶׂה"
+      },
+      {
+        "ja": "אלאנסאן",
+        "en": "a person may do",
+        "he": "הָאָדָם"
+      },
+      {
+        "ja": "פיכ'טי בהא",
+        "en": "and thereby err —"
       }
     ],
     "23": [
       {
-        "ja": "פאד'א הו אכ'טא ואת'ם. פלירד אלג'צב אלד'י ג'צבה. או אלג'שם אלד'י ג'שמה.",
-        "en": "then, when he has erred and sinned, he shall return the thing seized which he seized, or the fraud which he perpetrated,",
-        "he": "וְהָיָה כִּי-יֶחֱטָא וְאָשֵׁם--וְהֵשִׁיב אֶת-הַגְּזֵלָה אֲשֶׁר גָּזָל אוֹ אֶת-הָעֹשֶׁק אֲשֶׁר עָשָׁק"
+        "ja": "פאד'א הו אכ'טא",
+        "en": "then, when he has erred",
+        "he": "וְהָיָה כִּי-יֶחֱטָא"
       },
       {
-        "ja": "או אלצ'אלה אלתי וגדהא",
-        "en": "or the lost thing which he found,",
-        "he": "אוֹ אֶת-הַפִּקָּדוֹן אֲשֶׁר הָפְקַד אִתּוֹ אוֹ אֶת-הָאֲבֵדָה אֲשֶׁר מָצָא"
+        "ja": "ואת'ם.",
+        "en": "and sinned,",
+        "he": "וְאָשֵׁם"
+      },
+      {
+        "ja": "פלירד",
+        "en": "he shall return",
+        "he": "וְהֵשִׁיב"
+      },
+      {
+        "ja": "אלג'צב",
+        "en": "the thing seized",
+        "he": "אֶת-הַגְּזֵלָה"
+      },
+      {
+        "ja": "אלד'י ג'צבה.",
+        "en": "which he seized,",
+        "he": "אֲשֶׁר גָּזָל"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "אלג'שם",
+        "en": "the fraud",
+        "he": "אֶת-הָעֹשֶׁק"
+      },
+      {
+        "ja": "אלד'י ג'שמה.",
+        "en": "which he perpetrated,",
+        "he": "אֲשֶׁר עָשָׁק"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "אלצ'אלה",
+        "en": "the lost thing",
+        "he": "אֶת-הָאֲבֵדָה"
+      },
+      {
+        "ja": "אלתי וגדהא",
+        "en": "which he found,",
+        "he": "אֲשֶׁר מָצָא"
       }
     ],
     "24": [
       {
-        "ja": "או מא סוי' ד'אלך. ממא סבילה אן יחלף עליה באטלא. פלירדה בראסה. ויזיד עליה אכ'מאסה.",
-        "en": "or whatever else of that which it is his way to swear over falsely — he shall return it in full, and add its fifth to it,",
-        "he": "אוֹ מִכֹּל אֲשֶׁר-יִשָּׁבַע עָלָיו לַשֶּׁקֶר--וְשִׁלַּם אֹתוֹ בְּרֹאשׁוֹ וַחֲמִשִׁתָיו יֹסֵף עָלָיו"
+        "ja": "או מא סוי'",
+        "en": "or whatever else",
+        "he": "אוֹ מִכֹּל"
       },
       {
-        "ja": "ויעטי אלד'י הו לה. פי יום אעתראפה בד'נבה",
-        "en": "and give it to the one to whom it belongs, on the day of his confession of his guilt.",
-        "he": "לַאֲשֶׁר הוּא לוֹ יִתְּנֶנּוּ בְּיוֹם אַשְׁמָתוֹ"
+        "ja": "ד'אלך.",
+        "en": "of that"
+      },
+      {
+        "ja": "ממא סבילה אן יחלף",
+        "en": "which it is his way to swear",
+        "he": "אֲשֶׁר-יִשָּׁבַע"
+      },
+      {
+        "ja": "עליה",
+        "en": "over"
+      },
+      {
+        "ja": "באטלא.",
+        "en": "falsely —",
+        "he": "לַשֶּׁקֶר"
+      },
+      {
+        "ja": "פלירדה",
+        "en": "he shall return it",
+        "he": "וְשִׁלַּם"
+      },
+      {
+        "ja": "בראסה.",
+        "en": "in full,",
+        "he": "אֹתוֹ בְּרֹאשׁוֹ"
+      },
+      {
+        "ja": "ויזיד עליה אכ'מאסה.",
+        "en": "and add its fifth to it,",
+        "he": "וַחֲמִשִׁתָיו"
+      },
+      {
+        "ja": "ויעטי אלד'י הו לה.",
+        "en": "and give it to the one to whom it belongs,",
+        "he": "לַאֲשֶׁר הוּא לוֹ"
+      },
+      {
+        "ja": "פי יום",
+        "en": "on the day of",
+        "he": "בְּיוֹם"
+      },
+      {
+        "ja": "אעתראפה בד'נבה",
+        "en": "his confession of his guilt.",
+        "he": "אַשְׁמָתוֹ"
       }
     ],
     "25": [
       {
-        "ja": "פליאת בקרבאנה ללה. כבש צחיח מן אלג'נם. בקימתה לאלקרבאן אלי' אלאמאם",
-        "en": "And he shall bring his offering to God — a sound ram from the flock, at its value as an offering, to the imām.",
-        "he": "וְאֶת-אֲשָׁמוֹ יָבִיא לַיהוָה אַיִל תָּמִים מִן-הַצֹּאן בְּעֶרְכְּךָ לְאָשָׁם אֶל-הַכֹּהֵן"
+        "ja": "פליאת בקרבאנה",
+        "en": "And he shall bring his offering",
+        "he": "וְאֶת-אֲשָׁמוֹ"
+      },
+      {
+        "ja": "ללה.",
+        "en": "to God —",
+        "he": "יָבִיא"
+      },
+      {
+        "ja": "כבש צחיח",
+        "en": "a sound ram",
+        "he": "אַיִל תָּמִים"
+      },
+      {
+        "ja": "מן אלג'נם.",
+        "en": "from the flock,",
+        "he": "מִן-הַצֹּאן"
+      },
+      {
+        "ja": "בקימתה",
+        "en": "at its value",
+        "he": "בְּעֶרְכְּךָ"
+      },
+      {
+        "ja": "לאלקרבאן",
+        "en": "as an offering,",
+        "he": "לְאָשָׁם"
+      },
+      {
+        "ja": "אלי' אלאמאם",
+        "en": "to the imām.",
+        "he": "אֶל-הַכֹּהֵן"
       }
     ],
     "26": [
       {
-        "ja": "ויסתג'פר ענה אלאמאם. בין ידי אללה ויגפר לה.",
-        "en": "And the imām shall seek forgiveness for him before God, and he shall be forgiven —",
-        "he": "וְכִפֶּר עָלָיו הַכֹּהֵן לִפְנֵי יְהוָה וְנִסְלַח לוֹ"
+        "ja": "ויסתג'פר",
+        "en": "shall seek forgiveness",
+        "he": "וְכִפֶּר"
       },
       {
-        "ja": "עלי' איית כ'לה. מן גמיע מא יעמל פיאת'ם בהא",
-        "en": "for whichever failing, from all that is done whereby he incurs guilt in it.",
-        "he": "עַל-אַחַת מִכֹּל אֲשֶׁר-יַעֲשֶׂה לְאַשְׁמָה בָהּ"
+        "ja": "ענה",
+        "en": "for him"
+      },
+      {
+        "ja": "אלאמאם.",
+        "en": "the imām",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God,",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "ויגפר לה.",
+        "en": "and he shall be forgiven —",
+        "he": "וְנִסְלַח לוֹ"
+      },
+      {
+        "ja": "עלי' איית",
+        "en": "for whichever",
+        "he": "עַל-אַחַת"
+      },
+      {
+        "ja": "כ'לה.",
+        "en": "failing,",
+        "he": "מִכֹּל"
+      },
+      {
+        "ja": "מן",
+        "en": "from"
+      },
+      {
+        "ja": "גמיע מא יעמל",
+        "en": "all that is done",
+        "he": "אֲשֶׁר-יַעֲשֶׂה"
+      },
+      {
+        "ja": "פיאת'ם",
+        "en": "whereby he incurs guilt",
+        "he": "לְאַשְׁמָה"
+      },
+      {
+        "ja": "בהא",
+        "en": "in it."
       }
     ]
   }

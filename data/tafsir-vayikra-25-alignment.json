@@ -1,534 +1,2394 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 25. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_25.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 25. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_25.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם קאל אללה למוסי'. פי טור סיני תכלימא",
-        "en": "Then God spoke to Moses, on Mount Sinai, a speaking.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה בְּהַר סִינַי לֵאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "קאל",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "למוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "פי טור",
+        "en": "on Mount",
+        "he": "בְּהַר"
+      },
+      {
+        "ja": "סיני",
+        "en": "Sinai",
+        "he": "סִינַי"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "a speaking",
+        "he": "לֵאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "מר בני אסראיל וקל להם. אד'א דכ'לתם אלי' אלבלד אלד'י אנא מעטיכם",
-        "en": "Command the sons of Israel and say to them: When you enter the land which I am giving you,",
-        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם כִּי תָבֹאוּ אֶל-הָאָרֶץ אֲשֶׁר אֲנִי נֹתֵן לָכֶם"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "פעטלו אלארץ' עטלה ללה",
-        "en": "then let the land desist — a desisting for God.",
-        "he": "וְשָׁבְתָה הָאָרֶץ שַׁבָּת לַיהוָה"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶל-בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "להם",
+        "en": "to them",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "אד'א דכ'לתם",
+        "en": "When you enter",
+        "he": "כִּי תָבֹאוּ"
+      },
+      {
+        "ja": "אלי' אלבלד",
+        "en": "the land",
+        "he": "אֶל-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "which",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "מעטיכם",
+        "en": "giving you",
+        "he": "נֹתֵן"
+      },
+      {
+        "ja": "פעטלו",
+        "en": "let"
+      },
+      {
+        "ja": "אלארץ'",
+        "en": "the land",
+        "he": "הָאָרֶץ"
+      },
+      {
+        "ja": "עטלה",
+        "en": "desist — a desisting",
+        "he": "שַׁבָּת"
+      },
+      {
+        "ja": "ללה",
+        "en": "for God",
+        "he": "לַיהוָה"
       }
     ],
     "3": [
       {
-        "ja": "אן תכון סת סנין תזרע צ'יעתך. וסת סנין תרפק כרמך",
-        "en": "That there be six years in which you sow your estate, and six years in which you tend your vineyard,",
-        "he": "שֵׁשׁ שָׁנִים תִּזְרַע שָׂדֶךָ וְשֵׁשׁ שָׁנִים תִּזְמֹר כַּרְמֶךָ"
+        "ja": "אן",
+        "en": "That"
       },
       {
-        "ja": "ותגמע ג'לתהא",
-        "en": "and gather its yield.",
-        "he": "וְאָסַפְתָּ אֶת-תְּבוּאָתָהּ"
+        "ja": "תכון",
+        "en": "there be"
+      },
+      {
+        "ja": "סת",
+        "en": "six",
+        "he": "שֵׁשׁ"
+      },
+      {
+        "ja": "סנין",
+        "en": "years",
+        "he": "שָׁנִים"
+      },
+      {
+        "ja": "תזרע",
+        "en": "you sow",
+        "he": "תִּזְרַע"
+      },
+      {
+        "ja": "צ'יעתך",
+        "en": "your estate",
+        "he": "שָׂדֶךָ"
+      },
+      {
+        "ja": "וסת",
+        "en": "and six",
+        "he": "וְשֵׁשׁ"
+      },
+      {
+        "ja": "סנין",
+        "en": "years",
+        "he": "שָׁנִים"
+      },
+      {
+        "ja": "תרפק",
+        "en": "you tend",
+        "he": "תִּזְמֹר"
+      },
+      {
+        "ja": "כרמך",
+        "en": "your vineyard",
+        "he": "כַּרְמֶךָ"
+      },
+      {
+        "ja": "ותגמע",
+        "en": "and gather",
+        "he": "וְאָסַפְתָּ"
+      },
+      {
+        "ja": "ג'לתהא",
+        "en": "its yield",
+        "he": "אֶת-תְּבוּאָתָהּ"
       }
     ],
     "4": [
       {
-        "ja": "ופי אלסנה אלסאבעה עטלה לאלארץ'. הי סבת ללה",
-        "en": "But in the seventh year there shall be a desisting for the land — it is a sabbath for God;",
-        "he": "וּבַשָּׁנָה הַשְּׁבִיעִת שַׁבַּת שַׁבָּתוֹן יִהְיֶה לָאָרֶץ--שַׁבָּת לַיהוָה"
+        "ja": "ופי אלסנה",
+        "en": "But in the seventh",
+        "he": "וּבַשָּׁנָה"
       },
       {
-        "ja": "לא תזרע צ'יעתך. ולא תרפק כרמך",
-        "en": "do not sow your estate, and do not tend your vineyard.",
-        "he": "שָׂדְךָ לֹא תִזְרָע וְכַרְמְךָ לֹא תִזְמֹר"
+        "ja": "אלסאבעה",
+        "en": "year",
+        "he": "הַשְּׁבִיעִת"
+      },
+      {
+        "ja": "עטלה",
+        "en": "a desisting",
+        "he": "שַׁבַּת שַׁבָּתוֹן"
+      },
+      {
+        "ja": "לאלארץ'",
+        "en": "for the land",
+        "he": "לָאָרֶץ"
+      },
+      {
+        "ja": "הי סבת",
+        "en": "it is a sabbath",
+        "he": "שַׁבָּת"
+      },
+      {
+        "ja": "ללה",
+        "en": "for God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "צ'יעתך",
+        "en": "your estate",
+        "he": "שָׂדְךָ"
+      },
+      {
+        "ja": "לא תזרע",
+        "en": "do not sow",
+        "he": "לֹא תִזְרָע"
+      },
+      {
+        "ja": "ולא תרפק כרמך",
+        "en": "and do not tend your vineyard",
+        "he": "וְכַרְמְךָ"
       }
     ],
     "5": [
       {
-        "ja": "וכ'לף זרעך פלא תחצדה",
-        "en": "The aftergrowth of your harvest you shall not reap,",
-        "he": "אֵת סְפִיחַ קְצִירְךָ לֹא תִקְצוֹר"
+        "ja": "וכ'לף",
+        "en": "The aftergrowth of"
       },
       {
-        "ja": "ואלפראד מן ענבך פלא תקטפה. לאנהא סנה' עטלה לאלארץ'",
-        "en": "and the single grapes of your vineyard you shall not pluck — for it is a year of desisting for the land.",
-        "he": "וְאֶת-עִנְּבֵי נְזִירֶךָ לֹא תִבְצֹר שְׁנַת שַׁבָּתוֹן יִהְיֶה לָאָרֶץ"
+        "ja": "זרעך",
+        "en": "your harvest",
+        "he": "אֵת סְפִיחַ"
+      },
+      {
+        "ja": "פלא",
+        "en": "you shall not"
+      },
+      {
+        "ja": "תחצדה",
+        "en": "reap",
+        "he": "לֹא תִקְצוֹר"
+      },
+      {
+        "ja": "ואלפראד מן ענבך",
+        "en": "and the single grapes of your vineyard",
+        "he": "וְאֶת-עִנְּבֵי"
+      },
+      {
+        "ja": "פלא",
+        "en": "you shall not"
+      },
+      {
+        "ja": "תקטפה",
+        "en": "pluck",
+        "he": "לֹא תִבְצֹר"
+      },
+      {
+        "ja": "לאנהא סנה'",
+        "en": "for it is a year of",
+        "he": "שְׁנַת"
+      },
+      {
+        "ja": "עטלה",
+        "en": "desisting",
+        "he": "שַׁבָּתוֹן"
+      },
+      {
+        "ja": "לאלארץ'",
+        "en": "for the land",
+        "he": "לָאָרֶץ"
       }
     ],
     "6": [
       {
-        "ja": "וליכון מא ינבת מן אלארץ' אלמעטלה לכם מאכלא. לך ולעבדך ולאמתך. ולאגירך ולציפך. אלמקימין מעך",
-        "en": "And let what grows from the desisted land be for you as food — for you, and for your male slave, and for your female slave, and for your hired worker, and for your guest, who dwell with you.",
-        "he": "וְהָיְתָה שַׁבַּת הָאָרֶץ לָכֶם לְאָכְלָה--לְךָ וּלְעַבְדְּךָ וְלַאֲמָתֶךָ וְלִשְׂכִירְךָ וּלְתוֹשָׁבְךָ הַגָּרִים עִמָּךְ"
+        "ja": "וליכון",
+        "en": "And let"
+      },
+      {
+        "ja": "מא",
+        "en": "what"
+      },
+      {
+        "ja": "ינבת",
+        "en": "grows"
+      },
+      {
+        "ja": "מן",
+        "en": "from"
+      },
+      {
+        "ja": "אלארץ' אלמעטלה",
+        "en": "the desisted land",
+        "he": "שַׁבַּת הָאָרֶץ"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "מאכלא",
+        "en": "as food",
+        "he": "לְאָכְלָה"
+      },
+      {
+        "ja": "לך",
+        "en": "for you",
+        "he": "לְךָ"
+      },
+      {
+        "ja": "ולעבדך",
+        "en": "and for your male slave",
+        "he": "וּלְעַבְדְּךָ"
+      },
+      {
+        "ja": "ולאמתך",
+        "en": "and for your female slave",
+        "he": "וְלַאֲמָתֶךָ"
+      },
+      {
+        "ja": "ולאגירך",
+        "en": "and for your hired worker",
+        "he": "וְלִשְׂכִירְךָ"
+      },
+      {
+        "ja": "ולציפך",
+        "en": "and for your guest",
+        "he": "וּלְתוֹשָׁבְךָ"
+      },
+      {
+        "ja": "אלמקימין",
+        "en": "who dwell",
+        "he": "הַגָּרִים"
+      },
+      {
+        "ja": "מעך",
+        "en": "with you",
+        "he": "עִמָּךְ"
       }
     ],
     "7": [
       {
-        "ja": "ולבהאימך. ולאלוחש אלד'י פי ארצ'ך. תכון גמיע ג'לתהא מאכלא",
-        "en": "And for your beasts, and for the wild creatures that are in your land, all its yield shall be for food.",
-        "he": "וְלִבְהֶמְתְּךָ--וְלַחַיָּה אֲשֶׁר בְּאַרְצֶךָ תִּהְיֶה כָל-תְּבוּאָתָהּ לֶאֱכֹל"
+        "ja": "ולבהאימך",
+        "en": "And for your beasts",
+        "he": "וְלִבְהֶמְתְּךָ"
+      },
+      {
+        "ja": "ולאלוחש",
+        "en": "and for the wild creatures",
+        "he": "וְלַחַיָּה"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "that are",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "פי ארצ'ך",
+        "en": "in your land",
+        "he": "בְּאַרְצֶךָ"
+      },
+      {
+        "ja": "תכון",
+        "en": "shall be",
+        "he": "תִּהְיֶה"
+      },
+      {
+        "ja": "גמיע ג'לתהא",
+        "en": "all its yield",
+        "he": "כָל-תְּבוּאָתָהּ"
+      },
+      {
+        "ja": "מאכלא",
+        "en": "for food",
+        "he": "לֶאֱכֹל"
       }
     ],
     "8": [
       {
-        "ja": "ת'ם אחץ סבע סנין עטלה. וד'אלך אלסבע אלסנין סבע מראר",
-        "en": "Then count seven years of desisting — and those seven years, seven times —",
-        "he": "וְסָפַרְתָּ לְךָ שֶׁבַע שַׁבְּתֹת שָׁנִים--שֶׁבַע שָׁנִים שֶׁבַע פְּעָמִים"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "פיציר גמלה' ד'אלך תסעה וארבעין סנה",
-        "en": "so that the sum of that shall be forty-nine years.",
-        "he": "וְהָיוּ לְךָ יְמֵי שֶׁבַע שַׁבְּתֹת הַשָּׁנִים תֵּשַׁע וְאַרְבָּעִים שָׁנָה"
+        "ja": "אחץ",
+        "en": "count",
+        "he": "וְסָפַרְתָּ"
+      },
+      {
+        "ja": "סבע",
+        "en": "seven",
+        "he": "שֶׁבַע"
+      },
+      {
+        "ja": "סנין עטלה",
+        "en": "years of desisting",
+        "he": "שַׁבְּתֹת שָׁנִים"
+      },
+      {
+        "ja": "וד'אלך",
+        "en": "and those"
+      },
+      {
+        "ja": "אלסבע אלסנין",
+        "en": "seven years",
+        "he": "שֶׁבַע שָׁנִים"
+      },
+      {
+        "ja": "סבע מראר",
+        "en": "seven times",
+        "he": "שֶׁבַע פְּעָמִים"
+      },
+      {
+        "ja": "פיציר",
+        "en": "so that"
+      },
+      {
+        "ja": "גמלה'",
+        "en": "the sum of"
+      },
+      {
+        "ja": "ד'אלך",
+        "en": "that"
+      },
+      {
+        "ja": "תסעה וארבעין סנה",
+        "en": "forty-nine years",
+        "he": "תֵּשַׁע וְאַרְבָּעִים שָׁנָה"
       }
     ],
     "9": [
       {
-        "ja": "ואצ'רב בבוק מגלב. פי אליום אלעאשר מן אלשהר אלסאבע . והו יום אלג'פראן",
-        "en": "And sound a gathering horn on the tenth day of the seventh month — it is the Day of Atonement —",
-        "he": "וְהַעֲבַרְתָּ שׁוֹפַר תְּרוּעָה בַּחֹדֶשׁ הַשְּׁבִעִי בֶּעָשׂוֹר לַחֹדֶשׁ בְּיוֹם הַכִּפֻּרִים"
+        "ja": "ואצ'רב",
+        "en": "And sound",
+        "he": "וְהַעֲבַרְתָּ"
       },
       {
-        "ja": "אצ'רבו פיה באלבוק פי גמיע בלאדכם",
-        "en": "sound it throughout all your lands.",
-        "he": "תַּעֲבִירוּ שׁוֹפָר בְּכָל-אַרְצְכֶם"
+        "ja": "בבוק",
+        "en": "a gathering",
+        "he": "שׁוֹפַר"
+      },
+      {
+        "ja": "מגלב",
+        "en": "horn",
+        "he": "תְּרוּעָה"
+      },
+      {
+        "ja": "פי אליום אלעאשר מן",
+        "en": "on the tenth day of",
+        "he": "בֶּעָשׂוֹר לַחֹדֶשׁ"
+      },
+      {
+        "ja": "אלשהר אלסאבע",
+        "en": "the seventh month",
+        "he": "בַּחֹדֶשׁ הַשְּׁבִעִי"
+      },
+      {
+        "ja": "והו יום אלג'פראן",
+        "en": "it is the Day of Atonement",
+        "he": "בְּיוֹם הַכִּפֻּרִים"
+      },
+      {
+        "ja": "אצ'רבו",
+        "en": "sound",
+        "he": "תַּעֲבִירוּ"
+      },
+      {
+        "ja": "פיה באלבוק",
+        "en": "it throughout",
+        "he": "שׁוֹפָר"
+      },
+      {
+        "ja": "פי גמיע בלאדכם",
+        "en": "all your lands",
+        "he": "בְּכָל-אַרְצְכֶם"
       }
     ],
     "11": [
       {
-        "ja": "ומן שרוט הד'ה סנה' אלאטלאק סנה' אלכ'מסין. אן לא תזרעו פיהא",
-        "en": "And among the conditions of this year of release, the year of fifty: you shall not sow in it,",
-        "he": "יוֹבֵל הִוא שְׁנַת הַחֲמִשִּׁים שָׁנָה--תִּהְיֶה לָכֶם לֹא תִזְרָעוּ"
+        "ja": "ומן",
+        "en": "And among"
       },
       {
-        "ja": "ולא תחצדו כ'לפהא. ולא תקטפו פראדהא",
-        "en": "and you shall not reap its aftergrowth, and you shall not pluck its single grapes.",
-        "he": "וְלֹא תִקְצְרוּ אֶת-סְפִיחֶיהָ וְלֹא תִבְצְרוּ אֶת-נְזִרֶיהָ"
+        "ja": "שרוט",
+        "en": "the conditions of"
+      },
+      {
+        "ja": "הד'ה",
+        "en": "this"
+      },
+      {
+        "ja": "סנה' אלאטלאק",
+        "en": "year of release",
+        "he": "יוֹבֵל הִוא"
+      },
+      {
+        "ja": "סנה' אלכ'מסין",
+        "en": "the year of fifty",
+        "he": "שְׁנַת הַחֲמִשִּׁים שָׁנָה"
+      },
+      {
+        "ja": "אן",
+        "en": "you shall"
+      },
+      {
+        "ja": "לא תזרעו",
+        "en": "not sow",
+        "he": "לֹא תִזְרָעוּ"
+      },
+      {
+        "ja": "פיהא",
+        "en": "in it"
+      },
+      {
+        "ja": "ולא תחצדו",
+        "en": "and you shall not reap",
+        "he": "וְלֹא תִקְצְרוּ"
+      },
+      {
+        "ja": "כ'לפהא",
+        "en": "its aftergrowth",
+        "he": "אֶת-סְפִיחֶיהָ"
+      },
+      {
+        "ja": "ולא תקטפו",
+        "en": "and you shall not pluck",
+        "he": "וְלֹא תִבְצְרוּ"
+      },
+      {
+        "ja": "פראדהא",
+        "en": "its single grapes",
+        "he": "אֶת-נְזִרֶיהָ"
       }
     ],
     "12": [
       {
-        "ja": "לאנהא סנה' אטלאק. תכון לכם מקדסה",
-        "en": "For it is a year of release — it shall be holy for you;",
-        "he": "כִּי יוֹבֵל הִוא קֹדֶשׁ תִּהְיֶה לָכֶם"
+        "ja": "לאנהא",
+        "en": "For it is",
+        "he": "כִּי"
       },
       {
-        "ja": "ומן אלצחרא. תאכלו ג'לתהא מבאחא",
-        "en": "from the open country you shall eat its yield as that which is freely permitted.",
-        "he": "מִן-הַשָּׂדֶה--תֹּאכְלוּ אֶת-תְּבוּאָתָהּ"
+        "ja": "סנה' אטלאק",
+        "en": "a year of release",
+        "he": "יוֹבֵל הִוא"
+      },
+      {
+        "ja": "מקדסה",
+        "en": "holy for you",
+        "he": "קֹדֶשׁ"
+      },
+      {
+        "ja": "תכון לכם",
+        "en": "it shall be",
+        "he": "תִּהְיֶה לָכֶם"
+      },
+      {
+        "ja": "ומן",
+        "en": "from"
+      },
+      {
+        "ja": "אלצחרא",
+        "en": "the open country",
+        "he": "מִן-הַשָּׂדֶה"
+      },
+      {
+        "ja": "תאכלו",
+        "en": "you shall eat",
+        "he": "תֹּאכְלוּ"
+      },
+      {
+        "ja": "ג'לתהא",
+        "en": "its yield",
+        "he": "אֶת-תְּבוּאָתָהּ"
+      },
+      {
+        "ja": "מבאחא",
+        "en": "as that which is freely permitted"
       }
     ],
     "13": [
       {
-        "ja": "ופי הד'ה סנה' אלאטלאק. ירגע כל אמר אלי' חוזה",
-        "en": "And in this year of release, every man shall return to his holding.",
-        "he": "בִּשְׁנַת הַיּוֹבֵל הַזֹּאת תָּשֻׁבוּ אִישׁ אֶל-אֲחֻזָּתוֹ"
+        "ja": "ופי",
+        "en": "And in"
+      },
+      {
+        "ja": "הד'ה סנה' אלאטלאק",
+        "en": "this year of release",
+        "he": "בִּשְׁנַת הַיּוֹבֵל"
+      },
+      {
+        "ja": "ירגע",
+        "en": "shall return",
+        "he": "תָּשֻׁבוּ"
+      },
+      {
+        "ja": "כל אמר",
+        "en": "every man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "אלי' חוזה",
+        "en": "to his holding",
+        "he": "אֶל-אֲחֻזָּתוֹ"
       }
     ],
     "14": [
       {
-        "ja": "ואד'א בעת ביעא לצאחבך. או אבתעת מנה. פלא יג'בן כל ואחד אכ'אה",
-        "en": "And when you sell a sale to your fellow, or buy from him, let no one wrong his brother.",
-        "he": "וְכִי-תִמְכְּרוּ מִמְכָּר לַעֲמִיתֶךָ אוֹ קָנֹה מִיַּד עֲמִיתֶךָ--אַל-תּוֹנוּ אִישׁ אֶת-אָחִיו"
+        "ja": "ואד'א",
+        "en": "And when"
+      },
+      {
+        "ja": "בעת ביעא",
+        "en": "you sell a sale",
+        "he": "תִמְכְּרוּ מִמְכָּר"
+      },
+      {
+        "ja": "לצאחבך",
+        "en": "to your fellow",
+        "he": "לַעֲמִיתֶךָ"
+      },
+      {
+        "ja": "או אבתעת",
+        "en": "or buy",
+        "he": "אוֹ קָנֹה"
+      },
+      {
+        "ja": "מנה",
+        "en": "from him",
+        "he": "מִיַּד עֲמִיתֶךָ"
+      },
+      {
+        "ja": "פלא",
+        "en": "let"
+      },
+      {
+        "ja": "יג'בן",
+        "en": "no",
+        "he": "אַל-תּוֹנוּ"
+      },
+      {
+        "ja": "כל ואחד",
+        "en": "one wrong",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "אכ'אה",
+        "en": "his brother",
+        "he": "אֶת-אָחִיו"
       }
     ],
     "15": [
       {
-        "ja": "באחצא סנין מן בעד סנה אלאטלאק. תשתרי מן צאחבך",
-        "en": "By the count of years after the year of release you shall buy from your fellow,",
-        "he": "בְּמִסְפַּר שָׁנִים אַחַר הַיּוֹבֵל תִּקְנֶה מֵאֵת עֲמִיתֶךָ"
+        "ja": "באחצא",
+        "en": "By the count of"
       },
       {
-        "ja": "ובאחצא סני ג'לתהא יביעך הו",
-        "en": "and by the count of years of its yield he shall sell to you.",
-        "he": "בְּמִסְפַּר שְׁנֵי-תְבוּאֹת יִמְכָּר-לָךְ"
+        "ja": "סנין",
+        "en": "years",
+        "he": "בְּמִסְפַּר שָׁנִים"
+      },
+      {
+        "ja": "מן בעד",
+        "en": "after"
+      },
+      {
+        "ja": "סנה אלאטלאק",
+        "en": "the year of release",
+        "he": "אַחַר הַיּוֹבֵל"
+      },
+      {
+        "ja": "תשתרי",
+        "en": "you shall buy",
+        "he": "תִּקְנֶה"
+      },
+      {
+        "ja": "מן צאחבך",
+        "en": "from your fellow",
+        "he": "מֵאֵת עֲמִיתֶךָ"
+      },
+      {
+        "ja": "ובאחצא",
+        "en": "and by the count of"
+      },
+      {
+        "ja": "סני ג'לתהא",
+        "en": "years of its yield",
+        "he": "בְּמִסְפַּר שְׁנֵי-תְבוּאֹת"
+      },
+      {
+        "ja": "יביעך",
+        "en": "shall sell to you",
+        "he": "יִמְכָּר-לָךְ"
+      },
+      {
+        "ja": "הו",
+        "en": "he"
       }
     ],
     "16": [
       {
-        "ja": "פעלי' קדר כת'רת אלסנין. יגב אן תכת'ר לה אלת'מן. ועלי' קדר קלתהא. יגוז אן תקל לה",
-        "en": "According to the abundance of the years, the price must be increased for him; and according to the fewness of them, it is permitted that it be decreased for him —",
-        "he": "לְפִי רֹב הַשָּׁנִים תַּרְבֶּה מִקְנָתוֹ וּלְפִי מְעֹט הַשָּׁנִים תַּמְעִיט מִקְנָתוֹ"
+        "ja": "פעלי'",
+        "en": "According to"
       },
       {
-        "ja": "לאנה אנמא יביעך ג'לאת מחצאה",
-        "en": "for it is a counted number of yields that he is selling you.",
-        "he": "כִּי מִסְפַּר תְּבוּאֹת הוּא מֹכֵר לָךְ"
+        "ja": "קדר",
+        "en": "the abundance"
+      },
+      {
+        "ja": "כת'רת אלסנין",
+        "en": "of the years",
+        "he": "לְפִי רֹב הַשָּׁנִים"
+      },
+      {
+        "ja": "יגב",
+        "en": "the price must"
+      },
+      {
+        "ja": "אן",
+        "en": "be"
+      },
+      {
+        "ja": "תכת'ר לה אלת'מן",
+        "en": "increased for him",
+        "he": "תַּרְבֶּה מִקְנָתוֹ"
+      },
+      {
+        "ja": "ועלי'",
+        "en": "and according to"
+      },
+      {
+        "ja": "קדר",
+        "en": "the fewness"
+      },
+      {
+        "ja": "קלתהא",
+        "en": "of them",
+        "he": "וּלְפִי מְעֹט הַשָּׁנִים"
+      },
+      {
+        "ja": "יגוז",
+        "en": "it is permitted"
+      },
+      {
+        "ja": "אן",
+        "en": "that"
+      },
+      {
+        "ja": "תקל לה",
+        "en": "it be decreased for him",
+        "he": "תַּמְעִיט מִקְנָתוֹ"
+      },
+      {
+        "ja": "לאנה",
+        "en": "for",
+        "he": "כִּי"
+      },
+      {
+        "ja": "אנמא",
+        "en": "it is a counted number"
+      },
+      {
+        "ja": "יביעך ג'לאת",
+        "en": "of yields",
+        "he": "מִסְפַּר תְּבוּאֹת"
+      },
+      {
+        "ja": "מחצאה",
+        "en": "that he is selling you"
       }
     ],
     "17": [
       {
-        "ja": "ולא יג'בן כל ואחד צאחבה",
-        "en": "And let no one wrong his fellow;",
-        "he": "וְלֹא תוֹנוּ אִישׁ אֶת-עֲמִיתוֹ"
+        "ja": "ולא יג'בן",
+        "en": "And let no one",
+        "he": "וְלֹא תוֹנוּ"
       },
       {
-        "ja": "וכ'ף רבך. פאני אללה רבכם אלמעאקב",
-        "en": "and fear your Lord — for I am God, your Lord, who punishes.",
-        "he": "וְיָרֵאתָ מֵאֱלֹהֶיךָ כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "כל ואחד",
+        "en": "wrong",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "צאחבה",
+        "en": "his fellow",
+        "he": "אֶת-עֲמִיתוֹ"
+      },
+      {
+        "ja": "וכ'ף",
+        "en": "and fear"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "וְיָרֵאתָ מֵאֱלֹהֶיךָ"
+      },
+      {
+        "ja": "פאני",
+        "en": "for I am"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "אֲנִי יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אלמעאקב",
+        "en": "who punishes"
       }
     ],
     "18": [
       {
-        "ja": "ואעמלו רסומי ואחכאמי אחפצוהא ואעמלו בהא",
-        "en": "And perform My statutes, and My ordinances — keep them and act by them;",
-        "he": "וַעֲשִׂיתֶם אֶת-חֻקֹּתַי וְאֶת-מִשְׁפָּטַי תִּשְׁמְרוּ וַעֲשִׂיתֶם אֹתָם"
+        "ja": "ואעמלו",
+        "en": "And perform",
+        "he": "וַעֲשִׂיתֶם"
       },
       {
-        "ja": "ואסכנו אלבלד ואת'קין בי",
-        "en": "and dwell in the land, trusting in Me.",
-        "he": "וִישַׁבְתֶּם עַל-הָאָרֶץ לָבֶטַח"
+        "ja": "רסומי",
+        "en": "My statutes",
+        "he": "אֶת-חֻקֹּתַי"
+      },
+      {
+        "ja": "ואחכאמי",
+        "en": "and My ordinances",
+        "he": "וְאֶת-מִשְׁפָּטַי"
+      },
+      {
+        "ja": "אחפצוהא",
+        "en": "keep them",
+        "he": "תִּשְׁמְרוּ"
+      },
+      {
+        "ja": "ואעמלו בהא",
+        "en": "and act by them",
+        "he": "וַעֲשִׂיתֶם אֹתָם"
+      },
+      {
+        "ja": "ואסכנו",
+        "en": "and dwell",
+        "he": "וִישַׁבְתֶּם"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "in the land",
+        "he": "עַל-הָאָרֶץ"
+      },
+      {
+        "ja": "ואת'קין",
+        "en": "trusting"
+      },
+      {
+        "ja": "בי",
+        "en": "in Me"
       }
     ],
     "19": [
       {
-        "ja": "תכ'רג לכם אלארץ' ת'מרהא. פתאכלוה הנייא",
-        "en": "The land shall bring forth its fruit for you, and you shall eat it with enjoyment,",
-        "he": "וְנָתְנָה הָאָרֶץ פִּרְיָהּ וַאֲכַלְתֶּם לָשֹׂבַע"
+        "ja": "תכ'רג",
+        "en": "shall bring forth",
+        "he": "וְנָתְנָה"
       },
       {
-        "ja": "ותקימון בהא ואת'קין",
-        "en": "and you shall settle therein, trusting.",
-        "he": "וִישַׁבְתֶּם לָבֶטַח עָלֶיהָ"
+        "ja": "אלארץ'",
+        "en": "The land",
+        "he": "הָאָרֶץ"
+      },
+      {
+        "ja": "ת'מרהא",
+        "en": "its fruit",
+        "he": "פִּרְיָהּ"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you"
+      },
+      {
+        "ja": "פתאכלוה",
+        "en": "and you shall eat it",
+        "he": "וַאֲכַלְתֶּם"
+      },
+      {
+        "ja": "הנייא",
+        "en": "with enjoyment",
+        "he": "לָשֹׂבַע"
+      },
+      {
+        "ja": "ותקימון",
+        "en": "and you shall settle",
+        "he": "וִישַׁבְתֶּם"
+      },
+      {
+        "ja": "בהא",
+        "en": "therein",
+        "he": "עָלֶיהָ"
+      },
+      {
+        "ja": "ואת'קין",
+        "en": "trusting"
       }
     ],
     "20": [
       {
-        "ja": "פאן קלתם. מא נאכל פי אלסנה אלסאבעה. אד' לא נזרע. ולא נגמע ג'לתנא",
-        "en": "And if you say: What shall we eat in the seventh year, since we do not sow, and do not gather our yield —",
-        "he": "וְכִי תֹאמְרוּ מַה-נֹּאכַל בַּשָּׁנָה הַשְּׁבִיעִת הֵן לֹא נִזְרָע וְלֹא נֶאֱסֹף אֶת-תְּבוּאָתֵנוּ"
+        "ja": "פאן",
+        "en": "And if"
+      },
+      {
+        "ja": "קלתם",
+        "en": "you say",
+        "he": "וְכִי תֹאמְרוּ"
+      },
+      {
+        "ja": "מא נאכל",
+        "en": "What shall we eat",
+        "he": "מַה-נֹּאכַל"
+      },
+      {
+        "ja": "פי אלסנה אלסאבעה",
+        "en": "in the seventh year",
+        "he": "בַּשָּׁנָה הַשְּׁבִיעִת"
+      },
+      {
+        "ja": "אד'",
+        "en": "since",
+        "he": "הֵן"
+      },
+      {
+        "ja": "לא נזרע",
+        "en": "we do not sow",
+        "he": "לֹא נִזְרָע"
+      },
+      {
+        "ja": "ולא נגמע",
+        "en": "and do not gather",
+        "he": "וְלֹא נֶאֱסֹף"
+      },
+      {
+        "ja": "ג'לתנא",
+        "en": "our yield",
+        "he": "אֶת-תְּבוּאָתֵנוּ"
       }
     ],
     "21": [
       {
-        "ja": "פאמר בברכתי לכם. פי אלסנה אלסאדסה",
-        "en": "I shall command My blessing upon you in the sixth year,",
-        "he": "וְצִוִּיתִי אֶת-בִּרְכָתִי לָכֶם בַּשָּׁנָה הַשִּׁשִּׁית"
+        "ja": "פאמר",
+        "en": "I shall command"
       },
       {
-        "ja": "פתכפיכם ג'לתהא ת'לאת' סנין",
-        "en": "and its yield shall suffice you for three years.",
-        "he": "וְעָשָׂת אֶת-הַתְּבוּאָה לִשְׁלֹשׁ הַשָּׁנִים"
+        "ja": "בברכתי",
+        "en": "My blessing",
+        "he": "וְצִוִּיתִי אֶת-בִּרְכָתִי"
+      },
+      {
+        "ja": "לכם",
+        "en": "upon you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "פי אלסנה אלסאדסה",
+        "en": "in the sixth year",
+        "he": "בַּשָּׁנָה הַשִּׁשִּׁית"
+      },
+      {
+        "ja": "פתכפיכם",
+        "en": "shall suffice you",
+        "he": "וְעָשָׂת"
+      },
+      {
+        "ja": "ג'לתהא",
+        "en": "its yield",
+        "he": "אֶת-הַתְּבוּאָה"
+      },
+      {
+        "ja": "ת'לאת' סנין",
+        "en": "for three years",
+        "he": "לִשְׁלֹשׁ הַשָּׁנִים"
       }
     ],
     "22": [
       {
-        "ja": "ואזרעו פי אלסנה אלת'אמנה. ואנתם תאכלון מן ג'לתהא עתיקא. אלי' אלסנה אלתאסעה",
-        "en": "And you shall sow in the eighth year, while you are eating from the old yield — until the ninth year,",
-        "he": "וּזְרַעְתֶּם אֵת הַשָּׁנָה הַשְּׁמִינִת וַאֲכַלְתֶּם מִן-הַתְּבוּאָה יָשָׁן עַד הַשָּׁנָה הַתְּשִׁיעִת"
+        "ja": "ואזרעו",
+        "en": "And you shall sow",
+        "he": "וּזְרַעְתֶּם"
       },
       {
-        "ja": "אלי'' מגי ג'לתהא. תאכלון עתיקא",
-        "en": "until the coming of its yield, you shall eat what is old.",
-        "he": "עַד-בּוֹא תְּבוּאָתָהּ--תֹּאכְלוּ יָשָׁן"
+        "ja": "פי אלסנה אלת'אמנה",
+        "en": "in the eighth year",
+        "he": "אֵת הַשָּׁנָה הַשְּׁמִינִת"
+      },
+      {
+        "ja": "ואנתם תאכלון",
+        "en": "while you are eating",
+        "he": "וַאֲכַלְתֶּם"
+      },
+      {
+        "ja": "מן ג'לתהא",
+        "en": "from the old",
+        "he": "מִן-הַתְּבוּאָה"
+      },
+      {
+        "ja": "עתיקא",
+        "en": "yield",
+        "he": "יָשָׁן"
+      },
+      {
+        "ja": "אלי' אלסנה אלתאסעה",
+        "en": "until the ninth year",
+        "he": "עַד הַשָּׁנָה הַתְּשִׁיעִת"
+      },
+      {
+        "ja": "אלי'' מגי",
+        "en": "until the coming of",
+        "he": "עַד-בּוֹא"
+      },
+      {
+        "ja": "ג'לתהא",
+        "en": "its yield",
+        "he": "תְּבוּאָתָהּ"
+      },
+      {
+        "ja": "תאכלון עתיקא",
+        "en": "you shall eat what is old",
+        "he": "תֹּאכְלוּ יָשָׁן"
       }
     ],
     "23": [
       {
-        "ja": "ואלארץ' פלא תבאע בתאתא. לאנהא לי",
-        "en": "And the land shall not be sold outright — for it is Mine;",
-        "he": "וְהָאָרֶץ לֹא תִמָּכֵר לִצְמִתֻת--כִּי-לִי הָאָרֶץ"
+        "ja": "ואלארץ'",
+        "en": "And the land",
+        "he": "וְהָאָרֶץ"
       },
       {
-        "ja": "ואנמא אנתם סכאן ואצ'יאף לי",
-        "en": "you are but residents and guests with Me.",
-        "he": "כִּי-גֵרִים וְתוֹשָׁבִים אַתֶּם עִמָּדִי"
+        "ja": "פלא תבאע",
+        "en": "shall not be sold",
+        "he": "לֹא תִמָּכֵר"
+      },
+      {
+        "ja": "בתאתא",
+        "en": "outright",
+        "he": "לִצְמִתֻת"
+      },
+      {
+        "ja": "לאנהא לי",
+        "en": "for it is Mine",
+        "he": "כִּי-לִי"
+      },
+      {
+        "ja": "ואנמא",
+        "en": "you are but"
+      },
+      {
+        "ja": "סכאן",
+        "en": "residents",
+        "he": "כִּי-גֵרִים"
+      },
+      {
+        "ja": "ואצ'יאף",
+        "en": "and guests",
+        "he": "וְתוֹשָׁבִים"
+      },
+      {
+        "ja": "לי",
+        "en": "with Me",
+        "he": "אַתֶּם עִמָּדִי"
       }
     ],
     "24": [
       {
-        "ja": "ופי גמיע בלד חוזכם. אגעלו ולאיה לאלארץ'",
-        "en": "And throughout all the land of your holding, grant dominion over the land.",
-        "he": "וּבְכֹל אֶרֶץ אֲחֻזַּתְכֶם גְּאֻלָּה תִּתְּנוּ לָאָרֶץ"
+        "ja": "ופי",
+        "en": "And throughout"
+      },
+      {
+        "ja": "גמיע",
+        "en": "all",
+        "he": "וּבְכֹל"
+      },
+      {
+        "ja": "בלד",
+        "en": "the land of",
+        "he": "אֶרֶץ"
+      },
+      {
+        "ja": "חוזכם",
+        "en": "your holding",
+        "he": "אֲחֻזַּתְכֶם"
+      },
+      {
+        "ja": "אגעלו ולאיה",
+        "en": "grant dominion",
+        "he": "גְּאֻלָּה"
+      },
+      {
+        "ja": "לאלארץ'",
+        "en": "over the land",
+        "he": "תִּתְּנוּ לָאָרֶץ"
       }
     ],
     "25": [
       {
-        "ja": "ואד'א תמאהן אכ'יך. פבאע שייא מן חוזה",
-        "en": "And if your brother becomes impoverished and sells something of his holding,",
-        "he": "כִּי-יָמוּךְ אָחִיךָ וּמָכַר מֵאֲחֻזָּתוֹ"
+        "ja": "ואד'א",
+        "en": "And if"
       },
       {
-        "ja": "פליאת ולייה אלאקרב אליה. ויתולא ביע אכ'יה",
-        "en": "then let his nearest guardian come and take charge of his brother's sale.",
-        "he": "וּבָא גֹאֲלוֹ הַקָּרֹב אֵלָיו וְגָאַל אֵת מִמְכַּר אָחִיו"
+        "ja": "תמאהן",
+        "en": "becomes impoverished",
+        "he": "כִּי-יָמוּךְ"
+      },
+      {
+        "ja": "אכ'יך",
+        "en": "your brother",
+        "he": "אָחִיךָ"
+      },
+      {
+        "ja": "פבאע",
+        "en": "and sells",
+        "he": "וּמָכַר"
+      },
+      {
+        "ja": "שייא",
+        "en": "something"
+      },
+      {
+        "ja": "מן חוזה",
+        "en": "of his holding",
+        "he": "מֵאֲחֻזָּתוֹ"
+      },
+      {
+        "ja": "פליאת",
+        "en": "then let"
+      },
+      {
+        "ja": "ולייה",
+        "en": "his nearest guardian",
+        "he": "וּבָא גֹאֲלוֹ"
+      },
+      {
+        "ja": "אלאקרב אליה",
+        "en": "come",
+        "he": "הַקָּרֹב אֵלָיו"
+      },
+      {
+        "ja": "ויתולא",
+        "en": "and take charge of",
+        "he": "וְגָאַל"
+      },
+      {
+        "ja": "ביע אכ'יה",
+        "en": "his brother's sale",
+        "he": "אֵת מִמְכַּר אָחִיו"
       }
     ],
     "26": [
       {
-        "ja": "ואי רג'ל לם יכון לה ולי. פנאלת ידה. ואצאב כמקדאר פכאכה",
-        "en": "And any man who has no guardian — if his hand reaches, and he finds the measure of his redemption —",
-        "he": "וְאִישׁ כִּי לֹא יִהְיֶה-לּוֹ גֹּאֵל וְהִשִּׂיגָה יָדוֹ וּמָצָא כְּדֵי גְאֻלָּתוֹ"
+        "ja": "ואי",
+        "en": "And any"
+      },
+      {
+        "ja": "רג'ל",
+        "en": "man",
+        "he": "וְאִישׁ"
+      },
+      {
+        "ja": "לם יכון לה",
+        "en": "who has no",
+        "he": "כִּי לֹא יִהְיֶה-לּוֹ"
+      },
+      {
+        "ja": "ולי",
+        "en": "guardian",
+        "he": "גֹּאֵל"
+      },
+      {
+        "ja": "פנאלת",
+        "en": "if his hand"
+      },
+      {
+        "ja": "ידה",
+        "en": "reaches",
+        "he": "וְהִשִּׂיגָה יָדוֹ"
+      },
+      {
+        "ja": "ואצאב",
+        "en": "and he finds",
+        "he": "וּמָצָא"
+      },
+      {
+        "ja": "כמקדאר פכאכה",
+        "en": "the measure of his redemption",
+        "he": "כְּדֵי גְאֻלָּתוֹ"
       }
     ],
     "27": [
       {
-        "ja": "פליחסב סני ביעה. וירד אלפאצ'ל אלי' אלרגל אלד'י באעה",
-        "en": "let him reckon the years of his sale, and return the surplus to the man to whom he sold it,",
-        "he": "וְחִשַּׁב אֶת-שְׁנֵי מִמְכָּרוֹ וְהֵשִׁיב אֶת-הָעֹדֵף לָאִישׁ אֲשֶׁר מָכַר-לוֹ"
+        "ja": "פליחסב",
+        "en": "let him reckon"
       },
       {
-        "ja": "וירגע אלי' חוזה",
-        "en": "and he shall return to his holding.",
-        "he": "וְשָׁב לַאֲחֻזָּתוֹ"
+        "ja": "סני",
+        "en": "the years of",
+        "he": "וְחִשַּׁב"
+      },
+      {
+        "ja": "ביעה",
+        "en": "his sale",
+        "he": "אֶת-שְׁנֵי מִמְכָּרוֹ"
+      },
+      {
+        "ja": "וירד",
+        "en": "and return",
+        "he": "וְהֵשִׁיב"
+      },
+      {
+        "ja": "אלפאצ'ל",
+        "en": "the surplus",
+        "he": "אֶת-הָעֹדֵף"
+      },
+      {
+        "ja": "אלי' אלרגל",
+        "en": "to the man",
+        "he": "לָאִישׁ"
+      },
+      {
+        "ja": "אלד'י באעה",
+        "en": "to whom he sold it",
+        "he": "אֲשֶׁר מָכַר-לוֹ"
+      },
+      {
+        "ja": "וירגע",
+        "en": "and he shall return",
+        "he": "וְשָׁב"
+      },
+      {
+        "ja": "אלי' חוזה",
+        "en": "to his holding",
+        "he": "לַאֲחֻזָּתוֹ"
       }
     ],
     "28": [
       {
-        "ja": "ואן לם תנאל ידה מקדאר מא ירדה עליה. פליבק ביעה. פי יד אלמשתרי מנה. אלי' סנה' אלאטלאק",
-        "en": "And if his hand does not reach the measure of what he is to return to him, then his sale shall remain in the hand of its buyer until the year of release;",
-        "he": "וְאִם לֹא-מָצְאָה יָדוֹ דֵּי הָשִׁיב לוֹ--וְהָיָה מִמְכָּרוֹ בְּיַד הַקֹּנֶה אֹתוֹ עַד שְׁנַת הַיּוֹבֵל"
+        "ja": "ואן",
+        "en": "And if"
       },
       {
-        "ja": "ויכ'רג פיהא וירגע אלי' חוזה",
-        "en": "and in that year it shall go out, and he shall return to his holding.",
-        "he": "וְיָצָא בַּיֹּבֵל וְשָׁב לַאֲחֻזָּתוֹ"
+        "ja": "לם תנאל",
+        "en": "does not reach",
+        "he": "וְאִם לֹא-מָצְאָה"
+      },
+      {
+        "ja": "ידה",
+        "en": "his hand",
+        "he": "יָדוֹ"
+      },
+      {
+        "ja": "מקדאר",
+        "en": "the measure of"
+      },
+      {
+        "ja": "מא ירדה עליה",
+        "en": "what he is to return to him",
+        "he": "דֵּי הָשִׁיב לוֹ"
+      },
+      {
+        "ja": "פליבק",
+        "en": "then his sale shall"
+      },
+      {
+        "ja": "ביעה",
+        "en": "remain",
+        "he": "וְהָיָה מִמְכָּרוֹ"
+      },
+      {
+        "ja": "פי יד אלמשתרי מנה",
+        "en": "in the hand of its buyer",
+        "he": "בְּיַד הַקֹּנֶה אֹתוֹ"
+      },
+      {
+        "ja": "אלי' סנה' אלאטלאק",
+        "en": "until the year of release",
+        "he": "עַד שְׁנַת הַיּוֹבֵל"
+      },
+      {
+        "ja": "ויכ'רג",
+        "en": "it shall go out",
+        "he": "וְיָצָא"
+      },
+      {
+        "ja": "פיהא",
+        "en": "in that year",
+        "he": "בַּיֹּבֵל"
+      },
+      {
+        "ja": "וירגע",
+        "en": "and he shall return",
+        "he": "וְשָׁב"
+      },
+      {
+        "ja": "אלי' חוזה",
+        "en": "to his holding",
+        "he": "לַאֲחֻזָּתוֹ"
       }
     ],
     "29": [
       {
-        "ja": "ואי רג'ל באע ביתא מסכנא פי קריה להא סור. פליכון באלכ'יאר. אלי' אנקצ'א סנה מן יום ביעה",
-        "en": "And any man who sells a dwelling house in a town that has a wall — he shall have the option until the completion of a year from the day of his sale;",
-        "he": "וְאִישׁ כִּי-יִמְכֹּר בֵּית-מוֹשַׁב עִיר חוֹמָה--וְהָיְתָה גְּאֻלָּתוֹ עַד-תֹּם שְׁנַת מִמְכָּרוֹ"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "פיכון פכאכה חולא",
-        "en": "his redemption shall be a full year.",
+        "ja": "רג'ל",
+        "en": "man",
+        "he": "וְאִישׁ"
+      },
+      {
+        "ja": "באע",
+        "en": "who sells",
+        "he": "כִּי-יִמְכֹּר"
+      },
+      {
+        "ja": "ביתא מסכנא",
+        "en": "a dwelling house",
+        "he": "בֵּית-מוֹשַׁב"
+      },
+      {
+        "ja": "פי קריה להא סור",
+        "en": "in a town that has a wall",
+        "he": "עִיר חוֹמָה"
+      },
+      {
+        "ja": "פליכון",
+        "en": "he shall have"
+      },
+      {
+        "ja": "באלכ'יאר",
+        "en": "the option",
+        "he": "וְהָיְתָה גְּאֻלָּתוֹ"
+      },
+      {
+        "ja": "אלי' אנקצ'א סנה מן יום ביעה",
+        "en": "until the completion of a year from the day of his sale",
+        "he": "עַד-תֹּם שְׁנַת מִמְכָּרוֹ"
+      },
+      {
+        "ja": "פיכון",
+        "en": "his redemption shall be"
+      },
+      {
+        "ja": "פכאכה חולא",
+        "en": "a full year",
         "he": "יָמִים תִּהְיֶה גְאֻלָּתוֹ"
       }
     ],
     "30": [
       {
-        "ja": "פאן לם יפתכה. אלי' אן כמלת לה סנה תאמה. פקד ת'בת אלבית אלד'י פי אלקריה אלתי להא סור. בתאתא ללמשתרי ולאגיאלה",
-        "en": "And if he does not redeem it by the time a full year is completed for him, then the house in the town that has a wall is confirmed outright for the buyer and his generations —",
-        "he": "וְאִם לֹא-יִגָּאֵל עַד-מְלֹאת לוֹ שָׁנָה תְמִימָה--וְקָם הַבַּיִת אֲשֶׁר-בָּעִיר אֲשֶׁר-לא (לוֹ) חֹמָה לַצְּמִיתֻת לַקֹּנֶה אֹתוֹ לְדֹרֹתָיו"
+        "ja": "פאן",
+        "en": "And if"
       },
       {
-        "ja": "לא יכ'רג פי סנה' אלאטלאק",
-        "en": "it shall not go out in the year of release.",
-        "he": "לֹא יֵצֵא בַּיֹּבֵל"
+        "ja": "לם יפתכה",
+        "en": "he does not redeem it",
+        "he": "וְאִם לֹא-יִגָּאֵל"
+      },
+      {
+        "ja": "אלי' אן כמלת לה",
+        "en": "by the time",
+        "he": "עַד-מְלֹאת לוֹ"
+      },
+      {
+        "ja": "סנה תאמה",
+        "en": "a full year is completed for him",
+        "he": "שָׁנָה תְמִימָה"
+      },
+      {
+        "ja": "פקד ת'בת",
+        "en": "then"
+      },
+      {
+        "ja": "אלבית",
+        "en": "the house",
+        "he": "וְקָם הַבַּיִת"
+      },
+      {
+        "ja": "אלד'י פי אלקריה",
+        "en": "in the town",
+        "he": "אֲשֶׁר-בָּעִיר"
+      },
+      {
+        "ja": "אלתי להא סור",
+        "en": "that has a wall",
+        "he": "אֲשֶׁר-לא (לוֹ) חֹמָה"
+      },
+      {
+        "ja": "בתאתא",
+        "en": "outright",
+        "he": "לַצְּמִיתֻת"
+      },
+      {
+        "ja": "ללמשתרי",
+        "en": "for the buyer",
+        "he": "לַקֹּנֶה אֹתוֹ"
+      },
+      {
+        "ja": "ולאגיאלה",
+        "en": "and his generations",
+        "he": "לְדֹרֹתָיו"
+      },
+      {
+        "ja": "לא יכ'רג",
+        "en": "it shall not go out",
+        "he": "לֹא יֵצֵא"
+      },
+      {
+        "ja": "פי סנה' אלאטלאק",
+        "en": "in the year of release",
+        "he": "בַּיֹּבֵל"
       }
     ],
     "31": [
       {
-        "ja": "וביות אלארבאץ'. אלתי ליס להא סור יחיט בהא. פכמת'ל צ'יאע אלארץ' תחסב. אן יכון להא ולאיה",
-        "en": "But houses of the outlying settlements that have no wall surrounding them shall be reckoned like the estates of the open country — dominion shall apply to them,",
-        "he": "וּבָתֵּי הַחֲצֵרִים אֲשֶׁר אֵין-לָהֶם חֹמָה סָבִיב--עַל-שְׂדֵה הָאָרֶץ יֵחָשֵׁב גְּאֻלָּה תִּהְיֶה-לּוֹ"
+        "ja": "וביות אלארבאץ'",
+        "en": "But houses of the outlying settlements",
+        "he": "וּבָתֵּי הַחֲצֵרִים"
       },
       {
-        "ja": "ותכ'רג פי סנה' אלאטלאק",
-        "en": "and they shall go out in the year of release.",
+        "ja": "אלתי ליס להא סור",
+        "en": "that have no wall",
+        "he": "אֲשֶׁר אֵין-לָהֶם חֹמָה"
+      },
+      {
+        "ja": "יחיט בהא",
+        "en": "surrounding them"
+      },
+      {
+        "ja": "פכמת'ל",
+        "en": "like"
+      },
+      {
+        "ja": "צ'יאע אלארץ'",
+        "en": "the estates of the open country",
+        "he": "עַל-שְׂדֵה הָאָרֶץ"
+      },
+      {
+        "ja": "תחסב",
+        "en": "shall be reckoned",
+        "he": "יֵחָשֵׁב"
+      },
+      {
+        "ja": "אן יכון להא ולאיה",
+        "en": "dominion shall apply to them",
+        "he": "גְּאֻלָּה"
+      },
+      {
+        "ja": "ותכ'רג",
+        "en": "and they shall go out",
+        "he": "תִּהְיֶה-לּוֹ"
+      },
+      {
+        "ja": "פי סנה' אלאטלאק",
+        "en": "in the year of release",
         "he": "וּבַיֹּבֵל יֵצֵא"
       }
     ],
     "32": [
       {
-        "ja": "ואמא קרי' אלליואניין וביות קרי' חוזהם. פלהם אן יפתכוהא אבדא",
-        "en": "But as for the towns of the Levites, and the houses of their towns which are their holding — they have the right to redeem them forever.",
-        "he": "וְעָרֵי הַלְוִיִּם--בָּתֵּי עָרֵי אֲחֻזָּתָם גְּאֻלַּת עוֹלָם תִּהְיֶה לַלְוִיִּם"
+        "ja": "ואמא",
+        "en": "But as for"
+      },
+      {
+        "ja": "קרי' אלליואניין",
+        "en": "the towns of the Levites",
+        "he": "וְעָרֵי הַלְוִיִּם"
+      },
+      {
+        "ja": "וביות קרי' חוזהם",
+        "en": "and the houses of their towns which are their holding",
+        "he": "בָּתֵּי עָרֵי אֲחֻזָּתָם"
+      },
+      {
+        "ja": "פלהם",
+        "en": "they have"
+      },
+      {
+        "ja": "אן",
+        "en": "the right"
+      },
+      {
+        "ja": "יפתכוהא אבדא",
+        "en": "to redeem them forever",
+        "he": "גְּאֻלַּת עוֹלָם תִּהְיֶה לַלְוִיִּם"
       }
     ],
     "33": [
       {
-        "ja": "ומן ישתרי ד'אלך מנהם. פליכ'רג כל בית מביוע. וקרי' חוז לאייהם כאן פי סנה אלאטלאק",
-        "en": "And whoever buys from them — every sold house and the towns of the holding of whichever Levite it may be shall go out in the year of release —",
-        "he": "וַאֲשֶׁר יִגְאַל מִן-הַלְוִיִּם וְיָצָא מִמְכַּר-בַּיִת וְעִיר אֲחֻזָּתוֹ בַּיֹּבֵל"
+        "ja": "ומן",
+        "en": "And whoever"
       },
       {
-        "ja": "לאן ביותהם וקראהם. הי חוזהם פי מא בין בני אסראיל",
-        "en": "for their houses and their towns are their holding among the sons of Israel.",
-        "he": "כִּי בָתֵּי עָרֵי הַלְוִיִּם הִוא אֲחֻזָּתָם בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
+        "ja": "ישתרי ד'אלך מנהם",
+        "en": "buys from them",
+        "he": "וַאֲשֶׁר יִגְאַל מִן-הַלְוִיִּם"
+      },
+      {
+        "ja": "פליכ'רג",
+        "en": "shall go out"
+      },
+      {
+        "ja": "כל בית מביוע",
+        "en": "every sold house",
+        "he": "וְיָצָא מִמְכַּר-בַּיִת"
+      },
+      {
+        "ja": "וקרי' חוז",
+        "en": "and the towns of the holding",
+        "he": "וְעִיר אֲחֻזָּתוֹ"
+      },
+      {
+        "ja": "לאייהם כאן",
+        "en": "of whichever Levite it may be"
+      },
+      {
+        "ja": "פי סנה אלאטלאק",
+        "en": "in the year of release",
+        "he": "בַּיֹּבֵל"
+      },
+      {
+        "ja": "לאן",
+        "en": "for",
+        "he": "כִּי"
+      },
+      {
+        "ja": "ביותהם וקראהם",
+        "en": "their houses and their towns",
+        "he": "בָתֵּי עָרֵי הַלְוִיִּם"
+      },
+      {
+        "ja": "הי חוזהם",
+        "en": "are their holding",
+        "he": "הִוא אֲחֻזָּתָם"
+      },
+      {
+        "ja": "פי מא בין בני אסראיל",
+        "en": "among the sons of Israel",
+        "he": "בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
       }
     ],
     "34": [
       {
-        "ja": "ואמא צ'יאע פנא קראהם לא תבאע בתה. לאנהא חוז אלדהר להם",
-        "en": "But the estates of the open ground around their towns shall not be sold at all — for it is their holding forever.",
-        "he": "וּשְׂדֵה מִגְרַשׁ עָרֵיהֶם לֹא יִמָּכֵר כִּי-אֲחֻזַּת עוֹלָם הוּא לָהֶם"
+        "ja": "ואמא",
+        "en": "But"
+      },
+      {
+        "ja": "צ'יאע פנא קראהם",
+        "en": "the estates of the open ground around their towns",
+        "he": "וּשְׂדֵה מִגְרַשׁ עָרֵיהֶם"
+      },
+      {
+        "ja": "לא תבאע",
+        "en": "shall not be sold",
+        "he": "לֹא יִמָּכֵר"
+      },
+      {
+        "ja": "לאנהא חוז אלדהר",
+        "en": "for it is their holding",
+        "he": "כִּי-אֲחֻזַּת עוֹלָם"
+      },
+      {
+        "ja": "להם",
+        "en": "forever",
+        "he": "הוּא לָהֶם"
       }
     ],
     "35": [
       {
-        "ja": "ואד'א תמאהן אכ'יך. פמאלת ידה מעך. פאשדדה. באן יכון לך סאכנא וצ'יפא. פיעיש מעך",
-        "en": "And if your brother becomes impoverished and his hand falters with you, then strengthen him — that he be as a resident and a guest with you — and let him live with you.",
-        "he": "וְכִי-יָמוּךְ אָחִיךָ וּמָטָה יָדוֹ עִמָּךְ--וְהֶחֱזַקְתָּ בּוֹ גֵּר וְתוֹשָׁב וָחַי עִמָּךְ"
+        "ja": "ואד'א",
+        "en": "And if"
+      },
+      {
+        "ja": "תמאהן",
+        "en": "becomes impoverished",
+        "he": "וְכִי-יָמוּךְ"
+      },
+      {
+        "ja": "אכ'יך",
+        "en": "your brother",
+        "he": "אָחִיךָ"
+      },
+      {
+        "ja": "פמאלת ידה",
+        "en": "and his hand falters",
+        "he": "וּמָטָה יָדוֹ"
+      },
+      {
+        "ja": "מעך",
+        "en": "with you",
+        "he": "עִמָּךְ"
+      },
+      {
+        "ja": "פאשדדה",
+        "en": "then strengthen him"
+      },
+      {
+        "ja": "באן יכון לך",
+        "en": "that he be as",
+        "he": "וְהֶחֱזַקְתָּ בּוֹ"
+      },
+      {
+        "ja": "סאכנא",
+        "en": "a resident",
+        "he": "גֵּר"
+      },
+      {
+        "ja": "וצ'יפא",
+        "en": "and a guest",
+        "he": "וְתוֹשָׁב"
+      },
+      {
+        "ja": "פיעיש מעך",
+        "en": "and let him live with you",
+        "he": "וָחַי עִמָּךְ"
       }
     ],
     "36": [
       {
-        "ja": "לא תאכ'ד' מנה עיינה ולא רבא",
-        "en": "Do not take from him a sample-interest nor usury;",
-        "he": "אַל-תִּקַּח מֵאִתּוֹ נֶשֶׁךְ וְתַרְבִּית"
+        "ja": "לא תאכ'ד'",
+        "en": "Do not take",
+        "he": "אַל-תִּקַּח"
       },
       {
-        "ja": "וכ'ף רבך. חתי יעיש אכ'יך מעך",
-        "en": "and fear your Lord, so that your brother may live with you.",
-        "he": "וְיָרֵאתָ מֵאֱלֹהֶיךָ וְחֵי אָחִיךָ עִמָּךְ"
+        "ja": "מנה",
+        "en": "from him",
+        "he": "מֵאִתּוֹ"
+      },
+      {
+        "ja": "עיינה",
+        "en": "a sample-interest",
+        "he": "נֶשֶׁךְ"
+      },
+      {
+        "ja": "ולא רבא",
+        "en": "nor usury",
+        "he": "וְתַרְבִּית"
+      },
+      {
+        "ja": "וכ'ף",
+        "en": "and fear"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "וְיָרֵאתָ מֵאֱלֹהֶיךָ"
+      },
+      {
+        "ja": "חתי",
+        "en": "so that"
+      },
+      {
+        "ja": "יעיש אכ'יך",
+        "en": "your brother may live",
+        "he": "וְחֵי אָחִיךָ"
+      },
+      {
+        "ja": "מעך",
+        "en": "with you",
+        "he": "עִמָּךְ"
       }
     ],
     "37": [
       {
-        "ja": "ולא תדפע אליה ורקך וטעאמך. בעיינה ולא ברבא",
-        "en": "And do not advance to him your money or your food at sample-interest, nor at usury.",
-        "he": "אֶת-כַּסְפְּךָ--לֹא-תִתֵּן לוֹ בְּנֶשֶׁךְ וּבְמַרְבִּית לֹא-תִתֵּן אָכְלֶךָ"
+        "ja": "ולא תדפע",
+        "en": "And do not advance"
+      },
+      {
+        "ja": "אליה",
+        "en": "to him"
+      },
+      {
+        "ja": "ורקך",
+        "en": "your money",
+        "he": "אֶת-כַּסְפְּךָ"
+      },
+      {
+        "ja": "וטעאמך",
+        "en": "or your food",
+        "he": "אָכְלֶךָ"
+      },
+      {
+        "ja": "בעיינה",
+        "en": "at sample-interest",
+        "he": "בְּנֶשֶׁךְ"
+      },
+      {
+        "ja": "ולא ברבא",
+        "en": "nor at usury",
+        "he": "וּבְמַרְבִּית לֹא-תִתֵּן"
       }
     ],
     "38": [
       {
-        "ja": "אנא אללה רבכם. אלמכ'רגכם מן בלד מצר. לאעטיכם בלד כנעאן פאכון לכם אלאהא",
-        "en": "I am God, your Lord, who brought you out from the land of Egypt, to give you the land of Canaan, that I may be your God.",
-        "he": "אֲנִי יְהוָה אֱלֹהֵיכֶם אֲשֶׁר-הוֹצֵאתִי אֶתְכֶם מֵאֶרֶץ מִצְרָיִם--לָתֵת לָכֶם אֶת-אֶרֶץ כְּנַעַן לִהְיוֹת לָכֶם לֵאלֹהִים"
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אלמכ'רגכם",
+        "en": "who brought you out",
+        "he": "אֲשֶׁר-הוֹצֵאתִי"
+      },
+      {
+        "ja": "מן בלד מצר",
+        "en": "from the land of Egypt",
+        "he": "מֵאֶרֶץ מִצְרָיִם"
+      },
+      {
+        "ja": "לאעטיכם",
+        "en": "to give you",
+        "he": "לָתֵת לָכֶם"
+      },
+      {
+        "ja": "בלד כנעאן",
+        "en": "the land of Canaan",
+        "he": "אֶת-אֶרֶץ כְּנַעַן"
+      },
+      {
+        "ja": "פאכון",
+        "en": "that I may be"
+      },
+      {
+        "ja": "לכם אלאהא",
+        "en": "your God",
+        "he": "לִהְיוֹת לָכֶם לֵאלֹהִים"
       }
     ],
     "39": [
       {
-        "ja": "ואד'א תמאהן אכ'יך מעך. פבאע נפסה לך. לא תסתכ'דמה כ'דמה' אלעביד",
-        "en": "And if your brother becomes impoverished with you and sells himself to you, do not press him into the service of slaves.",
-        "he": "וְכִי-יָמוּךְ אָחִיךָ עִמָּךְ וְנִמְכַּר-לָךְ--לֹא-תַעֲבֹד בּוֹ עֲבֹדַת עָבֶד"
+        "ja": "ואד'א",
+        "en": "And if"
+      },
+      {
+        "ja": "תמאהן",
+        "en": "becomes impoverished",
+        "he": "וְכִי-יָמוּךְ"
+      },
+      {
+        "ja": "אכ'יך",
+        "en": "your brother",
+        "he": "אָחִיךָ"
+      },
+      {
+        "ja": "מעך",
+        "en": "with you",
+        "he": "עִמָּךְ"
+      },
+      {
+        "ja": "פבאע נפסה לך",
+        "en": "and sells himself to you",
+        "he": "וְנִמְכַּר-לָךְ"
+      },
+      {
+        "ja": "לא תסתכ'דמה",
+        "en": "do not press him",
+        "he": "לֹא-תַעֲבֹד בּוֹ"
+      },
+      {
+        "ja": "כ'דמה' אלעביד",
+        "en": "into the service of slaves",
+        "he": "עֲבֹדַת עָבֶד"
       }
     ],
     "40": [
       {
-        "ja": "בל כאגיר או צ'יף יכון מעך. ואלי' סנה' אלאטלאק יכ'דמך",
-        "en": "Rather, as a hired worker or a guest he shall be with you; until the year of release he shall serve you.",
-        "he": "כְּשָׂכִיר כְּתוֹשָׁב יִהְיֶה עִמָּךְ עַד-שְׁנַת הַיֹּבֵל יַעֲבֹד עִמָּךְ"
+        "ja": "בל כאגיר",
+        "en": "Rather, as a hired worker",
+        "he": "כְּשָׂכִיר"
+      },
+      {
+        "ja": "או צ'יף",
+        "en": "or a guest",
+        "he": "כְּתוֹשָׁב"
+      },
+      {
+        "ja": "יכון מעך",
+        "en": "he shall be with you",
+        "he": "יִהְיֶה עִמָּךְ"
+      },
+      {
+        "ja": "ואלי' סנה' אלאטלאק",
+        "en": "until the year of release",
+        "he": "עַד-שְׁנַת הַיֹּבֵל"
+      },
+      {
+        "ja": "יכ'דמך",
+        "en": "he shall serve you",
+        "he": "יַעֲבֹד עִמָּךְ"
       }
     ],
     "41": [
       {
-        "ja": "ת'ם יכ'רג מן ענדך. הו ובניה מעה. וירגע אלי' עשירתה. ואלי' חוז אביה",
-        "en": "Then he shall go out from your presence — he and his sons with him — and return to his clan and to the holding of his father.",
-        "he": "וְיָצָא מֵעִמָּךְ--הוּא וּבָנָיו עִמּוֹ וְשָׁב אֶל-מִשְׁפַּחְתּוֹ וְאֶל-אֲחֻזַּת אֲבֹתָיו יָשׁוּב"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "יכ'רג",
+        "en": "he shall go out",
+        "he": "וְיָצָא"
+      },
+      {
+        "ja": "מן ענדך",
+        "en": "from your presence",
+        "he": "מֵעִמָּךְ"
+      },
+      {
+        "ja": "הו",
+        "en": "he",
+        "he": "הוּא"
+      },
+      {
+        "ja": "ובניה",
+        "en": "and his sons",
+        "he": "וּבָנָיו"
+      },
+      {
+        "ja": "מעה",
+        "en": "with him",
+        "he": "עִמּוֹ"
+      },
+      {
+        "ja": "וירגע",
+        "en": "and return",
+        "he": "וְשָׁב"
+      },
+      {
+        "ja": "אלי' עשירתה",
+        "en": "to his clan",
+        "he": "אֶל-מִשְׁפַּחְתּוֹ"
+      },
+      {
+        "ja": "ואלי' חוז אביה",
+        "en": "and to the holding of his father",
+        "he": "וְאֶל-אֲחֻזַּת אֲבֹתָיו"
       }
     ],
     "42": [
       {
-        "ja": "לאנהם עבידי. אלד'י אכ'רגתהם מן בלד מצר. פלא יבאעו ביע אלעביד",
-        "en": "For they are My servants whom I brought out from the land of Egypt — they shall not be sold in the manner of the sale of slaves.",
-        "he": "כִּי-עֲבָדַי הֵם אֲשֶׁר-הוֹצֵאתִי אֹתָם מֵאֶרֶץ מִצְרָיִם לֹא יִמָּכְרוּ מִמְכֶּרֶת עָבֶד"
+        "ja": "לאנהם עבידי",
+        "en": "For they are My servants",
+        "he": "כִּי-עֲבָדַי"
+      },
+      {
+        "ja": "אלד'י אכ'רגתהם",
+        "en": "whom I brought out",
+        "he": "אֲשֶׁר-הוֹצֵאתִי"
+      },
+      {
+        "ja": "מן בלד מצר",
+        "en": "from the land of Egypt",
+        "he": "מֵאֶרֶץ מִצְרָיִם"
+      },
+      {
+        "ja": "פלא יבאעו",
+        "en": "they shall not be sold",
+        "he": "לֹא יִמָּכְרוּ"
+      },
+      {
+        "ja": "ביע אלעביד",
+        "en": "in the manner of the sale of slaves",
+        "he": "מִמְכֶּרֶת עָבֶד"
       }
     ],
     "43": [
       {
-        "ja": "ולא תסתולי עליה באקמא. וכ'ף רבך",
-        "en": "And do not hold dominion over him with cruelty; and fear your Lord.",
-        "he": "לֹא-תִרְדֶּה בוֹ בְּפָרֶךְ וְיָרֵאתָ מֵאֱלֹהֶיךָ"
+        "ja": "ולא תסתולי עליה",
+        "en": "And do not hold dominion over him",
+        "he": "לֹא-תִרְדֶּה בוֹ"
+      },
+      {
+        "ja": "באקמא",
+        "en": "with cruelty",
+        "he": "בְּפָרֶךְ"
+      },
+      {
+        "ja": "וכ'ף",
+        "en": "and fear"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "וְיָרֵאתָ מֵאֱלֹהֶיךָ"
       }
     ],
     "44": [
       {
-        "ja": "ועבדך ואמתך אלד'י יכונו לך. פמן אלאמם אלד'ין חואליכם. מנהם תקתנון עביד ואמא",
-        "en": "And your male slave and your female slave who shall be yours — from the nations that are around you, from them you may acquire slaves and maidservants.",
-        "he": "וְעַבְדְּךָ וַאֲמָתְךָ אֲשֶׁר יִהְיוּ-לָךְ מֵאֵת הַגּוֹיִם אֲשֶׁר סְבִיבֹתֵיכֶם--מֵהֶם תִּקְנוּ עֶבֶד וְאָמָה"
+        "ja": "ועבדך",
+        "en": "And your male slave",
+        "he": "וְעַבְדְּךָ"
+      },
+      {
+        "ja": "ואמתך",
+        "en": "and your female slave",
+        "he": "וַאֲמָתְךָ"
+      },
+      {
+        "ja": "אלד'י יכונו לך",
+        "en": "who shall be yours",
+        "he": "אֲשֶׁר יִהְיוּ-לָךְ"
+      },
+      {
+        "ja": "פמן אלאמם",
+        "en": "from the nations",
+        "he": "מֵאֵת הַגּוֹיִם"
+      },
+      {
+        "ja": "אלד'ין חואליכם",
+        "en": "that are around you",
+        "he": "אֲשֶׁר סְבִיבֹתֵיכֶם"
+      },
+      {
+        "ja": "מנהם תקתנון",
+        "en": "from them you may acquire",
+        "he": "מֵהֶם תִּקְנוּ"
+      },
+      {
+        "ja": "עביד",
+        "en": "slaves",
+        "he": "עֶבֶד"
+      },
+      {
+        "ja": "ואמא",
+        "en": "and maidservants",
+        "he": "וְאָמָה"
       }
     ],
     "45": [
       {
-        "ja": "ואיצ'א מן בני אלסכאן. אלמקימין מעכם תשתרון מנהם",
-        "en": "Also from the children of the residents who dwell with you, you may buy from them;",
-        "he": "וְגַם מִבְּנֵי הַתּוֹשָׁבִים הַגָּרִים עִמָּכֶם מֵהֶם תִּקְנוּ"
+        "ja": "ואיצ'א",
+        "en": "Also"
       },
       {
-        "ja": "ומן עשירתהם אלמולודין פי בלדכם. פיכונו לכם חוזא",
-        "en": "and from their clans born in your land — and they shall be a holding for you.",
-        "he": "וּמִמִּשְׁפַּחְתָּם אֲשֶׁר עִמָּכֶם אֲשֶׁר הוֹלִידוּ בְּאַרְצְכֶם וְהָיוּ לָכֶם לַאֲחֻזָּה"
+        "ja": "מן בני אלסכאן",
+        "en": "from the children of the residents",
+        "he": "וְגַם מִבְּנֵי הַתּוֹשָׁבִים"
+      },
+      {
+        "ja": "אלמקימין מעכם",
+        "en": "who dwell with you",
+        "he": "הַגָּרִים עִמָּכֶם"
+      },
+      {
+        "ja": "תשתרון מנהם",
+        "en": "you may buy from them",
+        "he": "מֵהֶם תִּקְנוּ"
+      },
+      {
+        "ja": "ומן עשירתהם",
+        "en": "and from their clans",
+        "he": "וּמִמִּשְׁפַּחְתָּם"
+      },
+      {
+        "ja": "אלמולודין",
+        "en": "born",
+        "he": "אֲשֶׁר הוֹלִידוּ"
+      },
+      {
+        "ja": "פי בלדכם",
+        "en": "in your land",
+        "he": "בְּאַרְצְכֶם"
+      },
+      {
+        "ja": "פיכונו לכם חוזא",
+        "en": "and they shall be a holding for you",
+        "he": "וְהָיוּ לָכֶם לַאֲחֻזָּה"
       }
     ],
     "46": [
       {
-        "ja": "תורתונהם לבניכם מן בעדכם כמיראת' אלחוז. ותסתכ'דמונהם אבדא",
-        "en": "You shall bequeath them to your sons after you as an inheritance, and you may press them into service forever;",
-        "he": "וְהִתְנַחַלְתֶּם אֹתָם לִבְנֵיכֶם אַחֲרֵיכֶם לָרֶשֶׁת אֲחֻזָּה--לְעֹלָם בָּהֶם תַּעֲבֹדוּ"
+        "ja": "תורתונהם",
+        "en": "You shall bequeath them",
+        "he": "וְהִתְנַחַלְתֶּם"
       },
       {
-        "ja": "ואמא אכ'ותכם בני אסראיל פכל ואחד לא יסתולי עלי' אכ'יה באקמא",
-        "en": "but as for your brothers the sons of Israel, no one shall hold dominion over his brother with cruelty.",
-        "he": "וּבְאַחֵיכֶם בְּנֵי-יִשְׂרָאֵל אִישׁ בְּאָחִיו לֹא-תִרְדֶּה בוֹ בְּפָרֶךְ"
+        "ja": "לבניכם",
+        "en": "to your sons",
+        "he": "אֹתָם לִבְנֵיכֶם"
+      },
+      {
+        "ja": "מן בעדכם",
+        "en": "after you",
+        "he": "אַחֲרֵיכֶם"
+      },
+      {
+        "ja": "כמיראת' אלחוז",
+        "en": "as an inheritance",
+        "he": "לָרֶשֶׁת אֲחֻזָּה"
+      },
+      {
+        "ja": "ותסתכ'דמונהם אבדא",
+        "en": "and you may press them into service forever",
+        "he": "לְעֹלָם בָּהֶם תַּעֲבֹדוּ"
+      },
+      {
+        "ja": "ואמא",
+        "en": "but as for"
+      },
+      {
+        "ja": "אכ'ותכם",
+        "en": "your brothers",
+        "he": "וּבְאַחֵיכֶם"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "בְּנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פכל ואחד",
+        "en": "no one"
+      },
+      {
+        "ja": "לא יסתולי עלי' אכ'יה באקמא",
+        "en": "shall hold dominion over his brother with cruelty",
+        "he": "לֹא-תִרְדֶּה בוֹ בְּפָרֶךְ"
       }
     ],
     "47": [
       {
-        "ja": "ואן נאלת יד ג'ריב או סאכן מעך. ותמאהן אכ'יך מעה",
-        "en": "And if the hand of a stranger or a resident with you reaches, and your brother becomes impoverished with him,",
-        "he": "וְכִי תַשִּׂיג יַד גֵּר וְתוֹשָׁב עִמָּךְ וּמָךְ אָחִיךָ עִמּוֹ"
+        "ja": "ואן",
+        "en": "And if"
       },
       {
-        "ja": "פבאע נפסה לג'ריב או סאכן מעך. או לאצל עשירה' אלג'ריב",
-        "en": "and sells himself to a stranger or a resident with you, or to the root of the stranger's clan —",
-        "he": "וְנִמְכַּר לְגֵר תּוֹשָׁב עִמָּךְ אוֹ לְעֵקֶר מִשְׁפַּחַת גֵּר"
+        "ja": "נאלת",
+        "en": "reaches",
+        "he": "וְכִי תַשִּׂיג"
+      },
+      {
+        "ja": "יד ג'ריב",
+        "en": "the hand of a stranger",
+        "he": "יַד גֵּר"
+      },
+      {
+        "ja": "או סאכן",
+        "en": "or a resident",
+        "he": "וְתוֹשָׁב"
+      },
+      {
+        "ja": "מעך",
+        "en": "with you",
+        "he": "עִמָּךְ"
+      },
+      {
+        "ja": "ותמאהן אכ'יך",
+        "en": "and your brother becomes impoverished",
+        "he": "וּמָךְ אָחִיךָ"
+      },
+      {
+        "ja": "מעה",
+        "en": "with him",
+        "he": "עִמּוֹ"
+      },
+      {
+        "ja": "פבאע נפסה",
+        "en": "and sells himself",
+        "he": "וְנִמְכַּר"
+      },
+      {
+        "ja": "לג'ריב או סאכן",
+        "en": "to a stranger",
+        "he": "לְגֵר תּוֹשָׁב"
+      },
+      {
+        "ja": "מעך",
+        "en": "with you",
+        "he": "עִמָּךְ"
+      },
+      {
+        "ja": "או לאצל עשירה' אלג'ריב",
+        "en": "or to the root of the stranger's clan",
+        "he": "אוֹ לְעֵקֶר מִשְׁפַּחַת גֵּר"
       }
     ],
     "48": [
       {
-        "ja": "פבעד מא אנבאע יכון לה פכאך. ואחד מן אכ'ותה יפתכה",
-        "en": "after he has been sold there shall be a redemption for him; one of his brothers shall redeem him.",
-        "he": "אַחֲרֵי נִמְכַּר גְּאֻלָּה תִּהְיֶה-לּוֹ אֶחָד מֵאֶחָיו יִגְאָלֶנּוּ"
+        "ja": "פבעד מא",
+        "en": "after"
+      },
+      {
+        "ja": "אנבאע",
+        "en": "he has been sold",
+        "he": "אַחֲרֵי נִמְכַּר"
+      },
+      {
+        "ja": "יכון לה פכאך",
+        "en": "there shall be a redemption for him",
+        "he": "גְּאֻלָּה תִּהְיֶה-לּוֹ"
+      },
+      {
+        "ja": "ואחד מן אכ'ותה",
+        "en": "one of his brothers",
+        "he": "אֶחָד מֵאֶחָיו"
+      },
+      {
+        "ja": "יפתכה",
+        "en": "shall redeem him",
+        "he": "יִגְאָלֶנּוּ"
       }
     ],
     "49": [
       {
-        "ja": "או עמה או אבן עמה יפתכה. או מן נסיב ד'אתה. מן עשירתה יפתכה",
-        "en": "Or his uncle or his uncle's son shall redeem him, or one of the near kinsmen of his own person from his clan shall redeem him;",
-        "he": "אוֹ-דֹדוֹ אוֹ בֶן-דֹּדוֹ יִגְאָלֶנּוּ אוֹ-מִשְּׁאֵר בְּשָׂרוֹ מִמִּשְׁפַּחְתּוֹ יִגְאָלֶנּוּ"
+        "ja": "או עמה",
+        "en": "Or his uncle",
+        "he": "אוֹ-דֹדוֹ"
       },
       {
-        "ja": "או נאלת ידה פפך נפסה",
-        "en": "or if his hand reaches, he shall redeem himself.",
-        "he": "אוֹ-הִשִּׂיגָה יָדוֹ וְנִגְאָל"
+        "ja": "או אבן עמה",
+        "en": "or his uncle's son",
+        "he": "אוֹ בֶן-דֹּדוֹ"
+      },
+      {
+        "ja": "יפתכה",
+        "en": "shall redeem him",
+        "he": "יִגְאָלֶנּוּ"
+      },
+      {
+        "ja": "או מן נסיב ד'אתה",
+        "en": "or one of the near kinsmen of his own person",
+        "he": "אוֹ-מִשְּׁאֵר בְּשָׂרוֹ"
+      },
+      {
+        "ja": "מן עשירתה",
+        "en": "from his clan",
+        "he": "מִמִּשְׁפַּחְתּוֹ"
+      },
+      {
+        "ja": "יפתכה",
+        "en": "shall redeem him",
+        "he": "יִגְאָלֶנּוּ"
+      },
+      {
+        "ja": "או נאלת ידה",
+        "en": "or if his hand reaches",
+        "he": "אוֹ-הִשִּׂיגָה יָדוֹ"
+      },
+      {
+        "ja": "פפך נפסה",
+        "en": "he shall redeem himself",
+        "he": "וְנִגְאָל"
       }
     ],
     "50": [
       {
-        "ja": "פליחאסב משתריה. כם מן סנה' אנבאע לה. אלי' סנה' אלאטלאק",
-        "en": "And he shall reckon with his buyer how many years he was sold to him until the year of release;",
-        "he": "וְחִשַּׁב עִם-קֹנֵהוּ מִשְּׁנַת הִמָּכְרוֹ לוֹ עַד שְׁנַת הַיֹּבֵל"
+        "ja": "פליחאסב",
+        "en": "And he shall reckon"
       },
       {
-        "ja": "פיסקט ת'מן ביעה עלי' אחצא אלסנין. וליכון מעה פיהא כאייאם אלאגיר",
-        "en": "and the price of his sale shall be apportioned according to the count of the years, and he shall be with him in those years as the days of a hired worker.",
-        "he": "וְהָיָה כֶּסֶף מִמְכָּרוֹ בְּמִסְפַּר שָׁנִים כִּימֵי שָׂכִיר יִהְיֶה עִמּוֹ"
+        "ja": "משתריה",
+        "en": "with his buyer",
+        "he": "וְחִשַּׁב"
+      },
+      {
+        "ja": "כם מן",
+        "en": "how many"
+      },
+      {
+        "ja": "סנה'",
+        "en": "years",
+        "he": "עִם-קֹנֵהוּ"
+      },
+      {
+        "ja": "אנבאע לה",
+        "en": "he was sold to him",
+        "he": "מִשְּׁנַת הִמָּכְרוֹ לוֹ"
+      },
+      {
+        "ja": "אלי' סנה' אלאטלאק",
+        "en": "until the year of release",
+        "he": "עַד שְׁנַת הַיֹּבֵל"
+      },
+      {
+        "ja": "פיסקט",
+        "en": "shall be apportioned"
+      },
+      {
+        "ja": "ת'מן ביעה",
+        "en": "the price of his sale",
+        "he": "וְהָיָה כֶּסֶף מִמְכָּרוֹ"
+      },
+      {
+        "ja": "עלי'",
+        "en": "according to"
+      },
+      {
+        "ja": "אחצא אלסנין",
+        "en": "the count of the years",
+        "he": "בְּמִסְפַּר שָׁנִים"
+      },
+      {
+        "ja": "וליכון",
+        "en": "and he shall be"
+      },
+      {
+        "ja": "מעה",
+        "en": "with him"
+      },
+      {
+        "ja": "פיהא",
+        "en": "in those years"
+      },
+      {
+        "ja": "כאייאם אלאגיר",
+        "en": "as the days of a hired worker",
+        "he": "כִּימֵי שָׂכִיר יִהְיֶה עִמּוֹ"
       }
     ],
     "51": [
       {
-        "ja": "פאן בקי מן אלסנין כתיר. פעלי' קדרהא ירד פכאכה. מנסובא מן ת'מן שראה",
-        "en": "If many years remain, according to their measure he shall return his redemption, proportioned from the price of his purchase.",
-        "he": "אִם-עוֹד רַבּוֹת בַּשָּׁנִים--לְפִיהֶן יָשִׁיב גְּאֻלָּתוֹ מִכֶּסֶף מִקְנָתוֹ"
+        "ja": "פאן",
+        "en": "If"
+      },
+      {
+        "ja": "בקי מן אלסנין כתיר",
+        "en": "many years remain",
+        "he": "אִם-עוֹד רַבּוֹת בַּשָּׁנִים"
+      },
+      {
+        "ja": "פעלי'",
+        "en": "according to"
+      },
+      {
+        "ja": "קדרהא ירד",
+        "en": "their measure he shall return",
+        "he": "לְפִיהֶן יָשִׁיב"
+      },
+      {
+        "ja": "פכאכה",
+        "en": "his redemption",
+        "he": "גְּאֻלָּתוֹ"
+      },
+      {
+        "ja": "מנסובא מן ת'מן שראה",
+        "en": "proportioned from the price of his purchase",
+        "he": "מִכֶּסֶף מִקְנָתוֹ"
       }
     ],
     "52": [
       {
-        "ja": "ואן בקי מן אלסנין קליל. אלי' סנה' אלאטלאק פליחאסבה. ועלי' קדרהא ירד פכאכה",
-        "en": "And if few years remain until the year of release, he shall reckon with him — according to their measure he shall return his redemption.",
-        "he": "וְאִם-מְעַט נִשְׁאַר בַּשָּׁנִים עַד-שְׁנַת הַיֹּבֵל--וְחִשַּׁב-לוֹ כְּפִי שָׁנָיו יָשִׁיב אֶת-גְּאֻלָּתוֹ"
+        "ja": "ואן",
+        "en": "And if"
+      },
+      {
+        "ja": "בקי מן אלסנין קליל",
+        "en": "few years remain",
+        "he": "וְאִם-מְעַט נִשְׁאַר בַּשָּׁנִים"
+      },
+      {
+        "ja": "אלי' סנה' אלאטלאק",
+        "en": "until the year of release",
+        "he": "עַד-שְׁנַת הַיֹּבֵל"
+      },
+      {
+        "ja": "פליחאסבה",
+        "en": "he shall reckon with him"
+      },
+      {
+        "ja": "ועלי'",
+        "en": "according to"
+      },
+      {
+        "ja": "קדרהא",
+        "en": "their measure",
+        "he": "וְחִשַּׁב-לוֹ כְּפִי שָׁנָיו"
+      },
+      {
+        "ja": "ירד פכאכה",
+        "en": "he shall return his redemption",
+        "he": "יָשִׁיב אֶת-גְּאֻלָּתוֹ"
       }
     ],
     "53": [
       {
-        "ja": "ובאלגמלה כאגיר סנה בסנה יכון מעה. לא יסתולי עליה באקמא בחצ'רתך",
-        "en": "In sum, as a hired worker year by year he shall be with him; he shall not hold dominion over him with cruelty in your presence.",
-        "he": "כִּשְׂכִיר שָׁנָה בְּשָׁנָה יִהְיֶה עִמּוֹ לֹא-יִרְדֶּנּוּ בְּפֶרֶךְ לְעֵינֶיךָ"
+        "ja": "ובאלגמלה",
+        "en": "In sum"
+      },
+      {
+        "ja": "כאגיר סנה בסנה",
+        "en": "as a hired worker year by year",
+        "he": "כִּשְׂכִיר שָׁנָה בְּשָׁנָה"
+      },
+      {
+        "ja": "יכון מעה",
+        "en": "he shall be with him",
+        "he": "יִהְיֶה עִמּוֹ"
+      },
+      {
+        "ja": "לא יסתולי עליה",
+        "en": "he shall not hold dominion over him",
+        "he": "לֹא-יִרְדֶּנּוּ"
+      },
+      {
+        "ja": "באקמא",
+        "en": "with cruelty",
+        "he": "בְּפֶרֶךְ"
+      },
+      {
+        "ja": "בחצ'רתך",
+        "en": "in your presence",
+        "he": "לְעֵינֶיךָ"
       }
     ],
     "54": [
       {
-        "ja": "ואן לם יפתך בהד'א אלאמור. פליכ'רג פי סנה' אלאטלאק. הו ובניה מעה",
-        "en": "And if he is not redeemed by these means, then he shall go out in the year of release — he and his sons with him.",
-        "he": "וְאִם-לֹא יִגָּאֵל בְּאֵלֶּה--וְיָצָא בִּשְׁנַת הַיֹּבֵל הוּא וּבָנָיו עִמּוֹ"
+        "ja": "ואן",
+        "en": "And if"
+      },
+      {
+        "ja": "לם יפתך בהד'א אלאמור",
+        "en": "he is not redeemed by these means",
+        "he": "וְאִם-לֹא יִגָּאֵל בְּאֵלֶּה"
+      },
+      {
+        "ja": "פליכ'רג",
+        "en": "then he shall go out"
+      },
+      {
+        "ja": "פי סנה' אלאטלאק",
+        "en": "in the year of release",
+        "he": "וְיָצָא בִּשְׁנַת הַיֹּבֵל"
+      },
+      {
+        "ja": "הו",
+        "en": "he",
+        "he": "הוּא"
+      },
+      {
+        "ja": "ובניה מעה",
+        "en": "and his sons with him",
+        "he": "וּבָנָיו עִמּוֹ"
       }
     ],
     "55": [
       {
-        "ja": "לאן בני אסראיל עביד לי. אד' הם עבידי. אלד'י אכ'רגתהם מן בלד מצר",
-        "en": "For the sons of Israel are servants to Me — since they are My servants, whom I brought out from the land of Egypt:",
-        "he": "כִּי-לִי בְנֵי-יִשְׂרָאֵל עֲבָדִים--עֲבָדַי הֵם אֲשֶׁר-הוֹצֵאתִי אוֹתָם מֵאֶרֶץ מִצְרָיִם"
+        "ja": "לאן",
+        "en": "For",
+        "he": "כִּי-לִי"
       },
       {
-        "ja": "אנא אללה רבכם אעבדוני",
-        "en": "I am God, your Lord; serve Me.",
-        "he": "אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "עביד לי",
+        "en": "are servants to Me",
+        "he": "עֲבָדִים"
+      },
+      {
+        "ja": "אד' הם עבידי",
+        "en": "since they are My servants",
+        "he": "עֲבָדַי הֵם"
+      },
+      {
+        "ja": "אלד'י אכ'רגתהם",
+        "en": "whom I brought out",
+        "he": "אֲשֶׁר-הוֹצֵאתִי"
+      },
+      {
+        "ja": "מן בלד מצר",
+        "en": "from the land of Egypt",
+        "he": "מֵאֶרֶץ מִצְרָיִם"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אעבדוני",
+        "en": "serve Me"
       }
     ]
   }

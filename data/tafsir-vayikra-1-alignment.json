@@ -1,203 +1,840 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 1. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_1.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 1. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_1.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "2": [
       {
-        "ja": "כ'אטב בני אסראיל וקל להם",
-        "en": "Address the sons of Israel and say to them",
-        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם"
+        "ja": "כ'אטב",
+        "en": "Address",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "אי אנסאן קרב מנכם קרבאנא ללה",
-        "en": "any person among you who brings an offering to God",
-        "he": "אָדָם כִּי-יַקְרִיב מִכֶּם קָרְבָּן לַיהוָה"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶל-בְּנֵי"
       },
       {
-        "ja": "מן אלבהאים. פמן אלבקר ואלג'נם תקרבונה",
-        "en": "from the beasts, from the cattle and the flock shall you bring it.",
-        "he": "מִן-הַבְּהֵמָה מִן-הַבָּקָר וּמִן-הַצֹּאן תַּקְרִיבוּ אֶת-קָרְבַּנְכֶם"
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "להם",
+        "en": "to them",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "אי אנסאן",
+        "en": "any person",
+        "he": "אָדָם"
+      },
+      {
+        "ja": "קרב",
+        "en": "who brings",
+        "he": "כִּי-יַקְרִיב"
+      },
+      {
+        "ja": "מנכם",
+        "en": "among you",
+        "he": "מִכֶּם"
+      },
+      {
+        "ja": "קרבאנא",
+        "en": "an offering",
+        "he": "קָרְבָּן"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "מן אלבהאים",
+        "en": "from the beasts",
+        "he": "מִן-הַבְּהֵמָה"
+      },
+      {
+        "ja": "פמן אלבקר",
+        "en": "from the cattle",
+        "he": "מִן-הַבָּקָר"
+      },
+      {
+        "ja": "ואלג'נם",
+        "en": "and the flock",
+        "he": "וּמִן-הַצֹּאן"
+      },
+      {
+        "ja": "תקרבונה",
+        "en": "shall you bring it",
+        "he": "תַּקְרִיבוּ אֶת-קָרְבַּנְכֶם"
       }
     ],
     "3": [
       {
-        "ja": "אן כאן קרבאנה צעידה מן אלבקר. פד'כר צחיח יקרבה",
-        "en": "If his offering is an ascent-offering from the cattle, a sound male shall he bring it",
-        "he": "אִם-עֹלָה קָרְבָּנוֹ מִן-הַבָּקָר זָכָר תָּמִים יַקְרִיבֶנּוּ"
+        "ja": "אן כאן",
+        "en": "If",
+        "he": "אִם-עֹלָה"
       },
       {
-        "ja": "פליקדמה אלי' באב כ'בא אלמחצ'ר. עלי' מא ירתצ'א ענה בין ידי אללה",
-        "en": "he shall present it at the entrance of the tent of the assembly, according to what shall be acceptable of him before God.",
-        "he": "אֶל-פֶּתַח אֹהֶל מוֹעֵד יַקְרִיב אֹתוֹ לִרְצֹנוֹ לִפְנֵי יְהוָה"
+        "ja": "קרבאנה",
+        "en": "his offering",
+        "he": "קָרְבָּנוֹ"
+      },
+      {
+        "ja": "צעידה",
+        "en": "an ascent-offering"
+      },
+      {
+        "ja": "מן אלבקר",
+        "en": "from the cattle",
+        "he": "מִן-הַבָּקָר"
+      },
+      {
+        "ja": "פד'כר צחיח",
+        "en": "a sound male",
+        "he": "זָכָר תָּמִים"
+      },
+      {
+        "ja": "יקרבה",
+        "en": "shall he bring it",
+        "he": "יַקְרִיבֶנּוּ"
+      },
+      {
+        "ja": "פליקדמה אלי' באב",
+        "en": "he shall present it at the entrance of",
+        "he": "אֶל-פֶּתַח"
+      },
+      {
+        "ja": "כ'בא",
+        "en": "the tent of",
+        "he": "אֹהֶל"
+      },
+      {
+        "ja": "אלמחצ'ר",
+        "en": "the assembly",
+        "he": "מוֹעֵד"
+      },
+      {
+        "ja": "עלי' מא ירתצ'א ענה",
+        "en": "according to what shall be acceptable of him",
+        "he": "לִרְצֹנוֹ"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
       }
     ],
     "4": [
       {
-        "ja": "ויסנד ידה עלי' ראסה",
-        "en": "And he shall lean his hand upon its head",
-        "he": "וְסָמַךְ יָדוֹ עַל רֹאשׁ הָעֹלָה"
+        "ja": "ויסנד",
+        "en": "And he shall lean",
+        "he": "וְסָמַךְ"
       },
       {
-        "ja": "וירצ'א ענה ויג'פר לה",
-        "en": "and it shall be accepted of him and forgiven him.",
-        "he": "וְנִרְצָה לוֹ לְכַפֵּר עָלָיו"
+        "ja": "ידה",
+        "en": "his hand",
+        "he": "יָדוֹ"
+      },
+      {
+        "ja": "עלי'",
+        "en": "upon",
+        "he": "עַל"
+      },
+      {
+        "ja": "ראסה",
+        "en": "its head",
+        "he": "רֹאשׁ"
+      },
+      {
+        "ja": "וירצ'א ענה",
+        "en": "and it shall be accepted of him",
+        "he": "וְנִרְצָה לוֹ"
+      },
+      {
+        "ja": "ויג'פר",
+        "en": "and forgiven",
+        "he": "לְכַפֵּר"
+      },
+      {
+        "ja": "לה",
+        "en": "him",
+        "he": "עָלָיו"
       }
     ],
     "5": [
       {
-        "ja": "ויד'בח אלרת' בין ידי אללה",
-        "en": "And he shall slaughter the bullock before God",
-        "he": "וְשָׁחַט אֶת-בֶּן הַבָּקָר לִפְנֵי יְהוָה"
+        "ja": "ויד'בח",
+        "en": "And he shall slaughter",
+        "he": "וְשָׁחַט"
       },
       {
-        "ja": "ויקרב בני הרון אלאיימה אלדם",
-        "en": "and the sons of Aaron, the priests, shall bring the blood near",
-        "he": "וְהִקְרִיבוּ בְּנֵי אַהֲרֹן הַכֹּהֲנִים אֶת-הַדָּם"
+        "ja": "אלרת'",
+        "en": "the bullock",
+        "he": "אֶת-בֶּן הַבָּקָר"
       },
       {
-        "ja": "וירשוה עלי' אלמד'בח מסתדירא. אלד'י ענד באב כ'בא אלמחצ'ר",
-        "en": "and shall sprinkle it upon the altar all around, which is at the entrance of the tent of the assembly.",
-        "he": "וְזָרְקוּ אֶת-הַדָּם עַל-הַמִּזְבֵּחַ סָבִיב אֲשֶׁר-פֶּתַח אֹהֶל מוֹעֵד"
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "ויקרב",
+        "en": "shall bring",
+        "he": "וְהִקְרִיבוּ"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "הרון",
+        "en": "Aaron",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "אלאיימה",
+        "en": "the priests",
+        "he": "הַכֹּהֲנִים"
+      },
+      {
+        "ja": "אלדם",
+        "en": "the blood near",
+        "he": "אֶת-הַדָּם"
+      },
+      {
+        "ja": "וירשוה",
+        "en": "and shall sprinkle it",
+        "he": "וְזָרְקוּ"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "עַל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "מסתדירא",
+        "en": "all around",
+        "he": "סָבִיב"
+      },
+      {
+        "ja": "אלד'י ענד באב",
+        "en": "which is at the entrance of",
+        "he": "אֲשֶׁר-פֶּתַח"
+      },
+      {
+        "ja": "כ'בא",
+        "en": "the tent of",
+        "he": "אֹהֶל"
+      },
+      {
+        "ja": "אלמחצ'ר",
+        "en": "the assembly",
+        "he": "מוֹעֵד"
       }
     ],
     "6": [
       {
-        "ja": "ויסלך' אלצעידה ויעצ'יהא אעצ'אא",
-        "en": "And he shall flay the ascent-offering and divide it into its limbs.",
-        "he": "וְהִפְשִׁיט אֶת-הָעֹלָה וְנִתַּח אֹתָהּ לִנְתָחֶיהָ"
+        "ja": "ויסלך'",
+        "en": "And he shall flay",
+        "he": "וְהִפְשִׁיט"
+      },
+      {
+        "ja": "אלצעידה",
+        "en": "the ascent-offering",
+        "he": "אֶת-הָעֹלָה"
+      },
+      {
+        "ja": "ויעצ'יהא",
+        "en": "and divide it",
+        "he": "וְנִתַּח"
+      },
+      {
+        "ja": "אעצ'אא",
+        "en": "into its limbs",
+        "he": "לִנְתָחֶיהָ"
       }
     ],
     "7": [
       {
-        "ja": "וישעלון בני הרון אלאמאם. נארא עלי' אלמד'בח",
-        "en": "And the sons of Aaron, the priest, shall kindle fire upon the altar",
-        "he": "וְנָתְנוּ בְּנֵי אַהֲרֹן הַכֹּהֵן אֵשׁ--עַל-הַמִּזְבֵּחַ"
+        "ja": "וישעלון",
+        "en": "shall kindle",
+        "he": "וְנָתְנוּ"
       },
       {
-        "ja": "וינצ'דון עליהא חטבא",
-        "en": "and shall arrange wood upon it.",
-        "he": "וְעָרְכוּ עֵצִים עַל-הָאֵשׁ"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "הרון",
+        "en": "Aaron",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "the priest",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "נארא",
+        "en": "fire",
+        "he": "אֵשׁ"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "עַל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "וינצ'דון",
+        "en": "and shall arrange",
+        "he": "וְעָרְכוּ"
+      },
+      {
+        "ja": "חטבא",
+        "en": "wood",
+        "he": "עֵצִים"
+      },
+      {
+        "ja": "עליהא",
+        "en": "upon it",
+        "he": "עַל-הָאֵשׁ"
       }
     ],
     "8": [
       {
-        "ja": "וינצ'ד בני הרון אלאיימה. אלאעצ'א ואלראס ואלקצבה",
-        "en": "And the sons of Aaron, the priests, shall arrange the limbs, and the head, and the spinal column",
-        "he": "וְעָרְכוּ בְּנֵי אַהֲרֹן הַכֹּהֲנִים אֵת הַנְּתָחִים אֶת-הָרֹאשׁ וְאֶת-הַפָּדֶר"
+        "ja": "וינצ'ד",
+        "en": "shall arrange",
+        "he": "וְעָרְכוּ"
       },
       {
-        "ja": "עלי' אלחטב אלד'י עלי' אלנאר. אלד'י עלי' אלמד'בח",
-        "en": "upon the wood that is upon the fire, which is upon the altar.",
-        "he": "עַל-הָעֵצִים אֲשֶׁר עַל-הָאֵשׁ אֲשֶׁר עַל-הַמִּזְבֵּחַ"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "הרון",
+        "en": "Aaron",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "אלאיימה",
+        "en": "the priests",
+        "he": "הַכֹּהֲנִים"
+      },
+      {
+        "ja": "אלאעצ'א",
+        "en": "the limbs",
+        "he": "אֵת הַנְּתָחִים"
+      },
+      {
+        "ja": "ואלראס",
+        "en": "and the head",
+        "he": "אֶת-הָרֹאשׁ"
+      },
+      {
+        "ja": "ואלקצבה",
+        "en": "and the spinal column",
+        "he": "וְאֶת-הַפָּדֶר"
+      },
+      {
+        "ja": "עלי' אלחטב",
+        "en": "upon the wood",
+        "he": "עַל-הָעֵצִים"
+      },
+      {
+        "ja": "אלד'י עלי' אלנאר",
+        "en": "that is upon the fire",
+        "he": "אֲשֶׁר עַל-הָאֵשׁ"
+      },
+      {
+        "ja": "אלד'י עלי' אלמד'בח",
+        "en": "which is upon the altar",
+        "he": "אֲשֶׁר עַל-הַמִּזְבֵּחַ"
       }
     ],
     "9": [
       {
-        "ja": "וגופה ואכארעה יג'סלהא באלמא",
-        "en": "Its innards and its legs shall he wash with water",
-        "he": "וְקִרְבּוֹ וּכְרָעָיו יִרְחַץ בַּמָּיִם"
+        "ja": "וגופה",
+        "en": "Its innards",
+        "he": "וְקִרְבּוֹ"
       },
       {
-        "ja": "ויקתר אלאמאם אלכל עלי' אלמד'בח. צעידה קרבאן מקבול מרצ'י ללה",
-        "en": "and the priest shall burn the whole upon the altar — an ascent-offering, an acceptable and pleasing offering to God.",
-        "he": "וְהִקְטִיר הַכֹּהֵן אֶת-הַכֹּל הַמִּזְבֵּחָה עֹלָה אִשֵּׁה רֵיחַ-נִיחוֹחַ לַיהוָה"
+        "ja": "ואכארעה",
+        "en": "and its legs",
+        "he": "וּכְרָעָיו"
+      },
+      {
+        "ja": "יג'סלהא",
+        "en": "shall he wash",
+        "he": "יִרְחַץ"
+      },
+      {
+        "ja": "באלמא",
+        "en": "with water",
+        "he": "בַּמָּיִם"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "and the priest",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "ויקתר",
+        "en": "shall burn",
+        "he": "וְהִקְטִיר"
+      },
+      {
+        "ja": "אלכל",
+        "en": "the whole",
+        "he": "אֶת-הַכֹּל"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "הַמִּזְבֵּחָה"
+      },
+      {
+        "ja": "צעידה",
+        "en": "an ascent-offering",
+        "he": "עֹלָה"
+      },
+      {
+        "ja": "קרבאן מקבול",
+        "en": "an acceptable",
+        "he": "אִשֵּׁה רֵיחַ-נִיחוֹחַ"
+      },
+      {
+        "ja": "מרצ'י ללה",
+        "en": "and pleasing offering to God",
+        "he": "לַיהוָה"
       }
     ],
     "10": [
       {
-        "ja": "ואן כאן קרבאנה מן אלג'נם. פמן אלצ'אן או מן אלמאעז צעידה",
-        "en": "And if his offering is from the flock — from the sheep or from the goats — an ascent-offering",
-        "he": "וְאִם-מִן-הַצֹּאן קָרְבָּנוֹ מִן-הַכְּשָׂבִים אוֹ מִן-הָעִזִּים לְעֹלָה"
+        "ja": "ואן כאן קרבאנה מן אלג'נם",
+        "en": "And if his offering is from the flock",
+        "he": "וְאִם-מִן-הַצֹּאן"
       },
       {
-        "ja": "פליקרבה ד'כרא צחיחא",
-        "en": "he shall bring it as a sound male.",
-        "he": "זָכָר תָּמִים יַקְרִיבֶנּוּ"
+        "ja": "פמן אלצ'אן",
+        "en": "from the sheep",
+        "he": "מִן-הַכְּשָׂבִים"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "מן אלמאעז",
+        "en": "from the goats",
+        "he": "מִן-הָעִזִּים"
+      },
+      {
+        "ja": "צעידה",
+        "en": "an ascent-offering",
+        "he": "לְעֹלָה"
+      },
+      {
+        "ja": "פליקרבה ד'כרא",
+        "en": "he shall bring it as a",
+        "he": "זָכָר"
+      },
+      {
+        "ja": "צחיחא",
+        "en": "sound male",
+        "he": "תָּמִים יַקְרִיבֶנּוּ"
       }
     ],
     "11": [
       {
-        "ja": "ויד'בחה עלי' גאנב אלמד'בח. שמאלייא בין ידי אללה",
-        "en": "And he shall slaughter it on the side of the altar, northward, before God",
-        "he": "וְשָׁחַט אֹתוֹ עַל יֶרֶךְ הַמִּזְבֵּחַ צָפֹנָה--לִפְנֵי יְהוָה"
+        "ja": "ויד'בחה",
+        "en": "And he shall slaughter it",
+        "he": "וְשָׁחַט"
       },
       {
-        "ja": "וירש בני הרון אלאיימה דמה. עלי' אלמד'בח מסתדירא",
-        "en": "and the sons of Aaron, the priests, shall sprinkle its blood upon the altar all around.",
-        "he": "וְזָרְקוּ בְּנֵי אַהֲרֹן הַכֹּהֲנִים אֶת-דָּמוֹ עַל-הַמִּזְבֵּחַ--סָבִיב"
+        "ja": "עלי' גאנב אלמד'בח",
+        "en": "on the side of the altar",
+        "he": "עַל יֶרֶךְ הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "שמאלייא",
+        "en": "northward",
+        "he": "צָפֹנָה"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "וירש",
+        "en": "shall sprinkle",
+        "he": "וְזָרְקוּ"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "הרון",
+        "en": "Aaron",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "אלאיימה",
+        "en": "the priests",
+        "he": "הַכֹּהֲנִים"
+      },
+      {
+        "ja": "דמה",
+        "en": "its blood",
+        "he": "אֶת-דָּמוֹ"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "עַל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "מסתדירא",
+        "en": "all around",
+        "he": "סָבִיב"
       }
     ],
     "12": [
       {
-        "ja": "ויעצ'יה אעצ'אא. וראסה וקצבתה",
-        "en": "And he shall divide it into its limbs, and its head and its spinal column",
-        "he": "וְנִתַּח אֹתוֹ לִנְתָחָיו וְאֶת-רֹאשׁוֹ וְאֶת-פִּדְרוֹ"
+        "ja": "ויעצ'יה",
+        "en": "And he shall divide it",
+        "he": "וְנִתַּח"
       },
       {
-        "ja": "וינצ'דהא אלאמאם. עלי' אלחטב אלד'י עלי' אלנאר. אלד'י עלי' אלמד'בח",
-        "en": "and the priest shall arrange them upon the wood that is upon the fire, which is upon the altar.",
-        "he": "וְעָרַךְ הַכֹּהֵן אֹתָם עַל-הָעֵצִים אֲשֶׁר עַל-הָאֵשׁ אֲשֶׁר עַל-הַמִּזְבֵּחַ"
+        "ja": "אעצ'אא",
+        "en": "into its limbs",
+        "he": "לִנְתָחָיו"
+      },
+      {
+        "ja": "וראסה",
+        "en": "and its head",
+        "he": "וְאֶת-רֹאשׁוֹ"
+      },
+      {
+        "ja": "וקצבתה",
+        "en": "and its spinal column",
+        "he": "וְאֶת-פִּדְרוֹ"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "and the priest",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "וינצ'דהא",
+        "en": "shall arrange them",
+        "he": "וְעָרַךְ"
+      },
+      {
+        "ja": "עלי' אלחטב",
+        "en": "upon the wood",
+        "he": "עַל-הָעֵצִים"
+      },
+      {
+        "ja": "אלד'י עלי' אלנאר",
+        "en": "that is upon the fire",
+        "he": "אֲשֶׁר עַל-הָאֵשׁ"
+      },
+      {
+        "ja": "אלד'י עלי' אלמד'בח",
+        "en": "which is upon the altar",
+        "he": "אֲשֶׁר עַל-הַמִּזְבֵּחַ"
       }
     ],
     "13": [
       {
-        "ja": "ואלגוף ואלאכארע יג'סלהא באלמא",
-        "en": "And the innards and the legs shall he wash with water",
-        "he": "וְהַקֶּרֶב וְהַכְּרָעַיִם יִרְחַץ בַּמָּיִם"
+        "ja": "ואלגוף",
+        "en": "And the innards",
+        "he": "וְהַקֶּרֶב"
       },
       {
-        "ja": "ויקדם אלאמאם אלכל ויקתרה עלי' אלמד'בח. הו צעידה. קרבאן מקבול מרצ'י ללה",
-        "en": "and the priest shall present the whole and burn it upon the altar — it is an ascent-offering, an acceptable and pleasing offering to God.",
-        "he": "וְהִקְרִיב הַכֹּהֵן אֶת-הַכֹּל וְהִקְטִיר הַמִּזְבֵּחָה--עֹלָה הוּא אִשֵּׁה רֵיחַ נִיחֹחַ לַיהוָה"
+        "ja": "ואלאכארע",
+        "en": "and the legs",
+        "he": "וְהַכְּרָעַיִם"
+      },
+      {
+        "ja": "יג'סלהא",
+        "en": "shall he wash",
+        "he": "יִרְחַץ"
+      },
+      {
+        "ja": "באלמא",
+        "en": "with water",
+        "he": "בַּמָּיִם"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "and the priest",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "ויקדם",
+        "en": "shall present",
+        "he": "וְהִקְרִיב"
+      },
+      {
+        "ja": "אלכל",
+        "en": "the whole",
+        "he": "אֶת-הַכֹּל"
+      },
+      {
+        "ja": "ויקתרה",
+        "en": "and burn it",
+        "he": "וְהִקְטִיר"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "הַמִּזְבֵּחָה"
+      },
+      {
+        "ja": "הו צעידה",
+        "en": "it is an ascent-offering",
+        "he": "עֹלָה הוּא"
+      },
+      {
+        "ja": "קרבאן מקבול",
+        "en": "an acceptable",
+        "he": "אִשֵּׁה רֵיחַ נִיחֹחַ"
+      },
+      {
+        "ja": "מרצ'י ללה",
+        "en": "and pleasing offering to God",
+        "he": "לַיהוָה"
       }
     ],
     "14": [
       {
-        "ja": "ואן כאן קרבאנה מן אלטאיר צעידה ללה",
-        "en": "And if his offering to God is an ascent-offering from birds",
-        "he": "וְאִם מִן-הָעוֹף עֹלָה קָרְבָּנוֹ לַיהוָה"
+        "ja": "ואן כאן",
+        "en": "And if",
+        "he": "וְאִם"
       },
       {
-        "ja": "פליקרבה מן אלשפאנין. או מן פראך' אלחמאם",
-        "en": "he shall bring it from the turtledoves or from the young of the pigeons.",
-        "he": "וְהִקְרִיב מִן-הַתֹּרִים אוֹ מִן-בְּנֵי הַיּוֹנָה--אֶת-קָרְבָּנוֹ"
+        "ja": "קרבאנה",
+        "en": "his offering",
+        "he": "קָרְבָּנוֹ"
+      },
+      {
+        "ja": "מן אלטאיר",
+        "en": "from birds",
+        "he": "מִן-הָעוֹף"
+      },
+      {
+        "ja": "צעידה",
+        "en": "an ascent-offering",
+        "he": "עֹלָה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "פליקרבה",
+        "en": "he shall bring it",
+        "he": "וְהִקְרִיב"
+      },
+      {
+        "ja": "מן אלשפאנין",
+        "en": "from the turtledoves",
+        "he": "מִן-הַתֹּרִים"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "מן פראך' אלחמאם",
+        "en": "from the young of the pigeons",
+        "he": "מִן-בְּנֵי הַיּוֹנָה"
       }
     ],
     "15": [
       {
-        "ja": "ויקדמה אלאמאם אלי' אלמד'בח. ויפצל ראסה",
-        "en": "And the priest shall present it to the altar, and shall separate its head",
-        "he": "וְהִקְרִיבוֹ הַכֹּהֵן אֶל-הַמִּזְבֵּחַ וּמָלַק אֶת-רֹאשׁוֹ"
+        "ja": "אלאמאם",
+        "en": "And the priest",
+        "he": "הַכֹּהֵן"
       },
       {
-        "ja": "ת'ם יקתרה עלי' אלמד'בח. וימצ'י דמה. עלי' חאיט אלמד'בח",
-        "en": "then he shall burn it upon the altar, and its blood shall drain upon the wall of the altar.",
-        "he": "וְהִקְטִיר הַמִּזְבֵּחָה וְנִמְצָה דָמוֹ עַל קִיר הַמִּזְבֵּחַ"
+        "ja": "ויקדמה",
+        "en": "shall present it",
+        "he": "וְהִקְרִיבוֹ"
+      },
+      {
+        "ja": "אלי' אלמד'בח",
+        "en": "to the altar",
+        "he": "אֶל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "ויפצל",
+        "en": "and shall separate",
+        "he": "וּמָלַק"
+      },
+      {
+        "ja": "ראסה",
+        "en": "its head",
+        "he": "אֶת-רֹאשׁוֹ"
+      },
+      {
+        "ja": "ת'ם",
+        "en": "then"
+      },
+      {
+        "ja": "יקתרה",
+        "en": "he shall burn it",
+        "he": "וְהִקְטִיר"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "הַמִּזְבֵּחָה"
+      },
+      {
+        "ja": "דמה",
+        "en": "and its blood",
+        "he": "דָמוֹ"
+      },
+      {
+        "ja": "וימצ'י",
+        "en": "shall drain",
+        "he": "וְנִמְצָה"
+      },
+      {
+        "ja": "עלי' חאיט אלמד'בח",
+        "en": "upon the wall of the altar",
+        "he": "עַל קִיר הַמִּזְבֵּחַ"
       }
     ],
     "16": [
       {
-        "ja": "וינזע חוצלתה מע קאנצתה",
-        "en": "And he shall remove its crop along with its gizzard",
-        "he": "וְהֵסִיר אֶת-מֻרְאָתוֹ בְּנֹצָתָהּ"
+        "ja": "וינזע",
+        "en": "And he shall remove",
+        "he": "וְהֵסִיר"
       },
       {
-        "ja": "ויטרחהא לזק אלמד'בח שרקייא. פי מוצ'ע מטרח אלרמאד",
-        "en": "and shall throw them beside the altar on the east side, at the place where the ash is cast.",
-        "he": "וְהִשְׁלִיךְ אֹתָהּ אֵצֶל הַמִּזְבֵּחַ קֵדְמָה--אֶל-מְקוֹם הַדָּשֶׁן"
+        "ja": "חוצלתה",
+        "en": "its crop",
+        "he": "אֶת-מֻרְאָתוֹ"
+      },
+      {
+        "ja": "מע קאנצתה",
+        "en": "along with its gizzard",
+        "he": "בְּנֹצָתָהּ"
+      },
+      {
+        "ja": "ויטרחהא",
+        "en": "and shall throw them",
+        "he": "וְהִשְׁלִיךְ"
+      },
+      {
+        "ja": "לזק אלמד'בח",
+        "en": "beside the altar",
+        "he": "אֵצֶל הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "שרקייא",
+        "en": "on the east side",
+        "he": "קֵדְמָה"
+      },
+      {
+        "ja": "פי מוצ'ע מטרח אלרמאד",
+        "en": "at the place where the ash is cast",
+        "he": "אֶל-מְקוֹם הַדָּשֶׁן"
       }
     ],
     "17": [
       {
-        "ja": "ויפצלה מן אגנחתה ולא יפרזה",
-        "en": "And he shall split it open by its wings without severing it completely",
-        "he": "וְשִׁסַּע אֹתוֹ בִכְנָפָיו לֹא יַבְדִּיל"
+        "ja": "ויפצלה",
+        "en": "And he shall split it open",
+        "he": "וְשִׁסַּע"
       },
       {
-        "ja": "ת'ם יקתרה אלאמאם עלי' אלמד'בח. עלי' אלחטב אלד'י עלי' אלנאר צעידה. קרבאן מקבול מרצ'י ללה",
-        "en": "then the priest shall burn it upon the altar, upon the wood that is upon the fire — an ascent-offering, an acceptable and pleasing offering to God.",
-        "he": "וְהִקְטִיר אֹתוֹ הַכֹּהֵן הַמִּזְבֵּחָה עַל-הָעֵצִים אֲשֶׁר עַל-הָאֵשׁ עֹלָה הוּא אִשֵּׁה רֵיחַ נִיחֹחַ--לַיהוָה"
+        "ja": "מן אגנחתה",
+        "en": "by its wings",
+        "he": "בִכְנָפָיו"
+      },
+      {
+        "ja": "ולא יפרזה",
+        "en": "without severing it completely",
+        "he": "לֹא יַבְדִּיל"
+      },
+      {
+        "ja": "ת'ם",
+        "en": "then"
+      },
+      {
+        "ja": "יקתרה",
+        "en": "shall burn it",
+        "he": "וְהִקְטִיר"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "the priest",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar",
+        "he": "הַמִּזְבֵּחָה"
+      },
+      {
+        "ja": "עלי' אלחטב",
+        "en": "upon the wood",
+        "he": "עַל-הָעֵצִים"
+      },
+      {
+        "ja": "אלד'י עלי' אלנאר",
+        "en": "that is upon the fire",
+        "he": "אֲשֶׁר עַל-הָאֵשׁ"
+      },
+      {
+        "ja": "צעידה",
+        "en": "an ascent-offering",
+        "he": "עֹלָה"
+      },
+      {
+        "ja": "קרבאן מקבול",
+        "en": "an acceptable",
+        "he": "אִשֵּׁה רֵיחַ נִיחֹחַ"
+      },
+      {
+        "ja": "מרצ'י ללה",
+        "en": "and pleasing offering to God",
+        "he": "לַיהוָה"
       }
     ]
   }

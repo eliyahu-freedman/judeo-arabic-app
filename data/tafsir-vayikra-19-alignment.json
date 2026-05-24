@@ -1,505 +1,1794 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 19. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_19.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 19. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_19.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly",
+        "he": "לֵּאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "מר גמאעה' בני אסראיל. וקל להם",
-        "en": "Command the assembly of the sons of Israel, and say to them:",
-        "he": "דַּבֵּר אֶל-כָּל-עֲדַת בְּנֵי-יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "כונו מקדסין. לאני אללה רבכם אלקדוס",
-        "en": "Be consecrated, for I am God your Lord, the Holy One.",
-        "he": "קְדֹשִׁים תִּהְיוּ כִּי קָדוֹשׁ אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "גמאעה'",
+        "en": "the assembly of"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶל-כָּל-עֲדַת בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "להם",
+        "en": "to them",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "כונו",
+        "en": "Be",
+        "he": "קְדֹשִׁים"
+      },
+      {
+        "ja": "מקדסין",
+        "en": "consecrated",
+        "he": "תִּהְיוּ"
+      },
+      {
+        "ja": "לאני",
+        "en": "for I am",
+        "he": "כִּי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אלקדוס",
+        "en": "the Holy One"
       }
     ],
     "3": [
       {
-        "ja": "ליכאף כל אנסאן אמה ואביה",
-        "en": "Let every person fear his mother and his father;",
-        "he": "אִישׁ אִמּוֹ וְאָבִיו תִּירָאוּ"
+        "ja": "ליכאף כל אנסאן",
+        "en": "Let every person fear",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "אמה",
+        "en": "his mother",
+        "he": "אִמּוֹ"
+      },
+      {
+        "ja": "ואביה",
+        "en": "and his father",
+        "he": "וְאָבִיו"
       },
       {
         "ja": "ואחפצו סבותי",
-        "en": "and keep My Sabbaths.",
-        "he": "וְאֶת-שַׁבְּתֹתַי תִּשְׁמֹרוּ"
+        "en": "and keep My Sabbaths",
+        "he": "וְאֶת-שַׁבְּתֹתַי"
       },
       {
-        "ja": "אנא אללה רבכם אגאזיכם כ'ירא",
-        "en": "I am God your Lord — I shall recompense you with good.",
-        "he": "אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אגאזיכם כ'ירא",
+        "en": "I shall recompense you with good"
       }
     ],
     "4": [
       {
-        "ja": "לא תולו אלי' אלאות'אן",
-        "en": "Do not turn toward the idols;",
-        "he": "אַל-תִּפְנוּ אֶל-הָאֱלִילִם"
+        "ja": "לא תולו",
+        "en": "Do not turn",
+        "he": "אַל-תִּפְנוּ"
       },
       {
-        "ja": "ומעבודאת מסבוכה. לא תצנעו לכם",
-        "en": "and molten objects of worship — do not make for yourselves.",
-        "he": "וֵאלֹהֵי מַסֵּכָה לֹא תַעֲשׂוּ לָכֶם"
+        "ja": "אלי' אלאות'אן",
+        "en": "toward the idols",
+        "he": "אֶל-הָאֱלִילִם"
       },
       {
-        "ja": "אנא אללה רבכם אלואחד",
-        "en": "I am God your Lord, the One.",
-        "he": "אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "ומעבודאת",
+        "en": "and molten objects of",
+        "he": "וֵאלֹהֵי"
+      },
+      {
+        "ja": "מסבוכה",
+        "en": "worship",
+        "he": "מַסֵּכָה"
+      },
+      {
+        "ja": "לא תצנעו",
+        "en": "do not make",
+        "he": "לֹא תַעֲשׂוּ"
+      },
+      {
+        "ja": "לכם",
+        "en": "for yourselves",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אלואחד",
+        "en": "the One"
       }
     ],
     "5": [
       {
-        "ja": "ואדא ד'בחתם ד'בח סלאמה ללה",
-        "en": "And when you slaughter a sacrifice of well-being to God,",
-        "he": "וְכִי תִזְבְּחוּ זֶבַח שְׁלָמִים לַיהוָה"
+        "ja": "ואדא",
+        "en": "And when"
       },
       {
-        "ja": "פעלי' מא ירתצ'א מנכם אד'בחוה",
-        "en": "slaughter it in the manner that is acceptable from you.",
-        "he": "לִרְצֹנְכֶם תִּזְבָּחֻהוּ"
+        "ja": "ד'בחתם",
+        "en": "you slaughter",
+        "he": "וְכִי תִזְבְּחוּ"
+      },
+      {
+        "ja": "ד'בח",
+        "en": "a sacrifice of",
+        "he": "זֶבַח"
+      },
+      {
+        "ja": "סלאמה",
+        "en": "well-being",
+        "he": "שְׁלָמִים"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "פעלי'",
+        "en": "in"
+      },
+      {
+        "ja": "מא ירתצ'א",
+        "en": "the manner that is acceptable",
+        "he": "לִרְצֹנְכֶם"
+      },
+      {
+        "ja": "מנכם",
+        "en": "from you"
+      },
+      {
+        "ja": "אד'בחוה",
+        "en": "slaughter it",
+        "he": "תִּזְבָּחֻהוּ"
       }
     ],
     "6": [
       {
-        "ja": "אן יכון יוכל פי יום ד'בחכם ומן ג'ד",
-        "en": "It is to be eaten on the day of your slaughter and on the morrow;",
-        "he": "בְּיוֹם זִבְחֲכֶם יֵאָכֵל וּמִמָּחֳרָת"
+        "ja": "אן",
+        "en": "It is to be"
       },
       {
-        "ja": "ומא בקי אלי' אליום אלת'אלת'. פליחרק באלנאר",
-        "en": "and whatever remains until the third day shall be burned in the fire.",
-        "he": "וְהַנּוֹתָר עַד-יוֹם הַשְּׁלִישִׁי בָּאֵשׁ יִשָּׂרֵף"
+        "ja": "יוכל",
+        "en": "eaten",
+        "he": "יֵאָכֵל"
+      },
+      {
+        "ja": "פי",
+        "en": "on"
+      },
+      {
+        "ja": "יום",
+        "en": "the day of",
+        "he": "בְּיוֹם"
+      },
+      {
+        "ja": "ד'בחכם",
+        "en": "your slaughter",
+        "he": "זִבְחֲכֶם"
+      },
+      {
+        "ja": "ומן ג'ד",
+        "en": "and on the morrow",
+        "he": "וּמִמָּחֳרָת"
+      },
+      {
+        "ja": "ומא בקי",
+        "en": "and whatever remains",
+        "he": "וְהַנּוֹתָר"
+      },
+      {
+        "ja": "אלי' אליום",
+        "en": "until the",
+        "he": "עַד-יוֹם"
+      },
+      {
+        "ja": "אלת'אלת'",
+        "en": "third day",
+        "he": "הַשְּׁלִישִׁי"
+      },
+      {
+        "ja": "פליחרק",
+        "en": "shall be burned"
+      },
+      {
+        "ja": "באלנאר",
+        "en": "in the fire",
+        "he": "בָּאֵשׁ"
       }
     ],
     "7": [
       {
-        "ja": "ואן אכל מנה שי פי אליום אלת'אלת'",
-        "en": "And if anything of it is eaten on the third day,",
-        "he": "וְאִם הֵאָכֹל יֵאָכֵל בַּיּוֹם הַשְּׁלִישִׁי"
+        "ja": "ואן",
+        "en": "And if"
       },
       {
-        "ja": "פהו כאלאכ'ס לא יקבל",
-        "en": "it is like the repulsive thing — it shall not be accepted.",
-        "he": "פִּגּוּל הוּא לֹא יֵרָצֶה"
+        "ja": "אכל",
+        "en": "is eaten",
+        "he": "הֵאָכֹל יֵאָכֵל"
+      },
+      {
+        "ja": "מנה",
+        "en": "of it"
+      },
+      {
+        "ja": "שי",
+        "en": "anything"
+      },
+      {
+        "ja": "פי",
+        "en": "on"
+      },
+      {
+        "ja": "אליום אלת'אלת'",
+        "en": "the third day",
+        "he": "בַּיּוֹם הַשְּׁלִישִׁי"
+      },
+      {
+        "ja": "פהו",
+        "en": "it is"
+      },
+      {
+        "ja": "כאלאכ'ס",
+        "en": "like the repulsive thing"
+      },
+      {
+        "ja": "לא יקבל",
+        "en": "it shall not be accepted",
+        "he": "לֹא יֵרָצֶה"
       }
     ],
     "8": [
       {
-        "ja": "ואכלה פקד חמל וזרה. למא בד'ל קדס אללה",
-        "en": "And he who eats it has borne his burden of guilt, for he has debased what is consecrated to God;",
-        "he": "וְאֹכְלָיו עֲו‍ֹנוֹ יִשָּׂא כִּי-אֶת-קֹדֶשׁ יְהוָה חִלֵּל"
+        "ja": "ואכלה",
+        "en": "And he who eats it",
+        "he": "וְאֹכְלָיו"
       },
       {
-        "ja": "וינקטע ד'אלך אלאנסאן מן בין קומה",
-        "en": "and that person shall be cut off from among his people.",
-        "he": "וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מֵעַמֶּיהָ"
+        "ja": "פקד",
+        "en": "has"
+      },
+      {
+        "ja": "חמל",
+        "en": "borne",
+        "he": "יִשָּׂא"
+      },
+      {
+        "ja": "וזרה",
+        "en": "his burden of guilt",
+        "he": "עֲו‍ֹנוֹ"
+      },
+      {
+        "ja": "למא",
+        "en": "for",
+        "he": "כִּי"
+      },
+      {
+        "ja": "בד'ל",
+        "en": "he has debased"
+      },
+      {
+        "ja": "קדס",
+        "en": "what is consecrated to",
+        "he": "קֹדֶשׁ"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "וינקטע ד'אלך אלאנסאן",
+        "en": "and that person shall be cut off",
+        "he": "וְנִכְרְתָה הַנֶּפֶשׁ"
+      },
+      {
+        "ja": "מן בין קומה",
+        "en": "from among his people",
+        "he": "מֵעַמֶּיהָ"
       }
     ],
     "9": [
       {
-        "ja": "ואדא חצדתם זרע בלאדכם. פלא תסתקץ טרה' צ'יעתך פתחצדהא",
-        "en": "And when you harvest the grain of your lands, do not exhaust the edge of your field by harvesting it,",
-        "he": "וּבְקֻצְרְכֶם אֶת-קְצִיר אַרְצְכֶם לֹא תְכַלֶּה פְּאַת שָׂדְךָ לִקְצֹר"
+        "ja": "ואדא",
+        "en": "And when"
       },
       {
-        "ja": "ולקיט זרעך פלא תלקטה",
-        "en": "and the gleanings of your grain — do not gather them.",
-        "he": "וְלֶקֶט קְצִירְךָ לֹא תְלַקֵּט"
+        "ja": "חצדתם",
+        "en": "you harvest",
+        "he": "וּבְקֻצְרְכֶם"
+      },
+      {
+        "ja": "זרע",
+        "en": "the grain of",
+        "he": "אֶת-קְצִיר"
+      },
+      {
+        "ja": "בלאדכם",
+        "en": "your lands",
+        "he": "אַרְצְכֶם"
+      },
+      {
+        "ja": "פלא תסתקץ",
+        "en": "do not exhaust",
+        "he": "לֹא תְכַלֶּה"
+      },
+      {
+        "ja": "טרה'",
+        "en": "the edge of",
+        "he": "פְּאַת"
+      },
+      {
+        "ja": "צ'יעתך",
+        "en": "your field",
+        "he": "שָׂדְךָ"
+      },
+      {
+        "ja": "פתחצדהא",
+        "en": "by harvesting it",
+        "he": "לִקְצֹר"
+      },
+      {
+        "ja": "ולקיט",
+        "en": "and the gleanings of",
+        "he": "וְלֶקֶט"
+      },
+      {
+        "ja": "זרעך",
+        "en": "your grain",
+        "he": "קְצִירְךָ"
+      },
+      {
+        "ja": "פלא תלקטה",
+        "en": "do not gather them",
+        "he": "לֹא תְלַקֵּט"
       }
     ],
     "10": [
       {
-        "ja": "וכרמך פלא תמושה. ומפרוט כרמך פלא תלקטה",
-        "en": "And your vineyard — do not strip it; and the fallen grapes of your vineyard — do not gather them;",
-        "he": "וְכַרְמְךָ לֹא תְעוֹלֵל וּפֶרֶט כַּרְמְךָ לֹא תְלַקֵּט"
+        "ja": "וכרמך",
+        "en": "And your vineyard",
+        "he": "וְכַרְמְךָ"
       },
       {
-        "ja": "בל אתרכהא לאלצ'עיף ואלג'ריב",
-        "en": "but leave them for the weak and the stranger.",
-        "he": "לֶעָנִי וְלַגֵּר תַּעֲזֹב אֹתָם"
+        "ja": "פלא תמושה",
+        "en": "do not strip it",
+        "he": "לֹא תְעוֹלֵל"
       },
       {
-        "ja": "אנא אללה רבכם אגאזיכם כ'ירא",
-        "en": "I am God your Lord — I shall recompense you with good.",
-        "he": "אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "ומפרוט",
+        "en": "and the fallen grapes of",
+        "he": "וּפֶרֶט"
+      },
+      {
+        "ja": "כרמך",
+        "en": "your vineyard",
+        "he": "כַּרְמְךָ"
+      },
+      {
+        "ja": "פלא תלקטה",
+        "en": "do not gather them",
+        "he": "לֹא תְלַקֵּט"
+      },
+      {
+        "ja": "בל",
+        "en": "but"
+      },
+      {
+        "ja": "אתרכהא",
+        "en": "leave them",
+        "he": "תַּעֲזֹב"
+      },
+      {
+        "ja": "לאלצ'עיף",
+        "en": "for the weak",
+        "he": "לֶעָנִי"
+      },
+      {
+        "ja": "ואלג'ריב",
+        "en": "and the stranger",
+        "he": "וְלַגֵּר"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אגאזיכם כ'ירא",
+        "en": "I shall recompense you with good"
       }
     ],
     "11": [
       {
         "ja": "לא תסרקו",
-        "en": "Do not steal;",
+        "en": "Do not steal",
         "he": "לֹא תִּגְנֹבוּ"
       },
       {
-        "ja": "ולא יגחד ולא ינכת' כל אמר בצאחבה",
-        "en": "and let no man deny nor break faith with his fellow.",
-        "he": "וְלֹא-תְכַחֲשׁוּ וְלֹא-תְשַׁקְּרוּ אִישׁ בַּעֲמִיתוֹ"
+        "ja": "ולא יגחד",
+        "en": "and let no",
+        "he": "וְלֹא-תְכַחֲשׁוּ"
+      },
+      {
+        "ja": "ולא ינכת'",
+        "en": "nor break faith",
+        "he": "וְלֹא-תְשַׁקְּרוּ"
+      },
+      {
+        "ja": "כל אמר",
+        "en": "man deny",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "בצאחבה",
+        "en": "with his fellow",
+        "he": "בַּעֲמִיתוֹ"
       }
     ],
     "12": [
       {
-        "ja": "ולא תחלפו באסמי באטלא",
-        "en": "And do not swear by My name falsely —",
-        "he": "וְלֹא-תִשָּׁבְעוּ בִשְׁמִי לַשָּׁקֶר"
+        "ja": "ולא תחלפו",
+        "en": "And do not swear",
+        "he": "וְלֹא-תִשָּׁבְעוּ"
       },
       {
-        "ja": "פאנך אד'א בד'לת אסם רבך",
-        "en": "for you would then have debased the name of your Lord.",
-        "he": "וְחִלַּלְתָּ אֶת-שֵׁם אֱלֹהֶיךָ"
+        "ja": "באסמי",
+        "en": "by My name",
+        "he": "בִשְׁמִי"
       },
       {
-        "ja": "אנא אללה אלמעאקב",
-        "en": "I am God, the Punisher.",
-        "he": "אֲנִי יְהוָה"
+        "ja": "באטלא",
+        "en": "falsely",
+        "he": "לַשָּׁקֶר"
+      },
+      {
+        "ja": "פאנך",
+        "en": "for you"
+      },
+      {
+        "ja": "אד'א",
+        "en": "would then"
+      },
+      {
+        "ja": "בד'לת",
+        "en": "have debased",
+        "he": "וְחִלַּלְתָּ"
+      },
+      {
+        "ja": "אסם",
+        "en": "the name of",
+        "he": "אֶת-שֵׁם"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אלמעאקב",
+        "en": "the Punisher"
       }
     ],
     "13": [
       {
-        "ja": "לא תג'שם צאחבך ולא תג'צ'בה",
-        "en": "Do not defraud your fellow nor rob him;",
-        "he": "לֹא-תַעֲשֹׁק אֶת-רֵעֲךָ וְלֹא תִגְזֹל"
+        "ja": "לא תג'שם",
+        "en": "Do not defraud",
+        "he": "לֹא-תַעֲשֹׁק"
       },
       {
-        "ja": "ולא תבית אגרה' אלאגיר. ענדך אלי' אלג'דאה",
-        "en": "and do not let the wages of a hired hand stay overnight with you until the morning.",
-        "he": "לֹא-תָלִין פְּעֻלַּת שָׂכִיר אִתְּךָ--עַד-בֹּקֶר"
+        "ja": "צאחבך",
+        "en": "your fellow",
+        "he": "אֶת-רֵעֲךָ"
+      },
+      {
+        "ja": "ולא תג'צ'בה",
+        "en": "nor rob him",
+        "he": "וְלֹא תִגְזֹל"
+      },
+      {
+        "ja": "ולא תבית",
+        "en": "and do not let",
+        "he": "לֹא-תָלִין"
+      },
+      {
+        "ja": "אגרה'",
+        "en": "the wages of",
+        "he": "פְּעֻלַּת"
+      },
+      {
+        "ja": "אלאגיר",
+        "en": "a hired hand",
+        "he": "שָׂכִיר"
+      },
+      {
+        "ja": "ענדך",
+        "en": "with you",
+        "he": "אִתְּךָ"
+      },
+      {
+        "ja": "אלי' אלג'דאה",
+        "en": "until the morning",
+        "he": "עַד-בֹּקֶר"
       }
     ],
     "14": [
       {
-        "ja": "לא תשתם אצמא. ובין ידי אעמא. לא תצייר מעת'רא",
-        "en": "Do not revile the deaf; and before a blind person do not place a stumbling block;",
-        "he": "לֹא-תְקַלֵּל חֵרֵשׁ--וְלִפְנֵי עִוֵּר לֹא תִתֵּן מִכְשֹׁל"
+        "ja": "לא תשתם",
+        "en": "Do not revile",
+        "he": "לֹא-תְקַלֵּל"
       },
       {
-        "ja": "וכ'ף רבך אנא אללה אלמעאקב",
-        "en": "and fear your Lord. I am God, the Punisher.",
-        "he": "וְיָרֵאתָ מֵּאֱלֹהֶיךָ אֲנִי יְהוָה"
+        "ja": "אצמא",
+        "en": "the deaf",
+        "he": "חֵרֵשׁ"
+      },
+      {
+        "ja": "ובין ידי",
+        "en": "and before",
+        "he": "וְלִפְנֵי"
+      },
+      {
+        "ja": "אעמא",
+        "en": "a blind person",
+        "he": "עִוֵּר"
+      },
+      {
+        "ja": "לא תצייר",
+        "en": "do not place",
+        "he": "לֹא תִתֵּן"
+      },
+      {
+        "ja": "מעת'רא",
+        "en": "a stumbling block",
+        "he": "מִכְשֹׁל"
+      },
+      {
+        "ja": "וכ'ף",
+        "en": "and fear",
+        "he": "וְיָרֵאתָ"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "מֵּאֱלֹהֶיךָ"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אלמעאקב",
+        "en": "the Punisher"
       }
     ],
     "15": [
       {
-        "ja": "לא תצנעו גורא פי אלחכם. ולא תחאבון פקירא. ולא תבתהגון גלילא",
-        "en": "Do not commit injustice in judgment; do not favor the poor, and do not defer to the great —",
-        "he": "לֹא-תַעֲשׂוּ עָוֶל בַּמִּשְׁפָּט--לֹא-תִשָּׂא פְנֵי-דָל וְלֹא תֶהְדַּר פְּנֵי גָדוֹל"
+        "ja": "לא תצנעו",
+        "en": "Do not commit",
+        "he": "לֹא-תַעֲשׂוּ"
       },
       {
-        "ja": "בל אחכם פי מא בין קומך באלעדל",
-        "en": "but judge among your people with equity.",
-        "he": "בְּצֶדֶק תִּשְׁפֹּט עֲמִיתֶךָ"
+        "ja": "גורא",
+        "en": "injustice",
+        "he": "עָוֶל"
+      },
+      {
+        "ja": "פי אלחכם",
+        "en": "in judgment",
+        "he": "בַּמִּשְׁפָּט"
+      },
+      {
+        "ja": "ולא תחאבון",
+        "en": "do not favor",
+        "he": "לֹא-תִשָּׂא"
+      },
+      {
+        "ja": "פקירא",
+        "en": "the poor",
+        "he": "פְנֵי-דָל"
+      },
+      {
+        "ja": "ולא תבתהגון",
+        "en": "and do not defer to",
+        "he": "וְלֹא תֶהְדַּר"
+      },
+      {
+        "ja": "גלילא",
+        "en": "the great",
+        "he": "פְּנֵי גָדוֹל"
+      },
+      {
+        "ja": "בל",
+        "en": "but"
+      },
+      {
+        "ja": "באלעדל",
+        "en": "with equity",
+        "he": "בְּצֶדֶק"
+      },
+      {
+        "ja": "אחכם",
+        "en": "judge",
+        "he": "תִּשְׁפֹּט"
+      },
+      {
+        "ja": "פי מא בין",
+        "en": "among"
+      },
+      {
+        "ja": "קומך",
+        "en": "your people",
+        "he": "עֲמִיתֶךָ"
       }
     ],
     "16": [
       {
-        "ja": "לא תמץ מאהלא בקומך",
-        "en": "Do not go about in leisurely prying among your people;",
-        "he": "לֹא-תֵלֵךְ רָכִיל בְּעַמֶּיךָ"
+        "ja": "לא תמץ",
+        "en": "Do not go about",
+        "he": "לֹא-תֵלֵךְ"
       },
       {
-        "ja": "ולא תקום עלי' דם צאחבך",
-        "en": "and do not stand against the blood of your fellow.",
-        "he": "לֹא תַעֲמֹד עַל-דַּם רֵעֶךָ"
+        "ja": "מאהלא",
+        "en": "in leisurely prying",
+        "he": "רָכִיל"
       },
       {
-        "ja": "אנא אללה אלמעאקב",
-        "en": "I am God, the Punisher.",
-        "he": "אֲנִי יְהוָה"
+        "ja": "בקומך",
+        "en": "among your people",
+        "he": "בְּעַמֶּיךָ"
+      },
+      {
+        "ja": "ולא תקום",
+        "en": "and do not stand",
+        "he": "לֹא תַעֲמֹד"
+      },
+      {
+        "ja": "עלי' דם",
+        "en": "against the blood of",
+        "he": "עַל-דַּם"
+      },
+      {
+        "ja": "צאחבך",
+        "en": "your fellow",
+        "he": "רֵעֶךָ"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אלמעאקב",
+        "en": "the Punisher"
       }
     ],
     "17": [
       {
-        "ja": "לא תשן אכ'יך פי קלבך",
-        "en": "Do not hate your brother in your heart;",
-        "he": "לֹא-תִשְׂנָא אֶת-אָחִיךָ בִּלְבָבֶךָ"
+        "ja": "לא תשן",
+        "en": "Do not hate",
+        "he": "לֹא-תִשְׂנָא"
       },
       {
-        "ja": "בל עצ'ה[ועט'א[ ועצ'א",
-        "en": "but admonish him with admonition —",
-        "he": "הוֹכֵחַ תּוֹכִיחַ אֶת-עֲמִיתֶךָ"
+        "ja": "אכ'יך",
+        "en": "your brother",
+        "he": "אֶת-אָחִיךָ"
       },
       {
-        "ja": "ולא תחמל ענה וזרא",
-        "en": "and do not bear on his account a burden of guilt.",
-        "he": "וְלֹא-תִשָּׂא עָלָיו חֵטְא"
+        "ja": "פי קלבך",
+        "en": "in your heart",
+        "he": "בִּלְבָבֶךָ"
+      },
+      {
+        "ja": "בל",
+        "en": "but"
+      },
+      {
+        "ja": "עצ'ה",
+        "en": "admonish",
+        "he": "הוֹכֵחַ"
+      },
+      {
+        "ja": "[ועט'א[",
+        "en": "him"
+      },
+      {
+        "ja": "ועצ'א",
+        "en": "with admonition",
+        "he": "תּוֹכִיחַ"
+      },
+      {
+        "ja": "ולא תחמל",
+        "en": "and do not bear",
+        "he": "וְלֹא-תִשָּׂא"
+      },
+      {
+        "ja": "ענה",
+        "en": "on his account"
+      },
+      {
+        "ja": "וזרא",
+        "en": "a burden of guilt",
+        "he": "עָלָיו חֵטְא"
       }
     ],
     "18": [
       {
-        "ja": "לא תנקם ולא תחקד עלי' קומך",
-        "en": "Do not take revenge and do not bear a grudge against your people;",
-        "he": "לֹא-תִקֹּם וְלֹא-תִטֹּר אֶת-בְּנֵי עַמֶּךָ"
+        "ja": "לא תנקם",
+        "en": "Do not take revenge",
+        "he": "לֹא-תִקֹּם"
       },
       {
-        "ja": "ואחבב לצאחבך מת'ל נפסך",
-        "en": "and love for your fellow what you love for yourself.",
-        "he": "וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ"
+        "ja": "ולא תחקד",
+        "en": "and do not bear a grudge",
+        "he": "וְלֹא-תִטֹּר"
       },
       {
-        "ja": "אנא אללה אגאזיך כ'ירא",
-        "en": "I am God — I shall recompense you with good.",
-        "he": "אֲנִי יְהוָה"
+        "ja": "עלי' קומך",
+        "en": "against your people",
+        "he": "אֶת-בְּנֵי עַמֶּךָ"
+      },
+      {
+        "ja": "ואחבב",
+        "en": "and love",
+        "he": "וְאָהַבְתָּ"
+      },
+      {
+        "ja": "לצאחבך",
+        "en": "for your fellow",
+        "he": "לְרֵעֲךָ"
+      },
+      {
+        "ja": "מת'ל נפסך",
+        "en": "what you love for yourself",
+        "he": "כָּמוֹךָ"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אגאזיך כ'ירא",
+        "en": "I shall recompense you with good"
       }
     ],
     "19": [
       {
-        "ja": "רסומי [פאחפט'והא[ פאחפצ'והא",
-        "en": "My statutes — keep them.",
-        "he": "אֶת-חֻקֹּתַי תִּשְׁמֹרוּ"
+        "ja": "רסומי",
+        "en": "My statutes",
+        "he": "אֶת-חֻקֹּתַי"
       },
       {
-        "ja": "בהאימך לא תנזוהא מן נועין. וצ'יאעך לא תזרעהא מן נועין",
-        "en": "Your beasts — do not mate them from two kinds; and your fields — do not sow them from two kinds;",
-        "he": "בְּהֶמְתְּךָ לֹא-תַרְבִּיעַ כִּלְאַיִם שָׂדְךָ לֹא-תִזְרַע כִּלְאָיִם"
+        "ja": "פאחפצ'והא",
+        "en": "keep them",
+        "he": "תִּשְׁמֹרוּ"
       },
       {
-        "ja": "ות'וב מן נועין מלחמין. לא יעלו עליך",
-        "en": "and a garment of two kinds intertwined — let it not come upon you.",
-        "he": "וּבֶגֶד כִּלְאַיִם שַׁעַטְנֵז לֹא יַעֲלֶה עָלֶיךָ"
+        "ja": "בהאימך",
+        "en": "Your beasts",
+        "he": "בְּהֶמְתְּךָ"
+      },
+      {
+        "ja": "לא תנזוהא",
+        "en": "do not mate them",
+        "he": "לֹא-תַרְבִּיעַ"
+      },
+      {
+        "ja": "מן נועין",
+        "en": "from two kinds",
+        "he": "כִּלְאַיִם"
+      },
+      {
+        "ja": "וצ'יאעך",
+        "en": "and your fields",
+        "he": "שָׂדְךָ"
+      },
+      {
+        "ja": "לא תזרעהא",
+        "en": "do not sow them",
+        "he": "לֹא-תִזְרַע"
+      },
+      {
+        "ja": "מן נועין",
+        "en": "from two kinds"
+      },
+      {
+        "ja": "ות'וב",
+        "en": "and a garment of",
+        "he": "וּבֶגֶד"
+      },
+      {
+        "ja": "מן נועין",
+        "en": "two kinds"
+      },
+      {
+        "ja": "מלחמין",
+        "en": "intertwined"
+      },
+      {
+        "ja": "לא יעלו",
+        "en": "let it not come",
+        "he": "לֹא יַעֲלֶה"
+      },
+      {
+        "ja": "עליך",
+        "en": "upon you",
+        "he": "עָלֶיךָ"
       }
     ],
     "20": [
       {
-        "ja": "ואי רגל צ'אגע אמראה מצ'אגעה' אנסאל. והי אמה מכ'טובה לאי רגל כאן",
-        "en": "And any man who lies with a woman in the manner of procreation, and she is a maidservant betrothed to any man,",
-        "he": "וְאִישׁ כִּי-יִשְׁכַּב אֶת-אִשָּׁה שִׁכְבַת-זֶרַע וְהִוא שִׁפְחָה נֶחֱרֶפֶת לְאִישׁ"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "ופדא לם תפדא. ועתקהא לם ידפע אליהא",
-        "en": "and a ransom has not been paid for her and her freedom has not been given to her —",
-        "he": "וְהָפְדֵּה לֹא נִפְדָּתָה אוֹ חֻפְשָׁה לֹא נִתַּן-לָהּ"
+        "ja": "רגל",
+        "en": "man",
+        "he": "וְאִישׁ"
       },
       {
-        "ja": "פלתכון מחדודה. ולא יקתלא אד' לם תעתק",
-        "en": "then she shall be subject to punishment, and they shall not be put to death, since she has not been freed.",
-        "he": "בִּקֹּרֶת תִּהְיֶה לֹא יוּמְתוּ כִּי-לֹא חֻפָּשָׁה"
+        "ja": "צ'אגע",
+        "en": "who lies with",
+        "he": "כִּי-יִשְׁכַּב"
+      },
+      {
+        "ja": "אמראה",
+        "en": "a woman",
+        "he": "אֶת-אִשָּׁה"
+      },
+      {
+        "ja": "מצ'אגעה' אנסאל",
+        "en": "in the manner of procreation",
+        "he": "שִׁכְבַת-זֶרַע"
+      },
+      {
+        "ja": "והי",
+        "en": "and she is",
+        "he": "וְהִוא"
+      },
+      {
+        "ja": "אמה",
+        "en": "a maidservant",
+        "he": "שִׁפְחָה"
+      },
+      {
+        "ja": "מכ'טובה",
+        "en": "betrothed",
+        "he": "נֶחֱרֶפֶת"
+      },
+      {
+        "ja": "לאי רגל כאן",
+        "en": "to any man",
+        "he": "לְאִישׁ"
+      },
+      {
+        "ja": "ופדא",
+        "en": "and a ransom",
+        "he": "וְהָפְדֵּה"
+      },
+      {
+        "ja": "לם תפדא",
+        "en": "has not been paid for her",
+        "he": "לֹא נִפְדָּתָה"
+      },
+      {
+        "ja": "ועתקהא",
+        "en": "and her freedom",
+        "he": "אוֹ חֻפְשָׁה"
+      },
+      {
+        "ja": "לם ידפע אליהא",
+        "en": "has not been given to her",
+        "he": "לֹא נִתַּן-לָהּ"
+      },
+      {
+        "ja": "פלתכון מחדודה",
+        "en": "then she shall be subject to punishment",
+        "he": "בִּקֹּרֶת תִּהְיֶה"
+      },
+      {
+        "ja": "ולא יקתלא",
+        "en": "and they shall not be put to death",
+        "he": "לֹא יוּמְתוּ"
+      },
+      {
+        "ja": "אד' לם תעתק",
+        "en": "since she has not been freed",
+        "he": "כִּי-לֹא חֻפָּשָׁה"
       }
     ],
     "21": [
       {
-        "ja": "פליאת בקרבאנה ללה. אלי' באב כ'בא אלמחצ'ר",
-        "en": "And he shall bring his offering to God, to the entrance of the tent of the assembly —",
-        "he": "וְהֵבִיא אֶת-אֲשָׁמוֹ לַיהוָה אֶל-פֶּתַח אֹהֶל מוֹעֵד"
+        "ja": "פליאת",
+        "en": "And he shall bring"
       },
       {
-        "ja": "כבשא לקרבאן אלאת'ם",
-        "en": "a ram as a guilt offering.",
-        "he": "אֵיל אָשָׁם"
+        "ja": "בקרבאנה",
+        "en": "his offering",
+        "he": "וְהֵבִיא"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "אלי' באב",
+        "en": "to the entrance of",
+        "he": "אֶל-פֶּתַח"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of the assembly",
+        "he": "אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "כבשא",
+        "en": "a ram",
+        "he": "אֵיל"
+      },
+      {
+        "ja": "לקרבאן אלאת'ם",
+        "en": "as a guilt offering",
+        "he": "אָשָׁם"
       }
     ],
     "22": [
       {
-        "ja": "פיסתג'פר ענה אלאמאם בין ידי אללה. ען כ'טייתה אלד'י אכ'טא",
-        "en": "And the imām shall seek forgiveness for him before God for his sin which he has sinned;",
-        "he": "וְכִפֶּר עָלָיו הַכֹּהֵן בְּאֵיל הָאָשָׁם לִפְנֵי יְהוָה עַל-חַטָּאתוֹ אֲשֶׁר חָטָא"
+        "ja": "אלאמאם",
+        "en": "And the imām",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "פיסתג'פר",
+        "en": "shall seek forgiveness",
+        "he": "וְכִפֶּר"
+      },
+      {
+        "ja": "ענה",
+        "en": "for him"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "ען כ'טייתה",
+        "en": "for his sin",
+        "he": "עַל-חַטָּאתוֹ"
+      },
+      {
+        "ja": "אלד'י אכ'טא",
+        "en": "which he has sinned",
+        "he": "אֲשֶׁר חָטָא"
       },
       {
         "ja": "פיג'פר לה ד'אלך",
-        "en": "and it shall be forgiven him.",
-        "he": "וְנִסְלַח לוֹ מֵחַטָּאתוֹ אֲשֶׁר חָטָא"
+        "en": "and it shall be forgiven him",
+        "he": "וְנִסְלַח"
       }
     ],
     "23": [
       {
-        "ja": "ומד' תדכ'לון אלי' אלבלד. פתג'רסון כל שגר מטעם",
-        "en": "And from the time you enter the land and plant any food-bearing tree,",
-        "he": "וְכִי-תָבֹאוּ אֶל-הָאָרֶץ וּנְטַעְתֶּם כָּל-עֵץ מַאֲכָל"
+        "ja": "ומד'",
+        "en": "And from the time"
       },
       {
-        "ja": "פתחרמו ת'מרה תחרימא. ת'לאת' סנין. יכון עליכם מחרמא לא יוכל",
-        "en": "you shall declare its fruit forbidden with a full prohibition — three years it shall be forbidden to you, not to be eaten.",
-        "he": "וַעֲרַלְתֶּם עָרְלָתוֹ אֶת-פִּרְיוֹ שָׁלֹשׁ שָׁנִים יִהְיֶה לָכֶם עֲרֵלִים--לֹא יֵאָכֵל"
+        "ja": "תדכ'לון",
+        "en": "you enter",
+        "he": "וְכִי-תָבֹאוּ"
+      },
+      {
+        "ja": "אלי' אלבלד",
+        "en": "the land",
+        "he": "אֶל-הָאָרֶץ"
+      },
+      {
+        "ja": "פתג'רסון",
+        "en": "and plant",
+        "he": "וּנְטַעְתֶּם"
+      },
+      {
+        "ja": "כל שגר",
+        "en": "any",
+        "he": "כָּל-עֵץ"
+      },
+      {
+        "ja": "מטעם",
+        "en": "food-bearing tree",
+        "he": "מַאֲכָל"
+      },
+      {
+        "ja": "פתחרמו",
+        "en": "you shall declare",
+        "he": "וַעֲרַלְתֶּם"
+      },
+      {
+        "ja": "ת'מרה",
+        "en": "its fruit",
+        "he": "עָרְלָתוֹ"
+      },
+      {
+        "ja": "תחרימא",
+        "en": "forbidden with a full prohibition"
+      },
+      {
+        "ja": "ת'לאת' סנין",
+        "en": "three years",
+        "he": "שָׁלֹשׁ שָׁנִים"
+      },
+      {
+        "ja": "יכון עליכם",
+        "en": "it shall be",
+        "he": "יִהְיֶה לָכֶם"
+      },
+      {
+        "ja": "מחרמא",
+        "en": "forbidden to you",
+        "he": "עֲרֵלִים"
+      },
+      {
+        "ja": "לא יוכל",
+        "en": "not to be eaten",
+        "he": "לֹא יֵאָכֵל"
       }
     ],
     "24": [
       {
-        "ja": "ופי אלסנה אלראבעה. יכון גמיע ת'מרה",
-        "en": "And in the fourth year, all its fruit",
-        "he": "וּבַשָּׁנָה הָרְבִיעִת יִהְיֶה כָּל-פִּרְיוֹ"
+        "ja": "ופי אלסנה",
+        "en": "And in the",
+        "he": "וּבַשָּׁנָה"
       },
       {
-        "ja": "מקדסא מוהלא ללה",
-        "en": "shall be consecrated, dedicated to God.",
-        "he": "קֹדֶשׁ הִלּוּלִים לַיהוָה"
+        "ja": "אלראבעה",
+        "en": "fourth year",
+        "he": "הָרְבִיעִת"
+      },
+      {
+        "ja": "יכון",
+        "en": "shall be",
+        "he": "יִהְיֶה"
+      },
+      {
+        "ja": "גמיע ת'מרה",
+        "en": "all its fruit",
+        "he": "כָּל-פִּרְיוֹ"
+      },
+      {
+        "ja": "מקדסא",
+        "en": "consecrated",
+        "he": "קֹדֶשׁ"
+      },
+      {
+        "ja": "מוהלא",
+        "en": "dedicated",
+        "he": "הִלּוּלִים"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
       }
     ],
     "25": [
       {
-        "ja": "ופי אלסנה אלכ'אמסה. תאכלו ת'מרה",
-        "en": "And in the fifth year you may eat its fruit —",
-        "he": "וּבַשָּׁנָה הַחֲמִישִׁת תֹּאכְלוּ אֶת-פִּרְיוֹ"
+        "ja": "ופי אלסנה",
+        "en": "And in the",
+        "he": "וּבַשָּׁנָה"
       },
       {
-        "ja": "פאני אללה רבכם אזיד לכם פי ג'לתה",
-        "en": "for I am God your Lord, I shall increase for you its yield.",
-        "he": "לְהוֹסִיף לָכֶם תְּבוּאָתוֹ אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "אלכ'אמסה",
+        "en": "fifth year",
+        "he": "הַחֲמִישִׁת"
+      },
+      {
+        "ja": "תאכלו",
+        "en": "you may eat",
+        "he": "תֹּאכְלוּ"
+      },
+      {
+        "ja": "ת'מרה",
+        "en": "its fruit",
+        "he": "אֶת-פִּרְיוֹ"
+      },
+      {
+        "ja": "פאני",
+        "en": "for I am",
+        "he": "לְהוֹסִיף"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "אֲנִי יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אזיד",
+        "en": "I shall increase"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you"
+      },
+      {
+        "ja": "פי ג'לתה",
+        "en": "its yield",
+        "he": "תְּבוּאָתוֹ"
       }
     ],
     "26": [
       {
-        "ja": "לא תאכלו עלי' אלדם",
-        "en": "Do not eat over the blood;",
-        "he": "לֹא תֹאכְלוּ עַל-הַדָּם"
+        "ja": "לא תאכלו",
+        "en": "Do not eat",
+        "he": "לֹא תֹאכְלוּ"
       },
       {
-        "ja": "לא תתטיירו ולא תתפאולו",
-        "en": "do not take omens and do not seek auguries.",
-        "he": "לֹא תְנַחֲשׁוּ וְלֹא תְעוֹנֵנוּ"
+        "ja": "עלי' אלדם",
+        "en": "over the blood",
+        "he": "עַל-הַדָּם"
+      },
+      {
+        "ja": "לא תתטיירו",
+        "en": "do not take omens",
+        "he": "לֹא תְנַחֲשׁוּ"
+      },
+      {
+        "ja": "ולא תתפאולו",
+        "en": "and do not seek auguries",
+        "he": "וְלֹא תְעוֹנֵנוּ"
       }
     ],
     "27": [
       {
-        "ja": "ולא תחדקו בזואיא רוסכם",
-        "en": "And do not shave the corners of your heads,",
-        "he": "לֹא תַקִּפוּ פְּאַת רֹאשְׁכֶם"
+        "ja": "ולא תחדקו",
+        "en": "And do not shave",
+        "he": "לֹא תַקִּפוּ"
       },
       {
-        "ja": "ולא תסתאצל זואיא לחיתך",
-        "en": "and do not uproot the corners of your beard.",
-        "he": "וְלֹא תַשְׁחִית אֵת פְּאַת זְקָנֶךָ"
+        "ja": "בזואיא",
+        "en": "the corners of",
+        "he": "פְּאַת"
+      },
+      {
+        "ja": "רוסכם",
+        "en": "your heads",
+        "he": "רֹאשְׁכֶם"
+      },
+      {
+        "ja": "ולא תסתאצל",
+        "en": "and do not uproot",
+        "he": "וְלֹא תַשְׁחִית"
+      },
+      {
+        "ja": "זואיא",
+        "en": "the corners of",
+        "he": "אֵת פְּאַת"
+      },
+      {
+        "ja": "לחיתך",
+        "en": "your beard",
+        "he": "זְקָנֶךָ"
       }
     ],
     "28": [
       {
-        "ja": "וכ'דשא עלי' מיית. לא תגעלו פי אבדאנכם",
-        "en": "And a scratch for the dead — do not place on your bodies;",
-        "he": "וְשֶׂרֶט לָנֶפֶשׁ לֹא תִתְּנוּ בִּבְשַׂרְכֶם"
+        "ja": "וכ'דשא",
+        "en": "And a scratch",
+        "he": "וְשֶׂרֶט"
       },
       {
-        "ja": "וכתאבה' ושם. לא תגעלו פיכם",
-        "en": "and tattooed writing — do not place on yourselves.",
-        "he": "וּכְתֹבֶת קַעֲקַע לֹא תִתְּנוּ בָּכֶם"
+        "ja": "עלי' מיית",
+        "en": "for the dead",
+        "he": "לָנֶפֶשׁ"
       },
       {
-        "ja": "אנא אללה אלמעאקב",
-        "en": "I am God, the Punisher.",
-        "he": "אֲנִי יְהוָה"
+        "ja": "לא תגעלו",
+        "en": "do not place",
+        "he": "לֹא תִתְּנוּ"
+      },
+      {
+        "ja": "פי אבדאנכם",
+        "en": "on your bodies",
+        "he": "בִּבְשַׂרְכֶם"
+      },
+      {
+        "ja": "וכתאבה'",
+        "en": "and tattooed",
+        "he": "וּכְתֹבֶת"
+      },
+      {
+        "ja": "ושם",
+        "en": "writing",
+        "he": "קַעֲקַע"
+      },
+      {
+        "ja": "לא תגעלו",
+        "en": "do not place",
+        "he": "לֹא תִתְּנוּ"
+      },
+      {
+        "ja": "פיכם",
+        "en": "on yourselves",
+        "he": "בָּכֶם"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אלמעאקב",
+        "en": "the Punisher"
       }
     ],
     "29": [
       {
-        "ja": "ולא תבד'ל אבנתך לאלפגור",
-        "en": "And do not give over your daughter to debauchery,",
-        "he": "אַל-תְּחַלֵּל אֶת-בִּתְּךָ לְהַזְנוֹתָהּ"
+        "ja": "ולא תבד'ל",
+        "en": "And do not give over",
+        "he": "אַל-תְּחַלֵּל"
       },
       {
-        "ja": "כלא יפגר אהל אלארץ'. פתמתלי פואחשא",
-        "en": "lest the people of the land fall into debauchery and it fill with lewdness.",
-        "he": "וְלֹא-תִזְנֶה הָאָרֶץ וּמָלְאָה הָאָרֶץ זִמָּה"
+        "ja": "אבנתך",
+        "en": "your daughter",
+        "he": "אֶת-בִּתְּךָ"
+      },
+      {
+        "ja": "לאלפגור",
+        "en": "to debauchery",
+        "he": "לְהַזְנוֹתָהּ"
+      },
+      {
+        "ja": "כלא יפגר",
+        "en": "lest the people of the land fall into debauchery",
+        "he": "וְלֹא-תִזְנֶה"
+      },
+      {
+        "ja": "אהל אלארץ'",
+        "en": "and",
+        "he": "הָאָרֶץ"
+      },
+      {
+        "ja": "פתמתלי",
+        "en": "it fill",
+        "he": "וּמָלְאָה"
+      },
+      {
+        "ja": "פואחשא",
+        "en": "with lewdness",
+        "he": "הָאָרֶץ זִמָּה"
       }
     ],
     "30": [
       {
-        "ja": "סבותי [פאחפט'והא[ פאחפצ'והא",
-        "en": "My Sabbaths — keep them;",
-        "he": "אֶת-שַׁבְּתֹתַי תִּשְׁמֹרוּ"
+        "ja": "סבותי",
+        "en": "My Sabbaths",
+        "he": "אֶת-שַׁבְּתֹתַי"
       },
       {
-        "ja": "ומקדסי פהאבוה",
-        "en": "and My sanctuary — hold it in awe.",
-        "he": "וּמִקְדָּשִׁי תִּירָאוּ"
+        "ja": "פאחפצ'והא",
+        "en": "keep them",
+        "he": "תִּשְׁמֹרוּ"
       },
       {
-        "ja": "אנא אללה שרפתהמא",
-        "en": "I am God who has honoured them.",
-        "he": "אֲנִי יְהוָה"
+        "ja": "ומקדסי",
+        "en": "and My sanctuary",
+        "he": "וּמִקְדָּשִׁי"
+      },
+      {
+        "ja": "פהאבוה",
+        "en": "hold it in awe",
+        "he": "תִּירָאוּ"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "שרפתהמא",
+        "en": "who has honoured them"
       }
     ],
     "31": [
       {
-        "ja": "ולא תולו אלי' אלמשעוד'ין ואלעראפין",
-        "en": "Do not turn toward the conjurers and the diviners;",
-        "he": "אַל-תִּפְנוּ אֶל-הָאֹבֹת וְאֶל-הַיִּדְּעֹנִים"
+        "ja": "ולא תולו",
+        "en": "Do not turn",
+        "he": "אַל-תִּפְנוּ"
       },
       {
-        "ja": "ולא תטלבו אן תעצוני בהא",
-        "en": "and do not seek to disobey Me by means of them.",
-        "he": "אַל-תְּבַקְשׁוּ לְטָמְאָה בָהֶם"
+        "ja": "אלי' אלמשעוד'ין",
+        "en": "toward the conjurers",
+        "he": "אֶל-הָאֹבֹת"
       },
       {
-        "ja": "אנא אללה רבכם עאלם אלג'יב",
-        "en": "I am God your Lord, the Knower of what is hidden.",
-        "he": "אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "ואלעראפין",
+        "en": "and the diviners",
+        "he": "וְאֶל-הַיִּדְּעֹנִים"
+      },
+      {
+        "ja": "ולא תטלבו",
+        "en": "and do not seek",
+        "he": "אַל-תְּבַקְשׁוּ"
+      },
+      {
+        "ja": "אן תעצוני",
+        "en": "to disobey Me",
+        "he": "לְטָמְאָה"
+      },
+      {
+        "ja": "בהא",
+        "en": "by means of them",
+        "he": "בָהֶם"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "עאלם אלג'יב",
+        "en": "the Knower of what is hidden"
       }
     ],
     "32": [
       {
-        "ja": "מן בין ידי ד'ו אלשיבה פקם ואבתהג וגה אלשיך'",
-        "en": "Before one possessed of grey hair — rise; and show gladness toward the face of the elder;",
-        "he": "מִפְּנֵי שֵׂיבָה תָּקוּם וְהָדַרְתָּ פְּנֵי זָקֵן"
+        "ja": "מן בין ידי",
+        "en": "Before",
+        "he": "מִפְּנֵי"
       },
       {
-        "ja": "וכף רבך אנא אללה",
-        "en": "and fear your Lord. I am God.",
-        "he": "וְיָרֵאתָ מֵּאֱלֹהֶיךָ אֲנִי יְהוָה"
+        "ja": "ד'ו אלשיבה",
+        "en": "one possessed of grey hair",
+        "he": "שֵׂיבָה"
+      },
+      {
+        "ja": "פקם",
+        "en": "rise",
+        "he": "תָּקוּם"
+      },
+      {
+        "ja": "ואבתהג",
+        "en": "and show gladness toward",
+        "he": "וְהָדַרְתָּ"
+      },
+      {
+        "ja": "וגה",
+        "en": "the face of",
+        "he": "פְּנֵי"
+      },
+      {
+        "ja": "אלשיך'",
+        "en": "the elder",
+        "he": "זָקֵן"
+      },
+      {
+        "ja": "וכף",
+        "en": "and fear",
+        "he": "וְיָרֵאתָ"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "מֵּאֱלֹהֶיךָ"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
       }
     ],
     "33": [
       {
-        "ja": "ואדא סכן מעכם ג'ריב פי בלדכם",
-        "en": "And when a stranger settles among you in your land,",
-        "he": "וְכִי-יָגוּר אִתְּךָ גֵּר בְּאַרְצְכֶם"
+        "ja": "ואדא",
+        "en": "And when"
+      },
+      {
+        "ja": "סכן",
+        "en": "settles",
+        "he": "וְכִי-יָגוּר"
+      },
+      {
+        "ja": "מעכם",
+        "en": "among you"
+      },
+      {
+        "ja": "ג'ריב",
+        "en": "a stranger",
+        "he": "גֵּר"
+      },
+      {
+        "ja": "פי בלדכם",
+        "en": "in your land",
+        "he": "בְּאַרְצְכֶם"
       },
       {
         "ja": "פלא תצ'הדוה",
-        "en": "do not oppress him.",
-        "he": "לֹא תוֹנוּ אֹתוֹ"
+        "en": "do not oppress him",
+        "he": "לֹא תוֹנוּ"
       }
     ],
     "34": [
       {
-        "ja": "וליכון מעכם כצריח מנכם. אלג'ריב אלדכ'יל פי מא בינכם. ואחבב לה כנפסך",
-        "en": "The stranger who has come to dwell among you shall be to you as a native among you; and love for him as for yourself —",
-        "he": "כְּאֶזְרָח מִכֶּם יִהְיֶה לָכֶם הַגֵּר הַגָּר אִתְּכֶם וְאָהַבְתָּ לוֹ כָּמוֹךָ"
+        "ja": "וליכון",
+        "en": "shall be"
       },
       {
-        "ja": "לאנה טאל מא כנתם ג'רבא פי בלד מצר",
-        "en": "for you were long strangers in the land of Egypt.",
-        "he": "כִּי-גֵרִים הֱיִיתֶם בְּאֶרֶץ מִצְרָיִם"
+        "ja": "מעכם",
+        "en": "to you"
       },
       {
-        "ja": "אנא אללה רבכם אגמעין",
-        "en": "I am God your Lord of all of you.",
-        "he": "אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "כצריח",
+        "en": "as a native",
+        "he": "כְּאֶזְרָח"
+      },
+      {
+        "ja": "מנכם",
+        "en": "among you"
+      },
+      {
+        "ja": "אלג'ריב",
+        "en": "The stranger",
+        "he": "הַגֵּר"
+      },
+      {
+        "ja": "אלדכ'יל",
+        "en": "who has come to dwell",
+        "he": "הַגָּר"
+      },
+      {
+        "ja": "פי מא בינכם",
+        "en": "among you"
+      },
+      {
+        "ja": "ואחבב",
+        "en": "and love",
+        "he": "וְאָהַבְתָּ"
+      },
+      {
+        "ja": "לה",
+        "en": "for him",
+        "he": "לוֹ"
+      },
+      {
+        "ja": "כנפסך",
+        "en": "as for yourself",
+        "he": "כָּמוֹךָ"
+      },
+      {
+        "ja": "לאנה טאל מא",
+        "en": "for you were long",
+        "he": "כִּי-גֵרִים"
+      },
+      {
+        "ja": "כנתם",
+        "en": "strangers",
+        "he": "הֱיִיתֶם"
+      },
+      {
+        "ja": "ג'רבא",
+        "en": ""
+      },
+      {
+        "ja": "פי בלד",
+        "en": "in the land of",
+        "he": "בְּאֶרֶץ"
+      },
+      {
+        "ja": "מצר",
+        "en": "Egypt",
+        "he": "מִצְרָיִם"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אגמעין",
+        "en": "of all of you"
       }
     ],
     "35": [
       {
-        "ja": "לא תצנעו ג'שא פי אלחכם. ולא פי אלמסאחה ואלוזן ואלמכיאל",
-        "en": "Do not commit fraud in judgment, nor in measurement, nor in weight, nor in measure.",
-        "he": "לֹא-תַעֲשׂוּ עָוֶל בַּמִּשְׁפָּט בַּמִּדָּה בַּמִּשְׁקָל וּבַמְּשׂוּרָה"
+        "ja": "לא תצנעו",
+        "en": "Do not commit",
+        "he": "לֹא-תַעֲשׂוּ"
+      },
+      {
+        "ja": "ג'שא",
+        "en": "fraud",
+        "he": "עָוֶל"
+      },
+      {
+        "ja": "פי אלחכם",
+        "en": "in judgment",
+        "he": "בַּמִּשְׁפָּט"
+      },
+      {
+        "ja": "ולא",
+        "en": "nor"
+      },
+      {
+        "ja": "פי אלמסאחה",
+        "en": "in measurement",
+        "he": "בַּמִּדָּה"
+      },
+      {
+        "ja": "ואלוזן",
+        "en": "nor in weight",
+        "he": "בַּמִּשְׁקָל"
+      },
+      {
+        "ja": "ואלמכיאל",
+        "en": "nor in measure",
+        "he": "וּבַמְּשׂוּרָה"
       }
     ],
     "36": [
       {
-        "ja": "בל מיאזין עאדלה וצנגאת עאדלה. ואכיאל עאדלה. ואקסאט עאדלה תכון לכם",
-        "en": "But just scales and just weights and just dry measures and just liquid measures shall be yours.",
-        "he": "מֹאזְנֵי צֶדֶק אַבְנֵי-צֶדֶק אֵיפַת צֶדֶק וְהִין צֶדֶק--יִהְיֶה לָכֶם"
+        "ja": "בל",
+        "en": "But"
       },
       {
-        "ja": "אנא אללה רבכם אלעדל. אלמכ'רגכם מן בלד מצר",
-        "en": "I am God your Lord, the Just — who brought you out from the land of Egypt.",
-        "he": "אֲנִי יְהוָה אֱלֹהֵיכֶם אֲשֶׁר-הוֹצֵאתִי אֶתְכֶם מֵאֶרֶץ מִצְרָיִם"
+        "ja": "מיאזין עאדלה",
+        "en": "just scales",
+        "he": "מֹאזְנֵי צֶדֶק"
+      },
+      {
+        "ja": "וצנגאת עאדלה",
+        "en": "and just weights",
+        "he": "אַבְנֵי-צֶדֶק"
+      },
+      {
+        "ja": "ואכיאל עאדלה",
+        "en": "and just dry measures",
+        "he": "אֵיפַת צֶדֶק"
+      },
+      {
+        "ja": "ואקסאט עאדלה",
+        "en": "and just liquid measures",
+        "he": "וְהִין צֶדֶק"
+      },
+      {
+        "ja": "תכון לכם",
+        "en": "shall be yours",
+        "he": "יִהְיֶה לָכֶם"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אלעדל",
+        "en": "the Just"
+      },
+      {
+        "ja": "אלמכ'רגכם",
+        "en": "who brought you out"
+      },
+      {
+        "ja": "מן בלד",
+        "en": "from the land of"
+      },
+      {
+        "ja": "מצר",
+        "en": "Egypt",
+        "he": "מֵאֶרֶץ מִצְרָיִם"
       }
     ],
     "37": [
       {
-        "ja": "ואחפצו גמיע רסומי ואחכאמי. ואעמלו בהא",
-        "en": "And keep all My statutes and all My ordinances, and act according to them.",
-        "he": "וּשְׁמַרְתֶּם אֶת-כָּל-חֻקֹּתַי וְאֶת-כָּל-מִשְׁפָּטַי וַעֲשִׂיתֶם אֹתָם"
+        "ja": "ואחפצו",
+        "en": "And keep",
+        "he": "וּשְׁמַרְתֶּם"
       },
       {
-        "ja": "אנא אללה אגאזיכם כ'ירא",
-        "en": "I am God — I shall recompense you with good.",
-        "he": "אֲנִי יְהוָה"
+        "ja": "גמיע רסומי",
+        "en": "all My statutes",
+        "he": "אֶת-כָּל-חֻקֹּתַי"
+      },
+      {
+        "ja": "ואחכאמי",
+        "en": "and all My ordinances",
+        "he": "וְאֶת-כָּל-מִשְׁפָּטַי"
+      },
+      {
+        "ja": "ואעמלו",
+        "en": "and act",
+        "he": "וַעֲשִׂיתֶם"
+      },
+      {
+        "ja": "בהא",
+        "en": "according to them",
+        "he": "אֹתָם"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אגאזיכם כ'ירא",
+        "en": "I shall recompense you with good"
       }
     ]
   }

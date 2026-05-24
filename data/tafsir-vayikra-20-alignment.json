@@ -1,345 +1,1436 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 20. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_20.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 20. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_20.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly",
+        "he": "לֵּאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "ומר בני אסראיל וקל להם. אי אנסאן מן בני אסראיל. ומן אלג'ריב אלדכ'יל פי מא בינהם",
-        "en": "Command the sons of Israel and say to them: Any person from the sons of Israel, or from the stranger who has entered among them,",
-        "he": "וְאֶל-בְּנֵי יִשְׂרָאֵל תֹּאמַר אִישׁ אִישׁ מִבְּנֵי יִשְׂרָאֵל וּמִן-הַגֵּר הַגָּר בְּיִשְׂרָאֵל"
+        "ja": "ומר בני",
+        "en": "Command the sons of",
+        "he": "וְאֶל-בְּנֵי"
       },
       {
-        "ja": "יעטי מן נסלה לאלצנם פליקתל קתלא",
-        "en": "who gives of his offspring to the idols — let him be killed outright;",
-        "he": "אֲשֶׁר יִתֵּן מִזַּרְעוֹ לַמֹּלֶךְ מוֹת יוּמָת"
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
       },
       {
-        "ja": "והו אן ירגמוה אהל אלבלד באלחגארה",
-        "en": "that is, that the people of the town shall stone him with stones.",
-        "he": "עַם הָאָרֶץ יִרְגְּמֻהוּ בָאָבֶן"
+        "ja": "וקל",
+        "en": "and say",
+        "he": "תֹּאמַר"
+      },
+      {
+        "ja": "להם",
+        "en": "to them"
+      },
+      {
+        "ja": "אי",
+        "en": "Any"
+      },
+      {
+        "ja": "אנסאן",
+        "en": "person",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "מן בני",
+        "en": "from the sons of",
+        "he": "מִבְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ומן אלג'ריב",
+        "en": "or from the stranger",
+        "he": "וּמִן-הַגֵּר"
+      },
+      {
+        "ja": "אלדכ'יל",
+        "en": "who has entered",
+        "he": "הַגָּר"
+      },
+      {
+        "ja": "פי מא בינהם",
+        "en": "among them",
+        "he": "בְּיִשְׂרָאֵל"
+      },
+      {
+        "ja": "יעטי",
+        "en": "who gives",
+        "he": "אֲשֶׁר יִתֵּן"
+      },
+      {
+        "ja": "מן נסלה",
+        "en": "of his offspring",
+        "he": "מִזַּרְעוֹ"
+      },
+      {
+        "ja": "לאלצנם",
+        "en": "to the idols",
+        "he": "לַמֹּלֶךְ"
+      },
+      {
+        "ja": "פליקתל קתלא",
+        "en": "let him be killed outright",
+        "he": "מוֹת יוּמָת"
+      },
+      {
+        "ja": "והו",
+        "en": "that is"
+      },
+      {
+        "ja": "אן",
+        "en": "that"
+      },
+      {
+        "ja": "ירגמוה אהל אלבלד",
+        "en": "the people of the town shall stone him",
+        "he": "עַם הָאָרֶץ"
+      },
+      {
+        "ja": "באלחגארה",
+        "en": "with stones"
       }
     ],
     "3": [
       {
-        "ja": "ואנא אחל ג'צ'בי בד'אלך אלאנסאן. פאקטעה מן בין קומה",
-        "en": "And I shall pour out My wrath upon that person, and cut him off from among his people —",
-        "he": "וַאֲנִי אֶתֵּן אֶת-פָּנַי בָּאִישׁ הַהוּא וְהִכְרַתִּי אֹתוֹ מִקֶּרֶב עַמּוֹ"
+        "ja": "ואנא",
+        "en": "And I",
+        "he": "וַאֲנִי"
       },
       {
-        "ja": "אד' אעטא מן נסלה לאלצנם. לכי ינגס מקדסי. ויבד'ל אסמי אלמקדס",
-        "en": "since he gave of his offspring to the idols, in order to defile My sanctuary and to debase My holy name.",
-        "he": "כִּי מִזַּרְעוֹ נָתַן לַמֹּלֶךְ--לְמַעַן טַמֵּא אֶת-מִקְדָּשִׁי וּלְחַלֵּל אֶת-שֵׁם קָדְשִׁי"
+        "ja": "אחל",
+        "en": "shall pour out",
+        "he": "אֶתֵּן"
+      },
+      {
+        "ja": "ג'צ'בי",
+        "en": "My wrath",
+        "he": "אֶת-פָּנַי"
+      },
+      {
+        "ja": "בד'אלך אלאנסאן",
+        "en": "upon that person",
+        "he": "בָּאִישׁ הַהוּא"
+      },
+      {
+        "ja": "פאקטעה",
+        "en": "and cut him off",
+        "he": "וְהִכְרַתִּי"
+      },
+      {
+        "ja": "מן בין קומה",
+        "en": "from among his people",
+        "he": "מִקֶּרֶב עַמּוֹ"
+      },
+      {
+        "ja": "אד'",
+        "en": "since",
+        "he": "כִּי"
+      },
+      {
+        "ja": "אעטא מן נסלה",
+        "en": "he gave of his offspring",
+        "he": "מִזַּרְעוֹ"
+      },
+      {
+        "ja": "לאלצנם",
+        "en": "to the idols",
+        "he": "לַמֹּלֶךְ"
+      },
+      {
+        "ja": "לכי",
+        "en": "in order to",
+        "he": "לְמַעַן"
+      },
+      {
+        "ja": "ינגס",
+        "en": "defile",
+        "he": "טַמֵּא"
+      },
+      {
+        "ja": "מקדסי",
+        "en": "My sanctuary",
+        "he": "אֶת-מִקְדָּשִׁי"
+      },
+      {
+        "ja": "ויבד'ל",
+        "en": "and to debase",
+        "he": "וּלְחַלֵּל"
+      },
+      {
+        "ja": "אסמי",
+        "en": "My",
+        "he": "אֶת-שֵׁם"
+      },
+      {
+        "ja": "אלמקדס",
+        "en": "holy name",
+        "he": "קָדְשִׁי"
       }
     ],
     "4": [
       {
-        "ja": "ואן תג'אפל אהל אלבלד תג'אפלא ען ד'אלך אלרגל",
-        "en": "And if the people of the town should turn a blind eye, looking away from that man",
-        "he": "וְאִם הַעְלֵם יַעְלִימוּ עַם הָאָרֶץ אֶת-עֵינֵיהֶם מִן-הָאִישׁ הַהוּא"
+        "ja": "ואן",
+        "en": "And if",
+        "he": "וְאִם"
       },
       {
-        "ja": "מע אעטאיה מן נסלה לאלצנם. ולם יקת'לוה",
-        "en": "even as he gives of his offspring to the idols, and they do not kill him —",
-        "he": "בְּתִתּוֹ מִזַּרְעוֹ לַמֹּלֶךְ--לְבִלְתִּי הָמִית אֹתוֹ"
+        "ja": "תג'אפל",
+        "en": "should turn a blind eye",
+        "he": "הַעְלֵם יַעְלִימוּ"
+      },
+      {
+        "ja": "אהל אלבלד",
+        "en": "the people of the town",
+        "he": "עַם הָאָרֶץ"
+      },
+      {
+        "ja": "תג'אפלא",
+        "en": "looking away"
+      },
+      {
+        "ja": "ען ד'אלך אלרגל",
+        "en": "from that man",
+        "he": "מִן-הָאִישׁ הַהוּא"
+      },
+      {
+        "ja": "מע אעטאיה",
+        "en": "even as he gives",
+        "he": "בְּתִתּוֹ"
+      },
+      {
+        "ja": "מן נסלה",
+        "en": "of his offspring",
+        "he": "מִזַּרְעוֹ"
+      },
+      {
+        "ja": "לאלצנם",
+        "en": "to the idols",
+        "he": "לַמֹּלֶךְ"
+      },
+      {
+        "ja": "ולם יקת'לוה",
+        "en": "and they do not kill him",
+        "he": "לְבִלְתִּי הָמִית אֹתוֹ"
       }
     ],
     "5": [
       {
-        "ja": "אחללת אנא ג'צ'בי. בד'אלך אלאנסאן ובמגאנסיה. וקטעתה",
-        "en": "I shall pour out My wrath upon that person and upon those who are associated with him, and cut him off,",
-        "he": "וְשַׂמְתִּי אֲנִי אֶת-פָּנַי בָּאִישׁ הַהוּא וּבְמִשְׁפַּחְתּוֹ וְהִכְרַתִּי אֹתוֹ"
+        "ja": "אחללת אנא",
+        "en": "I shall pour out",
+        "he": "וְשַׂמְתִּי אֲנִי"
       },
       {
-        "ja": "וגמיע אלטאג'יון תבעה ורא אלצנם מן בין קומהם",
-        "en": "and all those who rebelliously follow after him after the idol, from among their people.",
-        "he": "וְאֵת כָּל-הַזֹּנִים אַחֲרָיו לִזְנוֹת אַחֲרֵי הַמֹּלֶךְ--מִקֶּרֶב עַמָּם"
+        "ja": "ג'צ'בי",
+        "en": "My wrath",
+        "he": "אֶת-פָּנַי"
+      },
+      {
+        "ja": "בד'אלך אלאנסאן",
+        "en": "upon that person",
+        "he": "בָּאִישׁ הַהוּא"
+      },
+      {
+        "ja": "ובמגאנסיה",
+        "en": "and upon those who are associated with him",
+        "he": "וּבְמִשְׁפַּחְתּוֹ"
+      },
+      {
+        "ja": "וקטעתה",
+        "en": "and cut him off",
+        "he": "וְהִכְרַתִּי אֹתוֹ"
+      },
+      {
+        "ja": "וגמיע אלטאג'יון",
+        "en": "and all those who rebelliously follow",
+        "he": "וְאֵת כָּל-הַזֹּנִים"
+      },
+      {
+        "ja": "תבעה",
+        "en": "after him",
+        "he": "אַחֲרָיו"
+      },
+      {
+        "ja": "ורא",
+        "en": "after",
+        "he": "לִזְנוֹת"
+      },
+      {
+        "ja": "אלצנם",
+        "en": "the idol",
+        "he": "אַחֲרֵי הַמֹּלֶךְ"
+      },
+      {
+        "ja": "מן בין קומהם",
+        "en": "from among their people",
+        "he": "מִקֶּרֶב עַמָּם"
       }
     ],
     "6": [
       {
-        "ja": "ואי אנסאן ולא אלי' אלמשעוד'ין ואלעראפין. ליטג'י אלנאס פי תבעהם",
-        "en": "And any person who has turned to sorcerers and diviners, to lead the people astray in following them —",
-        "he": "וְהַנֶּפֶשׁ אֲשֶׁר תִּפְנֶה אֶל-הָאֹבֹת וְאֶל-הַיִּדְּעֹנִים לִזְנֹת אַחֲרֵיהֶם"
+        "ja": "ואי אנסאן",
+        "en": "And any person who",
+        "he": "וְהַנֶּפֶשׁ אֲשֶׁר"
       },
       {
-        "ja": "אחללת ג'צ'בי בד'אלך אלאנסאן. וקטעתה מן בין קומה",
-        "en": "I shall pour out My wrath upon that person, and cut him off from among his people.",
-        "he": "וְנָתַתִּי אֶת-פָּנַי בַּנֶּפֶשׁ הַהִוא וְהִכְרַתִּי אֹתוֹ מִקֶּרֶב עַמּוֹ"
+        "ja": "ולא",
+        "en": "has turned",
+        "he": "תִּפְנֶה"
+      },
+      {
+        "ja": "אלי' אלמשעוד'ין",
+        "en": "to sorcerers",
+        "he": "אֶל-הָאֹבֹת"
+      },
+      {
+        "ja": "ואלעראפין",
+        "en": "and diviners",
+        "he": "וְאֶל-הַיִּדְּעֹנִים"
+      },
+      {
+        "ja": "ליטג'י",
+        "en": "to lead",
+        "he": "לִזְנֹת"
+      },
+      {
+        "ja": "אלנאס",
+        "en": "the people"
+      },
+      {
+        "ja": "פי תבעהם",
+        "en": "astray in following them",
+        "he": "אַחֲרֵיהֶם"
+      },
+      {
+        "ja": "אחללת",
+        "en": "I shall pour out",
+        "he": "וְנָתַתִּי"
+      },
+      {
+        "ja": "ג'צ'בי",
+        "en": "My wrath",
+        "he": "אֶת-פָּנַי"
+      },
+      {
+        "ja": "בד'אלך אלאנסאן",
+        "en": "upon that person",
+        "he": "בַּנֶּפֶשׁ הַהִוא"
+      },
+      {
+        "ja": "וקטעתה",
+        "en": "and cut him off",
+        "he": "וְהִכְרַתִּי אֹתוֹ"
+      },
+      {
+        "ja": "מן בין קומה",
+        "en": "from among his people",
+        "he": "מִקֶּרֶב עַמּוֹ"
       }
     ],
     "7": [
       {
-        "ja": "פתקדסו וכונו מקדסין",
-        "en": "So sanctify yourselves and be holy,",
-        "he": "וְהִתְקַדִּשְׁתֶּם--וִהְיִיתֶם קְדֹשִׁים"
+        "ja": "פתקדסו",
+        "en": "So sanctify yourselves",
+        "he": "וְהִתְקַדִּשְׁתֶּם"
       },
       {
-        "ja": "לאני אללה רבכם אלקדוס",
-        "en": "for I am God your Lord, the Holy One.",
-        "he": "כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "וכונו",
+        "en": "and be",
+        "he": "וִהְיִיתֶם"
+      },
+      {
+        "ja": "מקדסין",
+        "en": "holy",
+        "he": "קְדֹשִׁים"
+      },
+      {
+        "ja": "לאני",
+        "en": "for I am",
+        "he": "כִּי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אלקדוס",
+        "en": "the Holy One",
+        "he": "אֱלֹהֵיכֶם"
       }
     ],
     "8": [
       {
-        "ja": "ואחפצ'ו רסומי ואעמלו בהא",
-        "en": "And keep My statutes and act according to them,",
-        "he": "וּשְׁמַרְתֶּם אֶת-חֻקֹּתַי וַעֲשִׂיתֶם אֹתָם"
+        "ja": "ואחפצ'ו",
+        "en": "And keep",
+        "he": "וּשְׁמַרְתֶּם"
       },
       {
-        "ja": "לאני אללה מקדסכם",
-        "en": "for I am God who sanctifies you.",
-        "he": "אֲנִי יְהוָה מְקַדִּשְׁכֶם"
+        "ja": "רסומי",
+        "en": "My statutes",
+        "he": "אֶת-חֻקֹּתַי"
+      },
+      {
+        "ja": "ואעמלו",
+        "en": "and act",
+        "he": "וַעֲשִׂיתֶם"
+      },
+      {
+        "ja": "בהא",
+        "en": "according to them",
+        "he": "אֹתָם"
+      },
+      {
+        "ja": "לאני",
+        "en": "for I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מקדסכם",
+        "en": "who sanctifies you",
+        "he": "מְקַדִּשְׁכֶם"
       }
     ],
     "9": [
       {
-        "ja": "אי אנסאן לען אביה ואמה. פליקתל קתלא",
-        "en": "Any person who has cursed his father and his mother — let him be killed outright;",
-        "he": "כִּי-אִישׁ אִישׁ אֲשֶׁר יְקַלֵּל אֶת-אָבִיו וְאֶת-אִמּוֹ--מוֹת יוּמָת"
+        "ja": "אי",
+        "en": "Any"
       },
       {
-        "ja": "למא לען אביה ואמה. פקד חל דמה",
-        "en": "since he cursed his father and his mother, his blood is thereby made forfeit.",
-        "he": "אָבִיו וְאִמּוֹ קִלֵּל דָּמָיו בּוֹ"
+        "ja": "אנסאן",
+        "en": "person",
+        "he": "אִישׁ אִישׁ"
+      },
+      {
+        "ja": "לען",
+        "en": "who has cursed",
+        "he": "אֲשֶׁר יְקַלֵּל"
+      },
+      {
+        "ja": "אביה",
+        "en": "his father",
+        "he": "אֶת-אָבִיו"
+      },
+      {
+        "ja": "ואמה",
+        "en": "and his mother",
+        "he": "וְאֶת-אִמּוֹ"
+      },
+      {
+        "ja": "פליקתל קתלא",
+        "en": "let him be killed outright",
+        "he": "מוֹת יוּמָת"
+      },
+      {
+        "ja": "למא לען אביה",
+        "en": "since he cursed his father",
+        "he": "אָבִיו"
+      },
+      {
+        "ja": "ואמה",
+        "en": "and his mother",
+        "he": "וְאִמּוֹ קִלֵּל"
+      },
+      {
+        "ja": "פקד חל דמה",
+        "en": "his blood is thereby made forfeit",
+        "he": "דָּמָיו בּוֹ"
       }
     ],
     "10": [
       {
-        "ja": "ואי רגל זנא בזוגה' רגל או זנא באמראה' צאחבה",
-        "en": "And any man who committed adultery with a man's wife, or committed adultery with the wife of his fellow —",
-        "he": "וְאִישׁ אֲשֶׁר יִנְאַף אֶת-אֵשֶׁת אִישׁ אֲשֶׁר יִנְאַף אֶת-אֵשֶׁת רֵעֵהוּ"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "פליקתל אלזאן ואלזאניה קתלא",
-        "en": "let the adulterer and the adulteress be killed outright.",
-        "he": "מוֹת-יוּמַת הַנֹּאֵף וְהַנֹּאָפֶת"
+        "ja": "רגל",
+        "en": "man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "זנא",
+        "en": "who committed adultery",
+        "he": "אֲשֶׁר יִנְאַף"
+      },
+      {
+        "ja": "בזוגה'",
+        "en": "with a man's wife",
+        "he": "אֶת-אֵשֶׁת"
+      },
+      {
+        "ja": "רגל",
+        "en": "or committed adultery",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "או זנא באמראה' צאחבה",
+        "en": "with the wife of his fellow",
+        "he": "אֲשֶׁר יִנְאַף אֶת-אֵשֶׁת רֵעֵהוּ"
+      },
+      {
+        "ja": "פליקתל אלזאן",
+        "en": "let the adulterer",
+        "he": "מוֹת-יוּמַת הַנֹּאֵף"
+      },
+      {
+        "ja": "ואלזאניה קתלא",
+        "en": "and the adulteress be killed outright",
+        "he": "וְהַנֹּאָפֶת"
       }
     ],
     "11": [
       {
-        "ja": "ואי רגל צ'אגע זוגה' אביה. פקד כשף סווה' אביה",
-        "en": "And any man who lay with his father's wife has thereby uncovered his father's nakedness —",
-        "he": "וְאִישׁ אֲשֶׁר יִשְׁכַּב אֶת-אֵשֶׁת אָבִיו--עֶרְוַת אָבִיו גִּלָּה"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "פליקתלא גמיעא פקד חלת דמאהמא בד'אלך",
-        "en": "let them both be killed, for their blood is made forfeit by this.",
-        "he": "מוֹת-יוּמְתוּ שְׁנֵיהֶם דְּמֵיהֶם בָּם"
+        "ja": "רגל",
+        "en": "man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "צ'אגע",
+        "en": "who lay",
+        "he": "אֲשֶׁר יִשְׁכַּב"
+      },
+      {
+        "ja": "זוגה' אביה",
+        "en": "with his father's wife",
+        "he": "אֵשֶׁת אָבִיו"
+      },
+      {
+        "ja": "פקד כשף",
+        "en": "has thereby uncovered",
+        "he": "עֶרְוַת"
+      },
+      {
+        "ja": "סווה' אביה",
+        "en": "his father's nakedness",
+        "he": "אָבִיו גִּלָּה"
+      },
+      {
+        "ja": "פליקתלא גמיעא",
+        "en": "let them both be killed",
+        "he": "מוֹת-יוּמְתוּ"
+      },
+      {
+        "ja": "פקד חלת דמאהמא בד'אלך",
+        "en": "for their blood is made forfeit by this",
+        "he": "דְּמֵיהֶם בָּם"
       }
     ],
     "12": [
       {
-        "ja": "ואי רג'ל צ'אגע כנתה. פליקתלא גמיעא",
-        "en": "And any man who lay with his daughter-in-law — let them both be killed;",
-        "he": "וְאִישׁ אֲשֶׁר יִשְׁכַּב אֶת-כַּלָּתוֹ--מוֹת יוּמְתוּ שְׁנֵיהֶם"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "ולמא צנעא דאהיה פקד חל דמאהמא",
-        "en": "since they did an outrageous thing, their blood is thereby made forfeit.",
-        "he": "תֶּבֶל עָשׂוּ דְּמֵיהֶם בָּם"
+        "ja": "רג'ל",
+        "en": "man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "צ'אגע",
+        "en": "who lay",
+        "he": "אֲשֶׁר יִשְׁכַּב"
+      },
+      {
+        "ja": "כנתה",
+        "en": "with his daughter-in-law",
+        "he": "אֶת-כַּלָּתוֹ"
+      },
+      {
+        "ja": "פליקתלא גמיעא",
+        "en": "let them both be killed",
+        "he": "מוֹת יוּמְתוּ"
+      },
+      {
+        "ja": "ולמא צנעא דאהיה",
+        "en": "since they did an outrageous thing",
+        "he": "תֶּבֶל עָשׂוּ"
+      },
+      {
+        "ja": "פקד חל דמאהמא",
+        "en": "their blood is thereby made forfeit",
+        "he": "דְּמֵיהֶם בָּם"
       }
     ],
     "13": [
       {
-        "ja": "ואי רג'ל צ'אגע ד'כרא עלי' פן מצאגעה' אלנסא. פקד צנעא גמיעא כריהה",
-        "en": "And any man who lay with a male in the manner of lying with women — they have both together done an abomination;",
-        "he": "וְאִישׁ אֲשֶׁר יִשְׁכַּב אֶת-זָכָר מִשְׁכְּבֵי אִשָּׁה--תּוֹעֵבָה עָשׂוּ שְׁנֵיהֶם"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "פליקתלא קתלא פקד חל דמאהמא",
-        "en": "let them be killed outright, for their blood is made forfeit.",
-        "he": "מוֹת יוּמָתוּ דְּמֵיהֶם בָּם"
+        "ja": "רג'ל",
+        "en": "man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "צ'אגע",
+        "en": "who lay",
+        "he": "אֲשֶׁר יִשְׁכַּב"
+      },
+      {
+        "ja": "ד'כרא",
+        "en": "with a male",
+        "he": "אֶת-זָכָר"
+      },
+      {
+        "ja": "עלי' פן מצאגעה'",
+        "en": "in the manner of lying",
+        "he": "מִשְׁכְּבֵי"
+      },
+      {
+        "ja": "אלנסא",
+        "en": "with women",
+        "he": "אִשָּׁה"
+      },
+      {
+        "ja": "פקד צנעא גמיעא כריהה",
+        "en": "they have both together done an abomination",
+        "he": "תּוֹעֵבָה עָשׂוּ"
+      },
+      {
+        "ja": "פליקתלא קתלא",
+        "en": "let them be killed outright",
+        "he": "מוֹת יוּמָתוּ"
+      },
+      {
+        "ja": "פקד חל דמאהמא",
+        "en": "for their blood is made forfeit",
+        "he": "דְּמֵיהֶם בָּם"
       }
     ],
     "14": [
       {
-        "ja": "ואי רגל אתכ'ד' אמראה ואמהא פתלך פאחשה",
-        "en": "And any man who took a woman and her mother — that is a vile act;",
-        "he": "וְאִישׁ אֲשֶׁר יִקַּח אֶת-אִשָּׁה וְאֶת-אִמָּהּ--זִמָּה הִוא"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "פליחרק באלנאר הו והן עלי' אלבדל",
-        "en": "let him and them both be burned with fire, on account of the degradation;",
-        "he": "בָּאֵשׁ יִשְׂרְפוּ אֹתוֹ וְאֶתְהֶן"
+        "ja": "רגל",
+        "en": "man",
+        "he": "אִישׁ"
       },
       {
-        "ja": "ולא תכון פאחשה פי מא בינכם",
-        "en": "and there shall be no vile act among you.",
-        "he": "וְלֹא-תִהְיֶה זִמָּה בְּתוֹכְכֶם"
+        "ja": "אתכ'ד'",
+        "en": "who took",
+        "he": "אֲשֶׁר יִקַּח"
+      },
+      {
+        "ja": "אמראה",
+        "en": "a woman",
+        "he": "אֶת-אִשָּׁה"
+      },
+      {
+        "ja": "ואמהא",
+        "en": "and her mother",
+        "he": "וְאֶת-אִמָּהּ"
+      },
+      {
+        "ja": "פתלך פאחשה",
+        "en": "that is a vile act",
+        "he": "זִמָּה הִוא"
+      },
+      {
+        "ja": "פליחרק באלנאר",
+        "en": "be burned with fire",
+        "he": "בָּאֵשׁ יִשְׂרְפוּ"
+      },
+      {
+        "ja": "הו",
+        "en": "let him",
+        "he": "אֹתוֹ"
+      },
+      {
+        "ja": "והן",
+        "en": "and them both",
+        "he": "וְאֶתְהֶן"
+      },
+      {
+        "ja": "עלי' אלבדל",
+        "en": "on account of the degradation"
+      },
+      {
+        "ja": "ולא תכון",
+        "en": "and there shall be no",
+        "he": "וְלֹא-תִהְיֶה"
+      },
+      {
+        "ja": "פאחשה",
+        "en": "vile act",
+        "he": "זִמָּה"
+      },
+      {
+        "ja": "פי מא בינכם",
+        "en": "among you",
+        "he": "בְּתוֹכְכֶם"
       }
     ],
     "15": [
       {
-        "ja": "ואי רגל געל מצ'אגעתה. מע בהימה פליקתל קתלא",
-        "en": "And any man who directed his lying with a beast — let him be killed outright;",
-        "he": "וְאִישׁ אֲשֶׁר יִתֵּן שְׁכָבְתּוֹ בִּבְהֵמָה--מוֹת יוּמָת"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "ואלבהימה איצ'א פאקתלוהא",
-        "en": "and the beast also — kill it.",
-        "he": "וְאֶת-הַבְּהֵמָה תַּהֲרֹגוּ"
+        "ja": "רגל",
+        "en": "man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "געל",
+        "en": "who directed",
+        "he": "אֲשֶׁר יִתֵּן"
+      },
+      {
+        "ja": "מצ'אגעתה",
+        "en": "his lying",
+        "he": "שְׁכָבְתּוֹ"
+      },
+      {
+        "ja": "מע בהימה",
+        "en": "with a beast",
+        "he": "בִּבְהֵמָה"
+      },
+      {
+        "ja": "פליקתל קתלא",
+        "en": "let him be killed outright",
+        "he": "מוֹת יוּמָת"
+      },
+      {
+        "ja": "ואלבהימה",
+        "en": "and the beast",
+        "he": "וְאֶת-הַבְּהֵמָה"
+      },
+      {
+        "ja": "איצ'א",
+        "en": "also"
+      },
+      {
+        "ja": "פאקתלוהא",
+        "en": "kill it",
+        "he": "תַּהֲרֹגוּ"
       }
     ],
     "16": [
       {
-        "ja": "ואייה' אמראה. תקדמת אלי' בהימה לתנזוהא. פאקתל אלאמראה ואלבהימה",
-        "en": "And any woman who approached a beast to be mounted by it — kill the woman and the beast;",
-        "he": "וְאִשָּׁה אֲשֶׁר תִּקְרַב אֶל-כָּל-בְּהֵמָה לְרִבְעָה אֹתָהּ--וְהָרַגְתָּ אֶת-הָאִשָּׁה וְאֶת-הַבְּהֵמָה"
+        "ja": "ואייה'",
+        "en": "And any"
       },
       {
-        "ja": "למא צנעא דאהיה פקד חל דמאהמא בד'אלך",
-        "en": "since they did an outrageous thing, their blood is thereby made forfeit.",
-        "he": "מוֹת יוּמָתוּ דְּמֵיהֶם בָּם"
+        "ja": "אמראה",
+        "en": "woman",
+        "he": "וְאִשָּׁה"
+      },
+      {
+        "ja": "תקדמת",
+        "en": "who approached",
+        "he": "אֲשֶׁר תִּקְרַב"
+      },
+      {
+        "ja": "אלי' בהימה",
+        "en": "a beast",
+        "he": "אֶל-כָּל-בְּהֵמָה"
+      },
+      {
+        "ja": "לתנזוהא",
+        "en": "to be mounted by it",
+        "he": "לְרִבְעָה אֹתָהּ"
+      },
+      {
+        "ja": "פאקתל",
+        "en": "kill",
+        "he": "וְהָרַגְתָּ"
+      },
+      {
+        "ja": "אלאמראה",
+        "en": "the woman",
+        "he": "אֶת-הָאִשָּׁה"
+      },
+      {
+        "ja": "ואלבהימה",
+        "en": "and the beast",
+        "he": "וְאֶת-הַבְּהֵמָה"
+      },
+      {
+        "ja": "למא צנעא דאהיה",
+        "en": "since they did an outrageous thing",
+        "he": "מוֹת יוּמָתוּ"
+      },
+      {
+        "ja": "פקד חל דמאהמא בד'אלך",
+        "en": "their blood is thereby made forfeit",
+        "he": "דְּמֵיהֶם בָּם"
       }
     ],
     "17": [
       {
-        "ja": "ואי רגל אתכ'ד' אכ'תה. אבנה' אביה או אבנה' אמה. פנצ'ר אלי' סוותהא. ונצ'רת אלי' כסוותה פד'אלך עאר",
-        "en": "And any man who took his sister — whether the daughter of his father or the daughter of his mother — and looked upon her nakedness, and she looked upon his nakedness: that is a disgrace;",
-        "he": "וְאִישׁ אֲשֶׁר-יִקַּח אֶת-אֲחֹתוֹ בַּת-אָבִיו אוֹ בַת-אִמּוֹ וְרָאָה אֶת-עֶרְוָתָהּ וְהִיא-תִרְאֶה אֶת-עֶרְוָתוֹ חֶסֶד הוּא"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "פינקטעאן מן חצ'רה' קומהם",
-        "en": "they shall both be cut off from the presence of their people,",
-        "he": "וְנִכְרְתוּ לְעֵינֵי בְּנֵי עַמָּם"
+        "ja": "רגל",
+        "en": "man",
+        "he": "אִישׁ"
       },
       {
-        "ja": "למא כשף סווה' אכ'תה פקד חמל וזרה",
-        "en": "since he uncovered the nakedness of his sister; he has borne his guilt.",
-        "he": "עֶרְוַת אֲחֹתוֹ גִּלָּה עֲו‍ֹנוֹ יִשָּׂא"
+        "ja": "אתכ'ד'",
+        "en": "who took",
+        "he": "אֲשֶׁר-יִקַּח"
+      },
+      {
+        "ja": "אכ'תה",
+        "en": "his sister",
+        "he": "אֶת-אֲחֹתוֹ"
+      },
+      {
+        "ja": "אבנה' אביה",
+        "en": "the daughter of his father",
+        "he": "בַּת-אָבִיו"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "אבנה' אמה",
+        "en": "the daughter of his mother",
+        "he": "בַת-אִמּוֹ"
+      },
+      {
+        "ja": "פנצ'ר",
+        "en": "and looked",
+        "he": "וְרָאָה"
+      },
+      {
+        "ja": "אלי' סוותהא",
+        "en": "upon her nakedness",
+        "he": "אֶת-עֶרְוָתָהּ"
+      },
+      {
+        "ja": "ונצ'רת",
+        "en": "and she looked",
+        "he": "וְהִיא-תִרְאֶה"
+      },
+      {
+        "ja": "אלי' כסוותה",
+        "en": "upon his nakedness",
+        "he": "אֶת-עֶרְוָתוֹ"
+      },
+      {
+        "ja": "פד'אלך עאר",
+        "en": "that is a disgrace",
+        "he": "חֶסֶד הוּא"
+      },
+      {
+        "ja": "פינקטעאן",
+        "en": "they shall both be cut off",
+        "he": "וְנִכְרְתוּ"
+      },
+      {
+        "ja": "מן חצ'רה' קומהם",
+        "en": "from the presence of their people",
+        "he": "לְעֵינֵי בְּנֵי עַמָּם"
+      },
+      {
+        "ja": "למא כשף סווה' אכ'תה",
+        "en": "since he uncovered the nakedness of his sister",
+        "he": "עֶרְוַת אֲחֹתוֹ גִּלָּה"
+      },
+      {
+        "ja": "פקד חמל וזרה",
+        "en": "he has borne his guilt",
+        "he": "עֲו‍ֹנוֹ יִשָּׂא"
       }
     ],
     "18": [
       {
-        "ja": "ואי רגל צ'אגע אמראה חאיץ'. פכשף סוותהא וערא נביעהא. והי איצ'א כשפת נביע דמהא",
-        "en": "And any man who lay with a menstruating woman, uncovering her nakedness and laying bare her spring, and she too uncovered the spring of her blood —",
-        "he": "וְאִישׁ אֲשֶׁר-יִשְׁכַּב אֶת-אִשָּׁה דָּוָה וְגִלָּה אֶת-עֶרְוָתָהּ אֶת-מְקֹרָהּ הֶעֱרָה וְהִוא גִּלְּתָה אֶת-מְקוֹר דָּמֶיהָ"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "פינקטעאן גמיעא מן בין קומהם",
-        "en": "they shall both be cut off from among their people.",
-        "he": "וְנִכְרְתוּ שְׁנֵיהֶם מִקֶּרֶב עַמָּם"
+        "ja": "רגל",
+        "en": "man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "צ'אגע",
+        "en": "who lay",
+        "he": "אֲשֶׁר-יִשְׁכַּב"
+      },
+      {
+        "ja": "אמראה חאיץ'",
+        "en": "with a menstruating woman",
+        "he": "אֶת-אִשָּׁה דָּוָה"
+      },
+      {
+        "ja": "פכשף",
+        "en": "uncovering",
+        "he": "וְגִלָּה"
+      },
+      {
+        "ja": "סוותהא",
+        "en": "her nakedness",
+        "he": "אֶת-עֶרְוָתָהּ"
+      },
+      {
+        "ja": "וערא נביעהא",
+        "en": "and laying bare her spring",
+        "he": "אֶת-מְקֹרָהּ הֶעֱרָה"
+      },
+      {
+        "ja": "והי איצ'א כשפת",
+        "en": "and she too uncovered",
+        "he": "וְהִוא גִּלְּתָה"
+      },
+      {
+        "ja": "נביע דמהא",
+        "en": "the spring of her blood",
+        "he": "אֶת-מְקוֹר דָּמֶיהָ"
+      },
+      {
+        "ja": "פינקטעאן גמיעא",
+        "en": "they shall both be cut off",
+        "he": "וְנִכְרְתוּ"
+      },
+      {
+        "ja": "מן בין קומהם",
+        "en": "from among their people",
+        "he": "מִקֶּרֶב עַמָּם"
       }
     ],
     "19": [
       {
-        "ja": "וסווה' כ'אלתך ועמתך לא תכשף",
-        "en": "The nakedness of your maternal aunt and your paternal aunt you shall not uncover;",
-        "he": "וְעֶרְוַת אֲחוֹת אִמְּךָ וַאֲחוֹת אָבִיךָ לֹא תְגַלֵּה"
+        "ja": "וסווה'",
+        "en": "The nakedness of",
+        "he": "וְעֶרְוַת"
       },
       {
-        "ja": "פאן מן ערא נסיבה פקד חמל וזרה",
-        "en": "for whoever bares his kinswoman has thereby borne his guilt.",
-        "he": "כִּי אֶת-שְׁאֵרוֹ הֶעֱרָה עֲו‍ֹנָם יִשָּׂאוּ"
+        "ja": "כ'אלתך",
+        "en": "your maternal aunt",
+        "he": "אֲחוֹת אִמְּךָ"
+      },
+      {
+        "ja": "ועמתך",
+        "en": "and your paternal aunt",
+        "he": "וַאֲחוֹת אָבִיךָ"
+      },
+      {
+        "ja": "לא תכשף",
+        "en": "you shall not uncover",
+        "he": "לֹא תְגַלֵּה"
+      },
+      {
+        "ja": "פאן",
+        "en": "for",
+        "he": "כִּי"
+      },
+      {
+        "ja": "מן",
+        "en": "whoever"
+      },
+      {
+        "ja": "ערא נסיבה",
+        "en": "bares his kinswoman",
+        "he": "אֶת-שְׁאֵרוֹ"
+      },
+      {
+        "ja": "פקד",
+        "en": "has thereby",
+        "he": "הֶעֱרָה"
+      },
+      {
+        "ja": "חמל וזרה",
+        "en": "borne his guilt",
+        "he": "עֲו‍ֹנָם יִשָּׂאוּ"
       }
     ],
     "20": [
       {
-        "ja": "ואי רגל צ'אגע זוגה' עמה. פקד כשף סווה' עמה",
-        "en": "And any man who lay with the wife of his paternal uncle has thereby uncovered his uncle's nakedness;",
-        "he": "וְאִישׁ אֲשֶׁר יִשְׁכַּב אֶת-דֹּדָתוֹ--עֶרְוַת דֹּדוֹ גִּלָּה"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "וממא חמלא וזרהמא ימותאן עקימאן",
-        "en": "and because they bore their guilt, they shall die childless.",
-        "he": "חֶטְאָם יִשָּׂאוּ עֲרִירִים יָמֻתוּ"
+        "ja": "רגל",
+        "en": "man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "צ'אגע",
+        "en": "who lay",
+        "he": "אֲשֶׁר יִשְׁכַּב"
+      },
+      {
+        "ja": "זוגה' עמה",
+        "en": "with the wife of his paternal uncle",
+        "he": "אֶת-דֹּדָתוֹ"
+      },
+      {
+        "ja": "פקד כשף סווה' עמה",
+        "en": "has thereby uncovered his uncle's nakedness",
+        "he": "עֶרְוַת דֹּדוֹ גִּלָּה"
+      },
+      {
+        "ja": "וממא חמלא וזרהמא",
+        "en": "and because they bore their guilt",
+        "he": "חֶטְאָם יִשָּׂאוּ"
+      },
+      {
+        "ja": "ימותאן עקימאן",
+        "en": "they shall die childless",
+        "he": "עֲרִירִים יָמֻתוּ"
       }
     ],
     "21": [
       {
-        "ja": "ואי רגל אתכ'ד' זוגה' אכ'יה. אלתי הי מבעדה מנה. פלמא כשף סווה' אכ'יה",
-        "en": "And any man who took the wife of his brother — she who has been separated from him — since he uncovered his brother's nakedness,",
-        "he": "וְאִישׁ אֲשֶׁר יִקַּח אֶת-אֵשֶׁת אָחִיו--נִדָּה הִוא עֶרְוַת אָחִיו גִּלָּה"
+        "ja": "ואי",
+        "en": "And any"
+      },
+      {
+        "ja": "רגל",
+        "en": "man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "אתכ'ד'",
+        "en": "who took",
+        "he": "אֲשֶׁר יִקַּח"
+      },
+      {
+        "ja": "זוגה' אכ'יה",
+        "en": "the wife of his brother",
+        "he": "אֶת-אֵשֶׁת אָחִיו"
+      },
+      {
+        "ja": "אלתי הי מבעדה מנה",
+        "en": "she who has been separated from him",
+        "he": "נִדָּה הִוא"
+      },
+      {
+        "ja": "פלמא כשף סווה' אכ'יה",
+        "en": "since he uncovered his brother's nakedness",
+        "he": "עֶרְוַת אָחִיו גִּלָּה"
       },
       {
         "ja": "יכונאן עקימאן",
-        "en": "they shall both be childless.",
+        "en": "they shall both be childless",
         "he": "עֲרִירִים יִהְיוּ"
       }
     ],
     "22": [
       {
-        "ja": "ואחפצו גמיע רסומי ואחכאמי. ואעמלו בהא",
-        "en": "And keep all My statutes and My ordinances, and act according to them;",
-        "he": "וּשְׁמַרְתֶּם אֶת-כָּל-חֻקֹּתַי וְאֶת-כָּל-מִשְׁפָּטַי וַעֲשִׂיתֶם אֹתָם"
+        "ja": "ואחפצו",
+        "en": "And keep",
+        "he": "וּשְׁמַרְתֶּם"
       },
       {
-        "ja": "ולא ישתתכם אלבלד. אלד'י אנא מדכ'לכם הנאך לתחוזוה",
-        "en": "and do not let the land scatter you — the land into which I am bringing you there to possess it.",
-        "he": "וְלֹא-תָקִיא אֶתְכֶם הָאָרֶץ אֲשֶׁר אֲנִי מֵבִיא אֶתְכֶם שָׁמָּה לָשֶׁבֶת בָּהּ"
+        "ja": "גמיע רסומי",
+        "en": "all My statutes",
+        "he": "אֶת-כָּל-חֻקֹּתַי"
+      },
+      {
+        "ja": "ואחכאמי",
+        "en": "and My ordinances",
+        "he": "וְאֶת-כָּל-מִשְׁפָּטַי"
+      },
+      {
+        "ja": "ואעמלו",
+        "en": "and act",
+        "he": "וַעֲשִׂיתֶם"
+      },
+      {
+        "ja": "בהא",
+        "en": "according to them",
+        "he": "אֹתָם"
+      },
+      {
+        "ja": "ולא ישתתכם",
+        "en": "and do not let the land scatter you",
+        "he": "וְלֹא-תָקִיא"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "the land",
+        "he": "הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "into which",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "אנא מדכ'לכם",
+        "en": "I am bringing you",
+        "he": "אֲנִי מֵבִיא"
+      },
+      {
+        "ja": "הנאך",
+        "en": "there",
+        "he": "אֶתְכֶם שָׁמָּה"
+      },
+      {
+        "ja": "לתחוזוה",
+        "en": "to possess it",
+        "he": "לָשֶׁבֶת בָּהּ"
       }
     ],
     "23": [
       {
-        "ja": "ולא תסירו פי רסום אלאמם. אלד'י אנא טארדהם מן בין ידיכם",
-        "en": "And do not walk in the statutes of the nations whom I am driving out before you;",
-        "he": "וְלֹא תֵלְכוּ בְּחֻקֹּת הַגּוֹי אֲשֶׁר-אֲנִי מְשַׁלֵּחַ מִפְּנֵיכֶם"
+        "ja": "ולא תסירו",
+        "en": "And do not walk",
+        "he": "וְלֹא תֵלְכוּ"
       },
       {
-        "ja": "פאנהם למא צנעו גמיע הד'ה אקליתהם",
-        "en": "for since they did all these things, I have come to loathe them.",
-        "he": "כִּי אֶת-כָּל-אֵלֶּה עָשׂוּ וָאָקֻץ בָּם"
+        "ja": "פי רסום",
+        "en": "in the statutes of",
+        "he": "בְּחֻקֹּת"
+      },
+      {
+        "ja": "אלאמם",
+        "en": "the nations",
+        "he": "הַגּוֹי"
+      },
+      {
+        "ja": "אלד'י אנא",
+        "en": "whom I am",
+        "he": "אֲשֶׁר-אֲנִי"
+      },
+      {
+        "ja": "טארדהם",
+        "en": "driving out",
+        "he": "מְשַׁלֵּחַ"
+      },
+      {
+        "ja": "מן בין ידיכם",
+        "en": "before you",
+        "he": "מִפְּנֵיכֶם"
+      },
+      {
+        "ja": "פאנהם",
+        "en": "for",
+        "he": "כִּי"
+      },
+      {
+        "ja": "למא",
+        "en": "since"
+      },
+      {
+        "ja": "צנעו גמיע הד'ה",
+        "en": "they did all these things",
+        "he": "אֶת-כָּל-אֵלֶּה עָשׂוּ"
+      },
+      {
+        "ja": "אקליתהם",
+        "en": "I have come to loathe them",
+        "he": "וָאָקֻץ בָּם"
       }
     ],
     "24": [
       {
-        "ja": "וקלת לכם חאכמא. אנתם תחוזון בלדהם. ואנא אעטיה לכם תחוזוה",
-        "en": "And I said to you, decreeing: You shall possess their land, and I shall give it to you to possess —",
-        "he": "וָאֹמַר לָכֶם אַתֶּם תִּירְשׁוּ אֶת-אַדְמָתָם וַאֲנִי אֶתְּנֶנָּה לָכֶם לָרֶשֶׁת אֹתָהּ"
+        "ja": "וקלת",
+        "en": "And I said",
+        "he": "וָאֹמַר"
       },
       {
-        "ja": "בלד יפיץ' אללבן ואלעסל",
-        "en": "a land flowing with milk and honey —",
-        "he": "אֶרֶץ זָבַת חָלָב וּדְבָשׁ"
+        "ja": "לכם",
+        "en": "to you",
+        "he": "לָכֶם"
       },
       {
-        "ja": "לאני אללה רבכם. אלד'י אפרזתכם מן גמיע אלאמם",
-        "en": "for I am God your Lord, who has separated you from all the nations.",
-        "he": "אֲנִי יְהוָה אֱלֹהֵיכֶם אֲשֶׁר-הִבְדַּלְתִּי אֶתְכֶם מִן-הָעַמִּים"
+        "ja": "חאכמא",
+        "en": "decreeing"
+      },
+      {
+        "ja": "אנתם",
+        "en": "You",
+        "he": "אַתֶּם"
+      },
+      {
+        "ja": "תחוזון",
+        "en": "shall possess",
+        "he": "תִּירְשׁוּ"
+      },
+      {
+        "ja": "בלדהם",
+        "en": "their land",
+        "he": "אֶת-אַדְמָתָם"
+      },
+      {
+        "ja": "ואנא",
+        "en": "and I",
+        "he": "וַאֲנִי"
+      },
+      {
+        "ja": "אעטיה",
+        "en": "shall give it",
+        "he": "אֶתְּנֶנָּה"
+      },
+      {
+        "ja": "לכם",
+        "en": "to you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "תחוזוה",
+        "en": "to possess",
+        "he": "לָרֶשֶׁת אֹתָהּ"
+      },
+      {
+        "ja": "בלד יפיץ'",
+        "en": "a land flowing with",
+        "he": "אֶרֶץ זָבַת"
+      },
+      {
+        "ja": "אללבן",
+        "en": "milk",
+        "he": "חָלָב"
+      },
+      {
+        "ja": "ואלעסל",
+        "en": "and honey",
+        "he": "וּדְבָשׁ"
+      },
+      {
+        "ja": "לאני",
+        "en": "for I am"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "יְהוָה אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "who"
+      },
+      {
+        "ja": "אפרזתכם",
+        "en": "has separated you",
+        "he": "אֲשֶׁר-הִבְדַּלְתִּי"
+      },
+      {
+        "ja": "מן גמיע אלאמם",
+        "en": "from all the nations",
+        "he": "מִן-הָעַמִּים"
       }
     ],
     "25": [
       {
-        "ja": "פמייזו אלבהימה אלטאהרה מן אלנגסה. ואלטאיר אלנגס מן אלטאהר",
-        "en": "So distinguish between the clean beast and the unclean, and between the unclean bird and the clean;",
-        "he": "וְהִבְדַּלְתֶּם בֵּין-הַבְּהֵמָה הַטְּהֹרָה לַטְּמֵאָה וּבֵין-הָעוֹף הַטָּמֵא לַטָּהֹר"
+        "ja": "פמייזו",
+        "en": "So distinguish",
+        "he": "וְהִבְדַּלְתֶּם"
       },
       {
-        "ja": "ולא תרגסו אנפסכם באלבהאים ואלטיור. וסאיר מא ידב עלי' אלארץ'. אלד'י אפרזתה לכם לאלתנגיס",
-        "en": "and do not make yourselves loathsome with beasts and birds, and the rest of what creeps upon the earth — which I have set apart for you as unclean.",
-        "he": "וְלֹא-תְשַׁקְּצוּ אֶת-נַפְשֹׁתֵיכֶם בַּבְּהֵמָה וּבָעוֹף וּבְכֹל אֲשֶׁר תִּרְמֹשׂ הָאֲדָמָה אֲשֶׁר-הִבְדַּלְתִּי לָכֶם לְטַמֵּא"
+        "ja": "אלבהימה אלטאהרה",
+        "en": "between the clean beast",
+        "he": "בֵּין-הַבְּהֵמָה הַטְּהֹרָה"
+      },
+      {
+        "ja": "מן אלנגסה",
+        "en": "and the unclean",
+        "he": "לַטְּמֵאָה"
+      },
+      {
+        "ja": "ואלטאיר אלנגס",
+        "en": "and between the unclean bird",
+        "he": "וּבֵין-הָעוֹף הַטָּמֵא"
+      },
+      {
+        "ja": "מן אלטאהר",
+        "en": "and the clean",
+        "he": "לַטָּהֹר"
+      },
+      {
+        "ja": "ולא תרגסו",
+        "en": "and do not make yourselves loathsome",
+        "he": "וְלֹא-תְשַׁקְּצוּ"
+      },
+      {
+        "ja": "אנפסכם",
+        "en": "with",
+        "he": "אֶת-נַפְשֹׁתֵיכֶם"
+      },
+      {
+        "ja": "באלבהאים",
+        "en": "beasts",
+        "he": "בַּבְּהֵמָה"
+      },
+      {
+        "ja": "ואלטיור",
+        "en": "and birds",
+        "he": "וּבָעוֹף"
+      },
+      {
+        "ja": "וסאיר מא ידב",
+        "en": "and the rest of what creeps",
+        "he": "וּבְכֹל אֲשֶׁר תִּרְמֹשׂ"
+      },
+      {
+        "ja": "עלי' אלארץ'",
+        "en": "upon the earth",
+        "he": "הָאֲדָמָה"
+      },
+      {
+        "ja": "אלד'י אפרזתה",
+        "en": "which I have set apart",
+        "he": "אֲשֶׁר-הִבְדַּלְתִּי"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "לאלתנגיס",
+        "en": "as unclean",
+        "he": "לְטַמֵּא"
       }
     ],
     "26": [
       {
-        "ja": "וכונו לי מקדסין. לאני אללה אלקדוס",
-        "en": "And be holy unto Me, for I am God the Holy One;",
-        "he": "וִהְיִיתֶם לִי קְדֹשִׁים כִּי קָדוֹשׁ אֲנִי יְהוָה"
+        "ja": "וכונו",
+        "en": "And be",
+        "he": "וִהְיִיתֶם"
       },
       {
-        "ja": "אפרזתכם מן אלאמם לתכונו לי כ'אצה",
-        "en": "I have separated you from the nations that you may be Mine as a special possession.",
-        "he": "וָאַבְדִּל אֶתְכֶם מִן-הָעַמִּים לִהְיוֹת לִי"
+        "ja": "לי",
+        "en": "unto Me",
+        "he": "לִי"
+      },
+      {
+        "ja": "מקדסין",
+        "en": "holy",
+        "he": "קְדֹשִׁים"
+      },
+      {
+        "ja": "לאני",
+        "en": "for I am",
+        "he": "כִּי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אלקדוס",
+        "en": "the Holy One",
+        "he": "קָדוֹשׁ אֲנִי"
+      },
+      {
+        "ja": "אפרזתכם",
+        "en": "I have separated you",
+        "he": "וָאַבְדִּל אֶתְכֶם"
+      },
+      {
+        "ja": "מן אלאמם",
+        "en": "from the nations",
+        "he": "מִן-הָעַמִּים"
+      },
+      {
+        "ja": "לתכונו",
+        "en": "that you may be",
+        "he": "לִהְיוֹת"
+      },
+      {
+        "ja": "לי",
+        "en": "Mine",
+        "he": "לִי"
+      },
+      {
+        "ja": "כ'אצה",
+        "en": "as a special possession"
       }
     ],
     "27": [
       {
-        "ja": "ואי רגל או אמראה. כאן מנהמא משעודא. או עראפא פליקתלא קתלא",
-        "en": "And any man or woman in whom there is a sorcerer or a diviner — let them both be killed outright;",
-        "he": "וְאִישׁ אוֹ-אִשָּׁה כִּי-יִהְיֶה בָהֶם אוֹב אוֹ יִדְּעֹנִי--מוֹת יוּמָתוּ"
+        "ja": "ואי",
+        "en": "And any"
       },
       {
-        "ja": "ובאלחגארה ירגמוהמא פקד חלת דמאהמא",
-        "en": "they shall be stoned with stones — their blood is thereby made forfeit.",
-        "he": "בָּאֶבֶן יִרְגְּמוּ אֹתָם דְּמֵיהֶם בָּם"
+        "ja": "רגל",
+        "en": "man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "או אמראה",
+        "en": "or woman",
+        "he": "אוֹ-אִשָּׁה"
+      },
+      {
+        "ja": "כאן מנהמא",
+        "en": "in whom there is",
+        "he": "כִּי-יִהְיֶה בָהֶם"
+      },
+      {
+        "ja": "משעודא",
+        "en": "a sorcerer",
+        "he": "אוֹב"
+      },
+      {
+        "ja": "או עראפא",
+        "en": "or a diviner",
+        "he": "אוֹ יִדְּעֹנִי"
+      },
+      {
+        "ja": "פליקתלא קתלא",
+        "en": "let them both be killed outright",
+        "he": "מוֹת יוּמָתוּ"
+      },
+      {
+        "ja": "ובאלחגארה ירגמוהמא",
+        "en": "they shall be stoned with stones",
+        "he": "בָּאֶבֶן יִרְגְּמוּ אֹתָם"
+      },
+      {
+        "ja": "פקד חלת דמאהמא",
+        "en": "their blood is thereby made forfeit",
+        "he": "דְּמֵיהֶם בָּם"
       }
     ]
   }

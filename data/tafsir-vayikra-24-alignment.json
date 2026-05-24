@@ -1,232 +1,1053 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 24. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_24.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 24. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_24.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses in speech.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "in speech",
+        "he": "לֵּאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "אוץ בני אסראיל. אן יאתוך בדהן זית צאף. מדקוק לאלאצ'אה",
-        "en": "Command the sons of Israel that they bring you pure olive oil, pressed for giving light,",
-        "he": "צַו אֶת-בְּנֵי יִשְׂרָאֵל וְיִקְחוּ אֵלֶיךָ שֶׁמֶן זַיִת זָךְ כָּתִית--לַמָּאוֹר"
+        "ja": "אוץ",
+        "en": "Command",
+        "he": "צַו"
       },
       {
-        "ja": "לתסר'ג בה אלסרג דאימא",
-        "en": "to kindle the lamp with it continually.",
-        "he": "לְהַעֲלֹת נֵר תָּמִיד"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶת-בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אן",
+        "en": "that"
+      },
+      {
+        "ja": "יאתוך",
+        "en": "they bring you",
+        "he": "וְיִקְחוּ"
+      },
+      {
+        "ja": "בדהן",
+        "en": "oil",
+        "he": "שֶׁמֶן"
+      },
+      {
+        "ja": "זית",
+        "en": "olive",
+        "he": "זַיִת"
+      },
+      {
+        "ja": "צאף",
+        "en": "pure",
+        "he": "זָךְ"
+      },
+      {
+        "ja": "מדקוק",
+        "en": "pressed",
+        "he": "כָּתִית"
+      },
+      {
+        "ja": "לאלאצ'אה",
+        "en": "for giving light",
+        "he": "לַמָּאוֹר"
+      },
+      {
+        "ja": "לתסר'ג",
+        "en": "to kindle",
+        "he": "לְהַעֲלֹת"
+      },
+      {
+        "ja": "בה",
+        "en": "with it"
+      },
+      {
+        "ja": "אלסרג",
+        "en": "the lamp",
+        "he": "נֵר"
+      },
+      {
+        "ja": "דאימא",
+        "en": "continually",
+        "he": "תָּמִיד"
       }
     ],
     "3": [
       {
-        "ja": "כ'ארג סגף אלשהאדה פי כ'בא אלמחצ'ר. ינצ'דה הרון. מן אלעשי אלי' אלצבאח. בין ידי אללה דאימא",
-        "en": "Outside the veil of the testimony, in the tent of the presence, Aaron shall arrange it from evening until morning before God continually —",
-        "he": "מִחוּץ לְפָרֹכֶת הָעֵדֻת בְּאֹהֶל מוֹעֵד יַעֲרֹךְ אֹתוֹ אַהֲרֹן מֵעֶרֶב עַד-בֹּקֶר לִפְנֵי יְהוָה--תָּמִיד"
+        "ja": "כ'ארג",
+        "en": "Outside",
+        "he": "מִחוּץ"
+      },
+      {
+        "ja": "סגף",
+        "en": "the veil of",
+        "he": "לְפָרֹכֶת"
+      },
+      {
+        "ja": "אלשהאדה",
+        "en": "the testimony",
+        "he": "הָעֵדֻת"
+      },
+      {
+        "ja": "פי כ'בא",
+        "en": "in the tent of",
+        "he": "בְּאֹהֶל"
+      },
+      {
+        "ja": "אלמחצ'ר",
+        "en": "the presence",
+        "he": "מוֹעֵד"
+      },
+      {
+        "ja": "ינצ'דה",
+        "en": "shall arrange it",
+        "he": "יַעֲרֹךְ"
+      },
+      {
+        "ja": "הרון",
+        "en": "Aaron",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "מן אלעשי",
+        "en": "from evening",
+        "he": "מֵעֶרֶב"
+      },
+      {
+        "ja": "אלי' אלצבאח",
+        "en": "until morning",
+        "he": "עַד-בֹּקֶר"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "דאימא",
+        "en": "continually",
+        "he": "תָּמִיד"
       },
       {
         "ja": "רסם אלדהר",
-        "en": "an ordinance forever.",
+        "en": "an ordinance forever",
         "he": "חֻקַּת עוֹלָם לְדֹרֹתֵיכֶם"
       }
     ],
     "4": [
       {
-        "ja": "עלי' אלמנארה אלטאהרה. יצפהא בין ידי אללה דאימא",
-        "en": "Upon the pure lampstand shall he set them in order before God continually.",
-        "he": "עַל הַמְּנֹרָה הַטְּהֹרָה יַעֲרֹךְ אֶת-הַנֵּרוֹת לִפְנֵי יְהוָה תָּמִיד"
+        "ja": "עלי'",
+        "en": "Upon",
+        "he": "עַל"
+      },
+      {
+        "ja": "אלמנארה",
+        "en": "lampstand",
+        "he": "הַמְּנֹרָה"
+      },
+      {
+        "ja": "אלטאהרה",
+        "en": "pure",
+        "he": "הַטְּהֹרָה"
+      },
+      {
+        "ja": "יצפהא",
+        "en": "shall he set them in order",
+        "he": "יַעֲרֹךְ אֶת-הַנֵּרוֹת"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "דאימא",
+        "en": "continually",
+        "he": "תָּמִיד"
       }
     ],
     "5": [
       {
-        "ja": "וכד' סמדא. ואכ'בזה את'נא עשר גרדקה",
-        "en": "And take fine flour, and bake it into twelve loaves,",
-        "he": "וְלָקַחְתָּ סֹלֶת--וְאָפִיתָ אֹתָהּ שְׁתֵּים עֶשְׂרֵה חַלּוֹת"
+        "ja": "וכד'",
+        "en": "And take",
+        "he": "וְלָקַחְתָּ"
       },
       {
-        "ja": "ולתכון כל גרדקה מן עשרין",
-        "en": "and let each loaf be of twenty [parts].",
-        "he": "שְׁנֵי עֶשְׂרֹנִים יִהְיֶה הַחַלָּה הָאֶחָת"
+        "ja": "סמדא",
+        "en": "fine flour",
+        "he": "סֹלֶת"
+      },
+      {
+        "ja": "ואכ'בזה",
+        "en": "and bake it into",
+        "he": "וְאָפִיתָ"
+      },
+      {
+        "ja": "את'נא עשר",
+        "en": "twelve",
+        "he": "שְׁתֵּים עֶשְׂרֵה"
+      },
+      {
+        "ja": "גרדקה",
+        "en": "loaves",
+        "he": "חַלּוֹת"
+      },
+      {
+        "ja": "ולתכון",
+        "en": "and let"
+      },
+      {
+        "ja": "כל",
+        "en": "each"
+      },
+      {
+        "ja": "גרדקה",
+        "en": "loaf",
+        "he": "הַחַלָּה הָאֶחָת"
+      },
+      {
+        "ja": "מן עשרין",
+        "en": "be of twenty [parts]",
+        "he": "שְׁנֵי עֶשְׂרֹנִים יִהְיֶה"
       }
     ],
     "6": [
       {
-        "ja": "וציירהמא צפין. סתה פי כל צף. עלי' אלמאידה אלטאהרה בין ידי אללה",
-        "en": "And set them in two rows, six in each row, upon the pure table before God.",
-        "he": "וְשַׂמְתָּ אוֹתָם שְׁתַּיִם מַעֲרָכוֹת שֵׁשׁ הַמַּעֲרָכֶת עַל הַשֻּׁלְחָן הַטָּהֹר לִפְנֵי יְהוָה"
+        "ja": "וציירהמא",
+        "en": "And set them",
+        "he": "וְשַׂמְתָּ"
+      },
+      {
+        "ja": "צפין",
+        "en": "in two rows",
+        "he": "שְׁתַּיִם מַעֲרָכוֹת"
+      },
+      {
+        "ja": "סתה",
+        "en": "six",
+        "he": "שֵׁשׁ"
+      },
+      {
+        "ja": "פי כל צף",
+        "en": "in each row",
+        "he": "הַמַּעֲרָכֶת"
+      },
+      {
+        "ja": "עלי'",
+        "en": "upon",
+        "he": "עַל"
+      },
+      {
+        "ja": "אלמאידה",
+        "en": "table",
+        "he": "הַשֻּׁלְחָן"
+      },
+      {
+        "ja": "אלטאהרה",
+        "en": "pure",
+        "he": "הַטָּהֹר"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
       }
     ],
     "7": [
       {
-        "ja": "ואגעל עלי' כל צף לבאנא ד'כייא",
-        "en": "And place upon each row pure frankincense,",
-        "he": "וְנָתַתָּ עַל-הַמַּעֲרֶכֶת לְבֹנָה זַכָּה"
+        "ja": "ואגעל",
+        "en": "And place",
+        "he": "וְנָתַתָּ"
       },
       {
-        "ja": "וליכון ען אלכ'בז פיחא. מקרבא ללה",
-        "en": "and let it serve as the fragrant portion from the bread — an offering to God.",
-        "he": "וְהָיְתָה לַלֶּחֶם לְאַזְכָּרָה אִשֶּׁה לַיהוָה"
+        "ja": "עלי' כל צף",
+        "en": "upon each row",
+        "he": "עַל-הַמַּעֲרֶכֶת"
+      },
+      {
+        "ja": "לבאנא",
+        "en": "frankincense",
+        "he": "לְבֹנָה"
+      },
+      {
+        "ja": "ד'כייא",
+        "en": "pure",
+        "he": "זַכָּה"
+      },
+      {
+        "ja": "וליכון",
+        "en": "and let it serve"
+      },
+      {
+        "ja": "ען אלכ'בז",
+        "en": "from the bread",
+        "he": "לַלֶּחֶם"
+      },
+      {
+        "ja": "פיחא",
+        "en": "as the fragrant portion",
+        "he": "לְאַזְכָּרָה"
+      },
+      {
+        "ja": "מקרבא",
+        "en": "an offering",
+        "he": "אִשֶּׁה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
       }
     ],
     "8": [
       {
-        "ja": "ופי כל יום סבת. יצפהא בין ידי אללה דאימא. מן ענד בני אסראיל",
-        "en": "And on every Sabbath day he shall arrange them before God continually, from the sons of Israel —",
-        "he": "בְּיוֹם הַשַּׁבָּת בְּיוֹם הַשַּׁבָּת יַעַרְכֶנּוּ לִפְנֵי יְהוָה--תָּמִיד מֵאֵת בְּנֵי-יִשְׂרָאֵל"
+        "ja": "ופי כל יום סבת",
+        "en": "And on every Sabbath day",
+        "he": "בְּיוֹם הַשַּׁבָּת"
+      },
+      {
+        "ja": "יצפהא",
+        "en": "he shall arrange them",
+        "he": "יַעַרְכֶנּוּ"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "דאימא",
+        "en": "continually",
+        "he": "תָּמִיד"
+      },
+      {
+        "ja": "מן ענד",
+        "en": "from",
+        "he": "מֵאֵת"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "בְּנֵי-יִשְׂרָאֵל"
       },
       {
         "ja": "עהד אלדהר",
-        "en": "a covenant forever.",
+        "en": "a covenant forever",
         "he": "בְּרִית עוֹלָם"
       }
     ],
     "9": [
       {
-        "ja": "ת'ם ידפע אלי' הרון ובניה. יאכלונה פי מוצ'ע מקדס",
-        "en": "Then it shall be given over to Aaron and his sons; they shall eat it in a consecrated place,",
-        "he": "וְהָיְתָה לְאַהֲרֹן וּלְבָנָיו וַאֲכָלֻהוּ בְּמָקוֹם קָדֹשׁ"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "לאנה להם מן כ'ואץ אלאקדאס. מן קראבין אללה רסם אלדהר",
-        "en": "for it belongs to them from the choicest of the sacred things, from the offerings to God — an ordinance forever.",
-        "he": "כִּי קֹדֶשׁ קָדָשִׁים הוּא לוֹ מֵאִשֵּׁי יְהוָה--חָק-עוֹלָם"
+        "ja": "ידפע",
+        "en": "it shall be given over",
+        "he": "וְהָיְתָה"
+      },
+      {
+        "ja": "אלי' הרון",
+        "en": "to Aaron",
+        "he": "לְאַהֲרֹן"
+      },
+      {
+        "ja": "ובניה",
+        "en": "and his sons",
+        "he": "וּלְבָנָיו"
+      },
+      {
+        "ja": "יאכלונה",
+        "en": "they shall eat it",
+        "he": "וַאֲכָלֻהוּ"
+      },
+      {
+        "ja": "פי מוצ'ע מקדס",
+        "en": "in a consecrated place",
+        "he": "בְּמָקוֹם קָדֹשׁ"
+      },
+      {
+        "ja": "לאנה",
+        "en": "for",
+        "he": "כִּי"
+      },
+      {
+        "ja": "להם",
+        "en": "it belongs to them"
+      },
+      {
+        "ja": "מן כ'ואץ אלאקדאס",
+        "en": "from the choicest of the sacred things",
+        "he": "קֹדֶשׁ קָדָשִׁים"
+      },
+      {
+        "ja": "מן קראבין",
+        "en": "from the offerings",
+        "he": "מֵאִשֵּׁי"
+      },
+      {
+        "ja": "אללה",
+        "en": "to God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רסם אלדהר",
+        "en": "an ordinance forever",
+        "he": "חָק-עוֹלָם"
       }
     ],
     "10": [
       {
-        "ja": "פכ'רג אבן אמראה אסראילייה. והו אבן רגל מצרי. פי מא בין בני אסראיל",
-        "en": "And there went out the son of an Israelite woman — he being the son of an Egyptian man — among the sons of Israel;",
-        "he": "וַיֵּצֵא בֶּן-אִשָּׁה יִשְׂרְאֵלִית וְהוּא בֶּן-אִישׁ מִצְרִי בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
+        "ja": "פכ'רג",
+        "en": "And there went out",
+        "he": "וַיֵּצֵא"
       },
       {
-        "ja": "פתנאצו פי אלעסכר. הד'א אבן אלאסראילייה. ואלרגל אלאסראילי",
-        "en": "and they quarreled in the camp, this son of the Israelite woman and the Israelite man.",
-        "he": "וַיִּנָּצוּ בַּמַּחֲנֶה בֶּן הַיִּשְׂרְאֵלִית וְאִישׁ הַיִּשְׂרְאֵלִי"
+        "ja": "אבן אמראה אסראילייה",
+        "en": "the son of an Israelite woman",
+        "he": "בֶּן-אִשָּׁה יִשְׂרְאֵלִית"
+      },
+      {
+        "ja": "והו",
+        "en": "he being",
+        "he": "וְהוּא"
+      },
+      {
+        "ja": "אבן רגל מצרי",
+        "en": "the son of an Egyptian man",
+        "he": "בֶּן-אִישׁ מִצְרִי"
+      },
+      {
+        "ja": "פי מא בין",
+        "en": "among",
+        "he": "בְּתוֹךְ"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פתנאצו",
+        "en": "and they quarreled",
+        "he": "וַיִּנָּצוּ"
+      },
+      {
+        "ja": "פי אלעסכר",
+        "en": "in the camp",
+        "he": "בַּמַּחֲנֶה"
+      },
+      {
+        "ja": "הד'א אבן אלאסראילייה",
+        "en": "this son of the Israelite woman",
+        "he": "בֶּן הַיִּשְׂרְאֵלִית"
+      },
+      {
+        "ja": "ואלרגל אלאסראילי",
+        "en": "and the Israelite man",
+        "he": "וְאִישׁ הַיִּשְׂרְאֵלִי"
       }
     ],
     "11": [
       {
-        "ja": "פסב אבן אלאמראה אלאסראילייה אלאסם ושתמה",
-        "en": "And the son of the Israelite woman reviled the Name and cursed it;",
-        "he": "וַיִּקֹּב בֶּן-הָאִשָּׁה הַיִּשְׂרְאֵלִית אֶת-הַשֵּׁם וַיְקַלֵּל"
+        "ja": "פסב",
+        "en": "reviled",
+        "he": "וַיִּקֹּב"
       },
       {
-        "ja": "פאתו בה אלי' מוסי'. וכאן אסם אמה. שלומית אבנה' דברי מן סבט דן",
-        "en": "and they brought him to Moses. Now the name of his mother was Shelomith daughter of Dibri, of the tribe of Dan.",
-        "he": "וַיָּבִיאוּ אֹתוֹ אֶל-מֹשֶׁה וְשֵׁם אִמּוֹ שְׁלֹמִית בַּת-דִּבְרִי לְמַטֵּה-דָן"
+        "ja": "אבן אלאמראה אלאסראילייה",
+        "en": "the son of the Israelite woman",
+        "he": "בֶּן-הָאִשָּׁה הַיִּשְׂרְאֵלִית"
+      },
+      {
+        "ja": "אלאסם",
+        "en": "the Name",
+        "he": "אֶת-הַשֵּׁם"
+      },
+      {
+        "ja": "ושתמה",
+        "en": "and cursed it",
+        "he": "וַיְקַלֵּל"
+      },
+      {
+        "ja": "פאתו",
+        "en": "and they brought",
+        "he": "וַיָּבִיאוּ"
+      },
+      {
+        "ja": "בה",
+        "en": "him"
+      },
+      {
+        "ja": "אלי' מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "וכאן",
+        "en": "Now"
+      },
+      {
+        "ja": "אסם",
+        "en": "the name of",
+        "he": "וְשֵׁם"
+      },
+      {
+        "ja": "אמה",
+        "en": "his mother",
+        "he": "אִמּוֹ"
+      },
+      {
+        "ja": "שלומית",
+        "en": "Shelomith",
+        "he": "שְׁלֹמִית"
+      },
+      {
+        "ja": "אבנה' דברי",
+        "en": "daughter of Dibri",
+        "he": "בַּת-דִּבְרִי"
+      },
+      {
+        "ja": "מן סבט דן",
+        "en": "of the tribe of Dan",
+        "he": "לְמַטֵּה-דָן"
       }
     ],
     "12": [
       {
-        "ja": "פוצ'עוה פי אלחבס. ליביין להם אמרה ען קול אללה",
-        "en": "And they placed him in custody, until his case should be made clear to them by the word of God.",
-        "he": "וַיַּנִּיחֻהוּ בַּמִּשְׁמָר לִפְרֹשׁ לָהֶם עַל-פִּי יְהוָה"
+        "ja": "פוצ'עוה",
+        "en": "And they placed him",
+        "he": "וַיַּנִּיחֻהוּ"
+      },
+      {
+        "ja": "פי אלחבס",
+        "en": "in custody",
+        "he": "בַּמִּשְׁמָר"
+      },
+      {
+        "ja": "ליביין",
+        "en": "until",
+        "he": "לִפְרֹשׁ"
+      },
+      {
+        "ja": "להם",
+        "en": "to them",
+        "he": "לָהֶם"
+      },
+      {
+        "ja": "אמרה",
+        "en": "his case should be made clear"
+      },
+      {
+        "ja": "ען קול",
+        "en": "by the word of",
+        "he": "עַל-פִּי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
       }
     ],
     "13": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses in speech.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "in speech",
+        "he": "לֵּאמֹר"
       }
     ],
     "14": [
       {
-        "ja": "אכ'רג אלשאתם אלי' כ'ארג אלעסכר",
-        "en": "\"Bring out the reviler to outside the camp,",
-        "he": "הוֹצֵא אֶת-הַמְקַלֵּל אֶל-מִחוּץ לַמַּחֲנֶה"
+        "ja": "אכ'רג",
+        "en": "Bring out",
+        "he": "הוֹצֵא"
       },
       {
-        "ja": "ויסנד כל מן סמעה אידיהם עלי' ראסה. ולירגמוה גמיע אהל אלמחצ'ר רגמא",
-        "en": "and let all who heard him lay their hands upon his head; and let all the people of the presence stone him with stones.\"",
-        "he": "וְסָמְכוּ כָל-הַשֹּׁמְעִים אֶת-יְדֵיהֶם עַל-רֹאשׁוֹ וְרָגְמוּ אֹתוֹ כָּל-הָעֵדָה"
+        "ja": "אלשאתם",
+        "en": "the reviler",
+        "he": "אֶת-הַמְקַלֵּל"
+      },
+      {
+        "ja": "אלי' כ'ארג",
+        "en": "to outside",
+        "he": "אֶל-מִחוּץ"
+      },
+      {
+        "ja": "אלעסכר",
+        "en": "the camp",
+        "he": "לַמַּחֲנֶה"
+      },
+      {
+        "ja": "ויסנד",
+        "en": "and let",
+        "he": "וְסָמְכוּ"
+      },
+      {
+        "ja": "כל מן סמעה",
+        "en": "all who heard him",
+        "he": "כָל-הַשֹּׁמְעִים"
+      },
+      {
+        "ja": "אידיהם",
+        "en": "lay their hands",
+        "he": "אֶת-יְדֵיהֶם"
+      },
+      {
+        "ja": "עלי' ראסה",
+        "en": "upon his head",
+        "he": "עַל-רֹאשׁוֹ"
+      },
+      {
+        "ja": "ולירגמוה",
+        "en": "and let all the people",
+        "he": "וְרָגְמוּ"
+      },
+      {
+        "ja": "גמיע אהל אלמחצ'ר",
+        "en": "of the presence",
+        "he": "כָּל-הָעֵדָה"
+      },
+      {
+        "ja": "רגמא",
+        "en": "stone him with stones"
       }
     ],
     "15": [
       {
-        "ja": "ומר בני אסראיל וקל להם. אי אנסאן שתם רבה פקד חמל וזרה",
-        "en": "\"And command the sons of Israel, and say to them: any person who curses his Lord shall bear his guilt.\"",
-        "he": "וְאֶל-בְּנֵי יִשְׂרָאֵל תְּדַבֵּר לֵאמֹר אִישׁ אִישׁ כִּי-יְקַלֵּל אֱלֹהָיו וְנָשָׂא חֶטְאוֹ"
+        "ja": "ומר בני אסראיל",
+        "en": "And command the sons of Israel",
+        "he": "וְאֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקל להם",
+        "en": "and say to them",
+        "he": "תְּדַבֵּר לֵאמֹר"
+      },
+      {
+        "ja": "אי אנסאן",
+        "en": "any person",
+        "he": "אִישׁ אִישׁ"
+      },
+      {
+        "ja": "שתם",
+        "en": "who curses",
+        "he": "כִּי-יְקַלֵּל"
+      },
+      {
+        "ja": "רבה",
+        "en": "his Lord",
+        "he": "אֱלֹהָיו"
+      },
+      {
+        "ja": "פקד חמל",
+        "en": "shall bear",
+        "he": "וְנָשָׂא"
+      },
+      {
+        "ja": "וזרה",
+        "en": "his guilt",
+        "he": "חֶטְאוֹ"
       }
     ],
     "16": [
       {
-        "ja": "ומן סבה כד'אך פליקתל קתלא. לירגמוה גמיע אהל אלמחצ'ר רגמא",
-        "en": "\"And whoever reviles Him thus shall be put to death — all the people of the presence shall stone him with stones.",
-        "he": "וְנֹקֵב שֵׁם-יְהוָה מוֹת יוּמָת רָגוֹם יִרְגְּמוּ-בוֹ כָּל-הָעֵדָה"
+        "ja": "ומן סבה",
+        "en": "And whoever reviles Him",
+        "he": "וְנֹקֵב"
       },
       {
-        "ja": "אלדכ'יל כאלצריח סוא. אייהמא סב אלאסם פליקתל",
-        "en": "The sojourner and the native-born are equal: whichever of them curses the Name shall be put to death.\"",
-        "he": "כַּגֵּר כָּאֶזְרָח--בְּנָקְבוֹ-שֵׁם יוּמָת"
+        "ja": "כד'אך",
+        "en": "thus"
+      },
+      {
+        "ja": "פליקתל קתלא",
+        "en": "shall be put to death",
+        "he": "מוֹת יוּמָת"
+      },
+      {
+        "ja": "לירגמוה",
+        "en": "shall stone him",
+        "he": "רָגוֹם יִרְגְּמוּ-בוֹ"
+      },
+      {
+        "ja": "גמיע אהל אלמחצ'ר",
+        "en": "all the people of the presence",
+        "he": "כָּל-הָעֵדָה"
+      },
+      {
+        "ja": "רגמא",
+        "en": "with stones"
+      },
+      {
+        "ja": "אלדכ'יל",
+        "en": "The sojourner",
+        "he": "כַּגֵּר"
+      },
+      {
+        "ja": "כאלצריח",
+        "en": "and the native-born",
+        "he": "כָּאֶזְרָח"
+      },
+      {
+        "ja": "סוא",
+        "en": "are equal"
+      },
+      {
+        "ja": "אייהמא סב אלאסם",
+        "en": "whichever of them curses the Name",
+        "he": "בְּנָקְבוֹ-שֵׁם"
+      },
+      {
+        "ja": "פליקתל",
+        "en": "shall be put to death",
+        "he": "יוּמָת"
       }
     ],
     "17": [
       {
-        "ja": "ואי אנסאן קתל ואחדה מן נפוס אלנאס פליקתל",
-        "en": "\"And any person who kills one of the souls of the people shall be put to death.\"",
-        "he": "וְאִישׁ כִּי יַכֶּה כָּל-נֶפֶשׁ אָדָם--מוֹת יוּמָת"
+        "ja": "ואי אנסאן",
+        "en": "And any person",
+        "he": "וְאִישׁ"
+      },
+      {
+        "ja": "קתל",
+        "en": "who kills",
+        "he": "כִּי יַכֶּה"
+      },
+      {
+        "ja": "ואחדה מן נפוס",
+        "en": "one of the souls",
+        "he": "כָּל-נֶפֶשׁ"
+      },
+      {
+        "ja": "אלנאס",
+        "en": "of the people",
+        "he": "אָדָם"
+      },
+      {
+        "ja": "פליקתל",
+        "en": "shall be put to death",
+        "he": "מוֹת יוּמָת"
       }
     ],
     "18": [
       {
-        "ja": "ומן קתל בהימה פליסלם מת'להא. ראסא בדל ראס",
-        "en": "\"And whoever kills a beast shall render its like — head in place of head.\"",
-        "he": "וּמַכֵּה נֶפֶשׁ-בְּהֵמָה יְשַׁלְּמֶנָּה--נֶפֶשׁ תַּחַת נָפֶשׁ"
+        "ja": "ומן קתל",
+        "en": "And whoever kills",
+        "he": "וּמַכֵּה"
+      },
+      {
+        "ja": "בהימה",
+        "en": "a beast",
+        "he": "נֶפֶשׁ-בְּהֵמָה"
+      },
+      {
+        "ja": "פליסלם מת'להא",
+        "en": "shall render its like",
+        "he": "יְשַׁלְּמֶנָּה"
+      },
+      {
+        "ja": "ראסא בדל ראס",
+        "en": "head in place of head",
+        "he": "נֶפֶשׁ תַּחַת נָפֶשׁ"
       }
     ],
     "19": [
       {
-        "ja": "ואי אנסאן געל עיבא פי אחד מן אמתה. פליצנע בה כמא צנע",
-        "en": "\"And any person who inflicts a defect upon one of his fellow countrymen — as he has done, so shall be done to him.\"",
-        "he": "וְאִישׁ כִּי-יִתֵּן מוּם בַּעֲמִיתוֹ--כַּאֲשֶׁר עָשָׂה כֵּן יֵעָשֶׂה לּוֹ"
+        "ja": "ואי אנסאן",
+        "en": "And any person",
+        "he": "וְאִישׁ"
+      },
+      {
+        "ja": "געל",
+        "en": "who inflicts",
+        "he": "כִּי-יִתֵּן"
+      },
+      {
+        "ja": "עיבא",
+        "en": "a defect",
+        "he": "מוּם"
+      },
+      {
+        "ja": "פי אחד מן אמתה",
+        "en": "upon one of his fellow countrymen",
+        "he": "בַּעֲמִיתוֹ"
+      },
+      {
+        "ja": "כמא צנע",
+        "en": "as he has done",
+        "he": "כַּאֲשֶׁר עָשָׂה"
+      },
+      {
+        "ja": "פליצנע בה",
+        "en": "so shall be done to him",
+        "he": "כֵּן יֵעָשֶׂה לּוֹ"
       }
     ],
     "20": [
       {
-        "ja": "לאלכסר בדל אלכסר. ולאלעין בדלהא ולאלסן בדלהא",
-        "en": "\"Fracture in place of fracture, and eye in place of eye, and tooth in place of tooth:",
-        "he": "שֶׁבֶר תַּחַת שֶׁבֶר עַיִן תַּחַת עַיִן שֵׁן תַּחַת שֵׁן"
+        "ja": "לאלכסר בדל אלכסר",
+        "en": "Fracture in place of fracture",
+        "he": "שֶׁבֶר תַּחַת שֶׁבֶר"
       },
       {
-        "ja": "כמא יגעל עיבא פי אנסאנא. כד'אך יגעל עליה",
-        "en": "as one inflicts a defect upon a person, so shall it be inflicted upon him.\"",
-        "he": "כַּאֲשֶׁר יִתֵּן מוּם בָּאָדָם כֵּן יִנָּתֶן בּוֹ"
+        "ja": "ולאלעין בדלהא",
+        "en": "and eye in place of eye",
+        "he": "עַיִן תַּחַת עַיִן"
+      },
+      {
+        "ja": "ולאלסן בדלהא",
+        "en": "and tooth in place of tooth",
+        "he": "שֵׁן תַּחַת שֵׁן"
+      },
+      {
+        "ja": "כמא יגעל",
+        "en": "as one inflicts",
+        "he": "כַּאֲשֶׁר יִתֵּן"
+      },
+      {
+        "ja": "עיבא",
+        "en": "a defect",
+        "he": "מוּם"
+      },
+      {
+        "ja": "פי אנסאנא",
+        "en": "upon a person",
+        "he": "בָּאָדָם"
+      },
+      {
+        "ja": "כד'אך יגעל עליה",
+        "en": "so shall it be inflicted upon him",
+        "he": "כֵּן יִנָּתֶן בּוֹ"
       }
     ],
     "21": [
       {
-        "ja": "ומן צ'רב בהימה פליג'רם. ומן צ'רב אנסאנא ומאת פליקתל",
-        "en": "\"And whoever strikes a beast shall be fined; and whoever strikes a person and causes death shall be put to death.\"",
-        "he": "וּמַכֵּה בְהֵמָה יְשַׁלְּמֶנָּה וּמַכֵּה אָדָם יוּמָת"
+        "ja": "ומן צ'רב בהימה",
+        "en": "And whoever strikes a beast",
+        "he": "וּמַכֵּה בְהֵמָה"
+      },
+      {
+        "ja": "פליג'רם",
+        "en": "shall be fined",
+        "he": "יְשַׁלְּמֶנָּה"
+      },
+      {
+        "ja": "ומן צ'רב אנסאנא",
+        "en": "and whoever strikes a person",
+        "he": "וּמַכֵּה אָדָם"
+      },
+      {
+        "ja": "ומאת",
+        "en": "and causes death"
+      },
+      {
+        "ja": "פליקתל",
+        "en": "shall be put to death",
+        "he": "יוּמָת"
       }
     ],
     "22": [
       {
-        "ja": "וליכון לכם חכם ואחד. יסאוי פיה אלדכ'יל ואלצריח",
-        "en": "\"And there shall be one ruling for you, in which the sojourner and the native-born are equal —",
-        "he": "מִשְׁפַּט אֶחָד יִהְיֶה לָכֶם כַּגֵּר כָּאֶזְרָח יִהְיֶה"
+        "ja": "וליכון",
+        "en": "And there shall be"
       },
       {
-        "ja": "לאני אללה רבכם אלואחד",
-        "en": "for I am God, your Lord, the One.\"",
-        "he": "כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "לכם חכם ואחד",
+        "en": "one ruling for you",
+        "he": "מִשְׁפַּט אֶחָד"
+      },
+      {
+        "ja": "יסאוי",
+        "en": "are equal",
+        "he": "יִהְיֶה לָכֶם"
+      },
+      {
+        "ja": "פיה",
+        "en": "in which"
+      },
+      {
+        "ja": "אלדכ'יל",
+        "en": "the sojourner",
+        "he": "כַּגֵּר"
+      },
+      {
+        "ja": "ואלצריח",
+        "en": "and the native-born",
+        "he": "כָּאֶזְרָח"
+      },
+      {
+        "ja": "לאני",
+        "en": "for I am",
+        "he": "כִּי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "אֲנִי יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אלואחד",
+        "en": "the One"
       }
     ],
     "23": [
       {
-        "ja": "פכלם מוסי' בד'אלך בני אסראיל. ואכ'רגו אלשאתם אלי' כ'ארג אלעסכר. ורגמוה באלחגארה חתי' מאת",
-        "en": "And Moses spoke thereby to the sons of Israel; and they brought out the reviler to outside the camp, and stoned him with stones until he died.",
-        "he": "וַיְדַבֵּר מֹשֶׁה אֶל-בְּנֵי יִשְׂרָאֵל וַיּוֹצִיאוּ אֶת-הַמְקַלֵּל אֶל-מִחוּץ לַמַּחֲנֶה וַיִּרְגְּמוּ אֹתוֹ אָבֶן"
+        "ja": "פכלם מוסי'",
+        "en": "And Moses spoke",
+        "he": "וַיְדַבֵּר מֹשֶׁה"
       },
       {
-        "ja": "וצנעו בני אסראיל פי סאיר מא נזל עליהם כמא אמר אללה מוסי'",
-        "en": "And the sons of Israel acted in all the rest of what had come down to them, as God had commanded Moses.",
-        "he": "וּבְנֵי-יִשְׂרָאֵל עָשׂוּ כַּאֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה"
+        "ja": "בד'אלך",
+        "en": "thereby"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "to the sons of Israel",
+        "he": "אֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ואכ'רגו",
+        "en": "and they brought out",
+        "he": "וַיּוֹצִיאוּ"
+      },
+      {
+        "ja": "אלשאתם",
+        "en": "the reviler",
+        "he": "אֶת-הַמְקַלֵּל"
+      },
+      {
+        "ja": "אלי' כ'ארג",
+        "en": "to outside",
+        "he": "אֶל-מִחוּץ"
+      },
+      {
+        "ja": "אלעסכר",
+        "en": "the camp",
+        "he": "לַמַּחֲנֶה"
+      },
+      {
+        "ja": "ורגמוה",
+        "en": "and stoned him",
+        "he": "וַיִּרְגְּמוּ"
+      },
+      {
+        "ja": "באלחגארה",
+        "en": "with stones"
+      },
+      {
+        "ja": "חתי'",
+        "en": "until"
+      },
+      {
+        "ja": "מאת",
+        "en": "he died"
+      },
+      {
+        "ja": "וצנעו בני אסראיל",
+        "en": "And the sons of Israel acted",
+        "he": "וּבְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פי סאיר מא נזל עליהם",
+        "en": "in all the rest of what had come down to them",
+        "he": "עָשׂוּ"
+      },
+      {
+        "ja": "כמא",
+        "en": "as",
+        "he": "כַּאֲשֶׁר"
+      },
+      {
+        "ja": "אמר",
+        "en": "had commanded",
+        "he": "צִוָּה"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses.",
+        "he": "אֶת-מֹשֶׁה"
       }
     ]
   }

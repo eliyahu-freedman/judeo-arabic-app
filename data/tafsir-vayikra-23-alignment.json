@@ -1,479 +1,2551 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 23. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_23.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Vayikra 23. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/vayikra_23.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly.",
+        "he": "לֵּאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "מר בני אסראיל וקל להם",
-        "en": "Command the sons of Israel and say to them:",
-        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "אעיאד אללה. אלתי יגב אן תסמוהא באסמא כ'אצה",
-        "en": "the festivals of God, which you are obligated to designate by special names",
-        "he": "מוֹעֲדֵי יְהוָה אֲשֶׁר-תִּקְרְאוּ אֹתָם מִקְרָאֵי קֹדֶשׁ"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶל-בְּנֵי"
       },
       {
-        "ja": "הד'ה הי אעיאדי",
-        "en": "these are My festivals.",
-        "he": "אֵלֶּה הֵם מוֹעֲדָי"
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "להם",
+        "en": "to them",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "אעיאד",
+        "en": "the festivals of",
+        "he": "מוֹעֲדֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אלתי",
+        "en": "which"
+      },
+      {
+        "ja": "יגב",
+        "en": "you are obligated"
+      },
+      {
+        "ja": "אן",
+        "en": "to"
+      },
+      {
+        "ja": "תסמוהא",
+        "en": "designate",
+        "he": "אֲשֶׁר-תִּקְרְאוּ אֹתָם"
+      },
+      {
+        "ja": "באסמא",
+        "en": "by"
+      },
+      {
+        "ja": "כ'אצה",
+        "en": "special names",
+        "he": "מִקְרָאֵי קֹדֶשׁ"
+      },
+      {
+        "ja": "הד'ה",
+        "en": "these",
+        "he": "אֵלֶּה"
+      },
+      {
+        "ja": "הי",
+        "en": "are",
+        "he": "הֵם"
+      },
+      {
+        "ja": "אעיאדי",
+        "en": "My festivals.",
+        "he": "מוֹעֲדָי"
       }
     ],
     "3": [
       {
-        "ja": "סתה' אייאם תצנע אלצנאיע. ופי אליום אלסאבע עטלה הי סבת אסם מקדס",
-        "en": "Six days shall labors be performed, and on the seventh day is a desisting — it is a Sabbath, a consecrated name;",
-        "he": "שֵׁשֶׁת יָמִים תֵּעָשֶׂה מְלָאכָה וּבַיּוֹם הַשְּׁבִיעִי שַׁבַּת שַׁבָּתוֹן מִקְרָא-קֹדֶשׁ"
+        "ja": "סתה'",
+        "en": "Six",
+        "he": "שֵׁשֶׁת"
       },
       {
-        "ja": "כל צנאעה לא תעמלו. כד'אך הי סבת ללה. פי גמיע מסאכנכם",
-        "en": "no labor shall you perform. Such is the Sabbath of God, in all your dwellings.",
-        "he": "כָּל-מְלָאכָה לֹא תַעֲשׂוּ שַׁבָּת הִוא לַיהוָה בְּכֹל מוֹשְׁבֹתֵיכֶם"
+        "ja": "אייאם",
+        "en": "days",
+        "he": "יָמִים"
+      },
+      {
+        "ja": "תצנע",
+        "en": "shall labors",
+        "he": "תֵּעָשֶׂה"
+      },
+      {
+        "ja": "אלצנאיע",
+        "en": "be performed",
+        "he": "מְלָאכָה"
+      },
+      {
+        "ja": "ופי",
+        "en": "and on"
+      },
+      {
+        "ja": "אליום",
+        "en": "the seventh",
+        "he": "וּבַיּוֹם"
+      },
+      {
+        "ja": "אלסאבע",
+        "en": "day is",
+        "he": "הַשְּׁבִיעִי"
+      },
+      {
+        "ja": "עטלה",
+        "en": "a desisting",
+        "he": "שַׁבַּת שַׁבָּתוֹן"
+      },
+      {
+        "ja": "הי",
+        "en": "it is",
+        "he": "הִוא"
+      },
+      {
+        "ja": "סבת",
+        "en": "a Sabbath",
+        "he": "מִקְרָא-קֹדֶשׁ"
+      },
+      {
+        "ja": "אסם",
+        "en": "a consecrated"
+      },
+      {
+        "ja": "מקדס",
+        "en": "name"
+      },
+      {
+        "ja": "כל צנאעה",
+        "en": "no labor",
+        "he": "כָּל-מְלָאכָה"
+      },
+      {
+        "ja": "לא תעמלו",
+        "en": "shall you perform",
+        "he": "לֹא תַעֲשׂוּ"
+      },
+      {
+        "ja": "כד'אך",
+        "en": "Such"
+      },
+      {
+        "ja": "הי סבת",
+        "en": "is the Sabbath of",
+        "he": "שַׁבָּת"
+      },
+      {
+        "ja": "ללה",
+        "en": "God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "פי",
+        "en": "in"
+      },
+      {
+        "ja": "גמיע",
+        "en": "all",
+        "he": "בְּכֹל"
+      },
+      {
+        "ja": "מסאכנכם",
+        "en": "your dwellings.",
+        "he": "מוֹשְׁבֹתֵיכֶם"
       }
     ],
     "4": [
       {
-        "ja": "הד'ה אעיאד אללה. אלתי אסמאהא כ'אצה",
-        "en": "These are the festivals of God, which are designated by special names,",
-        "he": "אֵלֶּה מוֹעֲדֵי יְהוָה מִקְרָאֵי קֹדֶשׁ"
+        "ja": "הד'ה",
+        "en": "These",
+        "he": "אֵלֶּה"
       },
       {
-        "ja": "אלתי יגב אן תסמוהא פי אוקאתהא",
-        "en": "which you are obligated to designate in their appointed times.",
-        "he": "אֲשֶׁר-תִּקְרְאוּ אֹתָם בְּמוֹעֲדָם"
+        "ja": "אעיאד",
+        "en": "are the festivals of",
+        "he": "מוֹעֲדֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אלתי",
+        "en": "which"
+      },
+      {
+        "ja": "אסמאהא",
+        "en": "are designated by"
+      },
+      {
+        "ja": "כ'אצה",
+        "en": "special names",
+        "he": "מִקְרָאֵי קֹדֶשׁ"
+      },
+      {
+        "ja": "אלתי",
+        "en": "which"
+      },
+      {
+        "ja": "יגב",
+        "en": "you are obligated"
+      },
+      {
+        "ja": "אן",
+        "en": "to"
+      },
+      {
+        "ja": "תסמוהא",
+        "en": "designate",
+        "he": "אֲשֶׁר-תִּקְרְאוּ אֹתָם"
+      },
+      {
+        "ja": "פי",
+        "en": "in"
+      },
+      {
+        "ja": "אוקאתהא",
+        "en": "their appointed times.",
+        "he": "בְּמוֹעֲדָם"
       }
     ],
     "5": [
       {
-        "ja": "פי אלשהר אלאוול. פי אליום אלראבע עשר מנה בין אלג'רובין. פסחא ללה",
-        "en": "In the first month, on the fourteenth day of it, between the two sunsets — a Passover offering to God.",
-        "he": "בַּחֹדֶשׁ הָרִאשׁוֹן בְּאַרְבָּעָה עָשָׂר לַחֹדֶשׁ--בֵּין הָעַרְבָּיִם פֶּסַח לַיהוָה"
+        "ja": "פי",
+        "en": "In"
+      },
+      {
+        "ja": "אלשהר",
+        "en": "the first month",
+        "he": "בַּחֹדֶשׁ"
+      },
+      {
+        "ja": "אלאוול",
+        "en": "on",
+        "he": "הָרִאשׁוֹן"
+      },
+      {
+        "ja": "פי",
+        "en": "the fourteenth"
+      },
+      {
+        "ja": "אליום",
+        "en": "day"
+      },
+      {
+        "ja": "אלראבע עשר",
+        "en": "of it",
+        "he": "בְּאַרְבָּעָה עָשָׂר"
+      },
+      {
+        "ja": "מנה",
+        "en": "between"
+      },
+      {
+        "ja": "בין אלג'רובין",
+        "en": "the two sunsets",
+        "he": "בֵּין הָעַרְבָּיִם"
+      },
+      {
+        "ja": "פסחא",
+        "en": "a Passover offering",
+        "he": "פֶּסַח"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God.",
+        "he": "לַיהוָה"
       }
     ],
     "6": [
       {
-        "ja": "ופי אליום אלכ'אמס עשר מן הד'א אלשהר. חג אלפטיר ללה",
-        "en": "And on the fifteenth day of this month is the festival of unleavened bread to God;",
-        "he": "וּבַחֲמִשָּׁה עָשָׂר יוֹם לַחֹדֶשׁ הַזֶּה חַג הַמַּצּוֹת לַיהוָה"
+        "ja": "ופי",
+        "en": "And on"
       },
       {
-        "ja": "סבעה' אייאם תאכלו פטירא",
-        "en": "seven days you shall eat unleavened bread.",
-        "he": "שִׁבְעַת יָמִים מַצּוֹת תֹּאכֵלוּ"
+        "ja": "אליום",
+        "en": "the fifteenth"
+      },
+      {
+        "ja": "אלכ'אמס עשר",
+        "en": "day",
+        "he": "וּבַחֲמִשָּׁה עָשָׂר"
+      },
+      {
+        "ja": "מן",
+        "en": "of this"
+      },
+      {
+        "ja": "הד'א",
+        "en": "month",
+        "he": "הַזֶּה"
+      },
+      {
+        "ja": "אלשהר",
+        "en": "is",
+        "he": "לַחֹדֶשׁ"
+      },
+      {
+        "ja": "חג",
+        "en": "the festival of",
+        "he": "חַג"
+      },
+      {
+        "ja": "אלפטיר",
+        "en": "unleavened bread",
+        "he": "הַמַּצּוֹת"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "סבעה'",
+        "en": "seven",
+        "he": "שִׁבְעַת"
+      },
+      {
+        "ja": "אייאם",
+        "en": "days",
+        "he": "יָמִים"
+      },
+      {
+        "ja": "תאכלו",
+        "en": "you shall eat",
+        "he": "תֹּאכֵלוּ"
+      },
+      {
+        "ja": "פטירא",
+        "en": "unleavened bread.",
+        "he": "מַצּוֹת"
       }
     ],
     "7": [
       {
-        "ja": "פי אליום אלאוול מנה. אסם מקדס יכון לכם",
-        "en": "On the first day of it, a consecrated name shall be for you;",
-        "he": "בַּיּוֹם הָרִאשׁוֹן מִקְרָא-קֹדֶשׁ יִהְיֶה לָכֶם"
+        "ja": "פי",
+        "en": "On"
       },
       {
-        "ja": "כל צנעה' מכסב לא תעמלו",
-        "en": "no labor for profit shall you perform.",
-        "he": "כָּל-מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ"
+        "ja": "אליום",
+        "en": "the first",
+        "he": "בַּיּוֹם"
+      },
+      {
+        "ja": "אלאוול",
+        "en": "day of it",
+        "he": "הָרִאשׁוֹן"
+      },
+      {
+        "ja": "מנה",
+        "en": "a consecrated"
+      },
+      {
+        "ja": "אסם",
+        "en": "name"
+      },
+      {
+        "ja": "מקדס",
+        "en": "shall",
+        "he": "מִקְרָא-קֹדֶשׁ"
+      },
+      {
+        "ja": "יכון",
+        "en": "be",
+        "he": "יִהְיֶה"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "כל צנעה'",
+        "en": "no labor",
+        "he": "כָּל-מְלֶאכֶת"
+      },
+      {
+        "ja": "מכסב",
+        "en": "for profit",
+        "he": "עֲבֹדָה"
+      },
+      {
+        "ja": "לא תעמלו",
+        "en": "shall you perform.",
+        "he": "לֹא תַעֲשׂוּ"
       }
     ],
     "8": [
       {
-        "ja": "וקרבו קרבאנא ללה. פי הד'ה אלסבעה' אלאייאם",
-        "en": "And offer an offering to God during these seven days;",
-        "he": "וְהִקְרַבְתֶּם אִשֶּׁה לַיהוָה שִׁבְעַת יָמִים"
+        "ja": "וקרבו",
+        "en": "And offer",
+        "he": "וְהִקְרַבְתֶּם"
       },
       {
-        "ja": "ופי אליום אלסאבע אסם מקדס. כל צנאעה' מכסב לא תעמלו",
-        "en": "and on the seventh day, a consecrated name — no labor for profit shall you perform.",
-        "he": "בַּיּוֹם הַשְּׁבִיעִי מִקְרָא-קֹדֶשׁ כָּל-מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ"
+        "ja": "קרבאנא",
+        "en": "an offering",
+        "he": "אִשֶּׁה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "פי",
+        "en": "during"
+      },
+      {
+        "ja": "הד'ה אלסבעה' אלאייאם",
+        "en": "these seven days",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "ופי",
+        "en": "and on"
+      },
+      {
+        "ja": "אליום אלסאבע",
+        "en": "the seventh day",
+        "he": "בַּיּוֹם הַשְּׁבִיעִי"
+      },
+      {
+        "ja": "אסם",
+        "en": "a consecrated"
+      },
+      {
+        "ja": "מקדס",
+        "en": "name",
+        "he": "מִקְרָא-קֹדֶשׁ"
+      },
+      {
+        "ja": "כל צנאעה' מכסב",
+        "en": "no labor for profit",
+        "he": "כָּל-מְלֶאכֶת עֲבֹדָה"
+      },
+      {
+        "ja": "לא תעמלו",
+        "en": "shall you perform.",
+        "he": "לֹא תַעֲשׂוּ"
       }
     ],
     "9": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly.",
+        "he": "לֵּאמֹר"
       }
     ],
     "10": [
       {
-        "ja": "מר בני אסראיל וקל להם. אד' תדכ'לון אלי' אלבלד. אלדי אנא מעטיכם",
-        "en": "Command the sons of Israel and say to them: when you enter the land which I am giving you,",
-        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם כִּי-תָבֹאוּ אֶל-הָאָרֶץ אֲשֶׁר אֲנִי נֹתֵן לָכֶם"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "פאחצדו מן זרעהא. ואיתו בג'מר. אוול חצאדכם אלי' אלאמאם",
-        "en": "and you reap its harvest, bring a sheaf of the first of your harvest to the priest.",
-        "he": "וּקְצַרְתֶּם אֶת-קְצִירָהּ--וַהֲבֵאתֶם אֶת-עֹמֶר רֵאשִׁית קְצִירְכֶם אֶל-הַכֹּהֵן"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶל-בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "להם",
+        "en": "to them",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "אד'",
+        "en": "when"
+      },
+      {
+        "ja": "תדכ'לון",
+        "en": "you enter",
+        "he": "כִּי-תָבֹאוּ"
+      },
+      {
+        "ja": "אלי' אלבלד",
+        "en": "the land",
+        "he": "אֶל-הָאָרֶץ"
+      },
+      {
+        "ja": "אלדי",
+        "en": "which"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲשֶׁר אֲנִי"
+      },
+      {
+        "ja": "מעטיכם",
+        "en": "giving",
+        "he": "נֹתֵן"
+      },
+      {
+        "ja": "פאחצדו",
+        "en": "you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "מן זרעהא",
+        "en": "and you reap its harvest",
+        "he": "וּקְצַרְתֶּם"
+      },
+      {
+        "ja": "ואיתו",
+        "en": "bring",
+        "he": "אֶת-קְצִירָהּ"
+      },
+      {
+        "ja": "בג'מר",
+        "en": "a sheaf of",
+        "he": "וַהֲבֵאתֶם"
+      },
+      {
+        "ja": "אוול",
+        "en": "the first",
+        "he": "אֶת-עֹמֶר"
+      },
+      {
+        "ja": "חצאדכם",
+        "en": "of your harvest",
+        "he": "רֵאשִׁית קְצִירְכֶם"
+      },
+      {
+        "ja": "אלי' אלאמאם",
+        "en": "to the priest.",
+        "he": "אֶל-הַכֹּהֵן"
       }
     ],
     "11": [
       {
-        "ja": "פיחרכה בין ידי אללה. עלי' מא ירתצ'א מנכם",
-        "en": "And he shall wave it before God, so that it be accepted from you;",
-        "he": "וְהֵנִיף אֶת-הָעֹמֶר לִפְנֵי יְהוָה לִרְצֹנְכֶם"
+        "ja": "פיחרכה",
+        "en": "And he shall wave it",
+        "he": "וְהֵנִיף"
       },
       {
-        "ja": "וליכון תחריכה לה. מן ג'ד אלעטלה",
-        "en": "and its waving shall be on the morrow after the rest-day.",
+        "ja": "בין ידי אללה",
+        "en": "before God",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "עלי'",
+        "en": "so that"
+      },
+      {
+        "ja": "מא ירתצ'א מנכם",
+        "en": "it be accepted from you",
+        "he": "לִרְצֹנְכֶם"
+      },
+      {
+        "ja": "וליכון",
+        "en": "and its waving"
+      },
+      {
+        "ja": "תחריכה לה. מן ג'ד אלעטלה",
+        "en": "shall be on the morrow after the rest-day.",
         "he": "מִמָּחֳרַת הַשַּׁבָּת יְנִיפֶנּוּ הַכֹּהֵן"
       }
     ],
     "12": [
       {
-        "ja": "וקרבו פי יום תחריככם לה. חמלא צחיחא אבן סנתה. צעידה ללה",
-        "en": "And offer, on the day of your waving of it, an unblemished lamb, a year old, as an ascent-offering to God.",
-        "he": "וַעֲשִׂיתֶם בְּיוֹם הֲנִיפְכֶם אֶת-הָעֹמֶר כֶּבֶשׂ תָּמִים בֶּן-שְׁנָתוֹ לְעֹלָה לַיהוָה"
+        "ja": "וקרבו",
+        "en": "And offer",
+        "he": "וַעֲשִׂיתֶם"
+      },
+      {
+        "ja": "פי",
+        "en": "on"
+      },
+      {
+        "ja": "יום תחריככם לה",
+        "en": "the day of your waving of it",
+        "he": "בְּיוֹם הֲנִיפְכֶם"
+      },
+      {
+        "ja": "חמלא",
+        "en": "an",
+        "he": "כֶּבֶשׂ"
+      },
+      {
+        "ja": "צחיחא",
+        "en": "unblemished lamb",
+        "he": "תָּמִים"
+      },
+      {
+        "ja": "אבן סנתה",
+        "en": "a year old",
+        "he": "בֶּן-שְׁנָתוֹ"
+      },
+      {
+        "ja": "צעידה",
+        "en": "as an ascent-offering",
+        "he": "לְעֹלָה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God.",
+        "he": "לַיהוָה"
       }
     ],
     "13": [
       {
-        "ja": "ומעה מן אלבר. עשרין סמד מלתות בדהן. קרבאנא מקבולא מרצ'ייא ללה",
-        "en": "And with it, from wheat, two-tenths of fine flour mixed with oil — an offering acceptable and pleasing to God;",
-        "he": "וּמִנְחָתוֹ שְׁנֵי עֶשְׂרֹנִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן אִשֶּׁה לַיהוָה--רֵיחַ נִיחֹחַ"
+        "ja": "ומעה",
+        "en": "And with it",
+        "he": "וּמִנְחָתוֹ"
       },
       {
-        "ja": "ומזאגה מן אלכ'מר רבע קסט",
-        "en": "and its libation of wine, a quarter of a qist.",
-        "he": "וְנִסְכֹּה יַיִן רְבִיעִת הַהִין"
+        "ja": "מן",
+        "en": "from"
+      },
+      {
+        "ja": "אלבר",
+        "en": "wheat"
+      },
+      {
+        "ja": "עשרין",
+        "en": "two-tenths",
+        "he": "שְׁנֵי עֶשְׂרֹנִים"
+      },
+      {
+        "ja": "סמד",
+        "en": "of fine flour",
+        "he": "סֹלֶת"
+      },
+      {
+        "ja": "מלתות",
+        "en": "mixed",
+        "he": "בְּלוּלָה"
+      },
+      {
+        "ja": "בדהן",
+        "en": "with oil",
+        "he": "בַשֶּׁמֶן"
+      },
+      {
+        "ja": "קרבאנא",
+        "en": "an offering",
+        "he": "אִשֶּׁה"
+      },
+      {
+        "ja": "מקבולא מרצ'ייא",
+        "en": "acceptable and pleasing",
+        "he": "רֵיחַ נִיחֹחַ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "ומזאגה",
+        "en": "and its libation",
+        "he": "וְנִסְכֹּה"
+      },
+      {
+        "ja": "מן",
+        "en": "of"
+      },
+      {
+        "ja": "אלכ'מר",
+        "en": "wine",
+        "he": "יַיִן"
+      },
+      {
+        "ja": "רבע קסט",
+        "en": "a quarter of a qist.",
+        "he": "רְבִיעִת הַהִין"
       }
     ],
     "14": [
       {
-        "ja": "וכבזא וסויקא ופריכא לא תאכלו. אלי' ד'את הד'א אליום. אלי' אן תאתו בקרבאן רבכם",
-        "en": "And bread, and parched grain, and roasted grain, you shall not eat until this very day — until you bring the offering of your Lord.",
-        "he": "וְלֶחֶם וְקָלִי וְכַרְמֶל לֹא תֹאכְלוּ עַד-עֶצֶם הַיּוֹם הַזֶּה--עַד הֲבִיאֲכֶם אֶת-קָרְבַּן אֱלֹהֵיכֶם"
+        "ja": "וכבזא",
+        "en": "And bread",
+        "he": "וְלֶחֶם"
       },
       {
-        "ja": "רסם אלדהר עלי' מר אגיאלכם. פי גמיע מסאכנכם",
-        "en": "A decree forever, throughout the passing of your generations, in all your dwellings.",
-        "he": "חֻקַּת עוֹלָם לְדֹרֹתֵיכֶם בְּכֹל מֹשְׁבֹתֵיכֶם"
+        "ja": "וסויקא",
+        "en": "and parched grain",
+        "he": "וְקָלִי"
+      },
+      {
+        "ja": "ופריכא",
+        "en": "and roasted grain",
+        "he": "וְכַרְמֶל"
+      },
+      {
+        "ja": "לא תאכלו",
+        "en": "you shall not eat",
+        "he": "לֹא תֹאכְלוּ"
+      },
+      {
+        "ja": "אלי'",
+        "en": "until"
+      },
+      {
+        "ja": "ד'את",
+        "en": "this",
+        "he": "עַד-עֶצֶם"
+      },
+      {
+        "ja": "הד'א אליום",
+        "en": "very day",
+        "he": "הַיּוֹם הַזֶּה"
+      },
+      {
+        "ja": "אלי'",
+        "en": "until"
+      },
+      {
+        "ja": "אן",
+        "en": "you"
+      },
+      {
+        "ja": "תאתו",
+        "en": "bring",
+        "he": "עַד הֲבִיאֲכֶם"
+      },
+      {
+        "ja": "בקרבאן",
+        "en": "the offering of",
+        "he": "אֶת-קָרְבַּן"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "רסם",
+        "en": "A decree",
+        "he": "חֻקַּת"
+      },
+      {
+        "ja": "אלדהר",
+        "en": "forever",
+        "he": "עוֹלָם"
+      },
+      {
+        "ja": "עלי'",
+        "en": "throughout"
+      },
+      {
+        "ja": "מר",
+        "en": "the passing of"
+      },
+      {
+        "ja": "אגיאלכם",
+        "en": "your generations",
+        "he": "לְדֹרֹתֵיכֶם"
+      },
+      {
+        "ja": "פי",
+        "en": "in"
+      },
+      {
+        "ja": "גמיע מסאכנכם",
+        "en": "all your dwellings.",
+        "he": "בְּכֹל מֹשְׁבֹתֵיכֶם"
       }
     ],
     "15": [
       {
-        "ja": "ואחצו לכם מן ג'ד אלעטלה. מן יום גיתם בג'מר אלתחריך",
-        "en": "And count for yourselves, from the morrow after the rest-day, from the day you brought the sheaf of the waving —",
-        "he": "וּסְפַרְתֶּם לָכֶם מִמָּחֳרַת הַשַּׁבָּת מִיּוֹם הֲבִיאֲכֶם אֶת-עֹמֶר הַתְּנוּפָה"
+        "ja": "ואחצו",
+        "en": "And count",
+        "he": "וּסְפַרְתֶּם"
       },
       {
-        "ja": "סבעה' אסאביע תאמה תכון",
-        "en": "seven complete weeks shall there be.",
-        "he": "שֶׁבַע שַׁבָּתוֹת תְּמִימֹת תִּהְיֶינָה"
+        "ja": "לכם",
+        "en": "for yourselves",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "מן",
+        "en": "from"
+      },
+      {
+        "ja": "ג'ד אלעטלה",
+        "en": "the morrow after the rest-day",
+        "he": "מִמָּחֳרַת הַשַּׁבָּת"
+      },
+      {
+        "ja": "מן",
+        "en": "from"
+      },
+      {
+        "ja": "יום גיתם",
+        "en": "the day you brought",
+        "he": "מִיּוֹם הֲבִיאֲכֶם"
+      },
+      {
+        "ja": "בג'מר אלתחריך",
+        "en": "the sheaf of the waving",
+        "he": "אֶת-עֹמֶר הַתְּנוּפָה"
+      },
+      {
+        "ja": "סבעה' אסאביע",
+        "en": "seven",
+        "he": "שֶׁבַע שַׁבָּתוֹת"
+      },
+      {
+        "ja": "תאמה",
+        "en": "complete weeks",
+        "he": "תְּמִימֹת"
+      },
+      {
+        "ja": "תכון",
+        "en": "shall there be.",
+        "he": "תִּהְיֶינָה"
       }
     ],
     "16": [
       {
-        "ja": "ואלי' ג'ד אלאסבוע אלסאבע. פיכון גמלה' מא תחצונה כ'מסין יומא",
-        "en": "Until the morrow of the seventh week; and the total of what you count shall be fifty days.",
-        "he": "עַד מִמָּחֳרַת הַשַּׁבָּת הַשְּׁבִיעִת תִּסְפְּרוּ חֲמִשִּׁים יוֹם"
+        "ja": "ואלי'",
+        "en": "Until"
       },
       {
-        "ja": "וקרבו. קרבאנא גדידא ללה",
-        "en": "And offer a new offering to God.",
-        "he": "וְהִקְרַבְתֶּם מִנְחָה חֲדָשָׁה לַיהוָה"
+        "ja": "ג'ד",
+        "en": "the morrow of",
+        "he": "עַד מִמָּחֳרַת"
+      },
+      {
+        "ja": "אלסאבע",
+        "en": "the seventh week",
+        "he": "הַשַּׁבָּת הַשְּׁבִיעִת"
+      },
+      {
+        "ja": "פיכון",
+        "en": "and the total of"
+      },
+      {
+        "ja": "גמלה' מא תחצונה",
+        "en": "what you count",
+        "he": "תִּסְפְּרוּ"
+      },
+      {
+        "ja": "כ'מסין יומא",
+        "en": "shall be fifty days",
+        "he": "חֲמִשִּׁים יוֹם"
+      },
+      {
+        "ja": "וקרבו",
+        "en": "And offer",
+        "he": "וְהִקְרַבְתֶּם"
+      },
+      {
+        "ja": "קרבאנא גדידא",
+        "en": "a new offering",
+        "he": "מִנְחָה חֲדָשָׁה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God.",
+        "he": "לַיהוָה"
       }
     ],
     "17": [
       {
-        "ja": "אן תאתו מן מסאכנכם בכ'בז לאלתחריך. רג'יפין מן עשרין. סמדא יכונאן. וכ'מירא יכ'בזאן",
-        "en": "That you bring from your dwellings bread for waving — two loaves, of two-tenths of fine flour shall they be; leavened shall they be baked.",
-        "he": "מִמּוֹשְׁבֹתֵיכֶם תָּבִיאּוּ לֶחֶם תְּנוּפָה שְׁתַּיִם שְׁנֵי עֶשְׂרֹנִים--סֹלֶת תִּהְיֶינָה חָמֵץ תֵּאָפֶינָה"
+        "ja": "אן",
+        "en": "That"
       },
       {
-        "ja": "המא בכור ללה",
-        "en": "They are first-fruits to God.",
-        "he": "בִּכּוּרִים לַיהוָה"
+        "ja": "תאתו מן מסאכנכם",
+        "en": "you bring from your dwellings",
+        "he": "מִמּוֹשְׁבֹתֵיכֶם"
+      },
+      {
+        "ja": "בכ'בז לאלתחריך",
+        "en": "bread for waving",
+        "he": "לֶחֶם תְּנוּפָה"
+      },
+      {
+        "ja": "רג'יפין",
+        "en": "two loaves",
+        "he": "שְׁתַּיִם"
+      },
+      {
+        "ja": "מן",
+        "en": "of"
+      },
+      {
+        "ja": "עשרין",
+        "en": "two-tenths",
+        "he": "שְׁנֵי עֶשְׂרֹנִים"
+      },
+      {
+        "ja": "סמדא",
+        "en": "of fine flour",
+        "he": "סֹלֶת"
+      },
+      {
+        "ja": "יכונאן",
+        "en": "shall they be",
+        "he": "תִּהְיֶינָה"
+      },
+      {
+        "ja": "וכ'מירא",
+        "en": "leavened",
+        "he": "חָמֵץ"
+      },
+      {
+        "ja": "יכ'בזאן",
+        "en": "shall they be baked",
+        "he": "תֵּאָפֶינָה"
+      },
+      {
+        "ja": "המא בכור",
+        "en": "They are first-fruits",
+        "he": "בִּכּוּרִים"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God.",
+        "he": "לַיהוָה"
       }
     ],
     "18": [
       {
-        "ja": "וקרבו מע אלרג'יפין. סבעה חמלאן צחאחא בני סנה. ות'ורא מן אלבקר וכבשין יכונאן צעידה ללה",
-        "en": "And offer with the two loaves seven unblemished lambs, yearlings, and a bull from the cattle, and two rams — they shall be an ascent-offering to God;",
-        "he": "וְהִקְרַבְתֶּם עַל-הַלֶּחֶם שִׁבְעַת כְּבָשִׂים תְּמִימִם בְּנֵי שָׁנָה וּפַר בֶּן-בָּקָר אֶחָד וְאֵילִם שְׁנָיִם יִהְיוּ עֹלָה לַיהוָה"
+        "ja": "וקרבו",
+        "en": "And offer",
+        "he": "וְהִקְרַבְתֶּם"
       },
       {
-        "ja": "וברהמא ומזאגהמא. קרבאן מקבול מרצ'י ללה",
-        "en": "and their grain-offering and their libations — an offering acceptable and pleasing to God.",
-        "he": "וּמִנְחָתָם וְנִסְכֵּיהֶם אִשֵּׁה רֵיחַ-נִיחֹחַ לַיהוָה"
+        "ja": "מע אלרג'יפין",
+        "en": "with the two loaves",
+        "he": "עַל-הַלֶּחֶם"
+      },
+      {
+        "ja": "סבעה חמלאן",
+        "en": "seven",
+        "he": "שִׁבְעַת כְּבָשִׂים"
+      },
+      {
+        "ja": "צחאחא",
+        "en": "unblemished lambs",
+        "he": "תְּמִימִם"
+      },
+      {
+        "ja": "בני סנה",
+        "en": "yearlings",
+        "he": "בְּנֵי שָׁנָה"
+      },
+      {
+        "ja": "ות'ורא",
+        "en": "and a bull",
+        "he": "וּפַר"
+      },
+      {
+        "ja": "מן",
+        "en": "from"
+      },
+      {
+        "ja": "אלבקר",
+        "en": "the cattle",
+        "he": "בֶּן-בָּקָר"
+      },
+      {
+        "ja": "וכבשין",
+        "en": "and two rams",
+        "he": "וְאֵילִם שְׁנָיִם"
+      },
+      {
+        "ja": "יכונאן",
+        "en": "they shall be",
+        "he": "יִהְיוּ"
+      },
+      {
+        "ja": "צעידה",
+        "en": "an ascent-offering",
+        "he": "עֹלָה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "וברהמא",
+        "en": "and their grain-offering",
+        "he": "וּמִנְחָתָם"
+      },
+      {
+        "ja": "ומזאגהמא",
+        "en": "and their libations",
+        "he": "וְנִסְכֵּיהֶם"
+      },
+      {
+        "ja": "קרבאן",
+        "en": "an offering",
+        "he": "אִשֵּׁה"
+      },
+      {
+        "ja": "מקבול מרצ'י",
+        "en": "acceptable and pleasing",
+        "he": "רֵיחַ-נִיחֹחַ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God.",
+        "he": "לַיהוָה"
       }
     ],
     "19": [
       {
-        "ja": "וקרבו איצ'א עתוד מן אלמאעז לאלד'כוה",
-        "en": "And offer also a he-goat from the goats for the purification,",
-        "he": "וַעֲשִׂיתֶם שְׂעִיר-עִזִּים אֶחָד לְחַטָּאת"
+        "ja": "וקרבו",
+        "en": "And offer",
+        "he": "וַעֲשִׂיתֶם"
       },
       {
-        "ja": "וחמלין אבני סנה לד'בח אלסלאמה",
-        "en": "and two yearling lambs for the well-being sacrifice.",
-        "he": "וּשְׁנֵי כְבָשִׂים בְּנֵי שָׁנָה לְזֶבַח שְׁלָמִים"
+        "ja": "איצ'א",
+        "en": "also"
+      },
+      {
+        "ja": "עתוד מן אלמאעז",
+        "en": "a he-goat from the goats",
+        "he": "שְׂעִיר-עִזִּים"
+      },
+      {
+        "ja": "לאלד'כוה",
+        "en": "for the purification",
+        "he": "לְחַטָּאת"
+      },
+      {
+        "ja": "וחמלין",
+        "en": "and two",
+        "he": "וּשְׁנֵי כְבָשִׂים"
+      },
+      {
+        "ja": "אבני סנה",
+        "en": "yearling lambs",
+        "he": "בְּנֵי שָׁנָה"
+      },
+      {
+        "ja": "לד'בח אלסלאמה",
+        "en": "for the well-being sacrifice.",
+        "he": "לְזֶבַח שְׁלָמִים"
       }
     ],
     "20": [
       {
-        "ja": "פיחרך מא יגב מנהא אלאמאם. מע רג'יפי אלבכור תחריכא בין ידי אללה. עלי' אלחמלין",
-        "en": "And the priest shall wave what is required of them, together with the two first-fruit loaves, as a waving before God, over the two lambs;",
-        "he": "וְהֵנִיף הַכֹּהֵן אֹתָם עַל לֶחֶם הַבִּכֻּרִים תְּנוּפָה לִפְנֵי יְהוָה עַל-שְׁנֵי כְּבָשִׂים"
+        "ja": "פיחרך",
+        "en": "And",
+        "he": "וְהֵנִיף"
       },
       {
-        "ja": "ולתכון קדסא ללה. תדפע אלי' אלאמאם",
-        "en": "and they shall be a holy portion to God, given over to the priest.",
-        "he": "קֹדֶשׁ יִהְיוּ לַיהוָה לַכֹּהֵן"
+        "ja": "אלאמאם",
+        "en": "the priest",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "מא יגב",
+        "en": "shall wave what is required"
+      },
+      {
+        "ja": "מנהא",
+        "en": "of them"
+      },
+      {
+        "ja": "מע רג'יפי אלבכור",
+        "en": "together with the two first-fruit loaves",
+        "he": "עַל לֶחֶם הַבִּכֻּרִים"
+      },
+      {
+        "ja": "תחריכא",
+        "en": "as a waving",
+        "he": "תְּנוּפָה"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "עלי' אלחמלין",
+        "en": "over the two lambs",
+        "he": "עַל-שְׁנֵי כְּבָשִׂים"
+      },
+      {
+        "ja": "ולתכון קדסא",
+        "en": "and they shall be a holy portion",
+        "he": "קֹדֶשׁ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "תדפע אלי' אלאמאם",
+        "en": "given over to the priest.",
+        "he": "לַכֹּהֵן"
       }
     ],
     "21": [
       {
-        "ja": "ואסמו ד'את ד'אלך אליום. אסמא מקדסא יכון לכם. כל צנעה' מכסב לא תצנעו",
-        "en": "And designate that very day by a consecrated name — it shall be for you; no labor for profit shall you perform.",
-        "he": "וּקְרָאתֶם בְּעֶצֶם הַיּוֹם הַזֶּה מִקְרָא-קֹדֶשׁ יִהְיֶה לָכֶם--כָּל-מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ"
+        "ja": "ואסמו",
+        "en": "And designate",
+        "he": "וּקְרָאתֶם"
       },
       {
-        "ja": "רסם אלדהר פי גמיע מסאכנכם. עלי' מר אגיאלכם",
-        "en": "A decree forever, in all your dwellings, throughout your generations.",
-        "he": "חֻקַּת עוֹלָם בְּכָל-מוֹשְׁבֹתֵיכֶם לְדֹרֹתֵיכֶם"
+        "ja": "ד'את",
+        "en": "that very",
+        "he": "בְּעֶצֶם"
+      },
+      {
+        "ja": "ד'אלך אליום",
+        "en": "day",
+        "he": "הַיּוֹם הַזֶּה"
+      },
+      {
+        "ja": "אסמא",
+        "en": "by a consecrated"
+      },
+      {
+        "ja": "מקדסא",
+        "en": "name",
+        "he": "מִקְרָא-קֹדֶשׁ"
+      },
+      {
+        "ja": "יכון",
+        "en": "it shall be",
+        "he": "יִהְיֶה"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "כל צנעה'",
+        "en": "no labor",
+        "he": "כָּל-מְלֶאכֶת"
+      },
+      {
+        "ja": "מכסב",
+        "en": "for profit",
+        "he": "עֲבֹדָה"
+      },
+      {
+        "ja": "לא תצנעו",
+        "en": "shall you perform",
+        "he": "לֹא תַעֲשׂוּ"
+      },
+      {
+        "ja": "רסם",
+        "en": "A decree",
+        "he": "חֻקַּת"
+      },
+      {
+        "ja": "אלדהר",
+        "en": "forever",
+        "he": "עוֹלָם"
+      },
+      {
+        "ja": "פי",
+        "en": "in"
+      },
+      {
+        "ja": "גמיע מסאכנכם",
+        "en": "all your dwellings",
+        "he": "בְּכָל-מוֹשְׁבֹתֵיכֶם"
+      },
+      {
+        "ja": "עלי'",
+        "en": "throughout"
+      },
+      {
+        "ja": "מר",
+        "en": "your"
+      },
+      {
+        "ja": "אגיאלכם",
+        "en": "generations.",
+        "he": "לְדֹרֹתֵיכֶם"
       }
     ],
     "22": [
       {
-        "ja": "ואד'א חצדתם זרע ריאצ'כם. פלא תסתקץ טרה' צ'יעתך פי חצאדך",
-        "en": "And when you reap the harvest of your fields, do not cut to the very edge of your estate in your reaping,",
-        "he": "וּבְקֻצְרְכֶם אֶת-קְצִיר אַרְצְכֶם לֹא-תְכַלֶּה פְּאַת שָׂדְךָ בְּקֻצְרֶךָ"
+        "ja": "ואד'א",
+        "en": "And when"
       },
       {
-        "ja": "ונת'יר זרעך פלא תלקטה. בל לאלצ'עיף ואלג'ריב אתרכהמא",
-        "en": "and the scattered grain of your sowing do not glean — rather, for the poor and the stranger, leave them.",
-        "he": "וְלֶקֶט קְצִירְךָ לֹא תְלַקֵּט לֶעָנִי וְלַגֵּר תַּעֲזֹב אֹתָם"
+        "ja": "חצדתם",
+        "en": "you reap",
+        "he": "וּבְקֻצְרְכֶם"
       },
       {
-        "ja": "אנא אללה רבכם אגאזיכם כ'ירא",
-        "en": "I am God your Lord; I shall recompense you with good.",
-        "he": "אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "זרע",
+        "en": "the harvest of",
+        "he": "אֶת-קְצִיר"
+      },
+      {
+        "ja": "ריאצ'כם",
+        "en": "your fields",
+        "he": "אַרְצְכֶם"
+      },
+      {
+        "ja": "פלא תסתקץ",
+        "en": "do not cut",
+        "he": "לֹא-תְכַלֶּה"
+      },
+      {
+        "ja": "טרה'",
+        "en": "to the very edge of"
+      },
+      {
+        "ja": "צ'יעתך",
+        "en": "your estate",
+        "he": "פְּאַת"
+      },
+      {
+        "ja": "פי חצאדך",
+        "en": "in your reaping",
+        "he": "שָׂדְךָ בְּקֻצְרֶךָ"
+      },
+      {
+        "ja": "ונת'יר",
+        "en": "and the scattered grain of",
+        "he": "וְלֶקֶט"
+      },
+      {
+        "ja": "זרעך",
+        "en": "your sowing",
+        "he": "קְצִירְךָ"
+      },
+      {
+        "ja": "פלא תלקטה",
+        "en": "do not glean",
+        "he": "לֹא תְלַקֵּט"
+      },
+      {
+        "ja": "בל",
+        "en": "rather"
+      },
+      {
+        "ja": "לאלצ'עיף",
+        "en": "for the poor",
+        "he": "לֶעָנִי"
+      },
+      {
+        "ja": "ואלג'ריב",
+        "en": "and the stranger",
+        "he": "וְלַגֵּר"
+      },
+      {
+        "ja": "אתרכהמא",
+        "en": "leave them",
+        "he": "תַּעֲזֹב"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אגאזיכם כ'ירא",
+        "en": "I shall recompense you with good."
       }
     ],
     "23": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly.",
+        "he": "לֵּאמֹר"
       }
     ],
     "24": [
       {
-        "ja": "מר בני אסראיל קאילא. פי אליום אלאוול מן אלשהר אלסאבע. יכון לכם עטלה",
-        "en": "Command the sons of Israel, saying: on the first day of the seventh month, there shall be for you a rest-day",
-        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל לֵאמֹר בַּחֹדֶשׁ הַשְּׁבִיעִי בְּאֶחָד לַחֹדֶשׁ יִהְיֶה לָכֶם שַׁבָּתוֹן"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "ותבויק גלבה אסמא מקדסא",
-        "en": "and a sounding of clamor — a consecrated name.",
-        "he": "זִכְרוֹן תְּרוּעָה מִקְרָא-קֹדֶשׁ"
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "אֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "קאילא",
+        "en": "saying",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "פי",
+        "en": "on"
+      },
+      {
+        "ja": "אלאוול מן",
+        "en": "the first day of",
+        "he": "בְּאֶחָד לַחֹדֶשׁ"
+      },
+      {
+        "ja": "אלשהר אלסאבע",
+        "en": "the seventh month",
+        "he": "בַּחֹדֶשׁ הַשְּׁבִיעִי"
+      },
+      {
+        "ja": "יכון",
+        "en": "there shall be",
+        "he": "יִהְיֶה"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "עטלה",
+        "en": "a rest-day",
+        "he": "שַׁבָּתוֹן"
+      },
+      {
+        "ja": "ותבויק גלבה",
+        "en": "and a sounding of clamor",
+        "he": "זִכְרוֹן תְּרוּעָה"
+      },
+      {
+        "ja": "אסמא",
+        "en": "a consecrated"
+      },
+      {
+        "ja": "מקדסא",
+        "en": "name.",
+        "he": "מִקְרָא-קֹדֶשׁ"
       }
     ],
     "25": [
       {
-        "ja": "כל צנאעה' מכסב לא תעמלו",
-        "en": "No labor for profit shall you perform;",
-        "he": "כָּל-מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ"
+        "ja": "כל צנאעה' מכסב",
+        "en": "No labor for profit",
+        "he": "כָּל-מְלֶאכֶת עֲבֹדָה"
       },
       {
-        "ja": "וקרבו קרבאנא זאידא ללה",
-        "en": "and offer an additional offering to God.",
-        "he": "וְהִקְרַבְתֶּם אִשֶּׁה לַיהוָה"
+        "ja": "לא תעמלו",
+        "en": "shall you perform",
+        "he": "לֹא תַעֲשׂוּ"
+      },
+      {
+        "ja": "וקרבו",
+        "en": "and offer",
+        "he": "וְהִקְרַבְתֶּם"
+      },
+      {
+        "ja": "קרבאנא",
+        "en": "an",
+        "he": "אִשֶּׁה"
+      },
+      {
+        "ja": "זאידא",
+        "en": "additional offering"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God.",
+        "he": "לַיהוָה"
       }
     ],
     "26": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly.",
+        "he": "לֵּאמֹר"
       }
     ],
     "27": [
       {
-        "ja": "אמא פי אליום אלעאשר מן הד'א אלשהר אלסאבע והו יום אלג'פראן. אסמא מקדסא יכון לכם",
-        "en": "Now on the tenth day of this seventh month — and it is the Day of Atonement — a consecrated name shall be for you;",
-        "he": "אַךְ בֶּעָשׂוֹר לַחֹדֶשׁ הַשְּׁבִיעִי הַזֶּה יוֹם הַכִּפֻּרִים הוּא מִקְרָא-קֹדֶשׁ יִהְיֶה לָכֶם"
+        "ja": "אמא",
+        "en": "Now"
       },
       {
-        "ja": "ואגיעו אנפסכם. וקרבו קרבאנא זאידא ללה",
-        "en": "and starve yourselves, and offer an additional offering to God.",
-        "he": "וְעִנִּיתֶם אֶת-נַפְשֹׁתֵיכֶם וְהִקְרַבְתֶּם אִשֶּׁה לַיהוָה"
+        "ja": "פי",
+        "en": "on"
+      },
+      {
+        "ja": "אליום אלעאשר",
+        "en": "the tenth day",
+        "he": "אַךְ בֶּעָשׂוֹר"
+      },
+      {
+        "ja": "מן",
+        "en": "of"
+      },
+      {
+        "ja": "הד'א",
+        "en": "this",
+        "he": "לַחֹדֶשׁ"
+      },
+      {
+        "ja": "אלשהר אלסאבע",
+        "en": "seventh month",
+        "he": "הַשְּׁבִיעִי הַזֶּה"
+      },
+      {
+        "ja": "והו",
+        "en": "and it is"
+      },
+      {
+        "ja": "יום אלג'פראן",
+        "en": "the Day of Atonement",
+        "he": "יוֹם הַכִּפֻּרִים"
+      },
+      {
+        "ja": "אסמא",
+        "en": "a consecrated"
+      },
+      {
+        "ja": "מקדסא",
+        "en": "name",
+        "he": "מִקְרָא-קֹדֶשׁ"
+      },
+      {
+        "ja": "יכון",
+        "en": "shall be",
+        "he": "יִהְיֶה"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "ואגיעו",
+        "en": "and starve",
+        "he": "וְעִנִּיתֶם"
+      },
+      {
+        "ja": "אנפסכם",
+        "en": "yourselves",
+        "he": "אֶת-נַפְשֹׁתֵיכֶם"
+      },
+      {
+        "ja": "וקרבו",
+        "en": "and offer",
+        "he": "וְהִקְרַבְתֶּם"
+      },
+      {
+        "ja": "קרבאנא",
+        "en": "an",
+        "he": "אִשֶּׁה"
+      },
+      {
+        "ja": "זאידא",
+        "en": "additional offering"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God.",
+        "he": "לַיהוָה"
       }
     ],
     "28": [
       {
-        "ja": "וכל עמל לא תעמלו. פי ד'את הד'א אליום",
-        "en": "And no work at all shall you perform on this very day,",
-        "he": "וְכָל-מְלָאכָה לֹא תַעֲשׂוּ בְּעֶצֶם הַיּוֹם הַזֶּה"
+        "ja": "וכל עמל",
+        "en": "And no work",
+        "he": "וְכָל-מְלָאכָה"
       },
       {
-        "ja": "לאנה יום ג'פראן לכם. יסתג'פר פיה ענכם. בין ידי אללה רבכם",
-        "en": "for it is a day of atonement for you, on which pardon is sought on your behalf before God your Lord.",
-        "he": "כִּי יוֹם כִּפֻּרִים הוּא לְכַפֵּר עֲלֵיכֶם לִפְנֵי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "לא תעמלו",
+        "en": "at all shall you perform",
+        "he": "לֹא תַעֲשׂוּ"
+      },
+      {
+        "ja": "פי",
+        "en": "on"
+      },
+      {
+        "ja": "ד'את",
+        "en": "this",
+        "he": "בְּעֶצֶם"
+      },
+      {
+        "ja": "הד'א אליום",
+        "en": "very day",
+        "he": "הַיּוֹם הַזֶּה"
+      },
+      {
+        "ja": "לאנה",
+        "en": "for it is"
+      },
+      {
+        "ja": "יום",
+        "en": "a day of",
+        "he": "כִּי"
+      },
+      {
+        "ja": "ג'פראן",
+        "en": "atonement",
+        "he": "יוֹם כִּפֻּרִים"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you"
+      },
+      {
+        "ja": "יסתג'פר פיה",
+        "en": "on which pardon is sought"
+      },
+      {
+        "ja": "ענכם",
+        "en": "on your behalf"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord.",
+        "he": "אֱלֹהֵיכֶם"
       }
     ],
     "29": [
       {
-        "ja": "וכל אנסאן באלג'. לם יצום פי ד'את הד'א אליום. ינקטע מן קומה",
-        "en": "And every adult person who does not fast on this very day shall be cut off from his people.",
-        "he": "כִּי כָל-הַנֶּפֶשׁ אֲשֶׁר לֹא-תְעֻנֶּה בְּעֶצֶם הַיּוֹם הַזֶּה--וְנִכְרְתָה מֵעַמֶּיהָ"
+        "ja": "וכל אנסאן",
+        "en": "And every",
+        "he": "כִּי כָל-הַנֶּפֶשׁ"
+      },
+      {
+        "ja": "באלג'",
+        "en": "adult person"
+      },
+      {
+        "ja": "לם",
+        "en": "who does not"
+      },
+      {
+        "ja": "יצום",
+        "en": "fast",
+        "he": "אֲשֶׁר לֹא-תְעֻנֶּה"
+      },
+      {
+        "ja": "פי",
+        "en": "on"
+      },
+      {
+        "ja": "ד'את",
+        "en": "this",
+        "he": "בְּעֶצֶם"
+      },
+      {
+        "ja": "הד'א אליום",
+        "en": "very day",
+        "he": "הַיּוֹם הַזֶּה"
+      },
+      {
+        "ja": "ינקטע",
+        "en": "shall be cut off",
+        "he": "וְנִכְרְתָה"
+      },
+      {
+        "ja": "מן",
+        "en": "from"
+      },
+      {
+        "ja": "קומה",
+        "en": "his people.",
+        "he": "מֵעַמֶּיהָ"
       }
     ],
     "30": [
       {
-        "ja": "וכל אנסאן יצנע שייא מן אלצנאיע. פי ד'את ד'אלך אליום. אביד ד'אלך אלאנסאן מן בין קומה",
-        "en": "And every person who performs any labor on this very day — I shall destroy that person from among his people.",
-        "he": "וְכָל-הַנֶּפֶשׁ אֲשֶׁר תַּעֲשֶׂה כָּל-מְלָאכָה בְּעֶצֶם הַיּוֹם הַזֶּה--וְהַאֲבַדְתִּי אֶת-הַנֶּפֶשׁ הַהִוא מִקֶּרֶב עַמָּהּ"
+        "ja": "וכל אנסאן",
+        "en": "And every person",
+        "he": "וְכָל-הַנֶּפֶשׁ"
+      },
+      {
+        "ja": "יצנע",
+        "en": "who performs",
+        "he": "אֲשֶׁר תַּעֲשֶׂה"
+      },
+      {
+        "ja": "שייא",
+        "en": "any"
+      },
+      {
+        "ja": "מן אלצנאיע",
+        "en": "labor",
+        "he": "כָּל-מְלָאכָה"
+      },
+      {
+        "ja": "פי",
+        "en": "on"
+      },
+      {
+        "ja": "ד'את",
+        "en": "this",
+        "he": "בְּעֶצֶם"
+      },
+      {
+        "ja": "ד'אלך אליום",
+        "en": "very day",
+        "he": "הַיּוֹם הַזֶּה"
+      },
+      {
+        "ja": "אביד",
+        "en": "I shall destroy",
+        "he": "וְהַאֲבַדְתִּי"
+      },
+      {
+        "ja": "ד'אלך",
+        "en": "that"
+      },
+      {
+        "ja": "אלאנסאן",
+        "en": "person",
+        "he": "אֶת-הַנֶּפֶשׁ הַהִוא"
+      },
+      {
+        "ja": "מן בין",
+        "en": "from among",
+        "he": "מִקֶּרֶב"
+      },
+      {
+        "ja": "קומה",
+        "en": "his people.",
+        "he": "עַמָּהּ"
       }
     ],
     "31": [
       {
-        "ja": "וכל צנאעה לא תעמלו. רסם אלדהר עלי' מר אגיאלכם. פי גמיע מסאכנכם",
-        "en": "And no labor at all shall you perform. A decree forever, throughout your generations, in all your dwellings.",
-        "he": "כָּל-מְלָאכָה לֹא תַעֲשׂוּ חֻקַּת עוֹלָם לְדֹרֹתֵיכֶם בְּכֹל מֹשְׁבֹתֵיכֶם"
+        "ja": "וכל צנאעה",
+        "en": "And no labor",
+        "he": "כָּל-מְלָאכָה"
+      },
+      {
+        "ja": "לא תעמלו",
+        "en": "at all shall you perform",
+        "he": "לֹא תַעֲשׂוּ"
+      },
+      {
+        "ja": "רסם",
+        "en": "A decree",
+        "he": "חֻקַּת"
+      },
+      {
+        "ja": "אלדהר",
+        "en": "forever",
+        "he": "עוֹלָם"
+      },
+      {
+        "ja": "עלי'",
+        "en": "throughout"
+      },
+      {
+        "ja": "מר",
+        "en": "your"
+      },
+      {
+        "ja": "אגיאלכם",
+        "en": "generations",
+        "he": "לְדֹרֹתֵיכֶם"
+      },
+      {
+        "ja": "פי",
+        "en": "in"
+      },
+      {
+        "ja": "גמיע מסאכנכם",
+        "en": "all your dwellings.",
+        "he": "בְּכֹל מֹשְׁבֹתֵיכֶם"
       }
     ],
     "32": [
       {
-        "ja": "עטלה הי סבת לכם. ותגיעו אנפסכם",
-        "en": "It is a desisting — a Sabbath for you; and you shall starve yourselves,",
-        "he": "שַׁבַּת שַׁבָּתוֹן הוּא לָכֶם וְעִנִּיתֶם אֶת-נַפְשֹׁתֵיכֶם"
+        "ja": "עטלה",
+        "en": "It is a desisting",
+        "he": "שַׁבַּת שַׁבָּתוֹן"
       },
       {
-        "ja": "מן עשייה' אלתאסע פי הד'י אלשהר. אלי' אלעשי אלת'אני תעטלו עמלכם",
-        "en": "from the evening of the ninth of this month until the second evening, you shall cease your work.",
-        "he": "בְּתִשְׁעָה לַחֹדֶשׁ בָּעֶרֶב--מֵעֶרֶב עַד-עֶרֶב תִּשְׁבְּתוּ שַׁבַּתְּכֶם"
+        "ja": "הי",
+        "en": "a",
+        "he": "הוּא"
+      },
+      {
+        "ja": "סבת לכם",
+        "en": "Sabbath for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "ותגיעו",
+        "en": "and you shall starve",
+        "he": "וְעִנִּיתֶם"
+      },
+      {
+        "ja": "אנפסכם",
+        "en": "yourselves",
+        "he": "אֶת-נַפְשֹׁתֵיכֶם"
+      },
+      {
+        "ja": "מן",
+        "en": "from"
+      },
+      {
+        "ja": "עשייה' אלתאסע פי הד'י אלשהר",
+        "en": "the evening of the ninth of this month",
+        "he": "בְּתִשְׁעָה לַחֹדֶשׁ"
+      },
+      {
+        "ja": "אלי'",
+        "en": "until"
+      },
+      {
+        "ja": "אלעשי אלת'אני",
+        "en": "the second evening",
+        "he": "בָּעֶרֶב--מֵעֶרֶב עַד-עֶרֶב"
+      },
+      {
+        "ja": "תעטלו",
+        "en": "you shall cease",
+        "he": "תִּשְׁבְּתוּ"
+      },
+      {
+        "ja": "עמלכם",
+        "en": "your work.",
+        "he": "שַׁבַּתְּכֶם"
       }
     ],
     "33": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly.",
+        "he": "לֵּאמֹר"
       }
     ],
     "34": [
       {
-        "ja": "מר בני אסראיל קאילא. פי אליום אלכאמס עשר מן אלשהר אלסאבע",
-        "en": "Command the sons of Israel, saying: on the fifteenth day of the seventh month",
-        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל לֵאמֹר בַּחֲמִשָּׁה עָשָׂר יוֹם לַחֹדֶשׁ הַשְּׁבִיעִי הַזֶּה"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "חג אלמצ'אל. סבעה' אייאם ללה",
-        "en": "is the festival of booths — seven days to God.",
-        "he": "חַג הַסֻּכּוֹת שִׁבְעַת יָמִים לַיהוָה"
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "אֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "קאילא",
+        "en": "saying",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "פי",
+        "en": "on"
+      },
+      {
+        "ja": "אלכאמס עשר",
+        "en": "the fifteenth day",
+        "he": "בַּחֲמִשָּׁה עָשָׂר יוֹם"
+      },
+      {
+        "ja": "מן",
+        "en": "of"
+      },
+      {
+        "ja": "אלשהר אלסאבע",
+        "en": "the seventh month",
+        "he": "לַחֹדֶשׁ הַשְּׁבִיעִי הַזֶּה"
+      },
+      {
+        "ja": "חג אלמצ'אל",
+        "en": "the festival of booths",
+        "he": "חַג הַסֻּכּוֹת"
+      },
+      {
+        "ja": "סבעה' אייאם",
+        "en": "seven days",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God.",
+        "he": "לַיהוָה"
       }
     ],
     "35": [
       {
-        "ja": "פי אליום אלאוול אסם מקדס. כל צנאעה' מכסב לא תעמלו",
-        "en": "On the first day, a consecrated name; no labor for profit shall you perform.",
-        "he": "בַּיּוֹם הָרִאשׁוֹן מִקְרָא-קֹדֶשׁ כָּל-מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ"
+        "ja": "פי",
+        "en": "On"
+      },
+      {
+        "ja": "אליום אלאוול",
+        "en": "the first day",
+        "he": "בַּיּוֹם הָרִאשׁוֹן"
+      },
+      {
+        "ja": "אסם",
+        "en": "a consecrated"
+      },
+      {
+        "ja": "מקדס",
+        "en": "name",
+        "he": "מִקְרָא-קֹדֶשׁ"
+      },
+      {
+        "ja": "כל צנאעה' מכסב",
+        "en": "no labor for profit",
+        "he": "כָּל-מְלֶאכֶת עֲבֹדָה"
+      },
+      {
+        "ja": "לא תעמלו",
+        "en": "shall you perform.",
+        "he": "לֹא תַעֲשׂוּ"
       }
     ],
     "36": [
       {
-        "ja": "ופי הד'ה אלסבעה' אלאייאם. תקרבו קרבאנא ללה",
-        "en": "And during these seven days you shall offer an offering to God;",
-        "he": "שִׁבְעַת יָמִים תַּקְרִיבוּ אִשֶּׁה לַיהוָה"
+        "ja": "ופי",
+        "en": "And during"
       },
       {
-        "ja": "ופי אליום אלת'אמן. אסם מקדס יכון לכם . וקרבו קרבאנא זאידא ללה ואמכתו פי קדסה. וכל צנאעה' מכסב לא תעמלו",
-        "en": "and on the eighth day, a consecrated name shall be for you — and offer an additional offering to God, and remain in its holiness; and no labor for profit shall you perform.",
-        "he": "בַּיּוֹם הַשְּׁמִינִי מִקְרָא-קֹדֶשׁ יִהְיֶה לָכֶם וְהִקְרַבְתֶּם אִשֶּׁה לַיהוָה עֲצֶרֶת הִוא--כָּל-מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ"
+        "ja": "הד'ה אלסבעה' אלאייאם",
+        "en": "these seven days",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "תקרבו",
+        "en": "you shall offer",
+        "he": "תַּקְרִיבוּ"
+      },
+      {
+        "ja": "קרבאנא",
+        "en": "an offering",
+        "he": "אִשֶּׁה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "ופי",
+        "en": "and on"
+      },
+      {
+        "ja": "אליום אלת'אמן",
+        "en": "the eighth day",
+        "he": "בַּיּוֹם הַשְּׁמִינִי"
+      },
+      {
+        "ja": "אסם",
+        "en": "a consecrated"
+      },
+      {
+        "ja": "מקדס",
+        "en": "name",
+        "he": "מִקְרָא-קֹדֶשׁ"
+      },
+      {
+        "ja": "יכון",
+        "en": "shall be",
+        "he": "יִהְיֶה"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "וקרבו",
+        "en": "and offer",
+        "he": "וְהִקְרַבְתֶּם"
+      },
+      {
+        "ja": "קרבאנא זאידא",
+        "en": "an additional offering",
+        "he": "אִשֶּׁה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "ואמכתו פי קדסה",
+        "en": "and remain in its holiness",
+        "he": "עֲצֶרֶת הִוא"
+      },
+      {
+        "ja": "וכל צנאעה' מכסב",
+        "en": "no labor for profit",
+        "he": "כָּל-מְלֶאכֶת עֲבֹדָה"
+      },
+      {
+        "ja": "לא תעמלו",
+        "en": "shall you perform.",
+        "he": "לֹא תַעֲשׂוּ"
       }
     ],
     "37": [
       {
-        "ja": "הד'ה אעיאד אללה. אלתי יגב אן תסמוהא באסמא כ'אצה",
-        "en": "These are the festivals of God, which you are obligated to designate by special names,",
-        "he": "אֵלֶּה מוֹעֲדֵי יְהוָה אֲשֶׁר-תִּקְרְאוּ אֹתָם מִקְרָאֵי קֹדֶשׁ"
+        "ja": "הד'ה",
+        "en": "These",
+        "he": "אֵלֶּה"
       },
       {
-        "ja": "ותקרבו פיהא קראבינא ללה. מן צעידה ובר. וד'בח ומזאג ואגב כל יום פי יומה",
-        "en": "and in which you shall offer offerings to God — ascent-offering and grain-offering, and sacrifice and libation, the obligation of each day in its day.",
-        "he": "לְהַקְרִיב אִשֶּׁה לַיהוָה עֹלָה וּמִנְחָה זֶבַח וּנְסָכִים--דְּבַר-יוֹם בְּיוֹמוֹ"
+        "ja": "אעיאד",
+        "en": "are the festivals of",
+        "he": "מוֹעֲדֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אלתי",
+        "en": "which"
+      },
+      {
+        "ja": "יגב",
+        "en": "you are obligated"
+      },
+      {
+        "ja": "אן",
+        "en": "to"
+      },
+      {
+        "ja": "תסמוהא",
+        "en": "designate",
+        "he": "אֲשֶׁר-תִּקְרְאוּ אֹתָם"
+      },
+      {
+        "ja": "באסמא",
+        "en": "by"
+      },
+      {
+        "ja": "כ'אצה",
+        "en": "special names",
+        "he": "מִקְרָאֵי קֹדֶשׁ"
+      },
+      {
+        "ja": "ותקרבו",
+        "en": "and in which you shall offer",
+        "he": "לְהַקְרִיב"
+      },
+      {
+        "ja": "קראבינא",
+        "en": "offerings",
+        "he": "אִשֶּׁה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "צעידה",
+        "en": "ascent-offering",
+        "he": "עֹלָה"
+      },
+      {
+        "ja": "ובר",
+        "en": "and grain-offering",
+        "he": "וּמִנְחָה"
+      },
+      {
+        "ja": "וד'בח",
+        "en": "and sacrifice",
+        "he": "זֶבַח"
+      },
+      {
+        "ja": "ומזאג",
+        "en": "and libation",
+        "he": "וּנְסָכִים"
+      },
+      {
+        "ja": "ואגב",
+        "en": "the obligation of"
+      },
+      {
+        "ja": "כל יום פי יומה",
+        "en": "each day in its day.",
+        "he": "דְּבַר-יוֹם בְּיוֹמוֹ"
       }
     ],
     "38": [
       {
-        "ja": "מא כ'לא סבות אללה. ומא כ'לא עטאיאכם. ונד'ורכם ותברעכם. אלדי תעטוהא ללה",
-        "en": "Apart from the Sabbaths of God, and apart from your gifts, and your vows, and your freewill-offerings, which you give to God.",
-        "he": "מִלְּבַד שַׁבְּתֹת יְהוָה וּמִלְּבַד מַתְּנוֹתֵיכֶם וּמִלְּבַד כָּל-נִדְרֵיכֶם וּמִלְּבַד כָּל-נִדְבֹתֵיכֶם אֲשֶׁר תִּתְּנוּ לַיהוָה"
+        "ja": "מא כ'לא",
+        "en": "Apart from"
+      },
+      {
+        "ja": "סבות",
+        "en": "the Sabbaths of",
+        "he": "מִלְּבַד שַׁבְּתֹת"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "ומא כ'לא",
+        "en": "and apart from"
+      },
+      {
+        "ja": "עטאיאכם",
+        "en": "your gifts",
+        "he": "וּמִלְּבַד מַתְּנוֹתֵיכֶם"
+      },
+      {
+        "ja": "ונד'ורכם",
+        "en": "and your vows",
+        "he": "וּמִלְּבַד כָּל-נִדְרֵיכֶם"
+      },
+      {
+        "ja": "ותברעכם",
+        "en": "and your freewill-offerings",
+        "he": "וּמִלְּבַד כָּל-נִדְבֹתֵיכֶם"
+      },
+      {
+        "ja": "אלדי תעטוהא",
+        "en": "which you give",
+        "he": "אֲשֶׁר תִּתְּנוּ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God.",
+        "he": "לַיהוָה"
       }
     ],
     "39": [
       {
-        "ja": "אמא פי אליום אלכ'אמס עשר מן אלשהר אלסאבע. פי אואן גמעכם גלה' אלארץ'. תחגו חג ללה סבעה' אייאם",
-        "en": "Now on the fifteenth day of the seventh month, at the season of your gathering in the yield of the land, you shall make a pilgrimage-festival to God for seven days;",
-        "he": "אַךְ בַּחֲמִשָּׁה עָשָׂר יוֹם לַחֹדֶשׁ הַשְּׁבִיעִי בְּאָסְפְּכֶם אֶת-תְּבוּאַת הָאָרֶץ תָּחֹגּוּ אֶת-חַג-יְהוָה שִׁבְעַת יָמִים"
+        "ja": "אמא",
+        "en": "Now"
       },
       {
-        "ja": "פי אליום אלאוול מנהא עטלה. ופי אליום אלת'אמן עטלה",
-        "en": "on the first day of them a rest-day, and on the eighth day a rest-day.",
-        "he": "בַּיּוֹם הָרִאשׁוֹן שַׁבָּתוֹן וּבַיּוֹם הַשְּׁמִינִי שַׁבָּתוֹן"
+        "ja": "פי",
+        "en": "on"
+      },
+      {
+        "ja": "אליום אלכ'אמס עשר",
+        "en": "the fifteenth day",
+        "he": "אַךְ בַּחֲמִשָּׁה עָשָׂר יוֹם"
+      },
+      {
+        "ja": "מן",
+        "en": "of"
+      },
+      {
+        "ja": "אלשהר אלסאבע",
+        "en": "the seventh month",
+        "he": "לַחֹדֶשׁ הַשְּׁבִיעִי"
+      },
+      {
+        "ja": "פי",
+        "en": "at"
+      },
+      {
+        "ja": "אואן",
+        "en": "the season of"
+      },
+      {
+        "ja": "גמעכם",
+        "en": "your gathering",
+        "he": "בְּאָסְפְּכֶם"
+      },
+      {
+        "ja": "גלה'",
+        "en": "the yield of",
+        "he": "אֶת-תְּבוּאַת"
+      },
+      {
+        "ja": "אלארץ'",
+        "en": "the land",
+        "he": "הָאָרֶץ"
+      },
+      {
+        "ja": "תחגו",
+        "en": "you shall make a pilgrimage-festival",
+        "he": "תָּחֹגּוּ"
+      },
+      {
+        "ja": "חג ללה",
+        "en": "to God",
+        "he": "אֶת-חַג-יְהוָה"
+      },
+      {
+        "ja": "סבעה' אייאם",
+        "en": "for seven days",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "פי",
+        "en": "on"
+      },
+      {
+        "ja": "אליום אלאוול מנהא",
+        "en": "the first day of them",
+        "he": "בַּיּוֹם הָרִאשׁוֹן"
+      },
+      {
+        "ja": "עטלה",
+        "en": "a rest-day",
+        "he": "שַׁבָּתוֹן"
+      },
+      {
+        "ja": "ופי",
+        "en": "and on"
+      },
+      {
+        "ja": "אליום אלת'אמן",
+        "en": "the eighth day",
+        "he": "וּבַיּוֹם הַשְּׁמִינִי"
+      },
+      {
+        "ja": "עטלה",
+        "en": "a rest-day.",
+        "he": "שַׁבָּתוֹן"
       }
     ],
     "40": [
       {
-        "ja": "וכ'דו לכם פי אליום אלאוול. מן ת'מר שגר אלאתרנג ומן לב אלנכ'ל. ומן אג'צאן עוד אלאס עלי' צנעה' אלצ'פר. ומן ג'רב אלואד",
-        "en": "And take for yourselves on the first day, from the fruit of the citron tree, and from the fronds of the palm, and from the branches of the myrtle-wood braided together, and from the willows of the valley —",
-        "he": "וּלְקַחְתֶּם לָכֶם בַּיּוֹם הָרִאשׁוֹן פְּרִי עֵץ הָדָר כַּפֹּת תְּמָרִים וַעֲנַף עֵץ-עָבֹת וְעַרְבֵי-נָחַל"
+        "ja": "וכ'דו",
+        "en": "And take",
+        "he": "וּלְקַחְתֶּם"
       },
       {
-        "ja": "ואפרחו בה. בין ידי אללה רבכם סבעה' אייאם",
-        "en": "and rejoice with them before God your Lord, seven days.",
-        "he": "וּשְׂמַחְתֶּם לִפְנֵי יְהוָה אֱלֹהֵיכֶם--שִׁבְעַת יָמִים"
+        "ja": "לכם",
+        "en": "for yourselves",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "פי",
+        "en": "on"
+      },
+      {
+        "ja": "אליום אלאוול",
+        "en": "the first day",
+        "he": "בַּיּוֹם הָרִאשׁוֹן"
+      },
+      {
+        "ja": "מן",
+        "en": "from"
+      },
+      {
+        "ja": "ת'מר שגר אלאתרנג",
+        "en": "the fruit of the citron tree",
+        "he": "פְּרִי עֵץ הָדָר"
+      },
+      {
+        "ja": "ומן",
+        "en": "and from"
+      },
+      {
+        "ja": "לב אלנכ'ל",
+        "en": "the fronds of the palm",
+        "he": "כַּפֹּת תְּמָרִים"
+      },
+      {
+        "ja": "ומן",
+        "en": "and from"
+      },
+      {
+        "ja": "אג'צאן עוד אלאס עלי' צנעה' אלצ'פר",
+        "en": "the branches of the myrtle-wood braided together",
+        "he": "וַעֲנַף עֵץ-עָבֹת"
+      },
+      {
+        "ja": "ומן",
+        "en": "and from"
+      },
+      {
+        "ja": "ג'רב אלואד",
+        "en": "the willows of the valley",
+        "he": "וְעַרְבֵי-נָחַל"
+      },
+      {
+        "ja": "ואפרחו",
+        "en": "and rejoice",
+        "he": "וּשְׂמַחְתֶּם"
+      },
+      {
+        "ja": "בה",
+        "en": "with them"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "סבעה' אייאם",
+        "en": "seven days.",
+        "he": "שִׁבְעַת יָמִים"
       }
     ],
     "41": [
       {
-        "ja": "וחגו ד'אלך חג ללה. סבעה' אייאם פי אלסנה",
-        "en": "And celebrate it as a festival to God, seven days in the year —",
-        "he": "וְחַגֹּתֶם אֹתוֹ חַג לַיהוָה שִׁבְעַת יָמִים בַּשָּׁנָה"
+        "ja": "וחגו",
+        "en": "And celebrate",
+        "he": "וְחַגֹּתֶם"
       },
       {
-        "ja": "רסם אלדהר עלי' מר אגיאלכם. פי אלשהר אלסאבע תחגונה",
-        "en": "a decree forever throughout your generations; in the seventh month you shall celebrate it.",
-        "he": "חֻקַּת עוֹלָם לְדֹרֹתֵיכֶם בַּחֹדֶשׁ הַשְּׁבִיעִי תָּחֹגּוּ אֹתוֹ"
+        "ja": "ד'אלך",
+        "en": "it"
+      },
+      {
+        "ja": "חג",
+        "en": "as a festival",
+        "he": "חַג"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "סבעה' אייאם",
+        "en": "seven days",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "פי",
+        "en": "in"
+      },
+      {
+        "ja": "אלסנה",
+        "en": "the year",
+        "he": "בַּשָּׁנָה"
+      },
+      {
+        "ja": "רסם",
+        "en": "a decree",
+        "he": "חֻקַּת"
+      },
+      {
+        "ja": "אלדהר",
+        "en": "forever",
+        "he": "עוֹלָם"
+      },
+      {
+        "ja": "עלי'",
+        "en": "throughout"
+      },
+      {
+        "ja": "מר",
+        "en": "your"
+      },
+      {
+        "ja": "אגיאלכם",
+        "en": "generations",
+        "he": "לְדֹרֹתֵיכֶם"
+      },
+      {
+        "ja": "פי",
+        "en": "in"
+      },
+      {
+        "ja": "אלשהר אלסאבע",
+        "en": "the seventh month",
+        "he": "בַּחֹדֶשׁ הַשְּׁבִיעִי"
+      },
+      {
+        "ja": "תחגונה",
+        "en": "you shall celebrate it.",
+        "he": "תָּחֹגּוּ אֹתוֹ"
       }
     ],
     "42": [
       {
-        "ja": "ואגלסו פי אלמצ'אל סבעה' אייאם לאמרי",
-        "en": "And dwell in the booths seven days at My command;",
-        "he": "בַּסֻּכֹּת תֵּשְׁבוּ שִׁבְעַת יָמִים"
+        "ja": "ואגלסו פי אלמצ'אל",
+        "en": "And dwell in the booths",
+        "he": "בַּסֻּכֹּת תֵּשְׁבוּ"
       },
       {
-        "ja": "וכל צריח מן אל אסראיל. יגלסו פי אלמצ'אל",
-        "en": "every native-born of the house of Israel shall dwell in the booths —",
-        "he": "כָּל-הָאֶזְרָח בְּיִשְׂרָאֵל יֵשְׁבוּ בַּסֻּכֹּת"
+        "ja": "סבעה' אייאם",
+        "en": "seven days",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "לאמרי",
+        "en": "at My command"
+      },
+      {
+        "ja": "וכל צריח",
+        "en": "every native-born",
+        "he": "כָּל-הָאֶזְרָח"
+      },
+      {
+        "ja": "מן",
+        "en": "of"
+      },
+      {
+        "ja": "אל אסראיל",
+        "en": "the house of Israel",
+        "he": "בְּיִשְׂרָאֵל"
+      },
+      {
+        "ja": "יגלסו פי אלמצ'אל",
+        "en": "shall dwell in the booths —",
+        "he": "יֵשְׁבוּ בַּסֻּכֹּת"
       }
     ],
     "43": [
       {
-        "ja": "לכי יעלם אגיאלכם. אני אללה רבכם. אגלסת בני אסראיל פי צ'לאל מכן ג'מאמי",
-        "en": "so that your generations may know that I, God your Lord, sheltered the sons of Israel in the shade of My clouds",
-        "he": "לְמַעַן יֵדְעוּ דֹרֹתֵיכֶם כִּי בַסֻּכּוֹת הוֹשַׁבְתִּי אֶת-בְּנֵי יִשְׂרָאֵל"
+        "ja": "לכי",
+        "en": "so that"
       },
       {
-        "ja": "חין אכ'רגתהם מן בלד מצר. אנא אללה רבכם צאדק אלועד",
-        "en": "when I brought them out from the land of Egypt. I am God your Lord, true to My promise.",
-        "he": "בְּהוֹצִיאִי אוֹתָם מֵאֶרֶץ מִצְרָיִם אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "יעלם",
+        "en": "may know",
+        "he": "לְמַעַן יֵדְעוּ"
+      },
+      {
+        "ja": "אגיאלכם",
+        "en": "your generations",
+        "he": "דֹרֹתֵיכֶם"
+      },
+      {
+        "ja": "אני",
+        "en": "that I"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "כִּי"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "בַסֻּכּוֹת"
+      },
+      {
+        "ja": "אגלסת",
+        "en": "sheltered",
+        "he": "הוֹשַׁבְתִּי"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "אֶת-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פי",
+        "en": "in"
+      },
+      {
+        "ja": "צ'לאל",
+        "en": "the shade"
+      },
+      {
+        "ja": "מכן",
+        "en": "of"
+      },
+      {
+        "ja": "ג'מאמי",
+        "en": "My clouds"
+      },
+      {
+        "ja": "חין אכ'רגתהם",
+        "en": "when I brought them out",
+        "he": "בְּהוֹצִיאִי"
+      },
+      {
+        "ja": "מן",
+        "en": "from"
+      },
+      {
+        "ja": "בלד",
+        "en": "the land of",
+        "he": "מֵאֶרֶץ"
+      },
+      {
+        "ja": "מצר",
+        "en": "Egypt",
+        "he": "מִצְרָיִם"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "צאדק אלועד",
+        "en": "true to My promise."
       }
     ],
     "44": [
       {
-        "ja": "פכ'אטב מוסי' באעיאד אללה בני אסראיל",
-        "en": "And Moses addressed the sons of Israel concerning the festivals of God.",
-        "he": "וַיְדַבֵּר מֹשֶׁה אֶת-מֹעֲדֵי יְהוָה אֶל-בְּנֵי יִשְׂרָאֵל"
+        "ja": "פכ'אטב מוסי'",
+        "en": "And Moses addressed",
+        "he": "וַיְדַבֵּר מֹשֶׁה"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "אֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "באעיאד",
+        "en": "concerning the festivals of",
+        "he": "אֶת-מֹעֲדֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God.",
+        "he": "יְהוָה"
       }
     ]
   }
