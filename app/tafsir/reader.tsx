@@ -532,6 +532,7 @@ function GlossPanel({
         <StatePills state={state} onSetState={onSetState} />
         {divergence && <DivergenceBanner d={divergence} />}
         <Concordance
+          key={token}
           corpus={corpus}
           corpusReady={corpusReady}
           corpusLabel={corpusLabel}
@@ -760,6 +761,8 @@ function ChapterNav({
   );
 }
 
+const DEFAULT_VISIBLE = 24;
+
 function Concordance({
   corpus,
   corpusReady,
@@ -773,6 +776,8 @@ function Concordance({
   loadedVerseKeys: Set<string>;
   onJump: () => void;
 }) {
+  const [expandInView, setExpandInView] = useState(false);
+  const [expandElsewhere, setExpandElsewhere] = useState(false);
   if (!corpusReady) {
     return (
       <p className="text-[11px] uppercase tracking-[0.25em] text-muted mb-4 italic">
@@ -789,8 +794,10 @@ function Concordance({
   }
   const verses = uniqueVerses(corpus.occurrences);
   const variants = variantBreakdown(corpus.occurrences);
-  const inView = verses.filter((r) => loadedVerseKeys.has(`${r.ch}-${r.v}`));
-  const elsewhere = verses.filter((r) => !loadedVerseKeys.has(`${r.ch}-${r.v}`));
+  const inViewAll = verses.filter((r) => loadedVerseKeys.has(`${r.ch}-${r.v}`));
+  const elsewhereAll = verses.filter((r) => !loadedVerseKeys.has(`${r.ch}-${r.v}`));
+  const inView = expandInView ? inViewAll : inViewAll.slice(0, DEFAULT_VISIBLE);
+  const elsewhere = expandElsewhere ? elsewhereAll : elsewhereAll.slice(0, DEFAULT_VISIBLE);
   const handleJump = (ch: number, v: number) => {
     onJump();
     requestAnimationFrame(() => {
@@ -828,6 +835,15 @@ function Concordance({
               {ch}:{v}
             </button>
           ))}
+          {inViewAll.length > DEFAULT_VISIBLE && (
+            <button
+              type="button"
+              onClick={() => setExpandInView((x) => !x)}
+              className="text-[11px] font-mono px-2 py-0.5 rounded-sm text-wine/80 hover:text-wine hover:bg-wine-50 transition-colors"
+            >
+              {expandInView ? "Show less" : `Show all (${inViewAll.length})`}
+            </button>
+          )}
         </div>
       )}
       {elsewhere.length > 0 && (
@@ -844,6 +860,15 @@ function Concordance({
               {ch}:{v}
             </span>
           ))}
+          {elsewhereAll.length > DEFAULT_VISIBLE && (
+            <button
+              type="button"
+              onClick={() => setExpandElsewhere((x) => !x)}
+              className="text-[11px] font-mono px-2 py-0.5 rounded-sm text-wine/80 hover:text-wine hover:bg-wine-50 transition-colors"
+            >
+              {expandElsewhere ? "Show less" : `Show all (${elsewhereAll.length})`}
+            </button>
+          )}
         </div>
       )}
     </div>
