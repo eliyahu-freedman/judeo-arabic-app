@@ -1,389 +1,1386 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 2. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_2.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 2. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_2.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי' והרון קאילא",
-        "en": "Then God spoke to Moses and Aaron, saying:",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה וְאֶל-אַהֲרֹן לֵאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "והרון",
+        "en": "and Aaron,",
+        "he": "וְאֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "קאילא",
+        "en": "saying:",
+        "he": "לֵאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "כל סבט פי מרכזה בעלאמאת לביות אבאיהם. ינזל בני אסראיל",
-        "en": "Each tribe in its station, with signs for their fathers' houses — the sons of Israel shall encamp",
-        "he": "אִישׁ עַל-דִּגְלוֹ בְאֹתֹת לְבֵית אֲבֹתָם יַחֲנוּ בְּנֵי יִשְׂרָאֵל"
+        "ja": "כל סבט",
+        "en": "Each tribe",
+        "he": "אִישׁ"
       },
       {
-        "ja": "חד'א כ'בא אלמחצ'ר וחאלי'ה ינזלון",
-        "en": "facing the tent of the Presence, and around it they shall encamp",
-        "he": "מִנֶּגֶד סָבִיב לְאֹהֶל-מוֹעֵד יַחֲנוּ"
+        "ja": "פי מרכזה",
+        "en": "in its station,",
+        "he": "עַל-דִּגְלוֹ"
+      },
+      {
+        "ja": "בעלאמאת",
+        "en": "with signs",
+        "he": "בְאֹתֹת"
+      },
+      {
+        "ja": "לביות אבאיהם",
+        "en": "for their fathers' houses —",
+        "he": "לְבֵית אֲבֹתָם"
+      },
+      {
+        "ja": "ינזל",
+        "en": "shall encamp;",
+        "he": "יַחֲנוּ"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "חד'א",
+        "en": "facing",
+        "he": "מִנֶּגֶד"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of the Presence,",
+        "he": "לְאֹהֶל-מוֹעֵד"
+      },
+      {
+        "ja": "וחאלי'ה",
+        "en": "and around it",
+        "he": "סָבִיב"
+      },
+      {
+        "ja": "ינזלון",
+        "en": "they shall encamp.",
+        "he": "יַחֲנוּ"
       }
     ],
     "3": [
       {
-        "ja": "ואלנאזלין פי אלמשרק",
-        "en": "And those encamping in the east",
-        "he": "וְהַחֹנִים קֵדְמָה מִזְרָחָה"
+        "ja": "ואלנאזלין",
+        "en": "And those encamping",
+        "he": "וְהַחֹנִים"
       },
       {
-        "ja": "מרכז עסכר יהודה לגיושהם",
-        "en": "the station of the camp of Judah, by their hosts",
-        "he": "דֶּגֶל מַחֲנֵה יְהוּדָה לְצִבְאֹתָם"
+        "ja": "פי אלמשרק",
+        "en": "in the east:",
+        "he": "קֵדְמָה מִזְרָחָה"
       },
       {
-        "ja": "ושריפהם. נחשון אבן עמינדב",
-        "en": "and their noble is Nahshon son of Amminadab",
-        "he": "וְנָשִׂיא לִבְנֵי יְהוּדָה נַחְשׁוֹן בֶּן-עַמִּינָדָב"
+        "ja": "מרכז",
+        "en": "the station of",
+        "he": "דֶּגֶל"
+      },
+      {
+        "ja": "עסכר",
+        "en": "the camp of",
+        "he": "מַחֲנֵה"
+      },
+      {
+        "ja": "יהודה",
+        "en": "Judah,",
+        "he": "יְהוּדָה"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts;",
+        "he": "לְצִבְאֹתָם"
+      },
+      {
+        "ja": "ושריפהם",
+        "en": "and their noble is",
+        "he": "וְנָשִׂיא לִבְנֵי יְהוּדָה"
+      },
+      {
+        "ja": "נחשון",
+        "en": "Nahshon",
+        "he": "נַחְשׁוֹן"
+      },
+      {
+        "ja": "אבן עמינדב",
+        "en": "son of Amminadab.",
+        "he": "בֶּן-עַמִּינָדָב"
       }
     ],
     "4": [
       {
-        "ja": "ועדד גישה. ארבעה וסבעין אלפא וסת מאיה",
-        "en": "And the count of his host: seventy-four thousand six hundred",
-        "he": "וּצְבָאוֹ וּפְקֻדֵיהֶם--אַרְבָּעָה וְשִׁבְעִים אֶלֶף וְשֵׁשׁ מֵאוֹת"
+        "ja": "ועדד גישה",
+        "en": "And the count of his host:",
+        "he": "וּצְבָאוֹ"
+      },
+      {
+        "ja": "ארבעה",
+        "en": "seventy-four",
+        "he": "אַרְבָּעָה"
+      },
+      {
+        "ja": "וסבעין",
+        "en": "thousand",
+        "he": "וְשִׁבְעִים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "six",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וסת",
+        "en": "hundred.",
+        "he": "וְשֵׁשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "5": [
       {
-        "ja": "ואלנאזלין אלי' גאנבה סבט יששכר",
-        "en": "And those encamping beside him: the tribe of Issachar",
-        "he": "וְהַחֹנִים עָלָיו מַטֵּה יִשָּׂשכָר"
+        "ja": "ואלנאזלין",
+        "en": "And those encamping",
+        "he": "וְהַחֹנִים"
       },
       {
-        "ja": "ושריפהם. נתנאל אבן צוער",
-        "en": "and their noble is Nethanel son of Zuar",
-        "he": "וְנָשִׂיא לִבְנֵי יִשָּׂשכָר נְתַנְאֵל בֶּן-צוּעָר"
+        "ja": "אלי' גאנבה",
+        "en": "beside him:",
+        "he": "עָלָיו"
+      },
+      {
+        "ja": "סבט",
+        "en": "the tribe of",
+        "he": "מַטֵּה"
+      },
+      {
+        "ja": "יששכר",
+        "en": "Issachar;",
+        "he": "יִשָּׂשכָר"
+      },
+      {
+        "ja": "ושריפהם",
+        "en": "and their noble is",
+        "he": "וְנָשִׂיא לִבְנֵי יִשָּׂשכָר"
+      },
+      {
+        "ja": "נתנאל",
+        "en": "Nethanel",
+        "he": "נְתַנְאֵל"
+      },
+      {
+        "ja": "אבן צוער",
+        "en": "son of Zuar.",
+        "he": "בֶּן-צוּעָר"
       }
     ],
     "6": [
       {
-        "ja": "ועדד גישה. ארבעה וכ'מסין אלפא וארבע מאיה",
-        "en": "And the count of his host: fifty-four thousand four hundred",
-        "he": "וּצְבָאוֹ וּפְקֻדָיו--אַרְבָּעָה וַחֲמִשִּׁים אֶלֶף וְאַרְבַּע מֵאוֹת"
+        "ja": "ועדד גישה",
+        "en": "And the count of his host:",
+        "he": "וּצְבָאוֹ"
+      },
+      {
+        "ja": "ארבעה",
+        "en": "fifty-four",
+        "he": "אַרְבָּעָה"
+      },
+      {
+        "ja": "וכ'מסין",
+        "en": "thousand",
+        "he": "וַחֲמִשִּׁים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "four",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וארבע",
+        "en": "hundred.",
+        "he": "וְאַרְבַּע"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "7": [
       {
-        "ja": "אלי' גאנבה סבט זבולון",
-        "en": "Beside him: the tribe of Zebulun",
-        "he": "מַטֵּה זְבוּלֻן"
+        "ja": "אלי' גאנבה",
+        "en": "Beside him:"
       },
       {
-        "ja": "ושריפהם אליאב אבן חלן",
-        "en": "and their noble is Eliab son of Helon",
-        "he": "וְנָשִׂיא לִבְנֵי זְבוּלֻן אֱלִיאָב בֶּן-חֵלֹן"
+        "ja": "סבט",
+        "en": "the tribe of",
+        "he": "מַטֵּה"
+      },
+      {
+        "ja": "זבולון",
+        "en": "Zebulun;",
+        "he": "זְבוּלֻן"
+      },
+      {
+        "ja": "ושריפהם",
+        "en": "and their noble is",
+        "he": "וְנָשִׂיא לִבְנֵי זְבוּלֻן"
+      },
+      {
+        "ja": "אליאב",
+        "en": "Eliab",
+        "he": "אֱלִיאָב"
+      },
+      {
+        "ja": "אבן חלן",
+        "en": "son of Helon.",
+        "he": "בֶּן-חֵלֹן"
       }
     ],
     "8": [
       {
-        "ja": "ועדד גישה. סבעה וכ'מסין אלפא וארבע מאיה",
-        "en": "And the count of his host: fifty-seven thousand four hundred",
-        "he": "וּצְבָאוֹ וּפְקֻדָיו--שִׁבְעָה וַחֲמִשִּׁים אֶלֶף וְאַרְבַּע מֵאוֹת"
+        "ja": "ועדד גישה",
+        "en": "And the count of his host:",
+        "he": "וּצְבָאוֹ"
+      },
+      {
+        "ja": "סבעה",
+        "en": "fifty-seven",
+        "he": "שִׁבְעָה"
+      },
+      {
+        "ja": "וכ'מסין",
+        "en": "thousand",
+        "he": "וַחֲמִשִּׁים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "four",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וארבע",
+        "en": "hundred.",
+        "he": "וְאַרְבַּע"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "9": [
       {
-        "ja": "פד'אלך גמיע עדד עסכר יהודה",
-        "en": "That, then, is the whole count of the camp of Judah",
-        "he": "כָּל-הַפְּקֻדִים לְמַחֲנֵה יְהוּדָה"
+        "ja": "פד'אלך",
+        "en": "That, then, is"
       },
       {
-        "ja": "מאיה' אלף. וסתה ות'מאנין אלפא וארבע מאיה לגיושהם",
-        "en": "a hundred thousand, and eighty-six thousand and four hundred, by their hosts",
-        "he": "מְאַת אֶלֶף וּשְׁמֹנִים אֶלֶף וְשֵׁשֶׁת-אֲלָפִים וְאַרְבַּע-מֵאוֹת--לְצִבְאֹתָם"
+        "ja": "גמיע עדד",
+        "en": "the whole count of",
+        "he": "כָּל-הַפְּקֻדִים"
       },
       {
-        "ja": "והם ירחלון אוולא",
-        "en": "And they shall set out first",
-        "he": "רִאשֹׁנָה יִסָּעוּ"
+        "ja": "עסכר",
+        "en": "the camp of",
+        "he": "לְמַחֲנֵה"
+      },
+      {
+        "ja": "יהודה",
+        "en": "Judah:",
+        "he": "יְהוּדָה"
+      },
+      {
+        "ja": "מאיה'",
+        "en": "a hundred",
+        "he": "מְאַת"
+      },
+      {
+        "ja": "אלף",
+        "en": "thousand,",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "ות'מאנין",
+        "en": "and eighty-six",
+        "he": "וּשְׁמֹנִים"
+      },
+      {
+        "ja": "וסתה",
+        "en": "thousand",
+        "he": "וְשֵׁשֶׁת-אֲלָפִים"
+      },
+      {
+        "ja": "וארבע מאיה",
+        "en": "and four hundred,",
+        "he": "וְאַרְבַּע-מֵאוֹת"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts.",
+        "he": "לְצִבְאֹתָם"
+      },
+      {
+        "ja": "אוולא",
+        "en": "first.",
+        "he": "רִאשֹׁנָה"
+      },
+      {
+        "ja": "ירחלון",
+        "en": "And they shall set out",
+        "he": "יִסָּעוּ"
       }
     ],
     "10": [
       {
-        "ja": "מרכז עסכר ראובן. פי אלגנוב לגיושהם",
-        "en": "The station of the camp of Reuben, in the south, by their hosts",
-        "he": "דֶּגֶל מַחֲנֵה רְאוּבֵן תֵּימָנָה לְצִבְאֹתָם"
+        "ja": "מרכז",
+        "en": "The station of",
+        "he": "דֶּגֶל"
       },
       {
-        "ja": "ושריפהם. אליצור אבן שדיאור",
-        "en": "and their noble is Elizur son of Shedeur",
-        "he": "וְנָשִׂיא לִבְנֵי רְאוּבֵן אֱלִיצוּר בֶּן-שְׁדֵיאוּר"
+        "ja": "עסכר",
+        "en": "the camp of",
+        "he": "מַחֲנֵה"
+      },
+      {
+        "ja": "ראובן",
+        "en": "Reuben,",
+        "he": "רְאוּבֵן"
+      },
+      {
+        "ja": "פי אלגנוב",
+        "en": "in the south,",
+        "he": "תֵּימָנָה"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts;",
+        "he": "לְצִבְאֹתָם"
+      },
+      {
+        "ja": "ושריפהם",
+        "en": "and their noble is",
+        "he": "וְנָשִׂיא לִבְנֵי רְאוּבֵן"
+      },
+      {
+        "ja": "אליצור",
+        "en": "Elizur",
+        "he": "אֱלִיצוּר"
+      },
+      {
+        "ja": "אבן שדיאור",
+        "en": "son of Shedeur.",
+        "he": "בֶּן-שְׁדֵיאוּר"
       }
     ],
     "11": [
       {
-        "ja": "ועדד גישה. סתה וארבעין אלפא וכ'מס מאיה",
-        "en": "And the count of his host: forty-six thousand five hundred",
-        "he": "וּצְבָאוֹ וּפְקֻדָיו--שִׁשָּׁה וְאַרְבָּעִים אֶלֶף וַחֲמֵשׁ מֵאוֹת"
+        "ja": "ועדד גישה",
+        "en": "And the count of his host:",
+        "he": "וּצְבָאוֹ"
+      },
+      {
+        "ja": "סתה",
+        "en": "forty-six",
+        "he": "שִׁשָּׁה"
+      },
+      {
+        "ja": "וארבעין",
+        "en": "thousand",
+        "he": "וְאַרְבָּעִים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "five",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וכ'מס",
+        "en": "hundred.",
+        "he": "וַחֲמֵשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "12": [
       {
-        "ja": "ואלנאזלין אלי' גאנבה סבט שמעון",
-        "en": "And those encamping beside him: the tribe of Simeon",
-        "he": "וְהַחוֹנִם עָלָיו מַטֵּה שִׁמְעוֹן"
+        "ja": "ואלנאזלין",
+        "en": "And those encamping",
+        "he": "וְהַחוֹנִם"
       },
       {
-        "ja": "ושריפהם. שלומיאל אבן צורישדי",
-        "en": "and their noble is Shelumiel son of Zurishaddai",
-        "he": "וְנָשִׂיא לִבְנֵי שִׁמְעוֹן שְׁלֻמִיאֵל בֶּן-צוּרִישַׁדָּי"
+        "ja": "אלי' גאנבה",
+        "en": "beside him:",
+        "he": "עָלָיו"
+      },
+      {
+        "ja": "סבט",
+        "en": "the tribe of",
+        "he": "מַטֵּה"
+      },
+      {
+        "ja": "שמעון",
+        "en": "Simeon;",
+        "he": "שִׁמְעוֹן"
+      },
+      {
+        "ja": "ושריפהם",
+        "en": "and their noble is",
+        "he": "וְנָשִׂיא לִבְנֵי שִׁמְעוֹן"
+      },
+      {
+        "ja": "שלומיאל",
+        "en": "Shelumiel",
+        "he": "שְׁלֻמִיאֵל"
+      },
+      {
+        "ja": "אבן צורישדי",
+        "en": "son of Zurishaddai.",
+        "he": "בֶּן-צוּרִישַׁדָּי"
       }
     ],
     "13": [
       {
-        "ja": "ועדד גישה. תסעה וכ'מסין אלפא ות'לאת' מאיה",
-        "en": "And the count of his host: fifty-nine thousand three hundred",
-        "he": "וּצְבָאוֹ וּפְקֻדֵיהֶם--תִּשְׁעָה וַחֲמִשִּׁים אֶלֶף וּשְׁלֹשׁ מֵאוֹת"
+        "ja": "ועדד גישה",
+        "en": "And the count of his host:",
+        "he": "וּצְבָאוֹ"
+      },
+      {
+        "ja": "תסעה",
+        "en": "fifty-nine",
+        "he": "תִּשְׁעָה"
+      },
+      {
+        "ja": "וכ'מסין",
+        "en": "thousand",
+        "he": "וַחֲמִשִּׁים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "three",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "ות'לאת'",
+        "en": "hundred.",
+        "he": "וּשְׁלֹשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "14": [
       {
-        "ja": "ואלי' גאנבה סבט גד",
-        "en": "And beside him: the tribe of Gad",
-        "he": "וּמַטֵּה גָּד"
+        "ja": "ואלי' גאנבה",
+        "en": "And beside him:"
       },
       {
-        "ja": "ושריפהם. אליסף אבן רעואל",
-        "en": "and their noble is Eliasaph son of Reuel",
-        "he": "וְנָשִׂיא לִבְנֵי גָד אֶלְיָסָף בֶּן-רְעוּאֵל"
+        "ja": "סבט",
+        "en": "the tribe of",
+        "he": "וּמַטֵּה"
+      },
+      {
+        "ja": "גד",
+        "en": "Gad;",
+        "he": "גָּד"
+      },
+      {
+        "ja": "ושריפהם",
+        "en": "and their noble is",
+        "he": "וְנָשִׂיא לִבְנֵי גָד"
+      },
+      {
+        "ja": "אליסף",
+        "en": "Eliasaph",
+        "he": "אֶלְיָסָף"
+      },
+      {
+        "ja": "אבן רעואל",
+        "en": "son of Reuel.",
+        "he": "בֶּן-רְעוּאֵל"
       }
     ],
     "15": [
       {
-        "ja": "ועדד גישה. כ'מסה וארבעין אלפא. וסת מאיה וכ'מסין",
-        "en": "And the count of his host: forty-five thousand six hundred and fifty",
-        "he": "וּצְבָאוֹ וּפְקֻדֵיהֶם--חֲמִשָּׁה וְאַרְבָּעִים אֶלֶף וְשֵׁשׁ מֵאוֹת וַחֲמִשִּׁים"
+        "ja": "ועדד גישה",
+        "en": "And the count of his host:",
+        "he": "וּצְבָאוֹ"
+      },
+      {
+        "ja": "כ'מסה",
+        "en": "forty-five",
+        "he": "חֲמִשָּׁה"
+      },
+      {
+        "ja": "וארבעין",
+        "en": "thousand",
+        "he": "וְאַרְבָּעִים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "six",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וסת",
+        "en": "hundred",
+        "he": "וְשֵׁשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "and fifty.",
+        "he": "מֵאוֹת"
+      },
+      {
+        "ja": "וכ'מסין",
+        "en": "",
+        "he": "וַחֲמִשִּׁים"
       }
     ],
     "16": [
       {
-        "ja": "פד'אלך גמיע עדד עסכר ראובן",
-        "en": "That, then, is the whole count of the camp of Reuben",
-        "he": "כָּל-הַפְּקֻדִים לְמַחֲנֵה רְאוּבֵן"
+        "ja": "פד'אלך",
+        "en": "That, then, is"
       },
       {
-        "ja": "מאיה וואחד וכ'מסין לגיושהם",
-        "en": "a hundred and fifty-one thousand, and four hundred and fifty, by their hosts",
-        "he": "מְאַת אֶלֶף וְאֶחָד וַחֲמִשִּׁים אֶלֶף וְאַרְבַּע-מֵאוֹת וַחֲמִשִּׁים--לְצִבְאֹתָם"
+        "ja": "גמיע עדד",
+        "en": "the whole count of",
+        "he": "כָּל-הַפְּקֻדִים"
       },
       {
-        "ja": "וירחלון ת'אניהם",
-        "en": "And they shall set out second",
-        "he": "וּשְׁנִיִּם יִסָּעוּ"
+        "ja": "עסכר",
+        "en": "the camp of",
+        "he": "לְמַחֲנֵה"
+      },
+      {
+        "ja": "ראובן",
+        "en": "Reuben:",
+        "he": "רְאוּבֵן"
+      },
+      {
+        "ja": "מאיה",
+        "en": "a hundred",
+        "he": "מְאַת אֶלֶף"
+      },
+      {
+        "ja": "וואחד",
+        "en": "and fifty-one",
+        "he": "וְאֶחָד"
+      },
+      {
+        "ja": "וכ'מסין",
+        "en": "thousand",
+        "he": "וַחֲמִשִּׁים אֶלֶף"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts.",
+        "he": "לְצִבְאֹתָם"
+      },
+      {
+        "ja": "ת'אניהם",
+        "en": "second.",
+        "he": "וּשְׁנִיִּם"
+      },
+      {
+        "ja": "וירחלון",
+        "en": "And they shall set out",
+        "he": "יִסָּעוּ"
       }
     ],
     "17": [
       {
-        "ja": "וירחל כ'בא אלמחצ'ר. עסכר אלליואניין פי וסט אלעסאכר",
-        "en": "And the tent of the Presence shall set out — the camp of the Levites in the midst of the camp",
-        "he": "וְנָסַע אֹהֶל-מוֹעֵד מַחֲנֵה הַלְוִיִּם בְּתוֹךְ הַמַּחֲנֹת"
+        "ja": "וירחל",
+        "en": "shall set out —",
+        "he": "וְנָסַע"
       },
       {
-        "ja": "וכמא הם נאזלין כד'אך ירחלון",
-        "en": "and as they encamp, so shall they set out",
-        "he": "כַּאֲשֶׁר יַחֲנוּ כֵּן יִסָּעוּ"
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of the Presence",
+        "he": "אֹהֶל-מוֹעֵד"
       },
       {
-        "ja": "כל פריק פי מכאנה ומרכזה",
-        "en": "each group in its place and its station",
-        "he": "אִישׁ עַל-יָדוֹ לְדִגְלֵיהֶם"
+        "ja": "עסכר אלליואניין",
+        "en": "the camp of the Levites",
+        "he": "מַחֲנֵה הַלְוִיִּם"
+      },
+      {
+        "ja": "פי וסט",
+        "en": "in the midst of",
+        "he": "בְּתוֹךְ"
+      },
+      {
+        "ja": "אלעסאכר",
+        "en": "the camp;",
+        "he": "הַמַּחֲנֹת"
+      },
+      {
+        "ja": "וכמא",
+        "en": "and as",
+        "he": "כַּאֲשֶׁר"
+      },
+      {
+        "ja": "נאזלין",
+        "en": "they encamp,",
+        "he": "יַחֲנוּ"
+      },
+      {
+        "ja": "הם",
+        "en": "so"
+      },
+      {
+        "ja": "כד'אך ירחלון",
+        "en": "shall they set out,",
+        "he": "כֵּן יִסָּעוּ"
+      },
+      {
+        "ja": "כל פריק",
+        "en": "each group",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "פי מכאנה",
+        "en": "in its place",
+        "he": "עַל-יָדוֹ"
+      },
+      {
+        "ja": "ומרכזה",
+        "en": "and its station.",
+        "he": "לְדִגְלֵיהֶם"
       }
     ],
     "18": [
       {
-        "ja": "מרכז עסכר אפרים. לגיושהם פי אלמג'רב",
-        "en": "The station of the camp of Ephraim, by their hosts, in the west",
-        "he": "דֶּגֶל מַחֲנֵה אֶפְרַיִם לְצִבְאֹתָם יָמָּה"
+        "ja": "מרכז",
+        "en": "The station of",
+        "he": "דֶּגֶל"
       },
       {
-        "ja": "ושריפהם. אלישמע אבן עמיהוד",
-        "en": "and their noble is Elishama son of Ammihud",
-        "he": "וְנָשִׂיא לִבְנֵי אֶפְרַיִם אֱלִישָׁמָע בֶּן-עַמִּיהוּד"
+        "ja": "עסכר",
+        "en": "the camp of",
+        "he": "מַחֲנֵה"
+      },
+      {
+        "ja": "אפרים",
+        "en": "Ephraim,",
+        "he": "אֶפְרַיִם"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts,",
+        "he": "לְצִבְאֹתָם"
+      },
+      {
+        "ja": "פי אלמג'רב",
+        "en": "in the west;",
+        "he": "יָמָּה"
+      },
+      {
+        "ja": "ושריפהם",
+        "en": "and their noble is",
+        "he": "וְנָשִׂיא לִבְנֵי אֶפְרַיִם"
+      },
+      {
+        "ja": "אלישמע",
+        "en": "Elishama",
+        "he": "אֱלִישָׁמָע"
+      },
+      {
+        "ja": "אבן עמיהוד",
+        "en": "son of Ammihud.",
+        "he": "בֶּן-עַמִּיהוּד"
       }
     ],
     "19": [
       {
-        "ja": "ועדד גישה. ארבעין אלפא וכ'מס מאיה",
-        "en": "And the count of his host: forty thousand five hundred",
-        "he": "וּצְבָאוֹ וּפְקֻדֵיהֶם--אַרְבָּעִים אֶלֶף וַחֲמֵשׁ מֵאוֹת"
+        "ja": "ועדד גישה",
+        "en": "And the count of his host:",
+        "he": "וּצְבָאוֹ"
+      },
+      {
+        "ja": "ארבעין",
+        "en": "forty",
+        "he": "אַרְבָּעִים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "thousand",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וכ'מס",
+        "en": "five",
+        "he": "וַחֲמֵשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "hundred.",
+        "he": "מֵאוֹת"
       }
     ],
     "20": [
       {
-        "ja": "אלי' גאנבה סבט מנשה",
-        "en": "Beside him: the tribe of Manasseh",
-        "he": "וְעָלָיו מַטֵּה מְנַשֶּׁה"
+        "ja": "אלי' גאנבה",
+        "en": "Beside him:",
+        "he": "וְעָלָיו"
       },
       {
-        "ja": "ושריפהם. גמליאל אבן פדהצור",
-        "en": "and their noble is Gamaliel son of Pedahzur",
-        "he": "וְנָשִׂיא לִבְנֵי מְנַשֶּׁה גַּמְלִיאֵל בֶּן-פְּדָהצוּר"
+        "ja": "סבט",
+        "en": "the tribe of",
+        "he": "מַטֵּה"
+      },
+      {
+        "ja": "מנשה",
+        "en": "Manasseh;",
+        "he": "מְנַשֶּׁה"
+      },
+      {
+        "ja": "ושריפהם",
+        "en": "and their noble is",
+        "he": "וְנָשִׂיא לִבְנֵי מְנַשֶּׁה"
+      },
+      {
+        "ja": "גמליאל",
+        "en": "Gamaliel",
+        "he": "גַּמְלִיאֵל"
+      },
+      {
+        "ja": "אבן פדהצור",
+        "en": "son of Pedahzur.",
+        "he": "בֶּן-פְּדָהצוּר"
       }
     ],
     "21": [
       {
-        "ja": "ועדד גישה. וסתין ותלאת'ין אלפא ומאיתין",
-        "en": "And the count of his host: thirty-two thousand two hundred",
-        "he": "וּצְבָאוֹ וּפְקֻדֵיהֶם--שְׁנַיִם וּשְׁלֹשִׁים אֶלֶף וּמָאתָיִם"
+        "ja": "ועדד גישה",
+        "en": "And the count of his host:",
+        "he": "וּצְבָאוֹ"
+      },
+      {
+        "ja": "וסתין",
+        "en": "thirty-two",
+        "he": "שְׁנַיִם"
+      },
+      {
+        "ja": "ותלאת'ין",
+        "en": "thousand",
+        "he": "וּשְׁלֹשִׁים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "two",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "ומאיתין",
+        "en": "hundred.",
+        "he": "וּמָאתָיִם"
       }
     ],
     "22": [
       {
-        "ja": "ואלי' גאנבה סבט בנימין",
-        "en": "And beside him: the tribe of Benjamin",
-        "he": "וּמַטֵּה בִּנְיָמִן"
+        "ja": "ואלי' גאנבה",
+        "en": "And beside him:"
       },
       {
-        "ja": "ושריפהם. אבידן אבן גדעוני",
-        "en": "and their noble is Abidan son of Gideoni",
-        "he": "וְנָשִׂיא לִבְנֵי בִנְיָמִן אֲבִידָן בֶּן-גִּדְעֹנִי"
+        "ja": "סבט",
+        "en": "the tribe of",
+        "he": "וּמַטֵּה"
+      },
+      {
+        "ja": "בנימין",
+        "en": "Benjamin;",
+        "he": "בִּנְיָמִן"
+      },
+      {
+        "ja": "ושריפהם",
+        "en": "and their noble is",
+        "he": "וְנָשִׂיא לִבְנֵי בִנְיָמִן"
+      },
+      {
+        "ja": "אבידן",
+        "en": "Abidan",
+        "he": "אֲבִידָן"
+      },
+      {
+        "ja": "אבן גדעוני",
+        "en": "son of Gideoni.",
+        "he": "בֶּן-גִּדְעֹנִי"
       }
     ],
     "23": [
       {
-        "ja": "ועדד גישה. כ'מסה ותלאת'ין אלפא וארבע מאיה",
-        "en": "And the count of his host: thirty-five thousand four hundred",
-        "he": "וּצְבָאוֹ וּפְקֻדֵיהֶם--חֲמִשָּׁה וּשְׁלֹשִׁים אֶלֶף וְאַרְבַּע מֵאוֹת"
+        "ja": "ועדד גישה",
+        "en": "And the count of his host:",
+        "he": "וּצְבָאוֹ"
+      },
+      {
+        "ja": "כ'מסה",
+        "en": "thirty-five",
+        "he": "חֲמִשָּׁה"
+      },
+      {
+        "ja": "ותלאת'ין",
+        "en": "thousand",
+        "he": "וּשְׁלֹשִׁים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "four",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וארבע",
+        "en": "hundred.",
+        "he": "וְאַרְבַּע"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "24": [
       {
-        "ja": "פד'אלך גמיע עדד עסכר אפרים",
-        "en": "That, then, is the whole count of the camp of Ephraim",
-        "he": "כָּל-הַפְּקֻדִים לְמַחֲנֵה אֶפְרַיִם"
+        "ja": "פד'אלך",
+        "en": "That, then, is"
       },
       {
-        "ja": "מאיה' אלף ותמאניה' אלאף ומאיה לגיושהם",
-        "en": "a hundred thousand and eight thousand and a hundred, by their hosts",
-        "he": "מְאַת אֶלֶף וּשְׁמֹנַת-אֲלָפִים וּמֵאָה--לְצִבְאֹתָם"
+        "ja": "גמיע עדד",
+        "en": "the whole count of",
+        "he": "כָּל-הַפְּקֻדִים"
       },
       {
-        "ja": "וירחלון ת'אלת'הם",
-        "en": "And they shall set out third",
-        "he": "וּשְׁלִשִׁים יִסָּעוּ"
+        "ja": "עסכר",
+        "en": "the camp of",
+        "he": "לְמַחֲנֵה"
+      },
+      {
+        "ja": "אפרים",
+        "en": "Ephraim:",
+        "he": "אֶפְרַיִם"
+      },
+      {
+        "ja": "מאיה'",
+        "en": "a hundred",
+        "he": "מְאַת"
+      },
+      {
+        "ja": "אלף",
+        "en": "thousand",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "ותמאניה' אלאף",
+        "en": "and eight thousand",
+        "he": "וּשְׁמֹנַת-אֲלָפִים"
+      },
+      {
+        "ja": "ומאיה",
+        "en": "and a hundred,",
+        "he": "וּמֵאָה"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts.",
+        "he": "לְצִבְאֹתָם"
+      },
+      {
+        "ja": "ת'אלת'הם",
+        "en": "third.",
+        "he": "וּשְׁלִשִׁים"
+      },
+      {
+        "ja": "וירחלון",
+        "en": "And they shall set out",
+        "he": "יִסָּעוּ"
       }
     ],
     "25": [
       {
-        "ja": "ומרכז עסכר דן. פי אלשמאל לגיושהם",
-        "en": "And the station of the camp of Dan, in the north, by their hosts",
-        "he": "דֶּגֶל מַחֲנֵה דָן צָפֹנָה לְצִבְאֹתָם"
+        "ja": "ומרכז",
+        "en": "And the station of"
       },
       {
-        "ja": "ושריפהם. אחיעזר אבן עמישדי",
-        "en": "and their noble is Ahiezer son of Ammishaddai",
-        "he": "וְנָשִׂיא לִבְנֵי דָן אֲחִיעֶזֶר בֶּן-עַמִּישַׁדָּי"
+        "ja": "עסכר",
+        "en": "the camp of",
+        "he": "מַחֲנֵה"
+      },
+      {
+        "ja": "דן",
+        "en": "Dan,",
+        "he": "דָן"
+      },
+      {
+        "ja": "פי אלשמאל",
+        "en": "in the north,",
+        "he": "צָפֹנָה"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts;",
+        "he": "לְצִבְאֹתָם"
+      },
+      {
+        "ja": "ושריפהם",
+        "en": "and their noble is",
+        "he": "וְנָשִׂיא לִבְנֵי דָן"
+      },
+      {
+        "ja": "אחיעזר",
+        "en": "Ahiezer",
+        "he": "אֲחִיעֶזֶר"
+      },
+      {
+        "ja": "אבן עמישדי",
+        "en": "son of Ammishaddai.",
+        "he": "בֶּן-עַמִּישַׁדָּי"
       }
     ],
     "26": [
       {
-        "ja": "ועדד גישה את'נין וסתין אלפא וסבע מאיה",
-        "en": "And the count of his host: sixty-two thousand seven hundred",
-        "he": "וּצְבָאוֹ וּפְקֻדֵיהֶם--שְׁנַיִם וְשִׁשִּׁים אֶלֶף וּשְׁבַע מֵאוֹת"
+        "ja": "ועדד גישה",
+        "en": "And the count of his host:",
+        "he": "וּצְבָאוֹ"
+      },
+      {
+        "ja": "את'נין",
+        "en": "sixty-two",
+        "he": "שְׁנַיִם"
+      },
+      {
+        "ja": "וסתין",
+        "en": "thousand",
+        "he": "וְשִׁשִּׁים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "seven",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וסבע",
+        "en": "hundred.",
+        "he": "וּשְׁבַע"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "27": [
       {
-        "ja": "ואלנאזלין אלי' גאנבה סבט אשר",
-        "en": "And those encamping beside him: the tribe of Asher",
-        "he": "וְהַחֹנִים עָלָיו מַטֵּה אָשֵׁר"
+        "ja": "ואלנאזלין",
+        "en": "And those encamping",
+        "he": "וְהַחֹנִים"
       },
       {
-        "ja": "ושריפהם. פגעיאל אבן עכרן",
-        "en": "and their noble is Pagiel son of Ochran",
-        "he": "וְנָשִׂיא לִבְנֵי אָשֵׁר פַּגְעִיאֵל בֶּן-עָכְרָן"
+        "ja": "אלי' גאנבה",
+        "en": "beside him:",
+        "he": "עָלָיו"
+      },
+      {
+        "ja": "סבט",
+        "en": "the tribe of",
+        "he": "מַטֵּה"
+      },
+      {
+        "ja": "אשר",
+        "en": "Asher;",
+        "he": "אָשֵׁר"
+      },
+      {
+        "ja": "ושריפהם",
+        "en": "and their noble is",
+        "he": "וְנָשִׂיא לִבְנֵי אָשֵׁר"
+      },
+      {
+        "ja": "פגעיאל",
+        "en": "Pagiel",
+        "he": "פַּגְעִיאֵל"
+      },
+      {
+        "ja": "אבן עכרן",
+        "en": "son of Ochran.",
+        "he": "בֶּן-עָכְרָן"
       }
     ],
     "28": [
       {
-        "ja": "ועדד גישה. ואחד וארבעין אלפא וכ'מס מאיה",
-        "en": "And the count of his host: forty-one thousand five hundred",
-        "he": "וּצְבָאוֹ וּפְקֻדֵיהֶם--אֶחָד וְאַרְבָּעִים אֶלֶף וַחֲמֵשׁ מֵאוֹת"
+        "ja": "ועדד גישה",
+        "en": "And the count of his host:",
+        "he": "וּצְבָאוֹ"
+      },
+      {
+        "ja": "ואחד",
+        "en": "forty-one",
+        "he": "אֶחָד"
+      },
+      {
+        "ja": "וארבעין",
+        "en": "thousand",
+        "he": "וְאַרְבָּעִים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "five",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וכ'מס",
+        "en": "hundred.",
+        "he": "וַחֲמֵשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "29": [
       {
-        "ja": "ואלי' גאנבה סבט נפתלי",
-        "en": "And beside him: the tribe of Naphtali",
-        "he": "וּמַטֵּה נַפְתָּלִי"
+        "ja": "ואלי' גאנבה",
+        "en": "And beside him:"
       },
       {
-        "ja": "ושריפהם. אחירע אבן עינן",
-        "en": "and their noble is Ahira son of Enan",
-        "he": "וְנָשִׂיא לִבְנֵי נַפְתָּלִי אֲחִירַע בֶּן-עֵינָן"
+        "ja": "סבט",
+        "en": "the tribe of",
+        "he": "וּמַטֵּה"
+      },
+      {
+        "ja": "נפתלי",
+        "en": "Naphtali;",
+        "he": "נַפְתָּלִי"
+      },
+      {
+        "ja": "ושריפהם",
+        "en": "and their noble is",
+        "he": "וְנָשִׂיא לִבְנֵי נַפְתָּלִי"
+      },
+      {
+        "ja": "אחירע",
+        "en": "Ahira",
+        "he": "אֲחִירַע"
+      },
+      {
+        "ja": "אבן עינן",
+        "en": "son of Enan.",
+        "he": "בֶּן-עֵינָן"
       }
     ],
     "31": [
       {
-        "ja": "פד'אלך גמיע עדד עסכר דן",
-        "en": "That, then, is the whole count of the camp of Dan",
-        "he": "כָּל-הַפְּקֻדִים לְמַחֲנֵה דָן"
+        "ja": "פד'אלך",
+        "en": "That, then, is"
       },
       {
-        "ja": "מאיה וסבעה וכ'מסין אלפא וסת מאיה",
-        "en": "a hundred and fifty-seven thousand six hundred",
-        "he": "מְאַת אֶלֶף וְשִׁבְעָה וַחֲמִשִּׁים אֶלֶף וְשֵׁשׁ מֵאוֹת"
+        "ja": "גמיע עדד",
+        "en": "the whole count of",
+        "he": "כָּל-הַפְּקֻדִים"
       },
       {
-        "ja": "וירחלון אכ'רא לגיושהם",
-        "en": "And they shall set out last, by their hosts",
-        "he": "לָאַחֲרֹנָה יִסְעוּ לְדִגְלֵיהֶם"
+        "ja": "עסכר",
+        "en": "the camp of",
+        "he": "לְמַחֲנֵה"
+      },
+      {
+        "ja": "דן",
+        "en": "Dan:",
+        "he": "דָן"
+      },
+      {
+        "ja": "מאיה",
+        "en": "a hundred",
+        "he": "מְאַת"
+      },
+      {
+        "ja": "וסבעה",
+        "en": "and fifty-seven",
+        "he": "וְשִׁבְעָה"
+      },
+      {
+        "ja": "וכ'מסין אלפא",
+        "en": "thousand",
+        "he": "וַחֲמִשִּׁים אֶלֶף"
+      },
+      {
+        "ja": "וסת",
+        "en": "six",
+        "he": "וְשֵׁשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "hundred.",
+        "he": "מֵאוֹת"
+      },
+      {
+        "ja": "אכ'רא",
+        "en": "last,",
+        "he": "לָאַחֲרֹנָה"
+      },
+      {
+        "ja": "וירחלון",
+        "en": "And they shall set out",
+        "he": "יִסְעוּ"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts.",
+        "he": "לְדִגְלֵיהֶם"
       }
     ],
     "32": [
       {
-        "ja": "הולאי מעדודי בני אסראיל לביות אבאיהם",
-        "en": "These are those counted of the sons of Israel, by their fathers' houses",
-        "he": "אֵלֶּה פְּקוּדֵי בְנֵי-יִשְׂרָאֵל לְבֵית אֲבֹתָם"
+        "ja": "הולאי",
+        "en": "These are",
+        "he": "אֵלֶּה"
       },
       {
-        "ja": "גמלה עדד אלעסכר לגיושהם",
-        "en": "the total count of the camp, by their hosts",
-        "he": "כָּל-פְּקוּדֵי הַמַּחֲנֹת לְצִבְאֹתָם"
+        "ja": "מעדודי",
+        "en": "those counted of",
+        "he": "פְּקוּדֵי"
       },
       {
-        "ja": "סת מאיה' אלף ות'לאתה' אלאף. וכ'מס מאיה וכ'מסין",
-        "en": "six hundred thousand and three thousand, five hundred and fifty",
-        "he": "שֵׁשׁ-מֵאוֹת אֶלֶף וּשְׁלֹשֶׁת אֲלָפִים וַחֲמֵשׁ מֵאוֹת וַחֲמִשִּׁים"
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel,",
+        "he": "בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "לביות אבאיהם",
+        "en": "by their fathers' houses;",
+        "he": "לְבֵית אֲבֹתָם"
+      },
+      {
+        "ja": "גמלה עדד",
+        "en": "the total count of",
+        "he": "כָּל-פְּקוּדֵי"
+      },
+      {
+        "ja": "אלעסכר",
+        "en": "the camp,",
+        "he": "הַמַּחֲנֹת"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts:",
+        "he": "לְצִבְאֹתָם"
+      },
+      {
+        "ja": "סת מאיה'",
+        "en": "six hundred",
+        "he": "שֵׁשׁ-מֵאוֹת"
+      },
+      {
+        "ja": "אלף",
+        "en": "thousand",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "ות'לאתה'",
+        "en": "and three",
+        "he": "וּשְׁלֹשֶׁת"
+      },
+      {
+        "ja": "אלאף",
+        "en": "thousand,",
+        "he": "אֲלָפִים"
+      },
+      {
+        "ja": "וכ'מס",
+        "en": "five",
+        "he": "וַחֲמֵשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "hundred",
+        "he": "מֵאוֹת"
+      },
+      {
+        "ja": "וכ'מסין",
+        "en": "and fifty.",
+        "he": "וַחֲמִשִּׁים"
       }
     ],
     "33": [
       {
-        "ja": "ואמא אלליואניין. לם יחצו פי גמלה בני אסראיל",
-        "en": "As for the Levites, they were not counted in the total of the sons of Israel",
-        "he": "וְהַלְוִיִּם--לֹא הָתְפָּקְדוּ בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
+        "ja": "ואמא",
+        "en": "As for"
       },
       {
-        "ja": "כמא אמר אללה מוסי'",
-        "en": "as God had commanded Moses",
-        "he": "כַּאֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה"
+        "ja": "אלליואניין",
+        "en": "the Levites,",
+        "he": "וְהַלְוִיִּם"
+      },
+      {
+        "ja": "לם יחצו",
+        "en": "they were not counted",
+        "he": "לֹא הָתְפָּקְדוּ"
+      },
+      {
+        "ja": "פי גמלה",
+        "en": "in the total of",
+        "he": "בְּתוֹךְ"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel,",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "כמא",
+        "en": "as",
+        "he": "כַּאֲשֶׁר"
+      },
+      {
+        "ja": "אמר",
+        "en": "had commanded",
+        "he": "צִוָּה"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses.",
+        "he": "אֶת-מֹשֶׁה"
       }
     ],
     "34": [
       {
-        "ja": "ת'ם צנע בני אסראיל. כמא אמר אללה מוסי'",
-        "en": "And then the sons of Israel did as God had commanded Moses",
-        "he": "וַיַּעֲשׂוּ בְּנֵי יִשְׂרָאֵל כְּכֹל אֲשֶׁר-צִוָּה יְהוָה אֶת-מֹשֶׁה"
+        "ja": "ת'ם",
+        "en": "And then"
       },
       {
-        "ja": "כד'אך נזלו פי מראכזהם וכד'אך רחלו",
-        "en": "thus they encamped in their stations, and thus they set out",
-        "he": "כֵּן-חָנוּ לְדִגְלֵיהֶם וְכֵן נָסָעוּ"
+        "ja": "צנע",
+        "en": "did",
+        "he": "וַיַּעֲשׂוּ"
       },
       {
-        "ja": "כל סבט לעשאירה עלי' ביות אבאיהם",
-        "en": "each tribe by their clans, according to their fathers' houses",
-        "he": "אִישׁ לְמִשְׁפְּחֹתָיו עַל-בֵּית אֲבֹתָיו"
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "כמא",
+        "en": "as",
+        "he": "כְּכֹל אֲשֶׁר-"
+      },
+      {
+        "ja": "אמר",
+        "en": "had commanded",
+        "he": "צִוָּה"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses:",
+        "he": "אֶת-מֹשֶׁה"
+      },
+      {
+        "ja": "כד'אך נזלו",
+        "en": "thus they encamped",
+        "he": "כֵּן-חָנוּ"
+      },
+      {
+        "ja": "פי מראכזהם",
+        "en": "in their stations,",
+        "he": "לְדִגְלֵיהֶם"
+      },
+      {
+        "ja": "וכד'אך רחלו",
+        "en": "and thus they set out —",
+        "he": "וְכֵן נָסָעוּ"
+      },
+      {
+        "ja": "כל סבט",
+        "en": "each tribe",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "לעשאירה",
+        "en": "by their clans,",
+        "he": "לְמִשְׁפְּחֹתָיו"
+      },
+      {
+        "ja": "עלי' ביות אבאיהם",
+        "en": "according to their fathers' houses.",
+        "he": "עַל-בֵּית אֲבֹתָיו"
       }
     ],
     "36": [
       {
-        "ja": "ועדד גישה. ת'לאת'ה וכ'מסין אלפא וארבע מאיה",
-        "en": "And the count of his host: fifty-three thousand four hundred",
-        "he": "ּצְבָאוֹ וּפְקֻדֵיהֶם--שְׁלֹשָׁה וַחֲמִשִּׁים אֶלֶף וְאַרְבַּע מֵאוֹת"
+        "ja": "ועדד גישה",
+        "en": "And the count of his host:",
+        "he": "ּצְבָאוֹ"
+      },
+      {
+        "ja": "ת'לאת'ה",
+        "en": "fifty-three",
+        "he": "שְׁלֹשָׁה"
+      },
+      {
+        "ja": "וכ'מסין",
+        "en": "thousand",
+        "he": "וַחֲמִשִּׁים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "four",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וארבע",
+        "en": "hundred.",
+        "he": "וְאַרְבַּע"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ]
   }
