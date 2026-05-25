@@ -1,658 +1,2301 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 3. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_3.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 3. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_3.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "והדא נסבה' קום הרון ומוסי'",
-        "en": "And this is the lineage of the people of Aaron and Moses",
-        "he": "וְאֵלֶּה תּוֹלְדֹת אַהֲרֹן וּמֹשֶׁה"
+        "ja": "והדא",
+        "en": "And this is",
+        "he": "וְאֵלֶּה"
       },
       {
-        "ja": "פי וקת כ'אטב אללה מוסי' פי גבל סיני",
-        "en": "at the time God spoke to Moses on Mount Sinai",
-        "he": "בְּיוֹם דִּבֶּר יְהוָה אֶת-מֹשֶׁה--בְּהַר סִינָי"
+        "ja": "נסבה'",
+        "en": "the lineage of",
+        "he": "תּוֹלְדֹת"
+      },
+      {
+        "ja": "קום",
+        "en": "the people of"
+      },
+      {
+        "ja": "הרון",
+        "en": "Aaron",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "ומוסי'",
+        "en": "and Moses,",
+        "he": "וּמֹשֶׁה"
+      },
+      {
+        "ja": "פי וקת",
+        "en": "at the time",
+        "he": "בְּיוֹם"
+      },
+      {
+        "ja": "כ'אטב",
+        "en": "spoke",
+        "he": "דִּבֶּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶת-מֹשֶׁה"
+      },
+      {
+        "ja": "פי גבל",
+        "en": "on Mount",
+        "he": "בְּהַר"
+      },
+      {
+        "ja": "סיני",
+        "en": "Sinai.",
+        "he": "סִינָי"
       }
     ],
     "2": [
       {
-        "ja": "והד'ה אסמא בני הרון",
-        "en": "And these are the names of the sons of Aaron",
-        "he": "וְאֵלֶּה שְׁמוֹת בְּנֵי-אַהֲרֹן"
+        "ja": "והד'ה",
+        "en": "And these are",
+        "he": "וְאֵלֶּה"
       },
       {
-        "ja": "אלבכר נדב. ואביהוא. אלעזר ואיתמר",
-        "en": "the firstborn Nadab, and Abihu, Eleazar, and Itamar",
-        "he": "הַבְּכֹר נָדָב וַאֲבִיהוּא אֶלְעָזָר וְאִיתָמָר"
+        "ja": "אסמא",
+        "en": "the names of",
+        "he": "שְׁמוֹת"
+      },
+      {
+        "ja": "בני הרון",
+        "en": "the sons of Aaron:",
+        "he": "בְּנֵי-אַהֲרֹן"
+      },
+      {
+        "ja": "אלבכר",
+        "en": "the firstborn",
+        "he": "הַבְּכֹר"
+      },
+      {
+        "ja": "נדב",
+        "en": "Nadab,",
+        "he": "נָדָב"
+      },
+      {
+        "ja": "ואביהוא",
+        "en": "and Abihu,",
+        "he": "וַאֲבִיהוּא"
+      },
+      {
+        "ja": "אלעזר",
+        "en": "Eleazar,",
+        "he": "אֶלְעָזָר"
+      },
+      {
+        "ja": "ואיתמר",
+        "en": "and Itamar.",
+        "he": "וְאִיתָמָר"
       }
     ],
     "3": [
       {
-        "ja": "הד'ה אסמא בני הרון. אלאימה אלממסוחין",
-        "en": "These are the names of the sons of Aaron — the anointed imāms",
-        "he": "אֵלֶּה שְׁמוֹת בְּנֵי אַהֲרֹן הַכֹּהֲנִים הַמְּשֻׁחִים"
+        "ja": "הד'ה",
+        "en": "These are",
+        "he": "אֵלֶּה"
       },
       {
-        "ja": "אלד'י כמל ואגבהם לאלאמאמה",
-        "en": "whose obligation to the imāmate was fulfilled",
-        "he": "אֲשֶׁר-מִלֵּא יָדָם לְכַהֵן"
+        "ja": "אסמא",
+        "en": "the names of",
+        "he": "שְׁמוֹת"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "הרון",
+        "en": "Aaron —",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "אלאימה",
+        "en": "the anointed",
+        "he": "הַכֹּהֲנִים"
+      },
+      {
+        "ja": "אלממסוחין",
+        "en": "imāms,",
+        "he": "הַמְּשֻׁחִים"
+      },
+      {
+        "ja": "אלד'י כמל",
+        "en": "whose obligation to",
+        "he": "אֲשֶׁר-מִלֵּא"
+      },
+      {
+        "ja": "ואגבהם",
+        "en": "the imāmate was",
+        "he": "יָדָם"
+      },
+      {
+        "ja": "לאלאמאמה",
+        "en": "fulfilled.",
+        "he": "לְכַהֵן"
       }
     ],
     "4": [
       {
-        "ja": "פמאת נדב ואביהוא. במא קרבא נארא ג'ריבה. בין ידי אללה",
-        "en": "And Nadab and Abihu died, because they offered a strange fire before God",
-        "he": "וַיָּמָת נָדָב וַאֲבִיהוּא לִפְנֵי יְהוָה"
+        "ja": "פמאת נדב",
+        "en": "And Nadab and Abihu died,",
+        "he": "וַיָּמָת נָדָב"
       },
       {
-        "ja": "פי ברייה' סיני. ולם יכון להם בנין",
-        "en": "in the wilderness of Sinai, and they had no sons",
-        "he": "בְּמִדְבַּר סִינַי וּבָנִים לֹא-הָיוּ לָהֶם"
+        "ja": "ואביהוא",
+        "en": "because they offered a strange fire",
+        "he": "וַאֲבִיהוּא"
       },
       {
-        "ja": "ואם אלעזר ואיתמר. בחצ'רה' הרון אביהמא",
-        "en": "and Eleazar and Itamar served in the presence of Aaron their father",
-        "he": "וַיְכַהֵן אֶלְעָזָר וְאִיתָמָר עַל-פְּנֵי אַהֲרֹן אֲבִיהֶם"
+        "ja": "במא קרבא נארא ג'ריבה",
+        "en": "before God",
+        "he": "בְּהַקְרִבָם אֵשׁ זָרָה"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "in the wilderness of Sinai,",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "פי ברייה' סיני",
+        "en": "and they had no sons;",
+        "he": "בְּמִדְבַּר סִינַי"
+      },
+      {
+        "ja": "ולם יכון להם בנין",
+        "en": "and Eleazar and Itamar served",
+        "he": "וּבָנִים לֹא-הָיוּ לָהֶם"
+      },
+      {
+        "ja": "ואם אלעזר ואיתמר",
+        "en": "in the presence of",
+        "he": "וַיְכַהֵן אֶלְעָזָר וְאִיתָמָר"
+      },
+      {
+        "ja": "בחצ'רה'",
+        "en": "Aaron",
+        "he": "עַל-פְּנֵי"
+      },
+      {
+        "ja": "הרון",
+        "en": "their",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "אביהמא",
+        "en": "father.",
+        "he": "אֲבִיהֶם"
       }
     ],
     "5": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses in speech",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "in speech."
       }
     ],
     "6": [
       {
-        "ja": "קדם סבט לוי",
-        "en": "Bring forward the tribe of Levi",
-        "he": "הַקְרֵב אֶת-מַטֵּה לֵוִי"
+        "ja": "קדם",
+        "en": "Bring forward",
+        "he": "הַקְרֵב"
       },
       {
-        "ja": "ואוקפה. בין ידי הרון אלאמאם",
-        "en": "and station them before Aaron the imām",
-        "he": "וְהַעֲמַדְתָּ אֹתוֹ לִפְנֵי אַהֲרֹן הַכֹּהֵן"
+        "ja": "סבט",
+        "en": "the tribe of",
+        "he": "אֶת-מַטֵּה"
+      },
+      {
+        "ja": "לוי",
+        "en": "Levi,",
+        "he": "לֵוִי"
+      },
+      {
+        "ja": "ואוקפה",
+        "en": "and station them",
+        "he": "וְהַעֲמַדְתָּ אֹתוֹ"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "הרון",
+        "en": "Aaron",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "the imām,",
+        "he": "הַכֹּהֵן"
       },
       {
         "ja": "פיכ'דמוה",
-        "en": "that they may serve him",
+        "en": "that they may serve him.",
         "he": "וְשֵׁרְתוּ אֹתוֹ"
       }
     ],
     "7": [
       {
-        "ja": "ויחפצ'ו [מחפט'ה[ מחפצ'ה. ומחפץ' אלגמאעה",
-        "en": "And they shall keep his charge and the charge of the congregation",
-        "he": "וְשָׁמְרוּ אֶת-מִשְׁמַרְתּוֹ וְאֶת-מִשְׁמֶרֶת כָּל-הָעֵדָה"
+        "ja": "ויחפצ'ו",
+        "en": "And they shall keep",
+        "he": "וְשָׁמְרוּ"
       },
       {
-        "ja": "בין ידי כ'בא אלמחצ'ר",
-        "en": "before the tent of the assembly",
-        "he": "לִפְנֵי אֹהֶל מוֹעֵד"
+        "ja": "[מחפט'ה[ מחפצ'ה",
+        "en": "his charge",
+        "he": "אֶת-מִשְׁמַרְתּוֹ"
       },
       {
-        "ja": "ויכ'דמון כ'דמה' אלמסכן",
-        "en": "and shall perform the service of the tabernacle",
-        "he": "לַעֲבֹד אֶת-עֲבֹדַת הַמִּשְׁכָּן"
+        "ja": "ומחפץ'",
+        "en": "and the charge of",
+        "he": "וְאֶת-מִשְׁמֶרֶת"
+      },
+      {
+        "ja": "אלגמאעה",
+        "en": "the congregation,",
+        "he": "כָּל-הָעֵדָה"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "כ'בא",
+        "en": "the tent of",
+        "he": "אֹהֶל"
+      },
+      {
+        "ja": "אלמחצ'ר",
+        "en": "the assembly,",
+        "he": "מוֹעֵד"
+      },
+      {
+        "ja": "ויכ'דמון",
+        "en": "and shall perform",
+        "he": "לַעֲבֹד"
+      },
+      {
+        "ja": "כ'דמה'",
+        "en": "the service of",
+        "he": "אֶת-עֲבֹדַת"
+      },
+      {
+        "ja": "אלמסכן",
+        "en": "the tabernacle.",
+        "he": "הַמִּשְׁכָּן"
       }
     ],
     "8": [
       {
-        "ja": "ויחפצ'ו גמיע אניה' כ'בא אלמחצ'ר",
-        "en": "And they shall keep all the vessels of the tent of the assembly",
-        "he": "וְשָׁמְרוּ אֶת-כָּל-כְּלֵי אֹהֶל מוֹעֵד"
+        "ja": "ויחפצ'ו",
+        "en": "And they shall keep",
+        "he": "וְשָׁמְרוּ"
       },
       {
-        "ja": "ומחפץ' בני אסראיל",
-        "en": "and the charge of the sons of Israel",
-        "he": "וְאֶת-מִשְׁמֶרֶת בְּנֵי יִשְׂרָאֵל"
+        "ja": "גמיע אניה'",
+        "en": "all the vessels of",
+        "he": "אֶת-כָּל-כְּלֵי"
       },
       {
-        "ja": "ליכ'דמו כ'דמה' אלמסכן",
-        "en": "to perform the service of the tabernacle",
-        "he": "לַעֲבֹד אֶת-עֲבֹדַת הַמִּשְׁכָּן"
+        "ja": "כ'בא",
+        "en": "the tent of",
+        "he": "אֹהֶל"
+      },
+      {
+        "ja": "אלמחצ'ר",
+        "en": "the assembly,",
+        "he": "מוֹעֵד"
+      },
+      {
+        "ja": "ומחפץ'",
+        "en": "and the charge of",
+        "he": "וְאֶת-מִשְׁמֶרֶת"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel,",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ליכ'דמו",
+        "en": "to perform",
+        "he": "לַעֲבֹד"
+      },
+      {
+        "ja": "כ'דמה'",
+        "en": "the service of",
+        "he": "אֶת-עֲבֹדַת"
+      },
+      {
+        "ja": "אלמסכן",
+        "en": "the tabernacle.",
+        "he": "הַמִּשְׁכָּן"
       }
     ],
     "9": [
       {
-        "ja": "ואדפע אלליואניין. להרון ובניה",
-        "en": "And deliver the Levites to Aaron and his sons",
-        "he": "וְנָתַתָּה אֶת-הַלְוִיִּם לְאַהֲרֹן וּלְבָנָיו"
+        "ja": "ואדפע",
+        "en": "And deliver",
+        "he": "וְנָתַתָּה"
       },
       {
-        "ja": "מעטיין מסלמין הם לה. מן בני אסראיל",
-        "en": "given, entrusted they are to him, from the sons of Israel",
-        "he": "נְתוּנִם נְתוּנִם הֵמָּה לוֹ מֵאֵת בְּנֵי יִשְׂרָאֵל"
+        "ja": "אלליואניין",
+        "en": "the Levites",
+        "he": "אֶת-הַלְוִיִּם"
+      },
+      {
+        "ja": "להרון",
+        "en": "to Aaron",
+        "he": "לְאַהֲרֹן"
+      },
+      {
+        "ja": "ובניה",
+        "en": "and his sons —",
+        "he": "וּלְבָנָיו"
+      },
+      {
+        "ja": "מעטיין",
+        "en": "given,",
+        "he": "נְתוּנִם"
+      },
+      {
+        "ja": "מסלמין",
+        "en": "entrusted",
+        "he": "נְתוּנִם"
+      },
+      {
+        "ja": "הם",
+        "en": "they are",
+        "he": "הֵמָּה"
+      },
+      {
+        "ja": "לה",
+        "en": "to him,",
+        "he": "לוֹ"
+      },
+      {
+        "ja": "מן",
+        "en": "from",
+        "he": "מֵאֵת"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel.",
+        "he": "יִשְׂרָאֵל"
       }
     ],
     "10": [
       {
-        "ja": "והרון ובניה תוכל",
-        "en": "And Aaron and his sons you shall appoint",
-        "he": "וְאֶת-אַהֲרֹן וְאֶת-בָּנָיו תִּפְקֹד"
+        "ja": "והרון",
+        "en": "And Aaron",
+        "he": "וְאֶת-אַהֲרֹן"
       },
       {
-        "ja": "ויחפצ'ו אמאמתהם",
-        "en": "and they shall keep their imāmate",
-        "he": "וְשָׁמְרוּ אֶת-כְּהֻנָּתָם"
+        "ja": "ובניה",
+        "en": "and his sons",
+        "he": "וְאֶת-בָּנָיו"
       },
       {
-        "ja": "ואי אגנבי תקדם אלי'הא פליקתל",
-        "en": "and any outsider who approaches it shall be put to death",
-        "he": "וְהַזָּר הַקָּרֵב יוּמָת"
+        "ja": "תוכל",
+        "en": "you shall appoint,",
+        "he": "תִּפְקֹד"
+      },
+      {
+        "ja": "ויחפצ'ו",
+        "en": "and they shall keep",
+        "he": "וְשָׁמְרוּ"
+      },
+      {
+        "ja": "אמאמתהם",
+        "en": "their imāmate;",
+        "he": "אֶת-כְּהֻנָּתָם"
+      },
+      {
+        "ja": "ואי אגנבי",
+        "en": "and any outsider",
+        "he": "וְהַזָּר"
+      },
+      {
+        "ja": "תקדם",
+        "en": "who approaches",
+        "he": "הַקָּרֵב"
+      },
+      {
+        "ja": "פליקתל",
+        "en": "shall be put to death.",
+        "he": "יוּמָת"
       }
     ],
     "11": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses in speech",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "in speech."
       }
     ],
     "12": [
       {
-        "ja": "פאני קד שרפת אלליואניין. מן בין בני אסראיל",
-        "en": "For I have distinguished the Levites from among the sons of Israel",
-        "he": "וַאֲנִי הִנֵּה לָקַחְתִּי אֶת-הַלְוִיִּם מִתּוֹךְ בְּנֵי יִשְׂרָאֵל"
+        "ja": "פאני",
+        "en": "For I",
+        "he": "וַאֲנִי"
       },
       {
-        "ja": "בדל כל בכר. אוול בטן מן בני אסראיל",
-        "en": "in place of every firstborn, the first of the womb from the sons of Israel",
-        "he": "תַּחַת כָּל-בְּכוֹר פֶּטֶר רֶחֶם מִבְּנֵי יִשְׂרָאֵל"
+        "ja": "קד",
+        "en": "have",
+        "he": "הִנֵּה"
       },
       {
-        "ja": "פיצרו לי אלליואניין",
-        "en": "so the Levites shall be Mine",
-        "he": "וְהָיוּ לִי הַלְוִיִּם"
+        "ja": "שרפת",
+        "en": "distinguished",
+        "he": "לָקַחְתִּי"
+      },
+      {
+        "ja": "אלליואניין",
+        "en": "the Levites",
+        "he": "אֶת-הַלְוִיִּם"
+      },
+      {
+        "ja": "מן בין",
+        "en": "from among",
+        "he": "מִתּוֹךְ"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel,",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "בדל",
+        "en": "in place of",
+        "he": "תַּחַת"
+      },
+      {
+        "ja": "כל בכר",
+        "en": "every firstborn,",
+        "he": "כָּל-בְּכוֹר"
+      },
+      {
+        "ja": "אוול",
+        "en": "the first of the womb",
+        "he": "פֶּטֶר"
+      },
+      {
+        "ja": "בטן",
+        "en": "from the sons of Israel —",
+        "he": "רֶחֶם"
+      },
+      {
+        "ja": "מן בני אסראיל. פיצרו לי אלליואניין",
+        "en": "so the Levites shall be Mine.",
+        "he": "מִבְּנֵי יִשְׂרָאֵל וְהָיוּ לִי הַלְוִיִּם"
       }
     ],
     "13": [
       {
         "ja": "כמא לי כל בכר",
-        "en": "As all the firstborn are Mine",
+        "en": "As all the firstborn are Mine —",
         "he": "כִּי לִי כָּל-בְּכוֹר"
       },
       {
-        "ja": "פי יום אהלכת כל בכר פי בלד מצר. אקדסת לי כל בכר פי מא בין בני אסראיל",
-        "en": "on the day I destroyed every firstborn in the land of Egypt, I consecrated to Myself every firstborn among the sons of Israel",
-        "he": "בְּיוֹם הַכֹּתִי כָל-בְּכוֹר בְּאֶרֶץ מִצְרַיִם הִקְדַּשְׁתִּי לִי כָל-בְּכוֹר בְּיִשְׂרָאֵל"
+        "ja": "פי יום",
+        "en": "on the day",
+        "he": "בְּיוֹם"
       },
       {
-        "ja": "מן אנסאן אלי' בהימה כד'אך יציר לי הולאי אנא אללה שרפתהם",
-        "en": "from human to beast; thus shall these be Mine. I am God who distinguished them",
-        "he": "מֵאָדָם עַד-בְּהֵמָה לִי יִהְיוּ אֲנִי יְהוָה"
+        "ja": "אהלכת",
+        "en": "I destroyed",
+        "he": "הַכֹּתִי"
+      },
+      {
+        "ja": "כל בכר",
+        "en": "every firstborn",
+        "he": "כָל-בְּכוֹר"
+      },
+      {
+        "ja": "פי בלד",
+        "en": "in the land of",
+        "he": "בְּאֶרֶץ"
+      },
+      {
+        "ja": "מצר",
+        "en": "Egypt,",
+        "he": "מִצְרַיִם"
+      },
+      {
+        "ja": "אקדסת",
+        "en": "I consecrated",
+        "he": "הִקְדַּשְׁתִּי"
+      },
+      {
+        "ja": "לי",
+        "en": "to Myself every firstborn",
+        "he": "לִי"
+      },
+      {
+        "ja": "כל בכר",
+        "en": "among the sons of Israel,",
+        "he": "כָל-בְּכוֹר"
+      },
+      {
+        "ja": "פי מא בין בני אסראיל",
+        "en": "from human",
+        "he": "בְּיִשְׂרָאֵל"
+      },
+      {
+        "ja": "מן אנסאן",
+        "en": "to beast;",
+        "he": "מֵאָדָם"
+      },
+      {
+        "ja": "אלי' בהימה",
+        "en": "thus shall these be Mine.",
+        "he": "עַד-בְּהֵמָה"
+      },
+      {
+        "ja": "כד'אך יציר לי הולאי אנא אללה שרפתהם",
+        "en": "I am God who distinguished them.",
+        "he": "לִי יִהְיוּ אֲנִי יְהוָה"
       }
     ],
     "14": [
       {
-        "ja": "ת'ם כלם אללה מוסי'. פי ברייה' סיני קאילא",
-        "en": "Then God spoke to Moses in the wilderness of Sinai, saying:",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה בְּמִדְבַּר סִינַי לֵאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "פי ברייה'",
+        "en": "in the wilderness of",
+        "he": "בְּמִדְבַּר"
+      },
+      {
+        "ja": "סיני",
+        "en": "Sinai,",
+        "he": "סִינַי"
+      },
+      {
+        "ja": "קאילא",
+        "en": "saying:"
       }
     ],
     "15": [
       {
-        "ja": "עד בני לוי. לביות אבאיהם לעשאירהם",
-        "en": "Count the sons of Levi by the houses of their fathers, by their clans",
-        "he": "פְּקֹד אֶת-בְּנֵי לֵוִי לְבֵית אֲבֹתָם לְמִשְׁפְּחֹתָם"
+        "ja": "עד",
+        "en": "Count",
+        "he": "פְּקֹד"
       },
       {
-        "ja": "כל ד'כר. מן אבן שהר פצאעדא תעדהם",
-        "en": "every male from a month old and upward you shall count them",
-        "he": "כָּל-זָכָר מִבֶּן-חֹדֶשׁ וָמַעְלָה תִּפְקְדֵם"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶת-בְּנֵי"
+      },
+      {
+        "ja": "לוי",
+        "en": "Levi",
+        "he": "לֵוִי"
+      },
+      {
+        "ja": "לביות",
+        "en": "by the houses of",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "their fathers,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans —",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "כל ד'כר",
+        "en": "every male",
+        "he": "כָּל-זָכָר"
+      },
+      {
+        "ja": "מן אבן שהר",
+        "en": "from a month old",
+        "he": "מִבֶּן-חֹדֶשׁ"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "תעדהם",
+        "en": "you shall count them.",
+        "he": "תִּפְקְדֵם"
       }
     ],
     "16": [
       {
-        "ja": "פעדהם מוסי' עלי קול אללה. כמי' אמר",
-        "en": "And Moses counted them at the word of God, as he was commanded",
-        "he": "וַיִּפְקֹד אֹתָם מֹשֶׁה עַל-פִּי יְהוָה כַּאֲשֶׁר צֻוָּה"
+        "ja": "פעדהם",
+        "en": "And Moses",
+        "he": "וַיִּפְקֹד"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "counted them",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "עלי קול",
+        "en": "at the word of",
+        "he": "עַל-פִּי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God,",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "כמי'",
+        "en": "as",
+        "he": "כַּאֲשֶׁר"
+      },
+      {
+        "ja": "אמר",
+        "en": "he was commanded.",
+        "he": "צֻוָּה"
       }
     ],
     "17": [
       {
-        "ja": "והולאי כאנו בני לוי באסמאיהם",
-        "en": "And these were the sons of Levi by their names",
-        "he": "וַיִּהְיוּ-אֵלֶּה בְנֵי-לֵוִי בִּשְׁמֹתָם"
+        "ja": "והולאי כאנו",
+        "en": "And these were",
+        "he": "וַיִּהְיוּ-אֵלֶּה"
       },
       {
-        "ja": "גרשון. וקהת ומררי",
-        "en": "Gershon, and Kohath, and Merari",
-        "he": "גֵּרְשׁוֹן וּקְהָת וּמְרָרִי"
+        "ja": "בני לוי",
+        "en": "the sons of Levi",
+        "he": "בְנֵי-לֵוִי"
+      },
+      {
+        "ja": "באסמאיהם",
+        "en": "by their names:",
+        "he": "בִּשְׁמֹתָם"
+      },
+      {
+        "ja": "גרשון",
+        "en": "Gershon,",
+        "he": "גֵּרְשׁוֹן"
+      },
+      {
+        "ja": "וקהת",
+        "en": "and Kohath,",
+        "he": "וּקְהָת"
+      },
+      {
+        "ja": "ומררי",
+        "en": "and Merari.",
+        "he": "וּמְרָרִי"
       }
     ],
     "18": [
       {
-        "ja": "והד'ה אסמא בני גרשון. לעשאירהם",
-        "en": "And these are the names of the sons of Gershon by their clans",
-        "he": "וְאֵלֶּה שְׁמוֹת בְּנֵי-גֵרְשׁוֹן לְמִשְׁפְּחֹתָם"
+        "ja": "והד'ה",
+        "en": "And these are",
+        "he": "וְאֵלֶּה"
       },
       {
-        "ja": "לבני ושמעי",
-        "en": "Libni and Shimei",
-        "he": "לִבְנִי וְשִׁמְעִי"
+        "ja": "אסמא",
+        "en": "the names of",
+        "he": "שְׁמוֹת"
+      },
+      {
+        "ja": "בני גרשון",
+        "en": "the sons of Gershon",
+        "he": "בְּנֵי-גֵרְשׁוֹן"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans:",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "לבני",
+        "en": "Libni",
+        "he": "לִבְנִי"
+      },
+      {
+        "ja": "ושמעי",
+        "en": "and Shimei.",
+        "he": "וְשִׁמְעִי"
       }
     ],
     "19": [
       {
-        "ja": "ובני קהת לעשאירהם",
-        "en": "And the sons of Kohath by their clans",
-        "he": "וּבְנֵי קְהָת לְמִשְׁפְּחֹתָם"
+        "ja": "ובני",
+        "en": "And the sons of",
+        "he": "וּבְנֵי"
       },
       {
-        "ja": "עמרם ויצהר. חברון ועזיאל",
-        "en": "Amram and Izhar, Hebron and Uzziel",
-        "he": "עַמְרָם וְיִצְהָר חֶבְרוֹן וְעֻזִּיאֵל"
+        "ja": "קהת",
+        "en": "Kohath",
+        "he": "קְהָת"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans:",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "עמרם",
+        "en": "Amram",
+        "he": "עַמְרָם"
+      },
+      {
+        "ja": "ויצהר",
+        "en": "and Izhar,",
+        "he": "וְיִצְהָר"
+      },
+      {
+        "ja": "חברון",
+        "en": "Hebron",
+        "he": "חֶבְרוֹן"
+      },
+      {
+        "ja": "ועזיאל",
+        "en": "and Uzziel.",
+        "he": "וְעֻזִּיאֵל"
       }
     ],
     "20": [
       {
-        "ja": "ובני מררי. לעשאירהם",
-        "en": "And the sons of Merari by their clans",
-        "he": "וּבְנֵי מְרָרִי לְמִשְׁפְּחֹתָם"
+        "ja": "ובני",
+        "en": "And the sons of",
+        "he": "וּבְנֵי"
       },
       {
-        "ja": "מחלי ומושי",
-        "en": "Mahli and Mushi",
-        "he": "מַחְלִי וּמוּשִׁי"
+        "ja": "מררי",
+        "en": "Merari",
+        "he": "מְרָרִי"
       },
       {
-        "ja": "הד'ה עשאיר אלליואניין לביות אבאיהם",
-        "en": "These are the clans of the Levites by the houses of their fathers",
-        "he": "אֵלֶּה הֵם מִשְׁפְּחֹת הַלֵּוִי לְבֵית אֲבֹתָם"
+        "ja": "לעשאירהם",
+        "en": "by their clans:",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "מחלי",
+        "en": "Mahli",
+        "he": "מַחְלִי"
+      },
+      {
+        "ja": "ומושי",
+        "en": "and Mushi.",
+        "he": "וּמוּשִׁי"
+      },
+      {
+        "ja": "הד'ה",
+        "en": "These are",
+        "he": "אֵלֶּה"
+      },
+      {
+        "ja": "עשאיר",
+        "en": "the clans of",
+        "he": "הֵם מִשְׁפְּחֹת"
+      },
+      {
+        "ja": "אלליואניין",
+        "en": "the Levites",
+        "he": "הַלֵּוִי"
+      },
+      {
+        "ja": "לביות",
+        "en": "by the houses of",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "their fathers.",
+        "he": "אֲבֹתָם"
       }
     ],
     "21": [
       {
-        "ja": "לגרשון. עשירה' לבני. ועשירה' שמעי",
-        "en": "To Gershon: the clan of Libni and the clan of Shimei",
-        "he": "לְגֵרְשׁוֹן--מִשְׁפַּחַת הַלִּבְנִי וּמִשְׁפַּחַת הַשִּׁמְעִי"
+        "ja": "לגרשון",
+        "en": "To Gershon:",
+        "he": "לְגֵרְשׁוֹן"
       },
       {
-        "ja": "הד'ה עשאירה",
-        "en": "these are their clans",
-        "he": "אֵלֶּה הֵם מִשְׁפְּחֹת הַגֵּרְשֻׁנִּי"
+        "ja": "עשירה' לבני",
+        "en": "the clan of Libni",
+        "he": "מִשְׁפַּחַת הַלִּבְנִי"
+      },
+      {
+        "ja": "ועשירה' שמעי",
+        "en": "and the clan of Shimei —",
+        "he": "וּמִשְׁפַּחַת הַשִּׁמְעִי"
+      },
+      {
+        "ja": "הד'ה",
+        "en": "these are",
+        "he": "אֵלֶּה הֵם"
+      },
+      {
+        "ja": "עשאירה",
+        "en": "their clans.",
+        "he": "מִשְׁפְּחֹת הַגֵּרְשֻׁנִּי"
       }
     ],
     "22": [
       {
-        "ja": "ועדדהם באחצא כל ד'כר. מן אבן שהר וצאעדא",
-        "en": "And their count, by the census of every male from a month old and upward",
-        "he": "פְּקֻדֵיהֶם בְּמִסְפַּר כָּל-זָכָר מִבֶּן-חֹדֶשׁ וָמָעְלָה"
+        "ja": "ועדדהם",
+        "en": "And their count,",
+        "he": "פְּקֻדֵיהֶם"
       },
       {
-        "ja": "סבעה' אלאף וכ'מס מאיה",
-        "en": "was seven thousand five hundred",
-        "he": "פְּקֻדֵיהֶם שִׁבְעַת אֲלָפִים וַחֲמֵשׁ מֵאוֹת"
+        "ja": "באחצא",
+        "en": "by the census of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "כל ד'כר",
+        "en": "every male",
+        "he": "כָּל-זָכָר"
+      },
+      {
+        "ja": "מן אבן שהר",
+        "en": "from a month old",
+        "he": "מִבֶּן-חֹדֶשׁ"
+      },
+      {
+        "ja": "וצאעדא",
+        "en": "and upward, was",
+        "he": "וָמָעְלָה"
+      },
+      {
+        "ja": "סבעה'",
+        "en": "seven",
+        "he": "פְּקֻדֵיהֶם"
+      },
+      {
+        "ja": "אלאף",
+        "en": "thousand",
+        "he": "שִׁבְעַת אֲלָפִים"
+      },
+      {
+        "ja": "וכ'מס",
+        "en": "five",
+        "he": "וַחֲמֵשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "hundred.",
+        "he": "מֵאוֹת"
       }
     ],
     "23": [
       {
-        "ja": "ועשאירהם. ינזלון ורא אלמסכן פי אלמג'רב",
-        "en": "And their clans shall encamp behind the tabernacle in the west",
-        "he": "מִשְׁפְּחֹת הַגֵּרְשֻׁנִּי אַחֲרֵי הַמִּשְׁכָּן יַחֲנוּ יָמָּה"
+        "ja": "ועשאירהם",
+        "en": "And their clans",
+        "he": "מִשְׁפְּחֹת הַגֵּרְשֻׁנִּי"
+      },
+      {
+        "ja": "ינזלון",
+        "en": "shall encamp",
+        "he": "יַחֲנוּ"
+      },
+      {
+        "ja": "ורא",
+        "en": "behind",
+        "he": "אַחֲרֵי"
+      },
+      {
+        "ja": "אלמסכן",
+        "en": "the tabernacle",
+        "he": "הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "פי אלמג'רב",
+        "en": "in the west.",
+        "he": "יָמָּה"
       }
     ],
     "24": [
       {
-        "ja": "ושריפהם. אליסף אבן לאל",
-        "en": "And their noble is Eliasaph son of Lael",
-        "he": "וּנְשִׂיא בֵית-אָב לַגֵּרְשֻׁנִּי אֶלְיָסָף בֶּן-לָאֵל"
+        "ja": "ושריפהם",
+        "en": "And their noble is",
+        "he": "וּנְשִׂיא בֵית-אָב לַגֵּרְשֻׁנִּי"
+      },
+      {
+        "ja": "אליסף",
+        "en": "Eliasaph",
+        "he": "אֶלְיָסָף"
+      },
+      {
+        "ja": "אבן לאל",
+        "en": "son of Lael.",
+        "he": "בֶּן-לָאֵל"
       }
     ],
     "25": [
       {
-        "ja": "וחפצ'הם מן כ'בא. אלמחצ'ר",
-        "en": "And their charge from the tent of the assembly",
-        "he": "וּמִשְׁמֶרֶת בְּנֵי-גֵרְשׁוֹן בְּאֹהֶל מוֹעֵד"
+        "ja": "וחפצ'הם",
+        "en": "And their charge",
+        "he": "וּמִשְׁמֶרֶת"
       },
       {
-        "ja": "אלמסכן ואלכ'בא. וג'שאה",
-        "en": "the tabernacle and the tent and its covering",
-        "he": "הַמִּשְׁכָּן וְהָאֹהֶל מִכְסֵהוּ"
+        "ja": "מן כ'בא",
+        "en": "from the tent of",
+        "he": "בְּנֵי-גֵרְשׁוֹן"
       },
       {
-        "ja": "וסתר באב כ'בא אלמחצ'ר",
-        "en": "and the curtain of the entrance of the tent of the assembly",
-        "he": "וּמָסַךְ פֶּתַח אֹהֶל מוֹעֵד"
+        "ja": "אלמחצ'ר",
+        "en": "the assembly:",
+        "he": "בְּאֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "אלמסכן",
+        "en": "the tabernacle",
+        "he": "הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "ואלכ'בא",
+        "en": "and the tent",
+        "he": "וְהָאֹהֶל"
+      },
+      {
+        "ja": "וג'שאה",
+        "en": "and its covering,",
+        "he": "מִכְסֵהוּ"
+      },
+      {
+        "ja": "וסתר",
+        "en": "and the curtain of",
+        "he": "וּמָסַךְ"
+      },
+      {
+        "ja": "באב",
+        "en": "the entrance of",
+        "he": "פֶּתַח"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of the assembly.",
+        "he": "אֹהֶל מוֹעֵד"
       }
     ],
     "26": [
       {
-        "ja": "וקלוע אלצראדק וסתר באבה",
-        "en": "And the hangings of the court and the curtain of its entrance",
-        "he": "וְקַלְעֵי הֶחָצֵר וְאֶת-מָסַךְ פֶּתַח הֶחָצֵר"
+        "ja": "וקלוע",
+        "en": "And the hangings of",
+        "he": "וְקַלְעֵי"
       },
       {
-        "ja": "אלד'י עלי אלמסכן ואלמד'בח מסתדירא",
-        "en": "which is around the tabernacle and the altar",
-        "he": "אֲשֶׁר עַל-הַמִּשְׁכָּן וְעַל-הַמִּזְבֵּחַ סָבִיב"
+        "ja": "אלצראדק",
+        "en": "the court",
+        "he": "הֶחָצֵר"
       },
       {
-        "ja": "ואטנאבהא. וסאיר כ'דמתהא",
-        "en": "and their cords, and all the rest of their service",
-        "he": "וְאֵת מֵיתָרָיו לְכֹל עֲבֹדָתוֹ"
+        "ja": "וסתר",
+        "en": "and the curtain of",
+        "he": "וְאֶת-מָסַךְ"
+      },
+      {
+        "ja": "באבה",
+        "en": "its entrance,",
+        "he": "פֶּתַח הֶחָצֵר"
+      },
+      {
+        "ja": "אלד'י עלי אלמסכן",
+        "en": "which is around the tabernacle",
+        "he": "אֲשֶׁר עַל-הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "ואלמד'בח",
+        "en": "and the altar,",
+        "he": "וְעַל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "מסתדירא. ואטנאבהא",
+        "en": "and their cords,",
+        "he": "סָבִיב וְאֵת מֵיתָרָיו"
+      },
+      {
+        "ja": "וסאיר כ'דמתהא",
+        "en": "and all the rest of their service.",
+        "he": "לְכֹל עֲבֹדָתוֹ"
       }
     ],
     "27": [
       {
-        "ja": "ולקהת עשירה' עמרם ועשירה' יצהר",
-        "en": "And to Kohath: the clan of Amram and the clan of Izhar",
-        "he": "וְלִקְהָת מִשְׁפַּחַת הַעַמְרָמִי וּמִשְׁפַּחַת הַיִּצְהָרִי"
+        "ja": "ולקהת",
+        "en": "And to Kohath:",
+        "he": "וְלִקְהָת"
       },
       {
-        "ja": "ועשירה' חברון. ועשירה' עוזיאל",
-        "en": "and the clan of Hebron, and the clan of Uzziel",
-        "he": "וּמִשְׁפַּחַת הַחֶבְרֹנִי וּמִשְׁפַּחַת הָעָזִּיאֵלִי"
+        "ja": "עשירה' עמרם",
+        "en": "the clan of Amram",
+        "he": "מִשְׁפַּחַת הַעַמְרָמִי"
       },
       {
-        "ja": "הד'ה עשאירה",
-        "en": "these are his clans",
-        "he": "אֵלֶּה הֵם מִשְׁפְּחֹת הַקְּהָתִי"
+        "ja": "ועשירה' יצהר",
+        "en": "and the clan of Izhar,",
+        "he": "וּמִשְׁפַּחַת הַיִּצְהָרִי"
+      },
+      {
+        "ja": "ועשירה' חברון",
+        "en": "and the clan of Hebron,",
+        "he": "וּמִשְׁפַּחַת הַחֶבְרֹנִי"
+      },
+      {
+        "ja": "ועשירה' עוזיאל",
+        "en": "and the clan of Uzziel —",
+        "he": "וּמִשְׁפַּחַת הָעָזִּיאֵלִי"
+      },
+      {
+        "ja": "הד'ה",
+        "en": "these are",
+        "he": "אֵלֶּה הֵם"
+      },
+      {
+        "ja": "עשאירה",
+        "en": "his clans.",
+        "he": "מִשְׁפְּחֹת הַקְּהָתִי"
       }
     ],
     "28": [
       {
-        "ja": "באחצא כל ד'כר. מן אבן שהר פצאעדא",
-        "en": "By the census of every male from a month old and upward",
-        "he": "בְּמִסְפַּר כָּל-זָכָר מִבֶּן-חֹדֶשׁ וָמָעְלָה"
+        "ja": "באחצא",
+        "en": "By the census of",
+        "he": "בְּמִסְפַּר"
       },
       {
-        "ja": "ת'מאניה' אלאף וסת מאיה. חאפצ'י מחפץ' אלקדס",
-        "en": "eight thousand six hundred, keepers of the charge of the sanctuary",
-        "he": "שְׁמֹנַת אֲלָפִים וְשֵׁשׁ מֵאוֹת שֹׁמְרֵי מִשְׁמֶרֶת הַקֹּדֶשׁ"
+        "ja": "כל ד'כר",
+        "en": "every male",
+        "he": "כָּל-זָכָר"
+      },
+      {
+        "ja": "מן אבן שהר",
+        "en": "from a month old",
+        "he": "מִבֶּן-חֹדֶשׁ"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward:",
+        "he": "וָמָעְלָה"
+      },
+      {
+        "ja": "ת'מאניה'",
+        "en": "eight",
+        "he": "שְׁמֹנַת"
+      },
+      {
+        "ja": "אלאף",
+        "en": "thousand",
+        "he": "אֲלָפִים"
+      },
+      {
+        "ja": "וסת",
+        "en": "six",
+        "he": "וְשֵׁשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "hundred,",
+        "he": "מֵאוֹת"
+      },
+      {
+        "ja": "חאפצ'י",
+        "en": "keepers of",
+        "he": "שֹׁמְרֵי"
+      },
+      {
+        "ja": "מחפץ'",
+        "en": "the charge of",
+        "he": "מִשְׁמֶרֶת"
+      },
+      {
+        "ja": "אלקדס",
+        "en": "the sanctuary.",
+        "he": "הַקֹּדֶשׁ"
       }
     ],
     "29": [
       {
-        "ja": "ועשאירהם ינזלון. אלי' גאנב אלמסכן פי אלגנוב",
-        "en": "And their clans shall encamp beside the tabernacle to the south",
-        "he": "מִשְׁפְּחֹת בְּנֵי-קְהָת יַחֲנוּ עַל יֶרֶךְ הַמִּשְׁכָּן תֵּימָנָה"
+        "ja": "ועשאירהם",
+        "en": "And their clans",
+        "he": "מִשְׁפְּחֹת בְּנֵי-קְהָת"
+      },
+      {
+        "ja": "ינזלון",
+        "en": "shall encamp",
+        "he": "יַחֲנוּ"
+      },
+      {
+        "ja": "אלי' גאנב",
+        "en": "beside",
+        "he": "עַל יֶרֶךְ"
+      },
+      {
+        "ja": "אלמסכן",
+        "en": "the tabernacle",
+        "he": "הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "פי אלגנוב",
+        "en": "to the south.",
+        "he": "תֵּימָנָה"
       }
     ],
     "30": [
       {
-        "ja": "ושריפהם אליצפן אבן עוזיאל",
-        "en": "And their noble is Elizaphan son of Uzziel",
-        "he": "וּנְשִׂיא בֵית-אָב לְמִשְׁפְּחֹת הַקְּהָתִי אֱלִיצָפָן בֶּן-עֻזִּיאֵל"
+        "ja": "ושריפהם",
+        "en": "And their noble is",
+        "he": "וּנְשִׂיא בֵית-אָב לְמִשְׁפְּחֹת הַקְּהָתִי"
+      },
+      {
+        "ja": "אליצפן",
+        "en": "Elizaphan",
+        "he": "אֱלִיצָפָן"
+      },
+      {
+        "ja": "אבן עוזיאל",
+        "en": "son of Uzziel.",
+        "he": "בֶּן-עֻזִּיאֵל"
       }
     ],
     "31": [
       {
-        "ja": "וחפצהם. אלצנדוק ואלמאידה ואלמנארה ואלמד'אבח",
-        "en": "And their charge: the ark, and the table, and the lampstand, and the altars",
-        "he": "וּמִשְׁמַרְתָּם הָאָרֹן וְהַשֻּׁלְחָן וְהַמְּנֹרָה וְהַמִּזְבְּחֹת"
+        "ja": "וחפצהם",
+        "en": "And their charge:",
+        "he": "וּמִשְׁמַרְתָּם"
       },
       {
-        "ja": "ואניה' אלקדס. אלד'י יכ'דמון בהא",
-        "en": "and the vessels of the sanctuary with which they serve",
-        "he": "וּכְלֵי הַקֹּדֶשׁ אֲשֶׁר יְשָׁרְתוּ בָּהֶם"
+        "ja": "אלצנדוק",
+        "en": "the ark,",
+        "he": "הָאָרֹן"
       },
       {
-        "ja": "ואלסתר וסאיר כ'דמתה",
-        "en": "and the veil, and all the rest of its service",
-        "he": "וְהַמָּסָךְ--וְכֹל עֲבֹדָתוֹ"
+        "ja": "ואלמאידה",
+        "en": "and the table,",
+        "he": "וְהַשֻּׁלְחָן"
+      },
+      {
+        "ja": "ואלמנארה",
+        "en": "and the lampstand,",
+        "he": "וְהַמְּנֹרָה"
+      },
+      {
+        "ja": "ואלמד'אבח",
+        "en": "and the altars,",
+        "he": "וְהַמִּזְבְּחֹת"
+      },
+      {
+        "ja": "ואניה'",
+        "en": "and the vessels of",
+        "he": "וּכְלֵי"
+      },
+      {
+        "ja": "אלקדס",
+        "en": "the sanctuary",
+        "he": "הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "אלד'י יכ'דמון בהא",
+        "en": "with which they serve,",
+        "he": "אֲשֶׁר יְשָׁרְתוּ בָּהֶם"
+      },
+      {
+        "ja": "ואלסתר",
+        "en": "and the veil,",
+        "he": "וְהַמָּסָךְ"
+      },
+      {
+        "ja": "וסאיר כ'דמתה",
+        "en": "and all the rest of its service.",
+        "he": "וְכֹל עֲבֹדָתוֹ"
       }
     ],
     "32": [
       {
-        "ja": "ושריף אשראף אלליואניין אלעזר אבן הרון אלאמאם",
-        "en": "And the noble of the nobles of the Levites is Eleazar son of Aaron the imām",
-        "he": "וּנְשִׂיא נְשִׂיאֵי הַלֵּוִי אֶלְעָזָר בֶּן-אַהֲרֹן הַכֹּהֵן"
+        "ja": "ושריף",
+        "en": "And the noble of",
+        "he": "וּנְשִׂיא"
       },
       {
-        "ja": "מוכל בחאפצ'י מחפץ' אלקדס",
-        "en": "appointed over the keepers of the charge of the sanctuary",
-        "he": "פְּקֻדַּת שֹׁמְרֵי מִשְׁמֶרֶת הַקֹּדֶשׁ"
+        "ja": "אשראף",
+        "en": "the nobles of",
+        "he": "נְשִׂיאֵי"
+      },
+      {
+        "ja": "אלליואניין",
+        "en": "the Levites is",
+        "he": "הַלֵּוִי"
+      },
+      {
+        "ja": "אלעזר",
+        "en": "Eleazar",
+        "he": "אֶלְעָזָר"
+      },
+      {
+        "ja": "אבן הרון",
+        "en": "son of Aaron",
+        "he": "בֶּן-אַהֲרֹן"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "the imām,",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "מוכל",
+        "en": "appointed over",
+        "he": "פְּקֻדַּת"
+      },
+      {
+        "ja": "בחאפצ'י",
+        "en": "the keepers of",
+        "he": "שֹׁמְרֵי"
+      },
+      {
+        "ja": "מחפץ'",
+        "en": "the charge of",
+        "he": "מִשְׁמֶרֶת"
+      },
+      {
+        "ja": "אלקדס",
+        "en": "the sanctuary.",
+        "he": "הַקֹּדֶשׁ"
       }
     ],
     "33": [
       {
-        "ja": "ולמררי עשירה' מחלי. ועשירה' מושי",
-        "en": "And to Merari: the clan of Mahli and the clan of Mushi",
-        "he": "לִמְרָרִי--מִשְׁפַּחַת הַמַּחְלִי וּמִשְׁפַּחַת הַמּוּשִׁי"
+        "ja": "ולמררי",
+        "en": "And to Merari:",
+        "he": "לִמְרָרִי"
       },
       {
-        "ja": "הולאי עשאירה",
-        "en": "these are his clans",
-        "he": "אֵלֶּה הֵם מִשְׁפְּחֹת מְרָרִי"
+        "ja": "עשירה' מחלי",
+        "en": "the clan of Mahli",
+        "he": "מִשְׁפַּחַת הַמַּחְלִי"
+      },
+      {
+        "ja": "ועשירה' מושי",
+        "en": "and the clan of Mushi —",
+        "he": "וּמִשְׁפַּחַת הַמּוּשִׁי"
+      },
+      {
+        "ja": "הולאי",
+        "en": "these are",
+        "he": "אֵלֶּה הֵם"
+      },
+      {
+        "ja": "עשאירה",
+        "en": "his clans.",
+        "he": "מִשְׁפְּחֹת מְרָרִי"
       }
     ],
     "34": [
       {
-        "ja": "ועדדהם באחצא כל ד'כר. מן אבן שהר פצאעדא",
-        "en": "And their count, by the census of every male from a month old and upward",
-        "he": "וּפְקֻדֵיהֶם בְּמִסְפַּר כָּל-זָכָר מִבֶּן-חֹדֶשׁ וָמָעְלָה"
+        "ja": "ועדדהם",
+        "en": "And their count,",
+        "he": "וּפְקֻדֵיהֶם"
       },
       {
-        "ja": "סתה' אלאף ומאיתין",
-        "en": "six thousand two hundred",
-        "he": "שֵׁשֶׁת אֲלָפִים וּמָאתָיִם"
+        "ja": "באחצא",
+        "en": "by the census of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "כל ד'כר",
+        "en": "every male",
+        "he": "כָּל-זָכָר"
+      },
+      {
+        "ja": "מן אבן שהר",
+        "en": "from a month old",
+        "he": "מִבֶּן-חֹדֶשׁ"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward:",
+        "he": "וָמָעְלָה"
+      },
+      {
+        "ja": "סתה'",
+        "en": "six",
+        "he": "שֵׁשֶׁת"
+      },
+      {
+        "ja": "אלאף",
+        "en": "thousand",
+        "he": "אֲלָפִים"
+      },
+      {
+        "ja": "ומאיתין",
+        "en": "two hundred.",
+        "he": "וּמָאתָיִם"
       }
     ],
     "35": [
       {
-        "ja": "ושריפהם. צוריאל אבן אביחיל",
-        "en": "And their noble is Zuriel son of Abihail",
-        "he": "וּנְשִׂיא בֵית-אָב לְמִשְׁפְּחֹת מְרָרִי צוּרִיאֵל בֶּן-אֲבִיחָיִל"
+        "ja": "ושריפהם",
+        "en": "And their noble is",
+        "he": "וּנְשִׂיא בֵית-אָב לְמִשְׁפְּחֹת מְרָרִי"
       },
       {
-        "ja": "וינזלון אלי' גאנב אלמסכן פי אלשמאל",
-        "en": "and they shall encamp beside the tabernacle to the north",
-        "he": "עַל יֶרֶךְ הַמִּשְׁכָּן יַחֲנוּ צָפֹנָה"
+        "ja": "צוריאל",
+        "en": "Zuriel",
+        "he": "צוּרִיאֵל"
+      },
+      {
+        "ja": "אבן אביחיל",
+        "en": "son of Abihail;",
+        "he": "בֶּן-אֲבִיחָיִל"
+      },
+      {
+        "ja": "אלי' גאנב",
+        "en": "beside",
+        "he": "עַל יֶרֶךְ"
+      },
+      {
+        "ja": "אלמסכן",
+        "en": "the tabernacle",
+        "he": "הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "וינזלון",
+        "en": "and they shall encamp",
+        "he": "יַחֲנוּ"
+      },
+      {
+        "ja": "פי אלשמאל",
+        "en": "to the north.",
+        "he": "צָפֹנָה"
       }
     ],
     "36": [
       {
-        "ja": "ווכאלה' חפץ' בני מררי",
-        "en": "And the trusteeship of the charge of the sons of Merari",
-        "he": "וּפְקֻדַּת מִשְׁמֶרֶת בְּנֵי מְרָרִי"
+        "ja": "ווכאלה'",
+        "en": "And the trusteeship of",
+        "he": "וּפְקֻדַּת"
       },
       {
-        "ja": "תכ'אתג אלמסכן. ואמהאגה ועמדה וקואעדה",
-        "en": "the planks of the tabernacle, and its bars, and its pillars, and its bases",
-        "he": "קַרְשֵׁי הַמִּשְׁכָּן וּבְרִיחָיו וְעַמֻּדָיו וַאֲדָנָיו"
+        "ja": "חפץ'",
+        "en": "the charge of",
+        "he": "מִשְׁמֶרֶת"
       },
       {
-        "ja": "וכל אניתה וסאיר כ'דמתה",
-        "en": "and all its vessels, and all the rest of its service",
-        "he": "וְכָל-כֵּלָיו--וְכֹל עֲבֹדָתוֹ"
+        "ja": "בני מררי",
+        "en": "the sons of Merari:",
+        "he": "בְּנֵי מְרָרִי"
+      },
+      {
+        "ja": "תכ'אתג",
+        "en": "the planks of",
+        "he": "קַרְשֵׁי"
+      },
+      {
+        "ja": "אלמסכן",
+        "en": "the tabernacle,",
+        "he": "הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "ואמהאגה",
+        "en": "and its bars,",
+        "he": "וּבְרִיחָיו"
+      },
+      {
+        "ja": "ועמדה",
+        "en": "and its pillars,",
+        "he": "וְעַמֻּדָיו"
+      },
+      {
+        "ja": "וקואעדה",
+        "en": "and its bases,",
+        "he": "וַאֲדָנָיו"
+      },
+      {
+        "ja": "וכל אניתה",
+        "en": "and all its vessels,",
+        "he": "וְכָל-כֵּלָיו"
+      },
+      {
+        "ja": "וסאיר כ'דמתה",
+        "en": "and all the rest of its service.",
+        "he": "וְכֹל עֲבֹדָתוֹ"
       }
     ],
     "37": [
       {
-        "ja": "ועמד אלצראדק מסתדירא. וקואעדהא",
-        "en": "And the pillars of the court all around, and their bases",
-        "he": "וְעַמֻּדֵי הֶחָצֵר סָבִיב וְאַדְנֵיהֶם"
+        "ja": "ועמד",
+        "en": "And the pillars of",
+        "he": "וְעַמֻּדֵי"
       },
       {
-        "ja": "ואותאדהא ואטנאבהא",
-        "en": "and their pegs and their cords",
-        "he": "וִיתֵדֹתָם וּמֵיתְרֵיהֶם"
+        "ja": "אלצראדק",
+        "en": "the court",
+        "he": "הֶחָצֵר"
+      },
+      {
+        "ja": "מסתדירא",
+        "en": "all around,",
+        "he": "סָבִיב"
+      },
+      {
+        "ja": "וקואעדהא",
+        "en": "and their bases",
+        "he": "וְאַדְנֵיהֶם"
+      },
+      {
+        "ja": "ואותאדהא",
+        "en": "and their pegs",
+        "he": "וִיתֵדֹתָם"
+      },
+      {
+        "ja": "ואטנאבהא",
+        "en": "and their cords.",
+        "he": "וּמֵיתְרֵיהֶם"
       }
     ],
     "38": [
       {
-        "ja": "ואלנאזלין בין ידי אלמסכן. בין ידי כ'בא אלמחצ'ר פי אלמשרק",
-        "en": "And those encamped before the tabernacle, before the tent of the assembly to the east",
-        "he": "וְהַחֹנִים לִפְנֵי הַמִּשְׁכָּן קֵדְמָה לִפְנֵי אֹהֶל-מוֹעֵד מִזְרָחָה"
+        "ja": "ואלנאזלין",
+        "en": "And those encamped",
+        "he": "וְהַחֹנִים"
       },
       {
-        "ja": "מוסי' והרון ובניה. חאפצ'י מחפץ' אלמקדס",
-        "en": "Moses and Aaron and his sons, keepers of the charge of the sanctuary",
-        "he": "מֹשֶׁה וְאַהֲרֹן וּבָנָיו שֹׁמְרִים מִשְׁמֶרֶת הַמִּקְדָּשׁ"
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
       },
       {
-        "ja": "ואי אגנבי תקדם אלי' ד'אלך פליקתל",
-        "en": "and any outsider who approaches that shall be put to death",
-        "he": "וְהַזָּר הַקָּרֵב יוּמָת"
+        "ja": "אלמסכן",
+        "en": "the tabernacle,",
+        "he": "הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "קֵדְמָה לִפְנֵי"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of the assembly",
+        "he": "אֹהֶל-מוֹעֵד"
+      },
+      {
+        "ja": "פי אלמשרק",
+        "en": "to the east —",
+        "he": "מִזְרָחָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "והרון",
+        "en": "and Aaron",
+        "he": "וְאַהֲרֹן"
+      },
+      {
+        "ja": "ובניה",
+        "en": "and his sons,",
+        "he": "וּבָנָיו"
+      },
+      {
+        "ja": "חאפצ'י",
+        "en": "keepers of",
+        "he": "שֹׁמְרִים"
+      },
+      {
+        "ja": "מחפץ'",
+        "en": "the charge of",
+        "he": "מִשְׁמֶרֶת"
+      },
+      {
+        "ja": "אלמקדס",
+        "en": "the sanctuary",
+        "he": "הַמִּקְדָּשׁ"
+      },
+      {
+        "ja": "ומחפץ'",
+        "en": "and the charge of",
+        "he": "לְמִשְׁמֶרֶת"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel;",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ואי אגנבי",
+        "en": "and any outsider",
+        "he": "וְהַזָּר"
+      },
+      {
+        "ja": "תקדם",
+        "en": "who approaches",
+        "he": "הַקָּרֵב"
+      },
+      {
+        "ja": "אלי'",
+        "en": "that"
+      },
+      {
+        "ja": "ד'אלך",
+        "en": "shall be"
+      },
+      {
+        "ja": "פליקתל",
+        "en": "put to death.",
+        "he": "יוּמָת"
       }
     ],
     "39": [
       {
-        "ja": "פד'אלך גמיע עדד אלליואניין. אלד'י עדהם מוסי' והרון. עלי' קול אללה",
-        "en": "And that is the entire count of the Levites, whom Moses and Aaron counted at the word of God",
-        "he": "כָּל-פְּקוּדֵי הַלְוִיִּם אֲשֶׁר פָּקַד מֹשֶׁה וְאַהֲרֹן עַל-פִּי יְהוָה"
+        "ja": "פד'אלך",
+        "en": "And that is"
       },
       {
-        "ja": "לעשאירהם. כל ד'כר מן אבן שהר פצאעדא. את'נאן ועשרין אלפא",
-        "en": "by their clans — every male from a month old and upward: twenty-two thousand",
-        "he": "לְמִשְׁפְּחֹתָם כָּל-זָכָר מִבֶּן-חֹדֶשׁ וָמַעְלָה שְׁנַיִם וְעֶשְׂרִים אָלֶף"
+        "ja": "גמיע עדד",
+        "en": "the entire count of",
+        "he": "כָּל-פְּקוּדֵי"
+      },
+      {
+        "ja": "אלליואניין",
+        "en": "the Levites,",
+        "he": "הַלְוִיִּם"
+      },
+      {
+        "ja": "אלד'י עדהם",
+        "en": "whom Moses",
+        "he": "אֲשֶׁר פָּקַד"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "and Aaron counted",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "והרון",
+        "en": "at the word of God,",
+        "he": "וְאַהֲרֹן"
+      },
+      {
+        "ja": "עלי' קול אללה",
+        "en": "by their clans —",
+        "he": "עַל-פִּי יְהוָה"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "every male",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "כל ד'כר",
+        "en": "from a month old",
+        "he": "כָּל-זָכָר"
+      },
+      {
+        "ja": "מן אבן שהר",
+        "en": "and upward:",
+        "he": "מִבֶּן-חֹדֶשׁ"
+      },
+      {
+        "ja": "פצאעדא. את'נאן ועשרין אלפא",
+        "en": "twenty-two thousand.",
+        "he": "וָמַעְלָה שְׁנַיִם וְעֶשְׂרִים אָלֶף"
       }
     ],
     "40": [
       {
-        "ja": "ת'ם קאל אללה למוסי'",
-        "en": "Then God said to Moses",
-        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "עד כל בכר ד'כר מן בני אסראיל. מן אבן פצאעדא",
-        "en": "'Count every firstborn male of the sons of Israel, from a month old and upward",
-        "he": "פְּקֹד כָּל-בְּכֹר זָכָר לִבְנֵי יִשְׂרָאֵל מִבֶּן-חֹדֶשׁ וָמָעְלָה"
+        "ja": "קאל",
+        "en": "said",
+        "he": "וַיֹּאמֶר"
       },
       {
-        "ja": "וארפע אחצא אסמאיהם",
-        "en": "and raise a census of their names.'",
-        "he": "וְשָׂא אֵת מִסְפַּר שְׁמֹתָם"
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "למוסי'",
+        "en": "to Moses:",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "עד",
+        "en": "'Count",
+        "he": "פְּקֹד"
+      },
+      {
+        "ja": "כל בכר",
+        "en": "every firstborn",
+        "he": "כָּל-בְּכֹר"
+      },
+      {
+        "ja": "ד'כר",
+        "en": "male",
+        "he": "זָכָר"
+      },
+      {
+        "ja": "מן בני",
+        "en": "of the sons of",
+        "he": "לִבְנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel,",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "מן אבן",
+        "en": "from a month old",
+        "he": "מִבֶּן-חֹדֶשׁ"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמָעְלָה"
+      },
+      {
+        "ja": "וארפע",
+        "en": "and raise",
+        "he": "וְשָׂא"
+      },
+      {
+        "ja": "אחצא",
+        "en": "a census of",
+        "he": "אֵת מִסְפַּר"
+      },
+      {
+        "ja": "אסמאיהם",
+        "en": "their names.'",
+        "he": "שְׁמֹתָם"
       }
     ],
     "41": [
       {
-        "ja": "וכ'ד' אלליואניין לי אנא אללה שרפתהם",
-        "en": "'And take the Levites for Me — I am God who distinguished them",
-        "he": "וְלָקַחְתָּ אֶת-הַלְוִיִּם לִי אֲנִי יְהוָה"
+        "ja": "וכ'ד'",
+        "en": "'And take",
+        "he": "וְלָקַחְתָּ"
       },
       {
-        "ja": "בדל כל בכר מן בני אסראיל",
-        "en": "in place of every firstborn from the sons of Israel",
-        "he": "תַּחַת כָּל-בְּכֹר בִּבְנֵי יִשְׂרָאֵל"
+        "ja": "אלליואניין",
+        "en": "the Levites",
+        "he": "אֶת-הַלְוִיִּם"
       },
       {
-        "ja": "ובהאים אלליואניין. בדל כל בכר. מן בהאים בני אסראיל",
-        "en": "and the beasts of the Levites in place of every firstborn from the beasts of the sons of Israel.'",
-        "he": "וְאֵת בֶּהֱמַת הַלְוִיִּם תַּחַת כָּל-בְּכוֹר בְּבֶהֱמַת בְּנֵי יִשְׂרָאֵל"
+        "ja": "לי",
+        "en": "for Me —",
+        "he": "לִי"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "שרפתהם",
+        "en": "who distinguished them —"
+      },
+      {
+        "ja": "בדל",
+        "en": "in place of",
+        "he": "תַּחַת"
+      },
+      {
+        "ja": "כל בכר",
+        "en": "every firstborn",
+        "he": "כָּל-בְּכֹר"
+      },
+      {
+        "ja": "מן בני",
+        "en": "from the sons of",
+        "he": "בִּבְנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel;",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ובהאים",
+        "en": "and the beasts of",
+        "he": "וְאֵת בֶּהֱמַת"
+      },
+      {
+        "ja": "אלליואניין",
+        "en": "the Levites",
+        "he": "הַלְוִיִּם"
+      },
+      {
+        "ja": "בדל כל בכר",
+        "en": "in place of every firstborn",
+        "he": "תַּחַת כָּל-בְּכוֹר"
+      },
+      {
+        "ja": "מן בהאים",
+        "en": "from the beasts of",
+        "he": "בְּבֶהֱמַת"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel.'",
+        "he": "בְּנֵי יִשְׂרָאֵל"
       }
     ],
     "42": [
       {
-        "ja": "פעד מוסי'. כמא אמרה אללה",
-        "en": "And Moses counted, as God had commanded him",
-        "he": "וַיִּפְקֹד מֹשֶׁה כַּאֲשֶׁר צִוָּה יְהוָה אֹתוֹ"
+        "ja": "פעד",
+        "en": "And Moses",
+        "he": "וַיִּפְקֹד"
       },
       {
-        "ja": "כל בכר מן בני אסראיל",
-        "en": "every firstborn from the sons of Israel",
-        "he": "אֶת-כָּל-בְּכוֹר בִּבְנֵי יִשְׂרָאֵל"
+        "ja": "מוסי'",
+        "en": "counted,",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "כמא",
+        "en": "as God",
+        "he": "כַּאֲשֶׁר"
+      },
+      {
+        "ja": "אמרה",
+        "en": "had commanded him,",
+        "he": "צִוָּה"
+      },
+      {
+        "ja": "אללה",
+        "en": "every firstborn",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "כל בכר",
+        "en": "from the sons of",
+        "he": "אֶת-כָּל-בְּכוֹר"
+      },
+      {
+        "ja": "מן בני אסראיל",
+        "en": "Israel.",
+        "he": "בִּבְנֵי יִשְׂרָאֵל"
       }
     ],
     "43": [
       {
-        "ja": "פכאן כל בכר ד'כר. באחצא אסמאיהם. מן אבן שהר פצאעדא כד'אלך",
-        "en": "And all the firstborn males, by the census of their names, from a month old and upward, came to",
-        "he": "וַיְהִי כָל-בְּכוֹר זָכָר בְּמִסְפַּר שֵׁמֹת מִבֶּן-חֹדֶשׁ וָמַעְלָה"
+        "ja": "פכאן כל בכר",
+        "en": "And all the firstborn",
+        "he": "וַיְהִי כָל-בְּכוֹר"
       },
       {
-        "ja": "ועשרין אלפא. ומאיתין ות'לאתה וסבעין",
-        "en": "twenty-two thousand two hundred and seventy-three",
-        "he": "שְׁנַיִם וְעֶשְׂרִים אֶלֶף שְׁלֹשָׁה וְשִׁבְעִים וּמָאתָיִם"
+        "ja": "ד'כר",
+        "en": "males,",
+        "he": "זָכָר"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the census of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמאיהם",
+        "en": "their names,",
+        "he": "שֵׁמֹת"
+      },
+      {
+        "ja": "מן אבן שהר",
+        "en": "from a month old",
+        "he": "מִבֶּן-חֹדֶשׁ"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כד'אלך",
+        "en": "came to:"
+      },
+      {
+        "ja": "ועשרין",
+        "en": "twenty-",
+        "he": "לִפְקֻדֵיהֶם שְׁנַיִם"
+      },
+      {
+        "ja": "אלפא",
+        "en": "two thousand",
+        "he": "וְעֶשְׂרִים"
+      },
+      {
+        "ja": "ומאיתין",
+        "en": "two hundred",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "ות'לאתה",
+        "en": "and seventy-",
+        "he": "שְׁלֹשָׁה"
+      },
+      {
+        "ja": "וסבעין",
+        "en": "three.",
+        "he": "וְשִׁבְעִים וּמָאתָיִם"
       }
     ],
     "44": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses in speech",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "in speech."
       }
     ],
     "45": [
       {
-        "ja": "כ'ד' אלליואניין. בדל כל בכר מן בני אסראיל",
-        "en": "'Take the Levites in place of every firstborn from the sons of Israel",
-        "he": "קַח אֶת-הַלְוִיִּם תַּחַת כָּל-בְּכוֹר בִּבְנֵי יִשְׂרָאֵל"
+        "ja": "כ'ד'",
+        "en": "'Take",
+        "he": "קַח"
       },
       {
-        "ja": "ובהאים אלליואניין בדל בהאימהם",
-        "en": "and the beasts of the Levites in place of their beasts",
-        "he": "וְאֶת-בֶּהֱמַת הַלְוִיִּם תַּחַת בְּהֶמְתָּם"
+        "ja": "אלליואניין",
+        "en": "the Levites",
+        "he": "אֶת-הַלְוִיִּם"
       },
       {
-        "ja": "אנא אללה שרפתהם",
-        "en": "I am God who distinguished them.'",
-        "he": "וְהָיוּ-לִי הַלְוִיִּם אֲנִי יְהוָה"
+        "ja": "בדל",
+        "en": "in place of",
+        "he": "תַּחַת"
+      },
+      {
+        "ja": "כל בכר",
+        "en": "every firstborn",
+        "he": "כָּל-בְּכוֹר"
+      },
+      {
+        "ja": "מן בני",
+        "en": "from the sons of",
+        "he": "בִּבְנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel,",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ובהאים",
+        "en": "and the beasts of",
+        "he": "וְאֶת-בֶּהֱמַת"
+      },
+      {
+        "ja": "אלליואניין",
+        "en": "the Levites",
+        "he": "הַלְוִיִּם"
+      },
+      {
+        "ja": "בדל בהאימהם",
+        "en": "in place of their beasts —",
+        "he": "תַּחַת בְּהֶמְתָּם"
+      },
+      {
+        "ja": "אנא",
+        "en": "I am",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "שרפתהם",
+        "en": "who distinguished them.'"
       }
     ],
     "46": [
       {
-        "ja": "ואמא פדא אלמאיתין ואלת'לאתה ואלסבעין",
-        "en": "'And as for the redemption of the two hundred and seventy-three",
-        "he": "וְאֵת פְּדוּיֵי הַשְּׁלֹשָׁה וְהַשִּׁבְעִים וְהַמָּאתָיִם"
+        "ja": "ואמא",
+        "en": "'And as for",
+        "he": "וְאֵת"
       },
       {
-        "ja": "אלזאידין עלי' אלליואניין. מן בכור בני אסראיל",
-        "en": "who exceed the Levites from the firstborn of the sons of Israel —'",
-        "he": "הָעֹדְפִים עַל-הַלְוִיִּם מִבְּכוֹר בְּנֵי יִשְׂרָאֵל"
+        "ja": "פדא",
+        "en": "the redemption of",
+        "he": "פְּדוּיֵי"
+      },
+      {
+        "ja": "אלמאיתין",
+        "en": "the two hundred",
+        "he": "הַשְּׁלֹשָׁה"
+      },
+      {
+        "ja": "ואלת'לאתה",
+        "en": "and seventy-",
+        "he": "וְהַשִּׁבְעִים"
+      },
+      {
+        "ja": "ואלסבעין",
+        "en": "three",
+        "he": "וְהַמָּאתָיִם"
+      },
+      {
+        "ja": "אלזאידין",
+        "en": "who exceed",
+        "he": "הָעֹדְפִים"
+      },
+      {
+        "ja": "עלי' אלליואניין",
+        "en": "the Levites",
+        "he": "עַל-הַלְוִיִּם"
+      },
+      {
+        "ja": "מן בכור",
+        "en": "from the firstborn of",
+        "he": "מִבְּכוֹר"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel —'",
+        "he": "יִשְׂרָאֵל"
       }
     ],
     "47": [
       {
-        "ja": "פכ'ד' כ'מסה מת'אקיל לכל גמגמה",
-        "en": "'take five shekels for each head",
-        "he": "וְלָקַחְתָּ חֲמֵשֶׁת חֲמֵשֶׁת שְׁקָלִים--לַגֻּלְגֹּלֶת"
+        "ja": "פכ'ד'",
+        "en": "'take",
+        "he": "וְלָקַחְתָּ"
       },
       {
-        "ja": "פצ'ה במת'אקיל אלקדס. כל מת'קאל עשרין דאנק",
-        "en": "in silver, by the shekels of the sanctuary, each shekel being twenty dāniq.'",
-        "he": "בְּשֶׁקֶל הַקֹּדֶשׁ תִּקָּח עֶשְׂרִים גֵּרָה הַשָּׁקֶל"
+        "ja": "כ'מסה",
+        "en": "five shekels",
+        "he": "חֲמֵשֶׁת חֲמֵשֶׁת"
+      },
+      {
+        "ja": "מת'אקיל",
+        "en": "for each head —",
+        "he": "שְׁקָלִים"
+      },
+      {
+        "ja": "לכל גמגמה",
+        "en": "in silver,",
+        "he": "לַגֻּלְגֹּלֶת"
+      },
+      {
+        "ja": "במת'אקיל אלקדס",
+        "en": "by the shekels of the sanctuary,",
+        "he": "בְּשֶׁקֶל הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "פצ'ה",
+        "en": "each shekel being"
+      },
+      {
+        "ja": "כל מת'קאל",
+        "en": "twenty",
+        "he": "תִּקָּח"
+      },
+      {
+        "ja": "עשרין דאנק",
+        "en": "dāniq.'",
+        "he": "עֶשְׂרִים גֵּרָה הַשָּׁקֶל"
       }
     ],
     "48": [
       {
-        "ja": "ואדפע אלפצ'ה להרון ובניה",
-        "en": "'And deliver the silver to Aaron and his sons",
-        "he": "וְנָתַתָּה הַכֶּסֶף לְאַהֲרֹן וּלְבָנָיו"
+        "ja": "ואדפע",
+        "en": "'And deliver",
+        "he": "וְנָתַתָּה"
       },
       {
-        "ja": "פדא אלפאצ'לין עליהם",
-        "en": "the redemption of those who exceed them.'",
-        "he": "פְּדוּיֵי הָעֹדְפִים בָּהֶם"
+        "ja": "אלפצ'ה",
+        "en": "the silver",
+        "he": "הַכֶּסֶף"
+      },
+      {
+        "ja": "להרון",
+        "en": "to Aaron",
+        "he": "לְאַהֲרֹן"
+      },
+      {
+        "ja": "ובניה",
+        "en": "and his sons —",
+        "he": "וּלְבָנָיו"
+      },
+      {
+        "ja": "פדא",
+        "en": "the redemption of",
+        "he": "פְּדוּיֵי"
+      },
+      {
+        "ja": "אלפאצ'לין",
+        "en": "those who exceed",
+        "he": "הָעֹדְפִים"
+      },
+      {
+        "ja": "עליהם",
+        "en": "them.'",
+        "he": "בָּהֶם"
       }
     ],
     "49": [
       {
-        "ja": "פאכ'ד' מוסי'. פצ'ה' אלפדא",
-        "en": "And Moses took the silver of the redemption",
-        "he": "וַיִּקַּח מֹשֶׁה אֵת כֶּסֶף הַפִּדְיוֹם"
+        "ja": "פאכ'ד'",
+        "en": "And Moses",
+        "he": "וַיִּקַּח"
       },
       {
-        "ja": "מן אלזאידין. עלי' אלליואניין",
-        "en": "from those who exceeded the Levites",
-        "he": "מֵאֵת הָעֹדְפִים עַל פְּדוּיֵי הַלְוִיִּם"
+        "ja": "מוסי'",
+        "en": "took",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "פצ'ה'",
+        "en": "the silver of",
+        "he": "אֵת כֶּסֶף"
+      },
+      {
+        "ja": "אלפדא",
+        "en": "the redemption",
+        "he": "הַפִּדְיוֹם"
+      },
+      {
+        "ja": "מן",
+        "en": "from",
+        "he": "מֵאֵת"
+      },
+      {
+        "ja": "אלזאידין",
+        "en": "those who exceeded",
+        "he": "הָעֹדְפִים"
+      },
+      {
+        "ja": "עלי'",
+        "en": "the",
+        "he": "עַל פְּדוּיֵי"
+      },
+      {
+        "ja": "אלליואניין",
+        "en": "Levites.",
+        "he": "הַלְוִיִּם"
       }
     ],
     "50": [
       {
-        "ja": "מן בכור בני אסראיל אכ'ד' תלך אלפצ'ה",
-        "en": "From the firstborn of the sons of Israel he took that silver",
-        "he": "מֵאֵת בְּכוֹר בְּנֵי יִשְׂרָאֵל--לָקַח אֶת-הַכָּסֶף"
+        "ja": "מן",
+        "en": "From",
+        "he": "מֵאֵת"
       },
       {
-        "ja": "אלף ות'לאת' מאיה. וכ'מסה וסתין. מת'קאל במת'קאל אלקדס",
-        "en": "one thousand three hundred and sixty-five shekels, by the shekel of the sanctuary",
-        "he": "חֲמִשָּׁה וְשִׁשִּׁים וּשְׁלֹשׁ מֵאוֹת וָאֶלֶף--בְּשֶׁקֶל הַקֹּדֶשׁ"
+        "ja": "בכור",
+        "en": "the firstborn of",
+        "he": "בְּכוֹר"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אכ'ד'",
+        "en": "he took",
+        "he": "לָקַח"
+      },
+      {
+        "ja": "תלך אלפצ'ה",
+        "en": "that silver:",
+        "he": "אֶת-הַכָּסֶף"
+      },
+      {
+        "ja": "אלף",
+        "en": "one thousand",
+        "he": "וָאֶלֶף"
+      },
+      {
+        "ja": "ות'לאת' מאיה",
+        "en": "three hundred",
+        "he": "וּשְׁלֹשׁ מֵאוֹת"
+      },
+      {
+        "ja": "וכ'מסה",
+        "en": "and sixty-",
+        "he": "חֲמִשָּׁה"
+      },
+      {
+        "ja": "וסתין",
+        "en": "five shekels,",
+        "he": "וְשִׁשִּׁים"
+      },
+      {
+        "ja": "מת'קאל במת'קאל אלקדס",
+        "en": "by the shekel of the sanctuary.",
+        "he": "בְּשֶׁקֶל הַקֹּדֶשׁ"
       }
     ],
     "51": [
       {
-        "ja": "פדפע מוסי' פצ'ה' אלפדא. אלי' הרון ובניה",
-        "en": "And Moses delivered the silver of the redemption to Aaron and his sons",
-        "he": "וַיִּתֵּן מֹשֶׁה אֶת-כֶּסֶף הַפְּדֻיִם לְאַהֲרֹן וּלְבָנָיו"
+        "ja": "פדפע",
+        "en": "And Moses",
+        "he": "וַיִּתֵּן"
       },
       {
-        "ja": "עלי קול אללה. כמא אמרה",
-        "en": "at the word of God, as he was commanded",
-        "he": "עַל-פִּי יְהוָה כַּאֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה"
+        "ja": "מוסי'",
+        "en": "delivered",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "פצ'ה'",
+        "en": "the silver of",
+        "he": "אֶת-כֶּסֶף"
+      },
+      {
+        "ja": "אלפדא",
+        "en": "the redemption",
+        "he": "הַפְּדֻיִם"
+      },
+      {
+        "ja": "הרון",
+        "en": "to Aaron",
+        "he": "לְאַהֲרֹן"
+      },
+      {
+        "ja": "ובניה",
+        "en": "and his sons,",
+        "he": "וּלְבָנָיו"
+      },
+      {
+        "ja": "עלי קול אללה",
+        "en": "at the word of God,",
+        "he": "עַל-פִּי יְהוָה"
+      },
+      {
+        "ja": "כמא",
+        "en": "as",
+        "he": "כַּאֲשֶׁר"
+      },
+      {
+        "ja": "אמרה",
+        "en": "he was commanded.",
+        "he": "צִוָּה"
       }
     ]
   }
