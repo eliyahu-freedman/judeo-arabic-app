@@ -4824,6 +4824,1611 @@
         "אלאמרא",
         "אמירה'"
       ]
+    },
+    {
+      "id": "dana-approach",
+      "lemma_ja": "דנא",
+      "lemma_ar": "دَنَا",
+      "root": "d-n-w",
+      "pos": "verb",
+      "gloss_en": "to draw near, come close, touch (something)",
+      "gloss_he": "קָרַב, נָגַע",
+      "source": "lane",
+      "variants": [
+        "דנו",
+        "ידנו",
+        "תדנו"
+      ],
+      "notes": "Form I. In Saadia's purity laws (Num 19) consistently means 'touch/come near to' a corpse. Root دنا / دنو.",
+      "_grounding": "lisan s.v. دنا: 'دَنا من الشيء دنُوّاً ... قَرُبَ' (drew near); also lane s.v. dnw confirms 'he was, or became, near'"
+    },
+    {
+      "id": "imda-go-imperative",
+      "lemma_ja": "אמץ'",
+      "lemma_ar": "اِمْضِ",
+      "root": "m-d-y",
+      "pos": "verb",
+      "gloss_en": "go! proceed! (imperative of مضى)",
+      "gloss_he": "לֵךְ! צֵא!",
+      "source": "lane",
+      "variants": [
+        "מצ'א",
+        "ימצ'י",
+        "פמצ'א"
+      ],
+      "notes": "Imperative of مضى Form I. Contexts: Num 22:20 'arise, go with them'; Num 22:35 'go with the people'; Gen 12:1 'go from your land'. The form אמץ' = iMDi (imperative). Apostrophe marks ض (ḍad).",
+      "_grounding": "lane s.v. مضى: 'maDaY He ... passed; went; or went away' and 'imperative xu*o' pattern"
+    },
+    {
+      "id": "arghuwan-purple",
+      "lemma_ja": "ארגואן",
+      "lemma_ar": "أُرْجُوَان",
+      "root": "—",
+      "pos": "noun (m.)",
+      "gloss_en": "purple-crimson cloth or dye",
+      "gloss_he": "אַרְגָּמָן, צֶבַע אָרֹם עָצוּם",
+      "source": "lane",
+      "variants": [
+        "וארגואן"
+      ],
+      "notes": "Arabicized loan from Persian argawān (red-flowered tree). Lane r0.xml: 'ArjwAn … intensely red; red garments'. Used in Saadia's Tafsir to render Hebrew אַרְגָּמָן (purple/crimson).",
+      "_grounding": "lane r0.xml s.v. أرجوان: 'intensely red; red garments or clothes'"
+    },
+    {
+      "id": "baras-leprosy",
+      "lemma_ja": "ברץ",
+      "lemma_ar": "بَرَص",
+      "root": "b-r-s",
+      "pos": "noun (m.)",
+      "gloss_en": "leprosy; white skin disease",
+      "gloss_he": "צָרַעַת, מַחֲלַת עוֹר לְבָנָה",
+      "source": "lane",
+      "variants": [
+        "אלברץ",
+        "בלא ברץ"
+      ],
+      "notes": "Lane: 'baraSN ... a whiteness which appears upon the exterior of the body'. Used throughout Lev 13 for the skin-disease rendering Hebrew צָרַעַת. The ץ = ص (ṣad).",
+      "_grounding": "lane s.v. برص: 'baraSN ... a certain disease ... a whiteness incident in the skin'"
+    },
+    {
+      "id": "khud-take-imperative",
+      "lemma_ja": "כ'ד",
+      "lemma_ar": "خُذْ",
+      "root": "ʔ-kh-dh",
+      "pos": "verb",
+      "gloss_en": "take! (imperative of أخذ)",
+      "gloss_he": "קַח!",
+      "source": "lane",
+      "variants": [
+        "וכד",
+        "כד'",
+        "וכד'"
+      ],
+      "notes": "Imperative of أخذ Form I; Lane: 'imperative xu*o'. The כ' marks خ (khā'); ד marks ذ (dhāl). Surface וכד also represents the same imperative with wāw prefix.",
+      "_grounding": "lane s.v. أخذ: 'A^xa*a ... imperative xu*o, originally A@w^oxu*o'"
+    },
+    {
+      "id": "takulu-you-eat",
+      "lemma_ja": "תאכלו",
+      "lemma_ar": "تَأْكُلُوا",
+      "root": "ʔ-k-l",
+      "pos": "verb",
+      "gloss_en": "you (pl.) eat / you shall eat",
+      "gloss_he": "תֹּאכְלוּ",
+      "source": "lane",
+      "variants": [
+        "יאכל",
+        "תאכל",
+        "נאכל",
+        "יאכלה",
+        "יאכלהא",
+        "יאכלון"
+      ],
+      "notes": "2mp imperfect of أكل. Lane: 'A^akalahu ... He ate it'. The inflected form covers negated contexts (Gen 3:3 'do not eat thereof') and affirmative (Gen 45:18 'you shall eat').",
+      "_grounding": "lane s.v. أكل: 'A^akalahu ... He ate it, namely, food'"
+    },
+    {
+      "id": "sidf-curtain-veil",
+      "lemma_ja": "אלסגף",
+      "lemma_ar": "السَّجْف",
+      "root": "s-j-f",
+      "pos": "noun (m.)",
+      "gloss_en": "curtain, veil (of the Tabernacle)",
+      "gloss_he": "פָּרֹכֶת, מָסָךְ",
+      "source": "lane",
+      "variants": [
+        "סגף",
+        "אלסגף"
+      ],
+      "notes": "Lisan: 'السَّجْفُ والسِّجْفُ: السِّتْر'. Used by Saadia to render the Tabernacle parokhet/veil in Ex 26:33, Num 4:5, Num 18:7.",
+      "_grounding": "lisan s.v. سجف: 'السَّجْفُ والسِّجْفُ: السِّتْر' (the curtain/veil)"
+    },
+    {
+      "id": "raqim-kadesh",
+      "lemma_ja": "רקים",
+      "lemma_ar": "رَقِيم",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Kadesh; Saadia's Arabic name for Kadesh-Barnea",
+      "gloss_he": "קָדֵשׁ (קָדֵשׁ בַּרְנֵעַ)",
+      "notes": "Saadia consistently uses רקים to render the biblical place-name קָדֵשׁ (Kadesh/Kadesh-Barnea); Num 20:1, 20:14, 13:26. The Arabic رقيم (raqīm) means 'inscribed/written' and was a known geographic name. Not a Lane entry for this toponym.",
+      "_grounding": "Blau does not attest this toponym; Lane has رقم s.v. 'He wrote', but the proper-noun use is Saadia's rendering of קדש"
+    },
+    {
+      "id": "dakhil-sojourner",
+      "lemma_ja": "אלדכ'יל",
+      "lemma_ar": "الدَّخِيل",
+      "root": "d-kh-l",
+      "pos": "noun (m.)",
+      "gloss_en": "a sojourner who has entered the community; resident alien",
+      "gloss_he": "גֵּר הַנִּכְנָס לַקָּהָל",
+      "source": "blau",
+      "variants": [
+        "דכ'יל",
+        "דכ'יל",
+        "דכ'ילה"
+      ],
+      "notes": "Blau: 'neophyte, convert, proselyte / הנכנס לדת'. In Saadia's Num 15 contexts, אלג'ריב אלדכ'יל renders 'the sojourner who sojourns among you'. The apostrophe marks خ (khā').",
+      "_grounding": "blau s.v. دخيل: 'neophyte, convert, proselyte / הנכנס לדת'"
+    },
+    {
+      "id": "bikum-with-you",
+      "lemma_ja": "בכם",
+      "lemma_ar": "بِكُمْ",
+      "root": "—",
+      "pos": "preposition",
+      "gloss_en": "with/to you (pl.); concerning you",
+      "gloss_he": "בָּכֶם, לָכֶם",
+      "source": "lane",
+      "notes": "Preposition بـ with 2mp pronominal suffix كم. Lane attests بِكُم as standard compound. Num 14:28 'as you have spoken before Me'; Num 33:56 'as I planned to do to them, so I will do to you'.",
+      "_grounding": "lane s.v. بـ (preposition): بِكُمْ = 'with/to you (plural)' — standard pronominal compound"
+    },
+    {
+      "id": "asha-lived",
+      "lemma_ja": "עאש",
+      "lemma_ar": "عَاشَ",
+      "root": "ʕ-y-sh",
+      "pos": "verb",
+      "gloss_en": "he lived, passed his life (a number of years)",
+      "gloss_he": "חַי, חָיָה",
+      "source": "lane",
+      "variants": [
+        "ועאש"
+      ],
+      "notes": "3ms perfect of عاش (Form I of عيش). Lane: 'EaA$a He lived'. Contexts: Gen 11:11–13 'and he lived after that N years'.",
+      "_grounding": "lane s.v. عيش: 'EaA$a ... He lived; he passed life in a particular manner'"
+    },
+    {
+      "id": "qarrabu-offered",
+      "lemma_ja": "קרבו",
+      "lemma_ar": "قَرِّبُوا",
+      "root": "q-r-b",
+      "pos": "verb",
+      "gloss_en": "offer! present! (pl. imperative, of sacrifice)",
+      "gloss_he": "הַקְרִיבוּ!",
+      "source": "lane",
+      "variants": [
+        "וקרבו",
+        "קרב",
+        "קרבאן",
+        "יקרב"
+      ],
+      "notes": "Form II imperative of قرب (qarraba = to bring near, offer). Lane qrb s.v. 2: 'He brought [it] near'. Blau also attests Form II 'to be sacrificed (offerings)'. Used throughout Num 28 for making burnt offerings.",
+      "_grounding": "lane s.v. قرب Form II: 'He brought near'; blau s.v. قرب Form II: 'to be sacrificed (offerings)'"
+    },
+    {
+      "id": "aram-proper",
+      "lemma_ja": "ארם",
+      "lemma_ar": "آرَام",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Aram (biblical region/people = Arameans)",
+      "gloss_he": "אֲרָם",
+      "notes": "Biblical proper noun: Aram/Arameans (Heb. אֲרָם). Saadia transcribes ארם directly. Lane has آرام as arabicized form of the name. Appears Gen 10:23, Gen 22:21, Num 23:7.",
+      "_grounding": "proper noun transcription; Lane has no entry for this toponym, but standard Arabic form is آرام"
+    },
+    {
+      "id": "wahsh-wild-beasts",
+      "lemma_ja": "וחש",
+      "lemma_ar": "وَحْش",
+      "root": "w-ḥ-sh",
+      "pos": "noun (m.)",
+      "gloss_en": "wild animals, beasts of the field",
+      "gloss_he": "חַיַּת הַשָּׂדֶה, בַּעֲלֵי חַיִּים פְּרָאִיִּים",
+      "source": "lane",
+      "variants": [
+        "אלוחש",
+        "וחש אלארץ'",
+        "וחש אלצחרא"
+      ],
+      "notes": "Lisan: 'الوَحْش: كلُّ شيء من جواب البَرّ مما لا يَسْتأْنس' (every creature of the wilderness that is not domesticated). Used Gen 1:25, 1:30, 2:19 to render חַיַּת הַשָּׂדֶה/חַיַּת הָאָרֶץ.",
+      "_grounding": "lisan s.v. وحش: 'كلُّ شيء من جواب البَرّ مما لا يَسْتأْنس' (wild land animals)"
+    },
+    {
+      "id": "adda-counted",
+      "lemma_ja": "עדא",
+      "lemma_ar": "عَدَّا",
+      "root": "ʕ-d-d",
+      "pos": "verb",
+      "gloss_en": "he counted, enumerated, took a census of",
+      "gloss_he": "מָנָה, פָּקַד, סָפַר",
+      "source": "lane",
+      "variants": [
+        "עדהם",
+        "מעדודי",
+        "יעדו",
+        "עדא"
+      ],
+      "notes": "Form I of عدّ. Lisan: 'العَدُّ: إِحْصاءُ الشيءِ، عَدَّه ... عَدّاً وتَعْداداً' (counting, enumeration). Num 26:63–64: 'those whom Moses and Aaron counted (عدا) among Bnei Yisrael'. Root doubled-د.",
+      "_grounding": "lisan s.v. عدد: 'العَدُّ: إِحْصاءُ الشيءِ، عَدَّه يَعُدُّه عَدّاً'"
+    },
+    {
+      "id": "abina-our-father",
+      "lemma_ja": "אבינא",
+      "lemma_ar": "أَبُونَا",
+      "root": "ʔ-b-w",
+      "pos": "noun (m.)",
+      "gloss_en": "our father",
+      "gloss_he": "אָבִינוּ",
+      "source": "lane",
+      "notes": "أب 'father' with 1cp suffix -نا (our). Num 27:3–4 'our father died'; Gen 19:31 'our father is old'. Standard Arabic morphology; Lane s.v. أبو.",
+      "_grounding": "lane s.v. ابو: أبونا = 'our father', nominal with first-person plural suffix"
+    },
+    {
+      "id": "barriyya-wilderness",
+      "lemma_ja": "ברייה",
+      "lemma_ar": "بَرِيَّة",
+      "root": "b-r-r",
+      "pos": "noun (f.)",
+      "gloss_en": "desert, open wilderness",
+      "gloss_he": "מִדְבָּר, יְשִׁימוֹן",
+      "source": "lane",
+      "variants": [
+        "אלברייה",
+        "ברייה' סיני",
+        "ברייה' פארן",
+        "ברייה' צין"
+      ],
+      "notes": "From بر (open country/land). Asas Zamakhshari confirms 'نزلوا بالبرية' = 'they camped in the wilderness'. Lisan s.v. بر. Used throughout Num to render מִדְבַּר.",
+      "_grounding": "lisan s.v. بر (open land) and asas-zamakhshari s.v. برية confirming 'wilderness'"
+    },
+    {
+      "id": "khala-except",
+      "lemma_ja": "כ'לא",
+      "lemma_ar": "خَلا",
+      "root": "kh-l-w",
+      "pos": "particle",
+      "gloss_en": "except, apart from, save (exception particle)",
+      "gloss_he": "חוּץ מִ-, מִלְּבַד",
+      "source": "lane",
+      "variants": [
+        "מא כ'לא"
+      ],
+      "notes": "Used in construction ما خلا (mā khalā) = 'except'. Lane khw/khlw: 'xalaA commencing with xalaA as a word denoting exception'. Num 18:3, 28:23, 28:31: 'everything except the vessels of holiness'.",
+      "_grounding": "lane s.v. خلو (xalaA): 'xalaA as a word denoting exception'"
+    },
+    {
+      "id": "sihahan-sound-ones",
+      "lemma_ja": "צחאחא",
+      "lemma_ar": "صِحَاحًا",
+      "root": "s-ḥ-ḥ",
+      "pos": "adjective",
+      "gloss_en": "sound, whole, without defect (animals for sacrifice)",
+      "gloss_he": "תְּמִימִים, שְׁלֵמִים, בְּרִיאִים",
+      "source": "lane",
+      "notes": "Acc./adv. form of صِحاح (sound, healthy). Lane s.v. صح: 'He was, or became, healthy, or sound; or restored to health'. Used Num 28:3,11,19 to qualify sacrificial lambs: 'without defect'.",
+      "_grounding": "lane s.v. صح: 'SaH~a ... He was, or became, healthy, or sound'"
+    },
+    {
+      "id": "tayalid-generations",
+      "lemma_ja": "תיאליד",
+      "lemma_ar": "تَيَالِيد",
+      "root": "w-l-d",
+      "pos": "noun (m.)",
+      "gloss_en": "generations, progeny, lineage",
+      "gloss_he": "תּוֹלְדוֹת, דּוֹרוֹת",
+      "source": "lane",
+      "variants": [
+        "תיאלידהם"
+      ],
+      "notes": "Plural of تليد / abstract of ولد root. Lane s.v. ولد: 'wilaAdahN ... walaAdN'. In Saadia, consistently renders Hebrew תּוֹלְדוֹת in genealogical headings (Gen 10:1, 11:10, 11:27) and census formulas (Num 1:20,22,24).",
+      "_grounding": "lane s.v. ولد: birth, generation, progeny"
+    },
+    {
+      "id": "daa-called-prayed",
+      "lemma_ja": "דעא",
+      "lemma_ar": "دَعَا",
+      "root": "d-ʕ-w",
+      "pos": "verb",
+      "gloss_en": "he called out; summoned; prayed",
+      "gloss_he": "קָרָא, צָעַק, התפלל",
+      "source": "lane",
+      "variants": [
+        "ידעוך",
+        "דעא",
+        "פדעא"
+      ],
+      "notes": "Form I of دعا. Lisan: 'ادْعوا شُهداءكم ... اسْتَغِيثوا بهم'. Num 21:3 'God hearkened to the prayer/call of Israel'; Gen 12:8 'called out by His name'; Gen 20:8 'summoned all his servants'.",
+      "_grounding": "lisan s.v. دعا: 'الدُّعاءُ ... اسْتَغاثَ, سَأَل'"
+    },
+    {
+      "id": "malun-cursed",
+      "lemma_ja": "מלעון",
+      "lemma_ar": "مَلْعُون",
+      "root": "l-ʕ-n",
+      "pos": "adjective",
+      "gloss_en": "cursed, accursed",
+      "gloss_he": "אָרוּר",
+      "source": "lane",
+      "variants": [
+        "ומלעון",
+        "לאענך",
+        "מלעון"
+      ],
+      "notes": "Passive participle of لعن. Lisan: 'رجل لَعِينٌ ومَلْعُونٌ'. Gen 3:14 'you are cursed above all beasts'; Gen 27:29; Num 24:9: 'those who curse you shall be cursed'.",
+      "_grounding": "lisan s.v. لعن: 'رجل لَعِينٌ ومَلْعُونٌ ... اللَّعْنُ: الإِبْعادُ والطَّرْد من الخير'"
+    },
+    {
+      "id": "sanduk-chest-ark",
+      "lemma_ja": "אלצנדוק",
+      "lemma_ar": "الصُّنْدُوق",
+      "root": "—",
+      "pos": "noun (m.)",
+      "gloss_en": "chest, coffer; the Ark of the Covenant",
+      "gloss_he": "אָרוֹן (הָעֵדוּת)",
+      "source": "lane",
+      "variants": [
+        "צנדוק",
+        "וצנדוק"
+      ],
+      "notes": "Lane s.v. صندق: 'SunoduwqN ... A chest, coffer, or trunk'. In Saadia: consistently renders אֲרוֹן הָעֵדוּת (Ark of the Testimony/Covenant). Lisan confirms: 'الصُّنْدوق: الجُوالِق'.",
+      "_grounding": "lane s.v. صندق: 'SunoduwqN ... A chest, coffer, or trunk'"
+    },
+    {
+      "id": "aima-priests",
+      "lemma_ja": "אלאימה",
+      "lemma_ar": "الأَئِمَّة",
+      "root": "ʔ-m-m",
+      "pos": "noun (m.)",
+      "gloss_en": "the priests (Saadia's term for the Kohanim)",
+      "gloss_he": "הַכֹּהֲנִים",
+      "source": "blau",
+      "variants": [
+        "אמאם",
+        "אלאמאם",
+        "אימה",
+        "אלאימה"
+      ],
+      "notes": "Blau: 'إمام ... not only leader but mainly priest / לא רק מנהיג בכלל, אלא בעיקר כהן'. Saadia uses this to render כֹּהֵן (priest) and כֹּהֲנִים throughout the Tafsir.",
+      "_grounding": "blau s.v. إمام: 'not only leader but mainly priest / כהן'"
+    },
+    {
+      "id": "harb-war",
+      "lemma_ja": "אלחרב",
+      "lemma_ar": "الحَرْب",
+      "root": "ḥ-r-b",
+      "pos": "noun (f.)",
+      "gloss_en": "war, battle",
+      "gloss_he": "מִלְחָמָה",
+      "source": "lane",
+      "variants": [
+        "חרב",
+        "אלחרב"
+      ],
+      "notes": "Lane s.v. حرب. Standard classical Arabic: the noun حَرْب (war, battle). Blau also confirms Form I 'to wage war'. Num 10:9 'if you go to war'; Num 24:20 'first in war among nations'; Num 31:14 'returning from battle'.",
+      "_grounding": "lane s.v. حرب: 'Harabahu ... He despoiled him'; lane lists noun حَرب (war) throughout the entry"
+    },
+    {
+      "id": "wakhada-took",
+      "lemma_ja": "וכד",
+      "lemma_ar": "وَخُذْ",
+      "root": "ʔ-kh-dh",
+      "pos": "verb",
+      "gloss_en": "and take! (imperative of أخذ with wāw)",
+      "gloss_he": "וְקַח!",
+      "source": "lane",
+      "variants": [
+        "כ'ד",
+        "כד'",
+        "וכד'"
+      ],
+      "notes": "ו + imperative خُذْ (from أخذ). Same lemma as כ'ד (id: khud-take-imperative); listed separately because the surface וכד lacks the apostrophe variant. Same root, same meaning.",
+      "_grounding": "lane s.v. أخذ: imperative xud"
+    },
+    {
+      "id": "maksab-gainful-work",
+      "lemma_ja": "מכסב",
+      "lemma_ar": "مَكْسَب",
+      "root": "k-s-b",
+      "pos": "noun (m.)",
+      "gloss_en": "gainful work, labor for gain",
+      "gloss_he": "מְלֶאכֶת עֲבוֹדָה, עֲבוֹדַת שָׂכָר",
+      "source": "lane",
+      "notes": "Verbal noun of pattern mafʿal from كسب (to gain/earn). Lane s.v. كسب: 'He collected [wealth]; he gained, acquired, or earned'. Phrase 'כל צנעה' מכסב' = 'every work of gain/earning' in festival laws (Num 28:18, 25, 26) renders מְלֶאכֶת עֲבֹדָה.",
+      "_grounding": "lane s.v. كسب: 'kasaba ... He gained, acquired, or earned, wealth'"
+    },
+    {
+      "id": "sumug-spices-resin",
+      "lemma_ja": "אלצמוג",
+      "lemma_ar": "الصُّمُوغ",
+      "root": "s-m-gh",
+      "pos": "noun (m.)",
+      "gloss_en": "aromatic resins/gums (used as incense)",
+      "gloss_he": "שְׂרָפִים, קְטֹרֶת בְּשָׂמִים",
+      "source": "lane",
+      "variants": [
+        "צמוג'",
+        "בכור אלצמוג'",
+        "צמוג"
+      ],
+      "notes": "Plural of صَمْغ. Lisan: 'الصَّمْغُ ... شيء يَنْضَحُه الشجر ويَسيل منها' (what exudes and flows from trees = gum). Blau: 'resin / קרף'. Used for בְּשָׂמִים/סַמִּים (spices/incense) Ex 25:6, 30:7, Num 4:16.",
+      "_grounding": "lisan s.v. صمغ: 'شيء يَنْضَحُه الشجر' (gum/resin); blau s.v. صمغ: 'resin / קרף'"
+    },
+    {
+      "id": "taqbal-accept",
+      "lemma_ja": "תקבל",
+      "lemma_ar": "تَقْبَلْ",
+      "root": "q-b-l",
+      "pos": "verb",
+      "gloss_en": "accept, receive (favors, offerings, or intercession)",
+      "gloss_he": "קַבֵּל, תְּקַבֵּל",
+      "source": "lane",
+      "variants": [
+        "תקבל",
+        "יקבל",
+        "מקבול",
+        "יקבלו"
+      ],
+      "notes": "Form I of قبل. Lane: 'qabila He took, received, or admitted, willingly, or with approbation; he accepted'. Num 16:15 'do not accept their offering'; Num 27:20 'so the community will accept him'; Deut 13:9 'do not listen to him'.",
+      "_grounding": "lane s.v. قبل: 'qabila He took, received ... with approbation; he accepted'"
+    },
+    {
+      "id": "gharib-stranger",
+      "lemma_ja": "ג'ריב",
+      "lemma_ar": "غَرِيب",
+      "root": "gh-r-b",
+      "pos": "noun (m.)",
+      "gloss_en": "stranger, foreigner; one who is not native",
+      "gloss_he": "גֵּר, זָר, נָכְרִי",
+      "source": "lane",
+      "variants": [
+        "אלג'ריב",
+        "ג'ריב"
+      ],
+      "notes": "Adjective used as noun. Lane s.v. غرب: 'garaba ... He became [a stranger, a foreigner; or] far, or distant, from his home'. In Saadia, renders גֵּר (sojourner) in Num 15, Gen 17:12. Apostrophe marks غ (ghayn).",
+      "_grounding": "lane s.v. غرب: 'garaba ... He became a stranger, a foreigner'"
+    },
+    {
+      "id": "yutlaq-permitted",
+      "lemma_ja": "יטלק",
+      "lemma_ar": "يُطْلَق",
+      "root": "ṭ-l-q",
+      "pos": "verb",
+      "gloss_en": "to permit, allow, give leave (to do something)",
+      "gloss_he": "הִתִּיר, נָתַן רְשׁוּת",
+      "source": "lane",
+      "variants": [
+        "יטלק",
+        "ויטלק"
+      ],
+      "notes": "Form IV imperfect passive/active of طلق. Lane s.v. طلق Form IV: 'ATlq lahu fiEola ka*aA He permitted him, or gave him permission or leave, to do such a thing'. Gen 41:34; Gen 43:14; Deut 18:14.",
+      "_grounding": "lane s.v. طلق Form IV: 'ATlq lahu ... He permitted him, or gave him permission or leave'"
+    },
+    {
+      "id": "nafsi-my-soul-self",
+      "lemma_ja": "נפסי",
+      "lemma_ar": "نَفْسِي",
+      "root": "n-f-s",
+      "pos": "noun (m.)",
+      "gloss_en": "my soul; myself; my own accord",
+      "gloss_he": "נַפְשִׁי, עַצְמִי",
+      "source": "lane",
+      "variants": [
+        "נפסי",
+        "נפסה",
+        "נפסהא"
+      ],
+      "notes": "نفس + 1cs suffix. Lane: 'nafasN ... soul, spirit, self, person'. 'ליס מן תלקא נפסי' (Num 16:28) = 'not of my own accord'. 'ותחיא נפסי' (Gen 12:13) = 'my soul will live'.",
+      "_grounding": "lane s.v. نفس: 'nafsN ... The soul; the spirit; self'"
+    },
+    {
+      "id": "madda-stretched-out",
+      "lemma_ja": "פמד",
+      "lemma_ar": "فَمَدَّ",
+      "root": "m-d-d",
+      "pos": "verb",
+      "gloss_en": "stretched out (his hand), extended",
+      "gloss_he": "פָּשַׁט (יָדוֹ), הֵשִׁיט",
+      "source": "lane",
+      "variants": [
+        "פמד",
+        "מד"
+      ],
+      "notes": "fa- (then/so) + 3ms perfect مَدَّ (Form I of مدد). Lisan: 'المَدُّ: الجَذْب والمَطْلُ. مَدَّه يَمُدُّه مَدّاً' (stretching out). Gen 19:10 'the men stretched out their hands'; Gen 22:10; Gen 48:14 'Israel stretched out his right hand'.",
+      "_grounding": "lisan s.v. مدد: 'المَدُّ: الجَذْب والمَطْلُ. مَدَّه يَمُدُّه مَدّاً'"
+    },
+    {
+      "id": "waqafa-stood",
+      "lemma_ja": "וקף",
+      "lemma_ar": "وَقَفَ",
+      "root": "w-q-f",
+      "pos": "verb",
+      "gloss_en": "stood, halted, stopped (in a place)",
+      "gloss_he": "עָמַד, נִצַּב",
+      "source": "lane",
+      "variants": [
+        "וקף",
+        "קף",
+        "ווקפו",
+        "וקפתם"
+      ],
+      "notes": "Form I perfect/imperative of وقف. Lane: 'waqafa He was, or became, still, or stationary; he stood still; he continued standing'. Also used as imperative 'قف' = stand/stop. Num 22:24; Num 23:3, 15.",
+      "_grounding": "lane s.v. وقف: 'waqafa He was, or became, still, or stationary; he stood still'"
+    },
+    {
+      "id": "yehoshua-proper",
+      "lemma_ja": "יהושע",
+      "lemma_ar": "يُوشَع",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Joshua (son of Nun)",
+      "gloss_he": "יְהוֹשֻׁעַ",
+      "variants": [
+        "ויהושע"
+      ],
+      "notes": "Biblical proper noun; Saadia renders יְהוֹשֻׁעַ as יהושע (Hebrew letters, unchanged). Num 11:28, 13:16, 14:6. Not a dictionary entry.",
+      "_grounding": "proper noun; no lexicon entry needed"
+    },
+    {
+      "id": "kabid-liver",
+      "lemma_ja": "אלכבד",
+      "lemma_ar": "الكَبِد",
+      "root": "k-b-d",
+      "pos": "noun (f.)",
+      "gloss_en": "the liver",
+      "gloss_he": "הַכָּבֵד",
+      "source": "lane",
+      "variants": [
+        "כבד",
+        "אלכבד",
+        "זאידה' אלכבד"
+      ],
+      "notes": "Lane s.v. كبد: 'kabid [or liver]'. Standard classical term. Ex 29:13,22: 'the lobe of the liver' (זאידה' אלכבד). Deut 4:11: 'to the heart/midst of the heaven' (כبد السماء).",
+      "_grounding": "lane s.v. كبد: 'kabadahu ... He ... hit, or smote, or hurt, his kabid [or liver]'"
+    },
+    {
+      "id": "manzilak-your-dwelling",
+      "lemma_ja": "מנזלך",
+      "lemma_ar": "مَنْزِلُكَ",
+      "root": "n-z-l",
+      "pos": "noun (m.)",
+      "gloss_en": "your dwelling, your household",
+      "gloss_he": "בֵּיתְךָ, מִשְׁכָּנְךָ",
+      "source": "lane",
+      "variants": [
+        "מנזלך",
+        "מנזלכם",
+        "מנזלהם"
+      ],
+      "notes": "منزل + 2ms/2mp suffix. Lane s.v. نزل: manziluN = 'a place of alighting, or abiding; a dwelling-place, house'. Num 18:11,13: 'every clean person in your household may eat it'; Deut 11:19.",
+      "_grounding": "lane s.v. نزل: 'manzilN ... a place of alighting ... a dwelling-place'"
+    },
+    {
+      "id": "nisf-half",
+      "lemma_ja": "נצף",
+      "lemma_ar": "نِصْف",
+      "root": "n-s-f",
+      "pos": "noun (m.)",
+      "gloss_en": "half",
+      "gloss_he": "חֲצִי",
+      "source": "lane",
+      "variants": [
+        "נצף",
+        "נצף"
+      ],
+      "notes": "Lane s.v. نصف: 'AlnaSofN ... one of the two halves of a thing'. Num 12:12 'half his flesh eaten away'; Num 15:10; Num 28:14 'half a hin for each bull'. The ץ = ص (ṣad).",
+      "_grounding": "lisan s.v. نصف: 'النِّصْفُ: أَحد شقَّي الشيء' (one half of something)"
+    },
+    {
+      "id": "atidan-he-goats",
+      "lemma_ja": "עתדאן",
+      "lemma_ar": "عُتُدَان",
+      "root": "ʕ-t-d",
+      "pos": "noun (m.)",
+      "gloss_en": "male goats (dual), two he-goats",
+      "gloss_he": "שְׁנֵי שְׂעִירִים",
+      "source": "lane",
+      "notes": "Dual of عَتُود (a young he-goat ready for mating). Lane s.v. عتد: 'Eatuda ... It (a thing) was, or became, ready, at hand'. The noun عَتُود / عَتِيد means 'prepared/ready male goat'. Num 7:17,23,29 etc.: 'five he-goats' (five of عتدان in the texts).",
+      "_grounding": "lane s.v. عتد: the noun 'Eatwdap' (young male goat) within the entry"
+    },
+    {
+      "id": "takshif-uncovers",
+      "lemma_ja": "תכשף",
+      "lemma_ar": "تَكْشِفْ",
+      "root": "k-sh-f",
+      "pos": "verb",
+      "gloss_en": "uncover, expose, reveal (genitals or nakedness)",
+      "gloss_he": "תְּגַלֶּה, תְּחַשֹּׂף",
+      "source": "lane",
+      "variants": [
+        "תכשף",
+        "כשף",
+        "תכשפן"
+      ],
+      "notes": "Form I of كشف. Lane: 'ka$afahu He uncovered it; unveiled it; laid it open; displayed it; exposed it to view'. Gen 9:21 'exposed himself in his tent'; Ex 20:23 'lest you expose your nakedness'; Lev 18:7.",
+      "_grounding": "lane s.v. كشف: 'ka$afahu He uncovered it; unveiled it; laid it open'"
+    },
+    {
+      "id": "bika-prep-2ms",
+      "lemma_ja": "בך",
+      "lemma_ar": "بِكَ",
+      "root": "—",
+      "pos": "preposition",
+      "gloss_en": "in you; with you; against you (prep. بِ + 2 m.s. pronoun)",
+      "gloss_he": "בְּךָ; עָלֶיךָ",
+      "source": "lane",
+      "notes": "Fused preposition-pronoun; lemma בִּ (بِ) is s.v. Lane art. bA (prepositions).",
+      "_grounding": "lane s.v. bA (bi-); pronoun suffix -ka standard Arabic; context: בלעם 22:28 מא צנעת בך"
+    },
+    {
+      "id": "bi-prep-1s",
+      "lemma_ja": "בי",
+      "lemma_ar": "بِي",
+      "root": "—",
+      "pos": "preposition",
+      "gloss_en": "in me; with me; against me (prep. بِ + 1 s. pronoun)",
+      "gloss_he": "בִּי; עָלַי",
+      "source": "lane",
+      "notes": "Fused preposition-pronoun; same lemma as בך with different suffix.",
+      "_grounding": "lane s.v. bA (bi-); context: לא יומנון בי 14:11"
+    },
+    {
+      "id": "khawass-sancta",
+      "lemma_ja": "כ'ואץ",
+      "lemma_ar": "خَوَاصّ",
+      "root": "kh-s-s",
+      "pos": "noun (f.)",
+      "gloss_en": "exclusive sacred things; special reserves; sancta",
+      "gloss_he": "קֳדָשִׁים מְיֻחָדִים; דְּבָרִים שְׁמוּרִים",
+      "source": "lane",
+      "notes": "Plural of خاصّة; Lane s.v. خصص: 'he singled it out to the exclusion of others.' In the Tafsir always followed by אלאקדאס (the holy things), translating קֹדֶשׁ הַקֳּדָשִׁים.",
+      "variants": [
+        "כ'ואצ"
+      ],
+      "_grounding": "lisan s.v. خصص: خصّه بالشيء ... أفرده به دون غيره; lane s.v. xSS"
+    },
+    {
+      "id": "ghayr-other",
+      "lemma_ja": "ג'יר",
+      "lemma_ar": "غَيْر",
+      "root": "gh-y-r",
+      "pos": "particle",
+      "gloss_en": "other than; not; except",
+      "gloss_he": "אַחֵר; מִבַּלְעֲדֵי; לֹא",
+      "source": "lane",
+      "notes": "Indeclinable particle of exception; functions as negative adjective or preposition.",
+      "variants": [
+        "ג'ריב"
+      ],
+      "_grounding": "lane s.v. gyr: particle denoting 'other than, not, except'"
+    },
+    {
+      "id": "lot-name",
+      "lemma_ja": "לוט",
+      "lemma_ar": "لوط",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Lot, son of Haran, nephew of Abraham",
+      "gloss_he": "לוֹט בֶּן הָרָן",
+      "notes": "Biblical figure; Hebrew לוֹט. Lane s.v. lwT notes lūṭ as a proper name.",
+      "_grounding": "proper noun; biblical equiv. Hebrew לוֹט; context: bereshit 11:27 אולד לוט"
+    },
+    {
+      "id": "bayni-between-me",
+      "lemma_ja": "ביני",
+      "lemma_ar": "بَيْنِي",
+      "root": "b-y-n",
+      "pos": "preposition",
+      "gloss_en": "between me (prep. بَيْن + 1 s. pronoun suffix)",
+      "gloss_he": "בֵּינִי",
+      "source": "lane",
+      "notes": "Fused preposition-pronoun; always in the phrase ביני ובינך/ובינכם.",
+      "_grounding": "lane s.v. byn: bayn = 'between'; context: יחכם אללה ביני ובינך 16:5"
+    },
+    {
+      "id": "sanatiha-year-f",
+      "lemma_ja": "סנתה",
+      "lemma_ar": "سَنَتِهَا",
+      "root": "s-n-h",
+      "pos": "noun (f.)",
+      "gloss_en": "her year; its (f.) year (as measure of animal age)",
+      "gloss_he": "שְׁנָתָהּ",
+      "source": "lane",
+      "notes": "Genitive of سَنَة 'year' + 3 f.s. possessive; used of female sacrificial animals: רכ'לה אבנה' סנתהא = 'a ewe-lamb in its [first] year.'",
+      "variants": [
+        "סנתהא",
+        "אבנה' סנתהא"
+      ],
+      "_grounding": "lane s.v. snh: sanah/sanah = 'a year'; context: bamidbar 6:14"
+    },
+    {
+      "id": "abaaika-fathers",
+      "lemma_ja": "אבאיך",
+      "lemma_ar": "آبَاؤُكَ",
+      "root": "a-b-w",
+      "pos": "noun (m.)",
+      "gloss_en": "your fathers; your ancestors (2 m.s.)",
+      "gloss_he": "אֲבוֹתֶיךָ",
+      "source": "lane",
+      "notes": "Plural آباء of أب 'father' + 2 m.s. suffix; Lane s.v. Abw lists pl. آباء as the preferred form.",
+      "variants": [
+        "לאבאיך"
+      ],
+      "_grounding": "lane s.v. Abw: pl. A=baA='N (آباء) 'fathers, ancestors'"
+    },
+    {
+      "id": "yarhad-wash",
+      "lemma_ja": "וירחץ'",
+      "lemma_ar": "وَيَرْحَضُ",
+      "root": "r-H-D",
+      "pos": "verb",
+      "gloss_en": "and he washes; bathes (his body)",
+      "gloss_he": "וְרָחַץ",
+      "source": "lane",
+      "notes": "wa- (و) + imperfect of رَحَضَ 'to wash (a garment or body)'; Lane s.v. rHD. JA apostrophe on ץ' marks ض (ḍād).",
+      "_grounding": "lane s.v. rHD: raḥaḍa 'He washed … a garment … and his hand'"
+    },
+    {
+      "id": "al-bathaniyya-bashan",
+      "lemma_ja": "אלבת'נייה",
+      "lemma_ar": "الْبَثَانِيَّة",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Bashan, region east of the Jordan ruled by Og",
+      "gloss_he": "הַבָּשָׁן",
+      "notes": "Arabic rendering of biblical הַבָּשָׁן; Lane does not lemmatize as geographical; context always 'Og king of Bashan.' JA apostrophe on ת' marks ث.",
+      "_grounding": "proper noun; biblical equiv. הַבָּשָׁן; context: bamidbar 21:33 עוג מלך אלבת'נייה"
+    },
+    {
+      "id": "fashtadda-intensified",
+      "lemma_ja": "פאשתד",
+      "lemma_ar": "فَاشْتَدَّ",
+      "root": "sh-d-d",
+      "pos": "verb",
+      "gloss_en": "so it intensified; became fierce or severe",
+      "gloss_he": "וַיֶּחֱזַק; וַיִּבְעַר",
+      "source": "lane",
+      "notes": "fa- (ف) + form VIII اشتدّ of شدّ 'to be hard/intense'; Lisan s.v. شدد: فاشتدّ 'became intense, strong.' Lane lists the root under $d.",
+      "_grounding": "lisan s.v. شدد: شَدَّه ... فاشتدّ; context: פאשתד ג'צב אללה גדא 11:10"
+    },
+    {
+      "id": "rivka-name",
+      "lemma_ja": "רבקה",
+      "lemma_ar": "رِبْقَة",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Rebekah, wife of Isaac, daughter of Bethuel",
+      "gloss_he": "רִבְקָה",
+      "notes": "Biblical proper name; Hebrew רִבְקָה; Lane does not have an entry for this name.",
+      "_grounding": "proper noun; biblical equiv. Hebrew רִבְקָה; context: bereshit 22:23 ובתואל אולד רבקה"
+    },
+    {
+      "id": "bakhura-incense",
+      "lemma_ja": "בכ'ורא",
+      "lemma_ar": "بَخُوراً",
+      "root": "b-kh-r",
+      "pos": "noun (m.)",
+      "gloss_en": "incense; aromatic fumigant burned as an offering",
+      "gloss_he": "קְטֹרֶת; בְּשָׂמִים",
+      "source": "lane",
+      "notes": "Lane s.v. bxr: baxūr 'a substance burned for fumigation'; accusative ending -an in JA. JA apostrophe marks خ (kh).",
+      "_grounding": "lane s.v. bxr: baxūr = substance used for fumigation/incense"
+    },
+    {
+      "id": "heshbon-name",
+      "lemma_ja": "חשבון",
+      "lemma_ar": "حَشْبُون",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Heshbon, capital city of Sihon king of the Amorites",
+      "gloss_he": "חֶשְׁבּוֹן",
+      "notes": "Biblical city name; Arabic transcription of Hebrew חֶשְׁבּוֹן; not in Lane as a geographical entry.",
+      "_grounding": "proper noun; biblical equiv. Hebrew חֶשְׁבּוֹן; context: bamidbar 21:25"
+    },
+    {
+      "id": "ushr-tenth",
+      "lemma_ja": "עשור",
+      "lemma_ar": "عُشْر",
+      "root": "ʿ-sh-r",
+      "pos": "noun (m.)",
+      "gloss_en": "a tenth part; tithe (one-tenth of an ephah as grain measure)",
+      "gloss_he": "עִשָּׂרוֹן; עֲשִׂירִית",
+      "source": "lane",
+      "notes": "Lane s.v. E$r: Eu$orN 'a tenth, a tenth part, one part of ten parts.' In the Tafsir renders עִשָּׂרוֹן (the grain measure of one-tenth of an ephah).",
+      "variants": [
+        "עשר"
+      ],
+      "_grounding": "lane s.v. E$r: Eu$orN 'A tenth; a tenth part; one part of ten parts'"
+    },
+    {
+      "id": "amin-amen",
+      "lemma_ja": "אמין",
+      "lemma_ar": "آمِين",
+      "root": "—",
+      "pos": "particle",
+      "gloss_en": "amen; so be it (response to prayer or oath)",
+      "gloss_he": "אָמֵן",
+      "source": "lane",
+      "notes": "Lane s.v. Amn: A=miynaN 'amen, a word used at the end of a prayer or supplication.' Indeclinable.",
+      "_grounding": "lane s.v. Amn: A=miyna / A^amiyna = amen after supplication"
+    },
+    {
+      "id": "al-gharib-stranger",
+      "lemma_ja": "אלג'ריב",
+      "lemma_ar": "الغَرِيب",
+      "root": "gh-r-b",
+      "pos": "noun (m.)",
+      "gloss_en": "the stranger; the alien; one far from home",
+      "gloss_he": "הַגֵּר; הַנָּכְרִי",
+      "source": "lane",
+      "notes": "Lane s.v. grb: gariyb 'a stranger, or foreigner; one who is far, or distant, from his home or native country.' Translates Hebrew גֵּר (sojourner).",
+      "variants": [
+        "ג'ריב"
+      ],
+      "_grounding": "lane s.v. grb: gurubah/ghurbah 'the being far or distant from home'; gariyb = stranger"
+    },
+    {
+      "id": "lil-zakwah-sin-offering",
+      "lemma_ja": "לאלדכוה",
+      "lemma_ar": "لِلزَّكْوَةِ",
+      "root": "z-k-w",
+      "pos": "noun (f.)",
+      "gloss_en": "for the sin-offering; as a purification sacrifice",
+      "gloss_he": "לְחַטָּאת",
+      "source": "blau",
+      "notes": "Saadia uses زكوة/דכוה (classical: purity, alms) to render Hebrew חַטָּאת 'sin-offering'; attested in the Arabic transcript of Tafsir Num 6:14 لِلزَّكْوَةِ. Lane s.v. zkw gives 'purity' as a primary sense. This specific sacrificial application is Saadia's technical usage.",
+      "_grounding": "lane s.v. zkw: zakaA = 'purity'; blau s.v. זכו: to gain/acquire. Arabic transcript Num 6:14 confirms לאלדכוה = لِلزَّكْوَةِ = לחטאת"
+    },
+    {
+      "id": "al-sahra-field",
+      "lemma_ja": "אלצחרי",
+      "lemma_ar": "الصَّحْرَاء",
+      "root": "S-H-r",
+      "pos": "noun (f.)",
+      "gloss_en": "the open country; desert field; uncultivated plain",
+      "gloss_he": "הַשָּׂדֶה; הַמִּדְבָּר",
+      "source": "lane",
+      "notes": "Lisan s.v. صحر: الصَّحْراء البَرِّيَّة 'the wilderness, the open country'; the trailing yā' in JA אלצחרי is the nisba or pausal yā'. Translates שָׂדֶה/הַשָּׂדֶה.",
+      "_grounding": "lisan s.v. صحر: الصَّحْراء = open field, wilderness, uncultivated country"
+    },
+    {
+      "id": "ams-yesterday",
+      "lemma_ja": "אמס",
+      "lemma_ar": "أَمْسِ",
+      "root": "—",
+      "pos": "adverb",
+      "gloss_en": "yesterday; recently",
+      "gloss_he": "אֶתְמוֹל",
+      "source": "lane",
+      "notes": "Lane s.v. Ams: 'Yesterday, or the day before the present day'; indeclinable adverb.",
+      "_grounding": "lane s.v. Ams: A^amos = 'yesterday, or the day before the present day'"
+    },
+    {
+      "id": "hinaidh-at-that-time",
+      "lemma_ja": "חיניד",
+      "lemma_ar": "حِينَئِذٍ",
+      "root": "H-y-n",
+      "pos": "adverb",
+      "gloss_en": "at that time; thereupon; then",
+      "gloss_he": "בָּעֵת הַהִיא; אָז",
+      "source": "lane",
+      "notes": "Compound حِين (time/when) + إذٍ (then); Lane s.v. Hyn: HIyn 'a time, a period of time.' The compound حينئذٍ means 'at that time.' JA spelling חיניד' drops the hamza.",
+      "variants": [
+        "חיניד'"
+      ],
+      "_grounding": "lane s.v. Hyn: HIyn = 'a time'; compound HiynayidhN = 'at that time'"
+    },
+    {
+      "id": "mamluwwa-filled",
+      "lemma_ja": "ממלווא",
+      "lemma_ar": "مَمْلُوءاً",
+      "root": "m-l-ʾ",
+      "pos": "verb",
+      "gloss_en": "filled (with); full of",
+      "gloss_he": "מָלֵא",
+      "source": "lane",
+      "notes": "Passive participle (m. acc.) of مَلَأَ 'to fill'; Lane s.v. mlA^: malaA^a 'He filled a vessel'; mamlū' = filled. ממלוון is the dual m. form of the same word.",
+      "variants": [
+        "ממלוון"
+      ],
+      "_grounding": "lane s.v. mlA^: malaA^a 'He filled'; passive part. mamlū' = 'filled'"
+    },
+    {
+      "id": "qasah-bowl",
+      "lemma_ja": "קצעה",
+      "lemma_ar": "قَصْعَة",
+      "root": "q-S-ʿ",
+      "pos": "noun (f.)",
+      "gloss_en": "large bowl; deep dish for offerings",
+      "gloss_he": "מִזְרָק; קְעָרָה גְּדוֹלָה",
+      "source": "lane",
+      "notes": "Lane s.v. qSE: qaSoEap 'A bowl not so large as a jafnah … a wooden bowl.' In the Tafsir translates Hebrew קְעָרָה (the offering bowl) weighing 130 shekels.",
+      "_grounding": "lane s.v. qSE: qaSoEah = 'A bowl … that satisfies ten; it is a wooden bowl'"
+    },
+    {
+      "id": "aqsamtu-swore",
+      "lemma_ja": "אקסמת",
+      "lemma_ar": "أَقْسَمْتُ",
+      "root": "q-s-m",
+      "pos": "verb",
+      "gloss_en": "I swore; I took an oath; I vowed",
+      "gloss_he": "נִשְׁבַּעְתִּי; הִשְׁבַּעְתִּי",
+      "source": "lane",
+      "notes": "Form IV perfect 1 s. of قَسَمَ; Lane s.v. qsm: A^aqosama Ealayohi 'He conjured him; he said biHaq~ika.' Saadia uses it for divine oath: אקסמת לאברהים ויצחק ויעקוב.",
+      "_grounding": "lane s.v. qsm: A^aqosama 'He conjured; swore by'"
+    },
+    {
+      "id": "horev-name",
+      "lemma_ja": "חריב",
+      "lemma_ar": "حُورِيب",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Horeb, the mountain of God (Sinai)",
+      "gloss_he": "חֹרֵב",
+      "notes": "Arabic transcription of Hebrew חֹרֵב; Lane s.v. xrb treats خَرِب as 'ruined/desolate' but does not identify this as the place-name. Saadia uses חריב throughout Devarim for the mountain.",
+      "_grounding": "proper noun; biblical equiv. Hebrew חֹרֵב; context: devarim 1:2 מן חריב"
+    },
+    {
+      "id": "kohath-name",
+      "lemma_ja": "קהת",
+      "lemma_ar": "قَهَات",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Kohath, son of Levi, ancestor of the Kohathite clan",
+      "gloss_he": "קְהָת",
+      "notes": "Biblical proper name; Hebrew קְהָת; Lane has no entry. The JA form is a direct transliteration.",
+      "_grounding": "proper noun; biblical equiv. Hebrew קְהָת; context: bamidbar 3:17"
+    },
+    {
+      "id": "abihim-their-father",
+      "lemma_ja": "אביהם",
+      "lemma_ar": "أَبِيهِم",
+      "root": "a-b-w",
+      "pos": "noun (m.)",
+      "gloss_en": "their father",
+      "gloss_he": "אֲבִיהֶם",
+      "source": "lane",
+      "notes": "أب 'father' (oblique أبي) + 3 m. pl. suffix; Lane s.v. Abw. Same root as אבאיך.",
+      "_grounding": "lane s.v. Abw: ab 'father'; pl. suffix forms discussed"
+    },
+    {
+      "id": "julud-hides",
+      "lemma_ja": "גלוד",
+      "lemma_ar": "جُلُود",
+      "root": "j-l-d",
+      "pos": "noun (m.)",
+      "gloss_en": "hides; skins (of animals, used for coverings)",
+      "gloss_he": "עוֹרוֹת",
+      "source": "lane",
+      "notes": "Plural of جِلْد 'skin, hide'; Lane s.v. jld: jilodN 'The skin of any animal; the integument of the body.' In the Tafsir: ג'שא גלוד דארש = 'a covering of dugong hide.'",
+      "_grounding": "lane s.v. jld: jilodN 'The skin of any animal … pl. juluwd'"
+    },
+    {
+      "id": "yasiru-becomes",
+      "lemma_ja": "יציר",
+      "lemma_ar": "يَصِير",
+      "root": "S-y-r",
+      "pos": "verb",
+      "gloss_en": "he becomes; it turns into",
+      "gloss_he": "יְהֵא; יֵהָפֵךְ",
+      "source": "lane",
+      "notes": "Imperfect 3 m.s. of صَارَ; Lane s.v. Syr: SaAra 'He, or it, attained to the state or condition of such a thing; became such a thing.' Copular verb like كان.",
+      "variants": [
+        "ותציר"
+      ],
+      "_grounding": "lane s.v. Syr: SaAra = 'He attained to the state of; became'"
+    },
+    {
+      "id": "al-sadir-goshen",
+      "lemma_ja": "אלסדיר",
+      "lemma_ar": "الْسَّدِير",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Goshen, the region in Egypt settled by Jacob's family",
+      "gloss_he": "גֹּשֶׁן",
+      "notes": "Saadia's Arabic rendering of Hebrew גֹּשֶׁן (Goshen); Lane does not identify this as a place-name entry. The Arabic السَّدِير appears in Saadia consistently for Goshen.",
+      "_grounding": "proper noun; biblical equiv. Hebrew גֹּשֶׁן; context: bereshit 45:10 בלד אלסדיר"
+    },
+    {
+      "id": "fanazara-looked",
+      "lemma_ja": "פנצ'ר",
+      "lemma_ar": "فَنَظَرَ",
+      "root": "n-Z-r",
+      "pos": "verb",
+      "gloss_en": "and he looked; and he gazed",
+      "gloss_he": "וַיַּבֵּט; וַיִּרְאֶה",
+      "source": "lane",
+      "notes": "fa- (ف) + perfect 3 m.s. of نَظَرَ; Lane s.v. nZr: naZara A_ilayohi 'He looked at, or towards, in order to see.' JA apostrophe on צ' marks ظ (ẓāʾ).",
+      "_grounding": "lane s.v. nZr: naZara = 'He looked at or towards'"
+    },
+    {
+      "id": "raa-saw",
+      "lemma_ja": "ראא",
+      "lemma_ar": "رَأَى",
+      "root": "r-ʾ-y",
+      "pos": "verb",
+      "gloss_en": "he saw; he perceived; he observed",
+      "gloss_he": "רָאָה",
+      "source": "lane",
+      "notes": "Perfect 3 m.s. of رَأَى 'to see'; the final alif in JA spelling marks the radical ى. Lane s.v. rAY.",
+      "_grounding": "lane s.v. rAY: raA^aY 'He saw it'"
+    },
+    {
+      "id": "al-jabaabirah-giants",
+      "lemma_ja": "אלגבאברה",
+      "lemma_ar": "الجَبَابِرَة",
+      "root": "j-b-r",
+      "pos": "noun (m.)",
+      "gloss_en": "the giants; the mighty tyrants; the Anakim",
+      "gloss_he": "הָעֲנָקִים; הַגִּבֹּרִים",
+      "source": "lane",
+      "notes": "Plural of جَبَّار; Lane s.v. jbr: jabbār 'Huge, tall, and strong; a giant' (tropical sense). Translates Hebrew עֲנָקִים (sons of Anak).",
+      "_grounding": "lane s.v. jbr: jab~aArN 'Huge, tall, and strong; a giant'"
+    },
+    {
+      "id": "yujad-found",
+      "lemma_ja": "יוגד",
+      "lemma_ar": "يُوجَد",
+      "root": "w-j-d",
+      "pos": "verb",
+      "gloss_en": "is found; there is; let there be found",
+      "gloss_he": "יִמָּצֵא; יֵשׁ",
+      "source": "lane",
+      "notes": "Imperfect passive 3 m.s. of وَجَدَ (form IV passive يُوجَد or form I passive يُوجَد); Lane s.v. wjd: wajadahu 'He found it.'",
+      "_grounding": "lane s.v. wjd: wajadahu 'He found'; passive yūjad = 'is found'"
+    },
+    {
+      "id": "al-kabir-great",
+      "lemma_ja": "אלכביר",
+      "lemma_ar": "الكَبِير",
+      "root": "k-b-r",
+      "pos": "noun (m.)",
+      "gloss_en": "the great one; the elder; the high priest",
+      "gloss_he": "הַגָּדוֹל; הַזָּקֵן; הַכֹּהֵן הַגָּדוֹל",
+      "source": "lane",
+      "notes": "Lane s.v. kbr: kabura 'He was or became great.' In the Tafsir האמאם אלכביר = the High Priest (כֹּהֵן הַגָּדוֹל). Also used for the Great Sea (Mediterranean).",
+      "_grounding": "lane s.v. kbr: kabura 'was or became great'; kabīr = great, big, senior"
+    },
+    {
+      "id": "masaakinukum-dwellings",
+      "lemma_ja": "מסאכנכם",
+      "lemma_ar": "مَسَاكِنكم",
+      "root": "s-k-n",
+      "pos": "noun (m.)",
+      "gloss_en": "your dwellings; your settlements",
+      "gloss_he": "מוֹשְׁבֹתֵיכֶם",
+      "source": "lane",
+      "notes": "Plural of مَسْكَن 'dwelling, place of abode' + 2 m. pl. suffix; Lane s.v. skn: sakana 'It was, or became, still … and said of a man [dwelling/residing].'",
+      "_grounding": "lane s.v. skn: maskan = 'dwelling, place of abode'"
+    },
+    {
+      "id": "al-sabt-sabbath",
+      "lemma_ja": "אלסבת",
+      "lemma_ar": "السَّبْت",
+      "root": "s-b-t",
+      "pos": "noun (m.)",
+      "gloss_en": "the Sabbath; Saturday",
+      "gloss_he": "הַשַּׁבָּת",
+      "source": "lane",
+      "notes": "Lane s.v. sbt: sabata 'He rested, and ceased or abstained from works'; AlsabtN 'the Sabbath; and Saturday.' Standard JA term.",
+      "_grounding": "lane s.v. sbt: sabata = 'he rested'; AlsabtN = 'the Jewish Sabbath'"
+    },
+    {
+      "id": "al-fatir-unleavened",
+      "lemma_ja": "אלפטיר",
+      "lemma_ar": "الفَطِير",
+      "root": "f-T-r",
+      "pos": "noun (m.)",
+      "gloss_en": "unleavened bread; dough not allowed to rise",
+      "gloss_he": "מַצּוֹת; לֶחֶם עֹנִי",
+      "source": "lane",
+      "notes": "Lane s.v. fTr: faTiyrN 'Dough unleavened; or not left until it has become good; contr. of xamiyroN.' Also: Eiydu AlofaTiyri = Feast of Unleavened Bread (Passover).",
+      "_grounding": "lane s.v. fTr: faTiyroN = 'dough unleavened'; contrasts with xamiyroN (leavened)"
+    },
+    {
+      "id": "taal-come",
+      "lemma_ja": "תעאל",
+      "lemma_ar": "تَعَالَ",
+      "root": "ʿ-l-w",
+      "pos": "verb",
+      "gloss_en": "come! (imperative m.s.); come hither",
+      "gloss_he": "בֹּא; לֵךְ",
+      "source": "lane",
+      "notes": "Imperative 2 m.s. of form VI of عَلَا; Lane s.v. Elw: 'Addressing a man … taEaAla, with fet-h to the l, originally meaning Be thou elevated … used in the sense of Come.' Frozen form regardless of gender/number in spoken usage.",
+      "_grounding": "lane s.v. Elw: taEaAla = imperative 'come!' originally 'be elevated'"
+    },
+    {
+      "id": "walada",
+      "lemma_ja": "ולדת",
+      "lemma_ar": "وَلَدَت",
+      "root": "w-l-d",
+      "pos": "verb",
+      "gloss_en": "she bore, gave birth to (a child)",
+      "gloss_he": "ילדה, הולידה",
+      "source": "lane",
+      "variants": [
+        "ולד",
+        "ולדתהם",
+        "פולדת"
+      ],
+      "notes": "Form I fem. 3sg. past; ولَّد (form II) = act as midwife. In context Saadia uses ولدت consistently for birth of named figures.",
+      "_grounding": "lane s.v. ولد (wld): 'She brought forth a child; She bore a child' — waladatu, inf. n. wilādah and walādah."
+    },
+    {
+      "id": "mashzur",
+      "lemma_ja": "משזור",
+      "lemma_ar": "مَشْزُور",
+      "root": "sh-z-r",
+      "pos": "noun (m.)",
+      "gloss_en": "twisted linen thread; fine twisted yarn",
+      "gloss_he": "שש משזר (פשתן שזור)",
+      "source": "lane",
+      "variants": [
+        "שזור"
+      ],
+      "notes": "Passive participle of شَزَرَ 'to twist'; used in Tabernacle weaving contexts (Ex 26:1) parallel to Hebrew שֵׁשׁ מָשְׁזָר. Blau attests شزر = 'to twist' (citing Ibn Janāḥ).",
+      "_grounding": "lane s.v. شزر: $zr — to twist (thread); blau s.v. شزر (שזו): 'to twist'."
+    },
+    {
+      "id": "sibgh-qirmiz",
+      "lemma_ja": "וצבג",
+      "lemma_ar": "وَصِبْغ",
+      "root": "s-b-gh",
+      "pos": "noun (m.)",
+      "gloss_en": "dye; dyestuff (usually crimson dye)",
+      "gloss_he": "צבע; צבע הארגמן (קרמז)",
+      "source": "lane",
+      "variants": [
+        "צבג"
+      ],
+      "notes": "صِبْغ (sibġ) = dye; in Saadia consistently as צבג' קרמז 'crimson dye' = תולעת שני. Lane: Sabagahu = 'he dyed it'. Blau: صبغ 'to be dyed / nrṭb'.",
+      "_grounding": "lane s.v. صبغ (Sbg): 'He dyed it … a garment or piece of cloth'; blau s.v. صبغ (צבג): 'to be dyed / נצבע'."
+    },
+    {
+      "id": "jaysh",
+      "lemma_ja": "גישה",
+      "lemma_ar": "جَيْشٌ",
+      "root": "j-y-sh",
+      "pos": "noun (m.)",
+      "gloss_en": "army, military force, troops",
+      "gloss_he": "צבא, חיל",
+      "source": "lane",
+      "variants": [
+        "גיוש",
+        "לגיושהם"
+      ],
+      "notes": "In Saadia גישה / גיוש = جَيْش 'army'. Lane: jy$ — 'assembled, armies, or military forces'. The form לגיושהם = لِجُيُوشِهِم 'for/in their armies'.",
+      "_grounding": "lane s.v. جيش (jy$): 'He collected, or assembled, an army, or a military force'; jayo$N = army."
+    },
+    {
+      "id": "mahall",
+      "lemma_ja": "מחאלך",
+      "lemma_ar": "مَحَالِّكَ",
+      "root": "h-l-l",
+      "pos": "noun (m.)",
+      "gloss_en": "your localities, settlements, dwelling-places",
+      "gloss_he": "מקומות מגוריך, אחוזותיך",
+      "source": "lane",
+      "notes": "Plural of مَحَلّ (maḥall) 'a place of abode, settlement' + 2ms suffix -ka; Lane: maHal~N = 'A place where a person or party alights … a place of alighting, or abode, or settlement'; pl. maḥāll. Saadia uses it for the localities/gates of Dt 12:17 etc.",
+      "_grounding": "lane s.v. حل (Hl): maHal~N … 'a place of alighting, or abode, or settlement … pl. maHaAl~u'."
+    },
+    {
+      "id": "al-yumna",
+      "lemma_ja": "אלימני",
+      "lemma_ar": "الْيُمْنَى",
+      "root": "y-m-n",
+      "pos": "adjective",
+      "gloss_en": "the right (side), right-hand",
+      "gloss_he": "הימנית, של ימין",
+      "source": "lane",
+      "notes": "Fem. elative/superlative form of يَمِين; الْيُمْنَى = the right side. Lane: 'Alyamiynu * The location that is on the right.' Saadia: יד אלימני / אד'ן אלימני = right hand / right ear.",
+      "_grounding": "lane s.v. يمن (ymn): 'Alyamiynu * The location that is on the right'."
+    },
+    {
+      "id": "qalb",
+      "lemma_ja": "קלבה",
+      "lemma_ar": "قَلْبُهُ",
+      "root": "q-l-b",
+      "pos": "noun (m.)",
+      "gloss_en": "his heart (as seat of will, courage, emotion)",
+      "gloss_he": "לבו",
+      "source": "lane",
+      "notes": "قَلْب (qalb) + 3ms suffix -hu. Lane: qalobN * = 'The heart'. Saadia: פשכך קלבה = 'his heart doubted/hesitated'; לא ירתפע קלבה = 'his heart shall not be lifted up'.",
+      "_grounding": "lane s.v. قلب (qlb): 'qalobN * The heart; syn. fuw^aAdN'."
+    },
+    {
+      "id": "am-conj",
+      "lemma_ja": "אם",
+      "lemma_ar": "أَمْ",
+      "root": "—",
+      "pos": "conjunction",
+      "gloss_en": "or (disjunctive, in questions: 'which of the two?')",
+      "gloss_he": "או (בשאלה: 'מי מהם')",
+      "source": "lane",
+      "notes": "Disjunctive interrogative conjunction. Lane: 'A^amo * is a conjunction … It denotes interrogation … corresponding to the interrogative A^a … meaning A^aY~ … which of them two.' Distinct from أَوْ (aw). In Saadia: אהו שדיד אם מסתרכ'י = 'Is it strong, or lax?'",
+      "_grounding": "lane s.v. أم (Am): 'A^amo * is a conjunction … It denotes interrogation … meaning A^aY~: which of the two?'"
+    },
+    {
+      "id": "abid",
+      "lemma_ja": "עבידך",
+      "lemma_ar": "عَبِيدُكَ",
+      "root": "a-b-d",
+      "pos": "noun (m.)",
+      "gloss_en": "your servants, your slaves (collective honorific)",
+      "gloss_he": "עבדיך (נוסח ענווה בפי הפונים לאדון)",
+      "source": "lane",
+      "notes": "عَبِيد = pl. of عَبْد 'slave, servant'; + 2ms -ka. Used in Saadia as a self-referential honorific plural when addressing a superior (Moses, God). Lane: 'He was, or became, a slave, or in a state of slavery'.",
+      "_grounding": "lane s.v. عبد (Ebd): slave/servant — Eabada, EibaAdapN; EabiydN = slave; pl. EabiydN."
+    },
+    {
+      "id": "yamalu",
+      "lemma_ja": "יעמל",
+      "lemma_ar": "يَعْمَلُ",
+      "root": "a-m-l",
+      "pos": "verb",
+      "gloss_en": "he does, performs, carries out (a deed or act)",
+      "gloss_he": "יעשה, יעסוק",
+      "source": "lane",
+      "notes": "Form I imperfect 3ms; EamalaN = 'He worked, or wrought; he did, acted, or performed'. Saadia uses יעמל for 'shall do' (vow text) and for manual work.",
+      "_grounding": "lane s.v. عمل (Eml): 'Eamila … aor. Eamala, inf. n. EamalN, He worked, or wrought … he did, acted, or performed'."
+    },
+    {
+      "id": "sahib",
+      "lemma_ja": "צאחבך",
+      "lemma_ar": "صَاحِبُكَ",
+      "root": "s-h-b",
+      "pos": "noun (m.)",
+      "gloss_en": "your companion, fellow, neighbor",
+      "gloss_he": "חברך, שכנך, רעך",
+      "source": "lane",
+      "notes": "صَاحِب (ṣāḥib) + 2ms -ka = 'your companion/associate'. Lane: SHb 1 = 'He associated, kept company, or consorted, with him … SAHibN = companion, associate, comrade, fellow, friend'. Blau attests a JA sense 'husband' (influenced by Heb. בעל) — but Saadia uses it in the standard classical sense of 'companion/neighbor'.",
+      "_grounding": "lane s.v. صحب (SHb): 'SaHibahu … He associated, kept company, or consorted, with him … companion, associate, comrade, fellow, friend'."
+    },
+    {
+      "id": "atlaq",
+      "lemma_ja": "אטלק",
+      "lemma_ar": "أَطْلَقَ",
+      "root": "t-l-q",
+      "pos": "verb",
+      "gloss_en": "he released, let go, set free",
+      "gloss_he": "שחרר, שִׁלַּח",
+      "source": "lane",
+      "notes": "Form IV of طَلَقَ. Lane: 'A^aTolaqa … He let go the captive; and set him free; he loosed the bond of the captive, and let him go'. In Gen 8:7 = שלח הערב; Gen 8:8 = שלח הת יונה.",
+      "_grounding": "lane s.v. طلق (Tlq) form 4: 'ATlq AlA^asiyra … He let go the captive; and set him free; he loosed the bond'."
+    },
+    {
+      "id": "al-jawf",
+      "lemma_ja": "אלגוף",
+      "lemma_ar": "الْجَوْفُ",
+      "root": "j-w-f",
+      "pos": "noun (m.)",
+      "gloss_en": "the interior, inside, inner cavity (of body or structure)",
+      "gloss_he": "הפנים, חלל הפנים (של גוף או מבנה)",
+      "source": "lane",
+      "notes": "Lane: jawofN = 'It reached his jawof [or inside, or interior]'. In Saadia: אלשחם אלמג'טי אלגוף = 'the fat covering the cavity/interior', and אלמהג אלאוסט פי גוף אלתכ'אתג = 'the bar through the interior of the planks'.",
+      "_grounding": "lane s.v. جوف (jwf): 'jaAfatohu … jawofN [or inside, or interior, &c.]'; inf. n. jawofN = 'It reached his jawof'."
+    },
+    {
+      "id": "sharif",
+      "lemma_ja": "ושריפהם",
+      "lemma_ar": "وَشَرِيفُهُمْ",
+      "root": "sh-r-f",
+      "pos": "noun (m.)",
+      "gloss_en": "their nobleman, chieftain, leader",
+      "gloss_he": "נשיאם, ראש שבטם",
+      "source": "lane",
+      "notes": "شَرِيف (šarīf) = 'high, noble, possessing glory, honour, or nobility … the pl. is A^a$oraAfN and $urafaA^'. Saadia uses ושריפהם for the tribal chief named after each camp unit (Num 2).",
+      "_grounding": "lane s.v. شرف ($rf): '$ariyfN * High, elevated, exalted, or eminent … possessing glory, honour, dignity, or nobility; pl. A^a$oraAfN and $urafaA^'."
+    },
+    {
+      "id": "wasamat",
+      "lemma_ja": "ואסמתה",
+      "lemma_ar": "وَسَمَّتْهُ",
+      "root": "s-m-w",
+      "pos": "verb",
+      "gloss_en": "and she named him, called him by the name",
+      "gloss_he": "וקראה לו שם",
+      "source": "lane",
+      "notes": "Form II 3fs past of سَمَّى (sm~Y) + 3ms suffix; Lane: 'sm~Y … He named him, or called him, Such a one; … he made [such] to be his name, his proper name.' In Saadia: ואסמתה ראובן = 'and she named him Reuben'.",
+      "_grounding": "lane s.v. سمو (smw) form II: 'sm~Y … teshdeed … He named him, or called him, Such a one'."
+    },
+    {
+      "id": "hadiyya",
+      "lemma_ja": "הדייה",
+      "lemma_ar": "هَدِيَّة",
+      "root": "h-d-y",
+      "pos": "noun (f.)",
+      "gloss_en": "gift, present sent as an act of courtesy or honor",
+      "gloss_he": "מתנה, דורון",
+      "source": "lane",
+      "notes": "Lane: 'hadiy~apN * [n. un.] A present; i.e. a thing sent to another in token of courtesy or honour'. In Gen 32:19: הד'א הדייה מבעות'ה לסיידי = 'this is a gift sent to my lord'. In Gen 4:3: הדייה ללה = 'an offering to God'.",
+      "_grounding": "lane s.v. هدي (hdy): 'hadiy~apN * A present; i.e. a thing sent to another in token of courtesy or honour'."
+    },
+    {
+      "id": "ibar",
+      "lemma_ja": "עבר",
+      "lemma_ar": "عَبَرَ",
+      "root": "a-b-r",
+      "pos": "verb",
+      "gloss_en": "he crossed over, passed across (a river, border)",
+      "gloss_he": "עבר (את הנהר), חצה",
+      "source": "lane",
+      "notes": "Form I: Eabara = 'He passed, went, or crossed, over it … namely a river'. Also used as noun עבר = عِبْر 'the side/bank (of the Jordan)': Lane cites EiborN = 'the side of a river'. In Num 32 Saadia alternates verb and noun senses.",
+      "_grounding": "lane s.v. عبر (Ebr): 'Eabara bihi … He passed … from one side thereof to the other … a river'; also EiborN 'the side' of a river."
+    },
+    {
+      "id": "shaqqa",
+      "lemma_ja": "אלשקה",
+      "lemma_ar": "الشُّقَّة",
+      "root": "sh-q-q",
+      "pos": "noun (f.)",
+      "gloss_en": "a curtain panel, an oblong strip of cloth",
+      "gloss_he": "יריעה (פנל אריג מלבני)",
+      "source": "lane",
+      "notes": "Lane: '$aq~apN * primarily signifies The half of a garment … applied to an oblong piece; syn. sabiybapN musotaTiylapN … pl. $uqaqN and $iqaAqN.' In Ex 26:2 Saadia: כל שקה = 'each curtain strip'. Plural is שקאק = شِقَاق.",
+      "_grounding": "lane s.v. شق ($qq): '$aq~apN * primarily the half of a garment … an oblong piece … pl. $uqaqN and $iqaAqN'."
+    },
+    {
+      "id": "al-bir",
+      "lemma_ja": "אלביר",
+      "lemma_ar": "الْبِئْرُ",
+      "root": "b-'-r",
+      "pos": "noun (f.)",
+      "gloss_en": "the well (water-well)",
+      "gloss_he": "הבאר",
+      "source": "lane",
+      "notes": "بِئْر (bi'r) is classical Arabic for well (masc. in classical, often fem.); Lisan: 'البِئْرُ: القَلِيبُ، أُنثى، والجمع أَبْآرٌ'. Lane references biy^orN throughout. Saadia: אגמע אלקום ... אעטיהם מאא = 'assemble the people … I will give them water' (Num 21:16–18).",
+      "_grounding": "lisan s.v. بأر: 'البِئْرُ: القَلِيبُ، أُنثى، والجمع أَبْآرٌ'; lane passim biy^orN 'A well'."
+    },
+    {
+      "id": "lawh",
+      "lemma_ja": "לוחי",
+      "lemma_ar": "لَوْحَيْ",
+      "root": "l-w-h",
+      "pos": "noun (m.)",
+      "gloss_en": "the two tablets (stone), dual construct",
+      "gloss_he": "לוחות (האבן)",
+      "source": "lane",
+      "notes": "لَوْح (lawḥ) = 'That [meaning a tablet] upon which one writes'. Dual لَوْحَيْ (lawḥay). Lane: 'lawoHN … That [a tablet] upon which one writes; katabonaA lahu fiY AlA^alowaAHi [We wrote … upon the tablets]'. Saadia: נחת לוחי גוהר = 'I hewed tablets of stone'.",
+      "_grounding": "lane s.v. لوح (lwH): 'lawoHN … That upon which one writes … (Kur vii. 142) AlA^alowaAHi [tablets]'."
+    },
+    {
+      "id": "atla",
+      "lemma_ja": "עטלה",
+      "lemma_ar": "عُطْلَة",
+      "root": "a-t-l",
+      "pos": "noun (f.)",
+      "gloss_en": "day of rest, holiday, cessation from work",
+      "gloss_he": "יום פגרה, יום מנוחה",
+      "source": "blau",
+      "notes": "Blau attests عُطْلَة = 'holiday, free day / יום פגרה' with explicit citation from Saadia's Tafsir on Lev 26:34. Lane has EuTolapN = 'the state of being without work, or occupation' but does not yield 'rest day'. Blau is the primary reference for the Saadia-specific sense.",
+      "_grounding": "blau s.v. عطلة (עטלה): 'holiday, free day / יום פגרה'; citing Saadia Tafsir Lev (וס\"ג לויקרא)."
+    },
+    {
+      "id": "shab",
+      "lemma_ja": "שעב",
+      "lemma_ar": "شَعْبٌ",
+      "root": "sh-a-b",
+      "pos": "noun (m.)",
+      "gloss_en": "a people, nation, tribe",
+      "gloss_he": "עם, לאום",
+      "source": "lane",
+      "notes": "Lane: '$aEobN * … A great number of people; … a tribe, or nation'. In Saadia consistently = עם/לאום: שעב מקדס ללה = 'a holy nation to God'; שעב כלבו יקום = 'a people, as a lion, shall rise'.",
+      "_grounding": "lane s.v. شعب ($Eb): '$aEobN * A great number of people … a tribe or nation'."
+    },
+    {
+      "id": "gershon",
+      "lemma_ja": "גרשון",
+      "lemma_ar": "جِرْشُون",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Gershon (son of Levi, head of Levitical clan)",
+      "gloss_he": "גֵּרְשׁוֹן",
+      "notes": "Biblical proper name, Hebrew גֵּרְשׁוֹן, transliterated into Judeo-Arabic. No Arabic root. Appears throughout Num as the tribe responsible for carrying Tabernacle coverings.",
+      "_grounding": "proper noun — Hebrew biblical name גֵּרְשׁוֹן, JA transliteration."
+    },
+    {
+      "id": "yadkhul",
+      "lemma_ja": "ידכל",
+      "lemma_ar": "يَدْخُلُ",
+      "root": "d-kh-l",
+      "pos": "verb",
+      "gloss_en": "he enters, comes into (service, assembly)",
+      "gloss_he": "יכנס, ייכנס",
+      "source": "lane",
+      "notes": "Form I imperfect 3ms of دَخَلَ (dakala). Standard classical Arabic. Lane: dakala = 'He entered; he came, or went, in, or into'. Saadia: ידכל לאלגיש = 'he enters into the army/service'; לא ידכל מפדוג' = 'an injured person shall not enter'.",
+      "_grounding": "lane s.v. دخل (dxl): 'daxala … He entered; he came, or went, in, or into'."
+    },
+    {
+      "id": "lil-harb",
+      "lemma_ja": "לאלחרב",
+      "lemma_ar": "لِلْحَرْبِ",
+      "root": "h-r-b",
+      "pos": "noun (m.)",
+      "gloss_en": "for war, for battle, for combat",
+      "gloss_he": "למלחמה, לקרב",
+      "source": "lane",
+      "notes": "لِـ + الْحَرْب: Lane: 'HarobN Hrb War, battle, fight, or conflict; contr. of silomN'. In Saadia: לאלחרב = 'to/for battle' (Num 21:33; 32:27).",
+      "_grounding": "lane s.v. حرب (Hrb): 'HarobN Hrb War, battle, fight, or conflict; contr. of silomN'."
+    },
+    {
+      "id": "uyun",
+      "lemma_ja": "עיון",
+      "lemma_ar": "عُيُونُ",
+      "root": "a-y-n",
+      "pos": "noun (f.)",
+      "gloss_en": "springs (of water); also: eyes (dual/pl.)",
+      "gloss_he": "מעיינות; עיניים",
+      "source": "lane",
+      "notes": "Plural of عَيْن (ʿayn) = eye / spring of water. Lane: 'AlEayonu signifies The eye'; and 'maA^N maEiynN … Water of which one has reached the springs or sources'. Saadia uses עיון אלג'מר = 'the springs of the great deep' (Gen 7:11); also עיון אלגמאעה = 'inadvertence of the congregation' (lit. 'eyes = awareness').",
+      "_grounding": "lane s.v. عين (Eyn): 'AlEayonu signifies The eye … pl. EuyuwnN (عيون)'; spring of water sense also attested."
+    },
+    {
+      "id": "shadida",
+      "lemma_ja": "שדידה",
+      "lemma_ar": "شَدِيدَة",
+      "root": "sh-d-d",
+      "pos": "adjective",
+      "gloss_en": "strong, mighty, severe, harsh",
+      "gloss_he": "חזקה, עזה",
+      "source": "lane",
+      "notes": "Fem. form of شَدِيد (šadīd). Lane: '$adiydN * strong, powerful, mighty'. In Saadia: יד שדידה = 'a mighty hand'; שדידה is the fem. agreeing with יد (hand) or referring to a force.",
+      "_grounding": "lane s.v. شدد ($dd): '$adiydN * strong, powerful, mighty … بَيِّنُ الشِّدَّةِ'; lisan s.v. شدد: 'شيء شَدِيدٌ: مُشتَدٌّ قَوِيٌّ'."
+    },
+    {
+      "id": "ardaka",
+      "lemma_ja": "ארצ'ך",
+      "lemma_ar": "أَرْضَكَ",
+      "root": "a-r-d",
+      "pos": "noun (f.)",
+      "gloss_en": "your land, your soil, your ground",
+      "gloss_he": "אדמתך, ארצך",
+      "source": "lane",
+      "notes": "أَرْض (arḍ) + 2ms -ka. Lane: 'A^aroDN * The earth … a land, or country'. The ḍ is represented by ץ' (with apostrophe for Arabic letter ض). In Saadia: אמץ' מן ארצ'ך = 'depart from your land' (Gen 12:1).",
+      "_grounding": "lane s.v. أرض (A^rD): 'A^aroDN * The earth; a land, or country; a region; a tract'."
+    },
+    {
+      "id": "hagar",
+      "lemma_ja": "הגר",
+      "lemma_ar": "هَاجَر",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Hagar (Egyptian maidservant of Sarah, mother of Ishmael)",
+      "gloss_he": "הָגָר",
+      "notes": "Biblical proper name. Arabic هَاجَر (Hājar) is the standard Arabic form of Hebrew הָגָר. Lane does not have a dedicated entry for this name. Appears throughout Gen 16 in Saadia.",
+      "_grounding": "proper noun — biblical Hebrew הָגָר; Arabic هَاجَر is the standard Arabic biblical form."
+    },
+    {
+      "id": "mil",
+      "lemma_ja": "מל",
+      "lemma_ar": "مِلْءَ",
+      "root": "m-l-a",
+      "pos": "noun (m.)",
+      "gloss_en": "a full measure of; enough to fill",
+      "gloss_he": "מלוא",
+      "source": "lane",
+      "notes": "مِلْء (mil') = 'the filling of a vessel; the amount that fills'. Lisan: 'مَلأَ الشيءَ يَمْلَؤُه مَلأً' = 'He filled the thing'. In Saadia: מל ביתה פצ'ה וד'הב = 'the full of his house of silver and gold' (Num 22:18); מל אלמכ'אזין = 'filling the granaries' (Gen 41:47).",
+      "_grounding": "lisan s.v. ملأ: 'مَلأَ الشيءَ يَمْلَؤُه مَلأً … مِلْء = the filling / amount that fills'."
+    },
+    {
+      "id": "asa",
+      "lemma_ja": "עצא",
+      "lemma_ar": "عَصًا",
+      "root": "a-s-w",
+      "pos": "noun (f.)",
+      "gloss_en": "a staff, rod, stick",
+      "gloss_he": "מטה, מקל",
+      "source": "lane",
+      "notes": "عَصًا (ʿaṣā), originally عَصَوٌ. Lane: 'EaSFA * i.q. EuwdN [a staff, or stick, or rod]'. In Saadia Num 17: עצא עצא לכל בית אב = 'a staff for each ancestral house'.",
+      "_grounding": "lane s.v. عصو (ESw): 'EaSFA * i.q. EuwdN [as meaning A staff, or stick, or rod]'."
+    },
+    {
+      "id": "sinaa",
+      "lemma_ja": "צנאעה",
+      "lemma_ar": "صِنَاعَة",
+      "root": "s-n-a",
+      "pos": "noun (f.)",
+      "gloss_en": "craft, trade, skilled work, handiwork",
+      "gloss_he": "מלאכה, אומנות",
+      "source": "lane",
+      "notes": "Lane: 'SinaAEapN … the Hirofap [i.e. craft or handicraft, or a trade] … any habitual work or occupation'. In Saadia: ליעמל צנאעה פי כ'בא = 'to perform service in the Tent of Meeting'; לא תצנע פיה צנאעה = 'do not perform work in it'.",
+      "_grounding": "lane s.v. صنع (SnE): 'SinaAEapN … craft or handicraft, or a trade … any habitual work or occupation'."
+    },
+    {
+      "id": "shem",
+      "lemma_ja": "שם",
+      "lemma_ar": "سَام",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Shem (eldest son of Noah, ancestor of Semitic peoples)",
+      "gloss_he": "שֵׁם",
+      "notes": "Biblical proper name. Arabic سَام (Sām) = Hebrew שֵׁם. Standard transliteration in Islamic/JA tradition. Appears in Saadia's Gen 10 as the ancestor of the Semitic nations.",
+      "_grounding": "proper noun — Hebrew שֵׁם; Arabic سَام is the standard Arabic biblical/Quranic form."
+    },
+    {
+      "id": "bi-al-hijara",
+      "lemma_ja": "באלחגארה",
+      "lemma_ar": "بِالْحِجَارَة",
+      "root": "h-j-r",
+      "pos": "noun (f.)",
+      "gloss_en": "with stones, by stoning",
+      "gloss_he": "באבנים, בסקילה",
+      "source": "lane",
+      "variants": [
+        "חגארה"
+      ],
+      "notes": "بِـ + الْحِجَارَة = 'with stones'. Lane: HajarN / HijaArapN = 'A stone; pl. HijaArapN'. Saadia: ירגמוהמא באלחגארה = 'they shall stone them with stones'.",
+      "_grounding": "lane s.v. حجر (Hjr): 'HajarN … A stone; pl. HijaArapN'."
+    },
+    {
+      "id": "yaqum",
+      "lemma_ja": "יקום",
+      "lemma_ar": "يَقُومُ",
+      "root": "q-w-m",
+      "pos": "verb",
+      "gloss_en": "he rises, stands up; fulfills, carries out",
+      "gloss_he": "יקום, יקם; יקיים",
+      "source": "lane",
+      "notes": "Form I imperfect 3ms of قَامَ. Lane: 'qaAma … He rose, i.e. from sitting or reclining'. Saadia uses it in two senses: (a) physical 'he shall rise' (Num 23:24), (b) metaphorical 'carries out / fulfills' (Num 23:19: 'does he speak and not carry it out?').",
+      "_grounding": "lane s.v. قوم (qwm): 'qaAma … He rose, i.e. from sitting or reclining; He stood up'."
+    },
+    {
+      "id": "al-maida",
+      "lemma_ja": "אלמאידה",
+      "lemma_ar": "الْمَائِدَة",
+      "root": "m-y-d",
+      "pos": "noun (f.)",
+      "gloss_en": "the (dining) table set with food",
+      "gloss_he": "השולחן (עם האוכל עליו)",
+      "source": "lane",
+      "notes": "Lane: 'maAy^idapN * A table with food upon it; without food upon it, a table is not thus called, but is called xiwaAnN'. Saadia uses it for the Tabernacle shewbread table (Ex 25:23; Num 3:31).",
+      "_grounding": "lane s.v. ميد (myd): 'maAy^idapN * A table with food upon it'."
+    },
+    {
+      "id": "muqimin",
+      "lemma_ja": "מקימין",
+      "lemma_ar": "مُقِيمِينَ",
+      "root": "q-w-m",
+      "pos": "verb",
+      "gloss_en": "those who dwell, reside, are settled (in a place)",
+      "gloss_he": "היושבים, המתגוררים",
+      "source": "lane",
+      "notes": "Active participle (form IV) of أَقَامَ 'to reside, settle'; pl. مُقِيمِينَ. Lane: 'muqiymN * Lasting; continuing … resident'. Saadia: אלקום אלמקימין פיה = 'the people who reside in it'.",
+      "_grounding": "lane s.v. قوم (qwm): 'muqiymN * Lasting, continuing … resident'; masc. pl. muqiymuwna/muqiymiynaA."
+    },
+    {
+      "id": "sawat",
+      "lemma_ja": "וסוות",
+      "lemma_ar": "وَسَوْأَةَ",
+      "root": "s-w-a",
+      "pos": "noun (f.)",
+      "gloss_en": "nakedness, pudenda (as object of sexual prohibition)",
+      "gloss_he": "ערוה",
+      "source": "lane",
+      "notes": "سَوْأَة (saw'a) = pudendum, nakedness. Lisan: 'السَّوْأَةُ: الفَرْجُ … فالسَّوْأَةُ كلُّ عَمَلٍ وأَمْرٍ شائن'. Used in Saadia as the JA equivalent of Hebrew עֶרְוָה throughout Lev 18 incest prohibitions. Blau does not have a clear separate entry for saw'a in this sense.",
+      "_grounding": "lisan s.v. سوأ: 'السَّوْأَةُ: الفَرْجُ. الليث: السَّوْأَةُ: فَرْج الرَّجل والمرأَة. قال اللّه تعالى: بَدَتْ لهما سَوْآتُهما'."
+    },
+    {
+      "id": "farjaa",
+      "lemma_ja": "פרגע",
+      "lemma_ar": "فَرَجَعَ",
+      "root": "r-j-a",
+      "pos": "verb",
+      "gloss_en": "then he returned, went back",
+      "gloss_he": "ואז שב, וחזר",
+      "source": "lane",
+      "notes": "فَ (then/so) + رَجَعَ (he returned). Lane: 'rajaEa … He returned; he went, or came, back'. The פ- prefix = Arabic فـ 'so, then'. Saadia: פרגע הרון אלי' מוסי = 'then Aaron returned to Moses'.",
+      "_grounding": "lane s.v. رجع (rjE): 'rajaEa … He returned; he went, or came, back … he reverted; contr. of *ahaba'."
     }
   ]
 }
