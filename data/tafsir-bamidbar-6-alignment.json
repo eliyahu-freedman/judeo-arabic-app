@@ -1,360 +1,1214 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 6. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_6.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 6. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_6.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses, a speaking.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses,",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "a speaking.",
+        "he": "לֵּאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "מר בני אסראיל. וקל להם",
-        "en": "Command the sons of Israel, and say to them",
-        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "אי רגל או אמראה. סווג' נד'רא נסך",
-        "en": "Any man or woman who has deemed a vow of devotion lawful",
-        "he": "אִישׁ אוֹ-אִשָּׁה כִּי יַפְלִא לִנְדֹּר נֶדֶר נָזִיר"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶל-בְּנֵי"
       },
       {
-        "ja": "ליתנסך לרבה",
-        "en": "to practice devotion to his Lord",
-        "he": "לְהַזִּיר לַיהוָה"
+        "ja": "אסראיל",
+        "en": "Israel,",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "להם",
+        "en": "to them:",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "אי רגל",
+        "en": "Any man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "או אמראה",
+        "en": "or woman",
+        "he": "אוֹ-אִשָּׁה"
+      },
+      {
+        "ja": "סווג'",
+        "en": "who has deemed",
+        "he": "כִּי יַפְלִא"
+      },
+      {
+        "ja": "נד'רא",
+        "en": "a vow",
+        "he": "לִנְדֹּר"
+      },
+      {
+        "ja": "נסך",
+        "en": "of devotion lawful,",
+        "he": "נֶדֶר נָזִיר"
+      },
+      {
+        "ja": "ליתנסך",
+        "en": "to practice devotion",
+        "he": "לְהַזִּיר"
+      },
+      {
+        "ja": "לרבה",
+        "en": "to his Lord —",
+        "he": "לַיהוָה"
       }
     ],
     "3": [
       {
-        "ja": "פמן אלכ'מר ואלמסכר מנה יתנסך",
-        "en": "from wine and from what is intoxicating he shall practice devotion",
-        "he": "מִיַּיִן וְשֵׁכָר יַזִּיר"
+        "ja": "פמן אלכ'מר",
+        "en": "from wine",
+        "he": "מִיַּיִן"
       },
       {
-        "ja": "חתא כ'ל כ'מר. וכ'ל מ'סכר לא ישרב",
-        "en": "such that even vinegar of wine and vinegar of an intoxicating drink he shall not drink",
-        "he": "חֹמֶץ יַיִן וְחֹמֶץ שֵׁכָר לֹא יִשְׁתֶּה"
+        "ja": "ואלמסכר",
+        "en": "and from what is intoxicating",
+        "he": "וְשֵׁכָר"
       },
       {
-        "ja": "וכל נקיע אלענב לא ישרב",
-        "en": "and every infusion of grapes he shall not drink",
-        "he": "וְכָל-מִשְׁרַת עֲנָבִים לֹא יִשְׁתֶּה"
+        "ja": "מנה יתנסך",
+        "en": "he shall practice devotion,",
+        "he": "יַזִּיר"
       },
       {
-        "ja": "וענבא רטבא ויאבסא לא יאכל",
-        "en": "and grapes, fresh or dried, he shall not eat.",
-        "he": "וַעֲנָבִים לַחִים וִיבֵשִׁים לֹא יֹאכֵל"
+        "ja": "חתא כ'ל כ'מר",
+        "en": "such that even vinegar of wine",
+        "he": "חֹמֶץ יַיִן"
+      },
+      {
+        "ja": "וכ'ל מ'סכר",
+        "en": "and vinegar of an intoxicating drink",
+        "he": "וְחֹמֶץ שֵׁכָר"
+      },
+      {
+        "ja": "לא ישרב",
+        "en": "he shall not drink;",
+        "he": "לֹא יִשְׁתֶּה"
+      },
+      {
+        "ja": "וכל נקיע",
+        "en": "and every infusion of",
+        "he": "וְכָל-מִשְׁרַת"
+      },
+      {
+        "ja": "אלענב",
+        "en": "grapes",
+        "he": "עֲנָבִים"
+      },
+      {
+        "ja": "לא ישרב",
+        "en": "he shall not drink;"
+      },
+      {
+        "ja": "וענבא",
+        "en": "and grapes,",
+        "he": "וַעֲנָבִים"
+      },
+      {
+        "ja": "רטבא",
+        "en": "fresh",
+        "he": "לַחִים"
+      },
+      {
+        "ja": "ויאבסא",
+        "en": "or dried,",
+        "he": "וִיבֵשִׁים"
+      },
+      {
+        "ja": "לא יאכל",
+        "en": "he shall not eat.",
+        "he": "לֹא יֹאכֵל"
       }
     ],
     "4": [
       {
-        "ja": "טול אייאם נסכה",
-        "en": "All the days of his devotion",
-        "he": "כֹּל יְמֵי נִזְרוֹ"
+        "ja": "טול",
+        "en": "All",
+        "he": "כֹּל"
       },
       {
-        "ja": "מן כל מא יעמל מן גפן אלכ'מר",
-        "en": "from everything made from the vine of wine",
-        "he": "מִכֹּל אֲשֶׁר יֵעָשֶׂה מִגֶּפֶן הַיַּיִן"
+        "ja": "אייאם",
+        "en": "the days of",
+        "he": "יְמֵי"
       },
       {
-        "ja": "מן אלפרצן אלי' אלזג לא יאכל",
-        "en": "from the seeds to the skin surrounding it — he shall not eat.",
-        "he": "מֵחַרְצַנִּים וְעַד-זָג--לֹא יֹאכֵל"
+        "ja": "נסכה",
+        "en": "his devotion,",
+        "he": "נִזְרוֹ"
+      },
+      {
+        "ja": "מן כל",
+        "en": "from everything",
+        "he": "מִכֹּל"
+      },
+      {
+        "ja": "מא יעמל",
+        "en": "made",
+        "he": "אֲשֶׁר יֵעָשֶׂה"
+      },
+      {
+        "ja": "מן גפן",
+        "en": "from the vine of",
+        "he": "מִגֶּפֶן"
+      },
+      {
+        "ja": "אלכ'מר",
+        "en": "wine —",
+        "he": "הַיַּיִן"
+      },
+      {
+        "ja": "מן אלפרצן",
+        "en": "from the seeds",
+        "he": "מֵחַרְצַנִּים"
+      },
+      {
+        "ja": "אלי' אלזג",
+        "en": "to the skin surrounding it —",
+        "he": "וְעַד-זָג"
+      },
+      {
+        "ja": "לא יאכל",
+        "en": "he shall not eat.",
+        "he": "לֹא יֹאכֵל"
       }
     ],
     "5": [
       {
-        "ja": "וטול אייאם נד'ר נסכה",
-        "en": "And all the days of the vow of his devotion",
-        "he": "כָּל-יְמֵי נֶדֶר נִזְרוֹ"
+        "ja": "וטול אייאם",
+        "en": "And all the days of",
+        "he": "כָּל-יְמֵי"
       },
       {
-        "ja": "לא ימר חאלק עלי' ראסה",
-        "en": "no razor shall pass over his head",
-        "he": "תַּעַר לֹא-יַעֲבֹר עַל-רֹאשׁוֹ"
+        "ja": "נד'ר",
+        "en": "the vow of",
+        "he": "נֶדֶר"
       },
       {
-        "ja": "אלי' אן תתם אלאייאם. אלתי תנסכהא לרבה",
-        "en": "until the days he devotes to his Lord are complete",
-        "he": "עַד-מְלֹאת הַיָּמִם אֲשֶׁר-יַזִּיר לַיהוָה"
+        "ja": "נסכה",
+        "en": "his devotion,",
+        "he": "נִזְרוֹ"
       },
       {
-        "ja": "יכון מקדסא. וירבי פרע שער ראסה",
-        "en": "he shall be consecrated, and shall grow out the branch of the hair of his head.",
-        "he": "קָדֹשׁ יִהְיֶה--גַּדֵּל פֶּרַע שְׂעַר רֹאשׁוֹ"
+        "ja": "חאלק",
+        "en": "no razor",
+        "he": "תַּעַר"
+      },
+      {
+        "ja": "לא ימר",
+        "en": "shall pass",
+        "he": "לֹא-יַעֲבֹר"
+      },
+      {
+        "ja": "עלי' ראסה",
+        "en": "over his head,",
+        "he": "עַל-רֹאשׁוֹ"
+      },
+      {
+        "ja": "אלי' אן תתם",
+        "en": "until",
+        "he": "עַד-מְלֹאת"
+      },
+      {
+        "ja": "אלאייאם",
+        "en": "the days",
+        "he": "הַיָּמִם"
+      },
+      {
+        "ja": "אלתי תנסכהא",
+        "en": "he devotes",
+        "he": "אֲשֶׁר-יַזִּיר"
+      },
+      {
+        "ja": "לרבה",
+        "en": "to his Lord",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "יכון",
+        "en": "are complete; he shall be"
+      },
+      {
+        "ja": "מקדסא",
+        "en": "consecrated,",
+        "he": "קָדֹשׁ יִהְיֶה"
+      },
+      {
+        "ja": "וירבי",
+        "en": "and shall grow out",
+        "he": "גַּדֵּל"
+      },
+      {
+        "ja": "פרע",
+        "en": "the branch of",
+        "he": "פֶּרַע"
+      },
+      {
+        "ja": "שער",
+        "en": "the hair of",
+        "he": "שְׂעַר"
+      },
+      {
+        "ja": "ראסה",
+        "en": "his head.",
+        "he": "רֹאשׁוֹ"
       }
     ],
     "6": [
       {
-        "ja": "כד'אך טול אייאם נסכה ללה",
-        "en": "Likewise, all the days of his devotion to God",
-        "he": "כָּל-יְמֵי הַזִּירוֹ לַיהוָה"
+        "ja": "כד'אך",
+        "en": "Likewise,"
       },
       {
-        "ja": "אלי' חצ'רה מיית לא ידכ'ל",
-        "en": "he shall not enter into the presence of a dead person.",
-        "he": "עַל-נֶפֶשׁ מֵת לֹא יָבֹא"
+        "ja": "טול אייאם",
+        "en": "all the days of",
+        "he": "כָּל-יְמֵי"
+      },
+      {
+        "ja": "נסכה",
+        "en": "his devotion",
+        "he": "הַזִּירוֹ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God,",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "אלי' חצ'רה",
+        "en": "into the presence of",
+        "he": "עַל-נֶפֶשׁ"
+      },
+      {
+        "ja": "מיית",
+        "en": "a dead person",
+        "he": "מֵת"
+      },
+      {
+        "ja": "לא ידכ'ל",
+        "en": "he shall not enter",
+        "he": "לֹא יָבֹא"
       }
     ],
     "7": [
       {
-        "ja": "חתא באביה ואמה. ואכ'יה וא'כ'תה",
-        "en": "Not even for his father or his mother, his brother or his sister",
-        "he": "לְאָבִיו וּלְאִמּוֹ לְאָחִיו וּלְאַחֹתוֹ"
+        "ja": "חתא",
+        "en": "Not even for"
       },
       {
-        "ja": "לא יתנגס בהם פי חאל מותהם",
-        "en": "he shall not defile himself through them at the time of their death",
-        "he": "לֹא-יִטַּמָּא לָהֶם בְּמֹתָם"
+        "ja": "באביה",
+        "en": "his father",
+        "he": "לְאָבִיו"
       },
       {
-        "ja": "לאן נסך רבה עלי'ה",
-        "en": "because the devotion to his Lord is upon him.",
-        "he": "כִּי נֵזֶר אֱלֹהָיו עַל-רֹאשׁוֹ"
+        "ja": "ואמה",
+        "en": "or his mother,",
+        "he": "וּלְאִמּוֹ"
+      },
+      {
+        "ja": "ואכ'יה",
+        "en": "his brother",
+        "he": "לְאָחִיו"
+      },
+      {
+        "ja": "וא'כ'תה",
+        "en": "or his sister —",
+        "he": "וּלְאַחֹתוֹ"
+      },
+      {
+        "ja": "לא יתנגס",
+        "en": "he shall not defile himself",
+        "he": "לֹא-יִטַּמָּא"
+      },
+      {
+        "ja": "בהם",
+        "en": "through them",
+        "he": "לָהֶם"
+      },
+      {
+        "ja": "פי חאל מותהם",
+        "en": "at the time of their death,",
+        "he": "בְּמֹתָם"
+      },
+      {
+        "ja": "לאן",
+        "en": "because",
+        "he": "כִּי"
+      },
+      {
+        "ja": "נסך",
+        "en": "the devotion",
+        "he": "נֵזֶר"
+      },
+      {
+        "ja": "רבה",
+        "en": "to his Lord",
+        "he": "אֱלֹהָיו"
+      },
+      {
+        "ja": "עלי'ה",
+        "en": "is upon him.",
+        "he": "עַל-רֹאשׁוֹ"
       }
     ],
     "8": [
       {
-        "ja": "כד'אך טול אייאם נסכה",
-        "en": "Likewise, all the days of his devotion",
-        "he": "כֹּל יְמֵי נִזְרוֹ"
+        "ja": "כד'אך",
+        "en": "Likewise,"
       },
       {
-        "ja": "מקדס הו לרבה",
-        "en": "he is consecrated to his Lord.",
-        "he": "קָדֹשׁ הוּא לַיהוָה"
+        "ja": "טול",
+        "en": "all the days of",
+        "he": "כֹּל"
+      },
+      {
+        "ja": "אייאם",
+        "en": "his devotion,",
+        "he": "יְמֵי"
+      },
+      {
+        "ja": "נסכה",
+        "en": "he is",
+        "he": "נִזְרוֹ"
+      },
+      {
+        "ja": "מקדס הו",
+        "en": "consecrated",
+        "he": "קָדֹשׁ הוּא"
+      },
+      {
+        "ja": "לרבה",
+        "en": "to his Lord.",
+        "he": "לַיהוָה"
       }
     ],
     "10": [
       {
-        "ja": "ופי אליום אלתאמן",
-        "en": "And on the eighth day",
-        "he": "וּבַיּוֹם הַשְּׁמִינִי"
+        "ja": "ופי אליום",
+        "en": "And on the",
+        "he": "וּבַיּוֹם"
       },
       {
-        "ja": "יאתי בשפנינין. או פרכ'י חמאם. אלי' אלאמאם",
-        "en": "he shall bring two sparrows or two young pigeons to the imām",
-        "he": "יָבִא שְׁתֵּי תֹרִים אוֹ שְׁנֵי בְּנֵי יוֹנָה אֶל-הַכֹּהֵן"
+        "ja": "אלתאמן",
+        "en": "eighth day,",
+        "he": "הַשְּׁמִינִי"
       },
       {
-        "ja": "אלי' באב כ'בא אלמחצ'ר",
-        "en": "to the entrance of the tent of the assembly.",
-        "he": "אֶל-פֶּתַח אֹהֶל מוֹעֵד"
+        "ja": "יאתי",
+        "en": "he shall bring",
+        "he": "יָבִא"
+      },
+      {
+        "ja": "בשפנינין",
+        "en": "two sparrows",
+        "he": "שְׁתֵּי תֹרִים"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "פרכ'י חמאם",
+        "en": "two young pigeons",
+        "he": "שְׁנֵי בְּנֵי יוֹנָה"
+      },
+      {
+        "ja": "אלי' אלאמאם",
+        "en": "to the imām,",
+        "he": "אֶל-הַכֹּהֵן"
+      },
+      {
+        "ja": "אלי' באב",
+        "en": "to the entrance of",
+        "he": "אֶל-פֶּתַח"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of the assembly.",
+        "he": "אֹהֶל מוֹעֵד"
       }
     ],
     "11": [
       {
-        "ja": "ויעמל אחדהמא ד'כוה. ואלאכ'ר צעידה",
-        "en": "And he shall make one of them a purification-offering, and the other a burnt-offering",
-        "he": "וְעָשָׂה הַכֹּהֵן אֶחָד לְחַטָּאת וְאֶחָד לְעֹלָה"
+        "ja": "ויעמל",
+        "en": "And he shall make",
+        "he": "וְעָשָׂה"
       },
       {
-        "ja": "ויסתג'פר ענה. במא אכ'טא פי אמר מיית",
-        "en": "and he shall seek forgiveness for him for what he erred in the matter of the dead person",
-        "he": "וְכִפֶּר עָלָיו מֵאֲשֶׁר חָטָא עַל-הַנָּפֶשׁ"
+        "ja": "אחדהמא",
+        "en": "one of them",
+        "he": "הַכֹּהֵן אֶחָד"
       },
       {
-        "ja": "ויקדס ראסה פי ד'אלך אלוקת",
-        "en": "and his head shall be consecrated at that time.",
-        "he": "וְקִדַּשׁ אֶת-רֹאשׁוֹ בַּיּוֹם הַהוּא"
+        "ja": "ד'כוה",
+        "en": "a purification-offering,",
+        "he": "לְחַטָּאת"
+      },
+      {
+        "ja": "ואלאכ'ר",
+        "en": "and the other",
+        "he": "וְאֶחָד"
+      },
+      {
+        "ja": "צעידה",
+        "en": "a burnt-offering;",
+        "he": "לְעֹלָה"
+      },
+      {
+        "ja": "ויסתג'פר",
+        "en": "and he shall seek forgiveness",
+        "he": "וְכִפֶּר"
+      },
+      {
+        "ja": "ענה",
+        "en": "for him",
+        "he": "עָלָיו"
+      },
+      {
+        "ja": "במא אכ'טא",
+        "en": "for what he erred",
+        "he": "מֵאֲשֶׁר חָטָא"
+      },
+      {
+        "ja": "פי אמר מיית",
+        "en": "in the matter of the dead person;",
+        "he": "עַל-הַנָּפֶשׁ"
+      },
+      {
+        "ja": "ויקדס",
+        "en": "and his head shall be consecrated",
+        "he": "וְקִדַּשׁ"
+      },
+      {
+        "ja": "ראסה",
+        "en": "at",
+        "he": "אֶת-רֹאשׁוֹ"
+      },
+      {
+        "ja": "פי ד'אלך אלוקת",
+        "en": "that time.",
+        "he": "בַּיּוֹם הַהוּא"
       }
     ],
     "12": [
       {
-        "ja": "ויתנסך ללה אייאם נסכה",
-        "en": "And he shall practice devotion to God for the days of his devotion",
-        "he": "וְהִזִּיר לַיהוָה אֶת-יְמֵי נִזְרוֹ"
+        "ja": "ויתנסך",
+        "en": "And he shall practice devotion",
+        "he": "וְהִזִּיר"
       },
       {
-        "ja": "ויאתי. בחמל אבן סנתה לקרבאן אלאתם",
-        "en": "and shall bring a lamb in its first year as a guilt-offering",
-        "he": "וְהֵבִיא כֶּבֶשׂ בֶּן-שְׁנָתוֹ לְאָשָׁם"
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
       },
       {
-        "ja": "ואלאייאם אלמתקדמה תסקט",
-        "en": "and the preceding days shall lapse",
-        "he": "וְהַיָּמִים הָרִאשֹׁנִים יִפְּלוּ"
+        "ja": "אייאם",
+        "en": "for the days of",
+        "he": "אֶת-יְמֵי"
       },
       {
-        "ja": "למא אנקטע נסכה",
-        "en": "for his devotion was interrupted.",
-        "he": "כִּי טָמֵא נִזְרוֹ"
+        "ja": "נסכה",
+        "en": "his devotion,",
+        "he": "נִזְרוֹ"
+      },
+      {
+        "ja": "ויאתי",
+        "en": "and shall bring",
+        "he": "וְהֵבִיא"
+      },
+      {
+        "ja": "בחמל",
+        "en": "a lamb",
+        "he": "כֶּבֶשׂ"
+      },
+      {
+        "ja": "אבן סנתה",
+        "en": "in its first year",
+        "he": "בֶּן-שְׁנָתוֹ"
+      },
+      {
+        "ja": "לקרבאן אלאתם",
+        "en": "as a guilt-offering;",
+        "he": "לְאָשָׁם"
+      },
+      {
+        "ja": "ואלאייאם",
+        "en": "and the preceding",
+        "he": "וְהַיָּמִים"
+      },
+      {
+        "ja": "אלמתקדמה",
+        "en": "days",
+        "he": "הָרִאשֹׁנִים"
+      },
+      {
+        "ja": "תסקט",
+        "en": "shall lapse,",
+        "he": "יִפְּלוּ"
+      },
+      {
+        "ja": "למא",
+        "en": "for",
+        "he": "כִּי"
+      },
+      {
+        "ja": "אנקטע",
+        "en": "was interrupted",
+        "he": "טָמֵא"
+      },
+      {
+        "ja": "נסכה",
+        "en": "his devotion",
+        "he": "נִזְרוֹ"
       }
     ],
     "13": [
       {
-        "ja": "והד'ה שריעה' אלנאסך",
-        "en": "And this is the law of the devotee",
-        "he": "וְזֹאת תּוֹרַת הַנָּזִיר"
+        "ja": "והד'ה",
+        "en": "And this is",
+        "he": "וְזֹאת"
       },
       {
-        "ja": "פי יום כמאל אייאם נסכה",
-        "en": "on the day of the completion of the days of his devotion",
-        "he": "בְּיוֹם מְלֹאת יְמֵי נִזְרוֹ"
+        "ja": "שריעה'",
+        "en": "the law of",
+        "he": "תּוֹרַת"
       },
       {
-        "ja": "יאתי בה. אלי' באב כ'בא אלמחצ'ר",
-        "en": "he shall bring him to the entrance of the tent of the assembly.",
-        "he": "יָבִיא אֹתוֹ אֶל-פֶּתַח אֹהֶל מוֹעֵד"
+        "ja": "אלנאסך",
+        "en": "the devotee:",
+        "he": "הַנָּזִיר"
+      },
+      {
+        "ja": "פי יום",
+        "en": "on the day of",
+        "he": "בְּיוֹם"
+      },
+      {
+        "ja": "כמאל",
+        "en": "the completion of",
+        "he": "מְלֹאת"
+      },
+      {
+        "ja": "אייאם",
+        "en": "the days of",
+        "he": "יְמֵי"
+      },
+      {
+        "ja": "נסכה",
+        "en": "his devotion,",
+        "he": "נִזְרוֹ"
+      },
+      {
+        "ja": "יאתי",
+        "en": "he shall bring",
+        "he": "יָבִיא"
+      },
+      {
+        "ja": "בה",
+        "en": "him",
+        "he": "אֹתוֹ"
+      },
+      {
+        "ja": "אלי' באב",
+        "en": "to the entrance of",
+        "he": "אֶל-פֶּתַח"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of the assembly.",
+        "he": "אֹהֶל מוֹעֵד"
       }
     ],
     "14": [
       {
-        "ja": "פיקרב קרבאנה ללה",
-        "en": "And he shall present his offering to God",
-        "he": "וְהִקְרִיב אֶת-קָרְבָּנוֹ לַיהוָה"
+        "ja": "פיקרב",
+        "en": "And he shall present",
+        "he": "וְהִקְרִיב"
       },
       {
-        "ja": "חמלא אבן סנתה צחיחא לאלצעידה",
-        "en": "a lamb in its first year, unblemished, for the burnt-offering",
-        "he": "כֶּבֶשׂ בֶּן-שְׁנָתוֹ תָמִים אֶחָד לְעֹלָה"
+        "ja": "קרבאנה",
+        "en": "his offering",
+        "he": "אֶת-קָרְבָּנוֹ"
       },
       {
-        "ja": "ורכ'לה אבנה' סנתהא. צחיחה לאלדכוה",
-        "en": "and a ewe-lamb in its first year, unblemished, for the purification-offering",
-        "he": "וְכַבְשָׂה אַחַת בַּת-שְׁנָתָהּ תְּמִימָה לְחַטָּאת"
+        "ja": "ללה",
+        "en": "to God:",
+        "he": "לַיהוָה"
       },
       {
-        "ja": "וכבשא צחיחא לד'בח אלסלאמה",
-        "en": "and a ram, unblemished, for the peace-offering.",
-        "he": "וְאַיִל-אֶחָד תָּמִים לִשְׁלָמִים"
+        "ja": "חמלא",
+        "en": "a lamb",
+        "he": "כֶּבֶשׂ"
+      },
+      {
+        "ja": "אבן סנתה",
+        "en": "in its first year,",
+        "he": "בֶּן-שְׁנָתוֹ"
+      },
+      {
+        "ja": "צחיחא",
+        "en": "unblemished,",
+        "he": "תָמִים אֶחָד"
+      },
+      {
+        "ja": "לאלצעידה",
+        "en": "for the burnt-offering;",
+        "he": "לְעֹלָה"
+      },
+      {
+        "ja": "ורכ'לה",
+        "en": "and a ewe-lamb",
+        "he": "וְכַבְשָׂה"
+      },
+      {
+        "ja": "אבנה' סנתהא",
+        "en": "in its first year,",
+        "he": "אַחַת בַּת-שְׁנָתָהּ"
+      },
+      {
+        "ja": "צחיחה",
+        "en": "unblemished,",
+        "he": "תְּמִימָה"
+      },
+      {
+        "ja": "לאלדכוה",
+        "en": "for the purification-offering;",
+        "he": "לְחַטָּאת"
+      },
+      {
+        "ja": "וכבשא",
+        "en": "and a ram,",
+        "he": "וְאַיִל-אֶחָד"
+      },
+      {
+        "ja": "צחיחא",
+        "en": "unblemished,",
+        "he": "תָּמִים"
+      },
+      {
+        "ja": "לד'בח אלסלאמה",
+        "en": "for the peace-offering.",
+        "he": "לִשְׁלָמִים"
       }
     ],
     "15": [
       {
-        "ja": "וסלה' פטיר. גראדק סמד מלתותה בדהן",
-        "en": "And a basket of unleavened bread — loaves of fine flour kneaded with oil",
-        "he": "וְסַל מַצּוֹת סֹלֶת חַלֹּת בְּלוּלֹת בַּשֶּׁמֶן"
+        "ja": "וסלה'",
+        "en": "And a basket of",
+        "he": "וְסַל"
       },
       {
-        "ja": "ורקאק פטיר ממסוחה בדהן",
-        "en": "and wafers of unleavened bread anointed with oil",
-        "he": "וּרְקִיקֵי מַצּוֹת מְשֻׁחִים בַּשָּׁמֶן"
+        "ja": "פטיר",
+        "en": "unleavened bread —",
+        "he": "מַצּוֹת"
       },
       {
-        "ja": "ואלבר ואלמזאג אלד'י מעהא",
-        "en": "and the grain-offering and the libation that goes with them.",
-        "he": "וּמִנְחָתָם וְנִסְכֵּיהֶם"
+        "ja": "גראדק סמד",
+        "en": "loaves of fine flour",
+        "he": "סֹלֶת"
+      },
+      {
+        "ja": "מלתותה",
+        "en": "kneaded",
+        "he": "חַלֹּת"
+      },
+      {
+        "ja": "בדהן",
+        "en": "with oil,",
+        "he": "בְּלוּלֹת בַּשֶּׁמֶן"
+      },
+      {
+        "ja": "ורקאק",
+        "en": "and wafers of",
+        "he": "וּרְקִיקֵי"
+      },
+      {
+        "ja": "פטיר",
+        "en": "unleavened bread",
+        "he": "מַצּוֹת"
+      },
+      {
+        "ja": "ממסוחה",
+        "en": "anointed",
+        "he": "מְשֻׁחִים"
+      },
+      {
+        "ja": "בדהן",
+        "en": "with oil —",
+        "he": "בַּשָּׁמֶן"
+      },
+      {
+        "ja": "ואלבר",
+        "en": "and the grain-offering",
+        "he": "וּמִנְחָתָם"
+      },
+      {
+        "ja": "ואלמזאג אלד'י מעהא",
+        "en": "and the libation that goes with them.",
+        "he": "וְנִסְכֵּיהֶם"
       }
     ],
     "16": [
       {
-        "ja": "ויקדמהא אלאמאם בין ידי אללה",
-        "en": "And the imām shall present them before God",
-        "he": "וְהִקְרִיב הַכֹּהֵן לִפְנֵי יְהוָה"
+        "ja": "ויקדמהא",
+        "en": "And the imām shall present them",
+        "he": "וְהִקְרִיב"
       },
       {
-        "ja": "ויצנע דכותה וצעידתה",
-        "en": "and shall make his purification-offering and his burnt-offering.",
-        "he": "וְעָשָׂה אֶת-חַטָּאתוֹ וְאֶת-עֹלָתוֹ"
+        "ja": "אלאמאם",
+        "en": "before God,",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "and shall make",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "ויצנע",
+        "en": "his purification-offering",
+        "he": "וְעָשָׂה"
+      },
+      {
+        "ja": "דכותה",
+        "en": "and",
+        "he": "אֶת-חַטָּאתוֹ"
+      },
+      {
+        "ja": "וצעידתה",
+        "en": "his burnt-offering.",
+        "he": "וְאֶת-עֹלָתוֹ"
       }
     ],
     "17": [
       {
-        "ja": "ואלכבש. יצנעה ד'בח סלאמה ללה. מע סלה' אלפטיר",
-        "en": "And the ram he shall make a peace-offering to God, together with the basket of unleavened bread",
-        "he": "וְאֶת-הָאַיִל יַעֲשֶׂה זֶבַח שְׁלָמִים לַיהוָה עַל סַל הַמַּצּוֹת"
+        "ja": "ואלכבש",
+        "en": "And the ram",
+        "he": "וְאֶת-הָאַיִל"
       },
       {
-        "ja": "ת'ם יצנע אלבר ואלמזאג אלד'י מעה",
-        "en": "then he shall make the grain-offering and the libation that goes with it.",
-        "he": "וְעָשָׂה הַכֹּהֵן אֶת-מִנְחָתוֹ וְאֶת-נִסְכּוֹ"
+        "ja": "יצנעה",
+        "en": "he shall make",
+        "he": "יַעֲשֶׂה"
+      },
+      {
+        "ja": "ד'בח סלאמה",
+        "en": "a peace-offering",
+        "he": "זֶבַח שְׁלָמִים"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God,",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "מע סלה'",
+        "en": "together with the basket of",
+        "he": "עַל סַל"
+      },
+      {
+        "ja": "אלפטיר",
+        "en": "unleavened bread;",
+        "he": "הַמַּצּוֹת"
+      },
+      {
+        "ja": "ת'ם",
+        "en": "then"
+      },
+      {
+        "ja": "יצנע",
+        "en": "he shall make",
+        "he": "וְעָשָׂה הַכֹּהֵן"
+      },
+      {
+        "ja": "אלבר",
+        "en": "the grain-offering",
+        "he": "אֶת-מִנְחָתוֹ"
+      },
+      {
+        "ja": "ואלמזאג אלד'י מעה",
+        "en": "and the libation that goes with it.",
+        "he": "וְאֶת-נִסְכּוֹ"
       }
     ],
     "18": [
       {
-        "ja": "ויחלק אלנאסך. ענד באב כ'בא אלמחצ'ר שער ראסה",
-        "en": "And the devotee shall shave the hair of his head at the entrance of the tent of the assembly",
-        "he": "וְגִלַּח הַנָּזִיר פֶּתַח אֹהֶל מוֹעֵד--אֶת-רֹאשׁ נִזְרוֹ"
+        "ja": "ויחלק",
+        "en": "And the devotee shall shave",
+        "he": "וְגִלַּח"
+      },
+      {
+        "ja": "אלנאסך",
+        "en": "the hair of his head",
+        "he": "הַנָּזִיר"
+      },
+      {
+        "ja": "ענד באב",
+        "en": "at the entrance of",
+        "he": "פֶּתַח"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of the assembly,",
+        "he": "אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "שער ראסה",
+        "en": "and shall take it",
+        "he": "אֶת-רֹאשׁ נִזְרוֹ"
       },
       {
         "ja": "ויאכ'דה",
-        "en": "and shall take it",
-        "he": "וְלָקַח אֶת-שְׂעַר רֹאשׁ נִזְרוֹ"
+        "en": "and cast it",
+        "he": "וְלָקַח"
       },
       {
-        "ja": "וילקי עלי' אלנאר. אלד'י תחת ד'בח אלסלאמה",
-        "en": "and cast it upon the fire that is under the peace-offering.",
-        "he": "וְנָתַן עַל-הָאֵשׁ אֲשֶׁר-תַּחַת זֶבַח הַשְּׁלָמִים"
+        "ja": "וילקי",
+        "en": "upon",
+        "he": "וְנָתַן"
+      },
+      {
+        "ja": "עלי' אלנאר",
+        "en": "the fire",
+        "he": "עַל-הָאֵשׁ"
+      },
+      {
+        "ja": "אלד'י תחת",
+        "en": "that is under",
+        "he": "אֲשֶׁר-תַּחַת"
+      },
+      {
+        "ja": "ד'בח אלסלאמה",
+        "en": "the peace-offering.",
+        "he": "זֶבַח הַשְּׁלָמִים"
       }
     ],
     "19": [
       {
-        "ja": "ויאכ'ד אלאמאם. אלד'ראע מטבוכ'ה מן ד'אלך אלכבש",
-        "en": "And the imām shall take the cooked foreleg from that ram",
-        "he": "וְלָקַח הַכֹּהֵן אֶת-הַזְּרֹעַ בְּשֵׁלָה מִן-הָאַיִל"
+        "ja": "ויאכ'ד",
+        "en": "And the imām shall take",
+        "he": "וְלָקַח"
       },
       {
-        "ja": "וגרדקה ואחדה מן אלפטיר. ורקאקה ואחדה",
-        "en": "and one loaf from the unleavened bread, and one wafer",
-        "he": "וְחַלַּת מַצָּה אַחַת מִן-הַסַּל וּרְקִיק מַצָּה אֶחָד"
+        "ja": "אלאמאם",
+        "en": "the cooked foreleg",
+        "he": "הַכֹּהֵן"
       },
       {
-        "ja": "ויצ'ע ד'אלך עלי' כפי אלנאסך. בעד חלקה שער ראסה",
-        "en": "and shall place them upon the palms of the devotee after he has shaved the hair of his head.",
-        "he": "וְנָתַן עַל-כַּפֵּי הַנָּזִיר אַחַר הִתְגַּלְּחוֹ אֶת-נִזְרוֹ"
+        "ja": "אלד'ראע",
+        "en": "from",
+        "he": "אֶת-הַזְּרֹעַ"
+      },
+      {
+        "ja": "מטבוכ'ה",
+        "en": "that ram,",
+        "he": "בְּשֵׁלָה"
+      },
+      {
+        "ja": "מן ד'אלך אלכבש",
+        "en": "and one loaf",
+        "he": "מִן-הָאַיִל"
+      },
+      {
+        "ja": "וגרדקה",
+        "en": "from",
+        "he": "וְחַלַּת מַצָּה"
+      },
+      {
+        "ja": "ואחדה מן אלפטיר",
+        "en": "the unleavened bread,",
+        "he": "אַחַת מִן-הַסַּל"
+      },
+      {
+        "ja": "ורקאקה",
+        "en": "and one wafer,",
+        "he": "וּרְקִיק מַצָּה"
+      },
+      {
+        "ja": "ואחדה",
+        "en": "and shall place them",
+        "he": "אֶחָד"
+      },
+      {
+        "ja": "ויצ'ע",
+        "en": "upon",
+        "he": "וְנָתַן"
+      },
+      {
+        "ja": "ד'אלך עלי' כפי",
+        "en": "the palms of",
+        "he": "עַל-כַּפֵּי"
+      },
+      {
+        "ja": "אלנאסך",
+        "en": "the devotee",
+        "he": "הַנָּזִיר"
+      },
+      {
+        "ja": "בעד",
+        "en": "after",
+        "he": "אַחַר"
+      },
+      {
+        "ja": "חלקה",
+        "en": "he has shaved",
+        "he": "הִתְגַּלְּחוֹ"
+      },
+      {
+        "ja": "שער ראסה",
+        "en": "the hair of his head.",
+        "he": "אֶת-נִזְרוֹ"
       }
     ],
     "20": [
       {
-        "ja": "ויחרך אלגמיע תחריכא בין ידי אללה",
-        "en": "And he shall wave all of it as a waving before God",
-        "he": "וְהֵנִיף אוֹתָם הַכֹּהֵן תְּנוּפָה לִפְנֵי יְהוָה"
+        "ja": "ויחרך",
+        "en": "And he shall wave",
+        "he": "וְהֵנִיף"
       },
       {
-        "ja": "וליכון מקדסא לאלאמאם. מע קץ אלתחריך. וסאק אלרפיעה",
-        "en": "and it shall be consecrated for the imām, together with the breast of waving and the thigh of the raised-offering",
-        "he": "קֹדֶשׁ הוּא לַכֹּהֵן עַל חֲזֵה הַתְּנוּפָה וְעַל שׁוֹק הַתְּרוּמָה"
+        "ja": "אלגמיע",
+        "en": "all of it",
+        "he": "אוֹתָם"
       },
       {
-        "ja": "ובעד ד'אלך ישרב אלנאסך כ'מר",
-        "en": "and after that the devotee may drink wine.",
-        "he": "וְאַחַר יִשְׁתֶּה הַנָּזִיר יָיִן"
+        "ja": "תחריכא",
+        "en": "as a waving",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "תְּנוּפָה"
+      },
+      {
+        "ja": "אללה",
+        "en": "God;",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "וליכון",
+        "en": "and it shall be"
+      },
+      {
+        "ja": "מקדסא",
+        "en": "consecrated",
+        "he": "קֹדֶשׁ"
+      },
+      {
+        "ja": "לאלאמאם",
+        "en": "for the imām,",
+        "he": "לַכֹּהֵן"
+      },
+      {
+        "ja": "מע קץ אלתחריך",
+        "en": "together with the breast of waving",
+        "he": "עַל חֲזֵה הַתְּנוּפָה"
+      },
+      {
+        "ja": "וסאק אלרפיעה",
+        "en": "and the thigh of the raised-offering;",
+        "he": "וְעַל שׁוֹק הַתְּרוּמָה"
+      },
+      {
+        "ja": "ובעד ד'אלך",
+        "en": "and after that",
+        "he": "וְאַחַר"
+      },
+      {
+        "ja": "ישרב",
+        "en": "may drink",
+        "he": "יִשְׁתֶּה"
+      },
+      {
+        "ja": "אלנאסך",
+        "en": "the devotee",
+        "he": "הַנָּזִיר"
+      },
+      {
+        "ja": "כ'מר",
+        "en": "wine.",
+        "he": "יָיִן"
       }
     ],
     "21": [
       {
-        "ja": "הד'ה שריעה' אלנאסך. קרבאנה ללה ען נסכה",
-        "en": "This is the law of the devotee — his offering to God on account of his devotion",
-        "he": "זֹאת תּוֹרַת הַנָּזִיר אֲשֶׁר יִדֹּר קָרְבָּנוֹ לַיהוָה עַל-נִזְרוֹ"
+        "ja": "הד'ה",
+        "en": "This is",
+        "he": "זֹאת"
       },
       {
-        "ja": "סוא מא תנאל ידה",
-        "en": "apart from what his hand may obtain",
-        "he": "מִלְּבַד אֲשֶׁר-תַּשִּׂיג יָדוֹ"
+        "ja": "שריעה'",
+        "en": "the law of",
+        "he": "תּוֹרַת"
       },
       {
-        "ja": "וליכון ד'אלך כמקדאר מד'ה נסכה. יצ'מה אלי' שריעה' אלנסך",
-        "en": "and let that be in proportion to the period of his devotion, which he shall add to the law of devotion.",
-        "he": "כְּפִי נִדְרוֹ אֲשֶׁר יִדֹּר--כֵּן יַעֲשֶׂה עַל תּוֹרַת נִזְרוֹ"
+        "ja": "אלנאסך",
+        "en": "the devotee —",
+        "he": "הַנָּזִיר"
+      },
+      {
+        "ja": "קרבאנה",
+        "en": "his offering",
+        "he": "קָרְבָּנוֹ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "ען נסכה",
+        "en": "on account of his devotion,",
+        "he": "עַל-נִזְרוֹ"
+      },
+      {
+        "ja": "סוא",
+        "en": "apart from",
+        "he": "מִלְּבַד"
+      },
+      {
+        "ja": "מא תנאל ידה",
+        "en": "what his hand may obtain;",
+        "he": "אֲשֶׁר-תַּשִּׂיג יָדוֹ"
+      },
+      {
+        "ja": "וליכון",
+        "en": "and let"
+      },
+      {
+        "ja": "ד'אלך",
+        "en": "that be"
+      },
+      {
+        "ja": "כמקדאר מד'ה נסכה",
+        "en": "in proportion to the period of his devotion,",
+        "he": "כְּפִי נִדְרוֹ"
+      },
+      {
+        "ja": "יצ'מה",
+        "en": "which he shall add",
+        "he": "אֲשֶׁר יִדֹּר"
+      },
+      {
+        "ja": "אלי'",
+        "en": "to",
+        "he": "כֵּן יַעֲשֶׂה"
+      },
+      {
+        "ja": "שריעה' אלנסך",
+        "en": "the law of devotion.",
+        "he": "עַל תּוֹרַת נִזְרוֹ"
       }
     ],
     "22": [
       {
-        "ja": "ת'ם כלם מוסי' תכלימא",
-        "en": "Then God spoke to Moses, a speaking.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "God spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses,",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "a speaking.",
+        "he": "לֵּאמֹר"
       }
     ],
     "23": [
       {
-        "ja": "מר הרון ובניה וקל להם",
-        "en": "Command Aaron and his sons and say to them",
-        "he": "דַּבֵּר אֶל-אַהֲרֹן וְאֶל-בָּנָיו לֵאמֹר"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "כד'י' פבארכו בני אסראיל",
-        "en": "Thus shall you bless the sons of Israel",
-        "he": "כֹּה תְבָרְכוּ אֶת-בְּנֵי יִשְׂרָאֵל"
+        "ja": "הרון",
+        "en": "Aaron",
+        "he": "אֶל-אַהֲרֹן"
       },
       {
-        "ja": "מקוולא להם",
-        "en": "reciting to them",
-        "he": "אָמוֹר לָהֶם"
+        "ja": "ובניה",
+        "en": "and his sons",
+        "he": "וְאֶל-בָּנָיו"
+      },
+      {
+        "ja": "וקל להם",
+        "en": "and say to them:",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "כד'י'",
+        "en": "Thus",
+        "he": "כֹּה"
+      },
+      {
+        "ja": "פבארכו",
+        "en": "shall you bless",
+        "he": "תְבָרְכוּ"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶת-בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel,",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "מקוולא",
+        "en": "reciting",
+        "he": "אָמוֹר"
+      },
+      {
+        "ja": "להם",
+        "en": "to them:",
+        "he": "לָהֶם"
       }
     ],
     "24": [
@@ -371,9 +1225,19 @@
     ],
     "25": [
       {
-        "ja": "ויצ'י וגהה אליך",
-        "en": "And may He make His face shine toward you",
-        "he": "יָאֵר יְהוָה פָּנָיו אֵלֶיךָ"
+        "ja": "ויצ'י",
+        "en": "And may He make",
+        "he": "יָאֵר"
+      },
+      {
+        "ja": "וגהה",
+        "en": "His face",
+        "he": "פָּנָיו"
+      },
+      {
+        "ja": "אליך",
+        "en": "shine toward you,",
+        "he": "אֵלֶיךָ"
       },
       {
         "ja": "וירופך",
@@ -383,26 +1247,65 @@
     ],
     "26": [
       {
-        "ja": "ויקבל בקצדה אליך",
-        "en": "And may He turn with His purpose toward you",
-        "he": "יִשָּׂא יְהוָה פָּנָיו אֵלֶיךָ"
+        "ja": "ויקבל",
+        "en": "And may He turn",
+        "he": "יִשָּׂא"
       },
       {
-        "ja": "ויצייר לך אלסלאם",
-        "en": "and grant you peace.",
-        "he": "וְיָשֵׂם לְךָ שָׁלוֹם"
+        "ja": "בקצדה",
+        "en": "with His purpose"
+      },
+      {
+        "ja": "אליך",
+        "en": "toward you,",
+        "he": "פָּנָיו אֵלֶיךָ"
+      },
+      {
+        "ja": "ויצייר",
+        "en": "and grant",
+        "he": "וְיָשֵׂם"
+      },
+      {
+        "ja": "לך",
+        "en": "you",
+        "he": "לְךָ"
+      },
+      {
+        "ja": "אלסלאם",
+        "en": "peace.",
+        "he": "שָׁלוֹם"
       }
     ],
     "27": [
       {
-        "ja": "פליתלו אסמי עלי' בני אסראיל",
-        "en": "So that they recite My name over the sons of Israel",
-        "he": "וְשָׂמוּ אֶת-שְׁמִי עַל-בְּנֵי יִשְׂרָאֵל"
+        "ja": "פליתלו",
+        "en": "So that they recite",
+        "he": "וְשָׂמוּ"
       },
       {
-        "ja": "ואנא אבארך עלי'הם",
-        "en": "and I shall bless them.",
-        "he": "וַאֲנִי אֲבָרְכֵם"
+        "ja": "אסמי",
+        "en": "My name",
+        "he": "אֶת-שְׁמִי"
+      },
+      {
+        "ja": "עלי' בני",
+        "en": "over the sons of",
+        "he": "עַל-בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel —",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ואנא",
+        "en": "and I",
+        "he": "וַאֲנִי"
+      },
+      {
+        "ja": "אבארך עלי'הם",
+        "en": "shall bless them.",
+        "he": "אֲבָרְכֵם"
       }
     ]
   }
