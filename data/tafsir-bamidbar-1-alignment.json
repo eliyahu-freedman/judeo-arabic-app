@@ -1,631 +1,2264 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 1. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_1.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 1. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_1.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "2": [
       {
-        "ja": "ארפעו גמלה' גמאעה' בני אסראיל",
-        "en": "Raise the total count of the congregation of the sons of Israel",
-        "he": "שְׂאוּ אֶת-רֹאשׁ כָּל-עֲדַת בְּנֵי-יִשְׂרָאֵל"
+        "ja": "ארפעו",
+        "en": "Raise",
+        "he": "שְׂאוּ"
       },
       {
-        "ja": "לעשאירהם וביות אבאיהם",
-        "en": "by their clans and their fathers' houses",
-        "he": "לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָם"
+        "ja": "גמלה'",
+        "en": "the total count of",
+        "he": "אֶת-רֹאשׁ"
       },
       {
-        "ja": "באחצא אסמא. כל ד'כר לגמאגמהם",
-        "en": "by the enumeration of names — every male according to their heads",
-        "he": "בְּמִסְפַּר שֵׁמוֹת כָּל-זָכָר לְגֻלְגְּלֹתָם"
+        "ja": "גמאעה'",
+        "en": "the congregation of",
+        "he": "כָּל-עֲדַת"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel,",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "וביות",
+        "en": "and their fathers'",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "houses,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the enumeration of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמא",
+        "en": "names —",
+        "he": "שֵׁמוֹת"
+      },
+      {
+        "ja": "כל ד'כר",
+        "en": "every male",
+        "he": "כָּל-זָכָר"
+      },
+      {
+        "ja": "לגמאגמהם",
+        "en": "according to their heads.",
+        "he": "לְגֻלְגְּלֹתָם"
       }
     ],
     "3": [
       {
-        "ja": "מן אבן עשרין סנה פצאעדא",
-        "en": "From twenty years of age and upward",
-        "he": "מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה"
+        "ja": "מן אבן",
+        "en": "From twenty",
+        "he": "מִבֶּן"
       },
       {
-        "ja": "כל מן יכ'רג אלי' גיוש בני אסראיל",
-        "en": "all who go forth to the hosts of the sons of Israel",
-        "he": "כָּל-יֹצֵא צָבָא בְּיִשְׂרָאֵל"
+        "ja": "עשרין",
+        "en": "years",
+        "he": "עֶשְׂרִים"
       },
       {
-        "ja": "תחצוהם לגיושהם אנת והרון",
-        "en": "you shall count them by their hosts, you and Aaron",
-        "he": "תִּפְקְדוּ אֹתָם לְצִבְאֹתָם אַתָּה וְאַהֲרֹן"
+        "ja": "סנה",
+        "en": "of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward —",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כל מן יכ'רג",
+        "en": "all who go forth",
+        "he": "כָּל-יֹצֵא"
+      },
+      {
+        "ja": "אלי'",
+        "en": "to"
+      },
+      {
+        "ja": "גיוש",
+        "en": "the hosts of",
+        "he": "צָבָא"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel —",
+        "he": "בְּיִשְׂרָאֵל"
+      },
+      {
+        "ja": "תחצוהם",
+        "en": "you shall count them",
+        "he": "תִּפְקְדוּ"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts,",
+        "he": "לְצִבְאֹתָם"
+      },
+      {
+        "ja": "אנת",
+        "en": "you",
+        "he": "אַתָּה"
+      },
+      {
+        "ja": "והרון",
+        "en": "and Aaron.",
+        "he": "וְאַהֲרֹן"
       }
     ],
     "4": [
       {
-        "ja": "וליכון מעכם. מן כל סבט רגל",
-        "en": "And there shall be with you, from each tribe, a man",
-        "he": "וְאִתְּכֶם יִהְיוּ אִישׁ אִישׁ לַמַּטֶּה"
+        "ja": "מעכם",
+        "en": "with you,",
+        "he": "וְאִתְּכֶם"
       },
       {
-        "ja": "וד'אלך אלרגל הו רייס בית אביה",
-        "en": "and that man is the chief of his father's house",
-        "he": "אִישׁ רֹאשׁ לְבֵית-אֲבֹתָיו הוּא"
+        "ja": "וליכון",
+        "en": "And there shall be",
+        "he": "יִהְיוּ"
+      },
+      {
+        "ja": "מן כל סבט",
+        "en": "from each tribe,",
+        "he": "אִישׁ לַמַּטֶּה"
+      },
+      {
+        "ja": "רגל",
+        "en": "a man;",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "וד'אלך",
+        "en": "and that"
+      },
+      {
+        "ja": "אלרגל הו רייס",
+        "en": "man is the chief of",
+        "he": "הוּא"
+      },
+      {
+        "ja": "בית אביה",
+        "en": "his father's house.",
+        "he": "לְבֵית-אֲבֹתָיו"
       }
     ],
     "5": [
       {
-        "ja": "והד'ה אסמא אלרגאל אלד'י יקומון מעכם",
-        "en": "And these are the names of the men who shall stand with you",
-        "he": "וְאֵלֶּה שְׁמוֹת הָאֲנָשִׁים אֲשֶׁר יַעַמְדוּ אִתְּכֶם"
+        "ja": "והד'ה",
+        "en": "And these are",
+        "he": "וְאֵלֶּה"
       },
       {
-        "ja": "פמן ראובן. אליצור אבן שדיאור",
-        "en": "from Reuben — Elizur son of Shedeur",
-        "he": "לִרְאוּבֵן אֱלִיצוּר בֶּן-שְׁדֵיאוּר"
+        "ja": "אסמא",
+        "en": "the names of",
+        "he": "שְׁמוֹת"
+      },
+      {
+        "ja": "אלרגאל",
+        "en": "the men",
+        "he": "הָאֲנָשִׁים"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "who",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "יקומון",
+        "en": "shall stand",
+        "he": "יַעַמְדוּ"
+      },
+      {
+        "ja": "מעכם",
+        "en": "with you:",
+        "he": "אִתְּכֶם"
+      },
+      {
+        "ja": "פמן ראובן",
+        "en": "from Reuben —",
+        "he": "לִרְאוּבֵן"
+      },
+      {
+        "ja": "אליצור",
+        "en": "Elizur",
+        "he": "אֱלִיצוּר"
+      },
+      {
+        "ja": "אבן שדיאור",
+        "en": "son of Shedeur;",
+        "he": "בֶּן-שְׁדֵיאוּר"
       }
     ],
     "6": [
       {
-        "ja": "ומן שמעון. שלומיאל אבן צורישדי",
-        "en": "and from Simeon — Shelumiel son of Zurishaddai",
-        "he": "לְשִׁמְעוֹן שְׁלֻמִיאֵל בֶּן-צוּרִישַׁדָּי"
+        "ja": "ומן שמעון",
+        "en": "and from Simeon —",
+        "he": "לְשִׁמְעוֹן"
+      },
+      {
+        "ja": "שלומיאל",
+        "en": "Shelumiel",
+        "he": "שְׁלֻמִיאֵל"
+      },
+      {
+        "ja": "אבן צורישדי",
+        "en": "son of Zurishaddai;",
+        "he": "בֶּן-צוּרִישַׁדָּי"
       }
     ],
     "7": [
       {
-        "ja": "ומן יהודה. נחשון אבן עמינדב",
-        "en": "and from Judah — Nahshon son of Amminadab",
-        "he": "לִיהוּדָה נַחְשׁוֹן בֶּן-עַמִּינָדָב"
+        "ja": "ומן יהודה",
+        "en": "and from Judah —",
+        "he": "לִיהוּדָה"
+      },
+      {
+        "ja": "נחשון",
+        "en": "Nahshon",
+        "he": "נַחְשׁוֹן"
+      },
+      {
+        "ja": "אבן עמינדב",
+        "en": "son of Amminadab;",
+        "he": "בֶּן-עַמִּינָדָב"
       }
     ],
     "8": [
       {
-        "ja": "ומן יששכר. נתנאל אבן צוער",
-        "en": "and from Issachar — Nethanel son of Zuar",
-        "he": "לְיִשָּׂשכָר נְתַנְאֵל בֶּן-צוּעָר"
+        "ja": "ומן יששכר",
+        "en": "and from Issachar —",
+        "he": "לְיִשָּׂשכָר"
+      },
+      {
+        "ja": "נתנאל",
+        "en": "Nethanel",
+        "he": "נְתַנְאֵל"
+      },
+      {
+        "ja": "אבן צוער",
+        "en": "son of Zuar;",
+        "he": "בֶּן-צוּעָר"
       }
     ],
     "9": [
       {
-        "ja": "ומן זבולון. אלי'אב אבן חלן",
-        "en": "and from Zebulun — Eliab son of Helon",
-        "he": "לִזְבוּלֻן אֱלִיאָב בֶּן-חֵלֹן"
+        "ja": "ומן זבולון",
+        "en": "and from Zebulun —",
+        "he": "לִזְבוּלֻן"
+      },
+      {
+        "ja": "אלי'אב",
+        "en": "Eliab",
+        "he": "אֱלִיאָב"
+      },
+      {
+        "ja": "אבן חלן",
+        "en": "son of Helon;",
+        "he": "בֶּן-חֵלֹן"
       }
     ],
     "10": [
       {
-        "ja": "ומן בני יוסף. פמן אפרים. אלי'שמע אבן עמיהוד",
-        "en": "and from the sons of Joseph: from Ephraim — Elishama son of Ammihud",
-        "he": "לִבְנֵי יוֹסֵף--לְאֶפְרַיִם אֱלִישָׁמָע בֶּן-עַמִּיהוּד"
+        "ja": "ומן בני יוסף",
+        "en": "and from the sons of Joseph:",
+        "he": "לִבְנֵי יוֹסֵף"
       },
       {
-        "ja": "ומן מנשה. גמליאל אבן פדהצור",
-        "en": "and from Manasseh — Gamliel son of Pedahzur",
-        "he": "לִמְנַשֶּׁה גַּמְלִיאֵל בֶּן-פְּדָהצוּר"
+        "ja": "פמן אפרים",
+        "en": "from Ephraim —",
+        "he": "לְאֶפְרַיִם"
+      },
+      {
+        "ja": "אלי'שמע",
+        "en": "Elishama",
+        "he": "אֱלִישָׁמָע"
+      },
+      {
+        "ja": "אבן עמיהוד",
+        "en": "son of Ammihud;",
+        "he": "בֶּן-עַמִּיהוּד"
+      },
+      {
+        "ja": "ומן מנשה",
+        "en": "and from Manasseh —",
+        "he": "לִמְנַשֶּׁה"
+      },
+      {
+        "ja": "גמליאל",
+        "en": "Gamliel",
+        "he": "גַּמְלִיאֵל"
+      },
+      {
+        "ja": "אבן פדהצור",
+        "en": "son of Pedahzur;",
+        "he": "בֶּן-פְּדָהצוּר"
       }
     ],
     "11": [
       {
-        "ja": "ומן בנימין. אבידן אבן גדעוני",
-        "en": "and from Benjamin — Abidan son of Gideoni",
-        "he": "לְבִנְיָמִן אֲבִידָן בֶּן-גִּדְעֹנִי"
+        "ja": "ומן בנימין",
+        "en": "and from Benjamin —",
+        "he": "לְבִנְיָמִן"
+      },
+      {
+        "ja": "אבידן",
+        "en": "Abidan",
+        "he": "אֲבִידָן"
+      },
+      {
+        "ja": "אבן גדעוני",
+        "en": "son of Gideoni;",
+        "he": "בֶּן-גִּדְעֹנִי"
       }
     ],
     "12": [
       {
-        "ja": "ומן דן. אחיעזר אבן עמישדי",
-        "en": "and from Dan — Ahiezer son of Ammishaddai",
-        "he": "לְדָן אֲחִיעֶזֶר בֶּן-עַמִּישַׁדָּי"
+        "ja": "ומן דן",
+        "en": "and from Dan —",
+        "he": "לְדָן"
+      },
+      {
+        "ja": "אחיעזר",
+        "en": "Ahiezer",
+        "he": "אֲחִיעֶזֶר"
+      },
+      {
+        "ja": "אבן עמישדי",
+        "en": "son of Ammishaddai;",
+        "he": "בֶּן-עַמִּישַׁדָּי"
       }
     ],
     "13": [
       {
-        "ja": "ומן אשר. פגעיאל אבן עכרן",
-        "en": "and from Asher — Pagiel son of Ochran",
-        "he": "לְאָשֵׁר פַּגְעִיאֵל בֶּן-עָכְרָן"
+        "ja": "ומן אשר",
+        "en": "and from Asher —",
+        "he": "לְאָשֵׁר"
+      },
+      {
+        "ja": "פגעיאל",
+        "en": "Pagiel",
+        "he": "פַּגְעִיאֵל"
+      },
+      {
+        "ja": "אבן עכרן",
+        "en": "son of Ochran;",
+        "he": "בֶּן-עָכְרָן"
       }
     ],
     "14": [
       {
-        "ja": "ומן גד. אליסף אבן דעואל",
-        "en": "and from Gad — Eliasaph son of Deuel",
-        "he": "לְגָד אֶלְיָסָף בֶּן-דְּעוּאֵל"
+        "ja": "ומן גד",
+        "en": "and from Gad —",
+        "he": "לְגָד"
+      },
+      {
+        "ja": "אליסף",
+        "en": "Eliasaph",
+        "he": "אֶלְיָסָף"
+      },
+      {
+        "ja": "אבן דעואל",
+        "en": "son of Deuel;",
+        "he": "בֶּן-דְּעוּאֵל"
       }
     ],
     "15": [
       {
-        "ja": "ומן נפתלי. אחירע אבן עינן",
-        "en": "and from Naphtali — Ahira son of Enan",
-        "he": "לְנַפְתָּלִי אֲחִירַע בֶּן-עֵינָן"
+        "ja": "ומן נפתלי",
+        "en": "and from Naphtali —",
+        "he": "לְנַפְתָּלִי"
+      },
+      {
+        "ja": "אחירע",
+        "en": "Ahira",
+        "he": "אֲחִירַע"
+      },
+      {
+        "ja": "אבן עינן",
+        "en": "son of Enan.",
+        "he": "בֶּן-עֵינָן"
       }
     ],
     "16": [
       {
-        "ja": "הולאי דעאה' אלגמאעה",
-        "en": "These are the summoners of the congregation",
-        "he": "אֵלֶּה קריאי (קְרוּאֵי) הָעֵדָה"
+        "ja": "הולאי",
+        "en": "These are",
+        "he": "אֵלֶּה"
       },
       {
-        "ja": "אשראף אסבאט אבאיהם",
-        "en": "the nobles of the tribes of their fathers",
-        "he": "נְשִׂיאֵי מַטּוֹת אֲבוֹתָם"
+        "ja": "דעאה'",
+        "en": "the summoners of",
+        "he": "קריאי (קְרוּאֵי)"
       },
       {
-        "ja": "ריסא אלוף בני אסראיל",
-        "en": "the heads of the thousands of the sons of Israel",
-        "he": "רָאשֵׁי אַלְפֵי יִשְׂרָאֵל הֵם"
+        "ja": "אלגמאעה",
+        "en": "the congregation —",
+        "he": "הָעֵדָה"
+      },
+      {
+        "ja": "אשראף",
+        "en": "the nobles of",
+        "he": "נְשִׂיאֵי"
+      },
+      {
+        "ja": "אסבאט",
+        "en": "the tribes of",
+        "he": "מַטּוֹת"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "their fathers,",
+        "he": "אֲבוֹתָם"
+      },
+      {
+        "ja": "ריסא",
+        "en": "the heads of",
+        "he": "רָאשֵׁי"
+      },
+      {
+        "ja": "אלוף",
+        "en": "the thousands of",
+        "he": "אַלְפֵי"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel.",
+        "he": "יִשְׂרָאֵל"
       }
     ],
     "17": [
       {
-        "ja": "פאכ'ד' מוסי' והרון הולאי אלרגאל",
-        "en": "And Moses and Aaron took these men",
-        "he": "וַיִּקַּח מֹשֶׁה וְאַהֲרֹן אֵת הָאֲנָשִׁים הָאֵלֶּה"
+        "ja": "פאכ'ד' מוסי' והרון",
+        "en": "And Moses and Aaron took",
+        "he": "וַיִּקַּח מֹשֶׁה וְאַהֲרֹן"
+      },
+      {
+        "ja": "הולאי אלרגאל",
+        "en": "these men,",
+        "he": "הָאֲנָשִׁים הָאֵלֶּה"
       },
       {
         "ja": "אלד'י שרחת אסמאיהם",
-        "en": "whose names had been set forth",
+        "en": "whose names had been set forth.",
         "he": "אֲשֶׁר נִקְּבוּ בְּשֵׁמֹת"
       }
     ],
     "18": [
       {
-        "ja": "וגווקו סאיר אלגמאעה. פי אליום אלאוול מן אלשהר אלת'אני",
-        "en": "And they assembled the rest of the congregation on the first day of the second month",
-        "he": "וְאֵת כָּל-הָעֵדָה הִקְהִילוּ בְּאֶחָד לַחֹדֶשׁ הַשֵּׁנִי"
+        "ja": "וגווקו",
+        "en": "And they assembled",
+        "he": "הִקְהִילוּ"
       },
       {
-        "ja": "פתנאסבו לעשאירהם וביות אבאיהם",
-        "en": "and they registered themselves by their clans and their fathers' houses",
-        "he": "וַיִּתְיַלְדוּ עַל-מִשְׁפְּחֹתָם לְבֵית אֲבֹתָם"
+        "ja": "סאיר אלגמאעה",
+        "en": "the rest of the congregation",
+        "he": "כָּל-הָעֵדָה"
       },
       {
-        "ja": "באחצא אסמא. מן אבן עשרין סנה. פצאעדא לגמאגמהם",
-        "en": "by the enumeration of names, from twenty years of age and upward, according to their heads",
-        "he": "בְּמִסְפַּר שֵׁמוֹת מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה"
+        "ja": "פי אליום אלאוול מן אלשהר אלת'אני",
+        "en": "on the first day of the second month;",
+        "he": "בְּאֶחָד לַחֹדֶשׁ הַשֵּׁנִי"
+      },
+      {
+        "ja": "פתנאסבו",
+        "en": "and they registered themselves",
+        "he": "וַיִּתְיַלְדוּ"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans",
+        "he": "עַל-מִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "וביות",
+        "en": "and their fathers'",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "houses,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the enumeration of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמא",
+        "en": "names,",
+        "he": "שֵׁמוֹת"
+      },
+      {
+        "ja": "מן אבן עשרין",
+        "en": "from twenty",
+        "he": "מִבֶּן עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "לגמאגמהם",
+        "en": "according to their heads.",
+        "he": "לְגֻלְגְּלֹתָם"
       }
     ],
     "19": [
       {
-        "ja": "כמא אמר אללה מוסי'",
-        "en": "As God had commanded Moses",
-        "he": "כַּאֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה"
+        "ja": "כמא",
+        "en": "As",
+        "he": "כַּאֲשֶׁר"
       },
       {
-        "ja": "עדהם פי ברייה' סיני",
-        "en": "he counted them in the wilderness of Sinai",
-        "he": "וַיִּפְקְדֵם בְּמִדְבַּר סִינָי"
+        "ja": "אמר",
+        "en": "had commanded",
+        "he": "צִוָּה"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses —",
+        "he": "אֶת-מֹשֶׁה"
+      },
+      {
+        "ja": "עדהם",
+        "en": "he counted them",
+        "he": "וַיִּפְקְדֵם"
+      },
+      {
+        "ja": "פי ברייה'",
+        "en": "in the wilderness of",
+        "he": "בְּמִדְבַּר"
+      },
+      {
+        "ja": "סיני",
+        "en": "Sinai.",
+        "he": "סִינָי"
       }
     ],
     "20": [
       {
-        "ja": "פכאן בני ראובן בכר אסראיל",
-        "en": "And the sons of Reuben, the firstborn of Israel",
-        "he": "וַיִּהְיוּ בְנֵי-רְאוּבֵן בְּכֹר יִשְׂרָאֵל"
+        "ja": "פכאן",
+        "en": "And",
+        "he": "וַיִּהְיוּ"
       },
       {
-        "ja": "תיאלידהם לעשאירהם לביות אבאיהם",
-        "en": "their generations by their clans, by their fathers' houses",
-        "he": "תּוֹלְדֹתָם לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָם"
+        "ja": "בני ראובן",
+        "en": "the sons of Reuben,",
+        "he": "בְנֵי-רְאוּבֵן"
       },
       {
-        "ja": "כל ד'כר. מן אבן עשרין סנה פצאעדא. כל מן יכ'רג פי גיושהם",
-        "en": "every male from twenty years of age and upward, all who go forth in their hosts",
-        "he": "כָּל-זָכָר מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה כֹּל יֹצֵא צָבָא"
+        "ja": "בכר",
+        "en": "the firstborn of",
+        "he": "בְּכֹר"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel —",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "תיאלידהם",
+        "en": "their generations",
+        "he": "תּוֹלְדֹתָם"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans,",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "לביות",
+        "en": "by their fathers'",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "houses,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the enumeration of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמא",
+        "en": "names",
+        "he": "שֵׁמוֹת"
+      },
+      {
+        "ja": "לגמאגמהם",
+        "en": "according to their heads —",
+        "he": "לְגֻלְגְּלֹתָם"
+      },
+      {
+        "ja": "כל ד'כר",
+        "en": "every male",
+        "he": "כָּל-זָכָר"
+      },
+      {
+        "ja": "מן אבן עשרין",
+        "en": "from twenty",
+        "he": "מִבֶּן עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כל מן יכ'רג פי גיושהם",
+        "en": "all who go forth in their hosts:",
+        "he": "כֹּל יֹצֵא צָבָא"
       }
     ],
     "21": [
       {
-        "ja": "ואלמעדודין כד'אלך מנהם",
-        "en": "those counted accordingly from them",
-        "he": "פְּקֻדֵיהֶם לְמַטֵּה רְאוּבֵן"
+        "ja": "ואלמעדודין",
+        "en": "those counted",
+        "he": "פְּקֻדֵיהֶם"
       },
       {
-        "ja": "סתה וארבעין אלפא וכ'מס מאיה",
-        "en": "forty-six thousand and five hundred",
-        "he": "שִׁשָּׁה וְאַרְבָּעִים אֶלֶף וַחֲמֵשׁ מֵאוֹת"
+        "ja": "כד'אלך",
+        "en": "accordingly"
+      },
+      {
+        "ja": "מנהם",
+        "en": "from them —"
+      },
+      {
+        "ja": "סתה",
+        "en": "forty-six",
+        "he": "שִׁשָּׁה"
+      },
+      {
+        "ja": "וארבעין",
+        "en": "thousand",
+        "he": "וְאַרְבָּעִים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "and five",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וכ'מס",
+        "en": "hundred.",
+        "he": "וַחֲמֵשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "22": [
       {
-        "ja": "לבני שמעון. תיאלידהם לעשאירהם לביות אבאיהם",
-        "en": "For the sons of Simeon — their generations by their clans, by their fathers' houses",
-        "he": "לִבְנֵי שִׁמְעוֹן תּוֹלְדֹתָם לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָם"
+        "ja": "לבני",
+        "en": "For the sons of",
+        "he": "לִבְנֵי"
       },
       {
-        "ja": "כל ד'כר. מן אבן עשרין סנה פצאעדא. כל מן יכ'רג פי גיושהם",
-        "en": "every male from twenty years of age and upward, all who go forth in their hosts",
-        "he": "כָּל-זָכָר מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה כֹּל יֹצֵא צָבָא"
+        "ja": "שמעון",
+        "en": "Simeon —",
+        "he": "שִׁמְעוֹן"
+      },
+      {
+        "ja": "תיאלידהם",
+        "en": "their generations",
+        "he": "תּוֹלְדֹתָם"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans,",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "לביות",
+        "en": "by their fathers'",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "houses,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "עדדהם",
+        "en": "their number",
+        "he": "פְּקֻדָיו"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the enumeration of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמא",
+        "en": "names",
+        "he": "שֵׁמוֹת"
+      },
+      {
+        "ja": "לגמאגמהם",
+        "en": "according to their heads —",
+        "he": "לְגֻלְגְּלֹתָם"
+      },
+      {
+        "ja": "כל ד'כר",
+        "en": "every male",
+        "he": "כָּל-זָכָר"
+      },
+      {
+        "ja": "מן אבן עשרין",
+        "en": "from twenty",
+        "he": "מִבֶּן עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כל מן יכ'רג פי גיושהם",
+        "en": "all who go forth in their hosts:",
+        "he": "כֹּל יֹצֵא צָבָא"
       }
     ],
     "23": [
       {
-        "ja": "ואלמעדודין כד'אלך מנהם",
-        "en": "those counted accordingly from them",
-        "he": "פְּקֻדֵיהֶם לְמַטֵּה שִׁמְעוֹן"
+        "ja": "ואלמעדודין",
+        "en": "those counted",
+        "he": "פְּקֻדֵיהֶם"
       },
       {
-        "ja": "תסעה וכ'מסין אלפא ות'לאת מאיה",
-        "en": "fifty-nine thousand and three hundred",
-        "he": "תִּשְׁעָה וַחֲמִשִּׁים אֶלֶף וּשְׁלֹשׁ מֵאוֹת"
+        "ja": "כד'אלך",
+        "en": "accordingly"
+      },
+      {
+        "ja": "מנהם",
+        "en": "from them —"
+      },
+      {
+        "ja": "תסעה",
+        "en": "fifty-nine",
+        "he": "תִּשְׁעָה"
+      },
+      {
+        "ja": "וכ'מסין",
+        "en": "thousand",
+        "he": "וַחֲמִשִּׁים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "and three",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "ות'לאת",
+        "en": "hundred.",
+        "he": "וּשְׁלֹשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "24": [
       {
-        "ja": "לבני גד. תיאלידהם לעשאירהם לביות אבאיהם",
-        "en": "For the sons of Gad — their generations by their clans, by their fathers' houses",
-        "he": "לִבְנֵי גָד תּוֹלְדֹתָם לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָם"
+        "ja": "לבני",
+        "en": "For the sons of",
+        "he": "לִבְנֵי"
       },
       {
-        "ja": "מן אבן עשרין סנה פצאעדא. כל מן יכ'רג פי גיושהם",
-        "en": "from twenty years of age and upward, all who go forth in their hosts",
-        "he": "מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה--כֹּל יֹצֵא צָבָא"
+        "ja": "גד",
+        "en": "Gad —",
+        "he": "גָד"
+      },
+      {
+        "ja": "תיאלידהם",
+        "en": "their generations",
+        "he": "תּוֹלְדֹתָם"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans,",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "לביות",
+        "en": "by their fathers'",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "houses,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the enumeration of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמא",
+        "en": "names,",
+        "he": "שֵׁמוֹת"
+      },
+      {
+        "ja": "מן אבן עשרין",
+        "en": "from twenty",
+        "he": "מִבֶּן עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כל מן יכ'רג פי גיושהם",
+        "en": "all who go forth in their hosts:",
+        "he": "כֹּל יֹצֵא צָבָא"
       }
     ],
     "25": [
       {
-        "ja": "ואלמעדודין כד'אלך מנהם",
-        "en": "those counted accordingly from them",
-        "he": "פְּקֻדֵיהֶם לְמַטֵּה גָד"
+        "ja": "ואלמעדודין",
+        "en": "those counted",
+        "he": "פְּקֻדֵיהֶם"
       },
       {
-        "ja": "כ'מסה וארבעין אלפא. וסת מאיה וכ'מסין",
-        "en": "forty-five thousand, six hundred and fifty",
-        "he": "חֲמִשָּׁה וְאַרְבָּעִים אֶלֶף וְשֵׁשׁ מֵאוֹת וַחֲמִשִּׁים"
+        "ja": "כד'אלך",
+        "en": "accordingly"
+      },
+      {
+        "ja": "מנהם",
+        "en": "from them —"
+      },
+      {
+        "ja": "כ'מסה",
+        "en": "forty-five",
+        "he": "חֲמִשָּׁה"
+      },
+      {
+        "ja": "וארבעין",
+        "en": "thousand,",
+        "he": "וְאַרְבָּעִים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "six",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וסת",
+        "en": "hundred",
+        "he": "וְשֵׁשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "and",
+        "he": "מֵאוֹת"
+      },
+      {
+        "ja": "וכ'מסין",
+        "en": "fifty.",
+        "he": "וַחֲמִשִּׁים"
       }
     ],
     "26": [
       {
-        "ja": "ובני יהודה. תיאלידהם לעשאירהם לביות אבאיהם",
-        "en": "And the sons of Judah — their generations by their clans, by their fathers' houses",
-        "he": "לִבְנֵי יְהוּדָה תּוֹלְדֹתָם לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָם"
+        "ja": "ובני",
+        "en": "And the sons of",
+        "he": "לִבְנֵי"
       },
       {
-        "ja": "מן אבן עשרין סנה פצאעדא. כל מן יכ'רג פי גיושהם",
-        "en": "from twenty years of age and upward, all who go forth in their hosts",
-        "he": "מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה--כֹּל יֹצֵא צָבָא"
+        "ja": "יהודה",
+        "en": "Judah —",
+        "he": "יְהוּדָה"
+      },
+      {
+        "ja": "תיאלידהם",
+        "en": "their generations",
+        "he": "תּוֹלְדֹתָם"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans,",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "לביות",
+        "en": "by their fathers'",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "houses,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the enumeration of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמא",
+        "en": "names,",
+        "he": "שֵׁמֹת"
+      },
+      {
+        "ja": "מן אבן עשרין",
+        "en": "from twenty",
+        "he": "מִבֶּן עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כל מן יכ'רג פי גיושהם",
+        "en": "all who go forth in their hosts:",
+        "he": "כֹּל יֹצֵא צָבָא"
       }
     ],
     "27": [
       {
-        "ja": "ואלמעדודין כד'אלך מנהם",
-        "en": "those counted accordingly from them",
-        "he": "פְּקֻדֵיהֶם לְמַטֵּה יְהוּדָה"
+        "ja": "ואלמעדודין",
+        "en": "those counted",
+        "he": "פְּקֻדֵיהֶם"
       },
       {
-        "ja": "ארבעה וסבעין אלפא וסת מאיה",
-        "en": "seventy-four thousand and six hundred",
-        "he": "אַרְבָּעָה וְשִׁבְעִים אֶלֶף וְשֵׁשׁ מֵאוֹת"
+        "ja": "כד'אלך",
+        "en": "accordingly"
+      },
+      {
+        "ja": "מנהם",
+        "en": "from them —"
+      },
+      {
+        "ja": "ארבעה",
+        "en": "seventy-four",
+        "he": "אַרְבָּעָה"
+      },
+      {
+        "ja": "וסבעין",
+        "en": "thousand",
+        "he": "וְשִׁבְעִים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "and six",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וסת",
+        "en": "hundred.",
+        "he": "וְשֵׁשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "28": [
       {
-        "ja": "ובני יששכר. תיאלידהם לעשאירהם לביות אבאיהם",
-        "en": "And the sons of Issachar — their generations by their clans, by their fathers' houses",
-        "he": "לִבְנֵי יִשָּׂשכָר תּוֹלְדֹתָם לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָם"
+        "ja": "ובני",
+        "en": "And the sons of",
+        "he": "לִבְנֵי"
       },
       {
-        "ja": "מן אבן עשרין סנה פצאעדא. כל מן יכ'רג פי גיושהם",
-        "en": "from twenty years of age and upward, all who go forth in their hosts",
-        "he": "מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה--כֹּל יֹצֵא צָבָא"
+        "ja": "יששכר",
+        "en": "Issachar —",
+        "he": "יִשָּׂשכָר"
+      },
+      {
+        "ja": "תיאלידהם",
+        "en": "their generations",
+        "he": "תּוֹלְדֹתָם"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans,",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "לביות",
+        "en": "by their fathers'",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "houses,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the enumeration of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמא",
+        "en": "names,",
+        "he": "שֵׁמֹת"
+      },
+      {
+        "ja": "מן אבן עשרין",
+        "en": "from twenty",
+        "he": "מִבֶּן עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כל מן יכ'רג פי גיושהם",
+        "en": "all who go forth in their hosts:",
+        "he": "כֹּל יֹצֵא צָבָא"
       }
     ],
     "29": [
       {
-        "ja": "ואלמעדודין כד'אלך מנהם",
-        "en": "those counted accordingly from them",
-        "he": "פְּקֻדֵיהֶם לְמַטֵּה יִשָּׂשכָר"
+        "ja": "ואלמעדודין",
+        "en": "those counted",
+        "he": "פְּקֻדֵיהֶם"
       },
       {
-        "ja": "ארבעה וכ'מסין אלפא וארבע מאיה",
-        "en": "fifty-four thousand and four hundred",
-        "he": "אַרְבָּעָה וַחֲמִשִּׁים אֶלֶף וְאַרְבַּע מֵאוֹת"
+        "ja": "כד'אלך",
+        "en": "accordingly"
+      },
+      {
+        "ja": "מנהם",
+        "en": "from them —"
+      },
+      {
+        "ja": "ארבעה",
+        "en": "fifty-four",
+        "he": "אַרְבָּעָה"
+      },
+      {
+        "ja": "וכ'מסין",
+        "en": "thousand",
+        "he": "וַחֲמִשִּׁים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "and four",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וארבע",
+        "en": "hundred.",
+        "he": "וְאַרְבַּע"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "30": [
       {
-        "ja": "ובני זבולון. תיאלידהם לעשאירהם לביות אבאיהם",
-        "en": "And the sons of Zebulun — their generations by their clans, by their fathers' houses",
-        "he": "לִבְנֵי זְבוּלֻן תּוֹלְדֹתָם לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָם"
+        "ja": "ובני",
+        "en": "And the sons of",
+        "he": "לִבְנֵי"
       },
       {
-        "ja": "מן אבן עשרין סנה פצאעדא. כל מן יכ'רג פי גיושהם",
-        "en": "from twenty years of age and upward, all who go forth in their hosts",
-        "he": "מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה--כֹּל יֹצֵא צָבָא"
+        "ja": "זבולון",
+        "en": "Zebulun —",
+        "he": "זְבוּלֻן"
+      },
+      {
+        "ja": "תיאלידהם",
+        "en": "their generations",
+        "he": "תּוֹלְדֹתָם"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans,",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "לביות",
+        "en": "by their fathers'",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "houses,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the enumeration of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמא",
+        "en": "names,",
+        "he": "שֵׁמֹת"
+      },
+      {
+        "ja": "מן אבן עשרין",
+        "en": "from twenty",
+        "he": "מִבֶּן עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כל מן יכ'רג פי גיושהם",
+        "en": "all who go forth in their hosts:",
+        "he": "כֹּל יֹצֵא צָבָא"
       }
     ],
     "31": [
       {
-        "ja": "ואלמעדודין כד'אלך מנהם",
-        "en": "those counted accordingly from them",
-        "he": "פְּקֻדֵיהֶם לְמַטֵּה זְבוּלֻן"
+        "ja": "ואלמעדודין",
+        "en": "those counted",
+        "he": "פְּקֻדֵיהֶם"
       },
       {
-        "ja": "סבעה וכ'מסין אלפא וארבע מאיה",
-        "en": "fifty-seven thousand and four hundred",
-        "he": "שִׁבְעָה וַחֲמִשִּׁים אֶלֶף וְאַרְבַּע מֵאוֹת"
+        "ja": "כד'אלך",
+        "en": "accordingly"
+      },
+      {
+        "ja": "מנהם",
+        "en": "from them —"
+      },
+      {
+        "ja": "סבעה",
+        "en": "fifty-seven",
+        "he": "שִׁבְעָה"
+      },
+      {
+        "ja": "וכ'מסין",
+        "en": "thousand",
+        "he": "וַחֲמִשִּׁים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "and four",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וארבע",
+        "en": "hundred.",
+        "he": "וְאַרְבַּע"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "32": [
       {
-        "ja": "לבני יוסף לבני אפרים. תיאלידהם לעשאירהם לביות אבאיהם",
-        "en": "For the sons of Joseph, for the sons of Ephraim — their generations by their clans, by their fathers' houses",
-        "he": "לִבְנֵי יוֹסֵף לִבְנֵי אֶפְרַיִם תּוֹלְדֹתָם לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָם"
+        "ja": "לבני יוסף",
+        "en": "For the sons of Joseph,",
+        "he": "לִבְנֵי יוֹסֵף"
       },
       {
-        "ja": "מן אבן עשרין סנה פצאעדא. כל מן יכ'רג פי גיושהם",
-        "en": "from twenty years of age and upward, all who go forth in their hosts",
-        "he": "מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה--כֹּל יֹצֵא צָבָא"
+        "ja": "לבני אפרים",
+        "en": "for the sons of Ephraim —",
+        "he": "לִבְנֵי אֶפְרַיִם"
+      },
+      {
+        "ja": "תיאלידהם",
+        "en": "their generations",
+        "he": "תּוֹלְדֹתָם"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans,",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "לביות",
+        "en": "by their fathers'",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "houses,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the enumeration of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמא",
+        "en": "names,",
+        "he": "שֵׁמֹת"
+      },
+      {
+        "ja": "מן אבן עשרין",
+        "en": "from twenty",
+        "he": "מִבֶּן עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כל מן יכ'רג פי גיושהם",
+        "en": "all who go forth in their hosts:",
+        "he": "כֹּל יֹצֵא צָבָא"
       }
     ],
     "33": [
       {
-        "ja": "ואלמעדודין כד'אלך מנהם",
-        "en": "those counted accordingly from them",
-        "he": "פְּקֻדֵיהֶם לְמַטֵּה אֶפְרָיִם"
+        "ja": "ואלמעדודין",
+        "en": "those counted",
+        "he": "פְּקֻדֵיהֶם"
       },
       {
-        "ja": "ארבעין אלפא וכ'מס מאיה",
-        "en": "forty thousand and five hundred",
-        "he": "אַרְבָּעִים אֶלֶף וַחֲמֵשׁ מֵאוֹת"
+        "ja": "כד'אלך",
+        "en": "accordingly"
+      },
+      {
+        "ja": "מנהם",
+        "en": "from them —"
+      },
+      {
+        "ja": "ארבעין",
+        "en": "forty",
+        "he": "אַרְבָּעִים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "thousand",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וכ'מס",
+        "en": "and five",
+        "he": "וַחֲמֵשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "hundred.",
+        "he": "מֵאוֹת"
       }
     ],
     "34": [
       {
-        "ja": "ובני מנשה. תיאלידהם לעשאירהם לביות אבאיהם",
-        "en": "And the sons of Manasseh — their generations by their clans, by their fathers' houses",
-        "he": "לִבְנֵי מְנַשֶּׁה תּוֹלְדֹתָם לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָם"
+        "ja": "ובני",
+        "en": "And the sons of",
+        "he": "לִבְנֵי"
       },
       {
-        "ja": "מן אבן עשרין סנה פצאעדא. כל מן יכ'רג פי גיושהם",
-        "en": "from twenty years of age and upward, all who go forth in their hosts",
-        "he": "מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה--כֹּל יֹצֵא צָבָא"
+        "ja": "מנשה",
+        "en": "Manasseh —",
+        "he": "מְנַשֶּׁה"
+      },
+      {
+        "ja": "תיאלידהם",
+        "en": "their generations",
+        "he": "תּוֹלְדֹתָם"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans,",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "לביות",
+        "en": "by their fathers'",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "houses,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the enumeration of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמא",
+        "en": "names,",
+        "he": "שֵׁמוֹת"
+      },
+      {
+        "ja": "מן אבן עשרין",
+        "en": "from twenty",
+        "he": "מִבֶּן עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כל מן יכ'רג פי גיושהם",
+        "en": "all who go forth in their hosts:",
+        "he": "כֹּל יֹצֵא צָבָא"
       }
     ],
     "35": [
       {
-        "ja": "ואלמעדודין כד'אלך מנהם",
-        "en": "those counted accordingly from them",
-        "he": "פְּקֻדֵיהֶם לְמַטֵּה מְנַשֶּׁה"
+        "ja": "ואלמעדודין",
+        "en": "those counted",
+        "he": "פְּקֻדֵיהֶם"
       },
       {
-        "ja": "וסתין ותלאת'ין אלפא ומאיתין",
-        "en": "thirty-six thousand and two hundred",
-        "he": "שְׁנַיִם וּשְׁלֹשִׁים אֶלֶף וּמָאתָיִם"
+        "ja": "כד'אלך",
+        "en": "accordingly"
+      },
+      {
+        "ja": "מנהם",
+        "en": "from them —"
+      },
+      {
+        "ja": "וסתין",
+        "en": "thirty-six",
+        "he": "שְׁנַיִם"
+      },
+      {
+        "ja": "ותלאת'ין",
+        "en": "thousand",
+        "he": "וּשְׁלֹשִׁים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "and two",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "ומאיתין",
+        "en": "hundred.",
+        "he": "וּמָאתָיִם"
       }
     ],
     "36": [
       {
-        "ja": "ובני בנימין. תיאלידהם לעשאירהם לביות אבאיהם",
-        "en": "And the sons of Benjamin — their generations by their clans, by their fathers' houses",
-        "he": "לִבְנֵי בִנְיָמִן תּוֹלְדֹתָם לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָם"
+        "ja": "ובני",
+        "en": "And the sons of",
+        "he": "לִבְנֵי"
       },
       {
-        "ja": "מן אבן עשרין סנה פצאעדא. כל מן יכ'רג פי גיושהם",
-        "en": "from twenty years of age and upward, all who go forth in their hosts",
-        "he": "מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה--כֹּל יֹצֵא צָבָא"
+        "ja": "בנימין",
+        "en": "Benjamin —",
+        "he": "בִנְיָמִן"
+      },
+      {
+        "ja": "תיאלידהם",
+        "en": "their generations",
+        "he": "תּוֹלְדֹתָם"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans,",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "לביות",
+        "en": "by their fathers'",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "houses,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the enumeration of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמא",
+        "en": "names,",
+        "he": "שֵׁמֹת"
+      },
+      {
+        "ja": "מן אבן עשרין",
+        "en": "from twenty",
+        "he": "מִבֶּן עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כל מן יכ'רג פי גיושהם",
+        "en": "all who go forth in their hosts:",
+        "he": "כֹּל יֹצֵא צָבָא"
       }
     ],
     "37": [
       {
-        "ja": "ואלמעדודין כד'אלך מנהם",
-        "en": "those counted accordingly from them",
-        "he": "פְּקֻדֵיהֶם לְמַטֵּה בִנְיָמִן"
+        "ja": "ואלמעדודין",
+        "en": "those counted",
+        "he": "פְּקֻדֵיהֶם"
       },
       {
-        "ja": "כ'מסה ותלאת'ין אלפא וארבע מאיה",
-        "en": "thirty-five thousand and four hundred",
-        "he": "חֲמִשָּׁה וּשְׁלֹשִׁים אֶלֶף וְאַרְבַּע מֵאוֹת"
+        "ja": "כד'אלך",
+        "en": "accordingly"
+      },
+      {
+        "ja": "מנהם",
+        "en": "from them —"
+      },
+      {
+        "ja": "כ'מסה",
+        "en": "thirty-five",
+        "he": "חֲמִשָּׁה"
+      },
+      {
+        "ja": "ותלאת'ין",
+        "en": "thousand",
+        "he": "וּשְׁלֹשִׁים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "and four",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וארבע",
+        "en": "hundred.",
+        "he": "וְאַרְבַּע"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "38": [
       {
-        "ja": "ובני דן. תיאלידהם לעשאירהם לביות אבאיהם",
-        "en": "And the sons of Dan — their generations by their clans, by their fathers' houses",
-        "he": "לִבְנֵי דָן תּוֹלְדֹתָם לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָם"
+        "ja": "ובני",
+        "en": "And the sons of",
+        "he": "לִבְנֵי"
       },
       {
-        "ja": "מן אבן עשרין סנה פצאעדא. כל מן יכ'רג פי גיושהם",
-        "en": "from twenty years of age and upward, all who go forth in their hosts",
-        "he": "מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה--כֹּל יֹצֵא צָבָא"
+        "ja": "דן",
+        "en": "Dan —",
+        "he": "דָן"
+      },
+      {
+        "ja": "תיאלידהם",
+        "en": "their generations",
+        "he": "תּוֹלְדֹתָם"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans,",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "לביות",
+        "en": "by their fathers'",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "houses,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the enumeration of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמא",
+        "en": "names,",
+        "he": "שֵׁמֹת"
+      },
+      {
+        "ja": "מן אבן עשרין",
+        "en": "from twenty",
+        "he": "מִבֶּן עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כל מן יכ'רג פי גיושהם",
+        "en": "all who go forth in their hosts:",
+        "he": "כֹּל יֹצֵא צָבָא"
       }
     ],
     "39": [
       {
-        "ja": "ואלמעדודין כד'אלך מנהם",
-        "en": "those counted accordingly from them",
-        "he": "פְּקֻדֵיהֶם לְמַטֵּה דָן"
+        "ja": "ואלמעדודין",
+        "en": "those counted",
+        "he": "פְּקֻדֵיהֶם"
       },
       {
-        "ja": "את'נין אלפא וסבע מאיה",
-        "en": "sixty-two thousand and seven hundred",
-        "he": "שְׁנַיִם וְשִׁשִּׁים אֶלֶף וּשְׁבַע מֵאוֹת"
+        "ja": "כד'אלך",
+        "en": "accordingly"
+      },
+      {
+        "ja": "מנהם",
+        "en": "from them —"
+      },
+      {
+        "ja": "את'נין",
+        "en": "sixty-two",
+        "he": "שְׁנַיִם וְשִׁשִּׁים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "thousand",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וסבע",
+        "en": "and seven",
+        "he": "וּשְׁבַע"
+      },
+      {
+        "ja": "מאיה",
+        "en": "hundred.",
+        "he": "מֵאוֹת"
       }
     ],
     "40": [
       {
-        "ja": "ובני אשר. תיאלידהם לעשאירהם לביות אבאיהם",
-        "en": "And the sons of Asher — their generations by their clans, by their fathers' houses",
-        "he": "לִבְנֵי אָשֵׁר תּוֹלְדֹתָם לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָם"
+        "ja": "ובני",
+        "en": "And the sons of",
+        "he": "לִבְנֵי"
       },
       {
-        "ja": "מן אבן עשרין סנה פצאעדא. כל מן יכ'רג' פי גיושהם",
-        "en": "from twenty years of age and upward, all who go forth in their hosts",
-        "he": "מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה--כֹּל יֹצֵא צָבָא"
+        "ja": "אשר",
+        "en": "Asher —",
+        "he": "אָשֵׁר"
+      },
+      {
+        "ja": "תיאלידהם",
+        "en": "their generations",
+        "he": "תּוֹלְדֹתָם"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans,",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "לביות",
+        "en": "by their fathers'",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "houses,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the enumeration of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמא",
+        "en": "names,",
+        "he": "שֵׁמֹת"
+      },
+      {
+        "ja": "מן אבן עשרין",
+        "en": "from twenty",
+        "he": "מִבֶּן עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כל מן יכ'רג' פי גיושהם",
+        "en": "all who go forth in their hosts:",
+        "he": "כֹּל יֹצֵא צָבָא"
       }
     ],
     "41": [
       {
-        "ja": "ואלמעדודין כד'אלך מנהם",
-        "en": "those counted accordingly from them",
-        "he": "פְּקֻדֵיהֶם לְמַטֵּה אָשֵׁר"
+        "ja": "ואלמעדודין",
+        "en": "those counted",
+        "he": "פְּקֻדֵיהֶם"
       },
       {
-        "ja": "ואחד וארבעין אלפא וכ'מס מאיה",
-        "en": "forty-one thousand and five hundred",
-        "he": "אֶחָד וְאַרְבָּעִים אֶלֶף וַחֲמֵשׁ מֵאוֹת"
+        "ja": "כד'אלך",
+        "en": "accordingly"
+      },
+      {
+        "ja": "מנהם",
+        "en": "from them —"
+      },
+      {
+        "ja": "ואחד",
+        "en": "forty-one",
+        "he": "אֶחָד"
+      },
+      {
+        "ja": "וארבעין",
+        "en": "thousand",
+        "he": "וְאַרְבָּעִים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "and five",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וכ'מס",
+        "en": "hundred.",
+        "he": "וַחֲמֵשׁ"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "42": [
       {
-        "ja": "בני נפתלי. תיאלידהם לעשאירהם לביות אבאיהם",
-        "en": "The sons of Naphtali — their generations by their clans, by their fathers' houses",
-        "he": "בְּנֵי נַפְתָּלִי תּוֹלְדֹתָם לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָם"
+        "ja": "בני",
+        "en": "The sons of",
+        "he": "בְּנֵי"
       },
       {
-        "ja": "מן אבן עשרין סנה פצאעדא. כל מן יכ'רג פי גיושהם",
-        "en": "from twenty years of age and upward, all who go forth in their hosts",
-        "he": "מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה--כֹּל יֹצֵא צָבָא"
+        "ja": "נפתלי",
+        "en": "Naphtali —",
+        "he": "נַפְתָּלִי"
+      },
+      {
+        "ja": "תיאלידהם",
+        "en": "their generations",
+        "he": "תּוֹלְדֹתָם"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans,",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "לביות",
+        "en": "by their fathers'",
+        "he": "לְבֵית"
+      },
+      {
+        "ja": "אבאיהם",
+        "en": "houses,",
+        "he": "אֲבֹתָם"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by the enumeration of",
+        "he": "בְּמִסְפַּר"
+      },
+      {
+        "ja": "אסמא",
+        "en": "names,",
+        "he": "שֵׁמֹת"
+      },
+      {
+        "ja": "מן אבן עשרין",
+        "en": "from twenty",
+        "he": "מִבֶּן עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כל מן יכ'רג פי גיושהם",
+        "en": "all who go forth in their hosts:",
+        "he": "כֹּל יֹצֵא צָבָא"
       }
     ],
     "43": [
       {
-        "ja": "ואלמעדודין . כד'אלך מנהם",
-        "en": "those counted accordingly from them",
-        "he": "פְּקֻדֵיהֶם לְמַטֵּה נַפְתָּלִי"
+        "ja": "ואלמעדודין",
+        "en": "those counted",
+        "he": "פְּקֻדֵיהֶם"
       },
       {
-        "ja": "ת'לאת'ה וכ'מסין אלפא וארבע מאיה",
-        "en": "fifty-three thousand and four hundred",
-        "he": "שְׁלֹשָׁה וַחֲמִשִּׁים אֶלֶף וְאַרְבַּע מֵאוֹת"
+        "ja": "כד'אלך",
+        "en": "accordingly"
+      },
+      {
+        "ja": "מנהם",
+        "en": "from them —"
+      },
+      {
+        "ja": "ת'לאת'ה",
+        "en": "fifty-three",
+        "he": "שְׁלֹשָׁה"
+      },
+      {
+        "ja": "וכ'מסין",
+        "en": "thousand",
+        "he": "וַחֲמִשִּׁים"
+      },
+      {
+        "ja": "אלפא",
+        "en": "and four",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "וארבע",
+        "en": "hundred.",
+        "he": "וְאַרְבַּע"
+      },
+      {
+        "ja": "מאיה",
+        "en": "",
+        "he": "מֵאוֹת"
       }
     ],
     "44": [
       {
-        "ja": "הולאי אלמעדודין. אלד'י עדהם מוסי' והרון",
-        "en": "These are those counted, whom Moses and Aaron",
-        "he": "אֵלֶּה הַפְּקֻדִים אֲשֶׁר פָּקַד מֹשֶׁה וְאַהֲרֹן"
+        "ja": "הולאי",
+        "en": "These are",
+        "he": "אֵלֶּה"
       },
       {
-        "ja": "ואשראף אל אסראיל. אלאת'ני עשר אלרגל",
-        "en": "and the nobles of the house of Israel counted — twelve men",
-        "he": "וּנְשִׂיאֵי יִשְׂרָאֵל--שְׁנֵים עָשָׂר אִישׁ"
+        "ja": "אלמעדודין",
+        "en": "those counted,",
+        "he": "הַפְּקֻדִים"
       },
       {
-        "ja": "כל ואחד מנהם שריף בית אביה",
-        "en": "each one of them the noble of his father's house",
-        "he": "אִישׁ-אֶחָד לְבֵית-אֲבֹתָיו הָיוּ"
+        "ja": "אלד'י עדהם",
+        "en": "whom",
+        "he": "אֲשֶׁר פָּקַד"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "והרון",
+        "en": "and Aaron",
+        "he": "וְאַהֲרֹן"
+      },
+      {
+        "ja": "ואשראף אל אסראיל",
+        "en": "and the nobles of the house of Israel counted —",
+        "he": "וּנְשִׂיאֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אלאת'ני עשר",
+        "en": "twelve men,",
+        "he": "שְׁנֵים עָשָׂר"
+      },
+      {
+        "ja": "אלרגל",
+        "en": "each one of them",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "כל ואחד מנהם",
+        "en": "the noble of his father",
+        "he": "אִישׁ-אֶחָד"
+      },
+      {
+        "ja": "שריף בית אביה",
+        "en": "'s house.",
+        "he": "לְבֵית-אֲבֹתָיו"
       }
     ],
     "45": [
       {
-        "ja": "וכאן מן עדה מנהם. מנסובא אלי' בית אבאיה",
-        "en": "And those who were counted from them — traced to their fathers' houses",
-        "he": "וַיִּהְיוּ כָּל-פְּקוּדֵי בְנֵי-יִשְׂרָאֵל לְבֵית אֲבֹתָם"
+        "ja": "וכאן",
+        "en": "And those who were",
+        "he": "וַיִּהְיוּ"
       },
       {
-        "ja": "מן אבן עשרין סנה פצאעדא. כל מן יכ'רג פי גיושהם",
-        "en": "from twenty years of age and upward, all who go forth in their hosts",
-        "he": "מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה כָּל-יֹצֵא צָבָא בְּיִשְׂרָאֵל"
+        "ja": "מן עדה",
+        "en": "counted",
+        "he": "כָּל-פְּקוּדֵי"
+      },
+      {
+        "ja": "מנהם",
+        "en": "from them —",
+        "he": "בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "מנסובא אלי' בית אבאיה",
+        "en": "traced to their fathers' houses,",
+        "he": "לְבֵית אֲבֹתָם"
+      },
+      {
+        "ja": "מן אבן עשרין",
+        "en": "from twenty",
+        "he": "מִבֶּן עֶשְׂרִים"
+      },
+      {
+        "ja": "סנה",
+        "en": "years of age",
+        "he": "שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "כל מן יכ'רג פי גיושהם",
+        "en": "all who go forth in their hosts —",
+        "he": "כָּל-יֹצֵא צָבָא בְּיִשְׂרָאֵל"
       }
     ],
     "46": [
       {
-        "ja": "פכאן גמלת אלמעדודין",
-        "en": "the total of those counted was",
-        "he": "וַיִּהְיוּ כָּל-הַפְּקֻדִים"
+        "ja": "פכאן",
+        "en": "the total of",
+        "he": "וַיִּהְיוּ"
       },
       {
-        "ja": "סת מאיה' אלף ות'לאתה' אלאף. וכ'מס מאיה וכ'מסין",
-        "en": "six hundred thousand and three thousand, and five hundred and fifty",
-        "he": "שֵׁשׁ-מֵאוֹת אֶלֶף וּשְׁלֹשֶׁת אֲלָפִים וַחֲמֵשׁ מֵאוֹת וַחֲמִשִּׁים"
+        "ja": "גמלת אלמעדודין",
+        "en": "those counted was",
+        "he": "כָּל-הַפְּקֻדִים"
+      },
+      {
+        "ja": "סת מאיה'",
+        "en": "six hundred",
+        "he": "שֵׁשׁ-מֵאוֹת"
+      },
+      {
+        "ja": "אלף",
+        "en": "thousand",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "ות'לאתה'",
+        "en": "and three",
+        "he": "וּשְׁלֹשֶׁת"
+      },
+      {
+        "ja": "אלאף",
+        "en": "thousand,",
+        "he": "אֲלָפִים"
+      },
+      {
+        "ja": "וכ'מס",
+        "en": "and five",
+        "he": "וַחֲמֵשׁ"
+      },
+      {
+        "ja": "מאיה וכ'מסין",
+        "en": "hundred and fifty.",
+        "he": "מֵאוֹת וַחֲמִשִּׁים"
       }
     ],
     "47": [
       {
-        "ja": "ואמא אלליואניין. פלם יעדו מעהם לסבט אבאיהם",
-        "en": "But the Levites were not counted among them, by the tribe of their fathers",
-        "he": "וְהַלְוִיִּם לְמַטֵּה אֲבֹתָם--לֹא הָתְפָּקְדוּ בְּתוֹכָם"
+        "ja": "ואמא אלליואניין",
+        "en": "But the Levites",
+        "he": "וְהַלְוִיִּם"
+      },
+      {
+        "ja": "פלם יעדו",
+        "en": "were not counted",
+        "he": "לֹא הָתְפָּקְדוּ"
+      },
+      {
+        "ja": "מעהם",
+        "en": "among them,",
+        "he": "בְּתוֹכָם"
+      },
+      {
+        "ja": "לסבט אבאיהם",
+        "en": "by the tribe of their fathers.",
+        "he": "לְמַטֵּה אֲבֹתָם"
       }
     ],
     "48": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly.",
+        "he": "לֵּאמֹר"
       }
     ],
     "49": [
       {
-        "ja": "אמא סבט לוי פלא תעדה",
-        "en": "'As for the tribe of Levi — do not count it",
-        "he": "אַךְ אֶת-מַטֵּה לֵוִי לֹא תִפְקֹד"
+        "ja": "אמא",
+        "en": "'As for",
+        "he": "אַךְ"
       },
       {
-        "ja": "ולא תרפע גמלתהם. פי מא בין בני אסראיל",
-        "en": "and do not raise their total among the sons of Israel",
-        "he": "וְאֶת-רֹאשָׁם לֹא תִשָּׂא בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
+        "ja": "סבט לוי",
+        "en": "the tribe of Levi —",
+        "he": "מַטֵּה לֵוִי"
+      },
+      {
+        "ja": "פלא תעדה",
+        "en": "do not count it,",
+        "he": "לֹא תִפְקֹד"
+      },
+      {
+        "ja": "ולא תרפע גמלתהם",
+        "en": "and do not raise their total",
+        "he": "וְאֶת-רֹאשָׁם"
+      },
+      {
+        "ja": "פי מא בין",
+        "en": "among",
+        "he": "בְּתוֹךְ"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel.",
+        "he": "בְּנֵי יִשְׂרָאֵל"
       }
     ],
     "50": [
       {
-        "ja": "ואנת פוכל אלליואניין עלי' מסכן אלשהאדה",
-        "en": "But you — appoint the Levites over the tabernacle of testimony",
-        "he": "וְאַתָּה הַפְקֵד אֶת-הַלְוִיִּם עַל-מִשְׁכַּן הָעֵדֻת"
+        "ja": "ואנת",
+        "en": "But you —",
+        "he": "וְאַתָּה"
       },
       {
-        "ja": "פהם יחמלון אלמסכן וגמיע אניתה",
-        "en": "they shall carry the tabernacle and all its vessels",
-        "he": "הֵמָּה יִשְׂאוּ אֶת-הַמִּשְׁכָּן וְאֶת-כָּל-כֵּלָיו"
+        "ja": "פוכל",
+        "en": "appoint",
+        "he": "הַפְקֵד"
       },
       {
-        "ja": "והם יכ'דמונה. וחאלי'ה ינזלון",
-        "en": "and they shall serve it, and around it they shall encamp",
-        "he": "וְהֵם יְשָׁרְתֻהוּ וְסָבִיב לַמִּשְׁכָּן יַחֲנוּ"
+        "ja": "אלליואניין",
+        "en": "the Levites",
+        "he": "אֶת-הַלְוִיִּם"
+      },
+      {
+        "ja": "עלי' מסכן",
+        "en": "over the tabernacle of",
+        "he": "עַל-מִשְׁכַּן"
+      },
+      {
+        "ja": "אלשהאדה",
+        "en": "testimony,",
+        "he": "הָעֵדֻת"
+      },
+      {
+        "ja": "ואניתה",
+        "en": "and its vessels,",
+        "he": "וְעַל כָּל-כֵּלָיו"
+      },
+      {
+        "ja": "וגמיע מאלה",
+        "en": "and all that belongs to it;",
+        "he": "וְעַל כָּל-אֲשֶׁר-לוֹ"
+      },
+      {
+        "ja": "פהם יחמלון",
+        "en": "they shall carry",
+        "he": "הֵמָּה יִשְׂאוּ"
+      },
+      {
+        "ja": "אלמסכן",
+        "en": "the tabernacle",
+        "he": "אֶת-הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "וגמיע אניתה",
+        "en": "and all its vessels,",
+        "he": "וְאֶת-כָּל-כֵּלָיו"
+      },
+      {
+        "ja": "והם יכ'דמונה",
+        "en": "and they shall serve it,",
+        "he": "וְהֵם יְשָׁרְתֻהוּ"
+      },
+      {
+        "ja": "וחאלי'ה",
+        "en": "and around it",
+        "he": "וְסָבִיב לַמִּשְׁכָּן"
+      },
+      {
+        "ja": "ינזלון",
+        "en": "they shall encamp.",
+        "he": "יַחֲנוּ"
       }
     ],
     "51": [
       {
-        "ja": "ופי רחילה הם יפצלונה",
-        "en": "And when it sets out, they shall take it apart",
-        "he": "וּבִנְסֹעַ הַמִּשְׁכָּן יוֹרִידוּ אֹתוֹ הַלְוִיִּם"
+        "ja": "ופי רחילה",
+        "en": "And when it sets out,",
+        "he": "וּבִנְסֹעַ"
       },
       {
-        "ja": "ופי נזולה הם ינצבונה",
-        "en": "and when it encamps, they shall set it up",
-        "he": "וּבַחֲנֹת הַמִּשְׁכָּן יָקִימוּ אֹתוֹ הַלְוִיִּם"
+        "ja": "הם יפצלונה",
+        "en": "they shall take it apart;",
+        "he": "יוֹרִידוּ אֹתוֹ הַלְוִיִּם"
       },
       {
-        "ja": "ואי אגנבי תקדם אלי' ד'אלך פליקתל",
-        "en": "and any outsider who approaches it shall be put to death",
-        "he": "וְהַזָּר הַקָּרֵב יוּמָת"
+        "ja": "ופי נזולה",
+        "en": "and when it encamps,",
+        "he": "וּבַחֲנֹת"
+      },
+      {
+        "ja": "הם ינצבונה",
+        "en": "they shall set it up;",
+        "he": "יָקִימוּ אֹתוֹ הַלְוִיִּם"
+      },
+      {
+        "ja": "ואי אגנבי",
+        "en": "and any outsider",
+        "he": "וְהַזָּר"
+      },
+      {
+        "ja": "תקדם אלי' ד'אלך",
+        "en": "who approaches it",
+        "he": "הַקָּרֵב"
+      },
+      {
+        "ja": "פליקתל",
+        "en": "shall be put to death.",
+        "he": "יוּמָת"
       }
     ],
     "52": [
       {
-        "ja": "וינזל בני אסראיל. כל סבט פי עסכרה",
-        "en": "And the sons of Israel shall encamp — each tribe in its encampment",
-        "he": "וְחָנוּ בְּנֵי יִשְׂרָאֵל אִישׁ עַל-מַחֲנֵהוּ"
+        "ja": "וינזל",
+        "en": "And the sons of Israel shall encamp —",
+        "he": "וְחָנוּ"
       },
       {
-        "ja": "ופי מרכזה עלי' גיושהם",
-        "en": "and in its position — by their hosts",
-        "he": "וְאִישׁ עַל-דִּגְלוֹ לְצִבְאֹתָם"
+        "ja": "בני אסראיל",
+        "en": "each tribe in",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "כל סבט פי עסכרה",
+        "en": "its encampment",
+        "he": "אִישׁ עַל-מַחֲנֵהוּ"
+      },
+      {
+        "ja": "ופי מרכזה",
+        "en": "and in its position —",
+        "he": "וְאִישׁ עַל-דִּגְלוֹ"
+      },
+      {
+        "ja": "עלי' גיושהם",
+        "en": "by their hosts.",
+        "he": "לְצִבְאֹתָם"
       }
     ],
     "53": [
       {
-        "ja": "ואלליואניין. ינזלון חואלי מסכן אלשהאדה",
-        "en": "And the Levites shall encamp around the tabernacle of testimony",
-        "he": "וְהַלְוִיִּם יַחֲנוּ סָבִיב לְמִשְׁכַּן הָעֵדֻת"
+        "ja": "ואלליואניין",
+        "en": "And the Levites",
+        "he": "וְהַלְוִיִּם"
       },
       {
-        "ja": "ולא יכון סכ'ט. עלי' גמאעה' בני אסראיל",
-        "en": "so that there be no wrath upon the congregation of the sons of Israel",
-        "he": "וְלֹא-יִהְיֶה קֶצֶף עַל-עֲדַת בְּנֵי יִשְׂרָאֵל"
+        "ja": "ינזלון",
+        "en": "shall encamp",
+        "he": "יַחֲנוּ"
       },
       {
-        "ja": "ויחפצון חפץ' מסכן אלשהאדה",
-        "en": "and the Levites shall keep the charge of the tabernacle of testimony",
-        "he": "וְשָׁמְרוּ הַלְוִיִּם אֶת-מִשְׁמֶרֶת מִשְׁכַּן הָעֵדוּת"
+        "ja": "חואלי",
+        "en": "around",
+        "he": "סָבִיב"
+      },
+      {
+        "ja": "מסכן אלשהאדה",
+        "en": "the tabernacle of testimony,",
+        "he": "לְמִשְׁכַּן הָעֵדֻת"
+      },
+      {
+        "ja": "ולא יכון",
+        "en": "so that there be no",
+        "he": "וְלֹא-יִהְיֶה"
+      },
+      {
+        "ja": "סכ'ט",
+        "en": "wrath",
+        "he": "קֶצֶף"
+      },
+      {
+        "ja": "עלי' גמאעה'",
+        "en": "upon the congregation of",
+        "he": "עַל-עֲדַת"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel;",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ויחפצון",
+        "en": "and the Levites shall keep",
+        "he": "וְשָׁמְרוּ הַלְוִיִּם"
+      },
+      {
+        "ja": "חפץ'",
+        "en": "the charge of",
+        "he": "אֶת-מִשְׁמֶרֶת"
+      },
+      {
+        "ja": "מסכן אלשהאדה",
+        "en": "the tabernacle of testimony.'",
+        "he": "מִשְׁכַּן הָעֵדוּת"
       }
     ],
     "54": [
       {
-        "ja": "פצנע בני אסראיל. כגמיע מא אמר אללה מוסי'",
-        "en": "And the sons of Israel did according to all that God had commanded Moses",
-        "he": "וַיַּעֲשׂוּ בְּנֵי יִשְׂרָאֵל כְּכֹל אֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה"
+        "ja": "פצנע",
+        "en": "And the sons of Israel did",
+        "he": "וַיַּעֲשׂוּ"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "according to",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "כגמיע",
+        "en": "all",
+        "he": "כְּכֹל"
+      },
+      {
+        "ja": "מא",
+        "en": "that",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "אמר",
+        "en": "had commanded",
+        "he": "צִוָּה"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses —",
+        "he": "אֶת-מֹשֶׁה"
       },
       {
         "ja": "כד'אך צנעו",
-        "en": "so they did",
+        "en": "so they did.",
         "he": "כֵּן עָשׂוּ"
       }
     ]
