@@ -1,73 +1,157 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 5. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_5.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 5. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_5.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "God spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "to Moses",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי' תכלימא",
+        "en": "directly.",
+        "he": "אֶל-מֹשֶׁה לֵּאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "מר בני אסראיל",
-        "en": "Command the sons of Israel",
-        "he": "צַו אֶת-בְּנֵי יִשְׂרָאֵל"
+        "ja": "מר",
+        "en": "Command",
+        "he": "צַו"
       },
       {
-        "ja": "באן ינפו מן אלעסכר",
-        "en": "that they drive out from the camp",
-        "he": "וִישַׁלְּחוּ מִן-הַמַּחֲנֶה"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶת-בְּנֵי"
       },
       {
-        "ja": "כל אברץ וכל ד'איב",
-        "en": "every leper, and every one with a discharge",
-        "he": "כָּל-צָרוּעַ וְכָל-זָב"
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
       },
       {
-        "ja": "וכל נגס במיית",
-        "en": "and every one made impure by a corpse.",
-        "he": "וְכֹל טָמֵא לָנָפֶשׁ"
+        "ja": "באן ינפו",
+        "en": "that they drive out",
+        "he": "וִישַׁלְּחוּ"
+      },
+      {
+        "ja": "מן אלעסכר",
+        "en": "from the camp",
+        "he": "מִן-הַמַּחֲנֶה"
+      },
+      {
+        "ja": "כל אברץ",
+        "en": "every leper,",
+        "he": "כָּל-צָרוּעַ"
+      },
+      {
+        "ja": "וכל ד'איב",
+        "en": "and every one with a discharge,",
+        "he": "וְכָל-זָב"
+      },
+      {
+        "ja": "וכל נגס",
+        "en": "and every one made impure",
+        "he": "וְכֹל טָמֵא"
+      },
+      {
+        "ja": "במיית",
+        "en": "by a corpse.",
+        "he": "לָנָפֶשׁ"
       }
     ],
     "3": [
       {
-        "ja": "מן ד'כר אלי' אנת'י תנפוהם",
-        "en": "From male to female you shall drive them out",
-        "he": "מִזָּכָר עַד-נְקֵבָה תְּשַׁלֵּחוּ"
+        "ja": "מן ד'כר",
+        "en": "From male",
+        "he": "מִזָּכָר"
       },
       {
-        "ja": "אלי' כ'ארג אלעסכר",
-        "en": "to the outside of the camp",
-        "he": "אֶל-מִחוּץ לַמַּחֲנֶה תְּשַׁלְּחוּם"
+        "ja": "אלי' אנת'י",
+        "en": "to female",
+        "he": "עַד-נְקֵבָה"
       },
       {
-        "ja": "ולא ינגסו עסכרהם",
-        "en": "that they not defile their camp",
-        "he": "וְלֹא יְטַמְּאוּ אֶת-מַחֲנֵיהֶם"
+        "ja": "תנפוהם",
+        "en": "you shall drive them out,",
+        "he": "תְּשַׁלֵּחוּ"
       },
       {
-        "ja": "אלד'י אנא סאכנה פי מא בינהם",
-        "en": "in which I dwell among them.",
-        "he": "אֲשֶׁר אֲנִי שֹׁכֵן בְּתוֹכָם"
+        "ja": "אלי' כ'ארג",
+        "en": "to the outside of",
+        "he": "אֶל-מִחוּץ"
+      },
+      {
+        "ja": "אלעסכר",
+        "en": "the camp,",
+        "he": "לַמַּחֲנֶה"
+      },
+      {
+        "ja": "ולא",
+        "en": "that they not",
+        "he": "וְלֹא"
+      },
+      {
+        "ja": "ינגסו",
+        "en": "defile",
+        "he": "יְטַמְּאוּ"
+      },
+      {
+        "ja": "עסכרהם",
+        "en": "their camp,",
+        "he": "אֶת-מַחֲנֵיהֶם"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "in which",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "אנא",
+        "en": "I",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "סאכנה",
+        "en": "dwell",
+        "he": "שֹׁכֵן"
+      },
+      {
+        "ja": "פי מא בינהם",
+        "en": "among them.",
+        "he": "בְּתוֹכָם"
       }
     ],
     "4": [
       {
-        "ja": "פצנע כד'אך בני אסראיל",
-        "en": "And the sons of Israel did so",
-        "he": "וַיַּעֲשׂוּ-כֵן בְּנֵי יִשְׂרָאֵל"
+        "ja": "פצנע כד'אך",
+        "en": "And",
+        "he": "וַיַּעֲשׂוּ-כֵן"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel did so,",
+        "he": "בְּנֵי יִשְׂרָאֵל"
       },
       {
         "ja": "ונפוהם אלי' כ'ארג אלעסכר",
-        "en": "and drove them out to the outside of the camp",
+        "en": "and drove them out to the outside of the camp,",
         "he": "וַיְשַׁלְּחוּ אוֹתָם אֶל-מִחוּץ לַמַּחֲנֶה"
       },
       {
         "ja": "כמא אמר אללה מוסי'",
-        "en": "as God had commanded Moses",
+        "en": "as God had commanded Moses —",
         "he": "כַּאֲשֶׁר דִּבֶּר יְהוָה אֶל-מֹשֶׁה"
       },
       {
@@ -78,184 +162,486 @@
     ],
     "5": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "God spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "to Moses",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי' תכלימא",
+        "en": "directly.",
+        "he": "אֶל-מֹשֶׁה לֵּאמֹר"
       }
     ],
     "6": [
       {
-        "ja": "קל לבני אסראיל",
-        "en": "Say to the sons of Israel",
-        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל"
+        "ja": "קל",
+        "en": "Say",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "אי רגל או אמראה. יצנע שייא מן כ'טאיא אלנאס",
-        "en": "any man or woman who does something from the sins common among people",
-        "he": "אִישׁ אוֹ-אִשָּׁה כִּי יַעֲשׂוּ מִכָּל-חַטֹּאת הָאָדָם"
+        "ja": "לבני",
+        "en": "to the sons of",
+        "he": "אֶל-בְּנֵי"
       },
       {
-        "ja": "לינכת' נכת'א באללה",
-        "en": "so as to break faith with God",
-        "he": "לִמְעֹל מַעַל בַּיהוָה"
+        "ja": "אסראיל",
+        "en": "Israel:",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אי רגל",
+        "en": "any man",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "או אמראה",
+        "en": "or woman",
+        "he": "אוֹ-אִשָּׁה"
+      },
+      {
+        "ja": "יצנע",
+        "en": "who does",
+        "he": "כִּי יַעֲשׂוּ"
+      },
+      {
+        "ja": "שייא מן כ'טאיא",
+        "en": "something from the sins",
+        "he": "מִכָּל-חַטֹּאת"
+      },
+      {
+        "ja": "אלנאס",
+        "en": "common among people,",
+        "he": "הָאָדָם"
+      },
+      {
+        "ja": "לינכת'",
+        "en": "so as to break faith",
+        "he": "לִמְעֹל"
+      },
+      {
+        "ja": "נכת'א",
+        "en": "with",
+        "he": "מַעַל"
+      },
+      {
+        "ja": "באללה",
+        "en": "God —",
+        "he": "בַּיהוָה"
       },
       {
         "ja": "פאת'ם",
-        "en": "and has sinned",
+        "en": "and has sinned,",
         "he": "וְאָשְׁמָה הַנֶּפֶשׁ הַהִוא"
       }
     ],
     "7": [
       {
-        "ja": "ת'ם יקר בכ'טייתה אלד'י צנעהא",
-        "en": "then he shall confess his wrongdoing which he committed",
-        "he": "וְהִתְוַדּוּ אֶת-חַטָּאתָם אֲשֶׁר עָשׂוּ"
+        "ja": "ת'ם יקר",
+        "en": "then he shall confess",
+        "he": "וְהִתְוַדּוּ"
       },
       {
-        "ja": "פלירד אלצ'לאמה בראסהא",
-        "en": "and he shall return the wrongful taking in full",
-        "he": "וְהֵשִׁיב אֶת-אֲשָׁמוֹ בְּרֹאשׁוֹ"
+        "ja": "בכ'טייתה",
+        "en": "his wrongdoing",
+        "he": "אֶת-חַטָּאתָם"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "which",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "צנעהא",
+        "en": "he committed;",
+        "he": "עָשׂוּ"
+      },
+      {
+        "ja": "פלירד",
+        "en": "and he shall return",
+        "he": "וְהֵשִׁיב"
+      },
+      {
+        "ja": "אלצ'לאמה",
+        "en": "the wrongful taking",
+        "he": "אֶת-אֲשָׁמוֹ"
+      },
+      {
+        "ja": "בראסהא",
+        "en": "in full,",
+        "he": "בְּרֹאשׁוֹ"
       },
       {
         "ja": "ויזיד עלי'הא כמסהא",
-        "en": "and add a fifth part to it",
+        "en": "and add a fifth part to it,",
         "he": "וַחֲמִישִׁתוֹ יֹסֵף עָלָיו"
       },
       {
-        "ja": "וידפעהא אלי' מן צ'למה",
-        "en": "and pay it to the one he wronged.",
-        "he": "וְנָתַן לַאֲשֶׁר אָשַׁם לוֹ"
+        "ja": "וידפעהא",
+        "en": "and pay it",
+        "he": "וְנָתַן"
+      },
+      {
+        "ja": "אלי' מן",
+        "en": "to the one",
+        "he": "לַאֲשֶׁר"
+      },
+      {
+        "ja": "צ'למה",
+        "en": "he wronged.",
+        "he": "אָשַׁם"
       }
     ],
     "8": [
       {
-        "ja": "ואן לם יכון לאלמצ'לום ולי. לתרד אלצ'לאמה",
-        "en": "And if the wronged one has no next of kin to whom the wrongful taking may be returned",
-        "he": "וְאִם-אֵין לָאִישׁ גֹּאֵל לְהָשִׁיב הָאָשָׁם אֵלָיו"
+        "ja": "ואן לם יכון",
+        "en": "And if",
+        "he": "וְאִם-אֵין"
       },
       {
-        "ja": "אלמרדודה ללה והי לאלאמאם",
-        "en": "then the wrongful taking that is returned shall be for God — it belongs to the imām",
-        "he": "הָאָשָׁם הַמּוּשָׁב לַיהוָה לַכֹּהֵן"
+        "ja": "לאלמצ'לום",
+        "en": "the wronged one has",
+        "he": "לָאִישׁ"
       },
       {
-        "ja": "סוא כבש אלג'פראן. אלד'י יסתג'פר בה ענה",
-        "en": "apart from the ram of atonement by which he seeks forgiveness on his behalf.",
-        "he": "מִלְּבַד אֵיל הַכִּפֻּרִים אֲשֶׁר יְכַפֶּר-בּוֹ עָלָיו"
+        "ja": "ולי",
+        "en": "no next of kin",
+        "he": "גֹּאֵל"
+      },
+      {
+        "ja": "לתרד",
+        "en": "to whom the wrongful taking may be returned,",
+        "he": "לְהָשִׁיב"
+      },
+      {
+        "ja": "אלצ'לאמה",
+        "en": "then the wrongful taking",
+        "he": "הָאָשָׁם"
+      },
+      {
+        "ja": "אלמרדודה",
+        "en": "that is returned",
+        "he": "הַמּוּשָׁב"
+      },
+      {
+        "ja": "ללה",
+        "en": "shall be for God —",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "והי לאלאמאם",
+        "en": "it belongs to the imām —",
+        "he": "לַכֹּהֵן"
+      },
+      {
+        "ja": "סוא",
+        "en": "apart from",
+        "he": "מִלְּבַד"
+      },
+      {
+        "ja": "כבש",
+        "en": "the ram of",
+        "he": "אֵיל"
+      },
+      {
+        "ja": "אלג'פראן",
+        "en": "atonement",
+        "he": "הַכִּפֻּרִים"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "by which",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "יסתג'פר בה",
+        "en": "he seeks forgiveness",
+        "he": "יְכַפֶּר-בּוֹ"
+      },
+      {
+        "ja": "ענה",
+        "en": "on his behalf.",
+        "he": "עָלָיו"
       }
     ],
     "9": [
       {
-        "ja": "וכל רפיעה. מן גמיע אקדאס בני אסראיל",
-        "en": "And every contribution from all the sacred gifts of the sons of Israel",
-        "he": "וְכָל-תְּרוּמָה לְכָל-קָדְשֵׁי בְנֵי-יִשְׂרָאֵל"
+        "ja": "וכל רפיעה",
+        "en": "And every contribution",
+        "he": "וְכָל-תְּרוּמָה"
       },
       {
-        "ja": "פלאי אמאם דפעוהא כאנת לה",
-        "en": "to whichever imām they hand it, it shall be his.",
-        "he": "אֲשֶׁר-יַקְרִיבוּ לַכֹּהֵן--לוֹ יִהְיֶה"
+        "ja": "מן גמיע אקדאס",
+        "en": "from all the sacred gifts of",
+        "he": "לְכָל-קָדְשֵׁי"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel —",
+        "he": "בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פלאי אמאם",
+        "en": "to whichever imām",
+        "he": "לַכֹּהֵן"
+      },
+      {
+        "ja": "דפעוהא",
+        "en": "they hand it,",
+        "he": "אֲשֶׁר-יַקְרִיבוּ"
+      },
+      {
+        "ja": "כאנת לה",
+        "en": "it shall be his.",
+        "he": "לוֹ יִהְיֶה"
       }
     ],
     "10": [
       {
-        "ja": "וכל אמר יכון לה אמר אקדאסה",
-        "en": "And every man who has disposition over his sacred things",
-        "he": "וְאִישׁ אֶת-קֳדָשָׁיו לוֹ יִהְיוּ"
+        "ja": "וכל אמר",
+        "en": "And every man",
+        "he": "וְאִישׁ"
       },
       {
-        "ja": "לאי אמאם דפעהא כאנת לה",
-        "en": "to whichever imām he gives it, it shall be his.",
-        "he": "אִישׁ אֲשֶׁר-יִתֵּן לַכֹּהֵן לוֹ יִהְיֶה"
+        "ja": "יכון לה",
+        "en": "who has disposition over"
+      },
+      {
+        "ja": "אמר אקדאסה",
+        "en": "his sacred things:",
+        "he": "אֶת-קֳדָשָׁיו"
+      },
+      {
+        "ja": "לאי אמאם",
+        "en": "to whichever imām",
+        "he": "לַכֹּהֵן"
+      },
+      {
+        "ja": "דפעהא",
+        "en": "he gives it,",
+        "he": "אֲשֶׁר-יִתֵּן"
+      },
+      {
+        "ja": "כאנת לה",
+        "en": "it shall be his.",
+        "he": "לוֹ יִהְיֶה"
       }
     ],
     "11": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "God spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "to Moses",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי' תכלימא",
+        "en": "directly.",
+        "he": "אֶל-מֹשֶׁה לֵּאמֹר"
       }
     ],
     "12": [
       {
-        "ja": "מר בני אסראיל. וקל להם",
-        "en": "Command the sons of Israel and say to them",
-        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "אי רגל חאדת זוגתה",
-        "en": "any man whose wife has gone astray",
-        "he": "אִישׁ אִישׁ כִּי-תִשְׂטֶה אִשְׁתּוֹ"
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "אֶל-בְּנֵי יִשְׂרָאֵל"
       },
       {
-        "ja": "פכ'אנתה כ'יאנה",
-        "en": "and betrayed him with a betrayal",
-        "he": "וּמָעֲלָה בוֹ מָעַל"
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "להם",
+        "en": "to them:",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "אי רגל",
+        "en": "any man",
+        "he": "אִישׁ אִישׁ"
+      },
+      {
+        "ja": "חאדת זוגתה",
+        "en": "whose wife has gone astray",
+        "he": "כִּי-תִשְׂטֶה אִשְׁתּוֹ"
+      },
+      {
+        "ja": "פכ'אנתה",
+        "en": "and betrayed him",
+        "he": "וּמָעֲלָה"
+      },
+      {
+        "ja": "כ'יאנה",
+        "en": "with a betrayal —",
+        "he": "מָעַל"
       }
     ],
     "13": [
       {
-        "ja": "באן צ'אגעהא רגל מצאגעה' אנסאל",
-        "en": "in that a man has lain with her in a lying of emission",
-        "he": "וְשָׁכַב אִישׁ אֹתָהּ שִׁכְבַת-זֶרַע"
+        "ja": "באן צ'אגעהא",
+        "en": "in that a man has lain with her",
+        "he": "וְשָׁכַב"
       },
       {
-        "ja": "וג'בי ד'אלך ען זוגהא",
-        "en": "and this has been hidden from her husband",
-        "he": "וְנֶעְלַם מֵעֵינֵי אִישָׁהּ"
+        "ja": "רגל",
+        "en": "in a lying of",
+        "he": "אִישׁ"
       },
       {
-        "ja": "ואנסתרת והי נגסה",
-        "en": "and she has concealed herself while being impure",
-        "he": "וְנִסְתְּרָה וְהִיא נִטְמָאָה"
+        "ja": "מצאגעה' אנסאל",
+        "en": "emission,",
+        "he": "שִׁכְבַת-זֶרַע"
+      },
+      {
+        "ja": "וג'בי ד'אלך",
+        "en": "and this has been hidden",
+        "he": "וְנֶעְלַם"
+      },
+      {
+        "ja": "ען זוגהא",
+        "en": "from her husband,",
+        "he": "מֵעֵינֵי אִישָׁהּ"
+      },
+      {
+        "ja": "ואנסתרת",
+        "en": "and she has concealed herself",
+        "he": "וְנִסְתְּרָה"
+      },
+      {
+        "ja": "והי",
+        "en": "while being",
+        "he": "וְהִיא"
+      },
+      {
+        "ja": "נגסה",
+        "en": "impure,",
+        "he": "נִטְמָאָה"
       },
       {
         "ja": "ושאהד ליס עלי'הא",
-        "en": "and there is no witness against her",
+        "en": "and there is no witness against her,",
         "he": "וְעֵד אֵין בָּהּ"
       },
       {
         "ja": "והי לם תקהר",
-        "en": "and she was not forced",
+        "en": "and she was not forced —",
         "he": "וְהִוא לֹא נִתְפָּשָׂה"
       }
     ],
     "14": [
       {
-        "ja": "וכ'טר בבאלה ראי ג'ירה. פג'אר עלי'הא והי נגסה",
-        "en": "and a thought of jealousy has entered his mind, and he is jealous over her while she is impure",
-        "he": "וְעָבַר עָלָיו רוּחַ-קִנְאָה וְקִנֵּא אֶת-אִשְׁתּוֹ וְהִוא נִטְמָאָה"
+        "ja": "וכ'טר בבאלה",
+        "en": "and a thought of jealousy has entered his mind,",
+        "he": "וְעָבַר עָלָיו"
+      },
+      {
+        "ja": "ראי ג'ירה",
+        "en": "and he is jealous",
+        "he": "רוּחַ-קִנְאָה"
+      },
+      {
+        "ja": "פג'אר עלי'הא",
+        "en": "over her",
+        "he": "וְקִנֵּא אֶת-אִשְׁתּוֹ"
+      },
+      {
+        "ja": "והי נגסה",
+        "en": "while she is impure,",
+        "he": "וְהִוא נִטְמָאָה"
       },
       {
         "ja": "או ג'יר נגסה",
-        "en": "or while she is not impure",
+        "en": "or while she is not impure —",
         "he": "אוֹ-עָבַר עָלָיו רוּחַ-קִנְאָה וְקִנֵּא אֶת-אִשְׁתּוֹ וְהִיא לֹא נִטְמָאָה"
       }
     ],
     "15": [
       {
-        "ja": "פליאת ד'אלך אלרג'ל בזוגתה אלי' אלאמאם",
-        "en": "then that man shall bring his wife to the imām",
-        "he": "וְהֵבִיא הָאִישׁ אֶת-אִשְׁתּוֹ אֶל-הַכֹּהֵן"
+        "ja": "פליאת",
+        "en": "then that man shall bring",
+        "he": "וְהֵבִיא"
       },
       {
-        "ja": "ויאתי בקרבאנהא מעהא. עשר ויבה מן דקיק אלשעיר",
-        "en": "and shall bring her offering with her: a tenth of a waybah of barley flour",
-        "he": "וְהֵבִיא אֶת-קָרְבָּנָהּ עָלֶיהָ עֲשִׂירִת הָאֵיפָה קֶמַח שְׂעֹרִים"
+        "ja": "ד'אלך אלרג'ל",
+        "en": "his wife",
+        "he": "הָאִישׁ"
       },
       {
-        "ja": "לא יצב עליה דהנא. ולא יגעל עליה לבאנא",
-        "en": "he shall not pour oil upon it, nor place frankincense upon it",
-        "he": "לֹא-יִצֹק עָלָיו שֶׁמֶן וְלֹא-יִתֵּן עָלָיו לְבֹנָה"
+        "ja": "בזוגתה",
+        "en": "to the imām,",
+        "he": "אֶת-אִשְׁתּוֹ"
       },
       {
-        "ja": "לאנה קרבאן אלג'ירה",
-        "en": "for it is the offering of jealousy",
-        "he": "כִּי-מִנְחַת קְנָאֹת הוּא"
+        "ja": "אלי' אלאמאם",
+        "en": "and shall bring her offering with her:",
+        "he": "אֶל-הַכֹּהֵן"
       },
       {
-        "ja": "קרבאן אלדכר יד'כר באלד'נוב",
-        "en": "the offering of remembrance, which calls sins to mind.",
-        "he": "מִנְחַת זִכָּרוֹן מַזְכֶּרֶת עָו‍ֹן"
+        "ja": "ויאתי בקרבאנהא",
+        "en": "a tenth of",
+        "he": "וְהֵבִיא אֶת-קָרְבָּנָהּ"
+      },
+      {
+        "ja": "מעהא",
+        "en": "a waybah of",
+        "he": "עָלֶיהָ"
+      },
+      {
+        "ja": "עשר",
+        "en": "barley flour;",
+        "he": "עֲשִׂירִת"
+      },
+      {
+        "ja": "ויבה",
+        "en": "he shall not pour",
+        "he": "הָאֵיפָה"
+      },
+      {
+        "ja": "מן דקיק",
+        "en": "oil upon it,",
+        "he": "קֶמַח"
+      },
+      {
+        "ja": "אלשעיר",
+        "en": "nor place frankincense upon it,",
+        "he": "שְׂעֹרִים"
+      },
+      {
+        "ja": "לא יצב עליה דהנא",
+        "en": "for it is the offering of jealousy,",
+        "he": "לֹא-יִצֹק עָלָיו שֶׁמֶן"
+      },
+      {
+        "ja": "ולא יגעל עליה לבאנא",
+        "en": "the offering of remembrance,",
+        "he": "וְלֹא-יִתֵּן עָלָיו לְבֹנָה"
+      },
+      {
+        "ja": "לאנה קרבאן אלג'ירה. קרבאן אלדכר יד'כר באלד'נוב",
+        "en": "which calls sins to mind.",
+        "he": "כִּי-מִנְחַת קְנָאֹת הוּא מִנְחַת זִכָּרוֹן מַזְכֶּרֶת עָו‍ֹן"
       }
     ],
     "16": [
@@ -265,48 +651,128 @@
         "he": "וְהִקְרִיב אֹתָהּ הַכֹּהֵן"
       },
       {
-        "ja": "ויוקפהא בין ידי אללה",
-        "en": "and station her before God.",
-        "he": "וְהֶעֱמִדָהּ לִפְנֵי יְהוָה"
+        "ja": "ויוקפהא",
+        "en": "and station her",
+        "he": "וְהֶעֱמִדָהּ"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God.",
+        "he": "יְהוָה"
       }
     ],
     "17": [
       {
-        "ja": "ויאכ'ד' אלאמאם. מן אלמא אלמקדס פי אניה' כ'זף",
-        "en": "And the imām shall take holy water in an earthen vessel",
-        "he": "וְלָקַח הַכֹּהֵן מַיִם קְדֹשִׁים בִּכְלִי-חָרֶשׂ"
+        "ja": "ויאכ'ד' אלאמאם",
+        "en": "And the imām shall take",
+        "he": "וְלָקַח הַכֹּהֵן"
       },
       {
-        "ja": "ומן אלתראב. אלד'י יכון פי ערצה' אלמסכן. יאכ'ד' אלאמאם",
-        "en": "and from the dust that is on the floor of the tabernacle the imām shall take",
-        "he": "וּמִן-הֶעָפָר אֲשֶׁר יִהְיֶה בְּקַרְקַע הַמִּשְׁכָּן יִקַּח הַכֹּהֵן"
+        "ja": "מן אלמא אלמקדס",
+        "en": "holy water",
+        "he": "מַיִם קְדֹשִׁים"
+      },
+      {
+        "ja": "פי אניה' כ'זף",
+        "en": "in an earthen vessel,",
+        "he": "בִּכְלִי-חָרֶשׂ"
+      },
+      {
+        "ja": "ומן אלתראב",
+        "en": "and from the dust",
+        "he": "וּמִן-הֶעָפָר"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "that is on",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "יכון",
+        "en": "the floor of",
+        "he": "יִהְיֶה"
+      },
+      {
+        "ja": "פי ערצה'",
+        "en": "the tabernacle",
+        "he": "בְּקַרְקַע"
+      },
+      {
+        "ja": "אלמסכן",
+        "en": "the imām shall take",
+        "he": "הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "יאכ'ד' אלאמאם",
+        "en": "and cast",
+        "he": "יִקַּח הַכֹּהֵן"
       },
       {
         "ja": "וילקי פי אלמא",
-        "en": "and cast into the water.",
+        "en": "into the water.",
         "he": "וְנָתַן אֶל-הַמָּיִם"
       }
     ],
     "18": [
       {
-        "ja": "ויוקפהא בין ידי אללה",
-        "en": "And he shall station her before God",
-        "he": "וְהֶעֱמִיד הַכֹּהֵן אֶת-הָאִשָּׁה לִפְנֵי יְהוָה"
+        "ja": "ויוקפהא",
+        "en": "And he shall station her",
+        "he": "וְהֶעֱמִיד הַכֹּהֵן אֶת-הָאִשָּׁה"
       },
       {
-        "ja": "ויכשף ראסהא",
-        "en": "and uncover her head",
-        "he": "וּפָרַע אֶת-רֹאשׁ הָאִשָּׁה"
+        "ja": "בין ידי אללה",
+        "en": "before God,",
+        "he": "לִפְנֵי יְהוָה"
       },
       {
-        "ja": "ויגעל עלי' ידהא. קרבאן אלד'כר קרבאן אלג'ירה",
-        "en": "and place upon her hands the offering of remembrance — the offering of jealousy",
-        "he": "וְנָתַן עַל-כַּפֶּיהָ אֵת מִנְחַת הַזִּכָּרוֹן מִנְחַת קְנָאֹת הִוא"
+        "ja": "ויכשף",
+        "en": "and uncover",
+        "he": "וּפָרַע"
       },
       {
-        "ja": "ולימסך פי ידה אלמא אלמר אללאען",
-        "en": "and in his hand the imām shall hold the bitter, cursing water.",
-        "he": "וּבְיַד הַכֹּהֵן יִהְיוּ מֵי הַמָּרִים הַמְאָרְרִים"
+        "ja": "ראסהא",
+        "en": "her head,",
+        "he": "אֶת-רֹאשׁ הָאִשָּׁה"
+      },
+      {
+        "ja": "ויגעל",
+        "en": "and place",
+        "he": "וְנָתַן"
+      },
+      {
+        "ja": "עלי' ידהא",
+        "en": "upon her hands",
+        "he": "עַל-כַּפֶּיהָ"
+      },
+      {
+        "ja": "קרבאן אלד'כר",
+        "en": "the offering of remembrance —",
+        "he": "אֵת מִנְחַת הַזִּכָּרוֹן"
+      },
+      {
+        "ja": "קרבאן אלג'ירה",
+        "en": "the offering of jealousy;",
+        "he": "מִנְחַת קְנָאֹת הִוא"
+      },
+      {
+        "ja": "ולימסך פי ידה",
+        "en": "and in his hand the imām shall hold",
+        "he": "וּבְיַד הַכֹּהֵן יִהְיוּ"
+      },
+      {
+        "ja": "אלמא אלמר",
+        "en": "the bitter,",
+        "he": "מֵי הַמָּרִים"
+      },
+      {
+        "ja": "אללאען",
+        "en": "cursing water.",
+        "he": "הַמְאָרְרִים"
       }
     ],
     "19": [
@@ -316,99 +782,247 @@
         "he": "וְהִשְׁבִּיעַ אֹתָהּ הַכֹּהֵן"
       },
       {
-        "ja": "ויקול להא",
-        "en": "and say to her",
-        "he": "וְאָמַר אֶל-הָאִשָּׁה"
+        "ja": "ויקול",
+        "en": "and say",
+        "he": "וְאָמַר"
       },
       {
-        "ja": "אן כאן לם י'צ'אגעך רג'ל",
-        "en": "'If no man has lain with you",
-        "he": "אִם-לֹא שָׁכַב אִישׁ אֹתָךְ"
+        "ja": "להא",
+        "en": "to her:",
+        "he": "אֶל-הָאִשָּׁה"
       },
       {
-        "ja": "ולם תחידי אלי' נגאסה ג'יר זוגך",
-        "en": "and you have not gone astray into impurity other than with your husband",
-        "he": "וְאִם-לֹא שָׂטִית טֻמְאָה תַּחַת אִישֵׁךְ"
+        "ja": "אן כאן לם",
+        "en": "'If no",
+        "he": "אִם-לֹא"
       },
       {
-        "ja": "פאברי מן הד'א אלמא אלמר אללאען",
-        "en": "then be cleared of this bitter, cursing water.",
-        "he": "הִנָּקִי מִמֵּי הַמָּרִים הַמְאָרְרִים הָאֵלֶּה"
+        "ja": "י'צ'אגעך",
+        "en": "man has lain with you,",
+        "he": "שָׁכַב"
+      },
+      {
+        "ja": "רג'ל",
+        "en": "and",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "ולם",
+        "en": "you have not",
+        "he": "וְאִם-לֹא"
+      },
+      {
+        "ja": "תחידי",
+        "en": "gone astray",
+        "he": "שָׂטִית"
+      },
+      {
+        "ja": "אלי' נגאסה",
+        "en": "into impurity",
+        "he": "טֻמְאָה"
+      },
+      {
+        "ja": "ג'יר זוגך",
+        "en": "other than with your husband —",
+        "he": "תַּחַת אִישֵׁךְ"
+      },
+      {
+        "ja": "פאברי",
+        "en": "then be cleared of",
+        "he": "הִנָּקִי"
+      },
+      {
+        "ja": "מן הד'א אלמא אלמר אללאען",
+        "en": "this bitter, cursing water.'",
+        "he": "מִמֵּי הַמָּרִים הַמְאָרְרִים הָאֵלֶּה"
       }
     ],
     "20": [
       {
-        "ja": "ואן כנת חדת. אלי' ג'יר זוגך",
-        "en": "But if you have gone astray to one other than your husband",
-        "he": "וְאַתְּ כִּי שָׂטִית תַּחַת אִישֵׁךְ"
+        "ja": "ואן כנת",
+        "en": "But if you have",
+        "he": "וְאַתְּ"
       },
       {
-        "ja": "ותנגסת בה",
-        "en": "and defiled yourself with him",
+        "ja": "חדת",
+        "en": "gone astray",
+        "he": "כִּי שָׂטִית"
+      },
+      {
+        "ja": "אלי' ג'יר זוגך",
+        "en": "to one other than your husband,",
+        "he": "תַּחַת אִישֵׁךְ"
+      },
+      {
+        "ja": "ותנגסת",
+        "en": "and defiled yourself",
         "he": "וְכִי נִטְמֵאת"
       },
       {
-        "ja": "וגעל ג'ירה מצ'אגעתה פיך",
-        "en": "and another has placed his lying with you",
-        "he": "וַיִּתֵּן אִישׁ בָּךְ אֶת-שְׁכָבְתּוֹ מִבַּלְעֲדֵי אִישֵׁךְ"
+        "ja": "בה",
+        "en": "with him,"
+      },
+      {
+        "ja": "וגעל",
+        "en": "and another has placed",
+        "he": "וַיִּתֵּן"
+      },
+      {
+        "ja": "ג'ירה",
+        "en": "his lying",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "מצ'אגעתה פיך",
+        "en": "with you —",
+        "he": "אֶת-שְׁכָבְתּוֹ מִבַּלְעֲדֵי אִישֵׁךְ"
       }
     ],
     "21": [
       {
-        "ja": "ויחלפהא עלי' ד'אלך ימין אלחרג",
-        "en": "the imām shall adjure her regarding this with a grievous oath",
-        "he": "וְהִשְׁבִּיעַ הַכֹּהֵן אֶת-הָאִשָּׁה בִּשְׁבֻעַת הָאָלָה"
+        "ja": "ויחלפהא",
+        "en": "the imām shall adjure her",
+        "he": "וְהִשְׁבִּיעַ הַכֹּהֵן אֶת-הָאִשָּׁה"
       },
       {
-        "ja": "ויקול אלאמאם להא",
-        "en": "and the imām shall say to her",
-        "he": "וְאָמַר הַכֹּהֵן לָאִשָּׁה"
+        "ja": "עלי' ד'אלך ימין",
+        "en": "regarding this with a",
+        "he": "בִּשְׁבֻעַת"
       },
       {
-        "ja": "יגעלך אללה. מסבה וימינא פי מא בין קומך",
-        "en": "'May God make you a curse and an oath among your people",
-        "he": "יִתֵּן יְהוָה אוֹתָךְ לְאָלָה וְלִשְׁבֻעָה בְּתוֹךְ עַמֵּךְ"
+        "ja": "אלחרג",
+        "en": "grievous oath,",
+        "he": "הָאָלָה"
+      },
+      {
+        "ja": "ויקול אלאמאם",
+        "en": "and the imām shall say",
+        "he": "וְאָמַר הַכֹּהֵן"
+      },
+      {
+        "ja": "להא",
+        "en": "to her:",
+        "he": "לָאִשָּׁה"
+      },
+      {
+        "ja": "יגעלך",
+        "en": "'May God make you",
+        "he": "יִתֵּן"
+      },
+      {
+        "ja": "אללה",
+        "en": "a curse",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מסבה",
+        "en": "and an oath",
+        "he": "אוֹתָךְ לְאָלָה"
+      },
+      {
+        "ja": "וימינא",
+        "en": "among your people,",
+        "he": "וְלִשְׁבֻעָה"
+      },
+      {
+        "ja": "פי מא בין קומך",
+        "en": "by God's making",
+        "he": "בְּתוֹךְ עַמֵּךְ"
       },
       {
         "ja": "במא יגעל אללה ורכך סאקטא. ובטנך וארמא",
-        "en": "by God's making your thigh fall and your belly swell.",
+        "en": "your thigh fall and your belly swell.'",
         "he": "בְּתֵת יְהוָה אֶת-יְרֵכֵךְ נֹפֶלֶת וְאֶת-בִּטְנֵךְ צָבָה"
       }
     ],
     "22": [
       {
-        "ja": "וד'אלך. אד'א צאר הד'א אלמא אללאען אלי' אמעאך",
-        "en": "And this — when this cursing water enters your bowels",
-        "he": "וּבָאוּ הַמַּיִם הַמְאָרְרִים הָאֵלֶּה בְּמֵעַיִךְ"
+        "ja": "וד'אלך",
+        "en": "And this —"
       },
       {
-        "ja": "פירם אלבטן ויסקט אלורך",
-        "en": "the belly shall swell and the thigh shall fall",
-        "he": "לַצְבּוֹת בֶּטֶן וְלַנְפִּל יָרֵךְ"
+        "ja": "אד'א צאר",
+        "en": "when this cursing water enters",
+        "he": "וּבָאוּ"
       },
       {
-        "ja": "ותקול אלאמראה אמין אמין",
-        "en": "And the woman shall say: Amen, amen.",
-        "he": "וְאָמְרָה הָאִשָּׁה אָמֵן אָמֵן"
+        "ja": "הד'א אלמא אללאען",
+        "en": "your bowels,",
+        "he": "הַמַּיִם הַמְאָרְרִים הָאֵלֶּה"
+      },
+      {
+        "ja": "אלי' אמעאך",
+        "en": "the belly",
+        "he": "בְּמֵעַיִךְ"
+      },
+      {
+        "ja": "פירם אלבטן",
+        "en": "shall swell",
+        "he": "לַצְבּוֹת בֶּטֶן"
+      },
+      {
+        "ja": "ויסקט אלורך",
+        "en": "and the thigh shall fall.",
+        "he": "וְלַנְפִּל יָרֵךְ"
+      },
+      {
+        "ja": "ותקול אלאמראה",
+        "en": "And the woman shall say:",
+        "he": "וְאָמְרָה הָאִשָּׁה"
+      },
+      {
+        "ja": "אמין",
+        "en": "Amen,",
+        "he": "אָמֵן"
+      },
+      {
+        "ja": "אמין",
+        "en": "amen.",
+        "he": "אָמֵן"
       }
     ],
     "23": [
       {
-        "ja": "ויכתב אלאמאם. הד'ה אללענאת פי כתאב",
-        "en": "And the imām shall write these curses in a book",
-        "he": "וְכָתַב אֶת-הָאָלֹת הָאֵלֶּה הַכֹּהֵן--בַּסֵּפֶר"
+        "ja": "ויכתב",
+        "en": "And the imām shall write",
+        "he": "וְכָתַב"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "these curses",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "הד'ה אללענאת",
+        "en": "in a book,",
+        "he": "אֶת-הָאָלֹת הָאֵלֶּה"
+      },
+      {
+        "ja": "פי כתאב",
+        "en": "and dissolve it",
+        "he": "בַּסֵּפֶר"
       },
       {
         "ja": "וימחיה פי אלמא אלמר",
-        "en": "and dissolve it in the bitter water.",
+        "en": "in the bitter water.",
         "he": "וּמָחָה אֶל-מֵי הַמָּרִים"
       }
     ],
     "24": [
       {
-        "ja": "ויסקיהא אלמא אלמר אללאען",
-        "en": "And he shall give her to drink the bitter, cursing water",
-        "he": "וְהִשְׁקָה אֶת-הָאִשָּׁה אֶת-מֵי הַמָּרִים הַמְאָרְרִים"
+        "ja": "ויסקיהא",
+        "en": "And he shall give her to drink",
+        "he": "וְהִשְׁקָה אֶת-הָאִשָּׁה"
+      },
+      {
+        "ja": "אלמא אלמר",
+        "en": "the bitter,",
+        "he": "אֶת-מֵי הַמָּרִים"
+      },
+      {
+        "ja": "אללאען",
+        "en": "cursing water,",
+        "he": "הַמְאָרְרִים"
       },
       {
         "ja": "ויסתחיל פיהא מרא",
@@ -418,111 +1032,286 @@
     ],
     "25": [
       {
-        "ja": "ויאכ'ד' אלאמאם מן ידהא. קרבאן אלג'ירה",
-        "en": "And the imām shall take the offering of jealousy from her hands",
-        "he": "וְלָקַח הַכֹּהֵן מִיַּד הָאִשָּׁה אֵת מִנְחַת הַקְּנָאֹת"
+        "ja": "ויאכ'ד' אלאמאם",
+        "en": "And the imām shall take",
+        "he": "וְלָקַח הַכֹּהֵן"
       },
       {
-        "ja": "ויחרכה בין ידי אללה",
-        "en": "and wave it before God",
-        "he": "וְהֵנִיף אֶת-הַמִּנְחָה לִפְנֵי יְהוָה"
+        "ja": "מן ידהא",
+        "en": "from her hands",
+        "he": "מִיַּד הָאִשָּׁה"
       },
       {
-        "ja": "ויקדמה אלי' אלמד'בח",
-        "en": "and bring it forward to the altar.",
-        "he": "וְהִקְרִיב אֹתָהּ אֶל-הַמִּזְבֵּחַ"
+        "ja": "קרבאן אלג'ירה",
+        "en": "the offering of jealousy",
+        "he": "אֵת מִנְחַת הַקְּנָאֹת"
+      },
+      {
+        "ja": "ויחרכה",
+        "en": "and wave it",
+        "he": "וְהֵנִיף אֶת-הַמִּנְחָה"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God,",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "ויקדמה",
+        "en": "and bring it forward",
+        "he": "וְהִקְרִיב אֹתָהּ"
+      },
+      {
+        "ja": "אלי' אלמד'בח",
+        "en": "to the altar.",
+        "he": "אֶל-הַמִּזְבֵּחַ"
       }
     ],
     "26": [
       {
-        "ja": "ויקבץ' מנהא אלאמאם פיחהא",
-        "en": "And the imām shall take from it his handful as its memorial portion",
-        "he": "וְקָמַץ הַכֹּהֵן מִן-הַמִּנְחָה אֶת-אַזְכָּרָתָהּ"
+        "ja": "ויקבץ' מנהא אלאמאם",
+        "en": "And the imām shall take from it",
+        "he": "וְקָמַץ הַכֹּהֵן מִן-הַמִּנְחָה"
       },
       {
-        "ja": "ויקתרה עלי' אלמד'בח",
-        "en": "and burn it upon the altar",
-        "he": "וְהִקְטִיר הַמִּזְבֵּחָה"
+        "ja": "פיחהא",
+        "en": "his handful as its memorial portion,",
+        "he": "אֶת-אַזְכָּרָתָהּ"
       },
       {
-        "ja": "ובעד ד'אלך יסקיהא אלמא",
-        "en": "and after that he shall give her the water to drink.",
-        "he": "וְאַחַר יַשְׁקֶה אֶת-הָאִשָּׁה אֶת-הַמָּיִם"
+        "ja": "ויקתרה",
+        "en": "and burn it",
+        "he": "וְהִקְטִיר"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar;",
+        "he": "הַמִּזְבֵּחָה"
+      },
+      {
+        "ja": "ובעד ד'אלך",
+        "en": "and after that",
+        "he": "וְאַחַר"
+      },
+      {
+        "ja": "יסקיהא אלמא",
+        "en": "he shall give her the water to drink.",
+        "he": "יַשְׁקֶה אֶת-הָאִשָּׁה אֶת-הַמָּיִם"
       }
     ],
     "27": [
       {
         "ja": "פאד'י סקאהא אלמא",
-        "en": "And when he has given her the water to drink",
+        "en": "And when he has given her the water to drink —",
         "he": "וְהִשְׁקָהּ אֶת-הַמַּיִם"
       },
       {
-        "ja": "פאן כאנת קד תנגסת וכ'אנת זוגהא כ'יאנה",
-        "en": "if she had defiled herself and betrayed her husband with a betrayal",
-        "he": "וְהָיְתָה אִם-נִטְמְאָה וַתִּמְעֹל מַעַל בְּאִישָׁהּ"
+        "ja": "פאן כאנת",
+        "en": "if she had",
+        "he": "וְהָיְתָה"
       },
       {
-        "ja": "אסתחל פיהא מרא. פירם בטנהא. ויסקט ורכהא",
-        "en": "then bitterness shall take effect within her: her belly shall swell and her thigh shall fall",
-        "he": "וּבָאוּ בָהּ הַמַּיִם הַמְאָרְרִים לְמָרִים וְצָבְתָה בִטְנָהּ וְנָפְלָה יְרֵכָהּ"
+        "ja": "קד תנגסת",
+        "en": "defiled herself",
+        "he": "אִם-נִטְמְאָה"
       },
       {
-        "ja": "וצארת מסבה פי מא בין קומהא",
-        "en": "and she shall become a curse among her people.",
-        "he": "וְהָיְתָה הָאִשָּׁה לְאָלָה בְּקֶרֶב עַמָּהּ"
+        "ja": "וכ'אנת",
+        "en": "and betrayed",
+        "he": "וַתִּמְעֹל"
+      },
+      {
+        "ja": "זוגהא",
+        "en": "her husband",
+        "he": "מַעַל"
+      },
+      {
+        "ja": "כ'יאנה",
+        "en": "with a betrayal,",
+        "he": "בְּאִישָׁהּ"
+      },
+      {
+        "ja": "אסתחל פיהא מרא",
+        "en": "then bitterness shall take effect within her:",
+        "he": "וּבָאוּ בָהּ הַמַּיִם הַמְאָרְרִים לְמָרִים"
+      },
+      {
+        "ja": "פירם",
+        "en": "her belly shall swell",
+        "he": "וְצָבְתָה"
+      },
+      {
+        "ja": "בטנהא",
+        "en": "and her thigh shall fall,",
+        "he": "בִטְנָהּ"
+      },
+      {
+        "ja": "ויסקט ורכהא",
+        "en": "and she shall become",
+        "he": "וְנָפְלָה יְרֵכָהּ"
+      },
+      {
+        "ja": "וצארת מסבה",
+        "en": "a curse",
+        "he": "וְהָיְתָה הָאִשָּׁה לְאָלָה"
+      },
+      {
+        "ja": "פי מא בין קומהא",
+        "en": "among her people.",
+        "he": "בְּקֶרֶב עַמָּהּ"
       }
     ],
     "28": [
       {
-        "ja": "ואן כאנת לם תנתגס. בל הי טאהרה",
-        "en": "But if she had not defiled herself, but is pure",
-        "he": "וְאִם-לֹא נִטְמְאָה הָאִשָּׁה וּטְהֹרָה הִוא"
+        "ja": "ואן כאנת לם תנתגס",
+        "en": "But if she had not defiled herself,",
+        "he": "וְאִם-לֹא נִטְמְאָה"
       },
       {
-        "ja": "פברית וחמלת חמלא",
-        "en": "then she shall be cleared, and shall conceive a child.",
-        "he": "וְנִקְּתָה וְנִזְרְעָה זָרַע"
+        "ja": "בל הי",
+        "en": "but is",
+        "he": "הָאִשָּׁה"
+      },
+      {
+        "ja": "טאהרה",
+        "en": "pure,",
+        "he": "וּטְהֹרָה הִוא"
+      },
+      {
+        "ja": "פברית",
+        "en": "then she shall be cleared,",
+        "he": "וְנִקְּתָה"
+      },
+      {
+        "ja": "וחמלת",
+        "en": "and shall conceive",
+        "he": "וְנִזְרְעָה"
+      },
+      {
+        "ja": "חמלא",
+        "en": "a child.",
+        "he": "זָרַע"
       }
     ],
     "29": [
       {
-        "ja": "הד'ה שריעה' אלג'ירה",
-        "en": "This is the law of jealousy",
-        "he": "זֹאת תּוֹרַת הַקְּנָאֹת"
+        "ja": "הד'ה",
+        "en": "This is",
+        "he": "זֹאת"
       },
       {
-        "ja": "פי אן תחיד אמראה. ען זוגהא פתנתגס",
-        "en": "when a woman goes astray from her husband and defiles herself.",
-        "he": "אֲשֶׁר תִּשְׂטֶה אִשָּׁה תַּחַת אִישָׁהּ וְנִטְמָאָה"
+        "ja": "שריעה'",
+        "en": "the law of",
+        "he": "תּוֹרַת"
+      },
+      {
+        "ja": "אלג'ירה",
+        "en": "jealousy —",
+        "he": "הַקְּנָאֹת"
+      },
+      {
+        "ja": "פי אן תחיד",
+        "en": "when a woman goes astray",
+        "he": "אֲשֶׁר תִּשְׂטֶה"
+      },
+      {
+        "ja": "אמראה",
+        "en": "from her husband",
+        "he": "אִשָּׁה"
+      },
+      {
+        "ja": "ען זוגהא פתנתגס",
+        "en": "and defiles herself.",
+        "he": "תַּחַת אִישָׁהּ וְנִטְמָאָה"
       }
     ],
     "30": [
       {
-        "ja": "או רג'ל יכ'טר בבאלה. ראי ג'ירה פיג'אר עלי' זוגתה",
-        "en": "Or a man in whose mind a thought of jealousy arises and he is jealous over his wife",
-        "he": "אוֹ אִישׁ אֲשֶׁר תַּעֲבֹר עָלָיו רוּחַ קִנְאָה--וְקִנֵּא אֶת-אִשְׁתּוֹ"
+        "ja": "או",
+        "en": "Or",
+        "he": "אוֹ"
       },
       {
-        "ja": "פליוקפהא בין ידי אללה",
-        "en": "he shall station her before God",
-        "he": "וְהֶעֱמִיד אֶת-הָאִשָּׁה לִפְנֵי יְהוָה"
+        "ja": "רג'ל",
+        "en": "a man",
+        "he": "אִישׁ"
       },
       {
-        "ja": "ויצנע בהא אלאמאם. גמיע מא פי הד'א אלשריעה",
-        "en": "and the imām shall do to her all that is in this law.",
-        "he": "וְעָשָׂה לָהּ הַכֹּהֵן אֵת כָּל-הַתּוֹרָה הַזֹּאת"
+        "ja": "יכ'טר בבאלה",
+        "en": "in whose mind",
+        "he": "אֲשֶׁר תַּעֲבֹר עָלָיו"
+      },
+      {
+        "ja": "ראי ג'ירה",
+        "en": "a thought of jealousy arises",
+        "he": "רוּחַ קִנְאָה"
+      },
+      {
+        "ja": "פיג'אר עלי'",
+        "en": "and he is jealous over",
+        "he": "וְקִנֵּא"
+      },
+      {
+        "ja": "זוגתה",
+        "en": "his wife —",
+        "he": "אֶת-אִשְׁתּוֹ"
+      },
+      {
+        "ja": "פליוקפהא",
+        "en": "he shall station her",
+        "he": "וְהֶעֱמִיד אֶת-הָאִשָּׁה"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God,",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "ויצנע בהא",
+        "en": "and the imām shall do to her",
+        "he": "וְעָשָׂה לָהּ"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "all that is in",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "גמיע מא פי הד'א אלשריעה",
+        "en": "this law.",
+        "he": "אֵת כָּל-הַתּוֹרָה הַזֹּאת"
       }
     ],
     "31": [
       {
-        "ja": "חתי יברו אלרגל מן אלוזר",
-        "en": "So that the man may be cleared of guilt",
-        "he": "וְנִקָּה הָאִישׁ מֵעָו‍ֹן"
+        "ja": "חתי יברו",
+        "en": "So that",
+        "he": "וְנִקָּה"
       },
       {
-        "ja": "ותלך אלאמראה תחמל וזרהא",
-        "en": "and that woman shall bear her guilt.",
-        "he": "וְהָאִשָּׁה הַהִוא תִּשָּׂא אֶת-עֲו‍ֹנָהּ"
+        "ja": "אלרגל",
+        "en": "the man may be cleared",
+        "he": "הָאִישׁ"
+      },
+      {
+        "ja": "מן אלוזר",
+        "en": "of guilt,",
+        "he": "מֵעָו‍ֹן"
+      },
+      {
+        "ja": "ותלך אלאמראה",
+        "en": "and that woman",
+        "he": "וְהָאִשָּׁה הַהִוא"
+      },
+      {
+        "ja": "תחמל",
+        "en": "shall bear",
+        "he": "תִּשָּׂא"
+      },
+      {
+        "ja": "וזרהא",
+        "en": "her guilt.",
+        "he": "אֶת-עֲו‍ֹנָהּ"
       }
     ]
   }
