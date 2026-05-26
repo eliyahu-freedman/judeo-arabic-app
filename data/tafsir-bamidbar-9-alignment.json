@@ -1,315 +1,880 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 9. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_9.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 9. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_9.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "וקבל ד'אלך כלם אללה מוסי' פי ברייה' סיני",
-        "en": "And before that, God spoke to Moses in the wilderness of Sinai",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה בְמִדְבַּר-סִינַי"
+        "ja": "וקבל ד'אלך",
+        "en": "And before that,"
       },
       {
-        "ja": "פי אלסנה אלתאניה. לכ'רוגהם מן בלד מצר",
-        "en": "in the second year of their departure from the land of Egypt",
-        "he": "בַּשָּׁנָה הַשֵּׁנִית לְצֵאתָם מֵאֶרֶץ מִצְרַיִם"
+        "ja": "כלם",
+        "en": "God spoke",
+        "he": "וַיְדַבֵּר"
       },
       {
-        "ja": "פי אלשהר אלאוול קאילא",
-        "en": "in the first month, saying:",
-        "he": "בַּחֹדֶשׁ הָרִאשׁוֹן--לֵאמֹר"
+        "ja": "אללה",
+        "en": "to Moses",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "in the wilderness of",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "פי ברייה' סיני",
+        "en": "Sinai,",
+        "he": "בְמִדְבַּר-סִינַי"
+      },
+      {
+        "ja": "פי אלסנה אלתאניה",
+        "en": "in the second year",
+        "he": "בַּשָּׁנָה הַשֵּׁנִית"
+      },
+      {
+        "ja": "לכ'רוגהם",
+        "en": "of their departure",
+        "he": "לְצֵאתָם"
+      },
+      {
+        "ja": "מן בלד מצר",
+        "en": "from the land of Egypt,",
+        "he": "מֵאֶרֶץ מִצְרַיִם"
+      },
+      {
+        "ja": "פי אלשהר אלאוול",
+        "en": "in the first month,",
+        "he": "בַּחֹדֶשׁ הָרִאשׁוֹן"
+      },
+      {
+        "ja": "קאילא",
+        "en": "saying:",
+        "he": "לֵאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "ויצנעו בני אסראיל. אלפסח פי וקתה",
-        "en": "\"Let the sons of Israel perform the Passover at its appointed time.\"",
-        "he": "וְיַעֲשׂוּ בְנֵי-יִשְׂרָאֵל אֶת-הַפָּסַח בְּמוֹעֲדוֹ"
+        "ja": "ויצנעו",
+        "en": "perform",
+        "he": "וְיַעֲשׂוּ"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אלפסח",
+        "en": "the Passover",
+        "he": "אֶת-הַפָּסַח"
+      },
+      {
+        "ja": "פי וקתה",
+        "en": "at its appointed time.",
+        "he": "בְּמוֹעֲדוֹ"
       }
     ],
     "3": [
       {
-        "ja": "פי אליום אלראבע עשר. מן הד'א אלשהר",
-        "en": "\"On the fourteenth day of this month",
-        "he": "בְּאַרְבָּעָה עָשָׂר-יוֹם בַּחֹדֶשׁ הַזֶּה"
+        "ja": "פי אליום אלראבע עשר",
+        "en": "On the fourteenth day",
+        "he": "בְּאַרְבָּעָה עָשָׂר-יוֹם"
       },
       {
-        "ja": "בין אלג'רובין. תצנעוה פי וקתה",
-        "en": "between the two sunsets, you shall perform it at its appointed time",
-        "he": "בֵּין הָעַרְבַּיִם תַּעֲשׂוּ אֹתוֹ--בְּמֹעֲדוֹ"
+        "ja": "מן הד'א אלשהר",
+        "en": "of this month,",
+        "he": "בַּחֹדֶשׁ הַזֶּה"
       },
       {
-        "ja": "כגמיע רסומה ואחכאמה תצנעוה",
-        "en": "according to all its statutes and ordinances you shall perform it.\"",
-        "he": "כְּכָל-חֻקֹּתָיו וּכְכָל-מִשְׁפָּטָיו תַּעֲשׂוּ אֹתוֹ"
+        "ja": "בין אלג'רובין",
+        "en": "between the two sunsets,",
+        "he": "בֵּין הָעַרְבַּיִם"
+      },
+      {
+        "ja": "תצנעוה",
+        "en": "you shall perform it",
+        "he": "תַּעֲשׂוּ אֹתוֹ"
+      },
+      {
+        "ja": "פי וקתה",
+        "en": "at its appointed time;",
+        "he": "בְּמֹעֲדוֹ"
+      },
+      {
+        "ja": "כגמיע רסומה",
+        "en": "according to all its statutes",
+        "he": "כְּכָל-חֻקֹּתָיו"
+      },
+      {
+        "ja": "ואחכאמה",
+        "en": "and ordinances",
+        "he": "וּכְכָל-מִשְׁפָּטָיו"
+      },
+      {
+        "ja": "תצנעוה",
+        "en": "you shall perform it."
       }
     ],
     "4": [
       {
-        "ja": "פכלם מוסי' בני אסראיל פי עמל אלפסח",
-        "en": "And Moses spoke to the sons of Israel concerning the performance of the Passover.",
-        "he": "וַיְדַבֵּר מֹשֶׁה אֶל-בְּנֵי יִשְׂרָאֵל לַעֲשֹׂת הַפָּסַח"
+        "ja": "פכלם",
+        "en": "And Moses spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to the sons of",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "Israel",
+        "he": "אֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פי עמל",
+        "en": "concerning the performance of",
+        "he": "לַעֲשֹׂת"
+      },
+      {
+        "ja": "אלפסח",
+        "en": "the Passover.",
+        "he": "הַפָּסַח"
       }
     ],
     "5": [
       {
-        "ja": "פעמלוה פי אלשהר אלאוול. פי אליום אלראבע עשר מנה. בין אלג'רובין",
-        "en": "And they performed it in the first month, on the fourteenth day of it, between the two sunsets",
-        "he": "וַיַּעֲשׂוּ אֶת-הַפֶּסַח בָּרִאשׁוֹן בְּאַרְבָּעָה עָשָׂר יוֹם לַחֹדֶשׁ בֵּין הָעַרְבַּיִם"
+        "ja": "פעמלוה",
+        "en": "And they performed it",
+        "he": "וַיַּעֲשׂוּ אֶת-הַפֶּסַח"
       },
       {
-        "ja": "פי ברייה' סיני. כגמיע מא אמר אללה מוסי'",
-        "en": "in the wilderness of Sinai — according to all that God had commanded Moses",
-        "he": "בְּמִדְבַּר סִינָי כְּכֹל אֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה"
+        "ja": "פי אלשהר אלאוול",
+        "en": "in the first month,",
+        "he": "בָּרִאשׁוֹן"
       },
       {
-        "ja": "כד'אך צנעו בני אסראיל",
-        "en": "so did the sons of Israel.",
-        "he": "כֵּן עָשׂוּ בְּנֵי יִשְׂרָאֵל"
+        "ja": "פי אליום אלראבע עשר מנה",
+        "en": "on the fourteenth day of it,",
+        "he": "בְּאַרְבָּעָה עָשָׂר יוֹם לַחֹדֶשׁ"
+      },
+      {
+        "ja": "בין אלג'רובין",
+        "en": "between the two sunsets,",
+        "he": "בֵּין הָעַרְבַּיִם"
+      },
+      {
+        "ja": "פי ברייה' סיני",
+        "en": "in the wilderness of Sinai —",
+        "he": "בְּמִדְבַּר סִינָי"
+      },
+      {
+        "ja": "כגמיע מא אמר אללה",
+        "en": "according to all that God had commanded",
+        "he": "כְּכֹל אֲשֶׁר צִוָּה יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses;",
+        "he": "אֶת-מֹשֶׁה"
+      },
+      {
+        "ja": "כד'אך צנעו",
+        "en": "so did",
+        "he": "כֵּן עָשׂוּ"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel.",
+        "he": "בְּנֵי יִשְׂרָאֵל"
       }
     ],
     "6": [
       {
-        "ja": "פכאן פיהם אנאס. תנגסו במיית מן אלנאס",
-        "en": "And there were among them people who had become impure from a dead person",
-        "he": "וַיְהִי אֲנָשִׁים אֲשֶׁר הָיוּ טְמֵאִים לְנֶפֶשׁ אָדָם"
+        "ja": "פכאן",
+        "en": "And there were",
+        "he": "וַיְהִי"
       },
       {
-        "ja": "פלם יגוז להם אן יעמלו אלפסח פי ד'אלך אליום",
-        "en": "and it was not permitted for them to perform the Passover on that day",
-        "he": "וְלֹא-יָכְלוּ לַעֲשֹׂת-הַפֶּסַח בַּיּוֹם הַהוּא"
+        "ja": "פיהם אנאס",
+        "en": "among them people",
+        "he": "אֲנָשִׁים"
       },
       {
-        "ja": "פתקדמו פיה. בין ידי מוסי' והרון",
-        "en": "so they came forward regarding it, before Moses and Aaron.",
-        "he": "וַיִּקְרְבוּ לִפְנֵי מֹשֶׁה וְלִפְנֵי אַהֲרֹן--בַּיּוֹם הַהוּא"
+        "ja": "תנגסו",
+        "en": "who had become impure",
+        "he": "אֲשֶׁר הָיוּ טְמֵאִים"
+      },
+      {
+        "ja": "במיית מן אלנאס",
+        "en": "from a dead person,",
+        "he": "לְנֶפֶשׁ אָדָם"
+      },
+      {
+        "ja": "פלם יגוז להם",
+        "en": "and it was not permitted for them",
+        "he": "וְלֹא-יָכְלוּ"
+      },
+      {
+        "ja": "אן יעמלו אלפסח",
+        "en": "to perform the Passover",
+        "he": "לַעֲשֹׂת-הַפֶּסַח"
+      },
+      {
+        "ja": "פי ד'אלך אליום",
+        "en": "on that day;",
+        "he": "בַּיּוֹם הַהוּא"
+      },
+      {
+        "ja": "פתקדמו פיה",
+        "en": "so they came forward regarding it,",
+        "he": "וַיִּקְרְבוּ"
+      },
+      {
+        "ja": "בין ידי מוסי'",
+        "en": "before Moses",
+        "he": "לִפְנֵי מֹשֶׁה"
+      },
+      {
+        "ja": "והרון",
+        "en": "and Aaron.",
+        "he": "וְלִפְנֵי אַהֲרֹן"
       }
     ],
     "7": [
       {
-        "ja": "וקאלו. נחן אנגאס מן מיית מן אלנאס",
-        "en": "And they said: \"We are impure from a dead person",
-        "he": "וַיֹּאמְרוּ הָאֲנָשִׁים הָהֵמָּה אֵלָיו אֲנַחְנוּ טְמֵאִים לְנֶפֶשׁ אָדָם"
+        "ja": "וקאלו",
+        "en": "And they said:",
+        "he": "וַיֹּאמְרוּ"
       },
       {
-        "ja": "פלם נמנע. מן אן נקרב מת'ל קרבאן אללה פי וקתה",
-        "en": "why then should we be prevented from bringing the offering of God at its appointed time",
-        "he": "לָמָּה נִגָּרַע לְבִלְתִּי הַקְרִיב אֶת-קָרְבַּן יְהוָה בְּמֹעֲדוֹ"
+        "ja": "נחן אנגאס",
+        "en": "We are impure",
+        "he": "אֲנַחְנוּ טְמֵאִים"
+      },
+      {
+        "ja": "מן מיית מן אלנאס",
+        "en": "from a dead person —",
+        "he": "לְנֶפֶשׁ אָדָם"
+      },
+      {
+        "ja": "פלם נמנע",
+        "en": "why then should we be prevented",
+        "he": "לָמָּה נִגָּרַע"
+      },
+      {
+        "ja": "מן אן נקרב",
+        "en": "from bringing",
+        "he": "לְבִלְתִּי הַקְרִיב"
+      },
+      {
+        "ja": "מת'ל קרבאן אללה",
+        "en": "the offering of God",
+        "he": "אֶת-קָרְבַּן יְהוָה"
+      },
+      {
+        "ja": "פי וקתה",
+        "en": "at its appointed time,",
+        "he": "בְּמֹעֲדוֹ"
       },
       {
         "ja": "פי מא בין בני אסראיל",
-        "en": "among the sons of Israel?\"",
+        "en": "among the sons of Israel?",
         "he": "בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
       }
     ],
     "8": [
       {
-        "ja": "פקאל להם מוסי'. קפו",
-        "en": "And Moses said to them: \"Wait",
-        "he": "וַיֹּאמֶר אֲלֵהֶם מֹשֶׁה עִמְדוּ"
+        "ja": "פקאל",
+        "en": "And Moses said",
+        "he": "וַיֹּאמֶר"
       },
       {
-        "ja": "חתא אסמע. מא יאמר אללה פיכם",
-        "en": "until I hear what God will command concerning you.\"",
-        "he": "וְאֶשְׁמְעָה מַה-יְצַוֶּה יְהוָה לָכֶם"
+        "ja": "להם",
+        "en": "to them:",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Wait,",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "קפו",
+        "en": "until",
+        "he": "עִמְדוּ"
+      },
+      {
+        "ja": "חתא אסמע",
+        "en": "I hear",
+        "he": "וְאֶשְׁמְעָה"
+      },
+      {
+        "ja": "מא יאמר אללה",
+        "en": "what God will command",
+        "he": "מַה-יְצַוֶּה יְהוָה"
+      },
+      {
+        "ja": "פיכם",
+        "en": "concerning you.",
+        "he": "לָכֶם"
       }
     ],
     "9": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly.",
+        "he": "לֵּאמֹר"
       }
     ],
     "10": [
       {
-        "ja": "מר בני אסראיל קאילא",
-        "en": "\"Command the sons of Israel, saying",
-        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל לֵאמֹר"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "אי אנסאן כאן נגס מן מיית. או פי ספר מנכם. או מן אגיאלכם",
-        "en": "Any person who has been impure from a dead person, or is on a journey from among you, or from your generations",
-        "he": "אִישׁ אִישׁ כִּי-יִהְיֶה-טָמֵא לָנֶפֶשׁ אוֹ בְדֶרֶךְ רְחֹקָה לָכֶם אוֹ לְדֹרֹתֵיכֶם"
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel,",
+        "he": "אֶל-בְּנֵי יִשְׂרָאֵל"
       },
       {
-        "ja": "פיצנע פסחא ללה",
-        "en": "let him perform a Passover for God.",
-        "he": "וְעָשָׂה פֶסַח לַיהוָה"
+        "ja": "קאילא",
+        "en": "saying:",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "אי אנסאן",
+        "en": "Any person",
+        "he": "אִישׁ אִישׁ"
+      },
+      {
+        "ja": "כאן נגס מן מיית",
+        "en": "who has been impure from a dead person,",
+        "he": "כִּי-יִהְיֶה-טָמֵא לָנֶפֶשׁ"
+      },
+      {
+        "ja": "או פי ספר מנכם",
+        "en": "or is on a journey from among you,",
+        "he": "אוֹ בְדֶרֶךְ רְחֹקָה"
+      },
+      {
+        "ja": "או מן אגיאלכם",
+        "en": "or from your generations —",
+        "he": "אוֹ לְדֹרֹתֵיכֶם"
+      },
+      {
+        "ja": "פיצנע פסחא",
+        "en": "let him perform a Passover",
+        "he": "וְעָשָׂה פֶסַח"
+      },
+      {
+        "ja": "ללה",
+        "en": "for God.",
+        "he": "לַיהוָה"
       }
     ],
     "11": [
       {
-        "ja": "פי אלשהר אלת'אני. פי אליום אלראבע עשר מנה. בין אלג'רובין",
-        "en": "In the second month, on the fourteenth day of it, between the two sunsets",
-        "he": "בַּחֹדֶשׁ הַשֵּׁנִי בְּאַרְבָּעָה עָשָׂר יוֹם בֵּין הָעַרְבַּיִם"
+        "ja": "פי אלשהר אלת'אני",
+        "en": "In the second month,",
+        "he": "בַּחֹדֶשׁ הַשֵּׁנִי"
       },
       {
-        "ja": "אצנעוה פי וקתה. מע פטיר ומראר יאכלונה",
-        "en": "perform it at its appointed time; with unleavened bread and bitter herbs they shall eat it.",
-        "he": "יַעֲשׂוּ אֹתוֹ עַל-מַצּוֹת וּמְרֹרִים יֹאכְלֻהוּ"
+        "ja": "פי אליום אלראבע עשר מנה",
+        "en": "on the fourteenth day of it,",
+        "he": "בְּאַרְבָּעָה עָשָׂר יוֹם"
+      },
+      {
+        "ja": "בין אלג'רובין",
+        "en": "between the two sunsets,",
+        "he": "בֵּין הָעַרְבַּיִם"
+      },
+      {
+        "ja": "אצנעוה",
+        "en": "perform it",
+        "he": "יַעֲשׂוּ אֹתוֹ"
+      },
+      {
+        "ja": "פי וקתה. מע פטיר",
+        "en": "at its appointed time; with unleavened bread",
+        "he": "עַל-מַצּוֹת"
+      },
+      {
+        "ja": "ומראר",
+        "en": "and bitter herbs",
+        "he": "וּמְרֹרִים"
+      },
+      {
+        "ja": "יאכלונה",
+        "en": "they shall eat it.",
+        "he": "יֹאכְלֻהוּ"
       }
     ],
     "12": [
       {
-        "ja": "לא יבקו מנה אלי' אלג'דאה",
-        "en": "They shall leave none of it until the morning",
-        "he": "לֹא-יַשְׁאִירוּ מִמֶּנּוּ עַד-בֹּקֶר"
+        "ja": "לא יבקו",
+        "en": "They shall leave none of it",
+        "he": "לֹא-יַשְׁאִירוּ"
+      },
+      {
+        "ja": "מנה אלי' אלג'דאה",
+        "en": "until the morning,",
+        "he": "מִמֶּנּוּ עַד-בֹּקֶר"
       },
       {
         "ja": "ולא יכסרו מנה עצ'מא",
-        "en": "nor shall they break a bone of it",
+        "en": "nor shall they break a bone of it;",
         "he": "וְעֶצֶם לֹא יִשְׁבְּרוּ-בוֹ"
       },
       {
-        "ja": "וכסאיר רסום אלפסח יצנעוה",
-        "en": "and according to the rest of the statutes of the Passover they shall perform it.",
-        "he": "כְּכָל-חֻקַּת הַפֶּסַח יַעֲשׂוּ אֹתוֹ"
+        "ja": "וכסאיר רסום אלפסח",
+        "en": "and according to the rest of the statutes of the Passover",
+        "he": "כְּכָל-חֻקַּת הַפֶּסַח"
+      },
+      {
+        "ja": "יצנעוה",
+        "en": "they shall perform it.",
+        "he": "יַעֲשׂוּ אֹתוֹ"
       }
     ],
     "13": [
       {
-        "ja": "ואי רגל כאן טאהר ולם יכון פי ספר. ואמתנע אן יעמל אלפסח",
-        "en": "But any man who is pure and was not on a journey, and refrained from performing the Passover",
-        "he": "וְהָאִישׁ אֲשֶׁר-הוּא טָהוֹר וּבְדֶרֶךְ לֹא-הָיָה וְחָדַל לַעֲשׂוֹת הַפֶּסַח"
+        "ja": "ואי רגל",
+        "en": "But any man",
+        "he": "וְהָאִישׁ"
       },
       {
-        "ja": "פינקטע ד'אלך אלאנסאן מן בין קומה",
-        "en": "that person shall be cut off from among his people",
-        "he": "וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מֵעַמֶּיהָ"
+        "ja": "כאן טאהר",
+        "en": "who is pure",
+        "he": "אֲשֶׁר-הוּא טָהוֹר"
       },
       {
-        "ja": "אד' לם יקרב קרבאן אללה פי וקתה",
-        "en": "since he did not bring the offering of God at its appointed time",
-        "he": "כִּי קָרְבַּן יְהוָה לֹא הִקְרִיב בְּמֹעֲדוֹ"
+        "ja": "ולם יכון פי ספר",
+        "en": "and was not on a journey,",
+        "he": "וּבְדֶרֶךְ לֹא-הָיָה"
+      },
+      {
+        "ja": "ואמתנע אן יעמל אלפסח",
+        "en": "and refrained from performing the Passover —",
+        "he": "וְחָדַל לַעֲשׂוֹת הַפֶּסַח"
+      },
+      {
+        "ja": "פינקטע ד'אלך אלאנסאן",
+        "en": "that person shall be cut off",
+        "he": "וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא"
+      },
+      {
+        "ja": "מן בין קומה",
+        "en": "from among his people,",
+        "he": "מֵעַמֶּיהָ"
+      },
+      {
+        "ja": "אד' לם יקרב קרבאן אללה",
+        "en": "since he did not bring the offering of God",
+        "he": "כִּי קָרְבַּן יְהוָה לֹא הִקְרִיב"
+      },
+      {
+        "ja": "פי וקתה",
+        "en": "at its appointed time;",
+        "he": "בְּמֹעֲדוֹ"
       },
       {
         "ja": "פקד חמל ד'אלך אלרגל וזרה",
         "en": "that man has borne his guilt.",
-        "he": "חֶטְאוֹ יִשָּׂא הָאִישׁ הַהוּא"
+        "he": "חֶטְאוֹ יִשָּׂא"
       }
     ],
     "14": [
       {
-        "ja": "ואן דכ'ל פיכם דכ'יל. פליצנע פסחא ללה",
-        "en": "And if a stranger enters among you, let him perform a Passover for God",
-        "he": "וְכִי-יָגוּר אִתְּכֶם גֵּר וְעָשָׂה פֶסַח לַיהוָה"
+        "ja": "ואן דכ'ל פיכם דכ'יל",
+        "en": "And if a stranger enters among you,",
+        "he": "וְכִי-יָגוּר אִתְּכֶם גֵּר"
       },
       {
-        "ja": "כרסם אלפסח וחכמה כד'אך יצנע",
-        "en": "according to the statute of the Passover and its ordinance, so shall he perform it",
-        "he": "כְּחֻקַּת הַפֶּסַח וּכְמִשְׁפָּטוֹ כֵּן יַעֲשֶׂה"
+        "ja": "פליצנע פסחא",
+        "en": "let him perform a Passover",
+        "he": "וְעָשָׂה פֶסַח"
       },
       {
-        "ja": "אד' שריעה ואחדה תכון לכם. לאלדכ'יל וצריח אלאמה",
-        "en": "for one law shall there be for you, for the stranger and for the native-born of the nation.\"",
-        "he": "חֻקָּה אַחַת יִהְיֶה לָכֶם וְלַגֵּר וּלְאֶזְרַח הָאָרֶץ"
+        "ja": "ללה",
+        "en": "for God;",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "כרסם אלפסח",
+        "en": "according to the statute of the Passover",
+        "he": "כְּחֻקַּת הַפֶּסַח"
+      },
+      {
+        "ja": "וחכמה",
+        "en": "and its ordinance,",
+        "he": "וּכְמִשְׁפָּטוֹ"
+      },
+      {
+        "ja": "כד'אך יצנע",
+        "en": "so shall he perform it —",
+        "he": "כֵּן יַעֲשֶׂה"
+      },
+      {
+        "ja": "אד' שריעה ואחדה תכון לכם",
+        "en": "for one law shall there be for you,",
+        "he": "חֻקָּה אַחַת יִהְיֶה לָכֶם"
+      },
+      {
+        "ja": "לאלדכ'יל",
+        "en": "for the stranger",
+        "he": "וְלַגֵּר"
+      },
+      {
+        "ja": "וצריח אלאמה",
+        "en": "and for the native-born of the nation.",
+        "he": "וּלְאֶזְרַח הָאָרֶץ"
       }
     ],
     "15": [
       {
-        "ja": "ומן יום נצב אלמסכן גטאה אלג'מאם עלי' כ'בא אלשהאדה",
-        "en": "And on the day of the erection of the tabernacle, the cloud covered it — over the tent of testimony",
-        "he": "וּבְיוֹם הָקִים אֶת-הַמִּשְׁכָּן כִּסָּה הֶעָנָן אֶת-הַמִּשְׁכָּן לְאֹהֶל הָעֵדֻת"
+        "ja": "ומן יום נצב",
+        "en": "And on the day of the erection of",
+        "he": "וּבְיוֹם הָקִים"
       },
       {
-        "ja": "ובאלליל יכון עליה. כרויא נאר אלי' אלג'דאה",
-        "en": "and at night it would be upon it, like the appearance of fire until the morning.",
-        "he": "וּבָעֶרֶב יִהְיֶה עַל-הַמִּשְׁכָּן כְּמַרְאֵה-אֵשׁ--עַד-בֹּקֶר"
+        "ja": "אלמסכן",
+        "en": "the tabernacle,",
+        "he": "אֶת-הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "גטאה אלג'מאם",
+        "en": "the cloud covered it —",
+        "he": "כִּסָּה הֶעָנָן"
+      },
+      {
+        "ja": "עלי' כ'בא אלשהאדה",
+        "en": "over the tent of testimony;",
+        "he": "לְאֹהֶל הָעֵדֻת"
+      },
+      {
+        "ja": "ובאלליל",
+        "en": "and at night",
+        "he": "וּבָעֶרֶב"
+      },
+      {
+        "ja": "יכון עליה",
+        "en": "it would be upon it,",
+        "he": "יִהְיֶה עַל-הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "כרויא נאר",
+        "en": "like the appearance of fire",
+        "he": "כְּמַרְאֵה-אֵשׁ"
+      },
+      {
+        "ja": "אלי' אלג'דאה",
+        "en": "until the morning.",
+        "he": "עַד-בֹּקֶר"
       }
     ],
     "16": [
       {
-        "ja": "כד'אך יכון דאימא. אלג'מאם יג'טיה נהארא",
-        "en": "So it would be continually: the cloud covering it by day",
-        "he": "כֵּן יִהְיֶה תָמִיד הֶעָנָן יְכַסֶּנּוּ"
+        "ja": "כד'אך",
+        "en": "So"
       },
       {
-        "ja": "ורויא אלנאר לילא",
-        "en": "and the appearance of fire by night.",
-        "he": "וּמַרְאֵה-אֵשׁ לָיְלָה"
+        "ja": "יכון",
+        "en": "it would be",
+        "he": "כֵּן יִהְיֶה"
+      },
+      {
+        "ja": "דאימא",
+        "en": "continually:",
+        "he": "תָמִיד"
+      },
+      {
+        "ja": "אלג'מאם יג'טיה",
+        "en": "the cloud covering it",
+        "he": "הֶעָנָן יְכַסֶּנּוּ"
+      },
+      {
+        "ja": "נהארא",
+        "en": "by day,"
+      },
+      {
+        "ja": "ורויא אלנאר",
+        "en": "and the appearance of fire",
+        "he": "וּמַרְאֵה-אֵשׁ"
+      },
+      {
+        "ja": "לילא",
+        "en": "by night.",
+        "he": "לָיְלָה"
       }
     ],
     "17": [
       {
-        "ja": "ועלי' קדר ארתפאע אלג'מאם ען אלכ'בא",
-        "en": "And according to the lifting of the cloud from upon the tent",
-        "he": "וּלְפִי הֵעָלוֹת הֶעָנָן מֵעַל הָאֹהֶל"
+        "ja": "ועלי' קדר ארתפאע אלג'מאם",
+        "en": "And according to the lifting of the cloud",
+        "he": "וּלְפִי הֵעָלוֹת הֶעָנָן"
       },
       {
-        "ja": "פבעד ד'אלך ירחלון בני אסראיל",
-        "en": "after that the sons of Israel would set out",
-        "he": "וְאַחֲרֵי כֵן יִסְעוּ בְּנֵי יִשְׂרָאֵל"
+        "ja": "ען אלכ'בא",
+        "en": "from upon the tent,",
+        "he": "מֵעַל הָאֹהֶל"
       },
       {
-        "ja": "ופי מוצ'ע יסכן פיה אלג'מאם. ת'ם ינזלון בני אסראיל",
-        "en": "and in the place where the cloud would settle, there the sons of Israel would encamp.",
-        "he": "וּבִמְקוֹם אֲשֶׁר יִשְׁכָּן-שָׁם הֶעָנָן--שָׁם יַחֲנוּ בְּנֵי יִשְׂרָאֵל"
+        "ja": "פבעד ד'אלך",
+        "en": "after that",
+        "he": "וְאַחֲרֵי כֵן"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ירחלון",
+        "en": "would set out;",
+        "he": "יִסְעוּ"
+      },
+      {
+        "ja": "ופי מוצ'ע יסכן פיה אלג'מאם",
+        "en": "and in the place where the cloud would settle,",
+        "he": "וּבִמְקוֹם אֲשֶׁר יִשְׁכָּן-שָׁם הֶעָנָן"
+      },
+      {
+        "ja": "ת'ם",
+        "en": "there",
+        "he": "שָׁם יַחֲנוּ"
+      },
+      {
+        "ja": "ינזלון בני אסראיל",
+        "en": "the sons of Israel would encamp.",
+        "he": "בְּנֵי יִשְׂרָאֵל"
       }
     ],
     "18": [
       {
-        "ja": "עלי' קול אללה. ירחל בני אסראיל. ועלי' קולה ינזלון",
-        "en": "At the word of God the sons of Israel would set out, and at His word they would encamp",
-        "he": "עַל-פִּי יְהוָה יִסְעוּ בְּנֵי יִשְׂרָאֵל וְעַל-פִּי יְהוָה יַחֲנוּ"
+        "ja": "עלי' קול אללה",
+        "en": "At the word of God",
+        "he": "עַל-פִּי יְהוָה"
       },
       {
-        "ja": "פהם טול מדה' מא יסכן אלג'מאם. עלי' אלמסכן מקימין",
-        "en": "all the duration of the time that the cloud dwelt upon the tabernacle, they remained encamped.",
-        "he": "כָּל-יְמֵי אֲשֶׁר יִשְׁכֹּן הֶעָנָן עַל-הַמִּשְׁכָּן--יַחֲנוּ"
+        "ja": "ירחל",
+        "en": "would set out,",
+        "he": "יִסְעוּ"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ועלי' קולה",
+        "en": "and at His word",
+        "he": "וְעַל-פִּי יְהוָה"
+      },
+      {
+        "ja": "ינזלון",
+        "en": "they would encamp;",
+        "he": "יַחֲנוּ"
+      },
+      {
+        "ja": "פהם טול מדה'",
+        "en": "all the duration of the time",
+        "he": "כָּל-יְמֵי"
+      },
+      {
+        "ja": "מא יסכן אלג'מאם",
+        "en": "that the cloud dwelt",
+        "he": "אֲשֶׁר יִשְׁכֹּן הֶעָנָן"
+      },
+      {
+        "ja": "עלי' אלמסכן",
+        "en": "upon the tabernacle,",
+        "he": "עַל-הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "מקימין",
+        "en": "they remained encamped."
       }
     ],
     "19": [
       {
-        "ja": "ואן טאל אלג'מאם. אייאמא כת'ירה עלי' אלמסכן",
-        "en": "And if the cloud lingered many days upon the tabernacle",
-        "he": "וּבְהַאֲרִיךְ הֶעָנָן עַל-הַמִּשְׁכָּן יָמִים רַבִּים"
+        "ja": "ואן טאל אלג'מאם",
+        "en": "And if the cloud lingered",
+        "he": "וּבְהַאֲרִיךְ הֶעָנָן"
       },
       {
-        "ja": "פיחפץ' בני אסראיל. חפץ' אללה ולא ירחלון",
-        "en": "the sons of Israel would observe the charge of God and not set out.",
-        "he": "וְשָׁמְרוּ בְנֵי-יִשְׂרָאֵל אֶת-מִשְׁמֶרֶת יְהוָה וְלֹא יִסָּעוּ"
+        "ja": "אייאמא כת'ירה",
+        "en": "many days",
+        "he": "יָמִים רַבִּים"
+      },
+      {
+        "ja": "עלי' אלמסכן",
+        "en": "upon the tabernacle,",
+        "he": "עַל-הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "פיחפץ'",
+        "en": "would observe",
+        "he": "וְשָׁמְרוּ"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "חפץ' אללה",
+        "en": "the charge of God",
+        "he": "אֶת-מִשְׁמֶרֶת יְהוָה"
+      },
+      {
+        "ja": "ולא ירחלון",
+        "en": "and not set out.",
+        "he": "וְלֹא יִסָּעוּ"
       }
     ],
     "20": [
       {
-        "ja": "ורבמא כאן אלג'מאם אייאמא מחצאה עלי' אלמסכן",
-        "en": "And sometimes the cloud was upon the tabernacle for a number of countable days",
-        "he": "וְיֵשׁ אֲשֶׁר יִהְיֶה הֶעָנָן יָמִים מִסְפָּר--עַל-הַמִּשְׁכָּן"
+        "ja": "ורבמא כאן אלג'מאם",
+        "en": "And sometimes the cloud was",
+        "he": "וְיֵשׁ אֲשֶׁר יִהְיֶה הֶעָנָן"
       },
       {
-        "ja": "פהם עלי' קול אללה ינזלו ועלי' קולה ירחלון",
-        "en": "they would encamp at the word of God, and at His word they would set out.",
-        "he": "עַל-פִּי יְהוָה יַחֲנוּ וְעַל-פִּי יְהוָה יִסָּעוּ"
+        "ja": "עלי' אלמסכן",
+        "en": "upon the tabernacle",
+        "he": "עַל-הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "אייאמא מחצאה",
+        "en": "for a number of countable days;",
+        "he": "יָמִים מִסְפָּר"
+      },
+      {
+        "ja": "פהם עלי' קול אללה ינזלו",
+        "en": "they would encamp at the word of God,",
+        "he": "עַל-פִּי יְהוָה יַחֲנוּ"
+      },
+      {
+        "ja": "ועלי' קולה ירחלון",
+        "en": "and at His word they would set out.",
+        "he": "וְעַל-פִּי יְהוָה יִסָּעוּ"
       }
     ],
     "21": [
       {
-        "ja": "ורבמא כאן אלג'מאם מן אלמסא אלי' אלצבאח",
-        "en": "And sometimes the cloud was from evening until morning",
-        "he": "וְיֵשׁ אֲשֶׁר-יִהְיֶה הֶעָנָן מֵעֶרֶב עַד-בֹּקֶר"
+        "ja": "ורבמא כאן אלג'מאם",
+        "en": "And sometimes the cloud was",
+        "he": "וְיֵשׁ אֲשֶׁר-יִהְיֶה הֶעָנָן"
       },
       {
-        "ja": "ת'ם ירתפע באלג'דאה וירחלון",
-        "en": "then it would lift at daybreak and they would set out.",
-        "he": "וְנַעֲלָה הֶעָנָן בַּבֹּקֶר וְנָסָעוּ"
+        "ja": "מן אלמסא",
+        "en": "from evening",
+        "he": "מֵעֶרֶב"
       },
       {
-        "ja": "או נהארא ולילא. ת'ם ירתפע וירחלון",
-        "en": "Or a day and a night — then it would lift and they would set out.",
-        "he": "אוֹ יוֹמָם וָלַיְלָה וְנַעֲלָה הֶעָנָן וְנָסָעוּ"
+        "ja": "אלי' אלצבאח",
+        "en": "until morning;",
+        "he": "עַד-בֹּקֶר"
+      },
+      {
+        "ja": "ת'ם",
+        "en": "then"
+      },
+      {
+        "ja": "ירתפע",
+        "en": "it would lift",
+        "he": "וְנַעֲלָה הֶעָנָן"
+      },
+      {
+        "ja": "באלג'דאה",
+        "en": "at daybreak",
+        "he": "בַּבֹּקֶר"
+      },
+      {
+        "ja": "וירחלון",
+        "en": "and they would set out.",
+        "he": "וְנָסָעוּ"
+      },
+      {
+        "ja": "או נהארא",
+        "en": "Or a day",
+        "he": "אוֹ יוֹמָם"
+      },
+      {
+        "ja": "ולילא",
+        "en": "and a night —",
+        "he": "וָלַיְלָה"
+      },
+      {
+        "ja": "ת'ם",
+        "en": "then"
+      },
+      {
+        "ja": "ירתפע",
+        "en": "it would lift"
+      },
+      {
+        "ja": "וירחלון",
+        "en": "and they would set out."
       }
     ],
     "22": [
       {
-        "ja": "או יומין או שהרא או חולא. אד'א טאלת מדה' אלג'מאם עלי' אלמסכן ליסכן עליה",
-        "en": "Or two days, or a month, or a full year: whenever the duration of the cloud upon the tabernacle was prolonged, to dwell upon it",
-        "he": "אוֹ-יֹמַיִם אוֹ-חֹדֶשׁ אוֹ-יָמִים בְּהַאֲרִיךְ הֶעָנָן עַל-הַמִּשְׁכָּן לִשְׁכֹּן עָלָיו"
+        "ja": "או יומין",
+        "en": "Or two days,",
+        "he": "אוֹ-יֹמַיִם"
       },
       {
-        "ja": "בני אסראיל מקימין ג'יר ראחלין",
-        "en": "the sons of Israel remained encamped and did not set out",
-        "he": "יַחֲנוּ בְנֵי-יִשְׂרָאֵל וְלֹא יִסָּעוּ"
+        "ja": "או שהרא",
+        "en": "or a month,",
+        "he": "אוֹ-חֹדֶשׁ"
+      },
+      {
+        "ja": "או חולא",
+        "en": "or a full year:",
+        "he": "אוֹ-יָמִים"
+      },
+      {
+        "ja": "אד'א טאלת מדה' אלג'מאם עלי' אלמסכן",
+        "en": "whenever the duration of the cloud upon the tabernacle was prolonged,",
+        "he": "בְּהַאֲרִיךְ הֶעָנָן עַל-הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "ליסכן עליה",
+        "en": "to dwell upon it —",
+        "he": "לִשְׁכֹּן עָלָיו"
+      },
+      {
+        "ja": "בני אסראיל מקימין",
+        "en": "the sons of Israel remained encamped",
+        "he": "יַחֲנוּ בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ג'יר ראחלין",
+        "en": "and did not set out;",
+        "he": "וְלֹא יִסָּעוּ"
       },
       {
         "ja": "ופי ארתפאעה ירחלון",
@@ -319,14 +884,33 @@
     ],
     "23": [
       {
-        "ja": "כד'אך עלי' קול אללה ינזלון. ועלי קולה ירחלון",
-        "en": "So at the word of God they would encamp, and at His word they would set out",
-        "he": "עַל-פִּי יְהוָה יַחֲנוּ וְעַל-פִּי יְהוָה יִסָּעוּ"
+        "ja": "כד'אך",
+        "en": "So"
       },
       {
-        "ja": "ויחפצון מא אסתחפצ'הם. מן קולה ביד מוסי'",
-        "en": "and they kept what He had entrusted to them to keep, of His word, by the hand of Moses.",
-        "he": "אֶת-מִשְׁמֶרֶת יְהוָה שָׁמָרוּ עַל-פִּי יְהוָה בְּיַד-מֹשֶׁה"
+        "ja": "עלי' קול אללה ינזלון",
+        "en": "at the word of God they would encamp,",
+        "he": "עַל-פִּי יְהוָה יַחֲנוּ"
+      },
+      {
+        "ja": "ועלי קולה ירחלון",
+        "en": "and at His word they would set out;",
+        "he": "וְעַל-פִּי יְהוָה יִסָּעוּ"
+      },
+      {
+        "ja": "ויחפצון מא אסתחפצ'הם",
+        "en": "and they kept what He had entrusted to them to keep,",
+        "he": "אֶת-מִשְׁמֶרֶת יְהוָה שָׁמָרוּ"
+      },
+      {
+        "ja": "מן קולה",
+        "en": "of His word,",
+        "he": "עַל-פִּי יְהוָה"
+      },
+      {
+        "ja": "ביד מוסי'",
+        "en": "by the hand of Moses.",
+        "he": "בְּיַד-מֹשֶׁה"
       }
     ]
   }
