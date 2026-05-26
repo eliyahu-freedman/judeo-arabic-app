@@ -1,476 +1,1394 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 22. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_22.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 22. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_22.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם רחלו בני אסראיל. ונזלו פי בידאת מואב",
-        "en": "Then the sons of Israel journeyed, and encamped in the wilderness of Moab",
-        "he": "וַיִּסְעוּ בְּנֵי יִשְׂרָאֵל וַיַּחֲנוּ בְּעַרְבוֹת מוֹאָב"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "אלתי עלי' ארדן יריחא",
-        "en": "which is by the Jordan of Jericho.",
-        "he": "מֵעֵבֶר לְיַרְדֵּן יְרֵחוֹ"
+        "ja": "רחלו",
+        "en": "journeyed,",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי בידאת",
+        "en": "in the wilderness of",
+        "he": "בְּעַרְבוֹת"
+      },
+      {
+        "ja": "מואב",
+        "en": "Moab,",
+        "he": "מוֹאָב"
+      },
+      {
+        "ja": "אלתי עלי'",
+        "en": "which is by",
+        "he": "מֵעֵבֶר"
+      },
+      {
+        "ja": "ארדן",
+        "en": "the Jordan of",
+        "he": "לְיַרְדֵּן"
+      },
+      {
+        "ja": "יריחא",
+        "en": "Jericho.",
+        "he": "יְרֵחוֹ"
       }
     ],
     "2": [
       {
-        "ja": "ולמא ראא בלק אבן צפור",
-        "en": "And when Balak son of Zippor saw",
-        "he": "וַיַּרְא בָּלָק בֶּן-צִפּוֹר"
+        "ja": "ולמא ראא",
+        "en": "And when",
+        "he": "וַיַּרְא"
       },
       {
-        "ja": "גמיע מא צנע אל אסראיל באלאמוריין",
-        "en": "all that the people of Israel had done to the Amorites,",
-        "he": "אֵת כָּל-אֲשֶׁר-עָשָׂה יִשְׂרָאֵל לָאֱמֹרִי"
+        "ja": "בלק",
+        "en": "Balak",
+        "he": "בָּלָק"
+      },
+      {
+        "ja": "אבן צפור",
+        "en": "son of Zippor",
+        "he": "בֶּן-צִפּוֹר"
+      },
+      {
+        "ja": "גמיע מא",
+        "en": "saw all that"
+      },
+      {
+        "ja": "צנע",
+        "en": "had done",
+        "he": "אֵת כָּל-אֲשֶׁר-עָשָׂה"
+      },
+      {
+        "ja": "אל אסראיל",
+        "en": "the people of Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "באלאמוריין",
+        "en": "to the Amorites,",
+        "he": "לָאֱמֹרִי"
       }
     ],
     "3": [
       {
-        "ja": "פחד'ר אלמואביין. מן קבל אלקום. גדא אד' הם כ'תירין",
-        "en": "the Moabites were greatly wary of the people, since they are numerous",
-        "he": "וַיָּגָר מוֹאָב מִפְּנֵי הָעָם מְאֹד--כִּי רַב-הוּא"
+        "ja": "פחד'ר",
+        "en": "the Moabites were",
+        "he": "וַיָּגָר"
+      },
+      {
+        "ja": "אלמואביין",
+        "en": "greatly wary",
+        "he": "מוֹאָב"
+      },
+      {
+        "ja": "מן קבל",
+        "en": "of the people,",
+        "he": "מִפְּנֵי"
+      },
+      {
+        "ja": "אלקום",
+        "en": "since",
+        "he": "הָעָם"
+      },
+      {
+        "ja": "גדא",
+        "en": "they are numerous;",
+        "he": "מְאֹד"
+      },
+      {
+        "ja": "אד' הם כ'תירין",
+        "en": "and they were filled with dread",
+        "he": "כִּי רַב-הוּא"
       },
       {
         "ja": "וצ'גרו מנהם",
-        "en": "and they were filled with dread because of them.",
+        "en": "because of them.",
         "he": "וַיָּקָץ מוֹאָב מִפְּנֵי בְּנֵי יִשְׂרָאֵל"
       }
     ],
     "4": [
       {
-        "ja": "פקאל לשיוך' מדין",
-        "en": "And they said to the elders of Midian",
-        "he": "וַיֹּאמֶר מוֹאָב אֶל-זִקְנֵי מִדְיָן"
+        "ja": "פקאל",
+        "en": "And they said",
+        "he": "וַיֹּאמֶר מוֹאָב"
       },
       {
-        "ja": "אלאן סילחס הולאי אלגוק כל נאס חואלינא",
-        "en": "'Now this horde will lick up all the people around us",
-        "he": "עַתָּה יְלַחֲכוּ הַקָּהָל אֶת-כָּל-סְבִיבֹתֵינוּ"
+        "ja": "לשיוך'",
+        "en": "to the elders of",
+        "he": "אֶל-זִקְנֵי"
       },
       {
-        "ja": "כמא ילחס אלת'ור כ'צ'ר אלצחרא",
-        "en": "as the ox licks up the green of the wilderness.'",
-        "he": "כִּלְחֹךְ הַשּׁוֹר אֵת יֶרֶק הַשָּׂדֶה"
+        "ja": "מדין",
+        "en": "Midian:",
+        "he": "מִדְיָן"
       },
       {
-        "ja": "וכאן בלק אבן צפור. מלכהם פי ד'אלך אלוקת",
-        "en": "And Balak son of Zippor was their king at that time.",
-        "he": "וּבָלָק בֶּן-צִפּוֹר מֶלֶךְ לְמוֹאָב בָּעֵת הַהִוא"
+        "ja": "אלאן",
+        "en": "'Now",
+        "he": "עַתָּה"
+      },
+      {
+        "ja": "סילחס",
+        "en": "will lick up",
+        "he": "יְלַחֲכוּ"
+      },
+      {
+        "ja": "הולאי אלגוק",
+        "en": "this horde",
+        "he": "הַקָּהָל"
+      },
+      {
+        "ja": "כל נאס חואלינא",
+        "en": "all the people around us,",
+        "he": "אֶת-כָּל-סְבִיבֹתֵינוּ"
+      },
+      {
+        "ja": "כמא ילחס",
+        "en": "as the ox licks up",
+        "he": "כִּלְחֹךְ"
+      },
+      {
+        "ja": "אלת'ור",
+        "en": "the green of",
+        "he": "הַשּׁוֹר"
+      },
+      {
+        "ja": "כ'צ'ר אלצחרא",
+        "en": "the wilderness.'",
+        "he": "אֵת יֶרֶק הַשָּׂדֶה"
+      },
+      {
+        "ja": "וכאן בלק",
+        "en": "And Balak",
+        "he": "וּבָלָק"
+      },
+      {
+        "ja": "אבן צפור",
+        "en": "son of Zippor",
+        "he": "בֶּן-צִפּוֹר"
+      },
+      {
+        "ja": "מלכהם",
+        "en": "was their king",
+        "he": "מֶלֶךְ לְמוֹאָב"
+      },
+      {
+        "ja": "פי ד'אלך אלוקת",
+        "en": "at that time.",
+        "he": "בָּעֵת הַהִוא"
       }
     ],
     "5": [
       {
-        "ja": "פבעת' ברסל אלי' בלעם אבן בעור. אלי' פאתורא",
-        "en": "And he sent messengers to Balaam son of Beor, to Pethor",
-        "he": "וַיִּשְׁלַח מַלְאָכִים אֶל-בִּלְעָם בֶּן-בְּעֹר פְּתוֹרָה"
+        "ja": "פבעת'",
+        "en": "And he sent",
+        "he": "וַיִּשְׁלַח"
       },
       {
-        "ja": "אלד'י עלי' אלפראת. בלד קומה",
-        "en": "which is on the Euphrates, the land of his people",
-        "he": "אֲשֶׁר עַל-הַנָּהָר אֶרֶץ בְּנֵי-עַמּוֹ"
+        "ja": "ברסל",
+        "en": "messengers",
+        "he": "מַלְאָכִים"
       },
       {
-        "ja": "לידעו בה. וקאל לה",
-        "en": "to invite him; and said to him",
-        "he": "לִקְרֹא-לוֹ לֵאמֹר"
+        "ja": "אלי' בלעם",
+        "en": "to Balaam",
+        "he": "אֶל-בִּלְעָם"
       },
       {
-        "ja": "הוד'א קום כ'רג מן מצר קד ג'טא צ'אהר אלארץ'",
-        "en": "'Behold, a people has come out of Egypt — it has already covered the face of the land",
-        "he": "הִנֵּה עַם יָצָא מִמִּצְרַיִם הִנֵּה כִסָּה אֶת-עֵין הָאָרֶץ"
+        "ja": "אבן בעור",
+        "en": "son of Beor,",
+        "he": "בֶּן-בְּעֹר"
       },
       {
-        "ja": "והו גאלס מקאבלי",
-        "en": "and it sits encamped opposite me.",
-        "he": "וְהוּא יֹשֵׁב מִמֻּלִי"
+        "ja": "אלי' פאתורא",
+        "en": "to Pethor",
+        "he": "פְּתוֹרָה"
+      },
+      {
+        "ja": "אלד'י עלי' אלפראת",
+        "en": "which is on the Euphrates,",
+        "he": "אֲשֶׁר עַל-הַנָּהָר"
+      },
+      {
+        "ja": "בלד קומה",
+        "en": "the land of his people,",
+        "he": "אֶרֶץ בְּנֵי-עַמּוֹ"
+      },
+      {
+        "ja": "לידעו בה",
+        "en": "to invite him;",
+        "he": "לִקְרֹא-לוֹ"
+      },
+      {
+        "ja": "וקאל לה",
+        "en": "and said to him:",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "הוד'א קום",
+        "en": "'Behold, a people",
+        "he": "הִנֵּה עַם"
+      },
+      {
+        "ja": "כ'רג",
+        "en": "has come out",
+        "he": "יָצָא"
+      },
+      {
+        "ja": "מן מצר",
+        "en": "of Egypt —",
+        "he": "מִמִּצְרַיִם"
+      },
+      {
+        "ja": "קד ג'טא",
+        "en": "it has already covered",
+        "he": "הִנֵּה כִסָּה"
+      },
+      {
+        "ja": "צ'אהר אלארץ'",
+        "en": "the face of the land,",
+        "he": "אֶת-עֵין הָאָרֶץ"
+      },
+      {
+        "ja": "והו גאלס",
+        "en": "and it sits encamped",
+        "he": "וְהוּא יֹשֵׁב"
+      },
+      {
+        "ja": "מקאבלי",
+        "en": "opposite me.",
+        "he": "מִמֻּלִי"
       }
     ],
     "6": [
       {
-        "ja": "ואלאן פתעאל אלענה לי",
-        "en": "And now, come and curse it for me",
-        "he": "וְעַתָּה לְכָה-נָּא אָרָה-לִּי אֶת-הָעָם הַזֶּה"
+        "ja": "ואלאן",
+        "en": "And now,",
+        "he": "וְעַתָּה"
+      },
+      {
+        "ja": "פתעאל",
+        "en": "come",
+        "he": "לְכָה-נָּא"
+      },
+      {
+        "ja": "אלענה לי",
+        "en": "and curse it for me,",
+        "he": "אָרָה-לִּי"
       },
       {
         "ja": "אד' הם א עצ'ם מני",
-        "en": "since they are stronger than I",
+        "en": "since they are stronger than I;",
         "he": "כִּי-עָצוּם הוּא מִמֶּנִּי"
       },
       {
-        "ja": "פלעלי' אסתטיע אן אחארבה. ואטרדה מן אלבלד",
-        "en": "perhaps I shall be able to fight against it and drive it out of the land",
-        "he": "אוּלַי אוּכַל נַכֶּה-בּוֹ וַאֲגָרְשֶׁנּוּ מִן-הָאָרֶץ"
+        "ja": "פלעלי' אסתטיע",
+        "en": "perhaps I shall be able",
+        "he": "אוּלַי אוּכַל"
       },
       {
-        "ja": "לאני אעלם. אן מן תבארכה מבארך. ומן תלענה ילען",
-        "en": "for I know that he whom you bless is blessed, and he whom you curse is cursed.'",
-        "he": "כִּי יָדַעְתִּי אֵת אֲשֶׁר-תְּבָרֵךְ מְבֹרָךְ וַאֲשֶׁר תָּאֹר יוּאָר"
+        "ja": "אן אחארבה",
+        "en": "to fight against it",
+        "he": "נַכֶּה-בּוֹ"
+      },
+      {
+        "ja": "ואטרדה",
+        "en": "and drive it out",
+        "he": "וַאֲגָרְשֶׁנּוּ"
+      },
+      {
+        "ja": "מן אלבלד",
+        "en": "of the land —",
+        "he": "מִן-הָאָרֶץ"
+      },
+      {
+        "ja": "לאני אעלם",
+        "en": "for I know",
+        "he": "כִּי יָדַעְתִּי"
+      },
+      {
+        "ja": "אן מן תבארכה",
+        "en": "that he whom you bless",
+        "he": "אֵת אֲשֶׁר-תְּבָרֵךְ"
+      },
+      {
+        "ja": "מבארך",
+        "en": "is blessed,",
+        "he": "מְבֹרָךְ"
+      },
+      {
+        "ja": "ומן תלענה",
+        "en": "and he whom you curse",
+        "he": "וַאֲשֶׁר תָּאֹר"
+      },
+      {
+        "ja": "ילען",
+        "en": "is cursed.'",
+        "he": "יוּאָר"
       }
     ],
     "7": [
       {
-        "ja": "פמצ'ו שיוך' מואב ושיוך' מדין. ופאלאת מעהם",
-        "en": "And the elders of Moab and the elders of Midian went, with divination-fees with them",
-        "he": "וַיֵּלְכוּ זִקְנֵי מוֹאָב וְזִקְנֵי מִדְיָן וּקְסָמִים בְּיָדָם"
+        "ja": "פמצ'ו",
+        "en": "And",
+        "he": "וַיֵּלְכוּ"
+      },
+      {
+        "ja": "שיוך' מואב",
+        "en": "the elders of Moab",
+        "he": "זִקְנֵי מוֹאָב"
+      },
+      {
+        "ja": "ושיוך'",
+        "en": "and the elders of",
+        "he": "וְזִקְנֵי"
+      },
+      {
+        "ja": "מדין",
+        "en": "Midian went,",
+        "he": "מִדְיָן"
+      },
+      {
+        "ja": "ופאלאת מעהם",
+        "en": "with divination-fees with them,",
+        "he": "וּקְסָמִים בְּיָדָם"
       },
       {
         "ja": "חתי' ואפו בלעם",
-        "en": "until they reached Balaam",
+        "en": "until they reached Balaam,",
         "he": "וַיָּבֹאוּ אֶל-בִּלְעָם"
       },
       {
-        "ja": "פאכ'ברוה בכלאם בלק",
-        "en": "and told him the words of Balak.",
-        "he": "וַיְדַבְּרוּ אֵלָיו דִּבְרֵי בָלָק"
+        "ja": "פאכ'ברוה",
+        "en": "and told him",
+        "he": "וַיְדַבְּרוּ אֵלָיו"
+      },
+      {
+        "ja": "בכלאם בלק",
+        "en": "the words of Balak.",
+        "he": "דִּבְרֵי בָלָק"
       }
     ],
     "8": [
       {
-        "ja": "פקאל להם. ביתו ההנא אללילה",
-        "en": "And he said to them: 'Lodge here tonight",
-        "he": "וַיֹּאמֶר אֲלֵיהֶם לִינוּ פֹה הַלַּיְלָה"
+        "ja": "פקאל",
+        "en": "And he said",
+        "he": "וַיֹּאמֶר"
       },
       {
-        "ja": "וארד עלי'כם גואבא. כמא יקול אללה לי",
-        "en": "and I shall bring you back an answer, as God shall say to me.'",
-        "he": "וַהֲשִׁבֹתִי אֶתְכֶם דָּבָר כַּאֲשֶׁר יְדַבֵּר יְהוָה אֵלָי"
+        "ja": "להם",
+        "en": "to them:",
+        "he": "אֲלֵיהֶם"
       },
       {
-        "ja": "פאקאם רויסא מואב ענד בלעם",
-        "en": "And the officers of Moab stayed with Balaam.",
-        "he": "וַיֵּשְׁבוּ שָׂרֵי-מוֹאָב עִם-בִּלְעָם"
+        "ja": "ביתו",
+        "en": "'Lodge",
+        "he": "לִינוּ"
+      },
+      {
+        "ja": "ההנא",
+        "en": "here",
+        "he": "פֹה"
+      },
+      {
+        "ja": "אללילה",
+        "en": "tonight,",
+        "he": "הַלַּיְלָה"
+      },
+      {
+        "ja": "וארד עלי'כם",
+        "en": "and I shall bring you back",
+        "he": "וַהֲשִׁבֹתִי אֶתְכֶם"
+      },
+      {
+        "ja": "גואבא",
+        "en": "an answer,",
+        "he": "דָּבָר"
+      },
+      {
+        "ja": "כמא יקול",
+        "en": "as",
+        "he": "כַּאֲשֶׁר יְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "לי",
+        "en": "shall say to me.'",
+        "he": "אֵלָי"
+      },
+      {
+        "ja": "פאקאם",
+        "en": "And",
+        "he": "וַיֵּשְׁבוּ"
+      },
+      {
+        "ja": "רויסא מואב",
+        "en": "the officers of Moab",
+        "he": "שָׂרֵי-מוֹאָב"
+      },
+      {
+        "ja": "ענד בלעם",
+        "en": "stayed with Balaam.",
+        "he": "עִם-בִּלְעָם"
       }
     ],
     "9": [
       {
-        "ja": "פואפא אמר אללה בלעם",
-        "en": "And the decree of God came to Balaam",
-        "he": "וַיָּבֹא אֱלֹהִים אֶל-בִּלְעָם"
+        "ja": "פואפא אמר אללה",
+        "en": "And the decree of God",
+        "he": "וַיָּבֹא אֱלֹהִים"
       },
       {
-        "ja": "וקאל מפתתחא. מן הולאי אלקום אלד'ין מעך",
-        "en": "and said, opening the speech: 'Who are these people that are with you?'",
-        "he": "וַיֹּאמֶר מִי הָאֲנָשִׁים הָאֵלֶּה עִמָּךְ"
+        "ja": "בלעם",
+        "en": "came to Balaam,",
+        "he": "אֶל-בִּלְעָם"
+      },
+      {
+        "ja": "וקאל",
+        "en": "and said,",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "מפתתחא",
+        "en": "opening the speech:"
+      },
+      {
+        "ja": "מן הולאי אלקום",
+        "en": "'Who are these people",
+        "he": "מִי הָאֲנָשִׁים"
+      },
+      {
+        "ja": "אלד'ין מעך",
+        "en": "that are with you?'",
+        "he": "הָאֵלֶּה עִמָּךְ"
       }
     ],
     "10": [
       {
         "ja": "קאל",
-        "en": "He said",
-        "he": "וַיֹּאמֶר בִּלְעָם אֶל-הָאֱלֹהִים"
+        "en": "He said:",
+        "he": "וַיֹּאמֶר בִּלְעָם"
       },
       {
-        "ja": "אן בלק אבן צפור. מלך מואב בעת' בהם אלי'י",
-        "en": "'Balak son of Zippor, king of Moab, has sent them to me,",
-        "he": "בָּלָק בֶּן-צִפֹּר מֶלֶךְ מוֹאָב שָׁלַח אֵלָי"
+        "ja": "אן בלק",
+        "en": "'Balak",
+        "he": "בָּלָק"
+      },
+      {
+        "ja": "אבן צפור",
+        "en": "son of Zippor,",
+        "he": "בֶּן-צִפֹּר"
+      },
+      {
+        "ja": "מלך מואב",
+        "en": "king of Moab,",
+        "he": "מֶלֶךְ מוֹאָב"
+      },
+      {
+        "ja": "בעת' בהם אלי'י",
+        "en": "has sent them to me,",
+        "he": "שָׁלַח אֵלָי"
       }
     ],
     "11": [
       {
-        "ja": "יקול אן אלקום אלד'י כ'רג מן מצר. קד ג'טא צ'אהר אלארץ'",
-        "en": "saying: Behold, the people that came out of Egypt has already covered the face of the land.",
-        "he": "הִנֵּה הָעָם הַיֹּצֵא מִמִּצְרַיִם וַיְכַס אֶת-עֵין הָאָרֶץ"
+        "ja": "יקול",
+        "en": "saying:"
       },
       {
-        "ja": "אלאן תעאל סבה לי",
-        "en": "Now come, curse it for me",
-        "he": "עַתָּה לְכָה קָבָה-לִּי אֹתוֹ"
+        "ja": "אן אלקום",
+        "en": "Behold, the people",
+        "he": "הִנֵּה הָעָם"
       },
       {
-        "ja": "לעלי' אסתטיע אן אחארבה ואטרדה",
-        "en": "perhaps I shall be able to fight against it and drive it out.'",
-        "he": "אוּלַי אוּכַל לְהִלָּחֶם בּוֹ וְגֵרַשְׁתִּיו"
+        "ja": "אלד'י כ'רג",
+        "en": "that came out",
+        "he": "הַיֹּצֵא"
+      },
+      {
+        "ja": "מן מצר",
+        "en": "of Egypt",
+        "he": "מִמִּצְרַיִם"
+      },
+      {
+        "ja": "קד ג'טא צ'אהר אלארץ'",
+        "en": "has already covered the face of the land.",
+        "he": "וַיְכַס אֶת-עֵין הָאָרֶץ"
+      },
+      {
+        "ja": "אלאן תעאל",
+        "en": "Now come,",
+        "he": "עַתָּה לְכָה"
+      },
+      {
+        "ja": "סבה לי",
+        "en": "curse it for me;",
+        "he": "קָבָה-לִּי"
+      },
+      {
+        "ja": "לעלי' אסתטיע",
+        "en": "perhaps I shall be able",
+        "he": "אוּלַי אוּכַל"
+      },
+      {
+        "ja": "אן אחארבה",
+        "en": "to fight against it",
+        "he": "לְהִלָּחֶם בּוֹ"
+      },
+      {
+        "ja": "ואטרדה",
+        "en": "and drive it out.'",
+        "he": "וְגֵרַשְׁתִּיו"
       }
     ],
     "12": [
       {
-        "ja": "קאל לה לא תמץ' מעהם",
-        "en": "He said to him: 'Do not go with them",
-        "he": "וַיֹּאמֶר אֱלֹהִים אֶל-בִּלְעָם לֹא תֵלֵךְ עִמָּהֶם"
+        "ja": "קאל לה",
+        "en": "He said to him:",
+        "he": "וַיֹּאמֶר אֱלֹהִים"
       },
       {
-        "ja": "ולא תלען אלקום. פאנה מבארך",
-        "en": "and do not curse the people — for it is blessed.'",
-        "he": "לֹא תָאֹר אֶת-הָעָם כִּי בָרוּךְ הוּא"
+        "ja": "לא תמץ'",
+        "en": "'Do not go",
+        "he": "לֹא תֵלֵךְ"
+      },
+      {
+        "ja": "מעהם",
+        "en": "with them,",
+        "he": "עִמָּהֶם"
+      },
+      {
+        "ja": "ולא תלען",
+        "en": "and do not curse",
+        "he": "לֹא תָאֹר"
+      },
+      {
+        "ja": "אלקום",
+        "en": "the people —",
+        "he": "אֶת-הָעָם"
+      },
+      {
+        "ja": "פאנה מבארך",
+        "en": "for it is blessed.'",
+        "he": "כִּי בָרוּךְ הוּא"
       }
     ],
     "13": [
       {
-        "ja": "פקאם באלג'דאה",
-        "en": "And he rose in the morning",
-        "he": "וַיָּקָם בִּלְעָם בַּבֹּקֶר"
+        "ja": "פקאם",
+        "en": "And he rose",
+        "he": "וַיָּקָם בִּלְעָם"
       },
       {
-        "ja": "פקאל לרויסא בלק. אמצ'ו אלי' בלדכם",
-        "en": "and said to the officers of Balak: 'Go back to your land",
-        "he": "וַיֹּאמֶר אֶל-שָׂרֵי בָלָק לְכוּ אֶל-אַרְצְכֶם"
+        "ja": "באלג'דאה",
+        "en": "in the morning,",
+        "he": "בַּבֹּקֶר"
       },
       {
-        "ja": "לאן אללה נהאני. אן אמצ'י מעכם",
-        "en": "for God has forbidden me to go with you.'",
-        "he": "כִּי מֵאֵן יְהוָה לְתִתִּי לַהֲלֹךְ עִמָּכֶם"
+        "ja": "פקאל",
+        "en": "and said",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "לרויסא בלק",
+        "en": "to the officers of Balak:",
+        "he": "אֶל-שָׂרֵי בָלָק"
+      },
+      {
+        "ja": "אמצ'ו",
+        "en": "'Go back",
+        "he": "לְכוּ"
+      },
+      {
+        "ja": "אלי' בלדכם",
+        "en": "to your land,",
+        "he": "אֶל-אַרְצְכֶם"
+      },
+      {
+        "ja": "לאן אללה נהאני",
+        "en": "for God has forbidden me",
+        "he": "כִּי מֵאֵן יְהוָה"
+      },
+      {
+        "ja": "אן אמצ'י",
+        "en": "to go",
+        "he": "לְתִתִּי לַהֲלֹךְ"
+      },
+      {
+        "ja": "מעכם",
+        "en": "with you.'",
+        "he": "עִמָּכֶם"
       }
     ],
     "14": [
       {
-        "ja": "פקאם רויסא מואב. וגאו אלי' בלק",
-        "en": "And the officers of Moab arose, and came to Balak",
-        "he": "וַיָּקוּמוּ שָׂרֵי מוֹאָב וַיָּבֹאוּ אֶל-בָּלָק"
+        "ja": "פקאם",
+        "en": "And",
+        "he": "וַיָּקוּמוּ"
       },
       {
-        "ja": "וקאלו. קד אבא בלעם אן יגי מענא",
-        "en": "and said: 'Balaam has refused to come with us.'",
-        "he": "וַיֹּאמְרוּ מֵאֵן בִּלְעָם הֲלֹךְ עִמָּנוּ"
+        "ja": "רויסא מואב",
+        "en": "the officers of Moab arose,",
+        "he": "שָׂרֵי מוֹאָב"
+      },
+      {
+        "ja": "וגאו",
+        "en": "and came",
+        "he": "וַיָּבֹאוּ"
+      },
+      {
+        "ja": "אלי' בלק",
+        "en": "to Balak,",
+        "he": "אֶל-בָּלָק"
+      },
+      {
+        "ja": "וקאלו",
+        "en": "and said:",
+        "he": "וַיֹּאמְרוּ"
+      },
+      {
+        "ja": "קד אבא בלעם",
+        "en": "'Balaam has refused",
+        "he": "מֵאֵן בִּלְעָם"
+      },
+      {
+        "ja": "אן יגי מענא",
+        "en": "to come with us.'",
+        "he": "הֲלֹךְ עִמָּנוּ"
       }
     ],
     "15": [
       {
-        "ja": "פעאוד בלק איצ'א. בעת' רויסא. א עצ'ם ואגל מן אולאיך",
-        "en": "And Balak again sent officers — greater and more honored than those.",
-        "he": "וַיֹּסֶף עוֹד בָּלָק שְׁלֹחַ שָׂרִים רַבִּים וְנִכְבָּדִים מֵאֵלֶּה"
+        "ja": "פעאוד",
+        "en": "And",
+        "he": "וַיֹּסֶף עוֹד"
+      },
+      {
+        "ja": "בלק איצ'א",
+        "en": "Balak again",
+        "he": "בָּלָק"
+      },
+      {
+        "ja": "בעת'",
+        "en": "sent",
+        "he": "שְׁלֹחַ"
+      },
+      {
+        "ja": "רויסא",
+        "en": "officers —",
+        "he": "שָׂרִים"
+      },
+      {
+        "ja": "א עצ'ם",
+        "en": "greater",
+        "he": "רַבִּים"
+      },
+      {
+        "ja": "ואגל",
+        "en": "and more honored",
+        "he": "וְנִכְבָּדִים"
+      },
+      {
+        "ja": "מן אולאיך",
+        "en": "than those.",
+        "he": "מֵאֵלֶּה"
       }
     ],
     "16": [
       {
-        "ja": "פגאו אלי' בלעם. וקאלו לה",
-        "en": "And they came to Balaam, and said to him",
-        "he": "וַיָּבֹאוּ אֶל-בִּלְעָם וַיֹּאמְרוּ לוֹ"
+        "ja": "פגאו",
+        "en": "And they came",
+        "he": "וַיָּבֹאוּ"
       },
       {
-        "ja": "כד'א קאל בלק אבן צפור",
-        "en": "'Thus says Balak son of Zippor",
-        "he": "כֹּה אָמַר בָּלָק בֶּן-צִפּוֹר"
+        "ja": "אלי' בלעם",
+        "en": "to Balaam,",
+        "he": "אֶל-בִּלְעָם"
       },
       {
-        "ja": "לא תמתנע מן אלמציר אלי'י",
-        "en": "Do not hold yourself back from journeying to me.",
-        "he": "אַל-נָא תִמָּנַע מֵהֲלֹךְ אֵלָי"
+        "ja": "וקאלו לה",
+        "en": "and said to him:",
+        "he": "וַיֹּאמְרוּ לוֹ"
+      },
+      {
+        "ja": "כד'א קאל",
+        "en": "'Thus says",
+        "he": "כֹּה אָמַר"
+      },
+      {
+        "ja": "בלק",
+        "en": "Balak",
+        "he": "בָּלָק"
+      },
+      {
+        "ja": "אבן צפור",
+        "en": "son of Zippor:",
+        "he": "בֶּן-צִפּוֹר"
+      },
+      {
+        "ja": "לא תמתנע",
+        "en": "Do not hold yourself back",
+        "he": "אַל-נָא תִמָּנַע"
+      },
+      {
+        "ja": "מן אלמציר",
+        "en": "from journeying",
+        "he": "מֵהֲלֹךְ"
+      },
+      {
+        "ja": "אלי'י",
+        "en": "to me.",
+        "he": "אֵלָי"
       }
     ],
     "17": [
       {
-        "ja": "פאני סאכרמך גדא",
-        "en": "For I will honor you greatly",
-        "he": "כִּי-כַבֵּד אֲכַבֶּדְךָ מְאֹד"
+        "ja": "פאני סאכרמך",
+        "en": "For I will honor you",
+        "he": "כִּי-כַבֵּד אֲכַבֶּדְךָ"
       },
       {
-        "ja": "וכל מא תקול לי אצנעה",
-        "en": "and whatever you say to me I will do",
-        "he": "וְכֹל אֲשֶׁר-תֹּאמַר אֵלַי אֶעֱשֶׂה"
+        "ja": "גדא",
+        "en": "greatly,",
+        "he": "מְאֹד"
       },
       {
-        "ja": "ותעאל אלען לי הולאי אלקום",
-        "en": "— come, curse this people for me.'",
-        "he": "וּלְכָה-נָּא קָבָה-לִּי אֵת הָעָם הַזֶּה"
+        "ja": "וכל מא תקול",
+        "en": "and whatever you say",
+        "he": "וְכֹל אֲשֶׁר-תֹּאמַר"
+      },
+      {
+        "ja": "לי",
+        "en": "to me",
+        "he": "אֵלַי"
+      },
+      {
+        "ja": "אצנעה",
+        "en": "I will do —",
+        "he": "אֶעֱשֶׂה"
+      },
+      {
+        "ja": "ותעאל",
+        "en": "come,",
+        "he": "וּלְכָה-נָּא"
+      },
+      {
+        "ja": "אלען לי",
+        "en": "curse",
+        "he": "קָבָה-לִּי"
+      },
+      {
+        "ja": "הולאי אלקום",
+        "en": "this people for me.'",
+        "he": "אֵת הָעָם הַזֶּה"
       }
     ],
     "18": [
       {
-        "ja": "פאגאב בלעם קואד בלק וקאל להם",
-        "en": "And Balaam answered the commanders of Balak, and said to them",
-        "he": "וַיַּעַן בִּלְעָם וַיֹּאמֶר אֶל-עַבְדֵי בָלָק"
+        "ja": "פאגאב בלעם",
+        "en": "And Balaam answered",
+        "he": "וַיַּעַן בִּלְעָם"
       },
       {
-        "ja": "לו אעטאני בלק. מל ביתה פצ'ה וד'הב",
-        "en": "'Even if Balak were to give me his houseful of silver and gold",
-        "he": "אִם-יִתֶּן-לִי בָלָק מְלֹא בֵיתוֹ כֶּסֶף וְזָהָב"
+        "ja": "קואד בלק",
+        "en": "the commanders of Balak,",
+        "he": "אֶל-עַבְדֵי בָלָק"
       },
       {
-        "ja": "לא אסתטיע אן אתגאוז אמר אללה רבי",
-        "en": "I cannot transgress the command of God my Lord",
-        "he": "לֹא אוּכַל לַעֲבֹר אֶת-פִּי יְהוָה אֱלֹהָי"
+        "ja": "וקאל להם",
+        "en": "and said to them:",
+        "he": "וַיֹּאמֶר"
       },
       {
-        "ja": "פאעמל צג'ירה או כבירה",
-        "en": "to do a small thing or a great thing.",
-        "he": "לַעֲשׂוֹת קְטַנָּה אוֹ גְדוֹלָה"
+        "ja": "לו אעטאני",
+        "en": "'Even if",
+        "he": "אִם-יִתֶּן-לִי"
+      },
+      {
+        "ja": "בלק",
+        "en": "Balak were to give me",
+        "he": "בָלָק"
+      },
+      {
+        "ja": "מל ביתה",
+        "en": "his houseful of",
+        "he": "מְלֹא בֵיתוֹ"
+      },
+      {
+        "ja": "פצ'ה",
+        "en": "silver",
+        "he": "כֶּסֶף"
+      },
+      {
+        "ja": "וד'הב",
+        "en": "and gold,",
+        "he": "וְזָהָב"
+      },
+      {
+        "ja": "לא אסתטיע אן אתגאוז",
+        "en": "I cannot transgress",
+        "he": "לֹא אוּכַל לַעֲבֹר"
+      },
+      {
+        "ja": "אמר אללה",
+        "en": "the command of God",
+        "he": "אֶת-פִּי יְהוָה"
+      },
+      {
+        "ja": "רבי",
+        "en": "my Lord,",
+        "he": "אֱלֹהָי"
+      },
+      {
+        "ja": "פאעמל",
+        "en": "to do",
+        "he": "לַעֲשׂוֹת"
+      },
+      {
+        "ja": "צג'ירה",
+        "en": "a small thing",
+        "he": "קְטַנָּה"
+      },
+      {
+        "ja": "או כבירה",
+        "en": "or a great thing.",
+        "he": "אוֹ גְדוֹלָה"
       }
     ],
     "19": [
       {
-        "ja": "ואלאן אקימו אנתם איצ'א. ההנא אללילה",
-        "en": "And now, stay here also tonight",
-        "he": "וְעַתָּה שְׁבוּ נָא בָזֶה גַּם-אַתֶּם--הַלָּיְלָה"
+        "ja": "ואלאן",
+        "en": "And now,",
+        "he": "וְעַתָּה"
       },
       {
-        "ja": "חתי' אנצ'ר מא יעאוד אללה אן יכ'אטבני בה",
-        "en": "that I may see what God will again address to me.'",
-        "he": "וְאֵדְעָה מַה-יֹּסֵף יְהוָה דַּבֵּר עִמִּי"
+        "ja": "אקימו",
+        "en": "stay",
+        "he": "שְׁבוּ נָא"
+      },
+      {
+        "ja": "אנתם איצ'א",
+        "en": "here also",
+        "he": "גַּם-אַתֶּם"
+      },
+      {
+        "ja": "ההנא אללילה",
+        "en": "tonight,",
+        "he": "הַלָּיְלָה"
+      },
+      {
+        "ja": "חתי' אנצ'ר",
+        "en": "that I may see",
+        "he": "וְאֵדְעָה"
+      },
+      {
+        "ja": "מא יעאוד",
+        "en": "what",
+        "he": "מַה-יֹּסֵף"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אן יכ'אטבני בה",
+        "en": "will again address to me.'",
+        "he": "דַּבֵּר עִמִּי"
       }
     ],
     "20": [
       {
-        "ja": "פואפא אמר אללה בלעם לילא",
-        "en": "And the decree of God came to Balaam at night",
-        "he": "וַיָּבֹא אֱלֹהִים אֶל-בִּלְעָם לַיְלָה"
+        "ja": "פואפא אמר אללה",
+        "en": "And the decree of God",
+        "he": "וַיָּבֹא אֱלֹהִים"
       },
       {
-        "ja": "וקאל. אן כאן הולאי אלקום גאו לידעוך",
-        "en": "and said: 'If these people have come to invite you",
-        "he": "וַיֹּאמֶר לוֹ אִם-לִקְרֹא לְךָ בָּאוּ הָאֲנָשִׁים"
+        "ja": "בלעם",
+        "en": "came to Balaam",
+        "he": "אֶל-בִּלְעָם"
       },
       {
-        "ja": "פקום אמץ' מעהם",
-        "en": "arise, go with them",
-        "he": "קוּם לֵךְ אִתָּם"
+        "ja": "לילא",
+        "en": "at night,",
+        "he": "לַיְלָה"
       },
       {
-        "ja": "לכן אלאמר. אלד'י אקולה לך אצנעה פקט",
-        "en": "— but only the word that I shall tell you, that alone do.'",
-        "he": "וְאַךְ אֶת-הַדָּבָר אֲשֶׁר-אֲדַבֵּר אֵלֶיךָ--אֹתוֹ תַעֲשֶׂה"
+        "ja": "וקאל",
+        "en": "and said:",
+        "he": "וַיֹּאמֶר לוֹ"
+      },
+      {
+        "ja": "אן כאן הולאי אלקום גאו לידעוך",
+        "en": "'If these people have come to invite you,",
+        "he": "אִם-לִקְרֹא לְךָ"
+      },
+      {
+        "ja": "פקום",
+        "en": "arise,",
+        "he": "קוּם"
+      },
+      {
+        "ja": "אמץ' מעהם",
+        "en": "go with them —",
+        "he": "לֵךְ אִתָּם"
+      },
+      {
+        "ja": "לכן",
+        "en": "but",
+        "he": "וְאַךְ"
+      },
+      {
+        "ja": "אלאמר",
+        "en": "only the word",
+        "he": "אֶת-הַדָּבָר"
+      },
+      {
+        "ja": "אלד'י אקולה לך",
+        "en": "that I shall tell you,",
+        "he": "אֲשֶׁר-אֲדַבֵּר אֵלֶיךָ"
+      },
+      {
+        "ja": "אצנעה פקט",
+        "en": "that alone do.'",
+        "he": "אֹתוֹ תַעֲשֶׂה"
       }
     ],
     "21": [
       {
-        "ja": "פקאם באלג'דאה. ואסרג אתאנה",
-        "en": "And he rose in the morning, and saddled his she-donkey",
-        "he": "וַיָּקָם בִּלְעָם בַּבֹּקֶר וַיַּחֲבֹשׁ אֶת-אֲתֹנוֹ"
+        "ja": "פקאם",
+        "en": "And he rose",
+        "he": "וַיָּקָם בִּלְעָם"
       },
       {
-        "ja": "ומצ'א מע רויסא מואב",
-        "en": "and went with the officers of Moab.",
-        "he": "וַיֵּלֶךְ עִם-שָׂרֵי מוֹאָב"
+        "ja": "באלג'דאה",
+        "en": "in the morning,",
+        "he": "בַּבֹּקֶר"
+      },
+      {
+        "ja": "ואסרג",
+        "en": "and saddled",
+        "he": "וַיַּחֲבֹשׁ"
+      },
+      {
+        "ja": "אתאנה",
+        "en": "his she-donkey,",
+        "he": "אֶת-אֲתֹנוֹ"
+      },
+      {
+        "ja": "ומצ'א",
+        "en": "and went",
+        "he": "וַיֵּלֶךְ"
+      },
+      {
+        "ja": "מע רויסא",
+        "en": "with the officers of",
+        "he": "עִם-שָׂרֵי"
+      },
+      {
+        "ja": "מואב",
+        "en": "Moab.",
+        "he": "מוֹאָב"
       }
     ],
     "22": [
       {
-        "ja": "ת'ם אשתד ג'צ'ב אללה למצ'יה טאמעא",
-        "en": "Then God's anger intensified at his going in greed",
-        "he": "וַיִּחַר-אַף אֱלֹהִים כִּי-הוֹלֵךְ הוּא"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "פוקף מלך אללה פי אלטריק ליחידה ען ד'אלך",
-        "en": "and the angel of God stood in the road to turn him away from that",
-        "he": "וַיִּתְיַצֵּב מַלְאַךְ יְהוָה בַּדֶּרֶךְ לְשָׂטָן לוֹ"
+        "ja": "אשתד ג'צ'ב",
+        "en": "God's anger intensified",
+        "he": "וַיִּחַר-אַף"
       },
       {
-        "ja": "והו ראכב עלי' אתאנה. ומעה ג'לאמיה",
-        "en": "while he was riding on his she-donkey and his two youths were with him.",
-        "he": "וְהוּא רֹכֵב עַל-אֲתֹנוֹ וּשְׁנֵי נְעָרָיו עִמּוֹ"
+        "ja": "אללה",
+        "en": "at his going",
+        "he": "אֱלֹהִים"
+      },
+      {
+        "ja": "למצ'יה טאמעא",
+        "en": "in greed;",
+        "he": "כִּי-הוֹלֵךְ הוּא"
+      },
+      {
+        "ja": "פוקף",
+        "en": "and the angel of God stood",
+        "he": "וַיִּתְיַצֵּב"
+      },
+      {
+        "ja": "מלך אללה",
+        "en": "in the road",
+        "he": "מַלְאַךְ יְהוָה"
+      },
+      {
+        "ja": "פי אלטריק",
+        "en": "to turn him away",
+        "he": "בַּדֶּרֶךְ"
+      },
+      {
+        "ja": "ליחידה ען ד'אלך",
+        "en": "from that —",
+        "he": "לְשָׂטָן לוֹ"
+      },
+      {
+        "ja": "והו ראכב",
+        "en": "while he was riding",
+        "he": "וְהוּא רֹכֵב"
+      },
+      {
+        "ja": "עלי' אתאנה",
+        "en": "on his she-donkey",
+        "he": "עַל-אֲתֹנוֹ"
+      },
+      {
+        "ja": "ומעה ג'לאמיה",
+        "en": "and his two youths were with him.",
+        "he": "וּשְׁנֵי נְעָרָיו עִמּוֹ"
       }
     ],
     "23": [
       {
-        "ja": "פלמא ראת אלאתאן מלך אללה קאימא פי אלטריק. וסיפה מצלת פי ידה",
-        "en": "And when the she-donkey saw the angel of God standing in the road, with his sword drawn in his hand",
-        "he": "וַתֵּרֶא הָאָתוֹן אֶת-מַלְאַךְ יְהוָה נִצָּב בַּדֶּרֶךְ וְחַרְבּוֹ שְׁלוּפָה בְּיָדוֹ"
+        "ja": "פלמא ראת",
+        "en": "And when",
+        "he": "וַתֵּרֶא"
       },
       {
-        "ja": "מאלת ען אלטריק. וסארת פי אלצ'יאע",
-        "en": "she turned aside from the road and went through the fields",
-        "he": "וַתֵּט הָאָתוֹן מִן-הַדֶּרֶךְ וַתֵּלֶךְ בַּשָּׂדֶה"
+        "ja": "אלאתאן",
+        "en": "the she-donkey saw",
+        "he": "הָאָתוֹן"
       },
       {
-        "ja": "פצ'רבהא בלעם. לירדהא אלי' אלטריק",
-        "en": "so Balaam struck her, to turn her back to the road.",
-        "he": "וַיַּךְ בִּלְעָם אֶת-הָאָתוֹן לְהַטֹּתָהּ הַדָּרֶךְ"
+        "ja": "מלך אללה",
+        "en": "the angel of God",
+        "he": "אֶת-מַלְאַךְ יְהוָה"
+      },
+      {
+        "ja": "קאימא פי אלטריק",
+        "en": "standing in the road,",
+        "he": "נִצָּב בַּדֶּרֶךְ"
+      },
+      {
+        "ja": "וסיפה מצלת",
+        "en": "with his sword drawn",
+        "he": "וְחַרְבּוֹ שְׁלוּפָה"
+      },
+      {
+        "ja": "פי ידה",
+        "en": "in his hand,",
+        "he": "בְּיָדוֹ"
+      },
+      {
+        "ja": "מאלת",
+        "en": "she turned aside",
+        "he": "וַתֵּט הָאָתוֹן"
+      },
+      {
+        "ja": "ען אלטריק",
+        "en": "from the road",
+        "he": "מִן-הַדֶּרֶךְ"
+      },
+      {
+        "ja": "וסארת פי אלצ'יאע",
+        "en": "and went through the fields;",
+        "he": "וַתֵּלֶךְ בַּשָּׂדֶה"
+      },
+      {
+        "ja": "פצ'רבהא בלעם",
+        "en": "so Balaam struck her,",
+        "he": "וַיַּךְ בִּלְעָם"
+      },
+      {
+        "ja": "לירדהא אלי' אלטריק",
+        "en": "to turn her back to the road.",
+        "he": "לְהַטֹּתָהּ הַדָּרֶךְ"
       }
     ],
     "24": [
       {
-        "ja": "ת'ם וקף מלך אללה. פי זקאק אלכרום",
-        "en": "Then the angel of God stood in the narrow lane of the vineyards",
-        "he": "וַיַּעֲמֹד מַלְאַךְ יְהוָה בְּמִשְׁעוֹל הַכְּרָמִים"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "והנאך גדאר ימנה ויסרה",
-        "en": "with a wall on the right and on the left.",
-        "he": "גָּדֵר מִזֶּה וְגָדֵר מִזֶּה"
+        "ja": "וקף",
+        "en": "stood",
+        "he": "וַיַּעֲמֹד"
+      },
+      {
+        "ja": "מלך אללה",
+        "en": "the angel of God",
+        "he": "מַלְאַךְ יְהוָה"
+      },
+      {
+        "ja": "פי זקאק",
+        "en": "in the narrow lane of",
+        "he": "בְּמִשְׁעוֹל"
+      },
+      {
+        "ja": "אלכרום",
+        "en": "the vineyards,",
+        "he": "הַכְּרָמִים"
+      },
+      {
+        "ja": "והנאך גדאר",
+        "en": "with a wall",
+        "he": "גָּדֵר"
+      },
+      {
+        "ja": "ימנה",
+        "en": "on the right",
+        "he": "מִזֶּה"
+      },
+      {
+        "ja": "ויסרה",
+        "en": "and on the left.",
+        "he": "וְגָדֵר מִזֶּה"
       }
     ],
     "25": [
       {
         "ja": "פלמא ראתה",
-        "en": "And when she saw him",
-        "he": "וַתֵּרֶא הָאָתוֹן אֶת-מַלְאַךְ יְהוָה"
+        "en": "And when she saw him,",
+        "he": "וַתֵּרֶא הָאָתוֹן"
       },
       {
-        "ja": "אזדחמת מע אלחאיט. פצ'ג'טת רגל בלעם אלי' אלחאיט",
-        "en": "she pressed herself against the wall and crushed Balaam's foot against the wall",
-        "he": "וַתִּלָּחֵץ אֶל-הַקִּיר וַתִּלְחַץ אֶת-רֶגֶל בִּלְעָם אֶל-הַקִּיר"
+        "ja": "אזדחמת מע אלחאיט",
+        "en": "she pressed herself against the wall",
+        "he": "וַתִּלָּחֵץ אֶל-הַקִּיר"
       },
       {
-        "ja": "פזאד פי צ'רבהא",
-        "en": "so he added to his striking of her.",
-        "he": "וַיֹּסֶף לְהַכֹּתָהּ"
+        "ja": "פצ'ג'טת רגל בלעם",
+        "en": "and crushed Balaam's foot",
+        "he": "וַתִּלְחַץ אֶת-רֶגֶל בִּלְעָם"
+      },
+      {
+        "ja": "אלי' אלחאיט",
+        "en": "against the wall;",
+        "he": "אֶל-הַקִּיר"
+      },
+      {
+        "ja": "פזאד",
+        "en": "so he added",
+        "he": "וַיֹּסֶף"
+      },
+      {
+        "ja": "פי צ'רבהא",
+        "en": "to his striking of her.",
+        "he": "לְהַכֹּתָהּ"
       }
     ],
     "26": [
       {
-        "ja": "ת'ם עאוד מלך אללה פגאז. ווקף פי מוצ'ע מצ'יק",
-        "en": "And the angel of God passed on again, and stood in a narrow place",
-        "he": "וַיּוֹסֶף מַלְאַךְ-יְהוָה עֲבוֹר וַיַּעֲמֹד בְּמָקוֹם צָר"
+        "ja": "ת'ם",
+        "en": "And"
       },
       {
-        "ja": "מא ליס טריק אן ימיל ענה ימנה ולא יסרה",
-        "en": "where there was no way to turn aside from it right or left.",
-        "he": "אֲשֶׁר אֵין-דֶּרֶךְ לִנְטוֹת יָמִין וּשְׂמֹאול"
+        "ja": "עאוד",
+        "en": "again",
+        "he": "וַיּוֹסֶף"
+      },
+      {
+        "ja": "מלך אללה",
+        "en": "the angel of God",
+        "he": "מַלְאַךְ-יְהוָה"
+      },
+      {
+        "ja": "פגאז",
+        "en": "passed on",
+        "he": "עֲבוֹר"
+      },
+      {
+        "ja": "ווקף",
+        "en": "and stood",
+        "he": "וַיַּעֲמֹד"
+      },
+      {
+        "ja": "פי מוצ'ע מצ'יק",
+        "en": "in a narrow place",
+        "he": "בְּמָקוֹם צָר"
+      },
+      {
+        "ja": "מא ליס טריק",
+        "en": "where there was no way",
+        "he": "אֲשֶׁר אֵין-דֶּרֶךְ"
+      },
+      {
+        "ja": "אן ימיל ענה",
+        "en": "to turn aside from it",
+        "he": "לִנְטוֹת"
+      },
+      {
+        "ja": "ימנה",
+        "en": "right",
+        "he": "יָמִין"
+      },
+      {
+        "ja": "ולא יסרה",
+        "en": "or left.",
+        "he": "וּשְׂמֹאול"
       }
     ],
     "27": [
       {
         "ja": "ולמא ראתה",
-        "en": "And when she saw him",
-        "he": "וַתֵּרֶא הָאָתוֹן אֶת-מַלְאַךְ יְהוָה"
+        "en": "And when she saw him,",
+        "he": "וַתֵּרֶא הָאָתוֹן"
       },
       {
-        "ja": "רבצת תחת בלעם",
-        "en": "she lay down beneath Balaam",
-        "he": "וַתִּרְבַּץ תַּחַת בִּלְעָם"
+        "ja": "רבצת",
+        "en": "she lay down",
+        "he": "וַתִּרְבַּץ"
       },
       {
-        "ja": "פאשתד ג'צ'ב בלעם. פצ'רבהא באלעצא",
-        "en": "and Balaam's anger intensified, and he struck her with the staff.",
-        "he": "וַיִּחַר-אַף בִּלְעָם וַיַּךְ אֶת-הָאָתוֹן בַּמַּקֵּל"
+        "ja": "תחת בלעם",
+        "en": "beneath Balaam;",
+        "he": "תַּחַת בִּלְעָם"
+      },
+      {
+        "ja": "פאשתד ג'צ'ב",
+        "en": "and Balaam's anger intensified,",
+        "he": "וַיִּחַר-אַף"
+      },
+      {
+        "ja": "בלעם",
+        "en": "and he struck her",
+        "he": "בִּלְעָם"
+      },
+      {
+        "ja": "פצ'רבהא",
+        "en": "with",
+        "he": "וַיַּךְ אֶת-הָאָתוֹן"
+      },
+      {
+        "ja": "באלעצא",
+        "en": "the staff.",
+        "he": "בַּמַּקֵּל"
       }
     ],
     "28": [
       {
-        "ja": "פפתח אללה פאהא",
-        "en": "And God opened her mouth",
-        "he": "וַיִּפְתַּח יְהוָה אֶת-פִּי הָאָתוֹן"
+        "ja": "פפתח אללה",
+        "en": "And God opened",
+        "he": "וַיִּפְתַּח יְהוָה"
       },
       {
-        "ja": "פקאלת לבלעם מא ד'א צנעת בך",
-        "en": "and she said to Balaam: 'What have I done to you",
-        "he": "וַתֹּאמֶר לְבִלְעָם מֶה-עָשִׂיתִי לְךָ"
+        "ja": "פאהא",
+        "en": "her mouth,",
+        "he": "אֶת-פִּי הָאָתוֹן"
       },
       {
-        "ja": "אד' צ'רבתני. הד'ה אלמרה אלת'אלת'ה",
-        "en": "that you have struck me — this third time?'",
-        "he": "כִּי הִכִּיתַנִי זֶה שָׁלֹשׁ רְגָלִים"
+        "ja": "פקאלת",
+        "en": "and she said",
+        "he": "וַתֹּאמֶר"
+      },
+      {
+        "ja": "לבלעם",
+        "en": "to Balaam:",
+        "he": "לְבִלְעָם"
+      },
+      {
+        "ja": "מא ד'א צנעת בך",
+        "en": "'What have I done to you,",
+        "he": "מֶה-עָשִׂיתִי לְךָ"
+      },
+      {
+        "ja": "אד' צ'רבתני",
+        "en": "that you have struck me —",
+        "he": "כִּי הִכִּיתַנִי"
+      },
+      {
+        "ja": "הד'ה אלמרה אלת'אלת'ה",
+        "en": "this third time?'",
+        "he": "זֶה שָׁלֹשׁ רְגָלִים"
       }
     ],
     "29": [
       {
-        "ja": "קאל. לאנך תמרדת בי",
-        "en": "He said: 'Because you have defied me",
-        "he": "וַיֹּאמֶר בִּלְעָם לָאָתוֹן כִּי הִתְעַלַּלְתְּ בִּי"
+        "ja": "קאל",
+        "en": "He said:",
+        "he": "וַיֹּאמֶר בִּלְעָם לָאָתוֹן"
       },
       {
-        "ja": "ולו אן פי ידי סיף לקתלתך",
-        "en": "— had I a sword in my hand, I would kill you now.'",
-        "he": "לוּ יֶשׁ-חֶרֶב בְּיָדִי כִּי עַתָּה הֲרַגְתִּיךְ"
+        "ja": "לאנך תמרדת בי",
+        "en": "'Because you have defied me —",
+        "he": "כִּי הִתְעַלַּלְתְּ בִּי"
+      },
+      {
+        "ja": "ולו אן פי ידי סיף",
+        "en": "had I a sword in my hand,",
+        "he": "לוּ יֶשׁ-חֶרֶב"
+      },
+      {
+        "ja": "לקתלתך",
+        "en": "I would kill you now.'",
+        "he": "כִּי עַתָּה הֲרַגְתִּיךְ"
       }
     ],
     "30": [
       {
         "ja": "קאלת",
-        "en": "She said",
-        "he": "וַתֹּאמֶר הָאָתוֹן אֶל-בִּלְעָם"
+        "en": "She said:",
+        "he": "וַתֹּאמֶר הָאָתוֹן"
       },
       {
-        "ja": "אלי'ס אנא אתאנך אלד'י רכבתני. מנד' כנת אלי' הד'א אליום",
-        "en": "'Am I not your she-donkey on which you have ridden since I came to be until this day",
-        "he": "הֲלוֹא אָנֹכִי אֲתֹנְךָ אֲשֶׁר-רָכַבְתָּ עָלַי מֵעוֹדְךָ עַד-הַיּוֹם הַזֶּה"
+        "ja": "אלי'ס אנא",
+        "en": "'Am I not",
+        "he": "הֲלוֹא אָנֹכִי"
       },
       {
-        "ja": "הל עוודתך אן אצנע בך כד'א",
-        "en": "Have I been accustomed to doing such a thing to you?'",
-        "he": "הַהַסְכֵּן הִסְכַּנְתִּי לַעֲשׂוֹת לְךָ כֹּה"
+        "ja": "אתאנך",
+        "en": "your she-donkey",
+        "he": "אֲתֹנְךָ"
+      },
+      {
+        "ja": "אלד'י רכבתני",
+        "en": "on which you have ridden",
+        "he": "אֲשֶׁר-רָכַבְתָּ עָלַי"
+      },
+      {
+        "ja": "מנד' כנת",
+        "en": "since I came to be",
+        "he": "מֵעוֹדְךָ"
+      },
+      {
+        "ja": "אלי' הד'א אליום",
+        "en": "until this day?",
+        "he": "עַד-הַיּוֹם הַזֶּה"
+      },
+      {
+        "ja": "הל עוודתך",
+        "en": "Have I been accustomed",
+        "he": "הַהַסְכֵּן הִסְכַּנְתִּי"
+      },
+      {
+        "ja": "אן אצנע בך כד'א",
+        "en": "to doing such a thing to you?'",
+        "he": "לַעֲשׂוֹת לְךָ כֹּה"
       },
       {
         "ja": "קאל לא",
@@ -480,106 +1398,290 @@
     ],
     "31": [
       {
-        "ja": "ת'ם כשף אללה ען בצר בלעם",
-        "en": "Then God uncovered Balaam's sight",
-        "he": "וַיְגַל יְהוָה אֶת-עֵינֵי בִלְעָם"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "פראא מלך אללה ואקפא פי אלטריק. וסיפה מצלת פי ידה",
-        "en": "and he saw the angel of God standing in the road, with his sword drawn in his hand",
-        "he": "וַיַּרְא אֶת-מַלְאַךְ יְהוָה נִצָּב בַּדֶּרֶךְ וְחַרְבּוֹ שְׁלֻפָה בְּיָדוֹ"
+        "ja": "כשף אללה",
+        "en": "God uncovered",
+        "he": "וַיְגַל יְהוָה"
       },
       {
-        "ja": "פכ'ר בין ידיה סאגדא",
-        "en": "and he fell down before him prostrating.",
-        "he": "וַיִּקֹּד וַיִּשְׁתַּחוּ לְאַפָּיו"
+        "ja": "ען בצר בלעם",
+        "en": "Balaam's sight,",
+        "he": "אֶת-עֵינֵי בִלְעָם"
+      },
+      {
+        "ja": "פראא",
+        "en": "and he saw",
+        "he": "וַיַּרְא"
+      },
+      {
+        "ja": "מלך אללה",
+        "en": "the angel of God",
+        "he": "אֶת-מַלְאַךְ יְהוָה"
+      },
+      {
+        "ja": "ואקפא פי אלטריק",
+        "en": "standing in the road,",
+        "he": "נִצָּב בַּדֶּרֶךְ"
+      },
+      {
+        "ja": "וסיפה מצלת",
+        "en": "with his sword drawn",
+        "he": "וְחַרְבּוֹ שְׁלֻפָה"
+      },
+      {
+        "ja": "פי ידה",
+        "en": "in his hand;",
+        "he": "בְּיָדוֹ"
+      },
+      {
+        "ja": "פכ'ר בין ידיה",
+        "en": "and he fell down before him",
+        "he": "וַיִּקֹּד וַיִּשְׁתַּחוּ"
+      },
+      {
+        "ja": "סאגדא",
+        "en": "prostrating.",
+        "he": "לְאַפָּיו"
       }
     ],
     "32": [
       {
-        "ja": "פקאל לה מלך אללה. לם צ'רבת אתאנך. הד'ה אלמרה אלת'אלת'ה",
-        "en": "And the angel of God said to him: 'Why have you struck your she-donkey this third time?",
-        "he": "וַיֹּאמֶר אֵלָיו מַלְאַךְ יְהוָה עַל-מָה הִכִּיתָ אֶת-אֲתֹנְךָ זֶה שָׁלוֹשׁ רְגָלִים"
+        "ja": "פקאל לה",
+        "en": "And",
+        "he": "וַיֹּאמֶר אֵלָיו"
       },
       {
-        "ja": "ואנא כ'רגת אן אחידך",
-        "en": "I have come out to turn you aside",
-        "he": "הִנֵּה אָנֹכִי יָצָאתִי לְשָׂטָן"
+        "ja": "מלך אללה",
+        "en": "the angel of God said to him:",
+        "he": "מַלְאַךְ יְהוָה"
       },
       {
-        "ja": "אד' תורטת אלטריק חד'אי",
-        "en": "— for the road before me has become an entanglement.'",
-        "he": "כִּי-יָרַט הַדֶּרֶךְ לְנֶגְדִּי"
+        "ja": "לם צ'רבת",
+        "en": "'Why have you struck",
+        "he": "עַל-מָה הִכִּיתָ"
+      },
+      {
+        "ja": "אתאנך",
+        "en": "your she-donkey",
+        "he": "אֶת-אֲתֹנְךָ"
+      },
+      {
+        "ja": "הד'ה אלמרה אלת'אלת'ה",
+        "en": "this third time?",
+        "he": "זֶה שָׁלוֹשׁ רְגָלִים"
+      },
+      {
+        "ja": "ואנא כ'רגת",
+        "en": "I have come out",
+        "he": "הִנֵּה אָנֹכִי יָצָאתִי"
+      },
+      {
+        "ja": "אן אחידך",
+        "en": "to turn you aside —",
+        "he": "לְשָׂטָן"
+      },
+      {
+        "ja": "אד' תורטת אלטריק",
+        "en": "for the road",
+        "he": "כִּי-יָרַט הַדֶּרֶךְ"
+      },
+      {
+        "ja": "חד'אי",
+        "en": "before me has become an entanglement.'",
+        "he": "לְנֶגְדִּי"
       }
     ],
     "33": [
       {
-        "ja": "חתי' ראתני פמאלת עני. הד'ה אלמרה אלת'אלת'ה",
-        "en": "Until she saw me and turned aside from me — this third time.",
-        "he": "וַתִּרְאַנִי הָאָתוֹן וַתֵּט לְפָנַי זֶה שָׁלֹשׁ רְגָלִים"
+        "ja": "חתי' ראתני",
+        "en": "Until she saw me",
+        "he": "וַתִּרְאַנִי הָאָתוֹן"
       },
       {
-        "ja": "פלו לם תמיל עני. לקתלתך אלאן ובקיתהא",
-        "en": "Had she not turned aside from me, I would have killed you now and let her live.'",
-        "he": "אוּלַי נָטְתָה מִפָּנַי כִּי עַתָּה גַּם-אֹתְכָה הָרַגְתִּי וְאוֹתָהּ הֶחֱיֵיתִי"
+        "ja": "פמאלת עני",
+        "en": "and turned aside from me —",
+        "he": "וַתֵּט לְפָנַי"
+      },
+      {
+        "ja": "הד'ה אלמרה אלת'אלת'ה",
+        "en": "this third time.",
+        "he": "זֶה שָׁלֹשׁ רְגָלִים"
+      },
+      {
+        "ja": "פלו לם תמיל עני",
+        "en": "Had she not turned aside from me,",
+        "he": "אוּלַי נָטְתָה מִפָּנַי"
+      },
+      {
+        "ja": "לקתלתך אלאן",
+        "en": "I would have killed you now",
+        "he": "כִּי עַתָּה גַּם-אֹתְכָה הָרַגְתִּי"
+      },
+      {
+        "ja": "ובקיתהא",
+        "en": "and let her live.'",
+        "he": "וְאוֹתָהּ הֶחֱיֵיתִי"
       }
     ],
     "34": [
       {
-        "ja": "קאל לה קד אכ'טית",
-        "en": "He said to him: 'I have erred",
-        "he": "וַיֹּאמֶר בִּלְעָם אֶל-מַלְאַךְ יְהוָה חָטָאתִי"
+        "ja": "קאל לה",
+        "en": "He said to him:",
+        "he": "וַיֹּאמֶר בִּלְעָם"
       },
       {
-        "ja": "אד' לם אעלם. אנך ואקף תלקאי פי אלטריק",
-        "en": "for I did not know that you were standing to meet me in the road",
-        "he": "כִּי לֹא יָדַעְתִּי כִּי אַתָּה נִצָּב לִקְרָאתִי בַּדָּרֶךְ"
+        "ja": "קד אכ'טית",
+        "en": "'I have erred,",
+        "he": "חָטָאתִי"
       },
       {
-        "ja": "ואלאן פאן סאך מצ'יי רגעת",
-        "en": "And now, if my going is displeasing to you, I shall turn back.'",
-        "he": "וְעַתָּה אִם-רַע בְּעֵינֶיךָ אָשׁוּבָה לִּי"
+        "ja": "אד' לם אעלם",
+        "en": "for I did not know",
+        "he": "כִּי לֹא יָדַעְתִּי"
+      },
+      {
+        "ja": "אנך ואקף",
+        "en": "that you were standing",
+        "he": "כִּי אַתָּה נִצָּב"
+      },
+      {
+        "ja": "תלקאי",
+        "en": "to meet me",
+        "he": "לִקְרָאתִי"
+      },
+      {
+        "ja": "פי אלטריק",
+        "en": "in the road.",
+        "he": "בַּדָּרֶךְ"
+      },
+      {
+        "ja": "ואלאן",
+        "en": "And now,",
+        "he": "וְעַתָּה"
+      },
+      {
+        "ja": "פאן סאך",
+        "en": "if my going is displeasing to you,",
+        "he": "אִם-רַע בְּעֵינֶיךָ"
+      },
+      {
+        "ja": "מצ'יי רגעת",
+        "en": "I shall turn back.'",
+        "he": "אָשׁוּבָה לִּי"
       }
     ],
     "35": [
       {
-        "ja": "קאל לה. אמץ' מע אלקום",
-        "en": "He said to him: 'Go with the people",
-        "he": "וַיֹּאמֶר מַלְאַךְ יְהוָה אֶל-בִּלְעָם לֵךְ עִם-הָאֲנָשִׁים"
+        "ja": "קאל לה",
+        "en": "He said to him:",
+        "he": "וַיֹּאמֶר מַלְאַךְ יְהוָה"
       },
       {
-        "ja": "ועדא אלקול. אלד'י אקולה לך קולה פקט",
-        "en": "— but only the word that I shall tell you, speak that alone.'",
-        "he": "וְאֶפֶס אֶת-הַדָּבָר אֲשֶׁר-אֲדַבֵּר אֵלֶיךָ אֹתוֹ תְדַבֵּר"
+        "ja": "אמץ'",
+        "en": "'Go",
+        "he": "לֵךְ"
       },
       {
-        "ja": "פמצ'א מעהם",
-        "en": "And he went with them.",
-        "he": "וַיֵּלֶךְ בִּלְעָם עִם-שָׂרֵי בָלָק"
+        "ja": "מע אלקום",
+        "en": "with the people —",
+        "he": "עִם-הָאֲנָשִׁים"
+      },
+      {
+        "ja": "ועדא",
+        "en": "but only",
+        "he": "וְאֶפֶס"
+      },
+      {
+        "ja": "אלקול",
+        "en": "the word",
+        "he": "אֶת-הַדָּבָר"
+      },
+      {
+        "ja": "אלד'י אקולה לך",
+        "en": "that I shall tell you,",
+        "he": "אֲשֶׁר-אֲדַבֵּר אֵלֶיךָ"
+      },
+      {
+        "ja": "קולה פקט",
+        "en": "speak that alone.'",
+        "he": "אֹתוֹ תְדַבֵּר"
+      },
+      {
+        "ja": "פמצ'א",
+        "en": "And he went",
+        "he": "וַיֵּלֶךְ בִּלְעָם"
+      },
+      {
+        "ja": "מעהם",
+        "en": "with them.",
+        "he": "עִם-שָׂרֵי בָלָק"
       }
     ],
     "36": [
       {
-        "ja": "פלמא סמע בלק במגי בלעם",
-        "en": "And when Balak heard of the coming of Balaam",
-        "he": "וַיִּשְׁמַע בָּלָק כִּי בָא בִלְעָם"
+        "ja": "פלמא סמע בלק",
+        "en": "And when Balak heard",
+        "he": "וַיִּשְׁמַע בָּלָק"
       },
       {
-        "ja": "כ'רג תלקאה אלי' קריה' מואב",
-        "en": "he went out to meet him at the town of Moab",
-        "he": "וַיֵּצֵא לִקְרָאתוֹ אֶל-עִיר מוֹאָב"
+        "ja": "במגי בלעם",
+        "en": "of the coming of Balaam,",
+        "he": "כִּי בָא בִלְעָם"
       },
       {
-        "ja": "אלד'י עלי' תכ'ם ארנון. אלד'י פי טרפה",
-        "en": "which is on the border of the Arnon, which is at its edge.",
-        "he": "אֲשֶׁר עַל-גְּבוּל אַרְנֹן אֲשֶׁר בִּקְצֵה הַגְּבוּל"
+        "ja": "כ'רג",
+        "en": "he went out",
+        "he": "וַיֵּצֵא"
+      },
+      {
+        "ja": "תלקאה",
+        "en": "to meet him",
+        "he": "לִקְרָאתוֹ"
+      },
+      {
+        "ja": "אלי' קריה' מואב",
+        "en": "at the town of Moab,",
+        "he": "אֶל-עִיר מוֹאָב"
+      },
+      {
+        "ja": "אלד'י עלי' תכ'ם",
+        "en": "which is on the border of",
+        "he": "אֲשֶׁר עַל-גְּבוּל"
+      },
+      {
+        "ja": "ארנון",
+        "en": "the Arnon,",
+        "he": "אַרְנֹן"
+      },
+      {
+        "ja": "אלד'י פי טרפה",
+        "en": "which is at its edge.",
+        "he": "אֲשֶׁר בִּקְצֵה הַגְּבוּל"
       }
     ],
     "37": [
       {
-        "ja": "קאל בלק לבלעם. אלי'ס ארסלת אלי'ך מרה קבל הד'ה לאדעוך",
-        "en": "Balak said to Balaam: 'Did I not send to you once before this to invite you?",
-        "he": "וַיֹּאמֶר בָּלָק אֶל-בִּלְעָם הֲלֹא שָׁלֹחַ שָׁלַחְתִּי אֵלֶיךָ לִקְרֹא-לָךְ"
+        "ja": "קאל בלק",
+        "en": "Balak said",
+        "he": "וַיֹּאמֶר בָּלָק"
+      },
+      {
+        "ja": "לבלעם",
+        "en": "to Balaam:",
+        "he": "אֶל-בִּלְעָם"
+      },
+      {
+        "ja": "אלי'ס ארסלת אלי'ך",
+        "en": "'Did I not send to you",
+        "he": "הֲלֹא שָׁלֹחַ שָׁלַחְתִּי אֵלֶיךָ"
+      },
+      {
+        "ja": "מרה קבל הד'ה לאדעוך",
+        "en": "once before this to invite you?",
+        "he": "לִקְרֹא-לָךְ"
       },
       {
         "ja": "לם לם תצאל אליי",
@@ -587,62 +1689,170 @@
         "he": "לָמָּה לֹא-הָלַכְתָּ אֵלָי"
       },
       {
-        "ja": "אתרא. ליס אקדר אן אכרמך",
-        "en": "Do you suppose I am unable to honor you?'",
-        "he": "הַאֻמְנָם לֹא אוּכַל כַּבְּדֶךָ"
+        "ja": "אתרא",
+        "en": "Do you suppose",
+        "he": "הַאֻמְנָם"
+      },
+      {
+        "ja": "ליס אקדר אן אכרמך",
+        "en": "I am unable to honor you?'",
+        "he": "לֹא אוּכַל כַּבְּדֶךָ"
       }
     ],
     "38": [
       {
-        "ja": "קאל. ואלאן קד צרת אלי'ך",
-        "en": "He said: 'And now I have indeed come to you",
-        "he": "וַיֹּאמֶר בִּלְעָם אֶל-בָּלָק הִנֵּה-בָאתִי אֵלֶיךָ"
+        "ja": "קאל",
+        "en": "He said:",
+        "he": "וַיֹּאמֶר בִּלְעָם"
       },
       {
-        "ja": "אתראני אסתטיע אן אקול שייא",
-        "en": "— but do you suppose I am able to say anything",
-        "he": "עַתָּה הֲיָכֹל אוּכַל דַּבֵּר מְאוּמָה"
+        "ja": "ואלאן קד צרת",
+        "en": "'And now I have indeed come",
+        "he": "הִנֵּה-בָאתִי"
       },
       {
-        "ja": "אלא מא ילקנניה אללה פקט",
-        "en": "except only what God will prompt me with?'",
-        "he": "הַדָּבָר אֲשֶׁר יָשִׂים אֱלֹהִים בְּפִי--אֹתוֹ אֲדַבֵּר"
+        "ja": "אלי'ך",
+        "en": "to you —",
+        "he": "אֵלֶיךָ"
+      },
+      {
+        "ja": "אתראני אסתטיע",
+        "en": "but do you suppose I am able",
+        "he": "עַתָּה הֲיָכֹל אוּכַל"
+      },
+      {
+        "ja": "אן אקול שייא",
+        "en": "to say anything,",
+        "he": "דַּבֵּר מְאוּמָה"
+      },
+      {
+        "ja": "אלא מא ילקנניה",
+        "en": "except only what",
+        "he": "הַדָּבָר אֲשֶׁר יָשִׂים"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "אֱלֹהִים"
+      },
+      {
+        "ja": "פקט",
+        "en": "will prompt me with?'",
+        "he": "בְּפִי--אֹתוֹ אֲדַבֵּר"
       }
     ],
     "39": [
       {
-        "ja": "ומצ'יא גמיעא. אלי' אן גאא אלי' קריה' חוצות",
-        "en": "And the two of them went together, until they came to the town of Hutzoth.",
-        "he": "וַיֵּלֶךְ בִּלְעָם עִם-בָּלָק וַיָּבֹאוּ קִרְיַת חֻצוֹת"
+        "ja": "ומצ'יא",
+        "en": "And the two of them went",
+        "he": "וַיֵּלֶךְ בִּלְעָם"
+      },
+      {
+        "ja": "גמיעא",
+        "en": "together,",
+        "he": "עִם-בָּלָק"
+      },
+      {
+        "ja": "אלי' אן גאא",
+        "en": "until they came"
+      },
+      {
+        "ja": "אלי'",
+        "en": "to",
+        "he": "וַיָּבֹאוּ"
+      },
+      {
+        "ja": "קריה' חוצות",
+        "en": "the town of Hutzoth.",
+        "he": "קִרְיַת חֻצוֹת"
       }
     ],
     "40": [
       {
-        "ja": "פד'בח בלק בקרא וג'נמא",
-        "en": "And Balak slaughtered cattle and sheep",
-        "he": "וַיִּזְבַּח בָּלָק בָּקָר וָצֹאן"
+        "ja": "פד'בח",
+        "en": "And Balak slaughtered",
+        "he": "וַיִּזְבַּח"
       },
       {
-        "ja": "ובעת' בד'אלך אלי' בלעם. ואלי' אלרויסא אלד'ין מעה",
-        "en": "and sent of that to Balaam and to the officers who were with him.",
-        "he": "וַיְשַׁלַּח לְבִלְעָם וְלַשָּׂרִים אֲשֶׁר אִתּוֹ"
+        "ja": "בלק",
+        "en": "cattle",
+        "he": "בָּלָק"
+      },
+      {
+        "ja": "בקרא",
+        "en": "and sheep,",
+        "he": "בָּקָר"
+      },
+      {
+        "ja": "וג'נמא",
+        "en": "and sent",
+        "he": "וָצֹאן"
+      },
+      {
+        "ja": "ובעת'",
+        "en": "of that",
+        "he": "וַיְשַׁלַּח"
+      },
+      {
+        "ja": "בד'אלך",
+        "en": "to Balaam"
+      },
+      {
+        "ja": "אלי' בלעם",
+        "en": "and to the officers",
+        "he": "לְבִלְעָם"
+      },
+      {
+        "ja": "ואלי' אלרויסא",
+        "en": "who were",
+        "he": "וְלַשָּׂרִים"
+      },
+      {
+        "ja": "אלד'ין מעה",
+        "en": "with him.",
+        "he": "אֲשֶׁר אִתּוֹ"
       }
     ],
     "41": [
       {
         "ja": "פלמא כאן באלג'דאה",
-        "en": "And it was in the morning",
+        "en": "And it was in the morning:",
         "he": "וַיְהִי בַבֹּקֶר"
       },
       {
-        "ja": "אכ'ד בלק בלעם. פאצעדה אלי' בעץ' ביאע מעבודה",
-        "en": "Balak took Balaam and brought him up to some of the high-places of his deity",
-        "he": "וַיִּקַּח בָּלָק אֶת-בִּלְעָם וַיַּעֲלֵהוּ בָּמוֹת בָּעַל"
+        "ja": "אכ'ד בלק",
+        "en": "Balak took",
+        "he": "וַיִּקַּח בָּלָק"
       },
       {
-        "ja": "פנצ'ר מן ת'ם בעץ' אלקום",
-        "en": "and from there he saw a portion of the people.",
-        "he": "וַיַּרְא מִשָּׁם קְצֵה הָעָם"
+        "ja": "בלעם",
+        "en": "Balaam",
+        "he": "אֶת-בִּלְעָם"
+      },
+      {
+        "ja": "פאצעדה",
+        "en": "and brought him up",
+        "he": "וַיַּעֲלֵהוּ"
+      },
+      {
+        "ja": "אלי' בעץ' ביאע מעבודה",
+        "en": "to some of the high-places of his deity,",
+        "he": "בָּמוֹת בָּעַל"
+      },
+      {
+        "ja": "פנצ'ר",
+        "en": "and from there he saw",
+        "he": "וַיַּרְא"
+      },
+      {
+        "ja": "מן ת'ם",
+        "en": "a portion of",
+        "he": "מִשָּׁם"
+      },
+      {
+        "ja": "בעץ' אלקום",
+        "en": "the people.",
+        "he": "קְצֵה הָעָם"
       }
     ]
   }
