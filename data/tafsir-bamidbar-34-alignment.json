@@ -1,289 +1,975 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 34. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_34.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 34. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_34.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses in speech.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "in speech.",
+        "he": "לֵּאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "מר בני אסראיל וקל להם",
-        "en": "Command the sons of Israel and say to them:",
-        "he": "צַו אֶת-בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם"
+        "ja": "מר",
+        "en": "Command",
+        "he": "צַו"
       },
       {
-        "ja": "אנכם דאכ'לין אלי' בלד כנעאן",
-        "en": "You are entering the land of Canaan",
-        "he": "כִּי-אַתֶּם בָּאִים אֶל-הָאָרֶץ כְּנָעַן"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶת-בְּנֵי"
       },
       {
-        "ja": "פהד'ה חדוד אלבלד. אלד'י יחצל לכם נחלה",
-        "en": "and these are the borders of the land that shall come to you as an inheritance.",
-        "he": "זֹאת הָאָרֶץ אֲשֶׁר תִּפֹּל לָכֶם בְּנַחֲלָה אֶרֶץ כְּנַעַן לִגְבֻלֹתֶיהָ"
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "להם",
+        "en": "to them:",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "אנכם",
+        "en": "You are",
+        "he": "כִּי-אַתֶּם"
+      },
+      {
+        "ja": "דאכ'לין",
+        "en": "entering",
+        "he": "בָּאִים"
+      },
+      {
+        "ja": "אלי' בלד",
+        "en": "the land of",
+        "he": "אֶל-הָאָרֶץ"
+      },
+      {
+        "ja": "כנעאן",
+        "en": "Canaan —",
+        "he": "כְּנָעַן"
+      },
+      {
+        "ja": "פהד'ה חדוד אלבלד",
+        "en": "and these are the borders of the land",
+        "he": "זֹאת הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י יחצל לכם",
+        "en": "that shall come to you",
+        "he": "אֲשֶׁר תִּפֹּל לָכֶם"
+      },
+      {
+        "ja": "נחלה",
+        "en": "as an inheritance.",
+        "he": "בְּנַחֲלָה"
       }
     ],
     "3": [
       {
-        "ja": "פיבתדי לכם אלחד אלגנובי. מן ברייה' צין אלי' גאנב אדום",
-        "en": "And the southern border shall begin for you from the wilderness of Zin, which is beside Edom",
-        "he": "וְהָיָה לָכֶם פְּאַת-נֶגֶב מִמִּדְבַּר-צִן עַל-יְדֵי אֱדוֹם"
+        "ja": "פיבתדי לכם",
+        "en": "And the southern border shall begin for you",
+        "he": "וְהָיָה לָכֶם"
       },
       {
-        "ja": "פיכון מן טרף אלבחירה אלמייתה שרקייא",
-        "en": "and the southern border shall be from the end of the Dead Sea on the east.",
-        "he": "וְהָיָה לָכֶם גְּבוּל נֶגֶב מִקְצֵה יָם-הַמֶּלַח קֵדְמָה"
+        "ja": "אלחד אלגנובי",
+        "en": "from the wilderness of Zin,",
+        "he": "פְּאַת-נֶגֶב"
+      },
+      {
+        "ja": "מן ברייה' צין",
+        "en": "which is",
+        "he": "מִמִּדְבַּר-צִן"
+      },
+      {
+        "ja": "אלי' גאנב אדום",
+        "en": "beside Edom;",
+        "he": "עַל-יְדֵי אֱדוֹם"
+      },
+      {
+        "ja": "פיכון",
+        "en": "and the southern border shall be",
+        "he": "גְּבוּל נֶגֶב"
+      },
+      {
+        "ja": "מן טרף",
+        "en": "from the end of",
+        "he": "מִקְצֵה"
+      },
+      {
+        "ja": "אלבחירה אלמייתה",
+        "en": "the Dead Sea",
+        "he": "יָם-הַמֶּלַח"
+      },
+      {
+        "ja": "שרקייא",
+        "en": "on the east.",
+        "he": "קֵדְמָה"
       }
     ],
     "4": [
       {
-        "ja": "ת'ם יסתדיר לכם מן אלגנוב. אלי' עקבה' עקרבים ויעבר אלי' צין",
-        "en": "Then the border shall turn for you from the south of the ascent of Akrabbim, and shall continue to Zin",
-        "he": "וְנָסַב לָכֶם הַגְּבוּל מִנֶּגֶב לְמַעֲלֵה עַקְרַבִּים וְעָבַר צִנָה"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "ויכון כ'רוגה אלי' גאנב רקים ברנע",
-        "en": "and its exit shall be to the south of Kadesh-Barnea (Raqim)",
-        "he": "והיה (וְהָיוּ) תּוֹצְאֹתָיו מִנֶּגֶב לְקָדֵשׁ בַּרְנֵעַ"
+        "ja": "יסתדיר לכם",
+        "en": "the border shall turn for you",
+        "he": "וְנָסַב לָכֶם"
       },
       {
-        "ja": "ויכ'רג אלי' רפח ויעבר אלי' מנאזל",
-        "en": "and it shall go out to Rafah, and continue to Azmon.",
-        "he": "וְיָצָא חֲצַר-אַדָּר וְעָבַר עַצְמֹנָה"
+        "ja": "מן אלגנוב",
+        "en": "from the south of",
+        "he": "הַגְּבוּל מִנֶּגֶב"
+      },
+      {
+        "ja": "אלי' עקבה' עקרבים",
+        "en": "the ascent of Akrabbim,",
+        "he": "לְמַעֲלֵה עַקְרַבִּים"
+      },
+      {
+        "ja": "ויעבר אלי' צין",
+        "en": "and shall continue to Zin;",
+        "he": "וְעָבַר צִנָה"
+      },
+      {
+        "ja": "ויכון כ'רוגה אלי' גאנב",
+        "en": "and its exit shall be to the south of",
+        "he": "תּוֹצְאֹתָיו מִנֶּגֶב"
+      },
+      {
+        "ja": "רקים ברנע",
+        "en": "Kadesh-Barnea (Raqim);",
+        "he": "לְקָדֵשׁ בַּרְנֵעַ"
+      },
+      {
+        "ja": "ויכ'רג אלי' רפח",
+        "en": "and it shall go out to Rafah,",
+        "he": "וְיָצָא חֲצַר-אַדָּר"
+      },
+      {
+        "ja": "ויעבר אלי' מנאזל",
+        "en": "and continue to Azmon.",
+        "he": "וְעָבַר עַצְמֹנָה"
       }
     ],
     "5": [
       {
-        "ja": "ויסתדיר מן מנאזל אלי' ואד אלעריש",
-        "en": "And it shall turn from Azmon to the Wadi of al-Arish",
-        "he": "וְנָסַב הַגְּבוּל מֵעַצְמוֹן נַחְלָה מִצְרָיִם"
+        "ja": "ויסתדיר",
+        "en": "And it shall turn",
+        "he": "וְנָסַב הַגְּבוּל"
       },
       {
-        "ja": "ויכון כ'רוגה אלי' אלבחר",
-        "en": "and its exit shall be to the sea.",
-        "he": "וְהָיוּ תוֹצְאֹתָיו הַיָּמָּה"
+        "ja": "מן מנאזל",
+        "en": "from Azmon",
+        "he": "מֵעַצְמוֹן"
+      },
+      {
+        "ja": "אלי' ואד אלעריש",
+        "en": "to the Wadi of al-Arish;",
+        "he": "נַחְלָה מִצְרָיִם"
+      },
+      {
+        "ja": "ויכון כ'רוגה",
+        "en": "and its exit shall be",
+        "he": "וְהָיוּ תוֹצְאֹתָיו"
+      },
+      {
+        "ja": "אלי' אלבחר",
+        "en": "to the sea.",
+        "he": "הַיָּמָּה"
       }
     ],
     "6": [
       {
-        "ja": "ואלחד אלג'רבי. יכון לכם אלבחר אלכביר ותכ'מה",
-        "en": "And the western border — the Great Sea and its boundary shall be for you.",
-        "he": "וּגְבוּל יָם וְהָיָה לָכֶם הַיָּם הַגָּדוֹל וּגְבוּל זֶה-יִהְיֶה לָכֶם גְּבוּל יָם"
+        "ja": "ואלחד אלג'רבי",
+        "en": "And the western border —",
+        "he": "וּגְבוּל יָם"
+      },
+      {
+        "ja": "יכון לכם",
+        "en": "shall be for you.",
+        "he": "וְהָיָה לָכֶם"
+      },
+      {
+        "ja": "אלבחר אלכביר",
+        "en": "the Great Sea",
+        "he": "הַיָּם הַגָּדוֹל"
+      },
+      {
+        "ja": "ותכ'מה",
+        "en": "and its boundary",
+        "he": "וּגְבוּל"
       }
     ],
     "7": [
       {
-        "ja": "והד'א יכון לכם אלחד אלשמאלי'. מן אלבחר אלכביר. תחדו לכם אלי' גבל הור",
-        "en": "And this shall be the northern border for you: from the Great Sea you shall mark out your border to Mount Hor.",
-        "he": "וְזֶה-יִהְיֶה לָכֶם גְּבוּל צָפוֹן מִן-הַיָּם הַגָּדֹל תְּתָאוּ לָכֶם הֹר הָהָר"
+        "ja": "והד'א יכון",
+        "en": "And this shall be",
+        "he": "וְזֶה-יִהְיֶה"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you:",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "אלחד אלשמאלי'",
+        "en": "the northern border",
+        "he": "גְּבוּל צָפוֹן"
+      },
+      {
+        "ja": "מן אלבחר",
+        "en": "from the Great Sea",
+        "he": "מִן-הַיָּם"
+      },
+      {
+        "ja": "אלכביר",
+        "en": "you shall mark out",
+        "he": "הַגָּדֹל"
+      },
+      {
+        "ja": "תחדו לכם",
+        "en": "your border",
+        "he": "תְּתָאוּ לָכֶם"
+      },
+      {
+        "ja": "אלי' גבל הור",
+        "en": "to Mount Hor.",
+        "he": "הֹר הָהָר"
       }
     ],
     "8": [
       {
-        "ja": "ומנה אלי' חמאה",
-        "en": "From it to Hamath",
-        "he": "מֵהֹר הָהָר תְּתָאוּ לְבֹא חֲמָת"
+        "ja": "ומנה",
+        "en": "From it",
+        "he": "מֵהֹר הָהָר"
       },
       {
-        "ja": "ויכון כ'רוגה אלי' צדד",
-        "en": "and its exit shall be to Zedad.",
-        "he": "וְהָיוּ תּוֹצְאֹת הַגְּבֻל צְדָדָה"
+        "ja": "אלי' חמאה",
+        "en": "to Hamath;",
+        "he": "תְּתָאוּ לְבֹא חֲמָת"
+      },
+      {
+        "ja": "ויכון כ'רוגה",
+        "en": "and its exit shall be",
+        "he": "וְהָיוּ תּוֹצְאֹת"
+      },
+      {
+        "ja": "אלי' צדד",
+        "en": "to Zedad.",
+        "he": "הַגְּבֻל צְדָדָה"
       }
     ],
     "9": [
       {
-        "ja": "ויכ'רג אלי' זפרון. וינתהי אלי' חצר עינן",
-        "en": "And it shall go out to Ziphron, and end at Hazar-Enan.",
-        "he": "וְיָצָא הַגְּבֻל זִפְרֹנָה וְהָיוּ תוֹצְאֹתָיו חֲצַר עֵינָן"
+        "ja": "ויכ'רג",
+        "en": "And it shall go out",
+        "he": "וְיָצָא הַגְּבֻל"
       },
       {
-        "ja": "הד'א יכון לכם אלחד אלשמאלי'",
-        "en": "This shall be the northern border for you.",
-        "he": "זֶה-יִהְיֶה לָכֶם גְּבוּל צָפוֹן"
+        "ja": "אלי' זפרון",
+        "en": "to Ziphron,",
+        "he": "זִפְרֹנָה"
+      },
+      {
+        "ja": "וינתהי",
+        "en": "and end",
+        "he": "וְהָיוּ תוֹצְאֹתָיו"
+      },
+      {
+        "ja": "אלי' חצר עינן",
+        "en": "at Hazar-Enan.",
+        "he": "חֲצַר עֵינָן"
+      },
+      {
+        "ja": "הד'א יכון",
+        "en": "This shall be",
+        "he": "זֶה-יִהְיֶה"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you.",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "אלחד אלשמאלי'",
+        "en": "the northern border",
+        "he": "גְּבוּל צָפוֹן"
       }
     ],
     "10": [
       {
-        "ja": "וחדו לכם אלחד אלשרקי. מן חצר עינן אלי' פאמיה",
-        "en": "And you shall mark out the eastern border for yourselves, from Hazar-Enan to Shepham.",
-        "he": "וְהִתְאַוִּיתֶם לָכֶם לִגְבוּל קֵדְמָה מֵחֲצַר עֵינָן שְׁפָמָה"
+        "ja": "וחדו",
+        "en": "And you shall mark out",
+        "he": "וְהִתְאַוִּיתֶם"
+      },
+      {
+        "ja": "לכם",
+        "en": "for yourselves,",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "אלחד אלשרקי",
+        "en": "the eastern border",
+        "he": "לִגְבוּל קֵדְמָה"
+      },
+      {
+        "ja": "מן חצר עינן",
+        "en": "from Hazar-Enan",
+        "he": "מֵחֲצַר עֵינָן"
+      },
+      {
+        "ja": "אלי' פאמיה",
+        "en": "to Shepham.",
+        "he": "שְׁפָמָה"
       }
     ],
     "11": [
       {
-        "ja": "וינחדר מן פאמיה. אלי' דפני מן שרקי אלעין",
-        "en": "And the border shall descend from Shepham to Daphneh, east of the spring",
-        "he": "וְיָרַד הַגְּבֻל מִשְּׁפָם הָרִבְלָה מִקֶּדֶם לָעָיִן"
+        "ja": "וינחדר",
+        "en": "And the border shall descend",
+        "he": "וְיָרַד הַגְּבֻל"
       },
       {
-        "ja": "פינחדר ויצ'רב. אלי' גאנב בחר גניסר שרקייא",
-        "en": "then it shall descend and extend to the eastern shore of the Sea of Gennesaret.",
-        "he": "וְיָרַד הַגְּבֻל וּמָחָה עַל-כֶּתֶף יָם-כִּנֶּרֶת קֵדְמָה"
+        "ja": "מן פאמיה",
+        "en": "from Shepham",
+        "he": "מִשְּׁפָם"
+      },
+      {
+        "ja": "אלי' דפני",
+        "en": "to Daphneh,",
+        "he": "הָרִבְלָה"
+      },
+      {
+        "ja": "מן שרקי אלעין",
+        "en": "east of the spring;",
+        "he": "מִקֶּדֶם לָעָיִן"
+      },
+      {
+        "ja": "פינחדר",
+        "en": "then it shall descend"
+      },
+      {
+        "ja": "ויצ'רב",
+        "en": "and extend",
+        "he": "וּמָחָה"
+      },
+      {
+        "ja": "אלי' גאנב בחר גניסר",
+        "en": "to the eastern shore of",
+        "he": "עַל-כֶּתֶף יָם-כִּנֶּרֶת"
+      },
+      {
+        "ja": "שרקייא",
+        "en": "the Sea of Gennesaret.",
+        "he": "קֵדְמָה"
       }
     ],
     "12": [
       {
-        "ja": "וינזל אלארדן",
-        "en": "And the border shall go down along the Jordan",
-        "he": "וְיָרַד הַגְּבוּל הַיַּרְדֵּנָה"
+        "ja": "וינזל",
+        "en": "And the border shall go down",
+        "he": "וְיָרַד הַגְּבוּל"
       },
       {
-        "ja": "ויכון כ'רוגה אלבחירה אלמייתה",
-        "en": "and its exit shall be at the Dead Sea.",
-        "he": "וְהָיוּ תוֹצְאֹתָיו יָם הַמֶּלַח"
+        "ja": "אלארדן",
+        "en": "along the Jordan,",
+        "he": "הַיַּרְדֵּנָה"
       },
       {
-        "ja": "הד'א תכון לכם חדוד אלבלד מסתדירא",
-        "en": "This shall be your boundary of the land all around.",
-        "he": "זֹאת תִּהְיֶה לָכֶם הָאָרֶץ לִגְבֻלֹתֶיהָ סָבִיב"
+        "ja": "ויכון כ'רוגה",
+        "en": "and its exit shall be",
+        "he": "וְהָיוּ תוֹצְאֹתָיו"
+      },
+      {
+        "ja": "אלבחירה אלמייתה",
+        "en": "at the Dead Sea.",
+        "he": "יָם הַמֶּלַח"
+      },
+      {
+        "ja": "הד'א תכון",
+        "en": "This shall be",
+        "he": "זֹאת תִּהְיֶה"
+      },
+      {
+        "ja": "לכם",
+        "en": "your boundary",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "חדוד אלבלד",
+        "en": "of the land",
+        "he": "הָאָרֶץ לִגְבֻלֹתֶיהָ"
+      },
+      {
+        "ja": "מסתדירא",
+        "en": "all around.",
+        "he": "סָבִיב"
       }
     ],
     "13": [
       {
-        "ja": "פאמר מוסי' בני אסראיל. ען קול אללה וקאל",
-        "en": "And Moses commanded the sons of Israel, on the word of God, and said:",
-        "he": "וַיְצַו מֹשֶׁה אֶת-בְּנֵי יִשְׂרָאֵל לֵאמֹר"
+        "ja": "פאמר",
+        "en": "And Moses commanded",
+        "he": "וַיְצַו"
       },
       {
-        "ja": "הד'א אלבלד אלמחדוד תוזעונה באסהם",
-        "en": "This is the bounded land which you shall apportion by lots",
-        "he": "זֹאת הָאָרֶץ אֲשֶׁר תִּתְנַחֲלוּ אֹתָהּ בְּגוֹרָל"
+        "ja": "מוסי'",
+        "en": "the sons of Israel,",
+        "he": "מֹשֶׁה"
       },
       {
-        "ja": "כמא אמר אללה. אן יעטא לתסעה' אסבאט ונצף",
-        "en": "as God commanded — that it be given to nine tribes and a half.",
-        "he": "אֲשֶׁר צִוָּה יְהוָה לָתֵת לְתִשְׁעַת הַמַּטּוֹת וַחֲצִי הַמַּטֶּה"
+        "ja": "בני אסראיל",
+        "en": "on the word of",
+        "he": "אֶת-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ען קול אללה וקאל",
+        "en": "God, and said:",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "הד'א אלבלד אלמחדוד",
+        "en": "This is the bounded land",
+        "he": "זֹאת הָאָרֶץ"
+      },
+      {
+        "ja": "תוזעונה",
+        "en": "which you shall apportion",
+        "he": "אֲשֶׁר תִּתְנַחֲלוּ אֹתָהּ"
+      },
+      {
+        "ja": "באסהם",
+        "en": "by lots,",
+        "he": "בְּגוֹרָל"
+      },
+      {
+        "ja": "כמא אמר אללה",
+        "en": "as God commanded —",
+        "he": "אֲשֶׁר צִוָּה יְהוָה"
+      },
+      {
+        "ja": "אן יעטא",
+        "en": "that it be given",
+        "he": "לָתֵת"
+      },
+      {
+        "ja": "לתסעה' אסבאט",
+        "en": "to nine tribes",
+        "he": "לְתִשְׁעַת הַמַּטּוֹת"
+      },
+      {
+        "ja": "ונצף",
+        "en": "and a half.",
+        "he": "וַחֲצִי הַמַּטֶּה"
       }
     ],
     "14": [
       {
-        "ja": "אד' קד אכ'ד' סבט ראובן. וסבט גד",
-        "en": "For the tribe of Reuben, and the tribe of Gad",
-        "he": "כִּי לָקְחוּ מַטֵּה בְנֵי הָראוּבֵנִי לְבֵית אֲבֹתָם וּמַטֵּה בְנֵי-הַגָּדִי לְבֵית אֲבֹתָם"
+        "ja": "אד' קד",
+        "en": "For",
+        "he": "כִּי"
       },
       {
-        "ja": "ונצף סבט מנשה. נחלתהם לביות אבאיהם",
-        "en": "and the half-tribe of Manasseh have already taken their inheritance, according to their ancestral houses.",
-        "he": "וַחֲצִי מַטֵּה מְנַשֶּׁה לָקְחוּ נַחֲלָתָם"
+        "ja": "אכ'ד'",
+        "en": "have already taken",
+        "he": "לָקְחוּ"
+      },
+      {
+        "ja": "סבט ראובן",
+        "en": "the tribe of Reuben,",
+        "he": "מַטֵּה בְנֵי הָראוּבֵנִי"
+      },
+      {
+        "ja": "וסבט גד",
+        "en": "and the tribe of Gad,",
+        "he": "וּמַטֵּה בְנֵי-הַגָּדִי"
+      },
+      {
+        "ja": "ונצף סבט מנשה",
+        "en": "and the half-tribe of Manasseh",
+        "he": "וַחֲצִי מַטֵּה מְנַשֶּׁה"
+      },
+      {
+        "ja": "נחלתהם",
+        "en": "their inheritance,",
+        "he": "נַחֲלָתָם"
+      },
+      {
+        "ja": "לביות אבאיהם",
+        "en": "according to their ancestral houses.",
+        "he": "לְבֵית אֲבֹתָם"
       }
     ],
     "15": [
       {
-        "ja": "הד'אן אלסבטאן ואלנצף. אכ'דו נחלתהם",
-        "en": "These two tribes and the half took their inheritance",
-        "he": "שְׁנֵי הַמַּטּוֹת וַחֲצִי הַמַּטֶּה לָקְחוּ נַחֲלָתָם"
+        "ja": "הד'אן אלסבטאן",
+        "en": "These two tribes",
+        "he": "שְׁנֵי הַמַּטּוֹת"
       },
       {
-        "ja": "מן עבר ארדן יריחא אלשרקי",
-        "en": "from across the Jordan of Jericho on the east.",
-        "he": "מֵעֵבֶר לְיַרְדֵּן יְרֵחוֹ--קֵדְמָה מִזְרָחָה"
+        "ja": "ואלנצף",
+        "en": "and the half",
+        "he": "וַחֲצִי הַמַּטֶּה"
+      },
+      {
+        "ja": "אכ'דו",
+        "en": "took",
+        "he": "לָקְחוּ"
+      },
+      {
+        "ja": "נחלתהם",
+        "en": "their inheritance",
+        "he": "נַחֲלָתָם"
+      },
+      {
+        "ja": "מן עבר",
+        "en": "from across",
+        "he": "מֵעֵבֶר"
+      },
+      {
+        "ja": "ארדן יריחא",
+        "en": "the Jordan of Jericho",
+        "he": "לְיַרְדֵּן יְרֵחוֹ"
+      },
+      {
+        "ja": "אלשרקי",
+        "en": "on the east.",
+        "he": "קֵדְמָה מִזְרָחָה"
       }
     ],
     "16": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses in speech.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "in speech.",
+        "he": "לֵּאמֹר"
       }
     ],
     "17": [
       {
-        "ja": "הד'א אסמא אלרגאל. אלד'י יקסמו לכם אלבלד",
-        "en": "These are the names of the men who shall apportion the land for you:",
-        "he": "אֵלֶּה שְׁמוֹת הָאֲנָשִׁים אֲשֶׁר-יִנְחֲלוּ לָכֶם אֶת-הָאָרֶץ"
+        "ja": "הד'א",
+        "en": "These are",
+        "he": "אֵלֶּה"
       },
       {
-        "ja": "אלעזר אלאמאם. ויהושע אבן נון",
-        "en": "Eleazar the imām, and Joshua son of Nun.",
-        "he": "אֶלְעָזָר הַכֹּהֵן וִיהוֹשֻׁעַ בִּן-נוּן"
+        "ja": "אסמא",
+        "en": "the names of",
+        "he": "שְׁמוֹת"
+      },
+      {
+        "ja": "אלרגאל",
+        "en": "the men",
+        "he": "הָאֲנָשִׁים"
+      },
+      {
+        "ja": "אלד'י יקסמו",
+        "en": "who shall apportion",
+        "he": "אֲשֶׁר-יִנְחֲלוּ"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you:",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "the land",
+        "he": "אֶת-הָאָרֶץ"
+      },
+      {
+        "ja": "אלעזר",
+        "en": "Eleazar",
+        "he": "אֶלְעָזָר"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "the imām,",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "ויהושע",
+        "en": "and Joshua",
+        "he": "וִיהוֹשֻׁעַ"
+      },
+      {
+        "ja": "אבן נון",
+        "en": "son of Nun.",
+        "he": "בִּן-נוּן"
       }
     ],
     "18": [
       {
-        "ja": "ושריף מן כל סבט. כ'ד'וה ליקסם אלבלד",
-        "en": "And one noble from each tribe — take him to apportion the land.",
-        "he": "וְנָשִׂיא אֶחָד נָשִׂיא אֶחָד מִמַּטֶּה--תִּקְחוּ לִנְחֹל אֶת-הָאָרֶץ"
+        "ja": "ושריף",
+        "en": "And one noble",
+        "he": "וְנָשִׂיא אֶחָד"
+      },
+      {
+        "ja": "מן כל סבט",
+        "en": "from each tribe —",
+        "he": "מִמַּטֶּה"
+      },
+      {
+        "ja": "כ'ד'וה",
+        "en": "take him",
+        "he": "תִּקְחוּ"
+      },
+      {
+        "ja": "ליקסם",
+        "en": "to apportion",
+        "he": "לִנְחֹל"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "the land.",
+        "he": "אֶת-הָאָרֶץ"
       }
     ],
     "19": [
       {
-        "ja": "והד'א אסמאיהם. מן סבט יהודה. כלב אבן יפנה",
-        "en": "And these are their names: from the tribe of Judah, Caleb son of Jephunneh.",
-        "he": "וְאֵלֶּה שְׁמוֹת הָאֲנָשִׁים לְמַטֵּה יְהוּדָה כָּלֵב בֶּן-יְפֻנֶּה"
+        "ja": "והד'א",
+        "en": "And these are",
+        "he": "וְאֵלֶּה"
+      },
+      {
+        "ja": "אסמאיהם",
+        "en": "their names:",
+        "he": "שְׁמוֹת הָאֲנָשִׁים"
+      },
+      {
+        "ja": "מן סבט",
+        "en": "from the tribe of",
+        "he": "לְמַטֵּה"
+      },
+      {
+        "ja": "יהודה",
+        "en": "Judah,",
+        "he": "יְהוּדָה"
+      },
+      {
+        "ja": "כלב",
+        "en": "Caleb",
+        "he": "כָּלֵב"
+      },
+      {
+        "ja": "אבן יפנה",
+        "en": "son of Jephunneh.",
+        "he": "בֶּן-יְפֻנֶּה"
       }
     ],
     "20": [
       {
-        "ja": "ומן סבט שמעון. שמואל אבן עמיהוד",
-        "en": "And from the tribe of Simeon, Samuel son of Ammihud.",
-        "he": "וּלְמַטֵּה בְּנֵי שִׁמְעוֹן שְׁמוּאֵל בֶּן-עַמִּיהוּד"
+        "ja": "ומן סבט",
+        "en": "And from the tribe of",
+        "he": "וּלְמַטֵּה"
+      },
+      {
+        "ja": "שמעון",
+        "en": "Simeon,",
+        "he": "בְּנֵי שִׁמְעוֹן"
+      },
+      {
+        "ja": "שמואל",
+        "en": "Samuel",
+        "he": "שְׁמוּאֵל"
+      },
+      {
+        "ja": "אבן עמיהוד",
+        "en": "son of Ammihud.",
+        "he": "בֶּן-עַמִּיהוּד"
       }
     ],
     "21": [
       {
-        "ja": "ומן סבט בנימין. אלי'דד אבן כסלון",
-        "en": "And from the tribe of Benjamin, Elidad son of Kislon.",
-        "he": "לְמַטֵּה בִנְיָמִן אֱלִידָד בֶּן-כִּסְלוֹן"
+        "ja": "ומן סבט",
+        "en": "And from the tribe of",
+        "he": "לְמַטֵּה"
+      },
+      {
+        "ja": "בנימין",
+        "en": "Benjamin,",
+        "he": "בִנְיָמִן"
+      },
+      {
+        "ja": "אלי'דד",
+        "en": "Elidad",
+        "he": "אֱלִידָד"
+      },
+      {
+        "ja": "אבן כסלון",
+        "en": "son of Kislon.",
+        "he": "בֶּן-כִּסְלוֹן"
       }
     ],
     "22": [
       {
-        "ja": "ומן סבט דן שריפא. בקי אבן יגלי",
-        "en": "And from the tribe of Dan, a noble: Bukki son of Jogli.",
-        "he": "וּלְמַטֵּה בְנֵי-דָן נָשִׂיא--בֻּקִּי בֶּן-יָגְלִי"
+        "ja": "ומן סבט",
+        "en": "And from the tribe of",
+        "he": "וּלְמַטֵּה"
+      },
+      {
+        "ja": "דן",
+        "en": "Dan,",
+        "he": "בְנֵי-דָן"
+      },
+      {
+        "ja": "שריפא",
+        "en": "a noble:",
+        "he": "נָשִׂיא"
+      },
+      {
+        "ja": "בקי",
+        "en": "Bukki",
+        "he": "בֻּקִּי"
+      },
+      {
+        "ja": "אבן יגלי",
+        "en": "son of Jogli.",
+        "he": "בֶּן-יָגְלִי"
       }
     ],
     "23": [
       {
-        "ja": "לבני יוסף מן סבט בני מנשה שריף. חניאל אבן אפוד",
-        "en": "For the sons of Joseph, from the tribe of the sons of Manasseh, a noble: Hanniel son of Ephod.",
-        "he": "לִבְנֵי יוֹסֵף לְמַטֵּה בְנֵי-מְנַשֶּׁה נָשִׂיא--חַנִּיאֵל בֶּן-אֵפֹד"
+        "ja": "לבני יוסף",
+        "en": "For the sons of Joseph,",
+        "he": "לִבְנֵי יוֹסֵף"
+      },
+      {
+        "ja": "מן סבט",
+        "en": "from the tribe of",
+        "he": "לְמַטֵּה"
+      },
+      {
+        "ja": "בני מנשה",
+        "en": "the sons of Manasseh,",
+        "he": "בְנֵי-מְנַשֶּׁה"
+      },
+      {
+        "ja": "שריף",
+        "en": "a noble:",
+        "he": "נָשִׂיא"
+      },
+      {
+        "ja": "חניאל",
+        "en": "Hanniel",
+        "he": "חַנִּיאֵל"
+      },
+      {
+        "ja": "אבן אפוד",
+        "en": "son of Ephod.",
+        "he": "בֶּן-אֵפֹד"
       }
     ],
     "24": [
       {
-        "ja": "ומן סבט בני אפרים שריף. קמואל אבן שפטן",
-        "en": "And from the tribe of the sons of Ephraim, a noble: Kemuel son of Shiphtan.",
-        "he": "וּלְמַטֵּה בְנֵי-אֶפְרַיִם נָשִׂיא--קְמוּאֵל בֶּן-שִׁפְטָן"
+        "ja": "ומן סבט",
+        "en": "And from the tribe of",
+        "he": "וּלְמַטֵּה"
+      },
+      {
+        "ja": "בני אפרים",
+        "en": "the sons of Ephraim,",
+        "he": "בְנֵי-אֶפְרַיִם"
+      },
+      {
+        "ja": "שריף",
+        "en": "a noble:",
+        "he": "נָשִׂיא"
+      },
+      {
+        "ja": "קמואל",
+        "en": "Kemuel",
+        "he": "קְמוּאֵל"
+      },
+      {
+        "ja": "אבן שפטן",
+        "en": "son of Shiphtan.",
+        "he": "בֶּן-שִׁפְטָן"
       }
     ],
     "25": [
       {
-        "ja": "ולסבט זבולון שריפא. אליצפן אבן פרנך",
-        "en": "And for the tribe of Zebulun, a noble: Elizaphan son of Parnach.",
-        "he": "וּלְמַטֵּה בְנֵי-זְבוּלֻן נָשִׂיא--אֱלִיצָפָן בֶּן-פַּרְנָךְ"
+        "ja": "ולסבט",
+        "en": "And for the tribe of",
+        "he": "וּלְמַטֵּה"
+      },
+      {
+        "ja": "זבולון",
+        "en": "Zebulun,",
+        "he": "בְנֵי-זְבוּלֻן"
+      },
+      {
+        "ja": "שריפא",
+        "en": "a noble:",
+        "he": "נָשִׂיא"
+      },
+      {
+        "ja": "אליצפן",
+        "en": "Elizaphan",
+        "he": "אֱלִיצָפָן"
+      },
+      {
+        "ja": "אבן פרנך",
+        "en": "son of Parnach.",
+        "he": "בֶּן-פַּרְנָךְ"
       }
     ],
     "26": [
       {
-        "ja": "ומן סבט יששכר שריפא פלטיאל אבן עזן",
-        "en": "And from the tribe of Issachar, a noble: Paltiel son of Azzan.",
-        "he": "וּלְמַטֵּה בְנֵי-יִשָּׂשכָר נָשִׂיא--פַּלְטִיאֵל בֶּן-עַזָּן"
+        "ja": "ומן סבט",
+        "en": "And from the tribe of",
+        "he": "וּלְמַטֵּה"
+      },
+      {
+        "ja": "יששכר",
+        "en": "Issachar,",
+        "he": "בְנֵי-יִשָּׂשכָר"
+      },
+      {
+        "ja": "שריפא",
+        "en": "a noble:",
+        "he": "נָשִׂיא"
+      },
+      {
+        "ja": "פלטיאל",
+        "en": "Paltiel",
+        "he": "פַּלְטִיאֵל"
+      },
+      {
+        "ja": "אבן עזן",
+        "en": "son of Azzan.",
+        "he": "בֶּן-עַזָּן"
       }
     ],
     "27": [
       {
-        "ja": "ומן סבט אשר שריפא. אחיהוד אבן שלומי",
-        "en": "And from the tribe of Asher, a noble: Ahihud son of Shelomi.",
-        "he": "וּלְמַטֵּה בְנֵי-אָשֵׁר נָשִׂיא--אֲחִיהוּד בֶּן-שְׁלֹמִי"
+        "ja": "ומן סבט",
+        "en": "And from the tribe of",
+        "he": "וּלְמַטֵּה"
+      },
+      {
+        "ja": "אשר",
+        "en": "Asher,",
+        "he": "בְנֵי-אָשֵׁר"
+      },
+      {
+        "ja": "שריפא",
+        "en": "a noble:",
+        "he": "נָשִׂיא"
+      },
+      {
+        "ja": "אחיהוד",
+        "en": "Ahihud",
+        "he": "אֲחִיהוּד"
+      },
+      {
+        "ja": "אבן שלומי",
+        "en": "son of Shelomi.",
+        "he": "בֶּן-שְׁלֹמִי"
       }
     ],
     "28": [
       {
-        "ja": "ומן סבט נפתלי שריפא. פדהאל אבן עמיהוד",
-        "en": "And from the tribe of Naphtali, a noble: Pedahel son of Ammihud.",
-        "he": "וּלְמַטֵּה בְנֵי-נַפְתָּלִי נָשִׂיא--פְּדַהְאֵל בֶּן-עַמִּיהוּד"
+        "ja": "ומן סבט",
+        "en": "And from the tribe of",
+        "he": "וּלְמַטֵּה"
+      },
+      {
+        "ja": "נפתלי",
+        "en": "Naphtali,",
+        "he": "בְנֵי-נַפְתָּלִי"
+      },
+      {
+        "ja": "שריפא",
+        "en": "a noble:",
+        "he": "נָשִׂיא"
+      },
+      {
+        "ja": "פדהאל",
+        "en": "Pedahel",
+        "he": "פְּדַהְאֵל"
+      },
+      {
+        "ja": "אבן עמיהוד",
+        "en": "son of Ammihud.",
+        "he": "בֶּן-עַמִּיהוּד"
       }
     ],
     "29": [
       {
-        "ja": "הולאי. אלד'י אמר אללה. אן יקסמו לבני אסראיל בלד כנעאן",
-        "en": "These are those who entered — whom God commanded to apportion the land of Canaan for the sons of Israel.",
-        "he": "אֵלֶּה אֲשֶׁר צִוָּה יְהוָה לְנַחֵל אֶת-בְּנֵי-יִשְׂרָאֵל בְּאֶרֶץ כְּנָעַן"
+        "ja": "הולאי",
+        "en": "These are those who entered —",
+        "he": "אֵלֶּה"
+      },
+      {
+        "ja": "אלד'י אמר",
+        "en": "whom God commanded",
+        "he": "אֲשֶׁר צִוָּה"
+      },
+      {
+        "ja": "אללה",
+        "en": "to apportion",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אן יקסמו",
+        "en": "the land of",
+        "he": "לְנַחֵל"
+      },
+      {
+        "ja": "לבני אסראיל",
+        "en": "for the sons of Israel.",
+        "he": "אֶת-בְּנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "בלד כנעאן",
+        "en": "Canaan",
+        "he": "בְּאֶרֶץ כְּנָעַן"
       }
     ]
   }
