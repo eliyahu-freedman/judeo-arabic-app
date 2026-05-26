@@ -1,42 +1,137 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 33. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_33.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 33. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_33.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "והד'א מראחל בני אסראיל. אד' כ'רגו מן בלד מצר",
-        "en": "And these are the stages of the sons of Israel when they went out from the land of Egypt",
-        "he": "אֵלֶּה מַסְעֵי בְנֵי-יִשְׂרָאֵל אֲשֶׁר יָצְאוּ מֵאֶרֶץ מִצְרַיִם"
+        "ja": "והד'א",
+        "en": "And these are",
+        "he": "אֵלֶּה"
       },
       {
-        "ja": "עלי' גיושהם. ביד מוסי' והרון",
-        "en": "according to their hosts, by the hand of Moses and Aaron.",
-        "he": "לְצִבְאֹתָם בְּיַד-מֹשֶׁה וְאַהֲרֹן"
+        "ja": "מראחל",
+        "en": "the stages of",
+        "he": "מַסְעֵי"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אד' כ'רגו",
+        "en": "when they went out",
+        "he": "אֲשֶׁר יָצְאוּ"
+      },
+      {
+        "ja": "מן בלד",
+        "en": "from the land of",
+        "he": "מֵאֶרֶץ"
+      },
+      {
+        "ja": "מצר",
+        "en": "Egypt,",
+        "he": "מִצְרַיִם"
+      },
+      {
+        "ja": "עלי' גיושהם",
+        "en": "according to their hosts,",
+        "he": "לְצִבְאֹתָם"
+      },
+      {
+        "ja": "ביד מוסי'",
+        "en": "by the hand of Moses",
+        "he": "בְּיַד-מֹשֶׁה"
+      },
+      {
+        "ja": "והרון",
+        "en": "and Aaron.",
+        "he": "וְאַהֲרֹן"
       }
     ],
     "2": [
       {
-        "ja": "פכתב מוסי' כ'רוגהם. עלי' מראחלהם עלי' קול אללה",
-        "en": "And Moses wrote down their going out, stage by stage, at the word of God.",
-        "he": "וַיִּכְתֹּב מֹשֶׁה אֶת-מוֹצָאֵיהֶם לְמַסְעֵיהֶם--עַל-פִּי יְהוָה"
+        "ja": "פכתב",
+        "en": "And Moses wrote down",
+        "he": "וַיִּכְתֹּב"
       },
       {
-        "ja": "והד'א מראחלהם לכ'רוגהם",
-        "en": "And these are their stages of their going out.",
-        "he": "וְאֵלֶּה מַסְעֵיהֶם לְמוֹצָאֵיהֶם"
+        "ja": "מוסי'",
+        "en": "their going out,",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "כ'רוגהם",
+        "en": "stage by stage,",
+        "he": "אֶת-מוֹצָאֵיהֶם"
+      },
+      {
+        "ja": "עלי' מראחלהם",
+        "en": "at the word of",
+        "he": "לְמַסְעֵיהֶם"
+      },
+      {
+        "ja": "עלי' קול אללה",
+        "en": "God.",
+        "he": "עַל-פִּי יְהוָה"
+      },
+      {
+        "ja": "והד'א",
+        "en": "And these are",
+        "he": "וְאֵלֶּה"
+      },
+      {
+        "ja": "מראחלהם",
+        "en": "their stages of",
+        "he": "מַסְעֵיהֶם"
+      },
+      {
+        "ja": "לכ'רוגהם",
+        "en": "their going out.",
+        "he": "לְמוֹצָאֵיהֶם"
       }
     ],
     "3": [
       {
-        "ja": "ורחלו מן עין שמס פי אלשהר אלאוול. פי אליום אלכ'אמס עשר",
-        "en": "And they set out from Ein Shams (Raamses) in the first month, on the fifteenth day",
-        "he": "וַיִּסְעוּ מֵרַעְמְסֵס בַּחֹדֶשׁ הָרִאשׁוֹן בַּחֲמִשָּׁה עָשָׂר יוֹם לַחֹדֶשׁ הָרִאשׁוֹן"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
       },
       {
-        "ja": "וד'אלך מן ג'ד אלפסח. כ'רגו בני אסראיל ביד רפיעה",
-        "en": "that being the day after the Passover. The sons of Israel went out with a raised hand",
-        "he": "מִמָּחֳרַת הַפֶּסַח יָצְאוּ בְנֵי-יִשְׂרָאֵל בְּיָד רָמָה"
+        "ja": "מן עין שמס",
+        "en": "from Ein Shams (Raamses)",
+        "he": "מֵרַעְמְסֵס"
+      },
+      {
+        "ja": "פי אלשהר אלאוול",
+        "en": "in the first month,",
+        "he": "בַּחֹדֶשׁ הָרִאשׁוֹן"
+      },
+      {
+        "ja": "פי אליום אלכ'אמס עשר",
+        "en": "on the fifteenth day —",
+        "he": "בַּחֲמִשָּׁה עָשָׂר יוֹם"
+      },
+      {
+        "ja": "וד'אלך מן ג'ד אלפסח",
+        "en": "that being the day after the Passover.",
+        "he": "מִמָּחֳרַת הַפֶּסַח"
+      },
+      {
+        "ja": "כ'רגו",
+        "en": "went out",
+        "he": "יָצְאוּ"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "The sons of Israel",
+        "he": "בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ביד רפיעה",
+        "en": "with a raised hand,",
+        "he": "בְּיָד רָמָה"
       },
       {
         "ja": "בחצ'רה' גמיע אלמצריון",
@@ -46,390 +141,1308 @@
     ],
     "4": [
       {
-        "ja": "והם ידפנון. אלד'י קתל אללה פיהם כל בכר",
-        "en": "while they were burying those whom God had slain among them — every firstborn",
-        "he": "וּמִצְרַיִם מְקַבְּרִים אֵת אֲשֶׁר הִכָּה יְהוָה בָּהֶם--כָּל-בְּכוֹר"
+        "ja": "והם",
+        "en": "while they were",
+        "he": "וּמִצְרַיִם"
+      },
+      {
+        "ja": "ידפנון",
+        "en": "burying",
+        "he": "מְקַבְּרִים"
+      },
+      {
+        "ja": "אלד'י קתל",
+        "en": "those whom",
+        "he": "אֵת אֲשֶׁר הִכָּה"
+      },
+      {
+        "ja": "אללה",
+        "en": "God had slain",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "פיהם",
+        "en": "among them —",
+        "he": "בָּהֶם"
+      },
+      {
+        "ja": "כל בכר",
+        "en": "every firstborn —",
+        "he": "כָּל-בְּכוֹר"
       },
       {
         "ja": "וצנע אחכאמא במעבודאתהם",
         "en": "and He had executed judgments upon their deities.",
-        "he": "וּבֵאלֹהֵיהֶם עָשָׂה יְהוָה שְׁפָטִים"
+        "he": "וּבֵאלֹהֵיהֶם"
       }
     ],
     "5": [
       {
-        "ja": "ורחלו בני אסראיל מן עין שמס. ונזלו פי סכות",
-        "en": "And the sons of Israel set out from Ein Shams and encamped at Sukkoth.",
-        "he": "וַיִּסְעוּ בְנֵי-יִשְׂרָאֵל מֵרַעְמְסֵס וַיַּחֲנוּ בְּסֻכֹּת"
+        "ja": "ורחלו בני אסראיל",
+        "en": "And the sons of Israel set out",
+        "he": "וַיִּסְעוּ בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "מן עין שמס",
+        "en": "from Ein Shams",
+        "he": "מֵרַעְמְסֵס"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי סכות",
+        "en": "at Sukkoth.",
+        "he": "בְּסֻכֹּת"
       }
     ],
     "6": [
       {
-        "ja": "ורחלו מן ת'ם. ונזלו פי איתם. פי טרף אלברייה",
-        "en": "And they set out from Sukkoth and encamped at Etham, at the edge of the wilderness.",
-        "he": "וַיִּסְעוּ מִסֻּכֹּת וַיַּחֲנוּ בְאֵתָם אֲשֶׁר בִּקְצֵה הַמִּדְבָּר"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מן ת'ם",
+        "en": "from Sukkoth",
+        "he": "מִסֻּכֹּת"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי איתם",
+        "en": "at Etham,",
+        "he": "בְאֵתָם"
+      },
+      {
+        "ja": "פי טרף אלברייה",
+        "en": "at the edge of the wilderness.",
+        "he": "אֲשֶׁר בִּקְצֵה הַמִּדְבָּר"
       }
     ],
     "7": [
       {
-        "ja": "ורחלו מנהא. ורגעו אלי' פואה' אלחירות. אלתי בחצ'רה' בעל צפון",
-        "en": "And they set out from Etham and turned back to the mouth of the Hiroth, which is before Baal-Zephon",
-        "he": "וַיִּסְעוּ מֵאֵתָם וַיָּשָׁב עַל-פִּי הַחִירֹת אֲשֶׁר עַל-פְּנֵי בַּעַל צְפוֹן"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
       },
       {
-        "ja": "ונזלו בין ידי מגדול",
-        "en": "and they encamped before Migdol.",
-        "he": "וַיַּחֲנוּ לִפְנֵי מִגְדֹּל"
+        "ja": "מנהא",
+        "en": "from Etham",
+        "he": "מֵאֵתָם"
+      },
+      {
+        "ja": "ורגעו",
+        "en": "and turned back",
+        "he": "וַיָּשָׁב"
+      },
+      {
+        "ja": "אלי' פואה' אלחירות",
+        "en": "to the mouth of the Hiroth,",
+        "he": "עַל-פִּי הַחִירֹת"
+      },
+      {
+        "ja": "אלתי בחצ'רה'",
+        "en": "which is before",
+        "he": "אֲשֶׁר עַל-פְּנֵי"
+      },
+      {
+        "ja": "בעל צפון",
+        "en": "Baal-Zephon,",
+        "he": "בַּעַל צְפוֹן"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and they encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "בין ידי מגדול",
+        "en": "before Migdol.",
+        "he": "לִפְנֵי מִגְדֹּל"
       }
     ],
     "8": [
       {
-        "ja": "ורחלו מן ת'ם. ועברו פי וסט אלבחר פי אלברייה",
-        "en": "And they set out from the mouth of the Hiroth and crossed through the midst of the sea into the wilderness",
-        "he": "וַיִּסְעוּ מִפְּנֵי הַחִירֹת וַיַּעַבְרוּ בְתוֹךְ-הַיָּם הַמִּדְבָּרָה"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
       },
       {
-        "ja": "ת'ם סארו. מסאפה' ת'לאת'ה' אייאם פי ברייה' איתם. ונזלו פי אלמרירה",
-        "en": "then they traveled a distance of three days in the wilderness of Etham, and encamped at the Bitterness.",
-        "he": "וַיֵּלְכוּ דֶּרֶךְ שְׁלֹשֶׁת יָמִים בְּמִדְבַּר אֵתָם וַיַּחֲנוּ בְּמָרָה"
+        "ja": "מן ת'ם",
+        "en": "from the mouth of the Hiroth",
+        "he": "מִפְּנֵי הַחִירֹת"
+      },
+      {
+        "ja": "ועברו",
+        "en": "and crossed",
+        "he": "וַיַּעַבְרוּ"
+      },
+      {
+        "ja": "פי וסט אלבחר",
+        "en": "through the midst of the sea",
+        "he": "בְתוֹךְ-הַיָּם"
+      },
+      {
+        "ja": "פי אלברייה",
+        "en": "into the wilderness;",
+        "he": "הַמִּדְבָּרָה"
+      },
+      {
+        "ja": "ת'ם",
+        "en": "then"
+      },
+      {
+        "ja": "סארו",
+        "en": "they traveled",
+        "he": "וַיֵּלְכוּ"
+      },
+      {
+        "ja": "מסאפה' ת'לאת'ה' אייאם",
+        "en": "a distance of three days",
+        "he": "דֶּרֶךְ שְׁלֹשֶׁת יָמִים"
+      },
+      {
+        "ja": "פי ברייה' איתם",
+        "en": "in the wilderness of Etham,",
+        "he": "בְּמִדְבַּר אֵתָם"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי אלמרירה",
+        "en": "at the Bitterness.",
+        "he": "בְּמָרָה"
       }
     ],
     "9": [
       {
-        "ja": "ורחלו מנהא. וגאו אלי' אילים",
-        "en": "And they set out from the Bitterness and came to Elim",
-        "he": "וַיִּסְעוּ מִמָּרָה וַיָּבֹאוּ אֵילִמָה"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
       },
       {
-        "ja": "וכאן פיהא. את'ני עשר עין מא. וסבעין נכ'לה פנזלו הנאך",
-        "en": "and in it were twelve springs of water and seventy palm-trees — and they encamped there.",
-        "he": "וּבְאֵילִם שְׁתֵּים עֶשְׂרֵה עֵינֹת מַיִם וְשִׁבְעִים תְּמָרִים--וַיַּחֲנוּ-שָׁם"
+        "ja": "מנהא",
+        "en": "from the Bitterness",
+        "he": "מִמָּרָה"
+      },
+      {
+        "ja": "וגאו",
+        "en": "and came",
+        "he": "וַיָּבֹאוּ"
+      },
+      {
+        "ja": "אלי' אילים",
+        "en": "to Elim —",
+        "he": "אֵילִמָה"
+      },
+      {
+        "ja": "וכאן פיהא",
+        "en": "and in it were",
+        "he": "וּבְאֵילִם"
+      },
+      {
+        "ja": "את'ני עשר עין מא",
+        "en": "twelve springs of water",
+        "he": "שְׁתֵּים עֶשְׂרֵה עֵינֹת מַיִם"
+      },
+      {
+        "ja": "וסבעין נכ'לה",
+        "en": "and seventy palm-trees —",
+        "he": "וְשִׁבְעִים תְּמָרִים"
+      },
+      {
+        "ja": "פנזלו הנאך",
+        "en": "and they encamped there.",
+        "he": "וַיַּחֲנוּ-שָׁם"
       }
     ],
     "10": [
       {
-        "ja": "ורחלו מנהא. ונזלו עלי' בחר אלקלזם",
-        "en": "And they set out from Elim and encamped by the Sea of Qulzum (Red Sea).",
-        "he": "וַיִּסְעוּ מֵאֵילִם וַיַּחֲנוּ עַל-יַם-סוּף"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Elim",
+        "he": "מֵאֵילִם"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "עלי' בחר אלקלזם",
+        "en": "by the Sea of Qulzum (Red Sea).",
+        "he": "עַל-יַם-סוּף"
       }
     ],
     "11": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי ברייה' סין",
-        "en": "And they set out from the Sea of Qulzum and encamped in the wilderness of Sin.",
-        "he": "וַיִּסְעוּ מִיַּם-סוּף וַיַּחֲנוּ בְּמִדְבַּר-סִין"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from the Sea of Qulzum",
+        "he": "מִיַּם-סוּף"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי ברייה' סין",
+        "en": "in the wilderness of Sin.",
+        "he": "בְּמִדְבַּר-סִין"
       }
     ],
     "12": [
       {
-        "ja": "פרחלו מנהא. ונזלו פי דפקה",
-        "en": "And they set out from the wilderness of Sin and encamped at Dophkah.",
-        "he": "וַיִּסְעוּ מִמִּדְבַּר-סִין וַיַּחֲנוּ בְּדָפְקָה"
+        "ja": "פרחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from the wilderness of Sin",
+        "he": "מִמִּדְבַּר-סִין"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי דפקה",
+        "en": "at Dophkah.",
+        "he": "בְּדָפְקָה"
       }
     ],
     "13": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי אלוש",
-        "en": "And they set out from Dophkah and encamped at Alush.",
-        "he": "וַיִּסְעוּ מִדָּפְקָה וַיַּחֲנוּ בְּאָלוּשׁ"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Dophkah",
+        "he": "מִדָּפְקָה"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי אלוש",
+        "en": "at Alush.",
+        "he": "בְּאָלוּשׁ"
       }
     ],
     "14": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי רפידים",
-        "en": "And they set out from Alush and encamped at Rephidim",
-        "he": "וַיִּסְעוּ מֵאָלוּשׁ וַיַּחֲנוּ בִּרְפִידִם"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
       },
       {
-        "ja": "ולם יכון ת'ם מאא. לאלקום ישרבונה",
-        "en": "and there was no water there for the people to drink.",
-        "he": "וְלֹא-הָיָה שָׁם מַיִם לָעָם לִשְׁתּוֹת"
+        "ja": "מנהא",
+        "en": "from Alush",
+        "he": "מֵאָלוּשׁ"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי רפידים",
+        "en": "at Rephidim;",
+        "he": "בִּרְפִידִם"
+      },
+      {
+        "ja": "ולם יכון ת'ם מאא",
+        "en": "and there was no water there",
+        "he": "וְלֹא-הָיָה שָׁם מַיִם"
+      },
+      {
+        "ja": "לאלקום",
+        "en": "for the people",
+        "he": "לָעָם"
+      },
+      {
+        "ja": "ישרבונה",
+        "en": "to drink.",
+        "he": "לִשְׁתּוֹת"
       }
     ],
     "15": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי ברייה' סיני",
-        "en": "And they set out from Rephidim and encamped in the wilderness of Sinai.",
-        "he": "וַיִּסְעוּ מֵרְפִידִם וַיַּחֲנוּ בְּמִדְבַּר סִינָי"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Rephidim",
+        "he": "מֵרְפִידִם"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי ברייה' סיני",
+        "en": "in the wilderness of Sinai.",
+        "he": "בְּמִדְבַּר סִינָי"
       }
     ],
     "16": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי קבור אלמתשהיין",
-        "en": "And they set out from the wilderness of Sinai and encamped at the Graves of the Desirous.",
-        "he": "וַיִּסְעוּ מִמִּדְבַּר סִינָי וַיַּחֲנוּ בְּקִבְרֹת הַתַּאֲוָה"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from the wilderness of Sinai",
+        "he": "מִמִּדְבַּר סִינָי"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי קבור אלמתשהיין",
+        "en": "at the Graves of the Desirous.",
+        "he": "בְּקִבְרֹת הַתַּאֲוָה"
       }
     ],
     "17": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי חצרות",
-        "en": "And they set out from the Graves of the Desirous and encamped at Hazeroth.",
-        "he": "וַיִּסְעוּ מִקִּבְרֹת הַתַּאֲוָה וַיַּחֲנוּ בַּחֲצֵרֹת"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from the Graves of the Desirous",
+        "he": "מִקִּבְרֹת הַתַּאֲוָה"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי חצרות",
+        "en": "at Hazeroth.",
+        "he": "בַּחֲצֵרֹת"
       }
     ],
     "18": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי רתמה",
-        "en": "And they set out from Hazeroth and encamped at Rithmah.",
-        "he": "וַיִּסְעוּ מֵחֲצֵרֹת וַיַּחֲנוּ בְּרִתְמָה"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Hazeroth",
+        "he": "מֵחֲצֵרֹת"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי רתמה",
+        "en": "at Rithmah.",
+        "he": "בְּרִתְמָה"
       }
     ],
     "19": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי רמון פרץ",
-        "en": "And they set out from Rithmah and encamped at Rimmon-Perez.",
-        "he": "וַיִּסְעוּ מֵרִתְמָה וַיַּחֲנוּ בְּרִמֹּן פָּרֶץ"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Rithmah",
+        "he": "מֵרִתְמָה"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי רמון פרץ",
+        "en": "at Rimmon-Perez.",
+        "he": "בְּרִמֹּן פָּרֶץ"
       }
     ],
     "20": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי לבנה",
-        "en": "And they set out from Rimmon-Perez and encamped at Libnah.",
-        "he": "וַיִּסְעוּ מֵרִמֹּן פָּרֶץ וַיַּחֲנוּ בְּלִבְנָה"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Rimmon-Perez",
+        "he": "מֵרִמֹּן פָּרֶץ"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי לבנה",
+        "en": "at Libnah.",
+        "he": "בְּלִבְנָה"
       }
     ],
     "21": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי רסה",
-        "en": "And they set out from Libnah and encamped at Rissah.",
-        "he": "וַיִּסְעוּ מִלִּבְנָה וַיַּחֲנוּ בְּרִסָּה"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Libnah",
+        "he": "מִלִּבְנָה"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי רסה",
+        "en": "at Rissah.",
+        "he": "בְּרִסָּה"
       }
     ],
     "22": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי קהלת",
-        "en": "And they set out from Rissah and encamped at Kehelath.",
-        "he": "וַיִּסְעוּ מֵרִסָּה וַיַּחֲנוּ בִּקְהֵלָתָה"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Rissah",
+        "he": "מֵרִסָּה"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי קהלת",
+        "en": "at Kehelath.",
+        "he": "בִּקְהֵלָתָה"
       }
     ],
     "23": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי גבל שפר",
-        "en": "And they set out from Kehelath and encamped at Mount Shepher.",
-        "he": "וַיִּסְעוּ מִקְּהֵלָתָה וַיַּחֲנוּ בְּהַר-שָׁפֶר"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Kehelath",
+        "he": "מִקְּהֵלָתָה"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי גבל שפר",
+        "en": "at Mount Shepher.",
+        "he": "בְּהַר-שָׁפֶר"
       }
     ],
     "24": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי חרדה",
-        "en": "And they set out from Mount Shepher and encamped at Haradah.",
-        "he": "וַיִּסְעוּ מֵהַר-שָׁפֶר וַיַּחֲנוּ בַּחֲרָדָה"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Mount Shepher",
+        "he": "מֵהַר-שָׁפֶר"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי חרדה",
+        "en": "at Haradah.",
+        "he": "בַּחֲרָדָה"
       }
     ],
     "25": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי מקהלות",
-        "en": "And they set out from Haradah and encamped at Makheloth.",
-        "he": "וַיִּסְעוּ מֵחֲרָדָה וַיַּחֲנוּ בְּמַקְהֵלֹת"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Haradah",
+        "he": "מֵחֲרָדָה"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי מקהלות",
+        "en": "at Makheloth.",
+        "he": "בְּמַקְהֵלֹת"
       }
     ],
     "26": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי תחת",
-        "en": "And they set out from Makheloth and encamped at Tahath.",
-        "he": "וַיִּסְעוּ מִמַּקְהֵלֹת וַיַּחֲנוּ בְּתָחַת"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Makheloth",
+        "he": "מִמַּקְהֵלֹת"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי תחת",
+        "en": "at Tahath.",
+        "he": "בְּתָחַת"
       }
     ],
     "27": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי תרח",
-        "en": "And they set out from Tahath and encamped at Terah.",
-        "he": "וַיִּסְעוּ מִתָּחַת וַיַּחֲנוּ בְּתָרַח"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Tahath",
+        "he": "מִתָּחַת"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי תרח",
+        "en": "at Terah.",
+        "he": "בְּתָרַח"
       }
     ],
     "28": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי מתקה",
-        "en": "And they set out from Terah and encamped at Mithkah.",
-        "he": "וַיִּסְעוּ מִתָּרַח וַיַּחֲנוּ בְּמִתְקָה"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Terah",
+        "he": "מִתָּרַח"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי מתקה",
+        "en": "at Mithkah.",
+        "he": "בְּמִתְקָה"
       }
     ],
     "29": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי חשמונה",
-        "en": "And they set out from Mithkah and encamped at Hashmonah.",
-        "he": "וַיִּסְעוּ מִמִּתְקָה וַיַּחֲנוּ בְּחַשְׁמֹנָה"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Mithkah",
+        "he": "מִמִּתְקָה"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי חשמונה",
+        "en": "at Hashmonah.",
+        "he": "בְּחַשְׁמֹנָה"
       }
     ],
     "30": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי מוסרות",
-        "en": "And they set out from Hashmonah and encamped at Moseroth.",
-        "he": "וַיִּסְעוּ מֵחַשְׁמֹנָה וַיַּחֲנוּ בְּמֹסֵרוֹת"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Hashmonah",
+        "he": "מֵחַשְׁמֹנָה"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי מוסרות",
+        "en": "at Moseroth.",
+        "he": "בְּמֹסֵרוֹת"
       }
     ],
     "31": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי בני יעקן",
-        "en": "And they set out from Moseroth and encamped at Bene-Yaakan.",
-        "he": "וַיִּסְעוּ מִמֹּסֵרוֹת וַיַּחֲנוּ בִּבְנֵי יַעֲקָן"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Moseroth",
+        "he": "מִמֹּסֵרוֹת"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי בני יעקן",
+        "en": "at Bene-Yaakan.",
+        "he": "בִּבְנֵי יַעֲקָן"
       }
     ],
     "32": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי חור גדגד",
-        "en": "And they set out from Bene-Yaakan and encamped at Hor-Haggidgad.",
-        "he": "וַיִּסְעוּ מִבְּנֵי יַעֲקָן וַיַּחֲנוּ בְּחֹר הַגִּדְגָּד"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Bene-Yaakan",
+        "he": "מִבְּנֵי יַעֲקָן"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי חור גדגד",
+        "en": "at Hor-Haggidgad.",
+        "he": "בְּחֹר הַגִּדְגָּד"
       }
     ],
     "33": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי יטבתא",
-        "en": "And they set out from Hor-Haggidgad and encamped at Yotbathah.",
-        "he": "וַיִּסְעוּ מֵחֹר הַגִּדְגָּד וַיַּחֲנוּ בְּיָטְבָתָה"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Hor-Haggidgad",
+        "he": "מֵחֹר הַגִּדְגָּד"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי יטבתא",
+        "en": "at Yotbathah.",
+        "he": "בְּיָטְבָתָה"
       }
     ],
     "34": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי עברונה",
-        "en": "And they set out from Yotbathah and encamped at Abronah.",
-        "he": "וַיִּסְעוּ מִיָּטְבָתָה וַיַּחֲנוּ בְּעַבְרֹנָה"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Yotbathah",
+        "he": "מִיָּטְבָתָה"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי עברונה",
+        "en": "at Abronah.",
+        "he": "בְּעַבְרֹנָה"
       }
     ],
     "35": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי עציון גבר",
-        "en": "And they set out from Abronah and encamped at Ezion-Gaber.",
-        "he": "וַיִּסְעוּ מֵעַבְרֹנָה וַיַּחֲנוּ בְּעֶצְיֹן גָּבֶר"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Abronah",
+        "he": "מֵעַבְרֹנָה"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי עציון גבר",
+        "en": "at Ezion-Gaber.",
+        "he": "בְּעֶצְיֹן גָּבֶר"
       }
     ],
     "36": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי ברייה' צין הי רקים",
-        "en": "And they set out from Ezion-Gaber and encamped in the wilderness of Zin — that is Reqem.",
-        "he": "וַיִּסְעוּ מֵעֶצְיֹן גָּבֶר וַיַּחֲנוּ בְמִדְבַּר-צִן הִוא קָדֵשׁ"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Ezion-Gaber",
+        "he": "מֵעֶצְיֹן גָּבֶר"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי ברייה' צין",
+        "en": "in the wilderness of Zin —",
+        "he": "בְמִדְבַּר-צִן"
+      },
+      {
+        "ja": "הי רקים",
+        "en": "that is Reqem.",
+        "he": "הִוא קָדֵשׁ"
       }
     ],
     "37": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי גבל הור. פי טרף בלד אדום",
-        "en": "And they set out from Reqem and encamped at Mount Hor, at the edge of the land of Edom.",
-        "he": "וַיִּסְעוּ מִקָּדֵשׁ וַיַּחֲנוּ בְּהֹר הָהָר בִּקְצֵה אֶרֶץ אֱדוֹם"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Reqem",
+        "he": "מִקָּדֵשׁ"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי גבל הור",
+        "en": "at Mount Hor,",
+        "he": "בְּהֹר הָהָר"
+      },
+      {
+        "ja": "פי טרף בלד אדום",
+        "en": "at the edge of the land of Edom.",
+        "he": "בִּקְצֵה אֶרֶץ אֱדוֹם"
       }
     ],
     "38": [
       {
-        "ja": "פצעד הרון אלאמאם. אלי' גבל הור. ומאת ת'ם באמר אללה",
-        "en": "And Aaron the imām ascended to Mount Hor, and died there at the command of God",
-        "he": "וַיַּעַל אַהֲרֹן הַכֹּהֵן אֶל-הֹר הָהָר עַל-פִּי יְהוָה--וַיָּמָת שָׁם"
+        "ja": "פצעד",
+        "en": "And Aaron the imām ascended",
+        "he": "וַיַּעַל"
       },
       {
-        "ja": "פי סנה' אלארבעין. לכ'רוג בני אסראיל מן בלד מצר",
-        "en": "in the fortieth year of the going out of the sons of Israel from the land of Egypt",
-        "he": "בִּשְׁנַת הָאַרְבָּעִים לְצֵאת בְּנֵי-יִשְׂרָאֵל מֵאֶרֶץ מִצְרַיִם"
+        "ja": "הרון אלאמאם",
+        "en": "to Mount Hor,",
+        "he": "אַהֲרֹן הַכֹּהֵן"
       },
       {
-        "ja": "פי אליום אלאוול מן אלשהר אלכ'אמס",
-        "en": "on the first day of the fifth month.",
-        "he": "בַּחֹדֶשׁ הַחֲמִישִׁי בְּאֶחָד לַחֹדֶשׁ"
+        "ja": "אלי' גבל הור",
+        "en": "and died there",
+        "he": "אֶל-הֹר הָהָר"
+      },
+      {
+        "ja": "ומאת ת'ם",
+        "en": "at the command of",
+        "he": "וַיָּמָת שָׁם"
+      },
+      {
+        "ja": "באמר אללה",
+        "en": "God,",
+        "he": "עַל-פִּי יְהוָה"
+      },
+      {
+        "ja": "פי סנה' אלארבעין",
+        "en": "in the fortieth year",
+        "he": "בִּשְׁנַת הָאַרְבָּעִים"
+      },
+      {
+        "ja": "לכ'רוג בני אסראיל",
+        "en": "of the going out of the sons of Israel",
+        "he": "לְצֵאת בְּנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "מן בלד מצר",
+        "en": "from the land of Egypt,",
+        "he": "מֵאֶרֶץ מִצְרַיִם"
+      },
+      {
+        "ja": "פי אליום אלאוול",
+        "en": "on the first day of the",
+        "he": "בְּאֶחָד לַחֹדֶשׁ"
+      },
+      {
+        "ja": "מן אלשהר אלכ'אמס",
+        "en": "fifth month.",
+        "he": "בַּחֹדֶשׁ הַחֲמִישִׁי"
       }
     ],
     "39": [
       {
-        "ja": "וכאן להרון. מאיה ות'לאת'ה ועשרין סנה. למא מאת הנאך",
-        "en": "And Aaron was a hundred and twenty-three years old when he died there.",
-        "he": "וְאַהֲרֹן בֶּן-שָׁלֹשׁ וְעֶשְׂרִים וּמְאַת שָׁנָה בְּמֹתוֹ בְּהֹר הָהָר"
+        "ja": "וכאן להרון",
+        "en": "And Aaron was",
+        "he": "וְאַהֲרֹן"
+      },
+      {
+        "ja": "מאיה ות'לאת'ה ועשרין סנה",
+        "en": "a hundred and twenty-three years old",
+        "he": "בֶּן-שָׁלֹשׁ וְעֶשְׂרִים וּמְאַת שָׁנָה"
+      },
+      {
+        "ja": "למא מאת",
+        "en": "when he died",
+        "he": "בְּמֹתוֹ"
+      },
+      {
+        "ja": "הנאך",
+        "en": "there.",
+        "he": "בְּהֹר הָהָר"
       }
     ],
     "40": [
       {
-        "ja": "ת'ם סמע אלכנאעני מלך ערד. והו סאכן פי אלדארום פי בלד כנעאן במגי בני אסראיל",
-        "en": "Then the Canaanite, the king of Arad — who was dwelling in the south in the land of Canaan — heard of the coming of the sons of Israel.",
-        "he": "וַיִּשְׁמַע הַכְּנַעֲנִי מֶלֶךְ עֲרָד וְהוּא-יֹשֵׁב בַּנֶּגֶב בְּאֶרֶץ כְּנָעַן--בְּבֹא בְּנֵי יִשְׂרָאֵל"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "סמע",
+        "en": "heard",
+        "he": "וַיִּשְׁמַע"
+      },
+      {
+        "ja": "אלכנאעני",
+        "en": "the Canaanite,",
+        "he": "הַכְּנַעֲנִי"
+      },
+      {
+        "ja": "מלך ערד",
+        "en": "the king of Arad —",
+        "he": "מֶלֶךְ עֲרָד"
+      },
+      {
+        "ja": "והו סאכן",
+        "en": "who was dwelling",
+        "he": "וְהוּא-יֹשֵׁב"
+      },
+      {
+        "ja": "פי אלדארום",
+        "en": "in the south",
+        "he": "בַּנֶּגֶב"
+      },
+      {
+        "ja": "פי בלד כנעאן",
+        "en": "in the land of Canaan —",
+        "he": "בְּאֶרֶץ כְּנָעַן"
+      },
+      {
+        "ja": "במגי בני אסראיל",
+        "en": "of the coming of the sons of Israel.",
+        "he": "בְּבֹא בְּנֵי יִשְׂרָאֵל"
       }
     ],
     "41": [
       {
-        "ja": "ת'ם רחלו מן גבל הור. ונזלו פי צלמונה",
-        "en": "Then they set out from Mount Hor and encamped at Zalmonah.",
-        "he": "וַיִּסְעוּ מֵהֹר הָהָר וַיַּחֲנוּ בְּצַלְמֹנָה"
+        "ja": "ת'ם רחלו",
+        "en": "Then they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מן גבל הור",
+        "en": "from Mount Hor",
+        "he": "מֵהֹר הָהָר"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי צלמונה",
+        "en": "at Zalmonah.",
+        "he": "בְּצַלְמֹנָה"
       }
     ],
     "42": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי פונון",
-        "en": "And they set out from Zalmonah and encamped at Punon.",
-        "he": "וַיִּסְעוּ מִצַּלְמֹנָה וַיַּחֲנוּ בְּפוּנֹן"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Zalmonah",
+        "he": "מִצַּלְמֹנָה"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי פונון",
+        "en": "at Punon.",
+        "he": "בְּפוּנֹן"
       }
     ],
     "43": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי אובות",
-        "en": "And they set out from Punon and encamped at Oboth.",
-        "he": "וַיִּסְעוּ מִפּוּנֹן וַיַּחֲנוּ בְּאֹבֹת"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Punon",
+        "he": "מִפּוּנֹן"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי אובות",
+        "en": "at Oboth.",
+        "he": "בְּאֹבֹת"
       }
     ],
     "44": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי עיי אלמגאז. פי תכ'ם מואב",
-        "en": "And they set out from Oboth and encamped at Iye ha-Maʿaz, on the border of Moab.",
-        "he": "וַיִּסְעוּ מֵאֹבֹת וַיַּחֲנוּ בְּעִיֵּי הָעֲבָרִים בִּגְבוּל מוֹאָב"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Oboth",
+        "he": "מֵאֹבֹת"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי עיי אלמגאז",
+        "en": "at Iye ha-Maʿaz,",
+        "he": "בְּעִיֵּי הָעֲבָרִים"
+      },
+      {
+        "ja": "פי תכ'ם מואב",
+        "en": "on the border of Moab.",
+        "he": "בִּגְבוּל מוֹאָב"
       }
     ],
     "45": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי דיבון גד",
-        "en": "And they set out from Iye ha-Maʿaz and encamped at Dibon-Gad.",
-        "he": "וַיִּסְעוּ מֵעִיִּים וַיַּחֲנוּ בְּדִיבֹן גָּד"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Iye ha-Maʿaz",
+        "he": "מֵעִיִּים"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי דיבון גד",
+        "en": "at Dibon-Gad.",
+        "he": "בְּדִיבֹן גָּד"
       }
     ],
     "46": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי עלמון דבלתים",
-        "en": "And they set out from Dibon-Gad and encamped at Almon-Diblathaimah.",
-        "he": "וַיִּסְעוּ מִדִּיבֹן גָּד וַיַּחֲנוּ בְּעַלְמֹן דִּבְלָתָיְמָה"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Dibon-Gad",
+        "he": "מִדִּיבֹן גָּד"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי עלמון דבלתים",
+        "en": "at Almon-Diblathaimah.",
+        "he": "בְּעַלְמֹן דִּבְלָתָיְמָה"
       }
     ],
     "47": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי גבאל אלעבריין. בין ידי נבו",
-        "en": "And they set out from Almon-Diblathaimah and encamped at the mountains of the Hebrews, before Nebo.",
-        "he": "וַיִּסְעוּ מֵעַלְמֹן דִּבְלָתָיְמָה וַיַּחֲנוּ בְּהָרֵי הָעֲבָרִים לִפְנֵי נְבוֹ"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from Almon-Diblathaimah",
+        "he": "מֵעַלְמֹן דִּבְלָתָיְמָה"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי גבאל אלעבריין",
+        "en": "at the mountains of the Hebrews,",
+        "he": "בְּהָרֵי הָעֲבָרִים"
+      },
+      {
+        "ja": "בין ידי נבו",
+        "en": "before Nebo.",
+        "he": "לִפְנֵי נְבוֹ"
       }
     ],
     "48": [
       {
-        "ja": "ורחלו מנהא. ונזלו פי בידאת מואב. עלי' ארדן יריחא",
-        "en": "And they set out from the mountains of the Hebrews and encamped in the open country of Moab, by the Jordan of Jericho.",
-        "he": "וַיִּסְעוּ מֵהָרֵי הָעֲבָרִים וַיַּחֲנוּ בְּעַרְבֹת מוֹאָב עַל יַרְדֵּן יְרֵחוֹ"
+        "ja": "ורחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "מנהא",
+        "en": "from the mountains of the Hebrews",
+        "he": "מֵהָרֵי הָעֲבָרִים"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי בידאת מואב",
+        "en": "in the open country of Moab,",
+        "he": "בְּעַרְבֹת מוֹאָב"
+      },
+      {
+        "ja": "עלי' ארדן יריחא",
+        "en": "by the Jordan of Jericho.",
+        "he": "עַל יַרְדֵּן יְרֵחוֹ"
       }
     ],
     "49": [
       {
-        "ja": "פנזלו עלי' אלארדן מן בית ישימות. אלי' מרג שטין. וד'אלך פי בידאת מואב",
-        "en": "And they encamped by the Jordan, from Beth-Jeshimoth to the meadow of the Acacias — that being in the open country of Moab.",
-        "he": "וַיַּחֲנוּ עַל-הַיַּרְדֵּן מִבֵּית הַיְשִׁמֹת עַד אָבֵל הַשִּׁטִּים בְּעַרְבֹת מוֹאָב"
+        "ja": "פנזלו",
+        "en": "And they encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "עלי' אלארדן",
+        "en": "by the Jordan,",
+        "he": "עַל-הַיַּרְדֵּן"
+      },
+      {
+        "ja": "מן בית ישימות",
+        "en": "from Beth-Jeshimoth",
+        "he": "מִבֵּית הַיְשִׁמֹת"
+      },
+      {
+        "ja": "אלי' מרג שטין",
+        "en": "to the meadow of the Acacias —",
+        "he": "עַד אָבֵל הַשִּׁטִּים"
+      },
+      {
+        "ja": "וד'אלך פי בידאת מואב",
+        "en": "that being in the open country of Moab.",
+        "he": "בְּעַרְבֹת מוֹאָב"
       }
     ],
     "50": [
       {
-        "ja": "פכלם אללה מוסי' פי בידאת מואב. עלי' ארדן יריחא תכלימא",
-        "en": "And God spoke to Moses in the open country of Moab, by the Jordan of Jericho directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה בְּעַרְבֹת מוֹאָב עַל-יַרְדֵּן יְרֵחוֹ לֵאמֹר"
+        "ja": "פכלם",
+        "en": "And God spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "to Moses",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "in the open country of",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "פי בידאת מואב",
+        "en": "Moab,",
+        "he": "בְּעַרְבֹת מוֹאָב"
+      },
+      {
+        "ja": "עלי' ארדן יריחא",
+        "en": "by the Jordan of Jericho",
+        "he": "עַל-יַרְדֵּן יְרֵחוֹ"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly.",
+        "he": "לֵאמֹר"
       }
     ],
     "51": [
       {
-        "ja": "מר בני אסראיל וקל להם",
-        "en": "Command the sons of Israel and say to them:",
-        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "אנכם גאיזין אלארדן אלי' בלד כנעאן",
-        "en": "You are crossing the Jordan into the land of Canaan.",
-        "he": "כִּי אַתֶּם עֹבְרִים אֶת-הַיַּרְדֵּן אֶל-אֶרֶץ כְּנָעַן"
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "אֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "להם",
+        "en": "to them:",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "אנכם",
+        "en": "You are",
+        "he": "כִּי אַתֶּם"
+      },
+      {
+        "ja": "גאיזין",
+        "en": "crossing",
+        "he": "עֹבְרִים"
+      },
+      {
+        "ja": "אלארדן",
+        "en": "the Jordan",
+        "he": "אֶת-הַיַּרְדֵּן"
+      },
+      {
+        "ja": "אלי' בלד כנעאן",
+        "en": "into the land of Canaan.",
+        "he": "אֶל-אֶרֶץ כְּנָעַן"
       }
     ],
     "52": [
       {
-        "ja": "פאקרצ'ו גמיע אהל אלבלד מן בין ידיכם",
-        "en": "And drive out all the inhabitants of the land from before you",
-        "he": "וְהוֹרַשְׁתֶּם אֶת-כָּל-יֹשְׁבֵי הָאָרֶץ מִפְּנֵיכֶם"
+        "ja": "פאקרצ'ו",
+        "en": "And drive out",
+        "he": "וְהוֹרַשְׁתֶּם"
       },
       {
-        "ja": "ואבידו גמיע מזכ'רפאתהם. ואצנאם מסבוכאתהם",
-        "en": "and destroy all their ornaments and their graven idols",
-        "he": "וְאִבַּדְתֶּם אֵת כָּל-מַשְׂכִּיֹּתָם וְאֵת כָּל-צַלְמֵי מַסֵּכֹתָם תְּאַבֵּדוּ"
+        "ja": "גמיע אהל אלבלד",
+        "en": "all the inhabitants of the land",
+        "he": "אֶת-כָּל-יֹשְׁבֵי הָאָרֶץ"
+      },
+      {
+        "ja": "מן בין ידיכם",
+        "en": "from before you,",
+        "he": "מִפְּנֵיכֶם"
+      },
+      {
+        "ja": "ואבידו",
+        "en": "and destroy",
+        "he": "וְאִבַּדְתֶּם"
+      },
+      {
+        "ja": "גמיע מזכ'רפאתהם",
+        "en": "all their ornaments",
+        "he": "אֵת כָּל-מַשְׂכִּיֹּתָם"
+      },
+      {
+        "ja": "ואצנאם מסבוכאתהם",
+        "en": "and their graven idols;",
+        "he": "וְאֵת כָּל-צַלְמֵי מַסֵּכֹתָם תְּאַבֵּדוּ"
       },
       {
         "ja": "וביעהם תנפד'ון",
@@ -439,55 +1452,130 @@
     ],
     "53": [
       {
-        "ja": "פאד'א קרצ'תמוהם אסכנו אלבלד",
-        "en": "And when you have driven them out, settle the land",
-        "he": "וְהוֹרַשְׁתֶּם אֶת-הָאָרֶץ וִישַׁבְתֶּם-בָּהּ"
+        "ja": "פאד'א קרצ'תמוהם",
+        "en": "And when you have driven them out,",
+        "he": "וְהוֹרַשְׁתֶּם"
       },
       {
-        "ja": "פקד אעטיתכם אייאה לתחוזוהו",
-        "en": "for I have given it to you that you may possess it.",
-        "he": "כִּי לָכֶם נָתַתִּי אֶת-הָאָרֶץ לָרֶשֶׁת אֹתָהּ"
+        "ja": "אסכנו אלבלד",
+        "en": "settle the land —",
+        "he": "וִישַׁבְתֶּם-בָּהּ"
+      },
+      {
+        "ja": "פקד אעטיתכם",
+        "en": "for I have given it to you",
+        "he": "כִּי לָכֶם"
+      },
+      {
+        "ja": "אייאה",
+        "en": "that you may",
+        "he": "נָתַתִּי אֶת-הָאָרֶץ"
+      },
+      {
+        "ja": "לתחוזוהו",
+        "en": "possess it.",
+        "he": "לָרֶשֶׁת אֹתָהּ"
       }
     ],
     "54": [
       {
-        "ja": "ותווזעוה באסהם לעשאירכם",
-        "en": "And you shall apportion it by equal shares among your clans",
-        "he": "וְהִתְנַחַלְתֶּם אֶת-הָאָרֶץ בְּגוֹרָל לְמִשְׁפְּחֹתֵיכֶם"
+        "ja": "ותווזעוה",
+        "en": "And you shall apportion it",
+        "he": "וְהִתְנַחַלְתֶּם"
       },
       {
-        "ja": "לאלכת'יר כת'רו נחלתה ולאלקליל קללוהא",
-        "en": "for the numerous enlarge his portion, and for the few reduce it.",
-        "he": "לָרַב תַּרְבּוּ אֶת-נַחֲלָתוֹ וְלַמְעַט תַּמְעִיט אֶת-נַחֲלָתוֹ"
+        "ja": "באסהם",
+        "en": "by equal shares",
+        "he": "בְּגוֹרָל"
       },
       {
-        "ja": "מן כ'רג לה אלסהם פי אי מוצ'ע כאן לה. ועלי' אסבאט אבאיכם תתוזעונה",
-        "en": "To whomever his share falls, in whatever place it may be, that shall be his; according to the tribes of your fathers you shall apportion it.",
-        "he": "אֶל אֲשֶׁר-יֵצֵא לוֹ שָׁמָּה הַגּוֹרָל לוֹ יִהְיֶה לְמַטּוֹת אֲבֹתֵיכֶם תִּתְנֶחָלוּ"
+        "ja": "לעשאירכם",
+        "en": "among your clans:",
+        "he": "לְמִשְׁפְּחֹתֵיכֶם"
+      },
+      {
+        "ja": "לאלכת'יר כת'רו נחלתה",
+        "en": "for the numerous enlarge his portion,",
+        "he": "לָרַב תַּרְבּוּ אֶת-נַחֲלָתוֹ"
+      },
+      {
+        "ja": "ולאלקליל קללוהא",
+        "en": "and for the few reduce it.",
+        "he": "וְלַמְעַט תַּמְעִיט אֶת-נַחֲלָתוֹ"
+      },
+      {
+        "ja": "מן כ'רג לה אלסהם פי אי מוצ'ע כאן לה",
+        "en": "To whomever his share falls, in whatever place it may be, that shall be his;",
+        "he": "אֶל אֲשֶׁר-יֵצֵא לוֹ שָׁמָּה הַגּוֹרָל"
+      },
+      {
+        "ja": "ועלי' אסבאט אבאיכם תתוזעונה",
+        "en": "according to the tribes of your fathers you shall apportion it.",
+        "he": "לְמַטּוֹת אֲבֹתֵיכֶם תִּתְנֶחָלוּ"
       }
     ],
     "55": [
       {
-        "ja": "ואן לם תקרצ'ו אהל אלבלד מן בין ידיכם",
-        "en": "But if you do not drive out the inhabitants of the land from before you",
-        "he": "וְאִם-לֹא תוֹרִישׁוּ אֶת-יֹשְׁבֵי הָאָרֶץ מִפְּנֵיכֶם"
+        "ja": "ואן לם תקרצ'ו",
+        "en": "But if you do not drive out",
+        "he": "וְאִם-לֹא תוֹרִישׁוּ"
       },
       {
-        "ja": "פיציר מא תבקונה מנהם. כאבר פי עיונכם. וכמסאל פי גנובכם",
-        "en": "then whatever you leave of them shall become like fine needles in your eyes and like thick thorns in your sides",
-        "he": "וְהָיָה אֲשֶׁר תּוֹתִירוּ מֵהֶם לְשִׂכִּים בְּעֵינֵיכֶם וְלִצְנִינִם בְּצִדֵּיכֶם"
+        "ja": "אהל אלבלד",
+        "en": "the inhabitants of the land",
+        "he": "אֶת-יֹשְׁבֵי הָאָרֶץ"
       },
       {
-        "ja": "ויצ'איקונכם פי אלבלד. אלד'י אנתם מקימין פיה",
-        "en": "and they shall press hard upon you in the land in which you are settled.",
-        "he": "וְצָרְרוּ אֶתְכֶם--עַל-הָאָרֶץ אֲשֶׁר אַתֶּם יֹשְׁבִים בָּהּ"
+        "ja": "מן בין ידיכם",
+        "en": "from before you,",
+        "he": "מִפְּנֵיכֶם"
+      },
+      {
+        "ja": "פיציר מא תבקונה מנהם",
+        "en": "then whatever you leave of them shall become",
+        "he": "וְהָיָה אֲשֶׁר תּוֹתִירוּ מֵהֶם"
+      },
+      {
+        "ja": "כאבר פי עיונכם",
+        "en": "like fine needles in your eyes",
+        "he": "לְשִׂכִּים בְּעֵינֵיכֶם"
+      },
+      {
+        "ja": "וכמסאל פי גנובכם",
+        "en": "and like thick thorns in your sides,",
+        "he": "וְלִצְנִינִם בְּצִדֵּיכֶם"
+      },
+      {
+        "ja": "ויצ'איקונכם",
+        "en": "and they shall press hard upon you",
+        "he": "וְצָרְרוּ אֶתְכֶם"
+      },
+      {
+        "ja": "פי אלבלד. אלד'י אנתם מקימין פיה",
+        "en": "in the land in which you are settled.",
+        "he": "עַל-הָאָרֶץ אֲשֶׁר אַתֶּם יֹשְׁבִים בָּהּ"
       }
     ],
     "56": [
       {
-        "ja": "פאכון כמא קצדת. אן אצנע בהם אצנע בכם",
-        "en": "And it shall be: just as I intended to do to them, so shall I do to you.",
-        "he": "וְהָיָה כַּאֲשֶׁר דִּמִּיתִי לַעֲשׂוֹת לָהֶם--אֶעֱשֶׂה לָכֶם"
+        "ja": "פאכון",
+        "en": "And it shall be:",
+        "he": "וְהָיָה"
+      },
+      {
+        "ja": "כמא קצדת",
+        "en": "just as I intended",
+        "he": "כַּאֲשֶׁר דִּמִּיתִי"
+      },
+      {
+        "ja": "אן אצנע בהם",
+        "en": "to do to them,",
+        "he": "לַעֲשׂוֹת לָהֶם"
+      },
+      {
+        "ja": "אצנע בכם",
+        "en": "so shall I do to you.",
+        "he": "אֶעֱשֶׂה לָכֶם"
       }
     ]
   }
