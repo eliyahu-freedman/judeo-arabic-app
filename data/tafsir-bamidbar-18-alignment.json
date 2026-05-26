@@ -1,195 +1,663 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 18. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_18.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 18. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_18.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "פקאל אללה להרון",
-        "en": "And God said to Aaron",
-        "he": "וַיֹּאמֶר יְהוָה אֶל-אַהֲרֹן"
+        "ja": "פקאל",
+        "en": "And"
       },
       {
-        "ja": "אנת ובניך ובית אביך מעך. תחמלון וזר אלקדס",
-        "en": "'You and your sons and your father's house with you shall bear the burden of the sanctuary",
-        "he": "אַתָּה וּבָנֶיךָ וּבֵית-אָבִיךָ אִתָּךְ תִּשְׂאוּ אֶת-עֲו‍ֹן הַמִּקְדָּשׁ"
+        "ja": "אללה",
+        "en": "God said",
+        "he": "וַיֹּאמֶר יְהוָה"
       },
       {
-        "ja": "ואנת. ובניך מעך תחמלון וזר אמאמתכם",
-        "en": "and you and your sons with you shall bear the burden of your priesthood",
-        "he": "וְאַתָּה וּבָנֶיךָ אִתָּךְ תִּשְׂאוּ אֶת-עֲו‍ֹן כְּהֻנַּתְכֶם"
+        "ja": "להרון",
+        "en": "to Aaron:",
+        "he": "אֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "אנת",
+        "en": "'You",
+        "he": "אַתָּה"
+      },
+      {
+        "ja": "ובניך",
+        "en": "and your sons",
+        "he": "וּבָנֶיךָ"
+      },
+      {
+        "ja": "ובית אביך",
+        "en": "and your father's house",
+        "he": "וּבֵית-אָבִיךָ"
+      },
+      {
+        "ja": "מעך",
+        "en": "with you",
+        "he": "אִתָּךְ"
+      },
+      {
+        "ja": "תחמלון",
+        "en": "shall bear",
+        "he": "תִּשְׂאוּ"
+      },
+      {
+        "ja": "וזר",
+        "en": "the burden of",
+        "he": "אֶת-עֲו‍ֹן"
+      },
+      {
+        "ja": "אלקדס",
+        "en": "the sanctuary;",
+        "he": "הַמִּקְדָּשׁ"
+      },
+      {
+        "ja": "ואנת",
+        "en": "and you",
+        "he": "וְאַתָּה"
+      },
+      {
+        "ja": "ובניך",
+        "en": "and your sons",
+        "he": "וּבָנֶיךָ"
+      },
+      {
+        "ja": "מעך",
+        "en": "with you",
+        "he": "אִתָּךְ"
+      },
+      {
+        "ja": "תחמלון",
+        "en": "shall bear",
+        "he": "תִּשְׂאוּ"
+      },
+      {
+        "ja": "וזר",
+        "en": "the burden of",
+        "he": "אֶת-עֲו‍ֹן"
+      },
+      {
+        "ja": "אמאמתכם",
+        "en": "your priesthood.",
+        "he": "כְּהֻנַּתְכֶם"
       }
     ],
     "2": [
       {
-        "ja": "ואיצ'א אכ'ותך בני לוי. סבט אביך קדמהם אליך",
-        "en": "And likewise your brothers, the sons of Levi — the tribe of your father — bring them forward to you",
-        "he": "וְגַם אֶת-אַחֶיךָ מַטֵּה לֵוִי שֵׁבֶט אָבִיךָ הַקְרֵב אִתָּךְ"
+        "ja": "ואיצ'א",
+        "en": "And likewise",
+        "he": "וְגַם"
       },
       {
-        "ja": "וינצ'אפון אליך ויכ'דמונך",
-        "en": "that they may be joined to you and serve you",
-        "he": "וְיִלָּווּ עָלֶיךָ וִישָׁרְתוּךָ"
+        "ja": "אכ'ותך",
+        "en": "your brothers,",
+        "he": "אֶת-אַחֶיךָ"
       },
       {
-        "ja": "ואנת ובניך מעך. פקט. בין ידי כ'בא אלשהאדה",
-        "en": "while you and your sons with you alone shall be before the tent of the testimony",
-        "he": "וְאַתָּה וּבָנֶיךָ אִתָּךְ לִפְנֵי אֹהֶל הָעֵדֻת"
+        "ja": "בני לוי",
+        "en": "the sons of Levi —",
+        "he": "מַטֵּה לֵוִי"
+      },
+      {
+        "ja": "סבט אביך",
+        "en": "the tribe of your father —",
+        "he": "שֵׁבֶט אָבִיךָ"
+      },
+      {
+        "ja": "קדמהם",
+        "en": "bring them forward",
+        "he": "הַקְרֵב"
+      },
+      {
+        "ja": "אליך",
+        "en": "to you,",
+        "he": "אִתָּךְ"
+      },
+      {
+        "ja": "וינצ'אפון אליך",
+        "en": "that they may be joined to you",
+        "he": "וְיִלָּווּ עָלֶיךָ"
+      },
+      {
+        "ja": "ויכ'דמונך",
+        "en": "and serve you;",
+        "he": "וִישָׁרְתוּךָ"
+      },
+      {
+        "ja": "ואנת",
+        "en": "while you",
+        "he": "וְאַתָּה"
+      },
+      {
+        "ja": "ובניך",
+        "en": "and your sons",
+        "he": "וּבָנֶיךָ"
+      },
+      {
+        "ja": "מעך",
+        "en": "with you",
+        "he": "אִתָּךְ"
+      },
+      {
+        "ja": "פקט",
+        "en": "alone"
+      },
+      {
+        "ja": "בין ידי",
+        "en": "shall be before",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "כ'בא אלשהאדה",
+        "en": "the tent of the testimony.",
+        "he": "אֹהֶל הָעֵדֻת"
       }
     ],
     "3": [
       {
-        "ja": "ויחפצון מחפצך. וחפץ' גמיע אלכ'בא",
-        "en": "And they shall keep your charge and the charge of the whole tent",
-        "he": "וְשָׁמְרוּ מִשְׁמַרְתְּךָ וּמִשְׁמֶרֶת כָּל-הָאֹהֶל"
+        "ja": "ויחפצון",
+        "en": "And they shall keep",
+        "he": "וְשָׁמְרוּ"
       },
       {
-        "ja": "מא כ'לא אניה' אלקדס ואלמד'בח לא יתקדמו",
-        "en": "except that they shall not approach the vessels of the sanctuary and the altar",
-        "he": "אַךְ אֶל-כְּלֵי הַקֹּדֶשׁ וְאֶל-הַמִּזְבֵּחַ לֹא יִקְרָבוּ"
+        "ja": "מחפצך",
+        "en": "your charge",
+        "he": "מִשְׁמַרְתְּךָ"
       },
       {
-        "ja": "ללא יהלכון אנתם והם אגמעין",
-        "en": "lest both you and they perish together.",
-        "he": "וְלֹא-יָמֻתוּ גַם-הֵם גַּם-אַתֶּם"
+        "ja": "וחפץ'",
+        "en": "and the charge of",
+        "he": "וּמִשְׁמֶרֶת"
+      },
+      {
+        "ja": "גמיע אלכ'בא",
+        "en": "the whole tent —",
+        "he": "כָּל-הָאֹהֶל"
+      },
+      {
+        "ja": "מא כ'לא",
+        "en": "except that"
+      },
+      {
+        "ja": "אניה' אלקדס",
+        "en": "the vessels of the sanctuary",
+        "he": "אֶל-כְּלֵי הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "ואלמד'בח",
+        "en": "and the altar",
+        "he": "וְאֶל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "לא יתקדמו",
+        "en": "they shall not approach",
+        "he": "לֹא יִקְרָבוּ"
+      },
+      {
+        "ja": "ללא יהלכון",
+        "en": "lest both you and they",
+        "he": "וְלֹא-יָמֻתוּ"
+      },
+      {
+        "ja": "אנתם והם אגמעין",
+        "en": "perish together.",
+        "he": "גַם-הֵם גַּם-אַתֶּם"
       }
     ],
     "4": [
       {
-        "ja": "ואלמנצ'אפין אליך. יחפצון חפץ' כ'בא אלמחצ'ר וכ'דמתה",
-        "en": "And those joined to you shall keep the charge of the tent of assembly and all its service",
-        "he": "וְנִלְווּ עָלֶיךָ--וְשָׁמְרוּ אֶת-מִשְׁמֶרֶת אֹהֶל מוֹעֵד לְכֹל עֲבֹדַת הָאֹהֶל"
+        "ja": "ואלמנצ'אפין אליך",
+        "en": "And those joined to you",
+        "he": "וְנִלְווּ עָלֶיךָ"
       },
       {
-        "ja": "ואגנבי לא יתקדם אליכם",
-        "en": "but an outsider shall not approach you.",
-        "he": "וְזָר לֹא-יִקְרַב אֲלֵיכֶם"
+        "ja": "יחפצון",
+        "en": "shall keep",
+        "he": "וְשָׁמְרוּ"
+      },
+      {
+        "ja": "חפץ'",
+        "en": "the charge of",
+        "he": "אֶת-מִשְׁמֶרֶת"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of assembly",
+        "he": "אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "וכ'דמתה",
+        "en": "and all its service;",
+        "he": "לְכֹל עֲבֹדַת הָאֹהֶל"
+      },
+      {
+        "ja": "ואגנבי",
+        "en": "but an outsider",
+        "he": "וְזָר"
+      },
+      {
+        "ja": "לא יתקדם",
+        "en": "shall not approach",
+        "he": "לֹא-יִקְרַב"
+      },
+      {
+        "ja": "אליכם",
+        "en": "you.",
+        "he": "אֲלֵיכֶם"
       }
     ],
     "5": [
       {
-        "ja": "ותחפצ'ו חפץ' אלקד'ס וחפץ' אלמד'בח",
-        "en": "And you shall keep the charge of the sanctuary and the charge of the altar",
-        "he": "וּשְׁמַרְתֶּם אֵת מִשְׁמֶרֶת הַקֹּדֶשׁ וְאֵת מִשְׁמֶרֶת הַמִּזְבֵּחַ"
+        "ja": "ותחפצ'ו",
+        "en": "And you shall keep",
+        "he": "וּשְׁמַרְתֶּם"
       },
       {
-        "ja": "ולא יכון זיאדה' סכ'ט. עלי' בני אסראיל",
-        "en": "so that there be no further outburst of wrath upon the sons of Israel.",
-        "he": "וְלֹא-יִהְיֶה עוֹד קֶצֶף עַל-בְּנֵי יִשְׂרָאֵל"
+        "ja": "חפץ' אלקד'ס",
+        "en": "the charge of the sanctuary",
+        "he": "מִשְׁמֶרֶת הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "וחפץ'",
+        "en": "and the charge of",
+        "he": "וְאֵת מִשְׁמֶרֶת"
+      },
+      {
+        "ja": "אלמד'בח",
+        "en": "the altar,",
+        "he": "הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "ולא יכון",
+        "en": "so that there be",
+        "he": "וְלֹא-יִהְיֶה"
+      },
+      {
+        "ja": "זיאדה'",
+        "en": "no further",
+        "he": "עוֹד"
+      },
+      {
+        "ja": "סכ'ט",
+        "en": "outburst of wrath",
+        "he": "קֶצֶף"
+      },
+      {
+        "ja": "עלי' בני",
+        "en": "upon the sons of",
+        "he": "עַל-בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel.",
+        "he": "יִשְׂרָאֵל"
       }
     ],
     "6": [
       {
-        "ja": "פאני קד אכ'ד'ת אכ'ותכם אלליואניין. מן בין בני אסראיל",
-        "en": "For I have taken your brothers, the Levites, from among the sons of Israel",
-        "he": "וַאֲנִי הִנֵּה לָקַחְתִּי אֶת-אֲחֵיכֶם הַלְוִיִּם מִתּוֹךְ בְּנֵי יִשְׂרָאֵל"
+        "ja": "פאני",
+        "en": "For I"
       },
       {
-        "ja": "וגעלתהם הבה לכם ללה",
-        "en": "I have made them a gift to you, dedicated to God",
-        "he": "לָכֶם מַתָּנָה נְתֻנִים לַיהוָה"
+        "ja": "קד אכ'ד'ת",
+        "en": "have taken",
+        "he": "וַאֲנִי הִנֵּה לָקַחְתִּי"
       },
       {
-        "ja": "ליכ'דמו כ'דמה' כ'בא אלמחצ'ר",
-        "en": "to serve the service of the tent of assembly.",
-        "he": "לַעֲבֹד אֶת-עֲבֹדַת אֹהֶל מוֹעֵד"
+        "ja": "אכ'ותכם",
+        "en": "your brothers,",
+        "he": "אֶת-אֲחֵיכֶם"
+      },
+      {
+        "ja": "אלליואניין",
+        "en": "the Levites,",
+        "he": "הַלְוִיִּם"
+      },
+      {
+        "ja": "מן בין",
+        "en": "from among",
+        "he": "מִתּוֹךְ"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel —",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וגעלתהם הבה לכם",
+        "en": "I have made them a gift to you,",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "ללה",
+        "en": "dedicated to God,",
+        "he": "מַתָּנָה נְתֻנִים לַיהוָה"
+      },
+      {
+        "ja": "ליכ'דמו",
+        "en": "to serve",
+        "he": "לַעֲבֹד"
+      },
+      {
+        "ja": "כ'דמה'",
+        "en": "the service of",
+        "he": "אֶת-עֲבֹדַת"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of assembly.",
+        "he": "אֹהֶל מוֹעֵד"
       }
     ],
     "7": [
       {
-        "ja": "ואנת ובניך מעך. תחפצון אמאמתכם. לגמיע אמור אלמד'בח. ודאכ'ל אלסגף ותכ'דמונה",
-        "en": "And you and your sons with you shall keep your priesthood for all matters of the altar and what is within the veil, and you shall serve them",
-        "he": "וְאַתָּה וּבָנֶיךָ אִתְּךָ תִּשְׁמְרוּ אֶת-כְּהֻנַּתְכֶם לְכָל-דְּבַר הַמִּזְבֵּחַ וּלְמִבֵּית לַפָּרֹכֶת--וַעֲבַדְתֶּם"
+        "ja": "ואנת",
+        "en": "And you",
+        "he": "וְאַתָּה"
+      },
+      {
+        "ja": "ובניך",
+        "en": "and your sons",
+        "he": "וּבָנֶיךָ"
+      },
+      {
+        "ja": "מעך",
+        "en": "with you",
+        "he": "אִתְּךָ"
+      },
+      {
+        "ja": "תחפצון",
+        "en": "shall keep",
+        "he": "תִּשְׁמְרוּ"
+      },
+      {
+        "ja": "אמאמתכם",
+        "en": "your priesthood",
+        "he": "אֶת-כְּהֻנַּתְכֶם"
+      },
+      {
+        "ja": "לגמיע אמור אלמד'בח",
+        "en": "for all matters of the altar",
+        "he": "לְכָל-דְּבַר הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "ודאכ'ל אלסגף",
+        "en": "and what is within the veil,",
+        "he": "וּלְמִבֵּית לַפָּרֹכֶת"
+      },
+      {
+        "ja": "ותכ'דמונה",
+        "en": "and you shall serve them;",
+        "he": "וַעֲבַדְתֶּם"
       },
       {
         "ja": "פקד געלת כ'דמתכם כ'דמה מוהובה",
-        "en": "for I have made your service a gifted service",
-        "he": "עֲבֹדַת מַתָּנָה אֶתֵּן אֶת-כְּהֻנַּתְכֶם"
+        "en": "for I have made your service a gifted service —",
+        "he": "עֲבֹדַת מַתָּנָה"
       },
       {
-        "ja": "ואי אגנבי תקדם אליהא פליקתל",
-        "en": "and any outsider who approaches it shall be put to death.'",
-        "he": "וְהַזָּר הַקָּרֵב יוּמָת"
+        "ja": "ואי אגנבי",
+        "en": "and any outsider",
+        "he": "וְהַזָּר"
+      },
+      {
+        "ja": "תקדם אליהא",
+        "en": "who approaches it",
+        "he": "הַקָּרֵב"
+      },
+      {
+        "ja": "פליקתל",
+        "en": "shall be put to death.'",
+        "he": "יוּמָת"
       }
     ],
     "8": [
       {
-        "ja": "ת'ם כלם אללה הרון. וקאל",
-        "en": "Then God spoke to Aaron, and said",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-אַהֲרֹן"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "אני קד אעטיתך חפץ' רפאיעי. מן גמיע אקדאס בני אסראיל",
-        "en": "'I have indeed given you the charge of My raised-offerings, from all the holy things of the sons of Israel",
-        "he": "וַאֲנִי הִנֵּה נָתַתִּי לְךָ אֶת-מִשְׁמֶרֶת תְּרוּמֹתָי לְכָל-קָדְשֵׁי בְנֵי-יִשְׂרָאֵל"
+        "ja": "כלם אללה",
+        "en": "God spoke",
+        "he": "וַיְדַבֵּר יְהוָה"
       },
       {
-        "ja": "אעטיתהא לך מסחא. ולבניך רסם אלדהר",
-        "en": "I have given them to you as an anointing, and to your sons as a perpetual ordinance",
-        "he": "לְךָ נְתַתִּים לְמָשְׁחָה וּלְבָנֶיךָ--לְחָק-עוֹלָם"
+        "ja": "הרון",
+        "en": "to Aaron,",
+        "he": "אֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "וקאל",
+        "en": "and said:"
+      },
+      {
+        "ja": "אני קד אעטיתך",
+        "en": "'I have indeed given you",
+        "he": "וַאֲנִי הִנֵּה נָתַתִּי"
+      },
+      {
+        "ja": "חפץ'",
+        "en": "the charge of",
+        "he": "אֶת-מִשְׁמֶרֶת"
+      },
+      {
+        "ja": "רפאיעי",
+        "en": "My raised-offerings,",
+        "he": "תְּרוּמֹתָי"
+      },
+      {
+        "ja": "מן גמיע אקדאס",
+        "en": "from all the holy things of",
+        "he": "לְכָל-קָדְשֵׁי"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel;",
+        "he": "בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אעטיתהא לך",
+        "en": "I have given them to you",
+        "he": "לְךָ נְתַתִּים"
+      },
+      {
+        "ja": "מסחא",
+        "en": "as an anointing,",
+        "he": "לְמָשְׁחָה"
+      },
+      {
+        "ja": "ולבניך",
+        "en": "and to your sons",
+        "he": "וּלְבָנֶיךָ"
+      },
+      {
+        "ja": "רסם אלדהר",
+        "en": "as a perpetual ordinance.",
+        "he": "לְחָק-עוֹלָם"
       }
     ],
     "9": [
       {
-        "ja": "הד'א יכון לך. מן כ'ואץ אלאקדאס מן בעד אלמחרק",
-        "en": "This shall be yours from the choicest of the holy things, after the burning",
-        "he": "זֶה-יִהְיֶה לְךָ מִקֹּדֶשׁ הַקֳּדָשִׁים מִן-הָאֵשׁ"
+        "ja": "הד'א יכון לך",
+        "en": "This shall be yours",
+        "he": "זֶה-יִהְיֶה לְךָ"
       },
       {
-        "ja": "מן גמיע קראבינהם וברהם ודכותהם. וקרבאן אלאת'ם אלד'י יאתוני בה",
-        "en": "from all their offerings and their grain-offerings and their purification-offerings, and the guilt-offering which they bring to Me",
-        "he": "כָּל-קָרְבָּנָם לְכָל-מִנְחָתָם וּלְכָל-חַטָּאתָם וּלְכָל-אֲשָׁמָם אֲשֶׁר יָשִׁיבוּ לִי"
+        "ja": "מן כ'ואץ אלאקדאס",
+        "en": "from the choicest of the holy things,",
+        "he": "מִקֹּדֶשׁ הַקֳּדָשִׁים"
       },
       {
-        "ja": "פהו מן כ'ואץ אלאקדאס. לך ולבניך",
-        "en": "it is from the choicest of the holy things, for you and for your sons.",
-        "he": "קֹדֶשׁ קָדָשִׁים לְךָ הוּא וּלְבָנֶיךָ"
+        "ja": "מן בעד אלמחרק",
+        "en": "after the burning:",
+        "he": "מִן-הָאֵשׁ"
+      },
+      {
+        "ja": "מן גמיע קראבינהם",
+        "en": "from all their offerings",
+        "he": "כָּל-קָרְבָּנָם"
+      },
+      {
+        "ja": "וברהם",
+        "en": "and their grain-offerings",
+        "he": "לְכָל-מִנְחָתָם"
+      },
+      {
+        "ja": "ודכותהם",
+        "en": "and their purification-offerings,",
+        "he": "וּלְכָל-חַטָּאתָם"
+      },
+      {
+        "ja": "וקרבאן אלאת'ם",
+        "en": "and the guilt-offering",
+        "he": "וּלְכָל-אֲשָׁמָם"
+      },
+      {
+        "ja": "אלד'י יאתוני בה",
+        "en": "which they bring to Me —",
+        "he": "אֲשֶׁר יָשִׁיבוּ לִי"
+      },
+      {
+        "ja": "פהו מן כ'ואץ אלאקדאס",
+        "en": "it is from the choicest of the holy things,",
+        "he": "קֹדֶשׁ קָדָשִׁים"
+      },
+      {
+        "ja": "לך",
+        "en": "for you",
+        "he": "לְךָ הוּא"
+      },
+      {
+        "ja": "ולבניך",
+        "en": "and for your sons.",
+        "he": "וּלְבָנֶיךָ"
       }
     ],
     "10": [
       {
-        "ja": "ובכ'אץ אלט'הר תאכלה",
-        "en": "You shall eat it in the choicest of purity",
-        "he": "בְּקֹדֶשׁ הַקֳּדָשִׁים תֹּאכְלֶנּוּ"
+        "ja": "ובכ'אץ אלט'הר",
+        "en": "You shall eat it in the choicest of purity:",
+        "he": "בְּקֹדֶשׁ הַקֳּדָשִׁים"
       },
       {
-        "ja": "כל ד'כר יאכל מנה",
-        "en": "every male shall eat of it",
-        "he": "כָּל-זָכָר יֹאכַל אֹתוֹ"
+        "ja": "תאכלה",
+        "en": "every",
+        "he": "תֹּאכְלֶנּוּ"
       },
       {
-        "ja": "כד'אך יכון לך קדסא",
-        "en": "thus shall it be holy to you.",
+        "ja": "כל ד'כר",
+        "en": "male",
+        "he": "כָּל-זָכָר"
+      },
+      {
+        "ja": "יאכל מנה",
+        "en": "shall eat of it;",
+        "he": "יֹאכַל אֹתוֹ"
+      },
+      {
+        "ja": "כד'אך",
+        "en": "thus"
+      },
+      {
+        "ja": "יכון לך קדסא",
+        "en": "shall it be holy to you.",
         "he": "קֹדֶשׁ יִהְיֶה-לָּךְ"
       }
     ],
     "11": [
       {
-        "ja": "והד'ה לך רפאיע עטאיאהם. מן גמיע מחרכאת בני אסראיל",
-        "en": "And these are yours — the raised-offerings of their gifts, from all the wave-offerings of the sons of Israel",
-        "he": "וְזֶה-לְּךָ תְּרוּמַת מַתָּנָם לְכָל-תְּנוּפֹת בְּנֵי יִשְׂרָאֵל"
+        "ja": "והד'ה לך",
+        "en": "And these are yours —",
+        "he": "וְזֶה-לְּךָ"
       },
       {
-        "ja": "לך אעטיתהא. ולבניך ולבנאתך. מעך רסם אלדהר",
-        "en": "I have given them to you, and to your sons and to your daughters with you, as a perpetual ordinance",
-        "he": "לְךָ נְתַתִּים וּלְבָנֶיךָ וְלִבְנֹתֶיךָ אִתְּךָ לְחָק-עוֹלָם"
+        "ja": "רפאיע עטאיאהם",
+        "en": "the raised-offerings of their gifts,",
+        "he": "תְּרוּמַת מַתָּנָם"
       },
       {
-        "ja": "כל טאהר פי מנזלך יאכלהא",
-        "en": "every one who is pure in your household may eat it.",
-        "he": "כָּל-טָהוֹר בְּבֵיתְךָ יֹאכַל אֹתוֹ"
+        "ja": "מן גמיע מחרכאת",
+        "en": "from all the wave-offerings of",
+        "he": "לְכָל-תְּנוּפֹת"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel;",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "לך אעטיתהא",
+        "en": "I have given them to you,",
+        "he": "לְךָ נְתַתִּים"
+      },
+      {
+        "ja": "ולבניך",
+        "en": "and to your sons",
+        "he": "וּלְבָנֶיךָ"
+      },
+      {
+        "ja": "ולבנאתך",
+        "en": "and to your daughters",
+        "he": "וְלִבְנֹתֶיךָ"
+      },
+      {
+        "ja": "מעך",
+        "en": "with you,",
+        "he": "אִתְּךָ"
+      },
+      {
+        "ja": "רסם אלדהר",
+        "en": "as a perpetual ordinance:",
+        "he": "לְחָק-עוֹלָם"
+      },
+      {
+        "ja": "כל טאהר",
+        "en": "every one who is pure",
+        "he": "כָּל-טָהוֹר"
+      },
+      {
+        "ja": "פי מנזלך",
+        "en": "in your household",
+        "he": "בְּבֵיתְךָ"
+      },
+      {
+        "ja": "יאכלהא",
+        "en": "may eat it.",
+        "he": "יֹאכַל אֹתוֹ"
       }
     ],
     "12": [
       {
-        "ja": "וגמיע אגוד אלדהן ואלעציר ואלבר",
-        "en": "And all the choicest of the oil and of the juice and of the grain",
-        "he": "כֹּל חֵלֶב יִצְהָר וְכָל-חֵלֶב תִּירוֹשׁ וְדָגָן"
+        "ja": "וגמיע אגוד אלדהן",
+        "en": "And all the choicest of the oil",
+        "he": "כֹּל חֵלֶב יִצְהָר"
       },
       {
-        "ja": "אואילהא. אלד'י יגעלונהא ללה",
-        "en": "their firstfruits which they set apart for God",
-        "he": "רֵאשִׁיתָם אֲשֶׁר-יִתְּנוּ לַיהוָה"
+        "ja": "ואלעציר",
+        "en": "and of the juice",
+        "he": "וְכָל-חֵלֶב תִּירוֹשׁ"
+      },
+      {
+        "ja": "ואלבר",
+        "en": "and of the grain —",
+        "he": "וְדָגָן"
+      },
+      {
+        "ja": "אואילהא",
+        "en": "their firstfruits",
+        "he": "רֵאשִׁיתָם"
+      },
+      {
+        "ja": "אלד'י יגעלונהא",
+        "en": "which they set apart",
+        "he": "אֲשֶׁר-יִתְּנוּ"
+      },
+      {
+        "ja": "ללה",
+        "en": "for God —",
+        "he": "לַיהוָה"
       },
       {
         "ja": "קד געלתהא לך",
@@ -199,50 +667,149 @@
     ],
     "13": [
       {
-        "ja": "ובכור מא פי ריאצ'הם. אלד'י יאתון בה ללה יכון לך",
-        "en": "And the firstfruits of all that is in their gardens, which they bring to God, shall be yours",
-        "he": "בִּכּוּרֵי כָּל-אֲשֶׁר בְּאַרְצָם אֲשֶׁר-יָבִיאוּ לַיהוָה--לְךָ יִהְיֶה"
+        "ja": "ובכור",
+        "en": "And the firstfruits of",
+        "he": "בִּכּוּרֵי"
       },
       {
-        "ja": "וכל טאהר פי מנזלך יאכלה",
-        "en": "every one who is pure in your household may eat it.",
-        "he": "כָּל-טָהוֹר בְּבֵיתְךָ יֹאכְלֶנּוּ"
+        "ja": "מא פי ריאצ'הם",
+        "en": "all that is in their gardens,",
+        "he": "כָּל-אֲשֶׁר בְּאַרְצָם"
+      },
+      {
+        "ja": "אלד'י יאתון בה",
+        "en": "which they bring",
+        "he": "אֲשֶׁר-יָבִיאוּ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God,",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "יכון לך",
+        "en": "shall be yours;",
+        "he": "לְךָ יִהְיֶה"
+      },
+      {
+        "ja": "וכל טאהר",
+        "en": "every one who is pure",
+        "he": "כָּל-טָהוֹר"
+      },
+      {
+        "ja": "פי מנזלך",
+        "en": "in your household",
+        "he": "בְּבֵיתְךָ"
+      },
+      {
+        "ja": "יאכלה",
+        "en": "may eat it.",
+        "he": "יֹאכְלֶנּוּ"
       }
     ],
     "14": [
       {
-        "ja": "וכל צ'ואף פי אל אסראיל יכון לך",
-        "en": "And every devoted thing in the house of Israel shall be yours.",
-        "he": "כָּל-חֵרֶם בְּיִשְׂרָאֵל לְךָ יִהְיֶה"
+        "ja": "וכל",
+        "en": "And every"
+      },
+      {
+        "ja": "צ'ואף",
+        "en": "devoted thing",
+        "he": "כָּל-חֵרֶם"
+      },
+      {
+        "ja": "פי אל אסראיל",
+        "en": "in the house of Israel",
+        "he": "בְּיִשְׂרָאֵל"
+      },
+      {
+        "ja": "יכון לך",
+        "en": "shall be yours.",
+        "he": "לְךָ יִהְיֶה"
       }
     ],
     "15": [
       {
-        "ja": "וכל אוול בטן. מן כל בשרי. אלד'י יקדמונה ללה. מן אנסאן ובהימה יכון לך",
-        "en": "Every firstborn of the womb, of all flesh, which they present to God — of human and of beast — shall be yours",
-        "he": "כָּל-פֶּטֶר רֶחֶם לְכָל-בָּשָׂר אֲשֶׁר-יַקְרִיבוּ לַיהוָה בָּאָדָם וּבַבְּהֵמָה--יִהְיֶה-לָּךְ"
+        "ja": "וכל אוול בטן",
+        "en": "Every firstborn of the womb,",
+        "he": "כָּל-פֶּטֶר רֶחֶם"
       },
       {
-        "ja": "לכן יגב אן תפדי בכור אלנאס",
-        "en": "yet you are required to redeem the firstborn of people",
-        "he": "אַךְ פָּדֹה תִפְדֶּה אֵת בְּכוֹר הָאָדָם"
+        "ja": "מן כל בשרי",
+        "en": "of all flesh,",
+        "he": "לְכָל-בָּשָׂר"
       },
       {
-        "ja": "ובכור אלבהימה אלנגסה",
-        "en": "and the firstborn of unclean beasts you shall redeem.",
-        "he": "וְאֵת בְּכוֹר-הַבְּהֵמָה הַטְּמֵאָה תִּפְדֶּה"
+        "ja": "אלד'י יקדמונה",
+        "en": "which they present",
+        "he": "אֲשֶׁר-יַקְרִיבוּ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God —",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "מן אנסאן",
+        "en": "of human",
+        "he": "בָּאָדָם"
+      },
+      {
+        "ja": "ובהימה",
+        "en": "and of beast —",
+        "he": "וּבַבְּהֵמָה"
+      },
+      {
+        "ja": "יכון לך",
+        "en": "shall be yours;",
+        "he": "יִהְיֶה-לָּךְ"
+      },
+      {
+        "ja": "לכן יגב אן תפדי",
+        "en": "yet you are required to redeem",
+        "he": "אַךְ פָּדֹה תִפְדֶּה"
+      },
+      {
+        "ja": "בכור אלנאס",
+        "en": "the firstborn of people,",
+        "he": "אֵת בְּכוֹר הָאָדָם"
+      },
+      {
+        "ja": "ובכור אלבהימה",
+        "en": "and the firstborn of",
+        "he": "וְאֵת בְּכוֹר-הַבְּהֵמָה"
+      },
+      {
+        "ja": "אלנגסה",
+        "en": "unclean beasts you shall redeem.",
+        "he": "הַטְּמֵאָה תִּפְדֶּה"
       }
     ],
     "16": [
       {
-        "ja": "ופדא אלנאס מן אבן שהר",
-        "en": "And the redemption of people shall be from one month of age",
-        "he": "וּפְדוּיָו מִבֶּן-חֹדֶשׁ תִּפְדֶּה"
+        "ja": "ופדא אלנאס",
+        "en": "And the redemption of people",
+        "he": "וּפְדוּיָו"
       },
       {
-        "ja": "בקימתה. כ'מסה מת'אקיל פצ'ה אלקדס",
-        "en": "at its valuation: five shekels of silver of the sanctuary",
-        "he": "בְּעֶרְכְּךָ כֶּסֶף חֲמֵשֶׁת שְׁקָלִים בְּשֶׁקֶל הַקֹּדֶשׁ"
+        "ja": "מן אבן שהר",
+        "en": "shall be from one month of age,",
+        "he": "מִבֶּן-חֹדֶשׁ"
+      },
+      {
+        "ja": "בקימתה",
+        "en": "at its valuation:",
+        "he": "תִּפְדֶּה בְּעֶרְכְּךָ"
+      },
+      {
+        "ja": "כ'מסה מת'אקיל פצ'ה",
+        "en": "five shekels of silver",
+        "he": "כֶּסֶף חֲמֵשֶׁת שְׁקָלִים"
+      },
+      {
+        "ja": "אלקדס",
+        "en": "of the sanctuary,",
+        "he": "בְּשֶׁקֶל הַקֹּדֶשׁ"
       },
       {
         "ja": "והו עשרין דאנק",
@@ -252,234 +819,778 @@
     ],
     "17": [
       {
-        "ja": "פאמא בכר אלבקר ואלצ'אן ואלמאעז. פלא תפדהא פאנהא מקדסה",
-        "en": "But the firstborn of oxen and of sheep and of goats you shall not redeem, for they are holy",
-        "he": "אַךְ בְּכוֹר-שׁוֹר אוֹ-בְכוֹר כֶּשֶׂב אוֹ-בְכוֹר עֵז לֹא תִפְדֶּה--קֹדֶשׁ הֵם"
+        "ja": "פאמא",
+        "en": "But"
       },
       {
-        "ja": "רש דמהא עלי' אלמד'בח",
-        "en": "sprinkle their blood upon the altar",
-        "he": "אֶת-דָּמָם תִּזְרֹק עַל-הַמִּזְבֵּחַ"
+        "ja": "בכר אלבקר",
+        "en": "the firstborn of oxen",
+        "he": "אַךְ בְּכוֹר-שׁוֹר"
       },
       {
-        "ja": "וקתר שחמהא. קרבאן מקבול מרצ'י ללה",
-        "en": "and burn their fat — an accepted and pleasing offering to God.",
-        "he": "וְאֶת-חֶלְבָּם תַּקְטִיר--אִשֶּׁה לְרֵיחַ נִיחֹחַ לַיהוָה"
+        "ja": "ואלצ'אן",
+        "en": "and of sheep",
+        "he": "אוֹ-בְכוֹר כֶּשֶׂב"
+      },
+      {
+        "ja": "ואלמאעז",
+        "en": "and of goats",
+        "he": "אוֹ-בְכוֹר עֵז"
+      },
+      {
+        "ja": "פלא תפדהא",
+        "en": "you shall not redeem,",
+        "he": "לֹא תִפְדֶּה"
+      },
+      {
+        "ja": "פאנהא מקדסה",
+        "en": "for they are holy:",
+        "he": "קֹדֶשׁ הֵם"
+      },
+      {
+        "ja": "רש דמהא",
+        "en": "sprinkle their blood",
+        "he": "אֶת-דָּמָם תִּזְרֹק"
+      },
+      {
+        "ja": "עלי' אלמד'בח",
+        "en": "upon the altar,",
+        "he": "עַל-הַמִּזְבֵּחַ"
+      },
+      {
+        "ja": "וקתר שחמהא",
+        "en": "and burn their fat —",
+        "he": "וְאֶת-חֶלְבָּם תַּקְטִיר"
+      },
+      {
+        "ja": "קרבאן מקבול מרצ'י",
+        "en": "an accepted and pleasing offering",
+        "he": "אִשֶּׁה לְרֵיחַ נִיחֹחַ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God.",
+        "he": "לַיהוָה"
       }
     ],
     "18": [
       {
-        "ja": "ולחמהא יכון לך",
-        "en": "And their flesh shall be yours",
-        "he": "וּבְשָׂרָם יִהְיֶה-לָּךְ"
+        "ja": "ולחמהא",
+        "en": "And their flesh",
+        "he": "וּבְשָׂרָם"
       },
       {
-        "ja": "כקץ אלתחריך. וכאלסאק אלימני יכון לך",
-        "en": "as the breast of the wave-offering and as the right thigh, it shall be yours.",
-        "he": "כַּחֲזֵה הַתְּנוּפָה וּכְשׁוֹק הַיָּמִין לְךָ יִהְיֶה"
+        "ja": "יכון לך",
+        "en": "shall be yours —",
+        "he": "יִהְיֶה-לָּךְ"
+      },
+      {
+        "ja": "כקץ",
+        "en": "as the breast of",
+        "he": "כַּחֲזֵה"
+      },
+      {
+        "ja": "אלתחריך",
+        "en": "the wave-offering",
+        "he": "הַתְּנוּפָה"
+      },
+      {
+        "ja": "וכאלסאק",
+        "en": "and as the",
+        "he": "וּכְשׁוֹק"
+      },
+      {
+        "ja": "אלימני",
+        "en": "right thigh,",
+        "he": "הַיָּמִין"
+      },
+      {
+        "ja": "יכון לך",
+        "en": "it shall be yours.",
+        "he": "לְךָ יִהְיֶה"
       }
     ],
     "19": [
       {
-        "ja": "וסאיר רפאיע אלאקדאס. אלתי ירפעוהא בני אסראיל ללה",
-        "en": "And the rest of the raised-offerings of the holy things which the sons of Israel give to God",
-        "he": "כֹּל תְּרוּמֹת הַקֳּדָשִׁים אֲשֶׁר יָרִימוּ בְנֵי-יִשְׂרָאֵל לַיהוָה"
+        "ja": "וסאיר רפאיע",
+        "en": "And the rest of the raised-offerings of",
+        "he": "כֹּל תְּרוּמֹת"
       },
       {
-        "ja": "געלתהא לך. ולבניך ולבנאתך. מעך רסם אלדהר",
-        "en": "I have given them to you, and to your sons and to your daughters with you, as a perpetual ordinance",
-        "he": "נָתַתִּי לְךָ וּלְבָנֶיךָ וְלִבְנֹתֶיךָ אִתְּךָ לְחָק-עוֹלָם"
+        "ja": "אלאקדאס",
+        "en": "the holy things",
+        "he": "הַקֳּדָשִׁים"
       },
       {
-        "ja": "עהד ת'באת אלעאלם הו ללה. לך ולנסלך בעדך",
-        "en": "it is a covenant of the world's enduring stability before God, for you and for your offspring after you.'",
-        "he": "בְּרִית מֶלַח עוֹלָם הִוא לִפְנֵי יְהוָה לְךָ וּלְזַרְעֲךָ אִתָּךְ"
+        "ja": "אלתי ירפעוהא",
+        "en": "which the sons of Israel",
+        "he": "אֲשֶׁר יָרִימוּ"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "give",
+        "he": "בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God —",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "געלתהא לך",
+        "en": "I have given them to you,",
+        "he": "נָתַתִּי לְךָ"
+      },
+      {
+        "ja": "ולבניך",
+        "en": "and to your sons",
+        "he": "וּלְבָנֶיךָ"
+      },
+      {
+        "ja": "ולבנאתך",
+        "en": "and to your daughters",
+        "he": "וְלִבְנֹתֶיךָ"
+      },
+      {
+        "ja": "מעך",
+        "en": "with you,",
+        "he": "אִתְּךָ"
+      },
+      {
+        "ja": "רסם אלדהר",
+        "en": "as a perpetual ordinance;",
+        "he": "לְחָק-עוֹלָם"
+      },
+      {
+        "ja": "עהד ת'באת אלעאלם",
+        "en": "it is a covenant of the world's enduring stability",
+        "he": "בְּרִית מֶלַח עוֹלָם"
+      },
+      {
+        "ja": "הו ללה",
+        "en": "before God,",
+        "he": "הִוא לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "לך",
+        "en": "for you",
+        "he": "לְךָ"
+      },
+      {
+        "ja": "ולנסלך בעדך",
+        "en": "and for your offspring after you.'",
+        "he": "וּלְזַרְעֲךָ אִתָּךְ"
       }
     ],
     "20": [
       {
-        "ja": "ת'ם קאל אללה לה",
-        "en": "Then God said to him",
-        "he": "וַיֹּאמֶר יְהוָה אֶל-אַהֲרֹן"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "פי ריאצ'הם לא תנחל. ולא יכון לך נציב פי מא בינהם",
-        "en": "'In their gardens you shall not inherit, nor shall you have a portion among them",
-        "he": "בְּאַרְצָם לֹא תִנְחָל וְחֵלֶק לֹא-יִהְיֶה לְךָ בְּתוֹכָם"
+        "ja": "קאל אללה",
+        "en": "God said",
+        "he": "וַיֹּאמֶר יְהוָה"
       },
       {
-        "ja": "פאני קד געלת קראביני קסמך ונחלתך. פי מא בין בני אסראיל",
-        "en": "for I have made My offerings your portion and your inheritance among the sons of Israel.'",
-        "he": "אֲנִי חֶלְקְךָ וְנַחֲלָתְךָ בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
+        "ja": "לה",
+        "en": "to him:",
+        "he": "אֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "פי ריאצ'הם",
+        "en": "'In their gardens",
+        "he": "בְּאַרְצָם"
+      },
+      {
+        "ja": "לא תנחל",
+        "en": "you shall not inherit,",
+        "he": "לֹא תִנְחָל"
+      },
+      {
+        "ja": "ולא יכון לך נציב",
+        "en": "nor shall you have a portion",
+        "he": "וְחֵלֶק לֹא-יִהְיֶה לְךָ"
+      },
+      {
+        "ja": "פי מא בינהם",
+        "en": "among them;",
+        "he": "בְּתוֹכָם"
+      },
+      {
+        "ja": "פאני",
+        "en": "for I",
+        "he": "אֲנִי"
+      },
+      {
+        "ja": "קד געלת קראביני קסמך",
+        "en": "have made My offerings your portion",
+        "he": "חֶלְקְךָ"
+      },
+      {
+        "ja": "ונחלתך",
+        "en": "and your inheritance",
+        "he": "וְנַחֲלָתְךָ"
+      },
+      {
+        "ja": "פי מא בין בני אסראיל",
+        "en": "among the sons of Israel.'",
+        "he": "בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
       }
     ],
     "21": [
       {
-        "ja": "ולבני לוי. קד געלת כל עשר מן אל אסראיל נחלה",
-        "en": "And to the sons of Levi — I have given every tithe from the house of Israel as an inheritance",
-        "he": "וְלִבְנֵי לֵוִי הִנֵּה נָתַתִּי כָּל-מַעֲשֵׂר בְּיִשְׂרָאֵל לְנַחֲלָה"
+        "ja": "ולבני",
+        "en": "And to the sons of",
+        "he": "וְלִבְנֵי"
       },
       {
-        "ja": "בדל כ'דמתהם. אלד'י יכ'דמון כ'בא אלמחצ'ר",
-        "en": "in exchange for their service which they serve at the tent of assembly.",
-        "he": "חֵלֶף עֲבֹדָתָם אֲשֶׁר-הֵם עֹבְדִים אֶת-עֲבֹדַת אֹהֶל מוֹעֵד"
+        "ja": "לוי",
+        "en": "Levi —",
+        "he": "לֵוִי"
+      },
+      {
+        "ja": "קד געלת",
+        "en": "I have given",
+        "he": "הִנֵּה נָתַתִּי"
+      },
+      {
+        "ja": "כל עשר",
+        "en": "every tithe",
+        "he": "כָּל-מַעֲשֵׂר"
+      },
+      {
+        "ja": "מן אל אסראיל",
+        "en": "from the house of Israel",
+        "he": "בְּיִשְׂרָאֵל"
+      },
+      {
+        "ja": "נחלה",
+        "en": "as an inheritance,",
+        "he": "לְנַחֲלָה"
+      },
+      {
+        "ja": "בדל",
+        "en": "in exchange for",
+        "he": "חֵלֶף"
+      },
+      {
+        "ja": "כ'דמתהם",
+        "en": "their service",
+        "he": "עֲבֹדָתָם"
+      },
+      {
+        "ja": "אלד'י יכ'דמון",
+        "en": "which they serve",
+        "he": "אֲשֶׁר-הֵם עֹבְדִים"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "at the tent of assembly.",
+        "he": "אֶת-עֲבֹדַת אֹהֶל מוֹעֵד"
       }
     ],
     "22": [
       {
-        "ja": "ולא יתקדם בני אסראיל איצ'א אלי' כ'בא אלמחצ'ר",
-        "en": "And the sons of Israel shall no longer approach the tent of assembly",
-        "he": "וְלֹא-יִקְרְבוּ עוֹד בְּנֵי יִשְׂרָאֵל אֶל-אֹהֶל מוֹעֵד"
+        "ja": "ולא יתקדם",
+        "en": "And the sons of Israel shall no longer",
+        "he": "וְלֹא-יִקְרְבוּ"
       },
       {
-        "ja": "פיחמלון וזרא פיהלכון",
-        "en": "lest they bear a burden and perish.",
-        "he": "לָשֵׂאת חֵטְא לָמוּת"
+        "ja": "איצ'א",
+        "en": "approach",
+        "he": "עוֹד"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the tent of",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אלי' כ'בא אלמחצ'ר",
+        "en": "assembly,",
+        "he": "אֶל-אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "פיחמלון וזרא",
+        "en": "lest they bear a burden",
+        "he": "לָשֵׂאת חֵטְא"
+      },
+      {
+        "ja": "פיהלכון",
+        "en": "and perish.",
+        "he": "לָמוּת"
       }
     ],
     "23": [
       {
-        "ja": "ויכ'דמון אלליואניין וחדהם כ'בא אלמחצ'ר",
-        "en": "And the Levites alone shall serve the tent of assembly",
-        "he": "וְעָבַד הַלֵּוִי הוּא אֶת-עֲבֹדַת אֹהֶל מוֹעֵד"
+        "ja": "ויכ'דמון",
+        "en": "And the Levites alone shall",
+        "he": "וְעָבַד"
       },
       {
-        "ja": "והם יחמלון וזרהם",
-        "en": "and they shall bear their burden",
-        "he": "וְהֵם יִשְׂאוּ עֲו‍ֹנָם"
+        "ja": "אלליואניין וחדהם",
+        "en": "serve",
+        "he": "הַלֵּוִי הוּא"
       },
       {
-        "ja": "רסם אלדהר עלא מר אגיאלכם",
-        "en": "a perpetual ordinance throughout your generations",
-        "he": "חֻקַּת עוֹלָם לְדֹרֹתֵיכֶם"
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of assembly,",
+        "he": "אֶת-עֲבֹדַת אֹהֶל מוֹעֵד"
       },
       {
-        "ja": "ופי מא בין בני אסראיל. לא ינחלו נחלה",
-        "en": "and among the sons of Israel they shall not inherit an inheritance.",
-        "he": "וּבְתוֹךְ בְּנֵי יִשְׂרָאֵל לֹא יִנְחֲלוּ נַחֲלָה"
+        "ja": "והם",
+        "en": "and they",
+        "he": "וְהֵם"
+      },
+      {
+        "ja": "יחמלון",
+        "en": "shall bear",
+        "he": "יִשְׂאוּ"
+      },
+      {
+        "ja": "וזרהם",
+        "en": "their burden —",
+        "he": "עֲו‍ֹנָם"
+      },
+      {
+        "ja": "רסם אלדהר",
+        "en": "a perpetual ordinance",
+        "he": "חֻקַּת עוֹלָם"
+      },
+      {
+        "ja": "עלא מר אגיאלכם",
+        "en": "throughout your generations;",
+        "he": "לְדֹרֹתֵיכֶם"
+      },
+      {
+        "ja": "ופי מא בין",
+        "en": "and among",
+        "he": "וּבְתוֹךְ"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "לא ינחלו",
+        "en": "they shall not inherit",
+        "he": "לֹא יִנְחֲלוּ"
+      },
+      {
+        "ja": "נחלה",
+        "en": "an inheritance.",
+        "he": "נַחֲלָה"
       }
     ],
     "24": [
       {
-        "ja": "פאן עשור בני אסראיל. אלתי ירפעונהא ללה רפיעה. געלתהא לאלליואניין נחלה",
-        "en": "For the tithes of the sons of Israel, which they raise up to God as a raised-offering, I have given to the Levites as an inheritance",
-        "he": "כִּי אֶת-מַעְשַׂר בְּנֵי-יִשְׂרָאֵל אֲשֶׁר יָרִימוּ לַיהוָה תְּרוּמָה נָתַתִּי לַלְוִיִּם לְנַחֲלָה"
+        "ja": "פאן",
+        "en": "For",
+        "he": "כִּי"
       },
       {
-        "ja": "פלד'אלך קלת להם",
-        "en": "therefore I have said to them",
-        "he": "עַל-כֵּן אָמַרְתִּי לָהֶם"
+        "ja": "עשור",
+        "en": "the tithes of",
+        "he": "אֶת-מַעְשַׂר"
       },
       {
-        "ja": "פי מא בין בני אסראיל. לא ינחלון נחלה",
-        "en": "among the sons of Israel they shall not inherit an inheritance.'",
-        "he": "בְּתוֹךְ בְּנֵי יִשְׂרָאֵל לֹא יִנְחֲלוּ נַחֲלָה"
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel,",
+        "he": "בְּנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אלתי ירפעונהא",
+        "en": "which they raise up",
+        "he": "אֲשֶׁר יָרִימוּ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "רפיעה",
+        "en": "as a raised-offering,",
+        "he": "תְּרוּמָה"
+      },
+      {
+        "ja": "געלתהא",
+        "en": "I have given",
+        "he": "נָתַתִּי"
+      },
+      {
+        "ja": "לאלליואניין",
+        "en": "to the Levites",
+        "he": "לַלְוִיִּם"
+      },
+      {
+        "ja": "נחלה",
+        "en": "as an inheritance;",
+        "he": "לְנַחֲלָה"
+      },
+      {
+        "ja": "פלד'אלך",
+        "en": "therefore",
+        "he": "עַל-כֵּן"
+      },
+      {
+        "ja": "קלת להם",
+        "en": "I have said to them:",
+        "he": "אָמַרְתִּי לָהֶם"
+      },
+      {
+        "ja": "פי מא בין בני אסראיל",
+        "en": "among the sons of Israel",
+        "he": "בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "לא ינחלון",
+        "en": "they shall not inherit",
+        "he": "לֹא יִנְחֲלוּ"
+      },
+      {
+        "ja": "נחלה",
+        "en": "an inheritance.'",
+        "he": "נַחֲלָה"
       }
     ],
     "25": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses, saying:",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "God spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "to",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses,",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "saying:",
+        "he": "לֵּאמֹר"
       }
     ],
     "26": [
       {
-        "ja": "ומר אלליואניין וקל להם",
-        "en": "'Command the Levites and say to them",
-        "he": "וְאֶל-הַלְוִיִּם תְּדַבֵּר וְאָמַרְתָּ אֲלֵהֶם"
+        "ja": "ומר אלליואניין",
+        "en": "'Command the Levites",
+        "he": "וְאֶל-הַלְוִיִּם תְּדַבֵּר"
       },
       {
-        "ja": "אד'א אכ'דתם מן בני אסראיל אלעשר. אלד'י געלתה לכם מנהם בנחלתכם",
-        "en": "when you take from the sons of Israel the tithe which I have given you from them as your inheritance",
-        "he": "כִּי-תִקְחוּ מֵאֵת בְּנֵי-יִשְׂרָאֵל אֶת-הַמַּעֲשֵׂר אֲשֶׁר נָתַתִּי לָכֶם מֵאִתָּם בְּנַחֲלַתְכֶם"
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
       },
       {
-        "ja": "פארפעו מנה רפיעה ללה. עשרא מן אלעשר",
-        "en": "then raise up from it a raised-offering for God — a tenth of the tenth.",
-        "he": "וַהֲרֵמֹתֶם מִמֶּנּוּ תְּרוּמַת יְהוָה מַעֲשֵׂר מִן-הַמַּעֲשֵׂר"
+        "ja": "להם",
+        "en": "to them:",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "אד'א אכ'דתם",
+        "en": "when you take",
+        "he": "כִּי-תִקְחוּ"
+      },
+      {
+        "ja": "מן בני אסראיל",
+        "en": "from the sons of Israel",
+        "he": "מֵאֵת בְּנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אלעשר",
+        "en": "the tithe",
+        "he": "אֶת-הַמַּעֲשֵׂר"
+      },
+      {
+        "ja": "אלד'י געלתה לכם",
+        "en": "which I have given you",
+        "he": "אֲשֶׁר נָתַתִּי לָכֶם"
+      },
+      {
+        "ja": "מנהם",
+        "en": "from them",
+        "he": "מֵאִתָּם"
+      },
+      {
+        "ja": "בנחלתכם",
+        "en": "as your inheritance,",
+        "he": "בְּנַחֲלַתְכֶם"
+      },
+      {
+        "ja": "פארפעו מנה",
+        "en": "then raise up from it",
+        "he": "וַהֲרֵמֹתֶם מִמֶּנּוּ"
+      },
+      {
+        "ja": "רפיעה ללה",
+        "en": "a raised-offering for God —",
+        "he": "תְּרוּמַת יְהוָה"
+      },
+      {
+        "ja": "עשרא מן אלעשר",
+        "en": "a tenth of the tenth.",
+        "he": "מַעֲשֵׂר מִן-הַמַּעֲשֵׂר"
       }
     ],
     "27": [
       {
-        "ja": "וד'אלך אן תחסב לכם רפאיעכם",
-        "en": "And this shall be reckoned for you as your raised-offerings",
-        "he": "וְנֶחְשַׁב לָכֶם תְּרוּמַתְכֶם"
+        "ja": "וד'אלך אן תחסב",
+        "en": "And this shall be reckoned",
+        "he": "וְנֶחְשַׁב"
       },
       {
-        "ja": "כאלבר לבני אסראיל מן אלבד'אר",
-        "en": "like the grain of the sons of Israel from the threshing-seed",
-        "he": "כַּדָּגָן מִן-הַגֹּרֶן"
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
       },
       {
-        "ja": "וכאלסלאפה מן אלת'ג'אר",
-        "en": "and like the first-pressing from the vats.",
-        "he": "וְכַמְלֵאָה מִן-הַיָּקֶב"
+        "ja": "רפאיעכם",
+        "en": "as your raised-offerings —",
+        "he": "תְּרוּמַתְכֶם"
+      },
+      {
+        "ja": "כאלבר",
+        "en": "like the grain",
+        "he": "כַּדָּגָן"
+      },
+      {
+        "ja": "לבני אסראיל",
+        "en": "of the sons of Israel"
+      },
+      {
+        "ja": "מן אלבד'אר",
+        "en": "from the threshing-seed,",
+        "he": "מִן-הַגֹּרֶן"
+      },
+      {
+        "ja": "וכאלסלאפה",
+        "en": "and like the first-pressing",
+        "he": "וְכַמְלֵאָה"
+      },
+      {
+        "ja": "מן אלת'ג'אר",
+        "en": "from the vats.",
+        "he": "מִן-הַיָּקֶב"
       }
     ],
     "28": [
       {
-        "ja": "כד'אך תרפעו אנתם איצ'א רפיעה ללה. מן גמיע עשורכם. אלתי תאכ'ד'והא מן בני אסראיל",
-        "en": "So shall you also raise up a raised-offering for God from all your tithes which you take from the sons of Israel",
-        "he": "כֵּן תָּרִימוּ גַם-אַתֶּם תְּרוּמַת יְהוָה מִכֹּל מַעְשְׂרֹתֵיכֶם אֲשֶׁר תִּקְחוּ מֵאֵת בְּנֵי יִשְׂרָאֵל"
+        "ja": "כד'אך",
+        "en": "So"
       },
       {
-        "ja": "ואעטו ד'אלך להרון אלאמאם",
-        "en": "and give that to Aaron the imām.",
-        "he": "וּנְתַתֶּם מִמֶּנּוּ אֶת-תְּרוּמַת יְהוָה לְאַהֲרֹן הַכֹּהֵן"
+        "ja": "תרפעו",
+        "en": "shall you",
+        "he": "כֵּן תָּרִימוּ"
+      },
+      {
+        "ja": "אנתם איצ'א",
+        "en": "also raise up",
+        "he": "גַם-אַתֶּם"
+      },
+      {
+        "ja": "רפיעה ללה",
+        "en": "a raised-offering for God",
+        "he": "תְּרוּמַת יְהוָה"
+      },
+      {
+        "ja": "מן גמיע עשורכם",
+        "en": "from all your tithes",
+        "he": "מִכֹּל מַעְשְׂרֹתֵיכֶם"
+      },
+      {
+        "ja": "אלתי תאכ'ד'והא",
+        "en": "which you take",
+        "he": "אֲשֶׁר תִּקְחוּ"
+      },
+      {
+        "ja": "מן בני אסראיל",
+        "en": "from the sons of Israel,",
+        "he": "מֵאֵת בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ואעטו ד'אלך",
+        "en": "and give that",
+        "he": "וּנְתַתֶּם מִמֶּנּוּ"
+      },
+      {
+        "ja": "להרון",
+        "en": "to Aaron",
+        "he": "אֶת-תְּרוּמַת יְהוָה לְאַהֲרֹן"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "the imām.",
+        "he": "הַכֹּהֵן"
       }
     ],
     "29": [
       {
-        "ja": "וליכון מא תרפעונה. מן גמיע עטאיאכם ללה",
-        "en": "And let what you raise up from all your gifts for God",
-        "he": "מִכֹּל מַתְּנֹתֵיכֶם תָּרִימוּ אֵת כָּל-תְּרוּמַת יְהוָה"
+        "ja": "וליכון",
+        "en": "And let"
       },
       {
-        "ja": "אגודהא ואכ'צהא מנהא",
-        "en": "be the choicest and most select of them.",
-        "he": "מִכָּל-חֶלְבּוֹ--אֶת-מִקְדְּשׁוֹ מִמֶּנּוּ"
+        "ja": "מא תרפעונה",
+        "en": "what you raise up",
+        "he": "מִכֹּל מַתְּנֹתֵיכֶם תָּרִימוּ"
+      },
+      {
+        "ja": "מן גמיע עטאיאכם ללה",
+        "en": "from all your gifts for God",
+        "he": "אֵת כָּל-תְּרוּמַת יְהוָה"
+      },
+      {
+        "ja": "אגודהא",
+        "en": "be the choicest",
+        "he": "מִכָּל-חֶלְבּוֹ"
+      },
+      {
+        "ja": "ואכ'צהא מנהא",
+        "en": "and most select of them.",
+        "he": "אֶת-מִקְדְּשׁוֹ מִמֶּנּוּ"
       }
     ],
     "30": [
       {
-        "ja": "וקל להם",
-        "en": "And say to them",
-        "he": "וְאָמַרְתָּ אֲלֵהֶם"
+        "ja": "וקל",
+        "en": "And say",
+        "he": "וְאָמַרְתָּ"
       },
       {
-        "ja": "אד'א רפעתם אגודה מנה",
-        "en": "when you have raised up the choicest of it",
-        "he": "בַּהֲרִימְכֶם אֶת-חֶלְבּוֹ מִמֶּנּוּ"
+        "ja": "להם",
+        "en": "to them:",
+        "he": "אֲלֵהֶם"
       },
       {
-        "ja": "צאר אלבאקי לכם יא ליואניין. כג'לה' בני אסראיל מן אלבד'אר ואלת'ג'אר",
-        "en": "the remainder shall count as yours, O Levites, as the yield of the sons of Israel from threshing-seed and from the vats.",
-        "he": "וְנֶחְשַׁב לַלְוִיִּם כִּתְבוּאַת גֹּרֶן וְכִתְבוּאַת יָקֶב"
+        "ja": "אד'א רפעתם",
+        "en": "when you have raised up",
+        "he": "בַּהֲרִימְכֶם"
+      },
+      {
+        "ja": "אגודה",
+        "en": "the choicest of it,",
+        "he": "אֶת-חֶלְבּוֹ"
+      },
+      {
+        "ja": "מנה",
+        "en": "the remainder",
+        "he": "מִמֶּנּוּ"
+      },
+      {
+        "ja": "צאר אלבאקי לכם יא ליואניין",
+        "en": "shall count as yours, O Levites,",
+        "he": "וְנֶחְשַׁב לַלְוִיִּם"
+      },
+      {
+        "ja": "כג'לה' בני אסראיל מן אלבד'אר",
+        "en": "as the yield of the sons of Israel from threshing-seed",
+        "he": "כִּתְבוּאַת גֹּרֶן"
+      },
+      {
+        "ja": "ואלת'ג'אר",
+        "en": "and from the vats.",
+        "he": "וְכִתְבוּאַת יָקֶב"
       }
     ],
     "31": [
       {
-        "ja": "וגאיז אן תאכלוה פי כל מוצ'ע. אנתם ואלכם",
-        "en": "And it is permitted that you eat it in every place — you and your households",
-        "he": "וַאֲכַלְתֶּם אֹתוֹ בְּכָל-מָקוֹם אַתֶּם וּבֵיתְכֶם"
+        "ja": "וגאיז אן תאכלוה",
+        "en": "And it is permitted that you eat it",
+        "he": "וַאֲכַלְתֶּם"
       },
       {
-        "ja": "לאנה אגרתכם. בדל כ'דמתכם פי כ'בא אלמחצ'ר",
-        "en": "for it is your wages in exchange for your service in the tent of assembly.",
-        "he": "כִּי-שָׂכָר הוּא לָכֶם חֵלֶף עֲבֹדַתְכֶם בְּאֹהֶל מוֹעֵד"
+        "ja": "פי כל מוצ'ע",
+        "en": "in every place —",
+        "he": "בְּכָל-מָקוֹם"
+      },
+      {
+        "ja": "אנתם",
+        "en": "you",
+        "he": "אַתֶּם"
+      },
+      {
+        "ja": "ואלכם",
+        "en": "and your households —",
+        "he": "וּבֵיתְכֶם"
+      },
+      {
+        "ja": "לאנה אגרתכם",
+        "en": "for it is your wages",
+        "he": "כִּי-שָׂכָר הוּא לָכֶם"
+      },
+      {
+        "ja": "בדל",
+        "en": "in exchange for",
+        "he": "חֵלֶף"
+      },
+      {
+        "ja": "כ'דמתכם",
+        "en": "your service",
+        "he": "עֲבֹדַתְכֶם"
+      },
+      {
+        "ja": "פי כ'בא אלמחצ'ר",
+        "en": "in the tent of assembly.",
+        "he": "בְּאֹהֶל מוֹעֵד"
       }
     ],
     "32": [
       {
-        "ja": "ולא תחמלון עליה וזרא. ענד רפעכם אגודה מנה",
-        "en": "And you shall bear no burden on account of it when you raise up the choicest of it",
-        "he": "וְלֹא-תִשְׂאוּ עָלָיו חֵטְא בַּהֲרִימְכֶם אֶת-חֶלְבּוֹ מִמֶּנּוּ"
+        "ja": "ולא תחמלון",
+        "en": "And you shall bear",
+        "he": "וְלֹא-תִשְׂאוּ"
       },
       {
-        "ja": "ואקדאס בני אסראיל. לא תבד'לוהא",
-        "en": "and the holy things of the sons of Israel you shall not treat lightly",
-        "he": "וְאֶת-קָדְשֵׁי בְנֵי-יִשְׂרָאֵל לֹא תְחַלְּלוּ"
+        "ja": "עליה",
+        "en": "no burden on account of it",
+        "he": "עָלָיו"
+      },
+      {
+        "ja": "וזרא",
+        "en": "when",
+        "he": "חֵטְא"
+      },
+      {
+        "ja": "ענד רפעכם",
+        "en": "you raise up",
+        "he": "בַּהֲרִימְכֶם"
+      },
+      {
+        "ja": "אגודה",
+        "en": "the choicest of it;",
+        "he": "אֶת-חֶלְבּוֹ"
+      },
+      {
+        "ja": "מנה",
+        "en": "and",
+        "he": "מִמֶּנּוּ"
+      },
+      {
+        "ja": "ואקדאס",
+        "en": "the holy things of",
+        "he": "וְאֶת-קָדְשֵׁי"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "לא תבד'לוהא",
+        "en": "you shall not treat lightly,",
+        "he": "לֹא תְחַלְּלוּ"
       },
       {
         "ja": "ולא תהלכון",
