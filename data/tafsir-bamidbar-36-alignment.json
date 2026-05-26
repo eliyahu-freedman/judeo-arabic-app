@@ -1,69 +1,231 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 36. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_36.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 36. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_36.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם תקדם. רויסא אבא עשירה' בני גלעד אבן מכיר אבן מנשה. מן עשאיר בני יוסף",
-        "en": "Then the heads of the fathers of the clan of the sons of Gilead son of Makir son of Manasseh, from the clans of the sons of Joseph, came forward",
-        "he": "וַיִּקְרְבוּ רָאשֵׁי הָאָבוֹת לְמִשְׁפַּחַת בְּנֵי-גִלְעָד בֶּן-מָכִיר בֶּן-מְנַשֶּׁה--מִמִּשְׁפְּחֹת בְּנֵי יוֹסֵף"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "וקאלו בין ידי מוסי' ואלאשראף. רויסא אבא בני אסראיל",
-        "en": "and spoke before Moses and the nobles — the heads of the fathers of the sons of Israel",
-        "he": "וַיְדַבְּרוּ לִפְנֵי מֹשֶׁה וְלִפְנֵי הַנְּשִׂאִים--רָאשֵׁי אָבוֹת לִבְנֵי יִשְׂרָאֵל"
+        "ja": "תקדם",
+        "en": "came forward",
+        "he": "וַיִּקְרְבוּ"
+      },
+      {
+        "ja": "רויסא אבא",
+        "en": "the heads of the fathers of",
+        "he": "רָאשֵׁי הָאָבוֹת"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the clan of",
+        "he": "לְמִשְׁפַּחַת"
+      },
+      {
+        "ja": "בני גלעד",
+        "en": "the sons of Gilead",
+        "he": "בְּנֵי-גִלְעָד"
+      },
+      {
+        "ja": "אבן מכיר",
+        "en": "son of Makir",
+        "he": "בֶּן-מָכִיר"
+      },
+      {
+        "ja": "אבן מנשה",
+        "en": "son of Manasseh,",
+        "he": "בֶּן-מְנַשֶּׁה"
+      },
+      {
+        "ja": "מן עשאיר",
+        "en": "from the clans of",
+        "he": "מִמִּשְׁפְּחֹת"
+      },
+      {
+        "ja": "בני יוסף",
+        "en": "the sons of Joseph,",
+        "he": "בְּנֵי יוֹסֵף"
+      },
+      {
+        "ja": "וקאלו",
+        "en": "and spoke",
+        "he": "וַיְדַבְּרוּ"
+      },
+      {
+        "ja": "בין ידי מוסי'",
+        "en": "before Moses",
+        "he": "לִפְנֵי מֹשֶׁה"
+      },
+      {
+        "ja": "ואלאשראף",
+        "en": "and the nobles —",
+        "he": "וְלִפְנֵי הַנְּשִׂאִים"
+      },
+      {
+        "ja": "רויסא אבא",
+        "en": "the heads of the fathers of",
+        "he": "רָאשֵׁי אָבוֹת"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel.",
+        "he": "לִבְנֵי יִשְׂרָאֵל"
       }
     ],
     "2": [
       {
         "ja": "ננוקאלו",
-        "en": "And they said",
+        "en": "And they said:",
         "he": "וַיֹּאמְרוּ"
       },
       {
-        "ja": "אן אללה אמר סיידנא. באן יעטא אלבלד נחלה. באסהם לבני אסראיל",
-        "en": "'God commanded our lord to give the land as an inheritance by equal portions to the sons of Israel",
-        "he": "אֶת-אֲדֹנִי צִוָּה יְהוָה לָתֵת אֶת-הָאָרֶץ בְּנַחֲלָה בְּגוֹרָל לִבְנֵי יִשְׂרָאֵל"
+        "ja": "סיידנא",
+        "en": "our lord",
+        "he": "אֶת-אֲדֹנִי"
       },
       {
-        "ja": "ואמרה איצ'א. באן ידפע נחלה' צלפחד אכ'ינא אלי' בנאתה",
-        "en": "and He also commanded him to transfer the inheritance of Zelophehad our brother to his daughters",
-        "he": "וַאדֹנִי צֻוָּה בַיהוָה לָתֵת אֶת-נַחֲלַת צְלָפְחָד אָחִינוּ לִבְנֹתָיו"
+        "ja": "אן אללה אמר",
+        "en": "'God commanded",
+        "he": "צִוָּה יְהוָה"
+      },
+      {
+        "ja": "באן יעטא",
+        "en": "to give",
+        "he": "לָתֵת"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "the land",
+        "he": "אֶת-הָאָרֶץ"
+      },
+      {
+        "ja": "נחלה",
+        "en": "as an inheritance",
+        "he": "בְּנַחֲלָה"
+      },
+      {
+        "ja": "באסהם",
+        "en": "by equal portions",
+        "he": "בְּגוֹרָל"
+      },
+      {
+        "ja": "לבני אסראיל",
+        "en": "to the sons of Israel;",
+        "he": "לִבְנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ואמרה איצ'א",
+        "en": "and He also commanded him",
+        "he": "וַאדֹנִי צֻוָּה"
+      },
+      {
+        "ja": "באן ידפע נחלה'",
+        "en": "to transfer the inheritance of",
+        "he": "לָתֵת אֶת-נַחֲלַת"
+      },
+      {
+        "ja": "צלפחד",
+        "en": "Zelophehad",
+        "he": "צְלָפְחָד"
+      },
+      {
+        "ja": "אכ'ינא",
+        "en": "our brother",
+        "he": "אָחִינוּ"
+      },
+      {
+        "ja": "אלי' בנאתה",
+        "en": "to his daughters.",
+        "he": "לִבְנֹתָיו"
       }
     ],
     "3": [
       {
-        "ja": "פנכ'אף אן יצרן נסאא. לואחד מן אסבאט בני אסראיל",
-        "en": "And we fear that they may become wives of one from the other tribes of the sons of Israel",
-        "he": "וְהָיוּ לְאֶחָד מִבְּנֵי שִׁבְטֵי בְנֵי-יִשְׂרָאֵל לְנָשִׁים"
+        "ja": "פנכ'אף",
+        "en": "And we fear"
       },
       {
-        "ja": "פתנקץ חצתהן מן נחלה' אבאינא",
-        "en": "so that their portion will be diminished from the inheritance of our fathers",
-        "he": "וְנִגְרְעָה נַחֲלָתָן מִנַּחֲלַת אֲבֹתֵינוּ"
+        "ja": "אן יצרן נסאא",
+        "en": "that they may become wives",
+        "he": "וְהָיוּ"
       },
       {
-        "ja": "ותזאד עלי' חצה' אלסבט. אלד'י יתזווגן מנה",
-        "en": "and will be added to the portion of the tribe into which they marry",
-        "he": "וְנוֹסַף עַל נַחֲלַת הַמַּטֶּה אֲשֶׁר תִּהְיֶינָה לָהֶם"
+        "ja": "לואחד",
+        "en": "of one",
+        "he": "לְאֶחָד"
+      },
+      {
+        "ja": "מן אסבאט",
+        "en": "from the other tribes of",
+        "he": "מִבְּנֵי שִׁבְטֵי"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel,",
+        "he": "בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פתנקץ חצתהן",
+        "en": "so that their portion will be diminished",
+        "he": "וְנִגְרְעָה נַחֲלָתָן"
+      },
+      {
+        "ja": "מן נחלה' אבאינא",
+        "en": "from the inheritance of our fathers,",
+        "he": "מִנַּחֲלַת אֲבֹתֵינוּ"
+      },
+      {
+        "ja": "ותזאד",
+        "en": "and will be added",
+        "he": "וְנוֹסַף"
+      },
+      {
+        "ja": "עלי' חצה' אלסבט",
+        "en": "to the portion of the tribe",
+        "he": "עַל נַחֲלַת הַמַּטֶּה"
+      },
+      {
+        "ja": "אלד'י יתזווגן מנה",
+        "en": "into which they marry —",
+        "he": "אֲשֶׁר תִּהְיֶינָה לָהֶם"
       },
       {
         "ja": "ויכון סהם נחלתנא מנקוצא",
-        "en": "and the allotted share of our inheritance shall be reduced",
+        "en": "and the allotted share of our inheritance shall be reduced.",
         "he": "וּמִגֹּרַל נַחֲלָתֵנוּ יִגָּרֵעַ"
       }
     ],
     "4": [
       {
-        "ja": "ולו חתי יואפי סנה' אלאטלאק לבני אסראיל",
-        "en": "And even when the year of release comes for the sons of Israel",
-        "he": "וְאִם-יִהְיֶה הַיֹּבֵל לִבְנֵי יִשְׂרָאֵל"
+        "ja": "ולו",
+        "en": "And even when"
       },
       {
-        "ja": "לבקית חצתהן מזאדה. עלי' חצה' אלסבט. אלד'י יתזווגן מנה",
-        "en": "their portion will remain added to the portion of the tribe into which they marry",
-        "he": "וְנוֹסְפָה נַחֲלָתָן עַל נַחֲלַת הַמַּטֶּה אֲשֶׁר תִּהְיֶינָה לָהֶם"
+        "ja": "חתי יואפי סנה' אלאטלאק",
+        "en": "the year of release comes",
+        "he": "וְאִם-יִהְיֶה הַיֹּבֵל"
+      },
+      {
+        "ja": "לבני אסראיל",
+        "en": "for the sons of Israel,",
+        "he": "לִבְנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "לבקית חצתהן מזאדה",
+        "en": "their portion will remain added",
+        "he": "וְנוֹסְפָה נַחֲלָתָן"
+      },
+      {
+        "ja": "עלי' חצה' אלסבט",
+        "en": "to the portion of the tribe",
+        "he": "עַל נַחֲלַת הַמַּטֶּה"
+      },
+      {
+        "ja": "אלד'י יתזווגן מנה",
+        "en": "into which they marry,",
+        "he": "אֲשֶׁר תִּהְיֶינָה לָהֶם"
       },
       {
         "ja": "ונאקצה מן חצתנא",
@@ -73,115 +235,348 @@
     ],
     "5": [
       {
-        "ja": "פאמר מוסי' בני אסראיל. ען קול אללה קאילא",
-        "en": "And Moses gave an order to the sons of Israel, according to the word of God, saying",
-        "he": "וַיְצַו מֹשֶׁה אֶת-בְּנֵי יִשְׂרָאֵל עַל-פִּי יְהוָה לֵאמֹר"
+        "ja": "פאמר מוסי'",
+        "en": "And Moses gave an order",
+        "he": "וַיְצַו מֹשֶׁה"
       },
       {
-        "ja": "נעמא קאל סבט ולד יוסף",
-        "en": "'The tribe of the sons of Joseph speaks rightly",
-        "he": "כֵּן מַטֵּה בְנֵי-יוֹסֵף דֹּבְרִים"
+        "ja": "בני אסראיל",
+        "en": "to the sons of Israel,",
+        "he": "אֶת-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ען קול אללה",
+        "en": "according to the word of God,",
+        "he": "עַל-פִּי יְהוָה"
+      },
+      {
+        "ja": "קאילא",
+        "en": "saying:",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "נעמא",
+        "en": "'The tribe of",
+        "he": "כֵּן"
+      },
+      {
+        "ja": "קאל סבט ולד יוסף",
+        "en": "the sons of Joseph speaks rightly.",
+        "he": "מַטֵּה בְנֵי-יוֹסֵף דֹּבְרִים"
       }
     ],
     "6": [
       {
-        "ja": "הד'א אלאמר אלד'י אמר אללה. פי חכם בנאת צלפחד",
-        "en": "This is the matter which God has commanded concerning the case of the daughters of Zelophehad",
-        "he": "זֶה הַדָּבָר אֲשֶׁר-צִוָּה יְהוָה לִבְנוֹת צְלָפְחָד לֵאמֹר"
+        "ja": "הד'א אלאמר",
+        "en": "This is the matter",
+        "he": "זֶה הַדָּבָר"
+      },
+      {
+        "ja": "אלד'י אמר אללה",
+        "en": "which God has commanded",
+        "he": "אֲשֶׁר-צִוָּה יְהוָה"
+      },
+      {
+        "ja": "פי חכם בנאת צלפחד",
+        "en": "concerning the case of the daughters of Zelophehad:",
+        "he": "לִבְנוֹת צְלָפְחָד"
       },
       {
         "ja": "אן יתזווגן למן חסן ענדהן",
-        "en": "let them marry whomever seems good to them",
-        "he": "לַטּוֹב בְּעֵינֵיהֶם תִּהְיֶינָה לְנָשִׁים"
+        "en": "let them marry whomever seems good to them,",
+        "he": "לַטּוֹב בְּעֵינֵיהֶם"
       },
       {
-        "ja": "לכן יכון מן עשירה' סבט אביהן",
-        "en": "but they shall be from the clan of the tribe of their father",
-        "he": "אַךְ לְמִשְׁפַּחַת מַטֵּה אֲבִיהֶם--תִּהְיֶינָה לְנָשִׁים"
+        "ja": "לכן",
+        "en": "but",
+        "he": "אַךְ"
+      },
+      {
+        "ja": "יכון מן עשירה'",
+        "en": "they shall be from the clan of",
+        "he": "לְמִשְׁפַּחַת"
+      },
+      {
+        "ja": "סבט אביהן",
+        "en": "the tribe of their father.",
+        "he": "מַטֵּה אֲבִיהֶם"
       }
     ],
     "7": [
       {
-        "ja": "חתי' לא תדור הד'ה אלנחלה לבני אסראיל. מן סבט אלי' סבט",
-        "en": "So that this inheritance shall not pass among the sons of Israel from tribe to tribe",
-        "he": "וְלֹא-תִסֹּב נַחֲלָה לִבְנֵי יִשְׂרָאֵל מִמַּטֶּה אֶל-מַטֶּה"
+        "ja": "חתי' לא תדור",
+        "en": "So that this inheritance shall not pass",
+        "he": "וְלֹא-תִסֹּב"
       },
       {
-        "ja": "אלא ילזם כל סבט מנהם נחלה אבאיה",
-        "en": "rather, every tribe among them shall cleave to the inheritance of its fathers",
-        "he": "כִּי אִישׁ בְּנַחֲלַת מַטֵּה אֲבֹתָיו יִדְבְּקוּ בְּנֵי יִשְׂרָאֵל"
+        "ja": "הד'ה אלנחלה",
+        "en": "among the sons of Israel",
+        "he": "נַחֲלָה"
+      },
+      {
+        "ja": "לבני אסראיל",
+        "en": "from tribe",
+        "he": "לִבְנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "מן סבט",
+        "en": "to tribe;",
+        "he": "מִמַּטֶּה"
+      },
+      {
+        "ja": "אלי' סבט",
+        "en": "rather,",
+        "he": "אֶל-מַטֶּה"
+      },
+      {
+        "ja": "אלא",
+        "en": "every tribe among them",
+        "he": "כִּי"
+      },
+      {
+        "ja": "ילזם כל סבט מנהם נחלה",
+        "en": "shall cleave to the inheritance of",
+        "he": "אִישׁ בְּנַחֲלַת מַטֵּה"
+      },
+      {
+        "ja": "אבאיה",
+        "en": "its fathers.",
+        "he": "אֲבֹתָיו"
       }
     ],
     "8": [
       {
-        "ja": "וכד'א חכם כל בנת תרת' נחלה",
-        "en": "And likewise is the ruling for every daughter who inherits an inheritance",
-        "he": "וְכָל-בַּת יֹרֶשֶׁת נַחֲלָה מִמַּטּוֹת בְּנֵי יִשְׂרָאֵל"
+        "ja": "וכד'א",
+        "en": "And likewise is"
       },
       {
-        "ja": "מן בעץ' עשירה' סבט אביהא תכון זוגה",
-        "en": "she shall become wife to one of the clan of the tribe of her father",
-        "he": "לְאֶחָד מִמִּשְׁפַּחַת מַטֵּה אָבִיהָ תִּהְיֶה לְאִשָּׁה"
+        "ja": "חכם כל בנת",
+        "en": "the ruling for every daughter",
+        "he": "וְכָל-בַּת"
       },
       {
-        "ja": "לכי ירת' כל סבט מנהם נחלה' אבאיה",
-        "en": "so that every tribe among them shall inherit the inheritance of its fathers",
-        "he": "לְמַעַן יִירְשׁוּ בְּנֵי יִשְׂרָאֵל אִישׁ נַחֲלַת אֲבֹתָיו"
+        "ja": "תרת' נחלה",
+        "en": "who inherits an inheritance —",
+        "he": "יֹרֶשֶׁת נַחֲלָה"
+      },
+      {
+        "ja": "מן בעץ' עשירה'",
+        "en": "she shall become wife to one of the clan of",
+        "he": "לְאֶחָד מִמִּשְׁפַּחַת"
+      },
+      {
+        "ja": "סבט אביהא",
+        "en": "the tribe of her father,",
+        "he": "מַטֵּה אָבִיהָ"
+      },
+      {
+        "ja": "תכון זוגה",
+        "en": "so that",
+        "he": "תִּהְיֶה לְאִשָּׁה"
+      },
+      {
+        "ja": "לכי ירת'",
+        "en": "every tribe among them shall inherit",
+        "he": "לְמַעַן יִירְשׁוּ"
+      },
+      {
+        "ja": "כל סבט מנהם",
+        "en": "the inheritance of",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "נחלה' אבאיה",
+        "en": "its fathers.",
+        "he": "אִישׁ נַחֲלַת אֲבֹתָיו"
       }
     ],
     "10": [
       {
-        "ja": "פצנען בנאת צלפחד. כמא אמר אללה מוסי'",
-        "en": "And the daughters of Zelophehad did as God commanded Moses.",
-        "he": "כַּאֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה כֵּן עָשׂוּ בְּנוֹת צְלָפְחָד"
+        "ja": "פצנען בנאת צלפחד",
+        "en": "And the daughters of Zelophehad did",
+        "he": "בְּנוֹת צְלָפְחָד"
+      },
+      {
+        "ja": "כמא",
+        "en": "as",
+        "he": "כַּאֲשֶׁר"
+      },
+      {
+        "ja": "אמר אללה",
+        "en": "God commanded",
+        "he": "צִוָּה יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses.",
+        "he": "אֶת-מֹשֶׁה"
       }
     ],
     "11": [
       {
-        "ja": "פצארתא מחלה תרצה וחגלה ומלכה ונועה בנאת צלפחד",
-        "en": "And Mahlah, Tirzah, Hoglah, Milkah, and Noah — the daughters of Zelophehad",
-        "he": "וַתִּהְיֶינָה מַחְלָה תִרְצָה וְחָגְלָה וּמִלְכָּה וְנֹעָה--בְּנוֹת צְלָפְחָד"
+        "ja": "פצארתא",
+        "en": "And",
+        "he": "וַתִּהְיֶינָה"
       },
       {
-        "ja": "נסאא לבני אעמאמהן",
-        "en": "became wives to the sons of their paternal uncles",
-        "he": "לִבְנֵי דֹדֵיהֶן לְנָשִׁים"
+        "ja": "מחלה",
+        "en": "Mahlah,",
+        "he": "מַחְלָה"
+      },
+      {
+        "ja": "תרצה",
+        "en": "Tirzah,",
+        "he": "תִרְצָה"
+      },
+      {
+        "ja": "וחגלה",
+        "en": "Hoglah,",
+        "he": "וְחָגְלָה"
+      },
+      {
+        "ja": "ומלכה",
+        "en": "Milkah,",
+        "he": "וּמִלְכָּה"
+      },
+      {
+        "ja": "ונועה",
+        "en": "and Noah —",
+        "he": "וְנֹעָה"
+      },
+      {
+        "ja": "בנאת צלפחד",
+        "en": "the daughters of Zelophehad —",
+        "he": "בְּנוֹת צְלָפְחָד"
+      },
+      {
+        "ja": "נסאא",
+        "en": "became wives",
+        "he": "לְנָשִׁים"
+      },
+      {
+        "ja": "לבני אעמאמהן",
+        "en": "to the sons of their paternal uncles.",
+        "he": "לִבְנֵי דֹדֵיהֶן"
       }
     ],
     "12": [
       {
-        "ja": "מן עשירה' סבט מנשה אבן יוסף צארן נסאא",
-        "en": "From the clan of the tribe of Manasseh son of Joseph they became wives",
-        "he": "מִמִּשְׁפְּחֹת בְּנֵי-מְנַשֶּׁה בֶן-יוֹסֵף הָיוּ לְנָשִׁים"
+        "ja": "מן עשירה'",
+        "en": "From the clan of",
+        "he": "מִמִּשְׁפְּחֹת"
       },
       {
-        "ja": "פכאנת נחלתהן. לעשירה סבט אביהן",
-        "en": "and their inheritance remained with the clan of the tribe of their father",
-        "he": "וַתְּהִי נַחֲלָתָן עַל-מַטֵּה מִשְׁפַּחַת אֲבִיהֶן"
+        "ja": "סבט מנשה",
+        "en": "the tribe of Manasseh",
+        "he": "בְּנֵי-מְנַשֶּׁה"
+      },
+      {
+        "ja": "אבן יוסף",
+        "en": "son of Joseph",
+        "he": "בֶן-יוֹסֵף"
+      },
+      {
+        "ja": "צארן נסאא",
+        "en": "they became wives,",
+        "he": "הָיוּ לְנָשִׁים"
+      },
+      {
+        "ja": "פכאנת נחלתהן",
+        "en": "and their inheritance remained",
+        "he": "וַתְּהִי נַחֲלָתָן"
+      },
+      {
+        "ja": "לעשירה סבט",
+        "en": "with the clan of the tribe of",
+        "he": "עַל-מַטֵּה מִשְׁפַּחַת"
+      },
+      {
+        "ja": "אביהן",
+        "en": "their father.",
+        "he": "אֲבִיהֶן"
       }
     ],
     "13": [
       {
-        "ja": "הד'א אלוצאיא ואלאחכאם אלתי אמר מוסי' אלי' בני אסראיל",
-        "en": "These are the commandments and the ordinances which Moses gave to the sons of Israel",
-        "he": "אֵלֶּה הַמִּצְו‍ֹת וְהַמִּשְׁפָּטִים אֲשֶׁר צִוָּה יְהוָה בְּיַד-מֹשֶׁה--אֶל-בְּנֵי יִשְׂרָאֵל"
+        "ja": "הד'א",
+        "en": "These are",
+        "he": "אֵלֶּה"
       },
       {
-        "ja": "פי בידאת מואב. עלי' ארדן יריחא",
-        "en": "in the arid wilderness of Moab, on the Jordan of Jericho",
-        "he": "בְּעַרְבֹת מוֹאָב עַל יַרְדֵּן יְרֵחוֹ"
+        "ja": "אלוצאיא",
+        "en": "the commandments",
+        "he": "הַמִּצְו‍ֹת"
+      },
+      {
+        "ja": "ואלאחכאם",
+        "en": "and the ordinances",
+        "he": "וְהַמִּשְׁפָּטִים"
+      },
+      {
+        "ja": "אלתי אמר",
+        "en": "which",
+        "he": "אֲשֶׁר צִוָּה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses gave",
+        "he": "בְּיַד-מֹשֶׁה"
+      },
+      {
+        "ja": "אלי' בני אסראיל",
+        "en": "to the sons of Israel",
+        "he": "אֶל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פי בידאת מואב",
+        "en": "in the arid wilderness of Moab,",
+        "he": "בְּעַרְבֹת מוֹאָב"
+      },
+      {
+        "ja": "עלי' ארדן",
+        "en": "on the Jordan of",
+        "he": "עַל יַרְדֵּן"
+      },
+      {
+        "ja": "יריחא",
+        "en": "Jericho.",
+        "he": "יְרֵחוֹ"
       }
     ],
     "15": [
       {
-        "ja": "ולא תדור אייה' נחלה כאנת. מן סבט אלי' סבט אכ'ר",
-        "en": "And no inheritance, whatever it may be, shall pass from one tribe to another tribe",
-        "he": "ְלֹא-תִסֹּב נַחֲלָה מִמַּטֶּה לְמַטֶּה אַחֵר"
+        "ja": "ולא",
+        "en": "And no"
       },
       {
-        "ja": "בל ילזם כל סבט. מן בני אסראיל נחלתה",
-        "en": "rather, every tribe of the sons of Israel shall cleave to its inheritance",
-        "he": "כִּי-אִישׁ בְּנַחֲלָתוֹ יִדְבְּקוּ מַטּוֹת בְּנֵי יִשְׂרָאֵל"
+        "ja": "תדור אייה' נחלה",
+        "en": "inheritance, whatever it may be, shall pass",
+        "he": "ְלֹא-תִסֹּב נַחֲלָה"
+      },
+      {
+        "ja": "כאנת. מן סבט",
+        "en": "from one tribe",
+        "he": "מִמַּטֶּה"
+      },
+      {
+        "ja": "אלי' סבט אכ'ר",
+        "en": "to another tribe;",
+        "he": "לְמַטֶּה אַחֵר"
+      },
+      {
+        "ja": "בל ילזם",
+        "en": "rather, every tribe of",
+        "he": "כִּי-אִישׁ"
+      },
+      {
+        "ja": "כל סבט",
+        "en": "the sons of Israel",
+        "he": "בְּנַחֲלָתוֹ יִדְבְּקוּ"
+      },
+      {
+        "ja": "מן בני אסראיל נחלתה",
+        "en": "shall cleave to its inheritance.",
+        "he": "מַטּוֹת בְּנֵי יִשְׂרָאֵל"
       }
     ]
   }
