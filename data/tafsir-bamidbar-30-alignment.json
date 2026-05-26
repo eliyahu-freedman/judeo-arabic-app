@@ -1,270 +1,842 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 30. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_30.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 30. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_30.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם קאל מוסי' לבני אסראיל",
-        "en": "Then Moses said to the sons of Israel",
-        "he": "וַיֹּאמֶר מֹשֶׁה אֶל-בְּנֵי יִשְׂרָאֵל"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "כגמיע מא אמרה אללה בה",
-        "en": "all that God had commanded him",
-        "he": "כְּכֹל אֲשֶׁר-צִוָּה יְהוָה אֶת-מֹשֶׁה"
+        "ja": "קאל",
+        "en": "Moses said",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to the sons of",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "לבני",
+        "en": "Israel",
+        "he": "אֶל-בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "all that",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "כגמיע מא אמרה",
+        "en": "God had commanded",
+        "he": "כְּכֹל אֲשֶׁר-צִוָּה"
+      },
+      {
+        "ja": "אללה בה",
+        "en": "him.",
+        "he": "יְהוָה אֶת-מֹשֶׁה"
       }
     ],
     "2": [
       {
-        "ja": "ת'ם כלם מוסי' רויסא אלאסבאט. אלד'י לבני אסראיל קאילא",
-        "en": "Then Moses spoke to the heads of the tribes of the sons of Israel, saying",
-        "he": "וַיְדַבֵּר מֹשֶׁה אֶל-רָאשֵׁי הַמַּטּוֹת לִבְנֵי יִשְׂרָאֵל לֵאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "הד'א אלאמר. אלד'י אמר אללה בה",
-        "en": "'This is the matter which God has commanded",
-        "he": "זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָה"
+        "ja": "כלם",
+        "en": "Moses spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to the heads of",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "רויסא",
+        "en": "the tribes of",
+        "he": "אֶל-רָאשֵׁי"
+      },
+      {
+        "ja": "אלאסבאט",
+        "en": "the sons of",
+        "he": "הַמַּטּוֹת"
+      },
+      {
+        "ja": "אלד'י לבני אסראיל",
+        "en": "Israel,",
+        "he": "לִבְנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "קאילא",
+        "en": "saying:",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "הד'א",
+        "en": "'This is",
+        "he": "זֶה"
+      },
+      {
+        "ja": "אלאמר",
+        "en": "the matter",
+        "he": "הַדָּבָר"
+      },
+      {
+        "ja": "אלד'י אמר",
+        "en": "which God has",
+        "he": "אֲשֶׁר צִוָּה"
+      },
+      {
+        "ja": "אללה בה",
+        "en": "commanded.",
+        "he": "יְהוָה"
       }
     ],
     "3": [
       {
-        "ja": "אי רגל נד'ר נד'רא ללה",
-        "en": "Any man who vows a vow to God",
-        "he": "אִישׁ כִּי-יִדֹּר נֶדֶר לַיהוָה"
+        "ja": "אי רגל",
+        "en": "Any man",
+        "he": "אִישׁ"
       },
       {
-        "ja": "או חלף ימינא ליעקד עקדא עלי' נפסה",
-        "en": "or swears an oath to bind a commitment upon himself",
-        "he": "אוֹ-הִשָּׁבַע שְׁבֻעָה לֶאְסֹר אִסָּר עַל-נַפְשׁוֹ"
+        "ja": "נד'ר",
+        "en": "who vows",
+        "he": "כִּי-יִדֹּר"
       },
       {
-        "ja": "פלא יבד'ל קולה",
-        "en": "he shall not dishonor his word",
-        "he": "לֹא יַחֵל דְּבָרוֹ"
+        "ja": "נד'רא",
+        "en": "a vow",
+        "he": "נֶדֶר"
       },
       {
-        "ja": "פכל מא כ'רג מן פאה יעמל",
-        "en": "all that came out of his mouth he shall do",
-        "he": "כְּכָל-הַיֹּצֵא מִפִּיו יַעֲשֶׂה"
+        "ja": "ללה",
+        "en": "to God,",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "או חלף",
+        "en": "or swears",
+        "he": "אוֹ-הִשָּׁבַע"
+      },
+      {
+        "ja": "ימינא",
+        "en": "an oath",
+        "he": "שְׁבֻעָה"
+      },
+      {
+        "ja": "ליעקד",
+        "en": "to bind",
+        "he": "לֶאְסֹר"
+      },
+      {
+        "ja": "עקדא",
+        "en": "a commitment",
+        "he": "אִסָּר"
+      },
+      {
+        "ja": "עלי' נפסה",
+        "en": "upon himself —",
+        "he": "עַל-נַפְשׁוֹ"
+      },
+      {
+        "ja": "פלא יבד'ל",
+        "en": "he shall not dishonor",
+        "he": "לֹא יַחֵל"
+      },
+      {
+        "ja": "קולה",
+        "en": "his word;",
+        "he": "דְּבָרוֹ"
+      },
+      {
+        "ja": "פכל מא כ'רג",
+        "en": "all that came out of",
+        "he": "כְּכָל-הַיֹּצֵא"
+      },
+      {
+        "ja": "מן פאה",
+        "en": "his mouth",
+        "he": "מִפִּיו"
+      },
+      {
+        "ja": "יעמל",
+        "en": "he shall do.",
+        "he": "יַעֲשֶׂה"
       }
     ],
     "4": [
       {
-        "ja": "ואייה' אמראה נד'רת נד'רא ללה",
-        "en": "And any woman who vows a vow to God",
-        "he": "וְאִשָּׁה כִּי-תִדֹּר נֶדֶר לַיהוָה"
+        "ja": "ואייה' אמראה",
+        "en": "And any woman",
+        "he": "וְאִשָּׁה"
       },
       {
-        "ja": "או עקדת עקדא. פי בית אביהא פי חאל צבאיהא",
-        "en": "or binds a commitment, while in her father's house, in the time of her youth",
-        "he": "וְאָסְרָה אִסָּר בְּבֵית אָבִיהָ בִּנְעֻרֶיהָ"
+        "ja": "נד'רת",
+        "en": "who vows",
+        "he": "כִּי-תִדֹּר"
+      },
+      {
+        "ja": "נד'רא",
+        "en": "a vow",
+        "he": "נֶדֶר"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God,",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "או עקדת",
+        "en": "or binds",
+        "he": "וְאָסְרָה"
+      },
+      {
+        "ja": "עקדא",
+        "en": "a commitment,",
+        "he": "אִסָּר"
+      },
+      {
+        "ja": "פי בית",
+        "en": "while in her father's",
+        "he": "בְּבֵית"
+      },
+      {
+        "ja": "אביהא",
+        "en": "house,",
+        "he": "אָבִיהָ"
+      },
+      {
+        "ja": "פי חאל צבאיהא",
+        "en": "in the time of her youth —",
+        "he": "בִּנְעֻרֶיהָ"
       }
     ],
     "5": [
       {
-        "ja": "פסמע אביהא נד'רהא. ועקדהא אלד'י עקדתה עלי' נפסהא",
-        "en": "and her father hears her vow and her commitment which she has bound upon herself",
-        "he": "וְשָׁמַע אָבִיהָ אֶת-נִדְרָהּ וֶאֱסָרָהּ אֲשֶׁר אָסְרָה עַל-נַפְשָׁהּ"
+        "ja": "פסמע",
+        "en": "and her father hears",
+        "he": "וְשָׁמַע"
       },
       {
-        "ja": "ואמסך ענהא. פקד ת'בת גמיע נד'ורהא",
-        "en": "and holds back from her — then all her vows are established",
-        "he": "וְהֶחֱרִישׁ לָהּ אָבִיהָ--וְקָמוּ כָּל-נְדָרֶיהָ"
+        "ja": "אביהא",
+        "en": "her vow",
+        "he": "אָבִיהָ"
       },
       {
-        "ja": "וכל עקד עקדתה עלי' נפסהא",
-        "en": "and every commitment she has bound upon herself stands",
-        "he": "וְכָל-אִסָּר אֲשֶׁר-אָסְרָה עַל-נַפְשָׁהּ יָקוּם"
+        "ja": "נד'רהא",
+        "en": "and her commitment",
+        "he": "אֶת-נִדְרָהּ"
+      },
+      {
+        "ja": "ועקדהא",
+        "en": "which she has bound",
+        "he": "וֶאֱסָרָהּ"
+      },
+      {
+        "ja": "אלד'י עקדתה",
+        "en": "upon herself,",
+        "he": "אֲשֶׁר אָסְרָה"
+      },
+      {
+        "ja": "עלי' נפסהא",
+        "en": "and holds back",
+        "he": "עַל-נַפְשָׁהּ"
+      },
+      {
+        "ja": "ואמסך ענהא",
+        "en": "from her —",
+        "he": "וְהֶחֱרִישׁ לָהּ אָבִיהָ"
+      },
+      {
+        "ja": "פקד ת'בת",
+        "en": "then all her vows are established,",
+        "he": "וְקָמוּ"
+      },
+      {
+        "ja": "גמיע נד'ורהא",
+        "en": "and every commitment",
+        "he": "כָּל-נְדָרֶיהָ"
+      },
+      {
+        "ja": "וכל עקד",
+        "en": "she has bound",
+        "he": "וְכָל-אִסָּר"
+      },
+      {
+        "ja": "עקדתה",
+        "en": "upon herself",
+        "he": "אֲשֶׁר-אָסְרָה"
+      },
+      {
+        "ja": "עלי' נפסהא",
+        "en": "stands.",
+        "he": "עַל-נַפְשָׁהּ יָקוּם"
       }
     ],
     "6": [
       {
-        "ja": "ואן אנתהרהא אביהא פי יום סמע בד'אלך",
-        "en": "But if her father rebukes her on the day he hears of it",
-        "he": "וְאִם-הֵנִיא אָבִיהָ אֹתָהּ בְּיוֹם שָׁמְעוֹ"
+        "ja": "ואן אנתהרהא",
+        "en": "But if her father rebukes her",
+        "he": "וְאִם-הֵנִיא"
       },
       {
-        "ja": "פכל נדורהא ועקודהא. אלד'י עקדתה עלי' נפסהא גי'ר ת'אבת",
-        "en": "then all her vows and her commitments which she has bound upon herself are not established",
-        "he": "כָּל-נְדָרֶיהָ וֶאֱסָרֶיהָ אֲשֶׁר-אָסְרָה עַל-נַפְשָׁהּ לֹא יָקוּם"
+        "ja": "אביהא",
+        "en": "on the day",
+        "he": "אָבִיהָ"
       },
       {
-        "ja": "ואללה יג'פר להא",
-        "en": "and God will forgive her",
-        "he": "וַיהוָה יִסְלַח-לָהּ"
+        "ja": "פי יום סמע בד'אלך",
+        "en": "he hears of it,",
+        "he": "בְּיוֹם שָׁמְעוֹ"
       },
       {
-        "ja": "אד' אנתהרהא אביהא",
-        "en": "since her father rebuked her",
-        "he": "כִּי-הֵנִיא אָבִיהָ אֹתָהּ"
+        "ja": "פכל נדורהא",
+        "en": "then all her vows",
+        "he": "כָּל-נְדָרֶיהָ"
+      },
+      {
+        "ja": "ועקודהא",
+        "en": "and her commitments",
+        "he": "וֶאֱסָרֶיהָ"
+      },
+      {
+        "ja": "אלד'י עקדתה",
+        "en": "which she has bound",
+        "he": "אֲשֶׁר-אָסְרָה"
+      },
+      {
+        "ja": "עלי' נפסהא",
+        "en": "upon herself",
+        "he": "עַל-נַפְשָׁהּ"
+      },
+      {
+        "ja": "גי'ר ת'אבת",
+        "en": "are not established;",
+        "he": "לֹא יָקוּם"
+      },
+      {
+        "ja": "ואללה",
+        "en": "and God will",
+        "he": "וַיהוָה"
+      },
+      {
+        "ja": "יג'פר להא",
+        "en": "forgive her,",
+        "he": "יִסְלַח-לָהּ"
+      },
+      {
+        "ja": "אד' אנתהרהא",
+        "en": "since her father",
+        "he": "כִּי-הֵנִיא"
+      },
+      {
+        "ja": "אביהא",
+        "en": "rebuked her.",
+        "he": "אָבִיהָ אֹתָהּ"
       }
     ],
     "7": [
       {
-        "ja": "ואן צארת לרגל",
-        "en": "And if she becomes a man's wife",
-        "he": "וְאִם-הָיוֹ תִהְיֶה לְאִישׁ"
+        "ja": "ואן צארת",
+        "en": "And if she becomes",
+        "he": "וְאִם-הָיוֹ תִהְיֶה"
       },
       {
-        "ja": "ונד'ורהא עליהא",
-        "en": "while her vows are upon her",
-        "he": "וּנְדָרֶיהָ עָלֶיהָ"
+        "ja": "לרגל",
+        "en": "a man's wife,",
+        "he": "לְאִישׁ"
       },
       {
-        "ja": "או לפץ' שפתיהא. אלד'י עקדתה עלי' נפסהא",
-        "en": "or the utterance of her lips which she has bound upon herself",
-        "he": "אוֹ מִבְטָא שְׂפָתֶיהָ אֲשֶׁר אָסְרָה עַל-נַפְשָׁהּ"
+        "ja": "ונד'ורהא",
+        "en": "while her vows",
+        "he": "וּנְדָרֶיהָ"
+      },
+      {
+        "ja": "עליהא",
+        "en": "are upon her,",
+        "he": "עָלֶיהָ"
+      },
+      {
+        "ja": "או לפץ'",
+        "en": "or the utterance of",
+        "he": "אוֹ מִבְטָא"
+      },
+      {
+        "ja": "שפתיהא",
+        "en": "her lips",
+        "he": "שְׂפָתֶיהָ"
+      },
+      {
+        "ja": "אלד'י עקדתה",
+        "en": "which she has bound",
+        "he": "אֲשֶׁר אָסְרָה"
+      },
+      {
+        "ja": "עלי' נפסהא",
+        "en": "upon herself —",
+        "he": "עַל-נַפְשָׁהּ"
       }
     ],
     "8": [
       {
-        "ja": "פסמע בעלהא. פי יום סמע",
-        "en": "and her husband hears, on the day he hears of it",
-        "he": "וְשָׁמַע אִישָׁהּ בְּיוֹם שָׁמְעוֹ"
+        "ja": "פסמע",
+        "en": "and her husband hears,",
+        "he": "וְשָׁמַע"
+      },
+      {
+        "ja": "בעלהא",
+        "en": "on the day",
+        "he": "אִישָׁהּ"
+      },
+      {
+        "ja": "פי יום סמע",
+        "en": "he hears of it,",
+        "he": "בְּיוֹם שָׁמְעוֹ"
       },
       {
         "ja": "ואמסך ענהא",
-        "en": "and holds back from her",
+        "en": "and holds back from her —",
         "he": "וְהֶחֱרִישׁ לָהּ"
       },
       {
-        "ja": "פקד ת'בת נד'ורהא ועקודהא. אלד'י עקדת עלי' נפסהא",
-        "en": "then her vows and her commitments which she has bound upon herself are established",
-        "he": "וְקָמוּ נְדָרֶיהָ וֶאֱסָרֶהָ אֲשֶׁר-אָסְרָה עַל-נַפְשָׁהּ--יָקֻמוּ"
+        "ja": "פקד ת'בת",
+        "en": "then her vows",
+        "he": "וְקָמוּ"
+      },
+      {
+        "ja": "נד'ורהא",
+        "en": "and her commitments",
+        "he": "נְדָרֶיהָ"
+      },
+      {
+        "ja": "ועקודהא",
+        "en": "which she has bound",
+        "he": "וֶאֱסָרֶהָ"
+      },
+      {
+        "ja": "אלד'י עקדת",
+        "en": "upon herself",
+        "he": "אֲשֶׁר-אָסְרָה"
+      },
+      {
+        "ja": "עלי' נפסהא",
+        "en": "are established.",
+        "he": "עַל-נַפְשָׁהּ--יָקֻמוּ"
       }
     ],
     "9": [
       {
-        "ja": "ואן אנתהרהא בעלהא פי יום סמע בד'אלך",
-        "en": "But if her husband rebukes her on the day he hears of it",
-        "he": "וְאִם בְּיוֹם שְׁמֹעַ אִישָׁהּ יָנִיא אוֹתָהּ"
+        "ja": "ואן",
+        "en": "But if",
+        "he": "וְאִם"
       },
       {
-        "ja": "ופסך' נד'ורהא אלד'י עליהא. ולפץ' שפתיהא. אלד'י עקדתה עלי' נפסהא",
-        "en": "and annuls her vows which are upon her and the utterance of her lips which she has bound upon herself",
-        "he": "וְהֵפֵר אֶת-נִדְרָהּ אֲשֶׁר עָלֶיהָ וְאֵת מִבְטָא שְׂפָתֶיהָ אֲשֶׁר אָסְרָה עַל-נַפְשָׁהּ"
+        "ja": "בעלהא פי יום סמע",
+        "en": "her husband rebukes her on the day",
+        "he": "בְּיוֹם שְׁמֹעַ"
       },
       {
-        "ja": "ואללה יג'פר להא",
-        "en": "then God will forgive her",
-        "he": "וַיהוָה יִסְלַח-לָהּ"
+        "ja": "אנתהרהא",
+        "en": "he hears of it,",
+        "he": "אִישָׁהּ יָנִיא אוֹתָהּ"
+      },
+      {
+        "ja": "ופסך'",
+        "en": "and annuls",
+        "he": "וְהֵפֵר"
+      },
+      {
+        "ja": "נד'ורהא",
+        "en": "her vows",
+        "he": "אֶת-נִדְרָהּ"
+      },
+      {
+        "ja": "אלד'י עליהא",
+        "en": "which are upon her",
+        "he": "אֲשֶׁר עָלֶיהָ"
+      },
+      {
+        "ja": "ולפץ'",
+        "en": "and the utterance of",
+        "he": "וְאֵת מִבְטָא"
+      },
+      {
+        "ja": "שפתיהא",
+        "en": "her lips",
+        "he": "שְׂפָתֶיהָ"
+      },
+      {
+        "ja": "אלד'י עקדתה",
+        "en": "which she has bound",
+        "he": "אֲשֶׁר אָסְרָה"
+      },
+      {
+        "ja": "עלי' נפסהא",
+        "en": "upon herself —",
+        "he": "עַל-נַפְשָׁהּ"
+      },
+      {
+        "ja": "ואללה",
+        "en": "then God will",
+        "he": "וַיהוָה"
+      },
+      {
+        "ja": "יג'פר להא",
+        "en": "forgive her.",
+        "he": "יִסְלַח-לָהּ"
       }
     ],
     "10": [
       {
-        "ja": "ונד'ר אלארמלה ואלמטלקה",
-        "en": "And the vow of a widow or a divorced woman",
-        "he": "וְנֵדֶר אַלְמָנָה וּגְרוּשָׁה"
+        "ja": "ונד'ר",
+        "en": "And the vow of",
+        "he": "וְנֵדֶר"
       },
       {
-        "ja": "פגמיע מא עקדתה עלי' נפסהא פת'אבת עליהא",
-        "en": "all that she has bound upon herself is established upon her",
-        "he": "כֹּל אֲשֶׁר-אָסְרָה עַל-נַפְשָׁהּ יָקוּם עָלֶיהָ"
+        "ja": "אלארמלה",
+        "en": "a widow",
+        "he": "אַלְמָנָה"
+      },
+      {
+        "ja": "ואלמטלקה",
+        "en": "or a divorced woman —",
+        "he": "וּגְרוּשָׁה"
+      },
+      {
+        "ja": "פגמיע מא עקדתה",
+        "en": "all that she has bound",
+        "he": "כֹּל אֲשֶׁר-אָסְרָה"
+      },
+      {
+        "ja": "עלי' נפסהא",
+        "en": "upon herself",
+        "he": "עַל-נַפְשָׁהּ"
+      },
+      {
+        "ja": "פת'אבת",
+        "en": "is established",
+        "he": "יָקוּם"
+      },
+      {
+        "ja": "עליהא",
+        "en": "upon her.",
+        "he": "עָלֶיהָ"
       }
     ],
     "11": [
       {
-        "ja": "ואן כאן פי בית זוגהא נד'רת",
-        "en": "And if she was in her husband's house when she vowed",
-        "he": "וְאִם-בֵּית אִישָׁהּ נָדָרָה"
+        "ja": "ואן כאן פי בית",
+        "en": "And if she was in her husband's",
+        "he": "וְאִם-בֵּית"
       },
       {
-        "ja": "או עקדת עקדא. עלי' נפסהא בימין",
-        "en": "or bound a commitment upon herself by oath",
-        "he": "אוֹ-אָסְרָה אִסָּר עַל-נַפְשָׁהּ בִּשְׁבֻעָה"
+        "ja": "זוגהא",
+        "en": "house",
+        "he": "אִישָׁהּ"
+      },
+      {
+        "ja": "נד'רת",
+        "en": "when she vowed,",
+        "he": "נָדָרָה"
+      },
+      {
+        "ja": "או עקדת",
+        "en": "or bound",
+        "he": "אוֹ-אָסְרָה"
+      },
+      {
+        "ja": "עקדא",
+        "en": "a commitment",
+        "he": "אִסָּר"
+      },
+      {
+        "ja": "עלי' נפסהא",
+        "en": "upon herself",
+        "he": "עַל-נַפְשָׁהּ"
+      },
+      {
+        "ja": "בימין",
+        "en": "by oath —",
+        "he": "בִּשְׁבֻעָה"
       }
     ],
     "12": [
       {
-        "ja": "פסמע בעלהא ואמסך ענהא. ולם ינתהרהא",
-        "en": "and her husband heard, and held back from her, and did not rebuke her",
-        "he": "וְשָׁמַע אִישָׁהּ וְהֶחֱרִשׁ לָהּ לֹא הֵנִיא אֹתָהּ"
+        "ja": "פסמע",
+        "en": "and her husband heard,",
+        "he": "וְשָׁמַע"
       },
       {
-        "ja": "פקד ת'בת גמיע נדורהא. וכל עקד עקדתה עלי' נפסהא",
-        "en": "then all her vows and every commitment she has bound upon herself are established",
-        "he": "וְקָמוּ כָּל-נְדָרֶיהָ וְכָל-אִסָּר אֲשֶׁר-אָסְרָה עַל-נַפְשָׁהּ יָקוּם"
+        "ja": "בעלהא",
+        "en": "and held back",
+        "he": "אִישָׁהּ"
+      },
+      {
+        "ja": "ואמסך ענהא",
+        "en": "from her,",
+        "he": "וְהֶחֱרִשׁ לָהּ"
+      },
+      {
+        "ja": "ולם ינתהרהא",
+        "en": "and did not rebuke her —",
+        "he": "לֹא הֵנִיא אֹתָהּ"
+      },
+      {
+        "ja": "פקד ת'בת",
+        "en": "then all her vows",
+        "he": "וְקָמוּ"
+      },
+      {
+        "ja": "גמיע נדורהא",
+        "en": "and every commitment",
+        "he": "כָּל-נְדָרֶיהָ"
+      },
+      {
+        "ja": "וכל עקד",
+        "en": "she has bound",
+        "he": "וְכָל-אִסָּר"
+      },
+      {
+        "ja": "עקדתה",
+        "en": "upon herself",
+        "he": "אֲשֶׁר-אָסְרָה"
+      },
+      {
+        "ja": "עלי' נפסהא",
+        "en": "are established.",
+        "he": "עַל-נַפְשָׁהּ יָקוּם"
       }
     ],
     "13": [
       {
-        "ja": "ואן פסך' ד'אלך בעלהא פי יום סמע בה",
-        "en": "But if her husband annuls that on the day he hears of it",
-        "he": "וְאִם-הָפֵר יָפֵר אֹתָם אִישָׁהּ בְּיוֹם שָׁמְעוֹ"
+        "ja": "ואן פסך'",
+        "en": "But if her husband annuls",
+        "he": "וְאִם-הָפֵר יָפֵר"
       },
       {
-        "ja": "פכל מא כ'רג מן שפתיהא. מן נד'ור ועקוד עלי' נפסהא פג'יר ת'אבת",
-        "en": "then all that came forth from her lips, of vows and commitments upon herself, is not established",
-        "he": "כָּל-מוֹצָא שְׂפָתֶיהָ לִנְדָרֶיהָ וּלְאִסַּר נַפְשָׁהּ לֹא יָקוּם"
+        "ja": "ד'אלך בעלהא",
+        "en": "that",
+        "he": "אֹתָם אִישָׁהּ"
+      },
+      {
+        "ja": "פי יום סמע בה",
+        "en": "on the day he hears of it,",
+        "he": "בְּיוֹם שָׁמְעוֹ"
+      },
+      {
+        "ja": "פכל מא כ'רג",
+        "en": "then all that came forth from",
+        "he": "כָּל-מוֹצָא"
+      },
+      {
+        "ja": "מן שפתיהא",
+        "en": "her lips,",
+        "he": "שְׂפָתֶיהָ"
+      },
+      {
+        "ja": "מן נד'ור",
+        "en": "of vows",
+        "he": "לִנְדָרֶיהָ"
+      },
+      {
+        "ja": "ועקוד עלי' נפסהא",
+        "en": "and commitments upon herself,",
+        "he": "וּלְאִסַּר נַפְשָׁהּ"
+      },
+      {
+        "ja": "פג'יר ת'אבת",
+        "en": "is not established —",
+        "he": "לֹא יָקוּם"
       },
       {
         "ja": "ולמא פסכ'הם בעלהא",
-        "en": "for her husband has annulled them",
+        "en": "for her husband has annulled them;",
         "he": "אִישָׁהּ הֲפֵרָם"
       },
       {
-        "ja": "פאללה יג'פר להא",
-        "en": "and God will forgive her",
-        "he": "וַיהוָה יִסְלַח-לָהּ"
+        "ja": "פאללה",
+        "en": "and God will",
+        "he": "וַיהוָה"
+      },
+      {
+        "ja": "יג'פר להא",
+        "en": "forgive her.",
+        "he": "יִסְלַח-לָהּ"
       }
     ],
     "14": [
       {
-        "ja": "כד'אך כל נד'ר. וכל ימין בעקד לעד'אב אלנפס",
-        "en": "So it is with every vow and every sworn oath of commitment for the affliction of the soul",
-        "he": "כָּל-נֵדֶר וְכָל-שְׁבֻעַת אִסָּר לְעַנֹּת נָפֶשׁ"
+        "ja": "כד'אך",
+        "en": "So it is with"
+      },
+      {
+        "ja": "כל נד'ר",
+        "en": "every vow",
+        "he": "כָּל-נֵדֶר"
+      },
+      {
+        "ja": "וכל ימין",
+        "en": "and every sworn oath of",
+        "he": "וְכָל-שְׁבֻעַת"
+      },
+      {
+        "ja": "בעקד",
+        "en": "commitment",
+        "he": "אִסָּר"
+      },
+      {
+        "ja": "לעד'אב אלנפס",
+        "en": "for the affliction of the soul —",
+        "he": "לְעַנֹּת נָפֶשׁ"
       },
       {
         "ja": "בעלהא ית'בת ד'אלך",
-        "en": "her husband may establish it",
+        "en": "her husband may establish it,",
         "he": "אִישָׁהּ יְקִימֶנּוּ"
       },
       {
         "ja": "ובעלהא יבטלה",
-        "en": "or her husband may annul it",
+        "en": "or her husband may annul it.",
         "he": "וְאִישָׁהּ יְפֵרֶנּוּ"
       }
     ],
     "15": [
       {
-        "ja": "ואן אמסך ענהא מן יום אלי' יום",
-        "en": "And if he holds back from her from day to day",
-        "he": "וְאִם-הַחֲרֵשׁ יַחֲרִישׁ לָהּ אִישָׁהּ מִיּוֹם אֶל-יוֹם"
+        "ja": "ואן אמסך",
+        "en": "And if he holds back",
+        "he": "וְאִם-הַחֲרֵשׁ יַחֲרִישׁ"
       },
       {
-        "ja": "פקד ת'בת גמיע נד'ורהא ועקודהא אלד'י עליהא. ת'בתהם",
-        "en": "then he has established all her vows and commitments which are upon her — has established them",
-        "he": "וְהֵקִים אֶת-כָּל-נְדָרֶיהָ אוֹ אֶת-כָּל-אֱסָרֶיהָ אֲשֶׁר עָלֶיהָ--הֵקִים אֹתָם"
+        "ja": "ענהא",
+        "en": "from her",
+        "he": "לָהּ אִישָׁהּ"
       },
       {
-        "ja": "למא אמסך ענהא. פי יום סמע בד'אלך",
-        "en": "by virtue of his holding back from her on the day he heard of it",
-        "he": "כִּי-הֶחֱרִשׁ לָהּ בְּיוֹם שָׁמְעוֹ"
+        "ja": "מן יום אלי' יום",
+        "en": "from day to day,",
+        "he": "מִיּוֹם אֶל-יוֹם"
+      },
+      {
+        "ja": "פקד ת'בת",
+        "en": "then he has established",
+        "he": "וְהֵקִים"
+      },
+      {
+        "ja": "גמיע נד'ורהא",
+        "en": "all her vows",
+        "he": "אֶת-כָּל-נְדָרֶיהָ"
+      },
+      {
+        "ja": "ועקודהא",
+        "en": "and commitments",
+        "he": "אוֹ אֶת-כָּל-אֱסָרֶיהָ"
+      },
+      {
+        "ja": "אלד'י עליהא",
+        "en": "which are upon her —",
+        "he": "אֲשֶׁר עָלֶיהָ"
+      },
+      {
+        "ja": "ת'בתהם",
+        "en": "has established them —",
+        "he": "הֵקִים אֹתָם"
+      },
+      {
+        "ja": "למא אמסך ענהא",
+        "en": "by virtue of his holding back from her",
+        "he": "כִּי-הֶחֱרִשׁ לָהּ"
+      },
+      {
+        "ja": "פי יום סמע בד'אלך",
+        "en": "on the day he heard of it.",
+        "he": "בְּיוֹם שָׁמְעוֹ"
       }
     ],
     "16": [
       {
-        "ja": "ואן פסך' ד'אלך בעד מא סמע בה",
-        "en": "But if he annuls them after he has heard of them",
-        "he": "וְאִם-הָפֵר יָפֵר אֹתָם אַחֲרֵי שָׁמְעוֹ"
+        "ja": "ואן פסך'",
+        "en": "But if he annuls them",
+        "he": "וְאִם-הָפֵר יָפֵר"
       },
       {
-        "ja": "פקד חמל וזרהא",
-        "en": "then he has borne her guilt",
-        "he": "וְנָשָׂא אֶת-עֲו‍ֹנָהּ"
+        "ja": "ד'אלך",
+        "en": "after",
+        "he": "אֹתָם"
+      },
+      {
+        "ja": "בעד מא סמע בה",
+        "en": "he has heard of them,",
+        "he": "אַחֲרֵי שָׁמְעוֹ"
+      },
+      {
+        "ja": "פקד חמל",
+        "en": "then he has borne",
+        "he": "וְנָשָׂא"
+      },
+      {
+        "ja": "וזרהא",
+        "en": "her guilt.",
+        "he": "אֶת-עֲו‍ֹנָהּ"
       }
     ],
     "17": [
       {
-        "ja": "הד'ה אלרסום. אלד'י אמר אללה בהא מוסי'",
-        "en": "These are the statutes which God commanded Moses",
-        "he": "אֵלֶּה הַחֻקִּים אֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה"
+        "ja": "הד'ה",
+        "en": "These are",
+        "he": "אֵלֶּה"
       },
       {
-        "ja": "פי מא בין אלרגל וזוגתה דאימא. ופי מא בין אלאב ואבנתה. פי חאל צבאיהא והי פי מנזלה",
-        "en": "concerning what is between a man and his wife always, and concerning what is between a father and his daughter, in the time of her youth while she is in his household",
-        "he": "בֵּין אִישׁ לְאִשְׁתּוֹ--בֵּין-אָב לְבִתּוֹ בִּנְעֻרֶיהָ בֵּית אָבִיהָ"
+        "ja": "אלרסום",
+        "en": "the statutes",
+        "he": "הַחֻקִּים"
+      },
+      {
+        "ja": "אלד'י אמר",
+        "en": "which God commanded",
+        "he": "אֲשֶׁר צִוָּה"
+      },
+      {
+        "ja": "אללה",
+        "en": "Moses,",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "בהא מוסי'",
+        "en": "concerning what is between",
+        "he": "אֶת-מֹשֶׁה"
+      },
+      {
+        "ja": "פי מא בין אלרגל",
+        "en": "a man",
+        "he": "בֵּין אִישׁ"
+      },
+      {
+        "ja": "וזוגתה",
+        "en": "and his wife",
+        "he": "לְאִשְׁתּוֹ"
+      },
+      {
+        "ja": "דאימא. ופי מא בין אלאב",
+        "en": "always, and concerning what is between a father",
+        "he": "בֵּין-אָב"
+      },
+      {
+        "ja": "ואבנתה",
+        "en": "and his daughter,",
+        "he": "לְבִתּוֹ"
+      },
+      {
+        "ja": "פי חאל צבאיהא",
+        "en": "in the time of her youth",
+        "he": "בִּנְעֻרֶיהָ"
+      },
+      {
+        "ja": "והי פי מנזלה",
+        "en": "while she is in his household.'",
+        "he": "בֵּית אָבִיהָ"
       }
     ]
   }
