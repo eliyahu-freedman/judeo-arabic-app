@@ -1,18 +1,48 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 12. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_12.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 12. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_12.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "תכלמת מרים והרון במוסי",
-        "en": "Miriam and Aaron spoke against Moses",
-        "he": "וַתְּדַבֵּר מִרְיָם וְאַהֲרֹן בְּמֹשֶׁה"
+        "ja": "תכלמת",
+        "en": "spoke against",
+        "he": "וַתְּדַבֵּר"
       },
       {
-        "ja": "בסבב אלאמראה אלחסנה אלתי תזווגהא",
-        "en": "on account of the fair woman whom he had married",
-        "he": "עַל-אֹדוֹת הָאִשָּׁה הַכֻּשִׁית אֲשֶׁר לָקָח"
+        "ja": "מרים",
+        "en": "Miriam",
+        "he": "מִרְיָם"
+      },
+      {
+        "ja": "והרון",
+        "en": "and Aaron",
+        "he": "וְאַהֲרֹן"
+      },
+      {
+        "ja": "במוסי.",
+        "en": "Moses",
+        "he": "בְּמֹשֶׁה"
+      },
+      {
+        "ja": "בסבב",
+        "en": "on account of",
+        "he": "עַל-אֹדוֹת"
+      },
+      {
+        "ja": "אלאמראה",
+        "en": "the fair woman",
+        "he": "הָאִשָּׁה"
+      },
+      {
+        "ja": "אלחסנה",
+        "en": "whom",
+        "he": "הַכֻּשִׁית"
+      },
+      {
+        "ja": "אלתי תזווגהא.",
+        "en": "he had married,",
+        "he": "אֲשֶׁר לָקָח"
       },
       {
         "ja": "לאנה כאן קד אעתזלהא",
@@ -22,14 +52,51 @@
     ],
     "2": [
       {
-        "ja": "פקאלו. אן כאן מן אגל אלנבווה פתראה וחדה פקט כ'אטבה אללה",
-        "en": "And they said: 'If it be on account of prophecy — was it only he alone whom God addressed?",
-        "he": "וַיֹּאמְרוּ הֲרַק אַךְ-בְּמֹשֶׁה דִּבֶּר יְהוָה"
+        "ja": "פקאלו.",
+        "en": "And they said:",
+        "he": "וַיֹּאמְרוּ"
       },
       {
-        "ja": "אליס קד כ'אטבנא אללה איצ'א",
-        "en": "Has God not addressed us as well?'",
-        "he": "הֲלֹא גַּם-בָּנוּ דִבֵּר"
+        "ja": "אן כאן",
+        "en": "If it be"
+      },
+      {
+        "ja": "מן אגל",
+        "en": "on account of",
+        "he": "הֲרַק"
+      },
+      {
+        "ja": "אלנבווה",
+        "en": "prophecy —",
+        "he": "אַךְ-בְּמֹשֶׁה"
+      },
+      {
+        "ja": "פתראה",
+        "en": "was it only",
+        "he": "דִּבֶּר"
+      },
+      {
+        "ja": "וחדה פקט",
+        "en": "he alone",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "כ'אטבה",
+        "en": "whom"
+      },
+      {
+        "ja": "אללה.",
+        "en": "God addressed?"
+      },
+      {
+        "ja": "אליס קד כ'אטבנא",
+        "en": "Has God not addressed us",
+        "he": "הֲלֹא גַּם-בָּנוּ"
+      },
+      {
+        "ja": "אללה איצ'א.",
+        "en": "as well?'",
+        "he": "דִבֵּר"
       },
       {
         "ja": "פסמע אללה ד'אלך",
@@ -39,106 +106,303 @@
     ],
     "3": [
       {
-        "ja": "וכאן מוסי' רגלא כ'אשעא גדא",
-        "en": "Now Moses was a man exceedingly humble",
-        "he": "וְהָאִישׁ מֹשֶׁה עָנָו מְאֹד"
+        "ja": "וכאן",
+        "en": "Now"
       },
       {
-        "ja": "אכת'ר מן גמיע אלנאס. אלד'י עלי' וגה אלארץ'",
-        "en": "more than all the people who are upon the face of the earth.",
-        "he": "מִכֹּל הָאָדָם אֲשֶׁר עַל-פְּנֵי הָאֲדָמָה"
+        "ja": "מוסי'",
+        "en": "Moses",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "רגלא",
+        "en": "was a man",
+        "he": "וְהָאִישׁ"
+      },
+      {
+        "ja": "כ'אשעא",
+        "en": "exceedingly humble",
+        "he": "עָנָו"
+      },
+      {
+        "ja": "גדא.",
+        "en": "—",
+        "he": "מְאֹד"
+      },
+      {
+        "ja": "אכת'ר מן",
+        "en": "more than",
+        "he": "מִכֹּל"
+      },
+      {
+        "ja": "גמיע אלנאס.",
+        "en": "all the people",
+        "he": "הָאָדָם"
+      },
+      {
+        "ja": "אלד'י עלי' וגה",
+        "en": "who are upon the face of",
+        "he": "אֲשֶׁר עַל-פְּנֵי"
+      },
+      {
+        "ja": "אלארץ'",
+        "en": "the earth.",
+        "he": "הָאֲדָמָה"
       }
     ],
     "4": [
       {
-        "ja": "פקאל אללה ג'פלה. למוסי והרון ומרים",
-        "en": "And God said suddenly to Moses and Aaron and Miriam",
-        "he": "וַיֹּאמֶר יְהוָה פִּתְאֹם אֶל-מֹשֶׁה וְאֶל-אַהֲרֹן וְאֶל-מִרְיָם"
+        "ja": "פקאל אללה",
+        "en": "And God said",
+        "he": "וַיֹּאמֶר יְהוָה"
       },
       {
-        "ja": "אכ'רגו ת'לאת'תכם אלי' כ'בא אלמחצ'ר",
-        "en": "'Come out, the three of you, to the tent of the assembly.'",
-        "he": "צְאוּ שְׁלָשְׁתְּכֶם אֶל-אֹהֶל מוֹעֵד"
+        "ja": "ג'פלה.",
+        "en": "suddenly",
+        "he": "פִּתְאֹם"
       },
       {
-        "ja": "פכ'רגו ת'לאת'תהם",
-        "en": "And the three of them came out.",
-        "he": "וַיֵּצְאוּ שְׁלָשְׁתָּם"
+        "ja": "למוסי",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "והרון",
+        "en": "and Aaron",
+        "he": "וְאֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "ומרים.",
+        "en": "and Miriam:",
+        "he": "וְאֶל-מִרְיָם"
+      },
+      {
+        "ja": "אכ'רגו",
+        "en": "'Come out,",
+        "he": "צְאוּ"
+      },
+      {
+        "ja": "ת'לאת'תכם",
+        "en": "the three of you,",
+        "he": "שְׁלָשְׁתְּכֶם"
+      },
+      {
+        "ja": "אלי' כ'בא אלמחצ'ר.",
+        "en": "to the tent of the assembly.'",
+        "he": "אֶל-אֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "פכ'רגו",
+        "en": "And the three of them",
+        "he": "וַיֵּצְאוּ"
+      },
+      {
+        "ja": "ת'לאת'תהם",
+        "en": "came out.",
+        "he": "שְׁלָשְׁתָּם"
       }
     ],
     "5": [
       {
-        "ja": "פתגלא אללה בעמוד ג'מאם",
-        "en": "And God appeared in a pillar of cloud",
-        "he": "וַיֵּרֶד יְהוָה בְּעַמּוּד עָנָן"
+        "ja": "פתגלא אללה",
+        "en": "And God appeared",
+        "he": "וַיֵּרֶד יְהוָה"
       },
       {
-        "ja": "וקאם עלי' באב אלכ'בא",
-        "en": "and stood at the door of the tent",
-        "he": "וַיַּעֲמֹד פֶּתַח הָאֹהֶל"
+        "ja": "בעמוד",
+        "en": "in a pillar of",
+        "he": "בְּעַמּוּד"
       },
       {
-        "ja": "ונאדא יא הרון ויא מרים",
-        "en": "and called: 'O Aaron, and O Miriam!'",
-        "he": "וַיִּקְרָא אַהֲרֹן וּמִרְיָם"
+        "ja": "ג'מאם.",
+        "en": "cloud,",
+        "he": "עָנָן"
       },
       {
-        "ja": "פכ'רגא כליהמא",
-        "en": "And the two of them came out.",
-        "he": "וַיֵּצְאוּ שְׁנֵיהֶם"
+        "ja": "וקאם עלי'",
+        "en": "and stood at",
+        "he": "וַיַּעֲמֹד"
+      },
+      {
+        "ja": "באב אלכ'בא.",
+        "en": "the door of the tent,",
+        "he": "פֶּתַח הָאֹהֶל"
+      },
+      {
+        "ja": "ונאדא",
+        "en": "and called:",
+        "he": "וַיִּקְרָא"
+      },
+      {
+        "ja": "יא הרון",
+        "en": "'O Aaron,",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "ויא מרים.",
+        "en": "and O Miriam!'",
+        "he": "וּמִרְיָם"
+      },
+      {
+        "ja": "פכ'רגא",
+        "en": "And the two of them",
+        "he": "וַיֵּצְאוּ"
+      },
+      {
+        "ja": "כליהמא",
+        "en": "came out.",
+        "he": "שְׁנֵיהֶם"
       }
     ],
     "6": [
       {
-        "ja": "קאל אסמעו כלאמי",
-        "en": "He said: 'Hear my words.",
-        "he": "וַיֹּאמֶר שִׁמְעוּ-נָא דְבָרָי"
+        "ja": "קאל",
+        "en": "He said:",
+        "he": "וַיֹּאמֶר"
       },
       {
-        "ja": "אן יכון נבייכמא. אנא אללה תערפת בה פי רויא",
-        "en": "If there be a prophet among you — I, God, make Myself known to him in a vision",
-        "he": "אִם-יִהְיֶה נְבִיאֲכֶם--יְהוָה בַּמַּרְאָה אֵלָיו אֶתְוַדָּע"
+        "ja": "אסמעו",
+        "en": "'Hear",
+        "he": "שִׁמְעוּ-נָא"
+      },
+      {
+        "ja": "כלאמי.",
+        "en": "my words.",
+        "he": "דְבָרָי"
+      },
+      {
+        "ja": "אן יכון",
+        "en": "If there be",
+        "he": "אִם-יִהְיֶה"
+      },
+      {
+        "ja": "נבייכמא.",
+        "en": "a prophet among you —",
+        "he": "נְבִיאֲכֶם"
+      },
+      {
+        "ja": "אנא",
+        "en": "I,"
+      },
+      {
+        "ja": "אללה",
+        "en": "God,",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "תערפת בה",
+        "en": "make Myself known to him",
+        "he": "אֶתְוַדָּע"
+      },
+      {
+        "ja": "פי רויא .",
+        "en": "in a vision,",
+        "he": "בַּמַּרְאָה"
       },
       {
         "ja": "או כ'אטבתה פי חלם",
         "en": "or I speak to him in a dream.",
-        "he": "בַּחֲלוֹם אֲדַבֶּר-בּוֹ"
+        "he": "בַּחֲלוֹם"
       }
     ],
     "7": [
       {
-        "ja": "ליס כד'אך עבדי מוסי'",
-        "en": "Not so My servant Moses",
-        "he": "לֹא-כֵן עַבְדִּי מֹשֶׁה"
+        "ja": "ליס כד'אך",
+        "en": "Not so",
+        "he": "לֹא-כֵן"
       },
       {
-        "ja": "בל פי גמיע אמתי מחקק הו",
-        "en": "rather, throughout all My nation he is trusted.",
-        "he": "בְּכָל-בֵּיתִי נֶאֱמָן הוּא"
+        "ja": "עבדי",
+        "en": "My servant",
+        "he": "עַבְדִּי"
+      },
+      {
+        "ja": "מוסי'.",
+        "en": "Moses —",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "בל",
+        "en": "rather,"
+      },
+      {
+        "ja": "פי גמיע אמתי",
+        "en": "throughout all My nation",
+        "he": "בְּכָל-בֵּיתִי"
+      },
+      {
+        "ja": "מחקק הו",
+        "en": "he is trusted.",
+        "he": "נֶאֱמָן הוּא"
       }
     ],
     "8": [
       {
-        "ja": "אן שפאהא אכ'אטבה. ורויא ולא באחאדית",
-        "en": "Mouth to mouth I address him, and by vision and not in riddles",
-        "he": "פֶּה אֶל-פֶּה אֲדַבֶּר-בּוֹ וּמַרְאֶה וְלֹא בְחִידֹת"
+        "ja": "אן שפאהא",
+        "en": "Mouth to mouth",
+        "he": "פֶּה אֶל-פֶּה"
       },
       {
-        "ja": "וצוור אללה אלמכ'לוקה לה יראהא",
-        "en": "and the created forms of God appointed for him — he beholds them.",
-        "he": "וּתְמֻנַת יְהוָה יַבִּיט"
+        "ja": "אכ'אטבה.",
+        "en": "I address him,",
+        "he": "אֲדַבֶּר-בּוֹ"
       },
       {
-        "ja": "ומא באלכמא לם תכ'אפא. אן תתכלמא פי עבדי מוסי'",
-        "en": "Why then were the two of you not afraid to speak against My servant Moses?'",
-        "he": "וּמַדּוּעַ לֹא יְרֵאתֶם לְדַבֵּר בְּעַבְדִּי בְמֹשֶׁה"
+        "ja": "ורויא",
+        "en": "and by vision",
+        "he": "וּמַרְאֶה"
+      },
+      {
+        "ja": "ולא באחאדית",
+        "en": "and not in riddles;",
+        "he": "וְלֹא בְחִידֹת"
+      },
+      {
+        "ja": "וצוור אללה",
+        "en": "and the created forms of God",
+        "he": "וּתְמֻנַת יְהוָה"
+      },
+      {
+        "ja": "אלמכ'לוקה לה יראהא.",
+        "en": "appointed for him — he beholds them.",
+        "he": "יַבִּיט"
+      },
+      {
+        "ja": "ומא באלכמא",
+        "en": "Why then",
+        "he": "וּמַדּוּעַ"
+      },
+      {
+        "ja": "לם תכ'אפא.",
+        "en": "were the two of you not afraid",
+        "he": "לֹא יְרֵאתֶם"
+      },
+      {
+        "ja": "אן תתכלמא",
+        "en": "to speak",
+        "he": "לְדַבֵּר"
+      },
+      {
+        "ja": "פי עבדי",
+        "en": "against My servant",
+        "he": "בְּעַבְדִּי"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses?'",
+        "he": "בְמֹשֶׁה"
       }
     ],
     "9": [
       {
-        "ja": "פאשתד ג'צ'ב אללה עליהם",
-        "en": "And God's anger intensified against them",
-        "he": "וַיִּחַר-אַף יְהוָה בָּם"
+        "ja": "פאשתד ג'צ'ב אללה",
+        "en": "And God's anger intensified",
+        "he": "וַיִּחַר-אַף יְהוָה"
+      },
+      {
+        "ja": "עליהם.",
+        "en": "against them,",
+        "he": "בָּם"
       },
       {
         "ja": "וארתפע נורה",
@@ -148,106 +412,290 @@
     ],
     "10": [
       {
-        "ja": "פכמא זאל אלג'מאם ען אלכ'בא",
-        "en": "And as the cloud withdrew from the tent",
-        "he": "וְהֶעָנָן סָר מֵעַל הָאֹהֶל"
+        "ja": "פכמא זאל אלג'מאם",
+        "en": "And as the cloud withdrew",
+        "he": "וְהֶעָנָן"
       },
       {
-        "ja": "פאדא במרים ביצ'א כאלתלג",
-        "en": "behold — Miriam was white as snow.",
-        "he": "וְהִנֵּה מִרְיָם מְצֹרַעַת כַּשָּׁלֶג"
+        "ja": "ען אלכ'בא.",
+        "en": "from the tent,",
+        "he": "סָר מֵעַל הָאֹהֶל"
       },
       {
-        "ja": "פלמא אלתפת הרון. אלי' מרים פאד'א בהא ברצא",
-        "en": "And when Aaron turned toward Miriam, behold, she was stricken with a skin-affliction.",
-        "he": "וַיִּפֶן אַהֲרֹן אֶל-מִרְיָם וְהִנֵּה מְצֹרָעַת"
+        "ja": "פאדא",
+        "en": "behold —",
+        "he": "וְהִנֵּה"
+      },
+      {
+        "ja": "במרים",
+        "en": "Miriam",
+        "he": "מִרְיָם"
+      },
+      {
+        "ja": "ביצ'א",
+        "en": "was white",
+        "he": "מְצֹרַעַת"
+      },
+      {
+        "ja": "כאלתלג.",
+        "en": "as snow.",
+        "he": "כַּשָּׁלֶג"
+      },
+      {
+        "ja": "פלמא אלתפת",
+        "en": "And when",
+        "he": "וַיִּפֶן"
+      },
+      {
+        "ja": "הרון.",
+        "en": "Aaron turned",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "אלי' מרים",
+        "en": "toward Miriam,",
+        "he": "אֶל-מִרְיָם"
+      },
+      {
+        "ja": "פאד'א בהא ברצא",
+        "en": "behold, she was stricken with a skin-affliction.",
+        "he": "וְהִנֵּה מְצֹרָעַת"
       }
     ],
     "11": [
       {
-        "ja": "פקאל הרון למוסי'. יא סיידי",
-        "en": "And Aaron said to Moses: 'O my lord",
-        "he": "וַיֹּאמֶר אַהֲרֹן אֶל-מֹשֶׁה בִּי אֲדֹנִי"
+        "ja": "פקאל הרון",
+        "en": "And Aaron said",
+        "he": "וַיֹּאמֶר אַהֲרֹן"
       },
       {
-        "ja": "לא תגעל עלינא כ'טייה",
-        "en": "do not lay a sin upon us",
-        "he": "אַל-נָא תָשֵׁת עָלֵינוּ חַטָּאת"
+        "ja": "למוסי'.",
+        "en": "to Moses:",
+        "he": "אֶל-מֹשֶׁה"
       },
       {
-        "ja": "פי מא גהלנא ואכ'טינא",
-        "en": "for what we did in our ignorance and in our error.",
-        "he": "אֲשֶׁר נוֹאַלְנוּ וַאֲשֶׁר חָטָאנוּ"
+        "ja": "יא סיידי.",
+        "en": "'O my lord,",
+        "he": "בִּי אֲדֹנִי"
+      },
+      {
+        "ja": "לא תגעל",
+        "en": "do not lay",
+        "he": "אַל-נָא תָשֵׁת"
+      },
+      {
+        "ja": "עלינא",
+        "en": "a sin upon us",
+        "he": "עָלֵינוּ"
+      },
+      {
+        "ja": "כ'טייה.",
+        "en": "for what we did",
+        "he": "חַטָּאת"
+      },
+      {
+        "ja": "פי מא גהלנא",
+        "en": "in our ignorance",
+        "he": "אֲשֶׁר נוֹאַלְנוּ"
+      },
+      {
+        "ja": "ואכ'טינא",
+        "en": "and in our error.",
+        "he": "וַאֲשֶׁר חָטָאנוּ"
       }
     ],
     "12": [
       {
-        "ja": "לא תכון הד'ה כסקט כ'רג מן בטן אמה",
-        "en": "Let her not be like a stillborn that comes out from its mother's womb",
-        "he": "אַל-נָא תְהִי כַּמֵּת אֲשֶׁר בְּצֵאתוֹ מֵרֶחֶם אִמּוֹ"
+        "ja": "לא תכון",
+        "en": "Let her not be",
+        "he": "אַל-נָא תְהִי"
       },
       {
-        "ja": "וקד תהרא נצף גסמה",
-        "en": "with half its body already wasted away.'",
-        "he": "וַיֵּאָכֵל חֲצִי בְשָׂרוֹ"
+        "ja": "הד'ה כסקט",
+        "en": "like a stillborn",
+        "he": "כַּמֵּת"
+      },
+      {
+        "ja": "כ'רג",
+        "en": "that comes out",
+        "he": "אֲשֶׁר בְּצֵאתוֹ"
+      },
+      {
+        "ja": "מן בטן",
+        "en": "from its mother's",
+        "he": "מֵרֶחֶם"
+      },
+      {
+        "ja": "אמה.",
+        "en": "womb",
+        "he": "אִמּוֹ"
+      },
+      {
+        "ja": "וקד תהרא",
+        "en": "with half its body already",
+        "he": "וַיֵּאָכֵל"
+      },
+      {
+        "ja": "נצף גסמה",
+        "en": "wasted away.'",
+        "he": "חֲצִי בְשָׂרוֹ"
       }
     ],
     "13": [
       {
-        "ja": "פדעא מוסי'. אלי' רבה קאילא",
-        "en": "And Moses cried out to his Lord, saying",
-        "he": "וַיִּצְעַק מֹשֶׁה אֶל-יְהוָה לֵאמֹר"
+        "ja": "פדעא מוסי'.",
+        "en": "And Moses cried out",
+        "he": "וַיִּצְעַק מֹשֶׁה"
       },
       {
-        "ja": "אללהם פאשפהא",
-        "en": "'O God, heal her, I pray!'",
-        "he": "אֵל נָא רְפָא נָא לָהּ"
+        "ja": "אלי' רבה",
+        "en": "to his Lord,",
+        "he": "אֶל-יְהוָה"
+      },
+      {
+        "ja": "קאילא.",
+        "en": "saying:",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "אללהם",
+        "en": "'O God, heal her,",
+        "he": "אֵל נָא"
+      },
+      {
+        "ja": "פאשפהא",
+        "en": "I pray!'",
+        "he": "רְפָא נָא לָהּ"
       }
     ],
     "14": [
       {
-        "ja": "פקאל אללה למוסי",
-        "en": "And God said to Moses",
-        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+        "ja": "פקאל אללה",
+        "en": "And God said",
+        "he": "וַיֹּאמֶר יְהוָה"
       },
       {
-        "ja": "לו אן אביהא בצק פי וגההא. אלם יגב אן תסתחי מנה סבעה' אייאם",
-        "en": "'Were her father to spit in her face, would she not be obliged to feel shame before him for seven days?",
-        "he": "וְאָבִיהָ יָרֹק יָרַק בְּפָנֶיהָ--הֲלֹא תִכָּלֵם שִׁבְעַת יָמִים"
+        "ja": "למוסי .",
+        "en": "to Moses:",
+        "he": "אֶל-מֹשֶׁה"
       },
       {
-        "ja": "פלתקף כד'אך כ'ארג אלעסכר",
-        "en": "Let her remain thus outside the camp",
-        "he": "תִּסָּגֵר שִׁבְעַת יָמִים מִחוּץ לַמַּחֲנֶה"
+        "ja": "לו אן אביהא",
+        "en": "'Were her father",
+        "he": "וְאָבִיהָ"
       },
       {
-        "ja": "ובעד ד'אלך תנצ'ם אליה",
-        "en": "and after that she shall rejoin it.'",
-        "he": "וְאַחַר תֵּאָסֵף"
+        "ja": "בצק",
+        "en": "to spit",
+        "he": "יָרֹק יָרַק"
+      },
+      {
+        "ja": "פי וגההא.",
+        "en": "in her face,",
+        "he": "בְּפָנֶיהָ"
+      },
+      {
+        "ja": "אלם יגב אן תסתחי מנה",
+        "en": "would she not be obliged to feel shame before him",
+        "he": "הֲלֹא תִכָּלֵם"
+      },
+      {
+        "ja": "סבעה' אייאם.",
+        "en": "for seven days?",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "פלתקף",
+        "en": "Let her remain",
+        "he": "תִּסָּגֵר"
+      },
+      {
+        "ja": "כד'אך",
+        "en": "thus"
+      },
+      {
+        "ja": "כ'ארג אלעסכר.",
+        "en": "outside the camp,",
+        "he": "מִחוּץ לַמַּחֲנֶה"
+      },
+      {
+        "ja": "ובעד ד'אלך",
+        "en": "and after that",
+        "he": "וְאַחַר"
+      },
+      {
+        "ja": "תנצ'ם אליה",
+        "en": "she shall rejoin it.'",
+        "he": "תֵּאָסֵף"
       }
     ],
     "15": [
       {
-        "ja": "פוקפת מרים. כ'ארג אלעסכר סבעה' אייאם",
-        "en": "And Miriam remained outside the camp for seven days",
-        "he": "וַתִּסָּגֵר מִרְיָם מִחוּץ לַמַּחֲנֶה שִׁבְעַת יָמִים"
+        "ja": "פוקפת",
+        "en": "And Miriam remained",
+        "he": "וַתִּסָּגֵר"
       },
       {
-        "ja": "ולם ירחל אלקום. אלי' אנצ'מאמהא",
-        "en": "and the people did not set out until she had rejoined.",
-        "he": "וְהָעָם לֹא נָסַע עַד-הֵאָסֵף מִרְיָם"
+        "ja": "מרים.",
+        "en": "outside",
+        "he": "מִרְיָם"
+      },
+      {
+        "ja": "כ'ארג אלעסכר",
+        "en": "the camp",
+        "he": "מִחוּץ לַמַּחֲנֶה"
+      },
+      {
+        "ja": "סבעה' אייאם.",
+        "en": "for seven days;",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "ולם ירחל אלקום.",
+        "en": "and the people did not set out",
+        "he": "וְהָעָם"
+      },
+      {
+        "ja": "אלי'",
+        "en": "until",
+        "he": "לֹא נָסַע"
+      },
+      {
+        "ja": "אנצ'מאמהא",
+        "en": "she had rejoined.",
+        "he": "עַד-הֵאָסֵף מִרְיָם"
       }
     ],
     "16": [
       {
-        "ja": "ובעד ד'אלך רחלו מן חצרות",
-        "en": "And after that they set out from Hazeroth",
-        "he": "וְאַחַר נָסְעוּ הָעָם מֵחֲצֵרוֹת"
+        "ja": "ובעד ד'אלך",
+        "en": "And after that",
+        "he": "וְאַחַר"
       },
       {
-        "ja": "ונזלו פי ברייה' פארן",
-        "en": "and encamped in the wilderness of Paran.",
-        "he": "וַיַּחֲנוּ בְּמִדְבַּר פָּארָן"
+        "ja": "רחלו",
+        "en": "they set out",
+        "he": "נָסְעוּ"
+      },
+      {
+        "ja": "מן חצרות.",
+        "en": "from Hazeroth,",
+        "he": "הָעָם מֵחֲצֵרוֹת"
+      },
+      {
+        "ja": "ונזלו",
+        "en": "and encamped",
+        "he": "וַיַּחֲנוּ"
+      },
+      {
+        "ja": "פי ברייה'",
+        "en": "in the wilderness of",
+        "he": "בְּמִדְבַּר"
+      },
+      {
+        "ja": "פארן",
+        "en": "Paran.",
+        "he": "פָּארָן"
       }
     ]
   }
