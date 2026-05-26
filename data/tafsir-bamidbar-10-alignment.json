@@ -1,287 +1,1001 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 10. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_10.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 10. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_10.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "God spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "to",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly.",
+        "he": "לֵּאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "אצנע לך בוקין מן פצה מצמתה",
-        "en": "'Make for yourself two trumpets of solid silver",
-        "he": "עֲשֵׂה לְךָ שְׁתֵּי חֲצוֹצְרֹת כֶּסֶף--מִקְשָׁה תַּעֲשֶׂה אֹתָם"
+        "ja": "אצנע",
+        "en": "'Make",
+        "he": "עֲשֵׂה"
       },
       {
-        "ja": "יכונאן לך לדעוה' אלגמאעה ותרחיל אלעסאכר",
-        "en": "they shall be for you for summoning the assembly and for setting out the camp.'",
-        "he": "וְהָיוּ לְךָ לְמִקְרָא הָעֵדָה וּלְמַסַּע אֶת-הַמַּחֲנוֹת"
+        "ja": "לך",
+        "en": "for yourself",
+        "he": "לְךָ"
+      },
+      {
+        "ja": "בוקין",
+        "en": "two trumpets",
+        "he": "שְׁתֵּי חֲצוֹצְרֹת"
+      },
+      {
+        "ja": "מן פצה",
+        "en": "of solid",
+        "he": "כֶּסֶף"
+      },
+      {
+        "ja": "מצמתה",
+        "en": "silver;",
+        "he": "מִקְשָׁה תַּעֲשֶׂה אֹתָם"
+      },
+      {
+        "ja": "יכונאן",
+        "en": "they shall be",
+        "he": "וְהָיוּ"
+      },
+      {
+        "ja": "לך",
+        "en": "for you",
+        "he": "לְךָ"
+      },
+      {
+        "ja": "לדעוה'",
+        "en": "for summoning",
+        "he": "לְמִקְרָא"
+      },
+      {
+        "ja": "אלגמאעה",
+        "en": "the assembly",
+        "he": "הָעֵדָה"
+      },
+      {
+        "ja": "ותרחיל",
+        "en": "and for setting out",
+        "he": "וּלְמַסַּע"
+      },
+      {
+        "ja": "אלעסאכר",
+        "en": "the camp.'",
+        "he": "אֶת-הַמַּחֲנוֹת"
       }
     ],
     "3": [
       {
-        "ja": "פאן צרב בהמא. אגתמע אליך כל אלגמאעה",
-        "en": "'And if both are sounded, all the assembly shall gather to you",
-        "he": "וְתָקְעוּ בָּהֵן--וְנוֹעֲדוּ אֵלֶיךָ כָּל-הָעֵדָה"
+        "ja": "פאן צרב",
+        "en": "'And if",
+        "he": "וְתָקְעוּ"
       },
       {
-        "ja": "אלי' באב כ'בא אלמחצ'ר",
-        "en": "at the entrance of the tent of the assembly.'",
-        "he": "אֶל-פֶּתַח אֹהֶל מוֹעֵד"
+        "ja": "בהמא",
+        "en": "both are sounded,",
+        "he": "בָּהֵן"
+      },
+      {
+        "ja": "אגתמע",
+        "en": "shall gather",
+        "he": "וְנוֹעֲדוּ"
+      },
+      {
+        "ja": "אליך",
+        "en": "to you,",
+        "he": "אֵלֶיךָ"
+      },
+      {
+        "ja": "כל אלגמאעה",
+        "en": "all the assembly",
+        "he": "כָּל-הָעֵדָה"
+      },
+      {
+        "ja": "אלי' באב",
+        "en": "at the entrance of",
+        "he": "אֶל-פֶּתַח"
+      },
+      {
+        "ja": "כ'בא אלמחצ'ר",
+        "en": "the tent of the assembly.'",
+        "he": "אֹהֶל מוֹעֵד"
       }
     ],
     "4": [
       {
-        "ja": "ואן צרב באחדהמא אגתמע אליך אלאשראף",
-        "en": "'And if one of them is sounded, the nobles shall gather to you",
-        "he": "וְאִם-בְּאַחַת יִתְקָעוּ--וְנוֹעֲדוּ אֵלֶיךָ הַנְּשִׂיאִים"
+        "ja": "ואן צרב",
+        "en": "'And if",
+        "he": "וְאִם-בְּאַחַת"
       },
       {
-        "ja": "רויסא אלוף בני אסראיל",
-        "en": "the heads of the thousands of the sons of Israel.'",
-        "he": "רָאשֵׁי אַלְפֵי יִשְׂרָאֵל"
+        "ja": "באחדהמא",
+        "en": "one of them is sounded,",
+        "he": "יִתְקָעוּ"
+      },
+      {
+        "ja": "אגתמע",
+        "en": "shall gather",
+        "he": "וְנוֹעֲדוּ"
+      },
+      {
+        "ja": "אליך",
+        "en": "to you —",
+        "he": "אֵלֶיךָ"
+      },
+      {
+        "ja": "אלאשראף",
+        "en": "the nobles",
+        "he": "הַנְּשִׂיאִים"
+      },
+      {
+        "ja": "רויסא אלוף",
+        "en": "the heads of the thousands of",
+        "he": "רָאשֵׁי אַלְפֵי"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel.'",
+        "he": "יִשְׂרָאֵל"
       }
     ],
     "5": [
       {
-        "ja": "ואנפכ'ו נפכ'א מגלבא. ירחל בהא אלעסאכר. אלנאזלין פי אלמשרק",
-        "en": "'And blow a rousing blast, and the camp encamped in the east shall set out by it.'",
-        "he": "וּתְקַעְתֶּם תְּרוּעָה--וְנָסְעוּ הַמַּחֲנוֹת הַחֹנִים קֵדְמָה"
+        "ja": "ואנפכ'ו",
+        "en": "'And blow",
+        "he": "וּתְקַעְתֶּם"
+      },
+      {
+        "ja": "נפכ'א",
+        "en": "a rousing",
+        "he": "תְּרוּעָה"
+      },
+      {
+        "ja": "מגלבא",
+        "en": "blast,"
+      },
+      {
+        "ja": "ירחל",
+        "en": "shall set out",
+        "he": "וְנָסְעוּ"
+      },
+      {
+        "ja": "בהא אלעסאכר",
+        "en": "and the camp",
+        "he": "הַמַּחֲנוֹת"
+      },
+      {
+        "ja": "אלנאזלין",
+        "en": "encamped",
+        "he": "הַחֹנִים"
+      },
+      {
+        "ja": "פי אלמשרק",
+        "en": "in the east",
+        "he": "קֵדְמָה"
       }
     ],
     "6": [
       {
-        "ja": "ואנפכ'ו נפכ'א מגלבא ת'אניא. ירחל בהא אלעסאכר. אלנאזלין פי אלגנוב",
-        "en": "'And blow a rousing blast a second time, and the camp encamped in the south shall set out by it",
-        "he": "וּתְקַעְתֶּם תְּרוּעָה שֵׁנִית--וְנָסְעוּ הַמַּחֲנוֹת הַחֹנִים תֵּימָנָה"
+        "ja": "ואנפכ'ו",
+        "en": "'And blow",
+        "he": "וּתְקַעְתֶּם"
       },
       {
-        "ja": "כד'אך ינפכ'ו נפכ'א לרחילהם",
-        "en": "thus shall they blow a blast for their setting out.'",
-        "he": "תְּרוּעָה יִתְקְעוּ לְמַסְעֵיהֶם"
+        "ja": "נפכ'א",
+        "en": "a rousing",
+        "he": "תְּרוּעָה"
+      },
+      {
+        "ja": "מגלבא",
+        "en": "blast"
+      },
+      {
+        "ja": "ת'אניא",
+        "en": "a second time,",
+        "he": "שֵׁנִית"
+      },
+      {
+        "ja": "ירחל",
+        "en": "shall set out",
+        "he": "וְנָסְעוּ"
+      },
+      {
+        "ja": "בהא אלעסאכר",
+        "en": "and the camp",
+        "he": "הַמַּחֲנוֹת"
+      },
+      {
+        "ja": "אלנאזלין",
+        "en": "encamped",
+        "he": "הַחֹנִים"
+      },
+      {
+        "ja": "פי אלגנוב",
+        "en": "in the south",
+        "he": "תֵּימָנָה"
+      },
+      {
+        "ja": "כד'אך",
+        "en": "thus"
+      },
+      {
+        "ja": "ינפכ'ו נפכ'א",
+        "en": "shall they blow a blast",
+        "he": "תְּרוּעָה יִתְקְעוּ"
+      },
+      {
+        "ja": "לרחילהם",
+        "en": "for their setting out.'",
+        "he": "לְמַסְעֵיהֶם"
       }
     ],
     "7": [
       {
-        "ja": "ופי תגויק אלגוק. אנפכ'ו נפכ'א ולא תגלבו",
-        "en": "'And when the congregation assembles, blow a steady blast and do not rouse.'",
-        "he": "וּבְהַקְהִיל אֶת-הַקָּהָל--תִּתְקְעוּ וְלֹא תָרִיעוּ"
+        "ja": "ופי תגויק",
+        "en": "'And when the congregation",
+        "he": "וּבְהַקְהִיל"
+      },
+      {
+        "ja": "אלגוק",
+        "en": "assembles,",
+        "he": "אֶת-הַקָּהָל"
+      },
+      {
+        "ja": "אנפכ'ו נפכ'א",
+        "en": "blow a steady blast",
+        "he": "תִּתְקְעוּ"
+      },
+      {
+        "ja": "ולא תגלבו",
+        "en": "and do not rouse.'",
+        "he": "וְלֹא תָרִיעוּ"
       }
     ],
     "8": [
       {
-        "ja": "ובני הרון אלאימה. יצ'רבו באלאבואק",
-        "en": "'And the sons of Aaron, the imāms, shall sound the trumpets",
-        "he": "וּבְנֵי אַהֲרֹן הַכֹּהֲנִים יִתְקְעוּ בַּחֲצֹצְרוֹת"
+        "ja": "ובני",
+        "en": "'And the sons of",
+        "he": "וּבְנֵי"
       },
       {
-        "ja": "ויכון לכם ד'אלך. רסם אלדהר לאגיאלכם",
-        "en": "and that shall be for you an ordinance forever throughout your generations.'",
-        "he": "וְהָיוּ לָכֶם לְחֻקַּת עוֹלָם לְדֹרֹתֵיכֶם"
+        "ja": "הרון",
+        "en": "Aaron,",
+        "he": "אַהֲרֹן"
+      },
+      {
+        "ja": "אלאימה",
+        "en": "the imāms,",
+        "he": "הַכֹּהֲנִים"
+      },
+      {
+        "ja": "יצ'רבו",
+        "en": "shall sound",
+        "he": "יִתְקְעוּ"
+      },
+      {
+        "ja": "באלאבואק",
+        "en": "the trumpets;",
+        "he": "בַּחֲצֹצְרוֹת"
+      },
+      {
+        "ja": "ויכון",
+        "en": "and that shall be",
+        "he": "וְהָיוּ"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "ד'אלך",
+        "en": "an ordinance"
+      },
+      {
+        "ja": "רסם אלדהר",
+        "en": "forever",
+        "he": "לְחֻקַּת עוֹלָם"
+      },
+      {
+        "ja": "לאגיאלכם",
+        "en": "throughout your generations.'",
+        "he": "לְדֹרֹתֵיכֶם"
       }
     ],
     "9": [
       {
-        "ja": "ואד'א צרתם אלי' חרב פי בלדכם. מע אלעדו אלמעאדיכם",
-        "en": "'And when you go to war in your land against the enemy who opposes you",
-        "he": "וְכִי-תָבֹאוּ מִלְחָמָה בְּאַרְצְכֶם עַל-הַצַּר הַצֹּרֵר אֶתְכֶם"
+        "ja": "ואד'א צרתם",
+        "en": "'And when you go",
+        "he": "וְכִי-תָבֹאוּ"
       },
       {
-        "ja": "פגלבו באלאבואק",
-        "en": "sound a rousing blast on the trumpets",
-        "he": "וַהֲרֵעֹתֶם בַּחֲצֹצְרֹת"
+        "ja": "אלי' חרב",
+        "en": "to war",
+        "he": "מִלְחָמָה"
       },
       {
-        "ja": "פאד'א בווקתם בין ידי אללה רבכם. תג'אתון מן אעדאיכם",
-        "en": "and when you trumpet before God your Lord, you shall be aided against your enemies.'",
-        "he": "וְנִזְכַּרְתֶּם לִפְנֵי יְהוָה אֱלֹהֵיכֶם וְנוֹשַׁעְתֶּם מֵאֹיְבֵיכֶם"
+        "ja": "פי בלדכם",
+        "en": "in your land",
+        "he": "בְּאַרְצְכֶם"
+      },
+      {
+        "ja": "מע אלעדו",
+        "en": "against the enemy",
+        "he": "עַל-הַצַּר הַצֹּרֵר"
+      },
+      {
+        "ja": "אלמעאדיכם",
+        "en": "who opposes you,",
+        "he": "אֶתְכֶם"
+      },
+      {
+        "ja": "פגלבו",
+        "en": "sound a rousing blast",
+        "he": "וַהֲרֵעֹתֶם"
+      },
+      {
+        "ja": "באלאבואק",
+        "en": "on the trumpets;",
+        "he": "בַּחֲצֹצְרֹת"
+      },
+      {
+        "ja": "פאד'א בווקתם",
+        "en": "and when you trumpet",
+        "he": "וְנִזְכַּרְתֶּם"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord,",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "תג'אתון",
+        "en": "you shall be aided",
+        "he": "וְנוֹשַׁעְתֶּם"
+      },
+      {
+        "ja": "מן אעדאיכם",
+        "en": "against your enemies.'",
+        "he": "מֵאֹיְבֵיכֶם"
       }
     ],
     "10": [
       {
-        "ja": "ופי יום פרחכם ואעיאדכם ורוס שהורכם",
-        "en": "'And on the day of your rejoicing, and at your festivals, and at your new months",
-        "he": "וּבְיוֹם שִׂמְחַתְכֶם וּבְמוֹעֲדֵיכֶם וּבְרָאשֵׁי חָדְשֵׁיכֶם"
+        "ja": "ופי יום",
+        "en": "'And on the day of",
+        "he": "וּבְיוֹם"
       },
       {
-        "ja": "פאצ'רבו באלאבואק. עלי' צואעדכם. ודבאיח סלאמתכם",
-        "en": "sound the trumpets over your ascent-offerings and your peace-offerings",
-        "he": "וּתְקַעְתֶּם בַּחֲצֹצְרֹת עַל עֹלֹתֵיכֶם וְעַל זִבְחֵי שַׁלְמֵיכֶם"
+        "ja": "פרחכם",
+        "en": "your rejoicing,",
+        "he": "שִׂמְחַתְכֶם"
       },
       {
-        "ja": "פתכון לכם ד'כרא בין ידי רבכם",
-        "en": "and it shall be a remembrance for you before God your Lord.",
-        "he": "וְהָיוּ לָכֶם לְזִכָּרוֹן לִפְנֵי אֱלֹהֵיכֶם"
+        "ja": "ואעיאדכם",
+        "en": "and at your festivals,",
+        "he": "וּבְמוֹעֲדֵיכֶם"
       },
       {
-        "ja": "אנא אללה רבכם אמרת בד'אלך",
-        "en": "I am God your Lord — I have commanded this.'",
-        "he": "אֲנִי יְהוָה אֱלֹהֵיכֶם"
+        "ja": "ורוס שהורכם",
+        "en": "and at your new months,",
+        "he": "וּבְרָאשֵׁי חָדְשֵׁיכֶם"
+      },
+      {
+        "ja": "פאצ'רבו",
+        "en": "sound",
+        "he": "וּתְקַעְתֶּם"
+      },
+      {
+        "ja": "באלאבואק",
+        "en": "the trumpets",
+        "he": "בַּחֲצֹצְרֹת"
+      },
+      {
+        "ja": "עלי' צואעדכם",
+        "en": "over your ascent-offerings",
+        "he": "עַל עֹלֹתֵיכֶם"
+      },
+      {
+        "ja": "ודבאיח סלאמתכם",
+        "en": "and your peace-offerings;",
+        "he": "וְעַל זִבְחֵי שַׁלְמֵיכֶם"
+      },
+      {
+        "ja": "פתכון לכם",
+        "en": "and it shall be",
+        "he": "וְהָיוּ לָכֶם"
+      },
+      {
+        "ja": "ד'כרא",
+        "en": "a remembrance",
+        "he": "לְזִכָּרוֹן"
+      },
+      {
+        "ja": "בין ידי רבכם",
+        "en": "for you before God your Lord.",
+        "he": "לִפְנֵי אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אנא אללה",
+        "en": "I am God",
+        "he": "אֲנִי יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord —",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אמרת בד'אלך",
+        "en": "I have commanded this.'"
       }
     ],
     "11": [
       {
-        "ja": "פלמא כאן פי אלשהר אלת'אני. מן אלסנה אלת'אניה פי עשרין מנה",
-        "en": "And it was in the second month of the second year, on the twentieth of it",
-        "he": "וַיְהִי בַּשָּׁנָה הַשֵּׁנִית בַּחֹדֶשׁ הַשֵּׁנִי--בְּעֶשְׂרִים בַּחֹדֶשׁ"
+        "ja": "פלמא כאן",
+        "en": "And it was",
+        "he": "וַיְהִי"
       },
       {
-        "ja": "ארתפע אלג'מאם. ען מסכן אלשהאדה",
-        "en": "that the cloud rose from the tabernacle of the testimony.",
-        "he": "נַעֲלָה הֶעָנָן מֵעַל מִשְׁכַּן הָעֵדֻת"
+        "ja": "פי אלשהר אלת'אני",
+        "en": "in the second month",
+        "he": "בַּחֹדֶשׁ הַשֵּׁנִי"
+      },
+      {
+        "ja": "מן אלסנה אלת'אניה",
+        "en": "of the second year,",
+        "he": "בַּשָּׁנָה הַשֵּׁנִית"
+      },
+      {
+        "ja": "פי עשרין מנה",
+        "en": "on the twentieth of it,",
+        "he": "בְּעֶשְׂרִים בַּחֹדֶשׁ"
+      },
+      {
+        "ja": "ארתפע",
+        "en": "that",
+        "he": "נַעֲלָה"
+      },
+      {
+        "ja": "אלג'מאם",
+        "en": "the cloud rose",
+        "he": "הֶעָנָן"
+      },
+      {
+        "ja": "ען",
+        "en": "from",
+        "he": "מֵעַל"
+      },
+      {
+        "ja": "מסכן אלשהאדה",
+        "en": "the tabernacle of the testimony.",
+        "he": "מִשְׁכַּן הָעֵדֻת"
       }
     ],
     "12": [
       {
-        "ja": "פרחל בני אסראיל עלי' מראחלהם מן ברייה' סיני",
-        "en": "And the sons of Israel set out on their journeys from the wilderness of Sinai",
-        "he": "וַיִּסְעוּ בְנֵי-יִשְׂרָאֵל לְמַסְעֵיהֶם מִמִּדְבַּר סִינָי"
+        "ja": "פרחל",
+        "en": "And",
+        "he": "וַיִּסְעוּ"
       },
       {
-        "ja": "פסכן אלג'מאם פי ברייה' פארן",
-        "en": "and the cloud settled in the wilderness of Paran.",
-        "he": "וַיִּשְׁכֹּן הֶעָנָן בְּמִדְבַּר פָּארָן"
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel set out",
+        "he": "בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "עלי' מראחלהם",
+        "en": "on their journeys",
+        "he": "לְמַסְעֵיהֶם"
+      },
+      {
+        "ja": "מן ברייה'",
+        "en": "from the wilderness of",
+        "he": "מִמִּדְבַּר"
+      },
+      {
+        "ja": "סיני",
+        "en": "Sinai,",
+        "he": "סִינָי"
+      },
+      {
+        "ja": "פסכן",
+        "en": "and",
+        "he": "וַיִּשְׁכֹּן"
+      },
+      {
+        "ja": "אלג'מאם",
+        "en": "the cloud settled",
+        "he": "הֶעָנָן"
+      },
+      {
+        "ja": "פי ברייה'",
+        "en": "in the wilderness of",
+        "he": "בְּמִדְבַּר"
+      },
+      {
+        "ja": "פארן",
+        "en": "Paran.",
+        "he": "פָּארָן"
       }
     ],
     "13": [
       {
-        "ja": "פכאן אוול רחילהם. עלי' קול אללה ביד מוסי'",
-        "en": "And the first of their setting out was by the command of God, by the hand of Moses.",
-        "he": "וַיִּסְעוּ בָּרִאשֹׁנָה עַל-פִּי יְהוָה בְּיַד-מֹשֶׁה"
+        "ja": "פכאן",
+        "en": "And the first",
+        "he": "וַיִּסְעוּ"
+      },
+      {
+        "ja": "אוול רחילהם",
+        "en": "of their setting out",
+        "he": "בָּרִאשֹׁנָה"
+      },
+      {
+        "ja": "עלי' קול אללה",
+        "en": "was by the command of God,",
+        "he": "עַל-פִּי יְהוָה"
+      },
+      {
+        "ja": "ביד מוסי'",
+        "en": "by the hand of Moses.",
+        "he": "בְּיַד-מֹשֶׁה"
       }
     ],
     "14": [
       {
-        "ja": "באן רחל מרכז עסכר בני יהודה. עלי' אלמקדמה לגיושהם",
-        "en": "Then the division of the camp of the sons of Judah set out at the head, by their hosts",
-        "he": "וַיִּסַּע דֶּגֶל מַחֲנֵה בְנֵי-יְהוּדָה בָּרִאשֹׁנָה--לְצִבְאֹתָם"
+        "ja": "באן רחל",
+        "en": "Then",
+        "he": "וַיִּסַּע"
       },
       {
-        "ja": "ועלי' גישה נחשון אבן עמינדב",
-        "en": "and over his host was Nahshon son of Amminadab.",
-        "he": "וְעַל-צְבָאוֹ--נַחְשׁוֹן בֶּן-עַמִּינָדָב"
+        "ja": "מרכז עסכר",
+        "en": "the division of the camp of",
+        "he": "דֶּגֶל מַחֲנֵה"
+      },
+      {
+        "ja": "בני יהודה",
+        "en": "the sons of Judah set out",
+        "he": "בְנֵי-יְהוּדָה"
+      },
+      {
+        "ja": "עלי' אלמקדמה",
+        "en": "at the head,",
+        "he": "בָּרִאשֹׁנָה"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts;",
+        "he": "לְצִבְאֹתָם"
+      },
+      {
+        "ja": "ועלי' גישה",
+        "en": "and over his host",
+        "he": "וְעַל-צְבָאוֹ"
+      },
+      {
+        "ja": "נחשון",
+        "en": "was Nahshon",
+        "he": "נַחְשׁוֹן"
+      },
+      {
+        "ja": "אבן עמינדב",
+        "en": "son of Amminadab.",
+        "he": "בֶּן-עַמִּינָדָב"
       }
     ],
     "15": [
       {
-        "ja": "ועלי' גיש סבט יששכר. נתנאל אבן צוער",
-        "en": "And over the host of the tribe of Issachar was Nethanel son of Zuar.",
-        "he": "וְעַל-צְבָא--מַטֵּה בְּנֵי יִשָּׂשכָר נְתַנְאֵל בֶּן-צוּעָר"
+        "ja": "ועלי' גיש",
+        "en": "And over the host of",
+        "he": "וְעַל-צְבָא"
+      },
+      {
+        "ja": "סבט יששכר",
+        "en": "the tribe of Issachar",
+        "he": "מַטֵּה בְּנֵי יִשָּׂשכָר"
+      },
+      {
+        "ja": "נתנאל",
+        "en": "was Nethanel",
+        "he": "נְתַנְאֵל"
+      },
+      {
+        "ja": "אבן צוער",
+        "en": "son of Zuar.",
+        "he": "בֶּן-צוּעָר"
       }
     ],
     "16": [
       {
-        "ja": "ועלי' גיש סבט זבולון. אליאב אבן חלון",
-        "en": "And over the host of the tribe of Zebulun was Eliab son of Helon.",
-        "he": "וְעַל-צְבָא--מַטֵּה בְּנֵי זְבוּלֻן אֱלִיאָב בֶּן-חֵלֹן"
+        "ja": "ועלי' גיש",
+        "en": "And over the host of",
+        "he": "וְעַל-צְבָא"
+      },
+      {
+        "ja": "סבט זבולון",
+        "en": "the tribe of Zebulun",
+        "he": "מַטֵּה בְּנֵי זְבוּלֻן"
+      },
+      {
+        "ja": "אליאב",
+        "en": "was Eliab",
+        "he": "אֱלִיאָב"
+      },
+      {
+        "ja": "אבן חלון",
+        "en": "son of Helon.",
+        "he": "בֶּן-חֵלֹן"
       }
     ],
     "17": [
       {
-        "ja": "ת'ם פצל אלמסכן. פרחל בני גרשון ובני מררי. חאמלוה",
-        "en": "Then the tabernacle was taken apart, and the sons of Gershon and the sons of Merari set out, carrying it.",
-        "he": "וְהוּרַד הַמִּשְׁכָּן וְנָסְעוּ בְנֵי-גֵרְשׁוֹן וּבְנֵי מְרָרִי נֹשְׂאֵי הַמִּשְׁכָּן"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "פצל אלמסכן",
+        "en": "the tabernacle was taken apart,",
+        "he": "וְהוּרַד הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "פרחל",
+        "en": "and",
+        "he": "וְנָסְעוּ"
+      },
+      {
+        "ja": "בני גרשון",
+        "en": "the sons of Gershon",
+        "he": "בְנֵי-גֵרְשׁוֹן"
+      },
+      {
+        "ja": "ובני מררי",
+        "en": "and the sons of Merari set out,",
+        "he": "וּבְנֵי מְרָרִי"
+      },
+      {
+        "ja": "חאמלוה",
+        "en": "carrying it.",
+        "he": "נֹשְׂאֵי הַמִּשְׁכָּן"
       }
     ],
     "18": [
       {
-        "ja": "ת'ם רחל מרכז עסכר ראובן לגיושהם",
-        "en": "Then the division of the camp of Reuben set out by their hosts",
-        "he": "וְנָסַע דֶּגֶל מַחֲנֵה רְאוּבֵן--לְצִבְאֹתָם"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "ועלי' גישה. אליצור אבן שדאור",
-        "en": "and over his host was Elizur son of Shedeur.",
-        "he": "וְעַל-צְבָאוֹ--אֱלִיצוּר בֶּן-שְׁדֵיאוּר"
+        "ja": "רחל",
+        "en": "the division",
+        "he": "וְנָסַע"
+      },
+      {
+        "ja": "מרכז עסכר",
+        "en": "of the camp of",
+        "he": "דֶּגֶל מַחֲנֵה"
+      },
+      {
+        "ja": "ראובן",
+        "en": "Reuben set out",
+        "he": "רְאוּבֵן"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts;",
+        "he": "לְצִבְאֹתָם"
+      },
+      {
+        "ja": "ועלי' גישה",
+        "en": "and over his host",
+        "he": "וְעַל-צְבָאוֹ"
+      },
+      {
+        "ja": "אליצור",
+        "en": "was Elizur",
+        "he": "אֱלִיצוּר"
+      },
+      {
+        "ja": "אבן שדאור",
+        "en": "son of Shedeur.",
+        "he": "בֶּן-שְׁדֵיאוּר"
       }
     ],
     "19": [
       {
-        "ja": "ועלי' גיש סבט שמעון. שלומיאל אבן צורישדי",
-        "en": "And over the host of the tribe of Simeon was Shelumiel son of Zurishaddai.",
-        "he": "וְעַל-צְבָא--מַטֵּה בְּנֵי שִׁמְעוֹן שְׁלֻמִיאֵל בֶּן-צוּרִישַׁדָּי"
+        "ja": "ועלי' גיש",
+        "en": "And over the host of",
+        "he": "וְעַל-צְבָא"
+      },
+      {
+        "ja": "סבט שמעון",
+        "en": "the tribe of Simeon",
+        "he": "מַטֵּה בְּנֵי שִׁמְעוֹן"
+      },
+      {
+        "ja": "שלומיאל",
+        "en": "was Shelumiel",
+        "he": "שְׁלֻמִיאֵל"
+      },
+      {
+        "ja": "אבן צורישדי",
+        "en": "son of Zurishaddai.",
+        "he": "בֶּן-צוּרִישַׁדָּי"
       }
     ],
     "20": [
       {
-        "ja": "ועלי' גיש סבט גד. אליסף אבן דעואל",
-        "en": "And over the host of the tribe of Gad was Eliasaph son of Deuel.",
-        "he": "וְעַל-צְבָא מַטֵּה בְנֵי-גָד אֶלְיָסָף בֶּן-דְּעוּאֵל"
+        "ja": "ועלי' גיש",
+        "en": "And over the host of",
+        "he": "וְעַל-צְבָא"
+      },
+      {
+        "ja": "סבט גד",
+        "en": "the tribe of Gad",
+        "he": "מַטֵּה בְנֵי-גָד"
+      },
+      {
+        "ja": "אליסף",
+        "en": "was Eliasaph",
+        "he": "אֶלְיָסָף"
+      },
+      {
+        "ja": "אבן דעואל",
+        "en": "son of Deuel.",
+        "he": "בֶּן-דְּעוּאֵל"
       }
     ],
     "21": [
       {
-        "ja": "ת'ם רחל אלקהתיין. חאמלי אלמקדס",
-        "en": "Then the Kohathites set out, carrying the sanctuary",
-        "he": "וְנָסְעוּ הַקְּהָתִים נֹשְׂאֵי הַמִּקְדָּשׁ"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "וקד נצב אלמסכן אלי' מגייהם",
-        "en": "and the tabernacle was erected before their arrival.",
-        "he": "וְהֵקִימוּ אֶת-הַמִּשְׁכָּן עַד-בֹּאָם"
+        "ja": "רחל",
+        "en": "set out,",
+        "he": "וְנָסְעוּ"
+      },
+      {
+        "ja": "אלקהתיין",
+        "en": "the Kohathites",
+        "he": "הַקְּהָתִים"
+      },
+      {
+        "ja": "חאמלי אלמקדס",
+        "en": "carrying the sanctuary;",
+        "he": "נֹשְׂאֵי הַמִּקְדָּשׁ"
+      },
+      {
+        "ja": "וקד נצב אלמסכן",
+        "en": "and the tabernacle was erected",
+        "he": "וְהֵקִימוּ אֶת-הַמִּשְׁכָּן"
+      },
+      {
+        "ja": "אלי' מגייהם",
+        "en": "before their arrival.",
+        "he": "עַד-בֹּאָם"
       }
     ],
     "22": [
       {
-        "ja": "ת'ם רחל מרכז עסכר אפרים לגיושהם",
-        "en": "Then the division of the camp of Ephraim set out by their hosts",
-        "he": "וְנָסַע דֶּגֶל מַחֲנֵה בְנֵי-אֶפְרַיִם--לְצִבְאֹתָם"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "ועלי' גישה. אלישמע אבן עמיהוד",
-        "en": "and over his host was Elishama son of Ammihud.",
-        "he": "וְעַל-צְבָאוֹ--אֱלִישָׁמָע בֶּן-עַמִּיהוּד"
+        "ja": "רחל",
+        "en": "the division",
+        "he": "וְנָסַע"
+      },
+      {
+        "ja": "מרכז עסכר",
+        "en": "of the camp of",
+        "he": "דֶּגֶל מַחֲנֵה"
+      },
+      {
+        "ja": "אפרים",
+        "en": "Ephraim set out",
+        "he": "בְנֵי-אֶפְרַיִם"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts;",
+        "he": "לְצִבְאֹתָם"
+      },
+      {
+        "ja": "ועלי' גישה",
+        "en": "and over his host",
+        "he": "וְעַל-צְבָאוֹ"
+      },
+      {
+        "ja": "אלישמע",
+        "en": "was Elishama",
+        "he": "אֱלִישָׁמָע"
+      },
+      {
+        "ja": "אבן עמיהוד",
+        "en": "son of Ammihud.",
+        "he": "בֶּן-עַמִּיהוּד"
       }
     ],
     "23": [
       {
-        "ja": "ועלי' גיש סבט מנשה. גמליאל אבן פדהצור",
-        "en": "And over the host of the tribe of Manasseh was Gamliel son of Pedahzur.",
-        "he": "וְעַל-צְבָא--מַטֵּה בְּנֵי מְנַשֶּׁה גַּמְלִיאֵל בֶּן-פְּדָהצוּר"
+        "ja": "ועלי' גיש",
+        "en": "And over the host of",
+        "he": "וְעַל-צְבָא"
+      },
+      {
+        "ja": "סבט מנשה",
+        "en": "the tribe of Manasseh",
+        "he": "מַטֵּה בְּנֵי מְנַשֶּׁה"
+      },
+      {
+        "ja": "גמליאל",
+        "en": "was Gamliel",
+        "he": "גַּמְלִיאֵל"
+      },
+      {
+        "ja": "אבן פדהצור",
+        "en": "son of Pedahzur.",
+        "he": "בֶּן-פְּדָהצוּר"
       }
     ],
     "24": [
       {
-        "ja": "ועלי' גיש סבט בנימן. אבידן אבן גדעוני",
-        "en": "And over the host of the tribe of Benjamin was Abidan son of Gideoni.",
-        "he": "וְעַל-צְבָא--מַטֵּה בְּנֵי בִנְיָמִן אֲבִידָן בֶּן-גִּדְעוֹנִי"
+        "ja": "ועלי' גיש",
+        "en": "And over the host of",
+        "he": "וְעַל-צְבָא"
+      },
+      {
+        "ja": "סבט בנימן",
+        "en": "the tribe of Benjamin",
+        "he": "מַטֵּה בְּנֵי בִנְיָמִן"
+      },
+      {
+        "ja": "אבידן",
+        "en": "was Abidan",
+        "he": "אֲבִידָן"
+      },
+      {
+        "ja": "אבן גדעוני",
+        "en": "son of Gideoni.",
+        "he": "בֶּן-גִּדְעוֹנִי"
       }
     ],
     "25": [
       {
-        "ja": "ת'ם רחל מרכז עסכר בני דן. עלי' סאקה' סאיר אלעסאכר לגיושהם",
-        "en": "Then the division of the camp of the sons of Dan set out, at the rear of all the camp, by their hosts",
-        "he": "וְנָסַע דֶּגֶל מַחֲנֵה בְנֵי-דָן--מְאַסֵּף לְכָל-הַמַּחֲנֹת לְצִבְאֹתָם"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "ועלי' גישה. אחיעזר אבן עמישדי",
-        "en": "and over his host was Ahiezer son of Ammishaddai.",
-        "he": "וְעַל-צְבָאוֹ--אֲחִיעֶזֶר בֶּן-עַמִּישַׁדָּי"
+        "ja": "רחל",
+        "en": "the division",
+        "he": "וְנָסַע"
+      },
+      {
+        "ja": "מרכז עסכר",
+        "en": "of the camp of",
+        "he": "דֶּגֶל מַחֲנֵה"
+      },
+      {
+        "ja": "בני דן",
+        "en": "the sons of Dan set out,",
+        "he": "בְנֵי-דָן"
+      },
+      {
+        "ja": "עלי' סאקה' סאיר אלעסאכר",
+        "en": "at the rear of all the camp,",
+        "he": "מְאַסֵּף לְכָל-הַמַּחֲנֹת"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts;",
+        "he": "לְצִבְאֹתָם"
+      },
+      {
+        "ja": "ועלי' גישה",
+        "en": "and over his host",
+        "he": "וְעַל-צְבָאוֹ"
+      },
+      {
+        "ja": "אחיעזר",
+        "en": "was Ahiezer",
+        "he": "אֲחִיעֶזֶר"
+      },
+      {
+        "ja": "אבן עמישדי",
+        "en": "son of Ammishaddai.",
+        "he": "בֶּן-עַמִּישַׁדָּי"
       }
     ],
     "26": [
       {
-        "ja": "ועלי' גיש סבט אשר. פגעיאל אבן עכרן",
-        "en": "And over the host of the tribe of Asher was Pagiel son of Ochran.",
-        "he": "וְעַל-צְבָא--מַטֵּה בְּנֵי אָשֵׁר פַּגְעִיאֵל בֶּן-עָכְרָן"
+        "ja": "ועלי' גיש",
+        "en": "And over the host of",
+        "he": "וְעַל-צְבָא"
+      },
+      {
+        "ja": "סבט אשר",
+        "en": "the tribe of Asher",
+        "he": "מַטֵּה בְּנֵי אָשֵׁר"
+      },
+      {
+        "ja": "פגעיאל",
+        "en": "was Pagiel",
+        "he": "פַּגְעִיאֵל"
+      },
+      {
+        "ja": "אבן עכרן",
+        "en": "son of Ochran.",
+        "he": "בֶּן-עָכְרָן"
       }
     ],
     "27": [
       {
-        "ja": "ועלי' גיש סבט נפתלי. אחירע אבן עינן",
-        "en": "And over the host of the tribe of Naphtali was Ahira son of Enan.",
-        "he": "וְעַל-צְבָא--מַטֵּה בְּנֵי נַפְתָּלִי אֲחִירַע בֶּן-עֵינָן"
+        "ja": "ועלי' גיש",
+        "en": "And over the host of",
+        "he": "וְעַל-צְבָא"
+      },
+      {
+        "ja": "סבט נפתלי",
+        "en": "the tribe of Naphtali",
+        "he": "מַטֵּה בְּנֵי נַפְתָּלִי"
+      },
+      {
+        "ja": "אחירע",
+        "en": "was Ahira",
+        "he": "אֲחִירַע"
+      },
+      {
+        "ja": "אבן עינן",
+        "en": "son of Enan.",
+        "he": "בֶּן-עֵינָן"
       }
     ],
     "28": [
       {
-        "ja": "הד'ה מראחל בני אסראיל לגיושהם",
-        "en": "These are the journeys of the sons of Israel by their hosts",
-        "he": "אֵלֶּה מַסְעֵי בְנֵי-יִשְׂרָאֵל לְצִבְאֹתָם"
+        "ja": "הד'ה",
+        "en": "These are",
+        "he": "אֵלֶּה"
+      },
+      {
+        "ja": "מראחל",
+        "en": "the journeys of",
+        "he": "מַסְעֵי"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "בְנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "לגיושהם",
+        "en": "by their hosts,",
+        "he": "לְצִבְאֹתָם"
       },
       {
         "ja": "פלמא רחלו",
@@ -291,91 +1005,299 @@
     ],
     "29": [
       {
-        "ja": "קאל מוסי'. לחובב. אבן רעואל אלמדיאני חמוה",
-        "en": "Moses said to Hobab son of Reuel the Midianite, his father-in-law",
-        "he": "וַיֹּאמֶר מֹשֶׁה לְחֹבָב בֶּן-רְעוּאֵל הַמִּדְיָנִי חֹתֵן מֹשֶׁה"
+        "ja": "קאל",
+        "en": "Moses",
+        "he": "וַיֹּאמֶר"
       },
       {
-        "ja": "אנא ראחלין. אלי' אלמוצ'ע אלד'י קאל אללה. אייאהא אעטיכם",
-        "en": "'We are setting out to the place which God has said — that very one I will give to you.",
-        "he": "נֹסְעִים אֲנַחְנוּ אֶל-הַמָּקוֹם אֲשֶׁר אָמַר יְהוָה אֹתוֹ אֶתֵּן לָכֶם"
+        "ja": "מוסי'",
+        "en": "said to",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "לחובב",
+        "en": "Hobab",
+        "he": "לְחֹבָב"
+      },
+      {
+        "ja": "אבן רעואל",
+        "en": "son of Reuel",
+        "he": "בֶּן-רְעוּאֵל"
+      },
+      {
+        "ja": "אלמדיאני",
+        "en": "the Midianite,",
+        "he": "הַמִּדְיָנִי"
+      },
+      {
+        "ja": "חמוה",
+        "en": "his father-in-law:",
+        "he": "חֹתֵן מֹשֶׁה"
+      },
+      {
+        "ja": "אנא ראחלין",
+        "en": "'We are setting out",
+        "he": "נֹסְעִים אֲנַחְנוּ"
+      },
+      {
+        "ja": "אלי' אלמוצ'ע",
+        "en": "to the place",
+        "he": "אֶל-הַמָּקוֹם"
+      },
+      {
+        "ja": "אלד'י קאל אללה",
+        "en": "which God has said —",
+        "he": "אֲשֶׁר אָמַר יְהוָה"
+      },
+      {
+        "ja": "אייאהא אעטיכם",
+        "en": "that very one I will give to you.",
+        "he": "אֹתוֹ אֶתֵּן לָכֶם"
       },
       {
         "ja": "תעאל מענא ונחסן אליך",
-        "en": "Come with us and we will deal well with you",
+        "en": "Come with us and we will deal well with you,",
         "he": "לְכָה אִתָּנוּ וְהֵטַבְנוּ לָךְ"
       },
       {
-        "ja": "לאן אללה קד ועד אל אסראיל בכ'יר",
-        "en": "for God has promised the house of Israel with good.'",
-        "he": "כִּי-יְהוָה דִּבֶּר-טוֹב עַל-יִשְׂרָאֵל"
+        "ja": "לאן אללה",
+        "en": "for God",
+        "he": "כִּי-יְהוָה"
+      },
+      {
+        "ja": "קד ועד",
+        "en": "has promised",
+        "he": "דִּבֶּר-טוֹב"
+      },
+      {
+        "ja": "אל אסראיל בכ'יר",
+        "en": "the house of Israel with good.'",
+        "he": "עַל-יִשְׂרָאֵל"
       }
     ],
     "30": [
       {
-        "ja": "קאל לא אמצ'י. אלא אלי' ארצ'י ומולדי",
-        "en": "He said: 'I will not go, but only to my own land and my birthplace.'",
-        "he": "וַיֹּאמֶר אֵלָיו לֹא אֵלֵךְ כִּי אִם-אֶל-אַרְצִי וְאֶל-מוֹלַדְתִּי אֵלֵךְ"
+        "ja": "קאל",
+        "en": "He said:",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "לא אמצ'י",
+        "en": "'I will not go,",
+        "he": "לֹא אֵלֵךְ"
+      },
+      {
+        "ja": "אלא",
+        "en": "but only",
+        "he": "כִּי אִם"
+      },
+      {
+        "ja": "אלי' ארצ'י",
+        "en": "to my own land",
+        "he": "אֶל-אַרְצִי"
+      },
+      {
+        "ja": "ומולדי",
+        "en": "and my birthplace.'",
+        "he": "וְאֶל-מוֹלַדְתִּי אֵלֵךְ"
       }
     ],
     "31": [
       {
-        "ja": "קאל יא הד'א לא תתרכנא",
-        "en": "He said: 'O good man, do not leave us",
-        "he": "וַיֹּאמֶר אַל-נָא תַּעֲזֹב אֹתָנוּ"
+        "ja": "קאל",
+        "en": "He said:",
+        "he": "וַיֹּאמֶר"
       },
       {
-        "ja": "פאנך תעלם. אן פי טול מקאמנא פי אלבר",
-        "en": "for you know that throughout the length of our sojourn in the open country",
-        "he": "כִּי עַל-כֵּן יָדַעְתָּ חֲנֹתֵנוּ בַּמִּדְבָּר"
+        "ja": "יא הד'א",
+        "en": "'O good man,"
       },
       {
-        "ja": "כנת לנא כאבצארנא",
-        "en": "you have been for us as our eyesight.'",
-        "he": "וְהָיִיתָ לָּנוּ לְעֵינָיִם"
+        "ja": "לא תתרכנא",
+        "en": "do not leave us,",
+        "he": "אַל-נָא תַּעֲזֹב אֹתָנוּ"
+      },
+      {
+        "ja": "פאנך תעלם",
+        "en": "for you know",
+        "he": "כִּי עַל-כֵּן יָדַעְתָּ"
+      },
+      {
+        "ja": "אן פי טול מקאמנא",
+        "en": "that throughout the length of our sojourn",
+        "he": "חֲנֹתֵנוּ"
+      },
+      {
+        "ja": "פי אלבר",
+        "en": "in the open country,",
+        "he": "בַּמִּדְבָּר"
+      },
+      {
+        "ja": "כנת",
+        "en": "you have been",
+        "he": "וְהָיִיתָ"
+      },
+      {
+        "ja": "לנא",
+        "en": "for us",
+        "he": "לָּנוּ"
+      },
+      {
+        "ja": "כאבצארנא",
+        "en": "as our eyesight.'",
+        "he": "לְעֵינָיִם"
       }
     ],
     "32": [
       {
-        "ja": "פאן סרת מענא",
-        "en": "'And if you journey with us",
-        "he": "וְהָיָה כִּי-תֵלֵךְ עִמָּנוּ"
+        "ja": "פאן סרת",
+        "en": "'And if you journey",
+        "he": "וְהָיָה כִּי-תֵלֵךְ"
       },
       {
-        "ja": "פאי כ'יר יחסן אללה בה אלינא. נחסן אליך מנה",
-        "en": "then whatever good God shall deal well to us with, we will deal well with you from it.'",
-        "he": "וְהָיָה הַטּוֹב הַהוּא אֲשֶׁר יֵיטִיב יְהוָה עִמָּנוּ--וְהֵטַבְנוּ לָךְ"
+        "ja": "מענא",
+        "en": "with us,",
+        "he": "עִמָּנוּ"
+      },
+      {
+        "ja": "פאי כ'יר",
+        "en": "then whatever good",
+        "he": "וְהָיָה הַטּוֹב הַהוּא"
+      },
+      {
+        "ja": "יחסן אללה",
+        "en": "God shall deal well",
+        "he": "אֲשֶׁר יֵיטִיב יְהוָה"
+      },
+      {
+        "ja": "בה אלינא",
+        "en": "to us with,",
+        "he": "עִמָּנוּ"
+      },
+      {
+        "ja": "נחסן אליך מנה",
+        "en": "we will deal well with you from it.'",
+        "he": "וְהֵטַבְנוּ לָךְ"
       }
     ],
     "33": [
       {
-        "ja": "פרחלו מן גבל אללה. מסאפה' ת'לאת'ה אייאם",
-        "en": "And they set out from the mountain of God a distance of three days' journey",
-        "he": "וַיִּסְעוּ מֵהַר יְהוָה דֶּרֶךְ שְׁלֹשֶׁת יָמִים"
+        "ja": "פרחלו",
+        "en": "And they set out",
+        "he": "וַיִּסְעוּ"
       },
       {
-        "ja": "וצנדוק עהד אללה סאיר בין אידיהם. מסאפה' תלך אלת'לאת'ה' אלאייאם",
-        "en": "and the ark of the covenant of God was moving before them a distance of those three days",
-        "he": "וַאֲרוֹן בְּרִית-יְהוָה נֹסֵעַ לִפְנֵיהֶם דֶּרֶךְ שְׁלֹשֶׁת יָמִים"
+        "ja": "מן גבל אללה",
+        "en": "from the mountain of God",
+        "he": "מֵהַר יְהוָה"
       },
       {
-        "ja": "לי'כתאר להם מסתקרא",
-        "en": "to choose a resting-place for them.",
-        "he": "לָתוּר לָהֶם מְנוּחָה"
+        "ja": "מסאפה' ת'לאת'ה אייאם",
+        "en": "a distance of three days' journey;",
+        "he": "דֶּרֶךְ שְׁלֹשֶׁת יָמִים"
+      },
+      {
+        "ja": "וצנדוק",
+        "en": "and the ark",
+        "he": "וַאֲרוֹן"
+      },
+      {
+        "ja": "עהד אללה",
+        "en": "of the covenant of God",
+        "he": "בְּרִית-יְהוָה"
+      },
+      {
+        "ja": "סאיר",
+        "en": "was moving",
+        "he": "נֹסֵעַ"
+      },
+      {
+        "ja": "בין אידיהם",
+        "en": "before them",
+        "he": "לִפְנֵיהֶם"
+      },
+      {
+        "ja": "מסאפה' תלך אלת'לאת'ה' אלאייאם",
+        "en": "a distance of those three days,",
+        "he": "דֶּרֶךְ שְׁלֹשֶׁת יָמִים"
+      },
+      {
+        "ja": "לי'כתאר להם",
+        "en": "to choose",
+        "he": "לָתוּר לָהֶם"
+      },
+      {
+        "ja": "מסתקרא",
+        "en": "a resting-place for them.",
+        "he": "מְנוּחָה"
       }
     ],
     "34": [
       {
-        "ja": "וג'מאם אללה עליהם נהארא. אד' רחלו מן אלעסכר",
-        "en": "And the cloud of God was over them by day, when they set out from the camp.",
-        "he": "וַעֲנַן יְהוָה עֲלֵיהֶם יוֹמָם בְּנָסְעָם מִן-הַמַּחֲנֶה"
+        "ja": "וג'מאם",
+        "en": "And the cloud",
+        "he": "וַעֲנַן"
+      },
+      {
+        "ja": "אללה",
+        "en": "of God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "עליהם",
+        "en": "was over them",
+        "he": "עֲלֵיהֶם"
+      },
+      {
+        "ja": "נהארא",
+        "en": "by day,",
+        "he": "יוֹמָם"
+      },
+      {
+        "ja": "אד' רחלו",
+        "en": "when they set out",
+        "he": "בְּנָסְעָם"
+      },
+      {
+        "ja": "מן אלעסכר",
+        "en": "from the camp.",
+        "he": "מִן-הַמַּחֲנֶה"
       }
     ],
     "36": [
       {
-        "ja": "וענד נזולה אן יקול. רד יא רב נורך. אלי' רבוואת אלוף אל אסראיל",
-        "en": "And at its coming to rest, he would say: 'Return, O Lord, Your light, to the ten-thousands of the thousands of the house of Israel.'",
-        "he": "וּבְנֻחֹה יֹאמַר שׁוּבָה יְהוָה רִבְבוֹת אַלְפֵי יִשְׂרָאֵל"
+        "ja": "וענד נזולה",
+        "en": "And at its coming to rest,",
+        "he": "וּבְנֻחֹה"
+      },
+      {
+        "ja": "אן יקול",
+        "en": "he would say:",
+        "he": "יֹאמַר"
+      },
+      {
+        "ja": "רד",
+        "en": "'Return,",
+        "he": "שׁוּבָה"
+      },
+      {
+        "ja": "יא רב",
+        "en": "O Lord,",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "נורך",
+        "en": "Your light,"
+      },
+      {
+        "ja": "אלי' רבוואת",
+        "en": "to the ten-thousands",
+        "he": "רִבְבוֹת"
+      },
+      {
+        "ja": "אלוף אל אסראיל",
+        "en": "of the thousands of the house of Israel.'",
+        "he": "אַלְפֵי יִשְׂרָאֵל"
       }
     ]
   }
