@@ -1,393 +1,1089 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 28. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_28.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 28. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_28.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם אללה",
+        "en": "God spoke",
+        "he": "וַיְדַבֵּר יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "to Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly.",
+        "he": "לֵּאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "מר בני אסראיל. וקל להם",
-        "en": "Command the sons of Israel, and say to them",
-        "he": "צַו אֶת-בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם"
+        "ja": "מר",
+        "en": "Command",
+        "he": "צַו"
       },
       {
-        "ja": "קרבאני דאימי מרצ'יי מקבולי",
-        "en": "My offering — continual, pleasing, accepted",
-        "he": "אֶת-קָרְבָּנִי לַחְמִי לְאִשַּׁי"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶת-בְּנֵי"
       },
       {
-        "ja": "אחפצוה. אן תקרבוה לי פי וקתה",
-        "en": "take care to bring it to Me in its appointed time",
-        "he": "תִּשְׁמְרוּ לְהַקְרִיב לִי בְּמוֹעֲדוֹ"
+        "ja": "אסראיל",
+        "en": "Israel,",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "להם",
+        "en": "to them:",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "קרבאני",
+        "en": "My offering —",
+        "he": "אֶת-קָרְבָּנִי"
+      },
+      {
+        "ja": "דאימי",
+        "en": "continual,",
+        "he": "לַחְמִי"
+      },
+      {
+        "ja": "מרצ'יי",
+        "en": "pleasing,",
+        "he": "לְאִשַּׁי"
+      },
+      {
+        "ja": "מקבולי",
+        "en": "accepted —",
+        "he": "רֵיחַ נִיחֹחִי"
+      },
+      {
+        "ja": "אחפצוה",
+        "en": "take care",
+        "he": "תִּשְׁמְרוּ"
+      },
+      {
+        "ja": "אן תקרבוה לי",
+        "en": "to bring it to Me",
+        "he": "לְהַקְרִיב לִי"
+      },
+      {
+        "ja": "פי וקתה",
+        "en": "in its appointed time.",
+        "he": "בְּמוֹעֲדוֹ"
       }
     ],
     "3": [
       {
-        "ja": "וביין להם. אן אלמרצ'י. אלד'י תקרבונה ללה",
-        "en": "And make clear to them that the pleasing offering which you bring to God",
-        "he": "וְאָמַרְתָּ לָהֶם--זֶה הָאִשֶּׁה אֲשֶׁר תַּקְרִיבוּ לַיהוָה"
+        "ja": "וביין",
+        "en": "And make clear",
+        "he": "וְאָמַרְתָּ"
       },
       {
-        "ja": "חמלין אבני סנה צחאחא. פי כל יום",
-        "en": "is two yearling male lambs without blemish — each day",
-        "he": "כְּבָשִׂים בְּנֵי-שָׁנָה תְמִימִם שְׁנַיִם לַיּוֹם"
+        "ja": "להם",
+        "en": "to them",
+        "he": "לָהֶם"
       },
       {
-        "ja": "צעידה דאימא",
-        "en": "an offering, continually",
-        "he": "עֹלָה תָמִיד"
+        "ja": "אן אלמרצ'י",
+        "en": "that the pleasing offering",
+        "he": "הָאִשֶּׁה"
+      },
+      {
+        "ja": "אלד'י תקרבונה",
+        "en": "which you bring",
+        "he": "אֲשֶׁר תַּקְרִיבוּ"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "חמלין אבני סנה",
+        "en": "is two yearling male lambs",
+        "he": "כְּבָשִׂים בְּנֵי-שָׁנָה"
+      },
+      {
+        "ja": "צחאחא",
+        "en": "without blemish —",
+        "he": "תְמִימִם"
+      },
+      {
+        "ja": "פי כל יום",
+        "en": "each day",
+        "he": "שְׁנַיִם לַיּוֹם"
+      },
+      {
+        "ja": "צעידה",
+        "en": "an offering,",
+        "he": "עֹלָה"
+      },
+      {
+        "ja": "דאימא",
+        "en": "continually.",
+        "he": "תָמִיד"
       }
     ],
     "4": [
       {
-        "ja": "אחדהמא באלג'דאה",
-        "en": "One of them in the morning",
-        "he": "אֶת-הַכֶּבֶשׂ אֶחָד תַּעֲשֶׂה בַבֹּקֶר"
+        "ja": "אחדהמא",
+        "en": "One of them",
+        "he": "אֶת-הַכֶּבֶשׂ אֶחָד"
       },
       {
-        "ja": "ואלאכ'ר בין אלג'רובין",
-        "en": "and the other between the two settings",
-        "he": "וְאֵת הַכֶּבֶשׂ הַשֵּׁנִי תַּעֲשֶׂה בֵּין הָעַרְבָּיִם"
+        "ja": "באלג'דאה",
+        "en": "in the morning,",
+        "he": "בַבֹּקֶר"
+      },
+      {
+        "ja": "ואלאכ'ר",
+        "en": "and the other",
+        "he": "וְאֵת הַכֶּבֶשׂ הַשֵּׁנִי"
+      },
+      {
+        "ja": "בין אלג'רובין",
+        "en": "between the two settings.",
+        "he": "בֵּין הָעַרְבָּיִם"
       }
     ],
     "5": [
       {
-        "ja": "ועשר ויבה. סמד מן אלבר",
-        "en": "And a tenth of a waybah of fine wheat flour",
-        "he": "וַעֲשִׂירִית הָאֵיפָה סֹלֶת לְמִנְחָה"
+        "ja": "ועשר",
+        "en": "And a tenth of",
+        "he": "וַעֲשִׂירִית"
       },
       {
-        "ja": "מלתות. ברבע קסט מן דהן מטחון",
-        "en": "mixed, with a quarter of a qist of pressed oil",
-        "he": "בְּלוּלָה בְּשֶׁמֶן כָּתִית רְבִיעִת הַהִין"
+        "ja": "ויבה",
+        "en": "a waybah",
+        "he": "הָאֵיפָה"
+      },
+      {
+        "ja": "סמד מן אלבר",
+        "en": "of fine wheat flour,",
+        "he": "סֹלֶת"
+      },
+      {
+        "ja": "מלתות",
+        "en": "mixed,",
+        "he": "בְּלוּלָה"
+      },
+      {
+        "ja": "ברבע קסט",
+        "en": "with a quarter of a qist",
+        "he": "רְבִיעִת"
+      },
+      {
+        "ja": "מן דהן",
+        "en": "of",
+        "he": "בְּשֶׁמֶן"
+      },
+      {
+        "ja": "מטחון",
+        "en": "pressed oil.",
+        "he": "כָּתִית"
       }
     ],
     "6": [
       {
-        "ja": "צעידה דאימא. כמא צנעת פי ברייה' סיני",
-        "en": "A continual offering, as was done in the wilderness of Sinai",
-        "he": "עֹלַת תָּמִיד--הָעֲשֻׂיָה בְּהַר סִינַי"
+        "ja": "צעידה דאימא",
+        "en": "A continual offering,",
+        "he": "עֹלַת תָּמִיד"
       },
       {
-        "ja": "מקבולה מרצ'ייה ללה",
-        "en": "accepted and pleasing to God",
-        "he": "לְרֵיחַ נִיחֹחַ אִשֶּׁה לַיהוָה"
+        "ja": "כמא צנעת",
+        "en": "as was done",
+        "he": "הָעֲשֻׂיָה"
+      },
+      {
+        "ja": "פי ברייה' סיני",
+        "en": "in the wilderness of Sinai —",
+        "he": "בְּהַר סִינַי"
+      },
+      {
+        "ja": "מקבולה",
+        "en": "accepted",
+        "he": "לְרֵיחַ נִיחֹחַ"
+      },
+      {
+        "ja": "מרצ'ייה",
+        "en": "and pleasing",
+        "he": "אִשֶּׁה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God.",
+        "he": "לַיהוָה"
       }
     ],
     "7": [
       {
-        "ja": "ומעה מן אלמזאג. רבע קסט לכל חמל",
-        "en": "And with it, from the mixed drink, a quarter of a qist for each lamb",
-        "he": "וְנִסְכּוֹ רְבִיעִת הַהִין לַכֶּבֶשׂ הָאֶחָד"
+        "ja": "ומעה",
+        "en": "And with it,",
+        "he": "וְנִסְכּוֹ"
       },
       {
-        "ja": "ירש פי אלקדס רשא. מן עתיקה ללה",
-        "en": "to be poured in the sanctuary, a pouring from its aged kind, to God",
-        "he": "בַּקֹּדֶשׁ הַסֵּךְ נֶסֶךְ שֵׁכָר--לַיהוָה"
+        "ja": "מן אלמזאג",
+        "en": "from the mixed drink,",
+        "he": "רְבִיעִת הַהִין"
+      },
+      {
+        "ja": "רבע קסט לכל חמל",
+        "en": "a quarter of a qist for each lamb —",
+        "he": "לַכֶּבֶשׂ הָאֶחָד"
+      },
+      {
+        "ja": "ירש פי אלקדס",
+        "en": "to be poured in the sanctuary,",
+        "he": "בַּקֹּדֶשׁ"
+      },
+      {
+        "ja": "רשא",
+        "en": "a pouring",
+        "he": "הַסֵּךְ נֶסֶךְ"
+      },
+      {
+        "ja": "מן עתיקה",
+        "en": "from its aged kind,",
+        "he": "שֵׁכָר"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God.",
+        "he": "לַיהוָה"
       }
     ],
     "8": [
       {
-        "ja": "ואד'א צנעת אלחמל אלת'אני בין אלג'רובין",
-        "en": "And when you make the second lamb between the two settings",
-        "he": "וְאֵת הַכֶּבֶשׂ הַשֵּׁנִי תַּעֲשֶׂה בֵּין הָעַרְבָּיִם"
+        "ja": "ואד'א צנעת אלחמל אלת'אני",
+        "en": "And when you make the second lamb",
+        "he": "וְאֵת הַכֶּבֶשׂ הַשֵּׁנִי"
       },
       {
-        "ja": "פכהדייה' אלג'דאה ומזאגהא איצ'א אצנעה",
-        "en": "make it like the gift of the morning and its mixed drink as well",
-        "he": "כְּמִנְחַת הַבֹּקֶר וּכְנִסְכּוֹ תַּעֲשֶׂה"
+        "ja": "בין אלג'רובין",
+        "en": "between the two settings,",
+        "he": "בֵּין הָעַרְבָּיִם"
       },
       {
-        "ja": "קרבאנא מקבולא מרצ'ייא ללה",
-        "en": "an offering accepted and pleasing to God",
-        "he": "אִשֵּׁה רֵיחַ נִיחֹחַ לַיהוָה"
+        "ja": "פכהדייה' אלג'דאה",
+        "en": "make it like the gift of the morning",
+        "he": "כְּמִנְחַת הַבֹּקֶר"
+      },
+      {
+        "ja": "ומזאגהא",
+        "en": "and its mixed drink",
+        "he": "וּכְנִסְכּוֹ"
+      },
+      {
+        "ja": "איצ'א אצנעה",
+        "en": "as well —",
+        "he": "תַּעֲשֶׂה"
+      },
+      {
+        "ja": "קרבאנא",
+        "en": "an offering",
+        "he": "אִשֵּׁה"
+      },
+      {
+        "ja": "מקבולא",
+        "en": "accepted",
+        "he": "רֵיחַ נִיחֹחַ"
+      },
+      {
+        "ja": "מרצ'ייא ללה",
+        "en": "and pleasing to God.",
+        "he": "לַיהוָה"
       }
     ],
     "9": [
       {
-        "ja": "ופי יום אלסבת. חמלין אבני סנה צחאצא",
-        "en": "And on the Sabbath day: two yearling male lambs without blemish",
-        "he": "וּבְיוֹם הַשַּׁבָּת--שְׁנֵי-כְבָשִׂים בְּנֵי-שָׁנָה תְּמִימִם"
+        "ja": "ופי יום",
+        "en": "And on the",
+        "he": "וּבְיוֹם"
       },
       {
-        "ja": "ומעהמא מן אלבר עשרין. סמד מלתות בדהן ומזאגהם",
-        "en": "and with them two tenths of fine wheat flour mixed with oil, and their mixed drink",
-        "he": "וּשְׁנֵי עֶשְׂרֹנִים סֹלֶת מִנְחָה בְּלוּלָה בַשֶּׁמֶן--וְנִסְכּוֹ"
+        "ja": "אלסבת",
+        "en": "Sabbath day:",
+        "he": "הַשַּׁבָּת"
+      },
+      {
+        "ja": "חמלין אבני סנה",
+        "en": "two yearling male lambs",
+        "he": "שְׁנֵי-כְבָשִׂים בְּנֵי-שָׁנָה"
+      },
+      {
+        "ja": "צחאצא",
+        "en": "without blemish,",
+        "he": "תְּמִימִם"
+      },
+      {
+        "ja": "ומעהמא מן אלבר עשרין",
+        "en": "and with them two tenths",
+        "he": "וּשְׁנֵי עֶשְׂרֹנִים"
+      },
+      {
+        "ja": "סמד",
+        "en": "of fine wheat flour",
+        "he": "סֹלֶת מִנְחָה"
+      },
+      {
+        "ja": "מלתות",
+        "en": "mixed",
+        "he": "בְּלוּלָה"
+      },
+      {
+        "ja": "בדהן",
+        "en": "with oil,",
+        "he": "בַשֶּׁמֶן"
+      },
+      {
+        "ja": "ומזאגהם",
+        "en": "and their mixed drink.",
+        "he": "וְנִסְכּוֹ"
       }
     ],
     "10": [
       {
-        "ja": "ד'אלך קרבאן סבת בסבת",
-        "en": "That is the offering of Sabbath by Sabbath",
-        "he": "עֹלַת שַׁבַּת בְּשַׁבַּתּוֹ"
+        "ja": "ד'אלך קרבאן סבת",
+        "en": "That is the offering of Sabbath",
+        "he": "עֹלַת שַׁבַּת"
       },
       {
-        "ja": "מע אלקרבאן אלדאים ומזאגה",
-        "en": "together with the continual offering and its mixed drink",
-        "he": "עַל-עֹלַת הַתָּמִיד וְנִסְכָּהּ"
+        "ja": "בסבת",
+        "en": "by Sabbath,",
+        "he": "בְּשַׁבַּתּוֹ"
+      },
+      {
+        "ja": "מע אלקרבאן אלדאים",
+        "en": "together with the continual offering",
+        "he": "עַל-עֹלַת הַתָּמִיד"
+      },
+      {
+        "ja": "ומזאגה",
+        "en": "and its mixed drink.",
+        "he": "וְנִסְכָּהּ"
       }
     ],
     "11": [
       {
-        "ja": "ופי רוס שהורכם. קרבו קרבאן צעידה ללה",
-        "en": "And at the heads of your months, bring an offering — a burnt-offering to God",
-        "he": "וּבְרָאשֵׁי חָדְשֵׁיכֶם--תַּקְרִיבוּ עֹלָה לַיהוָה"
+        "ja": "ופי רוס",
+        "en": "And at the heads of",
+        "he": "וּבְרָאשֵׁי"
       },
       {
-        "ja": "רת'ין מן אלבקר וכבשא",
-        "en": "two bulls from the cattle, and a ram",
-        "he": "פָּרִים בְּנֵי-בָקָר שְׁנַיִם וְאַיִל אֶחָד"
+        "ja": "שהורכם",
+        "en": "your months,",
+        "he": "חָדְשֵׁיכֶם"
       },
       {
-        "ja": "וסבעה' חמלאן בני סנה צחאחא",
-        "en": "and seven yearling lambs without blemish",
-        "he": "כְּבָשִׂים בְּנֵי-שָׁנָה שִׁבְעָה תְּמִימִם"
+        "ja": "קרבו קרבאן",
+        "en": "bring an offering —",
+        "he": "תַּקְרִיבוּ"
+      },
+      {
+        "ja": "צעידה",
+        "en": "a burnt-offering",
+        "he": "עֹלָה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God:",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "רת'ין מן אלבקר",
+        "en": "two bulls from the cattle,",
+        "he": "פָּרִים בְּנֵי-בָקָר"
+      },
+      {
+        "ja": "וכבשא",
+        "en": "and a ram,",
+        "he": "וְאַיִל אֶחָד"
+      },
+      {
+        "ja": "וסבעה' חמלאן בני סנה",
+        "en": "and seven yearling lambs",
+        "he": "כְּבָשִׂים בְּנֵי-שָׁנָה"
+      },
+      {
+        "ja": "צחאחא",
+        "en": "without blemish.",
+        "he": "שִׁבְעָה תְּמִימִם"
       }
     ],
     "12": [
       {
-        "ja": "ות'לאת'ה' עשור מן אלבר. סמד מלתות בדהן לכל רת'",
-        "en": "And three tenths of fine wheat flour mixed with oil for each bull",
-        "he": "וּשְׁלֹשָׁה עֶשְׂרֹנִים סֹלֶת מִנְחָה בְּלוּלָה בַשֶּׁמֶן לַפָּר הָאֶחָד"
+        "ja": "ות'לאת'ה' עשור",
+        "en": "And three tenths",
+        "he": "וּשְׁלֹשָׁה עֶשְׂרֹנִים"
       },
       {
-        "ja": "ועשרין לאלכבש",
-        "en": "and two tenths for the ram",
-        "he": "וּשְׁנֵי עֶשְׂרֹנִים סֹלֶת מִנְחָה בְּלוּלָה בַשֶּׁמֶן לָאַיִל הָאֶחָד"
+        "ja": "מן אלבר. סמד",
+        "en": "of fine wheat flour",
+        "he": "סֹלֶת מִנְחָה"
+      },
+      {
+        "ja": "מלתות",
+        "en": "mixed",
+        "he": "בְּלוּלָה"
+      },
+      {
+        "ja": "בדהן",
+        "en": "with oil",
+        "he": "בַשֶּׁמֶן"
+      },
+      {
+        "ja": "לכל רת'",
+        "en": "for each bull,",
+        "he": "לַפָּר הָאֶחָד"
+      },
+      {
+        "ja": "ועשרין",
+        "en": "and two tenths",
+        "he": "וּשְׁנֵי עֶשְׂרֹנִים"
+      },
+      {
+        "ja": "לאלכבש",
+        "en": "for the ram.",
+        "he": "לָאַיִל הָאֶחָד"
       }
     ],
     "13": [
       {
-        "ja": "ועשר לכל חמל כד'אך",
-        "en": "And a tenth of fine flour mixed with oil for each lamb likewise",
-        "he": "וְעִשָּׂרֹן עִשָּׂרוֹן סֹלֶת מִנְחָה בְּלוּלָה בַשֶּׁמֶן לַכֶּבֶשׂ הָאֶחָד"
+        "ja": "ועשר",
+        "en": "And a tenth",
+        "he": "וְעִשָּׂרֹן עִשָּׂרוֹן"
       },
       {
-        "ja": "אלצעידה אלמקבולה אלמרצ'ייה ללה",
-        "en": "an offering accepted and pleasing to God",
-        "he": "עֹלָה רֵיחַ נִיחֹחַ אִשֶּׁה לַיהוָה"
+        "ja": "לכל חמל",
+        "en": "for each lamb",
+        "he": "לַכֶּבֶשׂ הָאֶחָד"
+      },
+      {
+        "ja": "כד'אך",
+        "en": "likewise —"
+      },
+      {
+        "ja": "אלצעידה",
+        "en": "an offering",
+        "he": "עֹלָה"
+      },
+      {
+        "ja": "אלמקבולה",
+        "en": "accepted",
+        "he": "רֵיחַ נִיחֹחַ"
+      },
+      {
+        "ja": "אלמרצ'ייה",
+        "en": "and pleasing",
+        "he": "אִשֶּׁה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God.",
+        "he": "לַיהוָה"
       }
     ],
     "14": [
       {
-        "ja": "ומזאגהם. יכון נצף קסט לכל ת'ור",
-        "en": "And their mixed drink shall be: half a qist for each bull",
-        "he": "וְנִסְכֵּיהֶם חֲצִי הַהִין יִהְיֶה לַפָּר"
+        "ja": "ומזאגהם",
+        "en": "And their mixed drink",
+        "he": "וְנִסְכֵּיהֶם"
       },
       {
-        "ja": "ות'לת' קסט לאלכבש",
-        "en": "and a third of a qist for the ram",
-        "he": "וּשְׁלִישִׁת הַהִין לָאַיִל"
+        "ja": "יכון נצף קסט",
+        "en": "shall be: half a qist",
+        "he": "חֲצִי הַהִין"
       },
       {
-        "ja": "ורבע קסט. לאלחמל מן אלשראב",
-        "en": "and a quarter of a qist for the lamb — from the drink",
-        "he": "וּרְבִיעִת הַהִין לַכֶּבֶשׂ--יָיִן"
+        "ja": "לכל ת'ור",
+        "en": "for each bull,",
+        "he": "לַפָּר"
       },
       {
-        "ja": "הד'א קרבאן שהר בשהר. לשהור אלסנה",
-        "en": "This is the offering of month by month, for the months of the year",
-        "he": "זֹאת עֹלַת חֹדֶשׁ בְּחָדְשׁוֹ לְחָדְשֵׁי הַשָּׁנָה"
+        "ja": "ות'לת' קסט",
+        "en": "and a third of a qist",
+        "he": "וּשְׁלִישִׁת הַהִין"
+      },
+      {
+        "ja": "לאלכבש",
+        "en": "for the ram,",
+        "he": "לָאַיִל"
+      },
+      {
+        "ja": "ורבע קסט",
+        "en": "and a quarter of a qist",
+        "he": "וּרְבִיעִת הַהִין"
+      },
+      {
+        "ja": "לאלחמל",
+        "en": "for the lamb —",
+        "he": "לַכֶּבֶשׂ"
+      },
+      {
+        "ja": "מן אלשראב",
+        "en": "from the drink.",
+        "he": "יָיִן"
+      },
+      {
+        "ja": "הד'א קרבאן שהר",
+        "en": "This is the offering of month",
+        "he": "זֹאת עֹלַת חֹדֶשׁ"
+      },
+      {
+        "ja": "בשהר",
+        "en": "by month,",
+        "he": "בְּחָדְשׁוֹ"
+      },
+      {
+        "ja": "לשהור אלסנה",
+        "en": "for the months of the year.",
+        "he": "לְחָדְשֵׁי הַשָּׁנָה"
       }
     ],
     "15": [
       {
-        "ja": "ועתוד מן אלמאעז ד'כוה ללה",
-        "en": "And a male goat-kid as a purification-offering to God",
-        "he": "וּשְׂעִיר עִזִּים אֶחָד לְחַטָּאת לַיהוָה"
+        "ja": "ועתוד מן אלמאעז",
+        "en": "And a male goat-kid",
+        "he": "וּשְׂעִיר עִזִּים אֶחָד"
       },
       {
-        "ja": "מע קרבאן אלדאים. יקרב ד'אלך ומזאגה",
-        "en": "together with the continual offering, that shall be brought, with its mixed drink",
-        "he": "עַל-עֹלַת הַתָּמִיד יֵעָשֶׂה וְנִסְכּוֹ"
+        "ja": "ד'כוה",
+        "en": "as a purification-offering",
+        "he": "לְחַטָּאת"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God —",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "מע קרבאן אלדאים",
+        "en": "together with the continual offering,",
+        "he": "עַל-עֹלַת הַתָּמִיד"
+      },
+      {
+        "ja": "יקרב ד'אלך",
+        "en": "that shall be brought,",
+        "he": "יֵעָשֶׂה"
+      },
+      {
+        "ja": "ומזאגה",
+        "en": "with its mixed drink.",
+        "he": "וְנִסְכּוֹ"
       }
     ],
     "16": [
       {
-        "ja": "ופי אלשהר אלאוול. פי אליום אלראבע עשר מנה. פסחא ללה",
-        "en": "And in the first month, on the fourteenth day of it — a Passover to God",
-        "he": "וּבַחֹדֶשׁ הָרִאשׁוֹן בְּאַרְבָּעָה עָשָׂר יוֹם--לַחֹדֶשׁ פֶּסַח לַיהוָה"
+        "ja": "ופי אלשהר",
+        "en": "And in the",
+        "he": "וּבַחֹדֶשׁ"
+      },
+      {
+        "ja": "אלאוול",
+        "en": "first month,",
+        "he": "הָרִאשׁוֹן"
+      },
+      {
+        "ja": "פי אליום אלראבע עשר",
+        "en": "on the fourteenth day",
+        "he": "בְּאַרְבָּעָה עָשָׂר"
+      },
+      {
+        "ja": "מנה",
+        "en": "of it —",
+        "he": "יוֹם--לַחֹדֶשׁ"
+      },
+      {
+        "ja": "פסחא",
+        "en": "a Passover",
+        "he": "פֶּסַח"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God.",
+        "he": "לַיהוָה"
       }
     ],
     "17": [
       {
-        "ja": "ופי אליום אלכ'אמס עשר מנה חג",
-        "en": "And on the fifteenth day of it, a pilgrimage-festival",
-        "he": "וּבַחֲמִשָּׁה עָשָׂר יוֹם לַחֹדֶשׁ הַזֶּה חָג"
+        "ja": "ופי אליום אלכ'אמס עשר",
+        "en": "And on the fifteenth day",
+        "he": "וּבַחֲמִשָּׁה עָשָׂר"
       },
       {
-        "ja": "סבעה' אייאם יוכל פטירא",
-        "en": "seven days shall unleavened bread be eaten",
-        "he": "שִׁבְעַת יָמִים מַצּוֹת יֵאָכֵל"
+        "ja": "מנה",
+        "en": "of it,",
+        "he": "יוֹם לַחֹדֶשׁ הַזֶּה"
+      },
+      {
+        "ja": "חג",
+        "en": "a pilgrimage-festival:",
+        "he": "חָג"
+      },
+      {
+        "ja": "סבעה' אייאם",
+        "en": "seven days",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "יוכל פטירא",
+        "en": "shall unleavened bread be eaten.",
+        "he": "מַצּוֹת"
       }
     ],
     "18": [
       {
-        "ja": "פי אליום אלאוול מנהא אסם מקדס",
-        "en": "On the first day of it — a consecrated name",
-        "he": "בַּיּוֹם הָרִאשׁוֹן מִקְרָא-קֹדֶשׁ"
+        "ja": "פי אליום",
+        "en": "On the",
+        "he": "בַּיּוֹם"
       },
       {
-        "ja": "כל צנעה' מכסב לא תעמלו",
-        "en": "no work for gain shall you do",
-        "he": "כָּל-מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ"
+        "ja": "אלאוול",
+        "en": "first day",
+        "he": "הָרִאשׁוֹן"
+      },
+      {
+        "ja": "מנהא אסם מקדס",
+        "en": "of it — a consecrated name;",
+        "he": "מִקְרָא-קֹדֶשׁ"
+      },
+      {
+        "ja": "כל צנעה' מכסב",
+        "en": "no work for gain",
+        "he": "כָּל-מְלֶאכֶת עֲבֹדָה"
+      },
+      {
+        "ja": "לא תעמלו",
+        "en": "shall you do.",
+        "he": "לֹא תַעֲשׂוּ"
       }
     ],
     "19": [
       {
-        "ja": "וקרבו קרבאנא צעידה ללה",
-        "en": "And bring an offering — a burnt-offering to God",
-        "he": "וְהִקְרַבְתֶּם אִשֶּׁה עֹלָה לַיהוָה"
+        "ja": "וקרבו קרבאנא",
+        "en": "And bring an offering —",
+        "he": "וְהִקְרַבְתֶּם"
       },
       {
-        "ja": "רת'ין מן אלבקר וכבשא",
-        "en": "two bulls from the cattle, and a ram",
-        "he": "פָּרִים בְּנֵי-בָקָר שְׁנַיִם וְאַיִל אֶחָד"
+        "ja": "צעידה",
+        "en": "a burnt-offering",
+        "he": "אִשֶּׁה עֹלָה"
       },
       {
-        "ja": "וסבעה חמלאן בני סנה. צחאחא יכונאן לכם",
-        "en": "and seven yearling lambs; they shall be without blemish for you",
-        "he": "וְשִׁבְעָה כְבָשִׂים בְּנֵי שָׁנָה תְּמִימִם יִהְיוּ לָכֶם"
+        "ja": "ללה",
+        "en": "to God:",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "רת'ין מן אלבקר",
+        "en": "two bulls from the cattle,",
+        "he": "פָּרִים בְּנֵי-בָקָר שְׁנַיִם"
+      },
+      {
+        "ja": "וכבשא",
+        "en": "and a ram,",
+        "he": "וְאַיִל אֶחָד"
+      },
+      {
+        "ja": "וסבעה חמלאן",
+        "en": "and seven yearling lambs;",
+        "he": "וְשִׁבְעָה כְבָשִׂים"
+      },
+      {
+        "ja": "בני סנה",
+        "en": "they shall be",
+        "he": "בְּנֵי שָׁנָה"
+      },
+      {
+        "ja": "צחאחא יכונאן לכם",
+        "en": "without blemish for you.",
+        "he": "תְּמִימִם יִהְיוּ לָכֶם"
       }
     ],
     "20": [
       {
-        "ja": "ומעהם מן אלבר. סמד מלתות בדהן",
-        "en": "And with them from the grain: fine flour mixed with oil",
-        "he": "וּמִנְחָתָם--סֹלֶת בְּלוּלָה בַשָּׁמֶן"
+        "ja": "ומעהם",
+        "en": "And with them",
+        "he": "וּמִנְחָתָם"
       },
       {
-        "ja": "ת'לאת'ה' עשור לכל רת' ועשרין לאלכבש",
-        "en": "three tenths for each bull, and two tenths for the ram",
-        "he": "שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר וּשְׁנֵי עֶשְׂרֹנִים לָאַיִל--תַּעֲשׂוּ"
+        "ja": "מן אלבר. סמד",
+        "en": "from the grain: fine flour",
+        "he": "סֹלֶת"
+      },
+      {
+        "ja": "מלתות",
+        "en": "mixed",
+        "he": "בְּלוּלָה"
+      },
+      {
+        "ja": "בדהן",
+        "en": "with oil —",
+        "he": "בַשָּׁמֶן"
+      },
+      {
+        "ja": "ת'לאת'ה' עשור",
+        "en": "three tenths",
+        "he": "שְׁלֹשָׁה עֶשְׂרֹנִים"
+      },
+      {
+        "ja": "לכל רת'",
+        "en": "for each bull,",
+        "he": "לַפָּר"
+      },
+      {
+        "ja": "ועשרין",
+        "en": "and two tenths",
+        "he": "וּשְׁנֵי עֶשְׂרֹנִים"
+      },
+      {
+        "ja": "לאלכבש",
+        "en": "for the ram.",
+        "he": "לָאַיִל"
       }
     ],
     "21": [
       {
-        "ja": "ועשר לכל חמל מן אלסבעה",
-        "en": "And a tenth for each lamb from the seven",
-        "he": "עִשָּׂרוֹן עִשָּׂרוֹן תַּעֲשֶׂה לַכֶּבֶשׂ הָאֶחָד--לְשִׁבְעַת הַכְּבָשִׂים"
+        "ja": "ועשר",
+        "en": "And a tenth",
+        "he": "עִשָּׂרוֹן עִשָּׂרוֹן"
+      },
+      {
+        "ja": "לכל חמל",
+        "en": "for each lamb",
+        "he": "לַכֶּבֶשׂ הָאֶחָד"
+      },
+      {
+        "ja": "מן אלסבעה",
+        "en": "from the seven.",
+        "he": "לְשִׁבְעַת הַכְּבָשִׂים"
       }
     ],
     "22": [
       {
-        "ja": "ועתוד לאלד'כוה. ליסתג'פר ענכם",
-        "en": "And a male goat-kid for the purification-offering, to seek forgiveness for you",
-        "he": "וּשְׂעִיר חַטָּאת אֶחָד לְכַפֵּר עֲלֵיכֶם"
+        "ja": "ועתוד",
+        "en": "And a male goat-kid",
+        "he": "וּשְׂעִיר חַטָּאת אֶחָד"
+      },
+      {
+        "ja": "לאלד'כוה",
+        "en": "for the purification-offering,",
+        "he": "לְכַפֵּר"
+      },
+      {
+        "ja": "ליסתג'פר",
+        "en": "to seek forgiveness"
+      },
+      {
+        "ja": "ענכם",
+        "en": "for you.",
+        "he": "עֲלֵיכֶם"
       }
     ],
     "23": [
       {
-        "ja": "מא כ'לא קרבאן אלג'דאה. וקרבאן אלדאים אלת'אני",
-        "en": "Apart from the morning offering and the second continual offering",
-        "he": "מִלְּבַד עֹלַת הַבֹּקֶר אֲשֶׁר לְעֹלַת הַתָּמִיד"
+        "ja": "מא כ'לא",
+        "en": "Apart from",
+        "he": "מִלְּבַד"
+      },
+      {
+        "ja": "קרבאן אלג'דאה",
+        "en": "the morning offering",
+        "he": "עֹלַת הַבֹּקֶר"
+      },
+      {
+        "ja": "וקרבאן אלדאים אלת'אני",
+        "en": "and the second continual offering —",
+        "he": "אֲשֶׁר לְעֹלַת הַתָּמִיד"
       },
       {
         "ja": "תקרבו הד'ה",
-        "en": "these you shall bring",
+        "en": "these you shall bring.",
         "he": "תַּעֲשׂוּ אֶת-אֵלֶּה"
       }
     ],
     "24": [
       {
-        "ja": "ומת'להא קרבו פי כל יום מן אלסבעה אלאייאם",
-        "en": "And the like of it bring on each day of the seven days",
-        "he": "כָּאֵלֶּה תַּעֲשׂוּ לַיּוֹם שִׁבְעַת יָמִים"
+        "ja": "ומת'להא קרבו",
+        "en": "And the like of it bring",
+        "he": "כָּאֵלֶּה תַּעֲשׂוּ"
       },
       {
-        "ja": "קרבאנא מקבולא מרצ'ייא ללה",
-        "en": "an offering accepted and pleasing to God",
-        "he": "לֶחֶם אִשֵּׁה רֵיחַ-נִיחֹחַ לַיהוָה"
+        "ja": "פי כל יום",
+        "en": "on each day",
+        "he": "לַיּוֹם"
       },
       {
-        "ja": "מע אלקרבאן אלדאים. יקרב ד'אלך ומזאגה",
-        "en": "together with the continual offering, that shall be brought, with its mixed drink",
-        "he": "עַל-עוֹלַת הַתָּמִיד יֵעָשֶׂה וְנִסְכּוֹ"
+        "ja": "מן אלסבעה אלאייאם",
+        "en": "of the seven days —",
+        "he": "שִׁבְעַת יָמִים"
+      },
+      {
+        "ja": "קרבאנא",
+        "en": "an offering",
+        "he": "לֶחֶם אִשֵּׁה"
+      },
+      {
+        "ja": "מקבולא",
+        "en": "accepted",
+        "he": "רֵיחַ-נִיחֹחַ"
+      },
+      {
+        "ja": "מרצ'ייא ללה",
+        "en": "and pleasing to God;",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "מע אלקרבאן אלדאים",
+        "en": "together with the continual offering,",
+        "he": "עַל-עוֹלַת הַתָּמִיד"
+      },
+      {
+        "ja": "יקרב ד'אלך",
+        "en": "that shall be brought,",
+        "he": "יֵעָשֶׂה"
+      },
+      {
+        "ja": "ומזאגה",
+        "en": "with its mixed drink.",
+        "he": "וְנִסְכּוֹ"
       }
     ],
     "25": [
       {
-        "ja": "ופי אליום אלסאבע. אסם מקדס יכון לכם",
-        "en": "And on the seventh day — a consecrated name shall be for you",
-        "he": "וּבַיּוֹם הַשְּׁבִיעִי--מִקְרָא-קֹדֶשׁ יִהְיֶה לָכֶם"
+        "ja": "ופי אליום",
+        "en": "And on the",
+        "he": "וּבַיּוֹם"
       },
       {
-        "ja": "כל צנעה' מכסב לא תעמלו",
-        "en": "no work for gain shall you do",
-        "he": "כָּל-מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ"
+        "ja": "אלסאבע",
+        "en": "seventh day —",
+        "he": "הַשְּׁבִיעִי"
+      },
+      {
+        "ja": "אסם מקדס",
+        "en": "a consecrated name",
+        "he": "מִקְרָא-קֹדֶשׁ"
+      },
+      {
+        "ja": "יכון לכם",
+        "en": "shall be for you;",
+        "he": "יִהְיֶה לָכֶם"
+      },
+      {
+        "ja": "כל צנעה' מכסב",
+        "en": "no work for gain",
+        "he": "כָּל-מְלֶאכֶת עֲבֹדָה"
+      },
+      {
+        "ja": "לא תעמלו",
+        "en": "shall you do.",
+        "he": "לֹא תַעֲשׂוּ"
       }
     ],
     "26": [
       {
-        "ja": "ופי יום אלבכור. פי תקריבכם. ברא גדידא ללה",
-        "en": "And on the day of first-fruits, when you bring a new grain-offering to God",
-        "he": "וּבְיוֹם הַבִּכּוּרִים בְּהַקְרִיבְכֶם מִנְחָה חֲדָשָׁה לַיהוָה"
+        "ja": "ופי יום אלבכור",
+        "en": "And on the day of first-fruits,",
+        "he": "וּבְיוֹם הַבִּכּוּרִים"
       },
       {
-        "ja": "בעד אסאביעכם אסם מקדס יכון לכם",
-        "en": "after your weeks — a consecrated name shall be for you",
-        "he": "בְּשָׁבֻעֹתֵיכֶם מִקְרָא-קֹדֶשׁ יִהְיֶה לָכֶם"
+        "ja": "פי תקריבכם",
+        "en": "when you bring",
+        "he": "בְּהַקְרִיבְכֶם"
       },
       {
-        "ja": "כל צנעה' מכסב לא תעמלו",
-        "en": "no work for gain shall you do",
-        "he": "כָּל-מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ"
+        "ja": "ברא גדידא",
+        "en": "a new grain-offering",
+        "he": "מִנְחָה חֲדָשָׁה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God —",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "בעד אסאביעכם",
+        "en": "after your weeks —",
+        "he": "בְּשָׁבֻעֹתֵיכֶם"
+      },
+      {
+        "ja": "אסם מקדס",
+        "en": "a consecrated name",
+        "he": "מִקְרָא-קֹדֶשׁ"
+      },
+      {
+        "ja": "יכון לכם",
+        "en": "shall be for you;",
+        "he": "יִהְיֶה לָכֶם"
+      },
+      {
+        "ja": "כל צנעה' מכסב",
+        "en": "no work for gain",
+        "he": "כָּל-מְלֶאכֶת עֲבֹדָה"
+      },
+      {
+        "ja": "לא תעמלו",
+        "en": "shall you do.",
+        "he": "לֹא תַעֲשׂוּ"
       }
     ],
     "27": [
       {
-        "ja": "וקרבו צעידה. מקבולה מרצ'ייה ללה",
-        "en": "And bring a burnt-offering, accepted and pleasing to God",
-        "he": "וְהִקְרַבְתֶּם עוֹלָה לְרֵיחַ נִיחֹחַ לַיהוָה"
+        "ja": "וקרבו",
+        "en": "And bring",
+        "he": "וְהִקְרַבְתֶּם"
       },
       {
-        "ja": "ר'תין מן אלבקר וכבשא. וסבעה' חמלאן בני סנה",
-        "en": "two bulls from the cattle, and a ram, and seven yearling lambs",
-        "he": "פָּרִים בְּנֵי-בָקָר שְׁנַיִם אַיִל אֶחָד שִׁבְעָה כְבָשִׂים בְּנֵי שָׁנָה"
+        "ja": "צעידה",
+        "en": "a burnt-offering,",
+        "he": "עוֹלָה"
+      },
+      {
+        "ja": "מקבולה",
+        "en": "accepted",
+        "he": "לְרֵיחַ נִיחֹחַ"
+      },
+      {
+        "ja": "מרצ'ייה ללה",
+        "en": "and pleasing to God:",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "ר'תין מן אלבקר",
+        "en": "two bulls from the cattle,",
+        "he": "פָּרִים בְּנֵי-בָקָר שְׁנַיִם"
+      },
+      {
+        "ja": "וכבשא",
+        "en": "and a ram,",
+        "he": "אַיִל אֶחָד"
+      },
+      {
+        "ja": "וסבעה' חמלאן בני סנה",
+        "en": "and seven yearling lambs.",
+        "he": "שִׁבְעָה כְבָשִׂים בְּנֵי שָׁנָה"
       }
     ],
     "28": [
       {
-        "ja": "ומעהם מן אלבר. סמד מלתות בדהן",
-        "en": "And with them from the grain: fine flour mixed with oil",
-        "he": "וּמִנְחָתָם--סֹלֶת בְּלוּלָה בַשָּׁמֶן"
+        "ja": "ומעהם",
+        "en": "And with them",
+        "he": "וּמִנְחָתָם"
       },
       {
-        "ja": "ת'לאת'ה' עשור לכל רת'. ועשרין לאלכבש",
-        "en": "three tenths for each bull, and two tenths for the ram",
-        "he": "שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר הָאֶחָד שְׁנֵי עֶשְׂרֹנִים לָאַיִל הָאֶחָד"
+        "ja": "מן אלבר. סמד",
+        "en": "from the grain: fine flour",
+        "he": "סֹלֶת"
+      },
+      {
+        "ja": "מלתות",
+        "en": "mixed",
+        "he": "בְּלוּלָה"
+      },
+      {
+        "ja": "בדהן",
+        "en": "with oil —",
+        "he": "בַשָּׁמֶן"
+      },
+      {
+        "ja": "ת'לאת'ה' עשור",
+        "en": "three tenths",
+        "he": "שְׁלֹשָׁה עֶשְׂרֹנִים"
+      },
+      {
+        "ja": "לכל רת'",
+        "en": "for each bull,",
+        "he": "לַפָּר הָאֶחָד"
+      },
+      {
+        "ja": "ועשרין",
+        "en": "and two tenths",
+        "he": "שְׁנֵי עֶשְׂרֹנִים"
+      },
+      {
+        "ja": "לאלכבש",
+        "en": "for the ram.",
+        "he": "לָאַיִל הָאֶחָד"
       }
     ],
     "29": [
       {
-        "ja": "ועשר לכל חמל מן אלסבעה",
-        "en": "And a tenth for each lamb from the seven",
-        "he": "עִשָּׂרוֹן עִשָּׂרוֹן לַכֶּבֶשׂ הָאֶחָד--לְשִׁבְעַת הַכְּבָשִׂים"
+        "ja": "ועשר",
+        "en": "And a tenth",
+        "he": "עִשָּׂרוֹן עִשָּׂרוֹן"
+      },
+      {
+        "ja": "לכל חמל",
+        "en": "for each lamb",
+        "he": "לַכֶּבֶשׂ הָאֶחָד"
+      },
+      {
+        "ja": "מן אלסבעה",
+        "en": "from the seven.",
+        "he": "לְשִׁבְעַת הַכְּבָשִׂים"
       }
     ],
     "30": [
       {
-        "ja": "ועתוד מן אלמאעז. ליסתג'פר ענכם",
-        "en": "And a male goat-kid from the goats, to seek forgiveness for you",
-        "he": "שְׂעִיר עִזִּים אֶחָד לְכַפֵּר עֲלֵיכֶם"
+        "ja": "ועתוד מן אלמאעז",
+        "en": "And a male goat-kid from the goats,",
+        "he": "שְׂעִיר עִזִּים אֶחָד"
+      },
+      {
+        "ja": "ליסתג'פר",
+        "en": "to seek forgiveness"
+      },
+      {
+        "ja": "ענכם",
+        "en": "for you.",
+        "he": "לְכַפֵּר עֲלֵיכֶם"
       }
     ],
     "31": [
       {
-        "ja": "מא כ'לא קרבאן אלדאים. וברה תקרבו ד'אלך",
-        "en": "Apart from the continual offering and its grain — these you shall bring",
-        "he": "מִלְּבַד עֹלַת הַתָּמִיד וּמִנְחָתוֹ--תַּעֲשׂוּ"
+        "ja": "מא כ'לא",
+        "en": "Apart from",
+        "he": "מִלְּבַד"
       },
       {
-        "ja": "וצחאחא תכון לכם ומזאגהא",
-        "en": "without blemish shall they be for you, and their mixed drink",
-        "he": "תְּמִימִם יִהְיוּ-לָכֶם וְנִסְכֵּיהֶם"
+        "ja": "קרבאן אלדאים",
+        "en": "the continual offering",
+        "he": "עֹלַת הַתָּמִיד"
+      },
+      {
+        "ja": "וברה",
+        "en": "and its grain —",
+        "he": "וּמִנְחָתוֹ"
+      },
+      {
+        "ja": "תקרבו ד'אלך",
+        "en": "these you shall bring;",
+        "he": "תַּעֲשׂוּ"
+      },
+      {
+        "ja": "וצחאחא תכון לכם",
+        "en": "without blemish shall they be for you,",
+        "he": "תְּמִימִם יִהְיוּ-לָכֶם"
+      },
+      {
+        "ja": "ומזאגהא",
+        "en": "and their mixed drink.",
+        "he": "וְנִסְכֵּיהֶם"
       }
     ]
   }
