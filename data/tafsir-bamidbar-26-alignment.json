@@ -1,751 +1,2286 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 26. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_26.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 26. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_26.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ולמא כאן בעד אלובא",
-        "en": "And it was after the plague",
-        "he": "וַיְהִי אַחֲרֵי הַמַּגֵּפָה"
+        "ja": "ולמא כאן",
+        "en": "And it was",
+        "he": "וַיְהִי"
       },
       {
-        "ja": "קאל אללה למוסי'. ואלעזר. אבן הרון אלאמאם קאילא",
-        "en": "God spoke to Moses and Eleazar son of Aaron the priest, saying",
-        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה וְאֶל אֶלְעָזָר בֶּן-אַהֲרֹן הַכֹּהֵן לֵאמֹר"
+        "ja": "בעד",
+        "en": "after",
+        "he": "אַחֲרֵי"
+      },
+      {
+        "ja": "אלובא",
+        "en": "the plague",
+        "he": "הַמַּגֵּפָה"
+      },
+      {
+        "ja": "קאל",
+        "en": "God spoke",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "אללה",
+        "en": "to Moses",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "למוסי'",
+        "en": "and Eleazar",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "ואלעזר",
+        "en": "son of",
+        "he": "וְאֶל אֶלְעָזָר"
+      },
+      {
+        "ja": "אבן הרון",
+        "en": "Aaron",
+        "he": "בֶּן-אַהֲרֹן"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "the priest,",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "קאילא",
+        "en": "saying:",
+        "he": "לֵאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "ארפעא גמלה' גמאעה' בני אסראיל",
-        "en": "'Take up the count of the whole congregation of the sons of Israel",
-        "he": "שְׂאוּ אֶת-רֹאשׁ כָּל-עֲדַת בְּנֵי-יִשְׂרָאֵל"
+        "ja": "ארפעא",
+        "en": "'Take up",
+        "he": "שְׂאוּ"
       },
       {
-        "ja": "מן אבן עשרין סנה. פצאעדא",
-        "en": "from twenty years of age and upward",
-        "he": "מִבֶּן עֶשְׂרִים שָׁנָה וָמַעְלָה"
+        "ja": "גמלה'",
+        "en": "the count of",
+        "he": "אֶת-רֹאשׁ"
       },
       {
-        "ja": "לביות אבאיהם. כל מן יכ'רג פי גיושהם",
-        "en": "by their fathers' houses, every one who goes forth in their armies",
-        "he": "לְבֵית אֲבֹתָם כָּל-יֹצֵא צָבָא בְּיִשְׂרָאֵל"
+        "ja": "גמאעה'",
+        "en": "the whole congregation of",
+        "he": "כָּל-עֲדַת"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel,",
+        "he": "בְּנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "מן אבן",
+        "en": "from",
+        "he": "מִבֶּן"
+      },
+      {
+        "ja": "עשרין סנה",
+        "en": "twenty years of age",
+        "he": "עֶשְׂרִים שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward,",
+        "he": "וָמַעְלָה"
+      },
+      {
+        "ja": "לביות אבאיהם",
+        "en": "by their fathers' houses,",
+        "he": "לְבֵית אֲבֹתָם"
+      },
+      {
+        "ja": "כל מן יכ'רג",
+        "en": "every one who goes forth",
+        "he": "כָּל-יֹצֵא"
+      },
+      {
+        "ja": "פי גיושהם",
+        "en": "in their armies.",
+        "he": "צָבָא בְּיִשְׂרָאֵל"
       }
     ],
     "3": [
       {
-        "ja": "פאמר מוסי'. ואלעזר אלאמאם באחצאיהם",
-        "en": "And Moses and Eleazar the priest ordered their counting",
-        "he": "וַיְדַבֵּר מֹשֶׁה וְאֶלְעָזָר הַכֹּהֵן אֹתָם"
+        "ja": "פאמר",
+        "en": "And Moses",
+        "he": "וַיְדַבֵּר"
       },
       {
-        "ja": "פי בידאת מואב. עלי' ארדן יריחא",
-        "en": "in the wilderness plain of Moab, by the Jordan of Jericho",
-        "he": "בְּעַרְבֹת מוֹאָב עַל-יַרְדֵּן יְרֵחוֹ"
+        "ja": "מוסי'",
+        "en": "and Eleazar",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "ואלעזר",
+        "en": "the priest",
+        "he": "וְאֶלְעָזָר"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "ordered",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "באחצאיהם",
+        "en": "their counting",
+        "he": "אֹתָם"
+      },
+      {
+        "ja": "פי בידאת",
+        "en": "in the wilderness plain of",
+        "he": "בְּעַרְבֹת"
+      },
+      {
+        "ja": "מואב",
+        "en": "Moab,",
+        "he": "מוֹאָב"
+      },
+      {
+        "ja": "עלי' ארדן",
+        "en": "by the Jordan of",
+        "he": "עַל-יַרְדֵּן"
+      },
+      {
+        "ja": "יריחא",
+        "en": "Jericho.",
+        "he": "יְרֵחוֹ"
       }
     ],
     "4": [
       {
-        "ja": "מן אבן עשרין סנה פצאעדא",
-        "en": "From twenty years of age and upward",
-        "he": "מִבֶּן עֶשְׂרִים שָׁנָה וָמָעְלָה"
+        "ja": "מן אבן",
+        "en": "From",
+        "he": "מִבֶּן"
       },
       {
-        "ja": "כמא כאן אמר אללה מוסי'",
-        "en": "as God had commanded Moses",
-        "he": "כַּאֲשֶׁר צִוָּה יְהוָה אֶת-מֹשֶׁה"
+        "ja": "עשרין סנה",
+        "en": "twenty years of age",
+        "he": "עֶשְׂרִים שָׁנָה"
       },
       {
-        "ja": "ובני אסראיל. אלכ'ארגין מן בלד מצר",
-        "en": "and the sons of Israel, those going forth from the land of Egypt",
-        "he": "וּבְנֵי יִשְׂרָאֵל הַיֹּצְאִים מֵאֶרֶץ מִצְרָיִם"
+        "ja": "פצאעדא",
+        "en": "and upward",
+        "he": "וָמָעְלָה"
+      },
+      {
+        "ja": "כמא כאן אמר",
+        "en": "as God had commanded",
+        "he": "כַּאֲשֶׁר צִוָּה"
+      },
+      {
+        "ja": "אללה",
+        "en": "Moses",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "and the sons of Israel,",
+        "he": "אֶת-מֹשֶׁה"
+      },
+      {
+        "ja": "ובני אסראיל",
+        "en": "those going forth",
+        "he": "וּבְנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אלכ'ארגין",
+        "en": "from the land",
+        "he": "הַיֹּצְאִים"
+      },
+      {
+        "ja": "מן בלד מצר",
+        "en": "of Egypt.",
+        "he": "מֵאֶרֶץ מִצְרָיִם"
       }
     ],
     "5": [
       {
-        "ja": "וכאן בני ראובן בכר אסראיל",
-        "en": "And the sons of Reuben, the firstborn of Israel",
-        "he": "רְאוּבֵן בְּכוֹר יִשְׂרָאֵל"
+        "ja": "וכאן",
+        "en": "And the sons of"
       },
       {
-        "ja": "עשירה' אלחנוכיין. ועשירה' אלפלואיין",
-        "en": "the clan of the Hanochites, and the clan of the Palluites",
-        "he": "מִשְׁפַּחַת הַחֲנֹכִי לְפַלּוּא מִשְׁפַּחַת הַפַּלֻּאִי"
+        "ja": "בני ראובן",
+        "en": "Reuben,",
+        "he": "רְאוּבֵן"
+      },
+      {
+        "ja": "בכר",
+        "en": "the firstborn of",
+        "he": "בְּכוֹר"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel —",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "עשירה' אלחנוכיין",
+        "en": "the clan of the Hanochites,",
+        "he": "מִשְׁפַּחַת הַחֲנֹכִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְפַלּוּא"
+      },
+      {
+        "ja": "אלפלואיין",
+        "en": "the Palluites;",
+        "he": "מִשְׁפַּחַת הַפַּלֻּאִי"
       }
     ],
     "6": [
       {
-        "ja": "ועשירה' אלחצרוניין. ועשירה' אלכרמיין",
-        "en": "and the clan of the Hezronites, and the clan of the Carmites",
-        "he": "לְחֶצְרֹן מִשְׁפַּחַת הַחֶצְרוֹנִי לְכַרְמִי מִשְׁפַּחַת הַכַּרְמִי"
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְחֶצְרֹן"
+      },
+      {
+        "ja": "אלחצרוניין",
+        "en": "the Hezronites,",
+        "he": "מִשְׁפַּחַת הַחֶצְרוֹנִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְכַרְמִי"
+      },
+      {
+        "ja": "אלכרמיין",
+        "en": "the Carmites.",
+        "he": "מִשְׁפַּחַת הַכַּרְמִי"
       }
     ],
     "7": [
       {
-        "ja": "פכאן עדד עשאיר ראובן",
-        "en": "And the count of the clans of Reuben",
-        "he": "אֵלֶּה מִשְׁפְּחֹת הָראוּבֵנִי"
+        "ja": "פכאן",
+        "en": "And the count of"
       },
       {
-        "ja": "ת'לאת'ה וארבעין אלפא. וסבע מאיה ות'לאת'ין",
-        "en": "was forty-three thousand, seven hundred and thirty",
-        "he": "שְׁלֹשָׁה וְאַרְבָּעִים אֶלֶף וּשְׁבַע מֵאוֹת וּשְׁלֹשִׁים"
+        "ja": "עדד עשאיר",
+        "en": "the clans of",
+        "he": "אֵלֶּה מִשְׁפְּחֹת"
+      },
+      {
+        "ja": "ראובן",
+        "en": "Reuben",
+        "he": "הָראוּבֵנִי"
+      },
+      {
+        "ja": "ת'לאת'ה",
+        "en": "was forty-three",
+        "he": "שְׁלֹשָׁה"
+      },
+      {
+        "ja": "וארבעין אלפא",
+        "en": "thousand,",
+        "he": "וְאַרְבָּעִים אֶלֶף"
+      },
+      {
+        "ja": "וסבע מאיה",
+        "en": "seven hundred",
+        "he": "וּשְׁבַע מֵאוֹת"
+      },
+      {
+        "ja": "ות'לאת'ין",
+        "en": "and thirty.",
+        "he": "וּשְׁלֹשִׁים"
       }
     ],
     "8": [
       {
-        "ja": "ובני פלוא אליאב",
-        "en": "And the sons of Pallu: Eliab",
-        "he": "וּבְנֵי פַלּוּא אֱלִיאָב"
+        "ja": "ובני",
+        "en": "And the sons of",
+        "he": "וּבְנֵי"
+      },
+      {
+        "ja": "פלוא",
+        "en": "Pallu:",
+        "he": "פַלּוּא"
+      },
+      {
+        "ja": "אליאב",
+        "en": "Eliab.",
+        "he": "אֱלִיאָב"
       }
     ],
     "9": [
       {
-        "ja": "ובני אליאב נמואל ודתן ואבירם",
-        "en": "And the sons of Eliab: Nemuel, and Dathan, and Abiram",
-        "he": "וּבְנֵי אֱלִיאָב נְמוּאֵל וְדָתָן וַאֲבִירָם"
+        "ja": "ובני",
+        "en": "And the sons of",
+        "he": "וּבְנֵי"
       },
       {
-        "ja": "אלד'י תלפפו. עלי' מוסי' והרון פי גמאעה' קרח",
-        "en": "who rallied against Moses and Aaron within the congregation of Korah",
-        "he": "אֲשֶׁר הִצּוּ עַל-מֹשֶׁה וְעַל-אַהֲרֹן בַּעֲדַת-קֹרַח"
+        "ja": "אליאב",
+        "en": "Eliab:",
+        "he": "אֱלִיאָב"
+      },
+      {
+        "ja": "נמואל",
+        "en": "Nemuel,",
+        "he": "נְמוּאֵל"
+      },
+      {
+        "ja": "ודתן",
+        "en": "and Dathan,",
+        "he": "וְדָתָן"
+      },
+      {
+        "ja": "ואבירם",
+        "en": "and Abiram",
+        "he": "וַאֲבִירָם"
+      },
+      {
+        "ja": "אלד'י תלפפו",
+        "en": "who rallied",
+        "he": "אֲשֶׁר הִצּוּ"
+      },
+      {
+        "ja": "עלי' מוסי'",
+        "en": "against Moses",
+        "he": "עַל-מֹשֶׁה"
+      },
+      {
+        "ja": "והרון",
+        "en": "and Aaron",
+        "he": "וְעַל-אַהֲרֹן"
+      },
+      {
+        "ja": "פי גמאעה' קרח",
+        "en": "within the congregation of Korah;",
+        "he": "בַּעֲדַת-קֹרַח"
       },
       {
         "ja": "וכאן ד'אלך בין ידי אללה",
-        "en": "and that was before God",
+        "en": "and that was before God.",
         "he": "בְּהַצֹּתָם עַל-יְהוָה"
       }
     ],
     "10": [
       {
-        "ja": "פפתחת אלארץ' פאהא. פאבתלעתהם מע קרח",
-        "en": "And the earth opened its mouth and swallowed them along with Korah",
-        "he": "וַתִּפְתַּח הָאָרֶץ אֶת-פִּיהָ וַתִּבְלַע אֹתָם וְאֶת-קֹרַח"
+        "ja": "פפתחת",
+        "en": "And the earth opened",
+        "he": "וַתִּפְתַּח"
       },
       {
-        "ja": "פי וקת מות אלגמאעה. ואכל אלנאר. אלמאיתין ואלכ'מסין אלרגל",
-        "en": "at the time of the death of the congregation — and fire consumed the two hundred and fifty men",
-        "he": "בְּמוֹת הָעֵדָה בַּאֲכֹל הָאֵשׁ אֵת חֲמִשִּׁים וּמָאתַיִם אִישׁ"
+        "ja": "אלארץ'",
+        "en": "its mouth",
+        "he": "הָאָרֶץ"
+      },
+      {
+        "ja": "פאהא",
+        "en": "and swallowed them",
+        "he": "אֶת-פִּיהָ"
+      },
+      {
+        "ja": "פאבתלעתהם",
+        "en": "along with Korah,",
+        "he": "וַתִּבְלַע"
+      },
+      {
+        "ja": "מע קרח",
+        "en": "at the time of the death",
+        "he": "וְאֶת-קֹרַח"
+      },
+      {
+        "ja": "פי וקת מות אלגמאעה",
+        "en": "of the congregation —",
+        "he": "בְּמוֹת הָעֵדָה"
+      },
+      {
+        "ja": "ואכל אלנאר",
+        "en": "and fire consumed",
+        "he": "בַּאֲכֹל הָאֵשׁ"
+      },
+      {
+        "ja": "אלמאיתין ואלכ'מסין אלרגל",
+        "en": "the two hundred and fifty men,",
+        "he": "אֵת חֲמִשִּׁים וּמָאתַיִם אִישׁ"
       },
       {
         "ja": "פצארו עלמא",
-        "en": "and they became a sign",
+        "en": "and they became a sign.",
         "he": "וַיִּהְיוּ לְנֵס"
       }
     ],
     "11": [
       {
-        "ja": "ובני קרח כ'סף בהם ולם ימותו",
-        "en": "But as for the sons of Korah — the earth sank with them, and they did not die",
-        "he": "וּבְנֵי-קֹרַח לֹא-מֵתוּ"
+        "ja": "ובני קרח",
+        "en": "But as for the sons of Korah",
+        "he": "וּבְנֵי-קֹרַח"
+      },
+      {
+        "ja": "כ'סף בהם",
+        "en": "the earth sank with them,"
+      },
+      {
+        "ja": "ולם ימותו",
+        "en": "and they did not die.",
+        "he": "לֹא-מֵתוּ"
       }
     ],
     "12": [
       {
-        "ja": "בני שמעון לעשאירהם",
-        "en": "The sons of Simeon by their clans",
-        "he": "בְּנֵי שִׁמְעוֹן לְמִשְׁפְּחֹתָם"
+        "ja": "בני",
+        "en": "The sons of",
+        "he": "בְּנֵי"
       },
       {
-        "ja": "עשירה' אלנמואליין. ועשירה' אלימיניין. ועשירה' אליכיניין",
-        "en": "the clan of the Nemuelites, and the clan of the Jaminites, and the clan of the Jachinites",
-        "he": "לִנְמוּאֵל מִשְׁפַּחַת הַנְּמוּאֵלִי לְיָמִין מִשְׁפַּחַת הַיָּמִינִי לְיָכִין מִשְׁפַּחַת הַיָּכִינִי"
+        "ja": "שמעון",
+        "en": "Simeon",
+        "he": "שִׁמְעוֹן"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans:",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the clan of",
+        "he": "לִנְמוּאֵל"
+      },
+      {
+        "ja": "אלנמואליין",
+        "en": "the Nemuelites,",
+        "he": "מִשְׁפַּחַת הַנְּמוּאֵלִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְיָמִין"
+      },
+      {
+        "ja": "אלימיניין",
+        "en": "the Jaminites,",
+        "he": "מִשְׁפַּחַת הַיָּמִינִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְיָכִין"
+      },
+      {
+        "ja": "אליכיניין",
+        "en": "the Jachinites;",
+        "he": "מִשְׁפַּחַת הַיָּכִינִי"
       }
     ],
     "13": [
       {
-        "ja": "ועשירה' אלזרחיין. ועשירה' אלשאוליין",
-        "en": "and the clan of the Zerahites, and the clan of the Shaulites",
-        "he": "לְזֶרַח מִשְׁפַּחַת הַזַּרְחִי לְשָׁאוּל מִשְׁפַּחַת הַשָּׁאוּלִי"
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְזֶרַח"
+      },
+      {
+        "ja": "אלזרחיין",
+        "en": "the Zerahites,",
+        "he": "מִשְׁפַּחַת הַזַּרְחִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְשָׁאוּל"
+      },
+      {
+        "ja": "אלשאוליין",
+        "en": "the Shaulites.",
+        "he": "מִשְׁפַּחַת הַשָּׁאוּלִי"
       }
     ],
     "14": [
       {
-        "ja": "פכאן עדד עשאיר שמעון",
-        "en": "And the count of the clans of Simeon",
-        "he": "אֵלֶּה מִשְׁפְּחֹת הַשִּׁמְעֹנִי"
+        "ja": "פכאן",
+        "en": "And the count of"
       },
       {
-        "ja": "את'נין ועשרין אלפא ומאיתין",
-        "en": "was twenty-two thousand and two hundred",
-        "he": "שְׁנַיִם וְעֶשְׂרִים אֶלֶף וּמָאתָיִם"
+        "ja": "עדד עשאיר",
+        "en": "the clans of",
+        "he": "אֵלֶּה מִשְׁפְּחֹת"
+      },
+      {
+        "ja": "שמעון",
+        "en": "Simeon",
+        "he": "הַשִּׁמְעֹנִי"
+      },
+      {
+        "ja": "את'נין",
+        "en": "was twenty-two",
+        "he": "שְׁנַיִם"
+      },
+      {
+        "ja": "ועשרין אלפא",
+        "en": "thousand",
+        "he": "וְעֶשְׂרִים אֶלֶף"
+      },
+      {
+        "ja": "ומאיתין",
+        "en": "and two hundred.",
+        "he": "וּמָאתָיִם"
       }
     ],
     "15": [
       {
-        "ja": "בני גד לעשאירהם",
-        "en": "The sons of Gad by their clans",
-        "he": "בְּנֵי גָד לְמִשְׁפְּחֹתָם"
+        "ja": "בני",
+        "en": "The sons of",
+        "he": "בְּנֵי"
       },
       {
-        "ja": "עשירה' אלצפוניין. ועשירה' אלחגיין. ועשירה' אלשוניין",
-        "en": "the clan of the Zephonites, and the clan of the Haggites, and the clan of the Shunites",
-        "he": "לִצְפוֹן מִשְׁפַּחַת הַצְּפוֹנִי לְחַגִּי מִשְׁפַּחַת הַחַגִּי לְשׁוּנִי מִשְׁפַּחַת הַשּׁוּנִי"
+        "ja": "גד",
+        "en": "Gad",
+        "he": "גָד"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans:",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the clan of",
+        "he": "לִצְפוֹן"
+      },
+      {
+        "ja": "אלצפוניין",
+        "en": "the Zephonites,",
+        "he": "מִשְׁפַּחַת הַצְּפוֹנִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְחַגִּי"
+      },
+      {
+        "ja": "אלחגיין",
+        "en": "the Haggites,",
+        "he": "מִשְׁפַּחַת הַחַגִּי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְשׁוּנִי"
+      },
+      {
+        "ja": "אלשוניין",
+        "en": "the Shunites;",
+        "he": "מִשְׁפַּחַת הַשּׁוּנִי"
       }
     ],
     "16": [
       {
-        "ja": "ועשירה' אלאזניין. ועשירה' אלעיריין",
-        "en": "and the clan of the Oznites, and the clan of the Erites",
-        "he": "לְאָזְנִי מִשְׁפַּחַת הָאָזְנִי לְעֵרִי מִשְׁפַּחַת הָעֵרִי"
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְאָזְנִי"
+      },
+      {
+        "ja": "אלאזניין",
+        "en": "the Oznites,",
+        "he": "מִשְׁפַּחַת הָאָזְנִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְעֵרִי"
+      },
+      {
+        "ja": "אלעיריין",
+        "en": "the Erites;",
+        "he": "מִשְׁפַּחַת הָעֵרִי"
       }
     ],
     "17": [
       {
-        "ja": "ועשירה' אלארודיין. ועשירה' אלאראליין",
-        "en": "and the clan of the Arodites, and the clan of the Arelites",
-        "he": "לַאֲרוֹד מִשְׁפַּחַת הָאֲרוֹדִי לְאַרְאֵלִי--מִשְׁפַּחַת הָאַרְאֵלִי"
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לַאֲרוֹד"
+      },
+      {
+        "ja": "אלארודיין",
+        "en": "the Arodites,",
+        "he": "מִשְׁפַּחַת הָאֲרוֹדִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְאַרְאֵלִי"
+      },
+      {
+        "ja": "אלאראליין",
+        "en": "the Arelites.",
+        "he": "מִשְׁפַּחַת הָאַרְאֵלִי"
       }
     ],
     "18": [
       {
-        "ja": "וכאן עדד עשאיר גד",
-        "en": "And the count of the clans of Gad",
-        "he": "אֵלֶּה מִשְׁפְּחֹת בְּנֵי-גָד"
+        "ja": "וכאן",
+        "en": "And the count of"
       },
       {
-        "ja": "ארבעין אלפא וכמס מאיה",
-        "en": "was forty thousand and five hundred",
-        "he": "אַרְבָּעִים אֶלֶף וַחֲמֵשׁ מֵאוֹת"
+        "ja": "עדד עשאיר",
+        "en": "the clans of",
+        "he": "אֵלֶּה מִשְׁפְּחֹת"
+      },
+      {
+        "ja": "גד",
+        "en": "Gad",
+        "he": "בְּנֵי-גָד"
+      },
+      {
+        "ja": "ארבעין אלפא",
+        "en": "was forty thousand",
+        "he": "אַרְבָּעִים אֶלֶף"
+      },
+      {
+        "ja": "וכמס מאיה",
+        "en": "and five hundred.",
+        "he": "וַחֲמֵשׁ מֵאוֹת"
       }
     ],
     "19": [
       {
-        "ja": "בני יהודה אוולא ער ואונן",
-        "en": "The sons of Judah — first Er and Onan",
-        "he": "בְּנֵי יְהוּדָה עֵר וְאוֹנָן"
+        "ja": "בני",
+        "en": "The sons of",
+        "he": "בְּנֵי"
       },
       {
-        "ja": "ומאתא פי בלד כנעאן",
-        "en": "and they died in the land of Canaan",
-        "he": "וַיָּמָת עֵר וְאוֹנָן בְּאֶרֶץ כְּנָעַן"
+        "ja": "יהודה",
+        "en": "Judah —",
+        "he": "יְהוּדָה"
+      },
+      {
+        "ja": "אוולא",
+        "en": "first"
+      },
+      {
+        "ja": "ער",
+        "en": "Er",
+        "he": "עֵר"
+      },
+      {
+        "ja": "ואונן",
+        "en": "and Onan;",
+        "he": "וְאוֹנָן"
+      },
+      {
+        "ja": "ומאתא",
+        "en": "and they died",
+        "he": "וַיָּמָת"
+      },
+      {
+        "ja": "פי בלד",
+        "en": "in the land of",
+        "he": "בְּאֶרֶץ"
+      },
+      {
+        "ja": "כנעאן",
+        "en": "Canaan.",
+        "he": "כְּנָעַן"
       }
     ],
     "20": [
       {
-        "ja": "פצאר בני יהודה לעשאירהם",
-        "en": "And the sons of Judah became, by their clans",
-        "he": "וַיִּהְיוּ בְנֵי-יְהוּדָה לְמִשְׁפְּחֹתָם"
+        "ja": "פצאר",
+        "en": "And the sons of Judah became,",
+        "he": "וַיִּהְיוּ"
       },
       {
-        "ja": "עשירה' אלשילניין. ועשירה' אלפרציין. ועשירה' אלזרחיין",
-        "en": "the clan of the Shelanites, and the clan of the Parzites, and the clan of the Zerahites",
-        "he": "לְשֵׁלָה מִשְׁפַּחַת הַשֵּׁלָנִי לְפֶרֶץ מִשְׁפַּחַת הַפַּרְצִי לְזֶרַח מִשְׁפַּחַת הַזַּרְחִי"
+        "ja": "בני יהודה",
+        "en": "by their clans:",
+        "he": "בְנֵי-יְהוּדָה"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "the clan of",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the Shelanites,",
+        "he": "לְשֵׁלָה"
+      },
+      {
+        "ja": "אלשילניין",
+        "en": "and the clan of",
+        "he": "מִשְׁפַּחַת הַשֵּׁלָנִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "the Parzites,",
+        "he": "לְפֶרֶץ"
+      },
+      {
+        "ja": "אלפרציין",
+        "en": "and the clan of",
+        "he": "מִשְׁפַּחַת הַפַּרְצִי"
+      },
+      {
+        "ja": "ועשירה' אלזרחיין",
+        "en": "the Zerahites.",
+        "he": "לְזֶרַח מִשְׁפַּחַת הַזַּרְחִי"
       }
     ],
     "21": [
       {
-        "ja": "ובני פרץ",
-        "en": "And the sons of Perez",
-        "he": "וַיִּהְיוּ בְנֵי-פֶרֶץ"
+        "ja": "ובני",
+        "en": "And the sons of",
+        "he": "וַיִּהְיוּ"
       },
       {
-        "ja": "עשירה' אלחצרוניין. ועשירה' אלחמוליין",
-        "en": "the clan of the Hezronites, and the clan of the Hamulites",
-        "he": "לְחֶצְרֹן מִשְׁפַּחַת הַחֶצְרֹנִי לְחָמוּל מִשְׁפַּחַת הֶחָמוּלִי"
+        "ja": "פרץ",
+        "en": "Perez:",
+        "he": "בְנֵי-פֶרֶץ"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the clan of",
+        "he": "לְחֶצְרֹן"
+      },
+      {
+        "ja": "אלחצרוניין",
+        "en": "the Hezronites,",
+        "he": "מִשְׁפַּחַת הַחֶצְרֹנִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְחָמוּל"
+      },
+      {
+        "ja": "אלחמוליין",
+        "en": "the Hamulites.",
+        "he": "מִשְׁפַּחַת הֶחָמוּלִי"
       }
     ],
     "22": [
       {
-        "ja": "פכאן עדד עשאיר יהודה",
-        "en": "And the count of the clans of Judah",
-        "he": "אֵלֶּה מִשְׁפְּחֹת יְהוּדָה"
+        "ja": "פכאן",
+        "en": "And the count of"
       },
       {
-        "ja": "סתה וסבעין אלפא וכמס מאיה",
-        "en": "was seventy-six thousand and five hundred",
-        "he": "שִׁשָּׁה וְשִׁבְעִים אֶלֶף וַחֲמֵשׁ מֵאוֹת"
+        "ja": "עדד עשאיר",
+        "en": "the clans of",
+        "he": "אֵלֶּה מִשְׁפְּחֹת"
+      },
+      {
+        "ja": "יהודה",
+        "en": "Judah",
+        "he": "יְהוּדָה"
+      },
+      {
+        "ja": "סתה",
+        "en": "was seventy-six",
+        "he": "שִׁשָּׁה"
+      },
+      {
+        "ja": "וסבעין אלפא",
+        "en": "thousand",
+        "he": "וְשִׁבְעִים אֶלֶף"
+      },
+      {
+        "ja": "וכמס מאיה",
+        "en": "and five hundred.",
+        "he": "וַחֲמֵשׁ מֵאוֹת"
       }
     ],
     "23": [
       {
-        "ja": "בני יששכר לעשאירהם",
-        "en": "The sons of Issachar by their clans",
-        "he": "בְּנֵי יִשָּׂשכָר לְמִשְׁפְּחֹתָם"
+        "ja": "בני",
+        "en": "The sons of",
+        "he": "בְּנֵי"
       },
       {
-        "ja": "עשירה' אלתולעיין. ועשירה' אלפוניין",
-        "en": "the clan of the Tolaites, and the clan of the Punites",
-        "he": "תּוֹלָע מִשְׁפַּחַת הַתּוֹלָעִי לְפֻוָה מִשְׁפַּחַת הַפּוּנִי"
+        "ja": "יששכר",
+        "en": "Issachar",
+        "he": "יִשָּׂשכָר"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans:",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the clan of",
+        "he": "תּוֹלָע"
+      },
+      {
+        "ja": "אלתולעיין",
+        "en": "the Tolaites,",
+        "he": "מִשְׁפַּחַת הַתּוֹלָעִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְפֻוָה"
+      },
+      {
+        "ja": "אלפוניין",
+        "en": "the Punites;",
+        "he": "מִשְׁפַּחַת הַפּוּנִי"
       }
     ],
     "24": [
       {
-        "ja": "ועשירה' אלישוביין. ועשירה' אלשמרוניין",
-        "en": "and the clan of the Jashubites, and the clan of the Shimronites",
-        "he": "לְיָשׁוּב מִשְׁפַּחַת הַיָּשֻׁבִי לְשִׁמְרֹן מִשְׁפַּחַת הַשִּׁמְרֹנִי"
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְיָשׁוּב"
+      },
+      {
+        "ja": "אלישוביין",
+        "en": "the Jashubites,",
+        "he": "מִשְׁפַּחַת הַיָּשֻׁבִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְשִׁמְרֹן"
+      },
+      {
+        "ja": "אלשמרוניין",
+        "en": "the Shimronites.",
+        "he": "מִשְׁפַּחַת הַשִּׁמְרֹנִי"
       }
     ],
     "25": [
       {
-        "ja": "וכאן עדד עשאיר יששכר",
-        "en": "And the count of the clans of Issachar",
-        "he": "אֵלֶּה מִשְׁפְּחֹת יִשָּׂשכָר"
+        "ja": "וכאן",
+        "en": "And the count of"
       },
       {
-        "ja": "ארבעה וסתין אלפא ות'לאת' מאיה",
-        "en": "was sixty-four thousand and three hundred",
-        "he": "אַרְבָּעָה וְשִׁשִּׁים אֶלֶף וּשְׁלֹשׁ מֵאוֹת"
+        "ja": "עדד עשאיר",
+        "en": "the clans of",
+        "he": "אֵלֶּה מִשְׁפְּחֹת"
+      },
+      {
+        "ja": "יששכר",
+        "en": "Issachar",
+        "he": "יִשָּׂשכָר"
+      },
+      {
+        "ja": "ארבעה",
+        "en": "was sixty-four",
+        "he": "אַרְבָּעָה"
+      },
+      {
+        "ja": "וסתין אלפא",
+        "en": "thousand",
+        "he": "וְשִׁשִּׁים אֶלֶף"
+      },
+      {
+        "ja": "ות'לאת' מאיה",
+        "en": "and three hundred.",
+        "he": "וּשְׁלֹשׁ מֵאוֹת"
       }
     ],
     "26": [
       {
-        "ja": "בני זבולון לעשאירהם",
-        "en": "The sons of Zebulun by their clans",
-        "he": "בְּנֵי זְבוּלֻן לְמִשְׁפְּחֹתָם"
+        "ja": "בני",
+        "en": "The sons of",
+        "he": "בְּנֵי"
       },
       {
-        "ja": "עשירה' אלסרדיין. ועשירה' אלאילוניין. ועשירה' אליחלאליין",
-        "en": "the clan of the Sardites, and the clan of the Elonites, and the clan of the Jahleelites",
-        "he": "לְסֶרֶד מִשְׁפַּחַת הַסַּרְדִּי לְאֵלוֹן מִשְׁפַּחַת הָאֵלֹנִי לְיַחְלְאֵל--מִשְׁפַּחַת הַיַּחְלְאֵלִי"
+        "ja": "זבולון",
+        "en": "Zebulun",
+        "he": "זְבוּלֻן"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans:",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the clan of",
+        "he": "לְסֶרֶד"
+      },
+      {
+        "ja": "אלסרדיין",
+        "en": "the Sardites,",
+        "he": "מִשְׁפַּחַת הַסַּרְדִּי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְאֵלוֹן"
+      },
+      {
+        "ja": "אלאילוניין",
+        "en": "the Elonites,",
+        "he": "מִשְׁפַּחַת הָאֵלֹנִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְיַחְלְאֵל"
+      },
+      {
+        "ja": "אליחלאליין",
+        "en": "the Jahleelites.",
+        "he": "מִשְׁפַּחַת הַיַּחְלְאֵלִי"
       }
     ],
     "27": [
       {
-        "ja": "פכאן עדד עשאיר זבולון",
-        "en": "And the count of the clans of Zebulun",
-        "he": "אֵלֶּה מִשְׁפְּחֹת הַזְּבוּלֹנִי"
+        "ja": "פכאן",
+        "en": "And the count of"
       },
       {
-        "ja": "סתין אלפא וכמס מאיה",
-        "en": "was sixty thousand and five hundred",
-        "he": "שִׁשִּׁים אֶלֶף וַחֲמֵשׁ מֵאוֹת"
+        "ja": "עדד עשאיר",
+        "en": "the clans of",
+        "he": "אֵלֶּה מִשְׁפְּחֹת"
+      },
+      {
+        "ja": "זבולון",
+        "en": "Zebulun",
+        "he": "הַזְּבוּלֹנִי"
+      },
+      {
+        "ja": "סתין אלפא",
+        "en": "was sixty thousand",
+        "he": "שִׁשִּׁים אֶלֶף"
+      },
+      {
+        "ja": "וכמס מאיה",
+        "en": "and five hundred.",
+        "he": "וַחֲמֵשׁ מֵאוֹת"
       }
     ],
     "28": [
       {
-        "ja": "בני יוסף לעשאירהם. מנשה ואפרים",
-        "en": "The sons of Joseph by their clans: Manasseh and Ephraim",
-        "he": "בְּנֵי יוֹסֵף לְמִשְׁפְּחֹתָם--מְנַשֶּׁה וְאֶפְרָיִם"
+        "ja": "בני",
+        "en": "The sons of",
+        "he": "בְּנֵי"
+      },
+      {
+        "ja": "יוסף",
+        "en": "Joseph",
+        "he": "יוֹסֵף"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans:",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "מנשה",
+        "en": "Manasseh",
+        "he": "מְנַשֶּׁה"
+      },
+      {
+        "ja": "ואפרים",
+        "en": "and Ephraim.",
+        "he": "וְאֶפְרָיִם"
       }
     ],
     "29": [
       {
-        "ja": "בני מנשה. עשירה' אלמכיריין",
-        "en": "The sons of Manasseh: the clan of the Machrites",
-        "he": "בְּנֵי מְנַשֶּׁה לְמָכִיר מִשְׁפַּחַת הַמָּכִירִי"
+        "ja": "בני",
+        "en": "The sons of",
+        "he": "בְּנֵי"
       },
       {
-        "ja": "ועשירה' אלגלעדיין. מן גלעד אבן מכיר",
-        "en": "and the clan of the Gileadites — from Gilead son of Machir",
-        "he": "וּמָכִיר הוֹלִיד אֶת-גִּלְעָד לְגִלְעָד מִשְׁפַּחַת הַגִּלְעָדִי"
+        "ja": "מנשה",
+        "en": "Manasseh:",
+        "he": "מְנַשֶּׁה"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the clan of",
+        "he": "לְמָכִיר"
+      },
+      {
+        "ja": "אלמכיריין",
+        "en": "the Machrites,",
+        "he": "מִשְׁפַּחַת הַמָּכִירִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְגִלְעָד"
+      },
+      {
+        "ja": "אלגלעדיין",
+        "en": "the Gileadites —",
+        "he": "מִשְׁפַּחַת הַגִּלְעָדִי"
+      },
+      {
+        "ja": "מן גלעד אבן מכיר",
+        "en": "from Gilead son of Machir.",
+        "he": "וּמָכִיר הוֹלִיד אֶת-גִּלְעָד"
       }
     ],
     "30": [
       {
-        "ja": "הולאי בני גלעד",
-        "en": "These are the sons of Gilead",
-        "he": "אֵלֶּה בְּנֵי גִלְעָד"
+        "ja": "הולאי",
+        "en": "These are",
+        "he": "אֵלֶּה"
       },
       {
-        "ja": "עשירה' אלאיעזריין. ועשירה' אלחלקיין",
-        "en": "the clan of the Iezerites, and the clan of the Helekites",
-        "he": "אִיעֶזֶר מִשְׁפַּחַת הָאִיעֶזְרִי לְחֵלֶק מִשְׁפַּחַת הַחֶלְקִי"
+        "ja": "בני גלעד",
+        "en": "the sons of Gilead:",
+        "he": "בְּנֵי גִלְעָד"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the clan of",
+        "he": "אִיעֶזֶר"
+      },
+      {
+        "ja": "אלאיעזריין",
+        "en": "the Iezerites,",
+        "he": "מִשְׁפַּחַת הָאִיעֶזְרִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְחֵלֶק"
+      },
+      {
+        "ja": "אלחלקיין",
+        "en": "the Helekites;",
+        "he": "מִשְׁפַּחַת הַחֶלְקִי"
       }
     ],
     "31": [
       {
-        "ja": "ועשירה' אלאסראיליין. ועשירה' אלשכמיין",
-        "en": "and the clan of the Asrielites, and the clan of the Shechemites",
-        "he": "וְאַשְׂרִיאֵל--מִשְׁפַּחַת הָאַשְׂרִאֵלִי וְשֶׁכֶם מִשְׁפַּחַת הַשִּׁכְמִי"
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "וְאַשְׂרִיאֵל"
+      },
+      {
+        "ja": "אלאסראיליין",
+        "en": "the Asrielites,",
+        "he": "מִשְׁפַּחַת הָאַשְׂרִאֵלִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "וְשֶׁכֶם"
+      },
+      {
+        "ja": "אלשכמיין",
+        "en": "the Shechemites;",
+        "he": "מִשְׁפַּחַת הַשִּׁכְמִי"
       }
     ],
     "32": [
       {
-        "ja": "ועשירה' אלשמידעיין. ועשירה' אלחפריין",
-        "en": "and the clan of the Shemidaites, and the clan of the Hepherites",
-        "he": "וּשְׁמִידָע מִשְׁפַּחַת הַשְּׁמִידָעִי וְחֵפֶר מִשְׁפַּחַת הַחֶפְרִי"
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "וּשְׁמִידָע"
+      },
+      {
+        "ja": "אלשמידעיין",
+        "en": "the Shemidaites,",
+        "he": "מִשְׁפַּחַת הַשְּׁמִידָעִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "וְחֵפֶר"
+      },
+      {
+        "ja": "אלחפריין",
+        "en": "the Hepherites.",
+        "he": "מִשְׁפַּחַת הַחֶפְרִי"
       }
     ],
     "33": [
       {
-        "ja": "וצלפחד אבן חפר. לם יכון לה בנין אלא בנאת",
-        "en": "And Zelophehad son of Hepher had no sons, only daughters",
-        "he": "וּצְלָפְחָד בֶּן-חֵפֶר לֹא-הָיוּ לוֹ בָּנִים--כִּי אִם-בָּנוֹת"
+        "ja": "וצלפחד",
+        "en": "And Zelophehad",
+        "he": "וּצְלָפְחָד"
       },
       {
-        "ja": "ואסמאיהן. מחלה ונועה. חגלה מלכה ותרצה",
-        "en": "and their names were Mahlah, and Noah, Hoglah, Milcah, and Tirzah",
-        "he": "וְשֵׁם בְּנוֹת צְלָפְחָד--מַחְלָה וְנֹעָה חָגְלָה מִלְכָּה וְתִרְצָה"
+        "ja": "אבן חפר",
+        "en": "son of Hepher",
+        "he": "בֶּן-חֵפֶר"
+      },
+      {
+        "ja": "לם יכון לה",
+        "en": "had no",
+        "he": "לֹא-הָיוּ לוֹ"
+      },
+      {
+        "ja": "בנין",
+        "en": "sons,",
+        "he": "בָּנִים"
+      },
+      {
+        "ja": "אלא בנאת",
+        "en": "only daughters;",
+        "he": "כִּי אִם-בָּנוֹת"
+      },
+      {
+        "ja": "ואסמאיהן",
+        "en": "and their names were",
+        "he": "וְשֵׁם"
+      },
+      {
+        "ja": "מחלה",
+        "en": "Mahlah,",
+        "he": "מַחְלָה"
+      },
+      {
+        "ja": "ונועה",
+        "en": "and Noah,",
+        "he": "וְנֹעָה"
+      },
+      {
+        "ja": "חגלה",
+        "en": "Hoglah,",
+        "he": "חָגְלָה"
+      },
+      {
+        "ja": "מלכה",
+        "en": "Milcah,",
+        "he": "מִלְכָּה"
+      },
+      {
+        "ja": "ותרצה",
+        "en": "and Tirzah.",
+        "he": "וְתִרְצָה"
       }
     ],
     "34": [
       {
-        "ja": "פכאן עדד עשאיר מנשה",
-        "en": "And the count of the clans of Manasseh",
-        "he": "אֵלֶּה מִשְׁפְּחֹת מְנַשֶּׁה"
+        "ja": "פכאן",
+        "en": "And the count of"
       },
       {
-        "ja": "את'נין וכ'מסין אלפא וסבע מאיה",
-        "en": "was fifty-two thousand and seven hundred",
-        "he": "שְׁנַיִם וַחֲמִשִּׁים אֶלֶף וּשְׁבַע מֵאוֹת"
+        "ja": "עדד עשאיר",
+        "en": "the clans of",
+        "he": "אֵלֶּה מִשְׁפְּחֹת"
+      },
+      {
+        "ja": "מנשה",
+        "en": "Manasseh",
+        "he": "מְנַשֶּׁה"
+      },
+      {
+        "ja": "את'נין",
+        "en": "was fifty-two",
+        "he": "שְׁנַיִם"
+      },
+      {
+        "ja": "וכ'מסין אלפא",
+        "en": "thousand",
+        "he": "וַחֲמִשִּׁים אֶלֶף"
+      },
+      {
+        "ja": "וסבע מאיה",
+        "en": "and seven hundred.",
+        "he": "וּשְׁבַע מֵאוֹת"
       }
     ],
     "35": [
       {
-        "ja": "הולאי בני אפרים לעשאירהם",
-        "en": "These are the sons of Ephraim by their clans",
-        "he": "אֵלֶּה בְנֵי-אֶפְרַיִם לְמִשְׁפְּחֹתָם"
+        "ja": "הולאי",
+        "en": "These are",
+        "he": "אֵלֶּה"
       },
       {
-        "ja": "עשירה' אלשותלחיין. ועשירה' אלבכ'ריין. ועשירה' אלתחניין",
-        "en": "the clan of the Shutalhites, and the clan of the Becherites, and the clan of the Tahanites",
-        "he": "לְשׁוּתֶלַח מִשְׁפַּחַת הַשֻּׁתַלְחִי לְבֶכֶר מִשְׁפַּחַת הַבַּכְרִי לְתַחַן מִשְׁפַּחַת הַתַּחֲנִי"
+        "ja": "בני אפרים",
+        "en": "the sons of Ephraim",
+        "he": "בְנֵי-אֶפְרַיִם"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans:",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the clan of",
+        "he": "לְשׁוּתֶלַח"
+      },
+      {
+        "ja": "אלשותלחיין",
+        "en": "the Shutalhites,",
+        "he": "מִשְׁפַּחַת הַשֻּׁתַלְחִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְבֶכֶר"
+      },
+      {
+        "ja": "אלבכ'ריין",
+        "en": "the Becherites,",
+        "he": "מִשְׁפַּחַת הַבַּכְרִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְתַחַן"
+      },
+      {
+        "ja": "אלתחניין",
+        "en": "the Tahanites;",
+        "he": "מִשְׁפַּחַת הַתַּחֲנִי"
       }
     ],
     "36": [
       {
-        "ja": "ועשירה' אלעירניין. מן עירן אבן שותלח",
-        "en": "and the clan of the Eranites, from Eran son of Shutelah",
-        "he": "וְאֵלֶּה בְּנֵי שׁוּתָלַח--לְעֵרָן מִשְׁפַּחַת הָעֵרָנִי"
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְעֵרָן"
+      },
+      {
+        "ja": "אלעירניין",
+        "en": "the Eranites,",
+        "he": "מִשְׁפַּחַת הָעֵרָנִי"
+      },
+      {
+        "ja": "מן עירן אבן שותלח",
+        "en": "from Eran son of Shutelah.",
+        "he": "וְאֵלֶּה בְּנֵי שׁוּתָלַח"
       }
     ],
     "37": [
       {
-        "ja": "פכאן עדד עשאיר בני אפרים",
-        "en": "And the count of the clans of the sons of Ephraim",
-        "he": "אֵלֶּה מִשְׁפְּחֹת בְּנֵי-אֶפְרַיִם"
+        "ja": "פכאן",
+        "en": "And the count of"
       },
       {
-        "ja": "את'נין ות'לאת'ין אלפא וכ'מס מאיה",
-        "en": "was thirty-two thousand and five hundred",
-        "he": "שְׁנַיִם וּשְׁלֹשִׁים אֶלֶף וַחֲמֵשׁ מֵאוֹת"
+        "ja": "עדד עשאיר",
+        "en": "the clans of",
+        "he": "אֵלֶּה מִשְׁפְּחֹת"
       },
       {
-        "ja": "הולאי בני יוסף לעשאירהם",
-        "en": "These are the sons of Joseph by their clans",
-        "he": "אֵלֶּה בְנֵי-יוֹסֵף לְמִשְׁפְּחֹתָם"
+        "ja": "בני אפרים",
+        "en": "the sons of Ephraim",
+        "he": "בְּנֵי-אֶפְרַיִם"
+      },
+      {
+        "ja": "את'נין",
+        "en": "was thirty-two",
+        "he": "שְׁנַיִם"
+      },
+      {
+        "ja": "ות'לאת'ין אלפא",
+        "en": "thousand",
+        "he": "וּשְׁלֹשִׁים אֶלֶף"
+      },
+      {
+        "ja": "וכ'מס מאיה",
+        "en": "and five hundred.",
+        "he": "וַחֲמֵשׁ מֵאוֹת"
+      },
+      {
+        "ja": "הולאי בני יוסף",
+        "en": "These are the sons of Joseph",
+        "he": "אֵלֶּה בְנֵי-יוֹסֵף"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans.",
+        "he": "לְמִשְׁפְּחֹתָם"
       }
     ],
     "38": [
       {
-        "ja": "בני בנימין לעשאירהם",
-        "en": "The sons of Benjamin by their clans",
-        "he": "בְּנֵי בִנְיָמִן לְמִשְׁפְּחֹתָם"
+        "ja": "בני",
+        "en": "The sons of",
+        "he": "בְּנֵי"
       },
       {
-        "ja": "עשירה' אלבלעיין. ועשירה' אלאשבליין. ועשירה' אלאחירמיין",
-        "en": "the clan of the Belaites, and the clan of the Ashbelites, and the clan of the Ahiramites",
-        "he": "לְבֶלַע מִשְׁפַּחַת הַבַּלְעִי לְאַשְׁבֵּל מִשְׁפַּחַת הָאַשְׁבֵּלִי לַאֲחִירָם מִשְׁפַּחַת הָאֲחִירָמִי"
+        "ja": "בנימין",
+        "en": "Benjamin",
+        "he": "בִנְיָמִן"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans:",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the clan of",
+        "he": "לְבֶלַע"
+      },
+      {
+        "ja": "אלבלעיין",
+        "en": "the Belaites,",
+        "he": "מִשְׁפַּחַת הַבַּלְעִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְאַשְׁבֵּל"
+      },
+      {
+        "ja": "אלאשבליין",
+        "en": "the Ashbelites,",
+        "he": "מִשְׁפַּחַת הָאַשְׁבֵּלִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לַאֲחִירָם"
+      },
+      {
+        "ja": "אלאחירמיין",
+        "en": "the Ahiramites;",
+        "he": "מִשְׁפַּחַת הָאֲחִירָמִי"
       }
     ],
     "39": [
       {
-        "ja": "ועשירה' אלשופמיין. ועשירה' אלחופמיין",
-        "en": "and the clan of the Shuphamites, and the clan of the Huphamites",
-        "he": "לִשְׁפוּפָם מִשְׁפַּחַת הַשּׁוּפָמִי לְחוּפָם מִשְׁפַּחַת הַחוּפָמִי"
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לִשְׁפוּפָם"
+      },
+      {
+        "ja": "אלשופמיין",
+        "en": "the Shuphamites,",
+        "he": "מִשְׁפַּחַת הַשּׁוּפָמִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְחוּפָם"
+      },
+      {
+        "ja": "אלחופמיין",
+        "en": "the Huphamites;",
+        "he": "מִשְׁפַּחַת הַחוּפָמִי"
       }
     ],
     "40": [
       {
-        "ja": "ועשירה' אלארדיין. ועשירה' אלנעמיין. מן בלע",
-        "en": "and the clan of the Ardites, and the clan of the Naamites — from Bela",
-        "he": "וַיִּהְיוּ בְנֵי-בֶלַע אַרְדְּ וְנַעֲמָן"
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "וַיִּהְיוּ בְנֵי-בֶלַע"
+      },
+      {
+        "ja": "אלארדיין",
+        "en": "the Ardites,",
+        "he": "אַרְדְּ"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of"
+      },
+      {
+        "ja": "אלנעמיין",
+        "en": "the Naamites —",
+        "he": "וְנַעֲמָן"
+      },
+      {
+        "ja": "מן בלע",
+        "en": "from Bela."
       }
     ],
     "41": [
       {
-        "ja": "פכאן עדד עשאיר בנימין",
-        "en": "And the count of the clans of Benjamin",
-        "he": "אֵלֶּה בְנֵי-בִנְיָמִן לְמִשְׁפְּחֹתָם"
+        "ja": "פכאן",
+        "en": "And the count of"
       },
       {
-        "ja": "כמסה וארבעין אלפא וסת מאיה",
-        "en": "was forty-five thousand and six hundred",
-        "he": "חֲמִשָּׁה וְאַרְבָּעִים אֶלֶף וְשֵׁשׁ מֵאוֹת"
+        "ja": "עדד עשאיר בנימין",
+        "en": "the clans of Benjamin",
+        "he": "אֵלֶּה בְנֵי-בִנְיָמִן"
+      },
+      {
+        "ja": "כמסה",
+        "en": "was forty-five",
+        "he": "חֲמִשָּׁה"
+      },
+      {
+        "ja": "וארבעין אלפא",
+        "en": "thousand",
+        "he": "וְאַרְבָּעִים אֶלֶף"
+      },
+      {
+        "ja": "וסת מאיה",
+        "en": "and six hundred.",
+        "he": "וְשֵׁשׁ מֵאוֹת"
       }
     ],
     "42": [
       {
-        "ja": "ובני דן לעשאירהם",
-        "en": "And the sons of Dan by their clans",
-        "he": "אֵלֶּה בְנֵי-דָן לְמִשְׁפְּחֹתָם"
+        "ja": "ובני דן",
+        "en": "And the sons of Dan",
+        "he": "אֵלֶּה בְנֵי-דָן"
       },
       {
-        "ja": "עשירה' אלשוחמיין. ומא תעשר מנהא",
-        "en": "the clan of the Shuhamites, and what branched out from it",
-        "he": "לְשׁוּחָם מִשְׁפַּחַת הַשּׁוּחָמִי"
+        "ja": "לעשאירהם",
+        "en": "by their clans:",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the clan of",
+        "he": "לְשׁוּחָם"
+      },
+      {
+        "ja": "אלשוחמיין",
+        "en": "the Shuhamites,",
+        "he": "מִשְׁפַּחַת הַשּׁוּחָמִי"
+      },
+      {
+        "ja": "ומא תעשר מנהא",
+        "en": "and what branched out from it."
       }
     ],
     "43": [
       {
         "ja": "פכאן עדדהם",
         "en": "And their count",
-        "he": "כָּל-מִשְׁפְּחֹת הַשּׁוּחָמִי לִפְקֻדֵיהֶם"
+        "he": "כָּל-מִשְׁפְּחֹת הַשּׁוּחָמִי"
       },
       {
-        "ja": "ארבעה וסתין אלפא וארבע מאיה",
-        "en": "was sixty-four thousand and four hundred",
-        "he": "אַרְבָּעָה וְשִׁשִּׁים אֶלֶף וְאַרְבַּע מֵאוֹת"
+        "ja": "ארבעה",
+        "en": "was sixty-four",
+        "he": "אַרְבָּעָה"
+      },
+      {
+        "ja": "וסתין אלפא",
+        "en": "thousand",
+        "he": "וְשִׁשִּׁים אֶלֶף"
+      },
+      {
+        "ja": "וארבע מאיה",
+        "en": "and four hundred.",
+        "he": "וְאַרְבַּע מֵאוֹת"
       }
     ],
     "44": [
       {
-        "ja": "בני אשר לעשאירהם",
-        "en": "The sons of Asher by their clans",
-        "he": "בְּנֵי אָשֵׁר לְמִשְׁפְּחֹתָם"
+        "ja": "בני",
+        "en": "The sons of",
+        "he": "בְּנֵי"
       },
       {
-        "ja": "עשירה' אלימניין. ועשירה' אלישויין. ועשירה' אלבריעיין",
-        "en": "the clan of the Imnites, and the clan of the Ishvites, and the clan of the Beriites",
-        "he": "לְיִמְנָה מִשְׁפַּחַת הַיִּמְנָה לְיִשְׁוִי מִשְׁפַּחַת הַיִּשְׁוִי לִבְרִיעָה מִשְׁפַּחַת הַבְּרִיעִי"
+        "ja": "אשר",
+        "en": "Asher",
+        "he": "אָשֵׁר"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans:",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the clan of",
+        "he": "לְיִמְנָה"
+      },
+      {
+        "ja": "אלימניין",
+        "en": "the Imnites,",
+        "he": "מִשְׁפַּחַת הַיִּמְנָה"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְיִשְׁוִי"
+      },
+      {
+        "ja": "אלישויין",
+        "en": "the Ishvites,",
+        "he": "מִשְׁפַּחַת הַיִּשְׁוִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לִבְרִיעָה"
+      },
+      {
+        "ja": "אלבריעיין",
+        "en": "the Beriites;",
+        "he": "מִשְׁפַּחַת הַבְּרִיעִי"
       }
     ],
     "45": [
       {
-        "ja": "ועשירה' אלחבריין. ועשירה' אלמלכיאליין. מן בריעה",
-        "en": "the clan of the Heberites, and the clan of the Malchielites — from the clan of the Beriites",
-        "he": "לִבְנֵי בְרִיעָה--לְחֶבֶר מִשְׁפַּחַת הַחֶבְרִי לְמַלְכִּיאֵל--מִשְׁפַּחַת הַמַּלְכִּיאֵלִי"
+        "ja": "ועשירה'",
+        "en": "the clan of",
+        "he": "לְחֶבֶר"
+      },
+      {
+        "ja": "אלחבריין",
+        "en": "the Heberites,",
+        "he": "מִשְׁפַּחַת הַחֶבְרִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְמַלְכִּיאֵל"
+      },
+      {
+        "ja": "אלמלכיאליין",
+        "en": "the Malchielites —",
+        "he": "מִשְׁפַּחַת הַמַּלְכִּיאֵלִי"
+      },
+      {
+        "ja": "מן בריעה",
+        "en": "from the clan of the Beriites.",
+        "he": "לִבְנֵי בְרִיעָה"
       }
     ],
     "46": [
       {
-        "ja": "וכאן אסם אבנה' אשר שרח",
-        "en": "And the name of the daughter of Asher was Serah",
-        "he": "וְשֵׁם בַּת-אָשֵׁר שָׂרַח"
+        "ja": "וכאן אסם",
+        "en": "And the name of",
+        "he": "וְשֵׁם"
+      },
+      {
+        "ja": "אבנה' אשר",
+        "en": "the daughter of Asher",
+        "he": "בַּת-אָשֵׁר"
+      },
+      {
+        "ja": "שרח",
+        "en": "was Serah.",
+        "he": "שָׂרַח"
       }
     ],
     "47": [
       {
-        "ja": "פכאן עדד עשאיר אשר",
-        "en": "And the count of the clans of Asher",
-        "he": "אֵלֶּה מִשְׁפְּחֹת בְּנֵי-אָשֵׁר"
+        "ja": "פכאן",
+        "en": "And the count of"
       },
       {
-        "ja": "ת'לאת'ה וכמסין אלפא וארבע מאיה",
-        "en": "was fifty-three thousand and four hundred",
-        "he": "שְׁלֹשָׁה וַחֲמִשִּׁים אֶלֶף וְאַרְבַּע מֵאוֹת"
+        "ja": "עדד עשאיר",
+        "en": "the clans of",
+        "he": "אֵלֶּה מִשְׁפְּחֹת"
+      },
+      {
+        "ja": "אשר",
+        "en": "Asher",
+        "he": "בְּנֵי-אָשֵׁר"
+      },
+      {
+        "ja": "ת'לאת'ה",
+        "en": "was fifty-three",
+        "he": "שְׁלֹשָׁה"
+      },
+      {
+        "ja": "וכמסין אלפא",
+        "en": "thousand",
+        "he": "וַחֲמִשִּׁים אֶלֶף"
+      },
+      {
+        "ja": "וארבע מאיה",
+        "en": "and four hundred.",
+        "he": "וְאַרְבַּע מֵאוֹת"
       }
     ],
     "48": [
       {
-        "ja": "בני נפתלי לעשאירהם",
-        "en": "The sons of Naphtali by their clans",
-        "he": "בְּנֵי נַפְתָּלִי לְמִשְׁפְּחֹתָם"
+        "ja": "בני",
+        "en": "The sons of",
+        "he": "בְּנֵי"
       },
       {
-        "ja": "עשירה' אליחצאליין. ועשירה' אלגוניין",
-        "en": "the clan of the Jahzeelites, and the clan of the Gunites",
-        "he": "לְיַחְצְאֵל מִשְׁפַּחַת הַיַּחְצְאֵלִי לְגוּנִי מִשְׁפַּחַת הַגּוּנִי"
+        "ja": "נפתלי",
+        "en": "Naphtali",
+        "he": "נַפְתָּלִי"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans:",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the clan of",
+        "he": "לְיַחְצְאֵל"
+      },
+      {
+        "ja": "אליחצאליין",
+        "en": "the Jahzeelites,",
+        "he": "מִשְׁפַּחַת הַיַּחְצְאֵלִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְגוּנִי"
+      },
+      {
+        "ja": "אלגוניין",
+        "en": "the Gunites;",
+        "he": "מִשְׁפַּחַת הַגּוּנִי"
       }
     ],
     "49": [
       {
-        "ja": "ועשירה' אליצריין. ועשירה' אלשלמיין",
-        "en": "and the clan of the Jezerites, and the clan of the Shillemites",
-        "he": "לְיֵצֶר מִשְׁפַּחַת הַיִּצְרִי לְשִׁלֵּם מִשְׁפַּחַת הַשִּׁלֵּמִי"
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְיֵצֶר"
+      },
+      {
+        "ja": "אליצריין",
+        "en": "the Jezerites,",
+        "he": "מִשְׁפַּחַת הַיִּצְרִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לְשִׁלֵּם"
+      },
+      {
+        "ja": "אלשלמיין",
+        "en": "the Shillemites.",
+        "he": "מִשְׁפַּחַת הַשִּׁלֵּמִי"
       }
     ],
     "50": [
       {
-        "ja": "פכאן עדד עשאיר נפתלי",
-        "en": "And the count of the clans of Naphtali",
-        "he": "אֵלֶּה מִשְׁפְּחֹת נַפְתָּלִי"
+        "ja": "פכאן",
+        "en": "And the count of"
       },
       {
-        "ja": "כמסה וארבעין אלפא וארבע מאיה",
-        "en": "was forty-five thousand and four hundred",
-        "he": "חֲמִשָּׁה וְאַרְבָּעִים אֶלֶף וְאַרְבַּע מֵאוֹת"
+        "ja": "עדד עשאיר",
+        "en": "the clans of",
+        "he": "אֵלֶּה מִשְׁפְּחֹת"
+      },
+      {
+        "ja": "נפתלי",
+        "en": "Naphtali",
+        "he": "נַפְתָּלִי"
+      },
+      {
+        "ja": "כמסה",
+        "en": "was forty-five",
+        "he": "חֲמִשָּׁה"
+      },
+      {
+        "ja": "וארבעין אלפא",
+        "en": "thousand",
+        "he": "וְאַרְבָּעִים אֶלֶף"
+      },
+      {
+        "ja": "וארבע מאיה",
+        "en": "and four hundred.",
+        "he": "וְאַרְבַּע מֵאוֹת"
       }
     ],
     "51": [
       {
-        "ja": "פד'אלך עדד בני אסראיל",
-        "en": "That, then, is the count of the sons of Israel",
-        "he": "אֵלֶּה פְּקוּדֵי בְּנֵי יִשְׂרָאֵל"
+        "ja": "פד'אלך",
+        "en": "That, then, is"
       },
       {
-        "ja": "סת מאיה' אלף ואלפא ואחדא. וסבע מאיה ות'לאת'ין",
-        "en": "six hundred thousand and one thousand, seven hundred and thirty",
-        "he": "שֵׁשׁ-מֵאוֹת אֶלֶף וָאָלֶף שְׁבַע מֵאוֹת וּשְׁלֹשִׁים"
+        "ja": "עדד",
+        "en": "the count of",
+        "he": "אֵלֶּה פְּקוּדֵי"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel:",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "סת מאיה' אלף",
+        "en": "six hundred thousand",
+        "he": "שֵׁשׁ-מֵאוֹת אֶלֶף"
+      },
+      {
+        "ja": "ואלפא ואחדא",
+        "en": "and one thousand,",
+        "he": "וָאָלֶף"
+      },
+      {
+        "ja": "וסבע מאיה",
+        "en": "seven hundred",
+        "he": "שְׁבַע מֵאוֹת"
+      },
+      {
+        "ja": "ות'לאת'ין",
+        "en": "and thirty.",
+        "he": "וּשְׁלֹשִׁים"
       }
     ],
     "52": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses, addressing him",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "God spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "to",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses,",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "addressing him.",
+        "he": "לֵּאמֹר"
       }
     ],
     "53": [
       {
-        "ja": "ולהולאי יגב אן יקסם אלבלד נחלה",
-        "en": "'To these it is required that the land be apportioned as an inheritance",
-        "he": "לָאֵלֶּה תֵּחָלֵק הָאָרֶץ בְּנַחֲלָה"
+        "ja": "ולהולאי",
+        "en": "'To these",
+        "he": "לָאֵלֶּה"
+      },
+      {
+        "ja": "יגב אן",
+        "en": "it is required that"
+      },
+      {
+        "ja": "יקסם",
+        "en": "the land be apportioned",
+        "he": "תֵּחָלֵק"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "as an inheritance,",
+        "he": "הָאָרֶץ"
+      },
+      {
+        "ja": "נחלה",
+        "en": "by the count",
+        "he": "בְּנַחֲלָה"
       },
       {
         "ja": "באחצא אסמאיהם",
-        "en": "by the count of their names",
+        "en": "of their names",
         "he": "בְּמִסְפַּר שֵׁמוֹת"
       }
     ],
     "54": [
       {
-        "ja": "פלאלכתיר תכת'ר נחלתה",
-        "en": "To the numerous you shall enlarge his inheritance",
-        "he": "לָרַב תַּרְבֶּה נַחֲלָתוֹ"
+        "ja": "פלאלכתיר",
+        "en": "To the numerous",
+        "he": "לָרַב"
       },
       {
-        "ja": "ולאלקליל תקללהא",
-        "en": "and to the few you shall diminish his inheritance",
-        "he": "וְלַמְעַט תַּמְעִיט נַחֲלָתוֹ"
+        "ja": "תכת'ר",
+        "en": "you shall enlarge",
+        "he": "תַּרְבֶּה"
       },
       {
-        "ja": "כל סבט עלי' קדר עדדה. יעטא נחלתה",
-        "en": "each tribe according to the measure of its number shall its inheritance be given",
-        "he": "אִישׁ לְפִי פְקֻדָיו יֻתַּן נַחֲלָתוֹ"
+        "ja": "נחלתה",
+        "en": "his inheritance,",
+        "he": "נַחֲלָתוֹ"
+      },
+      {
+        "ja": "ולאלקליל",
+        "en": "and to the few",
+        "he": "וְלַמְעַט"
+      },
+      {
+        "ja": "תקללהא",
+        "en": "you shall diminish his inheritance —",
+        "he": "תַּמְעִיט"
+      },
+      {
+        "ja": "כל סבט",
+        "en": "each tribe",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "עלי' קדר עדדה",
+        "en": "according to the measure of its number",
+        "he": "לְפִי פְקֻדָיו"
+      },
+      {
+        "ja": "יעטא נחלתה",
+        "en": "shall its inheritance be given.",
+        "he": "יֻתַּן נַחֲלָתוֹ"
       }
     ],
     "55": [
       {
-        "ja": "לכן באסהם יקסם אלבלד",
-        "en": "But by lots shall the land be apportioned",
-        "he": "אַךְ-בְּגוֹרָל יֵחָלֵק אֶת-הָאָרֶץ"
+        "ja": "לכן",
+        "en": "But",
+        "he": "אַךְ"
       },
       {
-        "ja": "באסמא אסבאט אבאיהם",
-        "en": "by the names of the tribes of their fathers",
-        "he": "לִשְׁמוֹת מַטּוֹת-אֲבֹתָם יִנְחָלוּ"
+        "ja": "באסהם",
+        "en": "by lots",
+        "he": "בְּגוֹרָל"
+      },
+      {
+        "ja": "יקסם",
+        "en": "shall the land be apportioned,",
+        "he": "יֵחָלֵק"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "by the names of",
+        "he": "אֶת-הָאָרֶץ"
+      },
+      {
+        "ja": "באסמא",
+        "en": "the tribes of",
+        "he": "לִשְׁמוֹת"
+      },
+      {
+        "ja": "אסבאט אבאיהם",
+        "en": "their fathers.",
+        "he": "מַטּוֹת-אֲבֹתָם"
       }
     ],
     "56": [
       {
-        "ja": "ועלי קדר אלסהם. תקסם נחלתהם",
-        "en": "According to the measure of the lots shall their inheritance be apportioned",
-        "he": "עַל-פִּי הַגּוֹרָל תֵּחָלֵק נַחֲלָתוֹ"
+        "ja": "ועלי קדר",
+        "en": "According to the measure of",
+        "he": "עַל-פִּי"
+      },
+      {
+        "ja": "אלסהם",
+        "en": "the lots",
+        "he": "הַגּוֹרָל"
+      },
+      {
+        "ja": "תקסם",
+        "en": "shall their inheritance be apportioned,",
+        "he": "תֵּחָלֵק"
+      },
+      {
+        "ja": "נחלתהם",
+        "en": "between the numerous",
+        "he": "נַחֲלָתוֹ"
       },
       {
         "ja": "בין כת'יר. וקליל",
-        "en": "between the numerous and the few",
+        "en": "and the few.'",
         "he": "בֵּין רַב לִמְעָט"
       }
     ],
     "57": [
       {
-        "ja": "והד'ה אעדאד לוי לעשאירהם",
-        "en": "And these are the counts of Levi by their clans",
-        "he": "וְאֵלֶּה פְקוּדֵי הַלֵּוִי לְמִשְׁפְּחֹתָם"
+        "ja": "והד'ה",
+        "en": "And these are",
+        "he": "וְאֵלֶּה"
       },
       {
-        "ja": "עשירה' אלגרשוניין. ועשירה' אלקהתיין. ועשירה' אלמרריין",
-        "en": "the clan of the Gershonites, and the clan of the Kohathites, and the clan of the Merarites",
-        "he": "לְגֵרְשׁוֹן מִשְׁפַּחַת הַגֵּרְשֻׁנִּי לִקְהָת מִשְׁפַּחַת הַקְּהָתִי לִמְרָרִי מִשְׁפַּחַת הַמְּרָרִי"
+        "ja": "אעדאד לוי",
+        "en": "the counts of Levi",
+        "he": "פְקוּדֵי הַלֵּוִי"
+      },
+      {
+        "ja": "לעשאירהם",
+        "en": "by their clans:",
+        "he": "לְמִשְׁפְּחֹתָם"
+      },
+      {
+        "ja": "עשירה'",
+        "en": "the clan of",
+        "he": "לְגֵרְשׁוֹן"
+      },
+      {
+        "ja": "אלגרשוניין",
+        "en": "the Gershonites,",
+        "he": "מִשְׁפַּחַת הַגֵּרְשֻׁנִּי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לִקְהָת"
+      },
+      {
+        "ja": "אלקהתיין",
+        "en": "the Kohathites,",
+        "he": "מִשְׁפַּחַת הַקְּהָתִי"
+      },
+      {
+        "ja": "ועשירה'",
+        "en": "and the clan of",
+        "he": "לִמְרָרִי"
+      },
+      {
+        "ja": "אלמרריין",
+        "en": "the Merarites.",
+        "he": "מִשְׁפַּחַת הַמְּרָרִי"
       }
     ],
     "58": [
       {
-        "ja": "וסאיר עשאירהם. עשירה' אללבניין. ועשירה' אלחברוניין ועשירה' אלמחליין ועשירה' אלמושיין. ועשירה' אלקרחיין",
-        "en": "And the rest of their clans: the clan of the Libnites, and the clan of the Hebronites, and the clan of the Mahlites, and the clan of the Mushites, and the clan of the Korahites",
-        "he": "אֵלֶּה מִשְׁפְּחֹת לֵוִי מִשְׁפַּחַת הַלִּבְנִי מִשְׁפַּחַת הַחֶבְרֹנִי מִשְׁפַּחַת הַמַּחְלִי מִשְׁפַּחַת הַמּוּשִׁי מִשְׁפַּחַת הַקָּרְחִי"
+        "ja": "וסאיר עשאירהם",
+        "en": "And the rest of their clans:",
+        "he": "אֵלֶּה מִשְׁפְּחֹת לֵוִי"
       },
       {
-        "ja": "ואולד קהת עמרם",
-        "en": "and Kohath begot Amram",
-        "he": "וּקְהָת הוֹלִד אֶת-עַמְרָם"
+        "ja": "עשירה' אללבניין",
+        "en": "the clan of the Libnites,",
+        "he": "מִשְׁפַּחַת הַלִּבְנִי"
+      },
+      {
+        "ja": "ועשירה' אלחברוניין",
+        "en": "and the clan of the Hebronites,",
+        "he": "מִשְׁפַּחַת הַחֶבְרֹנִי"
+      },
+      {
+        "ja": "ועשירה' אלמחליין",
+        "en": "and the clan of the Mahlites,",
+        "he": "מִשְׁפַּחַת הַמַּחְלִי"
+      },
+      {
+        "ja": "ועשירה' אלמושיין",
+        "en": "and the clan of the Mushites,",
+        "he": "מִשְׁפַּחַת הַמּוּשִׁי"
+      },
+      {
+        "ja": "ועשירה' אלקרחיין",
+        "en": "and the clan of the Korahites —",
+        "he": "מִשְׁפַּחַת הַקָּרְחִי"
+      },
+      {
+        "ja": "ואולד קהת",
+        "en": "and Kohath begot",
+        "he": "וּקְהָת"
+      },
+      {
+        "ja": "עמרם",
+        "en": "Amram.",
+        "he": "הוֹלִד אֶת-עַמְרָם"
       }
     ],
     "59": [
       {
-        "ja": "וכאן אסם זוגה' עמרם. יוכבד אבנה' לוי",
-        "en": "And the name of the wife of Amram was Jochebed, daughter of Levi",
-        "he": "וְשֵׁם אֵשֶׁת עַמְרָם יוֹכֶבֶד בַּת-לֵוִי"
+        "ja": "וכאן אסם",
+        "en": "And the name of",
+        "he": "וְשֵׁם"
       },
       {
-        "ja": "אלד'י ולדת ללוי במצר",
-        "en": "who was born to Levi in Egypt",
-        "he": "אֲשֶׁר יָלְדָה אֹתָהּ לְלֵוִי בְּמִצְרָיִם"
+        "ja": "זוגה' עמרם",
+        "en": "the wife of Amram",
+        "he": "אֵשֶׁת עַמְרָם"
       },
       {
-        "ja": "פולדת לעמרם. הרון ומוסי. ומרים אכ'תהם",
-        "en": "and she bore to Amram: Aaron and Moses, and Miriam their sister",
-        "he": "וַתֵּלֶד לְעַמְרָם אֶת-אַהֲרֹן וְאֶת-מֹשֶׁה וְאֵת מִרְיָם אֲחֹתָם"
+        "ja": "יוכבד",
+        "en": "was Jochebed,",
+        "he": "יוֹכֶבֶד"
+      },
+      {
+        "ja": "אבנה' לוי",
+        "en": "daughter of Levi,",
+        "he": "בַּת-לֵוִי"
+      },
+      {
+        "ja": "אלד'י ולדת",
+        "en": "who was born",
+        "he": "אֲשֶׁר יָלְדָה"
+      },
+      {
+        "ja": "ללוי",
+        "en": "to Levi",
+        "he": "לְלֵוִי"
+      },
+      {
+        "ja": "במצר",
+        "en": "in Egypt;",
+        "he": "בְּמִצְרָיִם"
+      },
+      {
+        "ja": "פולדת",
+        "en": "and she bore",
+        "he": "וַתֵּלֶד"
+      },
+      {
+        "ja": "לעמרם",
+        "en": "to Amram:",
+        "he": "לְעַמְרָם"
+      },
+      {
+        "ja": "הרון",
+        "en": "Aaron",
+        "he": "אֶת-אַהֲרֹן"
+      },
+      {
+        "ja": "ומוסי",
+        "en": "and Moses,",
+        "he": "וְאֶת-מֹשֶׁה"
+      },
+      {
+        "ja": "ומרים",
+        "en": "and Miriam",
+        "he": "וְאֵת מִרְיָם"
+      },
+      {
+        "ja": "אכ'תהם",
+        "en": "their sister.",
+        "he": "אֲחֹתָם"
       }
     ],
     "60": [
       {
-        "ja": "פולד להרון. נדב ואביהוא. אלעזר ואיתמר",
-        "en": "And there were born to Aaron: Nadab and Abihu, Eleazar and Ithamar",
-        "he": "וַיִּוָּלֵד לְאַהֲרֹן אֶת-נָדָב וְאֶת-אֲבִיהוּא אֶת-אֶלְעָזָר וְאֶת-אִיתָמָר"
+        "ja": "פולד",
+        "en": "And there were born",
+        "he": "וַיִּוָּלֵד"
+      },
+      {
+        "ja": "להרון",
+        "en": "to Aaron:",
+        "he": "לְאַהֲרֹן"
+      },
+      {
+        "ja": "נדב",
+        "en": "Nadab",
+        "he": "אֶת-נָדָב"
+      },
+      {
+        "ja": "ואביהוא",
+        "en": "and Abihu,",
+        "he": "וְאֶת-אֲבִיהוּא"
+      },
+      {
+        "ja": "אלעזר",
+        "en": "Eleazar",
+        "he": "אֶת-אֶלְעָזָר"
+      },
+      {
+        "ja": "ואיתמר",
+        "en": "and Ithamar.",
+        "he": "וְאֶת-אִיתָמָר"
       }
     ],
     "61": [
       {
-        "ja": "פמאת נדב ואביהוא",
-        "en": "And Nadab and Abihu died",
-        "he": "וַיָּמָת נָדָב וַאֲבִיהוּא"
+        "ja": "פמאת",
+        "en": "And Nadab",
+        "he": "וַיָּמָת"
       },
       {
-        "ja": "חין קרבא נארא ג'ריבא בין ידי אללה",
-        "en": "when the two of them offered strange fire before God",
-        "he": "בְּהַקְרִיבָם אֵשׁ-זָרָה לִפְנֵי יְהוָה"
+        "ja": "נדב",
+        "en": "and Abihu died",
+        "he": "נָדָב"
+      },
+      {
+        "ja": "ואביהוא",
+        "en": "when the two",
+        "he": "וַאֲבִיהוּא"
+      },
+      {
+        "ja": "חין קרבא",
+        "en": "of them offered",
+        "he": "בְּהַקְרִיבָם"
+      },
+      {
+        "ja": "נארא ג'ריבא",
+        "en": "strange fire",
+        "he": "אֵשׁ-זָרָה"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God.",
+        "he": "לִפְנֵי יְהוָה"
       }
     ],
     "62": [
       {
-        "ja": "פכאן עדדהם. ת'לאת'ה ועשרין אלפא",
-        "en": "And their count was twenty-three thousand",
-        "he": "וַיִּהְיוּ פְקֻדֵיהֶם שְׁלֹשָׁה וְעֶשְׂרִים אֶלֶף"
+        "ja": "פכאן עדדהם",
+        "en": "And their count",
+        "he": "וַיִּהְיוּ פְקֻדֵיהֶם"
       },
       {
-        "ja": "כל ד'כר מן אבן שהר פצאעדא",
-        "en": "every male from a month of age and upward",
-        "he": "כָּל-זָכָר מִבֶּן-חֹדֶשׁ וָמָעְלָה"
+        "ja": "ת'לאת'ה",
+        "en": "was twenty-three",
+        "he": "שְׁלֹשָׁה"
       },
       {
-        "ja": "אד' לם יעדו. פי גמלה' בני אסראיל",
-        "en": "since they were not counted among the total of the sons of Israel",
-        "he": "כִּי לֹא הָתְפָּקְדוּ בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
+        "ja": "ועשרין אלפא",
+        "en": "thousand —",
+        "he": "וְעֶשְׂרִים אֶלֶף"
       },
       {
-        "ja": "אד' לם יעטו נחלה פי וסטהם",
-        "en": "since no inheritance was given to them in their midst",
-        "he": "כִּי לֹא-נִתַּן לָהֶם נַחֲלָה בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
+        "ja": "כל ד'כר",
+        "en": "every male",
+        "he": "כָּל-זָכָר"
+      },
+      {
+        "ja": "מן אבן שהר",
+        "en": "from a month of age",
+        "he": "מִבֶּן-חֹדֶשׁ"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "and upward;",
+        "he": "וָמָעְלָה"
+      },
+      {
+        "ja": "אד' לם יעדו",
+        "en": "since they were not counted",
+        "he": "כִּי לֹא הָתְפָּקְדוּ"
+      },
+      {
+        "ja": "פי גמלה' בני אסראיל",
+        "en": "among the total of the sons of Israel,",
+        "he": "בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אד' לם יעטו נחלה",
+        "en": "since no inheritance was given to them",
+        "he": "כִּי לֹא-נִתַּן לָהֶם נַחֲלָה"
+      },
+      {
+        "ja": "פי וסטהם",
+        "en": "in their midst.",
+        "he": "בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
       }
     ],
     "63": [
       {
-        "ja": "הולאי מעדודי מוסי'. ואלעזר אלאמאם",
-        "en": "These are the counts of Moses and Eleazar the priest",
-        "he": "אֵלֶּה פְּקוּדֵי מֹשֶׁה וְאֶלְעָזָר הַכֹּהֵן"
+        "ja": "הולאי",
+        "en": "These are",
+        "he": "אֵלֶּה"
       },
       {
-        "ja": "אלד'י עדא בני אסראיל",
-        "en": "who counted the sons of Israel",
-        "he": "אֲשֶׁר פָּקְדוּ אֶת-בְּנֵי יִשְׂרָאֵל"
+        "ja": "מעדודי מוסי'",
+        "en": "the counts of Moses",
+        "he": "פְּקוּדֵי מֹשֶׁה"
       },
       {
-        "ja": "פי בידאת מואב. עלי' ארדן יריחא",
-        "en": "in the wilderness plain of Moab, by the Jordan of Jericho",
-        "he": "בְּעַרְבֹת מוֹאָב עַל יַרְדֵּן יְרֵחוֹ"
+        "ja": "ואלעזר",
+        "en": "and Eleazar",
+        "he": "וְאֶלְעָזָר"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "the priest,",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "אלד'י עדא",
+        "en": "who counted",
+        "he": "אֲשֶׁר פָּקְדוּ"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "אֶת-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פי בידאת",
+        "en": "in the wilderness plain of",
+        "he": "בְּעַרְבֹת"
+      },
+      {
+        "ja": "מואב",
+        "en": "Moab,",
+        "he": "מוֹאָב"
+      },
+      {
+        "ja": "עלי' ארדן",
+        "en": "by the Jordan of",
+        "he": "עַל יַרְדֵּן"
+      },
+      {
+        "ja": "יריחא",
+        "en": "Jericho.",
+        "he": "יְרֵחוֹ"
       }
     ],
     "64": [
       {
-        "ja": "ופי הולאי לם יכון רגל. מן מעדודי מוסי'. והרון אלאמאם",
-        "en": "And among these there was not a man from among those counted by Moses and Aaron the priest",
-        "he": "וּבְאֵלֶּה לֹא-הָיָה אִישׁ מִפְּקוּדֵי מֹשֶׁה וְאַהֲרֹן הַכֹּהֵן"
+        "ja": "ופי הולאי",
+        "en": "And among these",
+        "he": "וּבְאֵלֶּה"
       },
       {
-        "ja": "אלד'י עדא בני אסראיל פי ברייה' סיני",
-        "en": "who had counted the sons of Israel in the wilderness of Sinai",
-        "he": "אֲשֶׁר פָּקְדוּ אֶת-בְּנֵי יִשְׂרָאֵל בְּמִדְבַּר סִינָי"
+        "ja": "לם יכון רגל",
+        "en": "there was not a man",
+        "he": "לֹא-הָיָה אִישׁ"
+      },
+      {
+        "ja": "מן מעדודי מוסי'",
+        "en": "from among those counted by Moses",
+        "he": "מִפְּקוּדֵי מֹשֶׁה"
+      },
+      {
+        "ja": "והרון",
+        "en": "and Aaron",
+        "he": "וְאַהֲרֹן"
+      },
+      {
+        "ja": "אלאמאם",
+        "en": "the priest,",
+        "he": "הַכֹּהֵן"
+      },
+      {
+        "ja": "אלד'י עדא",
+        "en": "who had counted",
+        "he": "אֲשֶׁר פָּקְדוּ"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "אֶת-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פי ברייה' סיני",
+        "en": "in the wilderness of Sinai —",
+        "he": "בְּמִדְבַּר סִינָי"
       }
     ],
     "65": [
       {
-        "ja": "לאן אללה חכם עליהם. אן יתמאותון פי אלברייה",
-        "en": "for God had decreed upon them that they should die one by one in the wilderness",
-        "he": "כִּי-אָמַר יְהוָה לָהֶם מוֹת יָמֻתוּ בַּמִּדְבָּר"
+        "ja": "לאן",
+        "en": "for",
+        "he": "כִּי-אָמַר"
       },
       {
-        "ja": "ולם יבק מנהם רגל",
-        "en": "and not a man remained of them",
-        "he": "וְלֹא-נוֹתַר מֵהֶם אִישׁ"
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
       },
       {
-        "ja": "אלא כלב אבן יפנה. ויהושע אבן נון",
-        "en": "save Caleb son of Jephunneh, and Joshua son of Nun",
-        "he": "כִּי אִם-כָּלֵב בֶּן-יְפֻנֶּה וִיהוֹשֻׁעַ בִּן-נוּן"
+        "ja": "חכם עליהם",
+        "en": "had decreed upon them",
+        "he": "לָהֶם"
+      },
+      {
+        "ja": "אן יתמאותון",
+        "en": "that they should die one by one",
+        "he": "מוֹת יָמֻתוּ"
+      },
+      {
+        "ja": "פי אלברייה",
+        "en": "in the wilderness;",
+        "he": "בַּמִּדְבָּר"
+      },
+      {
+        "ja": "ולם יבק",
+        "en": "and not a man remained",
+        "he": "וְלֹא-נוֹתַר"
+      },
+      {
+        "ja": "מנהם רגל",
+        "en": "of them,",
+        "he": "מֵהֶם אִישׁ"
+      },
+      {
+        "ja": "אלא כלב",
+        "en": "save Caleb",
+        "he": "כִּי אִם-כָּלֵב"
+      },
+      {
+        "ja": "אבן יפנה",
+        "en": "son of Jephunneh,",
+        "he": "בֶּן-יְפֻנֶּה"
+      },
+      {
+        "ja": "ויהושע",
+        "en": "and Joshua",
+        "he": "וִיהוֹשֻׁעַ"
+      },
+      {
+        "ja": "אבן נון",
+        "en": "son of Nun.",
+        "he": "בִּן-נוּן"
       }
     ]
   }
