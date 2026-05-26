@@ -1,358 +1,1245 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 35. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_35.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 35. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_35.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם כלם אללה מוסי' פי בידאת מואב. עלי' ארדן יריחא תכלימא",
-        "en": "Then God spoke to Moses in the wilderness of Moab, by the Jordan of Jericho directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה בְּעַרְבֹת מוֹאָב עַל-יַרְדֵּן יְרֵחוֹ לֵאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "God spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "to Moses",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "in the wilderness of",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "פי בידאת",
+        "en": "Moab,",
+        "he": "בְּעַרְבֹת"
+      },
+      {
+        "ja": "מואב",
+        "en": "by the",
+        "he": "מוֹאָב"
+      },
+      {
+        "ja": "עלי' ארדן",
+        "en": "Jordan of",
+        "he": "עַל-יַרְדֵּן"
+      },
+      {
+        "ja": "יריחא",
+        "en": "Jericho",
+        "he": "יְרֵחוֹ"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly.",
+        "he": "לֵאמֹר"
       }
     ],
     "2": [
       {
-        "ja": "מר בני אסראיל",
-        "en": "Command the sons of Israel",
-        "he": "צַו אֶת-בְּנֵי יִשְׂרָאֵל"
+        "ja": "מר",
+        "en": "Command",
+        "he": "צַו"
       },
       {
-        "ja": "באן יעטו אלליואניין. מן נחלת חוזהם קרא יסכנוהא",
-        "en": "that they give to the Levites, from the inheritance of their possession, towns to dwell in",
-        "he": "וְנָתְנוּ לַלְוִיִּם מִנַּחֲלַת אֲחֻזָּתָם עָרִים לָשָׁבֶת"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶת-בְּנֵי"
       },
       {
-        "ja": "ואפניה להם חואלי'הא",
-        "en": "and open spaces for them round about them.",
-        "he": "וּמִגְרָשׁ לֶעָרִים סְבִיבֹתֵיהֶם תִּתְּנוּ לַלְוִיִּם"
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "באן יעטו",
+        "en": "that they give",
+        "he": "וְנָתְנוּ"
+      },
+      {
+        "ja": "אלליואניין",
+        "en": "to the Levites,",
+        "he": "לַלְוִיִּם"
+      },
+      {
+        "ja": "מן נחלת",
+        "en": "from the inheritance of",
+        "he": "מִנַּחֲלַת"
+      },
+      {
+        "ja": "חוזהם",
+        "en": "their possession,",
+        "he": "אֲחֻזָּתָם"
+      },
+      {
+        "ja": "קרא",
+        "en": "towns",
+        "he": "עָרִים"
+      },
+      {
+        "ja": "יסכנוהא",
+        "en": "to dwell in,",
+        "he": "לָשָׁבֶת"
+      },
+      {
+        "ja": "ואפניה",
+        "en": "and open spaces",
+        "he": "וּמִגְרָשׁ"
+      },
+      {
+        "ja": "חואלי'הא",
+        "en": "for them round about them.",
+        "he": "סְבִיבֹתֵיהֶם"
       }
     ],
     "3": [
       {
-        "ja": "ותכון אלקרא סכנא להם",
-        "en": "And the towns shall be a dwelling for them",
-        "he": "וְהָיוּ הֶעָרִים לָהֶם לָשָׁבֶת"
+        "ja": "ותכון",
+        "en": "And the towns shall be",
+        "he": "וְהָיוּ"
       },
       {
-        "ja": "ואפניתהא. לבהאימהם וסרחהם וסאיר חיואנהם",
-        "en": "and their open spaces shall be for their beasts and their flocks and the rest of their animals.",
-        "he": "וּמִגְרְשֵׁיהֶם יִהְיוּ לִבְהֶמְתָּם וְלִרְכֻשָׁם וּלְכֹל חַיָּתָם"
+        "ja": "אלקרא",
+        "en": "a dwelling",
+        "he": "הֶעָרִים"
+      },
+      {
+        "ja": "סכנא",
+        "en": "for them,",
+        "he": "לָשָׁבֶת"
+      },
+      {
+        "ja": "להם",
+        "en": "and their open spaces",
+        "he": "לָהֶם"
+      },
+      {
+        "ja": "ואפניתהא",
+        "en": "shall be for their beasts",
+        "he": "וּמִגְרְשֵׁיהֶם"
+      },
+      {
+        "ja": "לבהאימהם",
+        "en": "and their flocks",
+        "he": "לִבְהֶמְתָּם"
+      },
+      {
+        "ja": "וסרחהם",
+        "en": "and the rest of",
+        "he": "וְלִרְכֻשָׁם"
+      },
+      {
+        "ja": "וסאיר חיואנהם",
+        "en": "their animals.",
+        "he": "וּלְכֹל חַיָּתָם"
       }
     ],
     "4": [
       {
-        "ja": "ואפניה' אלקרא. אלתי תעטוהא לאליואניין",
-        "en": "And the open spaces of the towns which you give to the Levites",
-        "he": "וּמִגְרְשֵׁי הֶעָרִים אֲשֶׁר תִּתְּנוּ לַלְוִיִּם"
+        "ja": "ואפניה'",
+        "en": "And the open spaces of",
+        "he": "וּמִגְרְשֵׁי"
       },
       {
-        "ja": "מן כ'ארג חאיט אלקריה. אלף ד'ראע מסתדירא",
-        "en": "shall extend from outside the wall of the town one thousand cubits all around.",
-        "he": "מִקִּיר הָעִיר וָחוּצָה אֶלֶף אַמָּה סָבִיב"
+        "ja": "אלקרא",
+        "en": "the towns",
+        "he": "הֶעָרִים"
+      },
+      {
+        "ja": "אלתי תעטוהא",
+        "en": "which you give",
+        "he": "אֲשֶׁר תִּתְּנוּ"
+      },
+      {
+        "ja": "לאליואניין",
+        "en": "to the Levites",
+        "he": "לַלְוִיִּם"
+      },
+      {
+        "ja": "מן כ'ארג חאיט",
+        "en": "from outside the wall of",
+        "he": "מִקִּיר"
+      },
+      {
+        "ja": "אלקריה",
+        "en": "the town",
+        "he": "הָעִיר"
+      },
+      {
+        "ja": "אלף",
+        "en": "one thousand",
+        "he": "אֶלֶף"
+      },
+      {
+        "ja": "ד'ראע",
+        "en": "cubits",
+        "he": "אַמָּה"
+      },
+      {
+        "ja": "מסתדירא",
+        "en": "all around.",
+        "he": "סָבִיב"
       }
     ],
     "5": [
       {
-        "ja": "ת'ם אמסחו מן כ'ארג אלקריה. אלי' גהה' אלמשרק אלפין ד'ראע",
-        "en": "Then measure from outside the town: toward the east two thousand cubits",
-        "he": "וּמַדֹּתֶם מִחוּץ לָעִיר אֶת-פְּאַת-קֵדְמָה אַלְפַּיִם בָּאַמָּה"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "ואלי' גהה' אלגנוב אלפין ד'ראע",
-        "en": "and toward the south two thousand cubits",
-        "he": "וְאֶת-פְּאַת-נֶגֶב אַלְפַּיִם בָּאַמָּה"
+        "ja": "אמסחו",
+        "en": "measure",
+        "he": "וּמַדֹּתֶם"
       },
       {
-        "ja": "ואלי' גהה' אלג'רב אלפין ד'ראע",
-        "en": "and toward the west two thousand cubits",
-        "he": "וְאֶת-פְּאַת-יָם אַלְפַּיִם בָּאַמָּה"
+        "ja": "מן כ'ארג אלקריה",
+        "en": "from outside the town:",
+        "he": "מִחוּץ לָעִיר"
       },
       {
-        "ja": "ואלי' גהה' אלשמאל. אלפין ד'ראע ואלקריה פי וסטהא",
-        "en": "and toward the north two thousand cubits — with the town in the midst of them.",
-        "he": "וְאֵת פְּאַת צָפוֹן אַלְפַּיִם בָּאַמָּה--וְהָעִיר בַּתָּוֶךְ"
+        "ja": "אלי' גהה' אלמשרק",
+        "en": "toward the east",
+        "he": "אֶת-פְּאַת-קֵדְמָה"
       },
       {
-        "ja": "פד'אלך יכון לכם. מקדאר אפניה' אלקרא",
-        "en": "That shall be for you the measure of the open spaces of the towns.",
-        "he": "זֶה יִהְיֶה לָהֶם מִגְרְשֵׁי הֶעָרִים"
+        "ja": "אלפין ד'ראע",
+        "en": "two thousand cubits,",
+        "he": "אַלְפַּיִם בָּאַמָּה"
+      },
+      {
+        "ja": "ואלי' גהה' אלגנוב",
+        "en": "and toward the south",
+        "he": "וְאֶת-פְּאַת-נֶגֶב"
+      },
+      {
+        "ja": "אלפין ד'ראע",
+        "en": "two thousand cubits,"
+      },
+      {
+        "ja": "ואלי' גהה' אלג'רב",
+        "en": "and toward the west",
+        "he": "וְאֶת-פְּאַת-יָם"
+      },
+      {
+        "ja": "אלפין ד'ראע",
+        "en": "two thousand cubits,"
+      },
+      {
+        "ja": "ואלי' גהה' אלשמאל",
+        "en": "and toward the north",
+        "he": "וְאֵת פְּאַת צָפוֹן"
+      },
+      {
+        "ja": "אלפין ד'ראע",
+        "en": "two thousand cubits —"
+      },
+      {
+        "ja": "ואלקריה",
+        "en": "with the town",
+        "he": "וְהָעִיר"
+      },
+      {
+        "ja": "פי וסטהא",
+        "en": "in the midst of them.",
+        "he": "בַּתָּוֶךְ"
+      },
+      {
+        "ja": "פד'אלך יכון לכם",
+        "en": "That shall be for you",
+        "he": "זֶה יִהְיֶה לָהֶם"
+      },
+      {
+        "ja": "מקדאר אפניה' אלקרא",
+        "en": "the measure of the open spaces of the towns.",
+        "he": "מִגְרְשֵׁי הֶעָרִים"
       }
     ],
     "6": [
       {
-        "ja": "ואלקרא אלד'י תעטוהא לאליואניין",
-        "en": "And the towns which you give to the Levites",
-        "he": "וְאֵת הֶעָרִים אֲשֶׁר תִּתְּנוּ לַלְוִיִּם"
+        "ja": "ואלקרא",
+        "en": "And the towns",
+        "he": "וְאֵת הֶעָרִים"
       },
       {
-        "ja": "מנהא סת קרא אלחמא. אלד'י תעזלוהא. ליהרב אלי'הא אלקאתל",
-        "en": "among them shall be the six towns of refuge which you set apart, so that the killer may flee to them",
-        "he": "אֵת שֵׁשׁ-עָרֵי הַמִּקְלָט אֲשֶׁר תִּתְּנוּ לָנֻס שָׁמָּה הָרֹצֵחַ"
+        "ja": "אלד'י תעטוהא",
+        "en": "which you give",
+        "he": "אֲשֶׁר תִּתְּנוּ"
       },
       {
-        "ja": "ואצ'יפו אלי'הא. את'נין וארבעין קריה",
-        "en": "and add to them forty-two towns.",
-        "he": "וַעֲלֵיהֶם תִּתְּנוּ אַרְבָּעִים וּשְׁתַּיִם עִיר"
+        "ja": "לאליואניין",
+        "en": "to the Levites —",
+        "he": "לַלְוִיִּם"
+      },
+      {
+        "ja": "מנהא סת קרא",
+        "en": "among them shall be the six towns of",
+        "he": "אֵת שֵׁשׁ-עָרֵי"
+      },
+      {
+        "ja": "אלחמא",
+        "en": "refuge",
+        "he": "הַמִּקְלָט"
+      },
+      {
+        "ja": "אלד'י תעזלוהא",
+        "en": "which you set apart,",
+        "he": "אֲשֶׁר תִּתְּנוּ"
+      },
+      {
+        "ja": "ליהרב",
+        "en": "so that",
+        "he": "לָנֻס"
+      },
+      {
+        "ja": "אלקאתל",
+        "en": "the killer may flee to them;",
+        "he": "הָרֹצֵחַ"
+      },
+      {
+        "ja": "ואצ'יפו אלי'הא",
+        "en": "and add to them",
+        "he": "וַעֲלֵיהֶם תִּתְּנוּ"
+      },
+      {
+        "ja": "את'נין וארבעין",
+        "en": "forty-two",
+        "he": "אַרְבָּעִים וּשְׁתַּיִם"
+      },
+      {
+        "ja": "קריה",
+        "en": "towns.",
+        "he": "עִיר"
       }
     ],
     "7": [
       {
-        "ja": "פתציר גמיע אלקרא. אלד'י תעטוהם. תמאניה וארבעין קריה ואפניתהא",
-        "en": "So all the towns which you give shall be forty-eight towns, with their open spaces.",
-        "he": "כָּל-הֶעָרִים אֲשֶׁר תִּתְּנוּ לַלְוִיִּם--אַרְבָּעִים וּשְׁמֹנֶה עִיר אֶתְהֶן וְאֶת-מִגְרְשֵׁיהֶן"
+        "ja": "פתציר גמיע אלקרא",
+        "en": "So all the towns",
+        "he": "כָּל-הֶעָרִים"
+      },
+      {
+        "ja": "אלד'י תעטוהם",
+        "en": "which you give",
+        "he": "אֲשֶׁר תִּתְּנוּ"
+      },
+      {
+        "ja": "תמאניה וארבעין",
+        "en": "shall be forty-eight",
+        "he": "אַרְבָּעִים וּשְׁמֹנֶה"
+      },
+      {
+        "ja": "קריה",
+        "en": "towns,",
+        "he": "עִיר"
+      },
+      {
+        "ja": "ואפניתהא",
+        "en": "with their open spaces.",
+        "he": "וְאֶת-מִגְרְשֵׁיהֶן"
       }
     ],
     "8": [
       {
-        "ja": "ואלקרא. אלד'י תעטונהם מן חוז בני אסראיל",
-        "en": "And the towns which you give from the possession of the sons of Israel",
-        "he": "וְהֶעָרִים אֲשֶׁר תִּתְּנוּ מֵאֲחֻזַּת בְּנֵי-יִשְׂרָאֵל"
+        "ja": "ואלקרא",
+        "en": "And the towns",
+        "he": "וְהֶעָרִים"
       },
       {
-        "ja": "ממן אכ'ד' כת'ירא כת'רו. ומן מן אכ'ד' קלילא קללו",
-        "en": "from him who took much, give more; and from him who took little, give less",
-        "he": "מֵאֵת הָרַב תַּרְבּוּ וּמֵאֵת הַמְעַט תַּמְעִיטוּ"
+        "ja": "אלד'י תעטונהם",
+        "en": "which you give",
+        "he": "אֲשֶׁר תִּתְּנוּ"
       },
       {
-        "ja": "פליעט כל סבט עלי' קדר נחלתה",
-        "en": "each tribe shall give according to the measure of its inheritance.",
-        "he": "אִישׁ כְּפִי נַחֲלָתוֹ אֲשֶׁר יִנְחָלוּ יִתֵּן מֵעָרָיו לַלְוִיִּם"
+        "ja": "מן חוז",
+        "en": "from the possession of",
+        "he": "מֵאֲחֻזַּת"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel —",
+        "he": "בְּנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ממן אכ'ד' כת'ירא",
+        "en": "from him who took much,",
+        "he": "מֵאֵת הָרַב"
+      },
+      {
+        "ja": "כת'רו",
+        "en": "give more;",
+        "he": "תַּרְבּוּ"
+      },
+      {
+        "ja": "ומן מן אכ'ד' קלילא",
+        "en": "and from him who took little,",
+        "he": "וּמֵאֵת הַמְעַט"
+      },
+      {
+        "ja": "קללו",
+        "en": "give less;",
+        "he": "תַּמְעִיטוּ"
+      },
+      {
+        "ja": "פליעט כל סבט",
+        "en": "each tribe shall give",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "עלי' קדר נחלתה",
+        "en": "according to the measure of its inheritance.",
+        "he": "כְּפִי נַחֲלָתוֹ"
       }
     ],
     "9": [
       {
-        "ja": "ת'ם כלם אללה מוסי' תכלימא",
-        "en": "Then God spoke to Moses directly.",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "God spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "to",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "directly.",
+        "he": "לֵּאמֹר"
       }
     ],
     "10": [
       {
-        "ja": "מר בני אסראיל. וקל להם",
-        "en": "Command the sons of Israel, and say to them:",
-        "he": "דַּבֵּר אֶל-בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם"
+        "ja": "מר",
+        "en": "Command",
+        "he": "דַּבֵּר"
       },
       {
-        "ja": "אד'א אנתם. גזתם אלארדן אלי' בלד כנעאן",
-        "en": "When you have crossed the Jordan into the land of Canaan,",
-        "he": "כִּי אַתֶּם עֹבְרִים אֶת-הַיַּרְדֵּן אַרְצָה כְּנָעַן"
+        "ja": "בני",
+        "en": "the sons of",
+        "he": "אֶל-בְּנֵי"
+      },
+      {
+        "ja": "אסראיל",
+        "en": "Israel,",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "להם",
+        "en": "to them:",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "אד'א אנתם",
+        "en": "When you",
+        "he": "כִּי אַתֶּם"
+      },
+      {
+        "ja": "גזתם",
+        "en": "have crossed",
+        "he": "עֹבְרִים"
+      },
+      {
+        "ja": "אלארדן",
+        "en": "the Jordan",
+        "he": "אֶת-הַיַּרְדֵּן"
+      },
+      {
+        "ja": "אלי' בלד כנעאן",
+        "en": "into the land of Canaan,",
+        "he": "אַרְצָה כְּנָעַן"
       }
     ],
     "11": [
       {
-        "ja": "פאסמו לכם קרא חמא. יהרב אלי'ה",
-        "en": "then designate for yourselves towns of refuge",
-        "he": "וְהִקְרִיתֶם לָכֶם עָרִים עָרֵי מִקְלָט תִּהְיֶינָה לָכֶם"
+        "ja": "פאסמו",
+        "en": "then designate",
+        "he": "וְהִקְרִיתֶם"
       },
       {
-        "ja": "אי קאתל. קתל נפסא סהוא",
-        "en": "so that any killer who has slain a person unintentionally may flee to them.",
-        "he": "וְנָס שָׁמָּה רֹצֵחַ מַכֵּה-נֶפֶשׁ בִּשְׁגָגָה"
+        "ja": "לכם",
+        "en": "for yourselves",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "קרא",
+        "en": "towns of",
+        "he": "עָרִים"
+      },
+      {
+        "ja": "חמא",
+        "en": "refuge,",
+        "he": "עָרֵי מִקְלָט"
+      },
+      {
+        "ja": "יהרב אלי'ה",
+        "en": "so that any killer",
+        "he": "וְנָס שָׁמָּה"
+      },
+      {
+        "ja": "אי קאתל",
+        "en": "who has slain",
+        "he": "רֹצֵחַ"
+      },
+      {
+        "ja": "קתל נפסא",
+        "en": "a person unintentionally",
+        "he": "מַכֵּה-נֶפֶשׁ"
+      },
+      {
+        "ja": "סהוא",
+        "en": "may flee to them.",
+        "he": "בִּשְׁגָגָה"
       }
     ],
     "12": [
       {
-        "ja": "פתכון תלך אלקרא. תחמיה מן אלולי",
-        "en": "And those towns shall be a protection from the blood-avenger",
-        "he": "וְהָיוּ לָכֶם הֶעָרִים לְמִקְלָט מִגֹּאֵל"
+        "ja": "פתכון",
+        "en": "And those towns shall be",
+        "he": "וְהָיוּ"
       },
       {
-        "ja": "ולא יקתל. חתי' יקף. בין ידי אלגמאעה פיחכמון עליה בד'אלך",
-        "en": "and he shall not be killed until he has stood before the assembly, that they may judge him in this matter.",
-        "he": "וְלֹא יָמוּת הָרֹצֵחַ עַד-עָמְדוֹ לִפְנֵי הָעֵדָה לַמִּשְׁפָּט"
+        "ja": "תלך אלקרא",
+        "en": "a protection",
+        "he": "הֶעָרִים"
+      },
+      {
+        "ja": "תחמיה",
+        "en": "from the blood-avenger;",
+        "he": "לְמִקְלָט"
+      },
+      {
+        "ja": "מן אלולי",
+        "en": "and he shall not be killed",
+        "he": "מִגֹּאֵל"
+      },
+      {
+        "ja": "ולא יקתל",
+        "en": "until he has stood",
+        "he": "וְלֹא יָמוּת"
+      },
+      {
+        "ja": "חתי' יקף",
+        "en": "before the assembly,",
+        "he": "עַד-עָמְדוֹ"
+      },
+      {
+        "ja": "בין ידי אלגמאעה",
+        "en": "that they may judge",
+        "he": "לִפְנֵי הָעֵדָה"
+      },
+      {
+        "ja": "פיחכמון עליה בד'אלך",
+        "en": "him in this matter.",
+        "he": "לַמִּשְׁפָּט"
       }
     ],
     "13": [
       {
-        "ja": "ואלקרא אלתי תעזלונהא. סת קרא חמא תכון לכם",
-        "en": "And the towns which you set apart — six towns of refuge shall they be for you.",
-        "he": "וְהֶעָרִים אֲשֶׁר תִּתֵּנוּ--שֵׁשׁ-עָרֵי מִקְלָט תִּהְיֶינָה לָכֶם"
+        "ja": "ואלקרא",
+        "en": "And the towns",
+        "he": "וְהֶעָרִים"
+      },
+      {
+        "ja": "אלתי תעזלונהא",
+        "en": "which you set apart —",
+        "he": "אֲשֶׁר תִּתֵּנוּ"
+      },
+      {
+        "ja": "סת קרא",
+        "en": "six towns of",
+        "he": "שֵׁשׁ-עָרֵי"
+      },
+      {
+        "ja": "חמא",
+        "en": "refuge",
+        "he": "מִקְלָט"
+      },
+      {
+        "ja": "תכון",
+        "en": "shall they be",
+        "he": "תִּהְיֶינָה"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you.",
+        "he": "לָכֶם"
       }
     ],
     "14": [
       {
-        "ja": "ת'לאת' מנהא פי עבר אלארדן",
-        "en": "Three of them shall be across the Jordan",
-        "he": "אֵת שְׁלֹשׁ הֶעָרִים תִּתְּנוּ מֵעֵבֶר לַיַּרְדֵּן"
+        "ja": "ת'לאת' מנהא",
+        "en": "Three of them",
+        "he": "אֵת שְׁלֹשׁ"
       },
       {
-        "ja": "ות'לאת' מנהא פי בלד כנעאן. תכון קרא חמא",
-        "en": "and three of them shall be in the land of Canaan — they shall be towns of refuge.",
-        "he": "וְאֵת שְׁלֹשׁ הֶעָרִים תִּתְּנוּ בְּאֶרֶץ כְּנָעַן עָרֵי מִקְלָט תִּהְיֶינָה"
+        "ja": "פי עבר אלארדן",
+        "en": "shall be across the Jordan,",
+        "he": "מֵעֵבֶר לַיַּרְדֵּן"
+      },
+      {
+        "ja": "ות'לאת' מנהא",
+        "en": "and three of them",
+        "he": "וְאֵת שְׁלֹשׁ"
+      },
+      {
+        "ja": "פי בלד כנעאן",
+        "en": "shall be in the land of Canaan —",
+        "he": "בְּאֶרֶץ כְּנָעַן"
+      },
+      {
+        "ja": "תכון קרא חמא",
+        "en": "they shall be towns of refuge.",
+        "he": "עָרֵי מִקְלָט"
       }
     ],
     "15": [
       {
-        "ja": "לבני אסראיל. ולאלג'ריב אלדכ'יל פי מא בינהם",
-        "en": "For the sons of Israel and for the stranger and for the guest who has entered among them",
-        "he": "לִבְנֵי יִשְׂרָאֵל וְלַגֵּר וְלַתּוֹשָׁב בְּתוֹכָם"
+        "ja": "לבני",
+        "en": "For the sons of",
+        "he": "לִבְנֵי"
       },
       {
-        "ja": "יהרב אלי'הא. כל מן קתל נפסא סהוא",
-        "en": "every one who has slain a person unintentionally may flee to them.",
-        "he": "תִּהְיֶינָה שֵׁשׁ-הֶעָרִים הָאֵלֶּה לְמִקְלָט--לָנוּס שָׁמָּה כָּל-מַכֵּה-נֶפֶשׁ בִּשְׁגָגָה"
+        "ja": "אסראיל",
+        "en": "Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ולאלג'ריב",
+        "en": "and for the stranger",
+        "he": "וְלַגֵּר"
+      },
+      {
+        "ja": "אלדכ'יל",
+        "en": "and for the guest",
+        "he": "וְלַתּוֹשָׁב"
+      },
+      {
+        "ja": "פי מא בינהם",
+        "en": "who has entered among them —",
+        "he": "בְּתוֹכָם"
+      },
+      {
+        "ja": "יהרב אלי'הא",
+        "en": "every one who has slain",
+        "he": "תִּהְיֶינָה שֵׁשׁ-הֶעָרִים"
+      },
+      {
+        "ja": "כל מן קתל נפסא",
+        "en": "a person unintentionally",
+        "he": "כָּל-מַכֵּה-נֶפֶשׁ"
+      },
+      {
+        "ja": "סהוא",
+        "en": "may flee to them.",
+        "he": "בִּשְׁגָגָה"
       }
     ],
     "16": [
       {
-        "ja": "ואמא אן כאן צ'רבה. באנא חדיד פקתלה",
-        "en": "But if he struck him with an iron implement and killed him",
-        "he": "וְאִם-בִּכְלִי בַרְזֶל הִכָּהוּ וַיָּמֹת"
+        "ja": "ואמא אן כאן",
+        "en": "But if",
+        "he": "וְאִם"
       },
       {
-        "ja": "פהו קאתל יסתחק אלקתל",
-        "en": "he is a killer who deserves to be put to death.",
-        "he": "רֹצֵחַ הוּא מוֹת יוּמַת הָרֹצֵחַ"
+        "ja": "צ'רבה",
+        "en": "he struck him with an iron implement",
+        "he": "בִּכְלִי בַרְזֶל"
+      },
+      {
+        "ja": "באנא חדיד",
+        "en": "and killed him,"
+      },
+      {
+        "ja": "פקתלה",
+        "en": "he is a killer",
+        "he": "הִכָּהוּ וַיָּמֹת"
+      },
+      {
+        "ja": "פהו קאתל",
+        "en": "who deserves",
+        "he": "רֹצֵחַ הוּא"
+      },
+      {
+        "ja": "יסתחק אלקתל",
+        "en": "to be put to death.",
+        "he": "מוֹת יוּמַת הָרֹצֵחַ"
       }
     ],
     "17": [
       {
-        "ja": "או צ'רבה בחגר. מקבוץ' מקדאר מא ימות בהא פקתלה",
-        "en": "Or if he struck him with a stone held in the hand, of a size sufficient to cause death, and killed him",
-        "he": "וְאִם בְּאֶבֶן יָד אֲשֶׁר-יָמוּת בָּהּ הִכָּהוּ וַיָּמֹת"
+        "ja": "או",
+        "en": "Or if",
+        "he": "וְאִם"
       },
       {
-        "ja": "פהו קאתל יסתחק אלקתל",
-        "en": "he is a killer who deserves to be put to death.",
-        "he": "רֹצֵחַ הוּא מוֹת יוּמַת הָרֹצֵחַ"
+        "ja": "צ'רבה בחגר",
+        "en": "he struck him with a stone",
+        "he": "בְּאֶבֶן"
+      },
+      {
+        "ja": "מקבוץ'",
+        "en": "held in the hand,",
+        "he": "יָד"
+      },
+      {
+        "ja": "מקדאר מא ימות בהא",
+        "en": "of a size sufficient to cause death,",
+        "he": "אֲשֶׁר-יָמוּת בָּהּ"
+      },
+      {
+        "ja": "פקתלה",
+        "en": "and killed him,",
+        "he": "הִכָּהוּ וַיָּמֹת"
+      },
+      {
+        "ja": "פהו קאתל",
+        "en": "he is a killer",
+        "he": "רֹצֵחַ הוּא"
+      },
+      {
+        "ja": "יסתחק אלקתל",
+        "en": "who deserves to be put to death.",
+        "he": "מוֹת יוּמַת הָרֹצֵחַ"
       }
     ],
     "18": [
       {
-        "ja": "או צ'רבה באנא כ'שב. מקבוץ' מקדאר מא ימות בה פקתלה",
-        "en": "Or if he struck him with a wooden implement held in the hand, of a size sufficient to cause death, and killed him",
-        "he": "אוֹ בִּכְלִי עֵץ-יָד אֲשֶׁר-יָמוּת בּוֹ הִכָּהוּ וַיָּמֹת"
+        "ja": "או",
+        "en": "Or",
+        "he": "אוֹ"
       },
       {
-        "ja": "פהו קאתל יסתחק אלקתל",
-        "en": "he is a killer who deserves to be put to death.",
-        "he": "רֹצֵחַ הוּא מוֹת יוּמַת הָרֹצֵחַ"
+        "ja": "צ'רבה באנא כ'שב",
+        "en": "if he struck him with a wooden implement",
+        "he": "בִּכְלִי עֵץ-יָד"
+      },
+      {
+        "ja": "מקבוץ' מקדאר מא ימות בה",
+        "en": "held in the hand, of a size sufficient to cause death,",
+        "he": "אֲשֶׁר-יָמוּת בּוֹ"
+      },
+      {
+        "ja": "פקתלה",
+        "en": "and killed him,",
+        "he": "הִכָּהוּ וַיָּמֹת"
+      },
+      {
+        "ja": "פהו קאתל",
+        "en": "he is a killer",
+        "he": "רֹצֵחַ הוּא"
+      },
+      {
+        "ja": "יסתחק אלקתל",
+        "en": "who deserves to be put to death.",
+        "he": "מוֹת יוּמַת הָרֹצֵחַ"
       }
     ],
     "19": [
       {
-        "ja": "ולי אלדם הו יקתלה אד'א פאגאה בחק",
-        "en": "The blood-avenger — he shall put him to death when he encounters him, rightfully.",
-        "he": "גֹּאֵל הַדָּם הוּא יָמִית אֶת-הָרֹצֵחַ בְּפִגְעוֹ-בוֹ הוּא יְמִתֶנּוּ"
+        "ja": "ולי",
+        "en": "The blood-avenger —",
+        "he": "גֹּאֵל"
+      },
+      {
+        "ja": "אלדם",
+        "en": "he shall",
+        "he": "הַדָּם"
+      },
+      {
+        "ja": "הו יקתלה",
+        "en": "put him to death",
+        "he": "הוּא יָמִית"
+      },
+      {
+        "ja": "אד'א פאגאה",
+        "en": "when he encounters him,",
+        "he": "בְּפִגְעוֹ-בוֹ"
+      },
+      {
+        "ja": "בחק",
+        "en": "rightfully.",
+        "he": "הוּא יְמִתֶנּוּ"
       }
     ],
     "20": [
       {
-        "ja": "ואן דפעה בשנאה. או טרח עלי'ה שייא. בתעמד פקתלה",
-        "en": "And if he shoved him out of hatred, or hurled something at him deliberately, and killed him,",
-        "he": "וְאִם-בְּשִׂנְאָה יֶהְדֳּפֶנּוּ אוֹ-הִשְׁלִיךְ עָלָיו בִּצְדִיָּה וַיָּמֹת"
+        "ja": "ואן",
+        "en": "And if",
+        "he": "וְאִם"
+      },
+      {
+        "ja": "בשנאה",
+        "en": "he shoved him out of hatred,",
+        "he": "בְּשִׂנְאָה"
+      },
+      {
+        "ja": "דפעה",
+        "en": "or",
+        "he": "יֶהְדֳּפֶנּוּ"
+      },
+      {
+        "ja": "או טרח עלי'ה",
+        "en": "hurled something",
+        "he": "אוֹ-הִשְׁלִיךְ"
+      },
+      {
+        "ja": "שייא",
+        "en": "at him",
+        "he": "עָלָיו"
+      },
+      {
+        "ja": "בתעמד",
+        "en": "deliberately,",
+        "he": "בִּצְדִיָּה"
+      },
+      {
+        "ja": "פקתלה",
+        "en": "and killed him,",
+        "he": "וַיָּמֹת"
       }
     ],
     "21": [
       {
-        "ja": "או צ'רבה בידה בעדאוה פקתלה. פליקתל אלצ'ארב קתלא לאנה קאתל",
-        "en": "or struck him with his hand out of enmity and killed him — then the striker shall surely be put to death, for he is a killer",
-        "he": "אוֹ בְאֵיבָה הִכָּהוּ בְיָדוֹ וַיָּמֹת--מוֹת-יוּמַת הַמַּכֶּה רֹצֵחַ הוּא"
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
       },
       {
-        "ja": "פולי אלדם יקתלה אד'א פאגאה בחק",
-        "en": "the blood-avenger shall put him to death when he encounters him, rightfully.",
-        "he": "גֹּאֵל הַדָּם יָמִית אֶת-הָרֹצֵחַ--בְּפִגְעוֹ-בוֹ"
+        "ja": "צ'רבה בידה בעדאוה",
+        "en": "struck him with his hand out of enmity",
+        "he": "בְאֵיבָה"
+      },
+      {
+        "ja": "פקתלה",
+        "en": "and killed him —",
+        "he": "הִכָּהוּ"
+      },
+      {
+        "ja": "פליקתל אלצ'ארב קתלא",
+        "en": "then the striker shall surely be put to death,",
+        "he": "מוֹת-יוּמַת הַמַּכֶּה"
+      },
+      {
+        "ja": "לאנה קאתל",
+        "en": "for he is a killer;",
+        "he": "רֹצֵחַ הוּא"
+      },
+      {
+        "ja": "פולי אלדם",
+        "en": "the blood-avenger",
+        "he": "גֹּאֵל הַדָּם"
+      },
+      {
+        "ja": "יקתלה",
+        "en": "shall put him to death",
+        "he": "יָמִית"
+      },
+      {
+        "ja": "אד'א פאגאה בחק",
+        "en": "when he encounters him, rightfully.",
+        "he": "בְּפִגְעוֹ-בוֹ"
       }
     ],
     "22": [
       {
-        "ja": "ואן דפעה בג'תה בלא בג'צ'ה. או טרח עלי'ה. אייה' אניה בלא תעמד",
-        "en": "But if he pushed him suddenly without hatred, or threw any implement at him without intent,",
-        "he": "וְאִם-בְּפֶתַע בְּלֹא-אֵיבָה הֲדָפוֹ אוֹ-הִשְׁלִיךְ עָלָיו כָּל-כְּלִי בְּלֹא צְדִיָּה"
+        "ja": "ואן",
+        "en": "But if",
+        "he": "וְאִם"
+      },
+      {
+        "ja": "דפעה בג'תה",
+        "en": "he pushed him suddenly",
+        "he": "בְּפֶתַע"
+      },
+      {
+        "ja": "בלא בג'צ'ה",
+        "en": "without hatred,",
+        "he": "בְּלֹא-אֵיבָה"
+      },
+      {
+        "ja": "או",
+        "en": "or",
+        "he": "הֲדָפוֹ"
+      },
+      {
+        "ja": "טרח עלי'ה",
+        "en": "threw any implement",
+        "he": "אוֹ-הִשְׁלִיךְ"
+      },
+      {
+        "ja": "אייה' אניה",
+        "en": "at him",
+        "he": "כָּל-כְּלִי"
+      },
+      {
+        "ja": "בלא תעמד",
+        "en": "without intent,",
+        "he": "בְּלֹא צְדִיָּה"
       }
     ],
     "23": [
       {
-        "ja": "או אוקע עלי'ה. אי חגר כאן בלא תעמד פמאת",
-        "en": "or dropped upon him any stone — without intent — and he died",
-        "he": "אוֹ בְכָל-אֶבֶן אֲשֶׁר-יָמוּת בָּהּ בְּלֹא רְאוֹת וַיַּפֵּל עָלָיו וַיָּמֹת"
+        "ja": "או",
+        "en": "or",
+        "he": "אוֹ"
       },
       {
-        "ja": "והו פי ד'אלך ליס בעדו לה. ולא טאלב שרה",
-        "en": "and he was not his enemy and was not seeking his harm,",
-        "he": "וְהוּא לֹא-אוֹיֵב לוֹ וְלֹא מְבַקֵּשׁ רָעָתוֹ"
+        "ja": "אוקע עלי'ה",
+        "en": "dropped upon him",
+        "he": "בְכָל-אֶבֶן"
+      },
+      {
+        "ja": "אי חגר כאן",
+        "en": "any stone —",
+        "he": "אֲשֶׁר-יָמוּת בָּהּ"
+      },
+      {
+        "ja": "בלא תעמד",
+        "en": "without intent —",
+        "he": "בְּלֹא רְאוֹת"
+      },
+      {
+        "ja": "פמאת",
+        "en": "and he died,",
+        "he": "וַיַּפֵּל עָלָיו"
+      },
+      {
+        "ja": "והו פי ד'אלך",
+        "en": "and he was",
+        "he": "וְהוּא"
+      },
+      {
+        "ja": "ליס בעדו לה",
+        "en": "not his enemy",
+        "he": "לֹא-אוֹיֵב לוֹ"
+      },
+      {
+        "ja": "ולא טאלב",
+        "en": "and was not seeking",
+        "he": "וְלֹא מְבַקֵּשׁ"
+      },
+      {
+        "ja": "שרה",
+        "en": "his harm,",
+        "he": "רָעָתוֹ"
       }
     ],
     "24": [
       {
-        "ja": "פלתחכם אלגמאעה. בין אלקאתל ובין אלולי. בהד'א אלאחכאם",
-        "en": "then the assembly shall judge between the killer and the blood-avenger, according to these ordinances.",
-        "he": "וְשָׁפְטוּ הָעֵדָה בֵּין הַמַּכֶּה וּבֵין גֹּאֵל הַדָּם--עַל הַמִּשְׁפָּטִים הָאֵלֶּה"
+        "ja": "פלתחכם",
+        "en": "then the assembly shall judge",
+        "he": "וְשָׁפְטוּ"
+      },
+      {
+        "ja": "אלגמאעה",
+        "en": "between the killer",
+        "he": "הָעֵדָה"
+      },
+      {
+        "ja": "בין אלקאתל",
+        "en": "and the blood-avenger,",
+        "he": "בֵּין הַמַּכֶּה"
+      },
+      {
+        "ja": "ובין אלולי",
+        "en": "according to",
+        "he": "וּבֵין גֹּאֵל הַדָּם"
+      },
+      {
+        "ja": "בהד'א",
+        "en": "these",
+        "he": "עַל הַמִּשְׁפָּטִים"
+      },
+      {
+        "ja": "אלאחכאם",
+        "en": "ordinances.",
+        "he": "הָאֵלֶּה"
       }
     ],
     "25": [
       {
-        "ja": "ותכ'לץ. אלגמאעה הד'א אלקאתל. מן יד אלולי",
-        "en": "And the assembly shall deliver this killer from the hand of the blood-avenger",
-        "he": "וְהִצִּילוּ הָעֵדָה אֶת-הָרֹצֵחַ מִיַּד גֹּאֵל הַדָּם"
+        "ja": "ותכ'לץ",
+        "en": "And the assembly shall deliver",
+        "he": "וְהִצִּילוּ"
       },
       {
-        "ja": "ותרדה אלי' קריה' חמאה אלתי הרב אלי'הא ויקים ת'ם",
-        "en": "and shall return him to the town of refuge to which he fled; and he shall remain there",
-        "he": "וְהֵשִׁיבוּ אֹתוֹ הָעֵדָה אֶל-עִיר מִקְלָטוֹ אֲשֶׁר-נָס שָׁמָּה וְיָשַׁב בָּהּ"
+        "ja": "אלגמאעה",
+        "en": "this killer",
+        "he": "הָעֵדָה"
       },
       {
-        "ja": "אלי' מות אלאמאם אלכביר. אלד'י מסח בדהן אלקדס",
-        "en": "until the death of the great imām who was anointed with the oil of holiness.",
-        "he": "עַד-מוֹת הַכֹּהֵן הַגָּדֹל אֲשֶׁר-מָשַׁח אֹתוֹ בְּשֶׁמֶן הַקֹּדֶשׁ"
+        "ja": "הד'א אלקאתל",
+        "en": "from the hand of",
+        "he": "אֶת-הָרֹצֵחַ"
+      },
+      {
+        "ja": "מן יד אלולי",
+        "en": "the blood-avenger,",
+        "he": "מִיַּד גֹּאֵל הַדָּם"
+      },
+      {
+        "ja": "ותרדה",
+        "en": "and shall return him",
+        "he": "וְהֵשִׁיבוּ"
+      },
+      {
+        "ja": "אלי' קריה' חמאה",
+        "en": "to the town of refuge",
+        "he": "אֶל-עִיר מִקְלָטוֹ"
+      },
+      {
+        "ja": "אלתי הרב אלי'הא",
+        "en": "to which he fled;",
+        "he": "אֲשֶׁר-נָס שָׁמָּה"
+      },
+      {
+        "ja": "ויקים ת'ם",
+        "en": "and he shall remain there",
+        "he": "וְיָשַׁב בָּהּ"
+      },
+      {
+        "ja": "אלי' מות",
+        "en": "until the death of",
+        "he": "עַד-מוֹת"
+      },
+      {
+        "ja": "אלאמאם אלכביר",
+        "en": "the great imām",
+        "he": "הַכֹּהֵן הַגָּדֹל"
+      },
+      {
+        "ja": "אלד'י מסח",
+        "en": "who was anointed",
+        "he": "אֲשֶׁר-מָשַׁח"
+      },
+      {
+        "ja": "בדהן אלקדס",
+        "en": "with the oil of holiness.",
+        "he": "בְּשֶׁמֶן הַקֹּדֶשׁ"
       }
     ],
     "26": [
       {
-        "ja": "פאן הו כ'רג ען חד קריה חמאה. אלתי הרב אלי'הא",
-        "en": "But if he goes out beyond the boundary of the town of refuge to which he fled,",
-        "he": "וְאִם-יָצֹא יֵצֵא הָרֹצֵחַ אֶת-גְּבוּל עִיר מִקְלָטוֹ אֲשֶׁר יָנוּס שָׁמָּה"
+        "ja": "פאן הו",
+        "en": "But if he",
+        "he": "וְאִם"
+      },
+      {
+        "ja": "כ'רג",
+        "en": "goes out",
+        "he": "יָצֹא יֵצֵא"
+      },
+      {
+        "ja": "ען חד",
+        "en": "beyond the boundary of",
+        "he": "אֶת-גְּבוּל"
+      },
+      {
+        "ja": "קריה חמאה",
+        "en": "the town of refuge",
+        "he": "עִיר מִקְלָטוֹ"
+      },
+      {
+        "ja": "אלתי הרב אלי'הא",
+        "en": "to which he fled,",
+        "he": "אֲשֶׁר יָנוּס שָׁמָּה"
       }
     ],
     "27": [
       {
-        "ja": "פוגדה אלולי. כ'ארג ען חד קריה' חמאה",
-        "en": "and the blood-avenger finds him outside the boundary of the town of refuge",
-        "he": "וּמָצָא אֹתוֹ גֹּאֵל הַדָּם מִחוּץ לִגְבוּל עִיר מִקְלָטוֹ"
+        "ja": "פוגדה",
+        "en": "and the blood-avenger finds him",
+        "he": "וּמָצָא"
       },
       {
-        "ja": "פקתלה. פלא ת'יאר לה",
-        "en": "and kills him — there is no vengeance for him.",
-        "he": "וְרָצַח גֹּאֵל הַדָּם אֶת-הָרֹצֵחַ--אֵין לוֹ דָּם"
+        "ja": "אלולי",
+        "en": "outside the boundary",
+        "he": "גֹּאֵל הַדָּם"
+      },
+      {
+        "ja": "כ'ארג ען חד",
+        "en": "of the town of refuge",
+        "he": "מִחוּץ לִגְבוּל"
+      },
+      {
+        "ja": "קריה' חמאה",
+        "en": "and kills him —",
+        "he": "עִיר מִקְלָטוֹ"
+      },
+      {
+        "ja": "פקתלה",
+        "en": "there is no",
+        "he": "וְרָצַח גֹּאֵל הַדָּם"
+      },
+      {
+        "ja": "פלא ת'יאר לה",
+        "en": "vengeance for him.",
+        "he": "אֵין לוֹ דָּם"
       }
     ],
     "28": [
       {
-        "ja": "בל יגלס פי קריה' חמאה. אלי' מות אלאמאם אלכביר",
-        "en": "Rather, he must stay in the town of refuge until the death of the great imām",
-        "he": "כִּי בְעִיר מִקְלָטוֹ יֵשֵׁב עַד-מוֹת הַכֹּהֵן הַגָּדֹל"
+        "ja": "בל",
+        "en": "Rather,",
+        "he": "כִּי"
       },
       {
-        "ja": "ובעד מותה. ירגע אלי' ארץ' חוזה",
-        "en": "and after his death he may return to the land of his possession.",
-        "he": "וְאַחֲרֵי מוֹת הַכֹּהֵן הַגָּדֹל--יָשׁוּב הָרֹצֵחַ אֶל-אֶרֶץ אֲחֻזָּתוֹ"
+        "ja": "יגלס פי קריה' חמאה",
+        "en": "he must stay in the town of refuge",
+        "he": "בְעִיר מִקְלָטוֹ"
+      },
+      {
+        "ja": "אלי' מות",
+        "en": "until the death of",
+        "he": "יֵשֵׁב עַד-מוֹת"
+      },
+      {
+        "ja": "אלאמאם אלכביר",
+        "en": "the great imām;",
+        "he": "הַכֹּהֵן הַגָּדֹל"
+      },
+      {
+        "ja": "ובעד מותה",
+        "en": "and after his death",
+        "he": "וְאַחֲרֵי מוֹת"
+      },
+      {
+        "ja": "ירגע",
+        "en": "he may return",
+        "he": "הַכֹּהֵן הַגָּדֹל"
+      },
+      {
+        "ja": "אלי' ארץ'",
+        "en": "to the land of",
+        "he": "יָשׁוּב הָרֹצֵחַ"
+      },
+      {
+        "ja": "חוזה",
+        "en": "his possession.",
+        "he": "אֶל-אֶרֶץ אֲחֻזָּתוֹ"
       }
     ],
     "29": [
       {
-        "ja": "פתכון הד'ה לכם חכם עלי' מר אגיאלכם פי גמיע מסאכנכם",
-        "en": "And these shall be ordinances for you throughout the passing of your generations, in all your dwellings.",
-        "he": "וְהָיוּ אֵלֶּה לָכֶם לְחֻקַּת מִשְׁפָּט לְדֹרֹתֵיכֶם בְּכֹל מוֹשְׁבֹתֵיכֶם"
+        "ja": "פתכון",
+        "en": "And these shall be",
+        "he": "וְהָיוּ"
+      },
+      {
+        "ja": "הד'ה",
+        "en": "ordinances",
+        "he": "אֵלֶּה"
+      },
+      {
+        "ja": "לכם",
+        "en": "for you",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "חכם",
+        "en": "throughout",
+        "he": "לְחֻקַּת מִשְׁפָּט"
+      },
+      {
+        "ja": "עלי' מר אגיאלכם",
+        "en": "the passing of your generations,",
+        "he": "לְדֹרֹתֵיכֶם"
+      },
+      {
+        "ja": "פי גמיע מסאכנכם",
+        "en": "in all your dwellings.",
+        "he": "בְּכֹל מוֹשְׁבֹתֵיכֶם"
       }
     ],
     "30": [
       {
-        "ja": "כל מן קתל נפסא עאמדא. פבקול שאהדין אקתלוה",
-        "en": "Every one who has slain a person intentionally — by the word of two witnesses put him to death",
-        "he": "כָּל-מַכֵּה-נֶפֶשׁ--לְפִי עֵדִים יִרְצַח אֶת-הָרֹצֵחַ"
+        "ja": "כל מן קתל נפסא",
+        "en": "Every one who has slain a person",
+        "he": "כָּל-מַכֵּה-נֶפֶשׁ"
       },
       {
-        "ja": "ואמא שאהד ואחד. פלא ישהד עלי'ה פיקתל",
-        "en": "but a single witness shall not testify against him so that he be put to death.",
-        "he": "וְעֵד אֶחָד לֹא-יַעֲנֶה בְנֶפֶשׁ לָמוּת"
+        "ja": "עאמדא",
+        "en": "intentionally —"
+      },
+      {
+        "ja": "פבקול שאהדין",
+        "en": "by the word of two witnesses",
+        "he": "לְפִי עֵדִים"
+      },
+      {
+        "ja": "אקתלוה",
+        "en": "put him to death;",
+        "he": "יִרְצַח אֶת-הָרֹצֵחַ"
+      },
+      {
+        "ja": "ואמא שאהד ואחד",
+        "en": "but a single witness",
+        "he": "וְעֵד אֶחָד"
+      },
+      {
+        "ja": "פלא ישהד עלי'ה",
+        "en": "shall not testify against him",
+        "he": "לֹא-יַעֲנֶה"
+      },
+      {
+        "ja": "פיקתל",
+        "en": "so that he be put to death.",
+        "he": "בְנֶפֶשׁ לָמוּת"
       }
     ],
     "31": [
       {
-        "ja": "ולא תאכדו דיה ען נפס קאתל. יגב עלי'ה אלקתל",
-        "en": "And you shall not accept blood-money as ransom for the life of a killer who is liable to be put to death",
-        "he": "וְלֹא-תִקְחוּ כֹפֶר לְנֶפֶשׁ רֹצֵחַ אֲשֶׁר-הוּא רָשָׁע לָמוּת"
+        "ja": "ולא תאכדו",
+        "en": "And you shall not accept",
+        "he": "וְלֹא-תִקְחוּ"
+      },
+      {
+        "ja": "דיה",
+        "en": "blood-money as ransom",
+        "he": "כֹפֶר"
+      },
+      {
+        "ja": "ען נפס קאתל",
+        "en": "for the life of a killer",
+        "he": "לְנֶפֶשׁ רֹצֵחַ"
+      },
+      {
+        "ja": "יגב עלי'ה",
+        "en": "who is liable",
+        "he": "אֲשֶׁר-הוּא רָשָׁע"
+      },
+      {
+        "ja": "אלקתל",
+        "en": "to be put to death —",
+        "he": "לָמוּת"
       },
       {
         "ja": "אלא יקתל קתלא",
@@ -362,48 +1249,143 @@
     ],
     "32": [
       {
-        "ja": "ולא תאכדו מנה איצ'א דיה. לתהרבוה אלי' בעץ' קרא אלחמא",
-        "en": "Nor shall you accept from him blood-money to allow him to flee to one of the towns of refuge",
-        "he": "וְלֹא-תִקְחוּ כֹפֶר לָנוּס אֶל-עִיר מִקְלָטוֹ"
+        "ja": "ולא תאכדו מנה",
+        "en": "Nor shall you accept from him",
+        "he": "וְלֹא-תִקְחוּ"
       },
       {
-        "ja": "ליעוד ויסכן אלבלד. בעד מות אלאמאם",
-        "en": "so that he may return and dwell in the land after the death of the imām.",
-        "he": "לָשׁוּב לָשֶׁבֶת בָּאָרֶץ עַד-מוֹת הַכֹּהֵן"
+        "ja": "איצ'א דיה",
+        "en": "blood-money",
+        "he": "כֹפֶר"
+      },
+      {
+        "ja": "לתהרבוה",
+        "en": "to allow him to flee",
+        "he": "לָנוּס"
+      },
+      {
+        "ja": "אלי' בעץ' קרא אלחמא",
+        "en": "to one of the towns of refuge,",
+        "he": "אֶל-עִיר מִקְלָטוֹ"
+      },
+      {
+        "ja": "ליעוד",
+        "en": "so that he may return",
+        "he": "לָשׁוּב"
+      },
+      {
+        "ja": "ויסכן",
+        "en": "and dwell",
+        "he": "לָשֶׁבֶת"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "in the land",
+        "he": "בָּאָרֶץ"
+      },
+      {
+        "ja": "בעד מות אלאמאם",
+        "en": "after the death of the imām.",
+        "he": "עַד-מוֹת הַכֹּהֵן"
       }
     ],
     "33": [
       {
-        "ja": "ולא תדנסו אלבלד. אלד'י אנתם פיה",
-        "en": "And you shall not defile the land in which you are",
-        "he": "וְלֹא-תַחֲנִיפוּ אֶת-הָאָרֶץ אֲשֶׁר אַתֶּם בָּהּ"
+        "ja": "ולא תדנסו",
+        "en": "And you shall not defile",
+        "he": "וְלֹא-תַחֲנִיפוּ"
       },
       {
-        "ja": "לאן אלדם ידנסה",
-        "en": "for blood defiles it",
-        "he": "כִּי הַדָּם הוּא יַחֲנִיף אֶת-הָאָרֶץ"
+        "ja": "אלבלד",
+        "en": "the land",
+        "he": "אֶת-הָאָרֶץ"
       },
       {
-        "ja": "ולא יג'פר לכם. ען אלדם אלד'י ספך פיה. אלא בדם סאפכה",
-        "en": "and atonement cannot be made for you concerning the blood that was shed in it, except by the blood of him who shed it.",
-        "he": "וְלָאָרֶץ לֹא-יְכֻפַּר לַדָּם אֲשֶׁר שֻׁפַּךְ-בָּהּ כִּי-אִם בְּדַם שֹׁפְכוֹ"
+        "ja": "אלד'י אנתם פיה",
+        "en": "in which you are;",
+        "he": "אֲשֶׁר אַתֶּם בָּהּ"
+      },
+      {
+        "ja": "לאן",
+        "en": "for",
+        "he": "כִּי"
+      },
+      {
+        "ja": "אלדם",
+        "en": "blood",
+        "he": "הַדָּם"
+      },
+      {
+        "ja": "ידנסה",
+        "en": "defiles it,",
+        "he": "הוּא יַחֲנִיף"
+      },
+      {
+        "ja": "ולא יג'פר לכם",
+        "en": "and atonement cannot be made for you",
+        "he": "וְלָאָרֶץ לֹא-יְכֻפַּר"
+      },
+      {
+        "ja": "ען אלדם",
+        "en": "concerning the blood",
+        "he": "לַדָּם"
+      },
+      {
+        "ja": "אלד'י ספך פיה",
+        "en": "that was shed in it,",
+        "he": "אֲשֶׁר שֻׁפַּךְ-בָּהּ"
+      },
+      {
+        "ja": "אלא",
+        "en": "except",
+        "he": "כִּי-אִם"
+      },
+      {
+        "ja": "בדם סאפכה",
+        "en": "by the blood of him who shed it.",
+        "he": "בְּדַם שֹׁפְכוֹ"
       }
     ],
     "34": [
       {
-        "ja": "ולא תנגסו אלבלד. אלד'י אנתם מקימין פיה",
-        "en": "And you shall not make impure the land in which you are dwelling",
-        "he": "וְלֹא תְטַמֵּא אֶת-הָאָרֶץ אֲשֶׁר אַתֶּם יֹשְׁבִים בָּהּ"
+        "ja": "ולא תנגסו",
+        "en": "And you shall not make impure",
+        "he": "וְלֹא תְטַמֵּא"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "the land",
+        "he": "אֶת-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י אנתם מקימין פיה",
+        "en": "in which you are dwelling,",
+        "he": "אֲשֶׁר אַתֶּם יֹשְׁבִים בָּהּ"
       },
       {
         "ja": "אלד'י נורי סאכן פיה",
-        "en": "in which My light dwells",
-        "he": "אֲשֶׁר אֲנִי שֹׁכֵן בְּתוֹכָהּ"
+        "en": "in which My light dwells —",
+        "he": "אֲשֶׁר אֲנִי שֹׁכֵן"
       },
       {
-        "ja": "פאני אללה. נורי סאכן. פי מא בין בני אסראיל",
-        "en": "for I am God, My light dwelling in the midst of the sons of Israel.",
-        "he": "כִּי אֲנִי יְהוָה--שֹׁכֵן בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
+        "ja": "פאני",
+        "en": "for I am",
+        "he": "כִּי אֲנִי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God,",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "נורי סאכן",
+        "en": "My light dwelling",
+        "he": "שֹׁכֵן"
+      },
+      {
+        "ja": "פי מא בין בני אסראיל",
+        "en": "in the midst of the sons of Israel.",
+        "he": "בְּתוֹךְ בְּנֵי יִשְׂרָאֵל"
       }
     ]
   }
