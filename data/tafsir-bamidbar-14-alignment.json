@@ -1,350 +1,961 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 14. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_14.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 14. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_14.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
     "1": [
       {
-        "ja": "ת'ם רפעת אלגמאעה אצואתהם",
-        "en": "Then the assembly raised their voices",
-        "he": "וַתִּשָּׂא כָּל-הָעֵדָה וַיִּתְּנוּ אֶת-קוֹלָם"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "ובכו פי תלך אלילה",
-        "en": "and they wept in that night.",
-        "he": "וַיִּבְכּוּ הָעָם בַּלַּיְלָה הַהוּא"
+        "ja": "רפעת",
+        "en": "the assembly raised",
+        "he": "וַתִּשָּׂא"
+      },
+      {
+        "ja": "אלגמאעה",
+        "en": "their voices,",
+        "he": "כָּל-הָעֵדָה"
+      },
+      {
+        "ja": "אצואתהם",
+        "en": "and they",
+        "he": "אֶת-קוֹלָם"
+      },
+      {
+        "ja": "ובכו",
+        "en": "wept",
+        "he": "וַיִּבְכּוּ"
+      },
+      {
+        "ja": "פי תלך",
+        "en": "in that",
+        "he": "הָעָם"
+      },
+      {
+        "ja": "אלילה",
+        "en": "night.",
+        "he": "בַּלַּיְלָה הַהוּא"
       }
     ],
     "2": [
       {
-        "ja": "פתד'מרו. עלי'' מוסי' והרון. גמאעה' בני אסראיל",
-        "en": "And the congregation of the sons of Israel grumbled against Moses and Aaron",
-        "he": "וַיִּלֹּנוּ עַל-מֹשֶׁה וְעַל-אַהֲרֹן כֹּל בְּנֵי יִשְׂרָאֵל"
+        "ja": "פתד'מרו",
+        "en": "And the congregation of the sons of Israel grumbled",
+        "he": "וַיִּלֹּנוּ"
       },
       {
-        "ja": "וקאלא להם",
-        "en": "and said to them",
-        "he": "וַיֹּאמְרוּ אֲלֵהֶם"
+        "ja": "עלי'' מוסי'",
+        "en": "against Moses",
+        "he": "עַל-מֹשֶׁה"
       },
       {
-        "ja": "יא ליתנא מתנא פי בלד מצר",
-        "en": "'Would that we had died in the land of Egypt",
-        "he": "לוּ-מַתְנוּ בְּאֶרֶץ מִצְרַיִם"
+        "ja": "והרון",
+        "en": "and Aaron,",
+        "he": "וְעַל-אַהֲרֹן"
       },
       {
-        "ja": "או יא ליתנא מתנא פי הד'א אלבר",
-        "en": "or would that we had died in this wilderness!'",
-        "he": "אוֹ בַּמִּדְבָּר הַזֶּה לוּ-מָתְנוּ"
+        "ja": "גמאעה' בני אסראיל",
+        "en": "and said to them:",
+        "he": "כֹּל בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "וקאלא",
+        "en": "'Would that we had died",
+        "he": "וַיֹּאמְרוּ"
+      },
+      {
+        "ja": "להם",
+        "en": "in the land of Egypt —",
+        "he": "אֲלֵהֶם"
+      },
+      {
+        "ja": "יא ליתנא מתנא",
+        "en": "or would that we had died",
+        "he": "לוּ-מַתְנוּ"
+      },
+      {
+        "ja": "פי בלד מצר",
+        "en": "in this wilderness!'",
+        "he": "בְּאֶרֶץ מִצְרַיִם"
+      },
+      {
+        "ja": "או",
+        "en": "",
+        "he": "אוֹ"
+      },
+      {
+        "ja": "יא ליתנא מתנא פי הד'א אלבר",
+        "en": "",
+        "he": "בַּמִּדְבָּר הַזֶּה לוּ-מָתְנוּ"
       }
     ],
     "3": [
       {
-        "ja": "ולם ידכ'לנא אללה. תלך אלבלד פנקע באלסיף",
-        "en": "'And why would God bring us into that land, that we should fall by the sword",
-        "he": "וְלָמָה יְהוָה מֵבִיא אֹתָנוּ אֶל-הָאָרֶץ הַזֹּאת לִנְפֹּל בַּחֶרֶב"
+        "ja": "ולם",
+        "en": "'And why",
+        "he": "וְלָמָה"
       },
       {
-        "ja": "פיציר נסאנא ואטפאלנא ג'נימה",
-        "en": "so that our wives and our children become spoil",
-        "he": "נָשֵׁינוּ וְטַפֵּנוּ יִהְיוּ לָבַז"
+        "ja": "ידכ'לנא אללה",
+        "en": "would God bring us",
+        "he": "יְהוָה מֵבִיא אֹתָנוּ"
       },
       {
-        "ja": "אלא אן אלאצלח לנא אלרגוע אלי' מצר",
-        "en": "Is it not better for us to return to Egypt?'",
-        "he": "הֲלוֹא טוֹב לָנוּ שׁוּב מִצְרָיְמָה"
+        "ja": "תלך אלבלד",
+        "en": "into that land,",
+        "he": "אֶל-הָאָרֶץ הַזֹּאת"
+      },
+      {
+        "ja": "פנקע",
+        "en": "that we should fall",
+        "he": "לִנְפֹּל"
+      },
+      {
+        "ja": "באלסיף",
+        "en": "by the sword,",
+        "he": "בַּחֶרֶב"
+      },
+      {
+        "ja": "פיציר נסאנא",
+        "en": "so that our wives",
+        "he": "נָשֵׁינוּ"
+      },
+      {
+        "ja": "ואטפאלנא",
+        "en": "and our children",
+        "he": "וְטַפֵּנוּ"
+      },
+      {
+        "ja": "ג'נימה",
+        "en": "become spoil?",
+        "he": "יִהְיוּ לָבַז"
+      },
+      {
+        "ja": "אלא אן",
+        "en": "Is it not",
+        "he": "הֲלוֹא"
+      },
+      {
+        "ja": "אלאצלח לנא",
+        "en": "better for us",
+        "he": "טוֹב לָנוּ"
+      },
+      {
+        "ja": "אלרגוע אלי' מצר",
+        "en": "to return to Egypt?'",
+        "he": "שׁוּב מִצְרָיְמָה"
       }
     ],
     "4": [
       {
-        "ja": "ת'ם קאל בעצ'הם לבעץ'",
-        "en": "Then some of them said to one another",
-        "he": "וַיֹּאמְרוּ אִישׁ אֶל-אָחִיו"
+        "ja": "ת'ם",
+        "en": "Then"
       },
       {
-        "ja": "נולי ריסא ונרגע אלי' מצר",
-        "en": "'Let us appoint a head, and return to Egypt.'",
-        "he": "נִתְּנָה רֹאשׁ וְנָשׁוּבָה מִצְרָיְמָה"
+        "ja": "קאל",
+        "en": "some of them said",
+        "he": "וַיֹּאמְרוּ"
+      },
+      {
+        "ja": "בעצ'הם",
+        "en": "to one another:",
+        "he": "אִישׁ"
+      },
+      {
+        "ja": "לבעץ'",
+        "en": "'Let us appoint a head,",
+        "he": "אֶל-אָחִיו"
+      },
+      {
+        "ja": "נולי ריסא",
+        "en": "and return",
+        "he": "נִתְּנָה רֹאשׁ"
+      },
+      {
+        "ja": "ונרגע",
+        "en": "to Egypt.'",
+        "he": "וְנָשׁוּבָה"
+      },
+      {
+        "ja": "אלי' מצר",
+        "en": "",
+        "he": "מִצְרָיְמָה"
       }
     ],
     "5": [
       {
-        "ja": "פוקע מוסי' והרון עלי' וגוההמא",
-        "en": "And Moses and Aaron fell upon their faces",
-        "he": "וַיִּפֹּל מֹשֶׁה וְאַהֲרֹן עַל-פְּנֵיהֶם"
+        "ja": "פוקע",
+        "en": "And Moses and Aaron fell",
+        "he": "וַיִּפֹּל"
       },
       {
-        "ja": "בחצ'רה' גוק גמאעה' בני אסראיל",
-        "en": "before the assembly of the congregation of the sons of Israel.",
-        "he": "לִפְנֵי כָּל-קְהַל עֲדַת בְּנֵי יִשְׂרָאֵל"
+        "ja": "מוסי'",
+        "en": "upon their faces",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "והרון",
+        "en": "before",
+        "he": "וְאַהֲרֹן"
+      },
+      {
+        "ja": "עלי' וגוההמא",
+        "en": "the assembly of",
+        "he": "עַל-פְּנֵיהֶם"
+      },
+      {
+        "ja": "בחצ'רה'",
+        "en": "the congregation of",
+        "he": "לִפְנֵי"
+      },
+      {
+        "ja": "גוק",
+        "en": "the sons of Israel.",
+        "he": "כָּל-קְהַל"
+      },
+      {
+        "ja": "גמאעה'",
+        "en": "",
+        "he": "עֲדַת"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "",
+        "he": "בְּנֵי יִשְׂרָאֵל"
       }
     ],
     "6": [
       {
-        "ja": "ויהושע אבן נון. וכלב אבן יפנה",
-        "en": "And Joshua son of Nun, and Caleb son of Jephunneh",
-        "he": "וִיהוֹשֻׁעַ בִּן-נוּן וְכָלֵב בֶּן-יְפֻנֶּה"
+        "ja": "ויהושע",
+        "en": "And Joshua",
+        "he": "וִיהוֹשֻׁעַ"
       },
       {
-        "ja": "מן ראימי אלבלד",
-        "en": "among those who had scouted the land",
-        "he": "מִן-הַתָּרִים אֶת-הָאָרֶץ"
+        "ja": "אבן נון",
+        "en": "son of Nun,",
+        "he": "בִּן-נוּן"
       },
       {
-        "ja": "כ'רקא ת'יאבהמא",
-        "en": "tore their garments.",
-        "he": "קָרְעוּ בִּגְדֵיהֶם"
+        "ja": "וכלב",
+        "en": "and Caleb",
+        "he": "וְכָלֵב"
+      },
+      {
+        "ja": "אבן יפנה",
+        "en": "son of Jephunneh —",
+        "he": "בֶּן-יְפֻנֶּה"
+      },
+      {
+        "ja": "מן ראימי",
+        "en": "among those who had scouted",
+        "he": "מִן-הַתָּרִים"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "the land —",
+        "he": "אֶת-הָאָרֶץ"
+      },
+      {
+        "ja": "כ'רקא",
+        "en": "tore",
+        "he": "קָרְעוּ"
+      },
+      {
+        "ja": "ת'יאבהמא",
+        "en": "their garments.",
+        "he": "בִּגְדֵיהֶם"
       }
     ],
     "7": [
       {
-        "ja": "פקאלא. לגמאעה' בני אסראיל קאילין",
-        "en": "And they said to the congregation of the sons of Israel, saying",
-        "he": "וַיֹּאמְרוּ אֶל-כָּל-עֲדַת בְּנֵי-יִשְׂרָאֵל לֵאמֹר"
+        "ja": "פקאלא",
+        "en": "And they said",
+        "he": "וַיֹּאמְרוּ"
       },
       {
-        "ja": "אלבלד. אלד'י מררנאה לנרומה. בלד גייד גדא גדא",
-        "en": "'The land which we passed through to seek it out — it is a very, very good land.'",
-        "he": "הָאָרֶץ אֲשֶׁר עָבַרְנוּ בָהּ לָתוּר אֹתָהּ--טוֹבָה הָאָרֶץ מְאֹד מְאֹד"
+        "ja": "לגמאעה'",
+        "en": "to the congregation of",
+        "he": "אֶל-כָּל-עֲדַת"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel,",
+        "he": "בְּנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "קאילין",
+        "en": "saying:",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "'The land",
+        "he": "הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י מררנאה",
+        "en": "which we passed through",
+        "he": "אֲשֶׁר עָבַרְנוּ בָהּ"
+      },
+      {
+        "ja": "לנרומה",
+        "en": "to seek it out —",
+        "he": "לָתוּר אֹתָהּ"
+      },
+      {
+        "ja": "בלד גייד",
+        "en": "it is a very, very good land.'",
+        "he": "טוֹבָה הָאָרֶץ"
+      },
+      {
+        "ja": "גדא גדא",
+        "en": "",
+        "he": "מְאֹד מְאֹד"
       }
     ],
     "8": [
       {
-        "ja": "אן כאן ללה מראד פינא",
-        "en": "'If God has a will toward us",
-        "he": "אִם-חָפֵץ בָּנוּ יְהוָה"
+        "ja": "אן כאן",
+        "en": "'If",
+        "he": "אִם-חָפֵץ"
       },
       {
-        "ja": "אדכ'לנאה ווהבה לנא",
-        "en": "He will bring us into it and give it to us as a gift",
-        "he": "וְהֵבִיא אֹתָנוּ אֶל-הָאָרֶץ הַזֹּאת וּנְתָנָהּ לָנוּ"
+        "ja": "ללה",
+        "en": "God has",
+        "he": "יְהוָה"
       },
       {
-        "ja": "בלד יפיץ' אללבן ואלעסל",
-        "en": "a land flowing with milk and honey.'",
-        "he": "אֶרֶץ אֲשֶׁר-הִוא זָבַת חָלָב וּדְבָשׁ"
+        "ja": "מראד פינא",
+        "en": "a will toward us,",
+        "he": "בָּנוּ"
+      },
+      {
+        "ja": "אדכ'לנאה",
+        "en": "He will bring us into it",
+        "he": "וְהֵבִיא אֹתָנוּ"
+      },
+      {
+        "ja": "ווהבה",
+        "en": "and give it",
+        "he": "אֶל-הָאָרֶץ הַזֹּאת"
+      },
+      {
+        "ja": "לנא",
+        "en": "to us as a gift —",
+        "he": "וּנְתָנָהּ לָנוּ"
+      },
+      {
+        "ja": "בלד",
+        "en": "a land",
+        "he": "אֶרֶץ"
+      },
+      {
+        "ja": "יפיץ' אללבן",
+        "en": "flowing with milk",
+        "he": "זָבַת חָלָב"
+      },
+      {
+        "ja": "ואלעסל",
+        "en": "and honey.'",
+        "he": "וּדְבָשׁ"
       }
     ],
     "9": [
       {
-        "ja": "אמא עלי' אללה פלא תתד'מרון",
-        "en": "'Only do not grumble against God",
-        "he": "אַךְ בַּיהוָה אַל-תִּמְרֹדוּ"
+        "ja": "אמא",
+        "en": "'Only do not grumble against God,",
+        "he": "אַךְ"
       },
       {
-        "ja": "ולא תכ'אפון אהל אלבלד",
-        "en": "and do not fear the people of the land",
-        "he": "וְאַתֶּם אַל-תִּירְאוּ אֶת-עַם הָאָרֶץ"
+        "ja": "עלי' אללה",
+        "en": "and do not fear",
+        "he": "בַּיהוָה"
+      },
+      {
+        "ja": "פלא תתד'מרון",
+        "en": "the people of the land,",
+        "he": "אַל-תִּמְרֹדוּ"
+      },
+      {
+        "ja": "ולא תכ'אפון",
+        "en": "for they are our food;",
+        "he": "וְאַתֶּם אַל-תִּירְאוּ"
+      },
+      {
+        "ja": "אהל אלבלד",
+        "en": "their shadow has already departed",
+        "he": "אֶת-עַם הָאָרֶץ"
       },
       {
         "ja": "לאנהם טעאמנא",
-        "en": "for they are our food",
+        "en": "from them.",
         "he": "כִּי לַחְמֵנוּ הֵם"
       },
       {
-        "ja": "וסיזול צ'להם ענהם",
-        "en": "their shadow has already departed from them.",
-        "he": "סָר צִלָּם מֵעֲלֵיהֶם"
+        "ja": "וסיזול צ'להם",
+        "en": "And God is with us —",
+        "he": "סָר צִלָּם"
       },
       {
-        "ja": "ואללה מענא לא תכ'אפוהם",
-        "en": "And God is with us — do not fear them.'",
-        "he": "וַיהוָה אִתָּנוּ אַל-תִּירָאֻם"
+        "ja": "ענהם",
+        "en": "do not fear them.'",
+        "he": "מֵעֲלֵיהֶם"
+      },
+      {
+        "ja": "ואללה",
+        "en": "",
+        "he": "וַיהוָה"
+      },
+      {
+        "ja": "מענא",
+        "en": "",
+        "he": "אִתָּנוּ"
+      },
+      {
+        "ja": "לא תכ'אפוהם",
+        "en": "",
+        "he": "אַל-תִּירָאֻם"
       }
     ],
     "10": [
       {
-        "ja": "פכאד גמיע אלשעב. אן ירגמוהמא באלחגארה",
-        "en": "Then nearly all the people were about to stone the two of them.",
-        "he": "וַיֹּאמְרוּ כָּל-הָעֵדָה לִרְגּוֹם אֹתָם בָּאֲבָנִים"
+        "ja": "פכאד",
+        "en": "Then nearly all the people",
+        "he": "וַיֹּאמְרוּ"
       },
       {
-        "ja": "ת'ם צ'הר נור אללה. פי כ'בא אלמחצ'ר. לגמיע בני אסראיל",
-        "en": "Then the light of God appeared in the Tent of Meeting before all the sons of Israel.",
-        "he": "וּכְבוֹד יְהוָה נִרְאָה בְּאֹהֶל מוֹעֵד אֶל-כָּל-בְּנֵי יִשְׂרָאֵל"
+        "ja": "גמיע אלשעב",
+        "en": "were about to stone the two of them.",
+        "he": "כָּל-הָעֵדָה"
+      },
+      {
+        "ja": "אן ירגמוהמא",
+        "en": "Then",
+        "he": "לִרְגּוֹם אֹתָם"
+      },
+      {
+        "ja": "באלחגארה",
+        "en": "the light of God appeared",
+        "he": "בָּאֲבָנִים"
+      },
+      {
+        "ja": "ת'ם צ'הר נור אללה",
+        "en": "in the Tent of Meeting",
+        "he": "וּכְבוֹד יְהוָה"
+      },
+      {
+        "ja": "פי כ'בא אלמחצ'ר",
+        "en": "before all the sons of Israel.",
+        "he": "נִרְאָה בְּאֹהֶל מוֹעֵד"
+      },
+      {
+        "ja": "לגמיע בני אסראיל",
+        "en": "",
+        "he": "אֶל-כָּל-בְּנֵי יִשְׂרָאֵל"
       }
     ],
     "11": [
       {
-        "ja": "פקאל אללה למוסי",
-        "en": "And God said to Moses",
-        "he": "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה"
+        "ja": "פקאל אללה",
+        "en": "And God said",
+        "he": "וַיֹּאמֶר יְהוָה"
       },
       {
-        "ja": "אלי' כם יעצוני הולאי אלקום",
-        "en": "'How long shall these people defy Me",
-        "he": "עַד-אָנָה יְנַאֲצֻנִי הָעָם הַזֶּה"
+        "ja": "למוסי",
+        "en": "to Moses:",
+        "he": "אֶל-מֹשֶׁה"
       },
       {
-        "ja": "ואלי' כם לם יומנון בי",
-        "en": "and how long will they not believe in Me",
-        "he": "וְעַד-אָנָה לֹא-יַאֲמִינוּ בִי"
+        "ja": "אלי' כם",
+        "en": "'How long shall these people defy Me,",
+        "he": "עַד-אָנָה"
       },
       {
-        "ja": "מע גמיע אלאיאת. אלתי צנעתהא פי מא בינהם",
-        "en": "despite all the signs which I performed among them?'",
-        "he": "בְּכֹל הָאֹתוֹת אֲשֶׁר עָשִׂיתִי בְּקִרְבּוֹ"
+        "ja": "יעצוני",
+        "en": "and how long will they not believe in Me,",
+        "he": "יְנַאֲצֻנִי"
+      },
+      {
+        "ja": "הולאי אלקום",
+        "en": "despite all the signs",
+        "he": "הָעָם הַזֶּה"
+      },
+      {
+        "ja": "ואלי' כם",
+        "en": "which I performed among them?'",
+        "he": "וְעַד-אָנָה"
+      },
+      {
+        "ja": "לם יומנון בי",
+        "en": "",
+        "he": "לֹא-יַאֲמִינוּ בִי"
+      },
+      {
+        "ja": "מע גמיע אלאיאת",
+        "en": "",
+        "he": "בְּכֹל הָאֹתוֹת"
+      },
+      {
+        "ja": "אלתי צנעתהא",
+        "en": "",
+        "he": "אֲשֶׁר עָשִׂיתִי"
+      },
+      {
+        "ja": "פי מא בינהם",
+        "en": "",
+        "he": "בְּקִרְבּוֹ"
       }
     ],
     "12": [
       {
-        "ja": "יסתחקון אן אצ'רבהם באלובא ואקרצ'הם",
-        "en": "'They deserve that I strike them with pestilence and wear them down",
-        "he": "אַכֶּנּוּ בַדֶּבֶר וְאוֹרִשֶׁנּוּ"
+        "ja": "יסתחקון אן אצ'רבהם",
+        "en": "'They deserve that I strike them",
+        "he": "אַכֶּנּוּ"
       },
       {
-        "ja": "ואגעל מנך. אמה אכת'ר וא עצ'ם מנהם",
-        "en": "and make of you a nation more numerous and mightier than they.'",
-        "he": "וְאֶעֱשֶׂה אֹתְךָ לְגוֹי-גָּדוֹל וְעָצוּם מִמֶּנּוּ"
+        "ja": "באלובא",
+        "en": "with pestilence",
+        "he": "בַדֶּבֶר"
+      },
+      {
+        "ja": "ואקרצ'הם",
+        "en": "and wear them down,",
+        "he": "וְאוֹרִשֶׁנּוּ"
+      },
+      {
+        "ja": "ואגעל מנך",
+        "en": "and make of you",
+        "he": "וְאֶעֱשֶׂה אֹתְךָ"
+      },
+      {
+        "ja": "אמה אכת'ר",
+        "en": "a nation more numerous",
+        "he": "לְגוֹי-גָּדוֹל"
+      },
+      {
+        "ja": "וא עצ'ם מנהם",
+        "en": "and mightier than they.'",
+        "he": "וְעָצוּם מִמֶּנּוּ"
       }
     ],
     "13": [
       {
-        "ja": "פקאל מוסי' ללה",
-        "en": "And Moses said to God",
-        "he": "וַיֹּאמֶר מֹשֶׁה אֶל-יְהוָה"
+        "ja": "פקאל מוסי'",
+        "en": "And Moses said",
+        "he": "וַיֹּאמֶר מֹשֶׁה"
       },
       {
-        "ja": "ויסמעון אלמצריון. אלד'י אצעדת הולאי אלקום מן בינהם בקדרתך",
-        "en": "'Yet the Egyptians will hear — You who brought these people up from among them by Your power —'",
-        "he": "וְשָׁמְעוּ מִצְרַיִם כִּי-הֶעֱלִיתָ בְכֹחֲךָ אֶת-הָעָם הַזֶּה מִקִּרְבּוֹ"
+        "ja": "ללה",
+        "en": "to God:",
+        "he": "אֶל-יְהוָה"
+      },
+      {
+        "ja": "ויסמעון",
+        "en": "'Yet the Egyptians will hear —",
+        "he": "וְשָׁמְעוּ"
+      },
+      {
+        "ja": "אלמצריון",
+        "en": "You who brought these people up",
+        "he": "מִצְרַיִם"
+      },
+      {
+        "ja": "אלד'י אצעדת",
+        "en": "from among them",
+        "he": "כִּי-הֶעֱלִיתָ"
+      },
+      {
+        "ja": "הולאי אלקום",
+        "en": "by Your power —'",
+        "he": "אֶת-הָעָם הַזֶּה"
+      },
+      {
+        "ja": "מן בינהם",
+        "en": "",
+        "he": "מִקִּרְבּוֹ"
+      },
+      {
+        "ja": "בקדרתך",
+        "en": "",
+        "he": "בְכֹחֲךָ"
       }
     ],
     "14": [
       {
-        "ja": "פיקולון מע אהל הד'א אלבלד. אלד'י סמעו",
-        "en": "'and they will tell, together with the inhabitants of this land who have heard",
-        "he": "וְאָמְרוּ אֶל-יוֹשֵׁב הָאָרֶץ הַזֹּאת שָׁמְעוּ"
+        "ja": "פיקולון",
+        "en": "'and they will tell,",
+        "he": "וְאָמְרוּ"
       },
       {
-        "ja": "אנך אללה. נורך פי מא בין הולאי אלקום",
-        "en": "that You are God: Your light is among these people",
-        "he": "כִּי-אַתָּה יְהוָה בְּקֶרֶב הָעָם הַזֶּה"
+        "ja": "מע אהל הד'א אלבלד",
+        "en": "together with the inhabitants of this land",
+        "he": "אֶל-יוֹשֵׁב הָאָרֶץ הַזֹּאת"
       },
       {
-        "ja": "עין בעין ירונה",
-        "en": "seen eye to eye",
-        "he": "אֲשֶׁר-עַיִן בְּעַיִן נִרְאָה אַתָּה יְהוָה"
+        "ja": "אלד'י סמעו",
+        "en": "who have heard",
+        "he": "שָׁמְעוּ"
       },
       {
-        "ja": "וג'מאמך מקים עליהם",
-        "en": "and Your clouds rest upon them",
-        "he": "וַעֲנָנְךָ עֹמֵד עֲלֵהֶם"
+        "ja": "אנך אללה",
+        "en": "that You are God:",
+        "he": "כִּי-אַתָּה יְהוָה"
       },
       {
-        "ja": "ובעמוד ג'מאם תסיר בין ידיהם נהארא. ובעמוד נאר לילא",
-        "en": "and in a pillar of cloud You go before them by day, and in a pillar of fire by night.'",
-        "he": "וּבְעַמֻּד עָנָן אַתָּה הֹלֵךְ לִפְנֵיהֶם יוֹמָם וּבְעַמּוּד אֵשׁ לָיְלָה"
+        "ja": "נורך פי מא בין הולאי אלקום",
+        "en": "Your light is among these people,",
+        "he": "בְּקֶרֶב הָעָם הַזֶּה"
+      },
+      {
+        "ja": "עין בעין",
+        "en": "seen eye to eye;",
+        "he": "אֲשֶׁר-עַיִן בְּעַיִן"
+      },
+      {
+        "ja": "ירונה",
+        "en": "and Your clouds rest upon them;",
+        "he": "נִרְאָה אַתָּה יְהוָה"
+      },
+      {
+        "ja": "וג'מאמך",
+        "en": "and in a pillar of cloud",
+        "he": "וַעֲנָנְךָ"
+      },
+      {
+        "ja": "מקים עליהם",
+        "en": "You go before them",
+        "he": "עֹמֵד עֲלֵהֶם"
+      },
+      {
+        "ja": "ובעמוד ג'מאם",
+        "en": "by day,",
+        "he": "וּבְעַמֻּד עָנָן"
+      },
+      {
+        "ja": "תסיר בין ידיהם",
+        "en": "and in a pillar of fire by night.'",
+        "he": "אַתָּה הֹלֵךְ לִפְנֵיהֶם"
+      },
+      {
+        "ja": "נהארא",
+        "en": "",
+        "he": "יוֹמָם"
+      },
+      {
+        "ja": "ובעמוד נאר לילא",
+        "en": "",
+        "he": "וּבְעַמּוּד אֵשׁ לָיְלָה"
       }
     ],
     "15": [
       {
-        "ja": "פאד'א קתלתהם אגמעין כרג'ל ואחד",
-        "en": "'And if You slay them all as one man",
-        "he": "וְהֵמַתָּה אֶת-הָעָם הַזֶּה כְּאִישׁ אֶחָד"
+        "ja": "פאד'א קתלתהם",
+        "en": "'And if You slay them",
+        "he": "וְהֵמַתָּה"
       },
       {
-        "ja": "קאל גמיע אלאמם. אלד'י סמעו אכ'ברך הד'ה קאילין",
-        "en": "then all the nations who have heard these reports of You will say:'",
-        "he": "וְאָמְרוּ הַגּוֹיִם אֲשֶׁר-שָׁמְעוּ אֶת-שִׁמְעֲךָ לֵאמֹר"
+        "ja": "אגמעין",
+        "en": "all",
+        "he": "אֶת-הָעָם הַזֶּה"
+      },
+      {
+        "ja": "כרג'ל ואחד",
+        "en": "as one man,",
+        "he": "כְּאִישׁ אֶחָד"
+      },
+      {
+        "ja": "קאל",
+        "en": "then all the nations",
+        "he": "וְאָמְרוּ"
+      },
+      {
+        "ja": "גמיע אלאמם",
+        "en": "who have heard these reports of You",
+        "he": "הַגּוֹיִם"
+      },
+      {
+        "ja": "אלד'י סמעו",
+        "en": "will say:'",
+        "he": "אֲשֶׁר-שָׁמְעוּ"
+      },
+      {
+        "ja": "אכ'ברך הד'ה",
+        "en": "",
+        "he": "אֶת-שִׁמְעֲךָ"
+      },
+      {
+        "ja": "קאילין",
+        "en": "",
+        "he": "לֵאמֹר"
       }
     ],
     "16": [
       {
-        "ja": "ממא לם יטיק אלרב. אן ידכ'ל הולאי אלקום. אלי' אלבלד",
-        "en": "'It was because the Lord was unable to bring these people into the land",
-        "he": "מִבִּלְתִּי יְכֹלֶת יְהוָה לְהָבִיא אֶת-הָעָם הַזֶּה אֶל-הָאָרֶץ"
+        "ja": "ממא לם יטיק",
+        "en": "'It was because the Lord was unable",
+        "he": "מִבִּלְתִּי יְכֹלֶת"
       },
       {
-        "ja": "אלד'י ועדהם בה. פקתלהם פי אלבר",
-        "en": "which He had promised them — so He slew them in the wilderness.'",
-        "he": "אֲשֶׁר-נִשְׁבַּע לָהֶם וַיִּשְׁחָטֵם בַּמִּדְבָּר"
+        "ja": "אלרב",
+        "en": "to bring",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "אן ידכ'ל",
+        "en": "these people",
+        "he": "לְהָבִיא"
+      },
+      {
+        "ja": "הולאי אלקום",
+        "en": "into the land",
+        "he": "אֶת-הָעָם הַזֶּה"
+      },
+      {
+        "ja": "אלי' אלבלד",
+        "en": "which He had promised them —",
+        "he": "אֶל-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י ועדהם בה",
+        "en": "so He slew them",
+        "he": "אֲשֶׁר-נִשְׁבַּע לָהֶם"
+      },
+      {
+        "ja": "פקתלהם",
+        "en": "in the wilderness.'",
+        "he": "וַיִּשְׁחָטֵם"
+      },
+      {
+        "ja": "פי אלבר",
+        "en": "",
+        "he": "בַּמִּדְבָּר"
       }
     ],
     "17": [
       {
-        "ja": "ואלאן יתביין עצ'ם קדרתך יא רב",
-        "en": "'And now, let the greatness of Your power be made manifest, O Lord",
-        "he": "וְעַתָּה יִגְדַּל-נָא כֹּחַ אֲדֹנָי"
+        "ja": "ואלאן",
+        "en": "'And now,",
+        "he": "וְעַתָּה"
       },
       {
-        "ja": "כמא קלת לי",
-        "en": "as You spoke to me.'",
-        "he": "כַּאֲשֶׁר דִּבַּרְתָּ לֵאמֹר"
+        "ja": "יתביין",
+        "en": "let the greatness of Your power be made manifest,",
+        "he": "יִגְדַּל-נָא"
+      },
+      {
+        "ja": "עצ'ם קדרתך",
+        "en": "O Lord,",
+        "he": "כֹּחַ אֲדֹנָי"
+      },
+      {
+        "ja": "יא רב",
+        "en": "as You spoke to me.'"
+      },
+      {
+        "ja": "כמא קלת",
+        "en": "",
+        "he": "כַּאֲשֶׁר דִּבַּרְתָּ"
+      },
+      {
+        "ja": "לי",
+        "en": "",
+        "he": "לֵאמֹר"
       }
     ],
     "18": [
       {
-        "ja": "אנך אללה. טויל אלמהל כת'יר אלפצ'ל",
-        "en": "'That You are God — long in forbearance, abounding in grace",
-        "he": "יְהוָה אֶרֶךְ אַפַּיִם וְרַב-חֶסֶד"
+        "ja": "אנך אללה",
+        "en": "'That You are God —",
+        "he": "יְהוָה"
       },
       {
-        "ja": "ג'אפר אלד'נב ואלגרם",
-        "en": "forgiving iniquity together with transgression",
-        "he": "נֹשֵׂא עָו‍ֹן וָפָשַׁע"
+        "ja": "טויל אלמהל",
+        "en": "long in forbearance,",
+        "he": "אֶרֶךְ אַפַּיִם"
       },
       {
-        "ja": "ויברי ולא יברי",
-        "en": "and acquits, yet does not wholly acquit",
-        "he": "וְנַקֵּה לֹא יְנַקֶּה"
+        "ja": "כת'יר אלפצ'ל",
+        "en": "abounding in grace,",
+        "he": "וְרַב-חֶסֶד"
       },
       {
-        "ja": "מטאלב בד'נוב אלאבא מע אלבנין. ואלת'ואלת' ואלרואבע",
-        "en": "visiting the iniquities of the fathers upon the sons, and upon the third and upon the fourth generation.'",
-        "he": "פֹּקֵד עֲו‍ֹן אָבוֹת עַל-בָּנִים עַל-שִׁלֵּשִׁים וְעַל-רִבֵּעִים"
+        "ja": "ג'אפר אלד'נב",
+        "en": "forgiving iniquity",
+        "he": "נֹשֵׂא עָו‍ֹן"
+      },
+      {
+        "ja": "ואלגרם",
+        "en": "together with transgression —",
+        "he": "וָפָשַׁע"
+      },
+      {
+        "ja": "ויברי",
+        "en": "and acquits,",
+        "he": "וְנַקֵּה"
+      },
+      {
+        "ja": "ולא יברי",
+        "en": "yet does not wholly acquit —",
+        "he": "לֹא יְנַקֶּה"
+      },
+      {
+        "ja": "מטאלב בד'נוב אלאבא",
+        "en": "visiting the iniquities of the fathers",
+        "he": "פֹּקֵד עֲו‍ֹן אָבוֹת"
+      },
+      {
+        "ja": "מע אלבנין",
+        "en": "upon the sons,",
+        "he": "עַל-בָּנִים"
+      },
+      {
+        "ja": "ואלת'ואלת'",
+        "en": "and upon the third",
+        "he": "עַל-שִׁלֵּשִׁים"
+      },
+      {
+        "ja": "ואלרואבע",
+        "en": "and upon the fourth generation.'",
+        "he": "וְעַל-רִבֵּעִים"
       }
     ],
     "19": [
       {
-        "ja": "אצפח ד'נב הולאי אלקום",
-        "en": "'Pardon the iniquity of these people",
-        "he": "סְלַח-נָא לַעֲו‍ֹן הָעָם הַזֶּה"
+        "ja": "אצפח",
+        "en": "'Pardon",
+        "he": "סְלַח-נָא"
+      },
+      {
+        "ja": "ד'נב",
+        "en": "the iniquity of",
+        "he": "לַעֲו‍ֹן"
+      },
+      {
+        "ja": "הולאי אלקום",
+        "en": "these people",
+        "he": "הָעָם הַזֶּה"
       },
       {
         "ja": "בכת'רה' פצ'לך",
-        "en": "according to the abundance of Your grace",
+        "en": "according to the abundance of Your grace,",
         "he": "כְּגֹדֶל חַסְדֶּךָ"
       },
       {
-        "ja": "וכמא אחתמלת להם. מן מצר ואלי' אלאן",
-        "en": "and as You have borne with them from Egypt until now.'",
-        "he": "וְכַאֲשֶׁר נָשָׂאתָה לָעָם הַזֶּה מִמִּצְרַיִם וְעַד-הֵנָּה"
+        "ja": "וכמא אחתמלת",
+        "en": "and as You have borne",
+        "he": "וְכַאֲשֶׁר נָשָׂאתָה"
+      },
+      {
+        "ja": "להם",
+        "en": "with them",
+        "he": "לָעָם הַזֶּה"
+      },
+      {
+        "ja": "מן מצר",
+        "en": "from Egypt",
+        "he": "מִמִּצְרַיִם"
+      },
+      {
+        "ja": "ואלי' אלאן",
+        "en": "until now.'",
+        "he": "וְעַד-הֵנָּה"
       }
     ],
     "20": [
       {
-        "ja": "קאל אללה. קד צפחת ענהם אלמעאגלה כמא קלת",
-        "en": "And God said: 'I have pardoned them from immediate punishment, as you have said.'",
-        "he": "וַיֹּאמֶר יְהוָה סָלַחְתִּי כִּדְבָרֶךָ"
+        "ja": "קאל אללה",
+        "en": "And God said:",
+        "he": "וַיֹּאמֶר יְהוָה"
+      },
+      {
+        "ja": "קד צפחת ענהם",
+        "en": "'I have pardoned them",
+        "he": "סָלַחְתִּי"
+      },
+      {
+        "ja": "אלמעאגלה",
+        "en": "from immediate punishment,"
+      },
+      {
+        "ja": "כמא קלת",
+        "en": "as you have said.'",
+        "he": "כִּדְבָרֶךָ"
       }
     ],
     "21": [
       {
-        "ja": "ולכן ובקאי אלדאים",
-        "en": "'Yet — by My eternal existence",
-        "he": "וְאוּלָם חַי-אָנִי"
+        "ja": "ולכן",
+        "en": "'Yet —",
+        "he": "וְאוּלָם"
       },
       {
-        "ja": "ונורי אלד'י ימלא גמיע אלעאלם",
-        "en": "and by My light which fills all the world —'",
-        "he": "וְיִמָּלֵא כְבוֹד-יְהוָה אֶת-כָּל-הָאָרֶץ"
+        "ja": "ובקאי אלדאים",
+        "en": "by My eternal existence,",
+        "he": "חַי-אָנִי"
+      },
+      {
+        "ja": "ונורי",
+        "en": "and by My light",
+        "he": "וְיִמָּלֵא"
+      },
+      {
+        "ja": "אלד'י ימלא",
+        "en": "which fills",
+        "he": "כְבוֹד-יְהוָה"
+      },
+      {
+        "ja": "גמיע אלעאלם",
+        "en": "all the world —'",
+        "he": "אֶת-כָּל-הָאָרֶץ"
       }
     ],
     "22": [
       {
-        "ja": "אן גמיע אלרגאל. אלד'י ראו כרמי ואיאתי",
-        "en": "'Surely all the men who saw My generosity and My signs",
-        "he": "כִּי כָל-הָאֲנָשִׁים הָרֹאִים אֶת-כְּבֹדִי וְאֶת-אֹתֹתַי"
+        "ja": "אן",
+        "en": "'Surely",
+        "he": "כִּי"
       },
       {
-        "ja": "אלתי צנעתהא פי מצר ופי אלבר",
-        "en": "which I performed in Egypt and in the wilderness",
-        "he": "אֲשֶׁר-עָשִׂיתִי בְמִצְרַיִם וּבַמִּדְבָּר"
+        "ja": "גמיע אלרגאל",
+        "en": "all the men",
+        "he": "כָל-הָאֲנָשִׁים"
       },
       {
-        "ja": "ואמתחנוני הד'ה אלמרה אלעשארה",
-        "en": "and who tested Me now this tenth time",
-        "he": "וַיְנַסּוּ אֹתִי זֶה עֶשֶׂר פְּעָמִים"
+        "ja": "אלד'י ראו כרמי",
+        "en": "who saw My generosity",
+        "he": "הָרֹאִים אֶת-כְּבֹדִי"
+      },
+      {
+        "ja": "ואיאתי",
+        "en": "and My signs",
+        "he": "וְאֶת-אֹתֹתַי"
+      },
+      {
+        "ja": "אלתי צנעתהא",
+        "en": "which I performed",
+        "he": "אֲשֶׁר-עָשִׂיתִי"
+      },
+      {
+        "ja": "פי מצר",
+        "en": "in Egypt",
+        "he": "בְמִצְרַיִם"
+      },
+      {
+        "ja": "ופי אלבר",
+        "en": "and in the wilderness,",
+        "he": "וּבַמִּדְבָּר"
+      },
+      {
+        "ja": "ואמתחנוני",
+        "en": "and who tested Me",
+        "he": "וַיְנַסּוּ אֹתִי"
+      },
+      {
+        "ja": "הד'ה אלמרה אלעשארה",
+        "en": "now this tenth time,",
+        "he": "זֶה עֶשֶׂר פְּעָמִים"
       },
       {
         "ja": "ולם יקבלו אמרי",
@@ -354,48 +965,122 @@
     ],
     "23": [
       {
-        "ja": "אן ראו אלבלד. אלד'י אקסמת לאבאיהם",
-        "en": "'they shall not see the land which I swore to their fathers",
-        "he": "אִם-יִרְאוּ אֶת-הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לַאֲבֹתָם"
+        "ja": "אן ראו",
+        "en": "'they shall not see",
+        "he": "אִם-יִרְאוּ"
       },
       {
-        "ja": "וכדאלך כל מן יעציני לא יראה",
-        "en": "and likewise every one who defies Me shall not see it.'",
-        "he": "וְכָל-מְנַאֲצַי לֹא יִרְאוּהָ"
+        "ja": "אלבלד",
+        "en": "the land",
+        "he": "אֶת-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י אקסמת",
+        "en": "which I swore",
+        "he": "אֲשֶׁר נִשְׁבַּעְתִּי"
+      },
+      {
+        "ja": "לאבאיהם",
+        "en": "to their fathers;",
+        "he": "לַאֲבֹתָם"
+      },
+      {
+        "ja": "וכדאלך",
+        "en": "and likewise"
+      },
+      {
+        "ja": "כל מן יעציני",
+        "en": "every one who defies Me",
+        "he": "וְכָל-מְנַאֲצַי"
+      },
+      {
+        "ja": "לא יראה",
+        "en": "shall not see it.'",
+        "he": "לֹא יִרְאוּהָ"
       }
     ],
     "24": [
       {
-        "ja": "ואמא עבדי כלב. פגזא מא כאן לה ראי אכ'ר",
-        "en": "'But My servant Caleb — as recompense for his having held a different view",
-        "he": "וְעַבְדִּי כָלֵב עֵקֶב הָיְתָה רוּחַ אַחֶרֶת עִמּוֹ"
+        "ja": "ואמא עבדי",
+        "en": "'But My servant",
+        "he": "וְעַבְדִּי"
+      },
+      {
+        "ja": "כלב",
+        "en": "Caleb —",
+        "he": "כָלֵב"
+      },
+      {
+        "ja": "פגזא",
+        "en": "as recompense",
+        "he": "עֵקֶב"
+      },
+      {
+        "ja": "מא כאן לה ראי אכ'ר",
+        "en": "for his having held a different view,",
+        "he": "הָיְתָה רוּחַ אַחֶרֶת עִמּוֹ"
       },
       {
         "ja": "אתבע בה טאעתי",
-        "en": "following obedience to Me thereby",
+        "en": "following obedience to Me thereby —",
         "he": "וַיְמַלֵּא אַחֲרָי"
       },
       {
-        "ja": "לאדכ'לה אלי' אלבלד אלד'י צאר אליה",
-        "en": "him I will bring into the land which he reached",
-        "he": "וַהֲבִיאֹתִיו אֶל-הָאָרֶץ אֲשֶׁר-בָּא שָׁמָּה"
+        "ja": "לאדכ'לה",
+        "en": "him I will bring",
+        "he": "וַהֲבִיאֹתִיו"
       },
       {
-        "ja": "ולנסלה יורתה",
-        "en": "and for his offspring he shall pass it on as an inheritance.'",
-        "he": "וְזַרְעוֹ יוֹרִשֶׁנָּה"
+        "ja": "אלי' אלבלד",
+        "en": "into the land",
+        "he": "אֶל-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י צאר אליה",
+        "en": "which he reached,",
+        "he": "אֲשֶׁר-בָּא שָׁמָּה"
+      },
+      {
+        "ja": "ולנסלה",
+        "en": "and for his offspring",
+        "he": "וְזַרְעוֹ"
+      },
+      {
+        "ja": "יורתה",
+        "en": "he shall pass it on as an inheritance.'",
+        "he": "יוֹרִשֶׁנָּה"
       }
     ],
     "25": [
       {
-        "ja": "ואלאן פאלעמלאקיין ואלכנעאניין מקימין פי אלמרג",
-        "en": "'And now, the Amalekites and the Canaanites are dwelling in the valley.",
-        "he": "וְהָעֲמָלֵקִי וְהַכְּנַעֲנִי יוֹשֵׁב בָּעֵמֶק"
+        "ja": "ואלאן פאלעמלאקיין",
+        "en": "'And now, the Amalekites",
+        "he": "וְהָעֲמָלֵקִי"
       },
       {
-        "ja": "פולו מן ג'ד וארחלו. אלי' אלבר",
-        "en": "Turn back tomorrow and set out into the wilderness",
-        "he": "מָחָר פְּנוּ וּסְעוּ לָכֶם הַמִּדְבָּר"
+        "ja": "ואלכנעאניין",
+        "en": "and the Canaanites",
+        "he": "וְהַכְּנַעֲנִי"
+      },
+      {
+        "ja": "מקימין פי אלמרג",
+        "en": "are dwelling in the valley.",
+        "he": "יוֹשֵׁב בָּעֵמֶק"
+      },
+      {
+        "ja": "פולו מן ג'ד",
+        "en": "Turn back tomorrow",
+        "he": "מָחָר פְּנוּ"
+      },
+      {
+        "ja": "וארחלו",
+        "en": "and set out",
+        "he": "וּסְעוּ לָכֶם"
+      },
+      {
+        "ja": "אלי' אלבר",
+        "en": "into the wilderness",
+        "he": "הַמִּדְבָּר"
       },
       {
         "ja": "טריק בחר אלקלזם",
@@ -405,16 +1090,49 @@
     ],
     "26": [
       {
-        "ja": "ת'ם כלם אללה מוסי' והרון תכלימא",
-        "en": "Then God spoke to Moses and Aaron, saying:",
-        "he": "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה וְאֶל-אַהֲרֹן לֵאמֹר"
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם",
+        "en": "God spoke",
+        "he": "וַיְדַבֵּר"
+      },
+      {
+        "ja": "אללה",
+        "en": "to Moses",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "and Aaron,",
+        "he": "אֶל-מֹשֶׁה"
+      },
+      {
+        "ja": "והרון",
+        "en": "saying:",
+        "he": "וְאֶל-אַהֲרֹן"
+      },
+      {
+        "ja": "תכלימא",
+        "en": "",
+        "he": "לֵאמֹר"
       }
     ],
     "27": [
       {
-        "ja": "אלי' כם אבקי הד'ה אלגמאעה אלרדייה",
-        "en": "'How long shall I leave this wicked congregation",
-        "he": "עַד-מָתַי לָעֵדָה הָרָעָה הַזֹּאת"
+        "ja": "אלי' כם",
+        "en": "'How long",
+        "he": "עַד-מָתַי"
+      },
+      {
+        "ja": "אבקי",
+        "en": "shall I leave"
+      },
+      {
+        "ja": "הד'ה אלגמאעה אלרדייה",
+        "en": "this wicked congregation,",
+        "he": "לָעֵדָה הָרָעָה הַזֹּאת"
       },
       {
         "ja": "אלד'י ד'מרת אלאמה עליי",
@@ -422,190 +1140,525 @@
         "he": "אֲשֶׁר הֵמָּה מַלִּינִים עָלָי"
       },
       {
-        "ja": "לקד סמעת תד'מר בני אסראיל. אלד'י תד'מרו עליי",
-        "en": "I have indeed heard the grumbling of the sons of Israel, who grumbled against Me.'",
-        "he": "אֶת-תְּלֻנּוֹת בְּנֵי יִשְׂרָאֵל אֲשֶׁר הֵמָּה מַלִּינִים עָלַי--שָׁמָעְתִּי"
+        "ja": "לקד סמעת",
+        "en": "I have indeed heard",
+        "he": "שָׁמָעְתִּי"
+      },
+      {
+        "ja": "תד'מר",
+        "en": "the grumbling of",
+        "he": "אֶת-תְּלֻנּוֹת"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel,",
+        "he": "בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אלד'י תד'מרו עליי",
+        "en": "who grumbled against Me.'",
+        "he": "אֲשֶׁר הֵמָּה מַלִּינִים עָלַי"
       }
     ],
     "28": [
       {
-        "ja": "אלא קל להם",
-        "en": "'Say to them",
-        "he": "אֱמֹר אֲלֵהֶם"
+        "ja": "אלא קל",
+        "en": "'Say to them:",
+        "he": "אֱמֹר"
       },
       {
-        "ja": "ובקאי אלדאים יקול אללה",
-        "en": "By My eternal existence — says God",
-        "he": "חַי-אָנִי נְאֻם-יְהוָה"
+        "ja": "להם",
+        "en": "By My eternal existence —",
+        "he": "אֲלֵהֶם"
       },
       {
-        "ja": "אן לם אצנע בכם. כמא קלתם בחצ'רתי",
-        "en": "if I do not deal with you as you have said in My presence!'",
-        "he": "אִם-לֹא כַּאֲשֶׁר דִּבַּרְתֶּם בְּאָזְנָי כֵּן אֶעֱשֶׂה לָכֶם"
+        "ja": "ובקאי אלדאים",
+        "en": "says God —",
+        "he": "חַי-אָנִי"
+      },
+      {
+        "ja": "יקול אללה",
+        "en": "if I do not deal with you",
+        "he": "נְאֻם-יְהוָה"
+      },
+      {
+        "ja": "אן לם",
+        "en": "as you have said",
+        "he": "אִם-לֹא"
+      },
+      {
+        "ja": "אצנע בכם. כמא קלתם",
+        "en": "in My presence!'",
+        "he": "כַּאֲשֶׁר דִּבַּרְתֶּם"
+      },
+      {
+        "ja": "בחצ'רתי",
+        "en": "",
+        "he": "בְּאָזְנָי"
       }
     ],
     "29": [
       {
-        "ja": "ופי הד'א אלבר תקע אגסאדכם",
-        "en": "'In this wilderness shall your bodies fall",
-        "he": "בַּמִּדְבָּר הַזֶּה יִפְּלוּ פִגְרֵיכֶם"
+        "ja": "ופי הד'א אלבר",
+        "en": "'In this wilderness shall your bodies fall —",
+        "he": "בַּמִּדְבָּר הַזֶּה"
       },
       {
-        "ja": "מן כל מעדוד ומחצא מנכם. מן אבן עשרין סנה פצאעדא",
-        "en": "from every one counted and numbered among you, from twenty years of age and upward",
-        "he": "וְכָל-פְּקֻדֵיכֶם לְכָל-מִסְפַּרְכֶם מִבֶּן עֶשְׂרִים שָׁנָה וָמָעְלָה"
+        "ja": "תקע",
+        "en": "from every one counted",
+        "he": "יִפְּלוּ"
+      },
+      {
+        "ja": "אגסאדכם",
+        "en": "and numbered among you,",
+        "he": "פִגְרֵיכֶם"
+      },
+      {
+        "ja": "מן כל מעדוד",
+        "en": "from twenty years of age",
+        "he": "וְכָל-פְּקֻדֵיכֶם"
+      },
+      {
+        "ja": "ומחצא מנכם",
+        "en": "and upward —",
+        "he": "לְכָל-מִסְפַּרְכֶם"
+      },
+      {
+        "ja": "מן אבן עשרין סנה",
+        "en": "even as you grumbled against Me.'",
+        "he": "מִבֶּן עֶשְׂרִים שָׁנָה"
+      },
+      {
+        "ja": "פצאעדא",
+        "en": "",
+        "he": "וָמָעְלָה"
       },
       {
         "ja": "כמא תד'מרתם עליי",
-        "en": "even as you grumbled against Me.'",
+        "en": "",
         "he": "אֲשֶׁר הֲלִינֹתֶם עָלָי"
       }
     ],
     "30": [
       {
-        "ja": "אן אנתם דכ'לתם אלבלד. אלד'י אקסמת באמרי. אן אסכנכם פיה",
-        "en": "'You shall not enter the land concerning which I swore by My word to settle you in it",
-        "he": "אִם-אַתֶּם תָּבֹאוּ אֶל-הָאָרֶץ אֲשֶׁר נָשָׂאתִי אֶת-יָדִי לְשַׁכֵּן אֶתְכֶם בָּהּ"
+        "ja": "אן אנתם דכ'לתם",
+        "en": "'You shall not enter",
+        "he": "אִם-אַתֶּם תָּבֹאוּ"
       },
       {
-        "ja": "אלא כלב אבן יפנה. ויהושע אבן נון",
-        "en": "except Caleb son of Jephunneh and Joshua son of Nun.'",
-        "he": "כִּי אִם-כָּלֵב בֶּן-יְפֻנֶּה וִיהוֹשֻׁעַ בִּן-נוּן"
+        "ja": "אלבלד",
+        "en": "the land",
+        "he": "אֶל-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י אקסמת",
+        "en": "concerning which I swore",
+        "he": "אֲשֶׁר נָשָׂאתִי"
+      },
+      {
+        "ja": "באמרי",
+        "en": "by My word",
+        "he": "אֶת-יָדִי"
+      },
+      {
+        "ja": "אן אסכנכם פיה",
+        "en": "to settle you in it —",
+        "he": "לְשַׁכֵּן אֶתְכֶם בָּהּ"
+      },
+      {
+        "ja": "אלא כלב",
+        "en": "except Caleb",
+        "he": "כִּי אִם-כָּלֵב"
+      },
+      {
+        "ja": "אבן יפנה",
+        "en": "son of Jephunneh",
+        "he": "בֶּן-יְפֻנֶּה"
+      },
+      {
+        "ja": "ויהושע",
+        "en": "and Joshua",
+        "he": "וִיהוֹשֻׁעַ"
+      },
+      {
+        "ja": "אבן נון",
+        "en": "son of Nun.'",
+        "he": "בִּן-נוּן"
       }
     ],
     "31": [
       {
-        "ja": "ואטפאלכם. אלד'י קלתם אנהם יצירו ג'נימה",
-        "en": "'And your children, whom you said would become spoil",
-        "he": "וְטַפְּכֶם--אֲשֶׁר אֲמַרְתֶּם לָבַז יִהְיֶה"
+        "ja": "ואטפאלכם",
+        "en": "'And your children,",
+        "he": "וְטַפְּכֶם"
+      },
+      {
+        "ja": "אלד'י קלתם",
+        "en": "whom you said",
+        "he": "אֲשֶׁר אֲמַרְתֶּם"
+      },
+      {
+        "ja": "אנהם יצירו ג'נימה",
+        "en": "would become spoil —",
+        "he": "לָבַז יִהְיֶה"
       },
       {
         "ja": "פאני אדכ'להם",
-        "en": "them I will bring in",
+        "en": "them I will bring in,",
         "he": "וְהֵבֵיאתִי אֹתָם"
       },
       {
-        "ja": "חתא יערפון פצ'ילה' אלבלד. אלד'י זהדתם פיה",
-        "en": "so that they may know the excellence of the land which you have despised.'",
-        "he": "וְיָדְעוּ אֶת-הָאָרֶץ אֲשֶׁר מְאַסְתֶּם בָּהּ"
+        "ja": "חתא יערפון",
+        "en": "so that they may know",
+        "he": "וְיָדְעוּ"
+      },
+      {
+        "ja": "פצ'ילה' אלבלד",
+        "en": "the excellence of the land",
+        "he": "אֶת-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י זהדתם פיה",
+        "en": "which you have despised.'",
+        "he": "אֲשֶׁר מְאַסְתֶּם בָּהּ"
       }
     ],
     "32": [
       {
-        "ja": "אמא אגסאדכם אנתם. פתקע פי הד'א אלבר",
-        "en": "'But your bodies — you yourselves — shall fall in this wilderness.'",
-        "he": "וּפִגְרֵיכֶם אַתֶּם--יִפְּלוּ בַּמִּדְבָּר הַזֶּה"
+        "ja": "אמא אגסאדכם",
+        "en": "'But your bodies —",
+        "he": "וּפִגְרֵיכֶם"
+      },
+      {
+        "ja": "אנתם",
+        "en": "you yourselves —",
+        "he": "אַתֶּם"
+      },
+      {
+        "ja": "פתקע",
+        "en": "shall fall",
+        "he": "יִפְּלוּ"
+      },
+      {
+        "ja": "פי הד'א אלבר",
+        "en": "in this wilderness.'",
+        "he": "בַּמִּדְבָּר הַזֶּה"
       }
     ],
     "33": [
       {
-        "ja": "ובניכם. יקימון תאיהין פי אלבר ארבעין סנה",
-        "en": "'And your sons shall remain wandering in the wilderness forty years",
-        "he": "וּבְנֵיכֶם יִהְיוּ רֹעִים בַּמִּדְבָּר אַרְבָּעִים שָׁנָה"
+        "ja": "ובניכם",
+        "en": "'And your sons",
+        "he": "וּבְנֵיכֶם"
       },
       {
-        "ja": "ויחמלון טג'יאנכם",
-        "en": "and shall bear the burden of your rebellion",
-        "he": "וְנָשְׂאוּ אֶת-זְנוּתֵיכֶם"
+        "ja": "יקימון תאיהין",
+        "en": "shall remain wandering",
+        "he": "יִהְיוּ רֹעִים"
       },
       {
-        "ja": "אלי'' פנא אגסאדכם פיה",
-        "en": "until the perishing of your bodies therein.'",
-        "he": "עַד-תֹּם פִּגְרֵיכֶם בַּמִּדְבָּר"
+        "ja": "פי אלבר",
+        "en": "in the wilderness",
+        "he": "בַּמִּדְבָּר"
+      },
+      {
+        "ja": "ארבעין סנה",
+        "en": "forty years,",
+        "he": "אַרְבָּעִים שָׁנָה"
+      },
+      {
+        "ja": "ויחמלון",
+        "en": "and shall bear",
+        "he": "וְנָשְׂאוּ"
+      },
+      {
+        "ja": "טג'יאנכם",
+        "en": "the burden of your rebellion —",
+        "he": "אֶת-זְנוּתֵיכֶם"
+      },
+      {
+        "ja": "אלי'' פנא",
+        "en": "until the perishing of",
+        "he": "עַד-תֹּם"
+      },
+      {
+        "ja": "אגסאדכם פיה",
+        "en": "your bodies therein.'",
+        "he": "פִּגְרֵיכֶם בַּמִּדְבָּר"
       }
     ],
     "34": [
       {
-        "ja": "באחצא אלאייאם. אלד'י רמתם אלבלד פיהא ארבעין יומא",
-        "en": "'By the count of the days in which you sought out the land — forty days",
-        "he": "בְּמִסְפַּר הַיָּמִים אֲשֶׁר-תַּרְתֶּם אֶת-הָאָרֶץ אַרְבָּעִים יוֹם"
+        "ja": "באחצא אלאייאם",
+        "en": "'By the count of the days",
+        "he": "בְּמִסְפַּר הַיָּמִים"
       },
       {
-        "ja": "לכל יום סנה. תחמלון אוזארכם. אלי' תמאם ארבעין סנה",
-        "en": "a year for each day — you shall bear your burdens for a full forty years",
-        "he": "יוֹם לַשָּׁנָה יוֹם לַשָּׁנָה תִּשְׂאוּ אֶת-עֲו‍ֹנֹתֵיכֶם אַרְבָּעִים שָׁנָה"
+        "ja": "אלד'י רמתם",
+        "en": "in which you sought out",
+        "he": "אֲשֶׁר-תַּרְתֶּם"
       },
       {
-        "ja": "פתערפון מוצ'ע אענאתי",
-        "en": "and you shall come to know the consequence of My displeasure.'",
-        "he": "וִידַעְתֶּם אֶת-תְּנוּאָתִי"
+        "ja": "אלבלד פיהא",
+        "en": "the land —",
+        "he": "אֶת-הָאָרֶץ"
+      },
+      {
+        "ja": "ארבעין יומא",
+        "en": "forty days,",
+        "he": "אַרְבָּעִים יוֹם"
+      },
+      {
+        "ja": "לכל יום סנה",
+        "en": "a year for each day —",
+        "he": "יוֹם לַשָּׁנָה"
+      },
+      {
+        "ja": "תחמלון אוזארכם",
+        "en": "you shall bear your burdens",
+        "he": "תִּשְׂאוּ אֶת-עֲו‍ֹנֹתֵיכֶם"
+      },
+      {
+        "ja": "אלי' תמאם ארבעין סנה",
+        "en": "for a full forty years,",
+        "he": "אַרְבָּעִים שָׁנָה"
+      },
+      {
+        "ja": "פתערפון",
+        "en": "and you shall come to know",
+        "he": "וִידַעְתֶּם"
+      },
+      {
+        "ja": "מוצ'ע אענאתי",
+        "en": "the consequence of My displeasure.'",
+        "he": "אֶת-תְּנוּאָתִי"
       }
     ],
     "35": [
       {
-        "ja": "אנא אללה קלת ד'אלך ואצנעה",
-        "en": "'I, God, have spoken this and I will do it",
-        "he": "אֲנִי יְהוָה דִּבַּרְתִּי"
+        "ja": "אנא אללה",
+        "en": "'I, God,",
+        "he": "אֲנִי יְהוָה"
       },
       {
-        "ja": "בגמיע הד'ה אלגמאעה אלרדייה. אלמגתמעה עליי",
-        "en": "against all this wicked congregation, gathered against Me",
-        "he": "לְכָל-הָעֵדָה הָרָעָה הַזֹּאת הַנּוֹעָדִים עָלָי"
+        "ja": "קלת ד'אלך",
+        "en": "have spoken this",
+        "he": "דִּבַּרְתִּי"
       },
       {
-        "ja": "פי הד'א אלבר יפנון באלמות",
-        "en": "in this wilderness they shall perish by death.'",
-        "he": "בַּמִּדְבָּר הַזֶּה יִתַּמּוּ וְשָׁם יָמֻתוּ"
+        "ja": "ואצנעה",
+        "en": "and I will do it —",
+        "he": "אִם-לֹא זֹאת אֶעֱשֶׂה"
+      },
+      {
+        "ja": "בגמיע הד'ה אלגמאעה אלרדייה",
+        "en": "against all this wicked congregation,",
+        "he": "לְכָל-הָעֵדָה הָרָעָה הַזֹּאת"
+      },
+      {
+        "ja": "אלמגתמעה עליי",
+        "en": "gathered against Me:",
+        "he": "הַנּוֹעָדִים עָלָי"
+      },
+      {
+        "ja": "פי הד'א אלבר",
+        "en": "in this wilderness",
+        "he": "בַּמִּדְבָּר הַזֶּה"
+      },
+      {
+        "ja": "יפנון",
+        "en": "they shall perish",
+        "he": "יִתַּמּוּ"
+      },
+      {
+        "ja": "באלמות",
+        "en": "by death.'",
+        "he": "וְשָׁם יָמֻתוּ"
       }
     ],
     "36": [
       {
-        "ja": "ואלרגאל אלד'י בעת' בהם מוסי' לירומו אלבלד",
-        "en": "And the men whom Moses had sent to seek out the land",
-        "he": "וְהָאֲנָשִׁים אֲשֶׁר-שָׁלַח מֹשֶׁה לָתוּר אֶת-הָאָרֶץ"
+        "ja": "ואלרגאל",
+        "en": "And the men",
+        "he": "וְהָאֲנָשִׁים"
       },
       {
-        "ja": "פרגעו וד'מרו עליה אלגמאעה",
-        "en": "who returned and incited the congregation against him",
-        "he": "וַיָּשֻׁבוּ וילונו (וַיַּלִּינוּ) עָלָיו אֶת-כָּל-הָעֵדָה"
+        "ja": "אלד'י בעת' בהם מוסי'",
+        "en": "whom Moses had sent",
+        "he": "אֲשֶׁר-שָׁלַח מֹשֶׁה"
       },
       {
-        "ja": "ואכ'רגו שנאעה עלי' אלבלד",
-        "en": "and spread a reproach upon the land —",
-        "he": "לְהוֹצִיא דִבָּה עַל-הָאָרֶץ"
+        "ja": "לירומו אלבלד",
+        "en": "to seek out the land —",
+        "he": "לָתוּר אֶת-הָאָרֶץ"
+      },
+      {
+        "ja": "פרגעו",
+        "en": "who returned",
+        "he": "וַיָּשֻׁבוּ"
+      },
+      {
+        "ja": "וד'מרו עליה",
+        "en": "and incited the congregation against him,",
+        "he": "וילונו (וַיַּלִּינוּ) עָלָיו"
+      },
+      {
+        "ja": "אלגמאעה",
+        "en": "and spread a reproach",
+        "he": "אֶת-כָּל-הָעֵדָה"
+      },
+      {
+        "ja": "ואכ'רגו שנאעה",
+        "en": "upon the land —",
+        "he": "לְהוֹצִיא דִבָּה"
+      },
+      {
+        "ja": "עלי' אלבלד",
+        "en": "",
+        "he": "עַל-הָאָרֶץ"
       }
     ],
     "37": [
       {
-        "ja": "פמאת אולאיך אלרגאל. באלצדאם בין ידי אללה",
-        "en": "those men died by a blow before God.",
-        "he": "וַיָּמֻתוּ הָאֲנָשִׁים מוֹצִאֵי דִבַּת-הָאָרֶץ רָעָה--בַּמַּגֵּפָה לִפְנֵי יְהוָה"
+        "ja": "פמאת",
+        "en": "those men died",
+        "he": "וַיָּמֻתוּ"
+      },
+      {
+        "ja": "אולאיך אלרגאל",
+        "en": "by a blow",
+        "he": "הָאֲנָשִׁים מוֹצִאֵי דִבַּת-הָאָרֶץ רָעָה"
+      },
+      {
+        "ja": "באלצדאם",
+        "en": "before God.",
+        "he": "בַּמַּגֵּפָה"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "",
+        "he": "לִפְנֵי יְהוָה"
       }
     ],
     "38": [
       {
-        "ja": "ויהושע אבן נון. וכלב אבן יפונה",
-        "en": "But Joshua son of Nun and Caleb son of Jephunneh",
-        "he": "וִיהוֹשֻׁעַ בִּן-נוּן וְכָלֵב בֶּן-יְפֻנֶּה"
+        "ja": "ויהושע",
+        "en": "But Joshua",
+        "he": "וִיהוֹשֻׁעַ"
       },
       {
-        "ja": "עאשו מן ג'מלה' אלרגאל. אלד'י מצ'ו לירומו אלבלד",
-        "en": "lived, from among the men who had gone to seek out the land.",
-        "he": "חָיוּ מִן-הָאֲנָשִׁים הָהֵם הַהֹלְכִים לָתוּר אֶת-הָאָרֶץ"
+        "ja": "אבן נון",
+        "en": "son of Nun",
+        "he": "בִּן-נוּן"
+      },
+      {
+        "ja": "וכלב",
+        "en": "and Caleb",
+        "he": "וְכָלֵב"
+      },
+      {
+        "ja": "אבן יפונה",
+        "en": "son of Jephunneh",
+        "he": "בֶּן-יְפֻנֶּה"
+      },
+      {
+        "ja": "עאשו",
+        "en": "lived,",
+        "he": "חָיוּ"
+      },
+      {
+        "ja": "מן ג'מלה' אלרגאל",
+        "en": "from among the men",
+        "he": "מִן-הָאֲנָשִׁים הָהֵם"
+      },
+      {
+        "ja": "אלד'י מצ'ו לירומו",
+        "en": "who had gone to seek out",
+        "he": "הַהֹלְכִים לָתוּר"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "the land.",
+        "he": "אֶת-הָאָרֶץ"
       }
     ],
     "39": [
       {
-        "ja": "ולמא כלם מוסי'' בהד'א אלכלאם. גמאעה' בני אסראיל",
-        "en": "And when Moses spoke these words to the congregation of the sons of Israel",
-        "he": "וַיְדַבֵּר מֹשֶׁה אֶת-הַדְּבָרִים הָאֵלֶּה אֶל-כָּל-בְּנֵי יִשְׂרָאֵל"
+        "ja": "ולמא כלם",
+        "en": "And when Moses spoke",
+        "he": "וַיְדַבֵּר"
       },
       {
-        "ja": "פחזן אלקום גדא",
-        "en": "the people grieved greatly.",
-        "he": "וַיִּתְאַבְּלוּ הָעָם מְאֹד"
+        "ja": "מוסי''",
+        "en": "these words",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "בהד'א אלכלאם",
+        "en": "to the congregation of",
+        "he": "אֶת-הַדְּבָרִים הָאֵלֶּה"
+      },
+      {
+        "ja": "גמאעה' בני אסראיל",
+        "en": "the sons of Israel,",
+        "he": "אֶל-כָּל-בְּנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פחזן אלקום",
+        "en": "the people grieved",
+        "he": "וַיִּתְאַבְּלוּ הָעָם"
+      },
+      {
+        "ja": "גדא",
+        "en": "greatly.",
+        "he": "מְאֹד"
       }
     ],
     "40": [
       {
-        "ja": "ואדלגו באלג'דאה. וצעדו אלי' ראס אלגבל",
-        "en": "And they rose early in the morning and went up to the top of the mountain",
-        "he": "וַיַּשְׁכִּמוּ בַבֹּקֶר וַיַּעֲלוּ אֶל-רֹאשׁ-הָהָר"
+        "ja": "ואדלגו",
+        "en": "And they rose early",
+        "he": "וַיַּשְׁכִּמוּ"
       },
       {
-        "ja": "וקאלו. הא נחן צאעדין. אלי' אלמוצ'ע. אלד'י אמרנא אללה",
-        "en": "and said: 'Here we are, and we will go up to the place which God commanded us",
-        "he": "לֵאמֹר הִנֶּנּוּ וְעָלִינוּ אֶל-הַמָּקוֹם אֲשֶׁר-אָמַר יְהוָה"
+        "ja": "באלג'דאה",
+        "en": "in the morning",
+        "he": "בַבֹּקֶר"
+      },
+      {
+        "ja": "וצעדו",
+        "en": "and went up",
+        "he": "וַיַּעֲלוּ"
+      },
+      {
+        "ja": "אלי' ראס אלגבל",
+        "en": "to the top of the mountain,",
+        "he": "אֶל-רֹאשׁ-הָהָר"
+      },
+      {
+        "ja": "וקאלו",
+        "en": "and said:",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "הא נחן",
+        "en": "'Here we are,",
+        "he": "הִנֶּנּוּ"
+      },
+      {
+        "ja": "צאעדין",
+        "en": "and we will go up",
+        "he": "וְעָלִינוּ"
+      },
+      {
+        "ja": "אלי' אלמוצ'ע",
+        "en": "to the place",
+        "he": "אֶל-הַמָּקוֹם"
+      },
+      {
+        "ja": "אלד'י אמרנא אללה",
+        "en": "which God commanded us —",
+        "he": "אֲשֶׁר-אָמַר יְהוָה"
       },
       {
         "ja": "פקד אכ'טאנא",
@@ -615,9 +1668,23 @@
     ],
     "41": [
       {
-        "ja": "קאל להם מוסי'. יא קום לא תתגאוזו אמר אללה",
-        "en": "Moses said to them: 'O people, do not transgress the command of God",
-        "he": "וַיֹּאמֶר מֹשֶׁה לָמָּה זֶּה אַתֶּם עֹבְרִים אֶת-פִּי יְהוָה"
+        "ja": "קאל להם מוסי'",
+        "en": "Moses said to them:",
+        "he": "וַיֹּאמֶר מֹשֶׁה"
+      },
+      {
+        "ja": "יא קום",
+        "en": "'O people,"
+      },
+      {
+        "ja": "לא תתגאוזו",
+        "en": "do not transgress",
+        "he": "לָמָּה זֶּה אַתֶּם עֹבְרִים"
+      },
+      {
+        "ja": "אמר אללה",
+        "en": "the command of God —",
+        "he": "אֶת-פִּי יְהוָה"
       },
       {
         "ja": "פאנהא לא תנגח",
@@ -627,60 +1694,145 @@
     ],
     "42": [
       {
-        "ja": "לא תצעדו. אן נור אללה ליס הו מעכם",
-        "en": "'Do not go up — for the light of God is not with you",
-        "he": "אַל-תַּעֲלוּ כִּי אֵין יְהוָה בְּקִרְבְּכֶם"
+        "ja": "לא תצעדו",
+        "en": "'Do not go up —",
+        "he": "אַל-תַּעֲלוּ"
       },
       {
-        "ja": "ולא תנצדמו. בין ידי אעדאיכם",
-        "en": "lest you be struck down before your enemies.'",
-        "he": "וְלֹא תִּנָּגְפוּ לִפְנֵי אֹיְבֵיכֶם"
+        "ja": "אן נור אללה",
+        "en": "for the light of God",
+        "he": "כִּי אֵין יְהוָה"
+      },
+      {
+        "ja": "ליס הו מעכם",
+        "en": "is not with you —",
+        "he": "בְּקִרְבְּכֶם"
+      },
+      {
+        "ja": "ולא תנצדמו",
+        "en": "lest you be struck down",
+        "he": "וְלֹא תִּנָּגְפוּ"
+      },
+      {
+        "ja": "בין ידי אעדאיכם",
+        "en": "before your enemies.'",
+        "he": "לִפְנֵי אֹיְבֵיכֶם"
       }
     ],
     "43": [
       {
-        "ja": "פאן אלעמאלקה ואלכנעאניין ת'ם בין אידיכם",
-        "en": "'For the Amalekites and the Canaanites are there before you",
-        "he": "כִּי הָעֲמָלֵקִי וְהַכְּנַעֲנִי שָׁם לִפְנֵיכֶם"
+        "ja": "פאן אלעמאלקה",
+        "en": "'For the Amalekites",
+        "he": "כִּי הָעֲמָלֵקִי"
       },
       {
-        "ja": "פתקעון באלסיף",
-        "en": "and you will fall by the sword",
-        "he": "וּנְפַלְתֶּם בֶּחָרֶב"
+        "ja": "ואלכנעאניין",
+        "en": "and the Canaanites",
+        "he": "וְהַכְּנַעֲנִי"
       },
       {
-        "ja": "לאנכם רגעתם ען טאעה' אללה",
-        "en": "because you have turned back from obedience to God",
-        "he": "כִּי-עַל-כֵּן שַׁבְתֶּם מֵאַחֲרֵי יְהוָה"
+        "ja": "ת'ם בין אידיכם",
+        "en": "are there before you,",
+        "he": "שָׁם לִפְנֵיכֶם"
       },
       {
-        "ja": "פלא יכון אללה מעכם",
-        "en": "and God will not be with you.'",
-        "he": "וְלֹא-יִהְיֶה יְהוָה עִמָּכֶם"
+        "ja": "פתקעון",
+        "en": "and you will fall",
+        "he": "וּנְפַלְתֶּם"
+      },
+      {
+        "ja": "באלסיף",
+        "en": "by the sword —",
+        "he": "בֶּחָרֶב"
+      },
+      {
+        "ja": "לאנכם רגעתם",
+        "en": "because you have turned back",
+        "he": "כִּי-עַל-כֵּן שַׁבְתֶּם"
+      },
+      {
+        "ja": "ען טאעה' אללה",
+        "en": "from obedience to God,",
+        "he": "מֵאַחֲרֵי יְהוָה"
+      },
+      {
+        "ja": "פלא יכון אללה",
+        "en": "and God will not be",
+        "he": "וְלֹא-יִהְיֶה יְהוָה"
+      },
+      {
+        "ja": "מעכם",
+        "en": "with you.'",
+        "he": "עִמָּכֶם"
       }
     ],
     "44": [
       {
-        "ja": "פאעתדו. וצעדו אלי' ראס אלגבל",
-        "en": "Yet they acted presumptuously and went up to the top of the mountain",
-        "he": "וַיַּעְפִּלוּ לַעֲלוֹת אֶל-רֹאשׁ הָהָר"
+        "ja": "פאעתדו",
+        "en": "Yet they acted presumptuously",
+        "he": "וַיַּעְפִּלוּ"
       },
       {
-        "ja": "וצנדוק עהד אללה ומוסי. לם יזולא מן וסט אלעסכר",
-        "en": "but the ark of the covenant of God and Moses did not stir from the midst of the camp.",
-        "he": "וַאֲרוֹן בְּרִית-יְהוָה וּמֹשֶׁה לֹא-מָשׁוּ מִקֶּרֶב הַמַּחֲנֶה"
+        "ja": "וצעדו",
+        "en": "and went up",
+        "he": "לַעֲלוֹת"
+      },
+      {
+        "ja": "אלי' ראס אלגבל",
+        "en": "to the top of the mountain;",
+        "he": "אֶל-רֹאשׁ הָהָר"
+      },
+      {
+        "ja": "וצנדוק עהד אללה",
+        "en": "but the ark of the covenant of God",
+        "he": "וַאֲרוֹן בְּרִית-יְהוָה"
+      },
+      {
+        "ja": "ומוסי",
+        "en": "and Moses",
+        "he": "וּמֹשֶׁה"
+      },
+      {
+        "ja": "לם יזולא",
+        "en": "did not stir",
+        "he": "לֹא-מָשׁוּ"
+      },
+      {
+        "ja": "מן וסט אלעסכר",
+        "en": "from the midst of the camp.",
+        "he": "מִקֶּרֶב הַמַּחֲנֶה"
       }
     ],
     "45": [
       {
-        "ja": "פנזל אלעמלאקיין ואלכנעאניין. אלמקימין פי ד'אלך אלגבל",
-        "en": "And the Amalekites and the Canaanites who dwelt in that mountain came down",
-        "he": "וַיֵּרֶד הָעֲמָלֵקִי וְהַכְּנַעֲנִי הַיֹּשֵׁב בָּהָר הַהוּא"
+        "ja": "פנזל אלעמלאקיין",
+        "en": "And the Amalekites and the Canaanites",
+        "he": "וַיֵּרֶד הָעֲמָלֵקִי"
       },
       {
-        "ja": "פצ'רבוהם וחטמוהם אלי' חרמה",
-        "en": "and struck them and shattered them as far as Hormah.",
-        "he": "וַיַּכּוּם וַיַּכְּתוּם עַד-הַחָרְמָה"
+        "ja": "ואלכנעאניין",
+        "en": "who dwelt in that mountain came down,",
+        "he": "וְהַכְּנַעֲנִי"
+      },
+      {
+        "ja": "אלמקימין פי ד'אלך אלגבל",
+        "en": "and struck them",
+        "he": "הַיֹּשֵׁב בָּהָר הַהוּא"
+      },
+      {
+        "ja": "פצ'רבוהם",
+        "en": "and shattered them",
+        "he": "וַיַּכּוּם"
+      },
+      {
+        "ja": "וחטמוהם",
+        "en": "as far as Hormah.",
+        "he": "וַיַּכְּתוּם"
+      },
+      {
+        "ja": "אלי' חרמה",
+        "en": "",
+        "he": "עַד-הַחָרְמָה"
       }
     ]
   }
