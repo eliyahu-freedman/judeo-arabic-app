@@ -1,38 +1,86 @@
 "use client";
 
-import { useState } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 import { lookup, tokenizeJa, type Entry } from "@/lib/lookup";
+import {
+  resolveVerseAlignment,
+  sliceByGroups,
+  type AlignmentPair,
+  type VerseAlignment,
+} from "@/lib/alignment";
+import {
+  buildTermIndex,
+  lookupTerm,
+  type TermCard,
+  type TermIndex,
+  type TermRef,
+} from "@/lib/terms";
 
 export type AlignedSegment = {
   ja: string;
-  he: string;
   en: string;
+  /** Optional Hebrew crib — retained in data but no longer rendered. */
+  he?: string;
   isHeader?: boolean;
+  /** Sentence-internal JA↔EN phrase pairs that drive the hover highlighter. */
+  pairs?: AlignmentPair[];
+  /** Authoring hint: which key terms appear here. Marking uses the work-level index. */
+  terms?: TermRef[];
 };
 
-export type BahyaPage = {
+export type WorkPage = {
   page_he: string;
-  paragraphs: string[];
-  hebrew_paragraphs: string[];
-  english_paragraphs: string[];
+  /** Free-flow JA paragraphs (used when a page has no aligned segments). */
+  paragraphs?: string[];
+  /** Free-flow English paragraphs paralleling `paragraphs`. */
+  english_paragraphs?: string[];
   aligned?: AlignedSegment[];
 };
 
-export type BahyaData = {
+export type WorkData = {
   work: string;
   section: string;
   subtitle: string;
   author: string;
-  hebrew_translator: string;
   english_translator: string;
-  pages: BahyaPage[];
+  /** Optional custom header blurb; falls back to a generic one. */
+  intro?: string;
+  /** Work-level key-term cards, surfaced as footnotes in the gloss panel. */
+  terms?: TermCard[];
+  pages: WorkPage[];
 };
 
-export function BahyaReader({ data }: { data: BahyaData }) {
-  const [showHebrew, setShowHebrew] = useState(false);
-  const [showEnglish, setShowEnglish] = useState(false);
+/** Which segment+group is currently hovered, scoped by a per-segment key. */
+type HoveredGroup = { segId: string; groupId: number };
+
+export function AdvancedReader({ data }: { data: WorkData }) {
+  const [showEnglish, setShowEnglish] = useState(true);
   const [activeToken, setActiveToken] = useState<string | null>(null);
+  const [hoveredGroup, setHoveredGroup] = useState<HoveredGroup | null>(null);
+
+  // Debounce mouseleave clears by a frame: moving between adjacent tokens of
+  // the same group fires leave-then-enter and we don't want a flicker.
+  const clearTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const updateHoveredGroup = useCallback((next: HoveredGroup | null) => {
+    if (clearTimerRef.current) {
+      clearTimeout(clearTimerRef.current);
+      clearTimerRef.current = null;
+    }
+    if (next === null) {
+      clearTimerRef.current = setTimeout(() => {
+        setHoveredGroup(null);
+        clearTimerRef.current = null;
+      }, 40);
+    } else {
+      setHoveredGroup(next);
+    }
+  }, []);
+
+  const termIndex = useMemo(() => buildTermIndex(data.terms), [data.terms]);
   const activeEntries: Entry[] = activeToken ? lookup(activeToken) : [];
+  const activeTerm: TermCard | null = activeToken
+    ? lookupTerm(termIndex, activeToken)
+    : null;
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-10 pb-44">
@@ -45,10 +93,8 @@ export function BahyaReader({ data }: { data: BahyaData }) {
         </h1>
         <p className="mt-3 text-base text-muted italic">{data.subtitle}</p>
         <p className="mt-4 text-base text-ink/70 leading-relaxed max-w-xl">
-          The opening gate of Bahya&apos;s Chovot HaLevavot in the original
-          Judeo-Arabic, with {data.hebrew_translator}&apos;s classical Hebrew
-          translation (Sefaria) and a working English translation by{" "}
-          {data.english_translator}. Tap any JA word for a gloss.
+          {data.intro ??
+            `${data.work} in the original Judeo-Arabic, with a working English translation by ${data.english_translator}. Hover a phrase to see its English light up; tap any word for a gloss.`}
         </p>
       </header>
 
@@ -57,11 +103,6 @@ export function BahyaReader({ data }: { data: BahyaData }) {
           Layers
         </span>
         <ToggleChip on disabled label="Judeo-Arabic" />
-        <ToggleChip
-          on={showHebrew}
-          onClick={() => setShowHebrew((x) => !x)}
-          label="Hebrew (Ibn Tibbon)"
-        />
         <ToggleChip
           on={showEnglish}
           onClick={() => setShowEnglish((x) => !x)}
@@ -84,16 +125,19 @@ export function BahyaReader({ data }: { data: BahyaData }) {
             <div className="rounded-md bg-page border border-ink/10 p-7">
               {page.aligned && page.aligned.length > 0 ? (
                 <AlignedSegments
+                  pageKey={page.page_he}
                   segments={page.aligned}
-                  showHebrew={showHebrew}
                   showEnglish={showEnglish}
                   activeToken={activeToken}
                   onTap={setActiveToken}
+                  termIndex={termIndex}
+                  hoveredGroup={hoveredGroup}
+                  onHoverGroup={updateHoveredGroup}
                 />
               ) : (
                 <>
                   <div dir="rtl" className="space-y-5">
-                    {page.paragraphs.map((para, i) => (
+                    {(page.paragraphs ?? []).map((para, i) => (
                       <p
                         key={i}
                         className="font-hebrew ja-text text-xl text-ink/90 leading-loose"
@@ -102,37 +146,30 @@ export function BahyaReader({ data }: { data: BahyaData }) {
                           text={para}
                           activeToken={activeToken}
                           onTap={setActiveToken}
+                          termIndex={termIndex}
+                          alignment={null}
+                          hoveredGroupId={null}
+                          onHoverGroup={() => {}}
                         />
                       </p>
                     ))}
-                    {showHebrew && page.hebrew_paragraphs.length > 0 && (
-                      <div className="mt-5 pt-5 border-t border-ink/10 space-y-4">
-                        {page.hebrew_paragraphs.map((p, j) => (
+                  </div>
+                  {showEnglish &&
+                    (page.english_paragraphs?.length ?? 0) > 0 && (
+                      <div
+                        dir="ltr"
+                        className="mt-5 pt-5 border-t border-ink/10 space-y-3"
+                      >
+                        {page.english_paragraphs!.map((p, j) => (
                           <p
                             key={j}
-                            className="font-hebrew text-lg text-muted italic leading-loose"
+                            className="text-[15px] text-ink/80 leading-relaxed"
                           >
                             {p}
                           </p>
                         ))}
                       </div>
                     )}
-                  </div>
-                  {showEnglish && page.english_paragraphs.length > 0 && (
-                    <div
-                      dir="ltr"
-                      className="mt-5 pt-5 border-t border-ink/10 space-y-3"
-                    >
-                      {page.english_paragraphs.map((p, j) => (
-                        <p
-                          key={j}
-                          className="text-[15px] text-ink/80 leading-relaxed"
-                        >
-                          {p}
-                        </p>
-                      ))}
-                    </div>
-                  )}
                 </>
               )}
             </div>
@@ -140,10 +177,9 @@ export function BahyaReader({ data }: { data: BahyaData }) {
         ))}
       </article>
 
-      {(showHebrew || showEnglish) && (
+      {showEnglish && (
         <p className="mt-6 text-xs uppercase tracking-[0.25em] text-muted text-center italic">
-          Hebrew &amp; English alignment is approximate — paragraph boundaries
-          differ between editions.
+          English is a working draft — alignment is sentence-by-sentence.
         </p>
       )}
 
@@ -151,6 +187,7 @@ export function BahyaReader({ data }: { data: BahyaData }) {
         <GlossPanel
           token={activeToken}
           entries={activeEntries}
+          term={activeTerm}
           onClose={() => setActiveToken(null)}
         />
       )}
@@ -158,69 +195,78 @@ export function BahyaReader({ data }: { data: BahyaData }) {
   );
 }
 
+// Back-compat alias while the Bahya page migrates to the new name.
+export const BahyaReader = AdvancedReader;
+export type BahyaData = WorkData;
+export type BahyaPage = WorkPage;
+
 function AlignedSegments({
+  pageKey,
   segments,
-  showHebrew,
   showEnglish,
   activeToken,
   onTap,
+  termIndex,
+  hoveredGroup,
+  onHoverGroup,
 }: {
+  pageKey: string;
   segments: AlignedSegment[];
-  showHebrew: boolean;
   showEnglish: boolean;
   activeToken: string | null;
   onTap: (t: string) => void;
+  termIndex: TermIndex;
+  hoveredGroup: HoveredGroup | null;
+  onHoverGroup: (g: HoveredGroup | null) => void;
 }) {
-  const nothingToggled = !showHebrew && !showEnglish;
   return (
     <div className="space-y-7">
-      <div className="flex items-baseline justify-between gap-4 -mt-1 mb-1">
-        <p className="text-[10px] uppercase tracking-[0.3em] text-muted">
-          Aligned line by line
-        </p>
-        {nothingToggled && (
-          <p className="text-[11px] text-muted/70 italic">
-            Toggle Hebrew or English above to see the rendering
-          </p>
-        )}
-      </div>
-      {segments.map((seg, i) => (
-        <div
-          key={i}
-          className={
-            i > 0 ? "pt-6 border-t border-ink/5" : undefined
-          }
-        >
-          <p
-            dir="rtl"
-            className={`font-hebrew ja-text leading-loose text-ink/90 ${
-              seg.isHeader ? "text-2xl text-wine" : "text-xl"
-            }`}
-          >
-            <JaText
-              text={seg.ja}
-              activeToken={activeToken}
-              onTap={onTap}
-            />
-          </p>
-          {showHebrew && seg.he && (
+      <p className="text-[10px] uppercase tracking-[0.3em] text-muted -mt-1 mb-1">
+        Aligned sentence by sentence
+      </p>
+      {segments.map((seg, i) => {
+        const segId = `${pageKey}-${i}`;
+        const alignment: VerseAlignment | null = seg.pairs?.length
+          ? resolveVerseAlignment("", seg.ja, seg.en, seg.pairs)
+          : null;
+        const hoveredGroupId =
+          hoveredGroup?.segId === segId ? hoveredGroup.groupId : null;
+        const setGroup = (g: number | null) =>
+          onHoverGroup(g === null ? null : { segId, groupId: g });
+        return (
+          <div key={i} className={i > 0 ? "pt-6 border-t border-ink/5" : undefined}>
             <p
               dir="rtl"
-              className="font-hebrew text-base text-muted italic leading-loose mt-2"
+              className={`font-hebrew ja-text leading-loose text-ink/90 ${
+                seg.isHeader ? "text-2xl text-wine" : "text-xl"
+              }`}
             >
-              {seg.he}
+              <JaText
+                text={seg.ja}
+                activeToken={activeToken}
+                onTap={onTap}
+                termIndex={termIndex}
+                alignment={alignment}
+                hoveredGroupId={hoveredGroupId}
+                onHoverGroup={setGroup}
+              />
             </p>
-          )}
-          {showEnglish && seg.en && (
-            <p
-              dir="ltr"
-              className="text-[15px] text-ink/80 leading-relaxed mt-2"
-            >
-              {seg.en}
-            </p>
-          )}
-        </div>
-      ))}
+            {showEnglish && seg.en && (
+              <p
+                dir="ltr"
+                className="text-[15px] text-ink/80 leading-relaxed mt-2"
+              >
+                <EnglishText
+                  text={seg.en}
+                  alignment={alignment}
+                  hoveredGroupId={hoveredGroupId}
+                  onHoverGroup={setGroup}
+                />
+              </p>
+            )}
+          </div>
+        );
+      })}
     </div>
   );
 }
@@ -229,27 +275,68 @@ function JaText({
   text,
   activeToken,
   onTap,
+  termIndex,
+  alignment,
+  hoveredGroupId,
+  onHoverGroup,
 }: {
   text: string;
   activeToken: string | null;
   onTap: (t: string) => void;
+  termIndex: TermIndex;
+  alignment: VerseAlignment | null;
+  hoveredGroupId: number | null;
+  onHoverGroup: (groupId: number | null) => void;
 }) {
   const tokens = tokenizeJa(text);
+  let charIdx = 0;
   return (
     <>
       {tokens.map((t, i) => {
-        if (t.kind === "sep") return <span key={i}>{t.text}</span>;
+        const tokenStart = charIdx;
+        const tokenEnd = charIdx + t.text.length;
+        charIdx = tokenEnd;
+        const groupForRange = alignment
+          ? alignment.ja.find((s) => s.start <= tokenStart && s.end >= tokenEnd)
+              ?.groupId ?? null
+          : null;
+        const inHover =
+          groupForRange !== null && groupForRange === hoveredGroupId;
+        if (t.kind === "sep") {
+          return (
+            <span key={i} className={inHover ? "bg-amber-100/70" : undefined}>
+              {t.text}
+            </span>
+          );
+        }
         const isActive = activeToken === t.text;
+        const isTerm = lookupTerm(termIndex, t.text) !== null;
+        const groupHandlers =
+          groupForRange !== null
+            ? {
+                onMouseEnter: () => onHoverGroup(groupForRange),
+                onMouseLeave: () => onHoverGroup(null),
+              }
+            : {};
         return (
           <button
             key={i}
             type="button"
             onClick={() => onTap(t.text)}
+            {...groupHandlers}
+            title={isTerm ? "Key term — see panel" : undefined}
             className={`inline cursor-pointer rounded-sm transition-colors px-0.5 -mx-0.5
               ${
                 isActive
                   ? "bg-wine-100 text-wine-700"
-                  : "hover:bg-wine-50"
+                  : inHover
+                    ? "bg-amber-100 text-ink ring-1 ring-amber-300/60"
+                    : "hover:bg-wine-50"
+              }
+              ${
+                isTerm && !isActive
+                  ? "underline decoration-dotted decoration-wine/60 decoration-1 underline-offset-[6px]"
+                  : ""
               }`}
           >
             {t.text}
@@ -260,13 +347,52 @@ function JaText({
   );
 }
 
+function EnglishText({
+  text,
+  alignment,
+  hoveredGroupId,
+  onHoverGroup,
+}: {
+  text: string;
+  alignment: VerseAlignment | null;
+  hoveredGroupId: number | null;
+  onHoverGroup: (groupId: number | null) => void;
+}) {
+  if (!alignment || alignment.en.length === 0) {
+    return <>{text}</>;
+  }
+  const runs = sliceByGroups(text, alignment.en);
+  return (
+    <>
+      {runs.map((r, i) => {
+        if (r.groupId === null) return <span key={i}>{r.text}</span>;
+        const inHover = r.groupId === hoveredGroupId;
+        return (
+          <span
+            key={i}
+            onMouseEnter={() => onHoverGroup(r.groupId)}
+            onMouseLeave={() => onHoverGroup(null)}
+            className={`rounded-sm transition-colors cursor-default ${
+              inHover ? "bg-amber-100 ring-1 ring-amber-300/60 text-ink" : ""
+            }`}
+          >
+            {r.text}
+          </span>
+        );
+      })}
+    </>
+  );
+}
+
 function GlossPanel({
   token,
   entries,
+  term,
   onClose,
 }: {
   token: string;
   entries: Entry[];
+  term: TermCard | null;
   onClose: () => void;
 }) {
   return (
@@ -290,10 +416,12 @@ function GlossPanel({
             ×
           </button>
         </div>
+        {term && <TermBanner term={term} />}
         {entries.length === 0 ? (
           <p className="text-sm text-muted mt-2 italic">
-            No entry yet in the starter dictionary. (The starter is
-            Bereshit-1-oriented; the full Blau lexicon will land here next.)
+            {term
+              ? "See the key-term note above. (Not in the starter dictionary.)"
+              : "No entry yet in the starter dictionary. (The starter is Bereshit-1-oriented; the full Blau lexicon will land here next.)"}
           </p>
         ) : (
           <ul className="space-y-4 mt-2">
@@ -328,6 +456,40 @@ function GlossPanel({
           </ul>
         )}
       </div>
+    </div>
+  );
+}
+
+function TermBanner({ term }: { term: TermCard }) {
+  return (
+    <div className="mb-4 rounded-md border border-wine/30 bg-wine-50/60 px-4 py-3">
+      <div className="flex items-baseline gap-3 mb-2 flex-wrap">
+        <span className="text-[10px] uppercase tracking-[0.3em] text-wine">
+          Key term
+        </span>
+        {term.translit && (
+          <span className="text-sm text-ink/80 italic">{term.translit}</span>
+        )}
+        {term.ar && (
+          <span className="font-arabic text-lg text-ink/70" dir="rtl">
+            {term.ar}
+          </span>
+        )}
+      </div>
+      <p className="text-[15px] text-ink">{term.gloss}</p>
+      {term.note && (
+        <p className="text-[12.5px] text-muted italic mt-2 leading-relaxed">
+          {term.note}
+        </p>
+      )}
+      {term.refs && term.refs.length > 0 && (
+        <p className="mt-3 pt-2 border-t border-wine/15 text-[11px] leading-relaxed text-ink/55">
+          <span className="uppercase tracking-wider text-ink/40 mr-1">
+            Sources:
+          </span>
+          {term.refs.join(" · ")}
+        </p>
+      )}
     </div>
   );
 }

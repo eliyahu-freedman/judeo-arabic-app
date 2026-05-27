@@ -1,0 +1,338 @@
+{
+  "work": "The Kuzari",
+  "section": "Treatise I — The Opening",
+  "section_ja": "אלמאמר אלאול",
+  "subtitle": "כתאב אלרד ואלדליל פי אלדין אלד'ליל — The Book of Refutation and Proof concerning the Despised Faith",
+  "author": "Yehuda HaLevi (d. 1141)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "The famous opening of Yehuda HaLevi's Kuzari in its original Judeo-Arabic (Cairo / FJMS text): the author's preface, the Khazar king's recurring dream, and the Aristotelian philosopher's answer — the doctrine of the First Cause and the Active Intellect that the rest of the book sets out to refute. Hover a phrase to see its English light up; tap any word for a gloss; dotted words are key philosophical terms.",
+  "source": {
+    "edition": "Friedberg Judeo-Arabic Project (ja.genizah.org), resourceId 95",
+    "fjms_resource_id": "95",
+    "pages_he": ["3", "4"]
+  },
+  "terms": [
+    {
+      "id": "faylasuf",
+      "ja": "אלפילסוף",
+      "ar": "الفيلسوف",
+      "translit": "al-faylasūf",
+      "gloss": "the philosopher",
+      "note": "The representative of the Aristotelian falāsifa whom the Khazar king consults first. His self-sufficient, impersonal God frames the entire dialogue — and is the first position HaLevi sets out to refute.",
+      "variants": ["פילסוף", "פילסופא"]
+    },
+    {
+      "id": "sabab-awwal",
+      "ja": "אלסבב אלאול",
+      "ar": "السبب الأول",
+      "translit": "al-sabab al-awwal",
+      "gloss": "the First Cause",
+      "note": "In the philosopher's Aristotelian-Neoplatonic scheme, the ultimate source from which all existence flows by necessity (emanation), not by will or purpose. HaLevi voices this doctrine in order to attack it.",
+      "variants": ["אלסבב"]
+    },
+    {
+      "id": "illat-al-ilal",
+      "ja": "עלהֵ אלעלל",
+      "ar": "علّة العلل",
+      "translit": "ʿillat al-ʿilal",
+      "gloss": "the Cause of causes",
+      "note": "A synonym here for the First Cause — the apex of the causal chain. To say God 'created' a person is, for the philosopher, only loose speech: He is the remote Cause of causes, not a purposive Creator.",
+      "variants": ["עלהֵ", "אלעלל"]
+    },
+    {
+      "id": "qadim",
+      "ja": "קדים",
+      "ar": "قديم",
+      "translit": "qadīm",
+      "gloss": "eternal, pre-eternal (without beginning)",
+      "note": "The philosopher holds the world is qadīm — eternal — against the doctrine of creation in time. A central point of dispute throughout the Kuzari."
+    },
+    {
+      "id": "juzaiyyat",
+      "ja": "אלג'זאיאת",
+      "ar": "الجزئيّات",
+      "translit": "al-juzʾiyyāt",
+      "gloss": "particulars",
+      "note": "Particular, changing things. The philosophers deny that God knows them, since His knowledge admits no change — so, they argue, He cannot know your intentions or hear your prayer."
+    },
+    {
+      "id": "majaz",
+      "ja": "אלמג'אז",
+      "ar": "المجاز",
+      "translit": "al-majāz",
+      "gloss": "metaphor; figurative usage",
+      "note": "To say God 'created you' is, for the philosopher, only majāz (figurative) — He is the Cause of causes, not a Maker who intended you specifically.",
+      "variants": ["מג'אז"]
+    },
+    {
+      "id": "aql-faaal",
+      "ja": "אלעקל אלפעאל",
+      "ar": "العقل الفعّال",
+      "translit": "al-ʿaql al-faʿʿāl",
+      "gloss": "the Active Intellect",
+      "note": "The lowest of the separate intellects in Arabic Aristotelian cosmology. The perfected human intellect 'conjoins' with it — the summit of the philosopher's ideal of human perfection.",
+      "variants": ["אלפעאל"]
+    },
+    {
+      "id": "aql-munfail",
+      "ja": "אלעקל אלמנפעל",
+      "ar": "العقل المنفعل",
+      "translit": "al-ʿaql al-munfaʿil",
+      "gloss": "the passive (material) intellect",
+      "note": "The human intellect in potential, also called al-ʿaql al-hayūlānī ('material'). Actualized through learning until it conjoins with the Active Intellect.",
+      "variants": ["אלמנפעל", "אלהיולאני"]
+    },
+    {
+      "id": "ittisal",
+      "ja": "אתצאל",
+      "ar": "اتّصال",
+      "translit": "ittiṣāl",
+      "gloss": "conjunction, union (with the Active Intellect)",
+      "note": "The goal of the philosopher's path: the passive intellect joins the Active Intellect in a union (ittiṣāl ittiḥād) so complete that one no longer distinguishes the two."
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "3",
+      "aligned": [
+        {
+          "ja": "מאמר א · סימן א",
+          "en": "Treatise One · Section One",
+          "isHeader": true
+        },
+        {
+          "ja": "סילת עמא ענדי מן אלאחתג'אג' עלי מכ'אלפינא מן אלפלאספה ואהל אלאדיאן, ת'ם עלי אלכ'וארג' אלד'ין יכ'אלפון אלג'מהור.",
+          "en": "I was asked about the arguments I have at my disposal against those who differ from us — the philosophers and the followers of other religions — and then against the sectarians who dissent from the majority.",
+          "pairs": [
+            { "ja": "סילת", "en": "I was asked" },
+            { "ja": "מן אלאחתג'אג'", "en": "about the arguments" },
+            { "ja": "עלי מכ'אלפינא", "en": "against those who differ from us" },
+            { "ja": "מן אלפלאספה ואהל אלאדיאן", "en": "the philosophers and the followers of other religions" },
+            { "ja": "עלי אלכ'וארג'", "en": "against the sectarians" },
+            { "ja": "יכ'אלפון אלג'מהור", "en": "dissent from the majority" }
+          ]
+        },
+        {
+          "ja": "תד'כרת מה קד סמעתה מן חג'ג' אלחבר אלד'י כאן ענד מלך אלכ'זר אלדאכ'ל פי דין אליהוד.",
+          "en": "I recalled what I had heard of the arguments of the rabbi who was with the king of the Khazars, the one who entered the religion of the Jews.",
+          "pairs": [
+            { "ja": "תד'כרת", "en": "I recalled" },
+            { "ja": "מה קד סמעתה", "en": "what I had heard" },
+            { "ja": "מן חג'ג' אלחבר", "en": "of the arguments of the rabbi" },
+            { "ja": "מלך אלכ'זר", "en": "the king of the Khazars" },
+            { "ja": "אלדאכ'ל פי דין אליהוד", "en": "the one who entered the religion of the Jews" }
+          ]
+        },
+        {
+          "ja": "עלי מא שהד וג'א פי כתאב אלתואריך', אנה תכרר עליה רויא: כאן מלאכא יכ'אטבה ויקול לה: אן ניתך מרצ'יה ענד אללה, לכן עמלך גיר מרצ'י.",
+          "en": "According to what is attested and recorded in the book of chronicles, a dream recurred to him: an angel was addressing him, saying to him, 'Your intention is pleasing to God, but your deed is not pleasing.'",
+          "pairs": [
+            { "ja": "פי כתאב אלתואריך'", "en": "in the book of chronicles" },
+            { "ja": "תכרר עליה רויא", "en": "a dream recurred to him" },
+            { "ja": "כאן מלאכא יכ'אטבה", "en": "an angel was addressing him" },
+            { "ja": "ניתך מרצ'יה ענד אללה", "en": "Your intention is pleasing to God" },
+            { "ja": "לכן עמלך גיר מרצ'י", "en": "but your deed is not pleasing" }
+          ]
+        },
+        {
+          "ja": "וכאן יג'תהד ג'דא פי אלתעבד פי דין אלכ'זר, חתי אנה כאן יכ'דם כ'דמה אלהיכל ואלקראבין בנפסה בניה צאפיה כ'אלצה.",
+          "en": "He used to strive greatly in worship according to the religion of the Khazars, to the point that he himself would perform the service of the temple and the sacrifices with a pure, sincere intention.",
+          "pairs": [
+            { "ja": "יג'תהד ג'דא פי אלתעבד", "en": "strive greatly in worship" },
+            { "ja": "פי דין אלכ'זר", "en": "according to the religion of the Khazars" },
+            { "ja": "כ'דמה אלהיכל ואלקראבין", "en": "the service of the temple and the sacrifices" },
+            { "ja": "בניה צאפיה כ'אלצה", "en": "with a pure, sincere intention" }
+          ]
+        },
+        {
+          "ja": "פכלמא אג'תהד פי תלך אלאעמאל, ג'א אלמלאך פי אלליל יקול לה: ניתך מרצ'יה ועמלך גיר מרצ'י.",
+          "en": "But whenever he exerted himself in those works, the angel would come at night and say to him: 'Your intention is pleasing, but your deed is not pleasing.'",
+          "pairs": [
+            { "ja": "פכלמא אג'תהד פי תלך אלאעמאל", "en": "whenever he exerted himself in those works" },
+            { "ja": "ג'א אלמלאך פי אלליל", "en": "the angel would come at night" },
+            { "ja": "ניתך מרצ'יה", "en": "Your intention is pleasing" },
+            { "ja": "ועמלך גיר מרצ'י", "en": "but your deed is not pleasing" }
+          ]
+        },
+        {
+          "ja": "פסבב לה ד'לך אלבחת' ען אלאדיאן ואלנחל, ותהוד אכ'רא הו וג'מהור אלכ'זר.",
+          "en": "This led him to investigate the religions and the sects, and in the end he converted to Judaism, he and the multitude of the Khazars.",
+          "pairs": [
+            { "ja": "אלבחת' ען אלאדיאן ואלנחל", "en": "investigate the religions and the sects" },
+            { "ja": "ותהוד אכ'רא", "en": "in the end he converted to Judaism" },
+            { "ja": "הו וג'מהור אלכ'זר", "en": "he and the multitude of the Khazars" }
+          ]
+        },
+        {
+          "ja": "וכאן מן חג'ג' אלחבר מא אקנעני וטאבק אעתקאדי, פראית אן את'בת ד'לך אלאחתג'אג' כמא וקע. והמשכילים יבינו.",
+          "en": "Among the rabbi's arguments there was that which convinced me and accorded with my own belief, so I saw fit to set down that argumentation just as it occurred. And the discerning will understand.",
+          "pairs": [
+            { "ja": "מן חג'ג' אלחבר", "en": "the rabbi's arguments" },
+            { "ja": "מא אקנעני", "en": "that which convinced me" },
+            { "ja": "וטאבק אעתקאדי", "en": "accorded with my own belief" },
+            { "ja": "אן את'בת ד'לך אלאחתג'אג'", "en": "to set down that argumentation" },
+            { "ja": "כמא וקע", "en": "just as it occurred" },
+            { "ja": "והמשכילים יבינו", "en": "And the discerning will understand" }
+          ]
+        },
+        {
+          "ja": "קיל: אן מלך אלכ'זר, למא ראי פי רויאה אן ניתה מרצ'יה ענד אללה ועמלה גיר מרצ'י, ואמרה פי אלנום אן יטלב אלעמל אלמרצ'י ענד אללה, סאל פילסופא ען מעתקדה.",
+          "en": "It is related that the king of the Khazars, when he saw in his dream that his intention was pleasing to God but his deed was not pleasing — and he was commanded in the dream to seek the deed pleasing to God — asked a philosopher about his belief.",
+          "pairs": [
+            { "ja": "מלך אלכ'זר", "en": "the king of the Khazars" },
+            { "ja": "למא ראי פי רויאה", "en": "when he saw in his dream" },
+            { "ja": "ניתה מרצ'יה ענד אללה", "en": "his intention was pleasing to God" },
+            { "ja": "ועמלה גיר מרצ'י", "en": "but his deed was not pleasing" },
+            { "ja": "אן יטלב אלעמל אלמרצ'י", "en": "to seek the deed pleasing" },
+            { "ja": "סאל פילסופא ען מעתקדה", "en": "asked a philosopher about his belief" }
+          ]
+        },
+        {
+          "ja": "פקאל לה אלפילסוף: ליס ענד אללה רצ'י ולא בג'ץ', לאנה תעאלי מנזה ען אלאראדאת ואלאג'ראץ'.",
+          "en": "The philosopher said to him: There is with God neither favor nor displeasure, for He — exalted be He — is far removed from wishes and purposes.",
+          "pairs": [
+            { "ja": "פקאל לה אלפילסוף", "en": "The philosopher said to him" },
+            { "ja": "ליס ענד אללה רצ'י ולא בג'ץ'", "en": "There is with God neither favor nor displeasure" },
+            { "ja": "מנזה ען אלאראדאת ואלאג'ראץ'", "en": "is far removed from wishes and purposes" }
+          ]
+        },
+        {
+          "ja": "לאן אלג'רץ' ידל עלי נקצאן אלמג'רץ', ואן תמאם ג'רצ'ה כמאל לה, ומהמא לם יתם פהו נקצאן.",
+          "en": "For a purpose indicates a deficiency in the one who has it: the fulfillment of his purpose would be a perfection for him, and whatever is not fulfilled is a deficiency.",
+          "pairs": [
+            { "ja": "אלג'רץ' ידל עלי נקצאן אלמג'רץ'", "en": "a purpose indicates a deficiency in the one who has it" },
+            { "ja": "תמאם ג'רצ'ה כמאל לה", "en": "the fulfillment of his purpose would be a perfection for him" },
+            { "ja": "מהמא לם יתם פהו נקצאן", "en": "whatever is not fulfilled is a deficiency" }
+          ]
+        },
+        {
+          "ja": "וכד'לך הו מנזה ענד אלפלאספה ען עלם אלג'זאיאת, לאנהא מתג'ירה מע אלאחיאן, וליס פי עלם אללה תגיר.",
+          "en": "Likewise, according to the philosophers, He is far removed from the knowledge of particulars, since they change with the times, and there is no change in God's knowledge.",
+          "pairs": [
+            { "ja": "מנזה ענד אלפלאספה", "en": "according to the philosophers, He is far removed" },
+            { "ja": "ען עלם אלג'זאיאת", "en": "from the knowledge of particulars" },
+            { "ja": "לאנהא מתג'ירה מע אלאחיאן", "en": "since they change with the times" },
+            { "ja": "וליס פי עלם אללה תגיר", "en": "and there is no change in God's knowledge" }
+          ]
+        },
+        {
+          "ja": "פהו לא ידריך, פצ'לא ען אן ידרי ניתך ואעמאלך, פצ'לא ען אן יסמע צלאתך וירא חרכאתך.",
+          "en": "So He does not perceive you at all — let alone know your intention and your deeds, let alone hear your prayer or see your movements.",
+          "pairs": [
+            { "ja": "פהו לא ידריך", "en": "So He does not perceive you at all" },
+            { "ja": "אן ידרי ניתך ואעמאלך", "en": "know your intention and your deeds" },
+            { "ja": "אן יסמע צלאתך", "en": "hear your prayer" },
+            { "ja": "וירא חרכאתך", "en": "see your movements" }
+          ]
+        },
+        {
+          "ja": "נעם, ואן קאלת אלפלאספה אנה כ'לקך, פעלי אלמג'אז, לאנה עלהֵ אלעלל פי כ'לקהֵ כל מכ'לוק, לא לאנה מקצוד מן קבלה.",
+          "en": "True — even if the philosophers say that He created you, this is only by way of metaphor, because He is the Cause of causes in the creation of every creature, not because you were intended by Him.",
+          "pairs": [
+            { "ja": "קאלת אלפלאספה אנה כ'לקך", "en": "the philosophers say that He created you" },
+            { "ja": "פעלי אלמג'אז", "en": "this is only by way of metaphor" },
+            { "ja": "עלהֵ אלעלל", "en": "the Cause of causes" },
+            { "ja": "פי כ'לקהֵ כל מכ'לוק", "en": "in the creation of every creature" },
+            { "ja": "לא לאנה מקצוד מן קבלה", "en": "not because you were intended by Him" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "4",
+      "aligned": [
+        {
+          "ja": "נעם, ולא כ'לק קט אנסאנא, לאן אלעאלם קדים, לם יזל ינשא אלאנסאן מן אנסאן קבלה.",
+          "en": "Indeed, He never created any man at all, for the world is eternal: man has always come into being from a man before him.",
+          "pairs": [
+            { "ja": "ולא כ'לק קט אנסאנא", "en": "He never created any man at all" },
+            { "ja": "אלעאלם קדים", "en": "the world is eternal" },
+            { "ja": "ינשא אלאנסאן מן אנסאן קבלה", "en": "man has always come into being from a man before him" }
+          ]
+        },
+        {
+          "ja": "תתרכב פיה צור וכ'לק ואכ'לאק מן אביה ואמה וקראבתה, וכיפיאת אלאהויה ואלבלדאן ואלאגד'יה ואלמיאה, מע קוי אלאפלאך ואלדרארי ואלברוג' באלנסב אלחאצלה מנהא.",
+          "en": "Combined in him are forms, a constitution, and traits of character from his father, his mother, and his kin; the qualities of the climates, the lands, the foods, and the waters; together with the powers of the spheres, the stars, and the constellations, according to the relations that arise from them.",
+          "pairs": [
+            { "ja": "תתרכב פיה צור וכ'לק ואכ'לאק", "en": "Combined in him are forms, a constitution, and traits of character" },
+            { "ja": "מן אביה ואמה וקראבתה", "en": "from his father, his mother, and his kin" },
+            { "ja": "ואלבלדאן ואלאגד'יה ואלמיאה", "en": "the lands, the foods, and the waters" },
+            { "ja": "קוי אלאפלאך ואלדרארי ואלברוג'", "en": "the powers of the spheres, the stars, and the constellations" }
+          ]
+        },
+        {
+          "ja": "ואלכל ראג'ע אלא אלסבב אלאול, לא ען גרץ' לה, לכן פיץ' פאץ' ענה: סבב ת'אן, ת'ם ת'אלת' ורואבע, ותלאזמת אלאסבאב ואלמסבבאת ותסלסלת כמא תראהא.",
+          "en": "All of this goes back to the First Cause — not through any purpose of His, but as an emanation that flowed forth from Him: a second cause, then a third and a fourth; the causes and their effects became linked and formed a chain, just as you see them.",
+          "pairs": [
+            { "ja": "ואלכל ראג'ע אלא אלסבב אלאול", "en": "All of this goes back to the First Cause" },
+            { "ja": "לא ען גרץ' לה", "en": "not through any purpose of His" },
+            { "ja": "פיץ' פאץ' ענה", "en": "an emanation that flowed forth from Him" },
+            { "ja": "תלאזמת אלאסבאב ואלמסבבאת ותסלסלת", "en": "the causes and their effects became linked and formed a chain" }
+          ]
+        },
+        {
+          "ja": "ותלאזמהא קדים, כמא אן אלסבב אלאול קדים לא אול לה. פלכל שכ'ץ מן אשכ'אץ אלדניא אסבאב בהא יתם.",
+          "en": "Their linkage is eternal, just as the First Cause is eternal and has no beginning. Every individual among the individuals of the world has causes through which it is completed.",
+          "pairs": [
+            { "ja": "ותלאזמהא קדים", "en": "Their linkage is eternal" },
+            { "ja": "אלסבב אלאול קדים לא אול לה", "en": "the First Cause is eternal and has no beginning" },
+            { "ja": "פלכל שכ'ץ", "en": "Every individual" },
+            { "ja": "אסבאב בהא יתם", "en": "has causes through which it is completed" }
+          ]
+        },
+        {
+          "ja": "פשכ'ץ תכאמלת אסבאבה פג'א כאמלא, ושכ'ץ נקצת אסבאבה פג'א נאקצא.",
+          "en": "One individual, whose causes were complete, came out perfect; another, whose causes were deficient, came out deficient.",
+          "pairs": [
+            { "ja": "תכאמלת אסבאבה פג'א כאמלא", "en": "whose causes were complete, came out perfect" },
+            { "ja": "נקצת אסבאבה פג'א נאקצא", "en": "whose causes were deficient, came out deficient" }
+          ]
+        },
+        {
+          "ja": "פאלפילסוף אלד'י תהיאת לה אסתעדאדאת יקבל בהא אלפצ'איל אלכ'לקיה ואלעקליה ואלעלמיה ואלעמליה, לם ינקצה שי מן אלכמאל.",
+          "en": "The philosopher, for whom predispositions have been prepared by which he receives the moral, intellectual, theoretical, and practical virtues, lacks nothing of perfection.",
+          "pairs": [
+            { "ja": "תהיאת לה אסתעדאדאת", "en": "for whom predispositions have been prepared" },
+            { "ja": "אלפצ'איל אלכ'לקיה ואלעקליה ואלעלמיה ואלעמליה", "en": "the moral, intellectual, theoretical, and practical virtues" },
+            { "ja": "לם ינקצה שי מן אלכמאל", "en": "lacks nothing of perfection" }
+          ]
+        },
+        {
+          "ja": "לכן הד'ה אלכמאלאת באלקוה, יחתאג' פי אכ'ראג'הא אלי אלפעל אלי אלתעלים ואלתאדיב.",
+          "en": "But these perfections are only in potential; bringing them out into actuality requires instruction and training.",
+          "pairs": [
+            { "ja": "הד'ה אלכמאלאת באלקוה", "en": "these perfections are only in potential" },
+            { "ja": "אכ'ראג'הא אלי אלפעל", "en": "bringing them out into actuality" },
+            { "ja": "אלי אלתעלים ואלתאדיב", "en": "requires instruction and training" }
+          ]
+        },
+        {
+          "ja": "פאלכאמל יתצל בה מן אלנמט אלאלאהי נור יסמי אלעקל אלפעאל, יתצל בה עקלה אלמנפעל אתצאל אתחאד, חתי ירי אלשכ'ץ אנה הו ד'לך אלעקל אלפעאל, לא תג'איר בינהמא.",
+          "en": "To the perfect man there is joined, from the divine order, a light called the Active Intellect; his passive intellect is joined to it in a union so complete that the man sees himself to be that very Active Intellect, with no difference between the two.",
+          "pairs": [
+            { "ja": "פאלכאמל יתצל בה", "en": "To the perfect man there is joined" },
+            { "ja": "מן אלנמט אלאלאהי", "en": "from the divine order" },
+            { "ja": "נור יסמי אלעקל אלפעאל", "en": "a light called the Active Intellect" },
+            { "ja": "עקלה אלמנפעל", "en": "his passive intellect" },
+            { "ja": "אתצאל אתחאד", "en": "in a union" },
+            { "ja": "אנה הו ד'לך אלעקל אלפעאל", "en": "himself to be that very Active Intellect" },
+            { "ja": "לא תג'איר בינהמא", "en": "with no difference between the two" }
+          ]
+        },
+        {
+          "ja": "ותציר אלאתה — אעני אעצ'א ד'לך אלשכ'ץ — לא תתצרף אלא פי אכמל אלאעמאל, ופי אופק אלאוקאת, ועלי אפצ'ל אלחאלאת, וכאנהא אלאת ללעקל אלפעאל לא ללעקל אלהיולאני אלמנפעל.",
+          "en": "His instruments — I mean the limbs of that man — then act only in the most perfect deeds, at the most fitting times, and in the best of states, as though they were instruments of the Active Intellect rather than of the material, passive intellect.",
+          "pairs": [
+            { "ja": "ותציר אלאתה", "en": "His instruments" },
+            { "ja": "אעצ'א ד'לך אלשכ'ץ", "en": "the limbs of that man" },
+            { "ja": "לא תתצרף אלא פי אכמל אלאעמאל", "en": "then act only in the most perfect deeds" },
+            { "ja": "ופי אופק אלאוקאת", "en": "at the most fitting times" },
+            { "ja": "ועלי אפצ'ל אלחאלאת", "en": "and in the best of states" },
+            { "ja": "אלאת ללעקל אלפעאל", "en": "instruments of the Active Intellect" },
+            { "ja": "ללעקל אלהיולאני אלמנפעל", "en": "of the material, passive intellect" }
+          ]
+        }
+      ]
+    }
+  ]
+}
