@@ -1,20 +1,14 @@
 import type { Metadata } from "next";
-import { ComingSoon } from "../_coming-soon";
+import data from "@/data/saadia-emunot-intro.json";
+import { AdvancedReader, type WorkData } from "../reader";
 
 export const metadata: Metadata = {
-  title: "Emunot v'Deot — coming soon",
+  title: "Emunot v'Deot — Saadia Gaon's Book of Beliefs and Opinions in Judeo-Arabic",
   description:
-    "Saadia Gaon's Book of Beliefs and Opinions in its 10th-century Judeo-Arabic original. Coming soon to the Judeo-Arabic library.",
+    "The opening of Saadia Gaon's Emunot v'Deot (Kitāb al-Amānāt wa'l-Iʿtiqādāt) — the first systematic Jewish theology (933 CE) — in its original Judeo-Arabic: why doubt befalls people in their inquiries and how knowledge dispels it. With a working English translation, phrase-by-phrase hover highlighting, tap-to-define glosses, and notes on key terms.",
   alternates: { canonical: "/advanced/saadia-emunot-vedeot" },
 };
 
 export default function SaadiaEmunotPage() {
-  return (
-    <ComingSoon
-      author="Saadia Gaon (882–942)"
-      work="Kitāb al-Amānāt — Emunot v'Deot"
-      oneLiner="The Book of Beliefs and Opinions, Saadia's 10th-century systematic theology — the work that gave Geonic Judaism its philosophical vocabulary."
-      sample="כתאב אלאמאנאת ואלאעתקאדאת"
-    />
-  );
+  return <AdvancedReader data={data as unknown as WorkData} />;
 }

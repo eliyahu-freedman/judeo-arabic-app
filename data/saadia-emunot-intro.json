@@ -1,0 +1,386 @@
+{
+  "work": "Emunot v'Deot",
+  "section": "Introduction — Why Doubt Befalls Us",
+  "section_ja": "אלהקדמה",
+  "subtitle": "כתאב אלאמאנאת ואלאעתקאדאת — The Book of Beliefs and Opinions",
+  "author": "Saadia Gaon (882–942)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "The opening of Saadia Gaon's Book of Beliefs and Opinions (Kitāb al-Amānāt wa'l-Iʿtiqādāt) — the first systematic Jewish theology, written in Judeo-Arabic in 933 — in its original (FJMS manuscript). Saadia begins by praising God as the manifest Truth who grounds all certain knowledge, then states his purpose: to explain why doubt (shubha) befalls people in their inquiries and how it is dispelled, so that reason — which is built on the senses — can reach truth. Hover a phrase to see its English light up; tap any word for a gloss; dotted words are key terms.",
+  "source": {
+    "edition": "Friedberg Judeo-Arabic Project (ja.genizah.org), resourceId 13",
+    "fjms_resource_id": "13",
+    "pages_he": ["א", "ב", "ג"]
+  },
+  "terms": [
+    {
+      "id": "amanat",
+      "ja": "אלאמאנאת",
+      "ar": "الأمانات والاعتقادات",
+      "translit": "al-amānāt wa'l-iʿtiqādāt",
+      "gloss": "beliefs and convictions (the book's title)",
+      "note": "Saadia's title, usually rendered 'Beliefs and Opinions.' An amāna is a belief held with trust/credence; an iʿtiqād is a firm conviction one 'ties' onto (the root ʿaqada, 'to bind'). The book's aim is to move the reader from beliefs received on trust to convictions grounded in proof.",
+      "variants": ["אמאנאת", "ואלאעתקאדאת", "אלאעתקאדאת", "אעתקאדאת"]
+    },
+    {
+      "id": "haqq",
+      "ja": "אלחק",
+      "ar": "الحق",
+      "translit": "al-ḥaqq",
+      "gloss": "the Truth, the Real — here a name of God",
+      "note": "Saadia opens by calling God al-ḥaqq al-mubīn, 'the manifest Truth/Real.' The same root yields ḥaqqan ('truly') and ḥaqāʾiq ('established truths'), and at the close of the passage al-ʿadl wa'l-ḥaqq, 'justice and truth' — the goal the seeker reaches.",
+      "variants": ["חק", "חקא", "אלחקיק"]
+    },
+    {
+      "id": "yaqin",
+      "ja": "יקין",
+      "ar": "يقين",
+      "translit": "yaqīn",
+      "gloss": "certainty, certain knowledge",
+      "note": "The highest grade of knowledge in the philosophical tradition: not mere belief or probable opinion (ẓann) but assured, indubitable certainty. Saadia says God verified the rational soul's grasp of itself 'as a sure certainty,' ḥaqqan yaqīnan.",
+      "variants": ["יקינא"]
+    },
+    {
+      "id": "shubha",
+      "ja": "אלשבה",
+      "ar": "الشبهة",
+      "translit": "al-shubha",
+      "gloss": "doubt; a specious, confusing notion",
+      "note": "The key term of the Introduction. A shubha is not honest suspended judgment but a misleading resemblance or specious argument that 'befalls' a person (Saadia: sabab wuqūʿ al-shubha, 'the cause of doubt's befalling') and is mistaken for truth. The whole book sets out to dispel it.",
+      "variants": ["שבה"]
+    },
+    {
+      "id": "shukuk",
+      "ja": "אלשכוך",
+      "ar": "الشكوك",
+      "translit": "al-shukūk",
+      "gloss": "doubts, uncertainties (sing. shakk)",
+      "note": "Paired with shubha: once true knowledge is attained, 'the uncertainties departed' (zālat al-shukūk). Shakk is the ordinary state of wavering between two judgments, the opposite of yaqīn."
+    },
+    {
+      "id": "dalil",
+      "ja": "אלדליל",
+      "ar": "الدليل",
+      "translit": "al-dalīl",
+      "gloss": "proof, indicant (pl. dalāʾil)",
+      "note": "An indication that points the mind to a conclusion. Saadia promises to argue 'from the roots of the proofs (uṣūl al-dalāʾil), not their branches.' The seeker's failure, he says, is to make a real dalīl no proof, and a non-proof into one.",
+      "variants": ["דליל", "דלילא", "אלדלאיל", "דלאיל"]
+    },
+    {
+      "id": "burhan",
+      "ja": "אלבראהין",
+      "ar": "البراهين",
+      "translit": "al-barāhīn",
+      "gloss": "demonstrations (sing. burhān)",
+      "note": "The strongest form of dalīl: an apodictic, conclusive demonstration. When knowledge is secure, Saadia says, 'the demonstrations cleared for them' (ṣafat lahum al-barāhīn).",
+      "variants": ["בראהין", "ברהאן"]
+    },
+    {
+      "id": "maqulat",
+      "ja": "אלמעקולאת",
+      "ar": "المعقولات",
+      "translit": "al-maʿqūlāt",
+      "gloss": "the intelligibles — objects of reason",
+      "note": "Things grasped by the intellect (ʿaql) rather than the senses. Saadia's epistemic claim: the intelligibles 'have their foundations laid upon the sensibles' — reason is built up from sense-experience, so error in either can breed doubt.",
+      "variants": ["מעקולאת", "אלמעקולה", "מעקולה"]
+    },
+    {
+      "id": "mahsusat",
+      "ja": "אלמחסוסאת",
+      "ar": "المحسوسات",
+      "translit": "al-maḥsūsāt",
+      "gloss": "the sensibles — objects of sense-perception",
+      "note": "Things apprehended through the five senses (al-ḥiss). For Saadia these are the first of the roots of knowledge and the foundation on which the intelligibles rest.",
+      "variants": ["מחסוסאת", "מחסוסאתהם"]
+    },
+    {
+      "id": "istidlal",
+      "ja": "אלאסתדלאל",
+      "ar": "الاستدلال",
+      "translit": "al-istidlāl",
+      "gloss": "inference — reasoning from evidence to a conclusion",
+      "note": "The act of drawing a conclusion from a dalīl. The first cause of error in reasoning, says Saadia, is that the seeker 'has no insight into the manner of inference' and so mishandles his proofs.",
+      "variants": ["אסתדלאל"]
+    },
+    {
+      "id": "nazar",
+      "ja": "אלנט'ר",
+      "ar": "النظر",
+      "translit": "al-naẓar",
+      "gloss": "speculation, rational investigation",
+      "note": "Disciplined theoretical reflection — the 'art' (ṣināʿa) one must complete before judging. The second cause of error is rushing 'to a verdict before completing the discipline of speculation.' Saadia treats naẓar as a religious duty.",
+      "variants": ["נט'ר"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "א",
+      "aligned": [
+        {
+          "ja": "כתאב אלמכ'תאר פי אלאמאנאת ואלאעתקאדאת",
+          "en": "The Book of the Choice among Beliefs and Convictions",
+          "isHeader": true
+        },
+        {
+          "ja": "אפתתח מולפה באן קאל, תבארך אללה אלאה אסראיל, אלחקיק במעני אלחק אלמבין,",
+          "en": "The author opened his work by saying: Blessed is God, the God of Israel, the truly Real in the sense of the manifest Truth (al-ḥaqq),",
+          "pairs": [
+            { "ja": "אפתתח מולפה", "en": "The author opened his work" },
+            { "ja": "באן קאל", "en": "by saying" },
+            { "ja": "תבארך אללה", "en": "Blessed is God" },
+            { "ja": "אלאה אסראיל", "en": "the God of Israel" },
+            { "ja": "אלחקיק", "en": "the truly Real" },
+            { "ja": "במעני אלחק אלמבין", "en": "in the sense of the manifest Truth (al-ḥaqq)" }
+          ]
+        },
+        {
+          "ja": "אלמחקק ללנאטקין וג'דאן אנפסהם חקא יקינא,",
+          "en": "who made certain for rational beings the finding of their own selves as a sure certainty (yaqīn),",
+          "pairs": [
+            { "ja": "אלמחקק", "en": "who made certain" },
+            { "ja": "ללנאטקין", "en": "for rational beings" },
+            { "ja": "וג'דאן אנפסהם", "en": "the finding of their own selves" },
+            { "ja": "חקא יקינא", "en": "as a sure certainty (yaqīn)" }
+          ]
+        },
+        {
+          "ja": "פוג'דוא בהא מחסוסאתהם וג'דאנא צחיחא, פעלמוא בהא מעלומאתהם עלמא צאדקא,",
+          "en": "so that by it they found their sense-perceptions a sound finding, and by it they knew their objects of knowledge with truthful knowledge,",
+          "pairs": [
+            { "ja": "פוג'דוא בהא מחסוסאתהם", "en": "by it they found their sense-perceptions" },
+            { "ja": "וג'דאנא צחיחא", "en": "a sound finding" },
+            { "ja": "פעלמוא בהא מעלומאתהם", "en": "by it they knew their objects of knowledge" },
+            { "ja": "עלמא צאדקא", "en": "with truthful knowledge" }
+          ]
+        },
+        {
+          "ja": "ארתפעת בד'לך ענהם אלשבה, וזאלת מעה אלשכוך,",
+          "en": "thereby doubt (al-shubha) was lifted from them, and with it the uncertainties (al-shukūk) departed,",
+          "pairs": [
+            { "ja": "ארתפעת בד'לך ענהם אלשבה", "en": "thereby doubt (al-shubha) was lifted from them" },
+            { "ja": "וזאלת מעה אלשכוך", "en": "and with it the uncertainties (al-shukūk) departed" }
+          ]
+        },
+        {
+          "ja": "פכ'לצת להם אלדלאיל, וצפת להם אלבראהין, ותסבח פוק כל וצף עאל ומדיח.",
+          "en": "so the proofs (al-dalāʾil) became pure for them, and the demonstrations (al-barāhīn) cleared for them — and He is exalted above every lofty description and praise.",
+          "pairs": [
+            { "ja": "פכ'לצת להם אלדלאיל", "en": "so the proofs (al-dalāʾil) became pure for them" },
+            { "ja": "וצפת להם אלבראהין", "en": "and the demonstrations (al-barāhīn) cleared for them" },
+            { "ja": "ותסבח פוק כל וצף עאל ומדיח", "en": "He is exalted above every lofty description and praise" }
+          ]
+        },
+        {
+          "ja": "פרק ב",
+          "en": "Chapter Two",
+          "isHeader": true
+        },
+        {
+          "ja": "אמא עלי את'ר מא אפתתחנא בה מן חמד רבנא ואלת'נא עליה בקול וג'יז,",
+          "en": "Now, following the praise of our Lord and the laudation of Him with which we opened in brief words,",
+          "pairs": [
+            { "ja": "אמא עלי את'ר", "en": "Now, following" },
+            { "ja": "מן חמד רבנא", "en": "the praise of our Lord" },
+            { "ja": "ואלת'נא עליה", "en": "and the laudation of Him" },
+            { "ja": "מא אפתתחנא בה", "en": "with which we opened" },
+            { "ja": "בקול וג'יז", "en": "in brief words" }
+          ]
+        },
+        {
+          "ja": "פאני מצדר להד'א אלכתאב אלד'י קצד תאליפה באלאנבא ען סבב וקוע אלשבה ללנאס פי מטאלבהם,",
+          "en": "I am prefacing this book, whose composition I have purposed, with an account of the cause of doubt's befalling people in their inquiries,",
+          "pairs": [
+            { "ja": "פאני מצדר להד'א אלכתאב", "en": "I am prefacing this book" },
+            { "ja": "אלד'י קצד תאליפה", "en": "whose composition I have purposed" },
+            { "ja": "באלאנבא ען סבב וקוע אלשבה", "en": "with an account of the cause of doubt's befalling" },
+            { "ja": "ללנאס פי מטאלבהם", "en": "people in their inquiries" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "ב",
+      "aligned": [
+        {
+          "ja": "וען וג'ה זואלהא, חתי יתם וצולהם אלי אלמטלוב,",
+          "en": "and of the manner of its removal, so that their attainment of the sought-for goal may be completed;",
+          "pairs": [
+            { "ja": "וען וג'ה זואלהא", "en": "and of the manner of its removal" },
+            { "ja": "חתי יתם וצולהם אלי אלמטלוב", "en": "so that their attainment of the sought-for goal may be completed" }
+          ]
+        },
+        {
+          "ja": "וען תסלט בעצ'הא בעצ'הם חתי את'בתוהא חקאיק עלי אלזהם ואלט'ן,",
+          "en": "and of how some of these doubts overpower some people, until they affirm them as established truths upon surmise and conjecture (al-ẓann);",
+          "pairs": [
+            { "ja": "וען תסלט בעצ'הא בעצ'הם", "en": "and of how some of these doubts overpower some people" },
+            { "ja": "חתי את'בתוהא חקאיק", "en": "until they affirm them as established truths" },
+            { "ja": "עלי אלזהם ואלט'ן", "en": "upon surmise and conjecture (al-ẓann)" }
+          ]
+        },
+        {
+          "ja": "ובאללה אסתעין עלי כשפהא עני חתי יתם לי מא בה אצל אלי טאעתה,",
+          "en": "and in God I seek help to uncover them from myself, so that there may be completed for me that by which I attain His obedience,",
+          "pairs": [
+            { "ja": "ובאללה אסתעין", "en": "and in God I seek help" },
+            { "ja": "עלי כשפהא עני", "en": "to uncover them from myself" },
+            { "ja": "חתי יתם לי", "en": "so that there may be completed for me" },
+            { "ja": "מא בה אצל אלי טאעתה", "en": "that by which I attain His obedience" }
+          ]
+        },
+        {
+          "ja": "כמא סאלה ולייה עליה אלסלאם מת'ל ד'לך בקולה גל עיני ואביטה נפלאות מתורתך.",
+          "en": "as His friend, peace be upon him, asked the like of this, in his saying, 'Open my eyes, that I may behold wondrous things out of Your Torah' (Ps 119:18).",
+          "pairs": [
+            { "ja": "כמא סאלה ולייה עליה אלסלאם", "en": "as His friend, peace be upon him, asked" },
+            { "ja": "מת'ל ד'לך בקולה", "en": "the like of this, in his saying" },
+            { "ja": "גל עיני ואביטה נפלאות מתורתך", "en": "Open my eyes, that I may behold wondrous things out of Your Torah" }
+          ]
+        },
+        {
+          "ja": "וארי אן אג'על ד'לך מע כלאם ג'מלהֵ אלכתאב קולא קריבא לא בעידא, מן אלכלאם אלסהל לא אלעויץ,",
+          "en": "And I see fit to set that, together with the discourse of the book as a whole, in speech near at hand, not far-fetched — plain speech, not abstruse,",
+          "pairs": [
+            { "ja": "וארי אן אג'על ד'לך", "en": "And I see fit to set that" },
+            { "ja": "מע כלאם ג'מלהֵ אלכתאב", "en": "together with the discourse of the book as a whole" },
+            { "ja": "קולא קריבא לא בעידא", "en": "in speech near at hand, not far-fetched" },
+            { "ja": "מן אלכלאם אלסהל לא אלעויץ", "en": "plain speech, not abstruse" }
+          ]
+        },
+        {
+          "ja": "מן אצול אלדלאיל ואלחג'ג' לא פרועהא,",
+          "en": "drawn from the roots of the proofs (al-dalāʾil) and arguments, not their branches,",
+          "pairs": [
+            { "ja": "מן אצול אלדלאיל", "en": "from the roots of the proofs (al-dalāʾil)" },
+            { "ja": "ואלחג'ג'", "en": "and arguments" },
+            { "ja": "לא פרועהא", "en": "not their branches" }
+          ]
+        },
+        {
+          "ja": "לכי יקרב מאכ'ד'ה, ויכ'ף מחמלה, ויסהל תעלמה, ויצל בה קאצדה אלי אלעדל ואלחק,",
+          "en": "so that its acquisition may be near, its burden light, and its learning easy, and the one who seeks it may reach by it justice and truth,",
+          "pairs": [
+            { "ja": "לכי יקרב מאכ'ד'ה", "en": "so that its acquisition may be near" },
+            { "ja": "ויכ'ף מחמלה", "en": "its burden light" },
+            { "ja": "ויסהל תעלמה", "en": "and its learning easy" },
+            { "ja": "ויצל בה קאצדה", "en": "and the one who seeks it may reach by it" },
+            { "ja": "אלי אלעדל ואלחק", "en": "justice and truth" }
+          ]
+        },
+        {
+          "ja": "כמא קאל אלולי ען אלחכמה אד'א הי קרבת אז תבין צדק ומשפט ומישרים כל מעגל טוב.",
+          "en": "as the friend [Solomon] said of wisdom, when it draws near: 'Then you will understand righteousness and justice and equity, every good path' (Prov 2:9).",
+          "pairs": [
+            { "ja": "כמא קאל אלולי", "en": "as the friend [Solomon] said" },
+            { "ja": "ען אלחכמה", "en": "of wisdom" },
+            { "ja": "אד'א הי קרבת", "en": "when it draws near" },
+            { "ja": "אז תבין צדק ומשפט ומישרים כל מעגל טוב", "en": "Then you will understand righteousness and justice and equity, every good path" }
+          ]
+        },
+        {
+          "ja": "פאנבי אולא ען סבב וקוע אלשבה ללנאס ואקול,",
+          "en": "So I shall first give an account of the cause of doubt's (al-shubha) befalling people, and I say:",
+          "pairs": [
+            { "ja": "פאנבי אולא", "en": "So I shall first give an account" },
+            { "ja": "ען סבב וקוע אלשבה", "en": "of the cause of doubt's (al-shubha) befalling" },
+            { "ja": "ללנאס", "en": "people" },
+            { "ja": "ואקול", "en": "and I say" }
+          ]
+        },
+        {
+          "ja": "אן אלמעקולאת למא כאנת קואעדהא מוצ'ועה עלי אלמחסוסאת,",
+          "en": "Since the intelligibles (al-maʿqūlāt) have their foundations laid upon the sensibles (al-maḥsūsāt),",
+          "pairs": [
+            { "ja": "אן אלמעקולאת", "en": "Since the intelligibles (al-maʿqūlāt)" },
+            { "ja": "למא כאנת קואעדהא מוצ'ועה", "en": "have their foundations laid" },
+            { "ja": "עלי אלמחסוסאת", "en": "upon the sensibles (al-maḥsūsāt)" }
+          ]
+        },
+        {
+          "ja": "וכאנת אלאשיא אלמדרכה באלחס תקע פיהא אלשבה באי סבב כאן מן סבבין,",
+          "en": "and since the things apprehended by sense have doubt occurring in them for whichever of two causes it may be —",
+          "pairs": [
+            { "ja": "וכאנת אלאשיא אלמדרכה באלחס", "en": "and since the things apprehended by sense" },
+            { "ja": "תקע פיהא אלשבה", "en": "have doubt occurring in them" },
+            { "ja": "באי סבב כאן מן סבבין", "en": "for whichever of two causes it may be" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "ג",
+      "aligned": [
+        {
+          "ja": "וד'לך אמא לקלהֵ בצר אלטאלב במטלובה, ואמא לתכ'פיפה ען נפסה בתרך אלתאמל ואלאסתת'באת,",
+          "en": "that is, either through the scantness of the seeker's insight into what he seeks, or through his sparing himself by abandoning careful reflection and verification —",
+          "pairs": [
+            { "ja": "וד'לך אמא", "en": "that is, either" },
+            { "ja": "לקלהֵ בצר אלטאלב במטלובה", "en": "through the scantness of the seeker's insight into what he seeks" },
+            { "ja": "ואמא לתכ'פיפה ען נפסה", "en": "or through his sparing himself" },
+            { "ja": "בתרך אלתאמל ואלאסתת'באת", "en": "by abandoning careful reflection and verification" }
+          ]
+        },
+        {
+          "ja": "כאנסאן יטלב ראובן בן יעקב, פאנמא יתשבה לה לאחד אמרין,",
+          "en": "like a man seeking Reuben son of Jacob: he is confused about him for one of two reasons,",
+          "pairs": [
+            { "ja": "כאנסאן יטלב", "en": "like a man seeking" },
+            { "ja": "ראובן בן יעקב", "en": "Reuben son of Jacob" },
+            { "ja": "פאנמא יתשבה לה", "en": "he is confused about him" },
+            { "ja": "לאחד אמרין", "en": "for one of two reasons" }
+          ]
+        },
+        {
+          "ja": "אמא לאנה קליל אלמערפה בה לעדם אלוקוף בין ידיה פלא יערפה, או ירי גירה פיחסבה ראובן,",
+          "en": "either because he has little acquaintance with him, having never stood before him, so he does not recognize him; or he sees someone else and reckons him to be Reuben,",
+          "pairs": [
+            { "ja": "אמא לאנה קליל אלמערפה בה", "en": "either because he has little acquaintance with him" },
+            { "ja": "לעדם אלוקוף בין ידיה", "en": "having never stood before him" },
+            { "ja": "פלא יערפה", "en": "so he does not recognize him" },
+            { "ja": "או ירי גירה", "en": "or he sees someone else" },
+            { "ja": "פיחסבה ראובן", "en": "and reckons him to be Reuben" }
+          ]
+        },
+        {
+          "ja": "פיכ'אד' באלאכ'ף ותרך אלאסתקצא, פמאלה אלתכ'פיף פהו ילתמסה באהון סעי וארכ'י באל פלד'לך לא יתבינה.",
+          "en": "so he takes the lighter course and forgoes thorough inquiry; since his bent is toward ease, he pursues it with the least effort and a slack mind — and for that reason he does not make it out.",
+          "pairs": [
+            { "ja": "פיכ'אד' באלאכ'ף", "en": "so he takes the lighter course" },
+            { "ja": "ותרך אלאסתקצא", "en": "and forgoes thorough inquiry" },
+            { "ja": "פמאלה אלתכ'פיף", "en": "since his bent is toward ease" },
+            { "ja": "פהו ילתמסה באהון סעי וארכ'י באל", "en": "he pursues it with the least effort and a slack mind" },
+            { "ja": "פלד'לך לא יתבינה", "en": "and for that reason he does not make it out" }
+          ]
+        },
+        {
+          "ja": "כאנת איצ'א אלאשיא אלמעקולה תקע פיהא אלשבה לאי ואחד מן הד'ין אלסבבין",
+          "en": "The intelligible things, likewise, have doubt occurring in them for whichever one of these two causes:",
+          "pairs": [
+            { "ja": "כאנת איצ'א אלאשיא אלמעקולה", "en": "The intelligible things, likewise" },
+            { "ja": "תקע פיהא אלשבה", "en": "have doubt occurring in them" },
+            { "ja": "לאי ואחד מן הד'ין אלסבבין", "en": "for whichever one of these two causes" }
+          ]
+        },
+        {
+          "ja": "אמא לאן טאלב אלמערפה אלעקליה גיר בציר בוג'ה אלאסתדלאל פהו יג'על אלדליל לא דלילא, ויג'על איצ'א גיר אלדליל דלילא.",
+          "en": "either because the seeker of rational knowledge has no insight into the manner of inference (al-istidlāl), so he makes the proof no proof, and also makes what is not a proof a proof;",
+          "pairs": [
+            { "ja": "אמא לאן טאלב אלמערפה אלעקליה", "en": "either because the seeker of rational knowledge" },
+            { "ja": "גיר בציר בוג'ה אלאסתדלאל", "en": "has no insight into the manner of inference (al-istidlāl)" },
+            { "ja": "פהו יג'על אלדליל לא דלילא", "en": "so he makes the proof no proof" },
+            { "ja": "ויג'על איצ'א גיר אלדליל דלילא", "en": "and also makes what is not a proof a proof" }
+          ]
+        },
+        {
+          "ja": "ואמא לאנה יבצר טרק אלנט'ר לכנה יאכ'ד' נפסה באלאכ'ף ואלאסהל, פיבאדר באלקטע עלי אלמעלום מן קבל אסתתמאם צנאעהֵ אלנט'ר פיה.",
+          "en": "or because he does see the paths of speculation (al-naẓar), yet drives himself to the lightest and easiest, and so rushes to a verdict on what is to be known before completing the discipline of speculation upon it.",
+          "pairs": [
+            { "ja": "ואמא לאנה יבצר טרק אלנט'ר", "en": "or because he does see the paths of speculation (al-naẓar)" },
+            { "ja": "לכנה יאכ'ד' נפסה באלאכ'ף ואלאסהל", "en": "yet drives himself to the lightest and easiest" },
+            { "ja": "פיבאדר באלקטע עלי אלמעלום", "en": "and so rushes to a verdict on what is to be known" },
+            { "ja": "מן קבל אסתתמאם צנאעהֵ אלנט'ר פיה", "en": "before completing the discipline of speculation upon it" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 1 — Image & Likeness",
+  "section_ja": "אלג'ז אלאול · אלפצל אלאול",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "The opening chapter of the Guide proper, in its original Judeo-Arabic (FJMS manuscript). Maimonides confronts the most dangerous misreading of Scripture — that 'image and likeness' (tzelem u-demut) mean God has a body — and dissolves it: tzelem names not a thing's outward shape but its specific form, its essence; in the human case, the intellect. Hover a phrase to see its English light up; tap any word for a gloss; dotted words are key terms.",
+  "source": {
+    "edition": "Friedberg Judeo-Arabic Project (ja.genizah.org), resourceId 6",
+    "fjms_resource_id": "6",
+    "pages_he": ["14", "15"]
+  },
+  "terms": [
+    {
+      "id": "tzelem",
+      "ja": "צלם",
+      "translit": "ṣelem",
+      "gloss": "image (Hebrew צֶלֶם)",
+      "note": "The word at issue. The multitude take it to mean bodily shape; Maimonides argues it names the natural or 'specific' form — a thing's essence — and so, in 'image of God,' the human intellect, not a divine body.",
+      "variants": ["צלמם", "צלמים", "צלמי", "בצלם", "בצלמנו", "צלמנו"]
+    },
+    {
+      "id": "demut",
+      "ja": "דמות",
+      "translit": "demut",
+      "gloss": "likeness (Hebrew דְּמוּת)",
+      "note": "From the verb damah, 'to be like.' Maimonides shows that in Scripture it always means resemblance in notion or quality (grief, beauty, majesty) — never resemblance in shape.",
+      "variants": ["ודמות", "כדמותנו", "ובדמותו", "דמותו", "דמה", "דמיתי", "דמיונו"]
+    },
+    {
+      "id": "tajsim",
+      "ja": "אלתג'סים",
+      "ar": "التجسيم",
+      "translit": "al-tajsīm",
+      "gloss": "corporealism — ascribing a body to God",
+      "note": "The error Maimonides is uprooting: reading the anthropomorphic verses literally and so imagining God as a luminous super-body. The whole Guide is, in one sense, an extended refutation of tajsīm.",
+      "variants": ["תג'סים"]
+    },
+    {
+      "id": "tanzih",
+      "ja": "תנזיה",
+      "ar": "تنزيه",
+      "translit": "tanzīh",
+      "gloss": "declaring God free of (bodily) attributes; transcendence",
+      "note": "A term of Islamic theology Maimonides adopts. He notes that the corporealists thought a giant, glorious, non-fleshly body was the height of tanzīh — whereas true tanzīh requires removing corporeality altogether.",
+      "variants": ["תנזיהא"]
+    },
+    {
+      "id": "sura-nawiyya",
+      "ja": "אלצורה אלנועיה",
+      "ar": "الصورة النوعية",
+      "translit": "al-ṣūra al-nawʿiyya",
+      "gloss": "the specific form (essence)",
+      "note": "The Aristotelian 'form of the species' — what makes a thing the kind of thing it is, its essence, as opposed to its matter or shape. This, Maimonides says, is what tzelem really denotes.",
+      "variants": ["אלנועיה", "נועיה"]
+    },
+    {
+      "id": "idrak-aqli",
+      "ja": "אלאדראך אלעקלי",
+      "ar": "الإدراك العقلي",
+      "translit": "al-idrāk al-ʿaqlī",
+      "gloss": "intellectual apprehension",
+      "note": "Pure thought, employing no sense organ or limb. It is the human 'specific form,' and the sole respect in which man is 'in the image of God' — the imago Dei relocated from the body to the intellect.",
+      "variants": ["אלעקלי", "אלאדראך"]
+    },
+    {
+      "id": "ism-mushtarak",
+      "ja": "אסם משתרך",
+      "ar": "اسم مشترك",
+      "translit": "ism mushtarak",
+      "gloss": "an equivocal (homonymous) noun",
+      "note": "A single word applied to wholly different things — the central tool of the Guide. Many scriptural terms are equivocal; the literalist's error is to fix on one sense (here, bodily shape) where another (essence) is meant.",
+      "variants": ["משתרך"]
+    },
+    {
+      "id": "mushakkak",
+      "ja": "משכך",
+      "ar": "مشكّك",
+      "translit": "mushakkak",
+      "gloss": "an amphibolous term (said by gradation)",
+      "note": "A word applied to several things in a primary and derivative way — not pure homonymy. Maimonides allows that even if tzelem is sometimes used for shape, it would be mushakkak: said primarily of form, only derivatively of shape."
+    },
+    {
+      "id": "toar",
+      "ja": "תאר",
+      "translit": "to'ar",
+      "gloss": "outward form, figure (Hebrew תֹּאַר)",
+      "note": "The Hebrew word that genuinely means shape and outline — used of Joseph's beauty, of drawing with a compass. Crucially, it is never applied to God. Maimonides sets it against tzelem to show that Scripture had a shape-word and pointedly did not use it of the divine.",
+      "variants": ["תארו", "כתאר"]
+    },
+    {
+      "id": "aql-ilahi",
+      "ja": "אלעקל אלאלאהי",
+      "ar": "العقل الإلهي",
+      "translit": "al-ʿaql al-ilāhī",
+      "gloss": "the divine intellect",
+      "note": "The intellect 'conjoined' to man, by virtue of which he is said to be in God's image. The phrase carries the whole weight of the chapter's resolution: the likeness is intellectual, not physical.",
+      "variants": ["אלאלאהי"]
+    },
+    {
+      "id": "maana",
+      "ja": "אלמעני",
+      "ar": "المعنى",
+      "translit": "al-maʿnā",
+      "gloss": "the notion / true meaning (vs. outward form)",
+      "note": "Maimonides' refrain in this chapter: every scriptural 'likeness' is a resemblance fī l-maʿnā — in notion or meaning — not in shape (shakl) and outline (takhṭīṭ).",
+      "variants": ["מעני", "במעני", "מענאה", "מענאהא"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "14",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל אלאול — צלם ודמות",
+          "en": "Part One · Chapter One — Image and Likeness",
+          "isHeader": true
+        },
+        {
+          "ja": "קד ט'ן אלנאס אן צלם פי אללסאן אלעבראני ידל עלי שכל אלשי ותכ'טיטה, פודי ד'לך אלי אלתג'סים אלמחץ' לקולה נעשה אדם בצלמנו כדמותנו.",
+          "en": "People have supposed that ṣelem ('image') in the Hebrew language denotes the shape of a thing and its outline — and this led them into outright corporealism, on account of His saying, 'Let us make man in our image, after our likeness' (Gen 1:26).",
+          "pairs": [
+            { "ja": "קד ט'ן אלנאס", "en": "People have supposed" },
+            { "ja": "אן צלם", "en": "that ṣelem" },
+            { "ja": "פי אללסאן אלעבראני", "en": "in the Hebrew language" },
+            { "ja": "ידל עלי שכל אלשי ותכ'טיטה", "en": "denotes the shape of a thing and its outline" },
+            { "ja": "אלי אלתג'סים אלמחץ'", "en": "into outright corporealism" },
+            { "ja": "נעשה אדם בצלמנו כדמותנו", "en": "Let us make man in our image, after our likeness" }
+          ]
+        },
+        {
+          "ja": "וט'נוא אן אללה עלי צורהֵ אנסאן, אעני שכלה ותכ'טיטה, פלזמהם אלתג'סים אלמחץ' פאעתקדוה.",
+          "en": "They imagined that God has the form of a man — I mean his shape and outline — so that outright corporealism necessarily followed for them, and they believed it.",
+          "pairs": [
+            { "ja": "וט'נוא", "en": "They imagined" },
+            { "ja": "אן אללה עלי צורהֵ אנסאן", "en": "that God has the form of a man" },
+            { "ja": "אעני שכלה ותכ'טיטה", "en": "I mean his shape and outline" },
+            { "ja": "פלזמהם אלתג'סים אלמחץ'", "en": "so that outright corporealism necessarily followed for them" },
+            { "ja": "פאעתקדוה", "en": "and they believed it" }
+          ]
+        },
+        {
+          "ja": "וראוא אנהם אן פארקוא הד'א אלאעתקאד כד'בוא אלנץ, בל יעדמון אלאלאה אן לם יכן ג'סמא ד'א וג'ה ויד מת'להם פי אלשכל ואלתכ'טיט.",
+          "en": "And they held that were they to abandon this belief they would be giving the lie to the text — indeed, they would be doing away with the Deity altogether — unless He were a body possessing a face and a hand like their own in shape and outline,",
+          "pairs": [
+            { "ja": "וראוא אנהם", "en": "And they held that" },
+            { "ja": "אן פארקוא הד'א אלאעתקאד", "en": "were they to abandon this belief" },
+            { "ja": "כד'בוא אלנץ", "en": "they would be giving the lie to the text" },
+            { "ja": "בל יעדמון אלאלאה", "en": "they would be doing away with the Deity altogether" },
+            { "ja": "אן לם יכן ג'סמא", "en": "unless He were a body" },
+            { "ja": "ד'א וג'ה ויד", "en": "possessing a face and a hand" },
+            { "ja": "פי אלשכל ואלתכ'טיט", "en": "in shape and outline" }
+          ]
+        },
+        {
+          "ja": "לכנה אכבר ואבהי בזעמהם, ומאדתה איצ'א ליסת בדם ולחם. הד'א גאיהֵ מא ראוה אנה יכון תנזיהא פי חק אללה.",
+          "en": "though greater and more resplendent, by their fancy, and His matter, too, not being blood and flesh. This was the utmost they conceived to count as exalting God (tanzīh).",
+          "pairs": [
+            { "ja": "לכנה אכבר ואבהי", "en": "though greater and more resplendent" },
+            { "ja": "בזעמהם", "en": "by their fancy" },
+            { "ja": "ומאדתה איצ'א ליסת בדם ולחם", "en": "and His matter, too, not being blood and flesh" },
+            { "ja": "הד'א גאיהֵ מא ראוה", "en": "This was the utmost they conceived" },
+            { "ja": "אנה יכון תנזיהא פי חק אללה", "en": "to count as exalting God (tanzīh)" }
+          ]
+        },
+        {
+          "ja": "אמא מא ינבגי אן יקאל פי נפי אלג'סמאניה ואת'באת אלוחדאניה אלחקיקיה, אלתי לא חקיקה להא אלא בדפע אלג'סמאניה, פסתערף ברהאן ד'לך כלה מן הד'ה אלמקאלה.",
+          "en": "As for what ought to be said in denying corporeality and establishing the true unity — which has no reality except through the removal of corporeality — you will come to know the demonstration of all that from this treatise.",
+          "pairs": [
+            { "ja": "מא ינבגי אן יקאל", "en": "what ought to be said" },
+            { "ja": "פי נפי אלג'סמאניה", "en": "in denying corporeality" },
+            { "ja": "ואת'באת אלוחדאניה אלחקיקיה", "en": "and establishing the true unity" },
+            { "ja": "אלתי לא חקיקה להא אלא בדפע אלג'סמאניה", "en": "which has no reality except through the removal of corporeality" },
+            { "ja": "פסתערף ברהאן ד'לך כלה", "en": "you will come to know the demonstration of all that" },
+            { "ja": "מן הד'ה אלמקאלה", "en": "from this treatise" }
+          ]
+        },
+        {
+          "ja": "ואנמא אלתנביה הנא פי הד'א אלפצל עלי תביין מעני צלם ודמות.",
+          "en": "The aim here, in this chapter, is only to call attention to clarifying the meaning of ṣelem and demut.",
+          "pairs": [
+            { "ja": "אלתנביה הנא", "en": "The aim here" },
+            { "ja": "פי הד'א אלפצל", "en": "in this chapter" },
+            { "ja": "עלי תביין מעני צלם ודמות", "en": "to clarifying the meaning of ṣelem and demut" }
+          ]
+        },
+        {
+          "ja": "פאקול אן אלצורה אלמשהורה ענד אלג'מהור, אלתי הי שכל אלשי ותכ'טיטה, אסמהא אלכ'ציץ בהא פי אללסאן אלעבראני תאר.",
+          "en": "So I say: the form well-known to the multitude — the one that is the shape of a thing and its outline — its name proper to it in the Hebrew language is to'ar.",
+          "pairs": [
+            { "ja": "פאקול", "en": "So I say" },
+            { "ja": "אן אלצורה אלמשהורה ענד אלג'מהור", "en": "the form well-known to the multitude" },
+            { "ja": "אלתי הי שכל אלשי ותכ'טיטה", "en": "the one that is the shape of a thing and its outline" },
+            { "ja": "אסמהא אלכ'ציץ בהא", "en": "its name proper to it" },
+            { "ja": "פי אללסאן אלעבראני", "en": "in the Hebrew language" },
+            { "ja": "תאר", "en": "to'ar" }
+          ]
+        },
+        {
+          "ja": "קאל: יפה תאר ויפה מראה; מה תארו? כתאר בני המלך.",
+          "en": "As Scripture says, 'beautiful of form (to'ar) and fair to look upon' (Gen 39:6); 'What was his form?' ... 'like the form of the king's sons' (Judg 8:18).",
+          "pairs": [
+            { "ja": "יפה תאר ויפה מראה", "en": "beautiful of form (to'ar) and fair to look upon" },
+            { "ja": "מה תארו", "en": "What was his form?" },
+            { "ja": "כתאר בני המלך", "en": "like the form of the king's sons" }
+          ]
+        },
+        {
+          "ja": "וקיל פי אלצורה אלצנאעיה: יתארהו בשרד ובמחוגה יתארהו.",
+          "en": "And of the artificial form it is said, 'he marks it out with a stylus ... and with a compass he marks it out' (Isa 44:13).",
+          "pairs": [
+            { "ja": "וקיל פי אלצורה אלצנאעיה", "en": "And of the artificial form it is said" },
+            { "ja": "יתארהו בשרד", "en": "he marks it out with a stylus" },
+            { "ja": "ובמחוגה יתארהו", "en": "and with a compass he marks it out" }
+          ]
+        },
+        {
+          "ja": "והד'ה אסמיה לם תוקע עלי אלאלאה תעאלי קט, וחאשא וכלא.",
+          "en": "This noun is never applied to God, may He be exalted — God forbid!",
+          "pairs": [
+            { "ja": "והד'ה אסמיה", "en": "This noun" },
+            { "ja": "לם תוקע עלי אלאלאה תעאלי קט", "en": "is never applied to God, may He be exalted" },
+            { "ja": "וחאשא וכלא", "en": "God forbid!" }
+          ]
+        },
+        {
+          "ja": "אמא צלם פהו יקע עלי אלצורה אלטביעיה, אעני עלי אלמעני אלד'י בה תג'והר אלשי וצאר מא הו, והו חקיקתה מן חית' הו ד'לך אלמוג'וד.",
+          "en": "As for ṣelem, it applies to the natural form — I mean to the notion (maʿnā) by which a thing is constituted as a substance and becomes what it is; it is its very reality insofar as it is that particular existent.",
+          "pairs": [
+            { "ja": "אמא צלם", "en": "As for ṣelem" },
+            { "ja": "פהו יקע עלי אלצורה אלטביעיה", "en": "it applies to the natural form" },
+            { "ja": "אעני עלי אלמעני", "en": "I mean to the notion (maʿnā)" },
+            { "ja": "אלד'י בה תג'והר אלשי וצאר מא הו", "en": "by which a thing is constituted as a substance and becomes what it is" },
+            { "ja": "והו חקיקתה", "en": "it is its very reality" },
+            { "ja": "מן חית' הו ד'לך אלמוג'וד", "en": "insofar as it is that particular existent" }
+          ]
+        },
+        {
+          "ja": "אלד'י ד'לך אלמעני פי אלאנסאן הו אלד'י ענה יכון אלאדראך אלאנסאני, ומן אג'ל הד'א אלאדראך אלעקלי קיל פיה בצלם אלהים ברא אותו.",
+          "en": "That notion, in the case of man, is the one from which human apprehension arises; and it is on account of this intellectual apprehension (al-idrāk al-ʿaqlī) that it is said of him, 'in the image of God He created him' (Gen 1:27).",
+          "pairs": [
+            { "ja": "ד'לך אלמעני פי אלאנסאן", "en": "That notion, in the case of man" },
+            { "ja": "הו אלד'י ענה יכון אלאדראך אלאנסאני", "en": "is the one from which human apprehension arises" },
+            { "ja": "ומן אג'ל הד'א אלאדראך אלעקלי", "en": "and it is on account of this intellectual apprehension (al-idrāk al-ʿaqlī)" },
+            { "ja": "קיל פיה", "en": "that it is said of him" },
+            { "ja": "בצלם אלהים ברא אותו", "en": "in the image of God He created him" }
+          ]
+        },
+        {
+          "ja": "ולד'לך קיל צלמם תבזה, לאן אלבזיון לאחק ללנפס אלתי הי אלצורה אלנועיה, לא לאשכאל אלאעצ'א ותכ'טיטהא.",
+          "en": "And therefore it is said, 'their image Thou wilt despise' (Ps 73:20), because the contempt attaches to the soul — which is the specific form — not to the shapes of the limbs and their outline.",
+          "pairs": [
+            { "ja": "ולד'לך קיל צלמם תבזה", "en": "And therefore it is said, 'their image Thou wilt despise'" },
+            { "ja": "לאן אלבזיון לאחק ללנפס", "en": "because the contempt attaches to the soul" },
+            { "ja": "אלתי הי אלצורה אלנועיה", "en": "which is the specific form" },
+            { "ja": "לא לאשכאל אלאעצ'א ותכ'טיטהא", "en": "not to the shapes of the limbs and their outline" }
+          ]
+        },
+        {
+          "ja": "וכד'לך אקול אן אלעלה פי תסמיהֵ אלאצנאם צלמים כון אלמטלוב מנהא מענאהא אלמט'נון בה, לא שכלהא ותכ'טיטהא.",
+          "en": "And likewise I say that the reason the idols are called ṣelamim is that what is sought from them is their imagined notion, not their shape and outline.",
+          "pairs": [
+            { "ja": "וכד'לך אקול", "en": "And likewise I say" },
+            { "ja": "אן אלעלה פי תסמיהֵ אלאצנאם צלמים", "en": "that the reason the idols are called ṣelamim" },
+            { "ja": "כון אלמטלוב מנהא מענאהא אלמט'נון בה", "en": "is that what is sought from them is their imagined notion" },
+            { "ja": "לא שכלהא ותכ'טיטהא", "en": "not their shape and outline" }
+          ]
+        },
+        {
+          "ja": "וכד'לך אקול פי צלמי טחוריכם, לאן כאן אלמראד מנהא מעני דפע אד'יהֵ אלטחורים, לא שכל אלטחורים.",
+          "en": "And likewise I say of 'the images of your hemorrhoids' (1 Sam 6:5): what was intended by them was the notion of repelling the harm of the hemorrhoids, not the shape of the hemorrhoids.",
+          "pairs": [
+            { "ja": "וכד'לך אקול פי צלמי טחוריכם", "en": "And likewise I say of 'the images of your hemorrhoids'" },
+            { "ja": "לאן כאן אלמראד מנהא", "en": "what was intended by them" },
+            { "ja": "מעני דפע אד'יהֵ אלטחורים", "en": "was the notion of repelling the harm of the hemorrhoids" },
+            { "ja": "לא שכל אלטחורים", "en": "not the shape of the hemorrhoids" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "15",
+      "aligned": [
+        {
+          "ja": "פאן לם יכן בד מן אן יכון צלמי טחוריכם וצלמים מן אג'ל אלשכל ואלתכ'טיט, פיכון צלם אסם משתרך או משכך.",
+          "en": "But if it must be that 'the images of your hemorrhoids' and 'images' are used on account of shape and outline, then ṣelem is an equivocal noun (ism mushtarak) — or an amphibolous one (mushakkak).",
+          "pairs": [
+            { "ja": "פאן לם יכן בד", "en": "But if it must be" },
+            { "ja": "מן אן יכון צלמי טחוריכם וצלמים", "en": "that 'the images of your hemorrhoids' and 'images'" },
+            { "ja": "מן אג'ל אלשכל ואלתכ'טיט", "en": "are used on account of shape and outline" },
+            { "ja": "פיכון צלם אסם משתרך", "en": "then ṣelem is an equivocal noun (ism mushtarak)" },
+            { "ja": "או משכך", "en": "or an amphibolous one (mushakkak)" }
+          ]
+        },
+        {
+          "ja": "יקאל עלי אלצורה אלנועיה ועלי אלצורה אלצנאעיה ומא מאת'להא מן אשכאל אלאג'סאם אלטביעיה ותכ'אטיטהא.",
+          "en": "— said of the specific form, and of the artificial form and the like, of the shapes of natural bodies and their outlines.",
+          "pairs": [
+            { "ja": "יקאל עלי אלצורה אלנועיה", "en": "said of the specific form" },
+            { "ja": "ועלי אלצורה אלצנאעיה", "en": "and of the artificial form" },
+            { "ja": "ומא מאת'להא", "en": "and the like" },
+            { "ja": "מן אשכאל אלאג'סאם אלטביעיה ותכ'אטיטהא", "en": "of the shapes of natural bodies and their outlines" }
+          ]
+        },
+        {
+          "ja": "ויכון אלמראד בה פי קולה נעשה אדם בצלמנו אלצורה אלנועיה אלד'י הו אלאדראך אלעקלי, לא אלשכל ואלתכ'טיט.",
+          "en": "And what is meant by it in His saying 'let us make man in our image' would be the specific form — which is intellectual apprehension — not shape and outline.",
+          "pairs": [
+            { "ja": "ויכון אלמראד בה", "en": "And what is meant by it" },
+            { "ja": "פי קולה נעשה אדם בצלמנו", "en": "in His saying 'let us make man in our image'" },
+            { "ja": "אלצורה אלנועיה", "en": "would be the specific form" },
+            { "ja": "אלד'י הו אלאדראך אלעקלי", "en": "which is intellectual apprehension" },
+            { "ja": "לא אלשכל ואלתכ'טיט", "en": "not shape and outline" }
+          ]
+        },
+        {
+          "ja": "פקד בינא לך אלפרק בין צלם ותאר, ובינא מעני צלם.",
+          "en": "So we have made clear to you the difference between ṣelem and to'ar, and we have explained the meaning of ṣelem.",
+          "pairs": [
+            { "ja": "פקד בינא לך אלפרק", "en": "So we have made clear to you the difference" },
+            { "ja": "בין צלם ותאר", "en": "between ṣelem and to'ar" },
+            { "ja": "ובינא מעני צלם", "en": "and we have explained the meaning of ṣelem" }
+          ]
+        },
+        {
+          "ja": "אמא דמות פהו אסם מן דמה, והו איצ'א שבה פי אלמעני.",
+          "en": "As for demut, it is a noun from the verb damah ('to be like'), and it too denotes resemblance in notion.",
+          "pairs": [
+            { "ja": "אמא דמות", "en": "As for demut" },
+            { "ja": "פהו אסם מן דמה", "en": "it is a noun from the verb damah ('to be like')" },
+            { "ja": "והו איצ'א שבה פי אלמעני", "en": "and it too denotes resemblance in notion" }
+          ]
+        },
+        {
+          "ja": "לאן קולה דמיתי לקאת מדבר ליס אנה שאבה אג'נחתהא ורישהא, בל שאבה חזנה חזנהא.",
+          "en": "For his saying 'I am like a pelican of the wilderness' (Ps 102:7) does not mean that he resembled it in its wings and feathers, but that his grief resembled its grief.",
+          "pairs": [
+            { "ja": "דמיתי לקאת מדבר", "en": "I am like a pelican of the wilderness" },
+            { "ja": "ליס אנה שאבה אג'נחתהא ורישהא", "en": "does not mean that he resembled it in its wings and feathers" },
+            { "ja": "בל שאבה חזנה חזנהא", "en": "but that his grief resembled its grief" }
+          ]
+        },
+        {
+          "ja": "וכד'לך כל עץ בגן אלהים לא דמה אליו ביפיו: שבה פי מעני אלחסן.",
+          "en": "Likewise, 'no tree in the garden of God was like it in its beauty' (Ezek 31:8): resemblance in the notion of beauty.",
+          "pairs": [
+            { "ja": "כל עץ בגן אלהים לא דמה אליו ביפיו", "en": "no tree in the garden of God was like it in its beauty" },
+            { "ja": "שבה פי מעני אלחסן", "en": "resemblance in the notion of beauty" }
+          ]
+        },
+        {
+          "ja": "חמת למו כדמות חמת נחש; דמיונו כאריה יכסוף לטרוף: כלהא שבה פי אלמעני, לא פי אלשכל ואלתכ'טיט.",
+          "en": "'Their venom is like the venom of a serpent' (Ps 58:5); 'his likeness is like a lion longing to tear' (Ps 17:12) — all of these are resemblance in notion, not in shape and outline.",
+          "pairs": [
+            { "ja": "חמת למו כדמות חמת נחש", "en": "Their venom is like the venom of a serpent" },
+            { "ja": "דמיונו כאריה יכסוף לטרוף", "en": "his likeness is like a lion longing to tear" },
+            { "ja": "כלהא שבה פי אלמעני", "en": "all of these are resemblance in notion" },
+            { "ja": "לא פי אלשכל ואלתכ'טיט", "en": "not in shape and outline" }
+          ]
+        },
+        {
+          "ja": "וכד'לך קיל דמות הכסא, דמות כסא: שבה פי מעני אלרפעה ואלג'לאלה, לא פי תרביעה וגלט'ה וטול רג'ליה כמא יט'ן אלמסאכין.",
+          "en": "And likewise it is said, 'the likeness of a throne' (Ezek 1:26) — resemblance in the notion of elevation and majesty, not in its squareness, its bulk, and the length of its legs, as the wretched imagine.",
+          "pairs": [
+            { "ja": "וכד'לך קיל דמות הכסא", "en": "And likewise it is said, 'the likeness of a throne'" },
+            { "ja": "שבה פי מעני אלרפעה ואלג'לאלה", "en": "resemblance in the notion of elevation and majesty" },
+            { "ja": "לא פי תרביעה וגלט'ה וטול רג'ליה", "en": "not in its squareness, its bulk, and the length of its legs" },
+            { "ja": "כמא יט'ן אלמסאכין", "en": "as the wretched imagine" }
+          ]
+        },
+        {
+          "ja": "וכד'לך דמות החיות.",
+          "en": "And likewise, 'the likeness of the living creatures' (Ezek 1:5).",
+          "pairs": [
+            { "ja": "וכד'לך דמות החיות", "en": "And likewise, 'the likeness of the living creatures'" }
+          ]
+        },
+        {
+          "ja": "פלמא כ'ץ אלאנסאן במעני פיה גריב ג'דא, מא ליס פי שי מן אלמוג'ודאת מן לדן פלך אלקמר, והו אלאדראך אלעקלי אלד'י לא תתצרף פיה חאסה ולא ג'ארחה ולא ג'אנחה,",
+          "en": "Since man was singled out by a notion in him exceedingly strange — one found in nothing among the existents below the sphere of the moon — namely intellectual apprehension, in which no sense, no limb, and no extremity is employed,",
+          "pairs": [
+            { "ja": "פלמא כ'ץ אלאנסאן במעני פיה גריב ג'דא", "en": "Since man was singled out by a notion in him exceedingly strange" },
+            { "ja": "מא ליס פי שי מן אלמוג'ודאת", "en": "one found in nothing among the existents" },
+            { "ja": "מן לדן פלך אלקמר", "en": "below the sphere of the moon" },
+            { "ja": "והו אלאדראך אלעקלי", "en": "namely intellectual apprehension" },
+            { "ja": "אלד'י לא תתצרף פיה חאסה ולא ג'ארחה ולא ג'אנחה", "en": "in which no sense, no limb, and no extremity is employed" }
+          ]
+        },
+        {
+          "ja": "שבה באדראך אלאלאה אלד'י ליס הו באלה, ואן כאן לא שבה פי אלחקיקה לכן עלי באדי אלראי.",
+          "en": "it was likened to the apprehension of the Deity, which requires no instrument — even though there is, in truth, no real resemblance, but only on a first impression.",
+          "pairs": [
+            { "ja": "שבה באדראך אלאלאה", "en": "it was likened to the apprehension of the Deity" },
+            { "ja": "אלד'י ליס הו באלה", "en": "which requires no instrument" },
+            { "ja": "ואן כאן לא שבה פי אלחקיקה", "en": "even though there is, in truth, no real resemblance" },
+            { "ja": "לכן עלי באדי אלראי", "en": "but only on a first impression" }
+          ]
+        },
+        {
+          "ja": "וקיל פי אלאנסאן מן אג'ל הד'א אלמעני, אעני מן אג'ל אלעקל אלאלאהי אלמתצל בה, אנה בצלם אלהים ובדמותו, לא אן אללה תעאלי ג'סם פיכון ד'א שכל.",
+          "en": "It was on account of this notion — I mean on account of the divine intellect (al-ʿaql al-ilāhī) conjoined to him — that it was said of man that he is 'in the image of God and after His likeness'; not that God, may He be exalted, is a body so as to possess a shape.",
+          "pairs": [
+            { "ja": "מן אג'ל הד'א אלמעני", "en": "It was on account of this notion" },
+            { "ja": "אעני מן אג'ל אלעקל אלאלאהי אלמתצל בה", "en": "I mean on account of the divine intellect (al-ʿaql al-ilāhī) conjoined to him" },
+            { "ja": "וקיל פי אלאנסאן", "en": "that it was said of man" },
+            { "ja": "אנה בצלם אלהים ובדמותו", "en": "that he is 'in the image of God and after His likeness'" },
+            { "ja": "לא אן אללה תעאלי ג'סם", "en": "not that God, may He be exalted, is a body" },
+            { "ja": "פיכון ד'א שכל", "en": "so as to possess a shape" }
+          ]
+        }
+      ]
+    }
+  ]
+}

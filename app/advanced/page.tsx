@@ -29,20 +29,20 @@ const library: LibraryEntry[] = [
   },
   {
     href: "/advanced/rambam-moreh-nevukhim",
-    status: "Coming soon",
+    status: "Live",
     author: "Moses Maimonides",
     title: "Dalālat al-Ḥā'irīn — Moreh Nevukhim",
     blurb:
-      "Rambam's Guide of the Perplexed in its 12th-century Judeo-Arabic original, with Ibn Tibbon's Hebrew and a modern English alongside.",
+      "The opening chapter of Rambam's Guide of the Perplexed in its 12th-century Judeo-Arabic original: why 'image and likeness' (tzelem u-demut) do not mean God has a body. With a working English translation, phrase-by-phrase hover highlighting, and notes on key terms.",
     sample: "דלאלה אלחאירין",
   },
   {
     href: "/advanced/saadia-emunot-vedeot",
-    status: "Coming soon",
+    status: "Live",
     author: "Saadia Gaon",
     title: "Kitāb al-Amānāt — Emunot v'Deot",
     blurb:
-      "The Book of Beliefs and Opinions, Saadia's 10th-century systematic theology — the work that gave Geonic Judaism its philosophical vocabulary.",
+      "The opening of Saadia's 10th-century systematic theology — the work that gave Geonic Judaism its philosophical vocabulary: why doubt befalls people in their inquiries and how knowledge dispels it, in the original Judeo-Arabic with a working English translation, phrase-by-phrase hover highlighting, and notes on key terms.",
     sample: "כתאב אלאמאנאת ואלאעתקאדאת",
   },
   {
