@@ -21,8 +21,8 @@
       "pos": "conjunction",
       "gloss_en": "then, thereupon, afterward",
       "gloss_he": "אחר כך, ואז",
-      "source": "lane",
       "notes": "Apostrophe in JA orthography marks the Arabic letter ث (thāʔ).",
+      "source": "lane",
       "variants": [
         "ת'מא"
       ]
@@ -109,8 +109,8 @@
       "pos": "conjunction",
       "gloss_en": "when, whenever, if (real condition)",
       "gloss_he": "כאשר, אם",
-      "source": "lane",
       "notes": "Apostrophe in JA marks ذ (dhāl).",
+      "source": "lane",
       "variants": [
         "אד'אך",
         "ואד'א",
@@ -195,8 +195,8 @@
       "pos": "adverb",
       "gloss_en": "also, too, likewise",
       "gloss_he": "גם, אף",
-      "source": "lane",
-      "notes": "Adverbial accusative of عَوْض. Apostrophe marks ض (ḍād)."
+      "notes": "Adverbial accusative of عَوْض. Apostrophe marks ض (ḍād).",
+      "source": "lane"
     },
     {
       "id": "ind",
@@ -291,8 +291,8 @@
       "pos": "conjunction",
       "gloss_en": "and when, as soon as",
       "gloss_he": "וכאשר, ומיד כש־",
-      "source": "lane",
       "notes": "fa- (\"and / so\") + lammā (\"when [in past]\").",
+      "source": "lane",
       "variants": [
         "פלמאך"
       ]
@@ -305,8 +305,8 @@
       "pos": "particle",
       "gloss_en": "for indeed; for verily; because",
       "gloss_he": "כי הנה, שכן",
-      "source": "lane",
       "notes": "fa- (\"and / so\") + inna (asseverative particle).",
+      "source": "lane",
       "variants": [
         "פאני",
         "פאנה",
@@ -344,8 +344,8 @@
       "pos": "verb (defective)",
       "gloss_en": "is not; there is not",
       "gloss_he": "אין, אינו",
-      "source": "lane",
-      "notes": "Negative copula; conjugates like a perfect verb but always with present sense."
+      "notes": "Negative copula; conjugates like a perfect verb but always with present sense.",
+      "source": "lane"
     },
     {
       "id": "hadha",
@@ -418,8 +418,8 @@
       "pos": "noun (m.pl. construct)",
       "gloss_en": "sons of, children of (construct/oblique plural of ابن)",
       "gloss_he": "בני (כצורת נסמך)",
-      "source": "lane",
       "notes": "Typical in בני אסראיל \"the children of Israel\".",
+      "source": "lane",
       "variants": [
         "בניה",
         "בניך",
@@ -441,8 +441,8 @@
       "pos": "noun (m.)",
       "gloss_en": "land, country, region; town, settled place",
       "gloss_he": "ארץ, מקום יישוב",
+      "saadia_note": "Saadia frequently uses بلد where the Hebrew has ארץ in the sense of a specific land or region.",
       "source": "lane",
-      "notes": "Saadia frequently uses بلد where the Hebrew has ארץ in the sense of a specific land or region.",
       "variants": [
         "בלדה",
         "בלדך",
@@ -506,8 +506,9 @@
       "pos": "noun (m.)",
       "gloss_en": "man (adult male); also: foot, leg (vocalized rijl)",
       "gloss_he": "איש, גבר; (בניקוד אחר) רגל",
-      "source": "lane",
-      "notes": "Vocalization disambiguates: rajul \"man\" vs. rijl \"foot\". In Tafsir narrative, \"man\" is the dominant sense."
+      "notes": "Vocalization disambiguates: rajul \"man\" vs. rijl \"foot\".",
+      "saadia_note": "In Tafsir narrative, \"man\" is the dominant sense.",
+      "source": "lane"
     },
     {
       "id": "amr-matter",
@@ -517,8 +518,8 @@
       "pos": "noun (m.) / verb",
       "gloss_en": "matter, command, affair, order; (as verb) commanded, ordered",
       "gloss_he": "דבר, ציווי, עניין; (כפועל) ציווה",
-      "source": "lane",
       "notes": "Same JA spelling for both noun amr and perfect verb amara — context disambiguates.",
+      "source": "lane",
       "variants": [
         "אמרה",
         "אמרך",
@@ -545,8 +546,8 @@
       "pos": "noun (m.)",
       "gloss_en": "tent (of wool, hair, or skin); dwelling",
       "gloss_he": "אוהל",
-      "source": "lane",
-      "notes": "Saadia's standard rendering of אהל."
+      "saadia_note": "Saadia's standard rendering of אהל.",
+      "source": "lane"
     },
     {
       "id": "madhbah",
@@ -556,8 +557,8 @@
       "pos": "noun (m.)",
       "gloss_en": "altar; place of slaughter or sacrifice",
       "gloss_he": "מזבח",
-      "source": "lane",
       "notes": "Standard rendering of מזבח.",
+      "source": "lane",
       "variants": [
         "מד'בחה",
         "מד'בחך",
@@ -665,8 +666,8 @@
       "pos": "noun (m.) / verb",
       "gloss_en": "gold; (as verb dhahaba) he went, departed",
       "gloss_he": "זהב; (כפועל) הלך",
-      "source": "lane",
-      "notes": "Homograph: dhahab \"gold\" and dhahaba \"went\" share the JA spelling. Context disambiguates."
+      "notes": "Homograph: dhahab \"gold\" and dhahaba \"went\" share the JA spelling. Context disambiguates.",
+      "source": "lane"
     },
     {
       "id": "mia-hundred",
@@ -719,8 +720,8 @@
       "pos": "noun (f.)",
       "gloss_en": "my hand; hand(s) (oblique/dual form of yad)",
       "gloss_he": "ידי; יד (בצורה נטויה)",
-      "source": "lane",
       "notes": "Surface form ידי = yad + 1sg suffix OR dual oblique \"two hands\". Lemma yad is \"hand\".",
+      "source": "lane",
       "variants": [
         "ידיך",
         "ידיה",
@@ -745,8 +746,8 @@
       "pos": "verb (defective)",
       "gloss_en": "was, became; existed",
       "gloss_he": "היה, נהיה",
+      "saadia_note": "Most common copula in Tafsir narration: \"And there was…\". 3rd-person m. perfect.",
       "source": "lane",
-      "notes": "Most common copula in Tafsir narration: \"And there was…\". 3rd-person m. perfect.",
       "variants": [
         "כאנו",
         "כאנוא",
@@ -844,8 +845,8 @@
       "pos": "participle (active, accusative)",
       "gloss_en": "saying (m.sg., circumstantial)",
       "gloss_he": "באומרו, לאמור",
-      "source": "lane",
-      "notes": "Saadia's standard rendering of Hebrew לאמר when speech is reported."
+      "saadia_note": "Saadia's standard rendering of Hebrew לאמר when speech is reported.",
+      "source": "lane"
     },
     {
       "id": "israil",
@@ -870,8 +871,8 @@
       "pos": "proper noun",
       "gloss_en": "Moses",
       "gloss_he": "משה",
-      "source": "lane",
       "notes": "Final yod marks Arabic alif maqṣūra (ى).",
+      "source": "lane",
       "variants": [
         "מוסה",
         "מוסא",
@@ -983,8 +984,8 @@
       "pos": "preposition + pronoun",
       "gloss_en": "to them; for them (m.pl.)",
       "gloss_he": "להם",
-      "source": "lane",
-      "notes": "li- (\"to, for\") + -hum (3m.pl. suffix)."
+      "notes": "li- (\"to, for\") + -hum (3m.pl. suffix).",
+      "source": "lane"
     },
     {
       "id": "bihi",
@@ -994,8 +995,8 @@
       "pos": "preposition + pronoun",
       "gloss_en": "in/with/by it; in/with him (3m.sg.)",
       "gloss_he": "בו",
-      "source": "lane",
-      "notes": "bi- (\"in, with, by\") + -hi (3m.sg. suffix)."
+      "notes": "bi- (\"in, with, by\") + -hi (3m.sg. suffix).",
+      "source": "lane"
     },
     {
       "id": "biha",
@@ -1005,8 +1006,8 @@
       "pos": "preposition + pronoun",
       "gloss_en": "in/with/by it; in/with her (3f.sg.)",
       "gloss_he": "בה",
-      "source": "lane",
-      "notes": "bi- + -hā (3f.sg. suffix)."
+      "notes": "bi- + -hā (3f.sg. suffix).",
+      "source": "lane"
     },
     {
       "id": "fihi",
@@ -1016,8 +1017,8 @@
       "pos": "preposition + pronoun",
       "gloss_en": "in it; in him (3m.sg.)",
       "gloss_he": "בו, בתוכו",
-      "source": "lane",
-      "notes": "fī (\"in\") + -hi (3m.sg. suffix)."
+      "notes": "fī (\"in\") + -hi (3m.sg. suffix).",
+      "source": "lane"
     },
     {
       "id": "alayhi",
@@ -1027,8 +1028,8 @@
       "pos": "preposition + pronoun",
       "gloss_en": "upon him/it; on it (3m.sg.)",
       "gloss_he": "עליו",
-      "source": "lane",
-      "notes": "ʕalā (\"on, upon\") + -hi (3m.sg. suffix)."
+      "notes": "ʕalā (\"on, upon\") + -hi (3m.sg. suffix).",
+      "source": "lane"
     },
     {
       "id": "minhu",
@@ -1038,8 +1039,8 @@
       "pos": "preposition + pronoun",
       "gloss_en": "from him/it (3m.sg.)",
       "gloss_he": "ממנו",
-      "source": "lane",
-      "notes": "min (\"from\") + -hu (3m.sg. suffix)."
+      "notes": "min (\"from\") + -hu (3m.sg. suffix).",
+      "source": "lane"
     },
     {
       "id": "minha",
@@ -1049,8 +1050,8 @@
       "pos": "preposition + pronoun",
       "gloss_en": "from her/it (3f.sg.)",
       "gloss_he": "ממנה",
-      "source": "lane",
-      "notes": "min + -hā (3f.sg. suffix)."
+      "notes": "min + -hā (3f.sg. suffix).",
+      "source": "lane"
     },
     {
       "id": "faqala",
@@ -1060,8 +1061,8 @@
       "pos": "verb (with conjunctive prefix)",
       "gloss_en": "and he said; so he said (3sg.m. perfect of qāla)",
       "gloss_he": "ויאמר, ואז אמר",
-      "source": "lane",
       "notes": "fa- (\"and / so\") + qāla (\"said\"). The most common JA narrative tag.",
+      "source": "lane",
       "variants": [
         "פקאלת",
         "פקאלו",
@@ -1099,8 +1100,8 @@
       "pos": "preposition (proclitic)",
       "gloss_en": "to, for, belonging to (proclitic preposition)",
       "gloss_he": "ל־",
-      "source": "lane",
       "notes": "The preposition ل- prefixes onto the following word. Standalone surface forms (with pronominal suffix) are listed as variants. The bare letter ל is also a verbal modal prefix ('that he should'), context-dependent.",
+      "source": "lane",
       "variants": [
         "לה",
         "להא",
@@ -1149,8 +1150,8 @@
       "pos": "noun (m.)",
       "gloss_en": "father, ancestor; (pl. ābāʔ) forefathers",
       "gloss_he": "אב",
-      "source": "lane",
       "notes": "Oblique stem before pronominal suffixes is أبي- (אבי-): אביה 'her father', אבוה 'his father' (nominative أبوه).",
+      "source": "lane",
       "variants": [
         "אביה",
         "אביהא",
@@ -1193,8 +1194,8 @@
       "pos": "relative pronoun (f. sg.)",
       "gloss_en": "who, which, that (f. sg.)",
       "gloss_he": "אשר, ש־ (נקבה)",
-      "source": "lane",
-      "notes": "Feminine counterpart of اَلَّذِي / אלד'י. Plural forms: alladhīna (אלד'ין m.pl.), allātī (אללאתי f.pl.)."
+      "notes": "Feminine counterpart of اَلَّذِي / אלד'י. Plural forms: alladhīna (אלד'ין m.pl.), allātī (אללאתי f.pl.).",
+      "source": "lane"
     },
     {
       "id": "hum-they",
@@ -1273,8 +1274,8 @@
       "pos": "noun (m.)",
       "gloss_en": "tribe (esp. of Israel); grandson, descendant",
       "gloss_he": "שבט",
+      "saadia_note": "Saadia's stock rendering of Hebrew שבט when designating one of the twelve tribes. For 'rod/staff' Saadia uses قَضِيب / קצ'יב.",
       "source": "lane",
-      "notes": "Saadia's stock rendering of Hebrew שבט when designating one of the twelve tribes. For 'rod/staff' Saadia uses قَضِيب / קצ'יב.",
       "variants": [
         "אסבאט",
         "אלאסבאט",
@@ -1312,8 +1313,8 @@
       "pos": "noun (m.)",
       "gloss_en": "sanctity, holiness; (with article: al-quds) the sanctuary, the holy precinct",
       "gloss_he": "קודש, מקדש",
+      "saadia_note": "Saadia's regular gloss for Hebrew מקדש / קדש (the Tabernacle's most holy region) is אלקדס.",
       "source": "lane",
-      "notes": "Saadia's regular gloss for Hebrew מקדש / קדש (the Tabernacle's most holy region) is אלקדס.",
       "variants": [
         "אלקדס",
         "קדסה",
@@ -1332,8 +1333,9 @@
       "lemma_ar": "مَسْكَن",
       "root": "s-k-n",
       "pos": "noun (m.)",
-      "gloss_en": "dwelling, abode; (Saadia's gloss for Hebrew מִשְׁכָּן) the Tabernacle",
+      "gloss_en": "dwelling, abode",
       "gloss_he": "משכן",
+      "saadia_note": "Saadia's gloss for Hebrew מִשְׁכָּן — the Tabernacle.",
       "source": "lane",
       "variants": [
         "אלמסכן",
@@ -1351,8 +1353,8 @@
       "pos": "noun (m.)",
       "gloss_en": "offering, oblation, sacrifice (that which is brought near)",
       "gloss_he": "קרבן",
+      "saadia_note": "Standard Saadianic rendering for Hebrew קרבן and for the 'pleasing aroma' (ריח ניחוח) — see the divergence card for קרבאן (Gen 8:21) where Saadia uses 'pleasing offering' instead of 'pleasing aroma' to avoid divine olfaction.",
       "source": "lane",
-      "notes": "Standard Saadianic rendering for Hebrew קרבן and for the 'pleasing aroma' (ריח ניחוח) — see the divergence card for קרבאן (Gen 8:21) where Saadia uses 'pleasing offering' instead of 'pleasing aroma' to avoid divine olfaction.",
       "variants": [
         "אלקרבאן",
         "קראבין",
@@ -1373,8 +1375,8 @@
       "pos": "proper noun",
       "gloss_en": "Isaac (son of Abraham; second patriarch)",
       "gloss_he": "יצחק",
+      "saadia_note": "Saadia retains the Hebrew form יצחק throughout the Tafsir; standard Arabic إسحاق is given here for orientation.",
       "source": "lane",
-      "notes": "Saadia retains the Hebrew form יצחק throughout the Tafsir; standard Arabic إسحاق is given here for orientation.",
       "variants": [
         "ויצחק",
         "ליצחק",
@@ -1529,8 +1531,9 @@
       "pos": "noun (m.)",
       "gloss_en": "wilderness, desert, open country; dry land (vs. sea)",
       "gloss_he": "מדבר, יבשה",
+      "notes": "The same consonants spell barr 'pious / dutiful' and bīrr 'righteousness' — context disambiguates.",
+      "saadia_note": "Saadia's regular gloss for Hebrew מדבר.",
       "source": "lane",
-      "notes": "Saadia's regular gloss for Hebrew מדבר. The same consonants spell barr 'pious / dutiful' and bīrr 'righteousness' — context disambiguates.",
       "variants": [
         "אלבר",
         "ברה",
@@ -1614,8 +1617,9 @@
       "pos": "noun (m.)",
       "gloss_en": "god, deity (with article 'al-' → 'the God' = Allāh)",
       "gloss_he": "אֵל, אלוה",
+      "notes": "The root of אללה (Allāh, 'the God').",
+      "saadia_note": "Saadia uses אלאה for אלהים when not referring to the unique God of Israel.",
       "source": "lane",
-      "notes": "The root of אללה (Allāh, 'the God'). Saadia uses אלאה for אלהים when not referring to the unique God of Israel.",
       "variants": [
         "אלהה",
         "אלאהך",
@@ -1636,8 +1640,8 @@
       "pos": "noun (m.)",
       "gloss_en": "end, last part, latter portion",
       "gloss_he": "אחרית, סוף",
-      "source": "lane",
       "notes": "Homograph with آخَر 'other' (above); same consonants, different vocalization.",
+      "source": "lane",
       "variants": [
         "אכ'ירה",
         "אלאכ'ר",
@@ -1655,8 +1659,8 @@
       "pos": "proper noun",
       "gloss_en": "Moab (son of Lot; the Moabite nation east of the Jordan)",
       "gloss_he": "מואב",
+      "saadia_note": "Saadia retains the Hebrew form מואב throughout the Tafsir.",
       "source": "lane",
-      "notes": "Saadia retains the Hebrew form מואב throughout the Tafsir.",
       "variants": [
         "ומואב",
         "למואב",
@@ -1676,8 +1680,9 @@
       "pos": "proper noun",
       "gloss_en": "Abram (Abraham's name before Gen 17:5)",
       "gloss_he": "אברם",
+      "notes": "The pre-covenantal name of the first patriarch (renamed Abraham in Gen 17:5).",
+      "saadia_note": "Saadia uses אברם through Gen 17 and אברהים thereafter.",
       "source": "lane",
-      "notes": "The pre-covenantal name of the first patriarch (renamed Abraham in Gen 17:5). Saadia uses אברם through Gen 17 and אברהים thereafter.",
       "variants": [
         "ואברם",
         "לאברם",
@@ -1693,8 +1698,8 @@
       "pos": "proper noun",
       "gloss_en": "Judah (fourth son of Jacob; the tribe and territory bearing his name)",
       "gloss_he": "יהודה",
+      "saadia_note": "Saadia retains the Hebrew form throughout.",
       "source": "lane",
-      "notes": "Saadia retains the Hebrew form throughout.",
       "variants": [
         "ויהודה",
         "ליהודה",
@@ -1710,8 +1715,9 @@
       "pos": "proper noun",
       "gloss_en": "Rachel (Jacob's wife; mother of Joseph and Benjamin)",
       "gloss_he": "רחל",
+      "notes": "Homograph with the verb רחל 'to depart, journey' (root r-ḥ-l) — context disambiguates.",
+      "saadia_note": "Saadia retains the Hebrew form.",
       "source": "lane",
-      "notes": "Homograph with the verb רחל 'to depart, journey' (root r-ḥ-l) — context disambiguates. Saadia retains the Hebrew form.",
       "variants": [
         "ורחל",
         "לרחל",
@@ -1726,8 +1732,9 @@
       "pos": "verb (Form I, perfect)",
       "gloss_en": "he departed, journeyed, decamped (a tribe moving from one stopping place to the next)",
       "gloss_he": "נסע, יצא לדרך",
+      "notes": "Homograph with the proper noun רחל (Rachel) — context disambiguates.",
+      "saadia_note": "Saadia's regular gloss for Hebrew נסע ('journey'); see Gen 12:9, Num 33:* repeatedly.",
       "source": "lane",
-      "notes": "Saadia's regular gloss for Hebrew נסע ('journey'); see Gen 12:9, Num 33:* repeatedly. Homograph with the proper noun רחל (Rachel) — context disambiguates.",
       "variants": [
         "רחלת",
         "רחלו",
@@ -1755,8 +1762,9 @@
       "pos": "proper noun (with definite article)",
       "gloss_en": "the Jordan (river); the trans-Jordan region",
       "gloss_he": "הירדן",
+      "notes": "The Arabic form al-Urdunn takes the definite article in nearly all attestations.",
+      "saadia_note": "Saadia's standard rendering of Hebrew יַרְדֵּן.",
       "source": "lane",
-      "notes": "Saadia's standard rendering of Hebrew יַרְדֵּן. The Arabic form al-Urdunn takes the definite article in nearly all attestations.",
       "variants": [
         "אלארדן",
         "ואלארדן",
@@ -1804,8 +1812,8 @@
       "pos": "proper noun",
       "gloss_en": "Levi (third son of Jacob; the Levite tribe)",
       "gloss_he": "לוי",
+      "saadia_note": "Saadia uses לוי for the patriarch; the gentilic 'Levite' appears as אלליואני (sg.) / אלליואניין (pl.).",
       "source": "lane",
-      "notes": "Saadia uses לוי for the patriarch; the gentilic 'Levite' appears as אלליואני (sg.) / אלליואניין (pl.).",
       "variants": [
         "ולוי",
         "ללוי",
@@ -1853,8 +1861,9 @@
       "pos": "proper noun",
       "gloss_en": "Dan (fifth son of Jacob; the tribe of Dan and its northern territory)",
       "gloss_he": "דן",
+      "notes": "Homograph with the verb دَانَ 'to judge' (root d-w/y-n); here strictly the proper name.",
+      "saadia_note": "Saadia identifies the place-name Dan with Banyas (see Gen 14:14).",
       "source": "lane",
-      "notes": "Saadia identifies the place-name Dan with Banyas (see Gen 14:14). Homograph with the verb دَانَ 'to judge' (root d-w/y-n); here strictly the proper name.",
       "variants": [
         "ודן",
         "לדן"
@@ -1897,8 +1906,8 @@
       "pos": "proper noun",
       "gloss_en": "Asher (eighth son of Jacob)",
       "gloss_he": "אשר",
+      "saadia_note": "Homograph with the Arabic relative pronoun الذي and with the Hebrew relative אשר — Saadia uses אלד'י for the latter, so here the form is purely the proper name.",
       "source": "lane",
-      "notes": "Homograph with the Arabic relative pronoun الذي and with the Hebrew relative אשר — Saadia uses אלד'י for the latter, so here the form is purely the proper name.",
       "variants": [
         "ואשר",
         "לאשר",
@@ -1992,8 +2001,9 @@
       "pos": "proper noun",
       "gloss_en": "Laban (Jacob's father-in-law; brother of Rebekah)",
       "gloss_he": "לבן",
+      "notes": "Homograph with لَبَن 'milk' (same letters) — context disambiguates.",
+      "saadia_note": "The latter is rare in the Tafsir narrative chapters but appears in dietary contexts.",
       "source": "lane",
-      "notes": "Homograph with لَبَن 'milk' (same letters) — context disambiguates. The latter is rare in the Tafsir narrative chapters but appears in dietary contexts.",
       "variants": [
         "ולבן",
         "ללבן",
@@ -2008,8 +2018,9 @@
       "pos": "proper noun",
       "gloss_en": "Sarah (Abraham's wife; matriarch)",
       "gloss_he": "שרה",
+      "notes": "Homograph with the JA spelling of سار 'he walked' + ـه — context disambiguates.",
+      "saadia_note": "Saadia retains the Hebrew form.",
       "source": "lane",
-      "notes": "Saadia retains the Hebrew form. Homograph with the JA spelling of سار 'he walked' + ـه — context disambiguates.",
       "variants": [
         "ושרה",
         "לשרה",
@@ -2103,8 +2114,9 @@
       "lemma_ar": "نَزَلَ",
       "root": "n-z-l",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he came down, descended, alighted; (in Saadia's gloss) the standard rendering of Hebrew יָרַד",
+      "gloss_en": "he came down, descended, alighted",
       "gloss_he": "ירד",
+      "saadia_note": "in Saadia's gloss — the standard rendering of Hebrew יָרַד.",
       "source": "lane",
       "variants": [
         "נזלת",
@@ -2134,10 +2146,11 @@
       "lemma_ar": "مَرَّ",
       "root": "m-r-r",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he passed, went by, traversed (a place); (in Saadia's gloss) regular rendering of Hebrew עָבַר",
+      "gloss_en": "he passed, went by, traversed (a place)",
       "gloss_he": "עבר",
-      "source": "lane",
       "notes": "Homograph with مُرّ 'bitter' (different vocalization). The verb root is m-r-r (gemination) — surface forms double the final ر.",
+      "saadia_note": "in Saadia's gloss — regular rendering of Hebrew עָבַר.",
+      "source": "lane",
       "variants": [
         "מרת",
         "מרו",
@@ -2165,8 +2178,9 @@
       "lemma_ar": "دَخَلَ",
       "root": "d-kh-l",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he entered, went in; (in Saadia's gloss) regular rendering of Hebrew בָּא (when 'enter') and similar",
+      "gloss_en": "he entered, went in",
       "gloss_he": "נכנס, בא",
+      "saadia_note": "in Saadia's gloss — regular rendering of Hebrew בָּא (when 'enter') and similar.",
       "source": "lane",
       "variants": [
         "דכ'לת",
@@ -2194,8 +2208,9 @@
       "lemma_ar": "خَرَجَ",
       "root": "kh-r-j",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he went out, came forth, departed; (in Saadia's gloss) regular rendering of Hebrew יָצָא",
+      "gloss_en": "he went out, came forth, departed",
       "gloss_he": "יצא",
+      "saadia_note": "in Saadia's gloss — regular rendering of Hebrew יָצָא.",
       "source": "lane",
       "variants": [
         "כ'רגת",
@@ -2227,8 +2242,9 @@
       "pos": "active participle / adverb",
       "gloss_en": "going out, outside, exterior; (often used as adverb) outwardly, externally",
       "gloss_he": "יוצא, חוץ, מבחוץ",
+      "notes": "Distinct from the verbal lemma כ'רג above.",
+      "saadia_note": "Active participle of خَرَجَ; Saadia uses both as a substantive ('the outside, the exterior') and adverbially ('outside, outwardly').",
       "source": "lane",
-      "notes": "Active participle of خَرَجَ; Saadia uses both as a substantive ('the outside, the exterior') and adverbially ('outside, outwardly'). Distinct from the verbal lemma כ'רג above.",
       "variants": [
         "אלכ'ארג",
         "כ'ארגא",
@@ -2245,8 +2261,9 @@
       "lemma_ar": "حَمَلَ",
       "root": "ḥ-m-l",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he carried, bore, lifted up; (in Saadia's gloss) frequent rendering of Hebrew נָשָׂא",
+      "gloss_en": "he carried, bore, lifted up",
       "gloss_he": "נשא, סבל",
+      "saadia_note": "in Saadia's gloss — frequent rendering of Hebrew נָשָׂא.",
       "source": "lane",
       "variants": [
         "חמלת",
@@ -2274,8 +2291,9 @@
       "lemma_ar": "أَخَذَ",
       "root": "ʔ-kh-dh",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he took, seized, received; (in Saadia's gloss) regular rendering of Hebrew לָקַח",
+      "gloss_en": "he took, seized, received",
       "gloss_he": "לקח, אחז",
+      "saadia_note": "in Saadia's gloss — regular rendering of Hebrew לָקַח.",
       "source": "lane",
       "variants": [
         "אכ'ד'ת",
@@ -2305,8 +2323,9 @@
       "lemma_ar": "جَمَعَ",
       "root": "j-m-ʕ",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he gathered, collected, brought together; (in Saadia's gloss) regular rendering of Hebrew אָסַף or קָבַץ",
+      "gloss_en": "he gathered, collected, brought together",
       "gloss_he": "אסף, קיבץ",
+      "saadia_note": "in Saadia's gloss — regular rendering of Hebrew אָסַף or קָבַץ.",
       "source": "lane",
       "variants": [
         "גמעת",
@@ -2331,10 +2350,11 @@
       "lemma_ar": "سَكَنَ",
       "root": "s-k-n",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he dwelt, settled, resided; (in Saadia's gloss) regular rendering of Hebrew יָשַׁב 'to dwell'",
+      "gloss_en": "he dwelt, settled, resided",
       "gloss_he": "ישב, גר",
-      "source": "lane",
       "notes": "Distinct from the noun מסכן 'Tabernacle' (same root, different form).",
+      "saadia_note": "in Saadia's gloss — regular rendering of Hebrew יָשַׁב 'to dwell'.",
+      "source": "lane",
       "variants": [
         "סכנת",
         "סכנו",
@@ -2362,8 +2382,8 @@
       "pos": "verb (Form I, 3msg imperfect)",
       "gloss_en": "it is incumbent, it is obligatory, it must (be done)",
       "gloss_he": "צריך, חייב",
+      "saadia_note": "Saadia's standard impersonal modal for Hebrew constructions of obligation.",
       "source": "lane",
-      "notes": "Saadia's standard impersonal modal for Hebrew constructions of obligation.",
       "variants": [
         "וגב",
         "וגבת",
@@ -2381,10 +2401,11 @@
       "lemma_ar": "مَحْضَر",
       "root": "ḥ-ḍ-r",
       "pos": "noun (m.)",
-      "gloss_en": "appointed gathering-place, place of presence; (Saadia's gloss for אֹהֶל מוֹעֵד) the Tent of Meeting",
+      "gloss_en": "appointed gathering-place, place of presence",
       "gloss_he": "מועד, מקום ועידה; אהל מועד",
+      "notes": "Used hundreds of times across Shemot, Vayikra, and Bamidbar.",
+      "saadia_note": "Saadia's gloss for אֹהֶל מוֹעֵד — the Tent of Meeting. One of Saadia's signature renderings: Hebrew אֹהֶל מוֹעֵד 'tent of meeting' becomes אלמחצ'ר '(the place of) presence/gathering'.",
       "source": "lane",
-      "notes": "One of Saadia's signature renderings: Hebrew אֹהֶל מוֹעֵד 'tent of meeting' becomes אלמחצ'ר '(the place of) presence/gathering'. Used hundreds of times across Shemot, Vayikra, and Bamidbar.",
       "variants": [
         "אלמחצ'ר",
         "מחצ'רא",
@@ -2406,8 +2427,9 @@
       "pos": "verbal noun (mas.dar of Form II kallama)",
       "gloss_en": "act of speaking-with, addressing in speech; (often adverbial) 'in speech, by way of speech'",
       "gloss_he": "דיבור, דברים",
+      "notes": "Cognate accusative pattern (he speaks a speaking).",
+      "saadia_note": "Saadia's adverbial-accusative 'תכלימא' renders Hebrew constructions where God explicitly speaks 'face to face' or 'mouth to mouth' (e.g. Num 12:8; Deut 5:4), reinforcing that the verb of speaking has a real object — the divine word reaches the human ear without intermediary.",
       "source": "lane",
-      "notes": "Saadia's adverbial-accusative 'תכלימא' renders Hebrew constructions where God explicitly speaks 'face to face' or 'mouth to mouth' (e.g. Num 12:8; Deut 5:4), reinforcing that the verb of speaking has a real object — the divine word reaches the human ear without intermediary. Cognate accusative pattern (he speaks a speaking).",
       "variants": [
         "תכלימא",
         "אלתכלים",
@@ -2426,8 +2448,9 @@
       "pos": "gentilic (nisba)",
       "gloss_en": "Egyptian (m. sg.); (broken pl.) the Egyptians",
       "gloss_he": "מצרי; מצרים (כעם)",
+      "notes": "Gentilic of מצר (Egypt).",
+      "saadia_note": "Saadia regularly uses the broken plural אלמצריון for the collective.",
       "source": "lane",
-      "notes": "Gentilic of מצר (Egypt). Saadia regularly uses the broken plural אלמצריון for the collective.",
       "variants": [
         "אלמצרי",
         "מצריה",
@@ -2448,10 +2471,11 @@
       "lemma_ar": "جَمَاعَة",
       "root": "j-m-ʕ",
       "pos": "noun (f.)",
-      "gloss_en": "assembly, congregation, group, community; (Saadia's gloss for עֵדָה) the community of Israel",
+      "gloss_en": "assembly, congregation, group, community",
       "gloss_he": "עדה, קהל, חבורה",
+      "notes": "Distinct from גמע (the verb 'to gather').",
+      "saadia_note": "Saadia's gloss for עֵדָה — the community of Israel. Saadia's regular rendering of Hebrew עדה.",
       "source": "lane",
-      "notes": "Saadia's regular rendering of Hebrew עדה. Distinct from גמע (the verb 'to gather').",
       "variants": [
         "אלגמאעה",
         "גמאעה'",
@@ -2471,8 +2495,9 @@
       "pos": "noun (m.)",
       "gloss_en": "child, son, boy; (broken pl. awlād) children, sons",
       "gloss_he": "ילד, בן; ילדים",
+      "notes": "Distinct from the verb ולד 'to give birth' (root w-l-d) which is in form ولد and inflects on its own pattern — but they share the root.",
+      "saadia_note": "Saadia uses both ולד 'child/son' (sg.) and the broken plural אולד/אולאד.",
       "source": "lane",
-      "notes": "Saadia uses both ולד 'child/son' (sg.) and the broken plural אולד/אולאד. Distinct from the verb ולד 'to give birth' (root w-l-d) which is in form ولد and inflects on its own pattern — but they share the root.",
       "variants": [
         "אלולד",
         "ולדה",
@@ -2503,8 +2528,9 @@
       "pos": "noun (m.)",
       "gloss_en": "name, appellation; (broken pl. asmāʾ) names",
       "gloss_he": "שֵם; שמות",
+      "notes": "Standard Arabic word for 'name'.",
+      "saadia_note": "Saadia uses both the singular אסם and the broken plural אסמא extensively (esp. in genealogies and the 'list of names of the sons of Israel' formulae).",
       "source": "lane",
-      "notes": "Standard Arabic word for 'name'. Saadia uses both the singular אסם and the broken plural אסמא extensively (esp. in genealogies and the 'list of names of the sons of Israel' formulae).",
       "variants": [
         "אלאסם",
         "אסמה",
@@ -2557,8 +2583,9 @@
       "lemma_ar": "دُهْن",
       "root": "d-h-n",
       "pos": "noun (m.)",
-      "gloss_en": "oil, grease, fat; (Saadia's gloss for שֶׁמֶן) anointing oil; fat of an animal",
+      "gloss_en": "oil, grease, fat; fat of an animal",
       "gloss_he": "שמן; חֵלב",
+      "saadia_note": "Saadia's gloss for שֶׁמֶן — anointing oil.",
       "source": "lane",
       "variants": [
         "אלדהן",
@@ -2583,8 +2610,9 @@
       "pos": "noun (m.)",
       "gloss_en": "brother; (oblique stem before pronominal suffix: akhī-); (broken pl. ikhwa, ukhuwwa) brothers",
       "gloss_he": "אח; אחים",
+      "notes": "Oblique stem before pronominal suffixes is أخي- (אכ'י-): אכ'יך 'your brother', אכ'יה 'his brother'. Nominative אכ'וך 'your brother'.",
+      "saadia_note": "The broken plural in Saadia is regularly אכ'ות (إِخْوَة 'brotherhood'), suffixed: אכ'ותה 'his brothers'.",
       "source": "lane",
-      "notes": "Oblique stem before pronominal suffixes is أخي- (אכ'י-): אכ'יך 'your brother', אכ'יה 'his brother'. Nominative אכ'וך 'your brother'. The broken plural in Saadia is regularly אכ'ות (إِخْوَة 'brotherhood'), suffixed: אכ'ותה 'his brothers'.",
       "variants": [
         "אלאכ'",
         "אכ'וה",
@@ -2623,8 +2651,8 @@
       "pos": "noun (m.)",
       "gloss_en": "head; top, summit, beginning; chief, leader; (pl. ruʾūs)",
       "gloss_he": "ראש",
+      "saadia_note": "Saadia uses ראס both literally (the head of a body) and metaphorically (the head/leader of a tribe, the top of a mountain).",
       "source": "lane",
-      "notes": "Saadia uses ראס both literally (the head of a body) and metaphorically (the head/leader of a tribe, the top of a mountain).",
       "variants": [
         "אלראס",
         "ראסה",
@@ -2649,8 +2677,8 @@
       "pos": "noun (m.)",
       "gloss_en": "garment, robe, cloth, clothing; (broken pl. thiyāb) garments, clothes",
       "gloss_he": "בגד, כסות",
+      "saadia_note": "Saadia's regular rendering of Hebrew בֶּגֶד and שִׂמְלָה.",
       "source": "lane",
-      "notes": "Saadia's regular rendering of Hebrew בֶּגֶד and שִׂמְלָה.",
       "variants": [
         "אלת'וב",
         "ת'ובה",
@@ -2674,10 +2702,10 @@
       "lemma_ar": "صَعِيدَة",
       "root": "ṣ-ʕ-d",
       "pos": "noun (f.)",
-      "gloss_en": "burnt offering, 'that-which-goes-up'; (Saadia's gloss for עֹלָה) the wholly burnt sacrifice",
+      "gloss_en": "burnt offering, 'that-which-goes-up'",
       "gloss_he": "עולה (קרבן)",
+      "saadia_note": "Saadia's gloss for עֹלָה — the wholly burnt sacrifice. Saadia's signature rendering of עֹלָה — 'the one that goes up' (from ṣaʿada 'to ascend'), the wholly-consumed altar offering. The Hebrew is morphologically the same idea (עלה 'to go up'); Saadia preserves the semantic motivation.",
       "source": "lane",
-      "notes": "Saadia's signature rendering of עֹלָה — 'the one that goes up' (from ṣaʿada 'to ascend'), the wholly-consumed altar offering. The Hebrew is morphologically the same idea (עלה 'to go up'); Saadia preserves the semantic motivation.",
       "variants": [
         "צעידה'",
         "אלצעידה",
@@ -2699,10 +2727,11 @@
       "lemma_ar": "مِثْقَال",
       "root": "th-q-l",
       "pos": "noun (m.)",
-      "gloss_en": "unit of weight, mithqāl; (Saadia's gloss for שֶׁקֶל) shekel-weight",
+      "gloss_en": "unit of weight, mithqāl",
       "gloss_he": "שקל (משקל)",
+      "notes": "Appears widely in legal-economic and tabernacle-construction passages.",
+      "saadia_note": "Saadia's gloss for שֶׁקֶל — shekel-weight. Saadia's standard rendering for the Hebrew shekel as a weight-unit.",
       "source": "lane",
-      "notes": "Saadia's standard rendering for the Hebrew shekel as a weight-unit. Appears widely in legal-economic and tabernacle-construction passages.",
       "variants": [
         "אלמת'קאל",
         "במת'קאל",
@@ -2722,8 +2751,9 @@
       "pos": "active participle (Form X)",
       "gloss_en": "round, circular, spherical; rounded",
       "gloss_he": "עגול, מעוגל",
+      "notes": "Form X active participle of d-w-r.",
+      "saadia_note": "Saadia uses this for round objects in the tabernacle and altar specifications, and for round/encircling geographic descriptions.",
       "source": "lane",
-      "notes": "Form X active participle of d-w-r. Saadia uses this for round objects in the tabernacle and altar specifications, and for round/encircling geographic descriptions.",
       "variants": [
         "מסתדירא",
         "אלמסתדיר",
@@ -2741,8 +2771,8 @@
       "pos": "noun (f.)",
       "gloss_en": "town, village, settlement",
       "gloss_he": "עיר, יישוב, קריה",
+      "saadia_note": "Saadia's standard rendering for both Hebrew עִיר and קְרִיָּה.",
       "source": "lane",
-      "notes": "Saadia's standard rendering for both Hebrew עִיר and קְרִיָּה.",
       "variants": [
         "אלקריה",
         "קריה'",
@@ -2762,8 +2792,9 @@
       "lemma_ar": "سَلَامَة",
       "root": "s-l-m",
       "pos": "noun (f.)",
-      "gloss_en": "well-being, soundness, safe-arrival, peace; (Saadia's gloss for שָׁלוֹם in greetings and well-wishes) safety, welfare",
+      "gloss_en": "well-being, soundness, safe-arrival, peace",
       "gloss_he": "שלום, שלמות, בריאות",
+      "saadia_note": "Saadia's gloss for שָׁלוֹם in greetings and well-wishes — safety, welfare.",
       "source": "lane",
       "variants": [
         "אלסלאמה",
@@ -2805,8 +2836,9 @@
       "lemma_ar": "غَنَم",
       "root": "ḡ-n-m",
       "pos": "noun (m. coll.)",
-      "gloss_en": "sheep and goats, small cattle, flock; (Saadia's gloss for Hebrew צֹאן) the flock",
+      "gloss_en": "sheep and goats, small cattle, flock",
       "gloss_he": "צאן",
+      "saadia_note": "Saadia's gloss for Hebrew צֹאן — the flock.",
       "source": "lane",
       "variants": [
         "אלג'נם",
@@ -2829,8 +2861,8 @@
       "pos": "noun (f.)",
       "gloss_en": "desert, wilderness, open uncultivated country",
       "gloss_he": "מדבר, שממה",
+      "saadia_note": "An alternate to בר 'wilderness' (which is more frequent in Saadia for מדבר); צחרא covers a more general sense of 'open country' or 'flat desert plain'.",
       "source": "lane",
-      "notes": "An alternate to בר 'wilderness' (which is more frequent in Saadia for מדבר); צחרא covers a more general sense of 'open country' or 'flat desert plain'.",
       "variants": [
         "אלצחרא",
         "צחרא'",
@@ -2848,10 +2880,11 @@
       "lemma_ar": "اِمْرَأَة",
       "root": "m-r-ʔ",
       "pos": "noun (f.)",
-      "gloss_en": "woman, wife; (Saadia's gloss for אִשָּׁה in non-pl. contexts) the woman/wife",
+      "gloss_en": "woman, wife",
       "gloss_he": "אישה, אשת־",
+      "notes": "Suppletive plural is נסא (nisāʾ) — see the נסא entry.",
+      "saadia_note": "Saadia's gloss for אִשָּׁה in non-pl. contexts — the woman/wife. Saadia uses the singular אמראה (with definite article אלאמראה) for 'the woman' and the suffixed form אמראתה 'his wife'.",
       "source": "lane",
-      "notes": "Suppletive plural is נסא (nisāʾ) — see the נסא entry. Saadia uses the singular אמראה (with definite article אלאמראה) for 'the woman' and the suffixed form אמראתה 'his wife'.",
       "variants": [
         "אלאמראה",
         "אמראה'",
@@ -2898,8 +2931,9 @@
       "lemma_ar": "مَاعِز",
       "root": "m-ʕ-z",
       "pos": "noun (m. coll.)",
-      "gloss_en": "goats (collective); (Saadia's gloss for Hebrew עִזִּים) the goats",
+      "gloss_en": "goats (collective)",
       "gloss_he": "עיזים",
+      "saadia_note": "Saadia's gloss for Hebrew עִזִּים — the goats.",
       "source": "lane",
       "variants": [
         "אלמאעז",
@@ -2914,10 +2948,10 @@
       "lemma_ar": "عَشِيرَة",
       "root": "ʕ-sh-r",
       "pos": "noun (f.)",
-      "gloss_en": "clan, kindred, tribal subdivision; (Saadia's gloss for Hebrew מִשְׁפָּחָה) family-clan",
+      "gloss_en": "clan, kindred, tribal subdivision",
       "gloss_he": "משפחה, חמולה, שבט-משנה",
+      "saadia_note": "Saadia's gloss for Hebrew מִשְׁפָּחָה — family-clan. Saadia's standard rendering for Hebrew מִשְׁפָּחָה in tribal/genealogical contexts (esp. Num 26, Num 33, Josh 7).",
       "source": "lane",
-      "notes": "Saadia's standard rendering for Hebrew מִשְׁפָּחָה in tribal/genealogical contexts (esp. Num 26, Num 33, Josh 7).",
       "variants": [
         "אלעשירה",
         "עשירה'",
@@ -2944,10 +2978,11 @@
       "lemma_ar": "بِكْر",
       "root": "b-k-r",
       "pos": "noun (m.) / adjective",
-      "gloss_en": "firstborn, first-issue, first of its kind; (Saadia's gloss for Hebrew בְּכוֹר) the firstborn",
+      "gloss_en": "firstborn, first-issue, first of its kind",
       "gloss_he": "בכור, ראשית פרי",
+      "notes": "Distinct from the verb بَكَرَ 'to be early'.",
+      "saadia_note": "Saadia's gloss for Hebrew בְּכוֹר — the firstborn. Saadia's regular rendering of Hebrew בכור.",
       "source": "lane",
-      "notes": "Saadia's regular rendering of Hebrew בכור. Distinct from the verb بَكَرَ 'to be early'.",
       "variants": [
         "אלבכר",
         "בכרה",
@@ -2973,10 +3008,10 @@
       "lemma_ar": "رَسْم",
       "root": "r-s-m",
       "pos": "noun (m.)",
-      "gloss_en": "custom, statute, decree, prescribed mark; (Saadia's gloss for Hebrew חֹק) statute, decreed practice",
+      "gloss_en": "custom, statute, decree, prescribed mark",
       "gloss_he": "חֹק, מנהג קבוע, רושם",
+      "saadia_note": "Saadia's gloss for Hebrew חֹק — statute, decreed practice. Saadia's regular rendering of Hebrew חֹק 'statute, decree' in legal contexts.",
       "source": "lane",
-      "notes": "Saadia's regular rendering of Hebrew חֹק 'statute, decree' in legal contexts.",
       "variants": [
         "אלרסם",
         "רסומא",
@@ -2995,10 +3030,11 @@
       "lemma_ar": "هَوَذَا",
       "root": "—",
       "pos": "demonstrative particle",
-      "gloss_en": "behold, here is, this is (emphatic 'behold-this'); (Saadia's gloss for Hebrew הִנֵּה and הִנֵּה זֶה)",
+      "gloss_en": "behold, here is, this is (emphatic 'behold-this')",
       "gloss_he": "הִנֵּה, הִנֵּה זה",
+      "notes": "A fixed combination of the pronoun هُوَ 'he' + the near-demonstrative ذَا 'this' = 'he is this / behold him'. Distinct from הד'א (this, m. sg.) — هَوَذَا is the emphatic-presentative form.",
+      "saadia_note": "Saadia's gloss for Hebrew הִנֵּה and הִנֵּה זֶה. Saadia uses it pervasively for Hebrew הִנֵּה.",
       "source": "lane",
-      "notes": "A fixed combination of the pronoun هُوَ 'he' + the near-demonstrative ذَا 'this' = 'he is this / behold him'. Saadia uses it pervasively for Hebrew הִנֵּה. Distinct from הד'א (this, m. sg.) — هَوَذَا is the emphatic-presentative form.",
       "variants": [
         "והוד'א",
         "פהוד'א",
@@ -3015,8 +3051,9 @@
       "pos": "noun (m.) / preposition",
       "gloss_en": "length, duration; (with genitive) throughout, all of, for the duration of",
       "gloss_he": "אורך; כָּל (משך זמן), במשך",
+      "notes": "For Hebrew כֹּל when expressing temporal extent.",
+      "saadia_note": "Saadia uses טול both as a noun ('the length of X') and as a quasi-preposition: 'טול אלסנה' (throughout the year), 'טול עמרה' (all the days of his life).",
       "source": "lane",
-      "notes": "Saadia uses טול both as a noun ('the length of X') and as a quasi-preposition: 'טול אלסנה' (throughout the year), 'טול עמרה' (all the days of his life). For Hebrew כֹּל when expressing temporal extent.",
       "variants": [
         "אלטול",
         "טולה",
@@ -3039,8 +3076,8 @@
       "pos": "demonstrative",
       "gloss_en": "such, thus, like-this; (in narrative) so-and-so, such-and-such",
       "gloss_he": "כָּכָה, כָּזֶה",
-      "source": "lane",
       "notes": "Fixed compound of כַ 'like' + ד'א 'this'. Distinct from the dictionary's existing entry כד'אך 'like that' (kadhāka).",
+      "source": "lane",
       "variants": [
         "וכד'א",
         "פכד'א",
@@ -3054,10 +3091,11 @@
       "lemma_ar": "هُنَاكَ",
       "root": "—",
       "pos": "adverb",
-      "gloss_en": "there, in that place (distant); (Saadia's gloss for Hebrew שָׁם)",
+      "gloss_en": "there, in that place (distant)",
       "gloss_he": "שָׁם",
-      "source": "lane",
       "notes": "Fixed adverb of place (distal). Distinct from ההנא 'here' (proximal).",
+      "saadia_note": "Saadia's gloss for Hebrew שָׁם.",
+      "source": "lane",
       "variants": [
         "והנאך",
         "פהנאך",
@@ -3071,10 +3109,11 @@
       "lemma_ar": "هَاهُنَا",
       "root": "—",
       "pos": "adverb",
-      "gloss_en": "here, in this place (proximal); (Saadia's gloss for Hebrew פֹּה and הֲלוֹם)",
+      "gloss_en": "here, in this place (proximal)",
       "gloss_he": "פֹּה, כָּאן, הֲלוֹם",
-      "source": "lane",
       "notes": "Fixed adverb of place (proximal). Compound of הא 'lo' + הנא 'here'. Distinct from הנאך 'there'.",
+      "saadia_note": "Saadia's gloss for Hebrew פֹּה and הֲלוֹם.",
+      "source": "lane",
       "variants": [
         "והההנא",
         "פההנא",
@@ -3088,10 +3127,11 @@
       "lemma_ar": "فَصَاعِدًا",
       "root": "ṣ-ʕ-d",
       "pos": "adverb (fixed expression)",
-      "gloss_en": "and upwards, henceforth, from-that-point-and-onwards; (Saadia's gloss for Hebrew וָמַעְלָה 'and above')",
+      "gloss_en": "and upwards, henceforth, from-that-point-and-onwards",
       "gloss_he": "וָמַעְלָה, והלאה",
+      "notes": "Frozen adverbial form built from fa- 'and' + ṣāʿidan 'ascending'.",
+      "saadia_note": "Saadia's gloss for Hebrew וָמַעְלָה 'and above'. Saadia's regular rendering of Hebrew וָמַעְלָה in census formulae (e.g. 'from twenty years and upwards').",
       "source": "lane",
-      "notes": "Frozen adverbial form built from fa- 'and' + ṣāʿidan 'ascending'. Saadia's regular rendering of Hebrew וָמַעְלָה in census formulae (e.g. 'from twenty years and upwards').",
       "variants": [
         "ופצאעדא",
         "ולפצאעדא"
@@ -3105,8 +3145,9 @@
       "pos": "noun (m.)",
       "gloss_en": "cause, reason, means, occasion; (bi-sabab) because of",
       "gloss_he": "סיבה, גורם; בִּגְלַל",
+      "notes": "Compare also 'מן אגל' as an alternative.",
+      "saadia_note": "Saadia uses 'בסבב' (literally 'in [the] cause of') as the regular preposition for Hebrew בִּגְלַל and בַּעֲבוּר.",
       "source": "lane",
-      "notes": "Saadia uses 'בסבב' (literally 'in [the] cause of') as the regular preposition for Hebrew בִּגְלַל and בַּעֲבוּר. Compare also 'מן אגל' as an alternative.",
       "variants": [
         "אלסבב",
         "סבבה",
@@ -3128,8 +3169,8 @@
       "pos": "noun (f.)",
       "gloss_en": "hand; arm; power, possession; (dual yadayn / pl. aydī)",
       "gloss_he": "יד; כוח, רשות",
-      "source": "lane",
       "notes": "Note: the lemma 'ידי' (yadī, 'my hand' or oblique stem before suffixes) is already in the dictionary with its own variants. This entry adds the bare singular יד and the broken plural אידי / אלאידי.",
+      "source": "lane",
       "variants": [
         "אליד",
         "ידה",
@@ -3283,8 +3324,8 @@
       "pos": "adjective / noun",
       "gloss_en": "bitter; (as noun) bitterness, myrrh-like bitter substance",
       "gloss_he": "מַר, מרירי",
-      "source": "lane",
       "notes": "Homograph with the verb مَرَّ 'he passed' (above) — same consonants, different vocalization. The two are kept as separate entries to flag the ambiguity for readers.",
+      "source": "lane",
       "variants": [
         "מרא",
         "מרה",
@@ -3299,10 +3340,11 @@
       "lemma_ar": "لَبَن",
       "root": "l-b-n",
       "pos": "noun (m.)",
-      "gloss_en": "milk; (in Saadia) the substance 'milk'",
+      "gloss_en": "milk",
       "gloss_he": "חָלָב",
-      "source": "lane",
       "notes": "Homograph with the proper noun לבן (Laban) — see the separate entry. Context disambiguates: dietary/zoological contexts vs. patriarchal-narrative contexts.",
+      "saadia_note": "in Saadia — the substance 'milk'.",
+      "source": "lane",
       "variants": [
         "אלבן",
         "בלבן",
@@ -3318,8 +3360,8 @@
       "pos": "noun (m.)",
       "gloss_en": "elder, old man, chief, sheikh; (broken pl. shuyūkh / mashāyikh) elders",
       "gloss_he": "זָקֵן, ראש, נכבד",
+      "saadia_note": "Saadia's rendering of Hebrew זָקֵן in the elder-of-the-community sense.",
       "source": "lane",
-      "notes": "Saadia's rendering of Hebrew זָקֵן in the elder-of-the-community sense.",
       "variants": [
         "אלשיך'",
         "שיך''",
@@ -3340,8 +3382,8 @@
       "pos": "noun (m.) / preposition",
       "gloss_en": "middle, midst; (with genitive) in the midst of, among",
       "gloss_he": "אֶמְצַע, תוך־",
+      "saadia_note": "Saadia's regular rendering of Hebrew תּוֹךְ in the prepositional sense 'in the midst of'.",
       "source": "lane",
-      "notes": "Saadia's regular rendering of Hebrew תּוֹךְ in the prepositional sense 'in the midst of'.",
       "variants": [
         "אלוסט",
         "וסטה",
@@ -3358,8 +3400,9 @@
       "lemma_ar": "جَانِب",
       "root": "j-n-b",
       "pos": "noun (m.)",
-      "gloss_en": "side, flank, region, direction; (Saadia's gloss for Hebrew צַד and פֵּאָה in directional contexts)",
+      "gloss_en": "side, flank, region, direction",
       "gloss_he": "צַד, פאה",
+      "saadia_note": "Saadia's gloss for Hebrew צַד and פֵּאָה in directional contexts.",
       "source": "lane",
       "variants": [
         "אלגאנב",
@@ -3381,8 +3424,9 @@
       "pos": "noun (m.) / temporal conjunction",
       "gloss_en": "time, moment; (as temporal conjunction) when, at the time when",
       "gloss_he": "עֵת, בְּעֵת ש־, כַּאֲשֶׁר",
+      "notes": "Distinct from וקת which is a more general 'time' word.",
+      "saadia_note": "Saadia uses חין both as a noun ('a time') and as a temporal connector ('when').",
       "source": "lane",
-      "notes": "Saadia uses חין both as a noun ('a time') and as a temporal connector ('when'). Distinct from וקת which is a more general 'time' word.",
       "variants": [
         "אלחין",
         "חינא",
@@ -3398,8 +3442,9 @@
       "lemma_ar": "خَشَب",
       "root": "kh-sh-b",
       "pos": "noun (m.)",
-      "gloss_en": "wood, timber, planks (collective); (Saadia's gloss for Hebrew עֵץ in lumber/construction contexts)",
+      "gloss_en": "wood, timber, planks (collective)",
       "gloss_he": "עץ (כחומר בנייה), קרשים",
+      "saadia_note": "Saadia's gloss for Hebrew עֵץ in lumber/construction contexts.",
       "source": "lane",
       "variants": [
         "אלכ'שב",
@@ -3416,8 +3461,9 @@
       "lemma_ar": "ذِرَاع",
       "root": "dh-r-ʕ",
       "pos": "noun (f.)",
-      "gloss_en": "cubit (unit of length); forearm; (Saadia's gloss for Hebrew אַמָּה in measurements)",
+      "gloss_en": "cubit (unit of length); forearm",
       "gloss_he": "אַמָּה, זרוע",
+      "saadia_note": "Saadia's gloss for Hebrew אַמָּה in measurements.",
       "source": "lane",
       "variants": [
         "אלד'ראע",
@@ -3434,10 +3480,11 @@
       "lemma_ar": "نَجِس",
       "root": "n-j-s",
       "pos": "adjective",
-      "gloss_en": "unclean, ritually impure; (Saadia's gloss for Hebrew טָמֵא)",
+      "gloss_en": "unclean, ritually impure",
       "gloss_he": "טָמֵא",
+      "notes": "The verb ינגס 'becomes impure' is its denominative imperfect.",
+      "saadia_note": "Saadia's gloss for Hebrew טָמֵא. Saadia's signature gloss for the ritual-purity term טָמֵא.",
       "source": "lane",
-      "notes": "Saadia's signature gloss for the ritual-purity term טָמֵא. The verb ינגס 'becomes impure' is its denominative imperfect.",
       "variants": [
         "אלנגס",
         "נגסה",
@@ -3458,8 +3505,9 @@
       "lemma_ar": "عَهْد",
       "root": "ʕ-h-d",
       "pos": "noun (m.)",
-      "gloss_en": "covenant, pact, pledge; (Saadia's gloss for Hebrew בְּרִית)",
+      "gloss_en": "covenant, pact, pledge",
       "gloss_he": "ברית, הסכם",
+      "saadia_note": "Saadia's gloss for Hebrew בְּרִית.",
       "source": "lane",
       "variants": [
         "אלעהד",
@@ -3481,8 +3529,9 @@
       "lemma_ar": "غَدَاة",
       "root": "ḡ-d-w",
       "pos": "noun (f.)",
-      "gloss_en": "morning, early daytime; (Saadia's gloss for Hebrew בֹּקֶר)",
+      "gloss_en": "morning, early daytime",
       "gloss_he": "בֹּקֶר",
+      "saadia_note": "Saadia's gloss for Hebrew בֹּקֶר.",
       "source": "lane",
       "variants": [
         "אלג'דאה",
@@ -3500,10 +3549,11 @@
       "lemma_ar": "عَظِيم",
       "root": "ʕ-ẓ-m",
       "pos": "adjective",
-      "gloss_en": "great, mighty, immense, magnificent; (Saadia's gloss for Hebrew גָּדוֹל)",
+      "gloss_en": "great, mighty, immense, magnificent",
       "gloss_he": "גדול, אדיר",
-      "source": "lane",
       "notes": "In JA, this root is sometimes spelled עצ'ים (with ṣād + dot) instead of עט'ים — both spellings represent the same Arabic letter ظ (ẓāʾ). Both surface forms are listed as variants.",
+      "saadia_note": "Saadia's gloss for Hebrew גָּדוֹל.",
+      "source": "lane",
       "variants": [
         "אלעט'ים",
         "עט'ימה",
@@ -3532,8 +3582,9 @@
       "pos": "noun (m.)",
       "gloss_en": "bone; (broken pl. ʿiẓām) bones; the essence, substance of a thing",
       "gloss_he": "עֶצֶם",
+      "notes": "Same root as עט'ים 'great' (above) — bones being 'the great/strong parts'.",
+      "saadia_note": "Saadia's rendering of Hebrew עֶצֶם.",
       "source": "lane",
-      "notes": "Same root as עט'ים 'great' (above) — bones being 'the great/strong parts'. Saadia's rendering of Hebrew עֶצֶם.",
       "variants": [
         "אלעט'ם",
         "עט'מה",
@@ -3556,8 +3607,8 @@
       "pos": "adjective (passive participle, Form II)",
       "gloss_en": "consecrated, sanctified, made-holy; (as noun, with article) the Sanctuary, the Tabernacle precinct",
       "gloss_he": "מקודש, מקדש",
-      "source": "lane",
       "notes": "Passive participle of qaddasa (Form II: 'to consecrate'). Distinct from the noun קדס 'sanctity / the Sanctuary' (already in dict) — מקדס is the participial form.",
+      "source": "lane",
       "variants": [
         "אלמקדס",
         "מקדסה",
@@ -3575,10 +3626,11 @@
       "lemma_ar": "نَار",
       "root": "n-w-r",
       "pos": "noun (f.)",
-      "gloss_en": "fire, flame; (Saadia's gloss for Hebrew אֵשׁ)",
+      "gloss_en": "fire, flame",
       "gloss_he": "אֵשׁ",
-      "source": "lane",
       "notes": "Same root as נור 'light' (n-w-r) — distinct lexeme. נאר is feminine, ניראן is the broken plural.",
+      "saadia_note": "Saadia's gloss for Hebrew אֵשׁ.",
+      "source": "lane",
       "variants": [
         "אלנאר",
         "נארא",
@@ -3600,8 +3652,8 @@
       "pos": "noun (f.)",
       "gloss_en": "beast, animal (esp. quadruped, domesticated or wild); (broken pl. bahāʾim) beasts",
       "gloss_he": "בהמה, חיה",
+      "saadia_note": "Saadia's standard rendering of Hebrew בהמה.",
       "source": "lane",
-      "notes": "Saadia's standard rendering of Hebrew בהמה.",
       "variants": [
         "אלבהימה",
         "בהימה'",
@@ -3620,10 +3672,11 @@
       "lemma_ar": "تَابُوت",
       "root": "—",
       "pos": "noun (m.)",
-      "gloss_en": "chest, ark, box; (Saadia's gloss for Hebrew אֲרוֹן in 'ark of the covenant')",
+      "gloss_en": "chest, ark, box",
       "gloss_he": "אֲרוֹן (הברית, ארון התורה)",
+      "notes": "Also applies to Noah's ark (Hebrew תיבה).",
+      "saadia_note": "Saadia's gloss for Hebrew אֲרוֹן in 'ark of the covenant'. Saadia's regular rendering of Hebrew אֲרוֹן for the ark of the covenant.",
       "source": "lane",
-      "notes": "Saadia's regular rendering of Hebrew אֲרוֹן for the ark of the covenant. Also applies to Noah's ark (Hebrew תיבה).",
       "variants": [
         "אלתאבות",
         "תאבות'",
@@ -3642,8 +3695,9 @@
       "pos": "noun (m.) / verb (perfect)",
       "gloss_en": "servant, slave, worshipper; (as verb) he served, worshipped, was-subject-to",
       "gloss_he": "עבד; שירת, עבד את־",
+      "notes": "Homograph kept as one entry since both senses share the same root and inflectional pattern.",
+      "saadia_note": "Saadia uses עבד both for the noun (Hebrew עֶבֶד) and the verb (Hebrew עָבַד).",
       "source": "lane",
-      "notes": "Saadia uses עבד both for the noun (Hebrew עֶבֶד) and the verb (Hebrew עָבַד). Homograph kept as one entry since both senses share the same root and inflectional pattern.",
       "variants": [
         "אלעבד",
         "עבדה",
@@ -3666,10 +3720,11 @@
       "lemma_ar": "صَعَدَ",
       "root": "ṣ-ʕ-d",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he went up, ascended; (in Saadia) regular rendering of Hebrew עָלָה",
+      "gloss_en": "he went up, ascended",
       "gloss_he": "עָלָה",
-      "source": "lane",
       "notes": "Same root as צעידה 'burnt offering' (above) — the offering that 'goes up' in smoke.",
+      "saadia_note": "in Saadia — regular rendering of Hebrew עָלָה.",
+      "source": "lane",
       "variants": [
         "צעדת",
         "צעדו",
@@ -3698,8 +3753,9 @@
       "pos": "noun (f.)",
       "gloss_en": "presence, immediate vicinity; (bi-ḥaḍrati X) in the presence of X, before X",
       "gloss_he": "נוכחות; בְּפָנֵי, לְפְנֵי",
+      "notes": "Same root as מחצ'ר 'gathering-place' (above).",
+      "saadia_note": "Saadia uses 'בחצ'רה' as a prepositional locution for Hebrew לִפְנֵי 'before' (esp. before God or a person of rank).",
       "source": "lane",
-      "notes": "Same root as מחצ'ר 'gathering-place' (above). Saadia uses 'בחצ'רה' as a prepositional locution for Hebrew לִפְנֵי 'before' (esp. before God or a person of rank).",
       "variants": [
         "אלחצ'רה",
         "חצ'רה'",
@@ -3721,8 +3777,9 @@
       "lemma_ar": "جَعَلَ",
       "root": "j-ʕ-l",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he placed, set, made, appointed; (in Saadia) regular rendering of Hebrew שָׂם / נָתַן in 'place/appoint' contexts",
+      "gloss_en": "he placed, set, made, appointed",
       "gloss_he": "שָׂם, נָתַן",
+      "saadia_note": "in Saadia — regular rendering of Hebrew שָׂם / נָתַן in 'place/appoint' contexts.",
       "source": "lane",
       "variants": [
         "געלת",
@@ -3788,8 +3845,9 @@
       "lemma_ar": "صِنْدِيد",
       "root": "ṣ-n-d-d",
       "pos": "noun (m.)",
-      "gloss_en": "mighty hero, strong warrior, chief; (Saadia's gloss for Hebrew גִּבּוֹר in heroic contexts)",
+      "gloss_en": "mighty hero, strong warrior, chief",
       "gloss_he": "גיבור, אדיר",
+      "saadia_note": "Saadia's gloss for Hebrew גִּבּוֹר in heroic contexts.",
       "source": "lane",
       "variants": [
         "אלצנדיד",
@@ -3832,10 +3890,11 @@
       "lemma_ar": "يَسْتَغْفِر",
       "root": "ḡ-f-r",
       "pos": "verb (Form X, imperfect)",
-      "gloss_en": "he seeks forgiveness, pleads for pardon, atones; (Saadia's gloss for Hebrew יְכַפֵּר 'atone')",
+      "gloss_en": "he seeks forgiveness, pleads for pardon, atones",
       "gloss_he": "מבקש סליחה, מכפר",
+      "notes": "Form X yastaghfir of root g-f-r ('to cover, forgive').",
+      "saadia_note": "Saadia's gloss for Hebrew יְכַפֵּר 'atone'. Saadia's standard rendering of the Hebrew piʿel יְכַפֵּר 'he will atone' in priestly-atonement contexts.",
       "source": "lane",
-      "notes": "Form X yastaghfir of root g-f-r ('to cover, forgive'). Saadia's standard rendering of the Hebrew piʿel יְכַפֵּר 'he will atone' in priestly-atonement contexts.",
       "variants": [
         "ויסתג'פר",
         "יסתג'פרו",
@@ -3855,8 +3914,9 @@
       "lemma_ar": "مَاتَ",
       "root": "m-w-t",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he died, expired, passed away; (in Saadia) regular rendering of Hebrew מֵת",
+      "gloss_en": "he died, expired, passed away",
       "gloss_he": "מֵת",
+      "saadia_note": "in Saadia — regular rendering of Hebrew מֵת.",
       "source": "lane",
       "variants": [
         "מאתת",
@@ -3885,10 +3945,11 @@
       "lemma_ar": "نِحْلَة",
       "root": "n-ḥ-l",
       "pos": "noun (f.)",
-      "gloss_en": "gift, bestowed portion, inheritance; (Saadia's gloss for Hebrew נַחֲלָה)",
+      "gloss_en": "gift, bestowed portion, inheritance",
       "gloss_he": "נַחֲלָה",
+      "notes": "The Arabic root n-ḥ-l 'to give as a free gift' aligns semantically with the Hebrew inheritance term.",
+      "saadia_note": "Saadia's gloss for Hebrew נַחֲלָה. Saadia preserves the Hebrew form נחלה (which already exists in Arabic as nihla 'gift, bequest').",
       "source": "lane",
-      "notes": "Saadia preserves the Hebrew form נחלה (which already exists in Arabic as nihla 'gift, bequest'). The Arabic root n-ḥ-l 'to give as a free gift' aligns semantically with the Hebrew inheritance term.",
       "variants": [
         "אלנחלה",
         "נחלה'",
@@ -3910,10 +3971,11 @@
       "lemma_ar": "بَدَن",
       "root": "b-d-n",
       "pos": "noun (m.)",
-      "gloss_en": "body, trunk; (Saadia's gloss for Hebrew בָּשָׂר and גְּוִיָּה in many contexts)",
+      "gloss_en": "body, trunk",
       "gloss_he": "גוף, בָּשָׂר, גְּוִיָּה",
+      "notes": "Here the bare noun and its inflections.",
+      "saadia_note": "Saadia's gloss for Hebrew בָּשָׂר and גְּוִיָּה in many contexts. Distinct from the divergence card for בדן (Gen 3:21, where it covers a more pointed semantic move).",
       "source": "lane",
-      "notes": "Distinct from the divergence card for בדן (Gen 3:21, where it covers a more pointed semantic move). Here the bare noun and its inflections.",
       "variants": [
         "אלבדן",
         "בדנה",
@@ -3934,8 +3996,9 @@
       "lemma_ar": "كَبْش",
       "root": "k-b-sh",
       "pos": "noun (m.)",
-      "gloss_en": "ram; (Saadia's gloss for Hebrew אַיִל in sacrificial contexts)",
+      "gloss_en": "ram",
       "gloss_he": "אַיִל",
+      "saadia_note": "Saadia's gloss for Hebrew אַיִל in sacrificial contexts.",
       "source": "lane",
       "variants": [
         "אלכבש",
@@ -3956,10 +4019,11 @@
       "lemma_ar": "أَعْطَى",
       "root": "ʕ-ṭ-w",
       "pos": "verb (Form IV, perfect)",
-      "gloss_en": "he gave, bestowed, granted; (in Saadia) regular rendering of Hebrew נָתַן",
+      "gloss_en": "he gave, bestowed, granted",
       "gloss_he": "נָתַן, הֶעֱנִיק",
+      "notes": "Form IV (causative-like) of the root ʿ-ṭ-w 'to extend, hand over'.",
+      "saadia_note": "in Saadia — regular rendering of Hebrew נָתַן. Saadia's signature rendering of Hebrew נָתַן.",
       "source": "lane",
-      "notes": "Saadia's signature rendering of Hebrew נָתַן. Form IV (causative-like) of the root ʿ-ṭ-w 'to extend, hand over'.",
       "variants": [
         "אעטית",
         "אעטיו",
@@ -3989,10 +4053,10 @@
       "lemma_ar": "ذِكَر / ذُكُور",
       "root": "dh-k-r",
       "pos": "noun (m.)",
-      "gloss_en": "male, male animal; (Saadia's gloss for Hebrew זָכָר)",
+      "gloss_en": "male, male animal",
       "gloss_he": "זָכָר",
+      "saadia_note": "Saadia's gloss for Hebrew זָכָר. Saadia uses ד'כר for the bare Hebrew זָכָר 'male'; the broken plural ד'כוה / ד'כור appears in census contexts. 'לאלד'כוה' = 'for the males'.",
       "source": "lane",
-      "notes": "Saadia uses ד'כר for the bare Hebrew זָכָר 'male'; the broken plural ד'כוה / ד'כור appears in census contexts. 'לאלד'כוה' = 'for the males'.",
       "variants": [
         "אלד'כוה",
         "לאלד'כוה",
@@ -4013,8 +4077,8 @@
       "pos": "noun (m.)",
       "gloss_en": "water (variant spelling of the existing מא entry; here a fuller plene spelling)",
       "gloss_he": "מָיִם",
-      "source": "lane",
       "notes": "Alternative orthography of the JA 'water' word. Already in dict as מא (with the same gloss); this entry adds the plene spelling מאא that appears in some scribal traditions.",
+      "source": "lane",
       "variants": [
         "אלמאא",
         "באלמאא",
@@ -4029,10 +4093,10 @@
       "lemma_ar": "مَعْبُود",
       "root": "ʕ-b-d",
       "pos": "passive participle (Form I)",
-      "gloss_en": "object of worship, deity, idol; (Saadia's gloss for Hebrew אֱלִיל and גִּלּוּלִים) the false god",
+      "gloss_en": "object of worship, deity, idol",
       "gloss_he": "אֱלִיל, גִּלּוּל, פֶּסֶל נֶעֱבָד",
+      "saadia_note": "Saadia's gloss for Hebrew אֱלִיל and גִּלּוּלִים — the false god. Saadia's anti-idolatry signature: rather than translating Hebrew elilim as 'gods' (which would dignify them), he uses the participle 'objects of worship' — sidestepping any implication of real divinity.",
       "source": "lane",
-      "notes": "Saadia's anti-idolatry signature: rather than translating Hebrew elilim as 'gods' (which would dignify them), he uses the participle 'objects of worship' — sidestepping any implication of real divinity.",
       "variants": [
         "אלמעבוד",
         "מעבודאת",
@@ -4075,10 +4139,10 @@
       "lemma_ar": "مُجِيب",
       "root": "j-w-b",
       "pos": "active participle (Form IV)",
-      "gloss_en": "(the) Responder, one who answers; (Saadia's gloss for divine epithets meaning 'God who hears')",
+      "gloss_en": "(the) Responder, one who answers",
       "gloss_he": "המַעֲנֶה, השומע ומשיב",
+      "saadia_note": "Saadia's gloss for divine epithets meaning 'God who hears'. Saadia uses 'אלמג'יב' as a divine epithet, often paired with 'אלטאיק' (the All-Capable) in liturgical-prayer contexts within Tafsir.",
       "source": "lane",
-      "notes": "Saadia uses 'אלמג'יב' as a divine epithet, often paired with 'אלטאיק' (the All-Capable) in liturgical-prayer contexts within Tafsir.",
       "variants": [
         "אלמג'יב",
         "מג'יבא",
@@ -4092,10 +4156,10 @@
       "lemma_ar": "طَائِق",
       "root": "ṭ-w-q",
       "pos": "active participle",
-      "gloss_en": "(the) All-Capable, the One Who Has Power; (Saadia's divine-name rendering, esp. paired with אלכאפי for Hebrew אֵל שַׁדַּי)",
+      "gloss_en": "(the) All-Capable, the One Who Has Power",
       "gloss_he": "האל המסוגל, האל היכול",
+      "saadia_note": "Saadia's divine-name rendering, esp. paired with אלכאפי for Hebrew אֵל שַׁדַּי. Component of Saadia's compound divine name 'אלטאיק אלכאפי' (the All-Capable, the Sufficient) — his rendering of Hebrew אֵל שַׁדַּי. See the divergence cards on Bereshit 17 for context.",
       "source": "lane",
-      "notes": "Component of Saadia's compound divine name 'אלטאיק אלכאפי' (the All-Capable, the Sufficient) — his rendering of Hebrew אֵל שַׁדַּי. See the divergence cards on Bereshit 17 for context.",
       "variants": [
         "אלטאיק",
         "טאיקא",
@@ -4108,8 +4172,9 @@
       "lemma_ar": "كَافِي",
       "root": "k-f-y",
       "pos": "active participle",
-      "gloss_en": "(the) Sufficient, the One Who Suffices; (Saadia's divine-name rendering — see טאיק)",
+      "gloss_en": "(the) Sufficient, the One Who Suffices",
       "gloss_he": "המספיק, האל המספק",
+      "saadia_note": "Saadia's divine-name rendering — see טאיק.",
       "source": "lane",
       "variants": [
         "אלכאפי",
@@ -4123,8 +4188,9 @@
       "lemma_ar": "فَوْق",
       "root": "f-w-q",
       "pos": "preposition / adverb",
-      "gloss_en": "above, over, on-top-of; (Saadia's gloss for Hebrew מֵעַל and עַל in 'over/above' senses)",
+      "gloss_en": "above, over, on-top-of",
       "gloss_he": "מֵעַל, מַעְלָה, עַל",
+      "saadia_note": "Saadia's gloss for Hebrew מֵעַל and עַל in 'over/above' senses.",
       "source": "lane",
       "variants": [
         "אלפוק",
@@ -4144,8 +4210,9 @@
       "lemma_ar": "نُحَاس",
       "root": "n-ḥ-s",
       "pos": "noun (m.)",
-      "gloss_en": "copper, bronze; (Saadia's gloss for Hebrew נְחֹשֶׁת)",
+      "gloss_en": "copper, bronze",
       "gloss_he": "נְחֹשֶׁת",
+      "saadia_note": "Saadia's gloss for Hebrew נְחֹשֶׁת.",
       "source": "lane",
       "variants": [
         "אלנחאס",
@@ -4160,8 +4227,9 @@
       "lemma_ar": "شَرِيف",
       "root": "sh-r-f",
       "pos": "adjective / noun",
-      "gloss_en": "noble, of-high-rank, eminent; (Saadia's gloss for Hebrew נָדִיב and נִכְבָּד)",
+      "gloss_en": "noble, of-high-rank, eminent",
       "gloss_he": "נכבד, אציל, נדיב",
+      "saadia_note": "Saadia's gloss for Hebrew נָדִיב and נִכְבָּד.",
       "source": "lane",
       "variants": [
         "אלשריף",
@@ -4179,10 +4247,11 @@
       "lemma_ar": "أَشْرَاف",
       "root": "sh-r-f",
       "pos": "noun (m. pl., broken)",
-      "gloss_en": "nobles, men-of-rank; (Saadia's gloss for Hebrew בְּנֵי הָאֱלֹהִים in Gen 6 — the 'sons of the noble class')",
+      "gloss_en": "nobles, men-of-rank",
       "gloss_he": "אצילים, נכבדים, בני אצולה",
+      "notes": "Broken plural of שריף. Add as standalone lemma so the bare form resolves outside the divergence-card flow.",
+      "saadia_note": "Saadia's gloss for Hebrew בְּנֵי הָאֱלֹהִים in Gen 6 — the 'sons of the noble class'. Already discussed under tafsir-divergence (Gen 6:2, 6:4: 'sons-of-the-nobility' for בני האלהים).",
       "source": "lane",
-      "notes": "Broken plural of שריף. Already discussed under tafsir-divergence (Gen 6:2, 6:4: 'sons-of-the-nobility' for בני האלהים). Add as standalone lemma so the bare form resolves outside the divergence-card flow.",
       "variants": [
         "אלאשראף",
         "ואלאשראף",
@@ -4196,10 +4265,11 @@
       "lemma_ar": "يَخْتَار",
       "root": "kh-y-r",
       "pos": "verb (Form VIII, imperfect)",
-      "gloss_en": "he chooses, selects, picks-out; (Saadia's gloss for Hebrew בָּחַר)",
+      "gloss_en": "he chooses, selects, picks-out",
       "gloss_he": "בּוֹחֵר",
+      "notes": "Form VIII (reflexive-derived) of خ-ي-ر 'good/excellent' → 'to pick the best'.",
+      "saadia_note": "Saadia's gloss for Hebrew בָּחַר. See the divergence card for אכ'תיאר (Gen 4:7) for the noun/abstract form.",
       "source": "lane",
-      "notes": "Form VIII (reflexive-derived) of خ-ي-ر 'good/excellent' → 'to pick the best'. See the divergence card for אכ'תיאר (Gen 4:7) for the noun/abstract form.",
       "variants": [
         "יכ'תארה",
         "יכ'תארהא",
@@ -4220,10 +4290,10 @@
       "lemma_ar": "قَرَأَ / دَعَا",
       "root": "q-r-ʔ",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he called, summoned, read-aloud; (Saadia's gloss for Hebrew קָרָא in 'call' and 'read' senses)",
+      "gloss_en": "he called, summoned, read-aloud",
       "gloss_he": "קָרָא (בְּשֵם, אֶת־)",
+      "saadia_note": "Saadia's gloss for Hebrew קָרָא in 'call' and 'read' senses. Direct Saadia rendering of Hebrew קָרָא — the cognate carries over.",
       "source": "lane",
-      "notes": "Direct Saadia rendering of Hebrew קָרָא — the cognate carries over.",
       "variants": [
         "קראת",
         "קראו",
@@ -4251,10 +4321,11 @@
       "lemma_ar": "سُرَادِق",
       "root": "—",
       "pos": "noun (m.)",
-      "gloss_en": "outer canopy, hanging-cloth screen; (Saadia's gloss for Hebrew קֶלַע — the courtyard hangings of the Tabernacle)",
+      "gloss_en": "outer canopy, hanging-cloth screen",
       "gloss_he": "קְלָעִים (של החצר), יריעת חוץ",
+      "notes": "Heavy in Exodus 27-38.",
+      "saadia_note": "Saadia's gloss for Hebrew קֶלַע — the courtyard hangings of the Tabernacle. Persian-origin loanword in Arabic, used by Saadia for the screen-fabric panels of the Tabernacle courtyard.",
       "source": "lane",
-      "notes": "Persian-origin loanword in Arabic, used by Saadia for the screen-fabric panels of the Tabernacle courtyard. Heavy in Exodus 27-38.",
       "variants": [
         "אלצראדק",
         "צראדקא",
@@ -4267,8 +4338,9 @@
       "lemma_ar": "سَنْط",
       "root": "—",
       "pos": "noun (m.)",
-      "gloss_en": "acacia (wood); (Saadia's gloss for Hebrew שִׁטִּים — the wood of the Tabernacle)",
+      "gloss_en": "acacia (wood)",
       "gloss_he": "עֲצֵי שִׁטִּים",
+      "saadia_note": "Saadia's gloss for Hebrew שִׁטִּים — the wood of the Tabernacle.",
       "source": "lane",
       "variants": [
         "אלסנט",
@@ -4282,8 +4354,9 @@
       "lemma_ar": "وَزْن",
       "root": "w-z-n",
       "pos": "noun (m.) / verb",
-      "gloss_en": "weight; weighing; (as verb wazana) he weighed-out; (Saadia's gloss for Hebrew שָׁקַל and מִשְׁקָל)",
+      "gloss_en": "weight; weighing; (as verb wazana) he weighed-out",
       "gloss_he": "מִשְׁקָל; שָׁקַל",
+      "saadia_note": "Saadia's gloss for Hebrew שָׁקַל and מִשְׁקָל.",
       "source": "lane",
       "variants": [
         "אלוזן",
@@ -4308,8 +4381,8 @@
       "pos": "definite article",
       "gloss_en": "the (definite article); (as standalone) the article in isolation, typically a citation form or break in text",
       "gloss_he": "ה־ (יידוע)",
-      "source": "lane",
-      "notes": "Normally proclitic: prefixes onto a noun. The standalone form is rare and usually a citation or text break."
+      "notes": "Normally proclitic: prefixes onto a noun. The standalone form is rare and usually a citation or text break.",
+      "source": "lane"
     },
     {
       "id": "naqs-defective",
@@ -4317,10 +4390,11 @@
       "lemma_ar": "يَنْجُس",
       "root": "n-j-s",
       "pos": "verb (Form I, imperfect)",
-      "gloss_en": "he becomes unclean, contracts impurity; (Saadia's denominative of nájisun 'unclean')",
+      "gloss_en": "he becomes unclean, contracts impurity",
       "gloss_he": "מִטַּמֵּא",
-      "source": "lane",
       "notes": "Denominative imperfect built on the adjective נגס 'unclean' (see the נגס entry). High-frequency in Vayikra purity laws.",
+      "saadia_note": "Saadia's denominative of nájisun 'unclean'.",
+      "source": "lane",
       "variants": [
         "וינגס",
         "תנגס",
@@ -4337,8 +4411,9 @@
       "lemma_ar": "وَجَدَ",
       "root": "w-j-d",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he found, came-upon, discovered; (Saadia's gloss for Hebrew מָצָא)",
+      "gloss_en": "he found, came-upon, discovered",
       "gloss_he": "מָצָא",
+      "saadia_note": "Saadia's gloss for Hebrew מָצָא.",
       "source": "lane",
       "variants": [
         "וגדת",
@@ -4365,8 +4440,9 @@
       "lemma_ar": "قِرْمِز",
       "root": "q-r-m-z",
       "pos": "noun (m.)",
-      "gloss_en": "crimson, kermes-red dye; (Saadia's gloss for Hebrew תּוֹלַעַת שָׁנִי) the scarlet/crimson tabernacle thread",
+      "gloss_en": "crimson, kermes-red dye",
       "gloss_he": "תוֹלַעַת שָׁנִי, אדום־כרמז",
+      "saadia_note": "Saadia's gloss for Hebrew תּוֹלַעַת שָׁנִי — the scarlet/crimson tabernacle thread.",
       "source": "lane",
       "variants": [
         "אלקרמז",
@@ -4381,10 +4457,11 @@
       "lemma_ar": "أَسْمَانْجُون",
       "root": "—",
       "pos": "noun (m.)",
-      "gloss_en": "sky-blue, azure (Persian-loan color term); (Saadia's gloss for Hebrew תְּכֵלֶת)",
+      "gloss_en": "sky-blue, azure (Persian-loan color term)",
       "gloss_he": "תְכֵלֶת",
+      "notes": "Persian asmān 'sky' + gūn 'color' → 'sky-colored'.",
+      "saadia_note": "Saadia's gloss for Hebrew תְּכֵלֶת. Saadia's signature rendering of the tabernacle's blue thread.",
       "source": "lane",
-      "notes": "Persian asmān 'sky' + gūn 'color' → 'sky-colored'. Saadia's signature rendering of the tabernacle's blue thread.",
       "variants": [
         "אלאסמאנגון",
         "באלאסמאנגון",
@@ -4397,8 +4474,9 @@
       "lemma_ar": "قَتَلَ",
       "root": "q-t-l",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he killed, slew; (Saadia's gloss for Hebrew הָרַג and הִכָּה לְמָוֶת)",
+      "gloss_en": "he killed, slew",
       "gloss_he": "הָרַג, הֵמִית",
+      "saadia_note": "Saadia's gloss for Hebrew הָרַג and הִכָּה לְמָוֶת.",
       "source": "lane",
       "variants": [
         "קתלת",
@@ -4450,8 +4528,9 @@
       "pos": "noun (m.)",
       "gloss_en": "time, point-in-time, appointed-moment; (broken pl. awqāt) times",
       "gloss_he": "זְמַן, עֵת",
+      "notes": "The bare singular waqt — companion to the existing אוקאת (the broken plural).",
+      "saadia_note": "Saadia uses both.",
       "source": "lane",
-      "notes": "The bare singular waqt — companion to the existing אוקאת (the broken plural). Saadia uses both.",
       "variants": [
         "אלוקת",
         "וקתא",
@@ -4473,10 +4552,11 @@
       "lemma_ar": "هَأَنَا",
       "root": "—",
       "pos": "demonstrative + pronoun",
-      "gloss_en": "behold me, here am I; (Saadia's gloss for Hebrew הִנֵּנִי and הִנֵּה אֲנִי)",
+      "gloss_en": "behold me, here am I",
       "gloss_he": "הִנְנִי, הִנֵּה אֲנִי",
+      "notes": "Compound of demonstrative ها 'behold' + 1sg pronoun אנא.",
+      "saadia_note": "Saadia's gloss for Hebrew הִנֵּנִי and הִנֵּה אֲנִי. Saadia's rendering of Hebrew הִנֵּנִי.",
       "source": "lane",
-      "notes": "Compound of demonstrative ها 'behold' + 1sg pronoun אנא. Saadia's rendering of Hebrew הִנֵּנִי.",
       "variants": [
         "והאנא",
         "פהאנא"
@@ -4488,8 +4568,9 @@
       "lemma_ar": "أَحْصَى",
       "root": "ḥ-ṣ-w/y",
       "pos": "verb (Form IV, perfect)",
-      "gloss_en": "he counted, enumerated, took census; (Saadia's gloss for Hebrew סָפַר, פָּקַד, נָשָׂא אֶת רֹאשׁ in census contexts)",
+      "gloss_en": "he counted, enumerated, took census",
       "gloss_he": "סָפַר, פָּקַד",
+      "saadia_note": "Saadia's gloss for Hebrew סָפַר, פָּקַד, נָשָׂא אֶת רֹאשׁ in census contexts.",
       "source": "lane",
       "variants": [
         "באחצא",
@@ -4511,10 +4592,11 @@
       "lemma_ar": "رُؤَيْس",
       "root": "r-ʔ-s",
       "pos": "noun (m. diminutive)",
-      "gloss_en": "petty chief, lesser leader (diminutive of raʾīs); (Saadia's nuanced rendering of secondary tribal-leadership terms)",
+      "gloss_en": "petty chief, lesser leader (diminutive of raʾīs)",
       "gloss_he": "ראש (מקטון), נשיא־משנה",
+      "notes": "Diminutive of رئيس 'chief'.",
+      "saadia_note": "Saadia's nuanced rendering of secondary tribal-leadership terms. Saadia uses this form to differentiate junior leadership (e.g. heads of sub-clans) from the principal נשיא.",
       "source": "lane",
-      "notes": "Diminutive of رئيس 'chief'. Saadia uses this form to differentiate junior leadership (e.g. heads of sub-clans) from the principal נשיא.",
       "variants": [
         "אלרויס",
         "רויסא",
@@ -4529,8 +4611,9 @@
       "lemma_ar": "غَمَام",
       "root": "ḡ-m-m",
       "pos": "noun (m. coll.)",
-      "gloss_en": "cloud, cloud-cover; (Saadia's gloss for Hebrew עָנָן)",
+      "gloss_en": "cloud, cloud-cover",
       "gloss_he": "עָנָן",
+      "saadia_note": "Saadia's gloss for Hebrew עָנָן.",
       "source": "lane",
       "variants": [
         "אלג'מאם",
@@ -4546,10 +4629,10 @@
       "lemma_ar": "مِلَّة",
       "root": "m-l-l",
       "pos": "noun (f.)",
-      "gloss_en": "religious community, religion, creed; (in Saadia) used for circumcision-covenant community contexts",
+      "gloss_en": "religious community, religion, creed",
       "gloss_he": "אֻמָּה דָּתִית, קְהַל בַּעֲלֵי הַבְּרִית",
+      "saadia_note": "in Saadia — used for circumcision-covenant community contexts. Saadia uses millah (and its derivatives) in contexts of religious-community identity; appears in covenant-circumcision narratives.",
       "source": "lane",
-      "notes": "Saadia uses millah (and its derivatives) in contexts of religious-community identity; appears in covenant-circumcision narratives.",
       "variants": [
         "אלמלה",
         "מלה'",
@@ -4566,8 +4649,9 @@
       "lemma_ar": "أَكَلَ",
       "root": "ʔ-k-l",
       "pos": "verb (Form I, perfect)",
-      "gloss_en": "he ate, consumed; (Saadia's gloss for Hebrew אָכַל)",
+      "gloss_en": "he ate, consumed",
       "gloss_he": "אָכַל",
+      "saadia_note": "Saadia's gloss for Hebrew אָכַל.",
       "source": "lane",
       "variants": [
         "אכלת",
@@ -4602,8 +4686,9 @@
       "lemma_ar": "طَعَام",
       "root": "ṭ-ʕ-m",
       "pos": "noun (m.)",
-      "gloss_en": "food, sustenance; (Saadia's gloss for Hebrew אֹכֶל)",
+      "gloss_en": "food, sustenance",
       "gloss_he": "אֹכֶל, מָזוֹן",
+      "saadia_note": "Saadia's gloss for Hebrew אֹכֶל.",
       "source": "lane",
       "variants": [
         "אלטעאם",
@@ -4623,8 +4708,9 @@
       "lemma_ar": "طَاهِر",
       "root": "ṭ-h-r",
       "pos": "adjective",
-      "gloss_en": "pure, ritually clean; (Saadia's gloss for Hebrew טָהוֹר)",
+      "gloss_en": "pure, ritually clean",
       "gloss_he": "טָהוֹר",
+      "saadia_note": "Saadia's gloss for Hebrew טָהוֹר.",
       "source": "lane",
       "variants": [
         "אלטאהר",
@@ -4641,8 +4727,9 @@
       "lemma_ar": "رَفِيع",
       "root": "r-f-ʕ",
       "pos": "adjective",
-      "gloss_en": "raised, lofty, exalted; (Saadia's gloss for Hebrew רָם and גָּבוֹהַּ)",
+      "gloss_en": "raised, lofty, exalted",
       "gloss_he": "רָם, גָּבוֹהַּ",
+      "saadia_note": "Saadia's gloss for Hebrew רָם and גָּבוֹהַּ.",
       "source": "lane",
       "variants": [
         "אלרפיע",
@@ -4658,8 +4745,9 @@
       "lemma_ar": "مَرْضِيّ",
       "root": "r-ḍ-y",
       "pos": "passive participle",
-      "gloss_en": "pleasing, agreeable, acceptable; (Saadia's gloss for Hebrew רָצוֹן and לְרָצוֹן in offering contexts)",
+      "gloss_en": "pleasing, agreeable, acceptable",
       "gloss_he": "רָצוּי, מקובל, לְרָצוֹן",
+      "saadia_note": "Saadia's gloss for Hebrew רָצוֹן and לְרָצוֹן in offering contexts.",
       "source": "lane",
       "variants": [
         "אלמרצ'י",
@@ -4677,8 +4765,9 @@
       "lemma_ar": "آنِيَة",
       "root": "ʔ-n-y",
       "pos": "noun (f. coll.)",
-      "gloss_en": "vessels, utensils (collective); (Saadia's gloss for Hebrew כֵּלִים in cultic-utensil contexts)",
+      "gloss_en": "vessels, utensils (collective)",
       "gloss_he": "כֵּלִים",
+      "saadia_note": "Saadia's gloss for Hebrew כֵּלִים in cultic-utensil contexts.",
       "source": "lane",
       "variants": [
         "אלאניה",
@@ -4693,8 +4782,9 @@
       "lemma_ar": "عَتُود",
       "root": "ʕ-t-d",
       "pos": "noun (m.)",
-      "gloss_en": "young he-goat; (Saadia's gloss for Hebrew עַתּוּד — Hebrew form retained)",
+      "gloss_en": "young he-goat",
       "gloss_he": "עַתּוּד",
+      "saadia_note": "Saadia's gloss for Hebrew עַתּוּד — Hebrew form retained.",
       "source": "lane",
       "variants": [
         "אלעתוד",
@@ -4711,10 +4801,10 @@
       "lemma_ar": "سَيِّد",
       "root": "s-w-d",
       "pos": "noun (m.)",
-      "gloss_en": "lord, master, sir; (Saadia's gloss for Hebrew אֲדוֹנִי in human-respect contexts; NOT for the divine Name)",
+      "gloss_en": "lord, master, sir",
       "gloss_he": "אָדוֹן (אנושי)",
+      "saadia_note": "Saadia's gloss for Hebrew אֲדוֹנִי in human-respect contexts; NOT for the divine Name. Saadia uses סייד for human masters and respected superiors (e.g. אדני in interpersonal contexts). For the divine Name יהוה Saadia uses אללה.",
       "source": "lane",
-      "notes": "Saadia uses סייד for human masters and respected superiors (e.g. אדני in interpersonal contexts). For the divine Name יהוה Saadia uses אללה.",
       "variants": [
         "אלסייד",
         "סיידי",
@@ -4749,10 +4839,10 @@
       "lemma_ar": "صَمَد",
       "root": "ṣ-m-d",
       "pos": "noun / adjective",
-      "gloss_en": "(the) Eternal, the Self-Sufficient One; (Saadia's divine-name rendering in some contexts; mostly an epithet)",
+      "gloss_en": "(the) Eternal, the Self-Sufficient One",
       "gloss_he": "הָאֵל הָאָב, הָאֵל הַנִּצְחִי",
+      "saadia_note": "Saadia's divine-name rendering in some contexts; mostly an epithet. An Arabic divine epithet (also in the Qurʾan, Surat al-Ikhlāṣ); Saadia uses it sparingly in his theological prose.",
       "source": "lane",
-      "notes": "An Arabic divine epithet (also in the Qurʾan, Surat al-Ikhlāṣ); Saadia uses it sparingly in his theological prose.",
       "variants": [
         "אלסמד",
         "סמדא",
@@ -4765,10 +4855,10 @@
       "lemma_ar": "نِيل",
       "root": "—",
       "pos": "proper noun",
-      "gloss_en": "the Nile (river); (Saadia's gloss for Hebrew יְאֹר and פִּישׁוֹן)",
+      "gloss_en": "the Nile (river)",
       "gloss_he": "הַנִּילוּס",
+      "saadia_note": "Saadia's gloss for Hebrew יְאֹר and פִּישׁוֹן. Geographic identification long established in Saadia: יְאֹר (and elsewhere פִּישׁוֹן) = the Nile.",
       "source": "lane",
-      "notes": "Geographic identification long established in Saadia: יְאֹר (and elsewhere פִּישׁוֹן) = the Nile.",
       "variants": [
         "אלניל",
         "ניל'",
@@ -4783,10 +4873,11 @@
       "lemma_ar": "أَقَامَ",
       "root": "q-w-m",
       "pos": "verb (Form IV, perfect)",
-      "gloss_en": "he made-stand, set-up, established, raised-up; (Saadia's gloss for Hebrew הֵקִים)",
+      "gloss_en": "he made-stand, set-up, established, raised-up",
       "gloss_he": "הֵקִים, הֶעֱמִיד",
+      "notes": "Form IV (causative) of qāma 'to stand'.",
+      "saadia_note": "Saadia's gloss for Hebrew הֵקִים. Saadia's regular rendering of the Hebrew hiphil הֵקִים.",
       "source": "lane",
-      "notes": "Form IV (causative) of qāma 'to stand'. Saadia's regular rendering of the Hebrew hiphil הֵקִים.",
       "variants": [
         "אקאמת",
         "אקאמו",
@@ -4813,8 +4904,9 @@
       "lemma_ar": "أَمِير",
       "root": "ʔ-m-r",
       "pos": "noun (m.)",
-      "gloss_en": "leader, commander, prince; (Saadia's gloss for Hebrew נָשִׂיא)",
+      "gloss_en": "leader, commander, prince",
       "gloss_he": "נָשִׂיא, נסיך, מצביא",
+      "saadia_note": "Saadia's gloss for Hebrew נָשִׂיא.",
       "source": "lane",
       "variants": [
         "אלאמיר",
@@ -4823,6 +4915,579 @@
         "אמרא",
         "אלאמרא",
         "אמירה'"
+      ]
+    },
+    {
+      "id": "lot-name",
+      "lemma_ja": "לוט",
+      "lemma_ar": "لُوط",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Lot (Abraham's nephew; father of Moab and Ammon)",
+      "gloss_he": "לוט",
+      "source": "lane",
+      "variants": [
+        "ולוט",
+        "ללוט",
+        "בלוט",
+        "ולוטא",
+        "לוטא"
+      ]
+    },
+    {
+      "id": "avimelekh-name",
+      "lemma_ja": "אבימלך",
+      "lemma_ar": "أَبِيمَلِك",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Abimelech (king of Gerar / Philistia in Gen 20-21, 26)",
+      "gloss_he": "אבימלך",
+      "source": "lane",
+      "variants": [
+        "ואבימלך",
+        "לאבימלך",
+        "באבימלך"
+      ]
+    },
+    {
+      "id": "rivka-rebecca",
+      "lemma_ja": "רבקה",
+      "lemma_ar": "رِفْقَة",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Rebecca (Isaac's wife; mother of Jacob and Esau)",
+      "gloss_he": "רבקה",
+      "source": "lane",
+      "variants": [
+        "ורבקה",
+        "לרבקה",
+        "ברבקה",
+        "רבקה'"
+      ]
+    },
+    {
+      "id": "nun-name",
+      "lemma_ja": "נון",
+      "lemma_ar": "نُون",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Nun (father of Joshua, of the tribe of Ephraim)",
+      "gloss_he": "נון",
+      "source": "lane",
+      "variants": [
+        "ונון",
+        "לנון",
+        "בנון"
+      ]
+    },
+    {
+      "id": "yehoshua-joshua",
+      "lemma_ja": "יהושע",
+      "lemma_ar": "يَهُوشَع",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Joshua (son of Nun; Moses' attendant and successor)",
+      "gloss_he": "יהושע",
+      "source": "lane",
+      "variants": [
+        "ויהושע",
+        "ליהושע",
+        "ביהושע"
+      ]
+    },
+    {
+      "id": "gershon-name",
+      "lemma_ja": "גרשון",
+      "lemma_ar": "جَرْشُون",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Gershon (firstborn of Levi; the Gershonite clan)",
+      "gloss_he": "גרשון",
+      "source": "lane",
+      "variants": [
+        "וגרשון",
+        "לגרשון",
+        "בגרשון",
+        "אלגרשוני",
+        "גרשוני",
+        "אלגרשונים"
+      ]
+    },
+    {
+      "id": "qehat-kohath",
+      "lemma_ja": "קהת",
+      "lemma_ar": "قَهَات",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Kohath (second son of Levi; ancestor of Moses, Aaron, Miriam)",
+      "gloss_he": "קהת",
+      "source": "lane",
+      "variants": [
+        "וקהת",
+        "לקהת",
+        "בקהת",
+        "אלקהתי",
+        "קהתי",
+        "אלקהתיין"
+      ]
+    },
+    {
+      "id": "hagar-name",
+      "lemma_ja": "הגר",
+      "lemma_ar": "هَاجَر",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Hagar (Sarah's Egyptian handmaid; mother of Ishmael)",
+      "gloss_he": "הגר",
+      "source": "lane",
+      "variants": [
+        "והגר",
+        "להגר",
+        "בהגר",
+        "הגר'"
+      ]
+    },
+    {
+      "id": "amaleq-name",
+      "lemma_ja": "עמלק",
+      "lemma_ar": "عَمَالِيق",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Amalek (Esau's descendant; the Amalekite nation)",
+      "gloss_he": "עמלק",
+      "source": "lane",
+      "variants": [
+        "ועמלק",
+        "לעמלק",
+        "בעמלק",
+        "אלעמלקי",
+        "עמלקי",
+        "אלעמלקיין",
+        "עמלקיין"
+      ]
+    },
+    {
+      "id": "qayin-cain",
+      "lemma_ja": "קין",
+      "lemma_ar": "قَايِن",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Cain (firstborn of Adam; killer of Abel)",
+      "gloss_he": "קין",
+      "source": "lane",
+      "variants": [
+        "וקין",
+        "לקין",
+        "בקין",
+        "אלקיני",
+        "קיני",
+        "אלקיניין"
+      ],
+      "notes": "Homograph with the Kenite tribal gentilic — context disambiguates."
+    },
+    {
+      "id": "havel-abel",
+      "lemma_ja": "הבל",
+      "lemma_ar": "هَابِيل",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Abel (second son of Adam, killed by Cain)",
+      "gloss_he": "הבל",
+      "source": "lane",
+      "variants": [
+        "והבל",
+        "להבל",
+        "בהבל"
+      ]
+    },
+    {
+      "id": "dina-name",
+      "lemma_ja": "דינה",
+      "lemma_ar": "دِينَة",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Dinah (daughter of Jacob and Leah; Gen 30, 34)",
+      "gloss_he": "דינה",
+      "source": "lane",
+      "variants": [
+        "ודינה",
+        "לדינה",
+        "בדינה",
+        "דינה'"
+      ]
+    },
+    {
+      "id": "efron-ephron",
+      "lemma_ja": "עפרון",
+      "lemma_ar": "عِفْرُون",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Ephron the Hittite (seller of the Machpelah cave; Gen 23)",
+      "gloss_he": "עפרון",
+      "source": "lane",
+      "variants": [
+        "ועפרון",
+        "לעפרון",
+        "בעפרון"
+      ]
+    },
+    {
+      "id": "og-name",
+      "lemma_ja": "עוג",
+      "lemma_ar": "عُوج",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Og (king of Bashan; Num 21, Deut 3)",
+      "gloss_he": "עוג",
+      "source": "lane",
+      "variants": [
+        "ועוג",
+        "לעוג",
+        "בעוג"
+      ]
+    },
+    {
+      "id": "uz-name",
+      "lemma_ja": "עוץ",
+      "lemma_ar": "عُوص",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Uz (Aramean/Edomite personal name; Gen 22, 36)",
+      "gloss_he": "עוץ",
+      "source": "lane",
+      "variants": [
+        "ועוץ",
+        "לעוץ",
+        "בעוץ"
+      ]
+    },
+    {
+      "id": "ishmael-arabicized",
+      "lemma_ja": "אסמאעיל",
+      "lemma_ar": "إِسْمَاعِيل",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Ishmael (son of Abraham and Hagar; ancestor of the Arab nations)",
+      "gloss_he": "ישמעאל",
+      "saadia_note": "Saadia uses the Arabic form אסמאעיל (Ismāʿīl) throughout the Tafsir for Hebrew יִשְׁמָעֵאל. The Arabic surface form makes the cross-tradition lineage explicit.",
+      "source": "lane",
+      "variants": [
+        "ואסמאעיל",
+        "לאסמאעיל",
+        "באסמאעיל",
+        "אלאסמאעילי",
+        "אסמאעילי",
+        "אסמעיל"
+      ]
+    },
+    {
+      "id": "sihon-name",
+      "lemma_ja": "סיחון",
+      "lemma_ar": "سِيحُون",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Sihon (Amorite king of Heshbon; Num 21, Deut 2-3)",
+      "gloss_he": "סיחון",
+      "source": "lane",
+      "variants": [
+        "וסיחון",
+        "לסיחון",
+        "בסיחון"
+      ]
+    },
+    {
+      "id": "heshbon-name",
+      "lemma_ja": "חשבון",
+      "lemma_ar": "حَشْبُون",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Heshbon (Sihon's capital; trans-Jordanian city)",
+      "gloss_he": "חשבון",
+      "source": "lane",
+      "variants": [
+        "וחשבון",
+        "לחשבון",
+        "בחשבון"
+      ]
+    },
+    {
+      "id": "aram-name",
+      "lemma_ja": "ארם",
+      "lemma_ar": "آرَام",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Aram (the Aramaean region of upper Mesopotamia / Syria)",
+      "gloss_he": "ארם",
+      "source": "lane",
+      "variants": [
+        "וארם",
+        "לארם",
+        "בארם",
+        "ארמי",
+        "אלארמי",
+        "ארמייה",
+        "אלארמייה"
+      ]
+    },
+    {
+      "id": "midian-name",
+      "lemma_ja": "מדין",
+      "lemma_ar": "مَدْيَن",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Midian (descendant of Abraham via Keturah; the Midianite people)",
+      "gloss_he": "מדין",
+      "source": "lane",
+      "variants": [
+        "ומדין",
+        "למדין",
+        "במדין",
+        "מדיני",
+        "אלמדיני",
+        "מדיניין",
+        "אלמדיניין"
+      ]
+    },
+    {
+      "id": "arnon-name",
+      "lemma_ja": "ארנון",
+      "lemma_ar": "أَرْنُون",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Arnon (river forming the southern border of trans-Jordanian Israel)",
+      "gloss_he": "ארנון",
+      "source": "lane",
+      "variants": [
+        "וארנון",
+        "לארנון",
+        "בארנון"
+      ]
+    },
+    {
+      "id": "yabboq-name",
+      "lemma_ja": "יבק",
+      "lemma_ar": "يَبَّق",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Jabbok (river east of the Jordan; site of Jacob's wrestling, Gen 32)",
+      "gloss_he": "יבק",
+      "source": "lane",
+      "variants": [
+        "ויבק",
+        "ליבק",
+        "ביבק"
+      ]
+    },
+    {
+      "id": "yariha-jericho",
+      "lemma_ja": "יריחא",
+      "lemma_ar": "أَرِيحَا",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Jericho (the lowland city west of the Jordan)",
+      "gloss_he": "יריחו",
+      "source": "lane",
+      "variants": [
+        "ויריחא",
+        "ליריחא",
+        "ביריחא",
+        "יריחו",
+        "ויריחו"
+      ]
+    },
+    {
+      "id": "qulzum-red-sea",
+      "lemma_ja": "אלקלזם",
+      "lemma_ar": "القُلْزُم",
+      "root": "—",
+      "pos": "proper noun (with definite article)",
+      "gloss_en": "the Red Sea — al-Qulzum, the medieval Arabic name for Hebrew יַם סוּף",
+      "gloss_he": "ים סוף",
+      "notes": "Medieval Arabic geographers used al-Qulzum (Clysma, near modern Suez) as the standard name for the entire Red Sea / Gulf of Suez.",
+      "source": "lane",
+      "variants": [
+        "קלזם",
+        "ואלקלזם",
+        "לאלקלזם",
+        "באלקלזם",
+        "בחר אלקלזם"
+      ]
+    },
+    {
+      "id": "sadir-goshen",
+      "lemma_ja": "סדיר",
+      "lemma_ar": "السَّدِير",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Goshen — al-Sadir, the medieval Arabic identification of the Egyptian region where Israel dwelt (Hebrew גֹּשֶׁן)",
+      "gloss_he": "גשן",
+      "source": "lane",
+      "variants": [
+        "אלסדיר",
+        "ואלסדיר",
+        "לאלסדיר",
+        "באלסדיר",
+        "בלד אלסדיר"
+      ]
+    },
+    {
+      "id": "khalus-gerar",
+      "lemma_ja": "כ'לוץ",
+      "lemma_ar": "الخَلُّوص",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Gerar — al-Khalus, the medieval Arabic identification of the Philistine city in the western Negev (Hebrew גְּרָר)",
+      "gloss_he": "גרר",
+      "source": "lane",
+      "variants": [
+        "אלכ'לוץ",
+        "ואלכ'לוץ",
+        "לאלכ'לוץ",
+        "באלכ'לוץ"
+      ]
+    },
+    {
+      "id": "furat-euphrates",
+      "lemma_ja": "פראת",
+      "lemma_ar": "الفُرَات",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "the Euphrates — al-Furāt, the standard Arabic name for Hebrew פְּרָת",
+      "gloss_he": "פרת",
+      "source": "lane",
+      "variants": [
+        "אלפראת",
+        "ואלפראת",
+        "לאלפראת",
+        "באלפראת",
+        "נהר אלפראת"
+      ]
+    },
+    {
+      "id": "mawsil-asshur",
+      "lemma_ja": "מוצל",
+      "lemma_ar": "المَوْصِل",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Mosul — al-Mawṣil, the medieval Arabic identification of biblical אַשּׁוּר (Asshur, region/city in upper Mesopotamia)",
+      "gloss_he": "אשור",
+      "source": "lane",
+      "variants": [
+        "אלמוצל",
+        "ואלמוצל",
+        "לאלמוצל",
+        "באלמוצל",
+        "אלמוצלי",
+        "מוצלי",
+        "אלמוצליין",
+        "מוצליין"
+      ]
+    },
+    {
+      "id": "nablus-shechem",
+      "lemma_ja": "נאבלס",
+      "lemma_ar": "نَابُلُس",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Nablus — the medieval Arabic identification of biblical שְׁכֶם (Shechem, the Samaritan city)",
+      "gloss_he": "שכם",
+      "source": "lane",
+      "variants": [
+        "נאבלוס",
+        "ונאבלס",
+        "ונאבלוס",
+        "לנאבלס",
+        "לנאבלוס",
+        "בנאבלס",
+        "בנאבלוס",
+        "אלנאבלסי",
+        "נאבלסי"
+      ]
+    },
+    {
+      "id": "habash-cush",
+      "lemma_ja": "חבש",
+      "lemma_ar": "الحَبَش",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Abyssinia / Ethiopia — al-Ḥabash, the medieval Arabic identification of biblical כּוּשׁ (Cush)",
+      "gloss_he": "כוש",
+      "source": "lane",
+      "variants": [
+        "אלחבש",
+        "ואלחבש",
+        "לאלחבש",
+        "באלחבש",
+        "חבשה",
+        "אלחבשה",
+        "ואלחבשה"
+      ]
+    },
+    {
+      "id": "zawila-havilah",
+      "lemma_ja": "זוילה",
+      "lemma_ar": "زَوِيلَة",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Zawila — the medieval Arabic identification of biblical חֲוִילָה (Havilah, the gold-bearing land of Gen 2:11)",
+      "gloss_he": "חוילה",
+      "source": "lane",
+      "variants": [
+        "וזוילה",
+        "לזוילה",
+        "בזוילה",
+        "אלזוילה",
+        "ואלזוילה"
+      ]
+    },
+    {
+      "id": "baniyas-dan",
+      "lemma_ja": "באניאס",
+      "lemma_ar": "بَانِيَاس",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Banyas — the medieval Arabic identification of the city of Dan at the headwaters of the Jordan",
+      "gloss_he": "דן (העיר)",
+      "source": "lane",
+      "variants": [
+        "ובאניאס",
+        "לבאניאס",
+        "בבאניאס",
+        "אלבאניאס"
+      ]
+    },
+    {
+      "id": "dijla-tigris",
+      "lemma_ja": "דגלה",
+      "lemma_ar": "دِجْلَة",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "the Tigris — Dijla, the standard Arabic name for Hebrew חִדֶּקֶל",
+      "gloss_he": "חדקל",
+      "source": "lane",
+      "variants": [
+        "אלדגלה",
+        "ואלדגלה",
+        "לאלדגלה",
+        "באלדגלה"
+      ]
+    },
+    {
+      "id": "qarda-ararat",
+      "lemma_ja": "קרדא",
+      "lemma_ar": "قَرْدَى",
+      "root": "—",
+      "pos": "proper noun",
+      "gloss_en": "Qardū — the medieval Arabic/Aramaic identification of biblical אֲרָרָט (Ararat), the mountain range in northern Mesopotamia where Noah's ark rested",
+      "gloss_he": "אררט",
+      "notes": "Matches the Targum Onqelos rendering and Q11:44.",
+      "source": "lane",
+      "variants": [
+        "וקרדא",
+        "לקרדא",
+        "בקרדא",
+        "אלקרדא",
+        "גבאל קרדא"
       ]
     }
   ]
