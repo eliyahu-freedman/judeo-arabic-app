@@ -36,7 +36,7 @@ const stages = [
     href: "/tafsir",
     title: "Tafsir Reader",
     subtitle: "Stage 2",
-    body: "Read Saadia's Tafsir verse-by-verse alongside the biblical Hebrew. Tap any Judeo-Arabic word for a starter Blau gloss; toggle Arabic-script, Hebrew translation, and English.",
+    body: "Read Saadia's Tafsir verse-by-verse alongside the biblical Hebrew. Tap any Judeo-Arabic word for a Lane-based gloss; toggle Arabic-script, Hebrew translation, and English.",
     sample: "אול מא כ׳לק אללה",
   },
   {
@@ -130,7 +130,7 @@ export default function Home() {
             <h2 className="text-2xl sm:text-3xl">Saadia, Bereshit 1:1</h2>
           </div>
           <p className="text-sm italic text-muted">
-            ↓ tap any word for a Blau gloss
+            ↓ tap any word for a gloss
           </p>
         </div>
 

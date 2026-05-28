@@ -421,7 +421,7 @@ function GlossPanel({
           <p className="text-sm text-muted mt-2 italic">
             {term
               ? "See the key-term note above. (Not in the starter dictionary.)"
-              : "No entry yet in the starter dictionary. (The starter is Bereshit-1-oriented; the full Blau lexicon will land here next.)"}
+              : "No entry yet in the starter dictionary. (The starter is Bereshit-1-oriented; coverage expands as Lane entries land.)"}
           </p>
         ) : (
           <ul className="space-y-4 mt-2">

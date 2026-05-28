@@ -541,11 +541,7 @@ function GlossPanel({
         {entries.length === 0 ? (
           <p className="text-sm text-muted mt-2 italic">
             Not in the dictionary yet. The high-frequency Tafsir vocabulary is
-            curated by hand; rarer or inflected forms may not resolve. See{" "}
-            <a href="/about/blau" className="underline decoration-wine/40 hover:decoration-wine">
-              about sourcing
-            </a>{" "}
-            for our citation policy.
+            curated by hand; rarer or inflected forms may not resolve.
           </p>
         ) : (
           <ul className="space-y-4 mt-2">
@@ -597,6 +593,14 @@ function GlossPanel({
                     {e.notes}
                   </p>
                 )}
+                {e.saadia_note && (
+                  <p className="text-[12.5px] text-wine/75 mt-2 leading-relaxed">
+                    <span className="text-wine font-semibold not-italic">
+                      In Saadia&rsquo;s Tafsir:{" "}
+                    </span>
+                    <span className="italic">{e.saadia_note}</span>
+                  </p>
+                )}
               </li>
             ))}
           </ul>
@@ -610,24 +614,22 @@ function SourceBadge({ source }: { source?: Entry["source"] }) {
   if (!source) return null;
   if (source === "lane") {
     return (
-      <a
-        href="/about/blau"
+      <span
         title="Standard classical Arabic sense — Lane's Lexicon (E.W. Lane, 1863-93) is the canonical English reference. We paraphrase rather than quote verbatim."
-        className="text-[10px] uppercase tracking-[0.2em] text-wine/70 border border-wine/30 rounded-sm px-1.5 py-0.5 ml-auto hover:bg-wine-50 transition-colors"
+        className="text-[10px] uppercase tracking-[0.2em] text-wine/70 border border-wine/30 rounded-sm px-1.5 py-0.5 ml-auto"
       >
         Lane
-      </a>
+      </span>
     );
   }
   if (source === "blau") {
     return (
-      <a
-        href="/about/blau"
-        title="Judaeo-Arabic sense documented in Joshua Blau's Dictionary of Medieval Judaeo-Arabic Texts (2006). See about page for citation policy."
-        className="text-[10px] uppercase tracking-[0.2em] text-wine border border-wine/40 bg-wine-50 rounded-sm px-1.5 py-0.5 ml-auto hover:bg-wine-100 transition-colors"
+      <span
+        title="Judaeo-Arabic sense documented in Joshua Blau's Dictionary of Medieval Judaeo-Arabic Texts (2006)."
+        className="text-[10px] uppercase tracking-[0.2em] text-wine border border-wine/40 bg-wine-50 rounded-sm px-1.5 py-0.5 ml-auto"
       >
         Blau
-      </a>
+      </span>
     );
   }
   // camel: auto-extracted, unverified — keep visibly demoted
@@ -680,11 +682,7 @@ function DivergenceSources({ d }: { d: DivergenceEntry }) {
       {hasBlauDict && (
         <>
           {" · "}
-          <Link
-            href="/about/blau"
-            className="hover:text-wine hover:underline"
-            title={d.blau_dict?.sense}
-          >
+          <span title={d.blau_dict?.sense}>
             Blau Dict.
             {blauRelation === "direct"
               ? ""
@@ -692,22 +690,18 @@ function DivergenceSources({ d }: { d: DivergenceEntry }) {
                 ? " (adjacent)"
                 : " (different sense)"}{" "}
             s.v. <span className="font-mono">{d.blau_dict?.root}</span>
-          </Link>
+          </span>
         </>
       )}
       {d.blau_festschrift && (
         <>
           {" · "}
-          <Link
-            href="/about/blau"
-            className="hover:text-wine hover:underline"
-            title={d.blau_festschrift.note}
-          >
+          <span title={d.blau_festschrift.note}>
             Blau Festschrift (p. {d.blau_festschrift.page},{" "}
             {d.blau_festschrift.relation === "same-verse-different-lexeme"
               ? "same verse"
               : d.blau_festschrift.relation})
-          </Link>
+          </span>
         </>
       )}
     </div>

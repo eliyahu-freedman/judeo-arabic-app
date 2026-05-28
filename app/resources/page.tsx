@@ -102,9 +102,14 @@ const SECTIONS: Section[] = [
     title: "Books, dictionaries, corpora",
     links: [
       {
+        title: "E. W. Lane, An Arabic-English Lexicon (Perseus TEI)",
+        href: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2002.02.0004",
+        note: "The 19th-century classical-Arabic reference paraphrased for this site's tap-to-define glosses.",
+      },
+      {
         title: "Joshua Blau, Dictionary of Medieval Judaeo-Arabic Texts",
         href: "https://magnespress.co.il/",
-        note: "The standard dictionary. Powers this site's tap-to-define glosses.",
+        note: "The standard dictionary of medieval Judeo-Arabic; consulted for a small set of divergence notes on the Tafsir reader.",
       },
       {
         title: "Assaf Bar-Moshe, Baghdadi Judeo-Arabic (UCL Press)",

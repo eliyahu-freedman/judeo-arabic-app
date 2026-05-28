@@ -175,7 +175,6 @@ export default function RootLayout({
                 <ul className="space-y-2 text-ink/75">
                   <li><Link href="/what-is-judeo-arabic" className="hover:text-wine">What is Judeo-Arabic?</Link></li>
                   <li><Link href="/learn/saadia-story" className="hover:text-wine">Who was Saadia?</Link></li>
-                  <li><Link href="/about/blau" className="hover:text-wine">Joshua Blau ז״ל</Link></li>
                   <li><Link href="/resources" className="hover:text-wine">Resources & further reading</Link></li>
                 </ul>
               </div>
@@ -193,16 +192,20 @@ export default function RootLayout({
               </div>
             </div>
             <div className="mt-10 pt-6 border-t border-ink/10 text-[11px] text-ink/70 leading-relaxed">
-              Built on{" "}
-              <Link href="/about/blau" className="text-wine hover:underline">
-                Joshua Blau ז״ל
-              </Link>
-              &apos;s <em>Dictionary of Medieval Judaeo-Arabic Texts</em>{" "}
-              (Jerusalem, 2006); Saadia&apos;s Tafsir from Joseph
-              Derenbourg&apos;s <em>Œuvres Complètes</em> (Paris, 1893) via
-              Sefaria; Bahya&apos;s <em>Chovot HaLevavot</em> from the Yahuda
-              edition, with Judah ibn Tibbon&apos;s Hebrew via Sefaria. Edited
-              by Eli Freedman. Prototype, {new Date().getFullYear()}.
+              Tap-to-define glosses paraphrase E. W. Lane,{" "}
+              <em>An Arabic-English Lexicon</em> (1863–93; Perseus TEI).
+              Saadia&apos;s <em>Tafsir</em> via Joseph Derenbourg,{" "}
+              <em>Œuvres Complètes</em> (Paris, 1893) on Sefaria.
+              Bahya, <em>Chovot HaLevavot</em> (Yahuda edition) with Judah
+              ibn Tibbon&apos;s Hebrew on Sefaria. Maimonides,{" "}
+              <em>Moreh Nevukhim</em>; Saadia,{" "}
+              <em>Kitāb al-Amānāt wal-Iʿtiqādāt</em>; Judah Halevi,{" "}
+              <em>Kitāb al-Khazarī</em> — Judeo-Arabic page images from the
+              Friedberg Jewish Manuscript Society. A small set of
+              &ldquo;Tafsir twist&rdquo; divergence notes cite Joshua Blau
+              ז״ל&apos;s <em>Dictionary of Medieval Judaeo-Arabic Texts</em>{" "}
+              (Jerusalem, 2006). Edited by Eli Freedman.{" "}
+              {new Date().getFullYear()}.
             </div>
           </div>
         </footer>
