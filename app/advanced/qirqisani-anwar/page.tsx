@@ -1,20 +1,14 @@
 import type { Metadata } from "next";
-import { ComingSoon } from "../_coming-soon";
+import data from "@/data/qirqisani-anwar-maqala1.json";
+import { AdvancedReader, type WorkData } from "../reader";
 
 export const metadata: Metadata = {
-  title: "Qirqisani, Kitāb al-Anwār — coming soon",
+  title: "Qirqisani, Kitāb al-Anwār — Discourse I opening",
   description:
-    "Yaʿqūb al-Qirqisānī's 10th-century Karaite Kitāb al-Anwār wa'l-Marāqib in Judeo-Arabic. Coming soon to the Judeo-Arabic library.",
+    "The opening of Yaʿqūb al-Qirqisānī's 10th-century Karaite summa Kitāb al-Anwār wa'l-Marāqib (ed. Nemoy) in its original Arabic: the baḥth-wa-naẓar manifesto — religious obligations must be reached by inquiry and rational speculation, and the truth accepted from whoever holds it. With a working English translation, phrase-by-phrase hover highlighting, and notes on key terms.",
   alternates: { canonical: "/advanced/qirqisani-anwar" },
 };
 
 export default function QirqisaniPage() {
-  return (
-    <ComingSoon
-      author="Yaʿqūb al-Qirqisānī (10th c.)"
-      work="Kitāb al-Anwār wa'l-Marāqib"
-      oneLiner="The 10th-century Karaite encyclopedia of religious thought, law, and sect-history — a window onto a Judaism that argued in Arabic with Christians, Muslims, and other Jews."
-      sample="כתאב אלאנואר ואלמראקב"
-    />
-  );
+  return <AdvancedReader data={data as unknown as WorkData} />;
 }

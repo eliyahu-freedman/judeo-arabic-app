@@ -45,6 +45,13 @@ export type WorkData = {
   english_translator: string;
   /** Optional custom header blurb; falls back to a generic one. */
   intro?: string;
+  /**
+   * Script of the primary-text column. Defaults to "hebrew" (Judeo-Arabic in
+   * Hebrew letters). Set "arabic" for texts whose authoritative edition is in
+   * Arabic script (e.g. Qirqisani's al-Anwar, ed. Nemoy) — swaps the JA column
+   * to the Amiri Arabic font and relabels the layer chip.
+   */
+  script?: "hebrew" | "arabic";
   /** Work-level key-term cards, surfaced as footnotes in the gloss panel. */
   terms?: TermCard[];
   pages: WorkPage[];
@@ -76,6 +83,7 @@ export function AdvancedReader({ data }: { data: WorkData }) {
     }
   }, []);
 
+  const jaFont = data.script === "arabic" ? "font-arabic" : "font-hebrew";
   const termIndex = useMemo(() => buildTermIndex(data.terms), [data.terms]);
   const activeEntries: Entry[] = activeToken ? lookup(activeToken) : [];
   const activeTerm: TermCard | null = activeToken
@@ -102,7 +110,7 @@ export function AdvancedReader({ data }: { data: WorkData }) {
         <span className="text-[10px] uppercase tracking-[0.25em] text-muted mr-1">
           Layers
         </span>
-        <ToggleChip on disabled label="Judeo-Arabic" />
+        <ToggleChip on disabled label={data.script === "arabic" ? "Arabic" : "Judeo-Arabic"} />
         <ToggleChip
           on={showEnglish}
           onClick={() => setShowEnglish((x) => !x)}
@@ -127,6 +135,7 @@ export function AdvancedReader({ data }: { data: WorkData }) {
                 <AlignedSegments
                   pageKey={page.page_he}
                   segments={page.aligned}
+                  jaFont={jaFont}
                   showEnglish={showEnglish}
                   activeToken={activeToken}
                   onTap={setActiveToken}
@@ -140,7 +149,7 @@ export function AdvancedReader({ data }: { data: WorkData }) {
                     {(page.paragraphs ?? []).map((para, i) => (
                       <p
                         key={i}
-                        className="font-hebrew ja-text text-xl text-ink/90 leading-loose"
+                        className={`${jaFont} ja-text text-xl text-ink/90 leading-loose`}
                       >
                         <JaText
                           text={para}
@@ -186,6 +195,7 @@ export function AdvancedReader({ data }: { data: WorkData }) {
       {activeToken && (
         <GlossPanel
           token={activeToken}
+          jaFont={jaFont}
           entries={activeEntries}
           term={activeTerm}
           onClose={() => setActiveToken(null)}
@@ -203,6 +213,7 @@ export type BahyaPage = WorkPage;
 function AlignedSegments({
   pageKey,
   segments,
+  jaFont,
   showEnglish,
   activeToken,
   onTap,
@@ -212,6 +223,7 @@ function AlignedSegments({
 }: {
   pageKey: string;
   segments: AlignedSegment[];
+  jaFont: string;
   showEnglish: boolean;
   activeToken: string | null;
   onTap: (t: string) => void;
@@ -237,7 +249,7 @@ function AlignedSegments({
           <div key={i} className={i > 0 ? "pt-6 border-t border-ink/5" : undefined}>
             <p
               dir="rtl"
-              className={`font-hebrew ja-text leading-loose text-ink/90 ${
+              className={`${jaFont} ja-text leading-loose text-ink/90 ${
                 seg.isHeader ? "text-2xl text-wine" : "text-xl"
               }`}
             >
@@ -386,21 +398,30 @@ function EnglishText({
 
 function GlossPanel({
   token,
+  jaFont,
   entries,
   term,
   onClose,
 }: {
   token: string;
+  jaFont: string;
   entries: Entry[];
   term: TermCard | null;
   onClose: () => void;
 }) {
+  // The Advanced reader (Bahya, Kuzari, Rambam Moreh, Qirqisani, etc.) must
+  // NOT surface Saadia-specific dictionary entries — those have
+  // scope:"saadia" because their primary gloss is itself a Saadia coinage
+  // (e.g. גלד glossed "firmament" rather than the classical "skin/hide").
+  // The Saadia-attribution note field (`saadia_note`) is likewise omitted
+  // below: it only renders inside `/tafsir`.
+  const visibleEntries = entries.filter((e) => e.scope !== "saadia");
   return (
     <div className="fixed bottom-0 inset-x-0 z-20 bg-page border-t border-wine/20 shadow-[0_-8px_24px_-12px_rgba(114,47,55,0.2)]">
       <div className="max-w-3xl mx-auto px-6 py-5">
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-baseline gap-4">
-            <span className="font-hebrew text-3xl text-ink" dir="rtl">
+            <span className={`${jaFont} text-3xl text-ink`} dir="rtl">
               {token}
             </span>
             <span className="text-[10px] uppercase tracking-[0.3em] text-muted">
@@ -417,7 +438,7 @@ function GlossPanel({
           </button>
         </div>
         {term && <TermBanner term={term} />}
-        {entries.length === 0 ? (
+        {visibleEntries.length === 0 ? (
           <p className="text-sm text-muted mt-2 italic">
             {term
               ? "See the key-term note above. (Not in the starter dictionary.)"
@@ -425,7 +446,7 @@ function GlossPanel({
           </p>
         ) : (
           <ul className="space-y-4 mt-2">
-            {entries.map((e) => (
+            {visibleEntries.map((e) => (
               <li key={e.id} className="border-l-2 border-wine/40 pl-4">
                 <div className="flex items-baseline gap-3 flex-wrap">
                   <span className="font-hebrew text-xl text-ink" dir="rtl">

@@ -1,0 +1,290 @@
+{
+  "work": "Kitāb al-Anwār wa'l-Marāqib",
+  "section": "Discourse I — The Book's Opening",
+  "section_ja": "المقالة الأولى · صدر الكتاب",
+  "subtitle": "كتاب الأنوار والمراقب — The Book of Lights and Watchtowers",
+  "author": "Yaʿqūb al-Qirqisānī (10th c.)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "script": "arabic",
+  "intro": "The opening of the great 10th-century Karaite summa, in its original Arabic (ed. Nemoy, Yale 1939–43, vol. I; orthography lightly normalized). Qirqisānī lays down the manifesto that governs the whole book: religious obligations must be reached by baḥth (inquiry) and naẓar (rational speculation), and the truth is to be accepted from whoever holds it — Rabbanite, ʿAnanite, or anyone else — even a view no one ever held before. He defends reason against the Karaites who fear it, praises Daniel al-Qūmisī, and explains why sectarian rancour drove him to compose the work — closing on Psalm 119. Note: this text is in Arabic script (not Hebrew-letter Judeo-Arabic); hover a phrase to light up its English, tap any word for the panel, and tap the dotted key terms for notes.",
+  "source": {
+    "edition": "Leon Nemoy, Kitāb al-Anwār wa'l-Marāqib (Yale, 1939–43), vol. I, Maqāla I, Bāb 1 (ṣadr al-kitāb); collated with the Cairo 2019 edition.",
+    "note": "The ṣadr is fragmentary at its head and opens mid-sentence ('…I know neither ʿAnan nor Benjamin…'). Embedded Hebrew citations are kept in Hebrew script as in the source."
+  },
+  "terms": [
+    {
+      "id": "bahth",
+      "ja": "البحث",
+      "ar": "البحث",
+      "translit": "al-baḥth",
+      "gloss": "inquiry, investigation",
+      "note": "With al-naẓar, one of the two key methodological terms of the whole Anwār. Qirqisānī pairs baḥth (the active search) and naẓar (rational reflection) as the joint instrument by which religious obligations must be established — the move that aligns him with the Muʿtazilite kalām of his day.",
+      "variants": ["بحث", "بالبحث", "البحاث"]
+    },
+    {
+      "id": "nazar",
+      "ja": "النظر",
+      "ar": "النظر",
+      "translit": "al-naẓar",
+      "gloss": "speculation, rational reflection",
+      "note": "Rational inspection of a question. For Qirqisānī, whatever naẓar makes necessary must be adopted 'from whoever holds it' — Rabbanite, ʿAnanite, or other. The classic Tibbonid Hebrew rendering is ha-ʿiyyun.",
+      "variants": ["نظر", "بالنظر", "النظار", "للنظر"]
+    },
+    {
+      "id": "maqul",
+      "ja": "المعقول",
+      "ar": "المعقول",
+      "translit": "al-maʿqūl",
+      "gloss": "the intelligible; what is grasped by reason",
+      "note": "The domain of rational knowledge — logic, dialectic, philosophy. The Karaite quietists Qirqisānī attacks fault anyone who 'speculates on the maʿqūl'; he answers that it is the very foundation on which every claim is built."
+    },
+    {
+      "id": "barraniyya",
+      "ja": "العلوم البرانية",
+      "ar": "العلوم البرّانية",
+      "translit": "al-ʿulūm al-barrāniyya",
+      "gloss": "the 'outer' sciences — dialectic and philosophy",
+      "note": "Literally the 'external' sciences: fields outside Scripture — dialectic (al-jadaliyya) and philosophy (al-falsafiyya), and by extension logic. Compare al-Fārābī's contemporary survey Iḥṣāʾ al-ʿulūm.",
+      "variants": ["البرانية", "العلوم"]
+    },
+    {
+      "id": "jumhur",
+      "ja": "الجمهور",
+      "ar": "الجمهور",
+      "translit": "al-jumhūr",
+      "gloss": "the multitude, the generality",
+      "note": "With al-kathra ('the majority'), a loaded term in Karaite–Rabbanite polemic: the Rabbanites rest the truth of religion on the chain of transmission and the weight of the majority — a claim Qirqisānī sets out to answer.",
+      "variants": ["والجمهور", "جمهور"]
+    },
+    {
+      "id": "kathra",
+      "ja": "الكثرة",
+      "ar": "الكثرة",
+      "translit": "al-kathra",
+      "gloss": "the majority, numerical preponderance",
+      "note": "Paired here with al-jumhūr. The appeal to numbers — that most of the nation followed the Rabbanite masters — is exactly the argument Qirqisānī subordinates to baḥth and naẓar.",
+      "variants": ["والكثرة"]
+    },
+    {
+      "id": "ahl-al-lugha",
+      "ja": "أهل اللغة",
+      "ar": "أهل اللغة",
+      "translit": "ahl al-lugha",
+      "gloss": "the masters of the language",
+      "note": "An honorific for Bet Hillel and Bet Shammai: those who command the Hebrew tongue and stand at the root of transmission. Qirqisānī concedes their standing while insisting reason still arbitrates.",
+      "variants": ["اللغة"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "א",
+      "aligned": [
+        {
+          "ja": "المقالة الأولى · الباب الأول: صدر الكتاب",
+          "en": "Discourse I · Chapter 1: The Book's Opening",
+          "isHeader": true
+        },
+        {
+          "ja": "[...لا أعرف لا «عانان» ولا] بنيامين ولا غيرهما من هذه الطبقة، إذ هم خوارج كانوا بالأمم؛ وإنما أعرف בית הלל وבית שמאי، الذين هم الأصل، وهم الذين كانوا بقرب النبوة،",
+          "en": "[...I know neither ʿAnan nor] Benjamin nor any other of this sect — for they are dissenters who arose among the nations. I know only Bet Hillel and Bet Shammai, who are the root, and who were close to prophecy,",
+          "pairs": [
+            { "ja": "بنيامين", "en": "Benjamin" },
+            { "ja": "من هذه الطبقة", "en": "of this sect" },
+            { "ja": "هم خوارج كانوا بالأمم", "en": "they are dissenters who arose among the nations" },
+            { "ja": "الذين هم الأصل", "en": "who are the root" },
+            { "ja": "كانوا بقرب النبوة", "en": "were close to prophecy" }
+          ]
+        },
+        {
+          "ja": "وهم أخذوا عن الأنبياء وعنهم نقلوا، وهم أهل اللغة، وهم الكثرة والجمهور.",
+          "en": "and who took from the prophets and transmitted from them; they are the masters of the language, and they are the majority and the multitude.",
+          "pairs": [
+            { "ja": "أخذوا عن الأنبياء", "en": "took from the prophets" },
+            { "ja": "وعنهم نقلوا", "en": "and transmitted from them" },
+            { "ja": "أهل اللغة", "en": "the masters of the language" },
+            { "ja": "الكثرة والجمهور", "en": "the majority and the multitude" }
+          ]
+        },
+        {
+          "ja": "فإن قال قائل: هذا أحق بالقول ممن يضيف إلى الربانيين «عانان» ويجعل سبيله في الأصلية سبيلهم — فإن هذا لا يجوز؛ وإنما يجب أن تُتخذ الفرائض بالبحث والنظر.",
+          "en": "Should someone object that this deserves to be said more than of one who attaches ʿAnan to the Rabbanites and treats the fundamentals as they do — that is not permissible. Rather, the obligations must be arrived at through inquiry and speculation.",
+          "pairs": [
+            { "ja": "فإن قال قائل", "en": "Should someone object" },
+            { "ja": "يضيف إلى الربانيين «عانان»", "en": "attaches ʿAnan to the Rabbanites" },
+            { "ja": "فإن هذا لا يجوز", "en": "that is not permissible" },
+            { "ja": "يجب أن تُتخذ الفرائض", "en": "the obligations must be arrived at" },
+            { "ja": "بالبحث والنظر", "en": "through inquiry and speculation" }
+          ]
+        },
+        {
+          "ja": "فكلَّما أوجبه النظر وساق إليه البحث، كان هو الذي يجب اتخاذه، من قول مَن كان: إما الربانيين، وإما «عانان»، وإما غيرهما.",
+          "en": "Whatever speculation makes necessary and inquiry leads to — that is what must be adopted, from the words of whoever it may be: whether the Rabbanites, or ʿAnan, or anyone else.",
+          "pairs": [
+            { "ja": "أوجبه النظر", "en": "speculation makes necessary" },
+            { "ja": "وساق إليه البحث", "en": "and inquiry leads to" },
+            { "ja": "كان هو الذي يجب اتخاذه", "en": "that is what must be adopted" },
+            { "ja": "من قول مَن كان", "en": "from the words of whoever it may be" },
+            { "ja": "وإما «عانان»، وإما غيرهما", "en": "or ʿAnan, or anyone else" }
+          ]
+        },
+        {
+          "ja": "نعم، ولو ظهر للبحّاث النظّار قولٌ لم يقل به أحد بتة، لوجب قبوله، بشرط ألا يكون عليه طعن ولا يلحقه فساد.",
+          "en": "Indeed — even if there appeared to the inquiring speculators a view that no one had ever held, accepting it would be obligatory, provided no objection stands against it and no flaw attaches to it.",
+          "pairs": [
+            { "ja": "ولو ظهر للبحّاث النظّار", "en": "even if there appeared to the inquiring speculators" },
+            { "ja": "قولٌ لم يقل به أحد بتة", "en": "a view that no one had ever held" },
+            { "ja": "لوجب قبوله", "en": "accepting it would be obligatory" },
+            { "ja": "ألا يكون عليه طعن", "en": "no objection stands against it" },
+            { "ja": "ولا يلحقه فساد", "en": "no flaw attaches to it" }
+          ]
+        },
+        {
+          "ja": "فأما الطبقة الأخرى، المنسوبون إلى أنهم من القرائين، فمنهم الفرس، مثل قوم من التُّسْتَريين ومن مال إليهم.",
+          "en": "As for the other group, those who count themselves among the Karaites — among them are the Persians, such as a circle of the Tustarīs and those who incline to them.",
+          "pairs": [
+            { "ja": "فأما الطبقة الأخرى", "en": "As for the other group" },
+            { "ja": "أنهم من القرائين", "en": "count themselves among the Karaites" },
+            { "ja": "فمنهم الفرس", "en": "among them are the Persians" },
+            { "ja": "قوم من التُّسْتَريين", "en": "a circle of the Tustarīs" },
+            { "ja": "ومن مال إليهم", "en": "those who incline to them" }
+          ]
+        },
+        {
+          "ja": "فإنهم — مع إظهارهم وادعائهم للبحث — يعيبون على من نظر في المعقول، يعني بشيء من العلوم البرانية، إما الجدلية وإما الفلسفية.",
+          "en": "For they — despite their show of, and claim to, inquiry — fault anyone who speculates on the intelligible, that is, on any of the 'outer' sciences, whether dialectic or philosophy.",
+          "pairs": [
+            { "ja": "مع إظهارهم وادعائهم للبحث", "en": "despite their show of, and claim to, inquiry" },
+            { "ja": "يعيبون على من نظر في المعقول", "en": "fault anyone who speculates on the intelligible" },
+            { "ja": "العلوم البرانية", "en": "the 'outer' sciences" },
+            { "ja": "إما الجدلية وإما الفلسفية", "en": "whether dialectic or philosophy" }
+          ]
+        },
+        {
+          "ja": "والذي قطعهم عن ذلك أمران: أحدهما الكسل عن طلب معرفة ذلك وصعوبته عليهم وطلب الراحة من التعب؛",
+          "en": "Two things cut them off from this: the first is laziness about seeking such knowledge, its difficulty for them, and the wish to rest from toil;",
+          "pairs": [
+            { "ja": "والذي قطعهم عن ذلك أمران", "en": "Two things cut them off from this" },
+            { "ja": "أحدهما الكسل", "en": "the first is laziness" },
+            { "ja": "عن طلب معرفة ذلك", "en": "about seeking such knowledge" },
+            { "ja": "وصعوبته عليهم", "en": "its difficulty for them" },
+            { "ja": "وطلب الراحة من التعب", "en": "and the wish to rest from toil" }
+          ]
+        },
+        {
+          "ja": "والثاني أن بعضهم يتوهم أن النظر في المعقول يُفسد مَن يشتغل به ويُخرجه عن الدين، لأنهم زعموا أنهم رأوا قوما ممن طلب ذلك قد فسدت أديانهم.",
+          "en": "the second is that some of them imagine that speculating on the intelligible corrupts whoever engages in it and drives him out of religion — for they claimed to have seen people who pursued it whose faith had been ruined.",
+          "pairs": [
+            { "ja": "والثاني أن بعضهم يتوهم", "en": "the second is that some of them imagine" },
+            { "ja": "النظر في المعقول يُفسد مَن يشتغل به", "en": "speculating on the intelligible corrupts whoever engages in it" },
+            { "ja": "ويُخرجه عن الدين", "en": "and drives him out of religion" },
+            { "ja": "رأوا قوما ممن طلب ذلك", "en": "seen people who pursued it" },
+            { "ja": "قد فسدت أديانهم", "en": "whose faith had been ruined" }
+          ]
+        },
+        {
+          "ja": "وهذا سبب الريبة والتهمة، إذ كان قولهم هذا يوهم السامع أن المعقول يضاد الدين وينافره ويباينه؛ فإن كان ذلك كذلك، فإن الدين مطعون عليه، وهذا غاية المحال.",
+          "en": "This is the source of the suspicion and the charge: their saying this makes the hearer suppose that the intelligible opposes religion, conflicts with it, and is at odds with it. Yet if that were so, then religion itself would stand discredited — and that is the height of absurdity.",
+          "pairs": [
+            { "ja": "وهذا سبب الريبة والتهمة", "en": "This is the source of the suspicion and the charge" },
+            { "ja": "يوهم السامع", "en": "makes the hearer suppose" },
+            { "ja": "أن المعقول يضاد الدين", "en": "that the intelligible opposes religion" },
+            { "ja": "فإن الدين مطعون عليه", "en": "then religion itself would stand discredited" },
+            { "ja": "وهذا غاية المحال", "en": "and that is the height of absurdity" }
+          ]
+        },
+        {
+          "ja": "وسنبيِّن أن المعقول أصلٌ يُبنى عليه كل قول، ويُستخرج به كل علم.",
+          "en": "And we shall show that the intelligible is a foundation on which every claim is built and by which every science is derived.",
+          "pairs": [
+            { "ja": "أن المعقول أصلٌ", "en": "that the intelligible is a foundation" },
+            { "ja": "يُبنى عليه كل قول", "en": "on which every claim is built" },
+            { "ja": "ويُستخرج به كل علم", "en": "and by which every science is derived" }
+          ]
+        },
+        {
+          "ja": "ولم أرَ أحدا من منتحلي النظر أنصحَ لنفسه من دانيال القومسي، ولا مَن يُعطي النظرَ حقه ويوفيه ما يجب له مثلَه.",
+          "en": "I have not seen anyone among those who profess speculation more sincere with himself than Daniel al-Qūmisī, nor anyone who gives speculation its due and renders what it deserves as he does.",
+          "pairs": [
+            { "ja": "ولم أرَ أحدا من منتحلي النظر", "en": "I have not seen anyone among those who profess speculation" },
+            { "ja": "أنصحَ لنفسه", "en": "more sincere with himself" },
+            { "ja": "من دانيال القومسي", "en": "than Daniel al-Qūmisī" },
+            { "ja": "يُعطي النظرَ حقه", "en": "gives speculation its due" }
+          ]
+        },
+        {
+          "ja": "وذلك أن كل ما أظهره له النظر، وساقه إليه البحث، وأوجبته عليه الحجة — انتقل إليه واتخذه.",
+          "en": "For everything that speculation disclosed to him, that inquiry led him to, and that proof made binding upon him — he moved over to it and adopted it.",
+          "pairs": [
+            { "ja": "كل ما أظهره له النظر", "en": "everything that speculation disclosed to him" },
+            { "ja": "وساقه إليه البحث", "en": "that inquiry led him to" },
+            { "ja": "وأوجبته عليه الحجة", "en": "and that proof made binding upon him" },
+            { "ja": "انتقل إليه واتخذه", "en": "he moved over to it and adopted it" }
+          ]
+        },
+        {
+          "ja": "إلا أنه قد لحقه عيبٌ أزرى به عند قوم من أصحابنا، وهو إفراطه في بغض العنانية ونصبُه نفسه لهم بالعداوة.",
+          "en": "Yet a fault clung to him that lowered him in the eyes of some of our colleagues: his excess in hating the ʿAnanites and his setting himself against them in enmity.",
+          "pairs": [
+            { "ja": "قد لحقه عيبٌ", "en": "a fault clung to him" },
+            { "ja": "أزرى به عند قوم من أصحابنا", "en": "that lowered him in the eyes of some of our colleagues" },
+            { "ja": "إفراطه في بغض العنانية", "en": "his excess in hating the ʿAnanites" },
+            { "ja": "ونصبُه نفسه لهم بالعداوة", "en": "his setting himself against them in enmity" }
+          ]
+        },
+        {
+          "ja": "وقد كان في أول أمره يفضّل «عانان» ويذكره في كتبه كثيرا ويزعم أنه ראש המשכילים، ثم صار من بعد ذلك يقول إنه ראש הטיפשים؛ وهذا من مثله قبيح جدا، مع ما هو عليه من المعرفة والنُّسك.",
+          "en": "At first he used to exalt ʿAnan, mention him often in his books, and claim he was 'the chief of the enlightened'; later he came to call him 'the chief of the fools.' From one like him this is deeply unbecoming — for all his learning and ascetic piety.",
+          "pairs": [
+            { "ja": "في أول أمره يفضّل «عانان»", "en": "At first he used to exalt ʿAnan" },
+            { "ja": "ويذكره في كتبه كثيرا", "en": "mention him often in his books" },
+            { "ja": "ثم صار من بعد ذلك", "en": "later he came to" },
+            { "ja": "وهذا من مثله قبيح جدا", "en": "From one like him this is deeply unbecoming" },
+            { "ja": "من المعرفة والنُّسك", "en": "for all his learning and ascetic piety" }
+          ]
+        },
+        {
+          "ja": "وهذا أيضا أحد البلايا العظيمة التي تعرِض لقوم من أصحابنا: مناصبة بعضهم بعضا، والقصد بالبغضة والعداوة، وأكثر ما يحملهم على ذلك الحسد وطلب الرئاسة.",
+          "en": "This too is one of the great afflictions that befall some of our colleagues: their setting upon one another and their bent toward hatred and enmity — and what most drives them to it is envy and the craving for leadership.",
+          "pairs": [
+            { "ja": "أحد البلايا العظيمة", "en": "one of the great afflictions" },
+            { "ja": "تعرِض لقوم من أصحابنا", "en": "that befall some of our colleagues" },
+            { "ja": "مناصبة بعضهم بعضا", "en": "their setting upon one another" },
+            { "ja": "والقصد بالبغضة والعداوة", "en": "their bent toward hatred and enmity" },
+            { "ja": "الحسد وطلب الرئاسة", "en": "envy and the craving for leadership" }
+          ]
+        },
+        {
+          "ja": "فهذا الذي ذكرته هو الذي حرّكني على جمع هذا الكتاب وتأليفه: أريد أن أحكي فيه جُملا من أقاويل العلماء واحتجاجاتهم.",
+          "en": "It is just this that moved me to assemble and compose this book: I mean to set down in it a digest of the scholars' statements and their arguments.",
+          "pairs": [
+            { "ja": "فهذا الذي ذكرته", "en": "It is just this" },
+            { "ja": "هو الذي حرّكني", "en": "that moved me" },
+            { "ja": "على جمع هذا الكتاب وتأليفه", "en": "to assemble and compose this book" },
+            { "ja": "جُملا من أقاويل العلماء", "en": "a digest of the scholars' statements" },
+            { "ja": "واحتجاجاتهم", "en": "and their arguments" }
+          ]
+        },
+        {
+          "ja": "وأجتهد أن يكون متوسطا بين الإطناب والاختصار: لا يَجِلّ عن عالم، ولا يَدِقّ عن متعلم.",
+          "en": "And I shall strive that it be midway between long-windedness and over-brevity: not too weighty for the learned, nor too subtle for the student.",
+          "pairs": [
+            { "ja": "أن يكون متوسطا", "en": "that it be midway" },
+            { "ja": "بين الإطناب والاختصار", "en": "between long-windedness and over-brevity" },
+            { "ja": "لا يَجِلّ عن عالم", "en": "not too weighty for the learned" },
+            { "ja": "ولا يَدِقّ عن متعلم", "en": "nor too subtle for the student" }
+          ]
+        },
+        {
+          "ja": "وبالخالق — تعالى جدُّه — وعلى كل خير أستعين، وإليه أرغب فيما رغب إليه فيه عبده ووليه דוד عليه السلام، إذ يقول: גַּל עֵינַי וְאַבִּיטָה נִפְלָאוֹת מִתּוֹרָתֶךָ. גֵּר אָנֹכִי בָאָרֶץ אַל תַּסְתֵּר מִמֶּנִּי מִצְוֹתֶיךָ.",
+          "en": "Upon the Creator — exalted be His majesty — and upon all good I rely; and I beseech Him for what His servant and friend David, peace be upon him, besought when he said: 'Open my eyes, that I may behold wonders out of Your Torah. I am a stranger in the land; hide not Your commandments from me.' (Ps. 119:18–19)",
+          "pairs": [
+            { "ja": "وبالخالق", "en": "Upon the Creator" },
+            { "ja": "تعالى جدُّه", "en": "exalted be His majesty" },
+            { "ja": "وعلى كل خير أستعين", "en": "and upon all good I rely" },
+            { "ja": "عبده ووليه", "en": "His servant and friend" }
+          ]
+        }
+      ]
+    }
+  ]
+}

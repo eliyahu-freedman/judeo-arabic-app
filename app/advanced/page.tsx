@@ -15,6 +15,8 @@ type LibraryEntry = {
   title: string;
   blurb: string;
   sample: string;
+  /** Script of the `sample` line; defaults to Hebrew-letter Judeo-Arabic. */
+  sampleScript?: "hebrew" | "arabic";
 };
 
 const library: LibraryEntry[] = [
@@ -56,12 +58,13 @@ const library: LibraryEntry[] = [
   },
   {
     href: "/advanced/qirqisani-anwar",
-    status: "Coming soon",
+    status: "Live",
     author: "Yaʿqūb al-Qirqisānī",
     title: "Kitāb al-Anwār wa'l-Marāqib",
     blurb:
-      "The 10th-century Karaite encyclopedia of religious thought, law, and sect-history — a window onto a Judaism that argued in Arabic with Christians, Muslims, and other Jews.",
-    sample: "כתאב אלאנואר ואלמראקב",
+      "The opening of the great 10th-century Karaite summa — its manifesto that religious obligations must be reached by inquiry and rational speculation (baḥth wa-naẓar), and the truth accepted from whoever holds it. Shown in the original Arabic (ed. Nemoy) with a working English translation, phrase-by-phrase hover highlighting, and notes on key terms.",
+    sample: "كتاب الأنوار والمراقب",
+    sampleScript: "arabic",
   },
   {
     href: "/advanced/kuzari",
@@ -122,7 +125,9 @@ export default function LibraryIndex() {
               </p>
               <div
                 dir="rtl"
-                className="font-hebrew text-xl text-ink/80 mt-5 leading-loose"
+                className={`${
+                  t.sampleScript === "arabic" ? "font-arabic" : "font-hebrew"
+                } text-xl text-ink/80 mt-5 leading-loose`}
               >
                 {t.sample}
               </div>
