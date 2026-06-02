@@ -224,9 +224,22 @@ def main() -> int:
                     f"(legend has: {sorted(legend_keys)})"
                 )
 
-    # Per-book relation mix (soft warning for now).
+    # Tier distribution (informational — no threshold). Tracks the Phase 4
+    # split between paradigm Twists, semantic Notes, and pedagogical Glosses.
+    # Omitted tier defaults to 'twist' for back-compat with the original 32.
+    tier_counts: Counter = Counter(
+        (entry.get("tier") or "twist") for entry in entries
+    )
+
+    # Per-book relation mix (soft warning for now). Only twist-tier entries
+    # count against the Blau-backing threshold — note + gloss entries are
+    # mined from Blau by construction, so including them would mechanically
+    # mask a thin twist-tier corpus.
+    twist_entries = [
+        e for e in entries if (e.get("tier") or "twist") == "twist"
+    ]
     rel_by_book: dict[str, Counter] = defaultdict(Counter)
-    for entry in entries:
+    for entry in twist_entries:
         # Single representative book — the first verse's book.
         verses = entry.get("verses", [])
         book = verses[0]["book"] if verses else "?"
@@ -269,7 +282,14 @@ def main() -> int:
     else:
         print("\nAll citation + sources checks PASS.")
 
-    print(f"\nPer-book relation mix:")
+    print(f"\nTier distribution:")
+    for t in ("twist", "note", "gloss"):
+        print(f"  {t:>5}: {tier_counts.get(t, 0)}")
+    other = sum(v for k, v in tier_counts.items() if k not in {"twist", "note", "gloss"})
+    if other:
+        print(f"  other: {other}")
+
+    print(f"\nPer-book relation mix (twist-tier only, n={len(twist_entries)}):")
     for book in sorted(rel_by_book.keys()):
         c = rel_by_book[book]
         total = sum(c.values())

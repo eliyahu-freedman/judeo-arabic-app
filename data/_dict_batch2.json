@@ -1,0 +1,809 @@
+[
+  {
+    "id": "qassa-recount",
+    "lemma_ja": "קץ",
+    "lemma_ar": "قَصّ",
+    "root": "q-ṣ-ṣ",
+    "pos": "verb",
+    "gloss_en": "to recount, narrate, relate; (also) to cut, trim",
+    "gloss_he": "סיפר, סח; (גם) גזז",
+    "source": "lane",
+    "variants": [
+      "קץ",
+      "אלקץ",
+      "וקץ",
+      "פקץ",
+      "קצא",
+      "קצה",
+      "יקץ",
+      "יקצא"
+    ]
+  },
+  {
+    "id": "haqq-right-truth",
+    "lemma_ja": "חק",
+    "lemma_ar": "حَقّ",
+    "root": "ḥ-q-q",
+    "pos": "noun (m.)",
+    "gloss_en": "truth, right, due; rightful claim, obligation",
+    "gloss_he": "אמת, זכות, חובה",
+    "source": "lane",
+    "variants": [
+      "חק",
+      "אלחק",
+      "בחק",
+      "ואלחק",
+      "וחק",
+      "לחק",
+      "חקא",
+      "חקה",
+      "בחקה"
+    ]
+  },
+  {
+    "id": "maghara-cave",
+    "lemma_ja": "מג'ארה",
+    "lemma_ar": "مَغَارَة",
+    "root": "gh-w-r",
+    "pos": "noun (f.)",
+    "gloss_en": "cave, cavern",
+    "gloss_he": "מערה",
+    "source": "lane",
+    "variants": [
+      "מג'ארה",
+      "אלמג'ארה",
+      "ואלמג'ארה",
+      "מג'ארא",
+      "מג'ארתה",
+      "מג'אראת"
+    ]
+  },
+  {
+    "id": "siraj-lamp",
+    "lemma_ja": "סרג",
+    "lemma_ar": "سِرَاج",
+    "root": "s-r-j",
+    "pos": "noun (m.)",
+    "gloss_en": "lamp; (verb asraja) to light, kindle a lamp",
+    "gloss_he": "נר, מנורה; (פועל) הדליק נר",
+    "source": "lane",
+    "variants": [
+      "סרג",
+      "אלסרג",
+      "וסרג",
+      "אסרג",
+      "אסרגת",
+      "ואסרג",
+      "סרגא"
+    ]
+  },
+  {
+    "id": "hadir-present",
+    "lemma_ja": "חאצ'ר",
+    "lemma_ar": "حَاضِر",
+    "root": "ḥ-ḍ-r",
+    "pos": "adjective/noun",
+    "gloss_en": "present, ready, at hand; (verb) to be present, attend",
+    "gloss_he": "נוכח, מוכן, נמצא; נכח",
+    "source": "lane",
+    "variants": [
+      "חאצ'ר",
+      "פחאצ'ר",
+      "וחאצ'ר",
+      "יחצ'ר",
+      "יחצ'רה",
+      "חאצ'רא",
+      "יחצ'רו"
+    ]
+  },
+  {
+    "id": "seir-name",
+    "lemma_ja": "סעיר",
+    "lemma_ar": "سَعِير",
+    "root": "—",
+    "pos": "proper noun",
+    "gloss_en": "Seir, the mountainous region of Edom (and of Esau)",
+    "gloss_he": "שֵׂעִיר",
+    "source": "lane",
+    "variants": [
+      "סעיר",
+      "בסעיר",
+      "וסעיר",
+      "לסעיר"
+    ]
+  },
+  {
+    "id": "hawd-basin",
+    "lemma_ja": "חוץ'",
+    "lemma_ar": "حَوْض",
+    "root": "ḥ-w-ḍ",
+    "pos": "noun (m.)",
+    "gloss_en": "basin, laver (the cultic water-basin)",
+    "gloss_he": "כִּיּוֹר, אגן",
+    "source": "lane",
+    "variants": [
+      "חוץ'",
+      "אלחוץ",
+      "ואלחוץ",
+      "חוצא",
+      "אלחוצ",
+      "ואלחוצ"
+    ]
+  },
+  {
+    "id": "haraj-imprecation",
+    "lemma_ja": "חרג",
+    "lemma_ar": "حَرَج",
+    "root": "ḥ-r-j",
+    "pos": "noun (m.)",
+    "gloss_en": "imprecatory oath, curse, ban (rendering Heb. אָלָה); distress",
+    "gloss_he": "אָלָה, שבועת קללה; מצוקה",
+    "source": "lane",
+    "variants": [
+      "חרג",
+      "אלחרג",
+      "וחרג",
+      "חרגא",
+      "בחרג"
+    ]
+  },
+  {
+    "id": "halafa-swear",
+    "lemma_ja": "חלף",
+    "lemma_ar": "حَلَفَ",
+    "root": "ḥ-l-f",
+    "pos": "verb",
+    "gloss_en": "to swear (an oath)",
+    "gloss_he": "נשבע",
+    "source": "lane",
+    "variants": [
+      "חלף",
+      "אחלף",
+      "ואחלף",
+      "וחלף",
+      "פחלף",
+      "יחלף",
+      "ויחלף",
+      "תחלף",
+      "חלפת",
+      "אחלפת"
+    ]
+  },
+  {
+    "id": "ramad-ashes",
+    "lemma_ja": "רמאד",
+    "lemma_ar": "رَمَاد",
+    "root": "r-m-d",
+    "pos": "noun (m.)",
+    "gloss_en": "ashes",
+    "gloss_he": "אֵפֶר",
+    "source": "lane",
+    "variants": [
+      "רמאד",
+      "אלרמאד",
+      "ורמאד",
+      "ואלרמאד",
+      "רמאדה"
+    ]
+  },
+  {
+    "id": "rih-wind",
+    "lemma_ja": "ריח",
+    "lemma_ar": "رِيح",
+    "root": "r-w-ḥ",
+    "pos": "noun (f.)",
+    "gloss_en": "wind; breath; scent",
+    "gloss_he": "רוח; ריח",
+    "source": "lane",
+    "variants": [
+      "ריח",
+      "אלריח",
+      "וריח",
+      "ואלריח",
+      "ריחא",
+      "ריאח",
+      "אלריאח"
+    ]
+  },
+  {
+    "id": "samaka-fish",
+    "lemma_ja": "סמכה",
+    "lemma_ar": "سَمَكَة",
+    "root": "s-m-k",
+    "pos": "noun (f.)",
+    "gloss_en": "fish",
+    "gloss_he": "דָּג",
+    "source": "lane",
+    "variants": [
+      "סמכה",
+      "וסמכה",
+      "אלסמכה",
+      "סמך",
+      "סמכא",
+      "אלסמך"
+    ]
+  },
+  {
+    "id": "matar-rain",
+    "lemma_ja": "מטר",
+    "lemma_ar": "مَطَر",
+    "root": "m-ṭ-r",
+    "pos": "noun (m.)",
+    "gloss_en": "rain; (verb amṭara) to cause to rain, send down rain",
+    "gloss_he": "מָטָר, גשם; (פועל) המטיר",
+    "source": "lane",
+    "variants": [
+      "מטר",
+      "אלמטר",
+      "ומטר",
+      "ממטר",
+      "אלממטר",
+      "וממטר",
+      "מטרא",
+      "אמטר",
+      "ימטר"
+    ]
+  },
+  {
+    "id": "ʿashaʾ-evening",
+    "lemma_ja": "עשא",
+    "lemma_ar": "عَشَاء",
+    "root": "ʿ-sh-w",
+    "pos": "noun (m.)",
+    "gloss_en": "evening; evening meal, supper",
+    "gloss_he": "עֶרֶב; ארוחת ערב",
+    "source": "lane",
+    "variants": [
+      "עשא",
+      "באלעשא",
+      "אלעשא",
+      "ועשא",
+      "עשאא"
+    ]
+  },
+  {
+    "id": "salaka-travel",
+    "lemma_ja": "סלך",
+    "lemma_ar": "سَلَكَ",
+    "root": "s-l-k",
+    "pos": "verb",
+    "gloss_en": "to walk, travel (a path); follow, conduct oneself",
+    "gloss_he": "הלך, צעד בדרך; התנהג",
+    "source": "lane",
+    "variants": [
+      "סלך",
+      "בסלך",
+      "וסלך",
+      "יסלך",
+      "סלכת",
+      "סאלך",
+      "מסלך"
+    ]
+  },
+  {
+    "id": "sanam-idol",
+    "lemma_ja": "צנם",
+    "lemma_ar": "صَنَم",
+    "root": "ṣ-n-m",
+    "pos": "noun (m.)",
+    "gloss_en": "idol, graven image",
+    "gloss_he": "פֶּסֶל, אֱלִיל",
+    "source": "lane",
+    "variants": [
+      "צנם",
+      "אלצנם",
+      "לאלצנם",
+      "ואלצנם",
+      "אצנאם",
+      "אלאצנאם",
+      "צנמא"
+    ]
+  },
+  {
+    "id": "ajl-sake",
+    "lemma_ja": "אגל",
+    "lemma_ar": "أَجْل",
+    "root": "ʔ-j-l",
+    "pos": "noun (m.)",
+    "gloss_en": "sake, account, reason; (li-ajl) because of, on account of",
+    "gloss_he": "סיבה, בגלל, למען",
+    "source": "lane",
+    "variants": [
+      "אגל",
+      "לאגל",
+      "ולאגל",
+      "אגלה",
+      "לאגלה"
+    ]
+  },
+  {
+    "id": "radda-return",
+    "lemma_ja": "רד",
+    "lemma_ar": "رَدّ",
+    "root": "r-d-d",
+    "pos": "verb",
+    "gloss_en": "to return, give back, put back; to turn back; to reply",
+    "gloss_he": "השיב, החזיר; ענה",
+    "source": "lane",
+    "variants": [
+      "רד",
+      "פרד",
+      "ורד",
+      "תרד",
+      "רדה",
+      "רדהא",
+      "ארדד",
+      "ירדה"
+    ]
+  },
+  {
+    "id": "zada-increase",
+    "lemma_ja": "זאד",
+    "lemma_ar": "زَادَ",
+    "root": "z-y-d",
+    "pos": "verb",
+    "gloss_en": "to increase, add, grow more",
+    "gloss_he": "הוסיף, רבה",
+    "source": "lane",
+    "variants": [
+      "זאד",
+      "זאדה",
+      "יזיד",
+      "ויזיד",
+      "תזיד",
+      "יזידך",
+      "ויזידך",
+      "זיאדה"
+    ]
+  },
+  {
+    "id": "laʿna-curse",
+    "lemma_ja": "לענה",
+    "lemma_ar": "لَعْنَة",
+    "root": "l-ʿ-n",
+    "pos": "noun (f.)",
+    "gloss_en": "curse, malediction; (active part.) the one who curses",
+    "gloss_he": "קללה; המקלל",
+    "source": "lane",
+    "variants": [
+      "לענה",
+      "אללענה",
+      "לענאת",
+      "אללענאת",
+      "ואללענאת",
+      "אללאען",
+      "לען"
+    ]
+  },
+  {
+    "id": "haran-name",
+    "lemma_ja": "הרן",
+    "lemma_ar": "هَارَان",
+    "root": "—",
+    "pos": "proper noun",
+    "gloss_en": "Haran (son of Terah, Abraham's brother); also Beth-Haran",
+    "gloss_he": "הָרָן",
+    "source": "lane",
+    "variants": [
+      "הרן",
+      "והרן",
+      "להרן"
+    ]
+  },
+  {
+    "id": "betuel-name",
+    "lemma_ja": "בתואל",
+    "lemma_ar": "بَتُوئِيل",
+    "root": "—",
+    "pos": "proper noun",
+    "gloss_en": "Bethuel (father of Rebecca and Laban)",
+    "gloss_he": "בְּתוּאֵל",
+    "source": "lane",
+    "variants": [
+      "בתואל",
+      "ובתואל",
+      "לבתואל"
+    ]
+  },
+  {
+    "id": "oholibamah-name",
+    "lemma_ja": "אהליבמה",
+    "lemma_ar": "أُهُولِيبَامَة",
+    "root": "—",
+    "pos": "proper noun",
+    "gloss_en": "Oholibamah (a wife of Esau)",
+    "gloss_he": "אָהֳלִיבָמָה",
+    "source": "lane",
+    "variants": [
+      "אהליבמה",
+      "ואהליבמה"
+    ]
+  },
+  {
+    "id": "niʿimma-rightly",
+    "lemma_ja": "נעמא",
+    "lemma_ar": "نِعِمَّا",
+    "root": "n-ʿ-m",
+    "pos": "adverb/particle",
+    "gloss_en": "rightly so, well-spoken; indeed (rendering Heb. כֵּן)",
+    "gloss_he": "כֵּן, יפה דיברו; אכן",
+    "source": "lane",
+    "variants": [
+      "נעמא",
+      "ונעמא"
+    ]
+  },
+  {
+    "id": "sayd-game",
+    "lemma_ja": "צידא",
+    "lemma_ar": "صَيْد",
+    "root": "ṣ-y-d",
+    "pos": "noun (m.)",
+    "gloss_en": "game, prey, that which is hunted; (also renders the place-name Sidon)",
+    "gloss_he": "צַיִד; (גם שם המקום צידון)",
+    "source": "lane",
+    "variants": [
+      "צידא",
+      "וצידא",
+      "צ'ידא",
+      "אלציד",
+      "צ'יד"
+    ]
+  },
+  {
+    "id": "yaqin-certainly",
+    "lemma_ja": "איקין",
+    "lemma_ar": "يَقِين",
+    "root": "y-q-n",
+    "pos": "noun/adverb",
+    "gloss_en": "certainty; (yaqīnan) certainly, truly, indeed",
+    "gloss_he": "ודאות; אכן, באמת",
+    "source": "lane",
+    "variants": [
+      "איקין",
+      "איקינא",
+      "ואיקינא",
+      "יקינא",
+      "באליקין",
+      "אליקין"
+    ]
+  },
+  {
+    "id": "ʿawada-repeat",
+    "lemma_ja": "עאוד",
+    "lemma_ar": "عَاوَدَ",
+    "root": "ʿ-w-d",
+    "pos": "verb",
+    "gloss_en": "to do again, repeat, resume (rendering Heb. הוסיף 'again, continue')",
+    "gloss_he": "שב ועשה, חזר, הוסיף",
+    "source": "lane",
+    "variants": [
+      "עאוד",
+      "פעאוד",
+      "ועאוד",
+      "יעאוד",
+      "עאודה",
+      "עאודו"
+    ]
+  },
+  {
+    "id": "haʾit-wall",
+    "lemma_ja": "חאיט",
+    "lemma_ar": "حَائِط",
+    "root": "ḥ-w-ṭ",
+    "pos": "noun (m.)",
+    "gloss_en": "wall, enclosing wall",
+    "gloss_he": "חוֹמָה, קיר, גָּדֵר",
+    "source": "lane",
+    "variants": [
+      "חאיט",
+      "אלחאיט",
+      "ואלחאיט",
+      "וחאיט",
+      "חיטאן",
+      "חואיט"
+    ]
+  },
+  {
+    "id": "kathura-many",
+    "lemma_ja": "כת'ר",
+    "lemma_ar": "كَثُرَ",
+    "root": "k-th-r",
+    "pos": "verb",
+    "gloss_en": "to be/become many or numerous; (II) to increase, multiply",
+    "gloss_he": "רבה, התרבה; (הרבה)",
+    "source": "lane",
+    "variants": [
+      "כת'ר",
+      "כת'רו",
+      "וכת'רו",
+      "יכת'ר",
+      "ויכת'רך",
+      "תכת'ר",
+      "כת'רת"
+    ]
+  },
+  {
+    "id": "qalʿa-fortress",
+    "lemma_ja": "קלעה",
+    "lemma_ar": "قَلْعَة",
+    "root": "q-l-ʿ",
+    "pos": "noun (f.)",
+    "gloss_en": "fortress, citadel, stronghold",
+    "gloss_he": "מִבְצָר, מצודה",
+    "source": "lane",
+    "variants": [
+      "קלעה",
+      "אלקלעה",
+      "וקלעה",
+      "קלאע",
+      "אלקלאע"
+    ]
+  },
+  {
+    "id": "wahd-alone",
+    "lemma_ja": "וחד",
+    "lemma_ar": "وَحْد",
+    "root": "w-ḥ-d",
+    "pos": "noun (with suffix)",
+    "gloss_en": "(with pronominal suffix) alone, by oneself; -self alone",
+    "gloss_he": "לבד, בלבד",
+    "source": "lane",
+    "variants": [
+      "וחד",
+      "וחדה",
+      "וחדהא",
+      "וחדהם",
+      "וחדי",
+      "וחדך",
+      "וחדכם",
+      "וחדנא"
+    ]
+  },
+  {
+    "id": "shafa-edge",
+    "lemma_ja": "שפה",
+    "lemma_ar": "شَفَة",
+    "root": "sh-f-w",
+    "pos": "noun (f.)",
+    "gloss_en": "edge, brink, bank (of a river or vessel); lip",
+    "gloss_he": "שָׂפָה, גדה, קצה",
+    "source": "lane",
+    "variants": [
+      "שפה",
+      "שפאהא",
+      "שפת",
+      "שפתה",
+      "אלשפה",
+      "שפאה"
+    ]
+  },
+  {
+    "id": "kataba-write",
+    "lemma_ja": "כתב",
+    "lemma_ar": "كَتَبَ",
+    "root": "k-t-b",
+    "pos": "verb",
+    "gloss_en": "to write, inscribe, record",
+    "gloss_he": "כָּתַב",
+    "source": "lane",
+    "variants": [
+      "כתב",
+      "אכתב",
+      "פכתב",
+      "ואכתב",
+      "יכתב",
+      "כתבת",
+      "מכתוב",
+      "אכתבה",
+      "כתבה"
+    ]
+  },
+  {
+    "id": "rasul-messenger",
+    "lemma_ja": "רסל",
+    "lemma_ar": "رُسُل",
+    "root": "r-s-l",
+    "pos": "noun",
+    "gloss_en": "messenger(s), envoy(s) (rusul, pl. of rasūl)",
+    "gloss_he": "שָׁלִיחַ, מלאך (שליחים)",
+    "source": "lane",
+    "variants": [
+      "רסל",
+      "ברסל",
+      "רסול",
+      "אלרסל",
+      "ורסל",
+      "רסלא",
+      "אלרסול",
+      "רסלה"
+    ]
+  },
+  {
+    "id": "markab-chariot",
+    "lemma_ja": "מרכב",
+    "lemma_ar": "مَرْكَب",
+    "root": "r-k-b",
+    "pos": "noun (m.)",
+    "gloss_en": "chariot, vehicle, mount; riding-beast",
+    "gloss_he": "מֶרְכָּבָה, רכב",
+    "source": "lane",
+    "variants": [
+      "מרכב",
+      "מראכב",
+      "מראכבה",
+      "ומראכבה",
+      "אלמרכב",
+      "מרכבה",
+      "מראכבהם"
+    ]
+  },
+  {
+    "id": "janah-wing",
+    "lemma_ja": "גנאח",
+    "lemma_ar": "جَنَاح",
+    "root": "j-n-ḥ",
+    "pos": "noun (m.)",
+    "gloss_en": "wing",
+    "gloss_he": "כָּנָף",
+    "source": "lane",
+    "variants": [
+      "גנאח",
+      "אגנחה",
+      "אגנחתה",
+      "בגנאח",
+      "אלגנאח",
+      "וגנאח",
+      "אגנחא"
+    ]
+  },
+  {
+    "id": "baʿd-some",
+    "lemma_ja": "בעץ'",
+    "lemma_ar": "بَعْض",
+    "root": "b-ʿ-ḍ",
+    "pos": "noun/pronoun",
+    "gloss_en": "some, part, a portion; (baʿḍuhum … baʿḍ) one another",
+    "gloss_he": "מִקְצָת, חֵלֶק; זה אל זה",
+    "source": "lane",
+    "variants": [
+      "בעץ'",
+      "בעץ",
+      "לבעץ",
+      "בעצ'הם",
+      "בעצ'הא",
+      "ובעץ",
+      "בעצ'נא"
+    ]
+  },
+  {
+    "id": "qism-portion",
+    "lemma_ja": "קסם",
+    "lemma_ar": "قِسْم",
+    "root": "q-s-m",
+    "pos": "noun (m.)",
+    "gloss_en": "portion, share, division; (verb qasama) to divide, apportion",
+    "gloss_he": "חֵלֶק, מָנָה; (פועל) חילק",
+    "source": "lane",
+    "variants": [
+      "קסם",
+      "קסמת",
+      "אקסם",
+      "קסמה",
+      "אלקסם",
+      "קסמהא",
+      "יקסם",
+      "וקסם"
+    ]
+  },
+  {
+    "id": "mithl-like",
+    "lemma_ja": "מת'ל",
+    "lemma_ar": "مِثْل",
+    "root": "m-th-l",
+    "pos": "noun/preposition",
+    "gloss_en": "like, similar to; the like of; (prep.) according to",
+    "gloss_he": "כְּמוֹ, דוֹמֶה, כְּפִי",
+    "source": "lane",
+    "variants": [
+      "מת'ל",
+      "מת'לך",
+      "כמת'ל",
+      "מת'לה",
+      "מת'להא",
+      "ומת'ל",
+      "אמת'אל",
+      "מת'להם"
+    ]
+  },
+  {
+    "id": "qabr-grave",
+    "lemma_ja": "קבר",
+    "lemma_ar": "قَبْر",
+    "root": "q-b-r",
+    "pos": "noun (m.)",
+    "gloss_en": "grave, tomb",
+    "gloss_he": "קֶבֶר",
+    "source": "lane",
+    "variants": [
+      "קבר",
+      "אלקבר",
+      "וקבר",
+      "קבור",
+      "מקבר",
+      "קברה",
+      "קבורה"
+    ]
+  },
+  {
+    "id": "thuʿban-serpent",
+    "lemma_ja": "ת'עבאן",
+    "lemma_ar": "ثُعْبَان",
+    "root": "th-ʿ-b",
+    "pos": "noun (m.)",
+    "gloss_en": "serpent, large snake",
+    "gloss_he": "נָחָשׁ, תנין",
+    "source": "lane",
+    "variants": [
+      "ת'עבאן",
+      "ת'עבאנא",
+      "אלת'עבאן",
+      "ות'עבאן"
+    ]
+  },
+  {
+    "id": "tawil-long",
+    "lemma_ja": "טויל",
+    "lemma_ar": "طَوِيل",
+    "root": "ṭ-w-l",
+    "pos": "adjective",
+    "gloss_en": "long, tall; lengthy",
+    "gloss_he": "אָרֹךְ, גָּבוֹהַּ",
+    "source": "lane",
+    "variants": [
+      "טויל",
+      "טוילה",
+      "טואל",
+      "אלטויל",
+      "וטויל",
+      "טוילא"
+    ]
+  },
+  {
+    "id": "saraqa-steal",
+    "lemma_ja": "סרק",
+    "lemma_ar": "سَرَقَ",
+    "root": "s-r-q",
+    "pos": "verb",
+    "gloss_en": "to steal; (active part. sāriq) thief",
+    "gloss_he": "גָּנַב; גנב",
+    "source": "lane",
+    "variants": [
+      "סרק",
+      "וסרק",
+      "יסרק",
+      "סארק",
+      "אלסארק",
+      "סרקה",
+      "מסרוק",
+      "סרקא"
+    ]
+  },
+  {
+    "id": "dirham-coin",
+    "lemma_ja": "דרהם",
+    "lemma_ar": "دِرْهَم",
+    "root": "d-r-h-m",
+    "pos": "noun (m.)",
+    "gloss_en": "dirham (silver coin); money, currency",
+    "gloss_he": "דרהם, מטבע כסף",
+    "source": "lane",
+    "variants": [
+      "דרהם",
+      "דראהם",
+      "אלדרהם",
+      "בדרהם",
+      "אלדראהם"
+    ]
+  }
+]

@@ -6,9 +6,10 @@ import { useCallback, useMemo, useRef, useState } from "react";
 import { lookup, tokenizeJa, type Entry } from "@/lib/lookup";
 import { sliceByGroups, type VerseAlignment } from "@/lib/alignment";
 import {
-  hasDivergence,
+  divergenceTier,
   lookupDivergence,
   type DivergenceEntry,
+  type DivergenceTier,
 } from "@/lib/divergence";
 import {
   uniqueVerses,
@@ -372,7 +373,22 @@ function JaText({
         }
         const isActive = activeToken === t.text;
         const state = getState(t.text);
-        const divergent = markDivergence && hasDivergence(t.text);
+        // Tier gates the underline: twist + note get a visible mark; gloss is
+        // hover-only (tap still surfaces the GlossPanel via onTap → lookup).
+        const tier = markDivergence ? divergenceTier(t.text) : null;
+        const divergent = tier === "twist" || tier === "note";
+        const underlineCls =
+          tier === "twist"
+            ? "underline decoration-dotted decoration-wine/60 decoration-1 underline-offset-[6px]"
+            : tier === "note"
+              ? "underline decoration-dotted decoration-ink/30 decoration-1 underline-offset-[6px]"
+              : "";
+        const tierTitle =
+          tier === "twist"
+            ? "Tafsir twist — see panel"
+            : tier === "note"
+              ? "Saadia note — see panel"
+              : undefined;
         const inHover =
           groupForRange !== null && groupForRange === hoveredGroupId;
         const groupHandlers =
@@ -388,7 +404,7 @@ function JaText({
             type="button"
             onClick={() => onTap(t.text)}
             {...groupHandlers}
-            title={divergent ? "Tafsir twist — see panel" : undefined}
+            title={tierTitle}
             className={`inline cursor-pointer rounded-sm transition-colors px-0.5 -mx-0.5
               ${
                 isActive
@@ -397,11 +413,7 @@ function JaText({
                     ? "bg-amber-100 text-ink ring-1 ring-amber-300/60"
                     : STATE_CLASS[state]
               }
-              ${
-                divergent && !isActive
-                  ? "underline decoration-dotted decoration-wine/60 decoration-1 underline-offset-[6px]"
-                  : ""
-              }`}
+              ${divergent && !isActive ? underlineCls : ""}`}
           >
             {t.text}
           </button>
@@ -570,15 +582,7 @@ function GlossPanel({
                   <SourceBadge source={e.source} />
                 </div>
                 {e.gloss_en && (
-                  <p
-                    className={`mt-1.5 text-ink ${
-                      e.source === "camel"
-                        ? "text-[13px] leading-relaxed"
-                        : "text-[15px]"
-                    }`}
-                  >
-                    {e.gloss_en}
-                  </p>
+                  <p className="mt-1.5 text-ink text-[15px]">{e.gloss_en}</p>
                 )}
                 {e.gloss_he && (
                   <p
@@ -632,18 +636,19 @@ function SourceBadge({ source }: { source?: Entry["source"] }) {
       </span>
     );
   }
-  // camel: auto-extracted, unverified — keep visibly demoted
-  return (
-    <span
-      className="text-[10px] uppercase tracking-[0.2em] text-ink/40 border border-ink/15 rounded-sm px-1.5 py-0.5 ml-auto"
-      title="Auto-extracted via Camel Tools (modern Standard Arabic morphology). Unverified — verify before citing."
-    >
-      auto
-    </span>
-  );
+  // The "camel" (auto-extracted, unverified) tier has been retired — lookup no
+  // longer returns such entries, so no badge is rendered for it.
+  return null;
 }
 
 function DivergenceBanner({ d }: { d: DivergenceEntry }) {
+  const tier: DivergenceTier = d.tier ?? "twist";
+  if (tier === "gloss") return <GlossCard d={d} />;
+  if (tier === "note") return <SaadiaNoteBanner d={d} />;
+  return <TwistBanner d={d} />;
+}
+
+function TwistBanner({ d }: { d: DivergenceEntry }) {
   return (
     <div className="mb-4 rounded-md border border-wine/30 bg-wine-50/60 px-4 py-3">
       <div className="flex items-baseline gap-3 mb-2">
@@ -666,6 +671,58 @@ function DivergenceBanner({ d }: { d: DivergenceEntry }) {
         {d.mechanism}
       </p>
       <DivergenceSources d={d} />
+    </div>
+  );
+}
+
+// Lighter register for semantic surprises that don't reframe theology.
+// One short contrast line, no mechanism essay.
+function SaadiaNoteBanner({ d }: { d: DivergenceEntry }) {
+  return (
+    <div className="mb-4 rounded-md border border-ink/15 bg-ink/5 px-4 py-3">
+      <div className="flex items-baseline gap-3 mb-2">
+        <span className="text-[10px] uppercase tracking-[0.3em] text-ink/60">
+          Saadia note
+        </span>
+        <span className="text-xs text-muted font-mono">√{d.root}</span>
+      </div>
+      <p className="text-[13px] text-ink/85 leading-relaxed">
+        Saadia picks <span className="font-medium">{d.saadia_en}</span> here;
+        classical Arabic would expect{" "}
+        <span className="font-medium">{d.classical_en}</span>.
+      </p>
+      <DivergenceSources d={d} />
+    </div>
+  );
+}
+
+// Compact one-line card for non-obvious Heb→Ar pairings (the ~575 EXPANSIVE
+// tier). Surfaces only on tap — no baseline underline on the word. Just the
+// equivalence + a small Blau citation.
+function GlossCard({ d }: { d: DivergenceEntry }) {
+  return (
+    <div className="mb-4 rounded-md border border-ink/10 bg-paper px-4 py-2.5">
+      <div className="flex items-baseline gap-2 text-[13.5px] flex-wrap">
+        <span className="text-ink/70">{d.classical_he}</span>
+        <span className="text-ink/40">→</span>
+        <span className="font-mono text-ink">{d.lemma_ja}</span>
+        <span className="text-ink/55 text-[12px]">
+          <span dir="rtl" lang="ar">
+            {d.lemma_ar}
+          </span>
+          {" · "}
+          {d.saadia_en}
+        </span>
+        {d.blau_dict && (
+          <span
+            className="ml-auto text-[10.5px] uppercase tracking-wider text-ink/40"
+            title={d.blau_dict.sense}
+          >
+            Blau s.v.{" "}
+            <span className="font-mono normal-case">{d.blau_dict.root}</span>
+          </span>
+        )}
+      </div>
     </div>
   );
 }

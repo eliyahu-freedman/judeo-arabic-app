@@ -1,6 +1,24 @@
 import data from "@/data/tafsir-divergence.json";
 import { normalizeToken } from "@/lib/lookup";
 
+/**
+ * Display register for a Saadia / Blau pairing in the Tafsir reader.
+ *
+ * - **twist**: paradigm-shifting move (anti-anthropomorphic, philosophical,
+ *   midrashic identification, semantic loanshift). Wine underline + full
+ *   classical-vs-Saadia banner. Rare by design (~30–80 Torah-wide).
+ * - **note**: semantic surprise without theological reframe — calque,
+ *   register shift, technical extension, grammatical methodology. Muted
+ *   underline + lighter banner. ~300 Torah-wide.
+ * - **gloss**: non-obvious Heb→Ar pairing pedagogically useful for JA
+ *   acquisition (non-cognate, false friend, divergent field). No underline;
+ *   surfaces only on tap as a compact one-line card. ~575 Torah-wide.
+ *
+ * Omitted `tier` defaults to `twist` for back-compat with the original 32
+ * entries shipped before tiering existed.
+ */
+export type DivergenceTier = "twist" | "note" | "gloss";
+
 export type DivergenceEntry = {
   lemma_ja: string;
   lemma_ar: string;
@@ -11,6 +29,8 @@ export type DivergenceEntry = {
   saadia_he: string;
   mechanism: string;
   verses: { book: string; ch: number; v: number }[];
+  /** Display register. Defaults to `twist` when omitted. */
+  tier?: DivergenceTier;
   /**
    * Additional surface forms (with pronoun suffixes, accusative -א, etc.)
    * that should resolve to this entry. The lookup chain only strips
@@ -96,4 +116,15 @@ export function lookupDivergence(rawToken: string): DivergenceEntry | null {
 
 export function hasDivergence(rawToken: string): boolean {
   return lookupDivergence(rawToken) !== null;
+}
+
+/**
+ * Return the display tier for a token, or null if no entry exists.
+ * Lets the reader cheaply gate the underline (twist + note get it; gloss
+ * is hover-only) without re-walking the prefix-stripping chain twice.
+ */
+export function divergenceTier(rawToken: string): DivergenceTier | null {
+  const d = lookupDivergence(rawToken);
+  if (!d) return null;
+  return d.tier ?? "twist";
 }

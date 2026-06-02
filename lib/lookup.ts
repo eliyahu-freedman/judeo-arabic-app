@@ -1,6 +1,9 @@
 import starter from "@/data/dictionary-starter.json";
 import lane from "@/data/dictionary-lane.json";
-import auto from "@/data/dictionary-auto.json";
+// The auto-extracted Camel-tools dictionary (dictionary-auto.json) has been
+// retired: hand coverage (starter + lane) now exceeds 80%, so the unverified
+// MSA fallback is no longer consulted. The JSON file is kept on disk for the
+// coverage report only; it is no longer imported into the app.
 
 // Re-export the tokeniser from its zero-dependency home so existing callers
 // keep importing `tokenizeJa` from `lib/lookup`. The canonical implementation
@@ -53,7 +56,6 @@ export type Entry = {
 
 const STARTER: Entry[] = starter.entries as Entry[];
 const LANE: Entry[] = lane.entries as Entry[];
-const AUTO: Entry[] = auto.entries as Entry[];
 
 /** Strip trailing punctuation that gets glued onto a word (".,:;؛،"). */
 function stripPunct(tok: string): string {
@@ -174,13 +176,8 @@ export function lookup(rawToken: string): Entry[] {
     );
     if (hits.length) return hits;
   }
-  // Priority 3: auto-extracted Camel-tools dictionary (unverified, MSA).
-  // Keyed by normalizeToken — single lookup, no chain.
-  const autoKey = normalizeToken(rawToken);
-  if (autoKey) {
-    const hits = AUTO.filter((e) => e.lemma_ja === autoKey);
-    if (hits.length) return hits;
-  }
+  // (Priority 3, the auto-extracted Camel-tools fallback, has been retired —
+  // hand coverage now exceeds 80%; see the import note at the top of this file.)
   return [];
 }
 

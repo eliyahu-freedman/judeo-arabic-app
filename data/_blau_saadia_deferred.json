@@ -1,0 +1,806 @@
+{
+  "_generated": "2026-05-29",
+  "_note": "Triage residue from Phase 3 R1 + Phase 4 Bereshit batches. `phase3_r1_candidates` was consumed (16430 سيد landed as twist). `no_cite_audit` records the 2026-05-29 re-audit of the 9 saadia-direct-only Bereshit twist entries: 2 hits (مستبحرة, شمشار) were patched into the divergence file; 7 misses are stable as 'saadia-direct'-only readings.",
+  "skip": [
+    {
+      "blau_id": 14600,
+      "root_he": "אגמאע",
+      "root_ar": "إجماع",
+      "reason": "Non-Tafsir use throughout Blau's senses (Geniza social documents on community donations; Maimonides Mishnah commentary on royal storage chests; Qirqisani citing Saadia tangentially, not on a Bereshit verse). No Bereshit-verse anchor."
+    }
+  ],
+  "borderline": [
+    {
+      "blau_id": 18250,
+      "root_he": "פצץ",
+      "root_ar": "فضض",
+      "verse_hint": "Gen 3:5",
+      "open_question": "Blau attests root فضض ('to break/open vow'), but the JA verse surfaces 'תנפצ'' (= تنفض from نفض 'to shake off, rouse'). Root attribution requires checking which Blau entry actually treats the Saadia rendering of נפקחו. 2026-05-29 update: Phase 3 R1 confirmed the lemma in tafsir-bereshit-3.json is indeed 'תנפצ'' עיונכם' (Form V of نفض, not فضض) — the candidate's Blau root remains a probable misattribution. Keep deferred until a separate scan of نفض candidates is run."
+    }
+  ],
+  "phase3_r1_candidates": [],
+  "phase3_r1_consumed": [
+    {
+      "blau_id": 16430,
+      "consumed_on": "2026-05-29",
+      "landed_as": "twist entry lemma_ja=יסיידונך (Gen 49:8)",
+      "note": "Paradigm political reading of Judah blessing — Saadia's 'יסיידונך אכ'ותך' for Hebrew 'יודוך אחיך' (denominative Form II of سيد), glossed by Blau as 'ישליטון אחיך'."
+    },
+    {
+      "blau_id": 16530,
+      "landed_as": "twist שריעה (Shemot 12:49+)",
+      "note": "Heb תורה → Ar شريعة (Torah-as-sharīʿa calque).",
+      "consumed_on": "2026-05-30"
+    },
+    {
+      "blau_id": 19552,
+      "landed_as": "twist אלמהל (Shemot 34:6)",
+      "note": "Heb אֶרֶךְ אַפַּיִם → Ar طويل المهل (anti-anthropomorphic).",
+      "consumed_on": "2026-05-30"
+    },
+    {
+      "blau_id": 14480,
+      "landed_as": "twist אגתחד (Shemot 9:15)",
+      "note": "Heb וַתִּכָּחֵד → Ar اجتحد 'be destroyed' (Hebrew-driven calque).",
+      "consumed_on": "2026-05-30"
+    },
+    {
+      "blau_id": 16947,
+      "landed_as": "twist צריח (Shemot 12:19+)",
+      "note": "Heb אֶזְרָח → Ar صريح 'of pure lineage' (legal-category reframe).",
+      "consumed_on": "2026-05-30"
+    },
+    {
+      "blau_id": 15668,
+      "landed_as": "twist מתרבץ (Shemot 9:17)",
+      "note": "Heb מִסְתּוֹלֵל (hapax) → Ar متربّص 'detaining' (hapax reframe).",
+      "consumed_on": "2026-05-30"
+    },
+    {
+      "blau_id": 15824,
+      "landed_as": "twist תרפק (Vayikra 25:3-4)",
+      "note": "Heb תזמר → Ar رفق (Aramaic-driven prune calque).",
+      "consumed_on": "2026-05-30"
+    },
+    {
+      "blau_id": 18378,
+      "landed_as": "twist פיצ'הא (Vayikra 15:28)",
+      "note": "Heb זוב → Ar فيضة (Hebrew-driven flux specialization).",
+      "consumed_on": "2026-05-30"
+    },
+    {
+      "blau_id": 17407,
+      "landed_as": "twist אלכ'אמע (Vayikra 21:18)",
+      "note": "Heb שרוע → Ar خامع 'dislocated-hip' (vernacular sense).",
+      "consumed_on": "2026-05-30"
+    },
+    {
+      "blau_id": 18594,
+      "landed_as": "twist אלקצבה (Vayikra 1:8+)",
+      "note": "Heb פדר → Ar قصبة 'interior/pluck' (anatomical reframe; adjacent).",
+      "consumed_on": "2026-05-30"
+    },
+    {
+      "blau_id": 14403,
+      "landed_as": "twist אלת'רא (Bamidbar 16:30, 33)",
+      "note": "Heb שאול → Ar الثرى 'the (damp) earth' (demythologizing; Blau: Saadia renders שאול with it בקביעות).",
+      "consumed_on": "2026-06-02"
+    },
+    {
+      "blau_id": 15439,
+      "landed_as": "twist דראדר (Bamidbar 21:14)",
+      "note": "Obscure את והב בסופה → 'breakers of al-Qulzum (Red Sea)' (geographic identification; Blau cites the verse).",
+      "consumed_on": "2026-06-02"
+    },
+    {
+      "blau_id": 17364,
+      "landed_as": "twist מחצ'ר (Bamidbar 6:18, 16:2)",
+      "note": "Cultic מועד / אהל מועד → Ar محضر 'assembly' (de-sacralizing; Blau cites Num 16:2).",
+      "consumed_on": "2026-06-02"
+    }
+  ],
+  "no_cite_audit": {
+    "_method": "2026-05-29 — ran `arabic-lex search <lemma> --dict blau` + `--dict blau` on root for each of the 9 Bereshit saadia-direct-only twist entries.",
+    "hits_patched_into_divergence": [
+      {
+        "lemma_ja": "מסתבחרה",
+        "verse": "Gen 1:2",
+        "blau_evidence": "Blau attests Form X of بحر 'to be covered by water, to overflow' citing Saadia on Bereshit (the creation account) directly. Relation: direct."
+      },
+      {
+        "lemma_ja": "שמשאר",
+        "verse": "Gen 6:14",
+        "blau_evidence": "Blau attests شمشار 'ash-tree / boxwood (Buxus sempervirens)' citing Saadia on Gen 6:14 directly, with Ibn Janāḥ corroborating ('עצי גפר → אלשמשאר'). Relation: direct."
+      }
+    ],
+    "misses_remain_saadia_direct_only": [
+      {
+        "lemma_ja": "ריאח",
+        "verse": "Gen 1:2",
+        "blau_evidence": "Root روح in Blau has Form I 'to depart/get lost/die' and various idioms; no Bereshit-1:2 anchor for the 'winds (pl.) for רוּחַ אֱלֹהִים' reading. The anti-anthropomorphic plural-reading remains our own observation against Lane."
+      },
+      {
+        "lemma_ja": "תהב",
+        "verse": "Gen 1:2",
+        "blau_evidence": "Root هبب not attested in Blau at all (no entry). The 'pairs with ריאח / blows over the waters' reading remains saadia-direct only."
+      },
+      {
+        "lemma_ja": "אטג'אני",
+        "verse": "Gen 3:13",
+        "blau_evidence": "Root طغي not attested in Blau. The 'led me astray / strong moral-transgression sense' reading is our own contrast against Lane and the Qur'anic register."
+      },
+      {
+        "lemma_ja": "אשראף",
+        "verse": "Gen 6:2",
+        "blau_evidence": "Blau's شرف entries cover Forms II/III/IV in supervisory senses ('to oversee / פִּקֵּחַ עַל'), citing Geniza letters and Maimonides Mishnah commentary — not the plural-noun 'nobility' Saadia uses for בְּנֵי הָאֱלֹהִים. The class-based reading remains our own."
+      },
+      {
+        "lemma_ja": "קרדא",
+        "verse": "Gen 8:4",
+        "blau_evidence": "Toponym (Mt. Qardū / Jūdī); Blau does not lemmatize toponyms. The Targumic-Islamic identification is documented in Saadia's own geography but not in the lexicographical tradition Blau catalogs."
+      },
+      {
+        "lemma_ja": "קרבאן",
+        "verse": "Gen 8:21",
+        "blau_evidence": "Root قرب has multiple Form I/II/III senses in Blau (to be likely, to touch, to be sacrificed) but none specifically attest the noun قربان in the substitution Saadia performs at Gen 8:21 (replacing 'aroma' with 'offering' for ריח הניחוח). The double-substitution remains our own reading."
+      },
+      {
+        "lemma_ja": "אתון",
+        "verse": "Gen 11:28",
+        "blau_evidence": "Root أ-ت-ن not attested in Blau as a Saadia-citing entry. The Aramaic loanword (from Daniel 3) and the Bereshit Rabbah 38:13 midrashic identification (Abraham in Nimrod's furnace) are the supporting traditions, not Blau Dict. directly."
+      }
+    ],
+    "phase3_r3_no_blau": [
+      "תגלא (تجلّى, Form V) — new R3 TWIST, sources=[lane, saadia-direct], NO blau-dict: full-text search of the real Blau corpus (blau-judeoarabic) returns 0 hits for every Form V surface (تجلى/تجلّى/تجل/انجلى), 0 for Form II جلّى, and 0 for the Hebrew-script JA surfaces (תג'לי/יתג'לי); the root appears only as Form I (جلو/جلا) in the classical reflect-light / emigrate-exile (גלות/جلاء) / polish senses, none documenting the theophany-manifestation rendering of Heb ירד. saadia-direct + Lane (Q 7:143 Sinai-theophany resonance) ground the entry. Shipped via scripts/apply_phase3_r3_tajalla.py."
+    ],
+    "phase3_r1_no_blau": [
+      {
+        "lemma_ja": "שיאטין",
+        "verse": "Vayikra 17:7",
+        "decision": "Shipped sources=[lane, saadia-direct], NO blau_dict. Heb שעירים ('goat-demons') → Ar الشياطين ('the demons') is an EXEGETICAL identification, not a lexical divergence within Arabic (شيطان = 'demon' is classical). Blau does not lemmatize it. Consistent with the existing demythologizing identification-entries (אשראף, קרדא, אתון — all no-cite). Counts as 1 no-citation in the Vayikra twist mix (1/5 = 20%, within the <=30% bar).",
+        "logged_on": "2026-05-30"
+      },
+      {
+        "lemma_ja": "קצד",
+        "verse": "Bamidbar 6:26",
+        "decision": "Shipped sources=[lane, saadia-direct], NO blau_dict. Heb יִשָּׂא...פָּנָיו ('lift His face') → ויקבל בקצדה ('receive with His intent') is an anti-anthropomorphic EXEGETICAL substitution, not a lexical divergence within Arabic (قصد = 'intent' is classical). Blau does not lemmatize it. Selectivity confirmed: Num 6:25 retains a face-word (ויצ'י וגהה), so 6:26 is a deliberate local anti-anthropomorphism. Consistent with the corpus's other no-cite identification-twists (אשראף, קרדא, שיאטין). Counts as 1 no-citation in the Bamidbar twist mix (1/5 = 20%, within the <=30% bar).",
+        "logged_on": "2026-06-02"
+      },
+      {
+        "lemma_ja": "אעלם",
+        "verse": "Devarim 6:4",
+        "decision": "Shipped sources=[lane, saadia-direct], NO blau_dict. Heb שְׁמַע ('Hear!', the Shema) → Ar اعلم ('Know!') is a rationalist-philosophical EXEGETICAL reframe, not a lexical divergence within Arabic (اعلم = 'know' is classical; the natural calque of שמע would be اسمع). Saadia converts the liturgical proclamation into an epistemic proposition (divine unity as an object of rational cognition, per Emunot ve-Deot), reinforced by the inserted אן 'that'. Blau does not lemmatize it. Consistent with the corpus's other no-cite reframe-twists. Counts as 1 no-citation in the Devarim twist mix (1/5 = 20%, within the <=30% bar).",
+        "logged_on": "2026-06-02"
+      }
+    ]
+  },
+  "shemot": {
+    "skip": [
+      {
+        "blau_id": 14097,
+        "root_ar": "برص",
+        "verse_hint": "Ex 2:23",
+        "reason": "Dirinburg-variant-only reading ('ולקה בצרעת ומת מלך מצרים'); not in baseline Cairo 2019 tafsir-shemot-2.json."
+      },
+      {
+        "blau_id": 13864,
+        "root_ar": "إنطرك",
+        "verse_hint": "Ex 30:34 (?)",
+        "reason": "Tanḥum-routed citation ('תרגם רס״ג לשמות … לפי תנחום, בערכו'); ch:v OCR-corrupted as '٦7:9'. No direct verse anchor in baseline tafsir."
+      },
+      {
+        "blau_id": 15740,
+        "root_ar": "دلا",
+        "verse_hint": "(metalanguage-only)",
+        "reason": "Source SQLite carries only 'note: citation: רס״ג לשמות' — no verse-anchored surface; defer to the Saadia-translation-theory metalanguage pool, not Phase 4."
+      },
+      {
+        "blau_id": 17144,
+        "root_ar": "طوف",
+        "verse_hint": "Ex 14:27-30 / 15:5 / 15:10",
+        "reason": "Blau quotes 'אלמא אטאף עלי פניהם' for ויכס המים (Sea-crossing wave-cover), but Cairo 2019 baseline uses غ-ط-و (ג'טא/אטא) throughout — Ex 14:28 ויכס=וג'טא, 15:5 ג'מר ג'טאהם, 15:10 פג'טאהם אלבחר. Either recension difference or misattributed cite; defer."
+      },
+      {
+        "blau_id": 18436,
+        "root_ar": "قتر",
+        "verse_hint": "Ex 29:13, 29:25",
+        "reason": "Surface present (וקתר ז'אלך עלי' אלמדבח for והקטרת המזבחה) but pure consonantal cognate with Hebrew קטר — Heb ק-ט-ר and Ar ق-ت-ر are direct etymological cousins with identical sense ('to make smoke, burn incense'). No tier-promoting divergence to display."
+      },
+      {
+        "blau_id": 20277,
+        "root_ar": "وشمة",
+        "verse_hint": "Ex 21:6 (cluster: 20277-20280 وشمة/موسم/ميسمة/ميسا)",
+        "reason": "Source-SQLite cluster head; the Shemot citation (Ex 21:6 ורצע אדניו את אזנו = the slave's ear-piercing) actually lives in the sibling root موسم/ميسم ('mark, brand'). The pairing Heb רצע ('awl') ↔ Ar موسم ('branding-iron') reads as a culturally-equivalent tool-substitution (Heb piercing-awl → Ar branding-iron) but is borderline-cognate enough to defer pending a focused Mishpatim-pericope re-walk."
+      }
+    ],
+    "borderline": [
+      {
+        "blau_id": 15549,
+        "root_ar": "دفق",
+        "verse_hint": "Ex 26:14",
+        "open_question": "Blau cites Saadia on Ex 26:14 for 'دهق / دهوق' ('bar for carrying'), but tafsir-shemot-26.json at v.14 uses different lexemes (no bar-language in the covering verse). Either a recension difference or a mis-cite; defer pending cross-check against bar-pericopes (25:13-14, 27:6)."
+      },
+      {
+        "blau_id": 17513,
+        "root_ar": "ضعيف",
+        "verse_hint": "Ex 22:24",
+        "open_question": "Surface (לצ'עיף) and Hebrew anchor (עני) both verified, but the Heb עני → Ar ضعيف pairing is a close register-shift cousin — both root-clusters orbit 'weakness/poverty' so the divergence may be sub-tier. Defer for a tier-judgment re-pass (note: cluster of 4 source rows 17513-17516 maps to a single Blau entry)."
+      },
+      {
+        "blau_id": 19132,
+        "root_ar": "لبن",
+        "verse_hint": "Ex 1:14 / 5:7 / 5:8 / 5:14",
+        "open_question": "Blau explicitly tags the verb لبن ('to mould bricks') as Hebrew-influenced ('השימוש תלוי בעברית המקרא … אינו חלק מאוצר המילים הערבי' per Ibn Janāḥ Shorashim 344). NOTE-tier in principle (denominal verb from a Heb-borrowed noun), but Saadia's Mishnaic-Hebrew-style use throughout Ex 5 is hard to gloss without inverting the bilingual frame for the reader. Defer."
+      }
+    ],
+    "phase3_r2_candidates": [
+      {
+        "blau_id": 14507,
+        "root_ar": "جريحة",
+        "verse_hint": "Ex 8:15",
+        "twist_thesis": "Saadia recasts 'finger of God' (אצבע אלהים) as 'miracle' (גריחה מן ענד אללה) — theological reframe that turns a divine body-part idiom into an abstract event-noun. Paralleled by Qirqisāni (2:303 uses cognate جرائح for biblical 'signs and wonders') per Blau. Shipped in Batch 1 as NOTE-tier; promotion candidate for a future Shemot Phase 3 R2 pass."
+      }
+    ],
+    "cross_book_dupes": [
+      {
+        "blau_id": 14897,
+        "root_ar": "حظاء",
+        "note": "Already shipped as חצ'אא (Gen 39:21) in Bereshit Batch 1. Shemot filter caught on incidental mention of 'ספר אברהם לבראשית ושמות'; all verse-anchored citations in this Blau entry are Bereshit."
+      }
+    ],
+    "_session": "Phase 4 Shemot Batch 1 (apply_phase4_shemot_batch1.py) + Phase 4 Shemot Batch 2 (apply_phase4_shemot_batch2.py)",
+    "_cluster_dupes_logged": [
+      "17350≈17351 (جيب)",
+      "17513≈17514≈17515≈17516 (ضعف cluster, 4 rows)",
+      "17597≈17598 (عرم)",
+      "17999≈18000 (غفر/غفارة)",
+      "18778≈18779≈18780 (قوم cluster, 3 rows)",
+      "19132≈19133≈19134 (لبن cluster, 3 rows)",
+      "19545≈19546≈19547≈19548 (من time-interval cluster, 4 rows)",
+      "20065≈20066≈20067≈20068 (هل Dirinburg cluster, 4 rows)",
+      "20114≈20115≈20116≈20117≈20118 (هاون/هوي cluster, 5 rows)",
+      "20277≈20278≈20279≈20280 (وشمة/موسم cluster, 4 rows, deferred)",
+      "20402-20408 (ولع/ولف/توليف cluster, 7 rows, Ex 36:13 'to couple')"
+    ]
+  },
+  "vayikra": {
+    "skip": [
+      {
+        "blau_id": 13781,
+        "root_ar": "أداء",
+        "verse_hint": "(metalanguage on Lev 6:6)",
+        "reason": "Blau body is meta-discussion of Dirinburg's reading of אזא as 'yield/crop' vs Blau's own counter-reading ('debt'); no verse-anchored Vayikra surface in the Cairo baseline. Defer to translation-theory metalanguage pool."
+      },
+      {
+        "blau_id": 14560,
+        "root_ar": "جسس",
+        "verse_hint": "(Saadia's Form II from Heb לְמַשֵּׁשׁ)",
+        "reason": "Blau body explicitly ARGUES AGAINST the Hebrew-influence hypothesis ('the fact that Saadia brings it from non-Jewish sources weakens the hypothesis that Hebrew גישש influenced the Form-II usage'). Not divergence-grade."
+      },
+      {
+        "blau_id": 14655,
+        "root_ar": "جوز",
+        "verse_hint": "(metalanguage — Karaite/Maimonidean usage)",
+        "reason": "Pure metalanguage about Saadia's syntactic-modal verb 'to be plausible' — not anchored to a Vayikra verse. Defer."
+      },
+      {
+        "blau_id": 14870,
+        "root_ar": "تحصيل",
+        "verse_hint": "(metalanguage — Sefer Yetzirah/Talmudic)",
+        "reason": "Metalanguage on Saadia's translation-theory term 'exact counting'; no Vayikra verse anchor. Defer."
+      },
+      {
+        "blau_id": 15266,
+        "root_ar": "خلة",
+        "verse_hint": "(cross-book metalanguage)",
+        "reason": "Saadia's pronoun-equivalent particle for 'matter/case'; mainly attested in Bereshit + Mishlei. Vayikra mention is incidental. Defer."
+      },
+      {
+        "blau_id": 15559,
+        "root_ar": "دنو",
+        "verse_hint": "(metalanguage on Maimonides + Aramaic-loan discussion)",
+        "reason": "Blau body is about Saadia's Aramaic-influenced verb 'to draw near, to touch'; not anchored to a specific Vayikra verse. Defer to broader cross-book pass."
+      },
+      {
+        "blau_id": 15787,
+        "root_ar": "رشم",
+        "verse_hint": "(no clear Vayikra anchor — possibly Lev 19:28 קעקע)",
+        "reason": "Body discusses 'sign, mark, tattoo' across Maimonides, Tanḥum; cited 'sign' surface but no clean Vayikra verse-anchor in the Blau body. Defer pending re-mining."
+      },
+      {
+        "blau_id": 15824,
+        "root_ar": "رفق",
+        "verse_hint": "Lev 25:3 (overlaps with 15954 زبر)",
+        "reason": "Saadia's Aramaic-influenced 'to prune' for Heb זמר at Lev 25:3 — but the Blau body shows competing readings (Saadia uses both رفق at Isa 5:6 and زبر at Lev 25:3). Manuscript-variant ambiguity; defer pending recension-survey."
+      },
+      {
+        "blau_id": 16131,
+        "root_ar": "ستر",
+        "verse_hint": "(metalanguage on marriage-gifts)",
+        "reason": "Blau's primary attestations are in Maimonides + Geniza marriage-document Arabic for 'wedding-gifts'; not anchored to a Vayikra verse despite the lemma being in the candidate pool. Defer."
+      },
+      {
+        "blau_id": 16407,
+        "root_ar": "سوغ",
+        "verse_hint": "Lev 22:21 (unclear)",
+        "reason": "Blau body explicitly notes 'I do not understand the connection of this term to הבדלה והפרשה' at Lev 22:21 — i.e., Blau himself flags the cited divergence as obscure. Defer pending tafsir-side analysis."
+      },
+      {
+        "blau_id": 16820,
+        "root_ar": "مصففة",
+        "verse_hint": "Lev 24:7 מערכת",
+        "reason": "Blau quotes 'ושים על המערכת לבנה אלמצפפ' לבאנא' but the Cairo 2019 baseline uses 'אגעל עלי כל צף לבאנא' (with masc. צף not fem. מצפפ). Recension difference — Blau's text is closer to Dirinburg's edition than to Cairo 2019. Defer pending edition-comparison."
+      },
+      {
+        "blau_id": 16869,
+        "root_ar": "صمغ",
+        "verse_hint": "Lev 16:12 קטרת ספים",
+        "reason": "Pure consonantal cognate — Heb צ-מ-ג and Ar ص-م-غ both = 'resin, fragrant exudate'. No tier-promoting divergence to display."
+      },
+      {
+        "blau_id": 17953,
+        "root_ar": "غريبة / غويب / غرابيب",
+        "verse_hint": "Lev 11:15 עורב",
+        "reason": "Heb עורב ↔ Ar غراب is a direct etymological cognate (both o/g-r-b roots, both 'raven/crow'). Saadia's specific spelling غرابيب is a register-variant, not a divergence. Skip."
+      },
+      {
+        "blau_id": 18463,
+        "root_ar": "قدس",
+        "verse_hint": "Lev 27:14 והקדיש",
+        "reason": "Direct cognate — Heb ק-ד-ש ↔ Ar ق-د-س both = 'holy, sanctified'. The cluster head + 5 derivative-form rows (18464-18468) all reflect the same cognate-direct equivalence. No divergence to display."
+      },
+      {
+        "blau_id": 18995,
+        "root_ar": "كل family (كل / كلل / كلول / كلما)",
+        "verse_hint": "Lev 25:14 אל תונו איש את אחיו",
+        "reason": "6-row cluster on the quantifier-particle كل rendering Heb אִישׁ (indefinite). Grammar-particle territory, not technical-vocabulary divergence. Defer (would need a separate grammar-particle methodology to ship)."
+      },
+      {
+        "blau_id": 19861,
+        "root_ar": "نفذ (cluster 11 rows)",
+        "verse_hint": "Lev 26:30 והשמדתי",
+        "reason": "The cited verse (Lev 26:30) is MISSING from data/tafsir-vayikra-26.json (chapter file jumps from v.29 to v.31). No baseline JA surface available to verify Saadia's אנפד reading. Defer pending Cairo edition-fill."
+      },
+      {
+        "blau_id": 20398,
+        "root_ar": "وليمة / ولي",
+        "verse_hint": "Lev 19:4 אל תפנו אל",
+        "reason": "Cluster of 2 rows on Ar ولى ('to turn away/toward'). Heb פנה אל ↔ Ar ولى إلى is a fairly direct semantic-cognate pairing — both 'turn toward'. The Form-II surface (לא תולו אלי) is interesting but borderline-cognate, not tier-promoting. Defer."
+      }
+    ],
+    "borderline": [
+      {
+        "blau_id": 17407,
+        "root_ar": "خمع",
+        "verse_hint": "Lev 21:18 שרוע",
+        "open_question": "Saadia renders Heb שָׂרוּעַ (a vague priestly-disqualifying physical defect — 'distorted, splayed') with the precise Arabic medical term خمع ('dislocated hip'). Surface (ואלכ'אמע) and Hebrew anchor (שרוע) both verified. Tier-grade NOTE candidate but cut from this batch's 5-NOTE cap; promote in Batch 2 alongside the priestly-disqualification cluster (Lev 21:18-23 has 6 more body-defect terms worth a coordinated pass)."
+      },
+      {
+        "blau_id": 18594,
+        "root_ar": "قصبة",
+        "verse_hint": "Lev 1:8 פדר",
+        "open_question": "Saadia renders Heb פֶּדֶר ('suet/caul-fat over kidneys') with Ar قصبة ('reed, then metonymically interior-of-body, viscera'). Surface (אלקצבה) and Hebrew anchor (הפדר) both verified — strong NOTE-grade body-cavity metonymic extension. Cut from this batch's 5-NOTE cap; promote in Batch 2 alongside other sacrificial-anatomy entries."
+      },
+      {
+        "blau_id": 19142,
+        "root_ar": "لج",
+        "verse_hint": "Lev 14:10 ולג שמן",
+        "open_question": "Saadia retains Hebrew לֹג ('a liquid measure') as-is in JA — לג דהן — rather than translating to an Arabic measure-equivalent. Heb-loanword retention for technical-cultic measures is a NOTE-grade phenomenon (parallels the Persian-loan מרזבאן shipped in Shemot Batch 2). Cut from this batch's 5-NOTE cap; promote in Batch 2 as a measure-vocabulary entry."
+      },
+      {
+        "blau_id": 19427,
+        "root_ar": "مسوحية",
+        "verse_hint": "Lev 8:2, 8:10 שמן המשחה",
+        "open_question": "Saadia renders Heb שֶׁמֶן הַמִּשְׁחָה ('oil of anointing') with דהן אלמסוחייה — using the Aramaic-Syriac-influenced abstract-noun form مسوحية rather than standard Arabic مسحة. Strong calque-style NOTE candidate. Cut from this batch's 5-NOTE cap; promote in Batch 2 alongside Mishkan-vocabulary cross-references."
+      }
+    ],
+    "_cluster_dupes_logged": [
+      "13781 (أداء — single head, no cluster)",
+      "17302≈17303≈17304≈17305≈17306≈17307 (ثلول/فغلول cluster, 6 rows on Lev 13:38 יבלת — manuscript-variant only)",
+      "17381≈17382≈17383≈17384 (حوز/إحازة/حيز/حائز cluster, 4 rows; head 17381 shipping)",
+      "17407≈17408 (خمع/خمن cluster, 2 rows; deferred to borderline)",
+      "17953≈17954≈17955 (غريبة/مغرب/غويب cluster, 3 rows)",
+      "17999≈18000 (غفر/غفارة cluster, 2 rows; head 17999 shipping)",
+      "18190≈18191 (فركة/فريك cluster, 2 rows; head 18190 shipping)",
+      "18378≈18379 (فيضة/فائض cluster, 2 rows; cut at-cap)",
+      "18463≈18464≈18465≈18466≈18467≈18468 (قدس family cluster, 6 rows — cognate, skipped)",
+      "18995≈18996≈18997≈18998≈18999≈19000 (كل family cluster, 6 rows — grammar-particle, skipped)",
+      "19427≈19428 (مساحة/مسوحية cluster, 2 rows; deferred to borderline)",
+      "19861≈19862≈19863≈19864≈19865≈19866≈19867≈19868≈19869≈19870≈19871 (نفذ family cluster, 11 rows — Lev 26:30 missing in baseline)",
+      "20398≈20399 (وليمة/ولي cluster, 2 rows — cognate, skipped)"
+    ],
+    "_session": "Phase 4 Vayikra Batch 1 (apply_phase4_vayikra_batch1.py)"
+  },
+  "bamidbar": {
+    "skip": [
+      {
+        "blau_id": 14196,
+        "root_ar": "بكر",
+        "verse_hint": "Num 1:20 בכר ישראל / 3:2 הבכר / 3:12-13 בכור",
+        "reason": "Direct cognate Heb בכור ~ Ar بكر 'firstborn'; Saadia uses بكر invariantly. Trivial cognate-pair, no semantic-field divergence."
+      },
+      {
+        "blau_id": 14286,
+        "root_ar": "بيذر",
+        "verse_hint": "Num 15:20 (Blau citation: 'תאג' גדול בזאון')",
+        "reason": "No surface attestation of בידר/بيذر in the Bamidbar 15:20 tafsir; Saadia must use a different rendering for ראשית עריסותיכם. The citation appears to be a Lane/Tāj cross-reference, not a Saadia-direct anchor."
+      },
+      {
+        "blau_id": 14347,
+        "root_ar": "ترك",
+        "verse_hint": "Num 10:31 'אל נא תעזב' / 20:21 'יתרך' / 32:15 'תרכהם'",
+        "reason": "Generic cognate-direct rendering of עזב/נטש 'to leave'; Saadia uses ترك uniformly. The Blau body excerpt foregrounds an idiom (تركه يفعل 'leave him to do') that's not paradigm-shifting in the Bamidbar attestations."
+      },
+      {
+        "blau_id": 15295,
+        "root_ar": "خلاف",
+        "verse_hint": "Methodology citation (Ibn Janāḥ, Sa'adia metalanguage, Daniel commentary)",
+        "reason": "No JA-surface attestation in Bamidbar tafsir for the כלאף/خلاف headword; the Blau citation is methodological (Saadia's 'variant-reading' or 'different rendering' frame) rather than a Bamidbar-anchored lexical choice."
+      },
+      {
+        "blau_id": 17395,
+        "root_ar": "خدم",
+        "verse_hint": "Num 8:25 'ולא יעבד עוד' = ולא יכ'דם אבדא",
+        "reason": "Saadia's standard rendering of priestly/cultic עבד with خدم is well-established (45+ Bamidbar attestations) but reflects a routine semantic-split (Heb עבד covers slave-labor + priestly-service + general-work; Ar narrows to خدم for attendant-service). Not paradigm-shifting; standard Arabic semantic field-split, not a Saadia coinage."
+      },
+      {
+        "blau_id": 17430,
+        "root_ar": "رأس",
+        "verse_hint": "Num 10:10 'ובראשי חדשיכם' = ורוס שהורכם",
+        "reason": "Direct cognate Heb ראש ~ Ar رأس in the 'head/first/start' construct-of-time idiom; no semantic-field divergence at the cited verse."
+      },
+      {
+        "blau_id": 17639,
+        "root_ar": "عشر",
+        "verse_hint": "Num 26:42 'למשפחתם' (numerical-counting context)",
+        "reason": "Direct cognate Heb עשר ~ Ar عشر 'ten / count-of-ten'; the Blau body excerpt foregrounds a counting-locution at the family-census verse, but the rendering is cognate-direct without semantic-field shift."
+      },
+      {
+        "blau_id": 17640,
+        "root_ar": "عشريني",
+        "verse_hint": "Num 26:42 (variant of 17639)",
+        "reason": "Variant of 17639; no separate Bamidbar attestation of the headword עשריני (the bare-numerical 'twenty / vigesimal' substantive doesn't surface in the Bamidbar tafsir)."
+      },
+      {
+        "blau_id": 19633,
+        "root_ar": "نحص",
+        "verse_hint": "Num 18:23 'ולא ינחלו נחלה'",
+        "reason": "No surface attestation of נחצ/نحص in the Bamidbar 18:23 tafsir; Saadia uses نحل directly (cognate). The 17633 headword is likely a Blau-internal manuscript-variant cross-reference, not an independent reading."
+      },
+      {
+        "blau_id": 19634,
+        "root_ar": "نحل",
+        "verse_hint": "Num 18:23 'ולא ינחלו נחלה' = לא ינחלו נחלה",
+        "reason": "Direct cognate Heb נחל ~ Ar نحل in the 'inherit' Form I; the Form II causative for הנחיל (Deut 1:38 etc., not Bamidbar-anchored) would be the more interesting reading, but at Num 18:23 the surface is direct-Form-I cognate."
+      },
+      {
+        "blau_id": 19635,
+        "root_ar": "نحلة",
+        "verse_hint": "Num 18:23-24 'נחלה' substantive",
+        "reason": "Direct cognate substantive Heb נחלה ~ Ar نحلة 'inheritance, bequest'; cognate-pair, no semantic-field divergence."
+      },
+      {
+        "blau_id": 19861,
+        "root_ar": "تنغيم / nfd family (11 rows)",
+        "verse_hint": "Num 33:52 'והאבדתם את כל משכיותם' (Blau cluster cites Lev 26:30 + Num 33:52 + Deut 7:10 + Ps 37:38)",
+        "reason": "11-row cluster (blau_ids 19861-19871) covering the nfd/nfx family ('to destroy, exterminate, blow-out'); Vayikra B1 already deferred this cluster because Lev 26:30 was missing from the tafsir chapter file. The Bamidbar attestation at Num 33:52 doesn't surface אנפד/أنفذ on a normalized scan — Saadia uses different rendering (probably تَخْريب or similar). Reasonable to keep deferred until a coordinated cluster-revisit. The single Num 5:2 hit on ינפו ('shall send-away the unclean from the camp', Form IV of نفي 'to exile') is the unrelated 'exile/banish' homograph, not the destruction-frame Blau cites."
+      },
+      {
+        "blau_id": 20392,
+        "root_ar": "وكاية",
+        "verse_hint": "Num 21:18 (handled — SHIPPED as gloss; entry above)",
+        "reason": "Promoted to NEW_ENTRIES — see lemma וכאיה above."
+      }
+    ],
+    "borderline": [],
+    "_cluster_dupes_logged": [
+      "17639≈17640 (عشر/عشريني cluster, 2 rows — cognate-direct numerical, both SKIP)",
+      "18162≈18163 (فرص/فرصم cluster, 2 rows — 18162 SHIPPED as gloss פרצן; 18163 is the headword-variant)",
+      "19633 + 19634 + 19635 (نحص/نحل/نحلة cluster, 3 rows — inheritance-vocabulary, all SKIP cognate)",
+      "19861-19871 (nfd family, 11 rows — already cluster-deferred from Vayikra B1)",
+      "סלאמה chieftain-dedication cluster (Num 7:17-83 = 12 verses) — collapsed to 1 representative anchor (7:17) in promote-in-place to avoid array bloat",
+      "ד'כוה chieftain-dedication cluster (Num 7:16-82 = 12 verses) — collapsed to 1 representative anchor (7:16) in promote-in-place"
+    ],
+    "_session": "Phase 4 Bamidbar Batch 1 (apply_phase4_bamidbar_batch1.py)"
+  },
+  "devarim": {
+    "skip": [
+      {
+        "blau_id": 13983,
+        "root_ar": "أول",
+        "verse_hint": "Deut 13:10 בראשונה = אוול",
+        "reason": "Direct adverbial cognate; Heb ראשון/בראשונה ~ Ar أول. Standard temporal-ordinal pairing without semantic-field divergence at the cited Devarim verse."
+      },
+      {
+        "blau_id": 14868,
+        "root_ar": "حصر",
+        "verse_hint": "Blau cites Ex 30:12 (כי תשא); no Devarim-anchored attestation in the body excerpt.",
+        "reason": "Blau body excerpt foregrounds Ex 30:12 (כי תשא) and Ibn Janāḥ's grammatical methodology, not a Devarim-anchored lexical choice. No Devarim verse to verify."
+      },
+      {
+        "blau_id": 15084,
+        "root_ar": "خبر",
+        "verse_hint": "Methodology citation (Sefer ha-Shetarot, Qirqisani)",
+        "reason": "No Devarim attestation in the body excerpt; the citations are metalanguage (fact-of-the-matter / matter / tradition) drawn from Saadia's halakhic-juridical writings, not the Devarim tafsir."
+      },
+      {
+        "blau_id": 15118,
+        "root_ar": "خدع",
+        "verse_hint": "Blau cites Ex 22:15 (כי יפתה איש בתולה) + Proverbs; no Devarim verse anchor.",
+        "reason": "The body cites Ex 22:15 (פיתוי בתולה) and Prov 1:10 (פיתוי בנים) as the canonical Saadyan attestations. No Devarim-cited verse in the body excerpt. Possible Deut 13:7 (יסיתך) attestation but not surfaced in this candidate's citation lines."
+      },
+      {
+        "blau_id": 15403,
+        "root_ar": "دجن",
+        "verse_hint": "Deut 4:13, 11:14, 12:17, 14:23, 18:4, 28:51, 33:28 (דגן, 7 verses)",
+        "reason": "Blau's headword دجن is MISATTRIBUTED for the Saadia surface — Saadia consistently uses Ar بَرّ ('wheat, grain', cognate of Heb בָּר 'pure-grain') across all 7 Devarim דגן-attestations, not دجن. The Blau citation appears to follow a Tanḥum-cluster manuscript-variant reading, but the Cairo 2019 surface uniformly shows ברّ. Defer to a future re-mining as a separate בَّر / دجن opposition entry once the manuscript-tradition split is clarified."
+      },
+      {
+        "blau_id": 16765,
+        "root_ar": "صحراء",
+        "verse_hint": "Deut 14:22 השדה = אלצחרא",
+        "reason": "Direct sense-pairing for the generic field/wilderness substantive; Heb שדה (here in the construct 'product-of-the-field' for tithe) → Ar الصحراء (the standard Arabic field-or-wilderness substantive). No semantic-field divergence; the body excerpt notes Saadia uses the same word for both שדה and חוצות."
+      },
+      {
+        "blau_id": 17158,
+        "root_ar": "طول",
+        "verse_hint": "Deut 32:39 מחצתי",
+        "reason": "Blau body cites Deut 32:39 but the Arabic root طول 'to be long, to extend' isn't the surface choice for מחצתי ('I struck'); the citation is methodological (Saadia's frequent use of طول-derivatives) rather than a Deut-32:39-anchored substitution. Standard cognate."
+      },
+      {
+        "blau_id": 17212,
+        "root_ar": "عتق",
+        "verse_hint": "No Devarim-anchored attestation; references to halakhic 'three things' (Heb דברים) misparsed.",
+        "reason": "Body excerpt's 'דברים' references are to Heb דברים = 'things/matters' (in the rabbinic 'three things by which a slave is freed' formula), NOT the Book of Deuteronomy. No actual Devarim verse cited."
+      },
+      {
+        "blau_id": 17256,
+        "root_ar": "عدا",
+        "verse_hint": "No Devarim citation in body",
+        "reason": "Standard preposition meaning 'except, beyond'; the body's references are to Pirqei De-Rabbi Eliezer and Avot literature, not Devarim. No Devarim attestation to verify."
+      },
+      {
+        "blau_id": 18454,
+        "root_ar": "قدح",
+        "verse_hint": "Deut 32:22 כי אש קדחה באפי = אן 00 (קד) קדחת באפי / אלנאו תנקדח",
+        "reason": "Direct cognate; Heb קדח ('to burn, kindle') ~ Ar قدح. Saadia retains the cognate verb. No semantic-field divergence at the cited Deut 32:22."
+      },
+      {
+        "blau_id": 18455,
+        "root_ar": "قوس قدح",
+        "verse_hint": "Bow + قدح cluster head; same Deut 32:22 citation",
+        "reason": "Cluster head of 18454 (קדח); same direct-cognate verdict applies. The rainbow-noun قوس قدح surfaces in Bereshit 9 (which is already in scope), not Devarim."
+      },
+      {
+        "blau_id": 18456,
+        "root_ar": "قدر",
+        "verse_hint": "Same Deut 32:22 cluster (mis-clustered to 18454)",
+        "reason": "Cluster artifact; the Blau citation block in the candidate row is the 18454 קדח block. قدر ('to estimate, appraise') is unrelated and doesn't surface at Deut 32:22."
+      },
+      {
+        "blau_id": 18694,
+        "root_ar": "مقلب",
+        "verse_hint": "Deut 29:22 כמהפכת סדם (likely)",
+        "reason": "Heb מהפכה (Sodom-overthrow noun) → Ar مقلب; Saadia uses the cognate Form II-passive imitation of the Heb mishkal. Already covered by the existing Bereshit-19 Sodom-narrative anchor; the Deut 29:22 attestation is a back-reference to the same lexical choice, not a new paradigm."
+      },
+      {
+        "blau_id": 18778,
+        "root_ar": "بمقامهم",
+        "verse_hint": "Deut 5:15 ולזאלך אמרך אן תקים פי יום אלסבת",
+        "reason": "Standard cognate position-vocabulary; Heb קום (in 'observe the Sabbath' rendering) ~ Ar قام Form I 'to observe (a religious duty)'. The Saadyan choice مَقَام / تَقُوم for קום-derivatives is a routine institutional-religious cognate without paradigm-shifting semantic-field divergence."
+      },
+      {
+        "blau_id": 18779,
+        "root_ar": "مقام",
+        "verse_hint": "Same Deut 5:15 cluster (18778)",
+        "reason": "Cluster head of 18778; same direct-cognate verdict applies. مقام as 'station/rank' is the standard Arabic position-noun."
+      },
+      {
+        "blau_id": 18780,
+        "root_ar": "قوم",
+        "verse_hint": "Same Deut 5:15 cluster (18778)",
+        "reason": "Cluster head of 18778-18779; same direct-cognate verdict applies. قوم Form I 'to confirm, observe' is the standard Arabic institutional-religious verb."
+      },
+      {
+        "blau_id": 18889,
+        "root_ar": "تكرير",
+        "verse_hint": "No Devarim verse anchor (Qirqisani metempsychosis cite)",
+        "reason": "Blau body excerpt cites Qirqisani's discussion of transmigration-of-souls (تكرير) plus Psalms 31:11; the Devarim references in the cluster are to Heb דברים = 'things' (in the philosophical discourse), not the Book of Deuteronomy. No Devarim attestation."
+      },
+      {
+        "blau_id": 18890,
+        "root_ar": "كرب",
+        "verse_hint": "Same 18889 cluster",
+        "reason": "Cluster head of 18889; same no-Devarim-attestation verdict. كرب 'to be worried, distressed' isn't a Devarim-surface choice."
+      },
+      {
+        "blau_id": 19325,
+        "root_ar": "ما",
+        "verse_hint": "Deut 8:16 (אשר לא יעדון אבותיך = מא לם יערפה אבאיך)",
+        "reason": "Standard relative-clause particle ('that which / what'); ما is the obvious Arabic correspondent for אשר and the substitution is grammatically routine. No semantic-field divergence; trivial particle-mapping."
+      },
+      {
+        "blau_id": 19636,
+        "root_ar": "نتج (cluster head, 14 rows 19636-19649)",
+        "verse_hint": "Deut 3:5 ובריח = ונגור (the cluster citation footprint)",
+        "reason": "14-row cluster (نتج / نتر / منتور / نتن / نتو / نتي / نثث / نثر / نجاب / نجر / نجور / نجار / نجز) all citing Deut 3:5 ובריח 'and bar/bolt'. Saadia uses نجور ('bolts') for ברִיחַ at Deut 3:5 — a non-cognate substantive substitution (cognate Heb-Ar path would be بَرٌ — but برّ already serves 'grain'). Tier-grade GLOSS borderline but cluster-deferred at cap; revisit in Batch 2 if needed."
+      },
+      {
+        "blau_id": 19861,
+        "root_ar": "تنغيم / nfd family (11 rows)",
+        "verse_hint": "Deut 7:10 ומשלם לשנאיו אל פניו להאבידו = לאנפאזה (Form IV inf.)",
+        "reason": "11-row cluster (blau_ids 19861-19871) covering the nfd/nfx family ('to destroy, exterminate, blow-out'); already deferred from Vayikra B1 (Lev 26:30 was missing from the tafsir chapter file) AND from Bamidbar B1 (Num 33:52 doesn't surface the destruction-frame). At Deut 7:10 Saadia uses لانفاذه (Form IV infinitive: 'to bring it to completion/utter end' — extermination), which IS the canonical انفذ destruction-frame Blau cites. Worth re-mining the cluster head in Phase 3 R2 to consolidate the cross-book destruction-vocabulary at the انفذ entry-level."
+      },
+      {
+        "blau_id": 19950,
+        "root_ar": "نهاية",
+        "verse_hint": "Deut 18:8 (Phase 3 R2 metalanguage 'wisdom')",
+        "reason": "نهاية ('wisdom, completeness') is mostly a metalinguistic-philosophical noun, not Saadia's Devarim 18:8 surface choice. The Devarim citation in the body block refers to 18:8 ממכריו, but the surface Saadia uses is אלנווב 'priestly duty-rotation' (= 19954 نوبة article-head — see borderline below)."
+      },
+      {
+        "blau_id": 19951,
+        "root_ar": "ناهيك",
+        "verse_hint": "Cluster of 19950",
+        "reason": "Cluster head of 19950; particle 'much more (he)' isn't Saadia's choice for Deut 18:8. Same skip-reason as 19950."
+      },
+      {
+        "blau_id": 19952,
+        "root_ar": "نوء",
+        "verse_hint": "Storm; not a Devarim 18:8 candidate",
+        "reason": "نوء ('storm, tempest') is unrelated to the Deut 18:8 priestly-rotation context. The cluster artifact links it via shared body-text but the actual lemma is 19954 نوبة 'duty-rotation' (see borderline)."
+      },
+      {
+        "blau_id": 19953,
+        "root_ar": "ناب",
+        "verse_hint": "Verb 'to replace, to be allotted'; partial match to Deut 18:8",
+        "reason": "Cluster artifact; ناب 'to follow in place of, to be allotted as one's share' is loosely linked to the Deut 18:8 priestly-portion theme but the surface lexical choice is the related substantive نوبة (see 19954 borderline), not the verb."
+      },
+      {
+        "blau_id": 20003,
+        "root_ar": "يده / نال",
+        "verse_hint": "Deut 16:10 מסת נדבת ידך = מקדאר מא תנאל ידך",
+        "reason": "Standard idiomatic-substitution; Heb 'measure of the freewill-offering of your hand' → Ar 'as your hand attains/reaches'. The Arabic verb نال 'to obtain, attain' is the cognate-near substitute (Heb נאל / נחל overlapping cognates). The substitution is routine for the 'gift-from-hand' idiom; not paradigm-shifting."
+      }
+    ],
+    "borderline": [
+      {
+        "blau_id": 18619,
+        "root_ar": "قضى / Form VIII اقتضى",
+        "verse_hint": "Deut 15:2 לא יגש (creditor) = פלא יקתצ'י (Form VIII 'demand-payment')",
+        "open_question": "Saadia routes the Heb נגש ('to exact a debt', the creditor's pressure-verb) through Ar Form VIII اقتضى ('to demand-payment, to call-in a debt') — preserving the legal-creditor semantic field via a specifically-legal Arabic verb. Strong NOTE candidate (single-verse but pairs with the יסיב shemittah-release entry as the creditor's complementary action). Cut at the 5-NOTE cap for Devarim B1; promote in Batch 2 alongside the broader Deut 15 release-law cluster."
+      },
+      {
+        "blau_id": 19379,
+        "root_ar": "ممد اليد",
+        "verse_hint": "Deut 23:21 משלח ידך = ממד ידך (calque idiom 'outstretching of the hand')",
+        "open_question": "Strong calque-idiom candidate: Heb construct משלח-יד ('outstretching-of-hand', the standard biblical idiom for 'undertaking, livelihood') gets rendered with the Ar calque ممد اليد ('extending-of-the-hand'). The 23:21 attestation is the only clean noun-calque surface — Deut 15:10 uses the verbal-phrase form (תמד אליה ידך) rather than the noun-calque. GLOSS-borderline cut at the 4-GLOSS cap; promote in Batch 2."
+      },
+      {
+        "blau_id": 19954,
+        "root_ar": "نوبة",
+        "verse_hint": "Deut 18:8 ממכריו על האבות = מן אלנווב (priestly duty-rotation exegesis)",
+        "open_question": "Striking exegetical reframe: Heb ממכריו (Deut 18:8's notoriously obscure 'his sale-proceeds' or 'his patrimony' — an etymologically-disputed noun) → Ar אלנווב 'the priestly duty-rotations (مَشَامِر الكهانة)'. Saadia adopts the rabbinic-Sifrei interpretation that the verse refers to the priestly-משמרות rotation-shift system, then translates accordingly with the Arabic equivalent. NOTE-borderline because it's an EXEGETICAL choice (adopting a rabbinic gloss) more than a LEXICAL twist; cut at the 5-NOTE cap; promote if/when Phase 3 R2 surfaces a coherent exegetical-tradition-anchor cluster."
+      },
+      {
+        "blau_id": 19775,
+        "root_ar": "Form VI تناصى / נצול",
+        "verse_hint": "Deut 25:11 וינצו אנשים = ואן תנאציאן רגלאן (Form VI of نصو 'to quarrel mutually')",
+        "open_question": "Form VI mutual-reciprocity calque for the dual-conflict verb: Heb נצה (Niphal 'to quarrel') → Ar Form VI تناصى — the choice is morphologically interesting because Form VI explicitly marks the MUTUAL/RECIPROCAL dimension that the Heb Niphal leaves implicit. GLOSS-borderline candidate cut at cap; the morphological-mirroring criterion fits the מחפצה precedent from Bamidbar B1 well, so worth promoting in Batch 2."
+      }
+    ],
+    "_cluster_dupes_logged": [
+      "14907 + 14928 (حفز/حفز cluster, 2 rows — both promote-in-place to בחפז, see PROMOTE_IN_PLACE)",
+      "17953-17955 (غريبة/مغرب/غويب cluster, 3 rows — 17953-cluster-head SHIPPED as gloss גראביב)",
+      "18454-18456 (قدح/قوس قدح/قدر cluster, 3 rows — direct-cognate SKIP)",
+      "18519-18520 (قرض/قرضة cluster, 2 rows — 18519 SHIPPED as note אקרץ', 18520 is verbal-noun variant)",
+      "18615-18619 (قصو/قضض/قضاض/قضب/قضيب cluster, 5 rows — 18615 SHIPPED as gloss אתקצא, 18619 → borderline as יקתצ'י, others SKIP)",
+      "18778-18780 (بمقامهم/مقام/قوم cluster, 3 rows — all SKIP cognate-direct)",
+      "18889-18890 (تكرير/كرب cluster, 2 rows — both SKIP no-Devarim-anchor)",
+      "19342-19343 (متيع/ممتع cluster, 2 rows — 19343 SHIPPED as note ממתעה, 19342 is masc.-form variant)",
+      "19378-19381 (مادي/ممد/ممدود/مدجة cluster, 4 rows — 19379 → borderline as ממד יד, 19378+19380+19381 are variant headwords)",
+      "19636-19649 (نتج/نتر/منتور/.../نجز 14-row cluster — all cluster-deferred at Deut 3:5 ונגור; revisit for cross-book GLOSS in Phase 3 R2)",
+      "19861-19871 (nfd family 11 rows — already deferred from Vayikra B1 + Bamidbar B1; Deut 7:10 לאנפאזה IS the canonical destruction-frame; consolidate at cluster-head in Phase 3 R2)",
+      "19950-19954 (نهاية/ناهيك/نوء/ناب/نوبة cluster, 5 rows — 19954 → borderline as נווב, others SKIP)",
+      "20003-20005 (يده/نيلي/نيل cluster, 3 rows — 20003 SKIP, 20004+20005 are not Saadia-surface for Deut 21:17 either; the Ja uses bare aval and nayl as routine idiom-noun)"
+    ],
+    "_session": "Phase 4 Devarim Batch 1 (apply_phase4_devarim_batch1.py)"
+  },
+  "phase3_r2": {
+    "batch1": {
+      "skip": [
+        {
+          "lemma": "שא",
+          "verse_hint": "Vayikra 22:18, 22:21, 27:13, 27:15, 27:19; Devarim 18:6",
+          "reason": "Homograph: Ar شاء ('to will') is a generic high-frequency verb. Saadia's TWIST covers the anti-anthropomorphic creation register (Heb וַיֹּאמֶר אֱלֹהִים יְהִי X → Saadia: 'the deity *willed* X' at Gen 1:3-24). The Vayikra hits all carry the human-volitional sense (man wills to bring an offering at Lev 22:18, 22:21; man wills to redeem at Lev 27:13-19), and the Devarim 18:6 hit carries the same human-volitional register ('when he wills'). None of these extends the divine-creation-via-willing claim, so they are not in-scope for promote-in-place."
+        },
+        {
+          "lemma": "גלד",
+          "verse_hint": "Vayikra 11:32, 13:2-48, 15:17 (11 verses, leprosy + skin/hide laws)",
+          "reason": "Homograph: Ar جلد carries the classical 'skin/hide' sense (literal-objective). Saadia's TWIST is specifically about the calque-EXTENSION of جلد from 'skin' (classical) to 'firmness/firmament' (Saadia's reading of Heb רָקִיעַ at Gen 1:6-20). The Vayikra Lev 11/13/15 attestations all use جلد in the classical literal-skin sense (skin-as-leprosy-substrate, skin-as-garment-material). The TWIST mechanism explicitly hinges on the SEMANTIC STRETCH from skin → firmness; verses where Saadia uses the unstretched classical sense don't extend the calque-claim and are not in-scope for promote-in-place."
+        },
+        {
+          "lemma": "חאכם",
+          "verse_hint": "Shemot 21:6, 22:7, 22:8; Devarim 17:9, 17:12, 21:19, 22:15, 25:2, 25:7",
+          "reason": "Homograph: bare חאכם / אלחאכם is the standard judicial-administrative noun for '(the) judge' across Saadia's tafsir of legal-administrative passages. The חאכמא TWIST entry is specifically about the CIRCUMSTANTIAL-ACCUSATIVE PARTICIPLE (حاكمًا with tanwīn) inserted into divine speech-acts to avoid anthropomorphism — a syntactic-deployment of the participle, not the bare noun usage. The 9 Shemot/Devarim hits are all bare-noun judicial usages (Ex 21:6 'bring him to the judge'; Deut 17:9 'go to the priests and to the judge'); the divine-speech-act register is structurally distinct (see Phase 4 Devarim B1 session notes line 158-160 for the explicit register-distinction). Vayikra 20:24 IS the divine-speech-act register attestation and is shipped (see PROMOTE_IN_PLACE above). The judicial-vocabulary cluster is a candidate for a separate NEW NOTE entry in Phase 4 Vayikra/Devarim B2 — out-of-scope for promote-in-place R2.",
+          "status": "RESOLVED 2026-05-30",
+          "resolution": "Shipped as NOTE אלחאכם via apply_phase4_vayikra_devarim_batch2.py: 9 bare-noun judicial verses (Ex 21:6, 22:7, 22:8; Deut 17:9, 17:12, 21:19, 22:15, 25:2, 25:7) covering Saadia's collapse of three Hebrew judicial terms (הָאֱלֹהִים / הַשֹּׁפֵט / הַשַּׁעַר) onto the single Arabic noun אלחאכם. sources=[lane, saadia-direct, blau-dict] (relation=adjacent — Blau attests the judicial verb, not the bare noun; mirrors the חאכמא TWIST). Distinct register from the divine-speech-act participle of the חאכמא TWIST."
+        },
+        {
+          "lemma": "אורד (noun-surface hits)",
+          "verse_hint": "Shemot 25:30 (מוגהא 'presented' showbread); Devarim 23:15, 24:1 (אמרא 'a matter')",
+          "reason": "Homograph: the search set for אורד includes variants 'אמרא' and 'מוגהא' (since the TWIST's mechanism centers on the idiom 'amr muwajjah' = 'directed command'). The Shemot 25:30 hit (לֶחֶם פָּנִים תָּמִיד = כ'בזא מוגהא בין ידיי דאימא) uses מוגהא in the NOUN sense 'presented/turned-toward' (the showbread is 'presented' before the divine presence); the Devarim 23:15 and 24:1 hits use אמרא in the generic 'matter/thing' sense (קביחא = a wicked thing). Neither is the Form-IV dispatch-verb register of the TWIST; both are unrelated noun usages."
+        },
+        {
+          "lemma": "אלממתעה",
+          "verse_hint": "Devarim 23:18",
+          "reason": "DUPLICATE COLLISION: Phase 4 Devarim Batch 1 (shipped 2026-05-29) created a separate NOTE entry with lemma_ja=ממתעה covering Deut 23:18 (the cult-prostitute prohibition). The TWIST entry's mechanism prose ALREADY identifies Deut 23:18 as the parallel attestation ('uses the same word again at Deuteronomy 23:18, confirming the systematic identification'), and Blau's prose explicitly cites both Gen 38:21 and Deut 23:18 together. Adding Deut 23:18 to the TWIST verses[] would create double-attestation across two entries (TWIST verses[] + NOTE verses[] both containing Deut 23:18). Per the user's promote-in-place-only scope decision (no entry add/remove, no tier changes), the consolidation is out-of-scope. Deferred for a future cleanup pass: the cleanest resolution is to delete the NOTE entry and add Deut 23:18 to the TWIST verses[], converting the TWIST into a 2-book entry. Alternative: keep both entries but cross-link their mechanisms (currently each entry already cross-references the other in prose).",
+          "status": "RESOLVED 2026-05-30",
+          "resolution": "Consolidated via scripts/consolidate_mamtuah.py: NOTE entry ממתעה deleted, Deut 23:18 absorbed into TWIST אלממתעה verses[] (now 2-book Bereshit+Devarim), mechanism + blau_dict.sense rewritten to fold in the NOTE's consecration-stripping / category-delegitimization analysis. Corpus 124→123 entries (tiers 36/37/50). See PHASE3_R2_CONSOLIDATION_NOTES.md."
+        }
+      ],
+      "borderline": [
+        {
+          "lemma": "מסלט",
+          "verse_hint": "Shemot 21:8 (Form V יתסלט: 'he has no power to sell her')",
+          "open_question": "Form V תسلَّط extends the entry's lexical family from the divine-dominion + human-vicegerency registers into the legal-authority register. The Heb verb at 21:8 is מָשַׁל ('to rule, have authority'), which Saadia routes through the same Form V he uses at Gen 4:7 (sin's rule over Cain) and Gen 3:16 (husband's rule over wife). The lexical-family invariance is clean (same Form V root), but the mechanism-frame is broader (legal-authority is neither anti-anthropomorphic nor imago-Dei vicegerency). Shipped in the PROMOTE_IN_PLACE list with mechanism rewrite explicitly naming the cross-register breadth (theology + vicegerency + sovereignty + legal-authority). Worth re-evaluating in Phase 3 R3 whether the entry's TWIST status should be re-anchored on the broader dominion-vocabulary program rather than on the anti-anthropomorphic imago-Dei core."
+        }
+      ],
+      "_phase3_r2_outcomes": [
+        "Scanned: 11 priority-cluster TWIST lemmas (אדלג, חאכמא, קאול, תואעד, אלממתעה, שא, גלד, מסלט, עטל, מקררא, אורד).",
+        "Promote-in-place ships: 6 entries (אדלג, חאכמא, מסלט, אורד, תואעד, אלממתעה), 19 verse extensions.",
+        "Cross-book graduations: אדלג and חאכמא both reach 3-book attestation (Bereshit + Shemot + {Bamidbar / Vayikra}); מסלט reaches 2-book attestation (Bereshit + Shemot).",
+        "TWIST 3-book count: was 0; now 2 (the corpus's first TWIST-tier 3-book entries).",
+        "TWIST 2-book count: was 2 (חאכמא at Bereshit+Shemot, אדלג at Bereshit+Bamidbar — both now 3-book); now 1 (מסלט at Bereshit+Shemot).",
+        "Bereshit-only TWIST count: was 33; now 30 (אדלג, חאכמא, מסלט moved out; אורד, תואעד, אלממתעה remain Bereshit-only but with strengthened intra-Bereshit verse coverage).",
+        "Homograph filters: 4 (שא, גלד, חאכם judicial cluster, אורד noun-surfaces) — see skip[] for register-distinction rationale.",
+        "Duplicate collision: אלממתעה ↔ ממתעה NOTE entry (Deut 23:18). Surfaced but deferred — out-of-scope for promote-in-place-only.",
+        "Borderline: מסלט Shemot 21:8 Form V legal-authority extension shipped with mechanism-broadening caveat.",
+        "קאול, עטל, מקררא: no cross-book hits (קאול scan returned a Bereshit-internal homograph at 20:18 but it didn't pass mechanism-fit — see scan output).",
+        "Next: Phase 3 R2 Batch 2 — sweep the remaining ~25 Bereshit-only TWIST entries (excluding the 11 Batch 1 priority lemmas) systematically."
+      ],
+      "_session": "Phase 3 R2 Batch 1 — priority-cluster TWIST sweep (apply_phase3_r2_batch1.py)"
+    },
+    "batch2": {
+      "skip": [
+        {
+          "lemma": "אשראף",
+          "verse_hint": "Shemot 16:22, 34:31; Bamidbar 1:16, 3:32, 7:2, 7:10, 7:84, 10:4, 16:2, 31:13 (10 verses)",
+          "reason": "Register-homograph: the TWIST is specifically the ANTI-MYTHOLOGICAL reading of Heb בְּנֵי הָאֱלֹהִים at Gen 6:2-4 (refusing the angelic-being reading; reducing the verse to a social-stratification scandal where aristocrats coerce daughters of commoners). The 10 cross-book hits are all ROUTINE chieftain-vocabulary usage of أشراف for biblical leader-titles (נְשִׂיאֵי / רָאשֵׁי / זִקְנֵי / שָׂרֵי) in the Shemot exodus-leadership cluster and the Bamidbar tribal-chieftain cluster. These don't extend the anti-mythological move (there's no mythological reading to refute at the Numbers tribal-chieftain verses). The lexical-systemic basis IS real (Saadia HAS this chieftain-vocab routinely available, which grounds his anti-mythological move at Gen 6:2-4 in a broader lexical pattern), but adding the 10 verses to verses[] would suggest the anti-mythological claim extends to them, diluting the TWIST's specific scope. Consider in Phase 3 R3 whether the mechanism rewrite should explicitly name the lexical-systemic basis without extending verses[]."
+        },
+        {
+          "lemma": "מלאיכה",
+          "verse_hint": "Bereshit 19:15 (angels-at-Sodom)",
+          "reason": "Mechanism-mismatch: the TWIST is REROUTING Heb אֱלֹהִים (lesser divine beings, or the serpent's promise of divinity) → Ar ملائكة 'angels' to close off creaturely apotheosis. At Gen 19:15 the Heb is הַמַּלְאָכִים (literal angels-sent-to-Lot, no theological-reroute needed), and the Ar translation is a DIRECT COGNATE (Heb מלאך ~ Ar ملك). The cognate translation isn't the anti-anthropomorphic move; it's just routine cognate substitution. Adding the verse would dilute the TWIST's specific anti-apotheosis claim."
+        },
+        {
+          "lemma": "בדן",
+          "verse_hint": "Shemot 30:32 (anointing-oil prohibition: על בשר אדם → בדן)",
+          "reason": "Register-homograph: the TWIST is the lexical choice of بدن over جلد at Gen 3:21 (Saadia routes Heb עוֹר 'animal-skin garments' through بدن, possibly to dodge the 'God slaughtered animals' implication, possibly to reserve جلد for רָקִיעַ 'firmament'). At Ex 30:32 Saadia uses بدن for Heb בְּשַׂר אָדָם ('human flesh' — anointing-oil prohibition) — different Heb counterpart, different context. The بدن usage is lexically consistent across the Pentateuch (Saadia treats بدن as his standard body-vocabulary) but the specific Gen 3:21 mechanism (avoiding جلد at the animal-skins verse) doesn't apply to Ex 30:32. The underlying lexical-system consistency could be documented in mechanism prose as supporting evidence without extending verses[]."
+        },
+        {
+          "lemma": "קרבאן",
+          "verse_hint": "72 hits across all 5 books (routine offering-vocabulary)",
+          "reason": "Register-homograph at scale: the TWIST is the SPECIFIC anti-anthropomorphic DOUBLE substitution at Gen 8:21 — Saadia replaces BOTH the verb (יָּרַח 'smelled' → قَبِلَ 'accepted') AND the object (רֵיחַ הַנִּיחֹחַ 'soothing aroma' → אלקרבאן אלמרצ'י 'pleasing offering') to avoid the divine-nose anthropomorphism. The 72 cross-book hits are routine offering-vocabulary usage of قربان for various biblical sacrifice-terms (קרבן, מנחה, עלה, חטאת, אשם, שלמים) across the Levitical sacrificial system + the Numbers chieftain-offerings cluster + the Numbers calendar-festivals cluster. Most of these are not anti-anthropomorphic moves — they're just Saadia's standard offering-vocabulary for any biblical sacrificial-term. Adding all 72 would dilute the TWIST's specific Gen 8:21 double-substitution claim. Same homograph-at-scale pattern as Phase 3 R2 Batch 1's שא (Vayikra 22, 27 human-volitional usage) and גלד (Vayikra 11-15 literal-skin usage)."
+        },
+        {
+          "lemma": "גוהר",
+          "verse_hint": "Shemot 28:11, 28:17, 31:5, 35:33, 39:10 (breastplate jeweler-craft)",
+          "reason": "Register-homograph: the TWIST is the DUAL-REGISTER move where גוהר operates as BOTH 'jewel' AND 'substance/essence' for Heb לֻחֹת. At the breastplate-craft verses (Ex 28:11 'מעשה חרש אבן', 28:17 'מלאת אבן', 31:5 + 35:33 'בחרשת אבן', 39:10 'ארבעה טורים אבן') Saadia uses גוהר for Heb אֶבֶן in the BARE classical jeweler's-craft register (one register only — literal precious-stone for the breastplate). Adding these to the TWIST verses[] would dilute the dual-register claim by suggesting the philosophical-essence reading applies in the breastplate-artisan context (it doesn't — Saadia is just using גוהר as his standard precious-stone vocabulary for cultic-craft passages). The 4 Tablets-register Shemot verses (24:12, 31:18, 34:1, 34:4) ARE shipped — see PROMOTE_IN_PLACE above."
+        }
+      ],
+      "_phase3_r2_b2_outcomes": [
+        "Scanned: all 36 TWIST entries (B1 lemmas re-scanned; already-attested verses correctly filtered out).",
+        "Promote-in-place ships: 4 verses[]-extension entries (גוהר, ג'מר, חגב, אתון) + 1 mechanism-correction-only entry (אורד), totaling 11 new verse attestations.",
+        "Cross-book graduations: ג'מר reaches 3-book attestation (Bereshit + Shemot + Devarim) — the third 3-book TWIST in the corpus, after אדלג + חאכמא in B1. גוהר + חגב reach 2-book attestation.",
+        "TWIST 3-book count: was 2 (after B1) → 3 (after B2): אדלג, חאכמא, ג'מר.",
+        "TWIST 2-book count: was 1 (after B1, מסלט) → 3 (after B2): מסלט, גוהר, חגב.",
+        "TWIST Bereshit-only count: was 30 (after B1) → 27 (after B2): ג'מר + חגב moved out, אתון strengthened within-book.",
+        "Empirical correction: the original אורד entry's mechanism prose claimed 'Sodom, Sinai, the Tent of Meeting' all used the same dispatch-frame ورد. The B2 scan shows Sinai/Tent verses actually use Form V تجلَّى manifestation-vocabulary — structurally distinct anti-anthropomorphic strategy. Mechanism corrected; dispatch-frame scoped to Babel + Sodom (3 Bereshit verses). The تجلَّى manifestation cluster is a candidate for a separate future TWIST (Phase 3 R3).",
+        "Homograph filters: 5 (אשראף routine chieftain-vocab; מלאיכה direct-cognate; בדן different-Heb-counterpart; קרבאן 72 routine-offering-vocab; גוהר breastplate jeweler-craft).",
+        "No-hit lemmas: 15 single-book TWIST entries had zero cross-book attestations (גאמרה, מסתבחרה, ריאח, תהב, אטג'אני, קיאדך, כ'טאך, אכ'תיאר, טאעה, תופי, ינג'מד, שמשאר, קרדא, יסיידונך, ד'רקובה, משוובה) — these are all anchored at unique-context Bereshit creation/flood/Babel/Patriarchal verses with no cross-book attestations in the tafsir corpus.",
+        "Phase 3 R2 sweep COMPLETE: B1 (6 entries / 19 verses) + B2 (4 entries / 11 verses + 1 mechanism correction) = 10 entries promoted, 30 new verse attestations, 3 three-book TWISTs + 3 two-book TWISTs + 4 within-book TWIST strengthenings."
+      ],
+      "_session": "Phase 3 R2 Batch 2 — systematic sweep + אורד mechanism correction (apply_phase3_r2_batch2.py)"
+    }
+  }
+}
