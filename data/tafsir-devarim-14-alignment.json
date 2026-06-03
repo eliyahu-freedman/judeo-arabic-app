@@ -1,0 +1,996 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Devarim 14. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/devarim_14.py; validated against the source with independent per-side occurrence claiming.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ואד'",
+        "en": "And since"
+      },
+      {
+        "ja": "אנתם אוליא",
+        "en": "you are the devotees",
+        "he": "בָּנִים"
+      },
+      {
+        "ja": "אללה",
+        "en": "of God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "כאלבנין",
+        "en": "like children"
+      },
+      {
+        "ja": "פלא תתואגו",
+        "en": "do not gash yourselves",
+        "he": "לֹא תִתְגֹּדְדוּ"
+      },
+      {
+        "ja": "ולא תגעלו",
+        "en": "and do not make",
+        "he": "וְלֹא-תָשִׂימוּ"
+      },
+      {
+        "ja": "נתפא",
+        "en": "a bare patch",
+        "he": "קָרְחָה"
+      },
+      {
+        "ja": "בין עיונכם",
+        "en": "between your eyes",
+        "he": "בֵּין עֵינֵיכֶם"
+      },
+      {
+        "ja": "עלי' אמואתכם",
+        "en": "for your dead",
+        "he": "לָמֵת"
+      }
+    ],
+    "2": [
+      {
+        "ja": "לאנך שעב מקדס",
+        "en": "For you are a people consecrated",
+        "he": "כִּי עַם קָדוֹשׁ אַתָּה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "ואכ'תארך",
+        "en": "and He has chosen you",
+        "he": "וּבְךָ בָּחַר"
+      },
+      {
+        "ja": "אן תכון",
+        "en": "to be",
+        "he": "לִהְיוֹת"
+      },
+      {
+        "ja": "לה",
+        "en": "His",
+        "he": "לוֹ"
+      },
+      {
+        "ja": "אמה כ'אצה",
+        "en": "own particular nation",
+        "he": "לְעַם סְגֻלָּה"
+      },
+      {
+        "ja": "מן גמיע אלאמם",
+        "en": "from all the nations",
+        "he": "מִכֹּל הָעַמִּים"
+      },
+      {
+        "ja": "אלד'י עלי' וגה אלארץ'",
+        "en": "that are upon the face of the earth",
+        "he": "אֲשֶׁר עַל-פְּנֵי הָאֲדָמָה"
+      }
+    ],
+    "3": [
+      {
+        "ja": "לא תאכל",
+        "en": "You shall not eat",
+        "he": "לֹא תֹאכַל"
+      },
+      {
+        "ja": "כל מכרוה",
+        "en": "anything abhorrent",
+        "he": "כָּל-תּוֹעֵבָה"
+      }
+    ],
+    "4": [
+      {
+        "ja": "הד'א",
+        "en": "This is"
+      },
+      {
+        "ja": "מא תאכלוה",
+        "en": "what you may eat",
+        "he": "זֹאת הַבְּהֵמָה אֲשֶׁר תֹּאכֵלוּ"
+      },
+      {
+        "ja": "מן אלבאהים",
+        "en": "of the beasts"
+      },
+      {
+        "ja": "אלבקר",
+        "en": "the cattle",
+        "he": "שׁוֹר"
+      },
+      {
+        "ja": "ואלצ'אן",
+        "en": "the sheep",
+        "he": "שֵׂה כְשָׂבִים"
+      },
+      {
+        "ja": "ואלמאעז",
+        "en": "and the goats",
+        "he": "וְשֵׂה עִזִּים"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ואלאיל",
+        "en": "and the deer",
+        "he": "אַיָּל"
+      },
+      {
+        "ja": "וי",
+        "en": "and"
+      },
+      {
+        "ja": "אלצ'בי",
+        "en": "the gazelle",
+        "he": "וּצְבִי"
+      },
+      {
+        "ja": "ואליחמור",
+        "en": "and the roebuck",
+        "he": "וְיַחְמוּר"
+      },
+      {
+        "ja": "ואלועל",
+        "en": "and the ibex",
+        "he": "וְאַקּוֹ"
+      },
+      {
+        "ja": "ואלארוי",
+        "en": "and the mountain goat",
+        "he": "וְדִישֹׁן"
+      },
+      {
+        "ja": "ואלתיתל",
+        "en": "and the tebel",
+        "he": "וּתְאוֹ"
+      },
+      {
+        "ja": "ואלזראפה",
+        "en": "and the giraffe",
+        "he": "וָזָמֶר"
+      }
+    ],
+    "6": [
+      {
+        "ja": "וכל בהימה",
+        "en": "And every beast",
+        "he": "וְכָל-בְּהֵמָה"
+      },
+      {
+        "ja": "מצ'לפה בצ'לף",
+        "en": "that is hoofed with a hoof",
+        "he": "מַפְרֶסֶת פַּרְסָה"
+      },
+      {
+        "ja": "ומפרקה אצ'לאפהא תפריקא",
+        "en": "and has its hooves split in a full split",
+        "he": "וְשֹׁסַעַת שֶׁסַע שְׁתֵּי פְרָסוֹת"
+      },
+      {
+        "ja": "ומצעדה אגתראר",
+        "en": "and that brings up cud",
+        "he": "מַעֲלַת גֵּרָה"
+      },
+      {
+        "ja": "מן אלבאהים",
+        "en": "from among the beasts",
+        "he": "בַּבְּהֵמָה"
+      },
+      {
+        "ja": "פכלוהא",
+        "en": "eat it",
+        "he": "אֹתָהּ תֹּאכֵלוּ"
+      }
+    ],
+    "7": [
+      {
+        "ja": "כלא",
+        "en": "But"
+      },
+      {
+        "ja": "הד'ה אלאשכ'אץ",
+        "en": "these creatures",
+        "he": "אַךְ אֶת-זֶה"
+      },
+      {
+        "ja": "פלא תאכלוהא",
+        "en": "do not eat them",
+        "he": "לֹא תֹאכְלוּ"
+      },
+      {
+        "ja": "מן אלמצעדי אלאגתראר",
+        "en": "from among those that bring up cud",
+        "he": "מִמַּעֲלֵי הַגֵּרָה"
+      },
+      {
+        "ja": "ואלמצ'לפין באצ'לאף מפרקה",
+        "en": "and those that are hoofed with split hooves",
+        "he": "וּמִמַּפְרִיסֵי הַפַּרְסָה הַשְּׁסוּעָה"
+      },
+      {
+        "ja": "אלגמל",
+        "en": "the camel",
+        "he": "אֶת-הַגָּמָל"
+      },
+      {
+        "ja": "ואלארנב",
+        "en": "and the hare",
+        "he": "וְאֶת-הָאַרְנֶבֶת"
+      },
+      {
+        "ja": "ואלובר",
+        "en": "and the hyrax",
+        "he": "וְאֶת-הַשָּׁפָן"
+      },
+      {
+        "ja": "פאנהמא מצעדה אגתראר",
+        "en": "for they bring up cud",
+        "he": "כִּי-מַעֲלֵה גֵרָה הֵמָּה"
+      },
+      {
+        "ja": "ג'יר מצ'לפה בצח*'ל'ף",
+        "en": "but are not hoofed with a hoof",
+        "he": "וּפַרְסָה לֹא הִפְרִיסוּ"
+      },
+      {
+        "ja": "פהי מחרמה עליכם",
+        "en": "they are forbidden to you",
+        "he": "טְמֵאִים הֵם לָכֶם"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ואלכ'נזיר",
+        "en": "And the pig",
+        "he": "וְאֶת-הַחֲזִיר"
+      },
+      {
+        "ja": "פאנה מצ'לף בצ'לף",
+        "en": "it is hoofed with a hoof",
+        "he": "כִּי-מַפְרִיס פַּרְסָה הוּא"
+      },
+      {
+        "ja": "ולא יגתר",
+        "en": "but does not chew cud",
+        "he": "וְלֹא גֵרָה"
+      },
+      {
+        "ja": "פהו מחרם עליכם",
+        "en": "it is forbidden to you",
+        "he": "טָמֵא הוּא לָכֶם"
+      },
+      {
+        "ja": "לא תאכלו מן לחומהא",
+        "en": "do not eat of their flesh",
+        "he": "מִבְּשָׂרָם לֹא תֹאכֵלוּ"
+      },
+      {
+        "ja": "ולא תדנו מן נבאילהא ללא תנגסכם",
+        "en": "and do not approach their carcasses lest they make you impure",
+        "he": "וּבְנִבְלָתָם לֹא תִגָּעוּ"
+      }
+    ],
+    "9": [
+      {
+        "ja": "והד'א",
+        "en": "And this is"
+      },
+      {
+        "ja": "מא תאכלוה",
+        "en": "what you may eat",
+        "he": "אֶת-זֶה תֹּאכְלוּ"
+      },
+      {
+        "ja": "מן גמיע מא פי אלמא",
+        "en": "from all that is in the water",
+        "he": "מִכֹּל אֲשֶׁר בַּמָּיִם"
+      },
+      {
+        "ja": "כל מא לה אגנחה",
+        "en": "everything that has fins",
+        "he": "כֹּל אֲשֶׁר-לוֹ סְנַפִּיר"
+      },
+      {
+        "ja": "ופלוס",
+        "en": "and scales",
+        "he": "וְקַשְׂקֶשֶׂת"
+      },
+      {
+        "ja": "פכלוה",
+        "en": "eat it",
+        "he": "תֹּאכֵלוּ"
+      }
+    ],
+    "10": [
+      {
+        "ja": "וכל מא ליס לה",
+        "en": "And everything that has no",
+        "he": "וְכֹל אֲשֶׁר אֵין-לוֹ"
+      },
+      {
+        "ja": "אגנחה",
+        "en": "fins",
+        "he": "סְנַפִּיר"
+      },
+      {
+        "ja": "ופלוס",
+        "en": "and scales",
+        "he": "וְקַשְׂקֶשֶׂת"
+      },
+      {
+        "ja": "לא תאכלוה",
+        "en": "do not eat it",
+        "he": "לֹא תֹאכֵלוּ"
+      },
+      {
+        "ja": "לאנה נגס לכם",
+        "en": "for it is impure for you",
+        "he": "טָמֵא הוּא לָכֶם"
+      }
+    ],
+    "11": [
+      {
+        "ja": "וכל טאיר טאהר",
+        "en": "And every pure bird",
+        "he": "כָּל-צִפּוֹר טְהֹרָה"
+      },
+      {
+        "ja": "פכלוה",
+        "en": "eat it",
+        "he": "תֹּאכֵלוּ"
+      }
+    ],
+    "12": [
+      {
+        "ja": "והד'ה אלאשכ'אץ",
+        "en": "And these are the creatures"
+      },
+      {
+        "ja": "לא תאכלוהא מנהם",
+        "en": "you shall not eat from among them",
+        "he": "וְזֶה אֲשֶׁר לֹא-תֹאכְלוּ מֵהֶם"
+      },
+      {
+        "ja": "אלנסר",
+        "en": "the vulture",
+        "he": "הַנֶּשֶׁר"
+      },
+      {
+        "ja": "ואלעקאב",
+        "en": "the eagle",
+        "he": "וְהַפֶּרֶס"
+      },
+      {
+        "ja": "ואלענקא",
+        "en": "and the great bird of prey",
+        "he": "וְהָעָזְנִיָּה"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ואלגארח",
+        "en": "and the kite",
+        "he": "וְהָרָאָה"
+      },
+      {
+        "ja": "ואלצדא",
+        "en": "and the screech-bird",
+        "he": "וְאֶת-הָאַיָּה"
+      },
+      {
+        "ja": "ואלחדא",
+        "en": "and the falcon",
+        "he": "וְהַדַּיָּה"
+      },
+      {
+        "ja": "לאצנאפהא",
+        "en": "according to its kinds",
+        "he": "לְמִינָהּ"
+      }
+    ],
+    "14": [
+      {
+        "ja": "וגמיע אלג'ראביב",
+        "en": "and all the ravens",
+        "he": "וְאֵת כָּל-עֹרֵב"
+      },
+      {
+        "ja": "לאצנאפהא",
+        "en": "according to their kinds",
+        "he": "לְמִינוֹ"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ואלנעאמה",
+        "en": "and the ostrich",
+        "he": "וְאֵת בַּת הַיַּעֲנָה"
+      },
+      {
+        "ja": "ואלכ'טאף",
+        "en": "and the swallow",
+        "he": "וְאֶת-הַתַּחְמָס"
+      },
+      {
+        "ja": "ואלסאף",
+        "en": "and the gull",
+        "he": "וְאֶת-הַשָּׁחַף"
+      },
+      {
+        "ja": "ואלבאז",
+        "en": "and the hawk",
+        "he": "וְאֶת-הַנֵּץ"
+      },
+      {
+        "ja": "לאצנאפה",
+        "en": "according to its kinds",
+        "he": "לְמִינֵהוּ"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ואלבום",
+        "en": "and the owl",
+        "he": "אֶת-הַכּוֹס"
+      },
+      {
+        "ja": "ואלבאשק",
+        "en": "and the sparrowhawk",
+        "he": "וְאֶת-הַיַּנְשׁוּף"
+      },
+      {
+        "ja": "ואלשאהין",
+        "en": "and the falcon",
+        "he": "וְהַתִּנְשָׁמֶת"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ואלקוק",
+        "en": "and the pelican",
+        "he": "וְהַקָּאָת"
+      },
+      {
+        "ja": "ואלרכ'ם",
+        "en": "and the carrion-vulture",
+        "he": "וְאֶת-הָרָחָמָה"
+      },
+      {
+        "ja": "ואלזמג",
+        "en": "and the cormorant",
+        "he": "וְאֶת-הַשָּׁלָךְ"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ואלצקר",
+        "en": "and the stork",
+        "he": "וְהַחֲסִידָה"
+      },
+      {
+        "ja": "ואלבג'בג'ה",
+        "en": "and the parrot",
+        "he": "וְהָאֲנָפָה"
+      },
+      {
+        "ja": "באצנאפהא",
+        "en": "according to its kinds",
+        "he": "לְמִינָהּ"
+      },
+      {
+        "ja": "ואלהדהד",
+        "en": "and the hoopoe",
+        "he": "וְהַדּוּכִיפַת"
+      },
+      {
+        "ja": "ואלכ'פאש",
+        "en": "and the bat",
+        "he": "וְהָעֲטַלֵּף"
+      }
+    ],
+    "19": [
+      {
+        "ja": "וגמיע דביב אלטאיר",
+        "en": "And all creeping flying creatures",
+        "he": "וְכֹל שֶׁרֶץ הָעוֹף"
+      },
+      {
+        "ja": "אלד'י הו מחרם עליכם",
+        "en": "that are forbidden to you",
+        "he": "טָמֵא הוּא לָכֶם"
+      },
+      {
+        "ja": "לא תאכלוה",
+        "en": "do not eat them",
+        "he": "לֹא יֵאָכֵלוּ"
+      }
+    ],
+    "20": [
+      {
+        "ja": "וכל מא הו טאהר מנה",
+        "en": "And everything that is pure from among them",
+        "he": "כָּל-עוֹף טָהוֹר"
+      },
+      {
+        "ja": "פכלוה",
+        "en": "eat it",
+        "he": "תֹּאכֵלוּ"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ולא תאכלו",
+        "en": "And do not eat",
+        "he": "לֹא תֹאכְלוּ"
+      },
+      {
+        "ja": "שייא מן אלנבאיל",
+        "en": "anything from the carcasses",
+        "he": "כָל-נְבֵלָה"
+      },
+      {
+        "ja": "בל",
+        "en": "rather"
+      },
+      {
+        "ja": "אעטהא לאלג'ריב",
+        "en": "give it to the stranger",
+        "he": "לַגֵּר"
+      },
+      {
+        "ja": "אלד'י פי מחאלך",
+        "en": "who is in your localities",
+        "he": "אֲשֶׁר-בִּשְׁעָרֶיךָ"
+      },
+      {
+        "ja": "פיאכלהא",
+        "en": "that he may eat it",
+        "he": "וַאֲכָלָהּ"
+      },
+      {
+        "ja": "או תביעהא",
+        "en": "or sell it",
+        "he": "אוֹ מָכֹר"
+      },
+      {
+        "ja": "לאגנבי",
+        "en": "to a foreigner",
+        "he": "לְנָכְרִי"
+      },
+      {
+        "ja": "לאנך שעב מקדס",
+        "en": "for you are a people consecrated",
+        "he": "כִּי עַם קָדוֹשׁ אַתָּה"
+      },
+      {
+        "ja": "ללה",
+        "en": "to God",
+        "he": "לַיהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "ולא תטבך'",
+        "en": "And do not cook",
+        "he": "לֹא-תְבַשֵּׁל"
+      },
+      {
+        "ja": "לחמא",
+        "en": "meat",
+        "he": "גְּדִי"
+      },
+      {
+        "ja": "בלבן",
+        "en": "in milk",
+        "he": "בַּחֲלֵב אִמּוֹ"
+      }
+    ],
+    "22": [
+      {
+        "ja": "ועשר תעשירא",
+        "en": "You shall tithe a full tithe",
+        "he": "עַשֵּׂר תְּעַשֵּׂר"
+      },
+      {
+        "ja": "גמיע גלה' זרעך",
+        "en": "of all the yield of your sowing",
+        "he": "אֵת כָּל-תְּבוּאַת זַרְעֶךָ"
+      },
+      {
+        "ja": "מא תנבתה אלצחרא",
+        "en": "that which the open country brings forth",
+        "he": "הַיֹּצֵא הַשָּׂדֶה"
+      },
+      {
+        "ja": "סנה סנה",
+        "en": "year by year",
+        "he": "שָׁנָה שָׁנָה"
+      }
+    ],
+    "23": [
+      {
+        "ja": "וכל",
+        "en": "And eat",
+        "he": "וְאָכַלְתָּ"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "פי אלמוצ'ע",
+        "en": "in the place",
+        "he": "בַּמָּקוֹם"
+      },
+      {
+        "ja": "אלד'י יכ'תארה",
+        "en": "which He shall choose",
+        "he": "אֲשֶׁר-יִבְחַר"
+      },
+      {
+        "ja": "ליחל נורה פיה",
+        "en": "for His light to dwell therein",
+        "he": "לְשַׁכֵּן שְׁמוֹ שָׁם"
+      },
+      {
+        "ja": "עשור ברך",
+        "en": "the tithes of your grain",
+        "he": "מַעְשַׂר דְּגָנְךָ"
+      },
+      {
+        "ja": "ועצירך",
+        "en": "and your press-produce",
+        "he": "תִּירֹשְׁךָ"
+      },
+      {
+        "ja": "ודהנך",
+        "en": "and your oil",
+        "he": "וְיִצְהָרֶךָ"
+      },
+      {
+        "ja": "ובכור בקרך",
+        "en": "and the firstlings of your cattle",
+        "he": "וּבְכֹרֹת בְּקָרְךָ"
+      },
+      {
+        "ja": "וג'נמך",
+        "en": "and your flock",
+        "he": "וְצֹאנֶךָ"
+      },
+      {
+        "ja": "לכי תתעלם",
+        "en": "so that you may learn",
+        "he": "לְמַעַן תִּלְמַד"
+      },
+      {
+        "ja": "כיף תעבדה",
+        "en": "how to serve Him",
+        "he": "לְיִרְאָה אֶת-יְהוָה"
+      },
+      {
+        "ja": "טול אלזמאן",
+        "en": "all the length of time",
+        "he": "כָּל-הַיָּמִים"
+      }
+    ],
+    "24": [
+      {
+        "ja": "ואן טאל עליך אלטריק",
+        "en": "And if the way be too long for you",
+        "he": "וְכִי-יִרְבֶּה מִמְּךָ הַדֶּרֶךְ"
+      },
+      {
+        "ja": "ולם תטיק אן תחמלה",
+        "en": "and you are unable to carry it",
+        "he": "כִּי לֹא תוּכַל שְׂאֵתוֹ"
+      },
+      {
+        "ja": "ובעד ענך אלמוצ'ע",
+        "en": "and the place is far from you",
+        "he": "כִּי-יִרְחַק מִמְּךָ הַמָּקוֹם"
+      },
+      {
+        "ja": "אלד'י יכ'תארה אללה",
+        "en": "the place which God",
+        "he": "אֲשֶׁר יִבְחַר יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord shall choose",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "אן יחל נורה פיה",
+        "en": "for His light to dwell therein",
+        "he": "לָשׂוּם שְׁמוֹ שָׁם"
+      },
+      {
+        "ja": "ובארך לך מע ד'אלך",
+        "en": "and He has blessed you through all of this",
+        "he": "כִּי יְבָרֶכְךָ יְהוָה אֱלֹהֶיךָ"
+      }
+    ],
+    "25": [
+      {
+        "ja": "פבעה בת'מן",
+        "en": "then sell it for a price",
+        "he": "וְנָתַתָּה בַּכָּסֶף"
+      },
+      {
+        "ja": "וצרה",
+        "en": "and tie it up",
+        "he": "וְצַרְתָּ הַכֶּסֶף"
+      },
+      {
+        "ja": "וכ'ד'ה פי ידך",
+        "en": "and take it in your hand",
+        "he": "בְּיָדְךָ"
+      },
+      {
+        "ja": "ואמץ' אלי'",
+        "en": "and go to",
+        "he": "וְהָלַכְתָּ"
+      },
+      {
+        "ja": "אלמוצ'ע",
+        "en": "the place",
+        "he": "אֶל-הַמָּקוֹם"
+      },
+      {
+        "ja": "אלד'י יכ'תארה אללה",
+        "en": "which God",
+        "he": "אֲשֶׁר יִבְחַר יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord shall choose",
+        "he": "אֱלֹהֶיךָ"
+      }
+    ],
+    "26": [
+      {
+        "ja": "ואצרפה",
+        "en": "And spend it",
+        "he": "וְנָתַתָּה הַכֶּסֶף"
+      },
+      {
+        "ja": "פי גמיע מא תשתהי נפסך",
+        "en": "on whatever your soul desires",
+        "he": "בְּכֹל אֲשֶׁר-תְּאַוֶּה נַפְשְׁךָ"
+      },
+      {
+        "ja": "מן בקר",
+        "en": "cattle",
+        "he": "בַּבָּקָר"
+      },
+      {
+        "ja": "וג'נם",
+        "en": "and flock",
+        "he": "וּבַצֹּאן"
+      },
+      {
+        "ja": "וכ'מר",
+        "en": "and wine",
+        "he": "וּבַיַּיִן"
+      },
+      {
+        "ja": "ונביד'",
+        "en": "and strong drink",
+        "he": "וּבַשֵּׁכָר"
+      },
+      {
+        "ja": "וגמיע מא תחבה נפסך",
+        "en": "and whatever your soul wishes",
+        "he": "וּבְכֹל אֲשֶׁר תִּשְׁאָלְךָ נַפְשֶׁךָ"
+      },
+      {
+        "ja": "וכלה הנאך",
+        "en": "and eat it there",
+        "he": "וְאָכַלְתָּ שָּׁם"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "ואפרח",
+        "en": "and rejoice",
+        "he": "וְשָׂמַחְתָּ"
+      },
+      {
+        "ja": "אנת",
+        "en": "you",
+        "he": "אַתָּה"
+      },
+      {
+        "ja": "ואלך",
+        "en": "and your household",
+        "he": "וּבֵיתֶךָ"
+      }
+    ],
+    "27": [
+      {
+        "ja": "ואללוי",
+        "en": "And the Levite",
+        "he": "וְהַלֵּוִי"
+      },
+      {
+        "ja": "אלד'י פי מחלך",
+        "en": "who is in your localities",
+        "he": "אֲשֶׁר-בִּשְׁעָרֶיךָ"
+      },
+      {
+        "ja": "לא תתרכה",
+        "en": "do not forsake him",
+        "he": "לֹא תַעַזְבֶנּוּ"
+      },
+      {
+        "ja": "אד' ליס לה",
+        "en": "since he has no",
+        "he": "כִּי אֵין לוֹ"
+      },
+      {
+        "ja": "נציב",
+        "en": "portion",
+        "he": "חֵלֶק"
+      },
+      {
+        "ja": "ולא נחלה",
+        "en": "nor inheritance",
+        "he": "וְנַחֲלָה"
+      },
+      {
+        "ja": "מעך",
+        "en": "with you",
+        "he": "עִמָּךְ"
+      }
+    ],
+    "28": [
+      {
+        "ja": "ופי כל ת'לאת' סנין",
+        "en": "And at the end of every three years",
+        "he": "מִקְצֵה שָׁלֹשׁ שָׁנִים"
+      },
+      {
+        "ja": "תכ'רג",
+        "en": "bring out",
+        "he": "תּוֹצִיא"
+      },
+      {
+        "ja": "גמיע עשור ג'לתך",
+        "en": "all the tithes of your yield",
+        "he": "אֶת-כָּל-מַעְשַׂר תְּבוּאָתְךָ"
+      },
+      {
+        "ja": "פי תלך אלסנה",
+        "en": "in that year",
+        "he": "בַּשָּׁנָה הַהִוא"
+      },
+      {
+        "ja": "וצ'עה פי מחלך",
+        "en": "and set it down in your localities",
+        "he": "וְהִנַּחְתָּ בִּשְׁעָרֶיךָ"
+      }
+    ],
+    "29": [
+      {
+        "ja": "פיאתי אללוי",
+        "en": "And the Levite shall come",
+        "he": "וּבָא הַלֵּוִי"
+      },
+      {
+        "ja": "אד' ליס לה נציב",
+        "en": "since he has no portion",
+        "he": "כִּי אֵין-לוֹ חֵלֶק"
+      },
+      {
+        "ja": "ולא נחלה",
+        "en": "nor inheritance",
+        "he": "וְנַחֲלָה"
+      },
+      {
+        "ja": "מעך",
+        "en": "with you",
+        "he": "עִמָּךְ"
+      },
+      {
+        "ja": "ואלג'ריב",
+        "en": "and the stranger",
+        "he": "וְהַגֵּר"
+      },
+      {
+        "ja": "ואליתים",
+        "en": "and the orphan",
+        "he": "וְהַיָּתוֹם"
+      },
+      {
+        "ja": "ואלארמלה",
+        "en": "and the widow",
+        "he": "וְהָאַלְמָנָה"
+      },
+      {
+        "ja": "אלד'י' פי מחלך",
+        "en": "who are in your localities",
+        "he": "אֲשֶׁר בִּשְׁעָרֶיךָ"
+      },
+      {
+        "ja": "פיאכלון",
+        "en": "and they shall eat",
+        "he": "וְאָכְלוּ"
+      },
+      {
+        "ja": "וישבעון",
+        "en": "and be satisfied",
+        "he": "וְשָׂבֵעוּ"
+      },
+      {
+        "ja": "לכי יבארך לך",
+        "en": "so that",
+        "he": "לְמַעַן יְבָרֶכְךָ"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord may bless you",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "פי גמיע מא תצנעה",
+        "en": "in all that you do",
+        "he": "בְּכָל-מַעֲשֵׂה יָדְךָ אֲשֶׁר תַּעֲשֶׂה"
+      }
+    ]
+  }
+}
