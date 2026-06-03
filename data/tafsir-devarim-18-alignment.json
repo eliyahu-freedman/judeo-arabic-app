@@ -1,0 +1,819 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Devarim 18. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/devarim_18.py; validated against the source with independent per-side occurrence claiming.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ואד'",
+        "en": "And since"
+      },
+      {
+        "ja": "לא יכון",
+        "en": "shall have no",
+        "he": "לֹא-יִהְיֶה"
+      },
+      {
+        "ja": "לאלאיימה",
+        "en": "the priests",
+        "he": "לַכֹּהֲנִים"
+      },
+      {
+        "ja": "ואלליואניין",
+        "en": "the Levites",
+        "he": "הַלְוִיִּם"
+      },
+      {
+        "ja": "אלד'י הם סאיר",
+        "en": "who are the rest of"
+      },
+      {
+        "ja": "סבט לוי",
+        "en": "the tribe of Levi",
+        "he": "כָּל-שֵׁבֶט לֵוִי"
+      },
+      {
+        "ja": "קסם",
+        "en": "portion",
+        "he": "חֵלֶק"
+      },
+      {
+        "ja": "ולא נחלה",
+        "en": "nor inheritance",
+        "he": "וְנַחֲלָה"
+      },
+      {
+        "ja": "מע אל אסראיל",
+        "en": "with the house of Israel",
+        "he": "עִם-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פמן קראבין אללה",
+        "en": "it is from the offerings of God",
+        "he": "אִשֵּׁי יְהוָה"
+      },
+      {
+        "ja": "ומן נחלתה",
+        "en": "and from His inheritance",
+        "he": "וְנַחֲלָתוֹ"
+      },
+      {
+        "ja": "יאכלון",
+        "en": "that they shall eat",
+        "he": "יֹאכֵלוּן"
+      }
+    ],
+    "2": [
+      {
+        "ja": "ונחלה",
+        "en": "And an inheritance",
+        "he": "וְנַחֲלָה"
+      },
+      {
+        "ja": "לא תכון לה",
+        "en": "shall not be his",
+        "he": "לֹא-יִהְיֶה-לּוֹ"
+      },
+      {
+        "ja": "פי מא בין אכ'ותה",
+        "en": "among his brothers",
+        "he": "בְּקֶרֶב אֶחָיו"
+      },
+      {
+        "ja": "אד' פראיץ' אללה נחלתה",
+        "en": "for the prescribed dues of God are his inheritance",
+        "he": "יְהוָה הוּא נַחֲלָתוֹ"
+      },
+      {
+        "ja": "כמא אמר לה בהא",
+        "en": "as He has decreed for him",
+        "he": "כַּאֲשֶׁר דִּבֶּר-לוֹ"
+      }
+    ],
+    "3": [
+      {
+        "ja": "והד'ה",
+        "en": "And this is",
+        "he": "וְזֶה"
+      },
+      {
+        "ja": "מא יכון",
+        "en": "what shall be",
+        "he": "יִהְיֶה"
+      },
+      {
+        "ja": "רסם אלאימה",
+        "en": "the customary due of the priests",
+        "he": "מִשְׁפַּט הַכֹּהֲנִים"
+      },
+      {
+        "ja": "עלי' אלקום",
+        "en": "from the people",
+        "he": "מֵאֵת הָעָם"
+      },
+      {
+        "ja": "מן ד'אבחי אי ד'בח כאן",
+        "en": "from whoever slaughters any slaughter",
+        "he": "מֵאֵת זֹבְחֵי הַזֶּבַח"
+      },
+      {
+        "ja": "מן אלבקר ואלג'נם",
+        "en": "whether of cattle or of flocks",
+        "he": "אִם-שׁוֹר אִם-שֶׂה"
+      },
+      {
+        "ja": "אן יעטוהם",
+        "en": "they shall give them",
+        "he": "וְנָתַן"
+      },
+      {
+        "ja": "אלד'ראע",
+        "en": "the foreleg",
+        "he": "הַזְּרֹעַ"
+      },
+      {
+        "ja": "ואללחיין",
+        "en": "and the two jaws",
+        "he": "וְהַלְּחָיַיִם"
+      },
+      {
+        "ja": "ואלאקבה",
+        "en": "and the stomach",
+        "he": "וְהַקֵּבָה"
+      }
+    ],
+    "4": [
+      {
+        "ja": "אוול ברך",
+        "en": "The first of your grain",
+        "he": "רֵאשִׁית דְּגָנְךָ"
+      },
+      {
+        "ja": "ועצירך",
+        "en": "your juice",
+        "he": "תִּירֹשְׁךָ"
+      },
+      {
+        "ja": "ודהנך",
+        "en": "and your oil",
+        "he": "וְיִצְהָרֶךָ"
+      },
+      {
+        "ja": "ואוול גז ג'נמך",
+        "en": "and the first of the shearing of your flock",
+        "he": "וְרֵאשִׁית גֵּז צֹאנְךָ"
+      },
+      {
+        "ja": "תעטיה",
+        "en": "you shall give him",
+        "he": "תִּתֶּן-לוֹ"
+      }
+    ],
+    "5": [
+      {
+        "ja": "לאן",
+        "en": "For",
+        "he": "כִּי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "קד אכ'תארה",
+        "en": "has chosen him",
+        "he": "בָּחַר"
+      },
+      {
+        "ja": "מן גמיע אסבטאך",
+        "en": "from all your tribes",
+        "he": "מִכָּל-שְׁבָטֶיךָ"
+      },
+      {
+        "ja": "ליקום",
+        "en": "to stand",
+        "he": "לַעֲמֹד"
+      },
+      {
+        "ja": "ויכ'דם",
+        "en": "and to serve",
+        "he": "לְשָׁרֵת"
+      },
+      {
+        "ja": "באסם אללה",
+        "en": "in the name of God",
+        "he": "בְּשֵׁם-יְהוָה"
+      },
+      {
+        "ja": "הו",
+        "en": "he",
+        "he": "הוּא"
+      },
+      {
+        "ja": "ובניה",
+        "en": "and his sons",
+        "he": "וּבָנָיו"
+      },
+      {
+        "ja": "טול אלזמאן",
+        "en": "for the length of time",
+        "he": "כָּל-הַיָּמִים"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ואד'א חג",
+        "en": "And when",
+        "he": "וְכִי-יָבֹא"
+      },
+      {
+        "ja": "אי לוי",
+        "en": "any Levite makes pilgrimage",
+        "he": "הַלֵּוִי"
+      },
+      {
+        "ja": "מן בעץ' מחאלך",
+        "en": "from some of your settlements",
+        "he": "מֵאַחַד שְׁעָרֶיךָ"
+      },
+      {
+        "ja": "אלתי לגמיע אל אסראיל",
+        "en": "belonging to all the house of Israel",
+        "he": "מִכָּל-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אלד'י הו מקים בהא",
+        "en": "in which he is residing",
+        "he": "אֲשֶׁר-הוּא גָּר שָׁם"
+      },
+      {
+        "ja": "פלידכ'ל",
+        "en": "he may enter",
+        "he": "וּבָא"
+      },
+      {
+        "ja": "פי אי וקת שא",
+        "en": "at whatever time he wishes",
+        "he": "בְּכָל-אַוַּת נַפְשׁוֹ"
+      },
+      {
+        "ja": "אלי' אלמוצ'ע",
+        "en": "to the place",
+        "he": "אֶל-הַמָּקוֹם"
+      },
+      {
+        "ja": "אלד'י יכ'תארה אללה",
+        "en": "which God shall choose",
+        "he": "אֲשֶׁר-יִבְחַר יְהוָה"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ויכ'דם",
+        "en": "And he shall serve",
+        "he": "וְשֵׁרֵת"
+      },
+      {
+        "ja": "באסם אללה",
+        "en": "in the name of God",
+        "he": "בְּשֵׁם יְהוָה"
+      },
+      {
+        "ja": "רבה",
+        "en": "his Lord",
+        "he": "אֱלֹהָיו"
+      },
+      {
+        "ja": "כגמיע אכ'ותה אלליואניין",
+        "en": "like all his Levite brothers",
+        "he": "כְּכָל-אֶחָיו הַלְוִיִּם"
+      },
+      {
+        "ja": "אלואקפין ת'ם",
+        "en": "who stand there",
+        "he": "הָעֹמְדִים שָׁם"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God",
+        "he": "לִפְנֵי יְהוָה"
+      }
+    ],
+    "8": [
+      {
+        "ja": "וליקתסמו אנצבה מתסאויה",
+        "en": "And they shall share equal portions",
+        "he": "חֵלֶק כְּחֵלֶק יֹאכֵלוּ"
+      },
+      {
+        "ja": "מא כ'לא מא את'בתה",
+        "en": "save for what the forefathers",
+        "he": "לְבַד מִמְכָּרָיו"
+      },
+      {
+        "ja": "אלאבא מן אלנווב",
+        "en": "established from the rotations",
+        "he": "עַל-הָאָבוֹת"
+      }
+    ],
+    "9": [
+      {
+        "ja": "ואעלם",
+        "en": "And know"
+      },
+      {
+        "ja": "אנך דאכ'ל",
+        "en": "that you are entering",
+        "he": "אַתָּה בָּא"
+      },
+      {
+        "ja": "אלי' אלבלד",
+        "en": "the land",
+        "he": "אֶל-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י אללה",
+        "en": "which God",
+        "he": "אֲשֶׁר-יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "מעטיך",
+        "en": "is giving you",
+        "he": "נֹתֵן לָךְ"
+      },
+      {
+        "ja": "פלא תתעלם",
+        "en": "do not learn",
+        "he": "לֹא-תִלְמַד"
+      },
+      {
+        "ja": "אן תעמל",
+        "en": "to do",
+        "he": "לַעֲשׂוֹת"
+      },
+      {
+        "ja": "כמכארה'",
+        "en": "after the manner of the abominations of",
+        "he": "כְּתוֹעֲבֹת"
+      },
+      {
+        "ja": "אולאיך אלאמם",
+        "en": "those nations",
+        "he": "הַגּוֹיִם הָהֵם"
+      }
+    ],
+    "10": [
+      {
+        "ja": "ולא יוגד פיכם",
+        "en": "Let there not be found among you",
+        "he": "לֹא-יִמָּצֵא בְךָ"
+      },
+      {
+        "ja": "מן ישעל אבנה או אבנתה באלנאר",
+        "en": "one who burns his son or his daughter in the fire",
+        "he": "מַעֲבִיר בְּנוֹ-וּבִתּוֹ בָּאֵשׁ"
+      },
+      {
+        "ja": "וקאסם קאסומאת",
+        "en": "nor a diviner of divinations",
+        "he": "קֹסֵם קְסָמִים"
+      },
+      {
+        "ja": "ומתפאול",
+        "en": "nor one who takes omens",
+        "he": "מְעוֹנֵן"
+      },
+      {
+        "ja": "ומתטייר",
+        "en": "nor one who reads signs",
+        "he": "וּמְנַחֵשׁ"
+      },
+      {
+        "ja": "וסאחר",
+        "en": "nor a sorcerer",
+        "he": "וּמְכַשֵּׁף"
+      }
+    ],
+    "11": [
+      {
+        "ja": "וראקי רקאא",
+        "en": "nor a reciter of incantations",
+        "he": "וְחֹבֵר חָבֶר"
+      },
+      {
+        "ja": "וסאל משעוד'",
+        "en": "nor one who consults a conjurer",
+        "he": "וְשֹׁאֵל אוֹב"
+      },
+      {
+        "ja": "או עראף",
+        "en": "or a soothsayer",
+        "he": "וְיִדְּעֹנִי"
+      },
+      {
+        "ja": "ומלתמס מן אלמותא",
+        "en": "nor one who seeks answers from the dead",
+        "he": "וְדֹרֵשׁ אֶל-הַמֵּתִים"
+      }
+    ],
+    "12": [
+      {
+        "ja": "לאן אללה יכרה",
+        "en": "For God abhors",
+        "he": "כִּי-תוֹעֲבַת יְהוָה"
+      },
+      {
+        "ja": "כל מן יצנע הד'ה אלמכארה",
+        "en": "all who do these abominations",
+        "he": "כָּל-עֹשֵׂה אֵלֶּה"
+      },
+      {
+        "ja": "ובגרירתהא",
+        "en": "and it is on account of them",
+        "he": "וּבִגְלַל הַתּוֹעֵבֹת הָאֵלֶּה"
+      },
+      {
+        "ja": "הו",
+        "en": "that He is",
+        "he": "יְהוָה אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "קארצ'הם",
+        "en": "cutting them off",
+        "he": "מוֹרִישׁ אוֹתָם"
+      },
+      {
+        "ja": "מן בין ידיך",
+        "en": "from before you",
+        "he": "מִפָּנֶיךָ"
+      }
+    ],
+    "13": [
+      {
+        "ja": "בל",
+        "en": "But"
+      },
+      {
+        "ja": "כן סאדגא",
+        "en": "be simple",
+        "he": "תָּמִים תִּהְיֶה"
+      },
+      {
+        "ja": "ללה",
+        "en": "toward God",
+        "he": "עִם יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      }
+    ],
+    "14": [
+      {
+        "ja": "לאן הולאי אלאמם",
+        "en": "For these nations",
+        "he": "כִּי הַגּוֹיִם הָאֵלֶּה"
+      },
+      {
+        "ja": "אלד'י אנת וארת'הם",
+        "en": "whom you are to dispossess",
+        "he": "אֲשֶׁר אַתָּה יוֹרֵשׁ אוֹתָם"
+      },
+      {
+        "ja": "מן אלמתפאולין",
+        "en": "it is to those who take omens",
+        "he": "אֶל-מְעֹנְנִים"
+      },
+      {
+        "ja": "ואלקאסומין",
+        "en": "and to diviners",
+        "he": "וְאֶל-קֹסְמִים"
+      },
+      {
+        "ja": "יסמעון",
+        "en": "that they listen",
+        "he": "יִשְׁמָעוּ"
+      },
+      {
+        "ja": "ואנת",
+        "en": "but as for you",
+        "he": "וְאַתָּה"
+      },
+      {
+        "ja": "פלם יטלק לך",
+        "en": "has not permitted you",
+        "he": "לֹא כֵן"
+      },
+      {
+        "ja": "אללה רבך",
+        "en": "God your Lord",
+        "he": "נָתַן לְךָ"
+      },
+      {
+        "ja": "מת'ל ד'אלך",
+        "en": "anything like that",
+        "he": "יְהוָה אֱלֹהֶיךָ"
+      }
+    ],
+    "15": [
+      {
+        "ja": "לכן",
+        "en": "Rather"
+      },
+      {
+        "ja": "אי נבי",
+        "en": "any prophet",
+        "he": "נָבִיא"
+      },
+      {
+        "ja": "מן בינכם",
+        "en": "from among you",
+        "he": "מִקִּרְבְּךָ"
+      },
+      {
+        "ja": "מן בעץ' אכ'ותך",
+        "en": "from some of your brothers",
+        "he": "מֵאַחֶיךָ"
+      },
+      {
+        "ja": "מת'לי",
+        "en": "like me",
+        "he": "כָּמֹנִי"
+      },
+      {
+        "ja": "ינצבה לך",
+        "en": "shall appoint him for you",
+        "he": "יָקִים לְךָ"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "מנה פאקבלו",
+        "en": "from him you shall accept",
+        "he": "אֵלָיו תִּשְׁמָעוּן"
+      }
+    ],
+    "16": [
+      {
+        "ja": "כגמיע מא סאלת",
+        "en": "In accordance with all that you asked",
+        "he": "כְּכֹל אֲשֶׁר-שָׁאַלְתָּ"
+      },
+      {
+        "ja": "אללה",
+        "en": "of God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "פי גבל חריב",
+        "en": "at Mount Horeb",
+        "he": "בְּחֹרֵב"
+      },
+      {
+        "ja": "פי יום אלגוק",
+        "en": "on the day of the assembly",
+        "he": "בְּיוֹם הַקָּהָל"
+      },
+      {
+        "ja": "וקלת",
+        "en": "when you said",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "לא אעוד אן אסמע",
+        "en": "I will no longer hear",
+        "he": "לֹא אֹסֵף לִשְׁמֹעַ"
+      },
+      {
+        "ja": "צות אללה רבי",
+        "en": "the voice of God my Lord",
+        "he": "אֶת-קוֹל יְהוָה אֱלֹהָי"
+      },
+      {
+        "ja": "ולא ארא הד'ה אלנאר",
+        "en": "nor will I see this",
+        "he": "וְאֶת-הָאֵשׁ הַגְּדֹלָה הַזֹּאת"
+      },
+      {
+        "ja": "עצ'ימה",
+        "en": "great fire"
+      },
+      {
+        "ja": "ללא אמות",
+        "en": "lest I die",
+        "he": "וְלֹא אָמוּת"
+      }
+    ],
+    "17": [
+      {
+        "ja": "פקאל אללה",
+        "en": "And God said",
+        "he": "וַיֹּאמֶר יְהוָה"
+      },
+      {
+        "ja": "לי",
+        "en": "to me",
+        "he": "אֵלָי"
+      },
+      {
+        "ja": "קד אחסנו",
+        "en": "They have done well",
+        "he": "הֵיטִיבוּ"
+      },
+      {
+        "ja": "פי גמיע מא קאלו",
+        "en": "in all that they have said",
+        "he": "אֲשֶׁר דִּבֵּרוּ"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ואי נבי",
+        "en": "And whatever prophet",
+        "he": "נָבִיא"
+      },
+      {
+        "ja": "אנצבה להם",
+        "en": "I appoint for them",
+        "he": "אָקִים לָהֶם"
+      },
+      {
+        "ja": "מן בעץ' אכ'ותהם",
+        "en": "from some of their brothers",
+        "he": "מִקֶּרֶב אֲחֵיהֶם"
+      },
+      {
+        "ja": "מת'לך",
+        "en": "like you",
+        "he": "כָּמוֹךָ"
+      },
+      {
+        "ja": "אלקנה כלאמי",
+        "en": "I shall teach him My word",
+        "he": "וְנָתַתִּי דְבָרַי בְּפִיו"
+      },
+      {
+        "ja": "פיכ'אטבהם",
+        "en": "and he shall address them",
+        "he": "וְדִבֶּר אֲלֵיהֶם"
+      },
+      {
+        "ja": "בגמיע מא אמרה בה",
+        "en": "with all that I command him",
+        "he": "אֵת כָּל-אֲשֶׁר אֲצַוֶּנּוּ"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ואי אנסאן",
+        "en": "And whatever person",
+        "he": "וְהָיָה הָאִישׁ"
+      },
+      {
+        "ja": "לם יקבל",
+        "en": "does not accept",
+        "he": "אֲשֶׁר לֹא-יִשְׁמַע"
+      },
+      {
+        "ja": "כלאמי",
+        "en": "My word",
+        "he": "אֶל-דְּבָרַי"
+      },
+      {
+        "ja": "אלד'י י'ודי עני",
+        "en": "which he conveys on My behalf",
+        "he": "אֲשֶׁר יְדַבֵּר בִּשְׁמִי"
+      },
+      {
+        "ja": "פאני אטאלבה",
+        "en": "I shall call him to account",
+        "he": "אָנֹכִי אֶדְרֹשׁ מֵעִמּוֹ"
+      }
+    ],
+    "20": [
+      {
+        "ja": "ואי מתנבי",
+        "en": "But whatever false prophet",
+        "he": "אַךְ הַנָּבִיא"
+      },
+      {
+        "ja": "תווקח פתקוול",
+        "en": "has been brazen and has fabricated",
+        "he": "אֲשֶׁר יָזִיד לְדַבֵּר"
+      },
+      {
+        "ja": "קולא עני",
+        "en": "a saying on My behalf",
+        "he": "דָּבָר בִּשְׁמִי"
+      },
+      {
+        "ja": "מא לם אמרה אן יקולה",
+        "en": "what I have not commanded him to say",
+        "he": "אֵת אֲשֶׁר לֹא-צִוִּיתִיו לְדַבֵּר"
+      },
+      {
+        "ja": "ומן יתנבא למעבודאת אכ'ר",
+        "en": "and whoever prophesies in the name of other objects of worship",
+        "he": "וַאֲשֶׁר יְדַבֵּר בְּשֵׁם אֱלֹהִים אֲחֵרִים"
+      },
+      {
+        "ja": "פליקתל ד'אלך אלמתנבי",
+        "en": "that false prophet shall be put to death",
+        "he": "וּמֵת הַנָּבִיא הַהוּא"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ואן קלת",
+        "en": "And if you say",
+        "he": "וְכִי תֹאמַר"
+      },
+      {
+        "ja": "פי נפסך",
+        "en": "to yourself",
+        "he": "בִּלְבָבֶךָ"
+      },
+      {
+        "ja": "כיף נעלם",
+        "en": "How shall we know",
+        "he": "אֵיכָה נֵדַע"
+      },
+      {
+        "ja": "אלקול",
+        "en": "the saying",
+        "he": "אֶת-הַדָּבָר"
+      },
+      {
+        "ja": "אלד'י לם יקולה אללה",
+        "en": "which God has not spoken",
+        "he": "אֲשֶׁר לֹא-דִבְּרוֹ יְהוָה"
+      }
+    ],
+    "22": [
+      {
+        "ja": "פאנה",
+        "en": "Then:"
+      },
+      {
+        "ja": "מא יקולה אלמתנבי",
+        "en": "that which the false prophet speaks",
+        "he": "אֲשֶׁר יְדַבֵּר הַנָּבִיא"
+      },
+      {
+        "ja": "ען אללה",
+        "en": "in the name of God",
+        "he": "בְּשֵׁם יְהוָה"
+      },
+      {
+        "ja": "ולא יגוז ד'אלך אלקול",
+        "en": "if that saying neither comes to pass",
+        "he": "וְלֹא-יִהְיֶה הַדָּבָר"
+      },
+      {
+        "ja": "ולא יגב",
+        "en": "nor proves necessary",
+        "he": "וְלֹא יָבֹא"
+      },
+      {
+        "ja": "פהו אלקול אלד'י לם יקולה אללה",
+        "en": "it is the saying which God has not spoken",
+        "he": "הוּא הַדָּבָר אֲשֶׁר לֹא-דִבְּרוֹ יְהוָה"
+      },
+      {
+        "ja": "ואנמא קאלה אלמתנבי בקחה",
+        "en": "the false prophet has said it out of brazenness",
+        "he": "בְּזָדוֹן דִּבְּרוֹ הַנָּבִיא"
+      },
+      {
+        "ja": "פלא תחד'רה",
+        "en": "Do not be wary of him",
+        "he": "לֹא תָגוּר מִמֶּנּוּ"
+      }
+    ]
+  }
+}
