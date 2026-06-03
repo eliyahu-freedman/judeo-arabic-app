@@ -1,5 +1,5 @@
 {
-  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 7. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_7.py; validated against the source with a sequential per-side cursor.",
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Bamidbar 7. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/bamidbar_7.py; validated against the source with independent per-side occurrence claiming.",
   "_status": "draft",
   "_model": "hand-authored",
   "alignments": {
@@ -182,506 +182,981 @@
     ],
     "12": [
       {
-        "ja": "פכאן אלמקרב. פי אליום אלאוול קרבאנה נחשון אבן עמינדב מן סבט יהודה",
-        "en": "And the one presenting on the first day his offering was Nahshon son of Amminadab, noble of the tribe of Judah.",
-        "he": "וַיְהִי הַמַּקְרִיב בַּיּוֹם הָרִאשׁוֹן--אֶת-קָרְבָּנוֹ נַחְשׁוֹן בֶּן-עַמִּינָדָב לְמַטֵּה יְהוּדָה"
+        "ja": "פכאן אלמקרב. פי אליום אלאוול קרבאנה",
+        "en": "And the one presenting on the first day his offering was",
+        "he": "וַיְהִי הַמַּקְרִיב בַּיּוֹם הָרִאשׁוֹן--אֶת-קָרְבָּנוֹ"
+      },
+      {
+        "ja": "נחשון אבן עמינדב מן סבט יהודה",
+        "en": "Nahshon son of Amminadab, noble of the tribe of Judah.",
+        "he": "נַחְשׁוֹן בֶּן-עַמִּינָדָב לְמַטֵּה יְהוּדָה"
       }
     ],
     "13": [
       {
-        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל במת'קאל אלקדס. וכרנוב פצ'ה וזנה סבעין מת'קאל. כלאהמא ממלוון. סמדא מלתותא בדהן לאלהדייה",
-        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels by the shekel of the sanctuary, and a silver basin, its weight seventy shekels — both of them filled with fine flour mixed with oil, for the gift-offering.",
-        "he": "וְקָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
+        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל במת'קאל אלקדס.",
+        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels by the shekel of the sanctuary,",
+        "he": "וְקָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ"
+      },
+      {
+        "ja": "וכרנוב פצ'ה וזנה סבעין מת'קאל.",
+        "en": "and a silver basin, its weight seventy shekels —",
+        "he": "מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "כלאהמא ממלוון. סמדא מלתותא בדהן לאלהדייה",
+        "en": "both of them filled with fine flour mixed with oil, for the gift-offering.",
+        "he": "שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
       }
     ],
     "14": [
       {
-        "ja": "ודרגא מן ד'הב. וזנה עשרה מת'אקיל ממלווא בכורא",
-        "en": "A gold casket, its weight ten shekels, filled with incense.",
-        "he": "כַּף אַחַת עֲשָׂרָה זָהָב מְלֵאָה קְטֹרֶת"
+        "ja": "ודרגא מן ד'הב",
+        "en": "A gold casket, its weight ten shekels,",
+        "he": "כַּף אַחַת עֲשָׂרָה זָהָב"
+      },
+      {
+        "ja": "וזנה עשרה מת'אקיל ממלווא בכורא",
+        "en": "filled with incense.",
+        "he": "מְלֵאָה קְטֹרֶת"
       }
     ],
     "15": [
       {
-        "ja": "ות'ורא מן אלבקר. וכבשא וחמלא אבן סנתה לאלצעידה",
-        "en": "And a bull of the herd, a ram, and a yearling lamb, for the ascent-offering.",
-        "he": "פַּר אֶחָד בֶּן-בָּקָר אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
+        "ja": "ות'ורא מן אלבקר",
+        "en": "And a bull of the herd,",
+        "he": "פַּר אֶחָד בֶּן-בָּקָר"
+      },
+      {
+        "ja": "וכבשא וחמלא אבן סנתה לאלצעידה",
+        "en": "a ram, and a yearling lamb, for the ascent-offering.",
+        "he": "אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
       }
     ],
     "16": [
       {
-        "ja": "ועתודא מן אלמאעז לאלדכוה",
-        "en": "And a he-goat of the goats, for the purification-offering.",
-        "he": "שְׂעִיר-עִזִּים אֶחָד לְחַטָּאת"
+        "ja": "ועתודא מן אלמאעז",
+        "en": "And a he-goat of the goats,",
+        "he": "שְׂעִיר-עִזִּים אֶחָד"
+      },
+      {
+        "ja": "לאלדכוה",
+        "en": "for the purification-offering.",
+        "he": "לְחַטָּאת"
       }
     ],
     "17": [
       {
-        "ja": "ולדבח אלסלאמה בקרתין. וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה. הד'א קרבאן נחשון אבן עמינדב",
-        "en": "And for the peace-sacrifice: two heifers, five rams, five he-goats, and five yearling lambs. This was the offering of Nahshon son of Amminadab.",
-        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם אֵילִם חֲמִשָּׁה עַתּוּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה זֶה קָרְבַּן נַחְשׁוֹן בֶּן-עַמִּינָדָב"
+        "ja": "ולדבח אלסלאמה בקרתין",
+        "en": "And for the peace-sacrifice: two heifers,",
+        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם"
+      },
+      {
+        "ja": "וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה.",
+        "en": "five rams, five he-goats, and five yearling lambs.",
+        "he": "אֵילִם חֲמִשָּׁה עַתּוּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה"
+      },
+      {
+        "ja": "הד'א קרבאן נחשון אבן עמינדב",
+        "en": "This was the offering of Nahshon son of Amminadab.",
+        "he": "זֶה קָרְבַּן נַחְשׁוֹן בֶּן-עַמִּינָדָב"
       }
     ],
     "18": [
       {
-        "ja": "פכאן אלמקרב פי אליום אלתאני. נתנאל אבן צוער. שריף יששכר",
-        "en": "And the one presenting on the second day was Nethanel son of Zuar, noble of Issachar.",
-        "he": "בַּיּוֹם הַשֵּׁנִי הִקְרִיב נְתַנְאֵל בֶּן-צוּעָר--נְשִׂיא יִשָּׂשכָר"
+        "ja": "פכאן אלמקרב פי אליום אלתאני",
+        "en": "And the one presenting on the second day was",
+        "he": "בַּיּוֹם הַשֵּׁנִי הִקְרִיב"
+      },
+      {
+        "ja": "נתנאל אבן צוער. שריף יששכר",
+        "en": "Nethanel son of Zuar, noble of Issachar.",
+        "he": "נְתַנְאֵל בֶּן-צוּעָר--נְשִׂיא יִשָּׂשכָר"
       }
     ],
     "19": [
       {
-        "ja": "קרב קרבאנה קצעה מן פצ'ה וזנה סבעין מת'קאל. כלאהמא ממלוון. סמדא מלתותא בדהן לאלהדייה",
-        "en": "He presented his offering: a silver bowl, its weight a hundred and thirty shekels by the shekel of the sanctuary, and a silver basin, its weight seventy shekels — both of them filled with fine flour mixed with oil, for the gift-offering.",
-        "he": "הִקְרִב אֶת-קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
+        "ja": "קרב קרבאנה קצעה מן פצ'ה וזנה סבעין מת'קאל.",
+        "en": "He presented his offering: a silver bowl, its weight a hundred and thirty shekels by the shekel of the sanctuary, and a silver basin, its weight seventy shekels —",
+        "he": "הִקְרִב אֶת-קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "כלאהמא ממלוון. סמדא מלתותא בדהן לאלהדייה",
+        "en": "both of them filled with fine flour mixed with oil, for the gift-offering.",
+        "he": "שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
       }
     ],
     "20": [
       {
-        "ja": "ודרגא מן ד'הב. וזנה עשרה מתאקיל ממלווא בכ'ורא",
-        "en": "A gold casket, its weight ten shekels, filled with incense.",
-        "he": "כַּף אַחַת עֲשָׂרָה זָהָב מְלֵאָה קְטֹרֶת"
+        "ja": "ודרגא מן ד'הב",
+        "en": "A gold casket, its weight ten shekels,",
+        "he": "כַּף אַחַת עֲשָׂרָה זָהָב"
+      },
+      {
+        "ja": "וזנה עשרה מתאקיל ממלווא בכ'ורא",
+        "en": "filled with incense.",
+        "he": "מְלֵאָה קְטֹרֶת"
       }
     ],
     "21": [
       {
-        "ja": "ות'ורא מן אלבקר. וכבשא וחמלא אבן סנתה לאלצעידה",
-        "en": "And a bull of the herd, a ram, and a yearling lamb, for the ascent-offering.",
-        "he": "פַּר אֶחָד בֶּן-בָּקָר אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
+        "ja": "ות'ורא מן אלבקר",
+        "en": "And a bull of the herd,",
+        "he": "פַּר אֶחָד בֶּן-בָּקָר"
+      },
+      {
+        "ja": "וכבשא וחמלא אבן סנתה לאלצעידה",
+        "en": "a ram, and a yearling lamb, for the ascent-offering.",
+        "he": "אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
       }
     ],
     "22": [
       {
-        "ja": "ועתודא מן אלמאעז לאלדכוה",
-        "en": "And a he-goat of the goats, for the purification-offering.",
-        "he": "שְׂעִיר-עִזִּים אֶחָד לְחַטָּאת"
+        "ja": "ועתודא מן אלמאעז",
+        "en": "And a he-goat of the goats,",
+        "he": "שְׂעִיר-עִזִּים אֶחָד"
+      },
+      {
+        "ja": "לאלדכוה",
+        "en": "for the purification-offering.",
+        "he": "לְחַטָּאת"
       }
     ],
     "23": [
       {
-        "ja": "ולדבח אלסלאמה בקרתין. וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה. הד'ה קרבאן נתנאל אבן צוער",
-        "en": "And for the peace-sacrifice: two heifers, five rams, five he-goats, and five yearling lambs. This was the offering of Nethanel son of Zuar.",
-        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה זֶה קָרְבַּן נְתַנְאֵל בֶּן-צוּעָר"
+        "ja": "ולדבח אלסלאמה בקרתין",
+        "en": "And for the peace-sacrifice: two heifers,",
+        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם"
+      },
+      {
+        "ja": "וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה.",
+        "en": "five rams, five he-goats, and five yearling lambs.",
+        "he": "אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה"
+      },
+      {
+        "ja": "הד'ה קרבאן נתנאל אבן צוער",
+        "en": "This was the offering of Nethanel son of Zuar.",
+        "he": "זֶה קָרְבַּן נְתַנְאֵל בֶּן-צוּעָר"
       }
     ],
     "24": [
       {
-        "ja": "פכאן אלמקרב פי אליום אלת'אלת'. אלי'אב אבן חלן. שריף זבולון",
-        "en": "And the one presenting on the third day was Eliab son of Helon, noble of Zebulun.",
-        "he": "בַּיּוֹם הַשְּׁלִישִׁי נָשִׂיא לִבְנֵי זְבוּלֻן--אֱלִיאָב בֶּן-חֵלֹן"
+        "ja": "פכאן אלמקרב פי אליום אלת'אלת'",
+        "en": "And the one presenting on the third day was",
+        "he": "בַּיּוֹם הַשְּׁלִישִׁי נָשִׂיא לִבְנֵי זְבוּלֻן--"
+      },
+      {
+        "ja": "אלי'אב אבן חלן. שריף זבולון",
+        "en": "Eliab son of Helon, noble of Zebulun.",
+        "he": "אֱלִיאָב בֶּן-חֵלֹן"
       }
     ],
     "25": [
       {
-        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל במת'קאל אלקדס. וכרנוב פצ'ה וזנה סבעין מת'קאל. כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
-        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels by the shekel of the sanctuary, and a silver basin, its weight seventy shekels — both of them filled with fine flour mixed with oil, for the gift-offering.",
-        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
+        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל במת'קאל אלקדס.",
+        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels by the shekel of the sanctuary,",
+        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ"
+      },
+      {
+        "ja": "וכרנוב פצ'ה וזנה סבעין מת'קאל.",
+        "en": "and a silver basin, its weight seventy shekels —",
+        "he": "מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
+        "en": "both of them filled with fine flour mixed with oil, for the gift-offering.",
+        "he": "שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
       }
     ],
     "26": [
       {
-        "ja": "ודרגא מן ד'הב. וזנה עשרה מת'אקיל ממלווא בכ'ורא",
-        "en": "A gold casket, its weight ten shekels, filled with incense.",
-        "he": "כַּף אַחַת עֲשָׂרָה זָהָב מְלֵאָה קְטֹרֶת"
+        "ja": "ודרגא מן ד'הב",
+        "en": "A gold casket, its weight ten shekels,",
+        "he": "כַּף אַחַת עֲשָׂרָה זָהָב"
+      },
+      {
+        "ja": "וזנה עשרה מת'אקיל ממלווא בכ'ורא",
+        "en": "filled with incense.",
+        "he": "מְלֵאָה קְטֹרֶת"
       }
     ],
     "27": [
       {
-        "ja": "ות'ורא מן אלבקר. וכבשא וחמלא אבן סנתה לאלצעידה",
-        "en": "And a bull of the herd, a ram, and a yearling lamb, for the ascent-offering.",
-        "he": "פַּר אֶחָד בֶּן-בָּקָר אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
+        "ja": "ות'ורא מן אלבקר",
+        "en": "And a bull of the herd,",
+        "he": "פַּר אֶחָד בֶּן-בָּקָר"
+      },
+      {
+        "ja": "וכבשא וחמלא אבן סנתה לאלצעידה",
+        "en": "a ram, and a yearling lamb, for the ascent-offering.",
+        "he": "אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
       }
     ],
     "28": [
       {
-        "ja": "ועתודא מן אלמאעז לאלדכוה",
-        "en": "And a he-goat of the goats, for the purification-offering.",
-        "he": "שְׂעִיר-עִזִּים אֶחָד לְחַטָּאת"
+        "ja": "ועתודא מן אלמאעז",
+        "en": "And a he-goat of the goats,",
+        "he": "שְׂעִיר-עִזִּים אֶחָד"
+      },
+      {
+        "ja": "לאלדכוה",
+        "en": "for the purification-offering.",
+        "he": "לְחַטָּאת"
       }
     ],
     "29": [
       {
-        "ja": "ולד'בח אלסלאמה בקרתין. וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה. הד'א קרבאן אליאב אבן חלון",
-        "en": "And for the peace-sacrifice: two heifers, five rams, five he-goats, and five yearling lambs. This was the offering of Eliab son of Helon.",
-        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה זֶה קָרְבַּן אֱלִיאָב בֶּן-חֵלֹן"
+        "ja": "ולד'בח אלסלאמה בקרתין",
+        "en": "And for the peace-sacrifice: two heifers,",
+        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם"
+      },
+      {
+        "ja": "וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה.",
+        "en": "five rams, five he-goats, and five yearling lambs.",
+        "he": "אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה"
+      },
+      {
+        "ja": "הד'א קרבאן אליאב אבן חלון",
+        "en": "This was the offering of Eliab son of Helon.",
+        "he": "זֶה קָרְבַּן אֱלִיאָב בֶּן-חֵלֹן"
       }
     ],
     "30": [
       {
-        "ja": "פכאן אלמקרב פי אליום אלראבע. אליצור אבן שדיאור. שריף ראובן",
-        "en": "And the one presenting on the fourth day was Elizur son of Shedeur, noble of Reuben.",
-        "he": "בַּיּוֹם הָרְבִיעִי נָשִׂיא לִבְנֵי רְאוּבֵן--אֱלִיצוּר בֶּן-שְׁדֵיאוּר"
+        "ja": "פכאן אלמקרב פי אליום אלראבע",
+        "en": "And the one presenting on the fourth day was",
+        "he": "בַּיּוֹם הָרְבִיעִי נָשִׂיא לִבְנֵי רְאוּבֵן--"
+      },
+      {
+        "ja": "אליצור אבן שדיאור. שריף ראובן",
+        "en": "Elizur son of Shedeur, noble of Reuben.",
+        "he": "אֱלִיצוּר בֶּן-שְׁדֵיאוּר"
       }
     ],
     "31": [
       {
-        "ja": "קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל. וכ'רנוב פצ'ה. וזנה סבעין מת'קאל במת'קאל אלקדס. כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
-        "en": "His offering was: a silver bowl, its weight a hundred and thirty shekels, and a silver basin, its weight seventy shekels by the shekel of the sanctuary — both of them filled with fine flour mixed with oil, for the gift-offering.",
-        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
+        "ja": "קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל.",
+        "en": "His offering was: a silver bowl, its weight a hundred and thirty shekels,",
+        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ"
+      },
+      {
+        "ja": "וכ'רנוב פצ'ה. וזנה סבעין מת'קאל במת'קאל אלקדס.",
+        "en": "and a silver basin, its weight seventy shekels by the shekel of the sanctuary —",
+        "he": "מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
+        "en": "both of them filled with fine flour mixed with oil, for the gift-offering.",
+        "he": "שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
       }
     ],
     "32": [
       {
-        "ja": "ודרגא מן ד'הב. וזנה עשרה מת'אקיל ממלווא בכ'ורא",
-        "en": "A gold casket, its weight ten shekels, filled with incense.",
-        "he": "כַּף אַחַת עֲשָׂרָה זָהָב מְלֵאָה קְטֹרֶת"
+        "ja": "ודרגא מן ד'הב",
+        "en": "A gold casket, its weight ten shekels,",
+        "he": "כַּף אַחַת עֲשָׂרָה זָהָב"
+      },
+      {
+        "ja": "וזנה עשרה מת'אקיל ממלווא בכ'ורא",
+        "en": "filled with incense.",
+        "he": "מְלֵאָה קְטֹרֶת"
       }
     ],
     "33": [
       {
-        "ja": "ות'ורא מן אלבקר. וכבשא וחמלא אבן סנתה לאלצעידה",
-        "en": "And a bull of the herd, a ram, and a yearling lamb, for the ascent-offering.",
-        "he": "פַּר אֶחָד בֶּן-בָּקָר אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
+        "ja": "ות'ורא מן אלבקר",
+        "en": "And a bull of the herd,",
+        "he": "פַּר אֶחָד בֶּן-בָּקָר"
+      },
+      {
+        "ja": "וכבשא וחמלא אבן סנתה לאלצעידה",
+        "en": "a ram, and a yearling lamb, for the ascent-offering.",
+        "he": "אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
       }
     ],
     "34": [
       {
-        "ja": "ועתוד מן אלמאעז לאלדכוה",
-        "en": "And a he-goat of the goats, for the purification-offering.",
-        "he": "שְׂעִיר-עִזִּים אֶחָד לְחַטָּאת"
+        "ja": "ועתוד מן אלמאעז",
+        "en": "And a he-goat of the goats,",
+        "he": "שְׂעִיר-עִזִּים אֶחָד"
+      },
+      {
+        "ja": "לאלדכוה",
+        "en": "for the purification-offering.",
+        "he": "לְחַטָּאת"
       }
     ],
     "35": [
       {
-        "ja": "ולד'בח אלסלאמה בקרתין. וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה. הד'א קרבאן אליצור אבן שדיאור",
-        "en": "And for the peace-sacrifice: two heifers, five rams, five he-goats, and five yearling lambs. This was the offering of Elizur son of Shedeur.",
-        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה זֶה קָרְבַּן אֱלִיצוּר בֶּן-שְׁדֵיאוּר"
+        "ja": "ולד'בח אלסלאמה בקרתין",
+        "en": "And for the peace-sacrifice: two heifers,",
+        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם"
+      },
+      {
+        "ja": "וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה.",
+        "en": "five rams, five he-goats, and five yearling lambs.",
+        "he": "אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה"
+      },
+      {
+        "ja": "הד'א קרבאן אליצור אבן שדיאור",
+        "en": "This was the offering of Elizur son of Shedeur.",
+        "he": "זֶה קָרְבַּן אֱלִיצוּר בֶּן-שְׁדֵיאוּר"
       }
     ],
     "36": [
       {
-        "ja": "פכאן אלמקרב פי אליום אלכ'אמס. שלומיאל אבן צורישדי. שרף שמעון",
-        "en": "And the one presenting on the fifth day was Shelumiel son of Zurishaddai, noble of Simeon.",
-        "he": "בַּיּוֹם הַחֲמִישִׁי נָשִׂיא לִבְנֵי שִׁמְעוֹן--שְׁלֻמִיאֵל בֶּן-צוּרִישַׁדָּי"
+        "ja": "פכאן אלמקרב פי אליום אלכ'אמס",
+        "en": "And the one presenting on the fifth day was",
+        "he": "בַּיּוֹם הַחֲמִישִׁי נָשִׂיא לִבְנֵי שִׁמְעוֹן--"
+      },
+      {
+        "ja": "שלומיאל אבן צורישדי. שרף שמעון",
+        "en": "Shelumiel son of Zurishaddai, noble of Simeon.",
+        "he": "שְׁלֻמִיאֵל בֶּן-צוּרִישַׁדָּי"
       }
     ],
     "37": [
       {
-        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מתקאל. וכ'רנוב פצ'ה. וזנה סבעין מת'קאל במת'קאל אלקדס. כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
-        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels, and a silver basin, its weight seventy shekels by the shekel of the sanctuary — both of them filled with fine flour mixed with oil, for the gift-offering.",
-        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
+        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מתקאל.",
+        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels,",
+        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ"
+      },
+      {
+        "ja": "וכ'רנוב פצ'ה. וזנה סבעין מת'קאל במת'קאל אלקדס.",
+        "en": "and a silver basin, its weight seventy shekels by the shekel of the sanctuary —",
+        "he": "מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
+        "en": "both of them filled with fine flour mixed with oil, for the gift-offering.",
+        "he": "שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
       }
     ],
     "38": [
       {
-        "ja": "ודרגא מן ד'הב. וזנה עשרה מת'אקיל ממלווא בכ'ורא",
-        "en": "A gold casket, its weight ten shekels, filled with incense.",
-        "he": "כַּף אַחַת עֲשָׂרָה זָהָב מְלֵאָה קְטֹרֶת"
+        "ja": "ודרגא מן ד'הב",
+        "en": "A gold casket, its weight ten shekels,",
+        "he": "כַּף אַחַת עֲשָׂרָה זָהָב"
+      },
+      {
+        "ja": "וזנה עשרה מת'אקיל ממלווא בכ'ורא",
+        "en": "filled with incense.",
+        "he": "מְלֵאָה קְטֹרֶת"
       }
     ],
     "39": [
       {
-        "ja": "ות'ורא מן אלבקר. וכבשא וחמלא אבן סנתה לאלצעידה",
-        "en": "And a bull of the herd, a ram, and a yearling lamb, for the ascent-offering.",
-        "he": "פַּר אֶחָד בֶּן-בָּקָר אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
+        "ja": "ות'ורא מן אלבקר",
+        "en": "And a bull of the herd,",
+        "he": "פַּר אֶחָד בֶּן-בָּקָר"
+      },
+      {
+        "ja": "וכבשא וחמלא אבן סנתה לאלצעידה",
+        "en": "a ram, and a yearling lamb, for the ascent-offering.",
+        "he": "אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
       }
     ],
     "40": [
       {
-        "ja": "ועתוד מן אלמאעז לאלדכוה",
-        "en": "And a he-goat of the goats, for the purification-offering.",
-        "he": "שְׂעִיר-עִזִּים אֶחָד לְחַטָּאת"
+        "ja": "ועתוד מן אלמאעז",
+        "en": "And a he-goat of the goats,",
+        "he": "שְׂעִיר-עִזִּים אֶחָד"
+      },
+      {
+        "ja": "לאלדכוה",
+        "en": "for the purification-offering.",
+        "he": "לְחַטָּאת"
       }
     ],
     "41": [
       {
-        "ja": "ולד'בח אלסלאמה בקרתין. וכ'מסה חמלאן בני סנה. הד'א קרבאן שלומיאל אבן צורישדי",
-        "en": "And for the peace-sacrifice: two heifers, five rams, five he-goats, and five yearling lambs. This was the offering of Shelumiel son of Zurishaddai.",
-        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה זֶה קָרְבַּן שְׁלֻמִיאֵל בֶּן-צוּרִישַׁדָּי"
+        "ja": "ולד'בח אלסלאמה בקרתין",
+        "en": "And for the peace-sacrifice: two heifers,",
+        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם"
+      },
+      {
+        "ja": "וכ'מסה חמלאן בני סנה.",
+        "en": "five rams, five he-goats, and five yearling lambs.",
+        "he": "אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה"
+      },
+      {
+        "ja": "הד'א קרבאן שלומיאל אבן צורישדי",
+        "en": "This was the offering of Shelumiel son of Zurishaddai.",
+        "he": "זֶה קָרְבַּן שְׁלֻמִיאֵל בֶּן-צוּרִישַׁדָּי"
       }
     ],
     "42": [
       {
-        "ja": "וכאן אלמקרב פי אליום אלסאדס. אליסף אבן דעואל. שריף גד",
-        "en": "And the one presenting on the sixth day was Eliasaph son of Deuel, noble of Gad.",
-        "he": "בַּיּוֹם הַשִּׁשִּׁי נָשִׂיא לִבְנֵי גָד--אֶלְיָסָף בֶּן-דְּעוּאֵל"
+        "ja": "וכאן אלמקרב פי אליום אלסאדס",
+        "en": "And the one presenting on the sixth day was",
+        "he": "בַּיּוֹם הַשִּׁשִּׁי נָשִׂיא לִבְנֵי גָד--"
+      },
+      {
+        "ja": "אליסף אבן דעואל. שריף גד",
+        "en": "Eliasaph son of Deuel, noble of Gad.",
+        "he": "אֶלְיָסָף בֶּן-דְּעוּאֵל"
       }
     ],
     "43": [
       {
-        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל. וכ'רנוב פצ'ה. וזנה סבעין מת'קאל במת'קאל אלקדס. כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
-        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels, and a silver basin, its weight seventy shekels by the shekel of the sanctuary — both of them filled with fine flour mixed with oil, for the gift-offering.",
-        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
+        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל.",
+        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels,",
+        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ"
+      },
+      {
+        "ja": "וכ'רנוב פצ'ה. וזנה סבעין מת'קאל במת'קאל אלקדס.",
+        "en": "and a silver basin, its weight seventy shekels by the shekel of the sanctuary —",
+        "he": "מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
+        "en": "both of them filled with fine flour mixed with oil, for the gift-offering.",
+        "he": "שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
       }
     ],
     "44": [
       {
-        "ja": "ודרגא מן ד'הב. וזנה עשרה מת'אקיל ממלווא בכ'ורא",
-        "en": "A gold casket, its weight ten shekels, filled with incense.",
-        "he": "כַּף אַחַת עֲשָׂרָה זָהָב מְלֵאָה קְטֹרֶת"
+        "ja": "ודרגא מן ד'הב",
+        "en": "A gold casket, its weight ten shekels,",
+        "he": "כַּף אַחַת עֲשָׂרָה זָהָב"
+      },
+      {
+        "ja": "וזנה עשרה מת'אקיל ממלווא בכ'ורא",
+        "en": "filled with incense.",
+        "he": "מְלֵאָה קְטֹרֶת"
       }
     ],
     "45": [
       {
-        "ja": "ות'ורא מן אלבקר. וכבשא וחמלא אבן סנתה לאלצעידה",
-        "en": "And a bull of the herd, a ram, and a yearling lamb, for the ascent-offering.",
-        "he": "פַּר אֶחָד בֶּן-בָּקָר אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
+        "ja": "ות'ורא מן אלבקר",
+        "en": "And a bull of the herd,",
+        "he": "פַּר אֶחָד בֶּן-בָּקָר"
+      },
+      {
+        "ja": "וכבשא וחמלא אבן סנתה לאלצעידה",
+        "en": "a ram, and a yearling lamb, for the ascent-offering.",
+        "he": "אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
       }
     ],
     "46": [
       {
-        "ja": "ועתוד מן אלמאעז לאלדכוה",
-        "en": "And a he-goat of the goats, for the purification-offering.",
-        "he": "שְׂעִיר-עִזִּים אֶחָד לְחַטָּאת"
+        "ja": "ועתוד מן אלמאעז",
+        "en": "And a he-goat of the goats,",
+        "he": "שְׂעִיר-עִזִּים אֶחָד"
+      },
+      {
+        "ja": "לאלדכוה",
+        "en": "for the purification-offering.",
+        "he": "לְחַטָּאת"
       }
     ],
     "47": [
       {
-        "ja": "ולד'בח אלסלאמה בקרתין. וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה. הד'א קרבאן אליסף אבן דעואל",
-        "en": "And for the peace-sacrifice: two heifers, five rams, five he-goats, and five yearling lambs. This was the offering of Eliasaph son of Deuel.",
-        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה זֶה קָרְבַּן אֶלְיָסָף בֶּן-דְּעוּאֵל"
+        "ja": "ולד'בח אלסלאמה בקרתין",
+        "en": "And for the peace-sacrifice: two heifers,",
+        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם"
+      },
+      {
+        "ja": "וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה.",
+        "en": "five rams, five he-goats, and five yearling lambs.",
+        "he": "אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה"
+      },
+      {
+        "ja": "הד'א קרבאן אליסף אבן דעואל",
+        "en": "This was the offering of Eliasaph son of Deuel.",
+        "he": "זֶה קָרְבַּן אֶלְיָסָף בֶּן-דְּעוּאֵל"
       }
     ],
     "48": [
       {
-        "ja": "פכאן אלמקרב פי אליום אלסאבע. אלישמע אבן עמיהוד. שריף אפרים",
-        "en": "And the one presenting on the seventh day was Elishama son of Ammihud, noble of Ephraim.",
-        "he": "בַּיּוֹם הַשְּׁבִיעִי נָשִׂיא לִבְנֵי אֶפְרָיִם--אֱלִישָׁמָע בֶּן-עַמִּיהוּד"
+        "ja": "פכאן אלמקרב פי אליום אלסאבע",
+        "en": "And the one presenting on the seventh day was",
+        "he": "בַּיּוֹם הַשְּׁבִיעִי נָשִׂיא לִבְנֵי אֶפְרָיִם--"
+      },
+      {
+        "ja": "אלישמע אבן עמיהוד. שריף אפרים",
+        "en": "Elishama son of Ammihud, noble of Ephraim.",
+        "he": "אֱלִישָׁמָע בֶּן-עַמִּיהוּד"
       }
     ],
     "49": [
       {
-        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל. וכ'רנוב פצ'ה. וזנה סבעין מת'קאל במת'קאל אלקדס. כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
-        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels, and a silver basin, its weight seventy shekels by the shekel of the sanctuary — both of them filled with fine flour mixed with oil, for the gift-offering.",
-        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
+        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל.",
+        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels,",
+        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ"
+      },
+      {
+        "ja": "וכ'רנוב פצ'ה. וזנה סבעין מת'קאל במת'קאל אלקדס.",
+        "en": "and a silver basin, its weight seventy shekels by the shekel of the sanctuary —",
+        "he": "מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
+        "en": "both of them filled with fine flour mixed with oil, for the gift-offering.",
+        "he": "שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
       }
     ],
     "50": [
       {
-        "ja": "ודרגא מן ד'הב. וזנה עשרה מתאקיל ממלווא בכ'ורא",
-        "en": "A gold casket, its weight ten shekels, filled with incense.",
-        "he": "כַּף אַחַת עֲשָׂרָה זָהָב מְלֵאָה קְטֹרֶת"
+        "ja": "ודרגא מן ד'הב",
+        "en": "A gold casket, its weight ten shekels,",
+        "he": "כַּף אַחַת עֲשָׂרָה זָהָב"
+      },
+      {
+        "ja": "וזנה עשרה מתאקיל ממלווא בכ'ורא",
+        "en": "filled with incense.",
+        "he": "מְלֵאָה קְטֹרֶת"
       }
     ],
     "51": [
       {
-        "ja": "ות'ורא מן אלבקר. וכבשא וחמלא אבן סנתה לאלצעידה",
-        "en": "And a bull of the herd, a ram, and a yearling lamb, for the ascent-offering.",
-        "he": "פַּר אֶחָד בֶּן-בָּקָר אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
+        "ja": "ות'ורא מן אלבקר",
+        "en": "And a bull of the herd,",
+        "he": "פַּר אֶחָד בֶּן-בָּקָר"
+      },
+      {
+        "ja": "וכבשא וחמלא אבן סנתה לאלצעידה",
+        "en": "a ram, and a yearling lamb, for the ascent-offering.",
+        "he": "אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
       }
     ],
     "52": [
       {
-        "ja": "ועתוד מן אלמאעז לאלצעידה",
-        "en": "And a he-goat of the goats, for the purification-offering.",
-        "he": "שְׂעִיר-עִזִּים אֶחָד לְחַטָּאת"
+        "ja": "ועתוד מן אלמאעז",
+        "en": "And a he-goat of the goats,",
+        "he": "שְׂעִיר-עִזִּים אֶחָד"
+      },
+      {
+        "ja": "לאלצעידה",
+        "en": "for the purification-offering.",
+        "he": "לְחַטָּאת"
       }
     ],
     "53": [
       {
-        "ja": "ולד'בח אלסלאמה בקרתין. וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה. הד'א קרבאן אלישמע אבן עמיהוד",
-        "en": "And for the peace-sacrifice: two heifers, five rams, five he-goats, and five yearling lambs. This was the offering of Elishama son of Ammihud.",
-        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה זֶה קָרְבַּן אֱלִישָׁמָע בֶּן-עַמִּיהוּד"
+        "ja": "ולד'בח אלסלאמה בקרתין",
+        "en": "And for the peace-sacrifice: two heifers,",
+        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם"
+      },
+      {
+        "ja": "וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה.",
+        "en": "five rams, five he-goats, and five yearling lambs.",
+        "he": "אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה"
+      },
+      {
+        "ja": "הד'א קרבאן אלישמע אבן עמיהוד",
+        "en": "This was the offering of Elishama son of Ammihud.",
+        "he": "זֶה קָרְבַּן אֱלִישָׁמָע בֶּן-עַמִּיהוּד"
       }
     ],
     "54": [
       {
-        "ja": "פכאן אלמקרב פי אליום אלת'אמן גמליאל אבן פדהצור. שריף מנשה",
-        "en": "And the one presenting on the eighth day was Gamliel son of Pedahzur, noble of Manasseh.",
-        "he": "בַּיּוֹם הַשְּׁמִינִי נָשִׂיא לִבְנֵי מְנַשֶּׁה--גַּמְלִיאֵל בֶּן-פְּדָהצוּר"
+        "ja": "פכאן אלמקרב פי אליום אלת'אמן גמליאל אבן פדהצור",
+        "en": "And the one presenting on the eighth day was",
+        "he": "בַּיּוֹם הַשְּׁמִינִי נָשִׂיא לִבְנֵי מְנַשֶּׁה--"
+      },
+      {
+        "ja": "שריף מנשה",
+        "en": "Gamliel son of Pedahzur, noble of Manasseh.",
+        "he": "גַּמְלִיאֵל בֶּן-פְּדָהצוּר"
       }
     ],
     "55": [
       {
-        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל במת'קאל אלקדס. וכ'רנוב פצ'ה וזנה סבעין מת'קאל. כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
-        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels by the shekel of the sanctuary, and a silver basin, its weight seventy shekels — both of them filled with fine flour mixed with oil, for the gift-offering.",
-        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
+        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל במת'קאל אלקדס.",
+        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels by the shekel of the sanctuary,",
+        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ"
+      },
+      {
+        "ja": "וכ'רנוב פצ'ה וזנה סבעין מת'קאל.",
+        "en": "and a silver basin, its weight seventy shekels —",
+        "he": "מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
+        "en": "both of them filled with fine flour mixed with oil, for the gift-offering.",
+        "he": "שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
       }
     ],
     "56": [
       {
-        "ja": "ודרגא מן ד'הב. וזנה עשרה מת'אקיל ממלווא בכ'ורא",
-        "en": "A gold casket, its weight ten shekels, filled with incense.",
-        "he": "כַּף אַחַת עֲשָׂרָה זָהָב מְלֵאָה קְטֹרֶת"
+        "ja": "ודרגא מן ד'הב",
+        "en": "A gold casket, its weight ten shekels,",
+        "he": "כַּף אַחַת עֲשָׂרָה זָהָב"
+      },
+      {
+        "ja": "וזנה עשרה מת'אקיל ממלווא בכ'ורא",
+        "en": "filled with incense.",
+        "he": "מְלֵאָה קְטֹרֶת"
       }
     ],
     "57": [
       {
-        "ja": "ות'ורא מן אלבקר. וכבשא וחמלא אבן סנתה לאלצעידה",
-        "en": "And a bull of the herd, a ram, and a yearling lamb, for the ascent-offering.",
-        "he": "פַּר אֶחָד בֶּן-בָּקָר אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
+        "ja": "ות'ורא מן אלבקר",
+        "en": "And a bull of the herd,",
+        "he": "פַּר אֶחָד בֶּן-בָּקָר"
+      },
+      {
+        "ja": "וכבשא וחמלא אבן סנתה לאלצעידה",
+        "en": "a ram, and a yearling lamb, for the ascent-offering.",
+        "he": "אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
       }
     ],
     "58": [
       {
-        "ja": "ועתודא מן אלמאעז לאלדכוה",
-        "en": "And a he-goat of the goats, for the purification-offering.",
-        "he": "שְׂעִיר-עִזִּים אֶחָד לְחַטָּאת"
+        "ja": "ועתודא מן אלמאעז",
+        "en": "And a he-goat of the goats,",
+        "he": "שְׂעִיר-עִזִּים אֶחָד"
+      },
+      {
+        "ja": "לאלדכוה",
+        "en": "for the purification-offering.",
+        "he": "לְחַטָּאת"
       }
     ],
     "59": [
       {
-        "ja": "ולד'בח אלסלאמה בקרתין. וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה. הד'א קרבאן גמליאל אבן פדהצור",
-        "en": "And for the peace-sacrifice: two heifers, five rams, five he-goats, and five yearling lambs. This was the offering of Gamliel son of Pedahzur.",
-        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה זֶה קָרְבַּן גַּמְלִיאֵל בֶּן-פְּדָהצוּר"
+        "ja": "ולד'בח אלסלאמה בקרתין",
+        "en": "And for the peace-sacrifice: two heifers,",
+        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם"
+      },
+      {
+        "ja": "וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה.",
+        "en": "five rams, five he-goats, and five yearling lambs.",
+        "he": "אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה"
+      },
+      {
+        "ja": "הד'א קרבאן גמליאל אבן פדהצור",
+        "en": "This was the offering of Gamliel son of Pedahzur.",
+        "he": "זֶה קָרְבַּן גַּמְלִיאֵל בֶּן-פְּדָהצוּר"
       }
     ],
     "60": [
       {
-        "ja": "פכאן אלמקרב פי אליום אלתאסע. אבידן אבן גדעוני. שריף בנימין",
-        "en": "And the one presenting on the ninth day was Abidan son of Gideoni, noble of Benjamin.",
-        "he": "בַּיּוֹם הַתְּשִׁיעִי נָשִׂיא לִבְנֵי בִנְיָמִן--אֲבִידָן בֶּן-גִּדְעֹנִי"
+        "ja": "פכאן אלמקרב פי אליום אלתאסע",
+        "en": "And the one presenting on the ninth day was",
+        "he": "בַּיּוֹם הַתְּשִׁיעִי נָשִׂיא לִבְנֵי בִנְיָמִן--"
+      },
+      {
+        "ja": "אבידן אבן גדעוני. שריף בנימין",
+        "en": "Abidan son of Gideoni, noble of Benjamin.",
+        "he": "אֲבִידָן בֶּן-גִּדְעֹנִי"
       }
     ],
     "61": [
       {
-        "ja": "קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל. וכ'רנוב סבעין מת'קאל במת'קאל אלקדס. כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
-        "en": "His offering was: a silver bowl, its weight a hundred and thirty shekels, and a silver basin, its weight seventy shekels by the shekel of the sanctuary — both of them filled with fine flour mixed with oil, for the gift-offering.",
-        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
+        "ja": "קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל.",
+        "en": "His offering was: a silver bowl, its weight a hundred and thirty shekels,",
+        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ"
+      },
+      {
+        "ja": "וכ'רנוב סבעין מת'קאל במת'קאל אלקדס.",
+        "en": "and a silver basin, its weight seventy shekels by the shekel of the sanctuary —",
+        "he": "מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
+        "en": "both of them filled with fine flour mixed with oil, for the gift-offering.",
+        "he": "שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
       }
     ],
     "62": [
       {
-        "ja": "ודרגא מן ד'הב. וזנה עשרה מת'אקיל ממלווא בכ'ורא",
-        "en": "A gold casket, its weight ten shekels, filled with incense.",
-        "he": "כַּף אַחַת עֲשָׂרָה זָהָב מְלֵאָה קְטֹרֶת"
+        "ja": "ודרגא מן ד'הב",
+        "en": "A gold casket, its weight ten shekels,",
+        "he": "כַּף אַחַת עֲשָׂרָה זָהָב"
+      },
+      {
+        "ja": "וזנה עשרה מת'אקיל ממלווא בכ'ורא",
+        "en": "filled with incense.",
+        "he": "מְלֵאָה קְטֹרֶת"
       }
     ],
     "63": [
       {
-        "ja": "ות'ורא מן אלבקר. וכבשא וחמלא אבן סנתה לאלצעידה",
-        "en": "And a bull of the herd, a ram, and a yearling lamb, for the ascent-offering.",
-        "he": "פַּר אֶחָד בֶּן-בָּקָר אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
+        "ja": "ות'ורא מן אלבקר",
+        "en": "And a bull of the herd,",
+        "he": "פַּר אֶחָד בֶּן-בָּקָר"
+      },
+      {
+        "ja": "וכבשא וחמלא אבן סנתה לאלצעידה",
+        "en": "a ram, and a yearling lamb, for the ascent-offering.",
+        "he": "אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
       }
     ],
     "64": [
       {
-        "ja": "ועתודא מן אלמאעז לאלדכוה",
-        "en": "And a he-goat of the goats, for the purification-offering.",
-        "he": "שְׂעִיר-עִזִּים אֶחָד לְחַטָּאת"
+        "ja": "ועתודא מן אלמאעז",
+        "en": "And a he-goat of the goats,",
+        "he": "שְׂעִיר-עִזִּים אֶחָד"
+      },
+      {
+        "ja": "לאלדכוה",
+        "en": "for the purification-offering.",
+        "he": "לְחַטָּאת"
       }
     ],
     "65": [
       {
-        "ja": "ולד'בח אלסלאמה בקרתין. וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה. הד'א קרבאן אבידן אבן גדעוני",
-        "en": "And for the peace-sacrifice: two heifers, five rams, five he-goats, and five yearling lambs. This was the offering of Abidan son of Gideoni.",
-        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה זֶה קָרְבַּן אֲבִידָן בֶּן-גִּדְעֹנִי"
+        "ja": "ולד'בח אלסלאמה בקרתין",
+        "en": "And for the peace-sacrifice: two heifers,",
+        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם"
+      },
+      {
+        "ja": "וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה.",
+        "en": "five rams, five he-goats, and five yearling lambs.",
+        "he": "אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה"
+      },
+      {
+        "ja": "הד'א קרבאן אבידן אבן גדעוני",
+        "en": "This was the offering of Abidan son of Gideoni.",
+        "he": "זֶה קָרְבַּן אֲבִידָן בֶּן-גִּדְעֹנִי"
       }
     ],
     "66": [
       {
-        "ja": "פכאן אלמקרב פי אליום אלעאשר. אחיעזר אבן עמישדי. שריף דן",
-        "en": "And the one presenting on the tenth day was Ahiezer son of Ammishaddai, noble of Dan.",
-        "he": "בַּיּוֹם הָעֲשִׂירִי נָשִׂיא לִבְנֵי דָן--אֲחִיעֶזֶר בֶּן-עַמִּישַׁדָּי"
+        "ja": "פכאן אלמקרב פי אליום אלעאשר",
+        "en": "And the one presenting on the tenth day was",
+        "he": "בַּיּוֹם הָעֲשִׂירִי נָשִׂיא לִבְנֵי דָן--"
+      },
+      {
+        "ja": "אחיעזר אבן עמישדי. שריף דן",
+        "en": "Ahiezer son of Ammishaddai, noble of Dan.",
+        "he": "אֲחִיעֶזֶר בֶּן-עַמִּישַׁדָּי"
       }
     ],
     "67": [
       {
-        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל. וכ'רנוב פצ'ה. וזנה סבעין מת'קאל. במת'קאל אלקדס. כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
-        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels, and a silver basin, its weight seventy shekels by the shekel of the sanctuary — both of them filled with fine flour mixed with oil, for the gift-offering.",
-        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
+        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל.",
+        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels,",
+        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ"
+      },
+      {
+        "ja": "וכ'רנוב פצ'ה. וזנה סבעין מת'קאל. במת'קאל אלקדס.",
+        "en": "and a silver basin, its weight seventy shekels by the shekel of the sanctuary —",
+        "he": "מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
+        "en": "both of them filled with fine flour mixed with oil, for the gift-offering.",
+        "he": "שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
       }
     ],
     "68": [
       {
-        "ja": "ודרגא מן ד'הב. וזנה עשרה מת'אקיל ממלווא בכ'ורא",
-        "en": "A gold casket, its weight ten shekels, filled with incense.",
-        "he": "כַּף אַחַת עֲשָׂרָה זָהָב מְלֵאָה קְטֹרֶת"
+        "ja": "ודרגא מן ד'הב",
+        "en": "A gold casket, its weight ten shekels,",
+        "he": "כַּף אַחַת עֲשָׂרָה זָהָב"
+      },
+      {
+        "ja": "וזנה עשרה מת'אקיל ממלווא בכ'ורא",
+        "en": "filled with incense.",
+        "he": "מְלֵאָה קְטֹרֶת"
       }
     ],
     "69": [
       {
-        "ja": "ות'ורא מן אלבקר. וכבשא וחמלא אבן סנתה לאלצעידה",
-        "en": "And a bull of the herd, a ram, and a yearling lamb, for the ascent-offering.",
-        "he": "פַּר אֶחָד בֶּן-בָּקָר אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
+        "ja": "ות'ורא מן אלבקר",
+        "en": "And a bull of the herd,",
+        "he": "פַּר אֶחָד בֶּן-בָּקָר"
+      },
+      {
+        "ja": "וכבשא וחמלא אבן סנתה לאלצעידה",
+        "en": "a ram, and a yearling lamb, for the ascent-offering.",
+        "he": "אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
       }
     ],
     "70": [
       {
-        "ja": "ועתודא מן אלמאעז לאלדכוה",
-        "en": "And a he-goat of the goats, for the purification-offering.",
-        "he": "שְׂעִיר-עִזִּים אֶחָד לְחַטָּאת"
+        "ja": "ועתודא מן אלמאעז",
+        "en": "And a he-goat of the goats,",
+        "he": "שְׂעִיר-עִזִּים אֶחָד"
+      },
+      {
+        "ja": "לאלדכוה",
+        "en": "for the purification-offering.",
+        "he": "לְחַטָּאת"
       }
     ],
     "71": [
       {
-        "ja": "ולד'בח אלסלאמה בקרתין. וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה. הד'א קרבאן אחיעזר אבן עמישדי",
-        "en": "And for the peace-sacrifice: two heifers, five rams, five he-goats, and five yearling lambs. This was the offering of Ahiezer son of Ammishaddai.",
-        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה זֶה קָרְבַּן אֲחִיעֶזֶר בֶּן-עַמִּישַׁדָּי"
+        "ja": "ולד'בח אלסלאמה בקרתין",
+        "en": "And for the peace-sacrifice: two heifers,",
+        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם"
+      },
+      {
+        "ja": "וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה.",
+        "en": "five rams, five he-goats, and five yearling lambs.",
+        "he": "אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה"
+      },
+      {
+        "ja": "הד'א קרבאן אחיעזר אבן עמישדי",
+        "en": "This was the offering of Ahiezer son of Ammishaddai.",
+        "he": "זֶה קָרְבַּן אֲחִיעֶזֶר בֶּן-עַמִּישַׁדָּי"
       }
     ],
     "72": [
       {
-        "ja": "פכאן אלמקרב פי אליום אלחאדי עשר. פגעיאל אבן עכרן. שריף אשר",
-        "en": "And the one presenting on the eleventh day was Pagiel son of Ochran, noble of Asher.",
-        "he": "בְּיוֹם עַשְׁתֵּי עָשָׂר יוֹם נָשִׂיא לִבְנֵי אָשֵׁר--פַּגְעִיאֵל בֶּן-עָכְרָן"
+        "ja": "פכאן אלמקרב פי אליום אלחאדי עשר",
+        "en": "And the one presenting on the eleventh day was",
+        "he": "בְּיוֹם עַשְׁתֵּי עָשָׂר יוֹם נָשִׂיא לִבְנֵי אָשֵׁר--"
+      },
+      {
+        "ja": "פגעיאל אבן עכרן. שריף אשר",
+        "en": "Pagiel son of Ochran, noble of Asher.",
+        "he": "פַּגְעִיאֵל בֶּן-עָכְרָן"
       }
     ],
     "73": [
       {
-        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל. וכ'רנוב פצ'ה. וזנה סבעין מת'קאל במת'קאל אלקדס. כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
-        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels by the shekel of the sanctuary, and a silver basin, its weight seventy shekels — both of them filled with fine flour mixed with oil, for the gift-offering.",
-        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
+        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל.",
+        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels by the shekel of the sanctuary,",
+        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ"
+      },
+      {
+        "ja": "וכ'רנוב פצ'ה. וזנה סבעין מת'קאל במת'קאל אלקדס.",
+        "en": "and a silver basin, its weight seventy shekels —",
+        "he": "מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "כלאהמא ממלוון. סמדא מלתות בדהן לאלהדייה",
+        "en": "both of them filled with fine flour mixed with oil, for the gift-offering.",
+        "he": "שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
       }
     ],
     "74": [
       {
-        "ja": "ודרגא מן ד'הב. וזנה עשרה מת'אקיל ממלווא בכ'ורא",
-        "en": "A gold casket, its weight ten shekels, filled with incense.",
-        "he": "כַּף אַחַת עֲשָׂרָה זָהָב מְלֵאָה קְטֹרֶת"
+        "ja": "ודרגא מן ד'הב",
+        "en": "A gold casket, its weight ten shekels,",
+        "he": "כַּף אַחַת עֲשָׂרָה זָהָב"
+      },
+      {
+        "ja": "וזנה עשרה מת'אקיל ממלווא בכ'ורא",
+        "en": "filled with incense.",
+        "he": "מְלֵאָה קְטֹרֶת"
       }
     ],
     "75": [
       {
-        "ja": "ות'ורא מן אלבקר. וכבשא וחמלא אבן סנתה לאלצעידה",
-        "en": "And a bull of the herd, a ram, and a yearling lamb, for the ascent-offering.",
-        "he": "פַּר אֶחָד בֶּן-בָּקָר אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
+        "ja": "ות'ורא מן אלבקר",
+        "en": "And a bull of the herd,",
+        "he": "פַּר אֶחָד בֶּן-בָּקָר"
+      },
+      {
+        "ja": "וכבשא וחמלא אבן סנתה לאלצעידה",
+        "en": "a ram, and a yearling lamb, for the ascent-offering.",
+        "he": "אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
       }
     ],
     "76": [
       {
-        "ja": "ועתוד מן אלמאעז לאלדכוה",
-        "en": "And a he-goat of the goats, for the purification-offering.",
-        "he": "שְׂעִיר-עִזִּים אֶחָד לְחַטָּאת"
+        "ja": "ועתוד מן אלמאעז",
+        "en": "And a he-goat of the goats,",
+        "he": "שְׂעִיר-עִזִּים אֶחָד"
+      },
+      {
+        "ja": "לאלדכוה",
+        "en": "for the purification-offering.",
+        "he": "לְחַטָּאת"
       }
     ],
     "77": [
       {
-        "ja": "ולד'בח אלסלאמה בקרתין. וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה. הד'א קרבאן פגעיאל אבן עכרן",
-        "en": "And for the peace-sacrifice: two heifers, five rams, five he-goats, and five yearling lambs. This was the offering of Pagiel son of Ochran.",
-        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה זֶה קָרְבַּן פַּגְעִיאֵל בֶּן-עָכְרָן"
+        "ja": "ולד'בח אלסלאמה בקרתין",
+        "en": "And for the peace-sacrifice: two heifers,",
+        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם"
+      },
+      {
+        "ja": "וכ'מסה כבאש וכ'מסה עתדאן. וכ'מסה חמלאן בני סנה.",
+        "en": "five rams, five he-goats, and five yearling lambs.",
+        "he": "אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה"
+      },
+      {
+        "ja": "הד'א קרבאן פגעיאל אבן עכרן",
+        "en": "This was the offering of Pagiel son of Ochran.",
+        "he": "זֶה קָרְבַּן פַּגְעִיאֵל בֶּן-עָכְרָן"
       }
     ],
     "78": [
       {
-        "ja": "פכאן אלמקרב פי יום את'ני עשר יומא. אחירע אבן עינן. שריף נפתלי",
-        "en": "And the one presenting on the twelfth day was Ahira son of Enan, noble of Naphtali.",
-        "he": "בְּיוֹם שְׁנֵים עָשָׂר יוֹם נָשִׂיא לִבְנֵי נַפְתָּלִי--אֲחִירַע בֶּן-עֵינָן"
+        "ja": "פכאן אלמקרב פי יום את'ני עשר יומא",
+        "en": "And the one presenting on the twelfth day was",
+        "he": "בְּיוֹם שְׁנֵים עָשָׂר יוֹם נָשִׂיא לִבְנֵי נַפְתָּלִי--"
+      },
+      {
+        "ja": "אחירע אבן עינן. שריף נפתלי",
+        "en": "Ahira son of Enan, noble of Naphtali.",
+        "he": "אֲחִירַע בֶּן-עֵינָן"
       }
     ],
     "79": [
       {
-        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל. וכ'רנוב פצ'ה. וזנה סבעין מת'קאל במת'קאל אלקדס. כלאהמא ממלוון סמדא מלתות בדהן לאלהדייה",
-        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels by the shekel of the sanctuary, and a silver basin, its weight seventy shekels — both of them filled with fine flour mixed with oil, for the gift-offering.",
-        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
+        "ja": "וכאן קרבאנה קצעה מן פצ'ה. וזנהא מאיה ות'לאת'ין מת'קאל.",
+        "en": "And his offering was: a silver bowl, its weight a hundred and thirty shekels by the shekel of the sanctuary,",
+        "he": "קָרְבָּנוֹ קַעֲרַת-כֶּסֶף אַחַת שְׁלֹשִׁים וּמֵאָה מִשְׁקָלָהּ"
+      },
+      {
+        "ja": "וכ'רנוב פצ'ה. וזנה סבעין מת'קאל במת'קאל אלקדס.",
+        "en": "and a silver basin, its weight seventy shekels —",
+        "he": "מִזְרָק אֶחָד כֶּסֶף שִׁבְעִים שֶׁקֶל בְּשֶׁקֶל הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "כלאהמא ממלוון סמדא מלתות בדהן לאלהדייה",
+        "en": "both of them filled with fine flour mixed with oil, for the gift-offering.",
+        "he": "שְׁנֵיהֶם מְלֵאִים סֹלֶת בְּלוּלָה בַשֶּׁמֶן--לְמִנְחָה"
       }
     ],
     "80": [
       {
-        "ja": "ודרגא מן ד'הב. וזנה עשרה מת'אקיל ממלווא בכ'ורא",
-        "en": "A gold casket, its weight ten shekels, filled with incense.",
-        "he": "כַּף אַחַת עֲשָׂרָה זָהָב מְלֵאָה קְטֹרֶת"
+        "ja": "ודרגא מן ד'הב",
+        "en": "A gold casket, its weight ten shekels,",
+        "he": "כַּף אַחַת עֲשָׂרָה זָהָב"
+      },
+      {
+        "ja": "וזנה עשרה מת'אקיל ממלווא בכ'ורא",
+        "en": "filled with incense.",
+        "he": "מְלֵאָה קְטֹרֶת"
       }
     ],
     "81": [
       {
-        "ja": "ות'ורא מן אלבקר. וכבשא וחמלא אבן סנתה לאלצעידה",
-        "en": "And a bull of the herd, a ram, and a yearling lamb, for the ascent-offering.",
-        "he": "פַּר אֶחָד בֶּן-בָּקָר אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
+        "ja": "ות'ורא מן אלבקר",
+        "en": "And a bull of the herd,",
+        "he": "פַּר אֶחָד בֶּן-בָּקָר"
+      },
+      {
+        "ja": "וכבשא וחמלא אבן סנתה לאלצעידה",
+        "en": "a ram, and a yearling lamb, for the ascent-offering.",
+        "he": "אַיִל אֶחָד כֶּבֶשׂ-אֶחָד בֶּן-שְׁנָתוֹ--לְעֹלָה"
       }
     ],
     "82": [
       {
-        "ja": "ועתוד מן אלמאעז לאלדכוה",
-        "en": "And a he-goat of the goats, for the purification-offering.",
-        "he": "שְׂעִיר-עִזִּים אֶחָד לְחַטָּאת"
+        "ja": "ועתוד מן אלמאעז",
+        "en": "And a he-goat of the goats,",
+        "he": "שְׂעִיר-עִזִּים אֶחָד"
+      },
+      {
+        "ja": "לאלדכוה",
+        "en": "for the purification-offering.",
+        "he": "לְחַטָּאת"
       }
     ],
     "83": [
       {
-        "ja": "ולד'בח אלסלאמה בקרתין. וכ'מסה חמלאן בני סנה. הד'א קרבאן אחירע אבן עינן",
-        "en": "And for the peace-sacrifice: two heifers, five rams, five he-goats, and five yearling lambs. This was the offering of Ahira son of Enan.",
-        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה זֶה קָרְבַּן אֲחִירַע בֶּן-עֵינָן"
+        "ja": "ולד'בח אלסלאמה בקרתין",
+        "en": "And for the peace-sacrifice: two heifers,",
+        "he": "וּלְזֶבַח הַשְּׁלָמִים בָּקָר שְׁנַיִם"
+      },
+      {
+        "ja": "וכ'מסה חמלאן בני סנה.",
+        "en": "five rams, five he-goats, and five yearling lambs.",
+        "he": "אֵילִם חֲמִשָּׁה עַתֻּדִים חֲמִשָּׁה כְּבָשִׂים בְּנֵי-שָׁנָה חֲמִשָּׁה"
+      },
+      {
+        "ja": "הד'א קרבאן אחירע אבן עינן",
+        "en": "This was the offering of Ahira son of Enan.",
+        "he": "זֶה קָרְבַּן אֲחִירַע בֶּן-עֵינָן"
       }
     ],
     "84": [
