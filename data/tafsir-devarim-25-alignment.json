@@ -1,0 +1,574 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Devarim 25. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/devarim_25.py; validated against the source with independent per-side occurrence claiming.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ואד'א וקעת כ'צומה",
+        "en": "And when a dispute falls",
+        "he": "כִּי-יִהְיֶה רִיב"
+      },
+      {
+        "ja": "בין אנאס",
+        "en": "between people",
+        "he": "בֵּין אֲנָשִׁים"
+      },
+      {
+        "ja": "פליתקדמו",
+        "en": "they shall come forward",
+        "he": "וְנִגְּשׁוּ"
+      },
+      {
+        "ja": "אלי' ד'וי אלחכם",
+        "en": "to those possessed of judgment",
+        "he": "אֶל-הַמִּשְׁפָּט"
+      },
+      {
+        "ja": "ויחכמו בינהם",
+        "en": "and they shall judge between them",
+        "he": "וּשְׁפָטוּם"
+      },
+      {
+        "ja": "ויזכו אלזכי",
+        "en": "and they shall vindicate the one in the right",
+        "he": "וְהִצְדִּיקוּ אֶת-הַצַּדִּיק"
+      },
+      {
+        "ja": "ויצ'למו אלצ'אלם",
+        "en": "and condemn the wrongdoer",
+        "he": "וְהִרְשִׁיעוּ אֶת-הָרָשָׁע"
+      }
+    ],
+    "2": [
+      {
+        "ja": "ואד'א אסתחק אלצ'אלם צ'רבא",
+        "en": "And if the wrongdoer deserves a flogging",
+        "he": "וְהָיָה אִם-בִּן הַכּוֹת הָרָשָׁע"
+      },
+      {
+        "ja": "פליבסטה אלחאכם",
+        "en": "the judge shall lay him down",
+        "he": "וְהִפִּילוֹ הַשֹּׁפֵט"
+      },
+      {
+        "ja": "ויצ'רבה בחצ'רתה",
+        "en": "and strike him in his presence",
+        "he": "וְהִכָּהוּ לְפָנָיו"
+      },
+      {
+        "ja": "מקדאר כ'טייתה",
+        "en": "according to the measure of his offense",
+        "he": "כְּדֵי רִשְׁעָתוֹ"
+      },
+      {
+        "ja": "באחצא",
+        "en": "by count",
+        "he": "בְּמִסְפָּר"
+      }
+    ],
+    "3": [
+      {
+        "ja": "יגלדה ארבעין",
+        "en": "He shall flog him forty",
+        "he": "אַרְבָּעִים יַכֶּנּוּ"
+      },
+      {
+        "ja": "לא יזיד עליהא שייא",
+        "en": "he shall not add to them anything",
+        "he": "לֹא יֹסִיף"
+      },
+      {
+        "ja": "פאן זאד עלי' ד'אלך",
+        "en": "For if he adds beyond that",
+        "he": "פֶּן-יֹסִיף לְהַכֹּתוֹ עַל-אֵלֶּה"
+      },
+      {
+        "ja": "צארת גלדה ]עט'ימה] עצ'ימה",
+        "en": "the flogging will become a grievous one",
+        "he": "מַכָּה רַבָּה"
+      },
+      {
+        "ja": "ויהון אכ'יך",
+        "en": "and your brother will be degraded",
+        "he": "וְנִקְלָה אָחִיךָ"
+      },
+      {
+        "ja": "בחצ'רתך",
+        "en": "in your presence",
+        "he": "לְעֵינֶיךָ"
+      }
+    ],
+    "4": [
+      {
+        "ja": "לא תכ'טם",
+        "en": "You shall not muzzle",
+        "he": "לֹא-תַחְסֹם"
+      },
+      {
+        "ja": "אלת'ור",
+        "en": "the ox",
+        "he": "שׁוֹר"
+      },
+      {
+        "ja": "פי דוסה",
+        "en": "in its threshing",
+        "he": "בְּדִישׁוֹ"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ואד'א אקאם אכ'ואן גמיעא",
+        "en": "And when brothers dwell together",
+        "he": "כִּי-יֵשְׁבוּ אַחִים יַחְדָּו"
+      },
+      {
+        "ja": "ת'ם מאת אחדהמא",
+        "en": "and one of them dies",
+        "he": "וּמֵת אַחַד מֵהֶם"
+      },
+      {
+        "ja": "וליס לה ולד",
+        "en": "and he has no child",
+        "he": "וּבֵן אֵין-לוֹ"
+      },
+      {
+        "ja": "פלא תכון זוגה' אלמיית",
+        "en": "the wife of the deceased shall not become",
+        "he": "לֹא-תִהְיֶה אֵשֶׁת-הַמֵּת"
+      },
+      {
+        "ja": "לרגל ג'ריב",
+        "en": "a stranger's",
+        "he": "לְאִישׁ זָר"
+      },
+      {
+        "ja": "כ'ארג ען אלאכ'וה",
+        "en": "outside the brotherhood",
+        "he": "הַחוּצָה"
+      },
+      {
+        "ja": "בל סליפהא ידכל אליהא",
+        "en": "rather, her brother-in-law shall come in to her",
+        "he": "יְבָמָהּ יָבֹא עָלֶיהָ"
+      },
+      {
+        "ja": "באן יתכ'ד'הא לה זוגה",
+        "en": "by taking her to himself as a wife",
+        "he": "וּלְקָחָהּ לוֹ לְאִשָּׁה"
+      },
+      {
+        "ja": "ויבן בהא",
+        "en": "and building a home with her",
+        "he": "וְיִבְּמָהּ"
+      }
+    ],
+    "6": [
+      {
+        "ja": "וליכון אלבכר",
+        "en": "And the firstborn",
+        "he": "וְהָיָה הַבְּכוֹר"
+      },
+      {
+        "ja": "אלד'י ירגא אן תלד מנה",
+        "en": "whom it is hoped she will bear from him",
+        "he": "אֲשֶׁר תֵּלֵד"
+      },
+      {
+        "ja": "יקום עלי' אסם אכ'יה אלמיית",
+        "en": "shall stand in the name of his dead brother",
+        "he": "יָקוּם עַל-שֵׁם אָחִיו הַמֵּת"
+      },
+      {
+        "ja": "ללא ינדרס אסמה",
+        "en": "so that his name not be blotted out",
+        "he": "וְלֹא-יִמָּחֶה שְׁמוֹ"
+      },
+      {
+        "ja": "מן אל אסראיל",
+        "en": "from the house of Israel",
+        "he": "מִיִּשְׂרָאֵל"
+      }
+    ],
+    "7": [
+      {
+        "ja": "פאן לם ישא ד'אלך אלרגל",
+        "en": "And if that man does not wish",
+        "he": "וְאִם-לֹא יַחְפֹּץ הָאִישׁ"
+      },
+      {
+        "ja": "אן יתזווג סליפתה",
+        "en": "to marry his sister-in-law",
+        "he": "לָקַחַת אֶת-יְבִמְתּוֹ"
+      },
+      {
+        "ja": "פלתצעד",
+        "en": "she shall go up",
+        "he": "וְעָלְתָה יְבִמְתּוֹ"
+      },
+      {
+        "ja": "אלי' באב אלחאכם",
+        "en": "to the gate of the judge",
+        "he": "הַשַּׁעְרָה"
+      },
+      {
+        "ja": "ואלי' אלשיוך'",
+        "en": "and to the elders",
+        "he": "אֶל-הַזְּקֵנִים"
+      },
+      {
+        "ja": "ותקול",
+        "en": "and shall say",
+        "he": "וְאָמְרָה"
+      },
+      {
+        "ja": "קד אבא סליפי",
+        "en": "My brother-in-law has refused",
+        "he": "מֵאֵן יְבָמִי"
+      },
+      {
+        "ja": "אן יקים לאכ'יה אסמא פי מא בין בני אסראיל",
+        "en": "to establish a name for his brother among the sons of Israel",
+        "he": "לְהָקִים לְאָחִיו שֵׁם בְּיִשְׂרָאֵל"
+      },
+      {
+        "ja": "ולם ישא אן יבן בי",
+        "en": "and he has not wished to build a home with me",
+        "he": "לֹא אָבָה יַבְּמִי"
+      }
+    ],
+    "8": [
+      {
+        "ja": "פידעו בה שיוך' קריתה",
+        "en": "The elders of his town shall call for him",
+        "he": "וְקָרְאוּ-לוֹ זִקְנֵי-עִירוֹ"
+      },
+      {
+        "ja": "ויכלמוה בד'אלך",
+        "en": "and speak with him about that",
+        "he": "וְדִבְּרוּ אֵלָיו"
+      },
+      {
+        "ja": "פאד'א וקף עלי' אלקול",
+        "en": "and if he stands firm in his word",
+        "he": "וְעָמַד"
+      },
+      {
+        "ja": "וקאל",
+        "en": "and says",
+        "he": "וְאָמַר"
+      },
+      {
+        "ja": "אני לא אריד אלתזווג בהא",
+        "en": "I do not wish to marry her",
+        "he": "לֹא חָפַצְתִּי לְקַחְתָּהּ"
+      }
+    ],
+    "9": [
+      {
+        "ja": "ותקדמת אליה",
+        "en": "his sister-in-law shall come forward to him",
+        "he": "וְנִגְּשָׁה יְבִמְתּוֹ אֵלָיו"
+      },
+      {
+        "ja": "בחצ'רה' אלשיוך'",
+        "en": "in the presence of the elders",
+        "he": "לְעֵינֵי הַזְּקֵנִים"
+      },
+      {
+        "ja": "וכלעת נעלה ען רגלה",
+        "en": "and remove his sandal from his foot",
+        "he": "וְחָלְצָה נַעֲלוֹ מֵעַל רַגְלוֹ"
+      },
+      {
+        "ja": "ובצקת בחצ'רתה",
+        "en": "and spit in his presence",
+        "he": "וְיָרְקָה בְּפָנָיו"
+      },
+      {
+        "ja": "ואגאבת וקאלת",
+        "en": "and she shall answer and say",
+        "he": "וְעָנְתָה וְאָמְרָה"
+      },
+      {
+        "ja": "כד'א יצנע באלרגל",
+        "en": "Thus shall be done to the man",
+        "he": "כָּכָה יֵעָשֶׂה לָאִישׁ"
+      },
+      {
+        "ja": "אלד'י לא יבני בית אכ'יה",
+        "en": "who does not build his brother's house",
+        "he": "אֲשֶׁר לֹא-יִבְנֶה אֶת-בֵּית אָחִיו"
+      }
+    ],
+    "10": [
+      {
+        "ja": "וליסם אסמה",
+        "en": "And his name shall be called",
+        "he": "וְנִקְרָא שְׁמוֹ"
+      },
+      {
+        "ja": "פי אל אסראיל",
+        "en": "in the house of Israel",
+        "he": "בְּיִשְׂרָאֵל"
+      },
+      {
+        "ja": "בית מכלוע אלנעל",
+        "en": "The house of the one whose sandal was removed",
+        "he": "בֵּית חֲלוּץ הַנָּעַל"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ואן תנאציאן רגלאן גמיעא",
+        "en": "And if two men strive together",
+        "he": "כִּי-יִנָּצוּ אֲנָשִׁים יַחְדָּו"
+      },
+      {
+        "ja": "פג'לב אחדה'מא צאחבה",
+        "en": "and one of them overpowers the other",
+        "he": "אִישׁ וְאָחִיו"
+      },
+      {
+        "ja": "פתקדמת זוגתה לתכ'לצה",
+        "en": "and his wife comes forward to rescue him",
+        "he": "וְקָרְבָה אֵשֶׁת הָאֶחָד לְהַצִּיל אֶת-אִישָׁהּ"
+      },
+      {
+        "ja": "מן ידה",
+        "en": "from the other's hand",
+        "he": "מִיַּד מַכֵּהוּ"
+      },
+      {
+        "ja": "פמדת ידהא",
+        "en": "and she stretches out her hand",
+        "he": "וְשָׁלְחָה יָדָהּ"
+      },
+      {
+        "ja": "ואמסכת חיאה",
+        "en": "and seizes his private parts",
+        "he": "וְהֶחֱזִיקָה בִּמְבֻשָׁיו"
+      }
+    ],
+    "12": [
+      {
+        "ja": "פאקטע ידהא",
+        "en": "you shall cut off her hand",
+        "he": "וְקַצֹּתָה אֶת-כַּפָּהּ"
+      },
+      {
+        "ja": "לתכ'לצה מנהא. ולא תשפק עליהא",
+        "en": "to free him from her, and you shall not show pity for her",
+        "he": "לֹא תָחוֹס עֵינֶךָ"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ולא יכון לך",
+        "en": "You shall not have",
+        "he": "לֹא-יִהְיֶה לְךָ"
+      },
+      {
+        "ja": "פי כיסך",
+        "en": "in your pouch",
+        "he": "בְּכִיסְךָ"
+      },
+      {
+        "ja": "צנגתאן",
+        "en": "two weights",
+        "he": "אֶבֶן וָאָבֶן"
+      },
+      {
+        "ja": "כברא",
+        "en": "a large",
+        "he": "גְּדוֹלָה"
+      },
+      {
+        "ja": "וצג'רא",
+        "en": "and a small",
+        "he": "וּקְטַנָּה"
+      }
+    ],
+    "14": [
+      {
+        "ja": "ולא יכון לך",
+        "en": "And you shall not have",
+        "he": "לֹא-יִהְיֶה לְךָ"
+      },
+      {
+        "ja": "פי ביתך",
+        "en": "in your house",
+        "he": "בְּבֵיתְךָ"
+      },
+      {
+        "ja": "מכיאלין",
+        "en": "two measures",
+        "he": "אֵיפָה וְאֵיפָה"
+      },
+      {
+        "ja": "כביר",
+        "en": "a large",
+        "he": "גְּדוֹלָה"
+      },
+      {
+        "ja": "וצג'יר",
+        "en": "and a small",
+        "he": "וּקְטַנָּה"
+      }
+    ],
+    "15": [
+      {
+        "ja": "בל",
+        "en": "Rather"
+      },
+      {
+        "ja": "צנגאת ואפיה עאדלאת",
+        "en": "full and just weights",
+        "he": "אֶבֶן שְׁלֵמָה וָצֶדֶק"
+      },
+      {
+        "ja": "תכון לך",
+        "en": "shall you have",
+        "he": "יִהְיֶה-לָּךְ"
+      },
+      {
+        "ja": "ואכיאל ואפיה עאדלאת",
+        "en": "and full and just measures",
+        "he": "אֵיפָה שְׁלֵמָה וָצֶדֶק"
+      },
+      {
+        "ja": "תכון לך",
+        "en": "shall you have",
+        "he": "יִהְיֶה-לָּךְ"
+      },
+      {
+        "ja": "לכי תטול מדתך",
+        "en": "so that your span of days may be long",
+        "he": "לְמַעַן יַאֲרִיכוּ יָמֶיךָ"
+      },
+      {
+        "ja": "פי אלבלד",
+        "en": "in the land",
+        "he": "עַל הָאֲדָמָה"
+      },
+      {
+        "ja": "אלד'י אללה רבך מעטיך",
+        "en": "which the Lord your God is giving you",
+        "he": "אֲשֶׁר-יְהוָה אֱלֹהֶיךָ נֹתֵן לָךְ"
+      }
+    ],
+    "16": [
+      {
+        "ja": "לאן אללה רבך יכרה",
+        "en": "For the Lord your God loathes",
+        "he": "כִּי תוֹעֲבַת יְהוָה אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "כל מן יעמל הד'א",
+        "en": "everyone who does this",
+        "he": "כָּל-עֹשֵׂה אֵלֶּה"
+      },
+      {
+        "ja": "כל מן יעמל בג'ש",
+        "en": "everyone who acts with fraud",
+        "he": "כֹּל עֹשֵׂה עָוֶל"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ואד'כ'ר",
+        "en": "And remember",
+        "he": "זָכוֹר"
+      },
+      {
+        "ja": "מא צנע בך עמלק",
+        "en": "what Amalek did to you",
+        "he": "אֵת אֲשֶׁר-עָשָׂה לְךָ עֲמָלֵק"
+      },
+      {
+        "ja": "פי אלטריק",
+        "en": "on the road",
+        "he": "בַּדֶּרֶךְ"
+      },
+      {
+        "ja": "פי כ'רוגכם מן מצר",
+        "en": "when you were coming out of Egypt",
+        "he": "בְּצֵאתְכֶם מִמִּצְרָיִם"
+      }
+    ],
+    "18": [
+      {
+        "ja": "אנה ואפאך פי אלטריק",
+        "en": "that he came upon you on the road",
+        "he": "אֲשֶׁר קָרְךָ בַּדֶּרֶךְ"
+      },
+      {
+        "ja": "פתטרף מנך",
+        "en": "and cut off from you",
+        "he": "וַיְזַנֵּב בְּךָ"
+      },
+      {
+        "ja": "גמיע אלמנזחפין וראך",
+        "en": "all the stragglers behind you",
+        "he": "כָּל-הַנֶּחֱשָׁלִים אַחֲרֶיךָ"
+      },
+      {
+        "ja": "ואנת לג'ב",
+        "en": "while you were weary",
+        "he": "וְאַתָּה עָיֵף"
+      },
+      {
+        "ja": "ותעב",
+        "en": "and exhausted",
+        "he": "וְיָגֵעַ"
+      },
+      {
+        "ja": "ולם יכ'אף אללה",
+        "en": "and he did not fear God",
+        "he": "וְלֹא יָרֵא אֱלֹהִים"
+      }
+    ],
+    "19": [
+      {
+        "ja": "פאד'א אראחך אללה רבך",
+        "en": "And when the Lord your God gives you rest",
+        "he": "וְהָיָה בְּהָנִיחַ יְהוָה אֱלֹהֶיךָ לְךָ"
+      },
+      {
+        "ja": "מן גמיע אעדאך אלד'ין חואליך",
+        "en": "from all your enemies round about you",
+        "he": "מִכָּל-אֹיְבֶיךָ מִסָּבִיב"
+      },
+      {
+        "ja": "פי אלבלד",
+        "en": "in the land",
+        "he": "בָּאָרֶץ"
+      },
+      {
+        "ja": "אלד'י אללה רבך",
+        "en": "which the Lord your God",
+        "he": "אֲשֶׁר יְהוָה-אֱלֹהֶיךָ נֹתֵן לְךָ"
+      },
+      {
+        "ja": "מעטיך נחלה לתחוזה",
+        "en": "is giving you as an inheritance to possess it",
+        "he": "נַחֲלָה לְרִשְׁתָּהּ"
+      },
+      {
+        "ja": "פאמח ד'כר עמלק",
+        "en": "you shall blot out the memory of Amalek",
+        "he": "תִּמְחֶה אֶת-זֵכֶר עֲמָלֵק"
+      },
+      {
+        "ja": "מן תחת אלסמא",
+        "en": "from beneath the sky",
+        "he": "מִתַּחַת הַשָּׁמָיִם"
+      },
+      {
+        "ja": "לא תנס ד'אלך",
+        "en": "Do not forget that",
+        "he": "לֹא תִּשְׁכָּח"
+      }
+    ]
+  }
+}

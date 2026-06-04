@@ -1,0 +1,906 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Devarim 26. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/devarim_26.py; validated against the source with independent per-side occurrence claiming.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ואד'א דכ'לת",
+        "en": "And when you enter",
+        "he": "וְהָיָה כִּי-תָבוֹא"
+      },
+      {
+        "ja": "אלי' אלבלד",
+        "en": "the land",
+        "he": "אֶל-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י",
+        "en": "which",
+        "he": "אֲשֶׁר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "מעטיך",
+        "en": "is giving you",
+        "he": "נֹתֵן לְךָ"
+      },
+      {
+        "ja": "נחלה",
+        "en": "as a heritage",
+        "he": "נַחֲלָה"
+      },
+      {
+        "ja": "וחזתה",
+        "en": "and you possess it",
+        "he": "וִירִשְׁתָּהּ"
+      },
+      {
+        "ja": "ואקמת פיה",
+        "en": "and settle in it",
+        "he": "וְיָשַׁבְתָּ בָּהּ"
+      }
+    ],
+    "2": [
+      {
+        "ja": "פכ'ד'",
+        "en": "then take",
+        "he": "וְלָקַחְתָּ"
+      },
+      {
+        "ja": "מן אואיל",
+        "en": "from the first-fruits",
+        "he": "מֵרֵאשִׁית"
+      },
+      {
+        "ja": "ת'מר אלארץ'",
+        "en": "of the earth's produce",
+        "he": "כָּל-פְּרִי הָאֲדָמָה"
+      },
+      {
+        "ja": "אלד'י תדכ'לה",
+        "en": "which you bring in",
+        "he": "אֲשֶׁר תָּבִיא"
+      },
+      {
+        "ja": "מן ריאצ'ך",
+        "en": "from your gardens",
+        "he": "מֵאַרְצְךָ"
+      },
+      {
+        "ja": "אלד'י אללה",
+        "en": "which God",
+        "he": "אֲשֶׁר יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "מעטיך",
+        "en": "is giving you",
+        "he": "נֹתֵן לָךְ"
+      },
+      {
+        "ja": "וציירה פי בניגה",
+        "en": "and place it in a basket",
+        "he": "וְשַׂמְתָּ בַטֶּנֶא"
+      },
+      {
+        "ja": "ואמץ' בה",
+        "en": "and go with it",
+        "he": "וְהָלַכְתָּ"
+      },
+      {
+        "ja": "אלי' אלמוצ'ע",
+        "en": "to the place",
+        "he": "אֶל-הַמָּקוֹם"
+      },
+      {
+        "ja": "אלד'י יכ'תארה",
+        "en": "which",
+        "he": "אֲשֶׁר יִבְחַר"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord shall choose",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "ליחל נורה פיה",
+        "en": "for His light to dwell therein",
+        "he": "לְשַׁכֵּן שְׁמוֹ שָׁם"
+      }
+    ],
+    "3": [
+      {
+        "ja": "וציר בה",
+        "en": "and go with it",
+        "he": "וּבָאתָ"
+      },
+      {
+        "ja": "אלי' אלאמאם",
+        "en": "to the imām",
+        "he": "אֶל-הַכֹּהֵן"
+      },
+      {
+        "ja": "אלד'י ילי",
+        "en": "who serves",
+        "he": "אֲשֶׁר יִהְיֶה"
+      },
+      {
+        "ja": "פי דאלך אלזמאן",
+        "en": "in that time",
+        "he": "בַּיָּמִים הָהֵם"
+      },
+      {
+        "ja": "וקל לה",
+        "en": "and say to him",
+        "he": "וְאָמַרְתָּ אֵלָיו"
+      },
+      {
+        "ja": "קד שכרת אליום",
+        "en": "I have today given thanks",
+        "he": "הִגַּדְתִּי הַיּוֹם"
+      },
+      {
+        "ja": "אללה רבך",
+        "en": "to God your Lord",
+        "he": "לַיהוָה אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "אד' דכ'לת",
+        "en": "in that I have entered",
+        "he": "כִּי-בָאתִי"
+      },
+      {
+        "ja": "אלי' אלבלד",
+        "en": "the land",
+        "he": "אֶל-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י קסם אללה",
+        "en": "which God swore",
+        "he": "אֲשֶׁר נִשְׁבַּע יְהוָה"
+      },
+      {
+        "ja": "לאבאינא",
+        "en": "to our fathers",
+        "he": "לַאֲבֹתֵינוּ"
+      },
+      {
+        "ja": "אן יעטינאה",
+        "en": "that He would give to us",
+        "he": "לָתֶת לָנוּ"
+      }
+    ],
+    "4": [
+      {
+        "ja": "ויאכ'ד' אלאמאם",
+        "en": "And the imām shall take",
+        "he": "וְלָקַח הַכֹּהֵן"
+      },
+      {
+        "ja": "תלך אלבניגה",
+        "en": "that basket",
+        "he": "הַטֶּנֶא"
+      },
+      {
+        "ja": "מן ידך",
+        "en": "from your hand",
+        "he": "מִיָּדֶךָ"
+      },
+      {
+        "ja": "ויצ'עהא",
+        "en": "and set it",
+        "he": "וְהִנִּיחוֹ"
+      },
+      {
+        "ja": "בין ידי מד'בח",
+        "en": "before the altar of",
+        "he": "לִפְנֵי מִזְבַּח"
+      },
+      {
+        "ja": "אללה רבך",
+        "en": "God your Lord",
+        "he": "יְהוָה אֱלֹהֶיךָ"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "אבתדי",
+        "en": "begin"
+      },
+      {
+        "ja": "וקל",
+        "en": "and say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "בין ידי אללה רבך",
+        "en": "before God your Lord",
+        "he": "לִפְנֵי יְהוָה אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "אן לבן אלארמי",
+        "en": "Laban the Aramean",
+        "he": "אֲרַמִּי"
+      },
+      {
+        "ja": "כאד אן יביד אבי",
+        "en": "nearly destroyed my father",
+        "he": "אֹבֵד אָבִי"
+      },
+      {
+        "ja": "פנזל מצרא",
+        "en": "and he went down to Egypt",
+        "he": "וַיֵּרֶד מִצְרַיְמָה"
+      },
+      {
+        "ja": "וסכן ת'ם",
+        "en": "and settled there",
+        "he": "וַיָּגָר שָׁם"
+      },
+      {
+        "ja": "ברהט קליל",
+        "en": "with a small company",
+        "he": "בִּמְתֵי מְעָט"
+      },
+      {
+        "ja": "וצאר ת'ם",
+        "en": "and became there",
+        "he": "וַיְהִי-שָׁם"
+      },
+      {
+        "ja": "אמה כבירה",
+        "en": "a great",
+        "he": "לְגוֹי גָּדוֹל"
+      },
+      {
+        "ja": "]עט'ימה] עצ'ימה",
+        "en": "mighty",
+        "he": "עָצוּם"
+      },
+      {
+        "ja": "כת'ירה",
+        "en": "and numerous nation",
+        "he": "וָרָב"
+      }
+    ],
+    "6": [
+      {
+        "ja": "פאסא בנא אלמצריון",
+        "en": "And the Egyptians dealt evil with us",
+        "he": "וַיָּרֵעוּ אֹתָנוּ הַמִּצְרִים"
+      },
+      {
+        "ja": "ועד'בונא",
+        "en": "and tormented us",
+        "he": "וַיְעַנּוּנוּ"
+      },
+      {
+        "ja": "וגעלו עלינא",
+        "en": "and laid upon us",
+        "he": "וַיִּתְּנוּ עָלֵינוּ"
+      },
+      {
+        "ja": "כ'דמה צעבה",
+        "en": "a hard service",
+        "he": "עֲבֹדָה קָשָׁה"
+      }
+    ],
+    "7": [
+      {
+        "ja": "פצרכ'נא",
+        "en": "And we cried out",
+        "he": "וַנִּצְעַק"
+      },
+      {
+        "ja": "אלי' אללה",
+        "en": "to God",
+        "he": "אֶל-יְהוָה"
+      },
+      {
+        "ja": "אלאה אביאינא",
+        "en": "the God of our fathers",
+        "he": "אֱלֹהֵי אֲבֹתֵינוּ"
+      },
+      {
+        "ja": "וסמע",
+        "en": "and He heard",
+        "he": "וַיִּשְׁמַע יְהוָה"
+      },
+      {
+        "ja": "צותנא",
+        "en": "our voice",
+        "he": "אֶת-קֹלֵנוּ"
+      },
+      {
+        "ja": "ונצ'ר",
+        "en": "and looked upon",
+        "he": "וַיַּרְא"
+      },
+      {
+        "ja": "לצ'עפנא",
+        "en": "our weakness",
+        "he": "אֶת-עָנְיֵנוּ"
+      },
+      {
+        "ja": "ושקאנא",
+        "en": "and our toil",
+        "he": "וְאֶת-עֲמָלֵנוּ"
+      },
+      {
+        "ja": "וצ'ג'טנאכ",
+        "en": "and our oppression",
+        "he": "וְאֶת-לַחֲצֵנוּ"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ואכ'רגנא אללה",
+        "en": "And God brought us out",
+        "he": "וַיּוֹצִאֵנוּ יְהוָה"
+      },
+      {
+        "ja": "מן מצר",
+        "en": "of Egypt",
+        "he": "מִמִּצְרַיִם"
+      },
+      {
+        "ja": "ביד שדידה",
+        "en": "with a mighty hand",
+        "he": "בְּיָד חֲזָקָה"
+      },
+      {
+        "ja": "וד'ראע ממדודה",
+        "en": "and an outstretched arm",
+        "he": "וּבִזְרֹעַ נְטוּיָה"
+      },
+      {
+        "ja": "ותכ'ויף עצ'ים",
+        "en": "and with great awe",
+        "he": "וּבְמֹרָא גָּדֹל"
+      },
+      {
+        "ja": "ואיאת",
+        "en": "and with signs",
+        "he": "וּבְאֹתוֹת"
+      },
+      {
+        "ja": "ובראהין",
+        "en": "and proofs",
+        "he": "וּבְמֹפְתִים"
+      }
+    ],
+    "9": [
+      {
+        "ja": "פאגא בנא",
+        "en": "And He brought us",
+        "he": "וַיְבִאֵנוּ"
+      },
+      {
+        "ja": "אלי' הד'א אלמוצ'ע",
+        "en": "to this place",
+        "he": "אֶל-הַמָּקוֹם הַזֶּה"
+      },
+      {
+        "ja": "ואעטאנא",
+        "en": "and gave us",
+        "he": "וַיִּתֶּן-לָנוּ"
+      },
+      {
+        "ja": "הד'א אלבלד",
+        "en": "this land",
+        "he": "אֶת-הָאָרֶץ הַזֹּאת"
+      },
+      {
+        "ja": "בלד יפיץ' אללבן",
+        "en": "a land flowing with milk",
+        "he": "אֶרֶץ זָבַת חָלָב"
+      },
+      {
+        "ja": "ואלעסל",
+        "en": "and honey",
+        "he": "וּדְבָשׁ"
+      }
+    ],
+    "10": [
+      {
+        "ja": "ואלאן",
+        "en": "And now",
+        "he": "וְעַתָּה"
+      },
+      {
+        "ja": "הוד'א",
+        "en": "behold",
+        "he": "הִנֵּה"
+      },
+      {
+        "ja": "קד גית",
+        "en": "I have brought",
+        "he": "הֵבֵאתִי"
+      },
+      {
+        "ja": "באואיל ת'מר אלארץ'",
+        "en": "the first-fruits of the earth's produce",
+        "he": "אֶת-רֵאשִׁית פְּרִי הָאֲדָמָה"
+      },
+      {
+        "ja": "אלד'י רזקתניהא",
+        "en": "which You have provided me",
+        "he": "אֲשֶׁר-נָתַתָּה לִּי"
+      },
+      {
+        "ja": "יא רב",
+        "en": "O Lord",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "צ'עה",
+        "en": "place it",
+        "he": "וְהִנַּחְתּוֹ"
+      },
+      {
+        "ja": "בין ידי אללה",
+        "en": "before God",
+        "he": "לִפְנֵי יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "ואסגד",
+        "en": "and bow down",
+        "he": "וְהִשְׁתַּחֲוִיתָ"
+      },
+      {
+        "ja": "בין ידי אללה רבך",
+        "en": "before God your Lord",
+        "he": "לִפְנֵי יְהוָה אֱלֹהֶיךָ"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ואפרח",
+        "en": "And rejoice",
+        "he": "וְשָׂמַחְתָּ"
+      },
+      {
+        "ja": "בכל אלכ'יר",
+        "en": "in all the good",
+        "he": "בְכָל-הַטּוֹב"
+      },
+      {
+        "ja": "אלד'י רזקך",
+        "en": "which",
+        "he": "אֲשֶׁר נָתַן-לְךָ"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord has provided you",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "אנת ואלך",
+        "en": "you and your household",
+        "he": "אַתָּה"
+      },
+      {
+        "ja": "ואלוי",
+        "en": "and the Levite",
+        "he": "וְהַלֵּוִי"
+      },
+      {
+        "ja": "ואלג'ריב",
+        "en": "and the stranger",
+        "he": "וְהַגֵּר"
+      },
+      {
+        "ja": "אלד'י פי מחאלך",
+        "en": "who is in your settlements",
+        "he": "אֲשֶׁר בְּקִרְבֶּךָ"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ואד'א פרג'ת",
+        "en": "And when you have finished",
+        "he": "כִּי תְכַלֶּה"
+      },
+      {
+        "ja": "מן תעשיר",
+        "en": "tithing",
+        "he": "לַעְשֵׂר"
+      },
+      {
+        "ja": "גמיע עשור ג'לתך",
+        "en": "all the tithes of your yield",
+        "he": "אֶת-כָּל-מַעְשַׂר תְּבוּאָתְךָ"
+      },
+      {
+        "ja": "פי אלסנה אלת'אלת'ה",
+        "en": "in the third year",
+        "he": "בַּשָּׁנָה הַשְּׁלִישִׁת"
+      },
+      {
+        "ja": "סנה' כמאל אלעשור",
+        "en": "the year of the completion of the tithes",
+        "he": "שְׁנַת הַמַּעֲשֵׂר"
+      },
+      {
+        "ja": "ודפעת דאלך לאללוי",
+        "en": "and you have given it to the Levite",
+        "he": "וְנָתַתָּה לַלֵּוִי"
+      },
+      {
+        "ja": "ואלג'ריב",
+        "en": "and the stranger",
+        "he": "לַגֵּר"
+      },
+      {
+        "ja": "ואליתים",
+        "en": "and the orphan",
+        "he": "לַיָּתוֹם"
+      },
+      {
+        "ja": "ואלארמלה",
+        "en": "and the widow",
+        "he": "וְלָאַלְמָנָה"
+      },
+      {
+        "ja": "פאכלו מנה פי מחאלך",
+        "en": "and they have eaten of it in your settlements",
+        "he": "וְאָכְלוּ בִשְׁעָרֶיךָ"
+      },
+      {
+        "ja": "ושבעו",
+        "en": "and been satisfied",
+        "he": "וְשָׂבֵעוּ"
+      }
+    ],
+    "13": [
+      {
+        "ja": "פקל",
+        "en": "then say",
+        "he": "וְאָמַרְתָּ"
+      },
+      {
+        "ja": "בין ידי אללה רבך",
+        "en": "before God your Lord",
+        "he": "לִפְנֵי יְהוָה אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "קד אנפית אלאקדאס",
+        "en": "I have removed the consecrated things",
+        "he": "בִּעַרְתִּי הַקֹּדֶשׁ"
+      },
+      {
+        "ja": "מן ביתי",
+        "en": "from my house",
+        "he": "מִן-הַבַּיִת"
+      },
+      {
+        "ja": "וקד דפעתהא",
+        "en": "and I have given them",
+        "he": "וְגַם נְתַתִּיו"
+      },
+      {
+        "ja": "לאללוי",
+        "en": "to the Levite",
+        "he": "לַלֵּוִי"
+      },
+      {
+        "ja": "ואלג'ריב",
+        "en": "and the stranger",
+        "he": "וְלַגֵּר"
+      },
+      {
+        "ja": "ואליתים",
+        "en": "and the orphan",
+        "he": "לַיָּתוֹם"
+      },
+      {
+        "ja": "ואלארמלה",
+        "en": "and the widow",
+        "he": "וְלָאַלְמָנָה"
+      },
+      {
+        "ja": "כגמיע וצאיאך",
+        "en": "according to all Your commandments",
+        "he": "כְּכָל-מִצְוָתְךָ"
+      },
+      {
+        "ja": "אלד'י אוציתני",
+        "en": "which You commanded me",
+        "he": "אֲשֶׁר צִוִּיתָנִי"
+      },
+      {
+        "ja": "לם אתגאוז שייא מנהא",
+        "en": "I have not transgressed any of them",
+        "he": "לֹא-עָבַרְתִּי מִמִּצְו‍ֹתֶיךָ"
+      },
+      {
+        "ja": "ולם אנס ד'אלך",
+        "en": "nor have I forgotten that",
+        "he": "וְלֹא שָׁכָחְתִּי"
+      }
+    ],
+    "14": [
+      {
+        "ja": "ואלעשר אלד'י הו לי לם אכל מנה פי חזני",
+        "en": "And the tithe which is mine — I did not eat of it in my grief",
+        "he": "לֹא-אָכַלְתִּי בְאֹנִי מִמֶּנּוּ"
+      },
+      {
+        "ja": "ולם אצרף מנה אלי' נגס",
+        "en": "nor did I divert any of it to anything impure",
+        "he": "וְלֹא-בִעַרְתִּי מִמֶּנּוּ בְּטָמֵא"
+      },
+      {
+        "ja": "ולא פי חואיג מיית",
+        "en": "nor for the needs of a dead person",
+        "he": "וְלֹא-נָתַתִּי מִמֶּנּוּ לְמֵת"
+      },
+      {
+        "ja": "בל קבלת אמר אללה רבי",
+        "en": "rather, I accepted the command of God my Lord",
+        "he": "שָׁמַעְתִּי בְּקוֹל יְהוָה אֱלֹהָי"
+      },
+      {
+        "ja": "וצנעת כגמיע מא אמרתני",
+        "en": "and I acted according to all that You commanded me",
+        "he": "עָשִׂיתִי כְּכֹל אֲשֶׁר צִוִּיתָנִי"
+      }
+    ],
+    "15": [
+      {
+        "ja": "אטלע",
+        "en": "Look out",
+        "he": "הַשְׁקִיפָה"
+      },
+      {
+        "ja": "מן מוטן קדסך",
+        "en": "from the abode of Your holiness",
+        "he": "מִמְּעוֹן קָדְשְׁךָ"
+      },
+      {
+        "ja": "מן אלסמא",
+        "en": "from the heavens",
+        "he": "מִן-הַשָּׁמַיִם"
+      },
+      {
+        "ja": "ובארך",
+        "en": "and bestow Your blessing",
+        "he": "וּבָרֵךְ"
+      },
+      {
+        "ja": "פי שעבך",
+        "en": "upon Your people",
+        "he": "אֶת-עַמְּךָ"
+      },
+      {
+        "ja": "אל אסראיל",
+        "en": "the house of Israel",
+        "he": "אֶת-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ופי אלארץ'",
+        "en": "and upon the land",
+        "he": "וְאֵת הָאֲדָמָה"
+      },
+      {
+        "ja": "אלד'י אעטיתנא",
+        "en": "which You gave us",
+        "he": "אֲשֶׁר נָתַתָּה לָנוּ"
+      },
+      {
+        "ja": "כמא קסמת לאבאינא",
+        "en": "as You swore to our fathers",
+        "he": "כַּאֲשֶׁר נִשְׁבַּעְתָּ לַאֲבֹתֵינוּ"
+      },
+      {
+        "ja": "אן תכון ארצ'א תפיץ' לבנא",
+        "en": "that it be a land flowing with milk",
+        "he": "אֶרֶץ זָבַת חָלָב"
+      },
+      {
+        "ja": "ועסלא",
+        "en": "and honey",
+        "he": "וּדְבָשׁ"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ואעלם",
+        "en": "And know"
+      },
+      {
+        "ja": "הד'א אליום",
+        "en": "this day",
+        "he": "הַיּוֹם הַזֶּה"
+      },
+      {
+        "ja": "אללה רבך",
+        "en": "that God your Lord",
+        "he": "יְהוָה אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "יאמרך",
+        "en": "commands you",
+        "he": "מְצַוְּךָ"
+      },
+      {
+        "ja": "באן תצנע",
+        "en": "to perform",
+        "he": "לַעֲשׂוֹת"
+      },
+      {
+        "ja": "הד'ה אלרסום",
+        "en": "these statutes",
+        "he": "אֶת-הַחֻקִּים הָאֵלֶּה"
+      },
+      {
+        "ja": "ואלאחכאם",
+        "en": "and ordinances",
+        "he": "וְאֶת-הַמִּשְׁפָּטִים"
+      },
+      {
+        "ja": "פאחפצ'הא",
+        "en": "so keep them",
+        "he": "וְשָׁמַרְתָּ"
+      },
+      {
+        "ja": "ואעמל בהא",
+        "en": "and act by them",
+        "he": "וְעָשִׂיתָ אוֹתָם"
+      },
+      {
+        "ja": "בכל קלבך",
+        "en": "with all your heart",
+        "he": "בְּכָל-לְבָבְךָ"
+      },
+      {
+        "ja": "ונפסך",
+        "en": "and your soul",
+        "he": "וּבְכָל-נַפְשֶׁךָ"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ואנת כמא ומרת אללה רבך",
+        "en": "And you, even as you have made God your Lord sovereign over you",
+        "he": "אֶת-יְהוָה הֶאֱמַרְתָּ הַיּוֹם"
+      },
+      {
+        "ja": "אן יכון לך אלאהא",
+        "en": "that He be your God",
+        "he": "לִהְיוֹת לְךָ לֵאלֹהִים"
+      },
+      {
+        "ja": "ואן תסיר פי טרקה",
+        "en": "and that you walk in His ways",
+        "he": "וְלָלֶכֶת בִּדְרָכָיו"
+      },
+      {
+        "ja": "ותחפץ' רסומה",
+        "en": "and keep His statutes",
+        "he": "וְלִשְׁמֹר חֻקָּיו"
+      },
+      {
+        "ja": "ווצאיאה",
+        "en": "and His commandments",
+        "he": "וּמִצְו‍ֹתָיו"
+      },
+      {
+        "ja": "ואחכאמה",
+        "en": "and His ordinances",
+        "he": "וּמִשְׁפָּטָיו"
+      },
+      {
+        "ja": "ותקבל אמרה",
+        "en": "and accept His command",
+        "he": "וְלִשְׁמֹעַ בְּקֹלוֹ"
+      }
+    ],
+    "18": [
+      {
+        "ja": "פכד'אך ומרך אללה",
+        "en": "so likewise has God made you sovereign",
+        "he": "וַיהוָה הֶאֱמִירְךָ הַיּוֹם"
+      },
+      {
+        "ja": "לתכון לה אמה כ'אצה",
+        "en": "to be for Him a particular nation",
+        "he": "לִהְיוֹת לוֹ לְעַם סְגֻלָּה"
+      },
+      {
+        "ja": "כמא ועדך",
+        "en": "as He promised you",
+        "he": "כַּאֲשֶׁר דִּבֶּר-לָךְ"
+      },
+      {
+        "ja": "ותחפץ' גמיע וצאיאה",
+        "en": "and that you keep all His commandments",
+        "he": "וְלִשְׁמֹר כָּל-מִצְו‍ֹתָיו"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ואן יגעלך עאליא",
+        "en": "and that He set you high",
+        "he": "וּלְתִתְּךָ עֶלְיוֹן"
+      },
+      {
+        "ja": "עלי' סאיר אלאמם",
+        "en": "above the rest of the nations",
+        "he": "עַל כָּל-הַגּוֹיִם"
+      },
+      {
+        "ja": "אלד'י כ'לקהם",
+        "en": "whom He created",
+        "he": "אֲשֶׁר עָשָׂה"
+      },
+      {
+        "ja": "מדחא",
+        "en": "in praise",
+        "he": "לִתְהִלָּה"
+      },
+      {
+        "ja": "ואסמא",
+        "en": "and in renown",
+        "he": "וּלְשֵׁם"
+      },
+      {
+        "ja": "ופכ'רא",
+        "en": "and in glory",
+        "he": "וּלְתִפְאָרֶת"
+      },
+      {
+        "ja": "ואן תכון שעב מקדס",
+        "en": "and that you be a holy people",
+        "he": "וְלִהְיֹתְךָ עַם-קָדֹשׁ"
+      },
+      {
+        "ja": "ללה רבך",
+        "en": "to God your Lord",
+        "he": "לַיהוָה אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "כמא ועדך",
+        "en": "as He promised you",
+        "he": "כַּאֲשֶׁר דִּבֵּר"
+      }
+    ]
+  }
+}

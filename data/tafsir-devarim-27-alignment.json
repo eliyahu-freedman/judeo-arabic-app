@@ -1,0 +1,861 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Devarim 27. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/devarim_27.py; validated against the source with independent per-side occurrence claiming.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "אמר",
+        "en": "commanded",
+        "he": "וַיְצַו"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "ושיוך' אל אסראיל",
+        "en": "and the elders of the house of Israel",
+        "he": "וְזִקְנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אלקום",
+        "en": "the people",
+        "he": "אֶת-הָעָם"
+      },
+      {
+        "ja": "קאילין",
+        "en": "saying",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "אחפצ'ו",
+        "en": "Observe",
+        "he": "שָׁמֹר"
+      },
+      {
+        "ja": "גמיע אלוצייה",
+        "en": "all the commandments",
+        "he": "אֶת-כָּל-הַמִּצְוָה"
+      },
+      {
+        "ja": "אלד'י אמרכם בהא",
+        "en": "which I command you",
+        "he": "אֲשֶׁר אָנֹכִי מְצַוֶּה אֶתְכֶם"
+      },
+      {
+        "ja": "אליום",
+        "en": "today",
+        "he": "הַיּוֹם"
+      }
+    ],
+    "2": [
+      {
+        "ja": "פיכון",
+        "en": "And it shall be",
+        "he": "וְהָיָה"
+      },
+      {
+        "ja": "פי יום",
+        "en": "on the day",
+        "he": "בַּיּוֹם"
+      },
+      {
+        "ja": "תעברון",
+        "en": "that you cross",
+        "he": "אֲשֶׁר תַּעַבְרוּ"
+      },
+      {
+        "ja": "אלארדן",
+        "en": "the Jordan",
+        "he": "אֶת-הַיַּרְדֵּן"
+      },
+      {
+        "ja": "אלי' אלבלד",
+        "en": "into the land",
+        "he": "אֶל-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י אללה רבך מעטיך",
+        "en": "which God your Lord is giving you",
+        "he": "אֲשֶׁר-יְהוָה אֱלֹהֶיךָ נֹתֵן לָךְ"
+      },
+      {
+        "ja": "אנצב לך חגארה ]עט'ימה] עצ'ימה",
+        "en": "set up for yourself great stones",
+        "he": "וַהֲקֵמֹתָ לְךָ אֲבָנִים גְּדֹלוֹת"
+      },
+      {
+        "ja": "ובייצ'הא באספידאג",
+        "en": "and whitewash them with white lead",
+        "he": "וְשַׂדְתָּ אֹתָם בַּשִּׂיד"
+      }
+    ],
+    "3": [
+      {
+        "ja": "ואכתב עליהא",
+        "en": "And write upon them",
+        "he": "וְכָתַבְתָּ עֲלֵיהֶן"
+      },
+      {
+        "ja": "גמיע עיון הד'ה אלתורייה",
+        "en": "all the essentials of this Torah",
+        "he": "אֶת-כָּל-דִּבְרֵי הַתּוֹרָה הַזֹּאת"
+      },
+      {
+        "ja": "בעד עבורך",
+        "en": "after your crossing",
+        "he": "בְּעָבְרֶךָ"
+      },
+      {
+        "ja": "לכי תפתח",
+        "en": "so that you may enter",
+        "he": "לְמַעַן אֲשֶׁר תָּבֹא"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "the land",
+        "he": "אֶל-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י אללה רבך מעטיך",
+        "en": "which God your Lord is giving you",
+        "he": "אֲשֶׁר-יְהוָה אֱלֹהֶיךָ נֹתֵן לְךָ"
+      },
+      {
+        "ja": "בלד יפיץ' לבנא",
+        "en": "a land flowing with milk",
+        "he": "אֶרֶץ זָבַת חָלָב"
+      },
+      {
+        "ja": "ועסלא",
+        "en": "and honey",
+        "he": "וּדְבַשׁ"
+      },
+      {
+        "ja": "כמא ועדך",
+        "en": "as",
+        "he": "כַּאֲשֶׁר דִּבֶּר"
+      },
+      {
+        "ja": "אללה אלאה אבאיך",
+        "en": "God the God of your fathers promised you",
+        "he": "יְהוָה אֱלֹהֵי-אֲבֹתֶיךָ"
+      }
+    ],
+    "4": [
+      {
+        "ja": "פמן אוול מא תעברון",
+        "en": "And so, from the first of your crossing",
+        "he": "וְהָיָה בְּעָבְרְכֶם"
+      },
+      {
+        "ja": "אלארדן",
+        "en": "the Jordan",
+        "he": "אֶת-הַיַּרְדֵּן"
+      },
+      {
+        "ja": "תנצבו",
+        "en": "you shall erect",
+        "he": "תָּקִימוּ"
+      },
+      {
+        "ja": "הד'ה אלחגארה",
+        "en": "these stones",
+        "he": "אֶת-הָאֲבָנִים הָאֵלֶּה"
+      },
+      {
+        "ja": "אלד'י אמרתכם בהא אליום",
+        "en": "which I have commanded you today",
+        "he": "אֲשֶׁר אָנֹכִי מְצַוֶּה אֶתְכֶם הַיּוֹם"
+      },
+      {
+        "ja": "פי גבל עיבל",
+        "en": "on Mount Ebal",
+        "he": "בְּהַר עֵיבָל"
+      },
+      {
+        "ja": "ובייצ'הא באספיד'אג",
+        "en": "and whitewash them with white lead",
+        "he": "וְשַׂדְתָּ אוֹתָם בַּשִּׂיד"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ואבן ת'ם",
+        "en": "And build there",
+        "he": "וּבָנִיתָ שָּׁם"
+      },
+      {
+        "ja": "מד'בחא",
+        "en": "an altar",
+        "he": "מִזְבֵּחַ"
+      },
+      {
+        "ja": "ללה רבך",
+        "en": "to God your Lord",
+        "he": "לַיהוָה אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "מד'בח מן חגארה",
+        "en": "an altar of stones",
+        "he": "מִזְבַּח אֲבָנִים"
+      },
+      {
+        "ja": "לא תחרך עליהא חדידא",
+        "en": "do not move iron upon it",
+        "he": "לֹא-תָנִיף עֲלֵיהֶם בַּרְזֶל"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ולתכון מע ד'אלך חגארה צחיחה",
+        "en": "And let there be alongside that whole stones",
+        "he": "אֲבָנִים שְׁלֵמוֹת"
+      },
+      {
+        "ja": "וקרב עליהא",
+        "en": "and offer upon it",
+        "he": "וְהַעֲלִיתָ עָלָיו"
+      },
+      {
+        "ja": "צואעדא",
+        "en": "ascent-offerings",
+        "he": "עוֹלֹת"
+      },
+      {
+        "ja": "ללה רבך",
+        "en": "to God your Lord",
+        "he": "לַיהוָה אֱלֹהֶיךָ"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ואד'בח ד'באיח סלאמה",
+        "en": "And slaughter peace-offerings",
+        "he": "וְזָבַחְתָּ שְׁלָמִים"
+      },
+      {
+        "ja": "וכלהא הנאך",
+        "en": "and eat them there",
+        "he": "וְאָכַלְתָּ שָּׁם"
+      },
+      {
+        "ja": "ואפרח",
+        "en": "and rejoice",
+        "he": "וְשָׂמַחְתָּ"
+      },
+      {
+        "ja": "בין ידי אללה רבך",
+        "en": "before God your Lord",
+        "he": "לִפְנֵי יְהוָה אֱלֹהֶיךָ"
+      }
+    ],
+    "8": [
+      {
+        "ja": "וקד כתבת",
+        "en": "And you shall write",
+        "he": "וְכָתַבְתָּ"
+      },
+      {
+        "ja": "עלי' אלחגארה",
+        "en": "upon the stones",
+        "he": "עַל-הָאֲבָנִים"
+      },
+      {
+        "ja": "גמיע עיון הד'ה אלתורייה",
+        "en": "all the essentials of the words of this Torah",
+        "he": "אֶת-כָּל-דִּבְרֵי הַתּוֹרָה הַזֹּאת"
+      },
+      {
+        "ja": "שרחא גיידא",
+        "en": "as a clear and good exposition",
+        "he": "בַּאֵר הֵיטֵב"
+      }
+    ],
+    "9": [
+      {
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "כלם מוסי'",
+        "en": "Moses",
+        "he": "וַיְדַבֵּר מֹשֶׁה"
+      },
+      {
+        "ja": "ואלאימה",
+        "en": "and the imāms",
+        "he": "וְהַכֹּהֲנִים"
+      },
+      {
+        "ja": "ואלליואניין",
+        "en": "and the Levites spoke",
+        "he": "הַלְוִיִּם"
+      },
+      {
+        "ja": "אל אסראיל",
+        "en": "to the house of Israel",
+        "he": "אֶל כָּל-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "קאילין",
+        "en": "saying",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "ארכן",
+        "en": "Be attentive",
+        "he": "הַסְכֵּת"
+      },
+      {
+        "ja": "ואסמע",
+        "en": "and hear",
+        "he": "וּשְׁמַע"
+      },
+      {
+        "ja": "יא אל אסראיל",
+        "en": "O house of Israel",
+        "he": "יִשְׂרָאֵל"
+      },
+      {
+        "ja": "יומך הד'א",
+        "en": "this very day",
+        "he": "הַיּוֹם הַזֶּה"
+      },
+      {
+        "ja": "קד' צרת שעבא",
+        "en": "have become a people",
+        "he": "נִהְיֵיתָ לְעָם"
+      },
+      {
+        "ja": "ללה רבך",
+        "en": "of God your Lord",
+        "he": "לַיהוָה אֱלֹהֶיךָ"
+      }
+    ],
+    "10": [
+      {
+        "ja": "פאקבל",
+        "en": "Accept",
+        "he": "וְשָׁמַעְתָּ"
+      },
+      {
+        "ja": "קולה",
+        "en": "His word",
+        "he": "בְּקוֹל יְהוָה אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "ואעמל",
+        "en": "and do",
+        "he": "וְעָשִׂיתָ"
+      },
+      {
+        "ja": "וצאיאה",
+        "en": "His commandments",
+        "he": "אֶת-מִצְו‍ֹתָו"
+      },
+      {
+        "ja": "ורסומה",
+        "en": "and His statutes",
+        "he": "וְאֶת-חֻקָּיו"
+      },
+      {
+        "ja": "אלד'י אמרך בהא אליום",
+        "en": "which I command you today",
+        "he": "אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "אמר מוסי'",
+        "en": "Moses commanded",
+        "he": "וַיְצַו מֹשֶׁה"
+      },
+      {
+        "ja": "קומה",
+        "en": "his people",
+        "he": "אֶת-הָעָם"
+      },
+      {
+        "ja": "פי דאלך אליום",
+        "en": "on that day",
+        "he": "בַּיּוֹם הַהוּא"
+      },
+      {
+        "ja": "קאילא",
+        "en": "saying",
+        "he": "לֵאמֹר"
+      }
+    ],
+    "12": [
+      {
+        "ja": "הולאי יקומון",
+        "en": "These shall stand",
+        "he": "אֵלֶּה יַעַמְדוּ"
+      },
+      {
+        "ja": "ליבארכו",
+        "en": "to bless",
+        "he": "לְבָרֵךְ"
+      },
+      {
+        "ja": "אלאמה",
+        "en": "the nation",
+        "he": "אֶת-הָעָם"
+      },
+      {
+        "ja": "ענד גבל גריזים",
+        "en": "at Mount Gerizim",
+        "he": "עַל-הַר גְּרִזִים"
+      },
+      {
+        "ja": "בעד עבורכם אלארדן",
+        "en": "after your crossing the Jordan",
+        "he": "בְּעָבְרְכֶם אֶת-הַיַּרְדֵּן"
+      },
+      {
+        "ja": "אל שמעון",
+        "en": "the house of Simeon",
+        "he": "שִׁמְעוֹן"
+      },
+      {
+        "ja": "ולוי",
+        "en": "and Levi",
+        "he": "וְלֵוִי"
+      },
+      {
+        "ja": "ויהודה",
+        "en": "and Judah",
+        "he": "וִיהוּדָה"
+      },
+      {
+        "ja": "ויששכר",
+        "en": "and Issachar",
+        "he": "וְיִשָּׂשכָר"
+      },
+      {
+        "ja": "ויוסף",
+        "en": "and Joseph",
+        "he": "וְיוֹסֵף"
+      },
+      {
+        "ja": "ובנימין",
+        "en": "and Benjamin",
+        "he": "וּבִנְיָמִן"
+      }
+    ],
+    "13": [
+      {
+        "ja": "והולאי יקומון",
+        "en": "And these shall stand",
+        "he": "וְאֵלֶּה יַעַמְדוּ"
+      },
+      {
+        "ja": "עלי' אללענה",
+        "en": "over the curse",
+        "he": "עַל-הַקְּלָלָה"
+      },
+      {
+        "ja": "עלי' גבל עיבל",
+        "en": "upon Mount Ebal",
+        "he": "בְּהַר עֵיבָל"
+      },
+      {
+        "ja": "אל ראובן",
+        "en": "the house of Reuben",
+        "he": "רְאוּבֵן"
+      },
+      {
+        "ja": "וגד",
+        "en": "and Gad",
+        "he": "גָּד"
+      },
+      {
+        "ja": "ואשר",
+        "en": "and Asher",
+        "he": "וְאָשֵׁר"
+      },
+      {
+        "ja": "וזבולון",
+        "en": "and Zebulun",
+        "he": "וּזְבוּלֻן"
+      },
+      {
+        "ja": "דן",
+        "en": "Dan",
+        "he": "דָּן"
+      },
+      {
+        "ja": "ונפתלי",
+        "en": "and Naphtali",
+        "he": "וְנַפְתָּלִי"
+      }
+    ],
+    "14": [
+      {
+        "ja": "פיבתדו אלליואניין",
+        "en": "Then the Levites shall begin",
+        "he": "וְעָנוּ הַלְוִיִּם"
+      },
+      {
+        "ja": "ויקולון",
+        "en": "and say",
+        "he": "וְאָמְרוּ"
+      },
+      {
+        "ja": "לגמיע אל אסראיל",
+        "en": "to all the house of Israel",
+        "he": "אֶל-כָּל-אִישׁ יִשְׂרָאֵל"
+      },
+      {
+        "ja": "בצות עאל",
+        "en": "with a loud voice",
+        "he": "קוֹל רָם"
+      }
+    ],
+    "15": [
+      {
+        "ja": "מלעון",
+        "en": "Cursed is",
+        "he": "אָרוּר"
+      },
+      {
+        "ja": "רגל",
+        "en": "the man",
+        "he": "הָאִישׁ"
+      },
+      {
+        "ja": "יצנע פסלא",
+        "en": "who makes a graven image",
+        "he": "אֲשֶׁר יַעֲשֶׂה פֶסֶל"
+      },
+      {
+        "ja": "או מסבוכא",
+        "en": "or a cast image",
+        "he": "וּמַסֵּכָה"
+      },
+      {
+        "ja": "ממא יכרהה אללה",
+        "en": "of what God abhors",
+        "he": "תּוֹעֲבַת יְהוָה"
+      },
+      {
+        "ja": "או יתכ'ד'ה מן צנעה' צאנע",
+        "en": "or takes one from the craft of an artisan",
+        "he": "מַעֲשֵׂה יְדֵי חָרָשׁ"
+      },
+      {
+        "ja": "ויציירה פי סתר",
+        "en": "and sets it in secret",
+        "he": "וְשָׂם בַּסָּתֶר"
+      },
+      {
+        "ja": "פיגיבהם גמיע אלקום",
+        "en": "And all the people shall answer them",
+        "he": "וְעָנוּ כָל-הָעָם"
+      },
+      {
+        "ja": "ויקולון אמין",
+        "en": "and say: 'Amen.'",
+        "he": "וְאָמְרוּ אָמֵן"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ומלעון",
+        "en": "Cursed is",
+        "he": "אָרוּר"
+      },
+      {
+        "ja": "מסתכ'ף באביה",
+        "en": "he who treats his father",
+        "he": "מַקְלֶה אָבִיו"
+      },
+      {
+        "ja": "ואמה",
+        "en": "and his mother with contempt",
+        "he": "וְאִמּוֹ"
+      },
+      {
+        "ja": "ויקול גמיע אלקום",
+        "en": "And all the people shall say",
+        "he": "וְאָמַר כָּל-הָעָם"
+      },
+      {
+        "ja": "אמין",
+        "en": "Amen",
+        "he": "אָמֵן"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ומלעון",
+        "en": "Cursed is",
+        "he": "אָרוּר"
+      },
+      {
+        "ja": "מן יזייג' תכ'ם צאחבה",
+        "en": "he who shifts the boundary of his neighbor",
+        "he": "מַסִּיג גְּבוּל רֵעֵהוּ"
+      },
+      {
+        "ja": "ויקול גמיע אלקום",
+        "en": "And all the people shall say",
+        "he": "וְאָמַר כָּל-הָעָם"
+      },
+      {
+        "ja": "אמין",
+        "en": "Amen",
+        "he": "אָמֵן"
+      }
+    ],
+    "18": [
+      {
+        "ja": "ומלעון",
+        "en": "Cursed is",
+        "he": "אָרוּר"
+      },
+      {
+        "ja": "מצ'ל גאהל פי אלטריק",
+        "en": "he who leads one who is unknowing astray on the road",
+        "he": "מַשְׁגֶּה עִוֵּר בַּדָּרֶךְ"
+      },
+      {
+        "ja": "ויקול גמיע אלקום",
+        "en": "And all the people shall say",
+        "he": "וְאָמַר כָּל-הָעָם"
+      },
+      {
+        "ja": "אמין",
+        "en": "Amen",
+        "he": "אָמֵן"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ומלעון",
+        "en": "Cursed is",
+        "he": "אָרוּר"
+      },
+      {
+        "ja": "מן ימייל",
+        "en": "he who perverts the judgment",
+        "he": "מַטֶּה מִשְׁפַּט"
+      },
+      {
+        "ja": "חכם ג'ריב או יתים",
+        "en": "of a stranger, or an orphan",
+        "he": "גֵּר-יָתוֹם"
+      },
+      {
+        "ja": "או ארמלה",
+        "en": "or a widow",
+        "he": "וְאַלְמָנָה"
+      },
+      {
+        "ja": "ויקול גמיע אלקום",
+        "en": "And all the people shall say",
+        "he": "וְאָמַר כָּל-הָעָם"
+      },
+      {
+        "ja": "אמין",
+        "en": "Amen",
+        "he": "אָמֵן"
+      }
+    ],
+    "20": [
+      {
+        "ja": "ומלעון",
+        "en": "Cursed is",
+        "he": "אָרוּר"
+      },
+      {
+        "ja": "מן יצ'אגע זוג'ה אביה",
+        "en": "he who lies with the wife of his father",
+        "he": "שֹׁכֵב עִם-אֵשֶׁת אָבִיו"
+      },
+      {
+        "ja": "למא כשף כנף אביה",
+        "en": "for he has uncovered the skirt of his father",
+        "he": "כִּי גִלָּה כְּנַף אָבִיו"
+      },
+      {
+        "ja": "ויקול גמיע אלקום",
+        "en": "And all the people shall say",
+        "he": "וְאָמַר כָּל-הָעָם"
+      },
+      {
+        "ja": "אמין",
+        "en": "Amen",
+        "he": "אָמֵן"
+      }
+    ],
+    "21": [
+      {
+        "ja": "ומלעון",
+        "en": "Cursed is",
+        "he": "אָרוּר"
+      },
+      {
+        "ja": "מן יצ'אגע שייא מן אלבהאים",
+        "en": "he who lies with anything of the beasts",
+        "he": "שֹׁכֵב עִם-כָּל-בְּהֵמָה"
+      },
+      {
+        "ja": "ויקול גמיע אלקום",
+        "en": "And all the people shall say",
+        "he": "וְאָמַר כָּל-הָעָם"
+      },
+      {
+        "ja": "אמין",
+        "en": "Amen",
+        "he": "אָמֵן"
+      }
+    ],
+    "22": [
+      {
+        "ja": "ומלעון",
+        "en": "Cursed is",
+        "he": "אָרוּר"
+      },
+      {
+        "ja": "מן יצ'אגע אכ'תה",
+        "en": "he who lies with his sister",
+        "he": "שֹׁכֵב עִם-אֲחֹתוֹ"
+      },
+      {
+        "ja": "אבנה' אביה",
+        "en": "the daughter of his father",
+        "he": "בַּת-אָבִיו"
+      },
+      {
+        "ja": "או אבנה' אמה",
+        "en": "or the daughter of his mother",
+        "he": "אוֹ בַת-אִמּוֹ"
+      },
+      {
+        "ja": "ויקול גמיע אלקום",
+        "en": "And all the people shall say",
+        "he": "וְאָמַר כָּל-הָעָם"
+      },
+      {
+        "ja": "אמין",
+        "en": "Amen",
+        "he": "אָמֵן"
+      }
+    ],
+    "23": [
+      {
+        "ja": "ומלעון",
+        "en": "Cursed is",
+        "he": "אָרוּר"
+      },
+      {
+        "ja": "מן יצ'אגע חמאתה",
+        "en": "he who lies with his mother-in-law",
+        "he": "שֹׁכֵב עִם-חֹתַנְתּוֹ"
+      },
+      {
+        "ja": "ויקול גמיע אלקום",
+        "en": "And all the people shall say",
+        "he": "וְאָמַר כָּל-הָעָם"
+      },
+      {
+        "ja": "אמין",
+        "en": "Amen",
+        "he": "אָמֵן"
+      }
+    ],
+    "24": [
+      {
+        "ja": "ומלעון",
+        "en": "Cursed is",
+        "he": "אָרוּר"
+      },
+      {
+        "ja": "מן יסעי בצאחבה סרא",
+        "en": "he who acts treacherously against his neighbor in secret",
+        "he": "מַכֵּה רֵעֵהוּ בַּסָּתֶר"
+      },
+      {
+        "ja": "ויקול גמיע אלקום",
+        "en": "And all the people shall say",
+        "he": "וְאָמַר כָּל-הָעָם"
+      },
+      {
+        "ja": "אמין",
+        "en": "Amen",
+        "he": "אָמֵן"
+      }
+    ],
+    "25": [
+      {
+        "ja": "ומלעון",
+        "en": "Cursed is",
+        "he": "אָרוּר"
+      },
+      {
+        "ja": "מן יאכ'ד' רשוה",
+        "en": "he who takes a bribe",
+        "he": "לֹקֵחַ שֹׁחַד"
+      },
+      {
+        "ja": "ליקתל נפסא זכייא",
+        "en": "to kill an innocent soul",
+        "he": "לְהַכּוֹת נֶפֶשׁ דָּם נָקִי"
+      },
+      {
+        "ja": "ויקול גמיע אלקום",
+        "en": "And all the people shall say",
+        "he": "וְאָמַר כָּל-הָעָם"
+      },
+      {
+        "ja": "אמין",
+        "en": "Amen",
+        "he": "אָמֵן"
+      }
+    ],
+    "26": [
+      {
+        "ja": "ומלעון",
+        "en": "Cursed is",
+        "he": "אָרוּר"
+      },
+      {
+        "ja": "מן לם י'ת'בת",
+        "en": "he who does not uphold",
+        "he": "אֲשֶׁר לֹא-יָקִים"
+      },
+      {
+        "ja": "כלאם הד'ה אלתורייה",
+        "en": "the words of this Torah",
+        "he": "אֶת-דִּבְרֵי הַתּוֹרָה-הַזֹּאת"
+      },
+      {
+        "ja": "ליעמל בהא",
+        "en": "so as to act by them",
+        "he": "לַעֲשׂוֹת אוֹתָם"
+      },
+      {
+        "ja": "ויקול גמיע אלקום",
+        "en": "And all the people shall say",
+        "he": "וְאָמַר כָּל-הָעָם"
+      },
+      {
+        "ja": "אמין",
+        "en": "Amen",
+        "he": "אָמֵן"
+      }
+    ]
+  }
+}
