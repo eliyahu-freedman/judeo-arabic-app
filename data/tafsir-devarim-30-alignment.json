@@ -1,0 +1,1022 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Devarim 30. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/devarim_30.py; validated against the source with independent per-side occurrence claiming.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ואד'א",
+        "en": "And when"
+      },
+      {
+        "ja": "חלת",
+        "en": "befall",
+        "he": "כִי-יָבֹאוּ"
+      },
+      {
+        "ja": "בך",
+        "en": "you",
+        "he": "עָלֶיךָ"
+      },
+      {
+        "ja": "גמיע הד'ה אלאמור",
+        "en": "all these things",
+        "he": "כָּל-הַדְּבָרִים הָאֵלֶּה"
+      },
+      {
+        "ja": "מן אלברכאת",
+        "en": "the blessings",
+        "he": "הַבְּרָכָה"
+      },
+      {
+        "ja": "ואללענאת",
+        "en": "and the curses",
+        "he": "וְהַקְּלָלָה"
+      },
+      {
+        "ja": "אלתי תלותהא",
+        "en": "which I have recited aloud",
+        "he": "אֲשֶׁר נָתַתִּי"
+      },
+      {
+        "ja": "עליך",
+        "en": "over you",
+        "he": "לְפָנֶיךָ"
+      },
+      {
+        "ja": "פארגע",
+        "en": "take it",
+        "he": "וַהֲשֵׁבֹתָ"
+      },
+      {
+        "ja": "אלי' נפסך",
+        "en": "to heart",
+        "he": "אֶל-לְבָבֶךָ"
+      },
+      {
+        "ja": "ועלי' אנך",
+        "en": "that you are"
+      },
+      {
+        "ja": "פי מא בין גמיע אלאמם",
+        "en": "in the midst of all the nations",
+        "he": "בְּכָל-הַגּוֹיִם"
+      },
+      {
+        "ja": "אלד'י דחאך",
+        "en": "to which",
+        "he": "אֲשֶׁר הִדִּיחֲךָ"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord has driven you",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "אלי' ת'ם",
+        "en": "there",
+        "he": "שָׁמָּה"
+      }
+    ],
+    "2": [
+      {
+        "ja": "פתוב",
+        "en": "Then return",
+        "he": "וְשַׁבְתָּ"
+      },
+      {
+        "ja": "אלי' אללה",
+        "en": "to God",
+        "he": "עַד-יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "ואקבל אמרה",
+        "en": "and accept His command",
+        "he": "וְשָׁמַעְתָּ בְקֹלוֹ"
+      },
+      {
+        "ja": "מת'ל גמיע מא אנא אמרך בה",
+        "en": "like all that I command you",
+        "he": "כְּכֹל אֲשֶׁר-אָנֹכִי מְצַוְּךָ"
+      },
+      {
+        "ja": "אליום",
+        "en": "this day",
+        "he": "הַיּוֹם"
+      },
+      {
+        "ja": "אנת",
+        "en": "you",
+        "he": "אַתָּה"
+      },
+      {
+        "ja": "ובניך",
+        "en": "and your sons",
+        "he": "וּבָנֶיךָ"
+      },
+      {
+        "ja": "בכל קלבך",
+        "en": "with all your heart",
+        "he": "בְּכָל-לְבָבְךָ"
+      },
+      {
+        "ja": "ונפסך",
+        "en": "and all your soul",
+        "he": "וּבְכָל-נַפְשֶׁךָ"
+      }
+    ],
+    "3": [
+      {
+        "ja": "פאן",
+        "en": "For"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "יתוב",
+        "en": "will return",
+        "he": "וְשָׁב"
+      },
+      {
+        "ja": "עליך וירחמך",
+        "en": "to you in mercy and have compassion on you",
+        "he": "וְרִחֲמֶךָ"
+      },
+      {
+        "ja": "ויעוד",
+        "en": "and will return",
+        "he": "וְשָׁב"
+      },
+      {
+        "ja": "ויגמעך",
+        "en": "and gather you",
+        "he": "וְקִבֶּצְךָ"
+      },
+      {
+        "ja": "מן גמיע אלשעוב",
+        "en": "from all the peoples",
+        "he": "מִכָּל-הָעַמִּים"
+      },
+      {
+        "ja": "אלד'י בדדך",
+        "en": "among whom He has scattered you",
+        "he": "אֲשֶׁר הֱפִיצְךָ"
+      },
+      {
+        "ja": "הנאך",
+        "en": "there",
+        "he": "שָׁמָּה"
+      }
+    ],
+    "4": [
+      {
+        "ja": "חתי'",
+        "en": "So that even"
+      },
+      {
+        "ja": "אלמנדחי מנך",
+        "en": "one of yours who has been driven away",
+        "he": "נִדַּחֲךָ"
+      },
+      {
+        "ja": "לו כאן",
+        "en": "were he",
+        "he": "אִם-יִהְיֶה"
+      },
+      {
+        "ja": "פי אקצא אלסמא",
+        "en": "at the farthest reaches of the sky",
+        "he": "בִּקְצֵה הַשָּׁמָיִם"
+      },
+      {
+        "ja": "לגמע שמלך",
+        "en": "would gather your scattered ones",
+        "he": "יְקַבֶּצְךָ"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "מן ת'ם",
+        "en": "from there"
+      },
+      {
+        "ja": "ולקדמך",
+        "en": "and bring you forward",
+        "he": "וּמִשָּׁם יִקָּחֶךָ"
+      }
+    ],
+    "5": [
+      {
+        "ja": "וידכ'לך",
+        "en": "And",
+        "he": "וֶהֱבִיאֲךָ"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord will bring you",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "אלי' אלבלד",
+        "en": "into the land",
+        "he": "אֶל-הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י חאזוה אבאיך",
+        "en": "which your fathers possessed",
+        "he": "אֲשֶׁר-יָרְשׁוּ אֲבֹתֶיךָ"
+      },
+      {
+        "ja": "ותחוזה",
+        "en": "and you shall possess it",
+        "he": "וִירִשְׁתָּהּ"
+      },
+      {
+        "ja": "ויחסן אליך",
+        "en": "and He will deal well with you",
+        "he": "וְהֵיטִבְךָ"
+      },
+      {
+        "ja": "ויכת'רך",
+        "en": "and make you more numerous",
+        "he": "וְהִרְבְּךָ"
+      },
+      {
+        "ja": "מן אבאיך",
+        "en": "than your fathers",
+        "he": "מֵאֲבֹתֶיךָ"
+      }
+    ],
+    "6": [
+      {
+        "ja": "וישרח",
+        "en": "And",
+        "he": "וּמָל"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord will open wide",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "צדרך",
+        "en": "your heart",
+        "he": "אֶת-לְבָבְךָ"
+      },
+      {
+        "ja": "וצדר נסלך",
+        "en": "and the heart of your offspring",
+        "he": "וְאֶת-לְבַב זַרְעֶךָ"
+      },
+      {
+        "ja": "לתחב",
+        "en": "for love of",
+        "he": "לְאַהֲבָה"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "אֶת-יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "בכל קלבך",
+        "en": "with all your heart",
+        "he": "בְּכָל-לְבָבְךָ"
+      },
+      {
+        "ja": "וכל נפסך",
+        "en": "and all your soul",
+        "he": "וּבְכָל-נַפְשְׁךָ"
+      },
+      {
+        "ja": "לכי תחיא",
+        "en": "that you may live",
+        "he": "לְמַעַן חַיֶּיךָ"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ויחל",
+        "en": "And",
+        "he": "וְנָתַן"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord will bring down",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "גמיע הד'א אלחרג",
+        "en": "all this distress",
+        "he": "אֵת כָּל-הָאָלוֹת הָאֵלֶּה"
+      },
+      {
+        "ja": "באעדאיך",
+        "en": "upon your enemies",
+        "he": "עַל-אֹיְבֶיךָ"
+      },
+      {
+        "ja": "ובשאנייך",
+        "en": "and upon those who hate you",
+        "he": "וְעַל-שֹׂנְאֶיךָ"
+      },
+      {
+        "ja": "אלד'י כלבוך",
+        "en": "who have been ferocious toward you",
+        "he": "אֲשֶׁר רְדָפוּךָ"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ואנת",
+        "en": "And you",
+        "he": "וְאַתָּה"
+      },
+      {
+        "ja": "תתוב",
+        "en": "shall return",
+        "he": "תָשׁוּב"
+      },
+      {
+        "ja": "ותקבל אמר אללה",
+        "en": "and accept the command of God",
+        "he": "וְשָׁמַעְתָּ בְּקוֹל יְהוָה"
+      },
+      {
+        "ja": "ותעמל",
+        "en": "and do",
+        "he": "וְעָשִׂיתָ"
+      },
+      {
+        "ja": "גמיע וצאיאה",
+        "en": "all His commandments",
+        "he": "אֶת-כָּל-מִצְו‍ֹתָיו"
+      },
+      {
+        "ja": "אלד'י אמרך בהא",
+        "en": "which I command you",
+        "he": "אֲשֶׁר אָנֹכִי מְצַוְּךָ"
+      },
+      {
+        "ja": "אליום",
+        "en": "this day",
+        "he": "הַיּוֹם"
+      }
+    ],
+    "10": [
+      {
+        "ja": "אד' תקבל אמר אללה",
+        "en": "When you accept the command of God",
+        "he": "כִּי תִשְׁמַע בְּקוֹל יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "פתחפץ'",
+        "en": "and keep",
+        "he": "לִשְׁמֹר"
+      },
+      {
+        "ja": "גמיע וצאיאה",
+        "en": "all His commandments",
+        "he": "מִצְו‍ֹתָיו"
+      },
+      {
+        "ja": "ורסומה",
+        "en": "and His statutes",
+        "he": "וְחֻקֹּתָיו"
+      },
+      {
+        "ja": "אלמכתובה",
+        "en": "written",
+        "he": "הַכְּתוּבָה"
+      },
+      {
+        "ja": "פי הד'א ספר אלתורייה",
+        "en": "in this book of the Torah",
+        "he": "בְּסֵפֶר הַתּוֹרָה הַזֶּה"
+      },
+      {
+        "ja": "אד' תתוב",
+        "en": "when you return",
+        "he": "כִּי תָשׁוּב"
+      },
+      {
+        "ja": "אלי' אללה",
+        "en": "to God",
+        "he": "אֶל-יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "בכל קלבך",
+        "en": "with all your heart",
+        "he": "בְּכָל-לְבָבְךָ"
+      },
+      {
+        "ja": "וכל נפסך",
+        "en": "and all your soul",
+        "he": "וּבְכָל-נַפְשֶׁךָ"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ואעלם",
+        "en": "And know"
+      },
+      {
+        "ja": "אן",
+        "en": "that"
+      },
+      {
+        "ja": "הד'ה אלוצייה",
+        "en": "these commandments",
+        "he": "הַמִּצְוָה הַזֹּאת"
+      },
+      {
+        "ja": "אלד'י אמרך בהא",
+        "en": "which I command you",
+        "he": "אֲשֶׁר אָנֹכִי מְצַוְּךָ"
+      },
+      {
+        "ja": "אליום",
+        "en": "this day",
+        "he": "הַיּוֹם"
+      },
+      {
+        "ja": "ליס בכ'פייה",
+        "en": "are not hidden",
+        "he": "לֹא-נִפְלֵאת"
+      },
+      {
+        "ja": "ענך",
+        "en": "from you",
+        "he": "מִמְּךָ"
+      },
+      {
+        "ja": "ולא בעידה",
+        "en": "nor are they distant",
+        "he": "וְלֹא רְחֹקָה"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ליסהא פי אלסמא",
+        "en": "They are not in the sky",
+        "he": "לֹא בַשָּׁמַיִם"
+      },
+      {
+        "ja": "פיקול קאיל",
+        "en": "so that one might say",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "מן ד'א יצעד לנא",
+        "en": "who shall ascend for us",
+        "he": "מִי יַעֲלֶה-לָּנוּ"
+      },
+      {
+        "ja": "אלי' אלסמא",
+        "en": "to the sky",
+        "he": "הַשָּׁמַיְמָה"
+      },
+      {
+        "ja": "וינזלהא לנא",
+        "en": "and bring them down to us",
+        "he": "וְיִקָּחֶהָ לָּנוּ"
+      },
+      {
+        "ja": "ויסמענאהא",
+        "en": "and make us hear them",
+        "he": "וְיַשְׁמִעֵנוּ אֹתָהּ"
+      },
+      {
+        "ja": "ונעמל בהא",
+        "en": "that we may act by them",
+        "he": "וְנַעֲשֶׂנָּה"
+      }
+    ],
+    "13": [
+      {
+        "ja": "וליס הי פי ד'אך גאנב אלבחר",
+        "en": "Nor are they on that far side of the sea",
+        "he": "וְלֹא-מֵעֵבֶר לַיָּם"
+      },
+      {
+        "ja": "פיקול קאיל",
+        "en": "so that one might say",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "מן ד'א יעבר לנא",
+        "en": "who shall cross over for us",
+        "he": "מִי יַעֲבָר-לָנוּ"
+      },
+      {
+        "ja": "אלי ד'אך גאנב אלבחר",
+        "en": "to that far side of the sea",
+        "he": "אֶל-עֵבֶר הַיָּם"
+      },
+      {
+        "ja": "פיאכ'דהא לנא",
+        "en": "and fetch them for us",
+        "he": "וְיִקָּחֶהָ לָּנוּ"
+      },
+      {
+        "ja": "ויסמענאהא",
+        "en": "and make us hear them",
+        "he": "וְיַשְׁמִעֵנוּ אֹתָהּ"
+      },
+      {
+        "ja": "ונעמל בהא",
+        "en": "that we may act by them",
+        "he": "וְנַעֲשֶׂנָּה"
+      }
+    ],
+    "14": [
+      {
+        "ja": "בל",
+        "en": "Rather"
+      },
+      {
+        "ja": "אלאמר",
+        "en": "the matter",
+        "he": "הַדָּבָר"
+      },
+      {
+        "ja": "קריב",
+        "en": "is very near",
+        "he": "קָרוֹב"
+      },
+      {
+        "ja": "אליך",
+        "en": "to you",
+        "he": "אֵלֶיךָ"
+      },
+      {
+        "ja": "גדא",
+        "en": "— it is possible",
+        "he": "מְאֹד"
+      },
+      {
+        "ja": "ימכנך",
+        "en": "for you"
+      },
+      {
+        "ja": "בפאך",
+        "en": "by your mouth",
+        "he": "בְּפִיךָ"
+      },
+      {
+        "ja": "ובקלבך",
+        "en": "and by your heart",
+        "he": "וּבִלְבָבְךָ"
+      },
+      {
+        "ja": "אן תעמל בה",
+        "en": "to act by it",
+        "he": "לַעֲשֹׂתוֹ"
+      }
+    ],
+    "15": [
+      {
+        "ja": "אנצ'ר",
+        "en": "See",
+        "he": "רְאֵה"
+      },
+      {
+        "ja": "אני",
+        "en": "I"
+      },
+      {
+        "ja": "קד געלת",
+        "en": "have placed",
+        "he": "נָתַתִּי"
+      },
+      {
+        "ja": "בין ידיך",
+        "en": "before you",
+        "he": "לְפָנֶיךָ"
+      },
+      {
+        "ja": "אליום",
+        "en": "this day",
+        "he": "הַיּוֹם"
+      },
+      {
+        "ja": "אלחיאה",
+        "en": "life",
+        "he": "אֶת-הַחַיִּים"
+      },
+      {
+        "ja": "ואלכ'יר",
+        "en": "and good",
+        "he": "וְאֶת-הַטּוֹב"
+      },
+      {
+        "ja": "ואלמות",
+        "en": "and death",
+        "he": "וְאֶת-הַמָּוֶת"
+      },
+      {
+        "ja": "ואלשר",
+        "en": "and evil",
+        "he": "וְאֶת-הָרָע"
+      }
+    ],
+    "16": [
+      {
+        "ja": "עלי' מא אמרך בה",
+        "en": "In accordance with what I command you",
+        "he": "אֲשֶׁר אָנֹכִי מְצַוְּךָ"
+      },
+      {
+        "ja": "אליום",
+        "en": "this day",
+        "he": "הַיּוֹם"
+      },
+      {
+        "ja": "אן תחבב",
+        "en": "that you love",
+        "he": "לְאַהֲבָה"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "אֶת-יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "ותסיר פי טרקה",
+        "en": "and walk in His ways",
+        "he": "לָלֶכֶת בִּדְרָכָיו"
+      },
+      {
+        "ja": "ותחפץ' וצאיאה",
+        "en": "and keep His commandments",
+        "he": "וְלִשְׁמֹר מִצְו‍ֹתָיו"
+      },
+      {
+        "ja": "ורסומה",
+        "en": "and His statutes",
+        "he": "וְחֻקֹּתָיו"
+      },
+      {
+        "ja": "ואחכאמה",
+        "en": "and His ordinances",
+        "he": "וּמִשְׁפָּטָיו"
+      },
+      {
+        "ja": "פתחיא",
+        "en": "so that you may live",
+        "he": "וְחָיִיתָ"
+      },
+      {
+        "ja": "ותכת'ר",
+        "en": "and multiply",
+        "he": "וְרָבִיתָ"
+      },
+      {
+        "ja": "ויבארך לך",
+        "en": "and",
+        "he": "וּבֵרַכְךָ"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord may bless you",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "פי אלבלד",
+        "en": "in the land",
+        "he": "בָּאָרֶץ"
+      },
+      {
+        "ja": "אלד' אנת צאיר אליה",
+        "en": "to which you are journeying",
+        "he": "אֲשֶׁר-אַתָּה בָא-שָׁמָּה"
+      },
+      {
+        "ja": "לתחוזה",
+        "en": "to possess it",
+        "he": "לְרִשְׁתָּהּ"
+      }
+    ],
+    "17": [
+      {
+        "ja": "ואן תולא קלבך",
+        "en": "But if your heart turns away",
+        "he": "וְאִם-יִפְנֶה לְבָבְךָ"
+      },
+      {
+        "ja": "ולם תקבל ד'אלך",
+        "en": "and you do not accept that",
+        "he": "וְלֹא תִשְׁמָע"
+      },
+      {
+        "ja": "ומלת",
+        "en": "and you incline",
+        "he": "וְנִדַּחְתָּ"
+      },
+      {
+        "ja": "וסגדת",
+        "en": "and bow down",
+        "he": "וְהִשְׁתַּחֲוִיתָ"
+      },
+      {
+        "ja": "למעבודאת אכ'ר",
+        "en": "to other objects of worship",
+        "he": "לֵאלֹהִים אֲחֵרִים"
+      },
+      {
+        "ja": "ועבדתהא",
+        "en": "and serve them",
+        "he": "וַעֲבַדְתָּם"
+      }
+    ],
+    "18": [
+      {
+        "ja": "פקד",
+        "en": "I declare"
+      },
+      {
+        "ja": "אכ'ברתכם",
+        "en": "to you",
+        "he": "הִגַּדְתִּי"
+      },
+      {
+        "ja": "מן אליום",
+        "en": "this day",
+        "he": "לָכֶם"
+      },
+      {
+        "ja": "אנכם",
+        "en": "that you",
+        "he": "הַיּוֹם"
+      },
+      {
+        "ja": "סתבידון",
+        "en": "shall surely perish",
+        "he": "כִּי אָבֹד תֹּאבֵדוּן"
+      },
+      {
+        "ja": "ולא תטול מדתכם",
+        "en": "and your days shall not be long",
+        "he": "לֹא-תַאֲרִיכֻן יָמִים"
+      },
+      {
+        "ja": "פי אלבלד",
+        "en": "in the land",
+        "he": "עַל-הָאֲדָמָה"
+      },
+      {
+        "ja": "אלד'י אנת עאבר",
+        "en": "to which you are crossing",
+        "he": "אֲשֶׁר אַתָּה עֹבֵר"
+      },
+      {
+        "ja": "אלארדן",
+        "en": "the Jordan",
+        "he": "אֶת-הַיַּרְדֵּן"
+      },
+      {
+        "ja": "לתציר אליה",
+        "en": "to go",
+        "he": "לָבוֹא שָׁמָּה"
+      },
+      {
+        "ja": "לתחוזה",
+        "en": "to possess it",
+        "he": "לְרִשְׁתָּהּ"
+      }
+    ],
+    "19": [
+      {
+        "ja": "וקד אשהדת",
+        "en": "And I have called to witness",
+        "he": "הַעִדֹתִי"
+      },
+      {
+        "ja": "עליכם",
+        "en": "against you",
+        "he": "בָכֶם"
+      },
+      {
+        "ja": "אליום",
+        "en": "this day",
+        "he": "הַיּוֹם"
+      },
+      {
+        "ja": "אלסמא",
+        "en": "the sky",
+        "he": "אֶת-הַשָּׁמַיִם"
+      },
+      {
+        "ja": "ואלארץ'",
+        "en": "and the earth",
+        "he": "וְאֶת-הָאָרֶץ"
+      },
+      {
+        "ja": "אלחיאה",
+        "en": "life",
+        "he": "הַחַיִּים"
+      },
+      {
+        "ja": "ואלמות",
+        "en": "and death",
+        "he": "וְהַמָּוֶת"
+      },
+      {
+        "ja": "באני קד געלת",
+        "en": "I have placed",
+        "he": "נָתַתִּי"
+      },
+      {
+        "ja": "בין ידיכם",
+        "en": "before you",
+        "he": "לְפָנֶיךָ"
+      },
+      {
+        "ja": "ואלברכאת",
+        "en": "and blessings",
+        "he": "הַבְּרָכָה"
+      },
+      {
+        "ja": "ואללענאת",
+        "en": "and curses",
+        "he": "וְהַקְּלָלָה"
+      },
+      {
+        "ja": "וארא לך",
+        "en": "and it is my counsel to you"
+      },
+      {
+        "ja": "אן תכ'תאר אלחיאה",
+        "en": "that you choose life",
+        "he": "וּבָחַרְתָּ בַּחַיִּים"
+      },
+      {
+        "ja": "לכי תחיא",
+        "en": "so that you may live",
+        "he": "לְמַעַן תִּחְיֶה"
+      },
+      {
+        "ja": "אנת",
+        "en": "you",
+        "he": "אַתָּה"
+      },
+      {
+        "ja": "ונסלך",
+        "en": "and your offspring",
+        "he": "וְזַרְעֶךָ"
+      }
+    ],
+    "20": [
+      {
+        "ja": "וד'אלך",
+        "en": "And that is"
+      },
+      {
+        "ja": "באן תחבב",
+        "en": "by loving",
+        "he": "לְאַהֲבָה"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "אֶת-יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "ותקבל אמרה",
+        "en": "accepting His command",
+        "he": "לִשְׁמֹעַ בְּקֹלוֹ"
+      },
+      {
+        "ja": "ותלזם טאעתה",
+        "en": "and cleaving to obedience of Him",
+        "he": "וּלְדָבְקָה-בוֹ"
+      },
+      {
+        "ja": "אד' הו חיותך",
+        "en": "for He is your life",
+        "he": "כִּי הוּא חַיֶּיךָ"
+      },
+      {
+        "ja": "וטול מדתך",
+        "en": "and the length of your days",
+        "he": "וְאֹרֶךְ יָמֶיךָ"
+      },
+      {
+        "ja": "אן תקים",
+        "en": "by remaining",
+        "he": "לָשֶׁבֶת"
+      },
+      {
+        "ja": "פי אלבלד",
+        "en": "in the land",
+        "he": "עַל-הָאֲדָמָה"
+      },
+      {
+        "ja": "אלד'י קסם",
+        "en": "which",
+        "he": "אֲשֶׁר נִשְׁבַּע"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "לאבאיך",
+        "en": "apportioned to your fathers",
+        "he": "לַאֲבֹתֶיךָ"
+      },
+      {
+        "ja": "לאברהים",
+        "en": "to Abraham",
+        "he": "לְאַבְרָהָם"
+      },
+      {
+        "ja": "ויצחק",
+        "en": "and Isaac",
+        "he": "לְיִצְחָק"
+      },
+      {
+        "ja": "ויעקוב",
+        "en": "and Jacob",
+        "he": "וּלְיַעֲקֹב"
+      },
+      {
+        "ja": "אן יעטיהם",
+        "en": "to give to them",
+        "he": "לָתֵת לָהֶם"
+      }
+    ]
+  }
+}
