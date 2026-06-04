@@ -76,8 +76,13 @@ function stripPunct(tok: string): string {
  *     not retain it depending on scribal convention. Collapsing the
  *     trailing ' on both sides makes the comparison apostrophe-tolerant.
  */
-function normalizeFinals(s: string): string {
+export function normalizeFinals(s: string): string {
   let r = s
+    // Drop Hebrew points/cantillation (U+0591–U+05C7) on BOTH the token and the
+    // dictionary side, so a vocalized embedded quote (נִפְלָאוֹת) and a
+    // tā-marbūṭa construct variant authored with a tsere (צורהֵ) both converge
+    // with their plain forms. No-op on the unvocalized JA/Tafsir corpus.
+    .replace(/[֑-ׇ]/g, "")
     .replace(/ך/g, "כ")
     .replace(/ם/g, "מ")
     .replace(/ן/g, "נ")
@@ -116,8 +121,20 @@ export function normalizeToken(rawToken: string): string {
  * אלמחצ'ר, מחצ'ר} — letting us resolve compound-prefixed surface forms
  * without enumerating every combination as an explicit variant.
  */
-export function lookup(rawToken: string): Entry[] {
-  const tok = stripPunct(rawToken);
+/**
+ * Generate the normalized candidate-form chain for a raw token, shared by
+ * `lookup` and by the per-work Blau overlay (`lib/workNotes.ts`) so the two
+ * match a tapped word identically. See the chain description on `lookup`.
+ *
+ * Returns final↔medial-normalized forms (apply `normalizeFinals` to a
+ * dictionary lemma/variant before comparing — `lookup` and `workNotes` do).
+ */
+export function candidateForms(rawToken: string): string[] {
+  // Drop Hebrew points/cantillation (niqqud, teʿamim: U+0591–U+05C7) so a
+  // vocalized embedded quote — e.g. the Hebrew verses Qirqisani cites,
+  // נִפְלָאוֹת — matches its unvocalized dictionary lemma נפלאות. JA/Tafsir text
+  // is unvocalized, so this is a no-op there.
+  const tok = stripPunct(rawToken).replace(/[֑-ׇ]/g, "");
   if (!tok) return [];
 
   const tries = new Set<string>();
@@ -154,7 +171,14 @@ export function lookup(rawToken: string): Entry[] {
   const triesArr = Array.from(tries);
   // Expand the candidate chain with final↔medial-normalized forms so e.g.
   // אבנה (medial nun) can match the lemma אבן (final nun).
-  const triesNorm = Array.from(new Set([...triesArr, ...triesArr.map(normalizeFinals)]));
+  return Array.from(new Set([...triesArr, ...triesArr.map(normalizeFinals)]));
+}
+
+export function lookup(rawToken: string): Entry[] {
+  const tok = stripPunct(rawToken);
+  if (!tok) return [];
+
+  const triesNorm = candidateForms(rawToken);
 
   // Priority 1: hand-curated starter dictionary (Bereshit-1 exemplars).
   // Match by exact lemma OR by an explicit variant.

@@ -54,6 +54,7 @@ def strip_punct(tok: str) -> str:
 
 def normalize_finals(s: str) -> str:
     # Mirrors `normalizeFinals` in lib/lookup.ts.
+    s = re.sub(r"[֑-ׇ]", "", s)  # drop Hebrew points (niqqud/teʿamim)
     s = (
         s.replace("ך", "כ")
         .replace("ם", "מ")

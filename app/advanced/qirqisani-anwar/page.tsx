@@ -10,5 +10,8 @@ export const metadata: Metadata = {
 };
 
 export default function QirqisaniPage() {
-  return <AdvancedReader data={data as unknown as WorkData} />;
+  // workId loads the per-work Blau overlay (data/blau-notes-qirqisani.json) —
+  // Qirqisani is the work Blau cites most, so its special JA senses are richest.
+  const workData = { ...(data as unknown as WorkData), workId: "qirqisani" };
+  return <AdvancedReader data={workData} />;
 }

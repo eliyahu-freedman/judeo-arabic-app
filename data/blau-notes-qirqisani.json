@@ -1,0 +1,51 @@
+{
+  "_about": "Per-work Blau overlay for al-Qirqisani's Kitāb al-Anwār (al-Anwar), Maqāla I. Rendered ONLY in /advanced/qirqisani-anwar. Source: Joshua Blau, A Dictionary of Medieval Judaeo-Arabic Texts (Jerusalem 2006); these lemmas are tagged in Blau as attested in al-Qirqisani (קרקסאני) — the work Blau cites most heavily — and are extracted by ~/Tools/arabic-lexicon/blau-by-work/extract_blau_by_work.py. Each note surfaces the special Judaeo-Arabic sense(s) Blau records, beyond the neutral classical gloss the shared dictionary already shows.",
+  "work": "qirqisani",
+  "notes": [
+    {
+      "lemma_ja": "אול",
+      "lemma_ar": "أوّل",
+      "root": "ʔ-w-l",
+      "blau_sense_en": "Beyond 'first' (al-awwal), Blau attests for Qirqisani the verb ʾawwala: 'to interpret', and pointedly 'to explain away, to use as a pretext, to equivocate, to speak with ambiguity' — the very charge at the heart of Qirqisani's polemic over (mis)reading Scripture.",
+      "blau_sense_he": "לְפָרֵשׁ; לְסַלֵּף, לְהִשְׁתַּמֵּשׁ כַּאֲמַתְלָה, לְדַבֵּר בִּדְבָרִים דּוּ-מַשְׁמָעִיִּים",
+      "attested_in": "Blau, Dict. of Medieval Judaeo-Arabic (attested in Qirqisani)",
+      "variants": ["אלאול", "תאויל", "אלתאויל"]
+    },
+    {
+      "lemma_ja": "באב",
+      "lemma_ar": "باب",
+      "root": "b-w-b",
+      "blau_sense_en": "Beyond 'door / chapter', Blau records the Judaeo-Arabic senses 'a matter, subject, topic', 'accepted usage, customary linguistic practice', and (grammatical) 'category, type'.",
+      "blau_sense_he": "עִנְיָן, נוֹשֵׂא; שִׁמּוּשׁ לְשׁוֹנִי מְקֻבָּל; (דקדוק) סוּג, קָטֵגוֹרְיָה",
+      "attested_in": "Blau, Dict. of Medieval Judaeo-Arabic (attested in Qirqisani)",
+      "variants": ["אלבאב", "באלבאב", "אבואב"]
+    },
+    {
+      "lemma_ja": "חג'ה",
+      "lemma_ar": "حجّة",
+      "root": "ḥ-j-j",
+      "blau_sense_en": "Besides 'argument, proof', Blau records for Qirqisani the polemical sense 'pretext, subterfuge', as well as 'authority' and (concretely) 'title-deed, promissory note'.",
+      "blau_sense_he": "מִלְּבַד 'טַעֲנָה, רְאָיָה': גַּם אֲמַתְלָה, תֵּרוּץ; סַמְכוּת; שְׁטָר",
+      "attested_in": "Blau, Dict. of Medieval Judaeo-Arabic (attested in Qirqisani)",
+      "variants": ["אלחג'ה", "חג'ג", "ואלחג'ג", "אלחג'ג"]
+    },
+    {
+      "lemma_ja": "ט'הר",
+      "lemma_ar": "ظهر",
+      "root": "ẓ-h-r",
+      "blau_sense_en": "A very wide Judaeo-Arabic range in Blau, several senses central to Qirqisani's epistemology: 'to adduce proof for', 'to adduce proof from, to infer from', 'to demonstrate, to prove', 'it emerged / was shown that' — but also 'to pretend, to profess, to make an excuse'.",
+      "blau_sense_he": "לְהָבִיא רְאָיָה; לְהַסִּיק מִן; לְהוֹכִיחַ; הִתְבָּרֵר שֶׁ — וְגַם: לְהֵעָמֵד פָּנִים, לְהִתְנַצֵּל",
+      "attested_in": "Blau, Dict. of Medieval Judaeo-Arabic (attested in Qirqisani)",
+      "variants": ["אלט'הר", "אט'הר", "יט'הר", "ט'אהר", "אלט'אהר"]
+    },
+    {
+      "lemma_ja": "כ'יר",
+      "lemma_ar": "خير",
+      "root": "kh-y-r",
+      "blau_sense_en": "Beyond 'good / better', Blau attests for Qirqisani 'to claim superiority, to be superior', 'to want', 'to choose', and notably 'to decide by divination, to leave the choice to God'.",
+      "blau_sense_he": "לְהִתְיַמֵּר בְּעֶלְיוֹנוּת; לִרְצוֹת; לִבְחֹר; לְהַטִּיל גּוֹרָל, לְהַנִּיחַ הַבְּחִירָה לָאֵל",
+      "attested_in": "Blau, Dict. of Medieval Judaeo-Arabic (attested in Qirqisani)",
+      "variants": ["אלכ'יר", "בכ'יר", "כ'יראת"]
+    }
+  ]
+}

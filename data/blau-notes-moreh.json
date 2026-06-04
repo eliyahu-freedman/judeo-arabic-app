@@ -1,0 +1,24 @@
+{
+  "_about": "Per-work Blau overlay for Maimonides' Guide (Moreh Nevukhim), Part I ch. 1. Rendered ONLY in /advanced/moreh, so a special Judaeo-Arabic sense surfaced here never bleeds into the Kuzari, Bahya, or Saadia readers. Source: Joshua Blau, A Dictionary of Medieval Judaeo-Arabic Texts (Jerusalem 2006). NOTE: Blau rarely cites the Guide itself (his Maimonides material is mostly the Responsa and Mishnah-commentary); these are Blau-attested medieval-JA senses for words that occur in this text, not Guide-specific citations.",
+  "work": "moreh",
+  "notes": [
+    {
+      "lemma_ja": "מעני",
+      "lemma_ar": "معنى",
+      "root": "ʕ-n-y",
+      "blau_sense_en": "In medieval Judaeo-Arabic, maʿnā ranges well beyond classical 'meaning': Blau records the post-classical senses 'reason, intent', 'shape, form', and 'subject, matter, a thing'. In the Guide it is Maimonides' technical word for the intelligible notion or concept a name denotes — here, that the 'image of God' names the human's rational notion, not a bodily shape.",
+      "blau_sense_he": "במשמעות מובן, סיבה/כוונה, צורה, ועניין/דבר",
+      "attested_in": "Blau, Dict. of Medieval Judaeo-Arabic (post-classical senses)",
+      "variants": ["אלמעני", "במעני", "מענאהא", "מענאה"]
+    },
+    {
+      "lemma_ja": "שכל",
+      "lemma_ar": "شكل",
+      "root": "sh-k-l",
+      "blau_sense_en": "Besides 'shape, figure', Blau records the medieval-JA senses 'sort, kind, manner' and even 'script, writing'. The Guide turns on the contrast between shakl (mere outward shape/figure) and ṣūra (the essential 'form') — the multitude wrongly take 'image' to mean the former.",
+      "blau_sense_he": "מלבד 'צורה': גם 'סוג, אופן' ואף 'כתב'",
+      "attested_in": "Blau, Dict. of Medieval Judaeo-Arabic",
+      "variants": ["אלשכל", "שכלה", "שכלהא", "אשכאל", "לאשכאל"]
+    }
+  ]
+}

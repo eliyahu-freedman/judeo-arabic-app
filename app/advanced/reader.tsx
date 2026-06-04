@@ -2,6 +2,8 @@
 
 import { useCallback, useMemo, useRef, useState } from "react";
 import { lookup, tokenizeJa, type Entry } from "@/lib/lookup";
+import { lookupWorkNote, type WorkNote } from "@/lib/workNotes";
+import { arabicToJa } from "@/lib/arabicToJa";
 import {
   resolveVerseAlignment,
   sliceByGroups,
@@ -52,6 +54,13 @@ export type WorkData = {
    * to the Amiri Arabic font and relabels the layer chip.
    */
   script?: "hebrew" | "arabic";
+  /**
+   * Work id used to load this work's per-work Blau overlay (lib/workNotes.ts).
+   * When set (e.g. "moreh"), a tapped word that Blau attests with a special
+   * Judaeo-Arabic sense for THIS work shows an extra "Blau" note — scoped so it
+   * never appears in other works' readers.
+   */
+  workId?: string;
   /** Work-level key-term cards, surfaced as footnotes in the gloss panel. */
   terms?: TermCard[];
   pages: WorkPage[];
@@ -85,10 +94,19 @@ export function AdvancedReader({ data }: { data: WorkData }) {
 
   const jaFont = data.script === "arabic" ? "font-arabic" : "font-hebrew";
   const termIndex = useMemo(() => buildTermIndex(data.terms), [data.terms]);
-  const activeEntries: Entry[] = activeToken ? lookup(activeToken) : [];
+  // For Arabic-script works (Qirqisani's al-Anwar) the dictionary + Blau overlay
+  // are Hebrew-letter-keyed, so convert the tapped Arabic token to its
+  // Judaeo-Arabic form first. Key terms stay matched on the original token —
+  // each work's `terms` are keyed in that work's own script.
+  const queryToken =
+    activeToken && data.script === "arabic"
+      ? arabicToJa(activeToken)
+      : activeToken;
+  const activeEntries: Entry[] = queryToken ? lookup(queryToken) : [];
   const activeTerm: TermCard | null = activeToken
     ? lookupTerm(termIndex, activeToken)
     : null;
+  const activeWorkNote: WorkNote | null = lookupWorkNote(data.workId, queryToken);
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-10 pb-44">
@@ -198,6 +216,7 @@ export function AdvancedReader({ data }: { data: WorkData }) {
           jaFont={jaFont}
           entries={activeEntries}
           term={activeTerm}
+          workNote={activeWorkNote}
           onClose={() => setActiveToken(null)}
         />
       )}
@@ -301,13 +320,19 @@ function JaText({
   onHoverGroup: (groupId: number | null) => void;
 }) {
   const tokens = tokenizeJa(text);
-  let charIdx = 0;
+  // Precompute each token's char range up front so the render map below
+  // doesn't mutate a running offset (react-hooks/immutability).
+  const starts: number[] = [];
+  let acc = 0;
+  for (const t of tokens) {
+    starts.push(acc);
+    acc += t.text.length;
+  }
   return (
     <>
       {tokens.map((t, i) => {
-        const tokenStart = charIdx;
-        const tokenEnd = charIdx + t.text.length;
-        charIdx = tokenEnd;
+        const tokenStart = starts[i];
+        const tokenEnd = tokenStart + t.text.length;
         const groupForRange = alignment
           ? alignment.ja.find((s) => s.start <= tokenStart && s.end >= tokenEnd)
               ?.groupId ?? null
@@ -401,12 +426,14 @@ function GlossPanel({
   jaFont,
   entries,
   term,
+  workNote,
   onClose,
 }: {
   token: string;
   jaFont: string;
   entries: Entry[];
   term: TermCard | null;
+  workNote: WorkNote | null;
   onClose: () => void;
 }) {
   // The Advanced reader (Bahya, Kuzari, Rambam Moreh, Qirqisani, etc.) must
@@ -438,6 +465,7 @@ function GlossPanel({
           </button>
         </div>
         {term && <TermBanner term={term} />}
+        {workNote && <WorkNoteBanner note={workNote} />}
         {visibleEntries.length === 0 ? (
           <p className="text-sm text-muted mt-2 italic">
             {term
@@ -509,6 +537,38 @@ function TermBanner({ term }: { term: TermCard }) {
             Sources:
           </span>
           {term.refs.join(" · ")}
+        </p>
+      )}
+    </div>
+  );
+}
+
+function WorkNoteBanner({ note }: { note: WorkNote }) {
+  return (
+    <div className="mb-4 rounded-md border border-ink/20 bg-ink/[0.03] px-4 py-3">
+      <div className="flex items-baseline gap-3 mb-2 flex-wrap">
+        <span className="text-[10px] uppercase tracking-[0.3em] text-ink/55">
+          In this work · Blau
+        </span>
+        {note.lemma_ar && (
+          <span className="font-arabic text-lg text-ink/70" dir="rtl">
+            {note.lemma_ar}
+          </span>
+        )}
+        {note.root && note.root !== "—" && (
+          <span className="text-xs text-muted font-mono">√{note.root}</span>
+        )}
+      </div>
+      <p className="text-[14px] text-ink leading-relaxed">{note.blau_sense_en}</p>
+      {note.blau_sense_he && (
+        <p className="font-hebrew text-base text-muted mt-0.5" dir="rtl">
+          {note.blau_sense_he}
+        </p>
+      )}
+      {note.attested_in && (
+        <p className="mt-3 pt-2 border-t border-ink/10 text-[11px] leading-relaxed text-ink/55">
+          <span className="uppercase tracking-wider text-ink/40 mr-1">Source:</span>
+          {note.attested_in}
         </p>
       )}
     </div>

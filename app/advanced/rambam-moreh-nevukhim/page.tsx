@@ -10,5 +10,8 @@ export const metadata: Metadata = {
 };
 
 export default function RambamMorehPage() {
-  return <AdvancedReader data={data as unknown as WorkData} />;
+  // workId loads the per-work Blau overlay (data/blau-notes-moreh.json) — a
+  // special JA sense shown here never leaks into the other Advanced readers.
+  const workData = { ...(data as unknown as WorkData), workId: "moreh" };
+  return <AdvancedReader data={workData} />;
 }
