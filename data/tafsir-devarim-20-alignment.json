@@ -1,0 +1,841 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Devarim 20. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/devarim_20.py; validated against the source with independent per-side occurrence claiming.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ואד'א כ'רגת",
+        "en": "And when you go out",
+        "he": "כִּי-תֵצֵא"
+      },
+      {
+        "ja": "לאלחרב",
+        "en": "to war",
+        "he": "לַמִּלְחָמָה"
+      },
+      {
+        "ja": "עלי' אעדאיך",
+        "en": "against your enemies",
+        "he": "עַל-אֹיְבֶךָ"
+      },
+      {
+        "ja": "פראית",
+        "en": "and you see",
+        "he": "וְרָאִיתָ"
+      },
+      {
+        "ja": "כ'ילא",
+        "en": "horses",
+        "he": "סוּס"
+      },
+      {
+        "ja": "ומראכבא",
+        "en": "and chariots",
+        "he": "וָרֶכֶב"
+      },
+      {
+        "ja": "קום אכת'ר",
+        "en": "a people more numerous",
+        "he": "עַם רַב"
+      },
+      {
+        "ja": "מנך",
+        "en": "than you",
+        "he": "מִמְּךָ"
+      },
+      {
+        "ja": "פלא תכ'אפהם",
+        "en": "do not fear them",
+        "he": "לֹא תִירָא"
+      },
+      {
+        "ja": "אן אללה",
+        "en": "for God",
+        "he": "כִּי-יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your Lord",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "מעך",
+        "en": "is with you",
+        "he": "עִמָּךְ"
+      },
+      {
+        "ja": "אלמצעדך",
+        "en": "who brought you up",
+        "he": "הַמַּעַלְךָ"
+      },
+      {
+        "ja": "מן בלד מצר",
+        "en": "from the land of Egypt",
+        "he": "מֵאֶרֶץ מִצְרָיִם"
+      }
+    ],
+    "2": [
+      {
+        "ja": "וענד תקדמכם",
+        "en": "And at your advance",
+        "he": "וְהָיָה כְּקָרָבְכֶם"
+      },
+      {
+        "ja": "אלי' אלחרב",
+        "en": "to battle",
+        "he": "אֶל-הַמִּלְחָמָה"
+      },
+      {
+        "ja": "פליתקדם אלאמאם",
+        "en": "the imām shall come forward",
+        "he": "וְנִגַּשׁ הַכֹּהֵן"
+      },
+      {
+        "ja": "ויכ'אטב",
+        "en": "and address",
+        "he": "וְדִבֶּר"
+      },
+      {
+        "ja": "אלקום",
+        "en": "the people",
+        "he": "אֶל-הָעָם"
+      }
+    ],
+    "3": [
+      {
+        "ja": "ויקול להם",
+        "en": "And he shall say to them",
+        "he": "וְאָמַר אֲלֵהֶם"
+      },
+      {
+        "ja": "אסמעו יא אסראיל",
+        "en": "Hear, O Israel",
+        "he": "שְׁמַע יִשְׂרָאֵל"
+      },
+      {
+        "ja": "אנתם",
+        "en": "you are",
+        "he": "אַתֶּם"
+      },
+      {
+        "ja": "מתקדמין",
+        "en": "advancing",
+        "he": "קְרֵבִים"
+      },
+      {
+        "ja": "אליום",
+        "en": "today",
+        "he": "הַיּוֹם"
+      },
+      {
+        "ja": "לאלחרב",
+        "en": "to battle",
+        "he": "לַמִּלְחָמָה"
+      },
+      {
+        "ja": "עלי' אעדאיכם",
+        "en": "against your enemies",
+        "he": "עַל-אֹיְבֵיכֶם"
+      },
+      {
+        "ja": "פלא תרק קלובכם",
+        "en": "Let not your hearts grow faint",
+        "he": "אַל-יֵרַךְ לְבַבְכֶם"
+      },
+      {
+        "ja": "לא תכ'אפו",
+        "en": "do not fear",
+        "he": "אַל-תִּירְאוּ"
+      },
+      {
+        "ja": "ולא תחפזו",
+        "en": "and do not be driven back",
+        "he": "וְאַל-תַּחְפְּזוּ"
+      },
+      {
+        "ja": "ולא תרהבו",
+        "en": "and do not be overawed",
+        "he": "וְאַל-תַּעַרְצוּ"
+      },
+      {
+        "ja": "מנהם",
+        "en": "by them",
+        "he": "מִפְּנֵיהֶם"
+      }
+    ],
+    "4": [
+      {
+        "ja": "לאן אללה",
+        "en": "For God",
+        "he": "כִּי יְהוָה"
+      },
+      {
+        "ja": "רבכם",
+        "en": "your Lord",
+        "he": "אֱלֹהֵיכֶם"
+      },
+      {
+        "ja": "אלסאיר נורה",
+        "en": "whose light goes"
+      },
+      {
+        "ja": "מעכם",
+        "en": "with you",
+        "he": "הַהֹלֵךְ עִמָּכֶם"
+      },
+      {
+        "ja": "ליחארב לכם אעדאיכם",
+        "en": "shall fight your enemies on your behalf",
+        "he": "לְהִלָּחֵם לָכֶם עִם-אֹיְבֵיכֶם"
+      },
+      {
+        "ja": "ויג'יתכם",
+        "en": "and deliver you",
+        "he": "לְהוֹשִׁיעַ אֶתְכֶם"
+      }
+    ],
+    "5": [
+      {
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "יכלמו אלערפא",
+        "en": "the overseers shall address",
+        "he": "וְדִבְּרוּ הַשֹּׁטְרִים"
+      },
+      {
+        "ja": "אלקום",
+        "en": "the people",
+        "he": "אֶל-הָעָם"
+      },
+      {
+        "ja": "קאילין",
+        "en": "saying"
+      },
+      {
+        "ja": "אי רגל",
+        "en": "Which man",
+        "he": "מִי-הָאִישׁ"
+      },
+      {
+        "ja": "בנא",
+        "en": "has built",
+        "he": "אֲשֶׁר בָּנָה"
+      },
+      {
+        "ja": "ביתא גדידא",
+        "en": "a new house",
+        "he": "בַיִת-חָדָשׁ"
+      },
+      {
+        "ja": "ולם ידשנה",
+        "en": "and has not inaugurated it",
+        "he": "וְלֹא חֲנָכוֹ"
+      },
+      {
+        "ja": "פלימץ'",
+        "en": "Let him go",
+        "he": "יֵלֵךְ"
+      },
+      {
+        "ja": "וירגע",
+        "en": "and return",
+        "he": "וְיָשֹׁב"
+      },
+      {
+        "ja": "אלי' מנזלה",
+        "en": "to his home",
+        "he": "לְבֵיתוֹ"
+      },
+      {
+        "ja": "כלא יקתל",
+        "en": "lest he be killed",
+        "he": "פֶּן-יָמוּת"
+      },
+      {
+        "ja": "פי אלחרב",
+        "en": "in the battle",
+        "he": "בַּמִּלְחָמָה"
+      },
+      {
+        "ja": "ידשנה רגל אכ'ר",
+        "en": "and another man inaugurate it",
+        "he": "וְאִישׁ אַחֵר"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ואי רגל",
+        "en": "And which man",
+        "he": "וּמִי-הָאִישׁ"
+      },
+      {
+        "ja": "ג'רס",
+        "en": "has planted",
+        "he": "אֲשֶׁר-נָטַע"
+      },
+      {
+        "ja": "כרמא",
+        "en": "a vineyard",
+        "he": "כֶּרֶם"
+      },
+      {
+        "ja": "ולם יבד'לה",
+        "en": "and has not yet made it available",
+        "he": "וְלֹא חִלְּלוֹ"
+      },
+      {
+        "ja": "פלימץ'",
+        "en": "Let him go",
+        "he": "יֵלֵךְ"
+      },
+      {
+        "ja": "וירגע",
+        "en": "and return",
+        "he": "וְיָשֹׁב"
+      },
+      {
+        "ja": "אלי' מנזלה",
+        "en": "to his home",
+        "he": "לְבֵיתוֹ"
+      },
+      {
+        "ja": "כלא יקתל",
+        "en": "lest he be killed",
+        "he": "פֶּן-יָמוּת"
+      },
+      {
+        "ja": "פי אלחרב",
+        "en": "in the battle",
+        "he": "בַּמִּלְחָמָה"
+      },
+      {
+        "ja": "ויבד'לה רגל אכ'ר",
+        "en": "and another man make it available",
+        "he": "וְאִישׁ אַחֵר יְחַלְּלֶנּוּ"
+      }
+    ],
+    "7": [
+      {
+        "ja": "ואי רגל",
+        "en": "And which man",
+        "he": "וּמִי-הָאִישׁ"
+      },
+      {
+        "ja": "אמלך באמראה",
+        "en": "has betrothed a woman",
+        "he": "אֲשֶׁר-אֵרַשׂ אִשָּׁה"
+      },
+      {
+        "ja": "ולם יזפהא",
+        "en": "and has not yet escorted her to the bridal chamber",
+        "he": "וְלֹא לְקָחָהּ"
+      },
+      {
+        "ja": "פלימץ'",
+        "en": "Let him go",
+        "he": "יֵלֵךְ"
+      },
+      {
+        "ja": "וירגע",
+        "en": "and return",
+        "he": "וְיָשֹׁב"
+      },
+      {
+        "ja": "אלי' מנזלה",
+        "en": "to his home",
+        "he": "לְבֵיתוֹ"
+      },
+      {
+        "ja": "כלא יקתל",
+        "en": "lest he be killed",
+        "he": "פֶּן-יָמוּת"
+      },
+      {
+        "ja": "פי אלחרב",
+        "en": "in the battle",
+        "he": "בַּמִּלְחָמָה"
+      },
+      {
+        "ja": "ויזפהא רגל אכ'ר",
+        "en": "and another man escort her",
+        "he": "וְאִישׁ אַחֵר יִקָּחֶנָּה"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "יזיד אלערפא",
+        "en": "the overseers shall continue",
+        "he": "וְיָסְפוּ הַשֹּׁטְרִים"
+      },
+      {
+        "ja": "פי מכ'אטבה' אלקום",
+        "en": "to address the people",
+        "he": "לְדַבֵּר אֶל-הָעָם"
+      },
+      {
+        "ja": "ויקולו",
+        "en": "and say",
+        "he": "וְאָמְרוּ"
+      },
+      {
+        "ja": "אי רגל כ'איף",
+        "en": "Which man is fearful",
+        "he": "מִי-הָאִישׁ הַיָּרֵא"
+      },
+      {
+        "ja": "ורקיק אלקלב",
+        "en": "and faint of heart",
+        "he": "וְרַךְ הַלֵּבָב"
+      },
+      {
+        "ja": "פלימץ'",
+        "en": "Let him go",
+        "he": "יֵלֵךְ"
+      },
+      {
+        "ja": "וירגע",
+        "en": "and return",
+        "he": "וְיָשֹׁב"
+      },
+      {
+        "ja": "אלי' מנזלה",
+        "en": "to his home",
+        "he": "לְבֵיתוֹ"
+      },
+      {
+        "ja": "ולא ירק קלוב אכ'ותה",
+        "en": "and not cause the hearts of his brothers to grow faint",
+        "he": "וְלֹא יִמַּס אֶת-לְבַב אֶחָיו"
+      },
+      {
+        "ja": "כקלבה",
+        "en": "as his own heart",
+        "he": "כִּלְבָבוֹ"
+      }
+    ],
+    "9": [
+      {
+        "ja": "פענד פראג'הם",
+        "en": "And upon their finishing",
+        "he": "וְהָיָה כְּכַלֹּת הַשֹּׁטְרִים"
+      },
+      {
+        "ja": "מן מכ'אטבה' אלקום",
+        "en": "to address the people",
+        "he": "לְדַבֵּר אֶל-הָעָם"
+      },
+      {
+        "ja": "בד'אלך",
+        "en": "with this"
+      },
+      {
+        "ja": "פיוכלו בהם רויסא אלגיוש",
+        "en": "commanders of the armies shall be appointed over them",
+        "he": "וּפָקְדוּ שָׂרֵי צְבָאוֹת"
+      }
+    ],
+    "10": [
+      {
+        "ja": "ואד'א תקדמת",
+        "en": "And when you advance",
+        "he": "כִּי-תִקְרַב"
+      },
+      {
+        "ja": "אלי' קריה",
+        "en": "against a town",
+        "he": "אֶל-עִיר"
+      },
+      {
+        "ja": "לתחארבהא",
+        "en": "to make war upon it",
+        "he": "לְהִלָּחֵם עָלֶיהָ"
+      },
+      {
+        "ja": "פנאדהא אוולא",
+        "en": "you shall first call out to it",
+        "he": "וְקָרָאתָ אֵלֶיהָ"
+      },
+      {
+        "ja": "בסלאם",
+        "en": "with an offer of peace",
+        "he": "לְשָׁלוֹם"
+      }
+    ],
+    "11": [
+      {
+        "ja": "פאן אגאבתך באלסלאם",
+        "en": "And if it answers you with peace",
+        "he": "וְהָיָה אִם-שָׁלוֹם תַּעַנְךָ"
+      },
+      {
+        "ja": "ופתחת לך",
+        "en": "and opens to you",
+        "he": "וּפָתְחָה לָךְ"
+      },
+      {
+        "ja": "פגמיע אלקום",
+        "en": "then all the people",
+        "he": "וְהָיָה כָּל-הָעָם"
+      },
+      {
+        "ja": "אלמוגודין פיהא",
+        "en": "found in it",
+        "he": "הַנִּמְצָא-בָהּ"
+      },
+      {
+        "ja": "יכונו לך ד'מה",
+        "en": "shall be a protected tributary to you",
+        "he": "יִהְיוּ לְךָ לָמַס"
+      },
+      {
+        "ja": "ויכ'דמונך",
+        "en": "and shall serve you",
+        "he": "וַעֲבָדוּךָ"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ואן לם תסאלמך",
+        "en": "But if it does not make peace with you",
+        "he": "וְאִם-לֹא תַשְׁלִים עִמָּךְ"
+      },
+      {
+        "ja": "בל",
+        "en": "and instead"
+      },
+      {
+        "ja": "חארבתך",
+        "en": "makes war against you",
+        "he": "וְעָשְׂתָה עִמְּךָ מִלְחָמָה"
+      },
+      {
+        "ja": "פחאצרהא",
+        "en": "then besiege it",
+        "he": "וְצַרְתָּ עָלֶיהָ"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ויסלמהא אללה רבך",
+        "en": "And God your Lord shall deliver it",
+        "he": "וּנְתָנָהּ יְהוָה אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "פי ידך",
+        "en": "into your hand",
+        "he": "בְּיָדֶךָ"
+      },
+      {
+        "ja": "פאקתל",
+        "en": "and you shall kill",
+        "he": "וְהִכִּיתָ"
+      },
+      {
+        "ja": "רגאלהא",
+        "en": "its men",
+        "he": "אֶת-כָּל-זְכוּרָהּ"
+      },
+      {
+        "ja": "בחד אלסיף",
+        "en": "by the edge of the sword",
+        "he": "לְפִי-חָרֶב"
+      }
+    ],
+    "14": [
+      {
+        "ja": "ואמא אלנסא",
+        "en": "But as for the women",
+        "he": "רַק הַנָּשִׁים"
+      },
+      {
+        "ja": "ואלאטפאל",
+        "en": "and the children",
+        "he": "וְהַטַּף"
+      },
+      {
+        "ja": "ואלבהאים",
+        "en": "and the beasts",
+        "he": "וְהַבְּהֵמָה"
+      },
+      {
+        "ja": "וסאיר מא פי אלקריה",
+        "en": "and the rest of what is in the town",
+        "he": "וְכֹל אֲשֶׁר יִהְיֶה בָעִיר"
+      },
+      {
+        "ja": "מן סלבהא",
+        "en": "all its spoil",
+        "he": "כָּל-שְׁלָלָהּ"
+      },
+      {
+        "ja": "פאג'נמה לך",
+        "en": "take it for yourself as plunder",
+        "he": "תָּבֹז לָךְ"
+      },
+      {
+        "ja": "וכל סלב אעדאיאך",
+        "en": "and consume all the spoil of your enemies",
+        "he": "וְאָכַלְתָּ אֶת-שְׁלַל אֹיְבֶיךָ"
+      },
+      {
+        "ja": "אלד'י רזקך אללה רבך",
+        "en": "which God your Lord has provided you",
+        "he": "אֲשֶׁר נָתַן יְהוָה אֱלֹהֶיךָ לָךְ"
+      }
+    ],
+    "15": [
+      {
+        "ja": "כד'אך",
+        "en": "Thus"
+      },
+      {
+        "ja": "אצנע",
+        "en": "shall you do",
+        "he": "כֵּן תַּעֲשֶׂה"
+      },
+      {
+        "ja": "באלקרא",
+        "en": "to the towns",
+        "he": "לְכָל-הֶעָרִים הָרְחֹקֹת"
+      },
+      {
+        "ja": "אלבעידה",
+        "en": "very far"
+      },
+      {
+        "ja": "מנך גדא",
+        "en": "from you",
+        "he": "מִמְּךָ מְאֹד"
+      },
+      {
+        "ja": "אלתי ליס הי מן קרא הולאי אלאמם",
+        "en": "which are not among the towns of these nations",
+        "he": "אֲשֶׁר לֹא-מֵעָרֵי הַגּוֹיִם-הָאֵלֶּה הֵנָּה"
+      }
+    ],
+    "16": [
+      {
+        "ja": "ואמא מן קרא הולאי אלאמם",
+        "en": "But as for the towns of these nations",
+        "he": "רַק מֵעָרֵי הָעַמִּים הָאֵלֶּה"
+      },
+      {
+        "ja": "אלד'י אללה רבך",
+        "en": "which God your Lord",
+        "he": "אֲשֶׁר יְהוָה אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "מעטיך נחלה",
+        "en": "is giving you as an inheritance",
+        "he": "נֹתֵן לְךָ נַחֲלָה"
+      },
+      {
+        "ja": "פלא תבקי מנהם נסמה",
+        "en": "you shall not leave alive in them a single soul",
+        "he": "לֹא תְחַיֶּה כָּל-נְשָׁמָה"
+      }
+    ],
+    "17": [
+      {
+        "ja": "בל",
+        "en": "Rather"
+      },
+      {
+        "ja": "אתלפהם אתלאפא",
+        "en": "destroy them utterly",
+        "he": "כִּי-הַחֲרֵם תַּחֲרִימֵם"
+      },
+      {
+        "ja": "אלחתיין",
+        "en": "the Hittites",
+        "he": "הַחִתִּי"
+      },
+      {
+        "ja": "ואלאמוריין",
+        "en": "and the Amorites",
+        "he": "וְהָאֱמֹרִי"
+      },
+      {
+        "ja": "אלכנעאניין",
+        "en": "the Canaanites",
+        "he": "הַכְּנַעֲנִי"
+      },
+      {
+        "ja": "ואלפרזיין",
+        "en": "and the Perizzites",
+        "he": "וְהַפְּרִזִּי"
+      },
+      {
+        "ja": "ואלחויין",
+        "en": "and the Hivites",
+        "he": "הַחִוִּי"
+      },
+      {
+        "ja": "ואליבוסיין",
+        "en": "and the Jebusites",
+        "he": "וְהַיְבוּסִי"
+      },
+      {
+        "ja": "כמא אמרך אללה רבך",
+        "en": "as God your Lord has commanded you",
+        "he": "כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶיךָ"
+      }
+    ],
+    "18": [
+      {
+        "ja": "לכי לא יעלמוכם",
+        "en": "So that they do not teach you",
+        "he": "לְמַעַן אֲשֶׁר לֹא-יְלַמְּדוּ אֶתְכֶם"
+      },
+      {
+        "ja": "אן תצנעו",
+        "en": "to do",
+        "he": "לַעֲשׂוֹת"
+      },
+      {
+        "ja": "כגמיע מכארההם",
+        "en": "according to all their abominations",
+        "he": "כְּכֹל תּוֹעֲבֹתָם"
+      },
+      {
+        "ja": "אלד'י צנעוהא",
+        "en": "which they performed",
+        "he": "אֲשֶׁר עָשׂוּ"
+      },
+      {
+        "ja": "למעבודאתהם",
+        "en": "for their idols",
+        "he": "לֵאלֹהֵיהֶם"
+      },
+      {
+        "ja": "פתכ'טו",
+        "en": "and you would thereby sin",
+        "he": "וַחֲטָאתֶם"
+      },
+      {
+        "ja": "ללה רבכם",
+        "en": "against God your Lord",
+        "he": "לַיהוָה אֱלֹהֵיכֶם"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ואד'א חאצרת",
+        "en": "And when you besiege",
+        "he": "כִּי-תָצוּר"
+      },
+      {
+        "ja": "קריה",
+        "en": "a town",
+        "he": "אֶל-עִיר"
+      },
+      {
+        "ja": "אייאם כתירה",
+        "en": "many days",
+        "he": "יָמִים רַבִּים"
+      },
+      {
+        "ja": "לתחארבהא",
+        "en": "fighting against it",
+        "he": "לְהִלָּחֵם עָלֶיהָ"
+      },
+      {
+        "ja": "לתפתחהא",
+        "en": "to open it",
+        "he": "לְתָפְשָׂהּ"
+      },
+      {
+        "ja": "פלא תפסד שגרהא",
+        "en": "do not destroy its trees",
+        "he": "לֹא-תַשְׁחִית אֶת-עֵצָהּ"
+      },
+      {
+        "ja": "באן תחרך עליה אלחדיד",
+        "en": "by raising an axe against them",
+        "he": "לִנְדֹּחַ עָלָיו גַּרְזֶן"
+      },
+      {
+        "ja": "אד' מנה תאכל",
+        "en": "for from them you eat",
+        "he": "כִּי מִמֶּנּוּ תֹאכֵל"
+      },
+      {
+        "ja": "פלא תקטעה",
+        "en": "do not cut them down",
+        "he": "וְאֹתוֹ לֹא תִכְרֹת"
+      },
+      {
+        "ja": "]ט'נא] צ'נא מנך",
+        "en": "Do you suppose"
+      },
+      {
+        "ja": "אן שגר אלצחרא כאלאנסאן",
+        "en": "that the trees of the wilderness are like a man",
+        "he": "כִּי הָאָדָם עֵץ הַשָּׂדֶה"
+      },
+      {
+        "ja": "אלד'י קד אכ'תפא מן בין ידיך פי אלחצאר",
+        "en": "who has taken cover before you in the siege",
+        "he": "לָבֹא מִפָּנֶיךָ בַּמָּצוֹר"
+      }
+    ],
+    "20": [
+      {
+        "ja": "לכן",
+        "en": "However"
+      },
+      {
+        "ja": "אי שגר",
+        "en": "any tree",
+        "he": "רַק עֵץ"
+      },
+      {
+        "ja": "עלמתה",
+        "en": "that you know",
+        "he": "אֲשֶׁר-תֵּדַע"
+      },
+      {
+        "ja": "אנה ליס במטעם",
+        "en": "is not a food-bearing tree",
+        "he": "כִּי-לֹא-עֵץ מַאֲכָל הוּא"
+      },
+      {
+        "ja": "פאפסדה",
+        "en": "that you may destroy",
+        "he": "אֹתוֹ תַשְׁחִית"
+      },
+      {
+        "ja": "ואקטעה",
+        "en": "and cut down",
+        "he": "וְכָרָתָּ"
+      },
+      {
+        "ja": "ואבן אלאת אלחצאר",
+        "en": "and build the siege-works",
+        "he": "וּבָנִיתָ מָצוֹר"
+      },
+      {
+        "ja": "עלי' אייה' קריה",
+        "en": "against whichever town",
+        "he": "עַל-הָעִיר"
+      },
+      {
+        "ja": "חארבתך",
+        "en": "has made war against you",
+        "he": "אֲשֶׁר-הִוא עֹשָׂה עִמְּךָ מִלְחָמָה"
+      },
+      {
+        "ja": "אלי' אן תהדהא",
+        "en": "until you bring it down",
+        "he": "עַד רִדְתָּהּ"
+      }
+    ]
+  }
+}
