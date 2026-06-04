@@ -25,10 +25,10 @@ const stages = [
     eyebrow: "Start here",
     eyebrowEmphasis: true,
     href: "/alphabet",
-    title: "Alphabet",
-    subtitle: "5 lessons",
-    body: "Five short lessons on how Hebrew letters render Arabic phonemes — the diacritic letters, the definite article אל, and the orthographic conventions of medieval Judeo-Arabic.",
-    sample: "ג׳ · ד׳ · ח׳ · ט׳ · ת׳",
+    title: "Foundations",
+    subtitle: "Script · Cognates · First 50",
+    body: "Hebrew letters as Arabic phonemes (the diacritics, the article אל), the Hebrew–Arabic and Aramaic–Arabic cognates you already know, and the 50 words that show up most across Saadia's Tafsir.",
+    sample: "אללה · ראש · תלת · כ׳לק",
   },
   {
     numeral: "II",
@@ -36,17 +36,17 @@ const stages = [
     href: "/tafsir",
     title: "Tafsir Reader",
     subtitle: "Stage 2",
-    body: "Read Saadia's Tafsir verse-by-verse alongside the biblical Hebrew. Tap any Judeo-Arabic word for a starter Blau gloss; toggle Arabic-script, Hebrew translation, and English.",
+    body: "Read Saadia's Tafsir verse-by-verse alongside the biblical Hebrew. Tap any Judeo-Arabic word for a Lane-based gloss; toggle Arabic-script, Hebrew translation, and English.",
     sample: "אול מא כ׳לק אללה",
   },
   {
     numeral: "III",
-    eyebrow: "Bahya, The First Gate",
+    eyebrow: "6 texts · 1 live",
     href: "/advanced",
-    title: "Advanced Reader",
+    title: "The Library",
     subtitle: "Stage 3",
-    body: "The opening gate of Bahya ibn Paquda's Chovot HaLevavot in its original Judeo-Arabic, with Ibn Tibbon's classical Hebrew translation (Sefaria) and a working English translation alongside.",
-    sample: "תוחיד אללה תעאלי",
+    body: "A growing shelf of classical Judeo-Arabic prose with parallel Hebrew and English: Bahya's Chovot HaLevavot is live; Rambam's Moreh Nevukhim, Saadia's Emunot v'Deot, Yefet ben Eli, Qirqisani's Anwar, and Halevi's Kuzari are on deck.",
+    sample: "תוחיד · אמאנאת · דלאלה · אנואר",
   },
 ];
 
@@ -98,24 +98,15 @@ export default function Home() {
 
       {/* Editorial hero — left-aligned, focused */}
       <header className="mx-auto max-w-3xl px-6 pt-16 pb-12 sm:pt-24">
-        <p className="mb-4 text-[10px] font-bold uppercase tracking-[0.3em] text-wine">
-          A Reader-First Introduction
-        </p>
         <h1 className="text-4xl sm:text-5xl tracking-tight leading-tight">
           Learn to read{" "}
           <em className="font-normal italic text-wine">Judeo-Arabic.</em>
         </h1>
-        <p
-          dir="rtl"
-          lang="he"
-          className="mt-3 font-hebrew text-2xl sm:text-3xl text-wine/90 leading-snug"
-        >
-          ערבית־יהודית לקוראי עברית
-        </p>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/75">
-          For Hebrew readers: start with the script, read Saadia&apos;s Tafsir
-          on Bereshit alongside the biblical text, then move on to Bahya&apos;s
-          philosophical prose. Each text appears with parallel translations
+          A three-stage curriculum for Hebrew readers. Start with the script
+          and the cognates you already know, then read Saadia&apos;s Tafsir
+          verse-by-verse, then open the library — Bahya, Rambam, Halevi,
+          Qirqisani, and more. Every text appears with parallel translations
           and a tap-to-define dictionary.
         </p>
       </header>
@@ -130,7 +121,7 @@ export default function Home() {
             <h2 className="text-2xl sm:text-3xl">Saadia, Bereshit 1:1</h2>
           </div>
           <p className="text-sm italic text-muted">
-            ↓ tap any word for a Blau gloss
+            ↓ tap any word for a gloss
           </p>
         </div>
 
@@ -290,37 +281,6 @@ export default function Home() {
             </Link>
           ))}
         </div>
-
-        {/* Learn — bite-sized formats */}
-        <Link
-          href="/learn"
-          className="group mt-8 block rounded-sm border border-ink/10 bg-page p-6 sm:p-7 transition-all hover:border-wine/40 hover:shadow-md hover:shadow-wine/5"
-        >
-          <div className="flex flex-col gap-3 sm:flex-row sm:items-baseline sm:justify-between">
-            <div>
-              <p className="text-[10px] font-bold uppercase tracking-widest text-muted">
-                Bite-sized formats
-              </p>
-              <h3 className="mt-1 text-xl group-hover:text-wine transition-colors">
-                Learn{" "}
-                <span aria-hidden className="text-wine">
-                  →
-                </span>
-              </h3>
-            </div>
-            <p
-              dir="rtl"
-              className="font-hebrew text-lg text-ink/80"
-            >
-              אללה · ארץ׳ · קאל · כ׳לק · מוסי
-            </p>
-          </div>
-          <p className="mt-3 text-sm leading-relaxed text-ink/70">
-            Your first 50 Judeo-Arabic words ranked by how often they show up
-            in Saadia, Hebrew–Arabic and Aramaic–Arabic cognates, the story
-            of Saadia, and his own preface.
-          </p>
-        </Link>
 
         {/* Returning-user rail */}
         <div className="mt-10 pt-6 border-t border-ink/10 text-sm text-ink/70 flex items-center justify-between flex-wrap gap-3">

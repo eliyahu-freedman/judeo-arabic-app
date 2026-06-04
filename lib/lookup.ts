@@ -1,6 +1,16 @@
 import starter from "@/data/dictionary-starter.json";
 import lane from "@/data/dictionary-lane.json";
-import auto from "@/data/dictionary-auto.json";
+// The auto-extracted Camel-tools dictionary (dictionary-auto.json) has been
+// retired: hand coverage (starter + lane) now exceeds 80%, so the unverified
+// MSA fallback is no longer consulted. The JSON file is kept on disk for the
+// coverage report only; it is no longer imported into the app.
+
+// Re-export the tokeniser from its zero-dependency home so existing callers
+// keep importing `tokenizeJa` from `lib/lookup`. The canonical implementation
+// lives in `lib/tokenize.ts` so external tools (e.g. the Python coverage
+// script via `scripts/_tokenize_ja_cli.ts`) can import it without dragging
+// in the dictionary JSON path aliases.
+export { tokenizeJa } from "./tokenize";
 
 export type Entry = {
   id: string;
@@ -10,7 +20,29 @@ export type Entry = {
   pos: string;
   gloss_en: string;
   gloss_he: string;
+  /**
+   * Generic / classical-Arabic commentary. Rendered in BOTH readers (Tafsir
+   * and Advanced library). Should not mention Saadia or the Tafsir corpus —
+   * that material belongs in `saadia_note` so it doesn't leak into readers
+   * for Rambam, Kuzari, Qirqisani, Bahya, etc.
+   */
   notes?: string;
+  /**
+   * Saadia-specific commentary: how Saadia uses this word in the Tafsir,
+   * Hebrew calques, anti-anthropomorphic substitutions, etc. Rendered ONLY
+   * in the Tafsir reader (`app/tafsir/reader.tsx`) under an explicit
+   * "In Saadia's Tafsir:" prefix. Suppressed in the Advanced library reader.
+   */
+  saadia_note?: string;
+  /**
+   * Scope tag. `"saadia"` means the entry's primary gloss is itself a
+   * Saadia-specific semantic shift (e.g. גלד glossed as "firmament" — the
+   * classical Arabic sense is "skin/hide"). Such entries are filtered OUT
+   * of the gloss panel in the Advanced library reader so users reading
+   * Rambam / Kuzari / etc. don't see Saadia-coinage glosses presented as
+   * neutral classical Arabic.
+   */
+  scope?: "saadia";
   source?: "lane" | "blau" | "camel";
   /**
    * Explicit surface-form variants (inflected forms, common pronominal-suffix
@@ -24,7 +56,6 @@ export type Entry = {
 
 const STARTER: Entry[] = starter.entries as Entry[];
 const LANE: Entry[] = lane.entries as Entry[];
-const AUTO: Entry[] = auto.entries as Entry[];
 
 /** Strip trailing punctuation that gets glued onto a word (".,:;؛،"). */
 function stripPunct(tok: string): string {
@@ -145,39 +176,9 @@ export function lookup(rawToken: string): Entry[] {
     );
     if (hits.length) return hits;
   }
-  // Priority 3: auto-extracted Camel-tools dictionary (unverified, MSA).
-  // Keyed by normalizeToken — single lookup, no chain.
-  const autoKey = normalizeToken(rawToken);
-  if (autoKey) {
-    const hits = AUTO.filter((e) => e.lemma_ja === autoKey);
-    if (hits.length) return hits;
-  }
+  // (Priority 3, the auto-extracted Camel-tools fallback, has been retired —
+  // hand coverage now exceeds 80%; see the import note at the top of this file.)
   return [];
 }
 
-/**
- * Split a JA string into tokens for rendering. Words (Hebrew letters,
- * plus the ASCII apostrophe that JA uses for the gershayim diacritic)
- * are returned as {kind: "word"}; whitespace and punctuation are
- * returned as {kind: "sep"} so the renderer can preserve spacing.
- */
-export function tokenizeJa(text: string): { kind: "word" | "sep"; text: string }[] {
-  const out: { kind: "word" | "sep"; text: string }[] = [];
-  let buf = "";
-  let bufKind: "word" | "sep" | null = null;
-  const isWordChar = (c: string) =>
-    /[֐-׿']/.test(c); // Hebrew block + ASCII apostrophe (JA gershayim)
-
-  for (const c of text) {
-    const kind: "word" | "sep" = isWordChar(c) ? "word" : "sep";
-    if (kind === bufKind) {
-      buf += c;
-    } else {
-      if (buf) out.push({ kind: bufKind!, text: buf });
-      buf = c;
-      bufKind = kind;
-    }
-  }
-  if (buf) out.push({ kind: bufKind!, text: buf });
-  return out;
-}
+// tokenizeJa is re-exported from `lib/tokenize` at the top of this file.

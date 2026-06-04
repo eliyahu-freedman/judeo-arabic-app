@@ -9,7 +9,8 @@
       "pos": "proper noun",
       "gloss_en": "God",
       "gloss_he": "אלהים, ה'",
-      "notes": "Saadia's standard rendering of אלהים. The article אל- is integral; do not strip."
+      "notes": "The article אל- is integral; do not strip.",
+      "saadia_note": "Saadia's standard rendering of אלהים."
     },
     {
       "id": "ard",
@@ -19,7 +20,19 @@
       "pos": "noun (f.)",
       "gloss_en": "earth, land",
       "gloss_he": "ארץ",
-      "notes": "Almost always with the article אלארץ' (الأرض)."
+      "notes": "Almost always with the article אלארץ' (الأرض).",
+      "variants": [
+        "ארצ'ך",
+        "ארצ'ה",
+        "ארצ'הא",
+        "ארצ'הם",
+        "ארצ'נא",
+        "ארצ'י",
+        "אלארץ'",
+        "ואלארץ'",
+        "באלארץ'",
+        "ארץ'ך"
+      ]
     },
     {
       "id": "ma_relative",
@@ -69,7 +82,27 @@
       "pos": "preposition",
       "gloss_en": "on, upon, over, against",
       "gloss_he": "על",
-      "notes": "Saadianic orthography ends in yod + gershayim, marking final alif maqṣūra (ى)."
+      "saadia_note": "Saadianic orthography ends in yod + gershayim, marking final alif maqṣūra (ى).",
+      "variants": [
+        "עלי'ה",
+        "עלי'הא",
+        "עלי'הם",
+        "עלי'כם",
+        "ועלי'",
+        "ועלי'ה",
+        "פעלי'ה",
+        "עליכם",
+        "עליי",
+        "עליה",
+        "עליהא",
+        "עליהם",
+        "עלינא",
+        "ועליה",
+        "ועליהם",
+        "פעליה",
+        "פעליהם",
+        "ועליכם"
+      ]
     },
     {
       "id": "min",
@@ -144,7 +177,8 @@
       "pos": "noun (f.)",
       "gloss_en": "sky, heaven",
       "gloss_he": "שמים",
-      "notes": "Usually with the article אלסמא. Plural: אלסמואת (Saadia v.1).",
+      "notes": "Usually with the article אלסמא.",
+      "saadia_note": "Plural: אלסמואת (Saadia v.1).",
       "variants": [
         "סמאך",
         "סמאכם",
@@ -161,7 +195,8 @@
       "pos": "noun (f. pl.)",
       "gloss_en": "heavens (pl.)",
       "gloss_he": "שמים",
-      "notes": "Plural of سماء. Saadia uses the plural in v.1 to mirror Hebrew שָׁמַיִם."
+      "notes": "Plural of سماء.",
+      "saadia_note": "Saadia uses the plural in v.1 to mirror Hebrew שָׁמַיִם."
     },
     {
       "id": "shaa",
@@ -171,7 +206,7 @@
       "pos": "verb (perf. 3sg.m.)",
       "gloss_en": "he willed, he wished",
       "gloss_he": "רצה, חפץ",
-      "notes": "Saadia consistently renders ויאמר אלהים יהי X as שא אללה אן יכון X — 'God willed that X be'."
+      "saadia_note": "Saadia consistently renders ויאמר אלהים יהי X as שא אללה אן יכון X — 'God willed that X be'."
     },
     {
       "id": "fakana",
@@ -181,7 +216,8 @@
       "pos": "conjunction + verb",
       "gloss_en": "and so it was, and it became",
       "gloss_he": "ויהי",
-      "notes": "Saadia's standard rendering of ויהי. Composed of fa- + kāna."
+      "notes": "Composed of fa- + kāna.",
+      "saadia_note": "Saadia's standard rendering of ויהי."
     },
     {
       "id": "alima",
@@ -191,7 +227,12 @@
       "pos": "verb (perf. 3sg.m.)",
       "gloss_en": "he knew, he was aware of",
       "gloss_he": "ידע",
-      "notes": "Saadia renders וירא אלהים כי טוב as עלם אללה — 'God knew it was good', interpreting biblical 'seeing' as intellective knowledge, not sensory perception."
+      "saadia_note": "Saadia renders וירא אלהים כי טוב as עלם אללה — 'God knew it was good', interpreting biblical 'seeing' as intellective knowledge, not sensory perception.",
+      "variants": [
+        "עלמת",
+        "ועלמת",
+        "פעלמת"
+      ]
     },
     {
       "id": "jayyid",
@@ -201,7 +242,7 @@
       "pos": "adjective",
       "gloss_en": "good, fine, excellent",
       "gloss_he": "טוב",
-      "notes": "Saadia's rendering of biblical טוב."
+      "saadia_note": "Saadia's rendering of biblical טוב."
     },
     {
       "id": "jalad",
@@ -211,7 +252,17 @@
       "pos": "noun (m.)",
       "gloss_en": "firmament, expanse (the vault of heaven)",
       "gloss_he": "רקיע",
-      "notes": "Saadia's rendering of רקיע. Literally 'a hard thing' — emphasizes physical solidity."
+      "notes": "Literally 'a hard thing' — emphasizes physical solidity.",
+      "saadia_note": "Saadia's rendering of רקיע.",
+      "scope": "saadia",
+      "variants": [
+        "גלוד",
+        "אלגלוד",
+        "ואלגלוד",
+        "גלודה",
+        "גלודהם",
+        "באלגלוד"
+      ]
     },
     {
       "id": "dhu",
@@ -231,7 +282,7 @@
       "pos": "noun (m.)",
       "gloss_en": "light",
       "gloss_he": "אור",
-      "notes": "Saadia's rendering of biblical אור.",
+      "saadia_note": "Saadia's rendering of biblical אור.",
       "variants": [
         "נורה",
         "נורי",
@@ -248,7 +299,7 @@
       "pos": "conjunction",
       "gloss_en": "and when, and as soon as",
       "gloss_he": "וכאשר",
-      "notes": "Saadia's signature opener for each day's closing line — וַלַמּא מצ'י' מן אלליל ואלנהאר יום X = 'and when one day had passed of night and daytime'.",
+      "saadia_note": "Saadia's signature opener for each day's closing line — וַלַמּא מצ'י' מן אלליל ואלנהאר יום X = 'and when one day had passed of night and daytime'.",
       "variants": [
         "לאמא",
         "פלאמא"
@@ -262,7 +313,8 @@
       "pos": "verb (perf. 3sg.m.)",
       "gloss_en": "passed, elapsed",
       "gloss_he": "עבר, חלף",
-      "notes": "Saadia uses this verb to render the temporal completion of each creation day. Final yod + gershayim marks alif maqṣūra."
+      "notes": "Final yod + gershayim marks alif maqṣūra.",
+      "saadia_note": "Saadia uses this verb to render the temporal completion of each creation day."
     },
     {
       "id": "yawm",
@@ -287,7 +339,12 @@
       "pos": "adverb",
       "gloss_en": "thus, so, in that manner",
       "gloss_he": "כן, כך",
-      "notes": "Saadia's rendering of ויהי-כן: 'and it was thus'."
+      "saadia_note": "Saadia's rendering of ויהי-כן: 'and it was thus'.",
+      "variants": [
+        "כדאך",
+        "וכדאך",
+        "פכדאך"
+      ]
     },
     {
       "id": "lima",
@@ -307,7 +364,7 @@
       "pos": "noun (m. pl.)",
       "gloss_en": "kinds, species, sorts",
       "gloss_he": "מינים, סוגים",
-      "notes": "Saadia uses לאצנאפה ('for its kinds') to render biblical למינו."
+      "saadia_note": "Saadia uses לאצנאפה ('for its kinds') to render biblical למינו."
     },
     {
       "id": "tair",
@@ -317,7 +374,7 @@
       "pos": "noun (m.) / coll.",
       "gloss_en": "bird; collective: birds, flying creatures",
       "gloss_he": "עוף",
-      "notes": "Saadia's rendering of biblical עוף השמים."
+      "saadia_note": "Saadia's rendering of biblical עוף השמים."
     },
     {
       "id": "bayn",
@@ -346,7 +403,8 @@
         "אלד'ין",
         "אלזי",
         "אלד'יין",
-        "אלזיי"
+        "אלזיי",
+        "ולאזי"
       ]
     },
     {
@@ -357,7 +415,7 @@
       "pos": "adjective / pronoun",
       "gloss_en": "the rest of, all of, the remainder of",
       "gloss_he": "שאר, יתר",
-      "notes": "Saadia uses this to render biblical כל or ושאר."
+      "saadia_note": "Saadia uses this to render biblical כל or ושאר."
     },
     {
       "id": "zalam",
@@ -367,7 +425,8 @@
       "pos": "noun (m.)",
       "gloss_en": "darkness",
       "gloss_he": "חושך",
-      "notes": "Saadia's rendering of biblical חשך. The ץ'/ט' spelling marks ظ."
+      "notes": "The ץ'/ט' spelling marks ظ.",
+      "saadia_note": "Saadia's rendering of biblical חשך."
     },
     {
       "id": "yakun",
@@ -377,7 +436,8 @@
       "pos": "verb (impf. 3sg.m.)",
       "gloss_en": "may be, will be, exists",
       "gloss_he": "יהיה",
-      "notes": "Imperfect/subjunctive of كان. Used in Saadia's כיון אן יכון X = 'that X may be'."
+      "notes": "Imperfect/subjunctive of كان.",
+      "saadia_note": "Used in Saadia's כיון אן יכון X = 'that X may be'."
     },
     {
       "id": "dhalik",
@@ -387,7 +447,13 @@
       "pos": "demonstrative",
       "gloss_en": "that (m. distal)",
       "gloss_he": "הלה, ההוא",
-      "notes": "Distal demonstrative. Proximal: هذا (ה'ד'א)."
+      "notes": "Distal demonstrative. Proximal: هذا (ה'ד'א).",
+      "variants": [
+        "זאלך",
+        "וזאלך",
+        "פזאלך",
+        "ולזאלך"
+      ]
     },
     {
       "id": "habb",
@@ -397,7 +463,7 @@
       "pos": "noun (m., coll.)",
       "gloss_en": "grain, seed",
       "gloss_he": "זרע, גרגיר",
-      "notes": "In Bereshit 1:11–12 Saadia uses חב for the seed-bearing potential of grasses."
+      "saadia_note": "In Bereshit 1:11–12 Saadia uses חב for the seed-bearing potential of grasses."
     },
     {
       "id": "thamar",
@@ -407,7 +473,7 @@
       "pos": "noun (m.)",
       "gloss_en": "fruit",
       "gloss_he": "פרי",
-      "notes": "Saadia's rendering of biblical פרי."
+      "saadia_note": "Saadia's rendering of biblical פרי."
     },
     {
       "id": "hayy",
@@ -417,7 +483,7 @@
       "pos": "adjective (f.)",
       "gloss_en": "living, alive (fem.)",
       "gloss_he": "חיה",
-      "notes": "Saadia renders נפש חיה as נפס חייה."
+      "saadia_note": "Saadia renders נפש חיה as נפס חייה."
     },
     {
       "id": "qala",
@@ -427,7 +493,7 @@
       "pos": "verb (perf. 3sg.m.)",
       "gloss_en": "he said",
       "gloss_he": "אמר",
-      "notes": "Saadia uses קאל sparingly in Bereshit 1, preferring שא (he willed) for divine speech-acts."
+      "saadia_note": "Saadia uses קאל sparingly in Bereshit 1, preferring שא (he willed) for divine speech-acts."
     },
     {
       "id": "jami",
@@ -463,7 +529,11 @@
         "וגוה",
         "אלוגה",
         "אלוגוה",
-        "וגהה'"
+        "וגהה'",
+        "וגוההמא",
+        "וגוההם",
+        "וגוההן",
+        "וגוההמ"
       ]
     },
     {
@@ -474,7 +544,8 @@
       "pos": "noun (m.)",
       "gloss_en": "depths, abyss; deep water",
       "gloss_he": "תהום",
-      "notes": "Saadia's rendering of biblical תהום. The diacritic ג' marks ghayn (غ)."
+      "notes": "The diacritic ג' marks ghayn (غ).",
+      "saadia_note": "Saadia's rendering of biblical תהום."
     },
     {
       "id": "riyah",
@@ -484,7 +555,8 @@
       "pos": "noun (f. pl.)",
       "gloss_en": "winds (pl.)",
       "gloss_he": "רוחות",
-      "notes": "Plural of ريح. Saadia consistently translates רוח אלהים as ריאח אללה ('winds of God', i.e. natural winds), against later readings that take it as 'spirit of God'."
+      "notes": "Plural of ريح.",
+      "saadia_note": "Saadia consistently translates רוח אלהים as ריאח אללה ('winds of God', i.e. natural winds), against later readings that take it as 'spirit of God'."
     },
     {
       "id": "tahubb",
@@ -494,7 +566,7 @@
       "pos": "verb (impf. 3sg.f. / 3pl.f.)",
       "gloss_en": "blow (of wind)",
       "gloss_he": "נושבת",
-      "notes": "Saadia's rendering of מרחפת as תהב — winds blow over the water, an active verb of physical motion."
+      "saadia_note": "Saadia's rendering of מרחפת as תהב — winds blow over the water, an active verb of physical motion."
     },
     {
       "id": "kanat",
@@ -518,7 +590,8 @@
       "pos": "active participle (f.)",
       "gloss_en": "covering, submerged, engulfed",
       "gloss_he": "מוצפת",
-      "notes": "Saadia's rendering of תהו — the earth was 'submerged'. See also ג'מר (depth, abyss)."
+      "notes": "See also ג'מר (depth, abyss).",
+      "saadia_note": "Saadia's rendering of תהו — the earth was 'submerged'."
     },
     {
       "id": "mustabhira",
@@ -528,7 +601,9 @@
       "pos": "active participle (f., Form X)",
       "gloss_en": "sea-like, become-like-a-sea",
       "gloss_he": "ימית, כים",
-      "notes": "Saadia's rendering of בהו — the earth was 'sea-like'. Striking choice that pairs with ג'אמרה.",
+      "notes": "Striking choice that pairs with ג'אמרה.",
+      "saadia_note": "Saadia's rendering of בהו — the earth was 'sea-like'.",
+      "scope": "saadia",
       "variants": []
     },
     {
@@ -539,7 +614,8 @@
       "pos": "numeral (m.)",
       "gloss_en": "one",
       "gloss_he": "אחד",
-      "notes": "Cardinal numeral. Saadia: יום אחד (Gen. 1:5)."
+      "notes": "Cardinal numeral.",
+      "saadia_note": "Saadia: יום אחד (Gen. 1:5)."
     },
     {
       "id": "samma",
@@ -549,7 +625,8 @@
       "pos": "verb (perf. 3sg.m., Form II)",
       "gloss_en": "he named, he called",
       "gloss_he": "קרא בשם",
-      "notes": "Saadia's rendering of ויקרא אלהים ל-X. Form II (factitive) of سمي."
+      "notes": "Form II (factitive) of سمي.",
+      "saadia_note": "Saadia's rendering of ויקרא אלהים ל-X."
     },
     {
       "id": "awqat",
@@ -559,7 +636,8 @@
       "pos": "noun (m. pl.)",
       "gloss_en": "times, hours, periods",
       "gloss_he": "זמנים, עיתים",
-      "notes": "Plural of وقت. Saadia: אוקאת אלנור = 'the times of light', i.e. daytime hours.",
+      "notes": "Plural of وقت.",
+      "saadia_note": "Saadia: אוקאת אלנור = 'the times of light', i.e. daytime hours.",
       "variants": [
         "וקת",
         "אלוקת",
@@ -575,7 +653,8 @@
       "pos": "verb (perf. 3sg.m.)",
       "gloss_en": "he created",
       "gloss_he": "ברא",
-      "notes": "Saadia's rendering of biblical ברא. The diacritic כ' marks خ (kh)."
+      "notes": "The diacritic כ' marks خ (kh).",
+      "saadia_note": "Saadia's rendering of biblical ברא."
     },
     {
       "id": "awwal",
@@ -585,7 +664,7 @@
       "pos": "adjective / noun",
       "gloss_en": "first; beginning, outset",
       "gloss_he": "ראשון, ראשית, תחילה",
-      "notes": "Saadia's opening word for Genesis: אול מא כ'לק = 'first thing God created' / 'at the beginning of what God created'.",
+      "saadia_note": "Saadia's opening word for Genesis: אול מא כ'לק = 'first thing God created' / 'at the beginning of what God created'.",
       "variants": [
         "אוול",
         "אלאוול",
@@ -604,7 +683,7 @@
       "pos": "verb (perf. 3sg.m.)",
       "gloss_en": "he separated, he divided",
       "gloss_he": "הבדיל, הפריד",
-      "notes": "Saadia's rendering of ויבדל."
+      "saadia_note": "Saadia's rendering of ויבדל."
     },
     {
       "id": "kull",
@@ -632,7 +711,7 @@
       "pos": "noun (m.)",
       "gloss_en": "dry land",
       "gloss_he": "יבשה",
-      "notes": "Saadia's rendering of biblical יבשה (Gen. 1:9–10)."
+      "saadia_note": "Saadia's rendering of biblical יבשה (Gen. 1:9–10)."
     },
     {
       "id": "bihar",

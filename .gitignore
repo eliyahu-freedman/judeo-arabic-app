@@ -44,3 +44,7 @@ next-env.d.ts
 __pycache__/
 .venv*
 *.pyc
+
+# FJMS scrape session cookies (never commit)
+.cookies.txt
+**/.cookies.txt
