@@ -1,0 +1,528 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Devarim 34. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/devarim_34.py; validated against the source with independent per-side occurrence claiming.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ת'ם",
+        "en": "Then"
+      },
+      {
+        "ja": "צעד",
+        "en": "went up",
+        "he": "וַיַּעַל"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "מן בידאת",
+        "en": "from the wilderness of",
+        "he": "מֵעַרְבֹת"
+      },
+      {
+        "ja": "מואב",
+        "en": "Moab",
+        "he": "מוֹאָב"
+      },
+      {
+        "ja": "אלי' גבל",
+        "en": "to Mount",
+        "he": "אֶל-הַר"
+      },
+      {
+        "ja": "נבו",
+        "en": "Nebo",
+        "he": "נְבוֹ"
+      },
+      {
+        "ja": "ראס",
+        "en": "the summit of",
+        "he": "רֹאשׁ"
+      },
+      {
+        "ja": "אלקלעה",
+        "en": "the fortress",
+        "he": "הַפִּסְגָּה"
+      },
+      {
+        "ja": "אלתי בחצ'רה'",
+        "en": "which is opposite",
+        "he": "אֲשֶׁר עַל-פְּנֵי"
+      },
+      {
+        "ja": "יריחא",
+        "en": "Jericho",
+        "he": "יְרֵחוֹ"
+      },
+      {
+        "ja": "פאוראה אללה גמיע יריחא",
+        "en": "and God showed him all of Jericho",
+        "he": "וַיַּרְאֵהוּ יְהוָה"
+      },
+      {
+        "ja": "פאוראה אללה",
+        "en": "and God showed him"
+      },
+      {
+        "ja": "גמיע אלבלד",
+        "en": "all the land",
+        "he": "אֶת-כָּל-הָאָרֶץ"
+      },
+      {
+        "ja": "מן גרש אלי' באניאס",
+        "en": "from Jerash to Banias",
+        "he": "אֶת-הַגִּלְעָד עַד-דָּן"
+      }
+    ],
+    "2": [
+      {
+        "ja": "וגמיע בלד נפתלי",
+        "en": "And all the land of Naphtali",
+        "he": "וְאֵת כָּל-נַפְתָּלִי"
+      },
+      {
+        "ja": "ואפרים",
+        "en": "and Ephraim",
+        "he": "וְאֶת-אֶרֶץ אֶפְרַיִם"
+      },
+      {
+        "ja": "ומנשה",
+        "en": "and Manasseh",
+        "he": "וּמְנַשֶּׁה"
+      },
+      {
+        "ja": "וגמיע בלד יהודה",
+        "en": "and all the land of Judah",
+        "he": "וְאֵת כָּל-אֶרֶץ יְהוּדָה"
+      },
+      {
+        "ja": "אלי' אלבחר אלג'רבי",
+        "en": "to the Western Sea",
+        "he": "עַד הַיָּם הָאַחֲרוֹן"
+      }
+    ],
+    "3": [
+      {
+        "ja": "ואלדארום",
+        "en": "And the south",
+        "he": "וְאֶת-הַנֶּגֶב"
+      },
+      {
+        "ja": "ואלמרג",
+        "en": "and the meadows",
+        "he": "וְאֶת-הַכִּכָּר"
+      },
+      {
+        "ja": "בקיע יריחא",
+        "en": "the valley of Jericho",
+        "he": "בִּקְעַת יְרֵחוֹ"
+      },
+      {
+        "ja": "קריה' אלנכ'ל",
+        "en": "the town of palms",
+        "he": "עִיר הַתְּמָרִים"
+      },
+      {
+        "ja": "אלי' זג'ר",
+        "en": "as far as Zoar",
+        "he": "עַד-צֹעַר"
+      }
+    ],
+    "4": [
+      {
+        "ja": "פקאל",
+        "en": "And He said",
+        "he": "וַיֹּאמֶר"
+      },
+      {
+        "ja": "לה",
+        "en": "to him",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "הד'א",
+        "en": "This is",
+        "he": "אֵלָיו"
+      },
+      {
+        "ja": "אלבלד",
+        "en": "the land",
+        "he": "זֹאת הָאָרֶץ"
+      },
+      {
+        "ja": "אלד'י אקסמת",
+        "en": "which I swore",
+        "he": "אֲשֶׁר נִשְׁבַּעְתִּי"
+      },
+      {
+        "ja": "לאברהים",
+        "en": "to Abraham",
+        "he": "לְאַבְרָהָם"
+      },
+      {
+        "ja": "ויצחק",
+        "en": "and Isaac",
+        "he": "לְיִצְחָק"
+      },
+      {
+        "ja": "ויעקוב",
+        "en": "and Jacob",
+        "he": "וּלְיַעֲקֹב"
+      },
+      {
+        "ja": "קאילא",
+        "en": "saying",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "לנסלכם",
+        "en": "To your offspring",
+        "he": "לְזַרְעֲךָ"
+      },
+      {
+        "ja": "אעטיה",
+        "en": "I shall give it",
+        "he": "אֶתְּנֶנָּה"
+      },
+      {
+        "ja": "קד אוריתכהא",
+        "en": "I have shown it to you",
+        "he": "הֶרְאִיתִיךָ"
+      },
+      {
+        "ja": "בעינאך",
+        "en": "with your own eyes",
+        "he": "בְעֵינֶיךָ"
+      },
+      {
+        "ja": "ואלי ת'ם",
+        "en": "to there",
+        "he": "וְשָׁמָּה"
+      },
+      {
+        "ja": "לא תעבר",
+        "en": "but you shall not cross over",
+        "he": "לֹא תַעֲבֹר"
+      }
+    ],
+    "5": [
+      {
+        "ja": "פמאת",
+        "en": "died",
+        "he": "וַיָּמָת"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "And Moses",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "רסול אללה",
+        "en": "the messenger of God",
+        "he": "עֶבֶד-יְהוָה"
+      },
+      {
+        "ja": "פי",
+        "en": "in"
+      },
+      {
+        "ja": "בלד",
+        "en": "the land of",
+        "he": "בְּאֶרֶץ"
+      },
+      {
+        "ja": "מואב",
+        "en": "Moab",
+        "he": "מוֹאָב"
+      },
+      {
+        "ja": "עלי' קול",
+        "en": "according to the word of",
+        "he": "עַל-פִּי"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ודפנה",
+        "en": "And He buried him",
+        "he": "וַיִּקְבֹּר"
+      },
+      {
+        "ja": "פי אלואד",
+        "en": "in the valley",
+        "he": "בַגַּי"
+      },
+      {
+        "ja": "פי בלד מואב",
+        "en": "in the land of Moab",
+        "he": "בְּאֶרֶץ מוֹאָב"
+      },
+      {
+        "ja": "ממא ילי בית פעור",
+        "en": "in the vicinity of Beth-Peor",
+        "he": "מוּל בֵּית פְּעוֹר"
+      },
+      {
+        "ja": "ולם יעלם אחד",
+        "en": "and no one has known",
+        "he": "וְלֹא-יָדַע אִישׁ"
+      },
+      {
+        "ja": "בקברה",
+        "en": "the place of his grave",
+        "he": "אֶת-קְבֻרָתוֹ"
+      },
+      {
+        "ja": "אלי' יומנא הד'א",
+        "en": "to this day",
+        "he": "עַד הַיּוֹם הַזֶּה"
+      }
+    ],
+    "7": [
+      {
+        "ja": "וכאן מוסי'",
+        "en": "And Moses was",
+        "he": "וּמֹשֶׁה"
+      },
+      {
+        "ja": "אבן מאיה ועשרין סנה",
+        "en": "one hundred and twenty years old",
+        "he": "בֶּן-מֵאָה וְעֶשְׂרִים שָׁנָה"
+      },
+      {
+        "ja": "אד' מאת",
+        "en": "when he died",
+        "he": "בְּמֹתוֹ"
+      },
+      {
+        "ja": "לם תדמס עינה",
+        "en": "his eye had not grown dim",
+        "he": "לֹא-כָהֲתָה עֵינוֹ"
+      },
+      {
+        "ja": "ולא תזול רטובתה",
+        "en": "nor had his moisture departed",
+        "he": "וְלֹא-נָס לֵחֹה"
+      }
+    ],
+    "8": [
+      {
+        "ja": "פבכא",
+        "en": "wept",
+        "he": "וַיִּבְכּוּ"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "And the sons of Israel",
+        "he": "בְנֵי יִשְׂרָאֵל"
+      },
+      {
+        "ja": "עלי' מוסי'",
+        "en": "for Moses",
+        "he": "אֶת-מֹשֶׁה"
+      },
+      {
+        "ja": "פי בידאת מואב",
+        "en": "in the wilderness of Moab",
+        "he": "בְּעַרְבֹת מוֹאָב"
+      },
+      {
+        "ja": "ת'לאת'ין יומא",
+        "en": "thirty days",
+        "he": "שְׁלֹשִׁים יוֹם"
+      },
+      {
+        "ja": "אלי' אן אנקצ'ת",
+        "en": "until",
+        "he": "וַיִּתְּמוּ"
+      },
+      {
+        "ja": "אייאם חזנה",
+        "en": "the days of mourning for him were completed",
+        "he": "יְמֵי בְכִי אֵבֶל מֹשֶׁה"
+      }
+    ],
+    "9": [
+      {
+        "ja": "ויהושע",
+        "en": "And Joshua",
+        "he": "וִיהוֹשֻׁעַ"
+      },
+      {
+        "ja": "אבן נון",
+        "en": "son of Nun",
+        "he": "בִּן-נוּן"
+      },
+      {
+        "ja": "אמתלי'",
+        "en": "was filled with",
+        "he": "מָלֵא"
+      },
+      {
+        "ja": "רוח אלחכמה",
+        "en": "the spirit of wisdom",
+        "he": "רוּחַ חָכְמָה"
+      },
+      {
+        "ja": "אד' סנד",
+        "en": "since",
+        "he": "כִּי-סָמַךְ"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "ידיה עליה",
+        "en": "had laid his hands upon him",
+        "he": "אֶת-יָדָיו עָלָיו"
+      },
+      {
+        "ja": "בני אסראיל",
+        "en": "the sons of Israel",
+        "he": "בְּנֵי-יִשְׂרָאֵל"
+      },
+      {
+        "ja": "פקבלו מנה",
+        "en": "accepted from him",
+        "he": "וַיִּשְׁמְעוּ אֵלָיו"
+      },
+      {
+        "ja": "פעמלו",
+        "en": "and acted accordingly",
+        "he": "וַיַּעֲשׂוּ"
+      },
+      {
+        "ja": "כמא אמר",
+        "en": "as",
+        "he": "כַּאֲשֶׁר צִוָּה"
+      },
+      {
+        "ja": "אללה",
+        "en": "God",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "had commanded Moses",
+        "he": "אֶת-מֹשֶׁה"
+      }
+    ],
+    "10": [
+      {
+        "ja": "ולם יקום",
+        "en": "And there arose no",
+        "he": "וְלֹא-קָם"
+      },
+      {
+        "ja": "נבי",
+        "en": "prophet",
+        "he": "נָבִיא"
+      },
+      {
+        "ja": "בעד ד'אלך",
+        "en": "again",
+        "he": "עוֹד"
+      },
+      {
+        "ja": "לאל אסראיל",
+        "en": "in Israel",
+        "he": "בְּיִשְׂרָאֵל"
+      },
+      {
+        "ja": "מת'ל מוסי",
+        "en": "like Moses",
+        "he": "כְּמֹשֶׁה"
+      },
+      {
+        "ja": "לאן אללה נאגאה",
+        "en": "for God had spoken with him",
+        "he": "אֲשֶׁר יְדָעוֹ יְהוָה"
+      },
+      {
+        "ja": "שפאהא",
+        "en": "directly, mouth to mouth",
+        "he": "פָּנִים אֶל-פָּנִים"
+      }
+    ],
+    "11": [
+      {
+        "ja": "ולסאיר אלאיאת",
+        "en": "And for all the signs",
+        "he": "לְכָל-הָאֹתֹת"
+      },
+      {
+        "ja": "ואלבראהין",
+        "en": "and the proofs",
+        "he": "וְהַמּוֹפְתִים"
+      },
+      {
+        "ja": "אלד'י בעת' בהא אללה",
+        "en": "which God sent him",
+        "he": "אֲשֶׁר שְׁלָחוֹ יְהוָה"
+      },
+      {
+        "ja": "ליצנעהא",
+        "en": "to perform",
+        "he": "לַעֲשׂוֹת"
+      },
+      {
+        "ja": "פי בלד מצר",
+        "en": "in the land of Egypt",
+        "he": "בְּאֶרֶץ מִצְרָיִם"
+      },
+      {
+        "ja": "בפרעון",
+        "en": "against Pharaoh",
+        "he": "לְפַרְעֹה"
+      },
+      {
+        "ja": "ובגמיע קואדה",
+        "en": "and against all his officers",
+        "he": "וּלְכָל-עֲבָדָיו"
+      },
+      {
+        "ja": "ובסאיר אהל בלדה",
+        "en": "and against the rest of the people of his land",
+        "he": "וּלְכָל-אַרְצוֹ"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ולסאיר אליד אלשדידה",
+        "en": "and for all the mighty hand",
+        "he": "וּלְכֹל הַיָּד הַחֲזָקָה"
+      },
+      {
+        "ja": "ולסאיר אלמכ'אוף אל]עט'ימה] עצ'ימה",
+        "en": "and for all the great terrors",
+        "he": "וּלְכֹל הַמּוֹרָא הַגָּדוֹל"
+      },
+      {
+        "ja": "אלתי צנעהא",
+        "en": "which",
+        "he": "אֲשֶׁר עָשָׂה"
+      },
+      {
+        "ja": "מוסי'",
+        "en": "Moses wrought",
+        "he": "מֹשֶׁה"
+      },
+      {
+        "ja": "בחצרה' גמיע אל אסראיל",
+        "en": "in the presence of all the house of Israel",
+        "he": "לְעֵינֵי כָּל-יִשְׂרָאֵל"
+      }
+    ]
+  }
+}
