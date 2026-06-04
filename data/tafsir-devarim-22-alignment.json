@@ -1,0 +1,985 @@
+{
+  "_note": "Hebrew↔JA↔EN phrase-triple alignment for Devarim 22. Hand-authored (no API) via scripts/handalign_chapter.py + scripts/align_data/devarim_22.py; validated against the source with independent per-side occurrence claiming.",
+  "_status": "draft",
+  "_model": "hand-authored",
+  "alignments": {
+    "1": [
+      {
+        "ja": "ולא תרא",
+        "en": "And you shall not see",
+        "he": "לֹא-תִרְאֶה"
+      },
+      {
+        "ja": "ת'ור אכי'ך",
+        "en": "your brother's ox",
+        "he": "אֶת-שׁוֹר אָחִיךָ"
+      },
+      {
+        "ja": "או שאתה",
+        "en": "or his sheep",
+        "he": "אוֹ אֶת-שֵׂיוֹ"
+      },
+      {
+        "ja": "צ'אלין",
+        "en": "going astray",
+        "he": "נִדָּחִים"
+      },
+      {
+        "ja": "פתתג'אפל ענהמא",
+        "en": "and ignore them",
+        "he": "וְהִתְעַלַּמְתָּ מֵהֶם"
+      },
+      {
+        "ja": "בל",
+        "en": "rather"
+      },
+      {
+        "ja": "רדהמא אליה רדא",
+        "en": "return them to him with a returning",
+        "he": "הָשֵׁב תְּשִׁיבֵם לְאָחִיךָ"
+      }
+    ],
+    "2": [
+      {
+        "ja": "ואן לם יכון",
+        "en": "And if",
+        "he": "וְאִם-לֹא"
+      },
+      {
+        "ja": "אכי'ך",
+        "en": "your brother",
+        "he": "אָחִיךָ"
+      },
+      {
+        "ja": "קריבא",
+        "en": "is not near",
+        "he": "קָרוֹב"
+      },
+      {
+        "ja": "אליך",
+        "en": "to you",
+        "he": "אֵלֶיךָ"
+      },
+      {
+        "ja": "ולם תערפה",
+        "en": "and you do not know him",
+        "he": "וְלֹא יְדַעְתּוֹ"
+      },
+      {
+        "ja": "פצ'ם ד'אלך",
+        "en": "then gather it",
+        "he": "וַאֲסַפְתּוֹ"
+      },
+      {
+        "ja": "אלי' מנזלך",
+        "en": "into your dwelling",
+        "he": "אֶל-תּוֹךְ בֵּיתֶךָ"
+      },
+      {
+        "ja": "יכון ענדך",
+        "en": "it shall be with you",
+        "he": "וְהָיָה עִמְּךָ"
+      },
+      {
+        "ja": "אלי' אן ילתמסה אכי'ך",
+        "en": "until your brother seeks it",
+        "he": "עַד דְּרֹשׁ אָחִיךָ אֹתוֹ"
+      },
+      {
+        "ja": "פתרדה עליה",
+        "en": "and then you shall return it to him",
+        "he": "וַהֲשֵׁבֹתוֹ לוֹ"
+      }
+    ],
+    "3": [
+      {
+        "ja": "וכד'א פאצנע",
+        "en": "And so shall you do",
+        "he": "וְכֵן תַּעֲשֶׂה"
+      },
+      {
+        "ja": "בחמארה",
+        "en": "with his donkey",
+        "he": "לַחֲמֹרוֹ"
+      },
+      {
+        "ja": "ובת'ובה",
+        "en": "and with his garment",
+        "he": "וְכֵן תַּעֲשֶׂה לְשִׂמְלָתוֹ"
+      },
+      {
+        "ja": "ובסאיר צ'ואל אכי'ך",
+        "en": "and with the rest of the lost things of your brother",
+        "he": "וְכֵן תַּעֲשֶׂה לְכָל-אֲבֵדַת אָחִיךָ"
+      },
+      {
+        "ja": "אלד'י תצ'יע מנה",
+        "en": "that are lost from him",
+        "he": "אֲשֶׁר-תֹּאבַד מִמֶּנּוּ"
+      },
+      {
+        "ja": "פתגדהא",
+        "en": "and you find",
+        "he": "וּמְצָאתָהּ"
+      },
+      {
+        "ja": "לא יחל לך אן תתג'אפל ענהא",
+        "en": "it is not permitted for you to ignore them",
+        "he": "לֹא תוּכַל לְהִתְעַלֵּם"
+      }
+    ],
+    "4": [
+      {
+        "ja": "ולא תרא",
+        "en": "And you shall not see",
+        "he": "לֹא-תִרְאֶה"
+      },
+      {
+        "ja": "חמאר אכי'ך",
+        "en": "your brother's donkey",
+        "he": "אֶת-חֲמוֹר אָחִיךָ"
+      },
+      {
+        "ja": "או ת'ורה",
+        "en": "or his ox",
+        "he": "אוֹ שׁוֹרוֹ"
+      },
+      {
+        "ja": "ואקעין פי אלטריק",
+        "en": "fallen on the road",
+        "he": "נֹפְלִים בַּדֶּרֶךְ"
+      },
+      {
+        "ja": "פתתג'אפל ענהמא",
+        "en": "and ignore them",
+        "he": "וְהִתְעַלַּמְתָּ מֵהֶם"
+      },
+      {
+        "ja": "בל",
+        "en": "rather"
+      },
+      {
+        "ja": "אקמהמא מעה אקאמה",
+        "en": "raise them up with him with a raising",
+        "he": "הָקֵם תָּקִים עִמּוֹ"
+      }
+    ],
+    "5": [
+      {
+        "ja": "לא תכון אלאת אלרגאל עלי' אלנסא",
+        "en": "The implements of men shall not be upon women",
+        "he": "לֹא-יִהְיֶה כְלִי-גֶבֶר עַל-אִשָּׁה"
+      },
+      {
+        "ja": "ולא ילבס אלרגאל",
+        "en": "nor shall men wear",
+        "he": "וְלֹא-יִלְבַּשׁ גֶּבֶר"
+      },
+      {
+        "ja": "זיי אלנסא",
+        "en": "the attire of women",
+        "he": "שִׂמְלַת אִשָּׁה"
+      },
+      {
+        "ja": "לאן",
+        "en": "for",
+        "he": "כִּי"
+      },
+      {
+        "ja": "אללה",
+        "en": "the Lord",
+        "he": "יְהוָה"
+      },
+      {
+        "ja": "רבך",
+        "en": "your God",
+        "he": "אֱלֹהֶיךָ"
+      },
+      {
+        "ja": "יכרה",
+        "en": "abhors",
+        "he": "תוֹעֲבַת"
+      },
+      {
+        "ja": "כל מן יצנע ד'אלך",
+        "en": "all who do this",
+        "he": "כָּל-עֹשֵׂה אֵלֶּה"
+      }
+    ],
+    "6": [
+      {
+        "ja": "ואן ואפית",
+        "en": "And if you come upon",
+        "he": "כִּי יִקָּרֵא"
+      },
+      {
+        "ja": "וכרא מן אלטאיר",
+        "en": "a bird's nest",
+        "he": "קַן-צִפּוֹר"
+      },
+      {
+        "ja": "קדאמך",
+        "en": "before you",
+        "he": "לְפָנֶיךָ"
+      },
+      {
+        "ja": "פי אלטריק",
+        "en": "on the road",
+        "he": "בַּדֶּרֶךְ"
+      },
+      {
+        "ja": "או פי שגרה",
+        "en": "or in a tree",
+        "he": "בְּכָל-עֵץ"
+      },
+      {
+        "ja": "או עלי' אלארץ'",
+        "en": "or on the ground",
+        "he": "אוֹ עַל-הָאָרֶץ"
+      },
+      {
+        "ja": "פראכ'א",
+        "en": "chicks",
+        "he": "אֶפְרֹחִים"
+      },
+      {
+        "ja": "או ביצ'א",
+        "en": "or eggs",
+        "he": "אוֹ בֵיצִים"
+      },
+      {
+        "ja": "ואלאם ראבצה עליהם",
+        "en": "and the mother is roosting upon them",
+        "he": "וְהָאֵם רֹבֶצֶת עַל-הָאֶפְרֹחִים"
+      },
+      {
+        "ja": "פלא תאכ'ד' אלאם",
+        "en": "you shall not take the mother",
+        "he": "לֹא-תִקַּח הָאֵם"
+      },
+      {
+        "ja": "מע אלבנין",
+        "en": "together with the young",
+        "he": "עַל-הַבָּנִים"
+      }
+    ],
+    "7": [
+      {
+        "ja": "בל",
+        "en": "Rather"
+      },
+      {
+        "ja": "א'טלק אלאם אטלאקא",
+        "en": "release the mother with a releasing",
+        "he": "שַׁלֵּחַ תְּשַׁלַּח אֶת-הָאֵם"
+      },
+      {
+        "ja": "וכ'ד' אלבנין לנפסך",
+        "en": "and take the young for yourself",
+        "he": "וְאֶת-הַבָּנִים תִּקַּח-לָךְ"
+      },
+      {
+        "ja": "לכי יכ'אר לך",
+        "en": "so that it may go well for you",
+        "he": "לְמַעַן יִיטַב לָךְ"
+      },
+      {
+        "ja": "ותטול אייאמך",
+        "en": "and your days may be prolonged",
+        "he": "וְהַאֲרַכְתָּ יָמִים"
+      }
+    ],
+    "8": [
+      {
+        "ja": "ואד'א בנית",
+        "en": "And when you build",
+        "he": "כִּי תִבְנֶה"
+      },
+      {
+        "ja": "ביתא גדידא",
+        "en": "a new house",
+        "he": "בַּיִת חָדָשׁ"
+      },
+      {
+        "ja": "פאצנע דראבזין",
+        "en": "make a railing",
+        "he": "וְעָשִׂיתָ מַעֲקֶה"
+      },
+      {
+        "ja": "עלי' סטחך",
+        "en": "upon your roof",
+        "he": "לְגַגֶּךָ"
+      },
+      {
+        "ja": "ולא תגעל ג'דרא",
+        "en": "and do not place a hidden danger",
+        "he": "וְלֹא-תָשִׂים דָּמִים"
+      },
+      {
+        "ja": "פי מנזלך",
+        "en": "in your dwelling",
+        "he": "בְּבֵיתֶךָ"
+      },
+      {
+        "ja": "יסקט מנה מן יסקט",
+        "en": "that one who falls may fall from it",
+        "he": "כִּי-יִפֹּל הַנֹּפֵל מִמֶּנּוּ"
+      }
+    ],
+    "9": [
+      {
+        "ja": "לא תזרע",
+        "en": "Do not sow",
+        "he": "לֹא-תִזְרַע"
+      },
+      {
+        "ja": "כרמך",
+        "en": "your vineyard",
+        "he": "כַּרְמְךָ"
+      },
+      {
+        "ja": "מן נועין",
+        "en": "with two kinds",
+        "he": "כִּלְאָיִם"
+      },
+      {
+        "ja": "כילא תחרם עליך",
+        "en": "lest there be forbidden to you",
+        "he": "פֶּן-תִּקְדַּשׁ"
+      },
+      {
+        "ja": "סלאפה'",
+        "en": "the first-yield",
+        "he": "הַמְלֵאָה"
+      },
+      {
+        "ja": "אלזרע אלד'י תזרעה",
+        "en": "of the seed that you sow",
+        "he": "הַזֶּרַע אֲשֶׁר תִּזְרָע"
+      },
+      {
+        "ja": "מע ג'לה' אלכרם",
+        "en": "together with the produce of the vineyard",
+        "he": "וּתְבוּאַת הַכָּרֶם"
+      }
+    ],
+    "10": [
+      {
+        "ja": "לא תצ'מד",
+        "en": "Do not yoke",
+        "he": "לֹא-תַחֲרֹשׁ"
+      },
+      {
+        "ja": "אלת'ור",
+        "en": "the ox",
+        "he": "בְּשׁוֹר"
+      },
+      {
+        "ja": "ואלחמאר",
+        "en": "and the donkey",
+        "he": "וּבַחֲמֹר"
+      },
+      {
+        "ja": "גמיעא",
+        "en": "together",
+        "he": "יַחְדָּו"
+      }
+    ],
+    "11": [
+      {
+        "ja": "לא תלבס ת'ובא מכ'תלטא",
+        "en": "Do not wear a garment of mixed material",
+        "he": "לֹא תִלְבַּשׁ שַׁעַטְנֵז"
+      },
+      {
+        "ja": "מן צוף",
+        "en": "of wool",
+        "he": "צֶמֶר"
+      },
+      {
+        "ja": "וכתאן",
+        "en": "and linen",
+        "he": "וּפִשְׁתִּים"
+      },
+      {
+        "ja": "גמיעא",
+        "en": "together",
+        "he": "יַחְדָּו"
+      }
+    ],
+    "12": [
+      {
+        "ja": "ואצנע לך גדאילא",
+        "en": "And make for yourself braided cords",
+        "he": "גְּדִלִים תַּעֲשֶׂה-לָּךְ"
+      },
+      {
+        "ja": "פי ארבע",
+        "en": "on the four",
+        "he": "עַל-אַרְבַּע"
+      },
+      {
+        "ja": "אטראף",
+        "en": "corners of",
+        "he": "כַּנְפוֹת"
+      },
+      {
+        "ja": "אזארך",
+        "en": "your garment",
+        "he": "כְּסוּתְךָ"
+      },
+      {
+        "ja": "אלד'י תג'טא בהא",
+        "en": "with which you cover yourself",
+        "he": "אֲשֶׁר תְּכַסֶּה-בָּהּ"
+      }
+    ],
+    "13": [
+      {
+        "ja": "ואן תזווג רגל באמראה",
+        "en": "And if a man takes a woman in marriage",
+        "he": "כִּי-יִקַּח אִישׁ אִשָּׁה"
+      },
+      {
+        "ja": "ודכל אליהא",
+        "en": "and enters in to her",
+        "he": "וּבָא אֵלֶיהָ"
+      },
+      {
+        "ja": "ת'ם שנאהא",
+        "en": "and then comes to hate her",
+        "he": "וּשְׂנֵאָהּ"
+      }
+    ],
+    "14": [
+      {
+        "ja": "פגעל להא עללא מן אלכלאם",
+        "en": "and he fabricates pretextual charges against her",
+        "he": "וְשָׂם לָהּ עֲלִילֹת דְּבָרִים"
+      },
+      {
+        "ja": "ואכ'רג עליהא אסמא רדייא",
+        "en": "and puts out evil names concerning her",
+        "he": "וְהוֹצִא עָלֶיהָ שֵׁם רָע"
+      },
+      {
+        "ja": "וקאל",
+        "en": "and says:"
+      },
+      {
+        "ja": "אני",
+        "en": "'I"
+      },
+      {
+        "ja": "תזווגת",
+        "en": "took",
+        "he": "לָקַחְתִּי"
+      },
+      {
+        "ja": "הד'ה אלאמראה",
+        "en": "this woman in marriage",
+        "he": "אֶת-הָאִשָּׁה הַזֹּאת"
+      },
+      {
+        "ja": "פדנות מנהא",
+        "en": "and when I drew near to her",
+        "he": "וָאֶקְרַב אֵלֶיהָ"
+      },
+      {
+        "ja": "ולם אגד להא בראה",
+        "en": "I did not find for her a proof of innocence'",
+        "he": "וְלֹא-מָצָאתִי לָהּ בְּתוּלִים"
+      }
+    ],
+    "15": [
+      {
+        "ja": "ת'ם יאכ'ד' אביהא ואמהא",
+        "en": "then her father and her mother shall take",
+        "he": "וְלָקַח אֲבִי הַנַּעֲרָ וְאִמָּהּ"
+      },
+      {
+        "ja": "אלבראה",
+        "en": "that proof of innocence",
+        "he": "אֶת-בְּתוּלֵי הַנַּעֲרָ"
+      },
+      {
+        "ja": "ויכ'רגוהא",
+        "en": "and bring it out",
+        "he": "וְהוֹצִיאוּ"
+      },
+      {
+        "ja": "אלי' שיוך' אלקריה",
+        "en": "to the elders of the town",
+        "he": "אֶל-זִקְנֵי הָעִיר"
+      },
+      {
+        "ja": "ואלי' באב אלחאכם",
+        "en": "and to the gate of the judge",
+        "he": "הַשָּׁעְרָה"
+      }
+    ],
+    "16": [
+      {
+        "ja": "פקאל אביהא",
+        "en": "And her father shall say",
+        "he": "וְאָמַר אֲבִי הַנַּעֲרָ"
+      },
+      {
+        "ja": "לאלש'יוך'",
+        "en": "to the elders:",
+        "he": "אֶל-הַזְּקֵנִים"
+      },
+      {
+        "ja": "אני",
+        "en": "'I"
+      },
+      {
+        "ja": "זווגת",
+        "en": "gave",
+        "he": "נָתַתִּי"
+      },
+      {
+        "ja": "אבנתי",
+        "en": "my daughter",
+        "he": "אֶת-בִּתִּי"
+      },
+      {
+        "ja": "להד'א אלרג'ל",
+        "en": "in marriage to this man",
+        "he": "לָאִישׁ הַזֶּה לְאִשָּׁה"
+      },
+      {
+        "ja": "פשנאהא",
+        "en": "and he came to hate her.'",
+        "he": "וַיִּשְׂנָאֶהָ"
+      }
+    ],
+    "17": [
+      {
+        "ja": "והוד'א הו קד געל להא עללא מן אלכלאם",
+        "en": "And this very one has fabricated pretextual charges against her",
+        "he": "וְהִנֵּה-הוּא שָׂם עֲלִילֹת דְּבָרִים"
+      },
+      {
+        "ja": "וקאל",
+        "en": "saying:",
+        "he": "לֵאמֹר"
+      },
+      {
+        "ja": "לם אגד להא בראה",
+        "en": "'I did not find for her a proof of innocence'",
+        "he": "לֹא-מָצָאתִי לְבִתְּךָ בְּתוּלִים"
+      },
+      {
+        "ja": "והד'א בראתהא",
+        "en": "but here is her proof of innocence.'",
+        "he": "וְאֵלֶּה בְּתוּלֵי בִתִּי"
+      },
+      {
+        "ja": "ובסטו אלמנדיל",
+        "en": "And they shall spread out the cloth",
+        "he": "וּפָרְשׂוּ הַשִּׂמְלָה"
+      },
+      {
+        "ja": "או מקאמה",
+        "en": "or its equivalent"
+      },
+      {
+        "ja": "בין ידיהם",
+        "en": "before them",
+        "he": "לִפְנֵי זִקְנֵי הָעִיר"
+      }
+    ],
+    "18": [
+      {
+        "ja": "פליאכ'ד' שיוך' תלך אלקריה",
+        "en": "Then the elders of that town shall take",
+        "he": "וְלָקְחוּ זִקְנֵי הָעִיר-הַהִוא"
+      },
+      {
+        "ja": "ד'אלך אלרגל",
+        "en": "that man",
+        "he": "אֶת-הָאִישׁ"
+      },
+      {
+        "ja": "ויוד'בוה",
+        "en": "and discipline him",
+        "he": "וְיִסְּרוּ אֹתוֹ"
+      }
+    ],
+    "19": [
+      {
+        "ja": "ויג'רמוה",
+        "en": "And they shall fine him",
+        "he": "וְעָנְשׁוּ אֹתוֹ"
+      },
+      {
+        "ja": "מאיה' דרהם",
+        "en": "a hundred dirhams",
+        "he": "מֵאָה כֶסֶף"
+      },
+      {
+        "ja": "וידפעוהא",
+        "en": "and pay them",
+        "he": "וְנָתְנוּ"
+      },
+      {
+        "ja": "לאבו אלגאריה",
+        "en": "to the girl's father",
+        "he": "לַאֲבִי הַנַּעֲרָה"
+      },
+      {
+        "ja": "למא אכ'רג אסמא רדייא",
+        "en": "because he put out an evil name",
+        "he": "כִּי הוֹצִיא שֵׁם רָע"
+      },
+      {
+        "ja": "עלי' בכר מן אל אסראיל",
+        "en": "against a virgin of the house of Israel",
+        "he": "עַל בְּתוּלַת יִשְׂרָאֵל"
+      },
+      {
+        "ja": "ותכון לה זוגה",
+        "en": "and she shall be his wife",
+        "he": "וְלוֹ-תִהְיֶה לְאִשָּׁה"
+      },
+      {
+        "ja": "ולא יגוז לה טלאקהא",
+        "en": "and it is not permitted for him to divorce her",
+        "he": "לֹא-יוּכַל לְשַׁלְּחָהּ"
+      },
+      {
+        "ja": "טול עמרה",
+        "en": "all his days",
+        "he": "כָּל-יָמָיו"
+      }
+    ],
+    "20": [
+      {
+        "ja": "ואן כאן אלאמר חקא",
+        "en": "But if the matter is true",
+        "he": "וְאִם-אֱמֶת הָיָה הַדָּבָר הַזֶּה"
+      },
+      {
+        "ja": "ולם תוגד לאלגאריה בראה",
+        "en": "and no proof of innocence is found for the girl",
+        "he": "לֹא-נִמְצְאוּ בְתוּלִים לַנַּעֲרָ"
+      }
+    ],
+    "21": [
+      {
+        "ja": "פאלתכ'רג",
+        "en": "then let her be brought out",
+        "he": "וְהוֹצִיאוּ אֶת-הַנַּעֲרָ"
+      },
+      {
+        "ja": "אלי' באב בית אביהא",
+        "en": "to the door of her father's house",
+        "he": "אֶל-פֶּתַח בֵּית-אָבִיהָ"
+      },
+      {
+        "ja": "וירגמוהא",
+        "en": "shall stone her",
+        "he": "וּסְקָלוּהָ"
+      },
+      {
+        "ja": "גמיע אהל קריתהא",
+        "en": "all the people of her town",
+        "he": "אַנְשֵׁי עִירָהּ"
+      },
+      {
+        "ja": "באלחגארה",
+        "en": "with stones",
+        "he": "בָּאֲבָנִים"
+      },
+      {
+        "ja": "אלי' אן תמות",
+        "en": "until she dies",
+        "he": "וָמֵתָה"
+      },
+      {
+        "ja": "למא צנעת כ'סאסה פי אל אסראיל",
+        "en": "because she committed a vile act among the house of Israel",
+        "he": "כִּי-עָשְׂתָה נְבָלָה בְּיִשְׂרָאֵל"
+      },
+      {
+        "ja": "פפגרת מחצנה פי בית אביהא",
+        "en": "fornicating while under the protection of her father's house",
+        "he": "לִזְנוֹת בֵּית אָבִיהָ"
+      },
+      {
+        "ja": "ואנף אהל אלשר מן בינכם",
+        "en": "And purge those who do evil from among you",
+        "he": "וּבִעַרְתָּ הָרָע מִקִּרְבֶּךָ"
+      }
+    ],
+    "22": [
+      {
+        "ja": "ואן וגד רגל",
+        "en": "And if a man is found",
+        "he": "כִּי-יִמָּצֵא אִישׁ"
+      },
+      {
+        "ja": "מצ'אגע אמראה",
+        "en": "lying with a woman",
+        "he": "שֹׁכֵב עִם-אִשָּׁה"
+      },
+      {
+        "ja": "ד'את בעל",
+        "en": "who has a husband",
+        "he": "בְעֻלַת-בַּעַל"
+      },
+      {
+        "ja": "פליקתלא גמיעא",
+        "en": "then both of them shall be put to death",
+        "he": "וּמֵתוּ גַּם-שְׁנֵיהֶם"
+      },
+      {
+        "ja": "אלרגל אלמצ'אגעהא",
+        "en": "the man who lay with her",
+        "he": "הָאִישׁ הַשֹּׁכֵב עִם-הָאִשָּׁה"
+      },
+      {
+        "ja": "והי",
+        "en": "and she",
+        "he": "וְהָאִשָּׁה"
+      },
+      {
+        "ja": "ואנף אהל אלשר מן אל אסראיל",
+        "en": "And purge those who do evil from the house of Israel",
+        "he": "וּבִעַרְתָּ הָרָע מִיִּשְׂרָאֵל"
+      }
+    ],
+    "23": [
+      {
+        "ja": "ואד'א כאנת' גאריה בכר",
+        "en": "And if there is a young virgin girl",
+        "he": "כִּי יִהְיֶה נַעֲרָ בְתוּלָה"
+      },
+      {
+        "ja": "ממלכה לרגל",
+        "en": "who has been betrothed to a man",
+        "he": "מְאֹרָשָׂה לְאִישׁ"
+      },
+      {
+        "ja": "פוגדהא רגל אכ'ר",
+        "en": "and another man finds her",
+        "he": "וּמְצָאָהּ אִישׁ"
+      },
+      {
+        "ja": "פי אלקריה",
+        "en": "in the town",
+        "he": "בָּעִיר"
+      },
+      {
+        "ja": "וצ'אגעהא",
+        "en": "and lies with her",
+        "he": "וְשָׁכַב עִמָּהּ"
+      }
+    ],
+    "24": [
+      {
+        "ja": "פאכ'רגוהמא גמיעא",
+        "en": "then bring the two of them out",
+        "he": "וְהוֹצֵאתֶם אֶת-שְׁנֵיהֶם"
+      },
+      {
+        "ja": "אלי' באב תלך אלקריה",
+        "en": "to the gate of that town",
+        "he": "אֶל-שַׁעַר הָעִיר הַהִוא"
+      },
+      {
+        "ja": "ותרגמוהמא באלחגארה",
+        "en": "and stone them both with stones",
+        "he": "וּסְקַלְתֶּם אֹתָם בָּאֲבָנִים"
+      },
+      {
+        "ja": "אלי' אן ימותא",
+        "en": "until they die",
+        "he": "וָמֵתוּ"
+      },
+      {
+        "ja": "אמא אלגאריה",
+        "en": "as for the girl",
+        "he": "אֶת-הַנַּעֲרָ"
+      },
+      {
+        "ja": "פבסבב מא לם תצרך' והי פי אלקריה",
+        "en": "because she did not cry out while she was in the town",
+        "he": "עַל-דְּבַר אֲשֶׁר לֹא-צָעֲקָה בָעִיר"
+      },
+      {
+        "ja": "ואמא אלרגל",
+        "en": "and as for the man",
+        "he": "וְאֶת-הָאִישׁ"
+      },
+      {
+        "ja": "בסבב מא אתא זוגה' צאחבה",
+        "en": "because he came upon the wife of his fellow",
+        "he": "עַל-דְּבַר אֲשֶׁר-עִנָּה אֶת-אֵשֶׁת רֵעֵהוּ"
+      },
+      {
+        "ja": "ואנף אהל אלשר מן בינכם",
+        "en": "And purge those who do evil from among you",
+        "he": "וּבִעַרְתָּ הָרָע מִקִּרְבֶּךָ"
+      }
+    ],
+    "25": [
+      {
+        "ja": "ואן וגד אלרגל",
+        "en": "But if the man finds",
+        "he": "וְאִם-בַּשָּׂדֶה יִמְצָא הָאִישׁ"
+      },
+      {
+        "ja": "אלגאריה אלממלכה",
+        "en": "the betrothed girl",
+        "he": "אֶת-הַנַּעֲרָ הַמְאֹרָשָׂה"
+      },
+      {
+        "ja": "פי אלצחרא",
+        "en": "in the wilderness"
+      },
+      {
+        "ja": "ואמסכהא",
+        "en": "and seizes her",
+        "he": "וְהֶחֱזִיק-בָּהּ הָאִישׁ"
+      },
+      {
+        "ja": "וצ'אגעהא",
+        "en": "and lies with her",
+        "he": "וְשָׁכַב עִמָּהּ"
+      },
+      {
+        "ja": "פליקתל ד'אלך אלרגל אלמצ'אגעהא",
+        "en": "then that man who lay with her",
+        "he": "וּמֵת הָאִישׁ אֲשֶׁר-שָׁכַב עִמָּהּ"
+      },
+      {
+        "ja": "וחדה",
+        "en": "alone shall be put to death",
+        "he": "לְבַדּוֹ"
+      }
+    ],
+    "26": [
+      {
+        "ja": "ואמא אלגאריה פלא תצנע בהא שייא",
+        "en": "But as for the girl, do nothing to her",
+        "he": "וְלַנַּעֲרָ לֹא-תַעֲשֶׂה דָבָר"
+      },
+      {
+        "ja": "אד' ליס להא כ'טייה תוגב אלקתל",
+        "en": "for she has no sin warranting death",
+        "he": "אֵין לַנַּעֲרָ חֵטְא מָוֶת"
+      },
+      {
+        "ja": "ואנמא",
+        "en": "For"
+      },
+      {
+        "ja": "מת'ל אמרהא הד'א",
+        "en": "this matter",
+        "he": "כֵּן הַדָּבָר הַזֶּה"
+      },
+      {
+        "ja": "כמן יקום עלי' צאחבה",
+        "en": "is like one who rises up against his fellow",
+        "he": "כִּי כַּאֲשֶׁר יָקוּם אִישׁ עַל-רֵעֵהוּ"
+      },
+      {
+        "ja": "פיקתלה",
+        "en": "and kills him",
+        "he": "וּרְצָחוֹ נֶפֶשׁ"
+      },
+      {
+        "ja": "ויפיתה נפסה",
+        "en": "thereby taking his life from him"
+      }
+    ],
+    "27": [
+      {
+        "ja": "ואן וגדהא פי אלצחרא",
+        "en": "For he found her in the wilderness",
+        "he": "כִּי בַשָּׂדֶה מְצָאָהּ"
+      },
+      {
+        "ja": "פימכן אן יכון קד צרכת",
+        "en": "it is possible that she cried out",
+        "he": "צָעֲקָה הַנַּעֲרָ הַמְאֹרָשָׂה"
+      },
+      {
+        "ja": "ולם יכון להא מג'ית'",
+        "en": "but there was no rescuer for her",
+        "he": "וְאֵין מוֹשִׁיעַ לָהּ"
+      }
+    ],
+    "28": [
+      {
+        "ja": "ואן וגד רגל",
+        "en": "And if a man finds",
+        "he": "כִּי-יִמְצָא אִישׁ"
+      },
+      {
+        "ja": "גאריה בכר",
+        "en": "a young virgin girl",
+        "he": "נַעֲרָ בְתוּלָה"
+      },
+      {
+        "ja": "מא לם תמלך",
+        "en": "who has not been betrothed",
+        "he": "אֲשֶׁר לֹא-אֹרָשָׂה"
+      },
+      {
+        "ja": "פצ'בטהא",
+        "en": "and he seizes her",
+        "he": "וּתְפָשָׂהּ"
+      },
+      {
+        "ja": "וצ'אגעהא",
+        "en": "and lies with her",
+        "he": "וְשָׁכַב עִמָּהּ"
+      },
+      {
+        "ja": "ווגדא",
+        "en": "and they are found",
+        "he": "וְנִמְצָאוּ"
+      }
+    ],
+    "29": [
+      {
+        "ja": "פליעט ד'אלך אלרגל",
+        "en": "then that man shall give",
+        "he": "וְנָתַן הָאִישׁ הַשֹּׁכֵב עִמָּהּ"
+      },
+      {
+        "ja": "לאביהא",
+        "en": "to her father",
+        "he": "לַאֲבִי הַנַּעֲרָ"
+      },
+      {
+        "ja": "כ'מסין דרהם",
+        "en": "fifty dirhams",
+        "he": "חֲמִשִּׁים כָּסֶף"
+      },
+      {
+        "ja": "ותכון לה זוגה",
+        "en": "and she shall be his wife",
+        "he": "וְלוֹ-תִהְיֶה לְאִשָּׁה"
+      },
+      {
+        "ja": "בדל מא אתאהא",
+        "en": "in recompense for what he did to her",
+        "he": "תַּחַת אֲשֶׁר עִנָּהּ"
+      },
+      {
+        "ja": "לא יגוז לה טלאקהא",
+        "en": "it is not permitted for him to divorce her",
+        "he": "לֹא-יוּכַל שַׁלְּחָהּ"
+      },
+      {
+        "ja": "טול עמרה",
+        "en": "all his days",
+        "he": "כָּל-יָמָיו"
+      }
+    ]
+  }
+}
