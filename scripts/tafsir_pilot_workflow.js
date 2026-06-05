@@ -1,17 +1,17 @@
 export const meta = {
-  name: 'tafsir-vayikra-pilot',
-  description: 'Pilot: author Tafsir (Vayikra) dictionary entries toward ~100% coverage',
+  name: 'tafsir-shemot-devarim-pilot',
+  description: 'Author Tafsir (Shemot + Devarim) dictionary entries toward ~100% coverage',
   phases: [
-    { title: 'Author', detail: 'fan out: each agent authors a slice of the Vayikra residual worklist' },
+    { title: 'Author', detail: 'fan out: each agent authors a slice of the Shemot+Devarim residual worklist' },
     { title: 'Merge', detail: 'one agent: concat → apply → re-measure coverage (coverage_report.py)' },
   ],
 }
 
-const CHUNK = (args && args.chunk) || 66
+const CHUNK = (args && args.chunk) || 63
 // NOTE: the Workflow runner does not currently inject `args` into the script,
 // so this default is what actually runs. Size it to the staged residual; agents
 // whose slice falls past the residual end simply author nothing.
-let total = (args && args.total) || 660
+let total = (args && args.total) || 428
 
 const MERGE_SCHEMA = {
   type: 'object',
@@ -63,7 +63,7 @@ Return ONE short line: entries authored + anything you guessed. The written file
 }
 
 function mergePrompt() {
-  return `MERGE + MEASURE step for the Tafsir Vayikra pilot. Run from \`/Users/eliyahufreedman/Code/judeo-arabic-app\`.
+  return `MERGE + MEASURE step for the Tafsir Shemot+Devarim pilot. Run from \`/Users/eliyahufreedman/Code/judeo-arabic-app\`.
 
 1. Concat this round's chunk files into the apply input, and MERGE chunk patches into the EXISTING patch file (which already holds the autopatch sweep — do not clobber it):
    python3 - <<'PY'
@@ -86,16 +86,16 @@ PY
    python3 scripts/apply_dict_advanced.py
 
 3. Re-measure:
-   python3 scripts/coverage_report.py        # overall "Hand TOTAL" % and the vayikra per-book hand %
+   python3 scripts/coverage_report.py        # overall "Hand TOTAL" % and the shemot + devarim per-book hand %
    python3 scripts/stage_tafsir_misses.py all # prints "_lemma_groups" = uncovered groups left, whole Pentateuch
 
-4. RETURN via StructuredOutput: applied_entries (+N from step 2), devarim_hand_pct (USE the VAYIKRA per-book hand % from coverage_report here — the schema key name is legacy), overall_hand_pct (the "Hand TOTAL" %), remaining_groups (the lemma-group count printed by stage_tafsir_misses all in step 3), note (flag any tracebacks/skipped files). Do NOT hand-edit dictionary files.`
+4. RETURN via StructuredOutput: applied_entries (+N from step 2), devarim_hand_pct (USE the SHEMOT per-book hand % from coverage_report here — the schema key name is legacy/generic; mention the actual devarim % in the note field), overall_hand_pct (the "Hand TOTAL" %), remaining_groups (the lemma-group count printed by stage_tafsir_misses all in step 3), note (the devarim per-book % + flag any tracebacks/skipped files). Do NOT hand-edit dictionary files.`
 }
 
 phase('Author')
 const ranges = []
 for (let s = 0; s < total; s += CHUNK) ranges.push([s, Math.min(s + CHUNK, total)])
-log(`Vayikra pilot: ${total} residual groups → ${ranges.length} authoring agents (chunk ${CHUNK})`)
+log(`Shemot+Devarim pilot: ${total} residual groups → ${ranges.length} authoring agents (chunk ${CHUNK})`)
 await parallel(ranges.map(([s, e]) => () =>
   agent(authorPrompt(s, e), { label: `author:${s}-${e}`, phase: 'Author' })
 ))
@@ -103,6 +103,6 @@ await parallel(ranges.map(([s, e]) => () =>
 phase('Merge')
 const m = await agent(mergePrompt(), { label: 'merge', phase: 'Merge', schema: MERGE_SCHEMA })
 if (m) {
-  log(`CHUNK RESULT: +${m.applied_entries} entries | overall hand ${m.overall_hand_pct}% (was 97.21%) | vayikra ${m.devarim_hand_pct}% | ${m.remaining_groups} Pentateuch groups left. ${m.note}`)
+  log(`CHUNK RESULT: +${m.applied_entries} entries | overall hand ${m.overall_hand_pct}% (was 98.31%) | shemot ${m.devarim_hand_pct}% | ${m.remaining_groups} Pentateuch groups left. ${m.note}`)
 }
 return m
