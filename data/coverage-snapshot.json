@@ -4,21 +4,21 @@
   "_total_word_tokens": 81225,
   "totals": {
     "tokens": 81225,
-    "hand_starter": 18577,
-    "hand_lane": 59124,
-    "hand_total": 77701,
+    "hand_starter": 18581,
+    "hand_lane": 60379,
+    "hand_total": 78960,
     "auto": 0,
-    "miss": 3524,
-    "hand_pct": 95.66,
+    "miss": 2265,
+    "hand_pct": 97.21,
     "auto_pct": 0.0,
-    "covered_pct": 95.66,
-    "miss_pct": 4.34
+    "covered_pct": 97.21,
+    "miss_pct": 2.79
   },
   "by_book": {
     "bereshit": {
       "tokens": 20666,
-      "hand_starter": 4713,
-      "hand_lane": 15953,
+      "hand_starter": 4716,
+      "hand_lane": 15950,
       "hand_total": 20666,
       "auto": 0,
       "miss": 0,
@@ -30,50 +30,50 @@
     "shemot": {
       "tokens": 16701,
       "hand_starter": 3801,
-      "hand_lane": 11600,
-      "hand_total": 15401,
+      "hand_lane": 11676,
+      "hand_total": 15477,
       "auto": 0,
-      "miss": 1300,
-      "hand_pct": 92.22,
+      "miss": 1224,
+      "hand_pct": 92.67,
       "auto_pct": 0.0,
-      "covered_pct": 92.22,
-      "miss_pct": 7.78
+      "covered_pct": 92.67,
+      "miss_pct": 7.33
     },
     "vayikra": {
       "tokens": 12238,
       "hand_starter": 2863,
-      "hand_lane": 8491,
-      "hand_total": 11354,
+      "hand_lane": 8565,
+      "hand_total": 11428,
       "auto": 0,
-      "miss": 884,
-      "hand_pct": 92.78,
+      "miss": 810,
+      "hand_pct": 93.38,
       "auto_pct": 0.0,
-      "covered_pct": 92.78,
-      "miss_pct": 7.22
+      "covered_pct": 93.38,
+      "miss_pct": 6.62
     },
     "bamidbar": {
       "tokens": 16552,
-      "hand_starter": 3453,
-      "hand_lane": 11992,
-      "hand_total": 15445,
+      "hand_starter": 3454,
+      "hand_lane": 13098,
+      "hand_total": 16552,
       "auto": 0,
-      "miss": 1107,
-      "hand_pct": 93.31,
+      "miss": 0,
+      "hand_pct": 100.0,
       "auto_pct": 0.0,
-      "covered_pct": 93.31,
-      "miss_pct": 6.69
+      "covered_pct": 100.0,
+      "miss_pct": 0.0
     },
     "devarim": {
       "tokens": 15068,
       "hand_starter": 3747,
-      "hand_lane": 11088,
-      "hand_total": 14835,
+      "hand_lane": 11090,
+      "hand_total": 14837,
       "auto": 0,
-      "miss": 233,
-      "hand_pct": 98.45,
+      "miss": 231,
+      "hand_pct": 98.47,
       "auto_pct": 0.0,
-      "covered_pct": 98.45,
-      "miss_pct": 1.55
+      "covered_pct": 98.47,
+      "miss_pct": 1.53
     }
   },
   "top_misses": [
@@ -85,16 +85,6 @@
     {
       "surface": "אפאתי",
       "count": 5,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ואלקו",
-      "count": 4,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "אלכנאעני",
-      "count": 4,
       "bucket": "standard"
     },
     {
@@ -130,56 +120,6 @@
     {
       "surface": "סווה",
       "count": 4,
-      "bucket": "standard"
-    },
-    {
-      "surface": "איתם",
-      "count": 3,
-      "bucket": "standard"
-    },
-    {
-      "surface": "סין",
-      "count": 3,
-      "bucket": "standard"
-    },
-    {
-      "surface": "תעטוהא",
-      "count": 3,
-      "bucket": "standard"
-    },
-    {
-      "surface": "דיה",
-      "count": 3,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אקואבה",
-      "count": 3,
-      "bucket": "standard"
-    },
-    {
-      "surface": "וכלבאתהא",
-      "count": 3,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "ומגאמרהא",
-      "count": 3,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "ויקדמה",
-      "count": 3,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "אנגאס",
-      "count": 3,
-      "bucket": "standard"
-    },
-    {
-      "surface": "פליצנע",
-      "count": 3,
       "bucket": "standard"
     },
     {
@@ -233,11 +173,6 @@
       "bucket": "standard"
     },
     {
-      "surface": "אלויבה",
-      "count": 3,
-      "bucket": "standard"
-    },
-    {
       "surface": "ירפעונה",
       "count": 3,
       "bucket": "standard"
@@ -286,11 +221,6 @@
       "surface": "ואלבסהם",
       "count": 3,
       "bucket": "w-prefixed"
-    },
-    {
-      "surface": "מצ'רב",
-      "count": 3,
-      "bucket": "has-apostrophe"
     },
     {
       "surface": "עטאר",
@@ -420,726 +350,6 @@
     {
       "surface": "אלאיאמן",
       "count": 3,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלי'אב",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "מנסובא",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "יעדו",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "וחאלי'ה",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "פצה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "מגלבא",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "שהורכם",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ודבאיח",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "חלון",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "יטעמנא",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "כבזר",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלכבזרה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אבלית",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "שיוכ'הם",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "תנבו",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "וקטעת",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "אכ'אטבה",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "תנצ'ם",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "יפונה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "מנבר",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "לנרומה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אצואתהם",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ירגמוהמא",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אצעדת",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלמהל",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ג'אפר",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "ואלגרם",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "עגינכם",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "פליצנעו",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "יחתטב",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ורגמוה",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "ד'ואבה",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "ויגעלון",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "גמועך",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אצעדתנא",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלצ'אלמין",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "אלמחרקין",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "תקדסת",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "צפאיחא",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלתפתו",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אשראפהם",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "פיפנא",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אמאמתכם",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "יתקדמו",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ותחפצ'ו",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "אלקד'ס",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "עטאיאהם",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "קראביני",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "עטאיאכם",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "וירמי",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "אצעדתמונא",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "הארבין",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלמצאיב",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ערד",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "פחארבהם",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "סביא",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "מחרקא",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "תאיבא",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "חייא",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלמטלעה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ביאע",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "וקרצ'ו",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "צ'אהר",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "אחארבה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "תלענה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "סבה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "תמץ",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "מצלת",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלי'ס",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "אתאנך",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלי'ך",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "ילקנניה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "פלקנה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ואלמחה",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "דעותך",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "לתסב",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "כארק",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלרים",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "שטין",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "פינחס",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלאסראילי",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "כזבי",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ארפעא",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלחצרוניין",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלזרחיין",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "יוכבד",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אעמאמהן",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ויבה",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "פכהדייה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "גלבה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ואגיעו",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "וחגו",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "אהלכת",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "וחפצ'הם",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "עוזיאל",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אליצפן",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ווכאלה",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "אלזאידין",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אוי",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלמווכלין",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "יערפן",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "קסמהם",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלמכס",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "וחקאב",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "יאמרהם",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "יעברון",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "נבח",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "מגדול",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלגנובי",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "חצר",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "יקסמו",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ואפניתהא",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "מקבוץ",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלצ'ארב",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "תעמד",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "תאכדו",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "חצתהן",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "תדור",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "רחיל",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ויג'טו",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "אלמווגה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלקצאע",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ואלמלאעק",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "ויג'טוהא",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "ואלמנאשל",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "ואלמג'ארף",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "ואלכ'ראנב",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "עמלהם",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "פלירד",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "כמסהא",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "כ'יאנה",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "מצאגעה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "מצ'אגעתה",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "מסבה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "פירם",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "סווג",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלתאמן",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "וכרנוב",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "ולדבח",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "מתאקיל",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "מתקאל",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "וזפהם",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
-      "surface": "אכ'ד'תהם",
-      "count": 2,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "קפו",
-      "count": 2,
       "bucket": "standard"
     },
     {
@@ -1518,11 +728,6 @@
       "bucket": "standard"
     },
     {
-      "surface": "ויקר",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
       "surface": "אטרדהם",
       "count": 2,
       "bucket": "standard"
@@ -1586,11 +791,6 @@
       "surface": "מתקאבלה",
       "count": 2,
       "bucket": "standard"
-    },
-    {
-      "surface": "כ'באא",
-      "count": 2,
-      "bucket": "has-apostrophe"
     },
     {
       "surface": "ציראן",
@@ -1818,11 +1018,6 @@
       "bucket": "has-apostrophe"
     },
     {
-      "surface": "וקדסת",
-      "count": 2,
-      "bucket": "w-prefixed"
-    },
-    {
       "surface": "יחתרק",
       "count": 2,
       "bucket": "standard"
@@ -2019,11 +1214,6 @@
     },
     {
       "surface": "בנבאילהם",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "גסל",
       "count": 2,
       "bucket": "standard"
     },
@@ -2258,11 +1448,6 @@
       "bucket": "standard"
     },
     {
-      "surface": "פיחרכה",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
       "surface": "תדפע",
       "count": 2,
       "bucket": "standard"
@@ -2319,11 +1504,6 @@
     },
     {
       "surface": "סיופכם",
-      "count": 2,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלעתיק",
       "count": 2,
       "bucket": "standard"
     },
@@ -2433,149 +1613,969 @@
       "bucket": "standard"
     },
     {
-      "surface": "תחצוהם",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלי'שמע",
+      "surface": "כת'רכם",
       "count": 1,
       "bucket": "has-apostrophe"
     },
     {
-      "surface": "שרחת",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "פתנאסבו",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "גמלת",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "רחילה",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "יפצלונה",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ינצבונה",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ותרחיל",
+      "surface": "ורדו",
       "count": 1,
       "bucket": "w-prefixed"
     },
     {
-      "surface": "ינפכ'ו",
-      "count": 1,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "לרחילהם",
+      "surface": "לנזולכם",
       "count": 1,
       "bucket": "standard"
     },
     {
-      "surface": "תגלבו",
+      "surface": "לידלכם",
       "count": 1,
       "bucket": "standard"
     },
     {
-      "surface": "יצ'רבו",
-      "count": 1,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "פגלבו",
+      "surface": "פאגבתם",
       "count": 1,
       "bucket": "standard"
     },
     {
-      "surface": "בווקתם",
+      "surface": "פכלבוכם",
       "count": 1,
       "bucket": "standard"
     },
     {
-      "surface": "תג'אתון",
-      "count": 1,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "פרחכם",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "רחילהם",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "חאמלוה",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "שדאור",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "מגייהם",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "לחובב",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אלמדיאני",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "אייאהא",
-      "count": 1,
-      "bucket": "standard"
-    },
-    {
-      "surface": "ונחסן",
+      "surface": "ונחתת",
       "count": 1,
       "bucket": "w-prefixed"
     },
     {
-      "surface": "נחסן",
+      "surface": "אלוחין",
       "count": 1,
       "bucket": "standard"
     },
     {
-      "surface": "לי'כתאר",
+      "surface": "ורחלהם",
       "count": 1,
-      "bucket": "has-apostrophe"
+      "bucket": "w-prefixed"
     },
     {
-      "surface": "פג'ארת",
-      "count": 1,
-      "bucket": "has-apostrophe"
-    },
-    {
-      "surface": "אשתעלת",
+      "surface": "פאחבהם",
       "count": 1,
       "bucket": "standard"
+    },
+    {
+      "surface": "פאזילו",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ורקאבכם",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "אלכבאיר",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "כלבוכם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "תשתדו",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ותסקיה",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "סמאעא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "צחראיך",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ואעקדוהא",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "ועלמוהא",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "אייאמכם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "קדמכם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "תכ'מכם",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "פזעכם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "לתדכלו",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "וביותכם",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "ואראחכם",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "ועבידכם",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "ואמאכם",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "קרצ'תהם",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "תזידון",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "אלברהן",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "מחבוה",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "פאלזמוהא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "חרמתך",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "אלאקרבין",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "אלאבעדין",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "יעאודון",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "פאצ'לו",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "רחבתהא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "תנגסכם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "כתירין",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "פתחא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "פעל'י",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "ואדבח",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "יכתארה",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "חכאמא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "אסבטאך",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ובגרירתהא",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "גמל'ה",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "לאהאמתהם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "תרהבו",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "יכלמו",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "אלמוגודין",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "אעדאיאך",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ויבתדו",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "ותחלק",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "ותנזע",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "ותבכי",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "תרידהא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "וביעא",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "אתיתהא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ויודבאנה",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "פליקבץ",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "פיקולא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "דפנא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "שאתה",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "צ'ואל",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "ואקעין",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "אקמהמא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ואפית",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "א'טלק",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "ודכל",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "פדנות",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ובסטו",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "וידפעוהא",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "ווגדא",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "י'מר",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "ויבן",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "פלתצעד",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "יבן",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ויכלמוה",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "אחדה'מא",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "ואמסכת",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "וצג'רא",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "ואד'כ'ר",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "תנס",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "יעטינאה",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "אביאינא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "רזקתניהא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "חזני",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "שרחא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "פיבתדו",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "י'ת'בת",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "מלעונא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ממאלך",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "זיאתין",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "תקרצ'ה",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "יבקיהם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "אלמד'כורין",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "באד'אנכם",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "רויסאכם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ושיוכ'כם",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "מאך",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "יתבתך",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ואמראצ'הא",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "וטרחהם",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "ומואשיכם",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "אלממאלך",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "מסאלתי",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "תד'כל",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "וכ'אצתה",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "שרורא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "לעקלו",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "כ'מרהם",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "כ'זאיני",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "אלאהתהם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "פכאני",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "דמאהם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "רדו",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "וטלהא",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "קמאקמהם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "יתעלמו",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "פתצענו",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ותכ'דמון",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "אלעצימ",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ואזכר",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "וזראע",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "קומכם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "פקלת'מ",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "הוזא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "יחוזונה",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "תזולו",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "וזיאתין",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "פאחזר",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "תתבעו",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "אלזין",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "בחצ'רתנא",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "תאכ'זאבנתה",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "כזא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "מזאבחהם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "כת'רתכם",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "ואכ'תארכמ",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "אדוי",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "תפניהם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "מלוכהם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ותאכ'ד'ה",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "ותכת'רון",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "אכ'רתך",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "ועצם",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "אכתסבת",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "לתדכל",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "אכ'תר",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "ינפדהם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "דפעהם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "בצלאחי",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ומחית",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "פנצ'רת",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "ואתכ'ד'תם",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "וצ'בטת",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "וטרחתהמא",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "כטייתכם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "חד'רת",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "לינפדכם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "פאסתג'פרת",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "אתכ'ד'תמוה",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "ואחרקתה",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "וברדתה",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "בעצ'כם",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "וחוזו",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "שנאתה",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "בקוותך",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "וסעו",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "ועצ'מו",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "הודא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "נחתאל",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "אנצ'אפו",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "פיחארבונא",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ויהרבונא",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "אלפיום",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "עד'בוהם",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "וייסרון",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "ואסתכ'דם",
+      "count": 1,
+      "bucket": "w-prefixed"
+    },
+    {
+      "surface": "חיותהם",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "באלטין",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "אסתכ'דמונהם",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "שפרה",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "פועה",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "קבלתן",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "פאנצ'רן",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "אלמת'בר",
+      "count": 1,
+      "bucket": "has-apostrophe"
+    },
+    {
+      "surface": "יצנען",
+      "count": 1,
+      "bucket": "standard"
+    },
+    {
+      "surface": "ואסתבקין",
+      "count": 1,
+      "bucket": "w-prefixed"
     }
   ]
 }

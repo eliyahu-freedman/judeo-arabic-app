@@ -5,10 +5,13 @@ Run from `~/Code/judeo-arabic-app`. The Saadia-Tafsir reader shares `dictionary-
 Advanced library (and vice versa).
 
 ## State (2026-06-05)
-- Overall Tafsir hand-coverage **95.66%** (92.72% → Bereshit pass → 95.66%).
-- **Bereshit = 100.0% (0 misses) — done.** Devarim 98.45%. Per-book remaining:
-  shemot 92.22% (1,300 miss), vayikra 92.78% (884), bamidbar 93.31% (1,107), devarim 98.45% (233).
-- lane = **7,059 entries** (was 5,768). Commit this pass: see git log on `feat/advanced-reader-coverage`.
+- Overall Tafsir hand-coverage **97.21%** (92.72% → Bereshit pass → 95.66% → Bamidbar pass → 97.21%).
+- **Bereshit = 100.0% and Bamidbar = 100.0% (0 misses) — done.** Per-book remaining:
+  shemot 92.67% (~1,225 miss), vayikra 93.38% (~810), devarim 98.47% (~231).
+- lane = **7,900 entries** (Bamidbar pass: 7,059 → 7,453 → 7,900, +841 over two ~500-group bursts).
+- **Bamidbar took 2 workflow bursts** (961 residual groups → +394, then 501 tail groups → +447;
+  the 2nd burst used `total=510, CHUNK=51` = 10 agents covering the whole frequency-1 tail at once).
+  Commit this pass: see git log on `feat/advanced-reader-coverage`.
 - **Bug fixed this pass — `apply_dict_advanced.py` now dedups by CONTENT, not id.** The workflow
   mints author ids as `taf-h-{start}-{i}`, which are NOT unique across runs, so the old id-equality
   skip silently dropped ~345/400 genuinely-new entries every re-run (a 450-group batch was moving
@@ -20,7 +23,7 @@ Advanced library (and vice versa).
   To change batch size, edit `scripts/tafsir_pilot_workflow.js`. Reliable burst ≈ 10 author agents
   (total≈450); a 19-agent burst hit the account session/usage limit mid-run and 15 agents authored
   nothing — keep bursts small or watch for the limit.
-- **Remaining to ~100% (Shemot/Vayikra/Bamidbar): ~2,786 lemma groups** (re-run steps 1–3 per book
+- **Remaining to ~100% (Shemot/Vayikra/Devarim): ~1,778 lemma groups** (re-run steps 1–3 per book
   to regenerate the worklist; the autopatch sweep keeps catching suffixed forms for free each pass).
 
 ## The pipeline (all built, reused from the Bahya/advanced pass)
