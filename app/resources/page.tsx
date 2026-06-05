@@ -140,6 +140,12 @@ const SECTIONS: Section[] = [
         badge: "Free",
       },
       {
+        title: "GenizahSearch (Dicta)",
+        href: "https://genizahsearch.com",
+        note: "AI-powered search of the Cairo Genizah corpus — keyword, title, shelfmark, or composition-parallel queries across NLI, Cambridge, Manchester, and Princeton images. Use “title” mode with a work’s name to find its manuscript witnesses. Free web app; a Windows desktop build is on GitHub (github.com/gershuni/GenizahSearch/releases).",
+        badge: "Free",
+      },
+      {
         title: "University of Michigan — Judeo-Arabic research guide",
         href: "https://guides.lib.umich.edu/c.php?g=282911&p=6692906",
         note: "Annotated bibliography of dictionaries, grammars, literature surveys.",
