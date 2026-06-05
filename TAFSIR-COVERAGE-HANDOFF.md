@@ -5,11 +5,11 @@ Run from `~/Code/judeo-arabic-app`. The Saadia-Tafsir reader shares `dictionary-
 Advanced library (and vice versa).
 
 ## State (2026-06-04)
-- Overall Tafsir hand-coverage **89.07%** (was 84.28% before the Devarim pass).
-- Per-book hand: bereshit 85.5 · shemot 86.8 · vayikra 87.4 · bamidbar 89.1 · **devarim 97.9** (done).
-- lane = 5,398 entries. Devarim committed as `1e5163d`.
-- **Remaining to ~100% (whole Pentateuch): ~4,960 lemma groups** (after an autopatch sweep that
-  catches ~948 suffixed forms for free).
+- Overall Tafsir hand-coverage **92.72%** (84.28% → 89.07% Devarim pass → 92.72% top-400 head).
+- Devarim ≈ 98.3% (done). The four remaining books carry the bulk of the misses.
+- lane = 5,768 entries. Commits: Devarim `1e5163d`, top-400 head `3ee6299`.
+- **Remaining to ~100% (whole Pentateuch): ~4,539 lemma groups** (re-run steps 1–3 below to
+  regenerate the worklist; the autopatch sweep keeps catching suffixed forms for free each pass).
 
 ## The pipeline (all built, reused from the Bahya/advanced pass)
 1. `python3 scripts/stage_tafsir_misses.py all` (or a single book) → writes `data/_advanced_misses_grouped.json`
