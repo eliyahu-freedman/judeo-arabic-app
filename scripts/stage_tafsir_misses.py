@@ -45,7 +45,8 @@ def main() -> int:
     lane_keys, _ = load_dict_index(DATA / "dictionary-lane.json")
     hand = starter_keys | lane_keys
 
-    files = [p for p in sorted(glob.glob(str(DATA / f"tafsir-{book}-*.json")))
+    pat = "tafsir-*.json" if book == "all" else f"tafsir-{book}-*.json"
+    files = [p for p in sorted(glob.glob(str(DATA / pat)))
              if not any(x in p for x in ("-english", "-alignment", "-divergence"))]
     strings: list[str] = []
 

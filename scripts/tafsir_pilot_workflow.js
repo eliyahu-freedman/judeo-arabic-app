@@ -8,7 +8,7 @@ export const meta = {
 }
 
 const CHUNK = (args && args.chunk) || 45
-let total = (args && args.total) || 1871
+let total = (args && args.total) || 400
 
 const MERGE_SCHEMA = {
   type: 'object',
@@ -24,14 +24,14 @@ const MERGE_SCHEMA = {
 }
 
 function authorPrompt(start, end) {
-  return `You are authoring Judaeo-Arabic dictionary entries for the SAADIA TAFSIR reader (Pentateuch), book of Devarim. Work ONLY on residual worklist groups [${start}:${end}]. Run all commands from \`/Users/eliyahufreedman/Code/judeo-arabic-app\`.
+  return `You are authoring Judaeo-Arabic dictionary entries for the SAADIA TAFSIR reader — the Pentateuch (all five books). Work ONLY on residual worklist groups [${start}:${end}]. Run all commands from \`/Users/eliyahufreedman/Code/judeo-arabic-app\`.
 
 STEP 1 — load your slice:
   python3 -c "import json;g=json.load(open('data/_advanced_misses_residual.json'))['groups'][${start}:${end}];print(json.dumps(g,ensure_ascii=False))"
 Each group = {key, ar, count, texts, surfaces[]}. \`key\` is a prefix-stripped stem guess, \`ar\` its back-converted Arabic, \`surfaces\` the observed forms.
 
 STEP 2 — author ONE entry per group with EXACTLY these fields:
-  id        unique "taf-d-${start}-<i>"
+  id        unique "taf-h-${start}-<i>"
   lemma_ja  clean Hebrew-script JA citation form. \`key\` is sometimes BROKEN (a radical ב/ל/כ/פ/ו or אל wrongly stripped) — when so, use the real surface as lemma_ja.
   lemma_ar  voweled classical Arabic (from \`ar\`)
   root      hyphenated radicals, e.g. "ʿ-l-m"; for proper names / particles use "—"
@@ -48,12 +48,12 @@ CONTEXT — this is the Pentateuch in Saadia's Arabic translation, so expect hea
 STEP 3 — VERIFY, do not fabricate:
   python3 ~/Tools/arabic-lexicon/cli.py lookup <ar-root> --dict lane
   python3 ~/Tools/arabic-lexicon/cli.py lookup <form> --dict blau
-For a proper name or ambiguous form, grep the Devarim source for the sentence:
-  grep -h "<surface>" data/tafsir-devarim-*.json | head
+For a proper name or ambiguous form, grep the Tafsir source (any book) for the sentence:
+  grep -h "<surface>" data/tafsir-*.json | head
 Then identify the verse/name. For a genuinely uncertain rare form, give your best contextual gloss with a trailing " (?)" — never invent a fake root.
 
 STEP 4 — write your file (mkdir -p data/_bahya_authored first):
-  data/_bahya_authored/tafd_${start}.json  containing { "entries": [ ... ], "patches": { } }
+  data/_bahya_authored/tafh_${start}.json  containing { "entries": [ ... ], "patches": { } }
 Use "patches" (existing_entry_id -> [surface,...]) only when a surface is clearly an inflection of a stem that already has a lane entry.
 
 Return ONE short line: entries authored + anything you guessed. The written file is the deliverable.`
@@ -66,7 +66,7 @@ function mergePrompt() {
    python3 - <<'PY'
 import json, glob
 entries = []
-for f in sorted(glob.glob('data/_bahya_authored/tafd_*.json')):
+for f in sorted(glob.glob('data/_bahya_authored/tafh_*.json')):
     try: d = json.load(open(f))
     except Exception as e: print('SKIP', f, e); continue
     entries += d.get('entries', []) or []
@@ -83,10 +83,10 @@ PY
    python3 scripts/apply_dict_advanced.py
 
 3. Re-measure:
-   python3 scripts/coverage_report.py            # overall "Hand TOTAL" % and the devarim per-book hand %
-   python3 scripts/stage_tafsir_misses.py devarim # prints "_lemma_groups" = uncovered Devarim groups left
+   python3 scripts/coverage_report.py        # overall "Hand TOTAL" % and the devarim per-book hand %
+   python3 scripts/stage_tafsir_misses.py all # prints "_lemma_groups" = uncovered groups left, whole Pentateuch
 
-4. RETURN via StructuredOutput: applied_entries (+N from step 2), devarim_hand_pct + overall_hand_pct (from step 3 coverage_report), remaining_groups (the lemma-group count printed by stage_tafsir_misses in step 3), note (flag any tracebacks/skipped files). Do NOT hand-edit dictionary files.`
+4. RETURN via StructuredOutput: applied_entries (+N from step 2), devarim_hand_pct (devarim per-book hand from coverage_report — incidental), overall_hand_pct (the "Hand TOTAL" %), remaining_groups (the lemma-group count printed by stage_tafsir_misses all in step 3), note (flag any tracebacks/skipped files). Do NOT hand-edit dictionary files.`
 }
 
 phase('Author')
@@ -100,6 +100,6 @@ await parallel(ranges.map(([s, e]) => () =>
 phase('Merge')
 const m = await agent(mergePrompt(), { label: 'merge', phase: 'Merge', schema: MERGE_SCHEMA })
 if (m) {
-  log(`PILOT RESULT: +${m.applied_entries} entries | Devarim hand ${m.devarim_hand_pct}% (was 81.91%) | overall hand ${m.overall_hand_pct}% (was 84.28%) | ${m.remaining_groups} Devarim groups left. ${m.note}`)
+  log(`CHUNK RESULT: +${m.applied_entries} entries | overall hand ${m.overall_hand_pct}% (was 89.07%) | ${m.remaining_groups} Pentateuch groups left. ${m.note}`)
 }
 return m
