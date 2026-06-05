@@ -124,8 +124,10 @@ export function useWordStates() {
     [map]
   );
 
-  const setState = useCallback((rawToken: string, next: WordState) => {
-    const key = normalizeToken(rawToken);
+  // Set state for an ALREADY-CANONICAL key (e.g. a namespaced deck key like
+  // `cog:3` or `ltr:ج`, or a pre-normalized word token). Skips normalizeToken,
+  // which is only meant for raw JA tokens from the readers.
+  const setItemState = useCallback((key: string, next: WordState) => {
     if (!key) return;
     setMap((prev) => {
       const updated: StateMap = { ...prev };
@@ -144,6 +146,21 @@ export function useWordStates() {
       return updated;
     });
   }, []);
+
+  const setState = useCallback(
+    (rawToken: string, next: WordState) => {
+      const key = normalizeToken(rawToken);
+      if (!key) return;
+      setItemState(key, next);
+    },
+    [setItemState]
+  );
+
+  // Read state for an already-canonical key (mirror of getState w/o normalization).
+  const getItemState = useCallback(
+    (key: string): WordState => map[key]?.state ?? "new",
+    [map]
+  );
 
   const gradeCard = useCallback((canonicalKey: string, grade: Grade) => {
     setMap((prev) => {
@@ -191,5 +208,14 @@ export function useWordStates() {
     return c;
   }, [map]);
 
-  return { getState, setState, gradeCard, counts, hydrated, dueKeys };
+  return {
+    getState,
+    getItemState,
+    setState,
+    setItemState,
+    gradeCard,
+    counts,
+    hydrated,
+    dueKeys,
+  };
 }

@@ -7,6 +7,7 @@ import {
   currentReading,
   rangeHref,
 } from "@/lib/parsha";
+import { ReturningRail } from "@/components/ReturningRail";
 
 export const metadata: Metadata = {
   alternates: {
@@ -283,15 +284,7 @@ export default function Home() {
         </div>
 
         {/* Returning-user rail */}
-        <div className="mt-10 pt-6 border-t border-ink/10 text-sm text-ink/70 flex items-center justify-between flex-wrap gap-3">
-          <span>Already practicing?</span>
-          <Link
-            href="/review"
-            className="text-wine hover:underline tracking-wide"
-          >
-            Continue your daily review →
-          </Link>
-        </div>
+        <ReturningRail />
       </section>
     </div>
   );

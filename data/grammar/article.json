@@ -1,0 +1,43 @@
+{
+  "id": "grammar-article",
+  "title": "The Definite Article",
+  "subtitle": "אל = ال — \"the\"",
+  "intro": "Arabic has one word for \"the\": al-, written אל in Judeo-Arabic. It attaches to the front of the noun as a single unit. Once you can spot it, a huge share of every page resolves into \"the X\" — and you'll see why so many First-50 words begin with אל.",
+  "sections": [
+    {
+      "heading": "One prefix, always attached",
+      "body": "Unlike Hebrew ה־, the article is the two letters אל glued to the front of the noun. Saadia writes the noun and its article as one word.",
+      "examples": [
+        { "ja": "אלסמא", "ar": "السماء", "translit": "as-samāʾ", "en": "the heaven", "note": "סמא = heaven; אל = the." },
+        { "ja": "אלארץ׳", "ar": "الأرض", "translit": "al-arḍ", "en": "the earth", "note": "The ארץ׳ you already know — with the article." },
+        { "ja": "אלנור", "ar": "النور", "translit": "an-nūr", "en": "the light" }
+      ]
+    },
+    {
+      "heading": "Sun letters: written, not always said",
+      "body": "Before about half the letters — the \"sun letters\" (ת ث ד ذ ר ז ס ש צ ض ط ظ ל נ) — the ל of אל assimilates in speech to the following sound, even though it is still written. So אלשמס is spelled with a lamed but pronounced ash-shams, not al-shams.",
+      "examples": [
+        { "ja": "אלשמס", "ar": "الشمس", "translit": "ash-shams", "en": "the sun", "note": "Sun letter ש: the ל is written but assimilates → ash-shams." },
+        { "ja": "אלנהאר", "ar": "النهار", "translit": "an-nahār", "en": "the day", "note": "Sun letter נ → an-nahār." },
+        { "ja": "אלרב", "ar": "الرب", "translit": "ar-rabb", "en": "the Lord", "note": "Sun letter ר → ar-rabb." }
+      ]
+    },
+    {
+      "heading": "Moon letters: said as written",
+      "body": "Before the other letters — the \"moon letters\" (א ב ג ח ך ע ף ק etc.) — the ל is both written and pronounced. אלקמר is simply al-qamar.",
+      "examples": [
+        { "ja": "אלקמר", "ar": "القمر", "translit": "al-qamar", "en": "the moon", "note": "Moon letter ק → al-qamar (the word that names the whole class)." },
+        { "ja": "אלבית", "ar": "البيت", "translit": "al-bayt", "en": "the house" },
+        { "ja": "אלכתאב", "ar": "الكتاب", "translit": "al-kitāb", "en": "the book" }
+      ]
+    }
+  ],
+  "quiz": [
+    { "q": "What does אל mean?", "top": { "text": "אל", "kind": "ja" }, "choices": ["the", "and", "to", "from"], "choicesKind": "en", "correctIdx": 0, "explanation": "אל = al- = \"the\", written as one unit with the noun." },
+    { "q": "What is this word?", "top": { "text": "אלסמא", "kind": "ja" }, "choices": ["the heaven", "the earth", "the water", "the light"], "choicesKind": "en", "correctIdx": 0, "explanation": "אלסמא = as-samāʾ = \"the heaven.\"" },
+    { "q": "אלשמס is pronounced…", "top": { "text": "אלשמס", "kind": "ja" }, "choices": ["ash-shams", "al-shams", "as-sams", "al-kams"], "choicesKind": "en", "correctIdx": 0, "explanation": "ש is a sun letter, so the ל assimilates: ash-shams (still written with lamed)." },
+    { "q": "Which one has an assimilating (sun-letter) article?", "choices": ["אלרב", "אלקמר", "אלבית", "אלכתאב"], "choicesKind": "ja", "correctIdx": 0, "explanation": "ר is a sun letter → ar-rabb. The others (ק, ב, כ) are moon letters, pronounced al-." },
+    { "q": "אלקמר is pronounced…", "top": { "text": "אלקמר", "kind": "ja" }, "choices": ["al-qamar", "aq-qamar", "an-qamar", "al-ramar"], "choicesKind": "en", "correctIdx": 0, "explanation": "ק is a moon letter, so the ל is pronounced: al-qamar, \"the moon.\"" },
+    { "q": "Strip the article: what is the bare noun in אלארץ׳?", "top": { "text": "אלארץ׳", "kind": "ja" }, "choices": ["ארץ׳", "לארץ׳", "רץ׳", "אלר"], "choicesKind": "ja", "correctIdx": 0, "explanation": "Remove אל → ארץ׳ (arḍ), \"earth.\"" }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "grammar-verbs",
+  "title": "The Verb Spine",
+  "subtitle": "קאל · כאן · the prefix conjugation",
+  "intro": "Two verbs hold the Tafsir together: קאל \"he said\" (every speech is introduced by it) and כאן \"he was\" (the workhorse of \"there was / it became\"). Learn how they flex and the narrative stops looking opaque. Arabic marks the subject two ways — by an ending on the past tense, and by a prefix on the present.",
+  "sections": [
+    {
+      "heading": "Past tense: the ending carries the subject",
+      "body": "The bare 3rd-person-masculine form is the dictionary form. Add an ending for she / they.",
+      "examples": [
+        { "ja": "קאל", "ar": "قَالَ", "translit": "qāla", "en": "he said", "note": "The default form — what you'll meet most." },
+        { "ja": "קאלת", "ar": "قالت", "translit": "qālat", "en": "she said", "note": "+ ־ת for feminine, exactly like Hebrew." },
+        { "ja": "קאלוא", "ar": "قالوا", "translit": "qālū", "en": "they said", "note": "+ ־וא for masculine plural." }
+      ]
+    },
+    {
+      "heading": "Present / future: the prefix carries the subject",
+      "body": "The imperfect adds a prefix: י־ (he), ת־ (she / you m.), נ־ (we), א־ (I). Same letters as the Hebrew prefix conjugation.",
+      "examples": [
+        { "ja": "יקול", "ar": "يقول", "translit": "yaqūlu", "en": "he says / will say", "note": "Prefix י־ = he." },
+        { "ja": "תקול", "ar": "تقول", "translit": "taqūlu", "en": "she says / you say", "note": "Prefix ת־ = she or you (m.)." },
+        { "ja": "נקול", "ar": "نقول", "translit": "naqūlu", "en": "we say", "note": "Prefix נ־ = we." }
+      ]
+    },
+    {
+      "heading": "כאן — \"was\" and \"became\"",
+      "body": "כאן sets the scene: \"there was,\" \"it was,\" \"it became.\" Its present יכון means \"is / will be.\" You'll meet it in the second verse of the Tafsir.",
+      "examples": [
+        { "ja": "כאן", "ar": "كان", "translit": "kāna", "en": "he / it was" },
+        { "ja": "כאנת", "ar": "كانت", "translit": "kānat", "en": "she / it (f.) was", "note": "וכאנת אלארץ׳ = \"and the earth was…\" (Gen 1:2)." },
+        { "ja": "יכון", "ar": "يكون", "translit": "yakūnu", "en": "he / it will be" }
+      ]
+    }
+  ],
+  "quiz": [
+    { "q": "What does קאל mean?", "top": { "text": "קאל", "kind": "ja" }, "choices": ["he said", "he did", "he was", "he saw"], "choicesKind": "en", "correctIdx": 0, "explanation": "קאל = qāla, \"he said\" — the verb that introduces nearly every speech." },
+    { "q": "Which form is \"they said\"?", "choices": ["קאלוא", "קאלת", "יקול", "קאל"], "choicesKind": "ja", "correctIdx": 0, "explanation": "+ ־וא = masculine plural: qālū, \"they said.\"" },
+    { "q": "The prefix in יקול tells you the subject is…", "top": { "text": "יקול", "kind": "ja" }, "choices": ["he", "she", "we", "I"], "choicesKind": "en", "correctIdx": 0, "explanation": "Prefix י־ marks 3rd-person-masculine: yaqūlu, \"he says.\"" },
+    { "q": "What does כאן mean?", "top": { "text": "כאן", "kind": "ja" }, "choices": ["he / it was", "he said", "he made", "he came"], "choicesKind": "en", "correctIdx": 0, "explanation": "כאן = kāna, \"was / became\" — the scene-setting verb." },
+    { "q": "נקול means…", "top": { "text": "נקול", "kind": "ja" }, "choices": ["we say", "she says", "they say", "I say"], "choicesKind": "en", "correctIdx": 0, "explanation": "Prefix נ־ = we: naqūlu, \"we say.\"" },
+    { "q": "Which is the present/future of כאן?", "choices": ["יכון", "כאנת", "קאל", "כאנוא"], "choicesKind": "ja", "correctIdx": 0, "explanation": "יכון = yakūnu, \"he / it will be.\"" }
+  ]
+}

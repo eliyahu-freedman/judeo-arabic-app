@@ -1,0 +1,48 @@
+{
+  "id": "grammar-suffixes",
+  "title": "Pronominal Suffixes",
+  "subtitle": "־ה ־הא ־הם ־ך ־כם",
+  "intro": "Arabic doesn't say \"his book\" with a separate word for \"his.\" It glues a short ending onto the noun: כתאב + ה = כתאבה, \"his book.\" These endings are the single biggest reason a word you know looks unfamiliar — the stem is hiding under a suffix. Learn the handful of endings and the stem jumps back out.",
+  "sections": [
+    {
+      "heading": "The core endings",
+      "body": "Each ending stands for a possessor (on a noun) or an object (on a verb or preposition). They are nearly identical to the Hebrew ones you already feel.",
+      "examples": [
+        { "ja": "־ה", "translit": "-hu", "en": "his / him / its", "note": "רבה = his Lord; לה = to him." },
+        { "ja": "־הא", "translit": "-hā", "en": "her / it (f.)", "note": "פיהא = in it (f.)." },
+        { "ja": "־הם", "translit": "-hum", "en": "their / them", "note": "להם = to them; מעהם = with them." },
+        { "ja": "־ך", "translit": "-ka / -ki", "en": "your (sing.)", "note": "רבך = your Lord." },
+        { "ja": "־כם", "translit": "-kum", "en": "your (pl.)", "note": "רבכם = your (pl.) Lord." },
+        { "ja": "־י / ־ני", "translit": "-ī / -nī", "en": "my / me", "note": "רבי = my Lord; ־ני on a verb = me." },
+        { "ja": "־נא", "translit": "-nā", "en": "our / us", "note": "רבנא = our Lord." }
+      ]
+    },
+    {
+      "heading": "On prepositions: tiny but everywhere",
+      "body": "The most common words on the page are a one-letter preposition plus a suffix. Recognize these and whole sentences open up.",
+      "examples": [
+        { "ja": "לה", "ar": "له", "translit": "lahu", "en": "to him / he has" },
+        { "ja": "בה", "ar": "به", "translit": "bihi", "en": "in it / with it" },
+        { "ja": "מנה", "ar": "منه", "translit": "minhu", "en": "from it / from him" },
+        { "ja": "עליה", "ar": "عليه", "translit": "ʿalayhi", "en": "upon him / against him" }
+      ]
+    },
+    {
+      "heading": "Finding the stem",
+      "body": "To read a long word, peel the ending off the back and the article off the front. What's left is usually a word you know.",
+      "examples": [
+        { "ja": "כלאמה", "translit": "kalāmuhu", "en": "his speech", "note": "כלאם (speech) + ־ה (his)." },
+        { "ja": "אסמה", "translit": "ismuhu", "en": "his name", "note": "אסם (name) + ־ה (his)." },
+        { "ja": "ידה", "translit": "yaduhu", "en": "his hand", "note": "יד (hand) + ־ה (his) — the same יד as Hebrew." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "q": "What does the ending ־ה mean in רבה?", "top": { "text": "רבה", "kind": "ja" }, "choices": ["his", "her", "their", "your"], "choicesKind": "en", "correctIdx": 0, "explanation": "רב (Lord) + ־ה (-hu, his) = \"his Lord.\"" },
+    { "q": "Which ending means \"their / them\"?", "choices": ["־הם", "־הא", "־ך", "־נא"], "choicesKind": "ja", "correctIdx": 0, "explanation": "־הם = -hum = their / them. ־הא = her, ־ך = your, ־נא = our." },
+    { "q": "What does להם mean?", "top": { "text": "להם", "kind": "ja" }, "choices": ["to them", "to him", "to us", "to you"], "choicesKind": "en", "correctIdx": 0, "explanation": "ל (to) + ־הם (them) = \"to them.\"" },
+    { "q": "Peel the suffix: what is the stem of אסמה?", "top": { "text": "אסמה", "kind": "ja" }, "choices": ["אסם", "סמה", "אסמ", "מה"], "choicesKind": "ja", "correctIdx": 0, "explanation": "Remove ־ה → אסם (ism), \"name.\" אסמה = \"his name.\"" },
+    { "q": "מנה means…", "top": { "text": "מנה", "kind": "ja" }, "choices": ["from it / from him", "to him", "in it", "with us"], "choicesKind": "en", "correctIdx": 0, "explanation": "מן (from) + ־ה = minhu, \"from it / from him.\"" },
+    { "q": "Which ending means \"our / us\"?", "choices": ["־נא", "־כם", "־ה", "־הא"], "choicesKind": "ja", "correctIdx": 0, "explanation": "־נא = -nā = our / us. רבנא = \"our Lord.\"" }
+  ]
+}

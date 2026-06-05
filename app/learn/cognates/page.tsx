@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import data from "@/data/cognates.json";
 import { CognateCards, type CognateEntry } from "./cards";
+import { TrackVisit } from "@/components/TrackVisit";
 
 type CognateData = {
   _total: number;
@@ -16,5 +17,10 @@ export const metadata: Metadata = {
 
 export default function CognatesPage() {
   const payload = data as CognateData;
-  return <CognateCards entries={payload.entries} />;
+  return (
+    <>
+      <TrackVisit label="You Already Know This" href="/learn/cognates" />
+      <CognateCards entries={payload.entries} />
+    </>
+  );
 }

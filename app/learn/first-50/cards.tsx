@@ -2,6 +2,10 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { Quiz, type QuizQuestion } from "@/components/Quiz";
+import { deckKeyForWord } from "@/lib/deck";
+import { useWordStates } from "@/lib/wordState";
+import { useProgress } from "@/lib/progress";
 
 export type FirstFiftyEntry = {
   rank: number;
@@ -42,8 +46,108 @@ const GROUP_HINT: Record<Group, string> = {
   names: "The cast of characters as Saadia writes them — Moshe → Mūsā, Pharaoh → Firʿawn, Israel → Isrāʾīl.",
 };
 
+/* ---------------- Quiz generator ---------------- */
+
+function shuffle<T>(arr: T[]): T[] {
+  return [...arr].sort(() => Math.random() - 0.5);
+}
+
+function pickDistractors(
+  pool: FirstFiftyEntry[],
+  answer: FirstFiftyEntry,
+  valueOf: (e: FirstFiftyEntry) => string,
+): FirstFiftyEntry[] {
+  const seen = new Set([valueOf(answer)]);
+  const out: FirstFiftyEntry[] = [];
+  for (const e of shuffle(pool)) {
+    const v = valueOf(e);
+    if (seen.has(v)) continue;
+    seen.add(v);
+    out.push(e);
+    if (out.length === 3) break;
+  }
+  return out;
+}
+
+type VQType = "word_to_gloss" | "gloss_to_word" | "ar_to_ja";
+
+export function generateVocabQuestion(entries: FirstFiftyEntry[]): QuizQuestion {
+  const types: VQType[] = ["word_to_gloss", "gloss_to_word", "ar_to_ja"];
+  const type = types[Math.floor(Math.random() * types.length)];
+  const answer = entries[Math.floor(Math.random() * entries.length)];
+  const reviewKey = deckKeyForWord(answer.lemma_ja);
+
+  if (type === "word_to_gloss") {
+    const choices = shuffle([
+      answer,
+      ...pickDistractors(entries, answer, (e) => e.en),
+    ]);
+    return {
+      promptTop: {
+        text: answer.lemma_ja,
+        cls: "font-hebrew text-5xl text-ink",
+        dir: "rtl",
+      },
+      promptHint: answer.arabic,
+      promptInstruction: "What does this word mean?",
+      choices: choices.map((e) => ({
+        value: e.en,
+        cls: "text-[15px] text-ink",
+        dir: "ltr",
+      })),
+      correctIdx: choices.indexOf(answer),
+      explanation: `${answer.lemma_ja} (${answer.arabic}) — ${answer.en}`,
+      reviewKey,
+    };
+  }
+
+  if (type === "gloss_to_word") {
+    const choices = shuffle([
+      answer,
+      ...pickDistractors(entries, answer, (e) => e.lemma_ja),
+    ]);
+    return {
+      promptTop: { text: answer.en, cls: "text-2xl text-ink", dir: "ltr" },
+      promptInstruction: "Which Judeo-Arabic word means this?",
+      choices: choices.map((e) => ({
+        value: e.lemma_ja,
+        cls: "font-hebrew text-3xl text-ink",
+        dir: "rtl",
+      })),
+      correctIdx: choices.indexOf(answer),
+      explanation: `${answer.en} = ${answer.lemma_ja} (${answer.arabic})`,
+      reviewKey,
+    };
+  }
+
+  // ar_to_ja
+  const choices = shuffle([
+    answer,
+    ...pickDistractors(entries, answer, (e) => e.lemma_ja),
+  ]);
+  return {
+    promptTop: {
+      text: answer.arabic,
+      cls: "font-arabic text-5xl text-wine",
+      dir: "rtl",
+    },
+    promptInstruction: "How is this written in Judeo-Arabic (Hebrew letters)?",
+    choices: choices.map((e) => ({
+      value: e.lemma_ja,
+      cls: "font-hebrew text-3xl text-ink",
+      dir: "rtl",
+    })),
+    correctIdx: choices.indexOf(answer),
+    explanation: `${answer.arabic} → ${answer.lemma_ja} — ${answer.en}`,
+    reviewKey,
+  };
+}
+
 export function First50Cards({ entries }: { entries: FirstFiftyEntry[] }) {
   const [filter, setFilter] = useState<Group | "all">("all");
+  const [mode, setMode] = useState<"study" | "quiz">("study");
+  const { setState, setItemState, getState, hydrated } = useWordStates();
+  const { markLessonDone, touchStreak } = useProgress();
   const groups = GROUP_ORDER.filter((g) => entries.some((e) => e.group === g));
 
   return (
@@ -67,46 +171,113 @@ export function First50Cards({ entries }: { entries: FirstFiftyEntry[] }) {
         </p>
       </header>
 
-      <div className="flex flex-wrap gap-2 mb-8 text-sm">
-        <FilterPill
-          on={filter === "all"}
-          label={`All ${entries.length}`}
-          onClick={() => setFilter("all")}
-        />
-        {groups.map((g) => (
-          <FilterPill
-            key={g}
-            on={filter === g}
-            label={GROUP_LABEL[g]}
-            onClick={() => setFilter(g)}
-          />
-        ))}
+      <div className="flex gap-2 mb-8">
+        <ModeChip on={mode === "study"} onClick={() => setMode("study")}>
+          Study
+        </ModeChip>
+        <ModeChip on={mode === "quiz"} onClick={() => setMode("quiz")}>
+          Quiz
+        </ModeChip>
       </div>
 
-      {groups.map((g) => {
-        if (filter !== "all" && filter !== g) return null;
-        const groupEntries = entries.filter((e) => e.group === g);
-        return (
-          <section key={g} className="mb-12 last:mb-0">
-            <h2 className="text-xs uppercase tracking-[0.25em] text-muted mb-2">
-              {GROUP_LABEL[g]}
-            </h2>
-            <p className="text-[13px] text-ink/65 leading-relaxed max-w-xl mb-5 italic">
-              {GROUP_HINT[g]}
-            </p>
-            <ol className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {groupEntries.map((e) => (
-                <WordCard key={e.rank} entry={e} />
-              ))}
-            </ol>
-          </section>
-        );
-      })}
+      {mode === "quiz" ? (
+        <div className="rounded-md bg-page border border-ink/10 p-7">
+          <p className="text-[13px] text-ink/65 leading-relaxed mb-1">
+            Ten quick questions across all fifty words — meaning, recognition,
+            and script. Miss some? Add them straight to your spaced-repetition
+            review at the end.
+          </p>
+          <Quiz
+            generate={() => generateVocabQuestion(entries)}
+            onComplete={() => {
+              markLessonDone("first-50");
+              touchStreak();
+            }}
+            onAddMissed={(keys) =>
+              keys.forEach((k) => setItemState(k, "learning"))
+            }
+            addMissedLabel="Add the words you missed to review"
+          />
+        </div>
+      ) : (
+        <>
+          <div className="flex flex-wrap gap-2 mb-8 text-sm">
+            <FilterPill
+              on={filter === "all"}
+              label={`All ${entries.length}`}
+              onClick={() => setFilter("all")}
+            />
+            {groups.map((g) => (
+              <FilterPill
+                key={g}
+                on={filter === g}
+                label={GROUP_LABEL[g]}
+                onClick={() => setFilter(g)}
+              />
+            ))}
+          </div>
+
+          {groups.map((g) => {
+            if (filter !== "all" && filter !== g) return null;
+            const groupEntries = entries.filter((e) => e.group === g);
+            return (
+              <section key={g} className="mb-12 last:mb-0">
+                <h2 className="text-xs uppercase tracking-[0.25em] text-muted mb-2">
+                  {GROUP_LABEL[g]}
+                </h2>
+                <p className="text-[13px] text-ink/65 leading-relaxed max-w-xl mb-5 italic">
+                  {GROUP_HINT[g]}
+                </p>
+                <ol className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {groupEntries.map((e) => (
+                    <WordCard
+                      key={e.rank}
+                      entry={e}
+                      learning={hydrated && getState(e.lemma_ja) === "learning"}
+                      onAdd={() => setState(e.lemma_ja, "learning")}
+                    />
+                  ))}
+                </ol>
+              </section>
+            );
+          })}
+        </>
+      )}
     </div>
   );
 }
 
-function WordCard({ entry }: { entry: FirstFiftyEntry }) {
+function ModeChip({
+  on,
+  onClick,
+  children,
+}: {
+  on: boolean;
+  onClick: () => void;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={`px-4 py-1.5 rounded-md text-xs uppercase tracking-wider transition-all ${
+        on ? "bg-ink text-page" : "bg-parchment text-ink/70 hover:text-wine"
+      }`}
+    >
+      {children}
+    </button>
+  );
+}
+
+function WordCard({
+  entry,
+  learning,
+  onAdd,
+}: {
+  entry: FirstFiftyEntry;
+  learning: boolean;
+  onAdd: () => void;
+}) {
   return (
     <li className="group rounded-md bg-page border border-ink/10 p-5 hover:border-wine/30 transition-colors flex flex-col">
       <div className="flex items-start justify-between mb-3 gap-3">
@@ -153,17 +324,34 @@ function WordCard({ entry }: { entry: FirstFiftyEntry }) {
         </p>
       )}
 
-      {entry.first && (
-        <Link
-          href={`/tafsir/${entry.first.book_slug}/${entry.first.ch}#verse-${entry.first.ch}-${entry.first.v}`}
-          className="mt-4 inline-flex items-baseline gap-1.5 text-[12px] text-wine hover:underline self-start"
+      <div className="mt-4 flex items-center justify-between gap-3">
+        {entry.first ? (
+          <Link
+            href={`/tafsir/${entry.first.book_slug}/${entry.first.ch}#verse-${entry.first.ch}-${entry.first.v}`}
+            className="inline-flex items-baseline gap-1.5 text-[12px] text-wine hover:underline"
+          >
+            <span>
+              See in {entry.first.book} {entry.first.ch}:{entry.first.v}
+            </span>
+            <span aria-hidden>→</span>
+          </Link>
+        ) : (
+          <span />
+        )}
+        <button
+          type="button"
+          onClick={onAdd}
+          disabled={learning}
+          className={`shrink-0 text-[11px] uppercase tracking-wider px-2.5 py-1 rounded-full border transition-colors ${
+            learning
+              ? "border-amber-300 bg-amber-50 text-amber-700"
+              : "border-ink/15 text-ink/60 hover:border-wine/50 hover:text-wine"
+          }`}
+          title="Add to your spaced-repetition review"
         >
-          <span>
-            See in {entry.first.book} {entry.first.ch}:{entry.first.v}
-          </span>
-          <span aria-hidden>→</span>
-        </Link>
-      )}
+          {learning ? "In review ✓" : "＋ Review"}
+        </button>
+      </div>
     </li>
   );
 }

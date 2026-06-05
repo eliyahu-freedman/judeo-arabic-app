@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import data from "@/data/aramaic-cognates.json";
 import { AramaicCognateCards, type AramaicCognateEntry } from "./cards";
+import { TrackVisit } from "@/components/TrackVisit";
 
 type AramaicCognateData = {
   _total: number;
@@ -16,5 +17,14 @@ export const metadata: Metadata = {
 
 export default function AramaicCognatesPage() {
   const payload = data as AramaicCognateData;
-  return <AramaicCognateCards entries={payload.entries} />;
+  return (
+    <>
+      <TrackVisit
+        label="If You Know Onkelos…"
+        href="/learn/aramaic-cognates"
+        completeId="aramaic-cognates"
+      />
+      <AramaicCognateCards entries={payload.entries} />
+    </>
+  );
 }

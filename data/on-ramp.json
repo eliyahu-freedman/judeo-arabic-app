@@ -1,0 +1,111 @@
+{
+  "id": "on-ramp",
+  "title": "Read Your First Verses",
+  "intro": "You have the letters, the words, and the grammar. Now read — for real. These are Saadia's actual words from the opening of Genesis, one clause at a time: meet each word, then read the whole phrase. By the end you'll have read the first day of creation in Judeo-Arabic, and you'll be ready to open the full chapter.",
+  "steps": [
+    {
+      "ja": "אול מא כ'לק אללה",
+      "translit": "awwal mā khalaqa allāh",
+      "en": "First, what God created —",
+      "words": [
+        { "ja": "אול", "en": "first" },
+        { "ja": "מא", "en": "what / that which" },
+        { "ja": "כ'לק", "en": "created" },
+        { "ja": "אללה", "en": "God" }
+      ],
+      "ref": { "book": "Bereshit", "ch": 1, "v": 1 }
+    },
+    {
+      "ja": "אלסמאואת ואלארץ'",
+      "translit": "as-samāwāt wa-l-arḍ",
+      "en": "the heavens and the earth.",
+      "words": [
+        { "ja": "אלסמאואת", "en": "the heavens" },
+        { "ja": "ו", "en": "and" },
+        { "ja": "אלארץ'", "en": "the earth" }
+      ],
+      "ref": { "book": "Bereshit", "ch": 1, "v": 1 }
+    },
+    {
+      "ja": "ואלארץ' כאנת ג'אמרה",
+      "translit": "wa-l-arḍ kānat ghāmira",
+      "en": "And the earth was submerged,",
+      "words": [
+        { "ja": "ו", "en": "and" },
+        { "ja": "אלארץ'", "en": "the earth" },
+        { "ja": "כאנת", "en": "was (f.)" },
+        { "ja": "ג'אמרה", "en": "submerged / engulfed" }
+      ],
+      "ref": { "book": "Bereshit", "ch": 1, "v": 2 }
+    },
+    {
+      "ja": "שא אללה אן יכון נור",
+      "translit": "shāʾa allāh an yakūna nūr",
+      "en": "God willed that there be light,",
+      "words": [
+        { "ja": "שא", "en": "willed" },
+        { "ja": "אללה", "en": "God" },
+        { "ja": "אן", "en": "that" },
+        { "ja": "יכון", "en": "there be" },
+        { "ja": "נור", "en": "light" }
+      ],
+      "ref": { "book": "Bereshit", "ch": 1, "v": 3 }
+    },
+    {
+      "ja": "פכאן נור",
+      "translit": "fa-kāna nūr",
+      "en": "and there was light.",
+      "words": [
+        { "ja": "פ", "en": "and so / then" },
+        { "ja": "כאן", "en": "there was" },
+        { "ja": "נור", "en": "light" }
+      ],
+      "ref": { "book": "Bereshit", "ch": 1, "v": 3 }
+    },
+    {
+      "ja": "פלמא עלם אללה אן אלנור גייד",
+      "translit": "fa-lammā ʿalima allāh anna n-nūr jayyid",
+      "en": "And when God knew that the light was good,",
+      "words": [
+        { "ja": "פלמא", "en": "and when" },
+        { "ja": "עלם", "en": "knew" },
+        { "ja": "אללה", "en": "God" },
+        { "ja": "אן", "en": "that" },
+        { "ja": "אלנור", "en": "the light" },
+        { "ja": "גייד", "en": "good" }
+      ],
+      "ref": { "book": "Bereshit", "ch": 1, "v": 4 }
+    },
+    {
+      "ja": "פצל בין אלנור ואלצ'לאם",
+      "translit": "faṣala bayna n-nūr wa-ẓ-ẓalām",
+      "en": "He separated between the light and the darkness.",
+      "words": [
+        { "ja": "פצל", "en": "he separated" },
+        { "ja": "בין", "en": "between" },
+        { "ja": "אלנור", "en": "the light" },
+        { "ja": "ו", "en": "and" },
+        { "ja": "אלצ'לאם", "en": "the darkness" }
+      ],
+      "ref": { "book": "Bereshit", "ch": 1, "v": 4 }
+    },
+    {
+      "ja": "וסמי' אללה אוקאת אלנור נהארא",
+      "translit": "wa-sammā allāh awqāt an-nūr nahāran",
+      "en": "And God named the times of light \"day.\"",
+      "words": [
+        { "ja": "ו", "en": "and" },
+        { "ja": "סמי'", "en": "named" },
+        { "ja": "אללה", "en": "God" },
+        { "ja": "אוקאת", "en": "the times of" },
+        { "ja": "אלנור", "en": "the light" },
+        { "ja": "נהארא", "en": "\"day\"" }
+      ],
+      "ref": { "book": "Bereshit", "ch": 1, "v": 5 }
+    }
+  ],
+  "finish": {
+    "href": "/tafsir/bereshit/1",
+    "label": "Open the full chapter"
+  }
+}

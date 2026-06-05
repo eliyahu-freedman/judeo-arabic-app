@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import data from "@/data/alphabet.json";
 import { AlphabetUI, type AlphabetData } from "./alphabet";
+import { TrackVisit } from "@/components/TrackVisit";
 
 export const metadata: Metadata = {
   title: "The Judeo-Arabic Alphabet for Hebrew Readers",
@@ -51,6 +52,7 @@ const stageOneNext = [
 export default function AlphabetPage() {
   return (
     <>
+      <TrackVisit label="The Alphabet" href="/alphabet" />
       <AlphabetUI data={data as AlphabetData} />
 
       {/* Stage 1 follow-on rail */}

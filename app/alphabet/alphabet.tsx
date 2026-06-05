@@ -1,6 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { Quiz, type QuizQuestion } from "@/components/Quiz";
+import { deckKeyForLetter } from "@/lib/deck";
+import { useWordStates } from "@/lib/wordState";
+import { useProgress } from "@/lib/progress";
 
 export type Letter = {
   ja: string;
@@ -178,10 +182,14 @@ function StudyChart({
   letters: Letter[];
   notes?: string[];
 }) {
+  const { setItemState, getItemState, hydrated } = useWordStates();
   return (
     <>
       <ul className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3">
-        {letters.map((L) => (
+        {letters.map((L) => {
+          const key = deckKeyForLetter(L.ja);
+          const learning = hydrated && getItemState(key) === "learning";
+          return (
           <li
             key={L.ja + L.ar + L.name}
             className="rounded-md border border-ink/10 p-3 hover:border-wine/30 hover:bg-wine-50/30 transition-colors group"
@@ -221,8 +229,22 @@ function StudyChart({
                 {L.example_gloss}
               </div>
             </div>
+            <button
+              type="button"
+              onClick={() => setItemState(key, "learning")}
+              disabled={learning}
+              className={`mt-2 w-full text-[10px] uppercase tracking-wider px-2 py-1 rounded-full border transition-colors ${
+                learning
+                  ? "border-amber-300 bg-amber-50 text-amber-700"
+                  : "border-ink/15 text-ink/55 hover:border-wine/50 hover:text-wine"
+              }`}
+              title="Add this letter's example word to your review"
+            >
+              {learning ? "In review ✓" : "＋ Review"}
+            </button>
           </li>
-        ))}
+          );
+        })}
       </ul>
       {notes && notes.length > 0 && (
         <div className="mt-6 border-l-2 border-wine/40 pl-4 space-y-2">
@@ -434,15 +456,6 @@ function generateQuestion(
   };
 }
 
-type DrillState = {
-  q: number;
-  total: number;
-  correct: number;
-  question: Question;
-  selected: number | null;
-  done: boolean;
-};
-
 function Drill({
   lessonLetters,
   allLetters,
@@ -452,155 +465,31 @@ function Drill({
   allLetters: Letter[];
   lessonId: string;
 }) {
-  const [state, setState] = useState<DrillState>(() => ({
-    q: 1,
-    total: 10,
-    correct: 0,
-    question: generateQuestion(lessonLetters, allLetters, lessonId),
-    selected: null,
-    done: false,
-  }));
+  const { setItemState } = useWordStates();
+  const { markLessonDone, touchStreak } = useProgress();
 
-  const submit = (i: number) => {
-    if (state.selected !== null) return;
-    const wasCorrect = i === state.question.correctIdx;
-    setState((s) => ({
-      ...s,
-      selected: i,
-      correct: s.correct + (wasCorrect ? 1 : 0),
-    }));
+  const generate = (): QuizQuestion => {
+    const q = generateQuestion(lessonLetters, allLetters, lessonId);
+    return {
+      promptTop: q.promptTop,
+      promptHint: q.promptHint,
+      promptInstruction: q.promptInstruction,
+      choices: q.choices,
+      correctIdx: q.correctIdx,
+      explanation: q.explanation,
+      reviewKey: deckKeyForLetter(q.answer.ja),
+    };
   };
 
-  const next = () => {
-    if (state.q >= state.total) {
-      setState((s) => ({ ...s, done: true }));
-      return;
-    }
-    setState((s) => ({
-      ...s,
-      q: s.q + 1,
-      question: generateQuestion(lessonLetters, allLetters, lessonId),
-      selected: null,
-    }));
-  };
-
-  const restart = () =>
-    setState({
-      q: 1,
-      total: 10,
-      correct: 0,
-      question: generateQuestion(lessonLetters, allLetters, lessonId),
-      selected: null,
-      done: false,
-    });
-
-  if (state.done) {
-    return (
-      <DrillSummary
-        correct={state.correct}
-        total={state.total}
-        onRestart={restart}
-      />
-    );
-  }
-
-  const q = state.question;
-
   return (
-    <div className="mt-6">
-      <div className="flex items-center justify-between text-xs uppercase tracking-widest text-muted">
-        <span>
-          Q {state.q} / {state.total}
-        </span>
-        <span>Score: {state.correct}</span>
-      </div>
-
-      <p className="text-sm text-muted mt-4 mb-2">{q.promptInstruction}</p>
-      <div className="flex flex-col items-center my-8 gap-2">
-        <div dir={q.promptTop.dir} className={`${q.promptTop.cls} leading-none`}>
-          {q.promptTop.text}
-        </div>
-        {q.promptHint && (
-          <div className="text-xs text-muted font-mono italic">
-            {q.promptHint}
-          </div>
-        )}
-      </div>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        {q.choices.map((c, i) => {
-          const isPicked = state.selected === i;
-          const isAnswer = i === q.correctIdx;
-          const showResult = state.selected !== null;
-          let cls = "border-ink/15 bg-page hover:border-wine/40";
-          if (showResult) {
-            if (isAnswer) cls = "border-wine bg-wine-50 text-wine-700";
-            else if (isPicked)
-              cls = "border-ink/30 bg-ink/5 text-ink/65 line-through";
-            else cls = "border-ink/10 opacity-60";
-          }
-          return (
-            <button
-              key={i}
-              onClick={() => submit(i)}
-              disabled={state.selected !== null}
-              className={`rounded-md border p-4 transition-all flex items-center justify-center min-h-[64px] ${cls}`}
-            >
-              <span dir={c.dir} className={c.cls}>
-                {c.value}
-              </span>
-            </button>
-          );
-        })}
-      </div>
-
-      {state.selected !== null && (
-        <div className="mt-5 flex items-start justify-between gap-3">
-          <p className="text-sm text-muted flex-1">
-            <span className="font-semibold text-ink">
-              {state.selected === q.correctIdx
-                ? "Correct."
-                : "Not quite — answer highlighted."}
-            </span>{" "}
-            <span className="text-ink/70">{q.explanation}</span>
-          </p>
-          <button
-            onClick={next}
-            className="px-4 py-2 rounded-md bg-wine text-page text-xs uppercase tracking-wider hover:bg-wine-700 transition-colors shrink-0"
-          >
-            {state.q >= state.total ? "Finish" : "Next →"}
-          </button>
-        </div>
-      )}
-    </div>
-  );
-}
-
-function DrillSummary({
-  correct,
-  total,
-  onRestart,
-}: {
-  correct: number;
-  total: number;
-  onRestart: () => void;
-}) {
-  const pct = Math.round((correct / total) * 100);
-  return (
-    <div className="mt-8 text-center">
-      <div className="text-xs uppercase tracking-[0.3em] text-muted mb-2">
-        Result
-      </div>
-      <div className="text-5xl text-wine font-serif">{pct}%</div>
-      <p className="text-sm text-ink/70 mt-2">
-        {correct} / {total} correct.
-      </p>
-      <button
-        onClick={onRestart}
-        className="mt-6 px-5 py-2 rounded-md bg-wine text-page text-xs uppercase tracking-wider hover:bg-wine-700 transition-colors"
-      >
-        Practice again
-      </button>
-    </div>
+    <Quiz
+      generate={generate}
+      onComplete={() => {
+        markLessonDone("alphabet");
+        touchStreak();
+      }}
+      onAddMissed={(keys) => keys.forEach((k) => setItemState(k, "learning"))}
+      addMissedLabel="Add the letters you missed to review"
+    />
   );
 }

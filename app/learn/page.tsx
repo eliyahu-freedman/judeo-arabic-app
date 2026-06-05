@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { GuidedPath } from "@/components/GuidedPath";
 
 export const metadata: Metadata = {
   title: "Learn Judeo-Arabic — Short lessons and vocabulary",
@@ -29,6 +30,34 @@ const lessons = [
     title: "If You Know Onkelos…",
     body: "Forty Aramaic words that bridge straight to Arabic — and most of them are sitting in your weekly parashah. The interdental words (תלת, דהב, דכר) are the ones only Aramaic can teach: where Hebrew shifted its consonants, Aramaic and Arabic agree.",
     sample: "תלת · דהב · ארעא · בית · חמרא",
+  },
+  {
+    href: "/learn/grammar/article",
+    status: "Grammar",
+    title: "The Definite Article",
+    body: "Arabic has one word for \"the\" — אל, glued to the front of the noun. Learn it, plus why אלשמס is said ash-shams, and a huge share of every page turns into \"the X.\"",
+    sample: "אלסמא · אלשמס · אלקמר · אלארץ׳",
+  },
+  {
+    href: "/learn/grammar/suffixes",
+    status: "Grammar",
+    title: "Pronominal Suffixes",
+    body: "\"His book\" is one word: כתאב + ה. These little endings are the #1 reason a word you know looks unfamiliar — peel them off and the stem jumps back out.",
+    sample: "רבה · להם · מנה · אסמה",
+  },
+  {
+    href: "/learn/grammar/verbs",
+    status: "Grammar",
+    title: "The Verb Spine",
+    body: "Two verbs hold the Tafsir together: קאל \"he said\" and כאן \"he was.\" Learn how they flex — past-tense endings, present-tense prefixes — and the narrative opens up.",
+    sample: "קאל · קאלוא · יקול · כאן",
+  },
+  {
+    href: "/learn/on-ramp",
+    status: "Read",
+    title: "Read Your First Verses",
+    body: "Put it together. Read the first day of creation in Saadia's own Arabic — one clause at a time, word by word — then step straight into the full chapter.",
+    sample: "אול מא כ׳לק אללה · פכאן נור",
   },
   {
     href: "/learn/saadia-story",
@@ -61,6 +90,8 @@ export default function LearnHub() {
           required — start with the words you&apos;ll see most.
         </p>
       </header>
+
+      <GuidedPath />
 
       <ul className="space-y-5">
         {lessons.map((l) => {

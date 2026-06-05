@@ -1,13 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { Rating, type Grade } from "ts-fsrs";
-import { lookup, type Entry } from "@/lib/lookup";
+import { type Entry } from "@/lib/lookup";
+import { resolveDeckItem, type DeckItem } from "@/lib/deck";
 import { useWordStates } from "@/lib/wordState";
+import { useProgress } from "@/lib/progress";
 
 export function ReviewSession() {
   const { hydrated, dueKeys, gradeCard, counts } = useWordStates();
+  const { touchStreak } = useProgress();
   const [queue, setQueue] = useState<string[] | null>(null);
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
@@ -43,10 +46,11 @@ export function ReviewSession() {
   }
 
   const current = queue[index];
-  const entries = lookup(current);
+  const item = resolveDeckItem(current);
 
   const onGrade = (grade: Grade) => {
     gradeCard(current, grade);
+    touchStreak();
     setRevealed(false);
     setIndex((i) => i + 1);
   };
@@ -60,8 +64,7 @@ export function ReviewSession() {
     <Shell>
       <Progress index={index} total={queue.length} />
       <Card
-        token={current}
-        entries={entries}
+        item={item}
         revealed={revealed}
         onReveal={() => setRevealed(true)}
         onGrade={onGrade}
@@ -103,9 +106,11 @@ function EmptyState({
       <p className="text-ink/80 text-lg leading-relaxed">
         {totalLearning === 0 ? (
           <>
-            Nothing to review yet. Open a reader, tap a word, and mark it{" "}
-            <span className="text-amber-700 font-medium">Learning</span> to add
-            it to your queue.
+            Nothing to review yet. Take a lesson and tap{" "}
+            <span className="text-amber-700 font-medium">＋ Review</span>, or open
+            a reader and mark a word{" "}
+            <span className="text-amber-700 font-medium">Learning</span>, to start
+            your queue.
           </>
         ) : (
           <>
@@ -118,16 +123,16 @@ function EmptyState({
       </p>
       <div className="mt-8 flex gap-3 justify-center">
         <Link
-          href="/tafsir"
+          href="/learn"
           className="px-4 py-2 rounded-full bg-wine text-page text-sm uppercase tracking-wider hover:bg-wine/90 transition-colors"
         >
-          Open Tafsir
+          Take a lesson
         </Link>
         <Link
-          href="/advanced"
+          href="/tafsir"
           className="px-4 py-2 rounded-full border border-ink/15 text-ink/70 text-sm uppercase tracking-wider hover:border-wine/50 hover:text-wine transition-colors"
         >
-          Open Bahya
+          Open Tafsir
         </Link>
       </div>
     </div>
@@ -175,15 +180,13 @@ function Progress({ index, total }: { index: number; total: number }) {
 }
 
 function Card({
-  token,
-  entries,
+  item,
   revealed,
   onReveal,
   onGrade,
   onSkip,
 }: {
-  token: string;
-  entries: Entry[];
+  item: DeckItem;
   revealed: boolean;
   onReveal: () => void;
   onGrade: (g: Grade) => void;
@@ -196,68 +199,22 @@ function Card({
           className="font-hebrew text-5xl sm:text-6xl text-ink leading-tight"
           dir="rtl"
         >
-          {token}
+          {item.front}
         </span>
+        {item.kind === "cognate" && (
+          <span className="mt-3 text-xs uppercase tracking-[0.25em] text-muted">
+            Cognate
+          </span>
+        )}
+        {item.kind === "letter" && (
+          <span className="mt-3 text-xs uppercase tracking-[0.25em] text-muted">
+            Letter
+          </span>
+        )}
 
         {revealed && (
           <div className="mt-10 w-full max-w-md">
-            {entries.length === 0 ? (
-              <p className="text-sm text-muted italic">
-                No dictionary entry — grade from memory.
-              </p>
-            ) : (
-              <ul className="space-y-4" dir="rtl">
-                {entries.map((e) => (
-                  <li
-                    key={e.id}
-                    className="border-r-2 border-wine/40 pr-4 pl-2"
-                  >
-                    <div className="flex items-baseline gap-3 flex-wrap">
-                      {e.lemma_ar && (
-                        <span className="font-arabic text-lg text-ink/70">
-                          {e.lemma_ar}
-                        </span>
-                      )}
-                      {e.root && (
-                        <span className="text-xs text-muted font-mono">
-                          √{e.root}
-                        </span>
-                      )}
-                      {e.pos && (
-                        <span className="text-xs text-muted italic">
-                          {e.pos}
-                        </span>
-                      )}
-                      {e.source && (
-                        <span
-                          className="text-[10px] uppercase tracking-[0.2em] text-ink/70 border border-ink/15 rounded-sm px-1.5 py-0.5 ml-auto"
-                          title="Auto-extracted; verify before citing"
-                        >
-                          {e.source}
-                        </span>
-                      )}
-                    </div>
-                    {e.gloss_en && (
-                      <p
-                        dir="ltr"
-                        className={`mt-1.5 text-ink text-left ${
-                          e.source
-                            ? "text-[13px] leading-relaxed"
-                            : "text-[15px]"
-                        }`}
-                      >
-                        {e.gloss_en}
-                      </p>
-                    )}
-                    {e.gloss_he && (
-                      <p className="font-hebrew text-base text-muted mt-0.5">
-                        {e.gloss_he}
-                      </p>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            )}
+            <CardBack item={item} />
           </div>
         )}
       </div>
@@ -311,6 +268,115 @@ function Card({
         )}
       </div>
     </div>
+  );
+}
+
+function CardBack({ item }: { item: DeckItem }) {
+  if (item.kind === "word") {
+    return <WordBack entries={item.entries} />;
+  }
+  if (item.kind === "cognate") {
+    const c = item.cognate;
+    return (
+      <div className="text-center space-y-3">
+        <p className="text-2xl text-ink">
+          {c.modern_he}{" "}
+          <span className="text-base text-muted font-mono">
+            ({c.modern_translit})
+          </span>
+        </p>
+        <p dir="ltr" className="text-[15px] text-ink/80 italic">
+          {c.modern_en}
+        </p>
+        <p className="font-arabic text-xl text-wine" dir="rtl">
+          {c.arabic}{" "}
+          <span className="text-sm text-muted font-sans">
+            {c.arabic_translit}
+          </span>
+        </p>
+        <p
+          dir="ltr"
+          className="text-[13px] text-ink/65 leading-relaxed text-left pt-2 border-t border-ink/10"
+        >
+          {c.story}
+        </p>
+      </div>
+    );
+  }
+  if (item.kind === "letter") {
+    const l = item.letter;
+    return (
+      <div className="text-center space-y-2">
+        <p className="font-arabic text-4xl text-wine">{l.ar}</p>
+        <p className="text-sm text-muted font-mono">/{l.phoneme}/ · {l.name}</p>
+        <p className="pt-3 text-[13px] text-ink/70" dir="ltr">
+          e.g.{" "}
+          <span className="font-hebrew text-lg text-ink" dir="rtl">
+            {l.example_ja}
+          </span>{" "}
+          = {l.example_translit} — &ldquo;{l.example_gloss}&rdquo;
+        </p>
+      </div>
+    );
+  }
+  return (
+    <p className="text-sm text-muted italic">
+      No card data — grade from memory.
+    </p>
+  );
+}
+
+function WordBack({ entries }: { entries: Entry[] }) {
+  if (entries.length === 0) {
+    return (
+      <p className="text-sm text-muted italic">
+        No dictionary entry — grade from memory.
+      </p>
+    );
+  }
+  return (
+    <ul className="space-y-4" dir="rtl">
+      {entries.map((e) => (
+        <li key={e.id} className="border-r-2 border-wine/40 pr-4 pl-2">
+          <div className="flex items-baseline gap-3 flex-wrap">
+            {e.lemma_ar && (
+              <span className="font-arabic text-lg text-ink/70">
+                {e.lemma_ar}
+              </span>
+            )}
+            {e.root && (
+              <span className="text-xs text-muted font-mono">√{e.root}</span>
+            )}
+            {e.pos && (
+              <span className="text-xs text-muted italic">{e.pos}</span>
+            )}
+            {e.source && (
+              <span
+                className="text-[10px] uppercase tracking-[0.2em] text-ink/70 border border-ink/15 rounded-sm px-1.5 py-0.5 ml-auto"
+                title="Auto-extracted; verify before citing"
+              >
+                {e.source}
+              </span>
+            )}
+          </div>
+          {e.gloss_en && (
+            <p
+              dir="ltr"
+              className={`mt-1.5 text-ink text-left ${
+                e.source ? "text-[13px] leading-relaxed" : "text-[15px]"
+              }`}
+            >
+              {e.gloss_en}
+            </p>
+          )}
+          {e.gloss_he && (
+            <p className="font-hebrew text-base text-muted mt-0.5">
+              {e.gloss_he}
+            </p>
+          )}
+        </li>
+      ))}
+    </ul>
   );
 }
 
