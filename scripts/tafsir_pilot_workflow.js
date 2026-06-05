@@ -8,7 +8,10 @@ export const meta = {
 }
 
 const CHUNK = (args && args.chunk) || 45
-let total = (args && args.total) || 400
+// NOTE: the Workflow runner does not currently inject `args` into the script,
+// so this default is what actually runs. Size it to the staged residual; agents
+// whose slice falls past the residual end simply author nothing.
+let total = (args && args.total) || 450
 
 const MERGE_SCHEMA = {
   type: 'object',

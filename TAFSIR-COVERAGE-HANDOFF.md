@@ -4,23 +4,39 @@ Run from `~/Code/judeo-arabic-app`. The Saadia-Tafsir reader shares `dictionary-
 `dictionary-lane.json` with the Advanced reader, so every entry authored here also lifts the
 Advanced library (and vice versa).
 
-## State (2026-06-04)
-- Overall Tafsir hand-coverage **92.72%** (84.28% → 89.07% Devarim pass → 92.72% top-400 head).
-- Devarim ≈ 98.3% (done). The four remaining books carry the bulk of the misses.
-- lane = 5,768 entries. Commits: Devarim `1e5163d`, top-400 head `3ee6299`.
-- **Remaining to ~100% (whole Pentateuch): ~4,539 lemma groups** (re-run steps 1–3 below to
-  regenerate the worklist; the autopatch sweep keeps catching suffixed forms for free each pass).
+## State (2026-06-05)
+- Overall Tafsir hand-coverage **95.66%** (92.72% → Bereshit pass → 95.66%).
+- **Bereshit = 100.0% (0 misses) — done.** Devarim 98.45%. Per-book remaining:
+  shemot 92.22% (1,300 miss), vayikra 92.78% (884), bamidbar 93.31% (1,107), devarim 98.45% (233).
+- lane = **7,059 entries** (was 5,768). Commit this pass: see git log on `feat/advanced-reader-coverage`.
+- **Bug fixed this pass — `apply_dict_advanced.py` now dedups by CONTENT, not id.** The workflow
+  mints author ids as `taf-h-{start}-{i}`, which are NOT unique across runs, so the old id-equality
+  skip silently dropped ~345/400 genuinely-new entries every re-run (a 450-group batch was moving
+  coverage only +0.09%). The rewrite (a) mints a unique id on collision instead of skipping, and
+  (b) folds suffixed/prefixed misses (חמיר → חמירהם) into the existing stem's `variants[]`. Same
+  450-group batch then moved Bereshit +3.97% / overall +1.07%. Any future run benefits automatically.
+- **Caveat — the Workflow runner does NOT inject `args` into the script.** `args:{total,chunk}` is
+  ignored; the script's `let total = ... || 450` / `CHUNK || 45` defaults are what actually run.
+  To change batch size, edit `scripts/tafsir_pilot_workflow.js`. Reliable burst ≈ 10 author agents
+  (total≈450); a 19-agent burst hit the account session/usage limit mid-run and 15 agents authored
+  nothing — keep bursts small or watch for the limit.
+- **Remaining to ~100% (Shemot/Vayikra/Bamidbar): ~2,786 lemma groups** (re-run steps 1–3 per book
+  to regenerate the worklist; the autopatch sweep keeps catching suffixed forms for free each pass).
 
 ## The pipeline (all built, reused from the Bahya/advanced pass)
 1. `python3 scripts/stage_tafsir_misses.py all` (or a single book) → writes `data/_advanced_misses_grouped.json`
    (frequency-sorted lemma worklist; one book or whole corpus).
 2. `echo "[]" > data/_dict_advanced.json && echo "{}" > data/_dict_advanced_patch.json` (reset staging).
 3. `python3 scripts/autopatch_advanced_misses.py` → free suffix→existing-stem patches + `_advanced_misses_residual.json`.
-4. Author the residual via the workflow:
-   `Workflow({scriptPath:"scripts/tafsir_pilot_workflow.js", args:{total:<N>, chunk:45}})`
+4. Author the residual via the workflow (use the ABSOLUTE scriptPath; the Workflow runner resolves
+   relative to the session cwd, which may not be this repo):
+   `Workflow({scriptPath:"/Users/eliyahufreedman/Code/judeo-arabic-app/scripts/tafsir_pilot_workflow.js"})`
    — fan-out authoring agents (id prefix `taf-h-`), then a merge agent that concats → `apply_dict_advanced.py`
    → re-measures via `coverage_report.py` + `stage_tafsir_misses.py all`.
-   `total` = how many top-frequency residual groups to author this run (size it to your token budget).
+   `total`/`chunk` are EDITED IN THE SCRIPT (args are not injected — see caveat above); `total` = how
+   many top-frequency residual groups to author this run. Clear `data/_bahya_authored/` + reset
+   `_dict_advanced*.json` before each run, then re-stage that book and re-autopatch so the residual
+   only holds still-uncovered groups (the workflow always authors residual[0:total]).
 5. Repeat step 4 in chunks until `coverage_report.py` overall hand ≈ 100%; close the last ~2% tail
    (double-prefix / dup-lemma forms) with explicit patches like the Bahya tail did.
 
