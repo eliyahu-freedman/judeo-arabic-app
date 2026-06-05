@@ -5,10 +5,12 @@ Run from `~/Code/judeo-arabic-app`. The Saadia-Tafsir reader shares `dictionary-
 Advanced library (and vice versa).
 
 ## State (2026-06-05)
-- Overall Tafsir hand-coverage **97.21%** (92.72% → Bereshit pass → 95.66% → Bamidbar pass → 97.21%).
-- **Bereshit = 100.0% and Bamidbar = 100.0% (0 misses) — done.** Per-book remaining:
-  shemot 92.67% (~1,225 miss), vayikra 93.38% (~810), devarim 98.47% (~231).
-- lane = **7,900 entries** (Bamidbar pass: 7,059 → 7,453 → 7,900, +841 over two ~500-group bursts).
+- Overall Tafsir hand-coverage **98.31%** (92.72% → Bereshit → 95.66% → Bamidbar → 97.21% → Vayikra → 98.31%).
+- **Bereshit, Vayikra, Bamidbar all = 100.0% (0 misses) — done.** Per-book remaining:
+  shemot 93.1% (~1,150 surface miss), devarim 98.53% (~225). ~1,175 uncovered surface forms total.
+- lane = **8,380 entries** (Vayikra pass: 7,900 → 8,380, +480 in a SINGLE ~626-group burst —
+  10 author agents over the whole residual, total=660/CHUNK=66; folded 217 surfaces into 138
+  existing stems, +29 patch variants).
 - **Bamidbar took 2 workflow bursts** (961 residual groups → +394, then 501 tail groups → +447;
   the 2nd burst used `total=510, CHUNK=51` = 10 agents covering the whole frequency-1 tail at once).
   Commit this pass: see git log on `feat/advanced-reader-coverage`.
@@ -23,8 +25,9 @@ Advanced library (and vice versa).
   To change batch size, edit `scripts/tafsir_pilot_workflow.js`. Reliable burst ≈ 10 author agents
   (total≈450); a 19-agent burst hit the account session/usage limit mid-run and 15 agents authored
   nothing — keep bursts small or watch for the limit.
-- **Remaining to ~100% (Shemot/Vayikra/Devarim): ~1,778 lemma groups** (re-run steps 1–3 per book
+- **Remaining to ~100% (Shemot then Devarim): ~1,116 lemma groups** (re-run steps 1–3 per book
   to regenerate the worklist; the autopatch sweep keeps catching suffixed forms for free each pass).
+  Shemot is the larger book; expect ~2 bursts. Devarim is a short tail (~225 surfaces).
 
 ## The pipeline (all built, reused from the Bahya/advanced pass)
 1. `python3 scripts/stage_tafsir_misses.py all` (or a single book) → writes `data/_advanced_misses_grouped.json`
