@@ -201,9 +201,7 @@ export default function RootLayout({
               <em>Moreh Nevukhim</em>; Saadia,{" "}
               <em>Kitāb al-Amānāt wal-Iʿtiqādāt</em>; Judah Halevi,{" "}
               <em>Kitāb al-Khazarī</em> — Judeo-Arabic page images from the
-              Friedberg Jewish Manuscript Society. Manuscript witnesses for
-              these works are searchable via GenizahSearch (Dicta),{" "}
-              genizahsearch.com. A small set of
+              Friedberg Jewish Manuscript Society. A small set of
               &ldquo;Tafsir twist&rdquo; divergence notes cite Joshua Blau
               ז״ל&apos;s <em>Dictionary of Medieval Judaeo-Arabic Texts</em>{" "}
               (Jerusalem, 2006). Edited by Eli Freedman.{" "}
