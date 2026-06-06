@@ -122,14 +122,6 @@ export function AdvancedReader({ data }: { data: WorkData }) {
           {data.intro ??
             `${data.work} in the original Judeo-Arabic, with a working English translation by ${data.english_translator}. Hover a phrase to see its English light up; tap any word for a gloss.`}
         </p>
-        <a
-          href="https://genizahsearch.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-3 inline-block text-sm text-wine hover:underline"
-        >
-          Find {data.work}&rsquo;s manuscript witnesses in the Cairo Genizah &rarr;
-        </a>
       </header>
 
       <div className="sticky top-0 z-10 bg-parchment/90 backdrop-blur supports-[backdrop-filter]:bg-parchment/70 -mx-6 px-6 py-3 border-y border-ink/10 flex flex-wrap items-center gap-2 text-sm">
