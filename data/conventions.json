@@ -1,0 +1,52 @@
+{
+  "id": "conventions",
+  "title": "Ambiguities & Saadianic Conventions",
+  "subtitle": "מא לא ינקט — what the dots don't tell you",
+  "intro": "The first three lessons taught the tidy version: one Hebrew letter, one gershayim, one Arabic sound. Real manuscripts and printed editions are messier. Scribes drop the dots, the same sound gets written two different ways, and Saadia spells some words by Arabic rules rather than Hebrew ones. None of this is hard once you know to expect it — and the tap-to-define reader resolves it for you. This lesson is the bridge from the chart to the page.",
+  "sections": [
+    {
+      "heading": "The dot is optional — so one letter, two sounds",
+      "body": "The gershayim that distinguishes خ from ك, ث from ت, ذ from د, غ from ج, ظ from ط is frequently left off — by scribes in a hurry and by typesetters alike. That means a bare letter can stand for either of two Arabic sounds, and you decide by the root and by the Hebrew it is translating. You already met خ as כ׳; here is the same word with the dot dropped.",
+      "examples": [
+        { "ja": "כלק", "ar": "خلق", "translit": "khalaq", "en": "he created", "note": "Fully it is כ׳לק (خ). With the dot dropped it looks identical to a word in ك — but the root √ḫ-l-q and the Hebrew ברא settle it." },
+        { "ja": "כמסה", "ar": "خمسة", "translit": "khamsa", "en": "five", "note": "Attested in the Tafsir with the خ written as a plain כ, no mark. Same letter, you supply the kh." },
+        { "ja": "תמר", "ar": "ثمر", "translit": "thamar", "en": "fruit", "note": "Dotted it is ת׳מר (ث). Undotted, it overlaps with תמר = تمر, 'dates' — context decides." },
+        { "ja": "דלך", "ar": "ذلك", "translit": "dhālik", "en": "that", "note": "The everyday demonstrative; the ذ is so common it is constantly written as a bare ד." }
+      ]
+    },
+    {
+      "heading": "Two conventions for the same sound",
+      "body": "Judeo-Arabic never had one committee. The same Arabic phoneme is written with different Hebrew letters in different traditions — and you will meet both. The two that matter most: خ (kh) and غ (gh).",
+      "examples": [
+        { "ja": "ח׳לק · כ׳לק", "ar": "خلق", "translit": "khalaq", "en": "he created — written two ways", "note": "خ (kh) appears as ח׳ in many manuscripts (the form in Lesson 2) and as כ׳ in others, including this site's dictionary. Same sound, two letters." },
+        { "ja": "ע׳מר · ג׳מר", "ar": "غمر", "translit": "ghamr", "en": "depth, abyss — written two ways", "note": "The later, standardized convention writes غ (gh) as ע׳ (Lesson 2). The older, Saadianic convention writes it as ג׳ — the very mark that elsewhere means ج (j)." },
+        { "ja": "ג׳", "ar": "ج / غ", "translit": "j or gh", "en": "the same mark, two values", "note": "Because ג׳ can be ج in the later system and غ in the older one, this one symbol is genuinely ambiguous across traditions. Root and meaning disambiguate." }
+      ]
+    },
+    {
+      "heading": "Saadia spells by Arabic rules",
+      "body": "Saadia's orthography (the classical Judeo-Arabic norm) follows Arabic spelling closely rather than writing things the Hebrew way. Three habits to recognize on sight.",
+      "examples": [
+        { "ja": "מוסי", "ar": "موسى", "translit": "Mūsā", "en": "Moses", "note": "Final ـى (alif maqṣūra) is written with a yod — sometimes יod + gershayim (מוסי׳). It is an 'aa' sound, not 'ee'." },
+        { "ja": "סנה", "ar": "سنة", "translit": "sana", "en": "year", "note": "Final ة (tāʾ marbūṭa) is written with ה, exactly as it sounds in pause. In construct it can surface as ת." },
+        { "ja": "אלסמאואת", "ar": "السماوات", "translit": "as-samāwāt", "en": "the heavens", "note": "Long ā is written plene with an alif (א), following Arabic spelling — not clipped as Hebrew might." }
+      ]
+    },
+    {
+      "heading": "How to read when in doubt",
+      "body": "You do not need to memorize every variant. When an undotted letter could be two sounds, try both Arabic values, then let the triliteral root and the parallel Hebrew verse pick the winner — that is exactly how a trained reader does it. In this site's reader, tapping any word does that work for you: it gives the root, the normalized Arabic, and the gloss.",
+      "examples": [
+        { "ja": "כלק → √ḫ-l-q", "en": "create", "note": "Bare כלק: test ك and خ. Only √ḫ-l-q is a real verb meaning anything here, and the Hebrew is ברא. Answer: خ." },
+        { "ja": "תאבת → √th-b-t", "ar": "ثابت", "translit": "thābit", "en": "firm, fixed", "note": "Bare תאבת: test ت and ث. The root √th-b-t ('be firm') is the live one." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "q": "Why can a single Hebrew letter stand for two different Arabic sounds in Judeo-Arabic?", "choices": ["The distinguishing dot (gershayim) is often dropped", "Hebrew has more letters than Arabic", "Saadia invented new letters", "The vowels change the consonant"], "choicesKind": "en", "correctIdx": 0, "explanation": "The gershayim that separates خ from ك, ث from ت, etc. is frequently left off, so context and root must disambiguate." },
+    { "q": "Undotted כלק most likely represents which Arabic word?", "top": { "text": "כלק", "kind": "ja" }, "choices": ["خلق (he created)", "كلق (no such word)", "قلق (anxiety)", "حلق (throat)"], "choicesKind": "en", "correctIdx": 0, "explanation": "The root √ḫ-l-q and the Hebrew ברא it renders point to خلق, 'he created' — the dot on כ has simply been dropped." },
+    { "q": "In the later standardized convention, غ (gh) is written as…", "top": { "text": "غ", "kind": "ar" }, "choices": ["ע׳", "ג׳", "ח׳", "ק׳"], "choicesKind": "ja", "correctIdx": 0, "explanation": "The standardized system writes غ as ע׳ (ayin + gershayim). The older Saadianic convention used ג׳ instead." },
+    { "q": "The Saadianic spelling מוסי ends in a yod. How is it pronounced?", "top": { "text": "מוסי", "kind": "ja" }, "choices": ["Mūsā (an 'aa' ending)", "Mūsī (an 'ee' ending)", "Mūsay", "Mūs"], "choicesKind": "en", "correctIdx": 0, "explanation": "The final yod writes alif maqṣūra (ـى), an ā vowel — Mūsā, 'Moses' — not an ī." },
+    { "q": "Final ة (tāʾ marbūṭa), as in سنة 'year', is normally written in Judeo-Arabic with which letter?", "top": { "text": "سنة", "kind": "ar" }, "choices": ["ה (סנה)", "ת (סנת)", "א (סנא)", "ע (סנע)"], "choicesKind": "ja", "correctIdx": 0, "explanation": "Tāʾ marbūṭa is normally written ה (סנה), matching its pausal pronunciation; in construct it can surface as ת." },
+    { "q": "You see the bare mark ג׳. Why is it ambiguous?", "top": { "text": "ג׳", "kind": "ja" }, "choices": ["It can mean ج (j) or غ (gh) depending on the tradition", "It is never used in real texts", "It only appears in modern Hebrew", "It marks a vowel, not a consonant"], "choicesKind": "en", "correctIdx": 0, "explanation": "ג׳ is ج in the later system but غ in the older Saadianic one — the same symbol, two values, resolved by root and meaning." }
+  ]
+}

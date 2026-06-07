@@ -117,10 +117,10 @@ export default function RootLayout({
             <ul className="flex gap-7 text-sm uppercase tracking-widest text-ink/70">
               <li>
                 <Link
-                  href="/alphabet"
+                  href="/foundations"
                   className="hover:text-wine transition-colors"
                 >
-                  Alphabet
+                  Foundations
                 </Link>
               </li>
               <li>

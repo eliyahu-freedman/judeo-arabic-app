@@ -17,6 +17,12 @@ export const CURRICULUM: CurriculumStep[] = [
     blurb: "Read Hebrew letters as Arabic sounds.",
   },
   {
+    id: "conventions",
+    title: "Ambiguities & Saadianic Conventions",
+    href: "/learn/conventions",
+    blurb: "Dropped dots, rival spellings, Saadia's habits.",
+  },
+  {
     id: "first-50",
     title: "First 50 Words",
     href: "/learn/first-50",
@@ -51,6 +57,12 @@ export const CURRICULUM: CurriculumStep[] = [
     title: "The Verb Spine",
     href: "/learn/grammar/verbs",
     blurb: "קאל, כאן, and the prefix conjugation.",
+  },
+  {
+    id: "first-sentence",
+    title: "Read Your First Sentence",
+    href: "/learn/first-sentence",
+    blurb: "Decode Saadia's Genesis 1:1, letter by letter.",
   },
   {
     id: "on-ramp",
