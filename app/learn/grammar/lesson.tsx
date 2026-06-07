@@ -76,17 +76,27 @@ function makeBankGenerator(items: GrammarQuizItem[]): QuizGenerator {
   };
 }
 
-export function GrammarLesson({ data }: { data: GrammarData }) {
+export function GrammarLesson({
+  data,
+  backHref = "/learn",
+  backLabel = "Learn",
+  eyebrowSuffix = "grammar",
+}: {
+  data: GrammarData;
+  backHref?: string;
+  backLabel?: string;
+  eyebrowSuffix?: string;
+}) {
   const { markLessonDone, touchStreak } = useProgress();
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-16 pb-28">
       <header className="mb-10">
         <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
-          <Link href="/learn" className="hover:text-wine">
-            Learn
+          <Link href={backHref} className="hover:text-wine">
+            {backLabel}
           </Link>{" "}
-          · grammar
+          · {eyebrowSuffix}
         </p>
         <h1 className="text-4xl tracking-tight text-ink">{data.title}</h1>
         <p dir="rtl" className="font-hebrew text-2xl text-wine/80 mt-2">

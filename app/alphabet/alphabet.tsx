@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { Quiz, type QuizQuestion } from "@/components/Quiz";
 import { deckKeyForLetter } from "@/lib/deck";
 import { useWordStates } from "@/lib/wordState";
@@ -27,7 +28,7 @@ export type Lesson = {
 
 export type AlphabetData = {
   lessons: Record<string, Lesson>;
-  future_lessons: { id: string; title: string; status: string }[];
+  future_lessons: { id: string; title: string; status: string; href?: string }[];
 };
 
 type Mode = "study" | "drill";
@@ -60,9 +61,11 @@ export function AlphabetUI({ data }: { data: AlphabetData }) {
           The <span className="text-wine italic">Alphabet</span>
         </h1>
         <p className="mt-4 text-base text-ink/70 leading-relaxed max-w-xl">
-          Three lessons on the Hebrew letters used to write Arabic. Study the
-          chart, then drill yourself across mixed question types: recognition,
-          production, word meaning, and transliteration.
+          Five lessons in all. The first three teach the Hebrew letters used to
+          write Arabic as a chart you can study and drill — recognition,
+          production, word meaning, transliteration. Lessons 4 and 5 carry you
+          from the tidy chart to a messy real page, and then to your first
+          sentence of Saadia.
         </p>
       </header>
 
@@ -101,15 +104,25 @@ export function AlphabetUI({ data }: { data: AlphabetData }) {
         >
           All · Mixed
         </button>
-        {data.future_lessons.map((l) => (
-          <button
-            key={l.id}
-            disabled
-            className="px-3 py-1 rounded-full border text-xs uppercase tracking-wider opacity-40 cursor-not-allowed bg-page text-ink/70 border-ink/15"
-          >
-            {l.id}. {l.title} <span className="opacity-70">(soon)</span>
-          </button>
-        ))}
+        {data.future_lessons.map((l) =>
+          l.href ? (
+            <Link
+              key={l.id}
+              href={l.href}
+              className="px-3 py-1 rounded-full border text-xs uppercase tracking-wider transition-all bg-page text-ink/70 border-ink/15 hover:border-wine/50 hover:text-wine"
+            >
+              {l.id}. {l.title}
+            </Link>
+          ) : (
+            <button
+              key={l.id}
+              disabled
+              className="px-3 py-1 rounded-full border text-xs uppercase tracking-wider opacity-40 cursor-not-allowed bg-page text-ink/70 border-ink/15"
+            >
+              {l.id}. {l.title} <span className="opacity-70">(soon)</span>
+            </button>
+          ),
+        )}
       </nav>
 
       <section className="rounded-md bg-page border border-ink/10 p-7">

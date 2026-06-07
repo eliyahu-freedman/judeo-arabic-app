@@ -1,0 +1,79 @@
+{
+  "id": "first-sentence",
+  "title": "Read Your First Sentence",
+  "intro": "Everything so far — the letters, the diacritics, the article, the conventions — comes together in one line. This is the opening of Saadia's Tafsir, Genesis 1:1, in his own Judeo-Arabic. We'll take it one word at a time, letter by letter, until the whole sentence is yours. Then you step into the reader.",
+  "sentence": {
+    "ja": "אול מא כ׳לק אללה אלסמאואת ואלארץ׳",
+    "translit": "awwal mā khalaq Allāh as-samāwāt wa-l-arḍ",
+    "en": "The first thing God created: the heavens and the earth.",
+    "ref": { "book": "Bereshit", "ch": 1, "v": 1 }
+  },
+  "words": [
+    {
+      "ja": "אול",
+      "translit": "awwal",
+      "en": "first",
+      "letters": [
+        { "ja": "א", "sound": "a" },
+        { "ja": "ו", "sound": "ww" },
+        { "ja": "ל", "sound": "l" }
+      ],
+      "note": "Three letters you know from Lesson 1. The ו does double duty as the doubled w."
+    },
+    {
+      "ja": "מא",
+      "translit": "mā",
+      "en": "that which",
+      "letters": [
+        { "ja": "מ", "sound": "m" },
+        { "ja": "א", "sound": "ā" }
+      ],
+      "note": "אול מא together = \"the first thing that…\" — Saadia's Arabic way into בראשית."
+    },
+    {
+      "ja": "כ׳לק",
+      "translit": "khalaq",
+      "en": "created",
+      "letters": [
+        { "ja": "כ׳", "sound": "kh" },
+        { "ja": "ל", "sound": "l" },
+        { "ja": "ק", "sound": "q" }
+      ],
+      "note": "The gershayim on כ makes kh (خ) — Lesson 2. Root √ḫ-l-q; this is Saadia's word for Hebrew ברא. Drop the dot and you'd see plain כלק (Lesson 4)."
+    },
+    {
+      "ja": "אללה",
+      "translit": "Allāh",
+      "en": "God",
+      "letters": [
+        { "ja": "א", "sound": "a" },
+        { "ja": "ל", "sound": "l" },
+        { "ja": "ל", "sound": "l" },
+        { "ja": "ה", "sound": "āh" }
+      ],
+      "note": "It opens with אל, but here that isn't the article — it's the name Allāh itself."
+    },
+    {
+      "ja": "אלסמאואת",
+      "translit": "as-samāwāt",
+      "en": "the heavens",
+      "letters": [
+        { "ja": "אל", "sound": "the" },
+        { "ja": "סמאואת", "sound": "samāwāt" }
+      ],
+      "note": "אל = the (Lesson 3); ס is a sun letter, so it's said as-samāwāt. The ־את ending is the plural: heavens."
+    },
+    {
+      "ja": "ואלארץ׳",
+      "translit": "wa-l-arḍ",
+      "en": "and the earth",
+      "letters": [
+        { "ja": "ו", "sound": "wa (and)" },
+        { "ja": "אל", "sound": "the" },
+        { "ja": "ארץ׳", "sound": "arḍ" }
+      ],
+      "note": "ו = and, אל = the, ארץ׳ = arḍ. The dot on the final ץ makes ض (emphatic d) — Lesson 2."
+    }
+  ],
+  "finish": { "href": "/learn/on-ramp", "label": "Read your first verses" }
+}

@@ -25,7 +25,7 @@ const stages = [
     numeral: "I",
     eyebrow: "Start here",
     eyebrowEmphasis: true,
-    href: "/alphabet",
+    href: "/foundations",
     title: "Foundations",
     subtitle: "Script · Cognates · First 50",
     body: "Hebrew letters as Arabic phonemes (the diacritics, the article אל), the Hebrew–Arabic and Aramaic–Arabic cognates you already know, and the 50 words that show up most across Saadia's Tafsir.",
