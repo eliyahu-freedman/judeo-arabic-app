@@ -51,6 +51,10 @@ export function lookupWorkNote(
   if (!notes.length) return null;
 
   const cands = new Set(candidateForms(rawToken));
+  // Prefer a note whose lemma_ja IS the tapped form over one that only matched
+  // via an inflected variant (mirrors rankHits in lib/lookup.ts).
+  const lemmaMatch = notes.find((n) => cands.has(normalizeFinals(n.lemma_ja)));
+  if (lemmaMatch) return lemmaMatch;
   for (const n of notes) {
     const keys = [n.lemma_ja, ...(n.variants ?? [])].map(normalizeFinals);
     if (keys.some((k) => cands.has(k) || cands.has(normalizeFinals(k)))) {

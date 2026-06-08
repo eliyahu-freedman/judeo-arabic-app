@@ -174,6 +174,23 @@ export function candidateForms(rawToken: string): string[] {
   return Array.from(new Set([...triesArr, ...triesArr.map(normalizeFinals)]));
 }
 
+/**
+ * Order a candidate's hits so the most precise entry renders first (the reader
+ * shows hits[0] as the headword). An entry whose lemma_ja IS the tapped form
+ * (exact citation-form match) beats one that only matched via an inflected
+ * `variants[]` entry; ties break to the shorter lemma. This means a proper base
+ * entry always wins over a residual conflated/inflected entry that merely lists
+ * the base form as a variant — the same defect the data cleanup removes.
+ */
+function rankHits(hits: Entry[], t: string): Entry[] {
+  return [...hits].sort((a, b) => {
+    const ax = normalizeFinals(a.lemma_ja) === t ? 0 : 1;
+    const bx = normalizeFinals(b.lemma_ja) === t ? 0 : 1;
+    if (ax !== bx) return ax - bx;
+    return normalizeFinals(a.lemma_ja).length - normalizeFinals(b.lemma_ja).length;
+  });
+}
+
 export function lookup(rawToken: string): Entry[] {
   const tok = stripPunct(rawToken);
   if (!tok) return [];
@@ -188,7 +205,7 @@ export function lookup(rawToken: string): Entry[] {
         normalizeFinals(e.lemma_ja) === t ||
         (e.variants && e.variants.some((v) => normalizeFinals(v) === t)),
     );
-    if (hits.length) return hits;
+    if (hits.length) return rankHits(hits, t);
   }
   // Priority 2: hand-curated Lane-cited dictionary (top-frequency tokens).
   // Walks the same candidate chain so prefixed variants resolve correctly.
@@ -198,7 +215,7 @@ export function lookup(rawToken: string): Entry[] {
         normalizeFinals(e.lemma_ja) === t ||
         (e.variants && e.variants.some((v) => normalizeFinals(v) === t)),
     );
-    if (hits.length) return hits;
+    if (hits.length) return rankHits(hits, t);
   }
   // (Priority 3, the auto-extracted Camel-tools fallback, has been retired —
   // hand coverage now exceeds 80%; see the import note at the top of this file.)
