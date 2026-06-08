@@ -37,7 +37,7 @@ Each group = {key, ar, count, texts, surfaces[]}. \`key\` is a prefix-stripped s
 
 STEP 2 — author ONE entry per group, an object with EXACTLY these fields:
   id        unique string "adv-b-r${round}-${start}-<i>" (i = index within your slice)
-  lemma_ja  a clean Hebrew-script Judaeo-Arabic citation form. NOTE: \`key\` is sometimes a BROKEN stem because a radical ב/ל/כ/פ/ו or אל was wrongly stripped (e.g. surface פתיחה reduced to key תיחה). When \`key\` looks broken, use the real surface form as lemma_ja instead.
+  lemma_ja  the BASE CITATION form in Hebrew-script Judaeo-Arabic — singular, no article אל-, no pronominal suffix, no proclitic; an Arabic verb's citation form is the bare 3ms perfect; a feminine noun keeps its tā-marbūṭa (final ה). NEVER put an inflected/suffixed surface in lemma_ja (that creates the "tap base word → see possessed gloss" bug; lint: scripts/find_inflected_lemmas.py). The inflected surfaces all go in variants[] (STEP 2 below). NOTE: \`key\` is sometimes a BROKEN stem because a radical ב/ל/כ/פ/ו or אל was wrongly stripped (e.g. surface פתיחה reduced to key תיחה); when \`key\` looks broken, derive the base from the real surface form (e.g. lemma_ja=פתיחה), not the broken key.
   lemma_ar  voweled classical Arabic (start from \`ar\`, add ḥarakāt when confident)
   root      hyphenated radicals with ʿ/ʾ, e.g. "ʕ-l-m", "w-ḥ-d", "ʾ-m-n"
   pos       part of speech ("noun","verb","adjective","particle","proper noun", etc.)

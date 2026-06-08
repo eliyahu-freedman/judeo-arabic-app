@@ -55,7 +55,8 @@ You will receive a batch of JA tokens with frequency counts and short example co
 ENTRY SCHEMA — return strictly this JSON shape:
 {
   "id": "kebab-case-unique-slug",          // ascii, e.g. "kana_was", "ibn", "bilad"
-  "lemma_ja": "exact JA surface form",     // Hebrew letters, the token as it appears in the corpus
+  "lemma_ja": "BASE citation form",        // Hebrew letters: singular, no article, no pronominal suffix, no proclitic. NOT the raw inflected surface — that goes in variants[].
+  "variants": ["surface form(s)"],         // every inflected/prefixed/suffixed surface as it appears in the corpus, so lookups still hit. Equal-or-MORE inflected than lemma_ja only.
   "lemma_ar": "standard Arabic",           // with diacritics where helpful
   "root": "x-y-z",                         // tri- or quadri-radical, hyphenated, ISO transliteration (e.g. "k-w-n", "b-n-y", "ʕ-l-m")
   "pos": "noun (m.) | noun (f.) | verb | particle | preposition | conjunction | pronoun | adverb | proper noun | ...",
@@ -67,7 +68,7 @@ ENTRY SCHEMA — return strictly this JSON shape:
 
 RULES:
 - Translate the STANDARD ARABIC sense. If the user thinks Saadia might use the word in a special sense, they will check the divergence file. Your job here is the baseline classical meaning.
-- If the surface form is clearly an inflected form (e.g. verb conjugated for 1sg/3pl, noun with pronoun suffix), give the entry FOR THE LEMMA (uninflected base form), and use `notes` to say "1sg perf. of ROOT" etc. Set `lemma_ja` to the surface form as supplied (so lookups hit), but lemma_ar / root / gloss reflect the base.
+- INVARIANT (critical): `lemma_ja` is ALWAYS the BASE CITATION form — singular, no definite article אל-, no pronominal/object suffix (-ה/-הא/-הם/-ך/-נא/-י…), no proclitic (ו/ב/ל/כ/פ). For an Arabic verb the citation form is the bare 3ms perfect (קאל, כתב). A feminine noun's tā-marbūṭa (final ה) IS part of the base — keep it. If the supplied surface is inflected, put that surface (and any others) in `variants[]` so lookups still hit, and write lemma_ar / root / gloss_en / gloss_he for the BASE sense — NEVER the possessed/bound sense ("his X", "your X", "+ suffix"). Use `notes` for "pl. of X", "often + suffix", etc. Violations are caught by scripts/find_inflected_lemmas.py (tier A).
 - For biblical proper names (Pharaoh, Moses, Jacob, Joseph, Aaron, Abraham, Israel, Egypt, etc.), pos = "proper noun"; root = "—"; gloss is the English/Hebrew name; notes can give the Hebrew biblical equivalent (פרעה, משה, etc.).
 - For function words (לא, ת'ם, או, קד, הו, אנא, יא, אד'א, חתי, פלמא, ענד, בעד, etc.), pos = "particle" / "conjunction" / "preposition" / "pronoun" / "adverb"; root = "—"; gloss is the function (e.g. "negation; not", "then, thereupon", "or").
 - Hebrew gloss should use natural Hebrew vocabulary readers expect from a Tanakh-adjacent register. For function words, give the Hebrew functional equivalent (לא, אז, או, כבר, הוא, אני, הו!, אם/כאשר, עד, כאשר, אצל, אחרי).
