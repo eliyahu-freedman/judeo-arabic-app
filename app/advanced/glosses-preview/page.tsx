@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 type AlignedSegment = {
   ja: string;
-  he: string;
+  he?: string;
   en: string;
   isHeader?: boolean;
 };
