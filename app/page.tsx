@@ -8,6 +8,7 @@ import {
   rangeHref,
 } from "@/lib/parsha";
 import { ReturningRail } from "@/components/ReturningRail";
+import { corpusStats, fmt } from "@/lib/corpusStats";
 
 export const metadata: Metadata = {
   alternates: {
@@ -64,7 +65,7 @@ export default function Home() {
           >
             <div className="flex flex-col items-start justify-between gap-2 sm:flex-row sm:items-center">
               <div className="flex items-baseline gap-4">
-                <span className="text-[10px] font-bold uppercase tracking-[0.22em] text-wine">
+                <span className="label label-accent">
                   This week · {ALIYAH_DAY_LABELS[reading.aliyahNumber - 1]} ·{" "}
                   {ALIYAH_LABELS[reading.aliyahNumber - 1]}
                 </span>
@@ -97,26 +98,87 @@ export default function Home() {
         </div>
       )}
 
-      {/* Editorial hero — left-aligned, focused */}
-      <header className="mx-auto max-w-3xl px-6 pt-16 pb-12 sm:pt-24">
-        <h1 className="text-4xl sm:text-5xl tracking-tight leading-tight">
-          Learn to read{" "}
-          <em className="font-normal italic text-wine">Judeo-Arabic.</em>
+      {/* Editorial hero — instrument-first, with the learning path as the
+          clear secondary register. */}
+      <header className="mx-auto max-w-3xl px-6 pt-16 pb-10 sm:pt-24">
+        <p className="label label-accent mb-5">
+          A digital reader &amp; lexicon
+        </p>
+        <h1 className="display text-4xl leading-tight sm:text-5xl">
+          The medieval{" "}
+          <em className="font-normal italic text-wine">Judeo-Arabic</em>{" "}
+          library, read in the original.
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/75">
-          A three-stage curriculum for Hebrew readers. Start with the script
-          and the cognates you already know, then read Saadia&apos;s Tafsir
-          verse-by-verse, then open the library — Bahya, Rambam, Halevi,
-          Qirqisani, and more. Every text appears with parallel translations
-          and a tap-to-define dictionary.
+          Saadia Gaon&apos;s Tafsir on the whole Pentateuch and a growing shelf
+          of classical prose — Bahya, Rambam, Halevi, Qirqisani — each presented
+          in the Hebrew-script Arabic original with parallel Hebrew and English
+          and a tap-to-define lexicon drawn from Lane and Blau.{" "}
+          <span className="text-ink/90">
+            New to the script? A three-stage path for Hebrew readers starts at
+            the alphabet.
+          </span>
         </p>
+        <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
+          <Link
+            href="/tafsir/bereshit/1"
+            className="inline-flex items-center gap-2 rounded-sm bg-wine px-5 py-2.5 text-sm font-semibold text-parchment transition-colors hover:bg-wine-700"
+          >
+            Open the Tafsir reader
+            <span aria-hidden>→</span>
+          </Link>
+          <Link
+            href="/foundations"
+            className="text-sm font-semibold text-wine underline-offset-4 hover:underline"
+          >
+            Start from the alphabet
+          </Link>
+        </div>
       </header>
+
+      {/* Corpus credentials — the single most "reference database" touch.
+          Figures come from lib/corpusStats (computed at build from the same
+          corpus index and dictionary the app ships). */}
+      <section className="mx-auto max-w-5xl px-6 pb-12">
+        <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-sm border border-ink/10 bg-ink/10 sm:grid-cols-4">
+          {[
+            {
+              n: fmt(corpusStats.totalTokens),
+              label: "words indexed",
+              sub: `across ${corpusStats.chapters} Tafsir chapters`,
+            },
+            {
+              n: fmt(corpusStats.dictionaryEntries),
+              label: "lexicon entries",
+              sub: "glossed from Lane & Blau",
+            },
+            {
+              n: fmt(corpusStats.uniqueRoots),
+              label: "Arabic roots",
+              sub: "represented in the lexicon",
+            },
+            {
+              n: corpusStats.fullPentateuch
+                ? "5 / 5"
+                : `${corpusStats.books}`,
+              label: "books of the Torah",
+              sub: "complete, verse-by-verse",
+            },
+          ].map((s) => (
+            <div key={s.label} className="bg-parchment px-5 py-6">
+              <dd className="display text-3xl text-wine sm:text-4xl">{s.n}</dd>
+              <dt className="mt-2 text-sm font-semibold text-ink">{s.label}</dt>
+              <p className="mt-0.5 text-xs leading-snug text-muted">{s.sub}</p>
+            </div>
+          ))}
+        </dl>
+      </section>
 
       {/* Parallel-text preview */}
       <section className="mx-auto max-w-5xl border-y border-ink/10 px-6 py-16 sm:py-20">
         <div className="mb-10 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.22em] text-wine">
+            <p className="mb-2 label label-accent">
               Preview · Reader
             </p>
             <h2 className="text-2xl sm:text-3xl">Saadia, Bereshit 1:1</h2>
@@ -143,7 +205,7 @@ export default function Home() {
 
               <div className="mt-8 border-l-2 border-wine bg-parchment/60 p-5">
                 <div className="mb-4 flex items-start justify-between gap-4">
-                  <span className="text-[10px] font-bold uppercase tracking-[0.22em] text-muted">
+                  <span className="label">
                     Gloss
                   </span>
                   <div className="text-right">
@@ -206,7 +268,7 @@ export default function Home() {
           {/* Translation + commentary */}
           <div className="flex flex-col justify-between">
             <div>
-              <p className="mb-3 text-[10px] font-bold uppercase tracking-[0.22em] text-wine">
+              <p className="mb-3 label label-accent">
                 Translation
               </p>
               <p className="text-xl sm:text-2xl italic leading-relaxed">

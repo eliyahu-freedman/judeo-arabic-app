@@ -31,10 +31,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* RTL containers (Hebrew/Arabic) — bump the line-height so nikkud and
-   cantillation marks don't crash into the next line. */
+/* RTL containers default to a comfortable leading. Hebrew vs. Arabic get
+   their own metrics below — vocalized Hebrew (nikkud/teʿamim) needs more
+   vertical room than Amiri's Arabic, which sets tighter and taller. */
 [dir="rtl"] {
-  line-height: 1.9;
+  line-height: 1.85;
+}
+
+/* Hebrew-script text (Noto Serif Hebrew): looser leading so nikkud and
+   cantillation marks don't crash into the line above. */
+.font-hebrew {
+  line-height: 1.95;
+  letter-spacing: 0;
+}
+
+/* Arabic-script glosses (Amiri): tighter leading, a hair of tracking so the
+   joined script breathes against the Hebrew it sits beside. */
+.font-arabic {
+  line-height: 1.7;
+  letter-spacing: 0.005em;
 }
 
 /* Make the JA gershayim apostrophe a touch less obtrusive than ASCII
@@ -42,4 +57,71 @@ body {
 .ja-text {
   font-feature-settings: "ss01";
   letter-spacing: 0.01em;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Scholarly type primitives. The site previously hand-rolled section labels
+   as `text-[10px] uppercase tracking-[0.22em]` in dozens of places; these
+   classes make that vocabulary canonical so the whole site shares one
+   reference-grade type system.
+   ───────────────────────────────────────────────────────────────────────── */
+
+/* Small-caps section label / eyebrow. The atom of the apparatus. */
+.label {
+  font-size: 0.625rem; /* 10px */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  line-height: 1.4;
+  color: var(--color-muted);
+}
+.label-accent {
+  color: var(--color-wine);
+}
+
+/* Display heading face for the masthead nameplate and major page titles —
+   keeps Lora for body but lets headings carry a bit more authority. */
+.display {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  line-height: 1.1;
+}
+
+/* Apparatus / sidenote block — the editorial-footnote voice used for
+   provenance, scope notes, and "in Saadia's Tafsir" commentary. */
+.apparatus {
+  border-left: 2px solid var(--color-wine);
+  background: color-mix(in srgb, var(--color-parchment) 60%, transparent);
+  padding: 0.75rem 1.25rem;
+  font-size: 0.8125rem; /* 13px */
+  line-height: 1.7;
+  color: color-mix(in srgb, var(--color-ink) 78%, transparent);
+}
+
+/* Reference table — the structured-data look (root / POS / gloss grids,
+   the bibliography, any future lemma pages) given one authoritative grammar. */
+.scholarly-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+.scholarly-table th {
+  text-align: left;
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--color-muted);
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-ink) 12%, transparent);
+}
+.scholarly-table td {
+  padding: 0.625rem 0.75rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-ink) 8%, transparent);
+  vertical-align: top;
+  line-height: 1.6;
+}
+.scholarly-table tr:last-child td {
+  border-bottom: none;
 }

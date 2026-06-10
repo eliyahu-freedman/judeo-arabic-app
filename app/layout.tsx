@@ -107,39 +107,78 @@ export default function RootLayout({
           }}
         />
         <header className="border-b border-ink/10 bg-page/80 backdrop-blur supports-[backdrop-filter]:bg-page/60">
-          <nav className="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
-            <Link
-              href="/"
-              className="text-lg tracking-tight text-ink hover:text-wine transition-colors"
-            >
-              Judeo-Arabic
+          {/* Institutional band — states what the project is and who edits it.
+              This single line does most of the "serious scholarly instrument"
+              signalling. */}
+          <div className="border-b border-ink/5 bg-parchment/50">
+            <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-1.5">
+              <span className="label">
+                A Digital Reader &amp; Lexicon of Medieval Judeo-Arabic
+              </span>
+              <span className="label hidden sm:block">
+                Ed. Eli Freedman · Hebrew University · Dept. of Arabic
+              </span>
+            </div>
+          </div>
+          {/* Nameplate · navigation · lexicon search */}
+          <nav className="mx-auto flex max-w-5xl items-center justify-between gap-6 px-6 py-4">
+            <Link href="/" className="group flex flex-col leading-none">
+              <span className="display text-2xl text-ink transition-colors group-hover:text-wine">
+                Judeo-Arabic
+              </span>
+              <span className="label mt-1.5">
+                Saʿadya · Baḥya · the Genizah library
+              </span>
             </Link>
-            <ul className="flex gap-7 text-sm uppercase tracking-widest text-ink/70">
-              <li>
-                <Link
-                  href="/foundations"
-                  className="hover:text-wine transition-colors"
+            <div className="flex items-center gap-5 sm:gap-6">
+              <ul className="flex gap-5 text-sm uppercase tracking-widest text-ink/70 sm:gap-7">
+                <li>
+                  <Link href="/foundations" className="hover:text-wine transition-colors">
+                    Foundations
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/tafsir" className="hover:text-wine transition-colors">
+                    Tafsir
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/advanced" className="hover:text-wine transition-colors">
+                    Advanced
+                  </Link>
+                </li>
+                <li className="hidden sm:block">
+                  <Link href="/about" className="hover:text-wine transition-colors">
+                    About
+                  </Link>
+                </li>
+              </ul>
+              {/* Plain GET form — no client JS. Routes to the lexicon page,
+                  which echoes the query. The search engine itself (lib/lookup
+                  + lib/corpus) is wired in a later phase. */}
+              <form
+                action="/lexicon"
+                role="search"
+                className="relative hidden md:block"
+              >
+                <input
+                  type="search"
+                  name="q"
+                  placeholder="Search the lexicon…"
+                  aria-label="Search the Judeo-Arabic lexicon"
+                  className="w-44 rounded-sm border border-ink/15 bg-page py-1.5 pe-8 ps-3 text-sm text-ink placeholder:text-ink/40 focus:border-wine focus:outline-none focus:ring-1 focus:ring-wine/30 lg:w-56"
+                />
+                <span
+                  aria-hidden
+                  className="pointer-events-none absolute inset-y-0 end-2.5 flex items-center text-ink/40"
                 >
-                  Foundations
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/tafsir"
-                  className="hover:text-wine transition-colors"
-                >
-                  Tafsir
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/advanced"
-                  className="hover:text-wine transition-colors"
-                >
-                  Advanced
-                </Link>
-              </li>
-            </ul>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                    <circle cx="11" cy="11" r="7" />
+                    <line x1="21" y1="21" x2="16.5" y2="16.5" />
+                  </svg>
+                </span>
+              </form>
+            </div>
           </nav>
         </header>
         <main className="flex-1">{children}</main>
@@ -147,7 +186,7 @@ export default function RootLayout({
           <div className="max-w-5xl mx-auto px-6 py-10">
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-sm">
               <div>
-                <div className="text-[10px] uppercase tracking-[0.25em] text-muted mb-3">
+                <div className="label mb-3">
                   Learn
                 </div>
                 <ul className="space-y-2 text-ink/75">
@@ -158,7 +197,7 @@ export default function RootLayout({
                 </ul>
               </div>
               <div>
-                <div className="text-[10px] uppercase tracking-[0.25em] text-muted mb-3">
+                <div className="label mb-3">
                   Texts
                 </div>
                 <ul className="space-y-2 text-ink/75">
@@ -169,17 +208,18 @@ export default function RootLayout({
                 </ul>
               </div>
               <div>
-                <div className="text-[10px] uppercase tracking-[0.25em] text-muted mb-3">
+                <div className="label mb-3">
                   About
                 </div>
                 <ul className="space-y-2 text-ink/75">
+                  <li><Link href="/about" className="hover:text-wine">Methodology &amp; sources</Link></li>
                   <li><Link href="/what-is-judeo-arabic" className="hover:text-wine">What is Judeo-Arabic?</Link></li>
                   <li><Link href="/learn/saadia-story" className="hover:text-wine">Who was Saadia?</Link></li>
                   <li><Link href="/resources" className="hover:text-wine">Resources & further reading</Link></li>
                 </ul>
               </div>
               <div>
-                <div className="text-[10px] uppercase tracking-[0.25em] text-muted mb-3">
+                <div className="label mb-3">
                   Contact
                 </div>
                 <ul className="space-y-2 text-ink/75">
@@ -191,21 +231,35 @@ export default function RootLayout({
                 </ul>
               </div>
             </div>
-            <div className="mt-10 pt-6 border-t border-ink/10 text-[11px] text-ink/70 leading-relaxed">
-              Tap-to-define glosses paraphrase E. W. Lane,{" "}
-              <em>An Arabic-English Lexicon</em> (1863–93; Perseus TEI).
-              Saadia&apos;s <em>Tafsir</em> via Joseph Derenbourg,{" "}
-              <em>Œuvres Complètes</em> (Paris, 1893) on Sefaria.
-              Bahya, <em>Chovot HaLevavot</em> (Yahuda edition) with Judah
-              ibn Tibbon&apos;s Hebrew on Sefaria. Maimonides,{" "}
-              <em>Moreh Nevukhim</em>; Saadia,{" "}
-              <em>Kitāb al-Amānāt wal-Iʿtiqādāt</em>; Judah Halevi,{" "}
-              <em>Kitāb al-Khazarī</em> — Judeo-Arabic page images from the
-              Friedberg Jewish Manuscript Society. A small set of
-              &ldquo;Tafsir twist&rdquo; divergence notes cite Joshua Blau
-              ז״ל&apos;s <em>Dictionary of Medieval Judaeo-Arabic Texts</em>{" "}
-              (Jerusalem, 2006). Edited by Eli Freedman.{" "}
-              {new Date().getFullYear()}.
+            <div className="mt-10 border-t border-ink/10 pt-6">
+              <p className="text-[11px] leading-relaxed text-ink/70">
+                Tap-to-define glosses paraphrase E. W. Lane,{" "}
+                <em>An Arabic-English Lexicon</em> (1863–93; Perseus TEI).
+                Saadia&apos;s <em>Tafsir</em> via Joseph Derenbourg,{" "}
+                <em>Œuvres Complètes</em> (Paris, 1893) on Sefaria.
+                Bahya, <em>Chovot HaLevavot</em> (Yahuda edition) with Judah
+                ibn Tibbon&apos;s Hebrew on Sefaria. Maimonides,{" "}
+                <em>Moreh Nevukhim</em>; Saadia,{" "}
+                <em>Kitāb al-Amānāt wal-Iʿtiqādāt</em>; Judah Halevi,{" "}
+                <em>Kitāb al-Khazarī</em> — Judeo-Arabic page images from the
+                Friedberg Jewish Manuscript Society. A small set of
+                &ldquo;Tafsir twist&rdquo; divergence notes cite Joshua Blau
+                ז״ל&apos;s <em>Dictionary of Medieval Judaeo-Arabic Texts</em>{" "}
+                (Jerusalem, 2006). Full provenance on the{" "}
+                <Link href="/about" className="text-wine underline-offset-2 hover:underline">
+                  methodology page
+                </Link>
+                .
+              </p>
+              <div className="mt-5 flex flex-col gap-2 border-t border-ink/5 pt-5 text-[11px] text-ink/60 sm:flex-row sm:items-center sm:justify-between">
+                <span>
+                  Edited by Eli Freedman · text &amp; translations CC BY-NC 4.0
+                </span>
+                <span className="text-ink/45">
+                  Cite: <em>Judeo-Arabic: A Digital Reader &amp; Lexicon</em>,
+                  ed. E. Freedman, judeo-arabic-app.vercel.app
+                </span>
+              </div>
             </div>
           </div>
         </footer>
