@@ -34,20 +34,20 @@ const stages = [
   },
   {
     numeral: "II",
-    eyebrow: "Saadia, Bereshit",
+    eyebrow: "Saadia on the Torah",
     href: "/tafsir",
     title: "Tafsir Reader",
-    subtitle: "Stage 2",
-    body: "Read Saadia's Tafsir verse-by-verse alongside the biblical Hebrew. Tap any Judeo-Arabic word for a Lane-based gloss; toggle Arabic-script, Hebrew translation, and English.",
+    subtitle: "Verse-by-verse · tap to define",
+    body: "Read Saadia's Tafsir across the whole Pentateuch alongside the biblical Hebrew. Tap any Judeo-Arabic word for a Lane-based gloss; toggle Arabic-script, Hebrew translation, and English.",
     sample: "אול מא כ׳לק אללה",
   },
   {
     numeral: "III",
-    eyebrow: "6 texts · 1 live",
+    eyebrow: "6 texts · 5 live",
     href: "/advanced",
     title: "The Library",
-    subtitle: "Stage 3",
-    body: "A growing shelf of classical Judeo-Arabic prose with parallel Hebrew and English: Bahya's Chovot HaLevavot is live; Rambam's Moreh Nevukhim, Saadia's Emunot v'Deot, Yefet ben Eli, Qirqisani's Anwar, and Halevi's Kuzari are on deck.",
+    subtitle: "Bahya · Rambam · Halevi · Qirqisani",
+    body: "Classical Judeo-Arabic prose with parallel Hebrew and English. Bahya's Chovot HaLevavot, Rambam's Moreh Nevukhim, Saadia's Emunot v'Deot, Qirqisani's Anwar, and Halevi's Kuzari are live; Yefet ben Eli is on the way.",
     sample: "תוחיד · אמאנאת · דלאלה · אנואר",
   },
 ];
@@ -222,25 +222,25 @@ export default function Home() {
                 </div>
                 <div className="grid grid-cols-2 gap-y-4 text-sm">
                   <div>
-                    <span className="mb-1 block text-[10px] uppercase tracking-widest text-muted">
+                    <span className="mb-1 block label">
                       Root
                     </span>
                     <span className="font-mono">√ḫ-l-q</span>
                   </div>
                   <div>
-                    <span className="mb-1 block text-[10px] uppercase tracking-widest text-muted">
+                    <span className="mb-1 block label">
                       Part of Speech
                     </span>
                     <span className="italic">verb · perf. 3sg.m.</span>
                   </div>
                   <div>
-                    <span className="mb-1 block text-[10px] uppercase tracking-widest text-muted">
+                    <span className="mb-1 block label">
                       English
                     </span>
                     <span>he created</span>
                   </div>
                   <div>
-                    <span className="mb-1 block text-[10px] uppercase tracking-widest text-muted">
+                    <span className="mb-1 block label">
                       Hebrew
                     </span>
                     <span className="font-hebrew" dir="rtl">
@@ -290,7 +290,7 @@ export default function Home() {
             </div>
             <Link
               href="/tafsir/bereshit/1#verse-1-1"
-              className="group mt-8 inline-flex items-center gap-2 self-start border-b border-wine/30 pb-1 text-[11px] font-bold uppercase tracking-[0.18em] text-wine hover:border-wine"
+              className="label label-accent group mt-8 inline-flex items-center gap-2 self-start border-b border-wine/30 pb-1 hover:border-wine"
             >
               Open in the reader
               <span aria-hidden className="transition-transform group-hover:translate-x-1">
@@ -302,8 +302,8 @@ export default function Home() {
       </section>
 
       {/* Three-stage curriculum */}
-      <section className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
-        <h2 className="mb-12 text-center text-[10px] font-bold uppercase tracking-[0.3em] text-wine">
+      <section className="mx-auto max-w-5xl px-6 py-16 sm:py-20">
+        <h2 className="label label-accent mb-12 text-center">
           The Curriculum
         </h2>
         <div className="grid gap-px overflow-hidden rounded-sm border border-ink/10 bg-ink/10 md:grid-cols-3">
@@ -320,8 +320,8 @@ export default function Home() {
                 <span
                   className={
                     s.eyebrowEmphasis
-                      ? "text-[10px] font-bold uppercase tracking-widest text-wine"
-                      : "text-[10px] font-bold uppercase tracking-widest text-muted"
+                      ? "label label-accent"
+                      : "label"
                   }
                 >
                   {s.eyebrow}

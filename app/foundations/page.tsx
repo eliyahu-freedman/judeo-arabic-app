@@ -18,10 +18,10 @@ export default function FoundationsHub() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-16 sm:py-24">
       <header className="mb-12">
-        <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
+        <p className="label mb-3">
           Stage I · Foundations
         </p>
-        <h1 className="text-4xl tracking-tight text-ink">
+        <h1 className="display text-4xl text-ink">
           Everything before <span className="text-wine italic">Saadia</span>.
         </h1>
         <p className="mt-6 text-base text-ink/75 leading-relaxed max-w-xl">

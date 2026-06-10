@@ -107,31 +107,17 @@ export default function RootLayout({
           }}
         />
         <header className="border-b border-ink/10 bg-page/80 backdrop-blur supports-[backdrop-filter]:bg-page/60">
-          {/* Institutional band — states what the project is and who edits it.
-              This single line does most of the "serious scholarly instrument"
-              signalling. */}
-          <div className="border-b border-ink/5 bg-parchment/50">
-            <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-1.5">
-              <span className="label">
-                A Digital Reader &amp; Lexicon of Medieval Judeo-Arabic
-              </span>
-              <span className="label hidden sm:block">
-                Ed. Eli Freedman · Hebrew University · Dept. of Arabic
-              </span>
-            </div>
-          </div>
-          {/* Nameplate · navigation · lexicon search */}
           <nav className="mx-auto flex max-w-5xl items-center justify-between gap-6 px-6 py-4">
-            <Link href="/" className="group flex flex-col leading-none">
-              <span className="display text-2xl text-ink transition-colors group-hover:text-wine">
-                Judeo-Arabic
-              </span>
-              <span className="label mt-1.5">
-                Saʿadya · Baḥya · the Genizah library
-              </span>
+            <Link
+              href="/"
+              className="display text-2xl text-ink transition-colors hover:text-wine"
+            >
+              Judeo-Arabic
             </Link>
-            <div className="flex items-center gap-5 sm:gap-6">
-              <ul className="flex gap-5 text-sm uppercase tracking-widest text-ink/70 sm:gap-7">
+
+            {/* Desktop: full nav + lexicon search (md+) */}
+            <div className="hidden items-center gap-7 md:flex">
+              <ul className="flex gap-7 text-sm uppercase tracking-widest text-ink/70">
                 <li>
                   <Link href="/foundations" className="hover:text-wine transition-colors">
                     Foundations
@@ -144,29 +130,28 @@ export default function RootLayout({
                 </li>
                 <li>
                   <Link href="/advanced" className="hover:text-wine transition-colors">
-                    Advanced
+                    Library
                   </Link>
                 </li>
-                <li className="hidden sm:block">
+                <li>
+                  <Link href="/lexicon" className="hover:text-wine transition-colors">
+                    Lexicon
+                  </Link>
+                </li>
+                <li>
                   <Link href="/about" className="hover:text-wine transition-colors">
                     About
                   </Link>
                 </li>
               </ul>
-              {/* Plain GET form — no client JS. Routes to the lexicon page,
-                  which echoes the query. The search engine itself (lib/lookup
-                  + lib/corpus) is wired in a later phase. */}
-              <form
-                action="/lexicon"
-                role="search"
-                className="relative hidden md:block"
-              >
+              {/* Plain GET form — no client JS; routes to the lexicon page. */}
+              <form action="/lexicon" role="search" className="relative">
                 <input
                   type="search"
                   name="q"
                   placeholder="Search the lexicon…"
                   aria-label="Search the Judeo-Arabic lexicon"
-                  className="w-44 rounded-sm border border-ink/15 bg-page py-1.5 pe-8 ps-3 text-sm text-ink placeholder:text-ink/40 focus:border-wine focus:outline-none focus:ring-1 focus:ring-wine/30 lg:w-56"
+                  className="w-44 rounded-sm border border-ink/15 bg-page py-1.5 pe-8 ps-3 text-sm text-ink placeholder:text-ink/40 focus:border-wine focus:outline-none focus:ring-1 focus:ring-wine/30 lg:w-52"
                 />
                 <span
                   aria-hidden
@@ -179,6 +164,52 @@ export default function RootLayout({
                 </span>
               </form>
             </div>
+
+            {/* Mobile/tablet: no-JS disclosure menu (keeps layout a server
+                component). Lists every nav item + a search field. */}
+            <details className="relative md:hidden">
+              <summary className="flex cursor-pointer list-none items-center rounded-sm p-1.5 text-ink/80 hover:text-wine [&::-webkit-details-marker]:hidden">
+                <span className="sr-only">Open menu</span>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
+                  <line x1="3" y1="6" x2="21" y2="6" />
+                  <line x1="3" y1="12" x2="21" y2="12" />
+                  <line x1="3" y1="18" x2="21" y2="18" />
+                </svg>
+              </summary>
+              <div className="absolute end-0 top-full z-50 mt-2 w-60 rounded-sm border border-ink/15 bg-page p-2 shadow-lg shadow-ink/10">
+                <ul className="flex flex-col text-sm uppercase tracking-widest text-ink/80">
+                  {[
+                    ["/foundations", "Foundations"],
+                    ["/tafsir", "Tafsir"],
+                    ["/advanced", "Library"],
+                    ["/lexicon", "Lexicon"],
+                    ["/about", "About"],
+                  ].map(([href, label]) => (
+                    <li key={href}>
+                      <Link
+                        href={href}
+                        className="block rounded-sm px-3 py-2 hover:bg-parchment hover:text-wine"
+                      >
+                        {label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+                <form
+                  action="/lexicon"
+                  role="search"
+                  className="mt-2 border-t border-ink/10 px-1 pt-3"
+                >
+                  <input
+                    type="search"
+                    name="q"
+                    placeholder="Search the lexicon…"
+                    aria-label="Search the Judeo-Arabic lexicon"
+                    className="w-full rounded-sm border border-ink/15 bg-page px-3 py-2 text-sm text-ink placeholder:text-ink/40 focus:border-wine focus:outline-none focus:ring-1 focus:ring-wine/30"
+                  />
+                </form>
+              </div>
+            </details>
           </nav>
         </header>
         <main className="flex-1">{children}</main>
@@ -186,66 +217,52 @@ export default function RootLayout({
           <div className="max-w-5xl mx-auto px-6 py-10">
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-sm">
               <div>
-                <div className="label mb-3">
-                  Learn
-                </div>
+                <div className="label mb-3">Learn</div>
                 <ul className="space-y-2 text-ink/75">
+                  <li><Link href="/foundations" className="hover:text-wine">Foundations</Link></li>
                   <li><Link href="/alphabet" className="hover:text-wine">Alphabet</Link></li>
-                  <li><Link href="/learn/first-50" className="hover:text-wine">First 50 words</Link></li>
                   <li><Link href="/learn/cognates" className="hover:text-wine">Hebrew–Arabic cognates</Link></li>
-                  <li><Link href="/learn/aramaic-cognates" className="hover:text-wine">Aramaic–Arabic cognates</Link></li>
+                  <li><Link href="/learn" className="hover:text-wine">All lessons</Link></li>
                 </ul>
               </div>
               <div>
-                <div className="label mb-3">
-                  Texts
-                </div>
+                <div className="label mb-3">Read</div>
                 <ul className="space-y-2 text-ink/75">
-                  <li><Link href="/tafsir/bereshit/1" className="hover:text-wine">Saadia&apos;s Tafsir</Link></li>
-                  <li><Link href="/advanced" className="hover:text-wine">Bahya&apos;s Chovot HaLevavot</Link></li>
+                  <li><Link href="/tafsir" className="hover:text-wine">Saadia&apos;s Tafsir</Link></li>
+                  <li><Link href="/advanced" className="hover:text-wine">The Library</Link></li>
                   <li><Link href="/learn/saadia-preface" className="hover:text-wine">Saadia&apos;s preface</Link></li>
                   <li><Link href="/review" className="hover:text-wine">Daily review</Link></li>
                 </ul>
               </div>
               <div>
-                <div className="label mb-3">
-                  About
-                </div>
+                <div className="label mb-3">Reference</div>
                 <ul className="space-y-2 text-ink/75">
+                  <li><Link href="/lexicon" className="hover:text-wine">Lexicon</Link></li>
                   <li><Link href="/about" className="hover:text-wine">Methodology &amp; sources</Link></li>
                   <li><Link href="/what-is-judeo-arabic" className="hover:text-wine">What is Judeo-Arabic?</Link></li>
-                  <li><Link href="/learn/saadia-story" className="hover:text-wine">Who was Saadia?</Link></li>
-                  <li><Link href="/resources" className="hover:text-wine">Resources & further reading</Link></li>
+                  <li><Link href="/resources" className="hover:text-wine">Resources</Link></li>
                 </ul>
               </div>
               <div>
-                <div className="label mb-3">
-                  Contact
-                </div>
+                <div className="label mb-3">Contact</div>
                 <ul className="space-y-2 text-ink/75">
                   <li>
                     <a href="mailto:freedmaneli@gmail.com" className="hover:text-wine">
                       freedmaneli@gmail.com
                     </a>
                   </li>
+                  <li><Link href="/learn/saadia-story" className="hover:text-wine">Who was Saadia?</Link></li>
                 </ul>
               </div>
             </div>
             <div className="mt-10 border-t border-ink/10 pt-6">
               <p className="text-[11px] leading-relaxed text-ink/70">
-                Tap-to-define glosses paraphrase E. W. Lane,{" "}
-                <em>An Arabic-English Lexicon</em> (1863–93; Perseus TEI).
-                Saadia&apos;s <em>Tafsir</em> via Joseph Derenbourg,{" "}
-                <em>Œuvres Complètes</em> (Paris, 1893) on Sefaria.
-                Bahya, <em>Chovot HaLevavot</em> (Yahuda edition) with Judah
-                ibn Tibbon&apos;s Hebrew on Sefaria. Maimonides,{" "}
-                <em>Moreh Nevukhim</em>; Saadia,{" "}
-                <em>Kitāb al-Amānāt wal-Iʿtiqādāt</em>; Judah Halevi,{" "}
-                <em>Kitāb al-Khazarī</em> — Judeo-Arabic page images from the
-                Friedberg Jewish Manuscript Society. A small set of
-                &ldquo;Tafsir twist&rdquo; divergence notes cite Joshua Blau
-                ז״ל&apos;s <em>Dictionary of Medieval Judaeo-Arabic Texts</em>{" "}
-                (Jerusalem, 2006). Full provenance on the{" "}
+                Glosses paraphrase E. W. Lane&apos;s{" "}
+                <em>Arabic-English Lexicon</em> (Perseus TEI), with
+                Judeo-Arabic notes from Joshua Blau ז״ל. Saadia&apos;s{" "}
+                <em>Tafsir</em> (Derenbourg) and Bahya (ibn Tibbon) via Sefaria;
+                library page images from the Friedberg Jewish Manuscript
+                Society. Full provenance and bibliography on the{" "}
                 <Link href="/about" className="text-wine underline-offset-2 hover:underline">
                   methodology page
                 </Link>

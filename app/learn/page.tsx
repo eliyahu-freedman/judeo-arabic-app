@@ -79,10 +79,10 @@ export default function LearnHub() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-16 sm:py-24">
       <header className="mb-12">
-        <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
+        <p className="label mb-3">
           Learn · short formats
         </p>
-        <h1 className="text-4xl tracking-tight text-ink">
+        <h1 className="display text-4xl text-ink">
           A way <span className="text-wine italic">in</span>.
         </h1>
         <p className="mt-6 text-base text-ink/75 leading-relaxed max-w-xl">
@@ -104,9 +104,9 @@ export default function LearnHub() {
               }`}
             >
               <div className="flex items-baseline justify-between">
-                <div className="text-xs uppercase tracking-[0.25em] text-muted">
+                <span className={`badge ${l.status === "Live" ? "badge-live" : "badge-muted"}`}>
                   {l.status}
-                </div>
+                </span>
               </div>
               <div
                 className={`mt-1 text-2xl text-ink transition-colors ${

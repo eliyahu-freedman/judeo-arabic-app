@@ -241,9 +241,7 @@ const SECTIONS: Section[] = [
 
 function BadgeChip({ children }: { children: React.ReactNode }) {
   return (
-    <span className="ml-2 inline-block text-[10px] uppercase tracking-wider text-muted bg-ink/5 border border-ink/10 rounded-sm px-1.5 py-0.5 align-middle">
-      {children}
-    </span>
+    <span className="badge badge-muted ml-2 align-middle">{children}</span>
   );
 }
 
@@ -251,10 +249,10 @@ export default function ResourcesPage() {
   return (
     <article className="max-w-3xl mx-auto px-6 py-16 pb-32">
       <header className="mb-12">
-        <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
+        <p className="label mb-3">
           Further afield
         </p>
-        <h1 className="text-4xl tracking-tight text-ink leading-tight">
+        <h1 className="display text-4xl text-ink leading-tight">
           Where else to learn{" "}
           <span className="text-wine italic">Judeo-Arabic</span>
         </h1>
@@ -268,9 +266,7 @@ export default function ResourcesPage() {
       </header>
 
       <nav aria-label="On this page" className="mb-12 border-l-2 border-wine/30 pl-4">
-        <div className="text-[10px] uppercase tracking-[0.25em] text-muted mb-2">
-          On this page
-        </div>
+        <div className="label mb-2">On this page</div>
         <ul className="text-[13px] text-ink/75 space-y-1">
           {SECTIONS.map((s) => (
             <li key={s.id}>
@@ -284,7 +280,7 @@ export default function ResourcesPage() {
 
       {SECTIONS.map((section) => (
         <section key={section.id} id={section.id} className="mb-14 scroll-mt-24">
-          <p className="text-xs uppercase tracking-[0.3em] text-wine mb-3">
+          <p className="label label-accent mb-3">
             {section.eyebrow}
           </p>
           <h2 className="text-2xl text-ink mb-4 leading-snug">

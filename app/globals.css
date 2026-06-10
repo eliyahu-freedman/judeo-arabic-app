@@ -125,3 +125,28 @@ body {
 .scholarly-table tr:last-child td {
   border-bottom: none;
 }
+
+/* Status pill — for "Live" / "Coming soon" / category tags on cards. Distinct
+   from .label (a section eyebrow) so a status doesn't read like a heading:
+   pill shape, smaller tracking, a tinted chip. Pair with .badge-live or
+   .badge-muted for color. */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  border-radius: 9999px;
+  padding: 0.12rem 0.55rem;
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+}
+.badge-live {
+  background: var(--color-wine-100);
+  color: var(--color-wine-700);
+}
+.badge-muted {
+  background: color-mix(in srgb, var(--color-ink) 7%, transparent);
+  color: var(--color-muted);
+}

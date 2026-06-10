@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Stage 3 · The Library — classical Judeo-Arabic prose",
+  title: "The Library — classical Judeo-Arabic prose",
   description:
-    "A growing shelf of classical Judeo-Arabic prose with parallel Hebrew and English: Bahya ibn Paquda, Maimonides, Saadia Gaon, Yefet ben Eli, Qirqisani, and Judah Halevi. Bahya's First Gate is live; the others are forthcoming.",
+    "Classical Judeo-Arabic prose with parallel Hebrew and English: Bahya ibn Paquda, Maimonides, Saadia Gaon, Qirqisani, and Judah Halevi are live; Yefet ben Eli is forthcoming.",
   alternates: { canonical: "/advanced" },
 };
 
@@ -81,10 +81,10 @@ export default function LibraryIndex() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-16 sm:py-24">
       <header className="mb-12">
-        <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
-          Stage 3 · The Library
+        <p className="label mb-3">
+          Stage III · The Library
         </p>
-        <h1 className="text-4xl tracking-tight text-ink">
+        <h1 className="display text-4xl text-ink">
           Classical <span className="text-wine italic">prose</span>.
         </h1>
         <p className="mt-6 text-base text-ink/75 leading-relaxed max-w-xl">
@@ -105,10 +105,10 @@ export default function LibraryIndex() {
                   : "border-ink/10 opacity-70 hover:opacity-100 hover:border-wine/30"
               }`}
             >
-              <div className="flex items-baseline justify-between">
-                <div className="text-xs uppercase tracking-[0.25em] text-muted">
+              <div className="flex items-baseline justify-between gap-3">
+                <span className={`badge ${isLive ? "badge-live" : "badge-muted"}`}>
                   {t.status}
-                </div>
+                </span>
                 <div className="text-xs tracking-wide text-ink/60">
                   {t.author}
                 </div>
