@@ -59,6 +59,15 @@ TEXTS: list[tuple[str, str, bool, str]] = [
     ("qirqisani-anwar", "qirqisani-anwar-maqala1.json", True, "arabic"),
     ("bahya-bab1", "bahya-bab1.json", True, "hebrew"),
     ("bahya-hakdamah", "bahya-hakdamah.json", True, "hebrew"),
+    ("bahya-bab2", "bahya-bab2.json", True, "hebrew"),
+    ("bahya-bab3", "bahya-bab3.json", True, "hebrew"),
+    ("bahya-bab4", "bahya-bab4.json", True, "hebrew"),
+    ("bahya-bab5", "bahya-bab5.json", True, "hebrew"),
+    ("bahya-bab6", "bahya-bab6.json", True, "hebrew"),
+    ("bahya-bab7", "bahya-bab7.json", True, "hebrew"),
+    ("bahya-bab8", "bahya-bab8.json", True, "hebrew"),
+    ("bahya-bab9", "bahya-bab9.json", True, "hebrew"),
+    ("bahya-bab10", "bahya-bab10.json", True, "hebrew"),
 ]
 
 # Arabic→Judaeo-Arabic converter (same map the runtime lib/arabicToJa.ts ports).

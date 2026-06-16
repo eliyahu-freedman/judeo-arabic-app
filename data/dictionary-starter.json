@@ -73,7 +73,8 @@
         "אנכם",
         "אנא",
         "אננא",
-        "פאנאך"
+        "פאנאך",
+        "ובאניהא"
       ]
     },
     {
@@ -130,7 +131,8 @@
         "מני",
         "מנא",
         "מנך",
-        "אלמניה"
+        "אלמניה",
+        "מנאה"
       ]
     },
     {
@@ -146,7 +148,9 @@
         "לילה",
         "אלליל",
         "אלליאלי",
-        "לילתה"
+        "לילתה",
+        "בלילות",
+        "לילך"
       ]
     },
     {
@@ -157,7 +161,12 @@
       "pos": "noun (m.)",
       "gloss_en": "daytime, day (as opposed to night)",
       "gloss_he": "יום, יומם",
-      "notes": "Pairs with ליל (night). Distinct from יום (24-hour day)."
+      "notes": "Pairs with ליל (night). Distinct from יום (24-hour day).",
+      "variants": [
+        "ונהארה",
+        "נהארך",
+        "ונהארך"
+      ]
     },
     {
       "id": "fi",
@@ -174,7 +183,8 @@
         "פיך",
         "פיכם",
         "פיה",
-        "פינא"
+        "פינא",
+        "לפיכך"
       ]
     },
     {
@@ -231,7 +241,10 @@
       "gloss_en": "and so it was, and it became",
       "gloss_he": "ויהי",
       "notes": "Composed of fa- + kāna.",
-      "saadia_note": "Saadia's standard rendering of ויהי."
+      "saadia_note": "Saadia's standard rendering of ויהי.",
+      "variants": [
+        "פכאנה"
+      ]
     },
     {
       "id": "alima",
@@ -258,7 +271,8 @@
         "עלמתה",
         "עלמתם",
         "יעלם",
-        "ועלמוהא"
+        "ועלמוהא",
+        "עלמתהא"
       ]
     },
     {
@@ -306,7 +320,11 @@
       "pos": "pronoun (rel.)",
       "gloss_en": "possessor of, having, with (governs a genitive)",
       "gloss_he": "בעל-, של-",
-      "notes": "Used in construct: ד'ו X = 'one who has X'. In Bereshit 1, e.g. עשב מזריע זרע = עשב ד'ו זרע."
+      "notes": "Used in construct: ד'ו X = 'one who has X'. In Bereshit 1, e.g. עשב מזריע זרע = עשב ד'ו זרע.",
+      "variants": [
+        "ד'ואת",
+        "וד'ואת"
+      ]
     },
     {
       "id": "nur",
@@ -477,7 +495,8 @@
       "saadia_note": "Saadia uses this to render biblical כל or ושאר.",
       "variants": [
         "סאירהא",
-        "לסאירהא"
+        "לסאירהא",
+        "סאירה"
       ]
     },
     {
@@ -542,7 +561,14 @@
       "saadia_note": "Saadia's rendering of biblical פרי.",
       "variants": [
         "ת'מרך",
-        "ת'מרהא"
+        "ת'מרהא",
+        "את'מארהא",
+        "ת'מארהא",
+        "ת'מארה",
+        "את'מאר",
+        "ת'מאר",
+        "תת'מר",
+        "אלת'מאר"
       ]
     },
     {
@@ -646,7 +672,10 @@
       "gloss_en": "winds (pl.)",
       "gloss_he": "רוחות",
       "notes": "Plural of ريح.",
-      "saadia_note": "Saadia consistently translates רוח אלהים as ריאח אללה ('winds of God', i.e. natural winds), against later readings that take it as 'spirit of God'."
+      "saadia_note": "Saadia consistently translates רוח אלהים as ריאח אללה ('winds of God', i.e. natural winds), against later readings that take it as 'spirit of God'.",
+      "variants": [
+        "ריאחה"
+      ]
     },
     {
       "id": "tahubb",
@@ -765,7 +794,9 @@
         "כ'לקהמא",
         "כ'לקהא",
         "כ'לקא",
-        "לקא"
+        "לקא",
+        "כ'לקנא",
+        "כ'לקני"
       ]
     },
     {
@@ -788,7 +819,8 @@
         "אולהא",
         "פאולהא",
         "אלאולה",
-        "אוולה"
+        "אוולה",
+        "אוולהא"
       ]
     },
     {
@@ -852,7 +884,8 @@
         "בחר",
         "אלבחאר",
         "אלבחר",
-        "בחארא"
+        "בחארא",
+        "בחרהא"
       ]
     }
   ]

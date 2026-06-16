@@ -30,7 +30,9 @@ sys.path.insert(0, str(LEX))
 import ja_script  # noqa: E402
 
 IN_SCOPE = ["moreh-bab1", "kuzari-maqala1", "saadia-emunot-intro", "qirqisani-anwar",
-            "bahya-bab1", "bahya-hakdamah"]
+            "bahya-bab1", "bahya-hakdamah",
+            "bahya-bab2", "bahya-bab3", "bahya-bab4", "bahya-bab5", "bahya-bab6",
+            "bahya-bab7", "bahya-bab8", "bahya-bab9", "bahya-bab10"]
 
 
 def reduce_key(surface: str) -> str:

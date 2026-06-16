@@ -24,10 +24,10 @@ const library: LibraryEntry[] = [
     href: "/advanced/bahya",
     status: "Live",
     author: "Bahya ibn Paquda",
-    title: "Chovot HaLevavot — The First Gate",
+    title: "Chovot HaLevavot — complete",
     blurb:
-      "The opening gate of Bahya's 11th-century Andalusian classic on the inner life of mitzvot, in its original Judeo-Arabic alongside Ibn Tibbon's classical Hebrew (Sefaria) and a working English translation. With tap-to-define dictionary.",
-    sample: "תוחיד אללה תעאלי",
+      "The complete Duties of the Hearts — Bahya's 11th-century Andalusian classic on the inner life of mitzvot — the introduction and all ten gates in its original Judeo-Arabic, with a tap-to-define dictionary on every word. The First Gate also carries a working English translation with phrase-by-phrase hover highlighting.",
+    sample: "כתאב אלהדאיה אלי פראיץ' אלקלוב",
   },
   {
     href: "/advanced/rambam-moreh-nevukhim",
