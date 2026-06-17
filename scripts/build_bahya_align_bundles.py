@@ -1,19 +1,23 @@
 #!/usr/bin/env python3
-"""Build per-page work bundles for the Bahya First Gate alignment job.
+"""Build per-page work bundles for a Bahya gate's alignment job.
+
+Usage: build_bahya_align_bundles.py [BAB]   (BAB defaults to 1)
 
 For each JA page that is NOT already aligned, emit a self-contained file
-under data/_bahya_align_work/<page_he>.json holding the JA paragraph plus
-ratio-sliced English and Hebrew *candidates* (reference material for the
+under data/_bahya_align_work/bab<BAB>/<page_he>.json holding the JA paragraph
+plus ratio-sliced English and Hebrew *candidates* (reference material for the
 authoring agent — the agent does its own sentence-level alignment from the JA).
 
-The English ratio-slice mirrors app/advanced/bahya/page.tsx:26-27.
+The English ratio-slice mirrors buildAligned() in app/advanced/bahya/[gate]/page.tsx.
 """
 import json
 import math
 import os
+import sys
 
+BAB = int(sys.argv[1]) if len(sys.argv) > 1 else 1
 DATA = os.path.join(os.path.dirname(__file__), "..", "data")
-OUT = os.path.join(DATA, "_bahya_align_work")
+OUT = os.path.join(DATA, "_bahya_align_work", f"bab{BAB}")
 
 
 def ratio_slice(items, i, n_pages):
@@ -23,11 +27,19 @@ def ratio_slice(items, i, n_pages):
     return items[start:end]
 
 
+def load_optional(path, default):
+    return json.load(open(path)) if os.path.exists(path) else default
+
+
 def main():
-    ja = json.load(open(os.path.join(DATA, "bahya-bab1.json")))
-    en = json.load(open(os.path.join(DATA, "bahya-bab1-english.json")))
-    he = json.load(open(os.path.join(DATA, "bahya-bab1-hebrew.json")))
-    aligned = json.load(open(os.path.join(DATA, "bahya-bab1-aligned.json")))
+    ja = json.load(open(os.path.join(DATA, f"bahya-bab{BAB}.json")))
+    en = json.load(open(os.path.join(DATA, f"bahya-bab{BAB}-english.json")))
+    he = load_optional(
+        os.path.join(DATA, f"bahya-bab{BAB}-hebrew.json"), {"paragraphs": []}
+    )
+    aligned = load_optional(
+        os.path.join(DATA, f"bahya-bab{BAB}-aligned.json"), {"pages": {}}
+    )
 
     en_par = en["paragraphs"]
     he_par = he["paragraphs"]

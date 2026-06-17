@@ -1,10 +1,14 @@
-"""Fetch Ibn Tibbon's vocalized Hebrew of Bab 1 from Sefaria.
+"""Fetch Ibn Tibbon's vocalized Hebrew of Bab {N} from Sefaria.
 
-Bab 1 on Sefaria comes in two pieces:
+Usage: fetch_bahya_bab1_hebrew.py [BAB]   (BAB defaults to 1)
+
+Each gate on Sefaria comes in two pieces, e.g. for Bab 1:
   - "Duties of the Heart, First Treatise on Unity, Introduction" (Petiḥa)
-  - "Duties of the Heart, First Treatise on Unity"                (10 chapters)
+  - "Duties of the Heart, First Treatise on Unity"                (chapters)
 
-Combined into one flat list of paragraphs.
+Combined into one flat list of paragraphs. Hebrew is no longer rendered in the
+reader (reader.tsx: the `he` crib is "retained in data but no longer rendered");
+it serves only as a reference candidate for the alignment-authoring bundles.
 """
 
 from __future__ import annotations
@@ -17,8 +21,27 @@ import sys
 import urllib.parse
 from pathlib import Path
 
+# Sefaria treatise title per bab (the "Duties of the Heart, <X>" base ref).
+TREATISE = {
+    1: "First Treatise on Unity",
+    2: "Second Treatise on Examination",
+    3: "Third Treatise on Service of God",
+    4: "Fourth Treatise on Trust",
+    5: "Fifth Treatise on Devotion",
+    6: "Sixth Treatise on Submission",
+    7: "Seventh Treatise on Repentance",
+    8: "Eighth Treatise on Examining the Soul",
+    9: "Ninth Treatise on Abstinence",
+    10: "Tenth Treatise on Devotion to God",
+}
+
+BAB = int(sys.argv[1]) if len(sys.argv) > 1 else 1
+SECTION = f"Bab {BAB} — The {['','First','Second','Third','Fourth','Fifth','Sixth','Seventh','Eighth','Ninth','Tenth'][BAB]} Gate"
+
 OUT = (
-    Path(__file__).resolve().parent.parent / "data" / "bahya-bab1-hebrew.json"
+    Path(__file__).resolve().parent.parent
+    / "data"
+    / f"bahya-bab{BAB}-hebrew.json"
 )
 
 
@@ -66,10 +89,9 @@ def flatten(text: object) -> list[str]:
 
 
 def main() -> int:
-    petiha = flatten(
-        fetch("Duties of the Heart, First Treatise on Unity, Introduction")
-    )
-    chapters_raw = fetch("Duties of the Heart, First Treatise on Unity")
+    base = f"Duties of the Heart, {TREATISE[BAB]}"
+    petiha = flatten(fetch(f"{base}, Introduction"))
+    chapters_raw = fetch(base)
     chapter_paragraphs: list[list[str]] = []
     if isinstance(chapters_raw, list):
         for ch in chapters_raw:
@@ -82,7 +104,7 @@ def main() -> int:
         json.dumps(
             {
                 "work": "Chovot HaLevavot",
-                "section": "Bab 1 — The First Gate",
+                "section": SECTION,
                 "translator": "Yehuda Ibn Tibbon",
                 "version": "Vocalized Edition (Sefaria)",
                 "petiha_paragraph_count": len(petiha),

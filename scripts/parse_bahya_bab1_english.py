@@ -1,4 +1,6 @@
-"""Parse Eli's bab1.md (English translation) into JSON paragraphs.
+"""Parse Eli's bab{N}.md (English translation) into JSON paragraphs.
+
+Usage: parse_bahya_bab1_english.py [BAB]   (BAB defaults to 1)
 
 Strategy:
   - Read the markdown.
@@ -7,14 +9,17 @@ Strategy:
   - Skip lines starting with `#` (headers).
   - Treat blank lines as paragraph separators.
 
-Output: { "paragraphs": ["...", ...] }
+Output: { "paragraphs": ["...", ...] } at data/bahya-bab{N}-english.json
 """
 
 from __future__ import annotations
 
 import json
 import re
+import sys
 from pathlib import Path
+
+BAB = int(sys.argv[1]) if len(sys.argv) > 1 else 1
 
 SRC = (
     Path.home()
@@ -23,10 +28,12 @@ SRC = (
     / "bahya-hovot"
     / "edition"
     / "translation"
-    / "bab1.md"
+    / f"bab{BAB}.md"
 )
 OUT = (
-    Path(__file__).resolve().parent.parent / "data" / "bahya-bab1-english.json"
+    Path(__file__).resolve().parent.parent
+    / "data"
+    / f"bahya-bab{BAB}-english.json"
 )
 
 # Unicode superscript digits used as footnote markers.
@@ -35,17 +42,20 @@ SUPERS_RE = re.compile(r"[⁰¹²³⁴-⁹]+")
 
 def main() -> None:
     text = SRC.read_text(encoding="utf-8")
-    # Cut off the Notes section.
-    cutoff = text.find("\n## Notes")
-    if cutoff != -1:
-        text = text[:cutoff]
+    # Cut off the notes section. Bab 1 heads it "## Notes"; bab 2 uses
+    # "## Footnotes — Bab 2". Match any header whose text starts Notes/Footnotes.
+    m = re.search(r"\n#+\s*(?:Notes|Footnotes)\b", text)
+    if m:
+        text = text[: m.start()]
     # Strip superscript markers, then split on blank lines.
     text = SUPERS_RE.sub("", text)
     paragraphs: list[str] = []
     for block in re.split(r"\n\s*\n", text):
-        # Drop lines that are markdown headers.
+        # Drop markdown headers and bare "---" horizontal-rule separators.
         keep_lines = [
-            line for line in block.splitlines() if not line.lstrip().startswith("#")
+            line
+            for line in block.splitlines()
+            if not line.lstrip().startswith("#") and line.strip() != "---"
         ]
         joined = " ".join(l.strip() for l in keep_lines if l.strip())
         if joined:

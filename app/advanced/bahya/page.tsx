@@ -24,16 +24,16 @@ export default function BahyaContents() {
           The complete <span className="italic">Duties of the Hearts</span> — the
           author&apos;s introduction and all ten gates — in its original
           11th-century Judeo-Arabic. Every word taps through to a dictionary
-          gloss. The First Gate also carries a working English translation with
-          phrase-by-phrase hover highlighting; the remaining gates are being
-          translated.
+          gloss. The first two gates also carry a working English translation
+          with phrase-by-phrase hover highlighting; the remaining gates are
+          being translated.
         </p>
       </header>
 
       <ol className="space-y-3">
         {BAHYA_GATES.map((g, i) => {
           const { section, section_ja, subtitle } = g.json;
-          const isFirstGate = g.slug === "bab-1";
+          const isTranslated = Boolean(g.english && g.aligned);
           return (
             <li key={g.slug}>
               <Link
@@ -58,7 +58,7 @@ export default function BahyaContents() {
                     {subtitle}
                   </p>
                 )}
-                {isFirstGate && (
+                {isTranslated && (
                   <span className="badge badge-live mt-3 inline-block">
                     + English &amp; hover highlighting
                   </span>

@@ -1,21 +1,23 @@
 #!/usr/bin/env python3
-"""Merge workflow-produced aligned pages into data/bahya-bab1-aligned.json.
+"""Merge workflow-produced aligned pages into data/bahya-bab<BAB>-aligned.json.
 
-Usage: merge_bahya_alignment.py <workflow_output.json> [<more_output.json> ...]
+Usage: merge_bahya_alignment.py BAB <workflow_output.json> [<more_output.json> ...]
 
 Each input is either:
   - a task-output file with {"result": {"pages": {...}}}, or
   - a bare {"pages": {...}} object.
 
 Pages from later inputs override earlier ones and the existing file. Output
-pages are re-ordered to follow the JA page sequence in bahya-bab1.json.
+pages are re-ordered to follow the JA page sequence in bahya-bab<BAB>.json.
 """
 import json
 import os
 import sys
 
+BAB = int(sys.argv[1]) if len(sys.argv) > 1 else 1
+INPUTS = sys.argv[2:]
 DATA = os.path.join(os.path.dirname(__file__), "..", "data")
-ALIGNED = os.path.join(DATA, "bahya-bab1-aligned.json")
+ALIGNED = os.path.join(DATA, f"bahya-bab{BAB}-aligned.json")
 
 
 def extract_pages(obj):
@@ -25,14 +27,22 @@ def extract_pages(obj):
 
 
 def main():
-    if len(sys.argv) < 2:
-        sys.exit("usage: merge_bahya_alignment.py <output.json> [...]")
+    if not INPUTS:
+        sys.exit("usage: merge_bahya_alignment.py BAB <output.json> [...]")
 
-    aligned = json.load(open(ALIGNED))
+    if os.path.exists(ALIGNED):
+        aligned = json.load(open(ALIGNED))
+    else:
+        aligned = {
+            "note": f"Sentence-level JA↔EN alignment of Bahya, Bab {BAB}. "
+            f"JA from bahya-bab{BAB}.json; EN from bahya-bab{BAB}-english.json "
+            "(Freedman working draft).",
+            "pages": {},
+        }
     pages = dict(aligned.get("pages", {}))
 
     added = []
-    for path in sys.argv[1:]:
+    for path in INPUTS:
         new = extract_pages(json.load(open(path)))
         for k, segs in new.items():
             if k not in pages:
@@ -40,7 +50,7 @@ def main():
             pages[k] = segs
 
     # order by JA page sequence
-    ja = json.load(open(os.path.join(DATA, "bahya-bab1.json")))
+    ja = json.load(open(os.path.join(DATA, f"bahya-bab{BAB}.json")))
     order = [p["page_he"] for p in ja["pages"]]
     ordered = {k: pages[k] for k in order if k in pages}
     # keep any stragglers not in the sequence

@@ -1,9 +1,12 @@
 // Ordered table of contents for the full Bahya (Ḥovot ha-Levavot) volume.
 // Each gate's Judeo-Arabic text lives in data/bahya-<file>.json (built by
-// scripts/build_bahya_gates.py). Bab 1 additionally has a hand-built English
-// translation + phrase alignment; every other gate ships JA-only with
-// tap-to-define. Both the volume contents page and the [gate] reader route
-// drive off this single list so labels and ordering never drift.
+// scripts/build_bahya_gates.py). A gate that also has an English translation +
+// phrase alignment (bab-1, bab-2 …) carries `english` + `aligned` here and the
+// reader renders the English column with hover highlighting; gates without them
+// ship JA-only with tap-to-define. Both the volume contents page and the [gate]
+// reader route drive off this single list so labels and ordering never drift.
+
+import type { AlignedSegment } from "../reader";
 
 import hakdamah from "@/data/bahya-hakdamah.json";
 import bab1 from "@/data/bahya-bab1.json";
@@ -17,6 +20,12 @@ import bab8 from "@/data/bahya-bab8.json";
 import bab9 from "@/data/bahya-bab9.json";
 import bab10 from "@/data/bahya-bab10.json";
 
+// Per-gate English + phrase alignment (only for translated gates).
+import bab1english from "@/data/bahya-bab1-english.json";
+import bab1aligned from "@/data/bahya-bab1-aligned.json";
+import bab2english from "@/data/bahya-bab2-english.json";
+import bab2aligned from "@/data/bahya-bab2-aligned.json";
+
 export type GatePage = { page_he: string; paragraphs?: string[] };
 export type GateJson = {
   work: string;
@@ -27,16 +36,32 @@ export type GateJson = {
   pages: GatePage[];
 };
 
+export type EnglishJson = { translator: string; paragraphs: string[] };
+export type AlignedJson = { pages: Record<string, AlignedSegment[]> };
+
 export type Gate = {
   /** URL segment, e.g. "hakdamah" or "bab-1". */
   slug: string;
   json: GateJson;
+  /** Present only for translated gates: drives the English column + hover. */
+  english?: EnglishJson;
+  aligned?: AlignedJson;
 };
 
 export const BAHYA_GATES: Gate[] = [
   { slug: "hakdamah", json: hakdamah as GateJson },
-  { slug: "bab-1", json: bab1 as GateJson },
-  { slug: "bab-2", json: bab2 as GateJson },
+  {
+    slug: "bab-1",
+    json: bab1 as GateJson,
+    english: bab1english as EnglishJson,
+    aligned: bab1aligned as AlignedJson,
+  },
+  {
+    slug: "bab-2",
+    json: bab2 as GateJson,
+    english: bab2english as EnglishJson,
+    aligned: bab2aligned as AlignedJson,
+  },
   { slug: "bab-3", json: bab3 as GateJson },
   { slug: "bab-4", json: bab4 as GateJson },
   { slug: "bab-5", json: bab5 as GateJson },

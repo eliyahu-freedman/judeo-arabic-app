@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import enData from "@/data/bahya-bab1-english.json";
-import alignedData from "@/data/bahya-bab1-aligned.json";
 import {
   AdvancedReader,
-  type AlignedSegment,
   type WorkData,
   type WorkPage,
 } from "../../reader";
-import { BAHYA_GATES, gateBySlug, gateIndex } from "../volume";
+import {
+  BAHYA_GATES,
+  gateBySlug,
+  gateIndex,
+  type AlignedJson,
+  type EnglishJson,
+  type GateJson,
+} from "../volume";
 
 export function generateStaticParams() {
   return BAHYA_GATES.map((g) => ({ gate: g.slug }));
@@ -34,13 +38,18 @@ export async function generateMetadata({
   };
 }
 
-/** Bab 1 ships a hand-built English translation + phrase alignment. Splice it
- *  onto the JA pages exactly as the original single-gate route did. */
-function buildBab1(json: (typeof BAHYA_GATES)[number]["json"]): WorkData {
-  const enPar = enData.paragraphs;
+/** A translated gate ships an English translation + phrase alignment. Splice
+ *  them onto the JA pages: English ratio-sliced across pages (fallback for any
+ *  non-aligned region), aligned segments attached by Hebrew page number. */
+function buildAligned(
+  json: GateJson,
+  english: EnglishJson,
+  aligned: AlignedJson,
+): WorkData {
+  const enPar = english.paragraphs;
   const nJa = json.pages.length;
   const nEn = enPar.length;
-  const alignedByPage = alignedData.pages as Record<string, AlignedSegment[]>;
+  const alignedByPage = aligned.pages;
   const pages: WorkPage[] = json.pages.map((p, i) => {
     const enStart = Math.floor((nEn * i) / nJa);
     const enEnd = Math.floor((nEn * (i + 1)) / nJa);
@@ -56,13 +65,13 @@ function buildBab1(json: (typeof BAHYA_GATES)[number]["json"]): WorkData {
     section: json.section,
     subtitle: json.subtitle ?? "",
     author: json.author,
-    english_translator: enData.translator,
+    english_translator: english.translator,
     pages,
   };
 }
 
 /** Every other gate is JA-only: full text + tap-to-define, no English layer. */
-function buildJaOnly(json: (typeof BAHYA_GATES)[number]["json"]): WorkData {
+function buildJaOnly(json: GateJson): WorkData {
   return {
     work: json.work,
     section: json.section,
@@ -88,7 +97,10 @@ export default async function BahyaGatePage({
   const g = gateBySlug[gate];
   if (!g) notFound();
 
-  const data = gate === "bab-1" ? buildBab1(g.json) : buildJaOnly(g.json);
+  const data =
+    g.english && g.aligned
+      ? buildAligned(g.json, g.english, g.aligned)
+      : buildJaOnly(g.json);
 
   const idx = gateIndex(gate);
   const prev = idx > 0 ? BAHYA_GATES[idx - 1] : null;

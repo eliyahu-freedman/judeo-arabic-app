@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Validate data/bahya-bab1-aligned.json against the alignment data contract.
+"""Validate data/bahya-bab<BAB>-aligned.json against the alignment data contract.
+
+Usage: validate_bahya_alignment.py [BAB]   (BAB defaults to 1)
 
 Checks, per page / segment:
   1. Each pair.ja is an exact substring of seg.ja, each pair.en of seg.en
@@ -17,6 +19,7 @@ import os
 import re
 import sys
 
+BAB = int(sys.argv[1]) if len(sys.argv) > 1 else 1
 DATA = os.path.join(os.path.dirname(__file__), "..", "data")
 
 
@@ -25,8 +28,8 @@ def strip_ws(s):
 
 
 def main():
-    aligned = json.load(open(os.path.join(DATA, "bahya-bab1-aligned.json")))
-    ja_src = json.load(open(os.path.join(DATA, "bahya-bab1.json")))
+    aligned = json.load(open(os.path.join(DATA, f"bahya-bab{BAB}-aligned.json")))
+    ja_src = json.load(open(os.path.join(DATA, f"bahya-bab{BAB}.json")))
     src_by_page = {p["page_he"]: " ".join(p.get("paragraphs", [])) for p in ja_src["pages"]}
 
     failures = []
@@ -55,7 +58,7 @@ def main():
         # 2. JA round-trip vs source
         src = src_by_page.get(page_he)
         if src is None:
-            failures.append(f"{page_he}: no matching source page in bahya-bab1.json")
+            failures.append(f"{page_he}: no matching source page in bahya-bab{BAB}.json")
         else:
             got, want = strip_ws("".join(concat)), strip_ws(src)
             if got != want:
