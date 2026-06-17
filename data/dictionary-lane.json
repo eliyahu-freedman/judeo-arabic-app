@@ -193,7 +193,6 @@
         "אנתא",
         "אנתם'",
         "אנתהא",
-        "ואנתהא",
         "אלאנתהא",
         "ואנתהו",
         "פאנתה"
@@ -273,7 +272,6 @@
         "בעדהא",
         "בעדהמא",
         "תבעדון",
-        "ואבעאדהא",
         "אבעאד",
         "אבעאדהא",
         "בעדת",
@@ -497,7 +495,6 @@
         "בנאהמא",
         "אבניה",
         "בנאות",
-        "בנאהא",
         "ובנוה",
         "ובנה",
         "פנה"
@@ -810,7 +807,6 @@
         "ללאנסאן",
         "לאנסאן",
         "אלאנסאן",
-        "פיאנס",
         "ויאנס",
         "יאנס",
         "פליאנס",
@@ -881,8 +877,8 @@
       "lemma_ar": "ملك",
       "root": "m-l-k",
       "pos": "noun (m.)",
-      "gloss_en": "to possess, take possession of, rule over",
-      "gloss_he": "מלך",
+      "gloss_en": "kingship, dominion, sovereignty",
+      "gloss_he": "מלכות, שלטון",
       "source": "lane",
       "variants": [
         "מלכה",
@@ -1452,7 +1448,6 @@
       "variants": [
         "אליה",
         "אליהא",
-        "אליך",
         "אלינא",
         "אלי'",
         "אליי",
@@ -1970,11 +1965,11 @@
     {
       "id": "umma-nation",
       "lemma_ja": "אמה",
-      "lemma_ar": "أُمَّة",
+      "lemma_ar": "أُمّ",
       "root": "ʔ-m-m",
       "pos": "noun (f.)",
-      "gloss_en": "nation, community, people",
-      "gloss_he": "אומה, עם",
+      "gloss_en": "mother",
+      "gloss_he": "אֵם",
       "source": "lane",
       "variants": [
         "אלאמה",
@@ -2054,7 +2049,6 @@
         "ברכתי",
         "ברכתה",
         "וברכך",
-        "אלאובאר",
         "אובאר",
         "ויברך",
         "יברך"
@@ -2588,7 +2582,6 @@
         "ושרהה",
         "שראיה",
         "שרא",
-        "אלשרא",
         "פישרה",
         "ישרה",
         "ושרהת",
@@ -2730,7 +2723,8 @@
         "אנזלו",
         "מנזלתה",
         "מנזלתך",
-        "מאנזל"
+        "מאנזל",
+        "ונזולהא"
       ]
     },
     {
@@ -3142,9 +3136,9 @@
       "lemma_ja": "סכן",
       "lemma_ar": "سَكَنَ",
       "root": "s-k-n",
-      "pos": "verb (Form I, perfect)",
-      "gloss_en": "dwelling, habitation, abode",
-      "gloss_he": "ישב, גר",
+      "pos": "verb (Form I, perfect) / active participle",
+      "gloss_en": "to be still, calm, motionless; (sākin) still, calm",
+      "gloss_he": "שכך, נח, שקט; (בינוני) שקט, דומם",
       "notes": "Distinct from the noun מסכן 'Tabernacle' (same root, different form).",
       "saadia_note": "in Saadia's gloss — regular rendering of Hebrew יָשַׁב 'to dwell'.",
       "source": "lane",
@@ -3371,7 +3365,6 @@
         "ואלד",
         "ואלדה",
         "אלואלד",
-        "ואלדיה",
         "ואלדאי",
         "ולדא",
         "ולדתה",
@@ -4277,7 +4270,8 @@
         "בלבן",
         "באלבן",
         "ולבן",
-        "ואלבנאן"
+        "ואלבנאן",
+        "לבנא"
       ]
     },
     {
@@ -4465,8 +4459,8 @@
       "lemma_ar": "عَهْد",
       "root": "ʕ-h-d",
       "pos": "noun (m.)",
-      "gloss_en": "covenant, pact, pledge",
-      "gloss_he": "ברית, הסכם",
+      "gloss_en": "time, era, age (here: 'in our time')",
+      "gloss_he": "זמן, תקופה (בימינו)",
       "saadia_note": "Saadia's gloss for Hebrew בְּרִית.",
       "source": "lane",
       "variants": [
@@ -4574,10 +4568,8 @@
         "עצ'אם",
         "עט'אם",
         "אלעצ'אם",
-        "אלעט'אם",
         "עט'אמה",
         "עצ'אמה",
-        "יעט'ם",
         "ויעט'ם",
         "ליעט'ם",
         "ועט'מתה",
@@ -5043,7 +5035,6 @@
         "אלמאית",
         "מותא",
         "אלמות",
-        "מות",
         "מותה",
         "מותי",
         "מותהא",
@@ -5249,7 +5240,6 @@
         "ויד'כרה",
         "יד'כרה",
         "ד'כרה",
-        "ד'כרהא",
         "ואד'כרני",
         "דכורא",
         "ד'כורא",
@@ -6618,7 +6608,6 @@
         "לעוץ",
         "בעוץ",
         "ועוצה",
-        "עווצ'ה",
         "עוצ'א"
       ]
     },
@@ -7294,7 +7283,6 @@
         "מעאש",
         "אלמעאש",
         "מעאשה",
-        "ומעאשהא",
         "עישהא",
         "למעאשך",
         "ועישהם",
@@ -8230,9 +8218,9 @@
       "lemma_ja": "בין",
       "lemma_ar": "بَيْن",
       "root": "b-y-n",
-      "pos": "preposition / adverb",
-      "gloss_en": "between, among; (with conjunction) on the one hand … on the other",
-      "gloss_he": "בֵּין",
+      "pos": "adjective",
+      "gloss_en": "clear, manifest, evident, plain",
+      "gloss_he": "ברורה, גלויה, מבוארת",
       "notes": "Preposition of intermediate position. Often paired with a second بَيْن to express 'between X and Y'.",
       "source": "lane",
       "variants": [
@@ -8419,7 +8407,6 @@
         "קלובכם",
         "קלובנא",
         "בקלובנא",
-        "פתקלבה",
         "תקלבה",
         "תקלב",
         "ותקלבהא",
@@ -8922,7 +8909,6 @@
         "מראת",
         "אלמראת",
         "מרארה",
-        "אלמרארה",
         "מרארתה",
         "מרארתהא"
       ]
@@ -10398,9 +10384,9 @@
       "lemma_ja": "כ'לא",
       "lemma_ar": "خَلَا",
       "root": "kh-l-w",
-      "pos": "preposition (with mā)",
-      "gloss_en": "(with preceding mā) except, save for, apart from",
-      "gloss_he": "מלבד, חוץ מ-, פרט ל-",
+      "pos": "verb",
+      "gloss_en": "to keep/leave free of, empty of, clear of",
+      "gloss_he": "לשמור נקי מ-, לרוקן מ-",
       "notes": "Construction מא כ'לא (mā khalā) functions as 'except, save for'. The verb khalā literally means 'to be empty / devoid (of)'.",
       "source": "lane",
       "variants": [
@@ -10625,8 +10611,7 @@
         "מקסמא",
         "אלמקסם",
         "ואלמקסם",
-        "אקסמהמא",
-        "ותקסמה"
+        "אקסמהמא"
       ]
     },
     {
@@ -11466,8 +11451,7 @@
         "יליהא",
         "מוליך",
         "ואוליאיה",
-        "אוליא",
-        "אוליאה"
+        "אוליא"
       ]
     },
     {
@@ -11855,11 +11839,9 @@
         "באלעין",
         "עיני",
         "עינך",
-        "עיניך",
         "עיניה",
         "עיניהא",
         "עיניהם",
-        "עיניכם",
         "עינאן",
         "אלעינאן",
         "עינאך",
@@ -11947,9 +11929,9 @@
       "lemma_ja": "צ'רב",
       "lemma_ar": "ضَرَبَ",
       "root": "ḍ-r-b",
-      "pos": "verb",
-      "gloss_en": "to strike, to beat, to hit; (idiomatic) to utter (a parable or proverb)",
-      "gloss_he": "הכה, פגע; (ביטוי) משל משל",
+      "pos": "noun (pl.)",
+      "gloss_en": "kinds, sorts, types (pl. of ḍarb)",
+      "gloss_he": "מינים, סוגים",
       "saadia_note": "Saadia uses ḍaraba mathalan as the regular gloss for Hebrew נָשָׂא מָשָׁל ('to take up a parable', Balaam's oracles, Num 23-24).",
       "source": "lane",
       "variants": [
@@ -15042,7 +15024,6 @@
         "לנזולכם",
         "זאילה",
         "וזאילה",
-        "ונזולהא",
         "תזאלין",
         "תזאל",
         "יזאל",
@@ -15497,7 +15478,6 @@
         "באלערוה",
         "ערי",
         "אלערי",
-        "ואלערי",
         "ערואת",
         "אלערואת",
         "עריות"
@@ -15604,7 +15584,9 @@
         "ללכמאל",
         "ובכמאלה",
         "כאמלין",
-        "כאמלאן"
+        "כאמלאן",
+        "וכמאלה",
+        "כמאלה"
       ]
     },
     {
@@ -16053,7 +16035,6 @@
         "אלחאל",
         "חלול",
         "אלחלול",
-        "חאלנא",
         "בחאלהא",
         "חאלי",
         "חלהא",
@@ -16063,10 +16044,7 @@
         "חאלהא",
         "חלולהא",
         "חלולה",
-        "חאלהם",
-        "אחואלהם",
         "אחואל",
-        "אחואלה",
         "אלחאלין",
         "חאלא",
         "אלחאלאת",
@@ -16827,7 +16805,6 @@
         "עאדך",
         "ועאדך",
         "פלתעוד",
-        "אלעאדאת",
         "עאדתך",
         "עאדתה",
         "פתעודין",
@@ -16943,8 +16920,7 @@
         "אסורים",
         "ולאסורים",
         "לליסיר",
-        "ליסיר",
-        "אליסיר"
+        "ליסיר"
       ]
     },
     {
@@ -17296,10 +17272,10 @@
       "id": "b1-עד",
       "lemma_ja": "עד",
       "lemma_ar": "عَدَّ/عَدَد",
-      "root": "ع-د-د",
-      "pos": "verb/noun",
-      "gloss_en": "to count, number; a count/census",
-      "gloss_he": "מנה; ספירה/מספר",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "until, up to (in the idiom 'without number')",
+      "gloss_he": "עַד — מילת יחס; בצירוף 'עד אין מספר' = לאין מספר",
       "source": "lane",
       "variants": [
         "עדהם",
@@ -17581,9 +17557,9 @@
       "lemma_ja": "חבס",
       "lemma_ar": "حَبْس",
       "root": "ح-ب-س",
-      "pos": "noun",
-      "gloss_en": "prison, dungeon",
-      "gloss_he": "בית כלא",
+      "pos": "verb",
+      "gloss_en": "to hold, retain, confine",
+      "gloss_he": "עצר, החזיק, כלא",
       "source": "lane",
       "variants": [
         "אלחבס",
@@ -17810,9 +17786,9 @@
       "lemma_ja": "דפע",
       "lemma_ar": "دَفَعَ",
       "root": "د-ف-ع",
-      "pos": "verb",
-      "gloss_en": "to hand over, give, pay",
-      "gloss_he": "מסר, נתן, שילם",
+      "pos": "noun (verbal noun)",
+      "gloss_en": "repelling, warding off, averting",
+      "gloss_he": "דחייה, הדיפה, הרחקה",
       "source": "lane",
       "variants": [
         "ידפע",
@@ -17973,9 +17949,7 @@
       "gloss_en": "Eden",
       "gloss_he": "עדן",
       "source": "lane",
-      "variants": [
-        "עדנה"
-      ]
+      "variants": []
     },
     {
       "id": "b1-נאדא",
@@ -18116,7 +18090,6 @@
         "סקי",
         "יסקיהא",
         "ותסקיה",
-        "פישקי",
         "ישקי"
       ]
     },
@@ -18328,7 +18301,6 @@
         "סאלהם",
         "סאלוני",
         "סאלני",
-        "ויסיל",
         "פיסיל",
         "יסיל",
         "סאלוא",
@@ -18492,8 +18464,7 @@
       "gloss_he": "ברד",
       "source": "lane",
       "variants": [
-        "אלברד",
-        "יברד"
+        "אלברד"
       ]
     },
     {
@@ -18520,9 +18491,7 @@
       "source": "lane",
       "variants": [
         "פליסלם",
-        "סלמא",
-        "אלסלם",
-        "סלמת"
+        "אלסלם"
       ]
     },
     {
@@ -18990,15 +18959,12 @@
       "source": "lane",
       "variants": [
         "פצ'לך",
-        "פצ'לה",
         "פצ'להא",
-        "בפצ'להא",
         "פצ'לנא",
         "פפצ'להם",
         "פצ'להם",
         "ללפצ'ל",
-        "לפצ'ל",
-        "אלפצ'ל"
+        "לפצ'ל"
       ]
     },
     {
@@ -19294,7 +19260,6 @@
         "פאלחקהם",
         "בחקות",
         "בחקהא",
-        "ילחקהא",
         "חקוק",
         "אלחקוק",
         "וחקוק",
@@ -19640,7 +19605,6 @@
         "תרדהא",
         "פארדדהא",
         "ורדך",
-        "ורוד",
         "אלורד",
         "ירדהם",
         "ירד"
@@ -19965,8 +19929,7 @@
         "וכתבהא",
         "כתבתהא",
         "כתבתה",
-        "מכתובה",
-        "כתבהם"
+        "מכתובה"
       ]
     },
     {
@@ -21284,7 +21247,8 @@
         "עלהֵ",
         "עלתין",
         "עלל",
-        "עלת"
+        "עלת",
+        "ללעלה"
       ]
     },
     {
@@ -21913,9 +21877,9 @@
       "lemma_ja": "עדל",
       "lemma_ar": "عَدْل",
       "root": "ʕ-d-l",
-      "pos": "noun",
-      "gloss_en": "justice, equity",
-      "gloss_he": "צֶדֶק, יֹשֶׁר",
+      "pos": "verb",
+      "gloss_en": "to act justly, deal equitably, be fair (among)",
+      "gloss_he": "לנהוג בצדק, לפעול ביושר",
       "source": "lane",
       "variants": [
         "אלעדל",
@@ -23256,7 +23220,8 @@
         "אלחרכה",
         "וחרכאתהם",
         "חרכאתד",
-        "חרכאת"
+        "חרכאת",
+        "חרכתהא"
       ]
     },
     {
@@ -23270,7 +23235,6 @@
       "source": "lane",
       "variants": [
         "נעמה",
-        "לנעמה",
         "נעמות",
         "נעמך",
         "נעמהא"
@@ -23430,7 +23394,6 @@
       "gloss_he": "כֹּחַ, יְכֹלֶת, אֶפְשָׁרוּת; (בכח) בְּכֹחַ",
       "source": "lane",
       "variants": [
-        "קוי",
         "באלקוה",
         "קותי",
         "קותה",
@@ -23443,7 +23406,6 @@
         "וקוותי",
         "קוותי",
         "קואכם",
-        "קויה",
         "וקויהם",
         "קויהם",
         "קויא",
@@ -24071,7 +24033,6 @@
       "source": "lane",
       "variants": [
         "ואת'רה",
-        "ויות'ראנה",
         "יות'ראנה",
         "יות'ר",
         "את'רא",
@@ -24629,9 +24590,9 @@
       "lemma_ja": "קטע",
       "lemma_ar": "قَطْع",
       "root": "q-ṭ-ʕ",
-      "pos": "noun",
-      "gloss_en": "cutting; (bi-l-qaṭʿ) decisively, definitively, for certain",
-      "gloss_he": "חִתּוּךְ; (באלקטע) בְּהֶחְלֵט, בְּוַדַּאי",
+      "pos": "verb",
+      "gloss_en": "to cut, sever",
+      "gloss_he": "חתך, גזר",
       "source": "lane",
       "variants": [
         "באלקטע",
@@ -25449,9 +25410,9 @@
       "lemma_ja": "נסב",
       "lemma_ar": "نِسَب",
       "root": "n-s-b",
-      "pos": "noun (pl.)",
-      "gloss_en": "relations, ratios, proportions (sing. nisba)",
-      "gloss_he": "יְחָסִים, עֲרָכִים",
+      "pos": "verb (Form I, perfect)",
+      "gloss_en": "to ascribe, attribute, refer (something to)",
+      "gloss_he": "לייחס, לזקוף (דבר ל-)",
       "source": "lane",
       "variants": [
         "באלנסב",
@@ -27537,10 +27498,10 @@
       "id": "adv-b-r1-0-26",
       "lemma_ja": "הוא",
       "lemma_ar": "هَوَاء",
-      "root": "h-w-y",
-      "pos": "noun",
-      "gloss_en": "air (one of the four elements: fire, air, water, earth)",
-      "gloss_he": "אוויר (אחד מארבעת היסודות)",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "He (is); the LORD, He is God",
+      "gloss_he": "הוא (כינוי גוף שלישי)",
       "source": "lane",
       "variants": [
         "הוא",
@@ -27608,8 +27569,7 @@
         "אלשמס",
         "באלשמס",
         "ואלשמס",
-        "שמס",
-        "אלשמסאת"
+        "שמס"
       ]
     },
     {
@@ -28247,8 +28207,7 @@
         "בעליל",
         "עליל",
         "אלעליל",
-        "עלילא",
-        "עלילות"
+        "עלילא"
       ]
     },
     {
@@ -29089,7 +29048,6 @@
       "variants": [
         "אלמעד",
         "מעד",
-        "מעדה",
         "אלמעדאת"
       ]
     },
@@ -30333,11 +30291,8 @@
       "source": "lane",
       "variants": [
         "ידור",
-        "דאר",
-        "דארה",
         "בדורך",
         "אלדארין",
-        "אלדאר",
         "דורהם"
       ]
     },
@@ -32810,8 +32765,7 @@
       "source": "lane",
       "variants": [
         "שמי",
-        "לשמי",
-        "שמיך"
+        "לשמי"
       ]
     },
     {
@@ -35486,11 +35440,11 @@
     {
       "id": "adv-b-r1-1530-16",
       "lemma_ja": "והם",
-      "lemma_ar": "وَهْم",
-      "root": "w-h-m",
-      "pos": "noun",
-      "gloss_en": "imagination, the imaginative faculty; (here) bi-wahmihi = by his imagination",
-      "gloss_he": "דמיון, כוח הדמיון (\"בוהמה\" = בכוח דמיונו)",
+      "lemma_ar": "هُمْ",
+      "root": "—",
+      "pos": "conjunction + pronoun",
+      "gloss_en": "and they (are); while they",
+      "gloss_he": "והם (ו' החיבור + כינוי גוף רבים: 'והם')",
       "source": "lane",
       "variants": [
         "בוהמה",
@@ -38498,7 +38452,8 @@
         "אנתהא",
         "ואנתהוא",
         "אנתהוא",
-        "ינתהי"
+        "ינתהי",
+        "ואנתהא"
       ]
     },
     {
@@ -38946,7 +38901,6 @@
         "היאה",
         "היאהא",
         "היאך",
-        "היי",
         "תהיא",
         "תהייא"
       ]
@@ -40356,7 +40310,8 @@
         "גד'איהא",
         "אלגד'איין",
         "גד'איין",
-        "אגד'יה"
+        "אגד'יה",
+        "גד'אוה"
       ]
     },
     {
@@ -45023,8 +44978,7 @@
       "variants": [
         "סאילה",
         "סאיל",
-        "אלסאיל",
-        "סאילא"
+        "אלסאיל"
       ]
     },
     {
@@ -46099,9 +46053,9 @@
       "lemma_ja": "כלפה",
       "lemma_ar": "كَلَّفَهُ",
       "root": "k-l-f",
-      "pos": "verb",
-      "gloss_en": "he charged/burdened him with (a task)",
-      "gloss_he": "הטיל עליו, הפקיד בידו",
+      "pos": "noun (f.)",
+      "gloss_en": "trouble, hardship, burden, exertion",
+      "gloss_he": "טרחה, קושי, עמל, מעמסה",
       "source": "lane",
       "variants": [
         "כלפה",
@@ -46141,7 +46095,6 @@
       "variants": [
         "פלטפוא",
         "לטפוא",
-        "לטף",
         "ולטפה",
         "ללטפה",
         "לטפה",
@@ -50067,9 +50020,9 @@
       "lemma_ja": "פהם",
       "lemma_ar": "فَهْم",
       "root": "f-h-m",
-      "pos": "noun",
-      "gloss_en": "understanding, comprehension, discernment",
-      "gloss_he": "הֲבָנָה, תְּפִיסָה",
+      "pos": "verb (Form I, perfect, 3ms)",
+      "gloss_en": "he understood, comprehended",
+      "gloss_he": "הֵבִין, הֵשִׂיג",
       "source": "lane",
       "variants": [
         "פהמי",
@@ -52251,7 +52204,6 @@
         "בלגתנא",
         "בלג",
         "תבלג",
-        "ואלבלגה",
         "אלבלגה",
         "בלגני",
         "בלגוא",
@@ -53913,8 +53865,7 @@
       "gloss_he": "מֵרָע — תהלים לד:טו (\"סור מרע ועשה טוב\")",
       "source": "lane",
       "variants": [
-        "מרע",
-        "מרעה"
+        "מרע"
       ]
     },
     {
@@ -54192,11 +54143,11 @@
     {
       "id": "adv-b-r1-2835-41",
       "lemma_ja": "חדה",
-      "lemma_ar": "حِدَّة",
+      "lemma_ar": "حَدّ",
       "root": "ḥ-d-d",
-      "pos": "noun",
-      "gloss_en": "sharpness, keenness, intensity",
-      "gloss_he": "חֲרִיפוּת, חֻדּוּת",
+      "pos": "noun (+ 3ms suffix)",
+      "gloss_en": "its limit, its boundary",
+      "gloss_he": "גְּבוּלוֹ, תְּחוּמוֹ",
       "source": "lane",
       "variants": [
         "חדתה",
@@ -54309,7 +54260,6 @@
         "יסר",
         "ייסר",
         "יסרך",
-        "ליסרך",
         "ייסרך"
       ]
     },
@@ -56015,8 +55965,7 @@
       "source": "lane",
       "variants": [
         "ג",
-        "באלג",
-        "אלבאלגה"
+        "באלג"
       ]
     },
     {
@@ -57789,7 +57738,6 @@
         "וקיאמך",
         "וקיאמהא",
         "בקיאמהא",
-        "ללקיאם",
         "אלקיאם",
         "וקיאמהם",
         "קיאמהם"
@@ -59072,7 +59020,6 @@
       "variants": [
         "וגם",
         "גם",
-        "וגמה",
         "וגמך",
         "וגמא",
         "גמא",
@@ -60483,11 +60430,11 @@
     {
       "id": "adv-b-r1-765-42",
       "lemma_ja": "רשד",
-      "lemma_ar": "رَشَّدَ",
+      "lemma_ar": "رَشَدَ",
       "root": "r-sh-d",
-      "pos": "verb",
-      "gloss_en": "to guide aright, lead to the right course",
-      "gloss_he": "להדריך אל הישר",
+      "pos": "verb (Form I, perfect, 3ms)",
+      "gloss_en": "to take the right course, be rightly guided",
+      "gloss_he": "הָלַךְ בַּדֶּרֶךְ הַיְּשָׁרָה, נִתְהַדָּה",
       "source": "lane",
       "variants": [
         "ורשדנא",
@@ -60574,8 +60521,7 @@
       "gloss_he": "כַּעֲבָדִים — ציטוט (אבות א:ג: 'אל תהיו כעבדים המשמשין את הרב')",
       "source": "lane",
       "variants": [
-        "כעבדים",
-        "עבדים"
+        "כעבדים"
       ]
     },
     {
@@ -61020,7 +60966,8 @@
       "variants": [
         "אכ'לאקהם",
         "אלאכ'לאק",
-        "כ'לק"
+        "כ'לק",
+        "אכ'לאק"
       ]
     },
     {
@@ -61517,8 +61464,7 @@
       "gloss_he": "וְיָדַעְתָּ — ציטוט: \"וידעת היום והשבות אל לבבך\" (דברים ד:לט)",
       "source": "lane",
       "variants": [
-        "וידעת",
-        "ידעת"
+        "וידעת"
       ]
     },
     {
@@ -61580,7 +61526,6 @@
         "והלא",
         "אלהלאך",
         "הלאך",
-        "ואלהלאכאת",
         "הלאכה",
         "והלאכך"
       ]
@@ -62640,9 +62585,9 @@
       "lemma_ja": "תעג'ב",
       "lemma_ar": "تَعَجُّب",
       "root": "ʕ-j-b",
-      "pos": "noun",
-      "gloss_en": "wonder, astonishment, exclamation of amazement",
-      "gloss_he": "תמיהה, השתוממות, קריאת פליאה",
+      "pos": "verb",
+      "gloss_en": "to marvel, wonder, be amazed",
+      "gloss_he": "התפלא, התפעל",
       "source": "lane",
       "variants": [
         "אלתעג'ב",
@@ -63586,7 +63531,8 @@
         "נעמתהם",
         "נעמהם",
         "נעמאיה",
-        "ונעמאיה"
+        "ונעמאיה",
+        "לנעמהֵ"
       ]
     },
     {
@@ -63701,7 +63647,6 @@
       "gloss_he": "שְׁאִיפָה, חֵשֶׁק, מַרְץ",
       "source": "lane",
       "variants": [
-        "המה",
         "אלהמה",
         "הממה",
         "ואלהמה",
@@ -63892,7 +63837,9 @@
         "פצ'לי",
         "אלפצ'ל",
         "באלפצ'ל",
-        "פצ'ל"
+        "פצ'ל",
+        "בפצ'להא",
+        "פצ'לה"
       ]
     },
     {
@@ -64507,7 +64454,6 @@
         "וכ'ף",
         "כ'ף",
         "ל'ף",
-        "ותכ'ף",
         "תכ'ף",
         "יכ'ף"
       ]
@@ -64963,7 +64909,6 @@
         "עד'בונא",
         "ליעד'בך",
         "יעד'בני",
-        "עד'בא",
         "עד'בה"
       ]
     },
@@ -71083,7 +71028,8 @@
       "variants": [
         "ד'כרהם",
         "ד'כרהמ",
-        "ד'כר"
+        "ד'כר",
+        "ד'כרהא"
       ]
     },
     {
@@ -71570,8 +71516,8 @@
       "lemma_ar": "بَقَاء",
       "root": "b-q-y",
       "pos": "noun",
-      "gloss_en": "everlastingness, perpetual existence (here 'My eternal existence', as a divine oath, Deut 32:40)",
-      "gloss_he": "קיום נצחי, חיים לעולם",
+      "gloss_en": "abiding, permanence, continued existence, persistence",
+      "gloss_he": "קיום, התמדה, השארות",
       "source": "lane",
       "variants": [
         "ובקאי",
@@ -73435,7 +73381,6 @@
       "source": "lane",
       "variants": [
         "בת",
-        "ותבת'ה",
         "תבת'ה",
         "תבת'",
         "יבת'"
@@ -73970,9 +73915,9 @@
       "lemma_ja": "קאים",
       "lemma_ar": "قَائِم",
       "root": "q-w-m",
-      "pos": "participle",
-      "gloss_en": "standing, established",
-      "gloss_he": "עומד, קיים",
+      "pos": "noun (f., here pl. qawāʾim)",
+      "gloss_en": "leg, support (of an animal); here pl. 'legs'",
+      "gloss_he": "רגל, כרע (של בהמה); כאן ברבים: רגליים",
       "source": "lane",
       "variants": [
         "קאים",
@@ -77404,7 +77349,8 @@
       "source": "lane",
       "variants": [
         "לולא",
-        "פלולאה"
+        "פלולאה",
+        "לולאה"
       ]
     },
     {
@@ -78321,8 +78267,7 @@
       "source": "lane",
       "variants": [
         "תומנון",
-        "תומנונ",
-        "יומן"
+        "תומנונ"
       ]
     },
     {
@@ -78788,9 +78733,9 @@
       "lemma_ja": "סלב",
       "lemma_ar": "سَلْب",
       "root": "s-l-b",
-      "pos": "noun",
-      "gloss_en": "spoil, plunder, booty",
-      "gloss_he": "שלל, ביזה",
+      "pos": "verb (Form I, perfect, passive)",
+      "gloss_en": "to be seized/wrested away, despoiled, taken by force",
+      "gloss_he": "נשלל, נגזל, ניטל",
       "source": "lane",
       "variants": [
         "סלבהא",
@@ -79906,8 +79851,7 @@
       "source": "lane",
       "variants": [
         "עברתם",
-        "פעברתם",
-        "יעבר"
+        "פעברתם"
       ]
     },
     {
@@ -82004,9 +81948,9 @@
       "lemma_ja": "ינצבה",
       "lemma_ar": "يَنْصِبُه",
       "root": "n-ṣ-b",
-      "pos": "verb",
-      "gloss_en": "he sets him up, raises/appoints him",
-      "gloss_he": "יַעֲמִידֵהוּ, יָקִים",
+      "pos": "verb (Form VII/I, imperfect)",
+      "gloss_en": "it pours/flows forth, issues",
+      "gloss_he": "נשפך, נובע, יוצא ממנו",
       "source": "lane",
       "variants": [
         "ינצבה",
@@ -82170,8 +82114,7 @@
       "gloss_he": "יִשָּׁמֵט, יֵצֵא",
       "source": "lane",
       "variants": [
-        "ינסל",
-        "ינסלך"
+        "ינסל"
       ]
     },
     {
@@ -91624,8 +91567,7 @@
         "יתפרק",
         "פתפרק",
         "יתפרקאן",
-        "תפרקה",
-        "ותפרקתה"
+        "תפרקה"
       ]
     },
     {
@@ -91826,7 +91768,6 @@
         "מעאד",
         "מעאד'",
         "מעאד'ין",
-        "למעאדה",
         "ומעאדה",
         "ומעאדנא",
         "למעאדנא",
@@ -92028,8 +91969,8 @@
       "lemma_ar": "عَرَق",
       "root": "ʿ-r-q",
       "pos": "noun",
-      "gloss_en": "sweat",
-      "gloss_he": "זיעה",
+      "gloss_en": "vein, blood-vessel (pl. ʿurūq)",
+      "gloss_he": "עורק, גיד; (רבים) עורקים",
       "source": "lane",
       "variants": [
         "בערק",
@@ -95923,7 +95864,6 @@
       "source": "lane",
       "variants": [
         "עמי",
-        "עמאיהם",
         "אלעמי",
         "עמאה"
       ]
@@ -98577,7 +98517,6 @@
       "source": "lane",
       "variants": [
         "והב",
-        "ווהבה",
         "ווהבוה",
         "והבוה"
       ]
@@ -101094,7 +101033,6 @@
         "וג'נא",
         "ג'נא",
         "ג'נאה",
-        "וגנאה",
         "גנאה"
       ]
     },
@@ -102073,7 +102011,6 @@
         "חגרי",
         "חג'רי",
         "חג'ר",
-        "אלאחג'אר",
         "אחג'אר"
       ]
     },
@@ -104679,7 +104616,8 @@
         "ילחק",
         "לחקת",
         "לחקה",
-        "אלחק"
+        "אלחק",
+        "ילחקהא"
       ]
     },
     {
@@ -111005,7 +110943,6 @@
       "variants": [
         "צאן",
         "וצאנך",
-        "תצונהא",
         "יצון",
         "תצון",
         "ויצונהא",
@@ -131900,7 +131837,6 @@
       "variants": [
         "חרכת",
         "חרכתה",
-        "חרכתהא",
         "חרכתהמא",
         "וחרכתך"
       ]
@@ -136820,8 +136756,8 @@
       "lemma_ar": "—",
       "root": "—",
       "pos": "Hebrew quote",
-      "gloss_en": "His works; from 'ורחמיו על כל מעשיו' (Psalms 145:9, cited)",
-      "gloss_he": "מַעֲשָׂיו (ורחמיו על כל מעשיו, תהלים קמה:ט)",
+      "gloss_en": "His works",
+      "gloss_he": "מעשיו — מעשי ידיו",
       "source": "lane",
       "variants": [
         "מעשיו"
@@ -137000,8 +136936,8 @@
       "lemma_ar": "—",
       "root": "—",
       "pos": "Hebrew quote",
-      "gloss_en": "its prey/food; from 'מי יכין לעורב צידו' (Job 38:41, cited)",
-      "gloss_he": "צֵידוֹ (מי יכין לעורב צידו, איוב לח:מא)",
+      "gloss_en": "its prey, its food",
+      "gloss_he": "צידו — מזונו, טרפו",
       "source": "lane",
       "variants": [
         "צידו"
@@ -139951,8 +139887,7 @@
       "gloss_he": "הֲיָדַעְתָּ — ציטוט: איוב לט:א",
       "source": "lane",
       "variants": [
-        "הידעת",
-        "היד"
+        "הידעת"
       ]
     },
     {
@@ -140129,7 +140064,6 @@
       "gloss_he": "גַּחֶלֶת, אוּד בּוֹעֵר",
       "source": "lane",
       "variants": [
-        "גד'אוה",
         "ג'ד'וה",
         "אלג'ד'וה"
       ]
@@ -188255,11 +188189,11 @@
     {
       "id": "qc-—-פקד",
       "lemma_ja": "פקד",
-      "lemma_ar": "فَقَدْ",
-      "root": "—",
-      "pos": "particle",
-      "gloss_en": "for indeed; and already (fa-qad)",
-      "gloss_he": "שֶׁכְּבָר; וַהֲרֵי",
+      "lemma_ar": "فَقَدَ",
+      "root": "f-q-d",
+      "pos": "verb (Form I, perfect, 3ms)",
+      "gloss_en": "he lost, was bereft of, missed (faqada)",
+      "gloss_he": "אִבֵּד, נֶעֱדַר מ-",
       "notes": "ja_phrase 'פקד צחת אלמ...' = fa-qad ṣaḥḥa 'for indeed it has been established'; en_phrase 'is established'",
       "source": "lane",
       "variants": [
@@ -188367,11 +188301,11 @@
     {
       "id": "heb-לבכ",
       "lemma_ja": "לבך",
-      "lemma_ar": "",
-      "root": "—",
-      "pos": "Hebrew quote",
-      "gloss_en": "your heart (Hebrew lev + -kha)",
-      "gloss_he": "לִבְּךָ (לֵב + כ' חבור)",
+      "lemma_ar": "لُبّ",
+      "root": "l-b-b",
+      "pos": "noun",
+      "gloss_en": "inner mind, intellect, understanding (here with 2ms suffix, 'your mind')",
+      "gloss_he": "שכל, תבונה, לב פנימי (כאן עם כינוי: שכלך)",
       "notes": "שיר השירים ח:ו — 'שימני כחותם על לבך' = 'Set me as a seal upon your heart'; embedded Hebrew לבך, not Arabic prep bi-",
       "source": "lane",
       "variants": [
@@ -188732,7 +188666,11 @@
       "notes": "פי חאל צחתה 'in its state of soundness'; חאל = ḥāl 'state, condition' (root ḥ-w-l), not the verb ḥalla 'to alight' (ḥ-l-l). Cf. also פי חאל מן אלאחואל 'in any of the states'.",
       "source": "lane",
       "variants": [
-        "חאל"
+        "חאל",
+        "אחואלה",
+        "אחואלהם",
+        "חאלהם",
+        "חאלנא"
       ]
     },
     {
@@ -188845,6 +188783,1148 @@
       "source": "lane",
       "variants": [
         "צאנע"
+      ]
+    },
+    {
+      "id": "qc-d-w-r-באלדאר",
+      "lemma_ja": "דאר",
+      "lemma_ar": "دَار",
+      "root": "d-w-r",
+      "pos": "noun (f.)",
+      "gloss_en": "house, dwelling, abode",
+      "gloss_he": "בית, מעון, דירה",
+      "notes": "'muwakkalūn bi-l-dār' = 'charged with the house'; dār is the noun 'house' (root d-w-r), not the verb yadūr 'it revolves'.",
+      "source": "lane",
+      "variants": [
+        "באלדאר",
+        "דאר",
+        "דארה",
+        "ואלדאר",
+        "אלדאר"
+      ]
+    },
+    {
+      "id": "heb-וידבר",
+      "lemma_ja": "וידבר",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "and he spoke (of)",
+      "gloss_he": "וַיְדַבֵּר",
+      "notes": "1 Kings 5:13: 'וידבר על העצים' = 'and he spoke of the trees'; biblical Hebrew imperfect-consecutive of דבר 'to speak', not Arabic tadbīr.",
+      "source": "lane",
+      "variants": [
+        "וידבר"
+      ]
+    },
+    {
+      "id": "qc-w-l-y-אוליאה",
+      "lemma_ja": "ולי",
+      "lemma_ar": "وَلِيّ",
+      "root": "w-l-y",
+      "pos": "noun (m.)",
+      "gloss_en": "friend, ally, protégé; (pl. awliyāʾ) saints, intimates of God",
+      "gloss_he": "ידיד, בן-חסות; (רבים) קדושים, ידידי האל",
+      "notes": "'wa-bayna awliyāʾihi' = 'and between His friends/saints'; awliyāʾ is pl. of walī 'friend, ally, saint' (root w-l-y noun), not the verb waliya 'to face/adjoin'.",
+      "source": "lane",
+      "variants": [
+        "אוליאה"
+      ]
+    },
+    {
+      "id": "qc-ʕ-ẓ-m-יעט'מ",
+      "lemma_ja": "עט'ם",
+      "lemma_ar": "عَظُمَ",
+      "root": "ʕ-ẓ-m",
+      "pos": "verb (Form I, perfect)",
+      "gloss_en": "to be or become great, mighty, important",
+      "gloss_he": "להיות גדול, רב, חשוב",
+      "notes": "'bal yaʿẓum' = 'rather it/their concern is great'; verb ʿaẓuma 'to be/become great' (root ʕ-ẓ-m), not the noun ʿaẓm 'bone'.",
+      "source": "lane",
+      "variants": [
+        "יעט'ם"
+      ]
+    },
+    {
+      "id": "qc-kh-r-j-למכ'רג",
+      "lemma_ja": "מכ'רג",
+      "lemma_ar": "مَخْرَج",
+      "root": "kh-r-j",
+      "pos": "noun (m.)",
+      "gloss_en": "place or point of exit; (phonetics) point of articulation; way out",
+      "gloss_he": "מקום יציאה; (בפונטיקה) מוצא ההגה; מוצא",
+      "notes": "'li-makhraj al-ṣawt' = 'for the issuing/place-of-issue of the voice'; makhraj is a noun (nomen loci/maṣdar mīmī) 'point of articulation, place/act of exit', root kh-r-j, not the bare verb kharaja.",
+      "source": "lane",
+      "variants": [
+        "למכ'רג'"
+      ]
+    },
+    {
+      "id": "qc-m-ʕ-d-אלמעדה",
+      "lemma_ja": "מעדה",
+      "lemma_ar": "مَعِدَة",
+      "root": "m-ʕ-d",
+      "pos": "noun (f.)",
+      "gloss_en": "stomach",
+      "gloss_he": "קֵבָה",
+      "notes": "'tarudduhu fī al-maʿida' = 'keeps it in the stomach'; al-maʿida = the stomach (root m-ʕ-d), not muʿadd 'prepared' (root ʿ-d-d).",
+      "source": "lane",
+      "variants": [
+        "אלמעדה",
+        "ואלמעדה",
+        "מעדהֵ"
+      ]
+    },
+    {
+      "id": "qc-ʔ-th-r-ויות'ראנה",
+      "lemma_ja": "את'ר",
+      "lemma_ar": "آثَرَ",
+      "root": "ʔ-th-r",
+      "pos": "verb (Form IV)",
+      "gloss_en": "to prefer, give preference to, favour over",
+      "gloss_he": "להעדיף, לתת עדיפות",
+      "notes": "'wa-yuʾthirānahu ʿalā anfusihimā' = 'and prefer him over themselves'; yuʾthirān is Form IV of athara 'to prefer, give preference', not the noun athar 'trace'.",
+      "source": "lane",
+      "variants": [
+        "ויות'ראנה"
+      ]
+    },
+    {
+      "id": "heb-מות",
+      "lemma_ja": "מות",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "death",
+      "gloss_he": "מָוֶת",
+      "notes": "Jonah 4:3/8: 'והנה טוב מות' = 'behold, death is good'; Hebrew noun מָוֶת 'death' in a biblical quote, not Arabic māta.",
+      "source": "lane",
+      "variants": [
+        "מות"
+      ]
+    },
+    {
+      "id": "heb-לעיני",
+      "lemma_ja": "לעיני",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "in the eyes of",
+      "gloss_he": "לְעֵינֵי",
+      "notes": "Deut 4:6: 'לעיני העמים' = 'in the eyes of the peoples'; biblical Hebrew עין/עיני, not Arabic ʿayn.",
+      "source": "lane",
+      "variants": [
+        "לעיני"
+      ]
+    },
+    {
+      "id": "heb-עיניכ",
+      "lemma_ja": "עיניך",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "your eyes",
+      "gloss_he": "עֵינֶיךָ",
+      "notes": "Ps 139:16: 'גלמי ראו עיניך' = 'Your eyes saw my unformed substance'; Hebrew עיניך 'your eyes', biblical quote.",
+      "source": "lane",
+      "variants": [
+        "עיניך"
+      ]
+    },
+    {
+      "id": "heb-עיניכמ",
+      "lemma_ja": "עיניכם",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "your eyes",
+      "gloss_he": "עֵינֵיכֶם",
+      "notes": "Isa 40:26: 'שאו מרום עיניכם' = 'lift up your eyes on high'; Hebrew עיניכם 'your eyes', biblical quote.",
+      "source": "lane",
+      "variants": [
+        "עיניכם"
+      ]
+    },
+    {
+      "id": "qc-q-w-y-קוי",
+      "lemma_ja": "קוי",
+      "lemma_ar": "قَوِيَ",
+      "root": "q-w-y",
+      "pos": "verb (Form I, perfect)",
+      "gloss_en": "to be or become strong, powerful",
+      "gloss_he": "להיות חזק, להתחזק",
+      "notes": "'wa-in qawiya tamyīzuhu' = 'even when his discernment grew strong'; qawiya is the verb 'to be/grow strong' (root q-w-y), not the noun quwwa 'power/faculty'.",
+      "source": "lane",
+      "variants": [
+        "קוי"
+      ]
+    },
+    {
+      "id": "qc-q-w-y-קויה",
+      "lemma_ja": "קוי",
+      "lemma_ar": "قَوِيّ",
+      "root": "q-w-y",
+      "pos": "adjective",
+      "gloss_en": "strong, powerful, mighty",
+      "gloss_he": "חזק, אדיר, רב-עוצמה",
+      "notes": "'qawiyyat al-shahāda' = 'strong in testimony'; qawiyya is the adjective 'strong' (root q-w-y), not the noun quwwa.",
+      "source": "lane",
+      "variants": [
+        "קויהֵ"
+      ]
+    },
+    {
+      "id": "heb-אליכ",
+      "lemma_ja": "אליך",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "to You / upon You",
+      "gloss_he": "אֵלֶיךָ",
+      "notes": "Ps 145:15 'עיני כל אליך ישברו'; in 'כלם אליך ישברון' this is the Hebrew pronoun-prep, not Arabic إلى",
+      "source": "lane",
+      "variants": [
+        "אליך"
+      ]
+    },
+    {
+      "id": "qc-y-s-r-אליסיר",
+      "lemma_ja": "יסיר",
+      "lemma_ar": "يَسِير",
+      "root": "y-s-r",
+      "pos": "adjective",
+      "gloss_en": "little, small, slight, easy",
+      "gloss_he": "מעט, קל, קטן",
+      "notes": "Lane root y-s-r: 'easy, little, small'. 'הד'א אלנזר אליסיר' = 'this slight glance' — yasīr, not سَار (s-y-r walk).",
+      "source": "lane",
+      "variants": [
+        "אליסיר",
+        "באליסיר"
+      ]
+    },
+    {
+      "id": "heb-ובינה",
+      "lemma_ja": "ובינה",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "understanding, discernment",
+      "gloss_he": "בִּינָה (תבונה)",
+      "notes": "Deut 4:6 'איזו היא חכמה ובינה שהיא לעיני העמים'; Hebrew בינה 'understanding', not Arabic بَيْن.",
+      "source": "lane",
+      "variants": [
+        "ובינה"
+      ]
+    },
+    {
+      "id": "qc-b-ʿ-d-ואבעאדהא",
+      "lemma_ja": "בעד",
+      "lemma_ar": "بُعْد",
+      "root": "b-ʿ-d",
+      "pos": "noun",
+      "gloss_en": "distance, remoteness; (pl. abʿād) distances",
+      "gloss_he": "מרחק; (רבים) מרחקים",
+      "notes": "'אלכואכב ואבעאדהא' = 'the stars and their distances' — abʿād, plural of buʿd 'distance' (noun), same root b-ʿ-d but not the preposition baʿd 'after'.",
+      "source": "lane",
+      "variants": [
+        "ואבעאדהא"
+      ]
+    },
+    {
+      "id": "qc-w-r-d-ורוד",
+      "lemma_ja": "ורד",
+      "lemma_ar": "وُرُود",
+      "root": "w-r-d",
+      "pos": "noun (verbal noun)",
+      "gloss_en": "arrival, coming (to water), incoming",
+      "gloss_he": "בוא, הגעה, ירידה אל המים",
+      "notes": "Lane w-r-d: warada 'arrived, came (to water)'; wurūd 'arrival'. 'תקתצ'י ורוד אלגד'א' = 'requires the arrival of the nourishment' — wurūd (w-r-d), not رَدّ 'return' (r-d-d).",
+      "source": "lane",
+      "variants": [
+        "ורוד"
+      ]
+    },
+    {
+      "id": "qc-k-w-n-כאנה",
+      "lemma_ja": "כאן",
+      "lemma_ar": "كَانَ",
+      "root": "k-w-n",
+      "pos": "verb (Form I, perfect)",
+      "gloss_en": "to be, become; (kānat) she/it was",
+      "gloss_he": "היה, היתה",
+      "notes": "'ואן כאנהֵ עאמה שאמלה' = 'though they be general and inclusive' — כאנהֵ = kānat 'they/it be' (kāna, k-w-n); the conjunction is אן, not the surface כאנהֵ.",
+      "source": "lane",
+      "variants": [
+        "כאנהֵ"
+      ]
+    },
+    {
+      "id": "qc-ʔ-n-s-פיאנס",
+      "lemma_ja": "אנס",
+      "lemma_ar": "",
+      "root": "ʔ-n-s",
+      "pos": "verb (Form I, perfect)",
+      "gloss_en": "to grow fond of, become familiar/intimate with, be cheered by",
+      "gloss_he": "התרגל אל, נמשך אל, מצא נחת ב-",
+      "notes": "Lane ʔ-n-s: anisa 'became familiar/sociable, was cheered'. 'פיאנס אליהא' = 'lest he grow fond of it' — verb ya'nas, not the noun insān 'human being'.",
+      "source": "lane",
+      "variants": [
+        "פיאנס"
+      ]
+    },
+    {
+      "id": "qc-s-l-m-סלמא",
+      "lemma_ja": "סלם",
+      "lemma_ar": "سُلَّم",
+      "root": "s-l-m",
+      "pos": "noun (m.)",
+      "gloss_en": "ladder, stairway; means of ascent",
+      "gloss_he": "סולם, מעלה",
+      "notes": "'ויג'עלהא סלמא' = 'and makes them a ladder' — sullam 'ladder' (noun, root s-l-m), not the verb sallama 'pay over/restitution'.",
+      "source": "lane",
+      "variants": [
+        "סלמא"
+      ]
+    },
+    {
+      "id": "qc-s-l-m-סלמת",
+      "lemma_ja": "סלם",
+      "lemma_ar": "سَلِمَ",
+      "root": "s-l-m",
+      "pos": "verb (Form I, perfect)",
+      "gloss_en": "to be safe, sound, secure, free from harm; to be preserved",
+      "gloss_he": "היה שלם, ניצל, נשמר",
+      "notes": "Lane/Blau s-l-m: salima 'be safe/secure'. 'אד'א סלמת מן אלאפאת' = 'if it is preserved from injuries' — salima, not the Form II 'pay over restitution'.",
+      "source": "lane",
+      "variants": [
+        "סלמת"
+      ]
+    },
+    {
+      "id": "heb-לבי",
+      "lemma_ja": "לבי",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "my heart",
+      "gloss_he": "לִבִּי",
+      "notes": "Prov 24:32 'ואחזה אנכי אשית לבי' — Hebrew לֵב 'heart' + 1cs suffix; not the Arabic proclitic bi-",
+      "source": "lane",
+      "variants": [
+        "לבי"
+      ]
+    },
+    {
+      "id": "qc-š-r-y-אלשרא",
+      "lemma_ja": "שרא",
+      "lemma_ar": "شِرَاء",
+      "root": "š-r-y",
+      "pos": "noun",
+      "gloss_en": "buying, purchase",
+      "gloss_he": "קְנִיָּה, מִקָּח",
+      "notes": "'עלי אלשרא ואלביע' = 'buying and selling'; this is شِرَاء širāʾ 'buying' (root š-r-y), not the proper noun Sarah. Blau: شراء paired with بيع 'buying and selling'",
+      "source": "lane",
+      "variants": [
+        "אלשרא",
+        "ושרא"
+      ]
+    },
+    {
+      "id": "qc-w-b-r-אלאובאר",
+      "lemma_ja": "ובר",
+      "lemma_ar": "وَبَر",
+      "root": "w-b-r",
+      "pos": "noun (plural)",
+      "gloss_en": "furs, soft hair/wool (pl. of wabar)",
+      "gloss_he": "צֶמֶר, פַּרְוָה",
+      "notes": "'מן אלאובאר ואלנבאת' = 'from furs/wool and plants'; this is أَوْبَار awbār, pl. of wabar 'fur/soft camel-hair' (Lane: pl. أوبار), root w-b-r, not بَرّ 'wilderness'",
+      "source": "lane",
+      "variants": [
+        "אלאובאר"
+      ]
+    },
+    {
+      "id": "qc-ḥ-j-r-אלאחג'אר",
+      "lemma_ja": "חג'ר",
+      "lemma_ar": "حَجَر",
+      "root": "ḥ-j-r",
+      "pos": "noun (plural)",
+      "gloss_en": "stones (pl. of ḥajar)",
+      "gloss_he": "אֲבָנִים",
+      "notes": "'אלאחג'אר אלעזיזה' = 'precious stones'; this is أَحْجَار aḥjār pl. of ḥajar 'stone', not حِجْر 'lap/bosom'. Same root ḥ-j-r but different lemma and sense",
+      "source": "lane",
+      "variants": [
+        "אלאחג'אר"
+      ]
+    },
+    {
+      "id": "qc-k-th-r-אלאסתכת'אר",
+      "lemma_ja": "אסתכת'אר",
+      "lemma_ar": "اِسْتِكْثَار",
+      "root": "k-th-r",
+      "pos": "noun (verbal noun, Form X)",
+      "gloss_en": "accumulating, amassing in abundance",
+      "gloss_he": "הַרְבּוֹת, צְבִירָה",
+      "notes": "al-istikthār is the Form X verbal noun 'accumulating/seeking much', not the imperative istakthir; same root/Form, but pos is noun (maṣdar) here",
+      "source": "lane",
+      "variants": [
+        "אלאסתכת'אר"
+      ]
+    },
+    {
+      "id": "qc-b-l-gh-אלבאלגה",
+      "lemma_ja": "באלג",
+      "lemma_ar": "بَالِغ",
+      "root": "b-l-gh",
+      "pos": "adjective (participle, f.)",
+      "gloss_en": "consummate, far-reaching, perfect",
+      "gloss_he": "מֻשְׁלֶמֶת, מַגַּעַת לְתַכְלִית",
+      "notes": "'אלחכמה אלבאלגה' = 'the consummate/perfect wisdom'; this is بَالِغَة bāligha, act. participle fem. of بلغ 'reach the utmost', root b-l-gh (Lane: 'reached a consummate degree'), not the letter ج",
+      "source": "lane",
+      "variants": [
+        "אלבאלגה"
+      ]
+    },
+    {
+      "id": "qc-m-r-r-אלמרארה",
+      "lemma_ja": "מראדה",
+      "lemma_ar": "مَرَارَة",
+      "root": "m-r-r",
+      "pos": "noun (f.)",
+      "gloss_en": "gall-bladder; gall, bile",
+      "gloss_he": "כיס המרה; מרה",
+      "notes": "Context 'flows to the gall-bladder' (jarā ilā kīs al-marāra). Lane m-r-r: مرارة = 'Bile, or gall'; the gall-bladder. Not marra 'a time'.",
+      "source": "lane",
+      "variants": [
+        "אלמרארה"
+      ]
+    },
+    {
+      "id": "qc-ʿ-w-d-אלעאדאת",
+      "lemma_ja": "עאדה",
+      "lemma_ar": "عَادَة",
+      "root": "ʿ-w-d",
+      "pos": "noun (f.)",
+      "gloss_en": "custom, habit, the customary/ordinary course (here pl. ʿādāt)",
+      "gloss_he": "מנהג, הרגל; דרך הטבע",
+      "notes": "khaṛq al-ʿādāt = 'the breaking of customs/the ordinary' (miracles). Blau عادة (עאזה) = 'habit, practice'. Plural ʿādāt is the noun ʿāda, not the verb ʿāda 'to return'.",
+      "source": "lane",
+      "variants": [
+        "אלעאדאת"
+      ]
+    },
+    {
+      "id": "qc-sh-m-s-אלשמסאת",
+      "lemma_ja": "שמסה",
+      "lemma_ar": "شَمْسَة",
+      "root": "sh-m-s",
+      "pos": "noun (f., here pl. shamsāt)",
+      "gloss_en": "skylight, glazed sun-window/pane (here pl.)",
+      "gloss_he": "אשנב, חלון זכוכית (לאור השמש)",
+      "notes": "Context: 'rays in the shamsāt which are made of white glass (zujāj)'. Here shamsa/pl. shamsāt = a glazed window/skylight (sun-pane), not 'sun' itself. Same root sh-m-s.",
+      "source": "lane",
+      "variants": [
+        "אלשמסאת"
+      ]
+    },
+    {
+      "id": "qc-b-n-y-בנאהא",
+      "lemma_ja": "בנא",
+      "lemma_ar": "بَنَى",
+      "root": "b-n-y",
+      "pos": "verb (Form I, perfect)",
+      "gloss_en": "to build, construct (here banāhā 'who built it')",
+      "gloss_he": "בנה (בנאהא: שבנה אותה)",
+      "notes": "alladhī banāhā 'who built it'. Lane b-n-y: banāhu 'He built it'. This is the verb banā (3ms perfect + fem. obj. suffix), not ibn 'son' (root b-n-w).",
+      "source": "lane",
+      "variants": [
+        "בנאהא"
+      ]
+    },
+    {
+      "id": "heb-היד",
+      "lemma_ja": "היד",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "the hand (ha-yad)",
+      "gloss_he": "הַיָּד (יד ה')",
+      "notes": "Exodus 14:31: 'va-yarʾ Yisraʾel et ha-yad ha-gedola' — 'And Israel saw the great hand'. The surface היד = Hebrew 'the hand', not the Arabic/Hebrew quote 'hayadaʿta' (Job 39:1) shown in the entry.",
+      "source": "lane",
+      "variants": [
+        "היד"
+      ]
+    },
+    {
+      "id": "qc-h-y-ʔ-היי",
+      "lemma_ja": "היא",
+      "lemma_ar": "هَيَّأَ",
+      "root": "h-y-ʔ",
+      "pos": "verb (Form II, passive)",
+      "gloss_en": "to be prepared, made ready (huyyiʾa 'it was prepared')",
+      "gloss_he": "הוכן, הותקן (היי לה: הוכן לו)",
+      "notes": "Context 'qad huyyiʾa lah' = 'for it has been prepared' (huyyiʾa, Form II passive of h-y-ʔ 'to prepare'). The shown entry hiya 'she/it (fem. pronoun)' does not fit; surface is a verb form 'has been prepared'.",
+      "source": "lane",
+      "variants": [
+        "היי"
+      ]
+    },
+    {
+      "id": "qc-h-m-m-המה",
+      "lemma_ja": "הם",
+      "lemma_ar": "هَمّ",
+      "root": "h-m-m",
+      "pos": "noun",
+      "gloss_en": "concern, anxiety, care, distress",
+      "gloss_he": "דאגה, צער, טרדה",
+      "notes": "Context ḍumma hammahu wa-ghammahu = 'their concern and anxiety'; surface = hamm (هَمّ) 'concern, anxiety', not himma 'aspiration, resolve'. Same root h-m-m.",
+      "source": "lane",
+      "variants": [
+        "המה"
+      ]
+    },
+    {
+      "id": "qc-s-w-d-ואלאסוד",
+      "lemma_ja": "אסוד",
+      "lemma_ar": "أَسْوَد",
+      "root": "s-w-d",
+      "pos": "adjective (elative/color)",
+      "gloss_en": "black",
+      "gloss_he": "שחור",
+      "notes": "Context al-akhḍar wal-aswad wal-aḥmar = 'green, black, red'; al-aswad = 'the black' (s-w-d), not asad 'lion'. Lane: sād/aswad = black.",
+      "source": "lane",
+      "variants": [
+        "ואלאסוד"
+      ]
+    },
+    {
+      "id": "qc-b-l-gh-ואלבלגה",
+      "lemma_ja": "בלגה",
+      "lemma_ar": "بُلْغَة",
+      "root": "b-l-gh",
+      "pos": "noun (f.)",
+      "gloss_en": "sufficiency, bare provision, that which suffices",
+      "gloss_he": "די מחסור, סיפוק, פרנסת הכרח",
+      "notes": "Context ḥasab al-ḥāja wal-bulgha faqaṭ = 'according to need and sufficiency alone'; surface = al-bulgha (البُلْغَة) noun 'sufficiency, that which suffices', not the verb balaghatnā 'reached us'. Same root b-l-gh, different lemma.",
+      "source": "lane",
+      "variants": [
+        "ואלבלגה"
+      ]
+    },
+    {
+      "id": "qc-w-l-d-ואלדיה",
+      "lemma_ja": "ואלד",
+      "lemma_ar": "وَالِد",
+      "root": "w-l-d",
+      "pos": "noun (m.)",
+      "gloss_en": "parent, father (dual wālidān = both parents)",
+      "gloss_he": "הורה, אב (זוגי: שני ההורים)",
+      "notes": "fī qulūb wālidayhi = 'in the hearts of his parents'; surface = wālidayhi (dual of wālid 'parent'), not walad 'child'. Same root w-l-d, different lemma.",
+      "source": "lane",
+      "variants": [
+        "ואלדיה"
+      ]
+    },
+    {
+      "id": "qc-h-l-k-ואלהלאכאת",
+      "lemma_ja": "הלאך",
+      "lemma_ar": "هَلَاك",
+      "root": "h-l-k",
+      "pos": "noun (m., pl. halakāt)",
+      "gloss_en": "destruction, ruin, perdition",
+      "gloss_he": "אבדון, כליה, חורבן",
+      "notes": "min al-balāyā wal-halakāt = 'from calamities and destructions'; surface = al-halakāt (pl.) 'destructions, ruins' (h-l-k). Entry conflates an unrelated Hebrew הלא particle / Arabic jahlan fragment.",
+      "source": "lane",
+      "variants": [
+        "ואלהלאכאת"
+      ]
+    },
+    {
+      "id": "qc-ʿ-r-y-ואלערי",
+      "lemma_ja": "ערי",
+      "lemma_ar": "عُرْي",
+      "root": "ʿ-r-y",
+      "pos": "noun (m.)",
+      "gloss_en": "nakedness, nudity, being unclothed",
+      "gloss_he": "עירום, מערומים",
+      "notes": "al-jūʿ wal-ʿury = 'hunger and nakedness'; surface = al-ʿury (العُرْي) 'nakedness' (ʿ-r-y), not ʿurwa 'loop' (ʿ-r-w). Lane ʿry: 'was/became naked'.",
+      "source": "lane",
+      "variants": [
+        "ואלערי"
+      ]
+    },
+    {
+      "id": "qc-w-th-q-ואלת'קה",
+      "lemma_ja": "ת'קה",
+      "lemma_ar": "ثِقَة",
+      "root": "w-th-q",
+      "pos": "noun (f.)",
+      "gloss_en": "trust, confidence, reliance, certainty",
+      "gloss_he": "בטחון, אמון, סמיכות-דעת",
+      "notes": "al-thiqa bil-rasūl = 'trust/confidence in His messenger'; surface = thiqa (ثِقَة) abstract noun 'trust, confidence', not thiqāt 'trustworthy people'. Same root w-th-q.",
+      "source": "lane",
+      "variants": [
+        "ואלת'קה"
+      ]
+    },
+    {
+      "id": "qc-m-n-ʿ-ואמנע",
+      "lemma_ja": "אמנע",
+      "lemma_ar": "أَمْنَع",
+      "root": "m-n-ʿ",
+      "pos": "adjective (elative)",
+      "gloss_en": "most inaccessible, most strongly fortified, most secure",
+      "gloss_he": "הבצור ביותר, החסון ביותר, המוגן ביותר",
+      "notes": "fī aḥraz makān wa-amnaʿ ʿiqāl = 'in the most secure place and most inaccessible stronghold'; surface = amnaʿ (أَمْنَع) elative 'most inaccessible/best-defended', not amnaʿt 'I ventured/made bold'. Lane mnʿ: manīʿ/manaʿa 'inaccessible, fortified, defended'.",
+      "source": "lane",
+      "variants": [
+        "ואמנע"
+      ]
+    },
+    {
+      "id": "qc-gh-m-m-וגמה",
+      "lemma_ja": "גם",
+      "lemma_ar": "غَمّ",
+      "root": "gh-m-m",
+      "pos": "noun (m.)",
+      "gloss_en": "grief, distress, anxiety, sorrow",
+      "gloss_he": "צער, יגון, מצוקה",
+      "notes": "hammahu wa-ghammahu = 'his concern and his anxiety'; surface = wa-ghammahu 'and his anxiety/grief' (ghamm, gh-m-m), Arabic, not the Hebrew particle גם 'also'.",
+      "source": "lane",
+      "variants": [
+        "וגמה"
+      ]
+    },
+    {
+      "id": "qc-gh-n-y-וגנאה",
+      "lemma_ja": "ג'נא",
+      "lemma_ar": "غِنًى",
+      "root": "gh-n-y",
+      "pos": "noun",
+      "gloss_en": "freedom from want, self-sufficiency, richness, independence",
+      "gloss_he": "עשירות, אי-תלות, די-מחסור",
+      "notes": "wa-ghināhu ʿanka = 'and his freedom-from-need-of-you'; here ghinā (غِنًى) 'freedom from want, richness, self-sufficiency', not ghināʾ 'song'. Lane g-n-y: ghinā = being free from want, contr. of poverty.",
+      "source": "lane",
+      "variants": [
+        "וגנאה"
+      ]
+    },
+    {
+      "id": "qc-z-w-d-וזאדא",
+      "lemma_ja": "זאד",
+      "lemma_ar": "زَاد",
+      "root": "z-w-d",
+      "pos": "noun (m.)",
+      "gloss_en": "provision, travel-provision, viaticum",
+      "gloss_he": "צידה, מזון לדרך",
+      "notes": "balāghan wa-zādan li-maʿādihi = 'as a provision and a viaticum for his afterlife'; surface = zād (زَاد) noun 'provision, viaticum' (z-w-d), not the verb zāda 'to increase' (z-y-d).",
+      "source": "lane",
+      "variants": [
+        "וזאדא"
+      ]
+    },
+    {
+      "id": "qc-s-y-l-ויסיל",
+      "lemma_ja": "סאל",
+      "lemma_ar": "سَالَ",
+      "root": "s-y-l",
+      "pos": "verb",
+      "gloss_en": "to flow, run, stream (of liquid)",
+      "gloss_he": "לזרום, לנזול, לקלוח",
+      "notes": "wa-yasīl min ghayr maṣṣ = 'flowing without his sucking'; surface = yasīl (يَسِيل) 'flows' (sāla, s-y-l), not saʾala 'to ask' (s-ʾ-l). Lane syl: sāla yasīlu = it flowed.",
+      "source": "lane",
+      "variants": [
+        "ויסיל"
+      ]
+    },
+    {
+      "id": "qc-kh-r-q-וכ'רק",
+      "lemma_ja": "כ'רק",
+      "lemma_ar": "خَرْق",
+      "root": "kh-r-q",
+      "pos": "noun (verbal noun)",
+      "gloss_en": "breaking, rending, tearing; (kharq al-ʿādāt) the breaking of the ordinary, the miraculous",
+      "gloss_he": "בקיעה, קריעה; שבירת הטבע, נס",
+      "notes": "wa-kharq al-ʿādāt = 'and the breaking of customs (the supernatural)'; surface here is the maṣdar kharq 'breaking, rending, tearing', not the verb 'and he tore (his garments)'. Same root kh-r-q.",
+      "source": "lane",
+      "variants": [
+        "וכ'רק"
+      ]
+    },
+    {
+      "id": "qc-w-h-b-ווהבה",
+      "lemma_ja": "והב",
+      "lemma_ar": "وَهَبَ",
+      "root": "w-h-b",
+      "pos": "verb",
+      "gloss_en": "to give, grant, bestow (here: ransom at a price)",
+      "gloss_he": "לתת, להעניק, לפדות",
+      "notes": "wa-wahabahu thamanahu = 'and ransomed/gave him his price'; surface = wahaba (وَهَبَ) 3ms perfect + suffix 'he gave/granted' (w-h-b), real Arabic verb, not a Hebrew fragment of וְהַבְּתָרִים. Lane whb: 'He gave'.",
+      "source": "lane",
+      "variants": [
+        "ווהבה"
+      ]
+    },
+    {
+      "id": "qc-ʕ-y-sh-ומעאשהא",
+      "lemma_ja": "מעאש",
+      "lemma_ar": "مَعَاش",
+      "root": "ʕ-y-sh",
+      "pos": "noun",
+      "gloss_en": "livelihood, means of life, sustenance",
+      "gloss_he": "מחיה, פרנסה, מזון",
+      "notes": "Lane ʿ-y-sh: maʿāsh = 'means of life, sustenance'; surface ומעאשהא 'their sustenance' is the noun maʿāsh+suffix, not the verb ʿāsha 'he lived'",
+      "source": "lane",
+      "variants": [
+        "ומעאשהא"
+      ]
+    },
+    {
+      "id": "qc-w-r-th-ורת'א",
+      "lemma_ja": "ורת'",
+      "lemma_ar": "وَرِثَ",
+      "root": "w-r-th",
+      "pos": "verb (Form I, perfect)",
+      "gloss_en": "to inherit (from someone)",
+      "gloss_he": "לרשת (מ-)",
+      "notes": "Lane #4741 w-r-th: wariṯa 'he inherited'; surface ורת'א ען אביהמא 'inherited from their father' is the verb waritha, not ratt 'young bull'",
+      "source": "lane",
+      "variants": [
+        "ורת'א"
+      ]
+    },
+    {
+      "id": "qc-b-th-th-ותבת'ה",
+      "lemma_ja": "בת'",
+      "lemma_ar": "بَثَّ",
+      "root": "b-th-th",
+      "pos": "verb (Form I, perfect)",
+      "gloss_en": "to spread, disperse, scatter, distribute",
+      "gloss_he": "לפזר, להפיץ, לפזר בכל",
+      "notes": "Lane #1405 b-th-th: baṯṯahu 'he spread/dispersed/scattered it'; surface ותבת'ה פי אלבדן 'and disperses it through the body' is tabuthth-hu, root b-th-th",
+      "source": "lane",
+      "variants": [
+        "ותבת'ה"
+      ]
+    },
+    {
+      "id": "qc-kh-f-f-ותכ'פ",
+      "lemma_ja": "כ'ף",
+      "lemma_ar": "خَفَّ",
+      "root": "kh-f-f",
+      "pos": "verb (Form I, perfect)",
+      "gloss_en": "to be/become light, to lighten (upon)",
+      "gloss_he": "להיות קל, להקל (על)",
+      "notes": "Lane #5066 kh-f-f: khaffa 'it was/became light'; surface ותכ'ף עליהמא 'become light upon them' is takhiff, root kh-f-f, not khaf 'fear!' (kh-w-f)",
+      "source": "lane",
+      "variants": [
+        "ותכ'ף"
+      ]
+    },
+    {
+      "id": "qc-f-r-q-ותפרקתה",
+      "lemma_ja": "פרק",
+      "lemma_ar": "فَرَّقَ",
+      "root": "f-r-q",
+      "pos": "verb (Form II)",
+      "gloss_en": "to distribute, divide up, disperse (something among)",
+      "gloss_he": "לחלק, לפזר (בין)",
+      "notes": "Lane f-r-q: farraqa 'he distributed/dispersed'; surface ותפרקתה פי אלחשם 'and distribute it among the household' is active tufarriqu-hu, not the intransitive tafarraqat 'they were divided'",
+      "source": "lane",
+      "variants": [
+        "ותפרקתה"
+      ]
+    },
+    {
+      "id": "qc-q-s-m-ותקסמה",
+      "lemma_ja": "קסם",
+      "lemma_ar": "قَسَمَ",
+      "root": "q-s-m",
+      "pos": "verb (Form I, perfect)",
+      "gloss_en": "to divide, apportion, distribute",
+      "gloss_he": "לחלק, לחלק לחלקים",
+      "notes": "Lane #3895 q-s-m: qasama 'he divided/distributed'; surface ותקסמה עלי אלבדן 'divides it over the body' is taqsim-hu, Form I qasama, not Form IV aqsama 'to swear'",
+      "source": "lane",
+      "variants": [
+        "ותקסמה"
+      ]
+    },
+    {
+      "id": "qc-b-r-d-יברד",
+      "lemma_ja": "ברד",
+      "lemma_ar": "بَرَدَ",
+      "root": "b-r-d",
+      "pos": "verb (Form I, imperfect)",
+      "gloss_en": "to cool, become/make cold",
+      "gloss_he": "לקרר, להתקרר",
+      "notes": "surface אלד'י יברד בטבעה 'which cools only by its nature' is the verb yabrud, not the noun barad 'hail'",
+      "source": "lane",
+      "variants": [
+        "יברד"
+      ]
+    },
+    {
+      "id": "heb-ידעת",
+      "lemma_ja": "ידעת",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "(my soul) knew/knows (it well)",
+      "gloss_he": "יָדְעָה (נפשי) — מכירה היטב",
+      "notes": "Ps 139:14: 'ונפשי ידעת מאד' — embedded biblical Hebrew (yodaʿat, 3fs 'knows'), not Arabic; the shown entry's own gloss already flags 'embedded biblical Hebrew' but cites Deut 4:39 וידעת 'and you shall know'",
+      "source": "lane",
+      "variants": [
+        "ידעת"
+      ]
+    },
+    {
+      "id": "qc-ʾ-m-n-יומנ",
+      "lemma_ja": "אמן",
+      "lemma_ar": "أَمِنَ",
+      "root": "ʾ-m-n",
+      "pos": "verb (Form I, passive imperfect)",
+      "gloss_en": "he is kept safe/secure (yuʾman ʿalā)",
+      "gloss_he": "אינו נשמר/אינו בטוח עליו",
+      "notes": "Lane أمن: yaʾmanu ʿalā nafsihi 'he is secure for himself'; context לם יומן עליה = 'he is not kept safe', passive 'be kept secure', not 2pl 'you believe' as in entry lemma תומנון.",
+      "source": "lane",
+      "variants": [
+        "יומן"
+      ]
+    },
+    {
+      "id": "qc-s-l-kh-ינסלכ",
+      "lemma_ja": "אנסלך'",
+      "lemma_ar": "اِنْسَلَخَ",
+      "root": "s-l-kh",
+      "pos": "verb (Form VII, imperfect)",
+      "gloss_en": "to be stripped/divested, to slough off, to peel away (from)",
+      "gloss_he": "להתפשט מ-, להיפרד/להתערטל מ-",
+      "notes": "Context אן ינסלך' מן אלאנסאניה = 'to be stripped of humanity' = yansalikh, root s-l-kh (insalakha 'to be divested/sloughed'); the ך' (kh) is radical. Entry lemma ינסל is yansal of n-s-l ('iron slips from helve'), a different root missing the kh.",
+      "source": "lane",
+      "variants": [
+        "ינסלך'"
+      ]
+    },
+    {
+      "id": "qc-ʿ-b-r-יעבר",
+      "lemma_ja": "עבר",
+      "lemma_ar": "عَبَّرَ",
+      "root": "ʿ-b-r",
+      "pos": "verb (Form II, imperfect)",
+      "gloss_en": "to express, give expression to, signify",
+      "gloss_he": "להביע, לבטא",
+      "notes": "Lane عبر: ʿabbara 'to express/interpret'; ʿibāra = expression. Context אלד'י יעבר בה = 'by which he expresses', = yuʿabbir, not 'you crossed over a river' (ʿabartum). Same root ʿ-b-r, different sense/pos.",
+      "source": "lane",
+      "variants": [
+        "יעבר"
+      ]
+    },
+    {
+      "id": "qc-k-t-b-כתבהמ",
+      "lemma_ja": "כתאב",
+      "lemma_ar": "كِتَاب",
+      "root": "k-t-b",
+      "pos": "noun (m.), plural",
+      "gloss_en": "books, writings (kutub)",
+      "gloss_he": "ספרים, כתבים",
+      "notes": "Context פי כתבהם = 'in their books' = kutub-hum, plural noun kitāb/kutub, not the verb kataba 'to write'. Same root k-t-b but nominal.",
+      "source": "lane",
+      "variants": [
+        "כתבהם"
+      ]
+    },
+    {
+      "id": "heb-לדעת",
+      "lemma_ja": "לדעת",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "to know",
+      "gloss_he": "לָדַעַת (להכיר, לדעת)",
+      "notes": "Deut 4:35 אַתָּה הָרְאֵתָ לָדַעַת. Context אתה הראית לדעת = 'You have been shown to know'. Hebrew infinitive לדעת (root י-ד-ע), not Arabic daʿā 'to call'.",
+      "source": "lane",
+      "variants": [
+        "לדעת"
+      ]
+    },
+    {
+      "id": "qc-l-ṭ-f-לטפ",
+      "lemma_ja": "לטף",
+      "lemma_ar": "لُطْف",
+      "root": "l-ṭ-f",
+      "pos": "noun (m.)",
+      "gloss_en": "gentleness, subtlety, kindly maneuvering, finesse",
+      "gloss_he": "עדינות, רכות, תחבולה עדינה, חכמה דקה",
+      "notes": "Context ולא לטף יסתעמל פיה = 'no kindly maneuvering used upon him'; luṭf is the noun 'gentleness/finesse', not the perfect verb 'they were subtle' (falaṭafū) of entry lemma. Same root l-ṭ-f.",
+      "source": "lane",
+      "variants": [
+        "לטף"
+      ]
+    },
+    {
+      "id": "heb-ליסרכ",
+      "lemma_ja": "ליסרך",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "to discipline/chasten you",
+      "gloss_he": "לְיַסֶּרְךָ (להוכיח/לייסר אותך)",
+      "notes": "Deut 8:5 כִּי...יְיַסֶּרְךָ. Context ולו ליסרך = 'that He might discipline you'. Hebrew root י-ס-ר 'to chasten', not Arabic yasura 'to be easy'.",
+      "source": "lane",
+      "variants": [
+        "ליסרך"
+      ]
+    },
+    {
+      "id": "qc-q-w-m-ללקיאמ",
+      "lemma_ja": "קיאם",
+      "lemma_ar": "قِيَام",
+      "root": "q-w-m",
+      "pos": "noun (verbal noun)",
+      "gloss_en": "undertaking, attending to, taking charge of (qiyām ʿalā)",
+      "gloss_he": "טיפול, עיסוק, התעסקות ב-, השגחה על",
+      "notes": "Context ללקיאם עליה = 'to attend to it' = qiyām ʿalā 'undertaking/attending to', not 'resurrection' (qiyāma) as in entry gloss. Same root q-w-m, contextual sense differs.",
+      "source": "lane",
+      "variants": [
+        "ללקיאם"
+      ]
+    },
+    {
+      "id": "qc-sh-m-m-ללשמ",
+      "lemma_ja": "שם",
+      "lemma_ar": "شَمّ",
+      "root": "sh-m-m",
+      "pos": "noun (verbal noun)",
+      "gloss_en": "smelling, the sense of smell",
+      "gloss_he": "הרחה, חוש הריח",
+      "notes": "Lane شم: shamm 'smelling, perceiving by the nose'. Context ואלאנף ללשם = 'the nose for smelling' = al-shamm, root sh-m-m, not the proper name Shem son of Noah.",
+      "source": "lane",
+      "variants": [
+        "ללשם"
+      ]
+    },
+    {
+      "id": "qc-ʿ-w-d-למעאדה",
+      "lemma_ja": "מעאד",
+      "lemma_ar": "مَعَاد",
+      "root": "ʿ-w-d",
+      "pos": "noun (m.)",
+      "gloss_en": "return, place/time of return; the hereafter, eschatological end",
+      "gloss_he": "מקום/זמן השיבה, העולם הבא, אחרית",
+      "notes": "Context למעאדה ואכ'רתה = 'for his return and his afterlife' = maʿād (root ʿ-w-d, ʿāda 'to return'), eschatological return, not maʿādh 'refuge / far be it' (root ʿ-w-dh) of entry.",
+      "source": "lane",
+      "variants": [
+        "למעאדה"
+      ]
+    },
+    {
+      "id": "heb-מרעה",
+      "lemma_ja": "מרעה",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "from a shepherd (mē-rōʿeh)",
+      "gloss_he": "מֵרֹעֶה (מאת רועה)",
+      "notes": "Eccl 12:11 נִתְּנוּ מֵרֹעֶה אֶחָד. Context נתנו מרעה אחד = 'they were given by one Shepherd' = mē-rōʿeh (root ר-ע-ה 'to shepherd'). Entry already flags Hebrew but mis-glosses as מֵרָע 'from evil'; correct is 'from one shepherd'.",
+      "source": "lane",
+      "variants": [
+        "מרעה"
+      ]
+    },
+    {
+      "id": "qc-s-y-l-סאילא",
+      "lemma_ja": "סאיל",
+      "lemma_ar": "سَائِل",
+      "root": "s-y-l",
+      "pos": "adjective / active participle",
+      "gloss_en": "flowing, running, liquid",
+      "gloss_he": "זורם, נוזל",
+      "notes": "Lane s-y-l: sāla 'it flowed', act. part. sāʾil 'flowing'. Context en='flowing'. Shown entry is سائل 'questioner' (s-ʾ-l), a homograph but wrong root/sense here.",
+      "source": "lane",
+      "variants": [
+        "סאילא"
+      ]
+    },
+    {
+      "id": "heb-עבדימ",
+      "lemma_ja": "עבדים",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "slaves, servants",
+      "gloss_he": "עבדים",
+      "notes": "ja_phrase 'כי עבדים אנחנו' = Ezra 9:9 'though we are slaves'; embedded biblical Hebrew, not Arabic. (Entry already flagged Hebrew but glossed to Avot 1:3 כעבדים; the contextual quote here is Ezra 9:9.)",
+      "source": "lane",
+      "variants": [
+        "עבדים"
+      ]
+    },
+    {
+      "id": "qc-ʿ-dh-b-עד'בא",
+      "lemma_ja": "עד'ב",
+      "lemma_ar": "عَذْب",
+      "root": "ʿ-dh-b",
+      "pos": "adjective",
+      "gloss_en": "sweet, fresh (of water/drink); palatable",
+      "gloss_he": "מתוק, צלול (מים)",
+      "notes": "Lane ʿ-dh-b: ʿaḏuba 'water was sweet'; adj. ʿaḏb 'sweet'. Context 'סאיגא עד'בא' = 'palatable, sweet'. Shown entry is عَذَّبَ 'to torment' — wrong sense/pos (verb).",
+      "source": "lane",
+      "variants": [
+        "עד'בא"
+      ]
+    },
+    {
+      "id": "heb-עדנה",
+      "lemma_ja": "עדנה",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "still, yet (until now)",
+      "gloss_he": "עדיין, עד הנה",
+      "notes": "ja_phrase 'אשר המה חיים עדנה' = Eccl 4:2 'who are still living'; עֲדֶנָה = 'yet/still'. Embedded biblical Hebrew, not the place-name Eden.",
+      "source": "lane",
+      "variants": [
+        "עדנה"
+      ]
+    },
+    {
+      "id": "qc-ʕ-w-ḍ-עווצ'ה",
+      "lemma_ja": "עוץ'",
+      "lemma_ar": "عَوَّضَ",
+      "root": "ʕ-w-ḍ",
+      "pos": "verb",
+      "gloss_en": "to compensate, recompense, give in exchange",
+      "gloss_he": "פיצה, גמל תמורה",
+      "notes": "Lane ʕ-w-ḍ: ʿawwaḍa (form II) 'gave a substitute/compensation'. Context 'עווצ'ה אללה מנה' = 'God compensated him for it'. Shown entry is the proper noun Uz — wrong lemma entirely.",
+      "source": "lane",
+      "variants": [
+        "עווצ'ה"
+      ]
+    },
+    {
+      "id": "heb-עלילות",
+      "lemma_ja": "עלילות",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "deeds, actions",
+      "gloss_he": "עֲלִילוֹת, מעשים",
+      "notes": "ja_phrase 'ולו נתכנו עלילות' = 1 Sam 2:3 'and by Him actions are weighed'; עֲלִלוֹת = 'deeds'. Embedded biblical Hebrew, not Arabic ʿalīl 'sick person'.",
+      "source": "lane",
+      "variants": [
+        "עלילות"
+      ]
+    },
+    {
+      "id": "qc-ʕ-m-y-עמאיהמ",
+      "lemma_ja": "עמי",
+      "lemma_ar": "عَمًى",
+      "root": "ʕ-m-y",
+      "pos": "noun",
+      "gloss_en": "blindness",
+      "gloss_he": "עיוורון",
+      "notes": "Lane ʕ-m-y: ʿamiya 'was blind', ʿaman 'blindness', also metaphorical of the mind. Context 'מן עמאיהם' = 'on account of their blindness'. Shown entry is umam 'peoples/nations' — wrong root.",
+      "source": "lane",
+      "variants": [
+        "עמאיהם"
+      ]
+    },
+    {
+      "id": "qc-ḥ-m-l-פחמלהמ",
+      "lemma_ja": "חמל",
+      "lemma_ar": "حَمَلَ",
+      "root": "ḥ-m-l",
+      "pos": "verb",
+      "gloss_en": "to carry, bear, take up",
+      "gloss_he": "נשא, סחב",
+      "notes": "Lane ḥ-m-l: ḥamala 'he bore, carried'. Context 'פחמלהם ג'הלהם' = 'so their ignorance carries them' (fa-ḥamala-hum). Shown entry is ḥumlān 'lambs' (broken pl.) — wrong lemma/pos.",
+      "source": "lane",
+      "variants": [
+        "פחמלהם"
+      ]
+    },
+    {
+      "id": "qc-sh-q-w-פישקי",
+      "lemma_ja": "אשקא",
+      "lemma_ar": "أَشْقَى",
+      "root": "sh-q-w",
+      "pos": "verb",
+      "gloss_en": "to make miserable, cause wretchedness/distress",
+      "gloss_he": "גרם סבל, האמלל",
+      "notes": "Lane sh-q-w: šaqiya 'was miserable', form IV ašqā 'caused to be miserable'. Context 'פישקי אלטפל' = 'lest it cause the infant misery' (fa-yušqī). Shown entry is sāqin 'cupbearer' (s-q-y) — wrong root/lemma.",
+      "source": "lane",
+      "variants": [
+        "פישקי"
+      ]
+    },
+    {
+      "id": "qc-q-l-b-פתקלבה",
+      "lemma_ja": "קלב",
+      "lemma_ar": "قَلَبَ",
+      "root": "q-l-b",
+      "pos": "verb",
+      "gloss_en": "to turn, transform, change (something into)",
+      "gloss_he": "הפך, שינה",
+      "notes": "Same root q-l-b but the surface 'פתקלבה דמא' = 'and it turns it into blood' (fa-taqlibu-hu) is the verb qalaba, not the noun قلب 'heart'. Shown entry is the noun.",
+      "source": "lane",
+      "variants": [
+        "פתקלבה"
+      ]
+    },
+    {
+      "id": "heb-שמיכ",
+      "lemma_ja": "שמיך",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "Your heavens",
+      "gloss_he": "שָׁמֶיךָ (השמים שלך)",
+      "notes": "Ps 8:4 'כי אראה שמיך מעשה אצבעתיך' = 'when I behold Your heavens, the work of Your fingers'; שמיך = shameikha 'Your heavens', not 'my name'.",
+      "source": "lane",
+      "variants": [
+        "שמיך"
+      ]
+    },
+    {
+      "id": "qc-ṣ-w-n-תצונהא",
+      "lemma_ja": "צאן",
+      "lemma_ar": "صَانَ",
+      "root": "ṣ-w-n",
+      "pos": "verb",
+      "gloss_en": "to guard, preserve, protect",
+      "gloss_he": "שמר, גונן, שׁמר על",
+      "notes": "ja 'תצונהא ותחפט'הא' = 'that guard it and preserve it'; taṣūnuhā is a finite verb from ṣ-w-n (Lane: ṣāna/yaṣūnu 'he preserved, kept, guarded it'). Entry is the proper noun Zoan/صوعن, which is unrelated.",
+      "source": "lane",
+      "variants": [
+        "תצונהא"
+      ]
+    },
+    {
+      "id": "heb-בריח",
+      "lemma_ja": "בריח",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "bar, bolt",
+      "gloss_he": "בְּרִיחַ (מוֹט שׁל דלת)",
+      "notes": "Job 38:10 'ואשים בריח ודלתים' = 'and I set bars and doors'; בְּרִיחַ = Hebrew 'bar/bolt', not Arabic ريح 'wind'.",
+      "source": "lane",
+      "variants": [
+        "בריח"
+      ]
+    },
+    {
+      "id": "heb-לפעלו",
+      "lemma_ja": "לפעלו",
+      "lemma_ar": "",
+      "root": "—",
+      "pos": "Hebrew quote",
+      "gloss_en": "to his work / labor",
+      "gloss_he": "לפעלו — אל מלאכתו",
+      "notes": "Psalms 104:23 'יצא אדם לפעלו ולעבדתו עדי ערב'. (The entry's gloss text wrongly cites Deut 32:4 'His work'; the actual quote and surface לפעלו = 'to his work' is from Ps 104:23.)",
+      "source": "lane",
+      "variants": [
+        "לפעלו"
       ]
     }
   ]
