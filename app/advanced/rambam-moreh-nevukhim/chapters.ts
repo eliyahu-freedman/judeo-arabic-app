@@ -29,6 +29,20 @@ export const MOREH_CHAPTERS: MorehChapter[] = [
   { n: 12, slug: "12", title: "I:12 · Qam" },
   { n: 13, slug: "13", title: "I:13 · ʿAmad" },
   { n: 14, slug: "14", title: "I:14 · Adam" },
+  { n: 15, slug: "15", title: "I:15 · Natzav & Yatzav" },
+  { n: 16, slug: "16", title: "I:16 · Tzur" },
+  { n: 17, slug: "17", title: "I:17 · Concealing Knowledge" },
+  { n: 18, slug: "18", title: "I:18 · Karav, Naga, Nagash" },
+  { n: 19, slug: "19", title: "I:19 · Male" },
+  { n: 20, slug: "20", title: "I:20 · Ram & Nissa" },
+  { n: 21, slug: "21", title: "I:21 · ʿAvar" },
+  { n: 22, slug: "22", title: "I:22 · Bo" },
+  { n: 23, slug: "23", title: "I:23 · Yatza" },
+  { n: 24, slug: "24", title: "I:24 · Halakh" },
+  { n: 25, slug: "25", title: "I:25 · Shakhan" },
+  { n: 26, slug: "26", title: "I:26 · Language of Men" },
+  { n: 27, slug: "27", title: "I:27 · Onkelos" },
+  { n: 28, slug: "28", title: "I:28 · Regel" },
 ];
 
 export const morehHref = (slug: string): string =>
@@ -39,6 +53,16 @@ export function buildMorehNav(currentN: number) {
   return {
     label: "Guide of the Perplexed · Part I",
     currentN,
+    aux: [
+      { title: "Atlas of God-language", href: `${MOREH_BASE}/atlas` },
+      { title: "Verses index", href: `${MOREH_BASE}/verses` },
+      { title: "Parallel view", href: `${MOREH_BASE}/${currentN}/parallel` },
+      {
+        title: "Commentators on AlHaTorah ↗",
+        href: `https://moreh.alhatorah.org/1/${currentN}`,
+        external: true,
+      },
+    ],
     chapters: MOREH_CHAPTERS.map((c) => ({
       n: c.n,
       title: c.title,

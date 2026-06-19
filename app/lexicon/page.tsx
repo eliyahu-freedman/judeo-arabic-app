@@ -12,7 +12,8 @@ export const metadata: Metadata = {
 
 const EXAMPLES = [
   { q: "כלק", label: "כ׳לק — create" },
-  { q: "סמא", label: "סמא — heaven" },
+  { q: "אשתראך", label: "אשתראך — equivocity" },
+  { q: "אסתעארה", label: "אסתעארה — metaphor" },
   { q: "create", label: "create (by gloss)" },
   { q: "ילד", label: "√w-l-d (by root)" },
 ];
@@ -35,8 +36,11 @@ export default async function LexiconPage({
       <p className="mt-4 max-w-2xl text-ink/70">
         {fmt(corpusStats.dictionaryEntries)} entries over{" "}
         {fmt(corpusStats.uniqueRoots)} roots, indexed against the{" "}
-        {fmt(corpusStats.totalTokens)}-word Tafsir concordance. Search by
-        Judeo-Arabic word, Arabic script, root, or English/Hebrew gloss.
+        {fmt(corpusStats.totalTokens)}-word Tafsir concordance — and now across
+        the classical prose library too: the Guide, Bahya, Saadia&apos;s Emunot,
+        Qirqisani, the Kuzari. Search by Judeo-Arabic word, Arabic script, root,
+        or English/Hebrew gloss; each entry shows where the word recurs across
+        the authors.
       </p>
 
       {/* Search field */}

@@ -220,12 +220,49 @@ export default async function LemmaPage({ params }: Props) {
         </section>
       )}
 
-      {data.count === 0 && data.entries.length > 0 && (
-        <p className="apparatus mt-8 rounded-sm">
-          This headword is not attested in the indexed Tafsir corpus (it may
-          appear in the wider library, or as part of a different surface form).
-        </p>
+      {/* Across the library — the same word in Moreh, Bahya, Saadia, … */}
+      {data.library && data.library.uses.length > 0 && (
+        <section className="mt-10">
+          <h2 className="label mb-1">Across the library</h2>
+          <p className="mb-4 text-sm text-muted">
+            {fmt(data.library.count)}× in the classical prose corpus — the Guide,
+            Bahya, Saadia&apos;s Emunot, Qirqisani, the Kuzari.
+          </p>
+          {data.library.sample?.snippet && (
+            <p
+              dir="rtl"
+              className="font-hebrew mb-4 rounded-sm border border-ink/10 bg-page px-4 py-3 leading-relaxed text-ink/80"
+            >
+              {data.library.sample.snippet}
+            </p>
+          )}
+          <ul className="flex flex-wrap gap-2">
+            {data.library.uses.map((u) => (
+              <li key={u.href + u.work}>
+                <Link
+                  href={u.href}
+                  className="inline-flex items-baseline gap-1.5 rounded-sm border border-ink/10 bg-page px-2.5 py-1 transition-colors hover:border-wine/40 hover:text-wine"
+                >
+                  <span>{u.work}</span>
+                  <span className="font-mono text-xs text-muted">{u.n}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          {data.library.truncated && (
+            <p className="mt-2 text-xs text-muted">…and more.</p>
+          )}
+        </section>
       )}
+
+      {data.count === 0 &&
+        data.entries.length > 0 &&
+        !(data.library && data.library.uses.length > 0) && (
+          <p className="apparatus mt-8 rounded-sm">
+            This headword is not attested in the indexed Tafsir corpus (it may
+            appear as part of a different surface form).
+          </p>
+        )}
     </article>
   );
 }

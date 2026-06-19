@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import data from "@/data/moreh-bab1.json";
 import { AdvancedReader, type WorkData } from "../reader";
 import { buildMorehNav } from "./chapters";
+import { VersesCited } from "./VersesCited";
+import tibbon from "@/data/moreh-tibbon.json";
+
+const TIBBON = (tibbon as { chapters: Record<string, string[]> }).chapters;
 
 export const metadata: Metadata = {
   title: "Moreh Nevukhim — Guide of the Perplexed I:1 in Judeo-Arabic",
@@ -14,5 +18,10 @@ export default function RambamMorehPage() {
   // workId loads the per-work Blau overlay (data/blau-notes-moreh.json) — a
   // special JA sense shown here never leaks into the other Advanced readers.
   const workData = { ...(data as unknown as WorkData), workId: "moreh" };
-  return <AdvancedReader data={workData} nav={buildMorehNav(1)} />;
+  return (
+    <>
+      <AdvancedReader data={workData} nav={buildMorehNav(1)} tibbon={TIBBON["1"]} />
+      <VersesCited n={1} />
+    </>
+  );
 }

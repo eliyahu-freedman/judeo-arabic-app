@@ -1,0 +1,156 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 28 — Regel (Foot)",
+  "section_ja": "אלג'ז אלאול · אלפצל אלת'אמן ואלעשרון",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Regel ('foot') is equivocal: the limb itself ('foot for foot'); 'following in the train of' ('all the people that are at thy feet'); and causality ('the Lord hath blessed thee on my account'). So 'His feet shall stand on the Mount of Olives' (Zech 14:4) means the firmness of His causes — the wonders that will then appear, of which He is the agent. Both Targums dissolve the corporeality: Jonathan renders 'He shall reveal Himself in His might,' and Onkelos refers 'under His feet' to 'the throne of His glory' — the Shekhinah, a created light. (Maimonides closes by noting that the Targum only negates corporeality, leaving the figure's deeper sense conjectural — the on-disk source breaks off within this remark.) Hover a phrase to see its English light up; tap any word for a gloss; dotted words are key terms.",
+  "source": {
+    "edition": "Friedberg Judeo-Arabic Project (ja.genizah.org), resourceId 6",
+    "fjms_resource_id": "6",
+    "pages_he": ["40"]
+  },
+  "terms": [
+    {
+      "id": "regel",
+      "ja": "רגל",
+      "translit": "regel",
+      "gloss": "foot, leg (Hebrew רֶגֶל)",
+      "note": "Equivocal: (1) the limb ('foot for foot'); (2) following in one's train ('the people that are at thy feet'); (3) causality, 'on account of.'",
+      "variants": ["רגליו", "ברגליך", "לרגלי", "לרגל"]
+    },
+    {
+      "id": "sababiyya",
+      "ja": "אלסבביה",
+      "ar": "السببيّة",
+      "translit": "al-sababiyya",
+      "gloss": "causality, being the occasion of",
+      "note": "The sense of 'on account of me': 'the Lord hath blessed thee on my account' (Gen 30:30); 'at the pace of the work before me' (Gen 33:14). 'His feet shall stand on the Mount of Olives' is the firmness of His causes — the wonders He brings about.",
+      "variants": ["בסבבי"]
+    },
+    {
+      "id": "yonatan",
+      "ja": "יונתן בן עזיאל",
+      "translit": "Yonatan ben ʿUzziʾel",
+      "gloss": "Jonathan ben Uzziel (the Targum of the Prophets)",
+      "note": "He renders 'His feet shall stand … on the Mount of Olives' as 'He shall reveal Himself in His might … upon the Mount of Olives,' and so translates every limb or term of violence as 'His might' — meaning the acts that issue from His will.",
+      "variants": []
+    },
+    {
+      "id": "kisse-yeqara",
+      "ja": "כורסי יקריה",
+      "translit": "kursi yeqareh",
+      "gloss": "the throne of His glory",
+      "note": "Onkelos refers the pronoun of 'under His feet' (Exod 24:10) to the throne, rendering 'under the throne of His glory' — ascribing the throne not to God (which would imply sitting on a body) but to His glory, the Shekhinah, a created light.",
+      "variants": ["כסא הכבוד"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "40",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל אלת'אמן ואלעשרון — רגל",
+          "en": "Part One · Chapter Twenty-Eight — Regel",
+          "isHeader": true
+        },
+        {
+          "ja": "רגל אסם משתרך. הו אסם אלרג'ל: רגל תחת רגל. ויקע איצ'א פי מעני אלתבע: צא אתה וכל העם אשר ברגליך — מענאה אלתאבעון לך.",
+          "en": "Regel is an equivocal noun. It is the name of the foot: 'foot for foot' (Exod 21:24). And it falls also in the sense of following: 'get thee out, and all the people that are at thy feet' (Exod 11:8) — its meaning being 'those who follow thee.'",
+          "pairs": [
+            { "ja": "רגל אסם משתרך", "en": "Regel is an equivocal noun" },
+            { "ja": "הו אסם אלרג'ל", "en": "It is the name of the foot" },
+            { "ja": "רגל תחת רגל", "en": "foot for foot" },
+            { "ja": "ויקע איצ'א פי מעני אלתבע", "en": "And it falls also in the sense of following" },
+            { "ja": "צא אתה וכל העם אשר ברגליך", "en": "get thee out, and all the people that are at thy feet" },
+            { "ja": "מענאה אלתאבעון לך", "en": "its meaning being 'those who follow thee.'" }
+          ]
+        },
+        {
+          "ja": "ויקע איצ'א במעני אלסבביה: ויברך י״י אותך לרגלי — בסבבי, אי מן אג'לי, אן אלאמר אלד'י הו מן אג'ל שי מא פד'לך אלשי סבב ללאמר. והד'א כת'יר אלאסתעמאל: לרגל המלאכה אשר לפני, ולרגל הילדים.",
+          "en": "And it falls also in the sense of causality: 'the Lord hath blessed thee on my account' (Gen 30:30) — 'because of me,' that is, 'for my sake'; for a matter that is for the sake of some thing makes that thing the cause of the matter. And this is of frequent use: 'at the pace of the work that is before me' (Gen 33:14); 'and at the pace of the children' (Gen 33:14).",
+          "pairs": [
+            { "ja": "ויקע איצ'א במעני אלסבביה", "en": "And it falls also in the sense of causality" },
+            { "ja": "ויברך י״י אותך לרגלי", "en": "the Lord hath blessed thee on my account" },
+            { "ja": "בסבבי, אי מן אג'לי", "en": "'because of me,' that is, 'for my sake'" },
+            { "ja": "אן אלאמר אלד'י הו מן אג'ל שי מא פד'לך אלשי סבב ללאמר", "en": "for a matter that is for the sake of some thing makes that thing the cause of the matter" },
+            { "ja": "והד'א כת'יר אלאסתעמאל", "en": "And this is of frequent use" },
+            { "ja": "לרגל המלאכה אשר לפני", "en": "at the pace of the work that is before me" },
+            { "ja": "ולרגל הילדים", "en": "and at the pace of the children" }
+          ]
+        },
+        {
+          "ja": "פקולה ועמדו רגליו ביום ההוא על הר הזיתים — יריד בה ת'באת אסבאבה, אעני אלעג'איב אלתי תט'הר חיניד' פי ד'לך אלמוצ'ע, אלתי הו תעאלי סבבהא, אעני פאעלהא.",
+          "en": "So His saying 'and His feet shall stand in that day upon the Mount of Olives' (Zech 14:4) — by it He means the firmness of His causes, that is, the wonders that will then appear in that place, of which He, may He be exalted, is the cause — I mean, their agent.",
+          "pairs": [
+            { "ja": "פקולה ועמדו רגליו ביום ההוא על הר הזיתים", "en": "So His saying 'and His feet shall stand in that day upon the Mount of Olives'" },
+            { "ja": "יריד בה ת'באת אסבאבה", "en": "by it He means the firmness of His causes" },
+            { "ja": "אעני אלעג'איב אלתי תט'הר חיניד' פי ד'לך אלמוצ'ע", "en": "that is, the wonders that will then appear in that place" },
+            { "ja": "אלתי הו תעאלי סבבהא, אעני פאעלהא", "en": "of which He, may He be exalted, is the cause — I mean, their agent" }
+          ]
+        },
+        {
+          "ja": "ואלי הד'א אלתאויל ד'הב יונתן בן עזיאל ע״אס, קאל: ויתגלי בגבורתיה ביומא ההוא על טור זיתיא. וכד'א יתרג'ם כל ג'ארחהֵ בטש ותנקל גבורתיה, לאנהא כלהא אלמראד בהא אלאפעאל אלצאדרה ען אראדתה.",
+          "en": "And to this interpretation Jonathan ben Uzziel inclined, peace be upon him; he said: 'and He shall reveal Himself in His might in that day upon the Mount of Olives.' And thus he translates every limb of violence as 'His might,' since by all of them are intended the acts that issue from His will.",
+          "pairs": [
+            { "ja": "ואלי הד'א אלתאויל ד'הב יונתן בן עזיאל ע״אס", "en": "And to this interpretation Jonathan ben Uzziel inclined, peace be upon him" },
+            { "ja": "קאל: ויתגלי בגבורתיה ביומא ההוא על טור זיתיא", "en": "he said: 'and He shall reveal Himself in His might in that day upon the Mount of Olives.'" },
+            { "ja": "וכד'א יתרג'ם כל ג'ארחהֵ בטש ותנקל גבורתיה", "en": "And thus he translates every limb of violence as 'His might,'" },
+            { "ja": "לאנהא כלהא אלמראד בהא אלאפעאל אלצאדרה ען אראדתה", "en": "since by all of them are intended the acts that issue from His will" }
+          ]
+        },
+        {
+          "ja": "אמא קולה ותחת רגליו כמעשה לבנת הספיר, פתאויל אנקלוס פיה מא קד עלמת, אנה ג'על צ'מיר רגליו עאידא אלי אלכסא, פקאל: ותחות כורסי יקריה.",
+          "en": "As for His saying 'and under His feet as it were a paved work of sapphire stone' (Exod 24:10), Onkelos's interpretation of it is what you already know: he made the pronoun of 'His feet' refer to the throne, and said: 'and under the throne of His glory.'",
+          "pairs": [
+            { "ja": "אמא קולה ותחת רגליו כמעשה לבנת הספיר", "en": "As for His saying 'and under His feet as it were a paved work of sapphire stone'" },
+            { "ja": "פתאויל אנקלוס פיה מא קד עלמת", "en": "Onkelos's interpretation of it is what you already know" },
+            { "ja": "אנה ג'על צ'מיר רגליו עאידא אלי אלכסא", "en": "he made the pronoun of 'His feet' refer to the throne" },
+            { "ja": "פקאל: ותחות כורסי יקריה", "en": "and said: 'and under the throne of His glory.'" }
+          ]
+        },
+        {
+          "ja": "ואפהם ת'ם תעג'ב מן בעד אנקלוס ען אלתג'סים וכל מא יודי אליה ולו באבעד טריק, לאנה לם יקל ותחות כורסיה, לאנה אן נסב אלכסא לה עלי אלמעני אלמפהום אולא לזם כונה מסתויא עלי ג'סם ולזם אלתג'סים, פנסב אלכסא ליקריה, אעני ללשכינה אלתי הי נור מכ'לוק.",
+          "en": "Understand this, then marvel at how far Onkelos kept clear of corporeality and of everything leading to it, even by the most remote path; for he did not say 'and under His throne,' since had he ascribed the throne to Him in the sense understood at first glance, it would follow that He is seated upon a body, and corporeality would follow. So he ascribed the throne to His glory — I mean, to the Shekhinah, which is a created light.",
+          "pairs": [
+            { "ja": "ואפהם ת'ם תעג'ב מן בעד אנקלוס ען אלתג'סים וכל מא יודי אליה ולו באבעד טריק", "en": "Understand this, then marvel at how far Onkelos kept clear of corporeality and of everything leading to it, even by the most remote path" },
+            { "ja": "לאנה לם יקל ותחות כורסיה", "en": "for he did not say 'and under His throne,'" },
+            { "ja": "לאנה אן נסב אלכסא לה עלי אלמעני אלמפהום אולא לזם כונה מסתויא עלי ג'סם ולזם אלתג'סים", "en": "since had he ascribed the throne to Him in the sense understood at first glance, it would follow that He is seated upon a body, and corporeality would follow" },
+            { "ja": "פנסב אלכסא ליקריה, אעני ללשכינה אלתי הי נור מכ'לוק", "en": "So he ascribed the throne to His glory — I mean, to the Shekhinah, which is a created light" }
+          ]
+        },
+        {
+          "ja": "וכד'לך קאל פי תרגום כי יד על כס יה: קאל מן קדם דחילא דשכינתיה על כורסי יקרא. והכד'א תג'ד עלי לסאן ג'מיע אלאמה כסא הכבוד.",
+          "en": "And likewise he said in the rendering of 'for a hand is upon the throne of the Lord' (Exod 17:16): he said, 'from before Him, the awe of whose Shekhinah is upon the throne of glory.' And so you find on the lips of the whole nation 'the throne of glory.'",
+          "pairs": [
+            { "ja": "וכד'לך קאל פי תרגום כי יד על כס יה", "en": "And likewise he said in the rendering of 'for a hand is upon the throne of the Lord'" },
+            { "ja": "קאל מן קדם דחילא דשכינתיה על כורסי יקרא", "en": "he said, 'from before Him, the awe of whose Shekhinah is upon the throne of glory.'" },
+            { "ja": "והכד'א תג'ד עלי לסאן ג'מיע אלאמה כסא הכבוד", "en": "And so you find on the lips of the whole nation 'the throne of glory.'" }
+          ]
+        },
+        {
+          "ja": "וקד כ'רג'נא ען גרץ' אלפצל לשי סיתבין פי פצול אכ'רי, וארג'ע אלי גרץ' אלפצל. אמא תאויל אנקלוס פקד עלמתה, לכנה גאיהֵ אלאמר אנה נפי אלתג'סים, ולם יבין לנא אי שי אדרכוא, ולא הד'א אלמת'ל אי שי יראד בה.",
+          "en": "We have strayed from the aim of the chapter for the sake of something that will be made clear in other chapters; and I return to the aim of the chapter. As for the interpretation of Onkelos, you already know it; but the most it amounts to is the negation of corporeality, and it does not make clear to us what they apprehended, nor what this figure is meant to signify.",
+          "pairs": [
+            { "ja": "וקד כ'רג'נא ען גרץ' אלפצל לשי סיתבין פי פצול אכ'רי", "en": "We have strayed from the aim of the chapter for the sake of something that will be made clear in other chapters" },
+            { "ja": "וארג'ע אלי גרץ' אלפצל", "en": "and I return to the aim of the chapter" },
+            { "ja": "אמא תאויל אנקלוס פקד עלמתה", "en": "As for the interpretation of Onkelos, you already know it" },
+            { "ja": "לכנה גאיהֵ אלאמר אנה נפי אלתג'סים", "en": "but the most it amounts to is the negation of corporeality" },
+            { "ja": "ולם יבין לנא אי שי אדרכוא, ולא הד'א אלמת'ל אי שי יראד בה", "en": "and it does not make clear to us what they apprehended, nor what this figure is meant to signify" }
+          ]
+        },
+        {
+          "ja": "וכד'לך פי כל מוצ'ע לא יתערץ' להד'א אלמעני, בל לנפי אלתג'סים פקט, לאן נפי אלתג'סים אמר ברהאני צ'רורי פי אלאעתקאד פיקטע בה ויקול בחסבה. אמא תביין מעני אלמת'ל פהו אמר מט'נון, קד יכון ד'לך הו אלקצד או שי אכ'ר.",
+          "en": "And so in every place he does not address this deeper meaning, but only the negation of corporeality; for the negation of corporeality is a matter that is demonstratively necessary in belief, so one may decide it firmly and speak accordingly. But the elucidation of the meaning of the figure is a matter of conjecture — it may be that this is the intent, or it may be something else.",
+          "pairs": [
+            { "ja": "וכד'לך פי כל מוצ'ע לא יתערץ' להד'א אלמעני, בל לנפי אלתג'סים פקט", "en": "And so in every place he does not address this deeper meaning, but only the negation of corporeality" },
+            { "ja": "לאן נפי אלתג'סים אמר ברהאני צ'רורי פי אלאעתקאד פיקטע בה ויקול בחסבה", "en": "for the negation of corporeality is a matter that is demonstratively necessary in belief, so one may decide it firmly and speak accordingly" },
+            { "ja": "אמא תביין מעני אלמת'ל פהו אמר מט'נון", "en": "But the elucidation of the meaning of the figure is a matter of conjecture" },
+            { "ja": "קד יכון ד'לך הו אלקצד או שי אכ'ר", "en": "it may be that this is the intent, or it may be something else" }
+          ]
+        }
+      ]
+    }
+  ]
+}

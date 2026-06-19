@@ -1,0 +1,118 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 17 — Concealing Knowledge",
+  "section_ja": "אלג'ז אלאול · אלפצל אלסאבע עשר",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "A methodological aside: not only metaphysics but much of physics, too, must be withheld from the multitude — 'nor the Account of Creation before two' (Hag. 2:1). This was the practice of the philosophers and the religious sages of antiquity, who veiled their teaching of the first principles and spoke of them in riddles: Plato called matter 'the female' and form 'the male.' If those who risked no harm from plain speech still resorted to borrowed names, how much more must we, the community of the religious, refrain from declaring openly what the multitude cannot grasp. Hover a phrase to see its English light up; tap any word for a gloss; dotted words are key terms.",
+  "source": {
+    "edition": "Friedberg Judeo-Arabic Project (ja.genizah.org), resourceId 6",
+    "fjms_resource_id": "6",
+    "pages_he": ["29"]
+  },
+  "terms": [
+    {
+      "id": "ilm-ilahi",
+      "ja": "אלעלם אלאלאהי",
+      "ar": "العلم الإلهي",
+      "translit": "al-ʿilm al-ilāhī",
+      "gloss": "divine science (metaphysics)",
+      "note": "Not only metaphysics, but most of physics too (al-ʿilm al-ṭabīʿī) is to be withheld from the multitude — paralleling the rabbinic ban on expounding the Account of Creation before two.",
+      "variants": ["אלעלם אלטביעי"]
+    },
+    {
+      "id": "mabadi",
+      "ja": "אלמבאדי",
+      "ar": "المبادئ",
+      "translit": "al-mabādiʾ",
+      "gloss": "the (first) principles",
+      "note": "The principles of generated, perishable beings are three: matter, form, and the privation specific to it. The ancients veiled their teaching about these and spoke of them in riddles.",
+      "variants": ["אלמבדא"]
+    },
+    {
+      "id": "madda-sura-adam",
+      "ja": "אלמאדה ואלצורה ואלעדם",
+      "ar": "المادة والصورة والعدم",
+      "translit": "al-mādda wa-l-ṣūra wa-l-ʿadam",
+      "gloss": "matter, form, and privation",
+      "note": "The three principles. Privation is always coupled to matter; without it, no form would come to be. When a form is attained its privation lapses and another privation couples to the matter — and so on without end.",
+      "variants": ["אלמאדה", "אלצורה", "אלעדם"]
+    },
+    {
+      "id": "mutasharriʿin",
+      "ja": "אלמתשרעין",
+      "ar": "المتشرّعين",
+      "translit": "al-mutasharriʿīn",
+      "gloss": "the community of the religious / followers of the Law",
+      "note": "If the philosophers, who risked no harm, still used borrowed names, how much more must the followers of the Law avoid declaring openly what the multitude cannot understand — or what would make them imagine the matter to be the opposite of what is meant.",
+      "variants": []
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "29",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל אלסאבע עשר — פי אכ'פא אלעלם",
+          "en": "Part One · Chapter Seventeen — Concealing Knowledge",
+          "isHeader": true
+        },
+        {
+          "ja": "לא תט'ן אן אלעלם אלאלאהי פקט הו אלמצ'נון בה עלי אלג'מהור, בל אכת'ר אלעלם אלטביעי. וקד תכרר לך קולנא: ולא במעשה בראשית בשנים.",
+          "en": "Do not suppose that it is metaphysics alone that is to be withheld from the multitude — rather, most of physics as well. We have repeatedly cited to you the dictum: 'nor [expound] the Account of Creation before two' (Hag. 2:1).",
+          "pairs": [
+            { "ja": "לא תט'ן אן אלעלם אלאלאהי פקט הו אלמצ'נון בה עלי אלג'מהור", "en": "Do not suppose that it is metaphysics alone that is to be withheld from the multitude" },
+            { "ja": "בל אכת'ר אלעלם אלטביעי", "en": "rather, most of physics as well" },
+            { "ja": "וקד תכרר לך קולנא", "en": "We have repeatedly cited to you the dictum" },
+            { "ja": "ולא במעשה בראשית בשנים", "en": "nor [expound] the Account of Creation before two" }
+          ]
+        },
+        {
+          "ja": "וליס הד'א ענד אהל אלשריעה פקט, בל וענד אלפלאספה ועלמא אלמלל עלי קדים אלדהר: כאנוא יכ'פון אלכלאם פי אלמבאדי וילגזונה. ואפלאטון ומן תקדמה כאן יסמי אלמאדה אלאנת'י, וכאן יסמי אלצורה אלד'כר.",
+          "en": "And this is not so among the people of the Law alone, but also among the philosophers and the religious scholars of antiquity: they would conceal their discourse on the first principles and cast it in riddles. Plato and those before him would call matter 'the female' and call form 'the male.'",
+          "pairs": [
+            { "ja": "וליס הד'א ענד אהל אלשריעה פקט", "en": "And this is not so among the people of the Law alone" },
+            { "ja": "בל וענד אלפלאספה ועלמא אלמלל עלי קדים אלדהר", "en": "but also among the philosophers and the religious scholars of antiquity" },
+            { "ja": "כאנוא יכ'פון אלכלאם פי אלמבאדי וילגזונה", "en": "they would conceal their discourse on the first principles and cast it in riddles" },
+            { "ja": "ואפלאטון ומן תקדמה כאן יסמי אלמאדה אלאנת'י", "en": "Plato and those before him would call matter 'the female'" },
+            { "ja": "וכאן יסמי אלצורה אלד'כר", "en": "and call form 'the male.'" }
+          ]
+        },
+        {
+          "ja": "ואנת תעלם אן מבאדי אלמוג'ודאת אלכאינה אלפאסדה ת'לת'ה: אלמאדה ואלצורה ואלעדם אלמכ'צוץ אלד'י הו מקארן ללמאדה אבדא. ולולא מקארנהֵ אלעדם להא למא חצלת להא צורה, ובהד'ה אלג'הה צאר אלעדם מן אלמבאדי.",
+          "en": "Now you know that the principles of generated, perishable beings are three: matter, form, and the particular privation that is always coupled to matter. Were privation not coupled to it, no form would ever come to be for it — and in this respect privation is among the principles.",
+          "pairs": [
+            { "ja": "ואנת תעלם אן מבאדי אלמוג'ודאת אלכאינה אלפאסדה ת'לת'ה", "en": "Now you know that the principles of generated, perishable beings are three" },
+            { "ja": "אלמאדה ואלצורה ואלעדם אלמכ'צוץ אלד'י הו מקארן ללמאדה אבדא", "en": "matter, form, and the particular privation that is always coupled to matter" },
+            { "ja": "ולולא מקארנהֵ אלעדם להא למא חצלת להא צורה", "en": "Were privation not coupled to it, no form would ever come to be for it" },
+            { "ja": "ובהד'ה אלג'הה צאר אלעדם מן אלמבאדי", "en": "and in this respect privation is among the principles" }
+          ]
+        },
+        {
+          "ja": "וענד חצול אלצורה יבטל ד'לך אלעדם, אעני עדם תלך אלצורה אלחאצלה, ויקארנהא עדם אכ'ר, והכד'א אבדא, כמא תבין פי אלעלם אלטביעי.",
+          "en": "When a form is attained, that privation lapses — I mean the privation of the form now attained — and another privation couples to the matter, and so on without end, as is shown in physics.",
+          "pairs": [
+            { "ja": "וענד חצול אלצורה יבטל ד'לך אלעדם", "en": "When a form is attained, that privation lapses" },
+            { "ja": "אעני עדם תלך אלצורה אלחאצלה", "en": "I mean the privation of the form now attained" },
+            { "ja": "ויקארנהא עדם אכ'ר", "en": "and another privation couples to the matter" },
+            { "ja": "והכד'א אבדא", "en": "and so on without end" },
+            { "ja": "כמא תבין פי אלעלם אלטביעי", "en": "as is shown in physics" }
+          ]
+        },
+        {
+          "ja": "פאד'א כאן אולאיך אלד'ין לא מפסדה עליהם פי אלתביין כאנוא יסתעירון אלאסמא ויאכ'ד'ון אלשבה פי אלתעלים, פכם באלאחרי ילזמנא נחן מעשר אלמתשרעין אן לא נצרח בשי יעזב עלי אלג'מהור פהמה, או תכ'יל להם חקיקהֵ אלאמר כ'לאף אלאמר אלמראד בנא. פאעלם הד'א איצ'א.",
+          "en": "So if those men, who risked no harm from plain explanation, would nonetheless borrow names and employ analogies in teaching, how much more must we, the community of the followers of the Law, refrain from declaring openly anything that the multitude cannot grasp — or that would make them imagine the truth of the matter to be the opposite of what we intend. Understand this too.",
+          "pairs": [
+            { "ja": "פאד'א כאן אולאיך אלד'ין לא מפסדה עליהם פי אלתביין", "en": "So if those men, who risked no harm from plain explanation" },
+            { "ja": "כאנוא יסתעירון אלאסמא ויאכ'ד'ון אלשבה פי אלתעלים", "en": "would nonetheless borrow names and employ analogies in teaching" },
+            { "ja": "פכם באלאחרי ילזמנא נחן מעשר אלמתשרעין", "en": "how much more must we, the community of the followers of the Law" },
+            { "ja": "אן לא נצרח בשי יעזב עלי אלג'מהור פהמה", "en": "refrain from declaring openly anything that the multitude cannot grasp" },
+            { "ja": "או תכ'יל להם חקיקהֵ אלאמר כ'לאף אלאמר אלמראד בנא", "en": "or that would make them imagine the truth of the matter to be the opposite of what we intend" },
+            { "ja": "פאעלם הד'א איצ'א", "en": "Understand this too" }
+          ]
+        }
+      ]
+    }
+  ]
+}

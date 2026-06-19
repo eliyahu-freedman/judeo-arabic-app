@@ -1,0 +1,128 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 16 — Tzur (Rock)",
+  "section_ja": "אלג'ז אלאול · אלפצל אלסאדס עשר",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Tzur ('rock') is equivocal: the name of a mountain; the name of hard stone like flint; and the name of the quarry-rock from which mineral-stones are cut. From this last sense it was borrowed for the origin and source of a thing — 'look to the rock whence you were hewn… look to Abraham your father' (Isa 51:1–2). And in this sense God is called Tzur, for He is the origin and efficient cause of all besides Himself. Hover a phrase to see its English light up; tap any word for a gloss; dotted words are key terms.",
+  "source": {
+    "edition": "Friedberg Judeo-Arabic Project (ja.genizah.org), resourceId 6",
+    "fjms_resource_id": "6",
+    "pages_he": ["28"]
+  },
+  "terms": [
+    {
+      "id": "tzur",
+      "ja": "צור",
+      "translit": "ṣur",
+      "gloss": "rock (Hebrew צוּר)",
+      "note": "Equivocal: (1) a mountain's name, (2) hard stone like flint, (3) the quarry-rock from which stones are cut — then borrowed for a thing's origin and source.",
+      "variants": ["הצור", "צורם", "צרים", "צורים"]
+    },
+    {
+      "id": "asl-mabda",
+      "ja": "אצל כל שי ומבדאה",
+      "ar": "أصل كل شيء ومبدؤه",
+      "translit": "aṣl kull shayʾ wa-mabdaʾuh",
+      "gloss": "the origin and source of everything",
+      "note": "The borrowed sense of tzur: just as quarried stones share the nature of the rock they were cut from, so 'look to the rock whence you were hewn' is glossed by 'look to Abraham your father.'",
+      "variants": ["אלמבדא", "מבדאא"]
+    },
+    {
+      "id": "sabab-faʿil",
+      "ja": "אלסבב אלפאעל",
+      "ar": "السبب الفاعل",
+      "translit": "al-sabab al-fāʿil",
+      "gloss": "the efficient cause",
+      "note": "Why God is called Tzur: He is the origin and efficient cause of everything other than Himself — 'the Rock, His work is perfect' (Deut 32:4).",
+      "variants": []
+    },
+    {
+      "id": "madkhal",
+      "ja": "אלמדכ'ל",
+      "ar": "المدخل",
+      "translit": "al-madkhal",
+      "gloss": "the point of entry / access",
+      "note": "'And you shall stand upon the rock' (Exod 33:21): lean and rely on the consideration that He is the origin — He is the avenue through which one reaches Him, as in 'behold, there is a place by Me.'",
+      "variants": []
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "28",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל אלסאדס עשר — צור",
+          "en": "Part One · Chapter Sixteen — Tzur",
+          "isHeader": true
+        },
+        {
+          "ja": "צור אסם משתרך. הו אסם אלג'בל: והכית בצור. והו אסם חג'ר צלב כאלצואן: חרבות צורים.",
+          "en": "Tzur is an equivocal noun. It is the name of a mountain: 'and you shall smite the rock' (Exod 17:6). And it is the name of a hard stone like flint: 'knives of flint' (Josh 5:2).",
+          "pairs": [
+            { "ja": "צור אסם משתרך", "en": "Tzur is an equivocal noun" },
+            { "ja": "הו אסם אלג'בל", "en": "It is the name of a mountain" },
+            { "ja": "והכית בצור", "en": "and you shall smite the rock" },
+            { "ja": "והו אסם חג'ר צלב כאלצואן", "en": "And it is the name of a hard stone like flint" },
+            { "ja": "חרבות צורים", "en": "knives of flint" }
+          ]
+        },
+        {
+          "ja": "והו אסם אלמעדן אלד'י תקתטע מנה חג'ארהֵ אלמעאדן: הביטו אל צור חצבתם.",
+          "en": "And it is the name of the quarry-rock from which mineral-stones are cut: 'look to the rock whence you were hewn' (Isa 51:1).",
+          "pairs": [
+            { "ja": "והו אסם אלמעדן", "en": "And it is the name of the quarry-rock" },
+            { "ja": "אלד'י תקתטע מנה חג'ארהֵ אלמעאדן", "en": "from which mineral-stones are cut" },
+            { "ja": "הביטו אל צור חצבתם", "en": "look to the rock whence you were hewn" }
+          ]
+        },
+        {
+          "ja": "ת'ם אסתעיר מן הד'א אלמעני אלאכ'יר הד'א אלאסם לאצל כל שי ומבדאה, ולד'לך קאל בעד קולה הביטו אל צור חצבתם: הביטו אל אברהם אביכם וכו'.",
+          "en": "Then, from this last sense, this noun was borrowed for the origin and source of everything; and therefore, after His saying 'look to the rock whence you were hewn,' He said: 'look to Abraham your father' (Isa 51:2), and so on.",
+          "pairs": [
+            { "ja": "ת'ם אסתעיר מן הד'א אלמעני אלאכ'יר הד'א אלאסם", "en": "Then, from this last sense, this noun was borrowed" },
+            { "ja": "לאצל כל שי ומבדאה", "en": "for the origin and source of everything" },
+            { "ja": "ולד'לך קאל בעד קולה הביטו אל צור חצבתם", "en": "and therefore, after His saying 'look to the rock whence you were hewn,'" },
+            { "ja": "הביטו אל אברהם אביכם", "en": "look to Abraham your father" }
+          ]
+        },
+        {
+          "ja": "כאנה שרח אן אלצור אלד'י חצבתם מנה הו אברהם אביכם, פאקתפוא את'רה ודינוא בדינה ותכ'לקוא בכ'לקה, אד' טביעהֵ אלמעדן ילזם אן תכון מוג'ודה פי מא אקתטע מנה.",
+          "en": "It is as though He explained that the rock from which you were hewn is Abraham your father — so follow in his footsteps, hold to his creed, and form yourselves by his character; for the nature of the quarry must be present in what is cut from it.",
+          "pairs": [
+            { "ja": "כאנה שרח אן אלצור אלד'י חצבתם מנה הו אברהם אביכם", "en": "It is as though He explained that the rock from which you were hewn is Abraham your father" },
+            { "ja": "פאקתפוא את'רה", "en": "so follow in his footsteps" },
+            { "ja": "ודינוא בדינה", "en": "hold to his creed" },
+            { "ja": "ותכ'לקוא בכ'לקה", "en": "and form yourselves by his character" },
+            { "ja": "אד' טביעהֵ אלמעדן ילזם אן תכון מוג'ודה פי מא אקתטע מנה", "en": "for the nature of the quarry must be present in what is cut from it" }
+          ]
+        },
+        {
+          "ja": "ובחסב הד'א אלמעני אלאכ'יר תסמי אללה תעאלי צור, אד' הו אלמבדא ואלסבב אלפאעל לכל מא סואה. וקיל: הצור תמים פעלו, צור ילדך תשי, צורם מכרם, ואין צור כאלהינו, צור עולמים.",
+          "en": "And according to this last sense God, may He be exalted, is called Tzur, since He is the origin and the efficient cause of all besides Himself. And it is said: 'the Rock, His work is perfect' (Deut 32:4); 'the Rock that begot you, you neglected' (Deut 32:18); 'their Rock had sold them' (Deut 32:30); 'neither is there any rock like our God' (1 Sam 2:2); 'the Rock of ages' (Isa 26:4).",
+          "pairs": [
+            { "ja": "ובחסב הד'א אלמעני אלאכ'יר תסמי אללה תעאלי צור", "en": "And according to this last sense God, may He be exalted, is called Tzur" },
+            { "ja": "אד' הו אלמבדא ואלסבב אלפאעל לכל מא סואה", "en": "since He is the origin and the efficient cause of all besides Himself" },
+            { "ja": "הצור תמים פעלו", "en": "the Rock, His work is perfect" },
+            { "ja": "צור ילדך תשי", "en": "the Rock that begot you, you neglected" },
+            { "ja": "צורם מכרם", "en": "their Rock had sold them" },
+            { "ja": "ואין צור כאלהינו", "en": "neither is there any rock like our God" },
+            { "ja": "צור עולמים", "en": "the Rock of ages" }
+          ]
+        },
+        {
+          "ja": "ונצבת על הצור — אעתמד ואת'בת עלי אעתבאר כונה תעאלי מבדאא, פהו אלמדכ'ל אלד'י תצל מנה אליה, כמא בינא פי קולה לה: הנה מקום אתי.",
+          "en": "'And you shall stand upon the rock' (Exod 33:21) — lean and stand firm upon the consideration that He, may He be exalted, is the origin; for He is the point of access through which one reaches Him, as we explained in His saying to him: 'behold, there is a place by Me' (Exod 33:21).",
+          "pairs": [
+            { "ja": "ונצבת על הצור", "en": "And you shall stand upon the rock" },
+            { "ja": "אעתמד ואת'בת עלי אעתבאר כונה תעאלי מבדאא", "en": "lean and stand firm upon the consideration that He, may He be exalted, is the origin" },
+            { "ja": "פהו אלמדכ'ל אלד'י תצל מנה אליה", "en": "for He is the point of access through which one reaches Him" },
+            { "ja": "כמא בינא פי קולה לה", "en": "as we explained in His saying to him" },
+            { "ja": "הנה מקום אתי", "en": "behold, there is a place by Me" }
+          ]
+        }
+      ]
+    }
+  ]
+}

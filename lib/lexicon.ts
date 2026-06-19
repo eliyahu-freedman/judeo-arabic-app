@@ -16,6 +16,20 @@ import { lookup, normalizeToken, normalizeFinals, type Entry } from "./lookup";
 import { tokenizeJa } from "./tokenize";
 import lane from "@/data/dictionary-lane.json";
 import starter from "@/data/dictionary-starter.json";
+import advancedIndexRaw from "@/data/advanced-index.json";
+
+type AdvancedUse = { work: string; href: string; n: number };
+type AdvancedKeyEntry = {
+  count: number;
+  att: AdvancedUse[];
+  truncated?: boolean;
+  sample?: { surface: string; snippet: string } | null;
+};
+// Judeo-Arabic concordance over the Advanced library (Moreh, Bahya, Saadia
+// Emunot, Qirqisani, Kuzari), keyed by normalizeToken — built by
+// scripts/build_advanced_index.py. Lets a lemma page show one word's uses
+// across the whole library, not just Saadia's Tafsir.
+const ADVANCED_INDEX = (advancedIndexRaw as { tokens: Record<string, AdvancedKeyEntry> }).tokens;
 
 const DICT: Entry[] = [
   ...(starter.entries as Entry[]),
@@ -240,6 +254,13 @@ export type LemmaData = {
   variants: SurfaceVariant[];
   /** Attestations grouped by book, in canonical order. */
   byBook: BookAttestations[];
+  /** Uses of this key across the Advanced library (Moreh, Bahya, …). */
+  library?: {
+    count: number;
+    uses: AdvancedUse[];
+    truncated: boolean;
+    sample?: { surface: string; snippet: string } | null;
+  };
 };
 
 const BOOK_SLUG_ORDER = ["bereshit", "shemot", "vayikra", "bamidbar", "devarim"];
@@ -257,8 +278,9 @@ export async function getLemma(rawKey: string): Promise<LemmaData | null> {
   const conc = await loadConcordance();
   const entries = lookup(key);
   const concEntry = conc.byKey.get(key);
+  const adv = ADVANCED_INDEX[key];
 
-  if (!entries.length && !concEntry) return null;
+  if (!entries.length && !concEntry && !adv) return null;
 
   // Surface-form breakdown.
   const surfaceCounts = new Map<string, number>();
@@ -294,5 +316,13 @@ export async function getLemma(rawKey: string): Promise<LemmaData | null> {
     count: concEntry?.count ?? 0,
     variants,
     byBook,
+    library: adv
+      ? {
+          count: adv.count,
+          uses: adv.att,
+          truncated: !!adv.truncated,
+          sample: adv.sample ?? null,
+        }
+      : undefined,
   };
 }

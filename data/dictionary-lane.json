@@ -2581,7 +2581,6 @@
         "שריה",
         "ושרהה",
         "שראיה",
-        "שרא",
         "פישרה",
         "ישרה",
         "ושרהת",
@@ -6697,10 +6696,7 @@
         "מדיני",
         "אלמדיני",
         "מדיניין",
-        "אלמדיניין",
-        "מדינה",
-        "במדינה",
-        "מדינתהם"
+        "אלמדיניין"
       ]
     },
     {
@@ -13236,15 +13232,7 @@
         "וכלב",
         "לכלב",
         "בכלב",
-        "כלבא",
-        "יכלבו",
-        "ילכבו",
-        "פכלבוכם",
-        "כלבוכם",
-        "ויכלבהם",
-        "יכלבהם",
-        "וכלבוהם",
-        "אכלבהם"
+        "כלבא"
       ]
     },
     {
@@ -18922,12 +18910,7 @@
       "gloss_en": "Bela (son of Benjamin)",
       "gloss_he": "בלע",
       "source": "lane",
-      "variants": [
-        "פתבת",
-        "תבת",
-        "תבתלעהם",
-        "תבתלע"
-      ]
+      "variants": []
     },
     {
       "id": "b1-אעטו",
@@ -81360,7 +81343,14 @@
         "אכלב",
         "פאכלבהם",
         "אכלבהם",
-        "כלב"
+        "כלב",
+        "יכלבו",
+        "ילכבו",
+        "פכלבוכם",
+        "כלבוכם",
+        "ויכלבהם",
+        "יכלבהם",
+        "וכלבוהם"
       ]
     },
     {
@@ -112167,7 +112157,10 @@
       "variants": [
         "פתבתלעהם",
         "תבתלעהם",
-        "תבתלעהמ"
+        "תבתלעהמ",
+        "פתבת",
+        "תבת",
+        "תבתלע"
       ]
     },
     {
@@ -188582,7 +188575,13 @@
       "notes": "Phrase 'כאלמלך פי אלמדינה' = 'like the king in the city' → al-madīna 'the city' (root m-d-n), not the proper noun Midian (Madyan).",
       "source": "lane",
       "variants": [
-        "אלמדינה"
+        "אלמדינה",
+        "מדן",
+        "אלמדן",
+        "מדאין",
+        "אלמדאין",
+        "במדינה",
+        "מדינתהם"
       ]
     },
     {
@@ -192630,6 +192629,2100 @@
       "gloss_he": "עמידה",
       "source": "lane",
       "notes": "Vocabulary of Maimonides' Guide I:5–14 (added for reader coverage)."
+    },
+    {
+      "id": "mng-0",
+      "lemma_ja": "אבקאה",
+      "lemma_ar": "أبقاه",
+      "gloss_en": "he left it / kept it unchanged",
+      "gloss_he": "השאיר, הותיר",
+      "source": "lane"
+    },
+    {
+      "id": "mng-1",
+      "lemma_ja": "אלאפתקאר",
+      "lemma_ar": "الافتقار",
+      "gloss_en": "the need, dependence",
+      "gloss_he": "הצורך, ההזדקקות",
+      "source": "lane"
+    },
+    {
+      "id": "mng-2",
+      "lemma_ja": "אלאצלאן",
+      "lemma_ar": "الأصلان",
+      "gloss_en": "the two roots / origins",
+      "gloss_he": "שני השרשים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-3",
+      "lemma_ja": "אלבצרי",
+      "lemma_ar": "البصري",
+      "gloss_en": "the visual, of the sense of sight",
+      "gloss_he": "הראייתי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-4",
+      "lemma_ja": "אלג'מהורי",
+      "lemma_ar": "الجمهوري",
+      "gloss_en": "of the multitude, popular",
+      "gloss_he": "ההמוני",
+      "source": "lane"
+    },
+    {
+      "id": "mng-5",
+      "lemma_ja": "אלדבור",
+      "gloss_en": "the speaking (Hebrew dibbur)",
+      "gloss_he": "הדיבור",
+      "source": "lane"
+    },
+    {
+      "id": "mng-6",
+      "lemma_ja": "אלוג'ודיה",
+      "lemma_ar": "الوجودية",
+      "gloss_en": "the existential; of existent things",
+      "gloss_he": "של הנמצאים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-7",
+      "lemma_ja": "אלחרון",
+      "gloss_en": "the burning anger (Hebrew ḥaron)",
+      "gloss_he": "החרון",
+      "source": "lane"
+    },
+    {
+      "id": "mng-8",
+      "lemma_ja": "אלמדרכין",
+      "lemma_ar": "المدركين",
+      "gloss_en": "the apprehenders",
+      "gloss_he": "המשׂיגים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-9",
+      "lemma_ja": "אלמואלף",
+      "lemma_ar": "المؤالف",
+      "gloss_en": "that which agrees with / suits",
+      "gloss_he": "המתאים, התואם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-10",
+      "lemma_ja": "אלמנאדי",
+      "lemma_ar": "المنادى",
+      "gloss_en": "the one who is called / addressed",
+      "gloss_he": "הנקרא",
+      "source": "lane"
+    },
+    {
+      "id": "mng-11",
+      "lemma_ja": "אלמעניאן",
+      "lemma_ar": "المعنيان",
+      "gloss_en": "the two senses / meanings",
+      "gloss_he": "שני המובנים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-12",
+      "lemma_ja": "אלמצ'נון",
+      "lemma_ar": "المظنون",
+      "gloss_en": "that withheld / kept from (the multitude)",
+      "gloss_he": "הנמנע, המוסתר",
+      "source": "lane"
+    },
+    {
+      "id": "mng-13",
+      "lemma_ja": "אלמתעלקה",
+      "lemma_ar": "المتعلقة",
+      "gloss_en": "pertaining, connected to",
+      "gloss_he": "הקשורה, הנוגעת",
+      "source": "lane"
+    },
+    {
+      "id": "mng-14",
+      "lemma_ja": "אלמתשרעין",
+      "lemma_ar": "المتشرّعين",
+      "gloss_en": "the followers of the Law",
+      "gloss_he": "אנשי התורה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-15",
+      "lemma_ja": "אלסבביה",
+      "lemma_ar": "السببيّة",
+      "gloss_en": "causality, being the occasion",
+      "gloss_he": "הסיבתיות",
+      "source": "lane"
+    },
+    {
+      "id": "mng-16",
+      "lemma_ja": "אלערבי",
+      "lemma_ar": "العربي",
+      "gloss_en": "the Arabic (language)",
+      "gloss_he": "הערבית",
+      "source": "lane"
+    },
+    {
+      "id": "mng-17",
+      "lemma_ja": "אלצאדרה",
+      "lemma_ar": "الصادرة",
+      "gloss_en": "that which issues / proceeds from",
+      "gloss_he": "היוצאת, הנובעת",
+      "source": "lane"
+    },
+    {
+      "id": "mng-18",
+      "lemma_ja": "אלתאבעון",
+      "lemma_ar": "التابعون",
+      "gloss_en": "the followers, those in one's train",
+      "gloss_he": "ההולכים אחריו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-19",
+      "lemma_ja": "אלתטויל",
+      "lemma_ar": "التطويل",
+      "gloss_en": "lengthy elaboration, prolixity",
+      "gloss_he": "האריכות",
+      "source": "lane"
+    },
+    {
+      "id": "mng-20",
+      "lemma_ja": "אלתרג'מה",
+      "lemma_ar": "الترجمة",
+      "gloss_en": "the translation, rendering",
+      "gloss_he": "התרגום",
+      "source": "lane"
+    },
+    {
+      "id": "mng-21",
+      "lemma_ja": "אנביאיה",
+      "lemma_ar": "أنبيائه",
+      "gloss_en": "his prophets",
+      "gloss_he": "נביאיו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-22",
+      "lemma_ja": "אעתנאא",
+      "lemma_ar": "اعتناء",
+      "gloss_en": "solicitude, care, providence",
+      "gloss_he": "השגחה, טיפול",
+      "source": "lane"
+    },
+    {
+      "id": "mng-23",
+      "lemma_ja": "אקבאלה",
+      "lemma_ar": "إقباله",
+      "gloss_en": "its advancing, approaching",
+      "gloss_he": "פנייתו, התקרבותו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-24",
+      "lemma_ja": "אקתטע",
+      "lemma_ar": "اقتُطع",
+      "gloss_en": "was cut off / quarried from",
+      "gloss_he": "נחצב, נחתך",
+      "source": "lane"
+    },
+    {
+      "id": "mng-25",
+      "lemma_ja": "אראדתהם",
+      "lemma_ar": "إرادتهم",
+      "gloss_en": "their will",
+      "gloss_he": "רצונם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-26",
+      "lemma_ja": "את'רה",
+      "lemma_ar": "أثره",
+      "gloss_en": "his trace, footstep",
+      "gloss_he": "עקבותיו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-27",
+      "lemma_ja": "בטביעתה",
+      "lemma_ar": "بطبيعته",
+      "gloss_en": "by its nature",
+      "gloss_he": "בטבעו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-28",
+      "lemma_ja": "במג'רד",
+      "lemma_ar": "بمجرّد",
+      "gloss_en": "by the mere (will), simply by",
+      "gloss_he": "בעצם, רק על ידי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-29",
+      "lemma_ja": "בנצה",
+      "lemma_ar": "بنصّه",
+      "gloss_en": "verbatim, by its very text",
+      "gloss_he": "בלשונו, כצורתו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-30",
+      "lemma_ja": "ד'כרוא",
+      "lemma_ar": "ذكروا",
+      "gloss_en": "they mentioned",
+      "gloss_he": "הזכירו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-31",
+      "lemma_ja": "דאמת",
+      "lemma_ar": "دامت",
+      "gloss_en": "it endured, persisted",
+      "gloss_he": "התמידה, נמשכה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-32",
+      "lemma_ja": "הדפא",
+      "lemma_ar": "هدفًا",
+      "gloss_en": "a target, butt",
+      "gloss_he": "מטרה, מטווח",
+      "source": "lane"
+    },
+    {
+      "id": "mng-33",
+      "lemma_ja": "ודינוא",
+      "lemma_ar": "ودينوا",
+      "gloss_en": "and hold to (his) religion / creed",
+      "gloss_he": "והחזיקו בדתו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-34",
+      "lemma_ja": "ואלנקלאן",
+      "lemma_ar": "والنقلان",
+      "gloss_en": "and conveyance, transport",
+      "gloss_he": "וההעברה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-35",
+      "lemma_ja": "ואלסריאניה",
+      "lemma_ar": "والسريانية",
+      "gloss_en": "and the Syriac / Aramaic (language)",
+      "gloss_he": "והארמית",
+      "source": "lane"
+    },
+    {
+      "id": "mng-36",
+      "lemma_ja": "ואפלאטון",
+      "lemma_ar": "وأفلاطون",
+      "gloss_en": "and Plato",
+      "gloss_he": "ואפלטון",
+      "source": "lane"
+    },
+    {
+      "id": "mng-37",
+      "lemma_ja": "יג'דה",
+      "lemma_ar": "يجده",
+      "gloss_en": "he finds it",
+      "gloss_he": "מוצא אותו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-38",
+      "lemma_ja": "יג'עלה",
+      "lemma_ar": "يجعله",
+      "gloss_en": "he makes / renders it",
+      "gloss_he": "עושה אותו, הופכו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-39",
+      "lemma_ja": "יכ'פון",
+      "lemma_ar": "يخفون",
+      "gloss_en": "they conceal, hide",
+      "gloss_he": "מסתירים, מעלימים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-40",
+      "lemma_ja": "ילגזונה",
+      "lemma_ar": "يلغزونه",
+      "gloss_en": "they put it in riddles",
+      "gloss_he": "מחידים אותו, מסתירים בחידה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-41",
+      "lemma_ja": "יסתעירון",
+      "lemma_ar": "يستعيرون",
+      "gloss_en": "they borrow (a word), use figuratively",
+      "gloss_he": "שואלים, משאילים (מילה)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-42",
+      "lemma_ja": "יסתשנע",
+      "lemma_ar": "يستشنع",
+      "gloss_en": "he finds it abhorrent, shrinks from",
+      "gloss_he": "מתעב, נרתע",
+      "source": "lane"
+    },
+    {
+      "id": "mng-43",
+      "lemma_ja": "יקארנהא",
+      "lemma_ar": "يقارنها",
+      "gloss_en": "it is coupled / conjoined to it",
+      "gloss_he": "מתלווה אליה, נצמד אליה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-44",
+      "lemma_ja": "יקדרה",
+      "lemma_ar": "يقدّره",
+      "gloss_en": "he supplies / posits it (an elided word)",
+      "gloss_he": "מוסיף, אומדו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-45",
+      "lemma_ja": "יתאול",
+      "lemma_ar": "يتأوّل",
+      "gloss_en": "he interprets (figuratively)",
+      "gloss_he": "מפרש, מבאר",
+      "source": "lane"
+    },
+    {
+      "id": "mng-46",
+      "lemma_ja": "יתאולהא",
+      "lemma_ar": "يتأوّلها",
+      "gloss_en": "he interprets it (figuratively)",
+      "gloss_he": "מפרש אותה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-47",
+      "lemma_ja": "יתרג'ם",
+      "lemma_ar": "يترجم",
+      "gloss_en": "he translates, renders",
+      "gloss_he": "מתרגם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-48",
+      "lemma_ja": "יתסלק",
+      "lemma_ar": "يتسلّق",
+      "gloss_en": "he climbs up",
+      "gloss_he": "מטפס, עולה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-49",
+      "lemma_ja": "כ'טאבא",
+      "lemma_ar": "خطابًا",
+      "gloss_en": "as an address, by way of address",
+      "gloss_he": "כפנייה, בדברו אל",
+      "source": "lane"
+    },
+    {
+      "id": "mng-50",
+      "lemma_ja": "כ'רג'נא",
+      "lemma_ar": "خرجنا",
+      "gloss_en": "we have strayed, digressed",
+      "gloss_he": "סטינו, יצאנו (מן הנושא)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-51",
+      "lemma_ja": "לאעדאם",
+      "lemma_ar": "لأعدام",
+      "gloss_en": "for privations, for the absence of",
+      "gloss_he": "להעדרים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-52",
+      "lemma_ja": "לג'סם",
+      "lemma_ar": "لجسم",
+      "gloss_en": "for a body",
+      "gloss_he": "לגוף",
+      "source": "lane"
+    },
+    {
+      "id": "mng-53",
+      "lemma_ja": "לחרכה",
+      "lemma_ar": "للحركة",
+      "gloss_en": "for motion",
+      "gloss_he": "לתנועה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-54",
+      "lemma_ja": "למאדה",
+      "lemma_ar": "للمادة",
+      "gloss_en": "for matter",
+      "gloss_he": "לחומר",
+      "source": "lane"
+    },
+    {
+      "id": "mng-55",
+      "lemma_ja": "מבדאא",
+      "lemma_ar": "مبدأ",
+      "gloss_en": "an origin, source, first principle",
+      "gloss_he": "ראשית, מקור, מתחיל",
+      "source": "lane"
+    },
+    {
+      "id": "mng-56",
+      "lemma_ja": "מואעידה",
+      "lemma_ar": "مواعيده",
+      "gloss_en": "his promises, pledges",
+      "gloss_he": "הבטחותיו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-57",
+      "lemma_ja": "מחג'וב",
+      "lemma_ar": "محجوب",
+      "gloss_en": "veiled, screened off",
+      "gloss_he": "מוסתר, חסום",
+      "source": "lane"
+    },
+    {
+      "id": "mng-58",
+      "lemma_ja": "מנקסם",
+      "lemma_ar": "منقسم",
+      "gloss_en": "divisible, divided",
+      "gloss_he": "מתחלק, מתפצל",
+      "source": "lane"
+    },
+    {
+      "id": "mng-59",
+      "lemma_ja": "מסתויא",
+      "lemma_ar": "مستوٍ",
+      "gloss_en": "seated upon, resting evenly on",
+      "gloss_he": "יושב על, מתיישב על",
+      "source": "lane"
+    },
+    {
+      "id": "mng-60",
+      "lemma_ja": "מסתחסן",
+      "lemma_ar": "مستحسن",
+      "gloss_en": "deemed good, acceptable",
+      "gloss_he": "נאה, רצוי, מקובל",
+      "source": "lane"
+    },
+    {
+      "id": "mng-61",
+      "lemma_ja": "מענאהמא",
+      "lemma_ar": "معناهما",
+      "gloss_en": "the meaning of the two of them",
+      "gloss_he": "משמעותם (של שניהם)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-62",
+      "lemma_ja": "מעתד",
+      "gloss_en": "standing firm upon (Aramaic Targum, ʿtd)",
+      "gloss_he": "ניצב, עומד (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-63",
+      "lemma_ja": "מפהומה",
+      "lemma_ar": "مفهومه",
+      "gloss_en": "its understood sense",
+      "gloss_he": "מובנו, הבנתו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-64",
+      "lemma_ja": "מקארן",
+      "lemma_ar": "مقارن",
+      "gloss_en": "coupled, conjoined to",
+      "gloss_he": "צמוד, מתלווה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-65",
+      "lemma_ja": "מקארנה",
+      "lemma_ar": "مقارنة",
+      "gloss_en": "the coupling, conjunction of",
+      "gloss_he": "ההצמדה, ההתלוות",
+      "source": "lane"
+    },
+    {
+      "id": "mng-66",
+      "lemma_ja": "מתואעדא",
+      "lemma_ar": "متواعدًا",
+      "gloss_en": "by way of warning / threat",
+      "gloss_he": "כמתרה, כמאיים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-67",
+      "lemma_ja": "מתחרכא",
+      "lemma_ar": "متحرّكًا",
+      "gloss_en": "in motion, moving",
+      "gloss_he": "נע, מתנועע",
+      "source": "lane"
+    },
+    {
+      "id": "mng-68",
+      "lemma_ja": "נג'על",
+      "lemma_ar": "نجعل",
+      "gloss_en": "we make / render / posit",
+      "gloss_he": "נעשה, נניח, נאמוד",
+      "source": "lane"
+    },
+    {
+      "id": "mng-69",
+      "lemma_ja": "נט'נהא",
+      "lemma_ar": "نظنّها",
+      "gloss_en": "we suppose them (to be)",
+      "gloss_he": "אנו חושבים אותן",
+      "source": "lane"
+    },
+    {
+      "id": "mng-70",
+      "lemma_ja": "נצרח",
+      "lemma_ar": "نصرّح",
+      "gloss_en": "we declare openly, state plainly",
+      "gloss_he": "נצהיר, נפרש בגלוי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-71",
+      "lemma_ja": "נקצא",
+      "lemma_ar": "نقصًا",
+      "gloss_en": "an imperfection, deficiency",
+      "gloss_he": "חיסרון, פגם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-72",
+      "lemma_ja": "סאבין",
+      "lemma_ar": "سأبيّن",
+      "gloss_en": "I shall explain, make clear",
+      "gloss_he": "אבאר, אסביר",
+      "source": "lane"
+    },
+    {
+      "id": "mng-73",
+      "lemma_ja": "סכינתה",
+      "lemma_ar": "سكينته",
+      "gloss_en": "His Indwelling (Shekhinah)",
+      "gloss_he": "שכינתו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-74",
+      "lemma_ja": "סתאתיך",
+      "lemma_ar": "ستأتيك",
+      "gloss_en": "there will come to you (chapters)",
+      "gloss_he": "יבואו אליך",
+      "source": "lane"
+    },
+    {
+      "id": "mng-75",
+      "lemma_ja": "עאידא",
+      "lemma_ar": "عائدًا",
+      "gloss_en": "referring back to, reverting to",
+      "gloss_he": "חוזר אל, מוסב על",
+      "source": "lane"
+    },
+    {
+      "id": "mng-76",
+      "lemma_ja": "עג'יבה",
+      "lemma_ar": "عجيبة",
+      "gloss_en": "wondrous, remarkable",
+      "gloss_he": "מופלאה, נפלאה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-77",
+      "lemma_ja": "עלווהי",
+      "gloss_en": "above him (Aramaic Targum, ʿillaweh)",
+      "gloss_he": "עליו, מעליו (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-78",
+      "lemma_ja": "פאקתפוא",
+      "lemma_ar": "فاقتفوا",
+      "gloss_en": "so follow in the footsteps of",
+      "gloss_he": "לכו בעקבות, חקו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-79",
+      "lemma_ja": "פימלאה",
+      "lemma_ar": "فيملأه",
+      "gloss_en": "and he fills it",
+      "gloss_he": "וממלא אותו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-80",
+      "lemma_ja": "פיקדרה",
+      "lemma_ar": "فيقدّره",
+      "gloss_en": "so he supplies / posits it",
+      "gloss_he": "אז אומדו, מוסיפו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-81",
+      "lemma_ja": "צאדרה",
+      "lemma_ar": "صادرة",
+      "gloss_en": "issuing, proceeding from",
+      "gloss_he": "יוצאת, נובעת",
+      "source": "lane"
+    },
+    {
+      "id": "mng-82",
+      "lemma_ja": "קולתהם",
+      "lemma_ar": "قولتهم",
+      "gloss_en": "their dictum, their saying",
+      "gloss_he": "מאמרם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-83",
+      "lemma_ja": "תאול",
+      "lemma_ar": "تأوّل",
+      "gloss_en": "he interpreted (figuratively)",
+      "gloss_he": "פירש, ביאר",
+      "source": "lane"
+    },
+    {
+      "id": "mng-84",
+      "lemma_ja": "תאולנא",
+      "lemma_ar": "تأوّلنا",
+      "gloss_en": "we interpreted",
+      "gloss_he": "פירשנו, ביארנו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-85",
+      "lemma_ja": "תביינה",
+      "lemma_ar": "تبيينه",
+      "gloss_en": "explaining it, making it clear",
+      "gloss_he": "ביאורו, הבהרתו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-86",
+      "lemma_ja": "תג'וז",
+      "lemma_ar": "تجوز",
+      "gloss_en": "it is permissible / possible for",
+      "gloss_he": "מותרת, אפשרית",
+      "source": "lane"
+    },
+    {
+      "id": "mng-87",
+      "lemma_ja": "תג'ליא",
+      "lemma_ar": "تجلّيًا",
+      "gloss_en": "a self-revelation, manifestation",
+      "gloss_he": "התגלות",
+      "source": "lane"
+    },
+    {
+      "id": "mng-88",
+      "lemma_ja": "תוג'ד",
+      "lemma_ar": "توجد",
+      "gloss_en": "is found, exists",
+      "gloss_he": "נמצאת, קיימת",
+      "source": "lane"
+    },
+    {
+      "id": "mng-89",
+      "lemma_ja": "תחלל",
+      "lemma_ar": "تحلّل",
+      "gloss_en": "what has dissolved / wasted away",
+      "gloss_he": "מה שהתפרק, אזל",
+      "source": "lane"
+    },
+    {
+      "id": "mng-90",
+      "lemma_ja": "תכ'יל",
+      "lemma_ar": "تخيّل",
+      "gloss_en": "it makes (one) imagine, suggests",
+      "gloss_he": "מדמה, מצייר בדמיון",
+      "source": "lane"
+    },
+    {
+      "id": "mng-91",
+      "lemma_ja": "תכ'ילוא",
+      "lemma_ar": "تخيّلوا",
+      "gloss_en": "they imagined, pictured",
+      "gloss_he": "דימו, ציירו בדמיונם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-92",
+      "lemma_ja": "תכ'לקוא",
+      "lemma_ar": "تخلّقوا",
+      "gloss_en": "form yourselves by (a character)",
+      "gloss_he": "התעצבו לפי, אמצו את מידותיו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-93",
+      "lemma_ja": "תמאס",
+      "lemma_ar": "تماسّ",
+      "gloss_en": "contact, touching",
+      "gloss_he": "מגע",
+      "source": "lane"
+    },
+    {
+      "id": "mng-94",
+      "lemma_ja": "תסתבעד",
+      "lemma_ar": "تستبعد",
+      "gloss_en": "you find it far-fetched / unlikely",
+      "gloss_he": "תרחיק לראות, תתמה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-95",
+      "lemma_ja": "תסתנכר",
+      "lemma_ar": "تستنكر",
+      "gloss_en": "you find it strange / objectionable",
+      "gloss_he": "תתפלא, תסתייג",
+      "source": "lane"
+    },
+    {
+      "id": "mng-96",
+      "lemma_ja": "תסתשנע",
+      "lemma_ar": "تستشنع",
+      "gloss_en": "you find it abhorrent / shocking",
+      "gloss_he": "תתעב, תזדעזע",
+      "source": "lane"
+    },
+    {
+      "id": "mng-97",
+      "lemma_ja": "תעלמוני",
+      "lemma_ar": "تُعلموني",
+      "gloss_en": "you inform me, make known to me",
+      "gloss_he": "תודיעוני, תלמדוני",
+      "source": "lane"
+    },
+    {
+      "id": "mng-98",
+      "lemma_ja": "תעתברהא",
+      "lemma_ar": "تعتبرها",
+      "gloss_en": "you consider / weigh it",
+      "gloss_he": "תשקול אותה, תבחנה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-99",
+      "lemma_ja": "תעתקד",
+      "lemma_ar": "تعتقد",
+      "gloss_en": "you believe, hold (a belief)",
+      "gloss_he": "תאמין, תסבור",
+      "source": "lane"
+    },
+    {
+      "id": "mng-100",
+      "lemma_ja": "תפאצ'לא",
+      "lemma_ar": "تفاضلًا",
+      "gloss_en": "gradation, difference in degree",
+      "gloss_he": "מדרוג, הבדל דרגה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-101",
+      "lemma_ja": "תצאריפהמא",
+      "lemma_ar": "تصاريفهما",
+      "gloss_en": "the conjugations of the two of them",
+      "gloss_he": "נטיותיהם, הטיותיהם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-102",
+      "lemma_ja": "תרג'מה",
+      "lemma_ar": "ترجمه",
+      "gloss_en": "he rendered / translated it",
+      "gloss_he": "תרגמו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-103",
+      "lemma_ja": "תתנבה",
+      "lemma_ar": "تتنبّه",
+      "gloss_en": "you take note, become alert",
+      "gloss_he": "תשׂים לב, תיווכח",
+      "source": "lane"
+    },
+    {
+      "id": "mng-104",
+      "lemma_ja": "אלמחד'וף",
+      "lemma_ar": "المحذوف",
+      "gloss_en": "the elided / deleted (construct-term)",
+      "gloss_he": "המושמט, הנחסר",
+      "variants": [
+        "מחד'וף"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-105",
+      "lemma_ja": "אלמתעדדה",
+      "lemma_ar": "المتعدّدة",
+      "gloss_en": "the manifold, multiple",
+      "gloss_he": "המרובים, המתרבים",
+      "variants": [
+        "מתעדדה",
+        "מתעדדה"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-106",
+      "lemma_ja": "אנתצאב",
+      "lemma_ar": "انتصاب",
+      "gloss_en": "standing erect, being upright",
+      "gloss_he": "זקיפה, התייצבות",
+      "variants": [
+        "ואלאנתצאב"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-107",
+      "lemma_ja": "יתגלי",
+      "gloss_en": "He reveals Himself (Aramaic Targum, itgeli)",
+      "gloss_he": "יתגלה (ארמית)",
+      "variants": [
+        "ויתגלי"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-108",
+      "lemma_ja": "תוליה",
+      "lemma_ar": "التولية",
+      "gloss_en": "turning away from, withdrawal",
+      "gloss_he": "הפנייה עורף, ההסתלקות",
+      "variants": [
+        "אלתוליה",
+        "באלתוליה"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-109",
+      "lemma_ja": "הליכה",
+      "gloss_en": "walking, going (Hebrew halikhah)",
+      "gloss_he": "הליכה",
+      "variants": [
+        "אלהליכה",
+        "באלהליכה"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-110",
+      "lemma_ja": "נגיעה",
+      "gloss_en": "touching (Hebrew negiʿah)",
+      "gloss_he": "נגיעה",
+      "variants": [
+        "אלנגיעה",
+        "ואלנגיעה",
+        "ונגיעה"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-111",
+      "lemma_ja": "נגישה",
+      "gloss_en": "drawing near (Hebrew negishah)",
+      "gloss_he": "נגישה",
+      "variants": [
+        "אלנגישה",
+        "ונגישה"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-112",
+      "lemma_ja": "יציאה",
+      "gloss_en": "going out (Hebrew yetziʾah)",
+      "gloss_he": "יציאה",
+      "variants": [
+        "אליציאה"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-113",
+      "lemma_ja": "ביאה",
+      "gloss_en": "coming, entering (Hebrew biʾah)",
+      "gloss_he": "ביאה",
+      "variants": [
+        "אלביאה"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-114",
+      "lemma_ja": "קריאה",
+      "gloss_en": "proclaiming, calling (Hebrew qeriʾah)",
+      "gloss_he": "קריאה",
+      "variants": [
+        "אלקריאה",
+        "ואלקריאה"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-115",
+      "lemma_ja": "עננה",
+      "gloss_en": "a cloud (Hebrew ʿananah)",
+      "gloss_he": "עֲנָנָה",
+      "variants": [
+        "אלעננה"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-116",
+      "lemma_ja": "שכינה",
+      "gloss_en": "the Indwelling, Shekhinah",
+      "gloss_he": "שכינה",
+      "variants": [
+        "אלשכינה"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-117",
+      "lemma_ja": "גבורתיה",
+      "gloss_en": "his might (Aramaic Targum, gevurteh)",
+      "gloss_he": "גבורתו (ארמית)",
+      "variants": [
+        "בגבורתיה"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-118",
+      "lemma_ja": "יקריה",
+      "gloss_en": "of His glory (Aramaic Targum, yeqareh)",
+      "gloss_he": "יקריה, כבודו (ארמית)",
+      "variants": [
+        "ליקריה"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-119",
+      "lemma_ja": "די״י",
+      "gloss_en": "of the Lord (Aramaic Targum, da-YY)",
+      "gloss_he": "דה׳ (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-120",
+      "lemma_ja": "דשכינתיה",
+      "gloss_en": "of His Shekhinah (Aramaic Targum)",
+      "gloss_he": "דשכינתיה (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-121",
+      "lemma_ja": "דחילא",
+      "gloss_en": "the awe / fear of (Aramaic Targum)",
+      "gloss_he": "מורא, דחלא (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-122",
+      "lemma_ja": "אפוהי",
+      "gloss_en": "his face (Aramaic Targum, apohi)",
+      "gloss_he": "פניו (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-123",
+      "lemma_ja": "ואחזי",
+      "gloss_en": "and I will see (Aramaic Targum, we-eḥzei)",
+      "gloss_he": "ואראה (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-124",
+      "lemma_ja": "זיתיא",
+      "gloss_en": "of olives (Aramaic Targum, zeitayya)",
+      "gloss_he": "זיתים (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-125",
+      "lemma_ja": "ללג'סם",
+      "lemma_ar": "للجسم",
+      "gloss_en": "for the body, to a body",
+      "gloss_he": "לגוף",
+      "source": "lane"
+    },
+    {
+      "id": "mng-126",
+      "lemma_ja": "ללחרכה",
+      "lemma_ar": "للحركة",
+      "gloss_en": "for motion",
+      "gloss_he": "לתנועה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-127",
+      "lemma_ja": "ללמאדה",
+      "lemma_ar": "للمادة",
+      "gloss_en": "for / to matter",
+      "gloss_he": "לחומר",
+      "source": "lane"
+    },
+    {
+      "id": "mng-128",
+      "lemma_ja": "ללמלאך",
+      "gloss_en": "to the angel (Hebrew, la-malʾakh)",
+      "gloss_he": "לַמַּלְאָךְ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-129",
+      "lemma_ja": "ללנדא",
+      "lemma_ar": "للنداء",
+      "gloss_en": "for the vocative call",
+      "gloss_he": "לקריאה, לפנייה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-130",
+      "lemma_ja": "ללסיר",
+      "lemma_ar": "للسير",
+      "gloss_en": "for proceeding, conduct",
+      "gloss_he": "להליכה, להתנהגות",
+      "source": "lane"
+    },
+    {
+      "id": "mng-131",
+      "lemma_ja": "ללשכינה",
+      "gloss_en": "to the Shekhinah (Hebrew, la-shekhinah)",
+      "gloss_he": "לַשְּׁכִינָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-132",
+      "lemma_ja": "ללאמר",
+      "lemma_ar": "للأمر",
+      "gloss_en": "for the matter / command",
+      "gloss_he": "לדבר, לעניין, לציווי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-133",
+      "lemma_ja": "ליקריה",
+      "gloss_en": "to His glory (Aramaic Targum, li-yeqareh)",
+      "gloss_he": "ליקריה, לכבודו (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-134",
+      "lemma_ja": "אחור",
+      "gloss_en": "back, hinder part",
+      "gloss_he": "אָחוֹר",
+      "source": "lane"
+    },
+    {
+      "id": "mng-135",
+      "lemma_ja": "אחורי",
+      "gloss_en": "my back parts",
+      "gloss_he": "אֲחוֹרָי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-136",
+      "lemma_ja": "אחותו",
+      "gloss_en": "his sister",
+      "gloss_he": "אֲחוֹתוֹ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-137",
+      "lemma_ja": "אסתיר",
+      "gloss_en": "I will hide (hide my face)",
+      "gloss_he": "אַסְתִּיר",
+      "source": "lane"
+    },
+    {
+      "id": "mng-138",
+      "lemma_ja": "ארצה",
+      "gloss_en": "earthward, to the ground",
+      "gloss_he": "אַרְצָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-139",
+      "lemma_ja": "באלוני",
+      "gloss_en": "in the plains of (Mamre)",
+      "gloss_he": "בְּאֵלוֹנֵי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-140",
+      "lemma_ja": "בהסתרת",
+      "gloss_en": "by the hiding of (the face)",
+      "gloss_he": "בְּהַסְתָּרַת",
+      "source": "lane"
+    },
+    {
+      "id": "mng-141",
+      "lemma_ja": "בחורב",
+      "gloss_en": "in Horeb",
+      "gloss_he": "בְּחֹרֵב",
+      "source": "lane"
+    },
+    {
+      "id": "mng-142",
+      "lemma_ja": "גע",
+      "gloss_en": "touch! (touch the mountains)",
+      "gloss_he": "גַּע",
+      "source": "lane"
+    },
+    {
+      "id": "mng-143",
+      "lemma_ja": "הבוכים",
+      "gloss_en": "Bochim ('the weepers')",
+      "gloss_he": "הַבּוֹכִים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-144",
+      "lemma_ja": "הביתה",
+      "gloss_en": "to the house, indoors",
+      "gloss_he": "הַבַּיְתָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-145",
+      "lemma_ja": "הגדות",
+      "gloss_en": "Aggadot, homiletic teachings",
+      "gloss_he": "הַגָּדוֹת",
+      "source": "lane"
+    },
+    {
+      "id": "mng-146",
+      "lemma_ja": "הגזרים",
+      "gloss_en": "the pieces (of the covenant sacrifice)",
+      "gloss_he": "הַגְּזָרִים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-147",
+      "lemma_ja": "הגלגל",
+      "gloss_en": "Gilgal (place-name)",
+      "gloss_he": "הַגִּלְגָּל",
+      "source": "lane"
+    },
+    {
+      "id": "mng-148",
+      "lemma_ja": "הדעת",
+      "gloss_en": "knowledge",
+      "gloss_he": "הַדַּעַת",
+      "source": "lane"
+    },
+    {
+      "id": "mng-149",
+      "lemma_ja": "החכמה",
+      "gloss_en": "wisdom",
+      "gloss_he": "הַחָכְמָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-150",
+      "lemma_ja": "החצי",
+      "gloss_en": "the arrow",
+      "gloss_he": "הַחֵץ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-151",
+      "lemma_ja": "הלילה",
+      "gloss_en": "the night",
+      "gloss_he": "הַלַּיְלָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-152",
+      "lemma_ja": "המחנה",
+      "gloss_en": "the camp",
+      "gloss_he": "הַמַּחֲנֶה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-153",
+      "lemma_ja": "המלכה",
+      "gloss_en": "the queen",
+      "gloss_he": "הַמַּלְכָּה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-154",
+      "lemma_ja": "המנחה",
+      "gloss_en": "the present, gift-offering",
+      "gloss_he": "הַמִּנְחָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-155",
+      "lemma_ja": "הנגלה",
+      "gloss_en": "who revealed himself",
+      "gloss_he": "הַנִּגְלֶה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-156",
+      "lemma_ja": "הנשא",
+      "gloss_en": "lift up thyself!",
+      "gloss_he": "הִנָּשֵׂא",
+      "source": "lane"
+    },
+    {
+      "id": "mng-157",
+      "lemma_ja": "הסתרת",
+      "gloss_en": "hiding of (the face)",
+      "gloss_he": "הַסְתָּרַת",
+      "source": "lane"
+    },
+    {
+      "id": "mng-158",
+      "lemma_ja": "הסתרתי",
+      "gloss_en": "I have hidden",
+      "gloss_he": "הִסְתַּרְתִּי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-159",
+      "lemma_ja": "העומר",
+      "gloss_en": "the omer (measure)",
+      "gloss_he": "הָעֹמֶר",
+      "source": "lane"
+    },
+    {
+      "id": "mng-160",
+      "lemma_ja": "הענן",
+      "gloss_en": "the cloud",
+      "gloss_he": "הֶעָנָן",
+      "source": "lane"
+    },
+    {
+      "id": "mng-161",
+      "lemma_ja": "הקול",
+      "gloss_en": "the voice",
+      "gloss_he": "הַקּוֹל",
+      "source": "lane"
+    },
+    {
+      "id": "mng-162",
+      "lemma_ja": "הקריב",
+      "gloss_en": "drew near, brought near",
+      "gloss_he": "הִקְרִיב",
+      "source": "lane"
+    },
+    {
+      "id": "mng-163",
+      "lemma_ja": "הרימותי",
+      "gloss_en": "I have exalted, raised up",
+      "gloss_he": "הֲרִימוֹתִי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-164",
+      "lemma_ja": "הרימותיך",
+      "gloss_en": "I have exalted thee",
+      "gloss_he": "הֲרִימוֹתִיךָ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-165",
+      "lemma_ja": "הרמה",
+      "gloss_en": "exalting, raising (the verb harem)",
+      "gloss_he": "הֲרָמָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-166",
+      "lemma_ja": "התבה",
+      "gloss_en": "the ark",
+      "gloss_he": "הַתֵּבָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-167",
+      "lemma_ja": "התבונה",
+      "gloss_en": "understanding",
+      "gloss_he": "הַתְּבוּנָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-169",
+      "lemma_ja": "ואלקריאה",
+      "gloss_en": "and the calling, proclaiming (qeriʾah)",
+      "gloss_he": "וְהַקְּרִיאָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-170",
+      "lemma_ja": "וופור",
+      "lemma_ar": "وفور",
+      "gloss_en": "and abundance, ampleness (of fortune)",
+      "gloss_he": "ושפע, ורוב",
+      "source": "lane"
+    },
+    {
+      "id": "mng-171",
+      "lemma_ja": "וחסור",
+      "gloss_en": "and decreasing (the waters)",
+      "gloss_he": "וְחָסוֹר",
+      "source": "lane"
+    },
+    {
+      "id": "mng-172",
+      "lemma_ja": "ויאכ'ד'ון",
+      "lemma_ar": "ويأخذون",
+      "gloss_en": "and they take, adopt (analogies)",
+      "gloss_he": "ולוקחים, ונוקטים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-173",
+      "lemma_ja": "ויורדים",
+      "gloss_en": "and descending (the angels)",
+      "gloss_he": "וְיוֹרְדִים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-174",
+      "lemma_ja": "ויחלקה",
+      "lemma_ar": "ويلحقه",
+      "gloss_en": "and entails for it, attaches to it",
+      "gloss_he": "ומחיל עליו, וגורר",
+      "source": "lane"
+    },
+    {
+      "id": "mng-175",
+      "lemma_ja": "ויחר",
+      "gloss_en": "and was kindled (anger)",
+      "gloss_he": "וַיִּחַר",
+      "source": "lane"
+    },
+    {
+      "id": "mng-176",
+      "lemma_ja": "וימלאו",
+      "gloss_en": "and were fulfilled (the days)",
+      "gloss_he": "וַיִּמְלְאוּ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-177",
+      "lemma_ja": "וינטלם",
+      "gloss_en": "and He bore them up",
+      "gloss_he": "וַיְנַטְּלֵם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-178",
+      "lemma_ja": "וינשאם",
+      "gloss_en": "and He carried them",
+      "gloss_he": "וַיְנַשְּׂאֵם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-179",
+      "lemma_ja": "ויעבירו",
+      "gloss_en": "and they caused (a voice) to pass / proclaim",
+      "gloss_he": "וַיַּעֲבִירוּ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-180",
+      "lemma_ja": "ויעשנו",
+      "gloss_en": "and they shall smoke",
+      "gloss_he": "וְיֶעֱשָׁנוּ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-181",
+      "lemma_ja": "ויקארנהא",
+      "lemma_ar": "ويقارنها",
+      "gloss_en": "and is coupled to it (a privation)",
+      "gloss_he": "ומתלווה אליה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-182",
+      "lemma_ja": "וישכן",
+      "gloss_en": "and abode, dwelt (the glory)",
+      "gloss_he": "וַיִּשְׁכֹּן",
+      "source": "lane"
+    },
+    {
+      "id": "mng-183",
+      "lemma_ja": "וכבדנוך",
+      "gloss_en": "and we will honor thee",
+      "gloss_he": "וְכִבַּדְנוּךָ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-184",
+      "lemma_ja": "ולפיד",
+      "gloss_en": "and a torch (of fire)",
+      "gloss_he": "וְלַפִּיד",
+      "source": "lane"
+    },
+    {
+      "id": "mng-185",
+      "lemma_ja": "ומלאכי",
+      "gloss_en": "and the angels of (God)",
+      "gloss_he": "וּמַלְאֲכֵי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-186",
+      "lemma_ja": "ומפהומה",
+      "lemma_ar": "ومفهومه",
+      "gloss_en": "and its understood sense",
+      "gloss_he": "ומובנו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-187",
+      "lemma_ja": "ופשאיה",
+      "lemma_ar": "وفشائه",
+      "gloss_en": "and its diffusion, spreading",
+      "gloss_he": "והתפשטותו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-188",
+      "lemma_ja": "ושכותי",
+      "gloss_en": "and I will cover (with my hand)",
+      "gloss_he": "וְשַׂכֹּתִי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-189",
+      "lemma_ja": "ושכנתי",
+      "gloss_en": "and I will dwell (among them)",
+      "gloss_he": "וְשָׁכַנְתִּי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-190",
+      "lemma_ja": "ותגע",
+      "gloss_en": "and she touched",
+      "gloss_he": "וַתִּגַּע",
+      "source": "lane"
+    },
+    {
+      "id": "mng-191",
+      "lemma_ja": "ותחות",
+      "gloss_en": "and under (Aramaic Targum, we-tḥot)",
+      "gloss_he": "וּתְחוֹת (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-192",
+      "lemma_ja": "ותנשא",
+      "gloss_en": "and shall be exalted (his kingdom)",
+      "gloss_he": "וְתִנַּשֵּׂא",
+      "source": "lane"
+    },
+    {
+      "id": "mng-193",
+      "lemma_ja": "ותעלימהם",
+      "lemma_ar": "وتعليمهم",
+      "gloss_en": "and instructing them",
+      "gloss_he": "ולימודם, והוראתם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-194",
+      "lemma_ja": "ותרדמה",
+      "gloss_en": "and a deep sleep",
+      "gloss_he": "וְתַרְדֵּמָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-195",
+      "lemma_ja": "ותרם",
+      "gloss_en": "and was lifted up (the ark)",
+      "gloss_he": "וַתָּרָם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-196",
+      "lemma_ja": "ותתצב",
+      "gloss_en": "and she stood, stationed herself",
+      "gloss_he": "וַתֵּתַצַּב",
+      "source": "lane"
+    },
+    {
+      "id": "mng-197",
+      "lemma_ja": "חמוריהם",
+      "gloss_en": "their asses",
+      "gloss_he": "חֲמוֹרֵיהֶם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-198",
+      "lemma_ja": "חצבתם",
+      "gloss_en": "ye were hewn",
+      "gloss_he": "חֻצַּבְתֶּם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-199",
+      "lemma_ja": "חרבות",
+      "gloss_en": "knives (of flint)",
+      "gloss_he": "חַרְבוֹת",
+      "source": "lane"
+    },
+    {
+      "id": "mng-200",
+      "lemma_ja": "יבואו",
+      "gloss_en": "shall come, befall",
+      "gloss_he": "יָבוֹאוּ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-201",
+      "lemma_ja": "יגשו",
+      "gloss_en": "they shall draw near",
+      "gloss_he": "יִגְּשׁוּ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-202",
+      "lemma_ja": "ילדך",
+      "gloss_en": "begot thee (the Rock)",
+      "gloss_he": "יְלָדְךָ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-203",
+      "lemma_ja": "ילך",
+      "gloss_en": "shall go (like a serpent)",
+      "gloss_he": "יֵלֵךְ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-204",
+      "lemma_ja": "ימיה",
+      "gloss_en": "her days",
+      "gloss_he": "יָמֶיהָ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-205",
+      "lemma_ja": "ימלאה",
+      "gloss_en": "fills it",
+      "gloss_he": "יְמַלְּאֶהָ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-206",
+      "lemma_ja": "ימלאו",
+      "gloss_en": "shall be fulfilled / filled",
+      "gloss_he": "יִמְלְאוּ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-207",
+      "lemma_ja": "יצאו",
+      "gloss_en": "they came / went out",
+      "gloss_he": "יָצְאוּ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-208",
+      "lemma_ja": "יקשה",
+      "gloss_en": "is too hard (for you)",
+      "gloss_he": "יִקְשֶׁה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-209",
+      "lemma_ja": "ירה",
+      "gloss_en": "he shot (the arrow)",
+      "gloss_he": "יָרָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-210",
+      "lemma_ja": "ישובה",
+      "gloss_en": "let me return (to my place)",
+      "gloss_he": "יָשׁוּבָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-211",
+      "lemma_ja": "ישכל",
+      "gloss_en": "it troubles, perplexes (you)",
+      "gloss_he": "יִשְׁכַּל",
+      "source": "lane"
+    },
+    {
+      "id": "mng-212",
+      "lemma_ja": "ישכן",
+      "gloss_en": "dwells, abides",
+      "gloss_he": "יִשְׁכֹּן",
+      "source": "lane"
+    },
+    {
+      "id": "mng-213",
+      "lemma_ja": "יתיצבו",
+      "gloss_en": "they set themselves, stand",
+      "gloss_he": "יִתְיַצְּבוּ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-214",
+      "lemma_ja": "כבודו",
+      "gloss_en": "his glory",
+      "gloss_he": "כְּבוֹדוֹ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-215",
+      "lemma_ja": "כבודי",
+      "gloss_en": "my glory",
+      "gloss_he": "כְּבוֹדִי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-216",
+      "lemma_ja": "כורסי",
+      "gloss_en": "throne of (Aramaic Targum, kursi)",
+      "gloss_he": "כּוּרְסֵי (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-217",
+      "lemma_ja": "כורסיה",
+      "gloss_en": "his throne (Aramaic Targum)",
+      "gloss_he": "כּוּרְסְיֵהּ (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-218",
+      "lemma_ja": "כשלג",
+      "gloss_en": "as snow (leprous white)",
+      "gloss_he": "כַּשֶּׁלֶג",
+      "source": "lane"
+    },
+    {
+      "id": "mng-219",
+      "lemma_ja": "להעבירו",
+      "gloss_en": "to make it pass beyond him",
+      "gloss_he": "לְהַעֲבִירוֹ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-220",
+      "lemma_ja": "לואחק",
+      "lemma_ar": "لواحق",
+      "gloss_en": "the accidents / concomitants of",
+      "gloss_he": "נלווים, מקרים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-221",
+      "lemma_ja": "מאשר",
+      "gloss_en": "from the things that (shall come)",
+      "gloss_he": "מֵאֲשֶׁר",
+      "source": "lane"
+    },
+    {
+      "id": "mng-222",
+      "lemma_ja": "מימרא",
+      "gloss_en": "the Word, Memra (Aramaic Targum)",
+      "gloss_he": "מֵימְרָא (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-223",
+      "lemma_ja": "מליאה",
+      "gloss_en": "filling, fullness (lashon meliʾah)",
+      "gloss_he": "מְלִיאָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-224",
+      "lemma_ja": "מעבירים",
+      "gloss_en": "spread abroad, cause to pass",
+      "gloss_he": "מַעֲבִירִים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-225",
+      "lemma_ja": "מצבה",
+      "gloss_en": "a pillar, standing-stone",
+      "gloss_he": "מַצֵּבָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-226",
+      "lemma_ja": "מצורעת",
+      "gloss_en": "leprous",
+      "gloss_he": "מְצֹרַעַת",
+      "source": "lane"
+    },
+    {
+      "id": "mng-227",
+      "lemma_ja": "מציון",
+      "gloss_en": "from Zion",
+      "gloss_he": "מִצִּיּוֹן",
+      "source": "lane"
+    },
+    {
+      "id": "mng-228",
+      "lemma_ja": "מצרימה",
+      "gloss_en": "to Egypt",
+      "gloss_he": "מִצְרַיְמָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-229",
+      "lemma_ja": "מקומי",
+      "gloss_en": "my place",
+      "gloss_he": "מְקוֹמִי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-230",
+      "lemma_ja": "משחת",
+      "gloss_en": "thou didst anoint",
+      "gloss_he": "מָשַׁחְתָּ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-231",
+      "lemma_ja": "משפטה",
+      "gloss_en": "her judgment",
+      "gloss_he": "מִשְׁפָּטָהּ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-232",
+      "lemma_ja": "נבואה",
+      "gloss_en": "prophecy (the prophetic vision)",
+      "gloss_he": "נְבוּאָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-233",
+      "lemma_ja": "נדרת",
+      "gloss_en": "thou didst vow",
+      "gloss_he": "נָדַרְתָּ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-234",
+      "lemma_ja": "נפלה",
+      "gloss_en": "fell (a deep sleep)",
+      "gloss_he": "נָפְלָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-235",
+      "lemma_ja": "נצבים",
+      "gloss_en": "standing, stationed",
+      "gloss_he": "נִצָּבִים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-236",
+      "lemma_ja": "נצה",
+      "lemma_ar": "نصّه",
+      "gloss_en": "its very text, its wording",
+      "gloss_he": "לשונו, נוסחו",
+      "source": "lane"
+    },
+    {
+      "id": "mng-237",
+      "lemma_ja": "נשיאה",
+      "gloss_en": "lifting up, bearing (lashon nesiʾah)",
+      "gloss_he": "נְשִׂיאָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-238",
+      "lemma_ja": "סבביה",
+      "lemma_ar": "السببيّة",
+      "gloss_en": "causality, occasioning",
+      "gloss_he": "סיבתיות",
+      "source": "lane"
+    },
+    {
+      "id": "mng-239",
+      "lemma_ja": "עברי",
+      "gloss_en": "my passing by",
+      "gloss_he": "עָבְרִי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-240",
+      "lemma_ja": "עולים",
+      "gloss_en": "ascending (the angels)",
+      "gloss_he": "עוֹלִים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-241",
+      "lemma_ja": "עולמים",
+      "gloss_en": "of ages, everlasting (the Rock)",
+      "gloss_he": "עוֹלָמִים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-242",
+      "lemma_ja": "צא",
+      "gloss_en": "go out! get thee out!",
+      "gloss_he": "צֵא",
+      "source": "lane"
+    },
+    {
+      "id": "mng-243",
+      "lemma_ja": "צורים",
+      "gloss_en": "flints, rocks",
+      "gloss_he": "צֻרִים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-244",
+      "lemma_ja": "צורם",
+      "gloss_en": "their Rock",
+      "gloss_he": "צוּרָם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-245",
+      "lemma_ja": "קדושים",
+      "gloss_en": "holy ones, saints",
+      "gloss_he": "קְדוֹשִׁים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-246",
+      "lemma_ja": "קרובים",
+      "gloss_en": "near (to him)",
+      "gloss_he": "קְרֹבִים",
+      "source": "lane"
+    },
+    {
+      "id": "mng-247",
+      "lemma_ja": "רבינו",
+      "gloss_en": "our master (Moses)",
+      "gloss_he": "רַבֵּנוּ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-248",
+      "lemma_ja": "רומה",
+      "gloss_en": "be Thou exalted (above the heavens)",
+      "gloss_he": "רוּמָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-249",
+      "lemma_ja": "שברם",
+      "gloss_en": "their grain, corn",
+      "gloss_he": "שִׁבְרָם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-250",
+      "lemma_ja": "שכינתיה",
+      "gloss_en": "his Shekhinah (Aramaic Targum)",
+      "gloss_he": "שְׁכִינְתֵּהּ (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-251",
+      "lemma_ja": "שכנתי",
+      "gloss_en": "of him that dwelt (in the bush)",
+      "gloss_he": "שֹׁכְנִי",
+      "variants": [
+        "שכני"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-252",
+      "lemma_ja": "שלג",
+      "gloss_en": "snow",
+      "gloss_he": "שֶׁלֶג",
+      "source": "lane"
+    },
+    {
+      "id": "mng-253",
+      "lemma_ja": "שלוח",
+      "gloss_en": "messenger, one sent (sheluaḥ)",
+      "gloss_he": "שְׁלוּחַ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-254",
+      "lemma_ja": "תאבעון",
+      "gloss_en": "followers (al-tābiʿūn rendering)",
+      "gloss_he": "תאבעון",
+      "source": "lane"
+    },
+    {
+      "id": "mng-255",
+      "lemma_ja": "תגע",
+      "gloss_en": "touch! (touch the mountains)",
+      "gloss_he": "תִּגַּע",
+      "source": "lane"
+    },
+    {
+      "id": "mng-256",
+      "lemma_ja": "תחות",
+      "gloss_en": "under (Aramaic Targum, teḥot)",
+      "gloss_he": "תְּחוֹת (ארמית)",
+      "source": "lane"
+    },
+    {
+      "id": "mng-257",
+      "lemma_ja": "תנשא",
+      "gloss_en": "shall be exalted",
+      "gloss_he": "תִּנַּשֵּׂא",
+      "source": "lane"
+    },
+    {
+      "id": "mng-258",
+      "lemma_ja": "תקריבון",
+      "gloss_en": "ye shall bring near",
+      "gloss_he": "תַּקְרִיבוּן",
+      "source": "lane"
+    },
+    {
+      "id": "mng-259",
+      "lemma_ja": "תקתטע",
+      "lemma_ar": "تُقتطع",
+      "gloss_en": "is cut off / quarried from",
+      "gloss_he": "נחצב, נחתך",
+      "source": "lane"
+    },
+    {
+      "id": "mng-260",
+      "lemma_ja": "תרגום",
+      "gloss_en": "the Targum (Aramaic translation)",
+      "gloss_he": "תַּרְגּוּם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-261",
+      "lemma_ja": "תרדמה",
+      "gloss_en": "a deep sleep",
+      "gloss_he": "תַּרְדֵּמָה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-262",
+      "lemma_ja": "תרם",
+      "gloss_en": "was lifted up (the ark)",
+      "gloss_he": "תָּרָם",
+      "source": "lane"
+    },
+    {
+      "id": "mng-263",
+      "lemma_ja": "תשי",
+      "gloss_en": "thou didst neglect / forget",
+      "gloss_he": "תֶּשִׁי",
+      "source": "lane"
+    },
+    {
+      "id": "mng-264",
+      "lemma_ja": "תשך",
+      "gloss_en": "it confuses / clouds (you)",
+      "gloss_he": "תָּשֵׁךְ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-265",
+      "lemma_ja": "תתאלי",
+      "lemma_ar": "تتالٍ",
+      "gloss_en": "succession, sequence",
+      "gloss_he": "רצף, עקיבה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-266",
+      "lemma_ja": "תתנשאו",
+      "gloss_en": "ye lift up yourselves",
+      "gloss_he": "תִּתְנַשְּׂאוּ",
+      "source": "lane"
+    },
+    {
+      "id": "mng-267",
+      "lemma_ja": "תתצב",
+      "gloss_en": "stands, stations herself",
+      "gloss_he": "תֵּתַצַּב",
+      "source": "lane"
+    },
+    {
+      "id": "mng-268",
+      "lemma_ja": "הכית",
+      "gloss_en": "thou shalt smite (the rock)",
+      "gloss_he": "הִכִּיתָ",
+      "variants": [
+        "והכית"
+      ],
+      "source": "lane"
+    },
+    {
+      "id": "mng-269",
+      "lemma_ja": "הק״ב״ה",
+      "gloss_en": "the Holy One, blessed be He",
+      "gloss_he": "הקדוש ברוך הוא",
+      "source": "lane"
+    },
+    {
+      "id": "mng-270",
+      "lemma_ja": "מצ'נון",
+      "lemma_ar": "المظنون",
+      "gloss_en": "supposed; withheld from",
+      "gloss_he": "מוסתר, נמנע",
+      "source": "lane"
+    },
+    {
+      "id": "mng-271",
+      "lemma_ja": "מנאדי",
+      "lemma_ar": "المنادى",
+      "gloss_en": "the one called / addressed",
+      "gloss_he": "הנקרא",
+      "source": "lane"
+    },
+    {
+      "id": "mng-272",
+      "lemma_ja": "מתעלקה",
+      "lemma_ar": "المتعلقة",
+      "gloss_en": "pertaining, connected",
+      "gloss_he": "הקשורה",
+      "source": "lane"
+    },
+    {
+      "id": "mng-208",
+      "lemma_ja": "יוצא",
+      "gloss_en": "comes / goes forth",
+      "gloss_he": "יוֹצֵא",
+      "source": "lane"
     }
   ]
 }

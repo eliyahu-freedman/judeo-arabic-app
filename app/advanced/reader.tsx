@@ -82,16 +82,23 @@ export type ReaderNav = {
   /** Ordered chapters; `n` matches `currentN` to mark the active one. */
   chapters: { n: number; title: string; href: string }[];
   currentN: number;
+  /** Optional index/companion links (e.g. Atlas, Verses) shown above the chips. */
+  aux?: { title: string; href: string; external?: boolean }[];
 };
 
 export function AdvancedReader({
   data,
   nav,
+  tibbon,
 }: {
   data: WorkData;
   nav?: ReaderNav;
+  /** Optional chapter-level Hebrew translation (Ibn Tibbon) shown as a layer. */
+  tibbon?: string[];
 }) {
   const [showEnglish, setShowEnglish] = useState(true);
+  const [showTibbon, setShowTibbon] = useState(false);
+  const hasTibbon = !!tibbon && tibbon.length > 0;
   const [activeToken, setActiveToken] = useState<string | null>(null);
   const [hoveredGroup, setHoveredGroup] = useState<HoveredGroup | null>(null);
 
@@ -157,8 +164,22 @@ export function AdvancedReader({
           onClick={() => setShowEnglish((x) => !x)}
           label="English"
         />
+        {hasTibbon && (
+          <ToggleChip
+            on={showTibbon}
+            onClick={() => setShowTibbon((x) => !x)}
+            label="Ibn Tibbon"
+          />
+        )}
       </div>
 
+      <div
+        className={
+          hasTibbon && showTibbon
+            ? "lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start"
+            : undefined
+        }
+      >
       <article className="mt-10 space-y-10">
         {data.pages.map((page) => (
           <section key={page.page_he}>
@@ -226,6 +247,30 @@ export function AdvancedReader({
           </section>
         ))}
       </article>
+        {hasTibbon && showTibbon && (
+          <aside className="mt-10">
+            <div className="rounded-md bg-page border border-ink/10 p-7">
+              <h2 className="text-[10px] uppercase tracking-[0.3em] text-muted mb-4 pb-1 border-b border-ink/10">
+                Ibn Tibbon · Hebrew{" "}
+                <span className="normal-case tracking-normal text-ink/40">
+                  (public domain, via Sefaria)
+                </span>
+              </h2>
+              <div
+                dir="rtl"
+                className="font-hebrew text-lg leading-loose text-ink/90 space-y-3"
+              >
+                {tibbon!.map((s, i) => (
+                  <p key={i}>{s}</p>
+                ))}
+              </div>
+              <p className="mt-4 text-[10px] uppercase tracking-[0.25em] text-muted italic">
+                Chapter-level — not phrase-aligned to the original.
+              </p>
+            </div>
+          </aside>
+        )}
+      </div>
 
       {showEnglish && (
         <p className="mt-6 text-xs uppercase tracking-[0.25em] text-muted text-center italic">
@@ -258,6 +303,31 @@ function ChapterNav({ nav }: { nav: ReaderNav }) {
       <p className="text-[10px] uppercase tracking-[0.3em] text-muted mb-2">
         {nav.label}
       </p>
+      {nav.aux && nav.aux.length > 0 && (
+        <div className="flex flex-wrap gap-3 mb-3 text-sm">
+          {nav.aux.map((a) =>
+            a.external ? (
+              <a
+                key={a.href}
+                href={a.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-wine hover:underline underline-offset-2"
+              >
+                {a.title}
+              </a>
+            ) : (
+              <Link
+                key={a.href}
+                href={a.href}
+                className="text-wine hover:underline underline-offset-2"
+              >
+                {a.title}
+              </Link>
+            ),
+          )}
+        </div>
+      )}
       <div className="flex flex-wrap gap-2">
         {nav.chapters.map((c) =>
           c.n === nav.currentN ? (
