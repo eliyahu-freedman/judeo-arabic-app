@@ -1,0 +1,202 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 4 — Ra'oh, Habbeṭ, Ḥazoh (Verbs of Seeing)",
+  "section_ja": "אלג'ז אלאול · אלפצל אלראבע",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Another lexical chapter in the campaign against corporealism. The three Hebrew verbs of seeing — ra'oh, habbeṭ, ḥazoh — all first mean seeing with the eye, but each was 'borrowed' (istiʿāra) for apprehension by the intellect. So wherever Scripture speaks of God being 'seen,' 'looked upon,' or 'beheld,' it means intellectual apprehension, not ocular vision — for the eye grasps only a body, in a place, with its colors and shape. Hover a phrase to see its English light up; tap any word for a gloss; dotted words are key terms.",
+  "source": {
+    "edition": "Friedberg Judeo-Arabic Project (ja.genizah.org), resourceId 6",
+    "fjms_resource_id": "6",
+    "pages_he": ["18", "19"]
+  },
+  "terms": [
+    {
+      "id": "istiara",
+      "ja": "אסתעארה",
+      "ar": "استعارة",
+      "translit": "istiʿāra",
+      "gloss": "metaphorical borrowing (of a word for a new sense)",
+      "note": "The chapter's master concept: a word whose primary sense is sensory is 'borrowed' for an intellectual sense. Each verb of seeing first means ocular vision and is then transferred to intellectual apprehension; once you see the borrowing, every verse where God is 'seen' must be read as apprehension, not sight.",
+      "variants": ["אלאסתעארה", "ואסתעיר", "אסתעירת"]
+    },
+    {
+      "id": "idrak-aqli",
+      "ja": "אדראך עקלי",
+      "ar": "إدراك عقلي",
+      "translit": "idrāk ʿaqlī",
+      "gloss": "intellectual apprehension",
+      "note": "The borrowed (and, for God, the only admissible) sense of every seeing-verb. 'And my heart has seen much wisdom' is apprehension, not sight; so too every place Scripture 'sees' God.",
+      "variants": ["אדראך", "אלעקל", "לאדראך"]
+    },
+    {
+      "id": "ruyat-ayn",
+      "ja": "רויהֵ עין",
+      "ar": "رؤية عين",
+      "translit": "ruʾyat ʿayn",
+      "gloss": "seeing with the eye (ocular vision)",
+      "note": "The primary, literal sense of the three verbs — and precisely what is denied of God. The eye apprehends only a body in a place, with its accidents; God is not apprehended by any instrument.",
+      "variants": ["רויה", "רויהֵ"]
+    },
+    {
+      "id": "arad",
+      "ja": "אעראץ'",
+      "ar": "أعراض",
+      "translit": "aʿrāḍ",
+      "gloss": "accidents (color, shape, and the like)",
+      "note": "What the eye perceives of a body besides its bulk — its colors, shape, and so forth. Since these belong only to bodies, and God is no body, He cannot be an object of sight.",
+      "variants": ["אעראצ'ה"]
+    },
+    {
+      "id": "mara-nubuwwa",
+      "ja": "מראה הנבואה",
+      "translit": "marʾeh ha-nevu'ah",
+      "gloss": "a vision of prophecy (Hebrew מַרְאֵה הַנְּבוּאָה)",
+      "note": "Maimonides' frame for verses like 'look now toward heaven': what is 'seen' there happens within prophetic vision — an intellectual, not a bodily, event.",
+      "variants": ["במראה", "במחזה"]
+    },
+    {
+      "id": "idrak-qalb",
+      "ja": "אדראך אלקלב",
+      "ar": "إدراك القلب",
+      "translit": "idrāk al-qalb",
+      "gloss": "apprehension of the heart (mind)",
+      "note": "The borrowed sense of ḥazoh: the 'heart' as the seat of understanding, so that 'which he saw concerning Judah' and 'they beheld God' are acts of mind, not eye.",
+      "variants": ["אלקלב"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "18",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל אלראבע — ראה, הביט, חזה",
+          "en": "Part One · Chapter Four — Ra'oh, Habbeṭ, Ḥazoh",
+          "isHeader": true
+        },
+        {
+          "ja": "אעלם אן ראה והביט וחזה, ת'לת'הֵ הד'ה אלאלפאט' תקע עלי רויהֵ אלעין, ואסתעירת ת'לאת'תהא לאדראך אלעקל.",
+          "en": "Know that ra'oh, habbeṭ, and ḥazoh — these three words apply to seeing with the eye, and all three were borrowed for the apprehension of the intellect.",
+          "pairs": [
+            { "ja": "אעלם אן ראה והביט וחזה", "en": "Know that ra'oh, habbeṭ, and ḥazoh" },
+            { "ja": "ת'לת'הֵ הד'ה אלאלפאט' תקע עלי רויהֵ אלעין", "en": "these three words apply to seeing with the eye" },
+            { "ja": "ואסתעירת ת'לאת'תהא לאדראך אלעקל", "en": "and all three were borrowed for the apprehension of the intellect" }
+          ]
+        },
+        {
+          "ja": "אמא ד'לך פי ראה פמשהור ענד אלג'מהור. קאל וירא והנה באר בשדה, והד'ה רויהֵ עין; וקאל ולבי ראה הרבה חכמה ודעת, והד'א אדראך עקלי.",
+          "en": "As for this in the case of ra'oh, it is well known to the multitude. It says, 'and he looked, and behold, a well in the field' (Gen 29:2) — and this is seeing with the eye; and it says, 'and my heart has seen much wisdom and knowledge' (Eccl 1:16) — and this is intellectual apprehension.",
+          "pairs": [
+            { "ja": "אמא ד'לך פי ראה", "en": "As for this in the case of ra'oh" },
+            { "ja": "פמשהור ענד אלג'מהור", "en": "it is well known to the multitude" },
+            { "ja": "קאל וירא והנה באר בשדה", "en": "It says, 'and he looked, and behold, a well in the field'" },
+            { "ja": "והד'ה רויהֵ עין", "en": "and this is seeing with the eye" },
+            { "ja": "וקאל ולבי ראה הרבה חכמה ודעת", "en": "and it says, 'and my heart has seen much wisdom and knowledge'" },
+            { "ja": "והד'א אדראך עקלי", "en": "and this is intellectual apprehension" }
+          ]
+        },
+        {
+          "ja": "ובחסב הד'ה אלאסתעארה הו כל לשון ראיה ג'א פי אללה תעאלי, מת'ל קולה ראיתי את י״י, וירא אליו י״י, וירא אלהים כי טוב, הראני נא את כבודך, ויראו את אלהי ישראל. כל ד'לך אדראך עקלי, לא רויהֵ עין בוג'ה.",
+          "en": "It is in accordance with this borrowing that every expression of 'seeing' that occurs of God, may He be exalted, is to be taken — such as His saying, 'I saw the Lord' (Isa 6:1); 'and the Lord appeared unto him' (Gen 18:1); 'and God saw that it was good' (Gen 1:10); 'show me, I pray Thee, Thy glory' (Exod 33:18); 'and they saw the God of Israel' (Exod 24:10). All of that is intellectual apprehension, not seeing with the eye in any way.",
+          "pairs": [
+            { "ja": "ובחסב הד'ה אלאסתעארה", "en": "It is in accordance with this borrowing" },
+            { "ja": "הו כל לשון ראיה ג'א פי אללה תעאלי", "en": "that every expression of 'seeing' that occurs of God, may He be exalted, is to be taken" },
+            { "ja": "מת'ל קולה ראיתי את י״י", "en": "such as His saying, 'I saw the Lord'" },
+            { "ja": "וירא אליו י״י", "en": "and the Lord appeared unto him" },
+            { "ja": "וירא אלהים כי טוב", "en": "and God saw that it was good" },
+            { "ja": "הראני נא את כבודך", "en": "show me, I pray Thee, Thy glory" },
+            { "ja": "ויראו את אלהי ישראל", "en": "and they saw the God of Israel" },
+            { "ja": "כל ד'לך אדראך עקלי", "en": "All of that is intellectual apprehension" },
+            { "ja": "לא רויהֵ עין בוג'ה", "en": "not seeing with the eye in any way" }
+          ]
+        },
+        {
+          "ja": "אד' לא תדרך אלאעין אלא ג'סמא, ופי ג'הה, ובעץ' אעראצ'ה איצ'א, אעני אלואן אלג'סם ושכלה ונחוהא; וכד'לך הו תעאלי לא ידרך באלה, כמא סיבין.",
+          "en": "For the eyes apprehend nothing but a body — and one in a place, together with some of its accidents, I mean the colors of the body, its shape, and the like; and likewise He, may He be exalted, is not apprehended by an instrument, as will be shown.",
+          "pairs": [
+            { "ja": "אד' לא תדרך אלאעין אלא ג'סמא", "en": "For the eyes apprehend nothing but a body" },
+            { "ja": "ופי ג'הה", "en": "and one in a place" },
+            { "ja": "ובעץ' אעראצ'ה איצ'א", "en": "together with some of its accidents" },
+            { "ja": "אעני אלואן אלג'סם ושכלה ונחוהא", "en": "I mean the colors of the body, its shape, and the like" },
+            { "ja": "וכד'לך הו תעאלי לא ידרך באלה", "en": "and likewise He, may He be exalted, is not apprehended by an instrument" },
+            { "ja": "כמא סיבין", "en": "as will be shown" }
+          ]
+        },
+        {
+          "ja": "וכד'לך הביט יקע עלי אלאלתפאת באלעין ללשי: אל תביט אחריך, ותבט אשתו מאחריו, ונבט לארץ.",
+          "en": "Likewise habbeṭ applies to turning the eye toward a thing: 'look not behind thee' (Gen 19:17); 'and his wife looked back from behind him' (Gen 19:26); 'and he shall look unto the earth' (Isa 5:30).",
+          "pairs": [
+            { "ja": "וכד'לך הביט יקע עלי אלאלתפאת באלעין ללשי", "en": "Likewise habbeṭ applies to turning the eye toward a thing" },
+            { "ja": "אל תביט אחריך", "en": "look not behind thee" },
+            { "ja": "ותבט אשתו מאחריו", "en": "and his wife looked back from behind him" },
+            { "ja": "ונבט לארץ", "en": "and he shall look unto the earth" }
+          ]
+        },
+        {
+          "ja": "ואסתעיר אלי אלתפאת אלד'הן ואקבאלה עלי תאמל אלשי חתי ידרכה, והו קולה לא הביט און ביעקב, לאן אלאון לא ירי באלעין.",
+          "en": "And it was borrowed for the turning of the mind and its attending to the consideration of a thing until it apprehends it — and that is His saying, 'He has not beheld iniquity in Jacob' (Num 23:21), since iniquity is not seen with the eye.",
+          "pairs": [
+            { "ja": "ואסתעיר אלי אלתפאת אלד'הן ואקבאלה", "en": "And it was borrowed for the turning of the mind and its attending" },
+            { "ja": "עלי תאמל אלשי חתי ידרכה", "en": "to the consideration of a thing until it apprehends it" },
+            { "ja": "והו קולה לא הביט און ביעקב", "en": "and that is His saying, 'He has not beheld iniquity in Jacob'" },
+            { "ja": "לאן אלאון לא ירי באלעין", "en": "since iniquity is not seen with the eye" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "19",
+      "aligned": [
+        {
+          "ja": "וכד'לך קולה והביטו אחרי משה, קאלוא אלחכמים ז״ל אן פיה איצ'א הד'א אלמעני, ואנה אכ'באר ען כונהם יתעקבון אפעאלה ואקואלה ויתאמלונהא.",
+          "en": "Likewise His saying, 'and they looked after Moses' (Exod 33:8): the Sages, of blessed memory, said that this meaning, too, is in it — that it is a report of their scrutinizing his deeds and his words and reflecting upon them.",
+          "pairs": [
+            { "ja": "וכד'לך קולה והביטו אחרי משה", "en": "Likewise His saying, 'and they looked after Moses'" },
+            { "ja": "קאלוא אלחכמים ז״ל אן פיה איצ'א הד'א אלמעני", "en": "the Sages, of blessed memory, said that this meaning, too, is in it" },
+            { "ja": "ואנה אכ'באר ען כונהם יתעקבון אפעאלה ואקואלה", "en": "that it is a report of their scrutinizing his deeds and his words" },
+            { "ja": "ויתאמלונהא", "en": "and reflecting upon them" }
+          ]
+        },
+        {
+          "ja": "ומן הד'א אלמעני קולה הבט נא השמימה, לאן ד'לך כאן במראה הנבואה.",
+          "en": "And of this meaning is His saying, 'look now toward heaven' (Gen 15:5), for that took place in a vision of prophecy.",
+          "pairs": [
+            { "ja": "ומן הד'א אלמעני קולה הבט נא השמימה", "en": "And of this meaning is His saying, 'look now toward heaven'" },
+            { "ja": "לאן ד'לך כאן במראה הנבואה", "en": "for that took place in a vision of prophecy" }
+          ]
+        },
+        {
+          "ja": "ועלי הד'ה אלאסתעארה הו כל לשון הבטה ג'את פי אללה תעאלי: מהביט אל האלהים, ותמונת י״י יביט, והביט אל עמל לא תוכל.",
+          "en": "It is in accordance with this borrowing that every expression of 'looking' that occurs of God, may He be exalted, is to be taken: 'from looking upon God' (Exod 3:6); 'and the form of the Lord does he behold' (Num 12:8); 'and Thou canst not look upon trouble' (Hab 1:13).",
+          "pairs": [
+            { "ja": "ועלי הד'ה אלאסתעארה", "en": "It is in accordance with this borrowing" },
+            { "ja": "הו כל לשון הבטה ג'את פי אללה תעאלי", "en": "that every expression of 'looking' that occurs of God, may He be exalted, is to be taken" },
+            { "ja": "מהביט אל האלהים", "en": "from looking upon God" },
+            { "ja": "ותמונת י״י יביט", "en": "and the form of the Lord does he behold" },
+            { "ja": "והביט אל עמל לא תוכל", "en": "and Thou canst not look upon trouble" }
+          ]
+        },
+        {
+          "ja": "וכד'לך חזה יקע עלי רויהֵ אלעין: ותחז בציון עינינו.",
+          "en": "Likewise ḥazoh applies to seeing with the eye: 'and let our eye gaze upon Zion' (Mic 4:11).",
+          "pairs": [
+            { "ja": "וכד'לך חזה יקע עלי רויהֵ אלעין", "en": "Likewise ḥazoh applies to seeing with the eye" },
+            { "ja": "ותחז בציון עינינו", "en": "and let our eye gaze upon Zion" }
+          ]
+        },
+        {
+          "ja": "ואסתעיר לאדראך אלקלב: אשר חזה על יהודה וירושלם, היה דבר י״י אל אברם במחזה. ועלי הד'ה אלאסתעארה קיל ויחזו את האלהים. פאעלם ד'לך.",
+          "en": "And it was borrowed for the apprehension of the heart: 'which he saw concerning Judah and Jerusalem' (Isa 1:1); 'the word of the Lord came unto Abram in a vision' (Gen 15:1). It is in accordance with this borrowing that it is said, 'and they beheld God' (Exod 24:11). So understand this.",
+          "pairs": [
+            { "ja": "ואסתעיר לאדראך אלקלב", "en": "And it was borrowed for the apprehension of the heart" },
+            { "ja": "אשר חזה על יהודה וירושלם", "en": "which he saw concerning Judah and Jerusalem" },
+            { "ja": "היה דבר י״י אל אברם במחזה", "en": "the word of the Lord came unto Abram in a vision" },
+            { "ja": "ועלי הד'ה אלאסתעארה קיל ויחזו את האלהים", "en": "It is in accordance with this borrowing that it is said, 'and they beheld God'" },
+            { "ja": "פאעלם ד'לך", "en": "So understand this" }
+          ]
+        }
+      ]
+    }
+  ]
+}

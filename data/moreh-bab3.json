@@ -1,0 +1,162 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 3 — Temunah and Tavnit",
+  "section_ja": "אלג'ז אלאול · אלפצל אלת'אלת'",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "A short lexical chapter. Many assume that temunah and tavnit are synonyms. Maimonides separates them: tavnit, from banah ('to build'), always means a thing's built shape — square, round, triangular — and Scripture pointedly never uses it of God. Temunah, by contrast, is amphibolous (tashkīk): it is said of a sensible shape, of an imagined form, and — its third and highest sense — of the true intelligible notion apprehended by intellect. Only in that third sense is it ever predicated of God. Hover a phrase to see its English light up; tap any word for a gloss; dotted words are key terms.",
+  "source": {
+    "edition": "Friedberg Judeo-Arabic Project (ja.genizah.org), resourceId 6",
+    "fjms_resource_id": "6",
+    "pages_he": ["17", "18"]
+  },
+  "terms": [
+    {
+      "id": "temunah",
+      "ja": "תמונה",
+      "ar": "تمونة",
+      "translit": "temunah",
+      "gloss": "form (Hebrew תְּמוּנָה) — an amphibolous term",
+      "note": "The chapter's pivot. Temunah is said by tashkīk (amphiboly) of three things: (1) the sensible shape of a body, (2) the form held in the imagination after a thing is gone from the senses, and (3) the true intelligible notion grasped by intellect. Only this third sense is ever applied to God — 'and the form (temunat) of the Lord does he behold.'",
+      "variants": ["תמונת", "ותמונת"]
+    },
+    {
+      "id": "tavnit",
+      "ja": "תבנית",
+      "ar": "تبنيت",
+      "translit": "tavnit",
+      "gloss": "pattern, built configuration (Hebrew תַּבְנִית)",
+      "note": "Derived from banah, 'to build.' It denotes only a thing's built shape — the pattern of the Tabernacle, the form of a bird or a hand. Precisely because it means shape, Scripture never applies it to God in any description.",
+      "variants": ["תבניתם", "כתבניתם"]
+    },
+    {
+      "id": "tashkik",
+      "ja": "תשכיך",
+      "ar": "تشكيك",
+      "translit": "tashkīk",
+      "gloss": "amphiboly — predication by gradation, not pure homonymy",
+      "note": "A single term applied to several things in a primary and derivative way (cf. the mushakkak of chapter 1). Temunah is such a word: said primarily of intelligible form, and only derivatively of sensible or imagined shape — which is why its highest sense can be used of God.",
+      "variants": ["בתשכיך"]
+    },
+    {
+      "id": "sura-khayaliyya",
+      "ja": "אלצורה אלכ'יאליה",
+      "ar": "الصورة الخيالية",
+      "translit": "al-ṣūra al-khayāliyya",
+      "gloss": "the imagined form (present in the imagination)",
+      "note": "The second sense of temunah: the residual image of a thing that the imagination retains once the thing itself is absent from the senses — as in a dream, 'a form was before my eyes,' i.e. an image facing the eyes in sleep.",
+      "variants": ["אלכ'יאליה", "אלכ'יאל"]
+    },
+    {
+      "id": "maana-haqiqi",
+      "ja": "אלמעני אלחקיקי",
+      "ar": "المعنى الحقيقي",
+      "translit": "al-maʿnā al-ḥaqīqī",
+      "gloss": "the true notion (apprehended by the intellect)",
+      "note": "The third and highest sense of temunah, and the only one used of God: not a shape of any kind but the true reality grasped by intellect. 'The form of the Lord does he behold' means 'the true reality of God he apprehends.'",
+      "variants": ["אלחקיקי", "אלמדרך"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "17",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל אלת'אלת' — תמונה ותבנית",
+          "en": "Part One · Chapter Three — Temunah and Tavnit",
+          "isHeader": true
+        },
+        {
+          "ja": "יט'ן אן מעני תמונה ותבנית פי אללגה אלעבראניה ואחד, וליס כד'לך.",
+          "en": "It is supposed that temunah and tavnit have one and the same meaning in the Hebrew language; but it is not so.",
+          "pairs": [
+            { "ja": "יט'ן אן מעני תמונה ותבנית", "en": "It is supposed that temunah and tavnit" },
+            { "ja": "פי אללגה אלעבראניה ואחד", "en": "have one and the same meaning in the Hebrew language" },
+            { "ja": "וליס כד'לך", "en": "but it is not so" }
+          ]
+        },
+        {
+          "ja": "וד'לך אן תבנית הו אסם משתק מן בנה, ומענאה בניהֵ אלשי והיאתה, אעני שכלה, מת'ל אלתרביע ואלתדויר ואלתת'לית' וגירהא מן אלאשכאל.",
+          "en": "For tavnit is a noun derived from banah ('to build'), and its meaning is the building of a thing and its configuration — I mean its shape — such as being square, round, triangular, and the other figures.",
+          "pairs": [
+            { "ja": "וד'לך אן תבנית הו אסם משתק מן בנה", "en": "For tavnit is a noun derived from banah ('to build')" },
+            { "ja": "ומענאה בניהֵ אלשי והיאתה", "en": "and its meaning is the building of a thing and its configuration" },
+            { "ja": "אעני שכלה", "en": "I mean its shape" },
+            { "ja": "מת'ל אלתרביע ואלתדויר ואלתת'לית'", "en": "such as being square, round, triangular" },
+            { "ja": "וגירהא מן אלאשכאל", "en": "and the other figures" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "18",
+      "aligned": [
+        {
+          "ja": "קאל את תבנית המשכן ואת תבנית כל כליו, וקאל כתבניתם אשר אתה מראה בהר, תבנית כל צפור, תבנית יד, תבנית האולם. כל הד'א שכל.",
+          "en": "It says, 'the pattern of the tabernacle and the pattern of all its vessels' (Exod 25:9); and it says, 'after their pattern, which thou wast shown on the mount' (Exod 25:40); 'the form of any bird' (Deut 4:17); 'the form of a hand' (Ezek 8:3); 'the pattern of the porch' (1 Chr 28:11). All of this is shape.",
+          "pairs": [
+            { "ja": "קאל את תבנית המשכן ואת תבנית כל כליו", "en": "It says, 'the pattern of the tabernacle and the pattern of all its vessels'" },
+            { "ja": "וקאל כתבניתם אשר אתה מראה בהר", "en": "and it says, 'after their pattern, which thou wast shown on the mount'" },
+            { "ja": "תבנית כל צפור", "en": "the form of any bird" },
+            { "ja": "תבנית יד", "en": "the form of a hand" },
+            { "ja": "תבנית האולם", "en": "the pattern of the porch" },
+            { "ja": "כל הד'א שכל", "en": "All of this is shape" }
+          ]
+        },
+        {
+          "ja": "ולד'לך לם תוקע אלעבראניה הד'ה אלאלפאט' פי אוצאף תתעלק באלאלאה בוג'ה.",
+          "en": "And therefore the Hebrew language never applies these words to any descriptions pertaining to God in any way.",
+          "pairs": [
+            { "ja": "ולד'לך לם תוקע אלעבראניה הד'ה אלאלפאט'", "en": "And therefore the Hebrew language never applies these words" },
+            { "ja": "פי אוצאף תתעלק באלאלאה בוג'ה", "en": "to any descriptions pertaining to God in any way" }
+          ]
+        },
+        {
+          "ja": "אמא תמונה פאנה אסם יקאל עלי ת'לת'ה מעאני בתשכיך.",
+          "en": "As for temunah, it is a noun said of three meanings by way of amphiboly (tashkīk).",
+          "pairs": [
+            { "ja": "אמא תמונה", "en": "As for temunah" },
+            { "ja": "פאנה אסם יקאל עלי ת'לת'ה מעאני", "en": "it is a noun said of three meanings" },
+            { "ja": "בתשכיך", "en": "by way of amphiboly (tashkīk)" }
+          ]
+        },
+        {
+          "ja": "וד'לך אנה יקאל עלי צורהֵ אלשי אלמדרכה באלחואס כ'ארג' אלד'הן, אעני שכלה ותכ'טיטה, והו קולה ועשיתם פסל תמונת כל וכו', כי לא ראיתם כל תמונה.",
+          "en": "Namely: it is said of the form of a thing perceived by the senses outside the mind — I mean its shape and outline — and that is His saying, 'and you make a graven image, the form of anything' (Deut 4:16), and so forth, 'for you saw no form' (Deut 4:15).",
+          "pairs": [
+            { "ja": "וד'לך אנה יקאל עלי צורהֵ אלשי", "en": "Namely: it is said of the form of a thing" },
+            { "ja": "אלמדרכה באלחואס כ'ארג' אלד'הן", "en": "perceived by the senses outside the mind" },
+            { "ja": "אעני שכלה ותכ'טיטה", "en": "I mean its shape and outline" },
+            { "ja": "והו קולה ועשיתם פסל תמונת כל", "en": "and that is His saying, 'and you make a graven image, the form of anything'" },
+            { "ja": "כי לא ראיתם כל תמונה", "en": "for you saw no form" }
+          ]
+        },
+        {
+          "ja": "ויקאל עלי אלצורה אלכ'יאליה אלמוג'ודה פי אלכ'יאל מן אלשכ'ץ בעד גיבתה ען אלחואס, והו קולה בשעפים מחזיונות לילה וכו', ואכ'ר אלקול: יעמד ולא אכיר מראהו, תמונה לנגד עיני, יעני כ'יאלא בחד'א עיני פי אלנום.",
+          "en": "And it is said of the imagined form present in the imagination — that of a person after he has gone from the senses — and that is His saying, 'in thoughts from the visions of the night' (Job 4:13), and so forth, and the end of the passage: 'it stood still, but I could not discern its appearance; a form was before my eyes' (Job 4:16) — meaning an image facing my eyes in sleep.",
+          "pairs": [
+            { "ja": "ויקאל עלי אלצורה אלכ'יאליה", "en": "And it is said of the imagined form" },
+            { "ja": "אלמוג'ודה פי אלכ'יאל מן אלשכ'ץ בעד גיבתה ען אלחואס", "en": "present in the imagination — that of a person after he has gone from the senses" },
+            { "ja": "והו קולה בשעפים מחזיונות לילה", "en": "and that is His saying, 'in thoughts from the visions of the night'" },
+            { "ja": "ואכ'ר אלקול", "en": "and the end of the passage" },
+            { "ja": "יעמד ולא אכיר מראהו, תמונה לנגד עיני", "en": "it stood still, but I could not discern its appearance; a form was before my eyes" },
+            { "ja": "יעני כ'יאלא בחד'א עיני פי אלנום", "en": "meaning an image facing my eyes in sleep" }
+          ]
+        },
+        {
+          "ja": "ויקאל עלי אלמעני אלחקיקי אלמדרך באלעקל. ובחסב הד'א אלמעני אלת'אלת' יקאל פיה תעאלי תמונה, קאל ותמונת י״י יביט, מענאה ושרחה: וחקיקהֵ אללה ידרך.",
+          "en": "And it is said of the true notion apprehended by the intellect. It is according to this third meaning that temunah is predicated of Him, may He be exalted: it says, 'and the form of the Lord does he behold' (Num 12:8) — its meaning and explanation being: and the true reality of God he apprehends.",
+          "pairs": [
+            { "ja": "ויקאל עלי אלמעני אלחקיקי אלמדרך באלעקל", "en": "And it is said of the true notion apprehended by the intellect" },
+            { "ja": "ובחסב הד'א אלמעני אלת'אלת'", "en": "It is according to this third meaning" },
+            { "ja": "יקאל פיה תעאלי תמונה", "en": "that temunah is predicated of Him, may He be exalted" },
+            { "ja": "קאל ותמונת י״י יביט", "en": "it says, 'and the form of the Lord does he behold'" },
+            { "ja": "מענאה ושרחה", "en": "its meaning and explanation being" },
+            { "ja": "וחקיקהֵ אללה ידרך", "en": "and the true reality of God he apprehends" }
+          ]
+        }
+      ]
+    }
+  ]
+}

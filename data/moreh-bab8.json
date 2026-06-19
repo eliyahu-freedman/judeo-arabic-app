@@ -1,0 +1,153 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 8 — Makom (Place)",
+  "section_ja": "אלג'ז אלאול · אלפצל אלת'אמן",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Makom first means physical 'place,' but the language broadened it to mean a person's rank or standing ('filling the place of his fathers'). So wherever Scripture speaks of God's 'place' — 'Blessed be the glory of the Lord from His place' — it means the rank of His existence, which has no equal. Maimonides then states the method of the whole treatise: when he explains an equivocal noun, he opens 'a gateway,' alerting the reader to the senses useful for his purpose, not writing a lexicon. Hover a phrase to see its English light up; tap any word for a gloss; dotted words are key terms.",
+  "source": {
+    "edition": "Friedberg Judeo-Arabic Project (ja.genizah.org), resourceId 6",
+    "fjms_resource_id": "6",
+    "pages_he": ["22", "23"]
+  },
+  "terms": [
+    {
+      "id": "makom",
+      "ja": "מקום",
+      "translit": "makom",
+      "gloss": "place (Hebrew מָקוֹם); by extension, rank/standing",
+      "note": "Primary sense: physical place. Extended sense: a person's rank or degree of eminence ('filling the place of his fathers in wisdom'). Of God it always denotes the rank of His existence, never a location.",
+      "variants": ["מקומו", "במקומה", "במקום", "ממקומו"]
+    },
+    {
+      "id": "martaba",
+      "ja": "מרתבה",
+      "ar": "مرتبة",
+      "translit": "martaba",
+      "gloss": "rank, standing, degree (of being)",
+      "note": "The figurative sense Maimonides assigns to makom when used of God: 'the rank of His existence, which has no equal or likeness.' Not a spatial position but a degree in the order of being.",
+      "variants": ["מרתבהֵ", "מרתבתה", "מרתבתהא"]
+    },
+    {
+      "id": "miftah",
+      "ja": "מפתאח",
+      "ar": "مفتاح",
+      "translit": "miftāḥ",
+      "gloss": "the key (to reading the treatise)",
+      "note": "Maimonides' stated method, declared here: in treating an equivocal noun he 'opens a gateway' and points only to the senses useful for his purpose, leaving the reader to apply the technique — assigning each equivocal noun to the sense its passage requires. This 'is the key to this treatise and to others.'",
+      "variants": []
+    },
+    {
+      "id": "ism-mushtarak-8",
+      "ja": "אסם משתרך",
+      "ar": "اسم مشترك",
+      "translit": "ism mushtarak",
+      "gloss": "an equivocal (homonymous) noun",
+      "note": "The recurring object of the lexical chapters: one word bearing several senses. The reader is to assign each occurrence the sense that befits its context.",
+      "variants": ["משתרך"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "22",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל אלת'אמן — מקום",
+          "en": "Part One · Chapter Eight — Makom",
+          "isHeader": true
+        },
+        {
+          "ja": "מקום. הד'א אלאסם אצל וצ'עה ללמכאן אלכ'אץ ואלעאם.",
+          "en": "Makom. The original imposition of this noun is for place, both particular and general.",
+          "pairs": [
+            { "ja": "מקום", "en": "Makom" },
+            { "ja": "הד'א אלאסם אצל וצ'עה", "en": "The original imposition of this noun" },
+            { "ja": "ללמכאן אלכ'אץ ואלעאם", "en": "is for place, both particular and general" }
+          ]
+        },
+        {
+          "ja": "ת'ם אן אללגה אתסעת פיה וג'עלתה אסמא למרתבהֵ אלשכ'ץ ומנזלתה, אעני לכמאלה פי אמר מא, חתי יקאל פלוני במקום פלוני פי אלאמר אלפלאני.",
+          "en": "Then the language broadened it and made it a noun for a person's rank and standing — I mean for his eminence in some matter — so that one says 'so-and-so is in the place of so-and-so' in such-and-such a matter.",
+          "pairs": [
+            { "ja": "ת'ם אן אללגה אתסעת פיה", "en": "Then the language broadened it" },
+            { "ja": "וג'עלתה אסמא למרתבהֵ אלשכ'ץ ומנזלתה", "en": "and made it a noun for a person's rank and standing" },
+            { "ja": "אעני לכמאלה פי אמר מא", "en": "I mean for his eminence in some matter" },
+            { "ja": "חתי יקאל פלוני במקום פלוני פי אלאמר אלפלאני", "en": "so that one says 'so-and-so is in the place of so-and-so' in such-and-such a matter" }
+          ]
+        },
+        {
+          "ja": "וקד עלמת כת'רהֵ אסתעמאל אהל אללגה ד'לך פי קולהם: ממלא מקום אבותיו, והיה ממלא מקום אבותיו בחכמה או ביראה. וקולהם: ועדין מחלוקת במקומה עומדת — יעני פי מרתבתהא.",
+          "en": "You know how often the masters of the language use it so, in their saying, 'filling the place of his fathers,' and 'he was filling the place of his fathers in wisdom or in fear [of God]'; and in their saying, 'and the dispute still stands in its place' — meaning in its rank.",
+          "pairs": [
+            { "ja": "וקד עלמת כת'רהֵ אסתעמאל אהל אללגה ד'לך", "en": "You know how often the masters of the language use it so" },
+            { "ja": "פי קולהם: ממלא מקום אבותיו", "en": "in their saying, 'filling the place of his fathers" },
+            { "ja": "והיה ממלא מקום אבותיו בחכמה או ביראה", "en": "and 'he was filling the place of his fathers in wisdom or in fear [of God]'" },
+            { "ja": "וקולהם: ועדין מחלוקת במקומה עומדת", "en": "and in their saying, 'and the dispute still stands in its place'" },
+            { "ja": "יעני פי מרתבתהא", "en": "meaning in its rank" }
+          ]
+        },
+        {
+          "ja": "ועלי הד'ה אלג'הה מן אלאסתעארה קיל ברוך כבוד י״י ממקומו — יעני בחסב מרתבתה ועט'ם חט'ה פי אלוג'וד.",
+          "en": "And in this manner of borrowing it was said, 'Blessed be the glory of the Lord from His place' (Ezek 3:12) — meaning according to His rank and the greatness of His portion in existence.",
+          "pairs": [
+            { "ja": "ועלי הד'ה אלג'הה מן אלאסתעארה", "en": "And in this manner of borrowing" },
+            { "ja": "קיל ברוך כבוד י״י ממקומו", "en": "it was said, 'Blessed be the glory of the Lord from His place'" },
+            { "ja": "יעני בחסב מרתבתה ועט'ם חט'ה פי אלוג'וד", "en": "meaning according to His rank and the greatness of His portion in existence" }
+          ]
+        },
+        {
+          "ja": "וכד'לך כל ד'כר מקום ג'א פי אללה, אנמא אלמראד בה מרתבהֵ וג'ודה תעאלי אלתי לא מת'ל להא ולא שביה, כמא סיתברהן.",
+          "en": "And likewise every mention of 'place' that comes regarding God — what is meant by it is the rank of His existence, may He be exalted, which has no equal or likeness, as will be demonstrated.",
+          "pairs": [
+            { "ja": "וכד'לך כל ד'כר מקום ג'א פי אללה", "en": "And likewise every mention of 'place' that comes regarding God" },
+            { "ja": "אנמא אלמראד בה מרתבהֵ וג'ודה תעאלי", "en": "what is meant by it is the rank of His existence, may He be exalted" },
+            { "ja": "אלתי לא מת'ל להא ולא שביה", "en": "which has no equal or likeness" },
+            { "ja": "כמא סיתברהן", "en": "as will be demonstrated" }
+          ]
+        },
+        {
+          "ja": "ואעלם אן כל אסם נבין לך אשתראכה פי הד'ה אלמקאלה, פליס אלגרץ' מנה אלתנביה עלי מא נד'כרה פי ד'לך אלפצל פקט, בל נחן נפתח באבא וננבהך עלי מעאני ד'לך אלאסם אלמפידה בחסב גרצ'נא, לא בחסב אגראץ' מן יתכלם פי לגהֵ אהל לסאן מא.",
+          "en": "Know that for every noun whose equivocity we explain to you in this treatise, the aim is not merely to draw your attention to what we mention in that chapter; rather we open a gateway and alert you to the senses of that noun useful for our purpose — not according to the aims of one who treats of the language of some people.",
+          "pairs": [
+            { "ja": "ואעלם אן כל אסם נבין לך אשתראכה פי הד'ה אלמקאלה", "en": "Know that for every noun whose equivocity we explain to you in this treatise" },
+            { "ja": "פליס אלגרץ' מנה אלתנביה עלי מא נד'כרה פי ד'לך אלפצל פקט", "en": "the aim is not merely to draw your attention to what we mention in that chapter" },
+            { "ja": "בל נחן נפתח באבא וננבהך עלי מעאני ד'לך אלאסם אלמפידה בחסב גרצ'נא", "en": "rather we open a gateway and alert you to the senses of that noun useful for our purpose" },
+            { "ja": "לא בחסב אגראץ' מן יתכלם פי לגהֵ אהל לסאן מא", "en": "not according to the aims of one who treats of the language of some people" }
+          ]
+        },
+        {
+          "ja": "ואנת תתאמל כתב אלנבוה וגירהא מן תואליף אהל אלעלם, ותעתבר אלאסמא אלמתצרפה פיהא כלהא, ותחמל כל אסם משתרך עלי מעני מן מעאניה אללאיק בה בחסב ד'לך אלקול.",
+          "en": "And you, for your part, reflect on the books of prophecy and the other works of the men of knowledge, consider all the nouns employed in them, and assign each equivocal noun to whichever of its senses befits it according to that passage.",
+          "pairs": [
+            { "ja": "ואנת תתאמל כתב אלנבוה", "en": "And you, for your part, reflect on the books of prophecy" },
+            { "ja": "וגירהא מן תואליף אהל אלעלם", "en": "and the other works of the men of knowledge" },
+            { "ja": "ותעתבר אלאסמא אלמתצרפה פיהא כלהא", "en": "consider all the nouns employed in them" },
+            { "ja": "ותחמל כל אסם משתרך עלי מעני מן מעאניה אללאיק בה בחסב ד'לך אלקול", "en": "and assign each equivocal noun to whichever of its senses befits it according to that passage" }
+          ]
+        },
+        {
+          "ja": "פהד'א אלכלאם מנא הו מפתאח הד'ה אלמקאלה וגירהא.",
+          "en": "This statement of ours is the key to this treatise and to others.",
+          "pairs": [
+            { "ja": "פהד'א אלכלאם מנא", "en": "This statement of ours" },
+            { "ja": "הו מפתאח הד'ה אלמקאלה וגירהא", "en": "is the key to this treatise and to others" }
+          ]
+        },
+        {
+          "ja": "מת'אל ד'לך מא בינאה הנא מן מעני מקום פי קולה ברוך כבוד י״י ממקומו, פאנך תעלם אן הד'א אלמעני בעינה הו מעני מקום פי קולה הנה מקום אתי — מרתבהֵ נט'ר ותטלע עקל, לא תטלע עין — מצ'אפא אלי אלמוצ'ע אלמשאר אליה מן אלג'בל אלד'י פיה וקע אלאנפראד וניל אלכמאל.",
+          "en": "An example of this is what we explained here of the sense of 'place' in 'Blessed be the glory of the Lord from His place': you will know that this very sense is the sense of 'place' in 'behold, there is a place by Me' (Exod 33:21) — a rank of speculation and an ascent of intellect, not an ascent of the eye — over and above the actual spot indicated, on the mountain where the seclusion and the attaining of perfection took place.",
+          "pairs": [
+            { "ja": "מת'אל ד'לך מא בינאה הנא מן מעני מקום", "en": "An example of this is what we explained here of the sense of 'place'" },
+            { "ja": "פי קולה ברוך כבוד י״י ממקומו", "en": "in 'Blessed be the glory of the Lord from His place'" },
+            { "ja": "פאנך תעלם אן הד'א אלמעני בעינה הו מעני מקום", "en": "you will know that this very sense is the sense of 'place'" },
+            { "ja": "פי קולה הנה מקום אתי", "en": "in 'behold, there is a place by Me'" },
+            { "ja": "מרתבהֵ נט'ר ותטלע עקל, לא תטלע עין", "en": "a rank of speculation and an ascent of intellect, not an ascent of the eye" },
+            { "ja": "מצ'אפא אלי אלמוצ'ע אלמשאר אליה מן אלג'בל", "en": "over and above the actual spot indicated, on the mountain" },
+            { "ja": "אלד'י פיה וקע אלאנפראד וניל אלכמאל", "en": "where the seclusion and the attaining of perfection took place" }
+          ]
+        }
+      ]
+    }
+  ]
+}

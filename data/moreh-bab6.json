@@ -1,0 +1,90 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 6 — Ish and Ishah (Man and Woman)",
+  "section_ja": "אלג'ז אלאול · אלפצל אלסאדס",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "A brief lexical note. Ish and ishah ('man' and 'woman') were first laid down for the human pair, then borrowed for the male and female of any animal, and further for any two things made to be coupled together — as the Tabernacle's curtains are joined 'one to another' (ishah el aḥotah). So too 'brother' and 'sister' are used by the same metaphorical extension. Hover a phrase to see its English light up; tap any word for a gloss; dotted words are key terms.",
+  "source": {
+    "edition": "Friedberg Judeo-Arabic Project (ja.genizah.org), resourceId 6",
+    "fjms_resource_id": "6",
+    "pages_he": ["21"]
+  },
+  "terms": [
+    {
+      "id": "ish-ishah",
+      "ja": "איש ואשה",
+      "translit": "ish / ishah",
+      "gloss": "man / woman (Hebrew אִישׁ / אִשָּׁה)",
+      "note": "Laid down first for the human male and female, then extended to the male and female of any animal ('the male and his mate'), and to any two things made to be joined — even Tabernacle curtains coupled 'one to another.'",
+      "variants": ["איש", "אשה", "ואשתו"]
+    },
+    {
+      "id": "istiara-6",
+      "ja": "אסתעארה",
+      "ar": "استعارة",
+      "translit": "istiʿāra",
+      "gloss": "metaphorical borrowing (of a word for a further sense)",
+      "note": "The mechanism throughout these chapters: a word's primary sense is 'borrowed' for related senses. Here ish/ishah travel from the human couple to animals to any coupled pair.",
+      "variants": ["אסתעירא", "אסתעיר", "אלאסתעארה"]
+    },
+    {
+      "id": "ah-ahot",
+      "ja": "אחות ואח",
+      "translit": "aḥot / aḥ",
+      "gloss": "sister / brother (Hebrew אָחוֹת / אָח)",
+      "note": "Maimonides notes that 'brother' and 'sister,' like ish and ishah, are equivocal by the same metaphorical extension — used of things paired or matched, not only of siblings.",
+      "variants": ["אחותה"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "21",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל אלסאדס — איש ואשה",
+          "en": "Part One · Chapter Six — Ish and Ishah",
+          "isHeader": true
+        },
+        {
+          "ja": "איש ואשה אסמאן מוצ'ועאן אולא ללרג'ל ואלאמראה, ת'ם אסתעירא לכל ד'כר ואנת'י מן סאיר אנואע אלחיואן.",
+          "en": "Ish and ishah are nouns laid down first for the man and the woman, then borrowed for every male and female of the other kinds of animal.",
+          "pairs": [
+            { "ja": "איש ואשה אסמאן מוצ'ועאן אולא", "en": "Ish and ishah are nouns laid down first" },
+            { "ja": "ללרג'ל ואלאמראה", "en": "for the man and the woman" },
+            { "ja": "ת'ם אסתעירא לכל ד'כר ואנת'י", "en": "then borrowed for every male and female" },
+            { "ja": "מן סאיר אנואע אלחיואן", "en": "of the other kinds of animal" }
+          ]
+        },
+        {
+          "ja": "קאל מכל הבהמה הטהורה תקח לך שבעה שבעה איש ואשתו, כאנה קאל זכר ונקבה.",
+          "en": "It says, 'of every clean beast thou shalt take to thee seven and seven, the male and his mate' (Gen 7:2) — as if it had said, male and female.",
+          "pairs": [
+            { "ja": "קאל מכל הבהמה הטהורה תקח לך שבעה שבעה איש ואשתו", "en": "It says, 'of every clean beast thou shalt take to thee seven and seven, the male and his mate'" },
+            { "ja": "כאנה קאל זכר ונקבה", "en": "as if it had said, male and female" }
+          ]
+        },
+        {
+          "ja": "ת'ם אסתעיר אסם אשה לכל קצה מהיאה מעדה למקארנהֵ קצה אכ'רי. קאל חמש היריעות תהיינה חוברות אשה אל אחותה.",
+          "en": "Then the noun ishah was borrowed for any thing prepared and made ready to be coupled with another thing. It says, 'the five curtains shall be joined together, one to another' (Exod 26:3).",
+          "pairs": [
+            { "ja": "ת'ם אסתעיר אסם אשה", "en": "Then the noun ishah was borrowed" },
+            { "ja": "לכל קצה מהיאה מעדה למקארנהֵ קצה אכ'רי", "en": "for any thing prepared and made ready to be coupled with another thing" },
+            { "ja": "קאל חמש היריעות תהיינה חוברות אשה אל אחותה", "en": "It says, 'the five curtains shall be joined together, one to another'" }
+          ]
+        },
+        {
+          "ja": "פקד תבין לך אן אחות ואח איצ'א יקאל באשתראך מן ג'ההֵ אלאסתעארה, מת'ל איש ואשה.",
+          "en": "So it has become clear to you that aḥot ('sister') and aḥ ('brother') too are said equivocally, by way of borrowing, just like ish and ishah.",
+          "pairs": [
+            { "ja": "פקד תבין לך", "en": "So it has become clear to you" },
+            { "ja": "אן אחות ואח איצ'א יקאל באשתראך", "en": "that aḥot ('sister') and aḥ ('brother') too are said equivocally" },
+            { "ja": "מן ג'ההֵ אלאסתעארה", "en": "by way of borrowing" },
+            { "ja": "מת'ל איש ואשה", "en": "just like ish and ishah" }
+          ]
+        }
+      ]
+    }
+  ]
+}

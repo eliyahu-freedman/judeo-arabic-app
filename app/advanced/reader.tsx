@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useMemo, useRef, useState } from "react";
+import Link from "next/link";
 import { lookup, tokenizeJa, type Entry } from "@/lib/lookup";
 import { lookupWorkNote, type WorkNote } from "@/lib/workNotes";
 import { arabicToJa } from "@/lib/arabicToJa";
@@ -69,7 +70,27 @@ export type WorkData = {
 /** Which segment+group is currently hovered, scoped by a per-segment key. */
 type HoveredGroup = { segId: string; groupId: number };
 
-export function AdvancedReader({ data }: { data: WorkData }) {
+/**
+ * Optional multi-chapter navigation. When present, the reader renders an inline
+ * chapter index (one chip per chapter, current highlighted) plus a prev/next
+ * strip. Generic so any multi-part work can supply it; see
+ * `app/advanced/rambam-moreh-nevukhim/chapters.ts`.
+ */
+export type ReaderNav = {
+  /** Short series label, e.g. "Guide of the Perplexed · Part I". */
+  label: string;
+  /** Ordered chapters; `n` matches `currentN` to mark the active one. */
+  chapters: { n: number; title: string; href: string }[];
+  currentN: number;
+};
+
+export function AdvancedReader({
+  data,
+  nav,
+}: {
+  data: WorkData;
+  nav?: ReaderNav;
+}) {
   const [showEnglish, setShowEnglish] = useState(true);
   const [activeToken, setActiveToken] = useState<string | null>(null);
   const [hoveredGroup, setHoveredGroup] = useState<HoveredGroup | null>(null);
@@ -123,6 +144,8 @@ export function AdvancedReader({ data }: { data: WorkData }) {
             `${data.work} in the original Judeo-Arabic, with a working English translation by ${data.english_translator}. Hover a phrase to see its English light up; tap any word for a gloss.`}
         </p>
       </header>
+
+      {nav && <ChapterNav nav={nav} />}
 
       <div className="sticky top-0 z-10 bg-parchment/90 backdrop-blur supports-[backdrop-filter]:bg-parchment/70 -mx-6 px-6 py-3 border-y border-ink/10 flex flex-wrap items-center gap-2 text-sm">
         <span className="text-[10px] uppercase tracking-[0.25em] text-muted mr-1">
@@ -221,6 +244,60 @@ export function AdvancedReader({ data }: { data: WorkData }) {
         />
       )}
     </div>
+  );
+}
+
+/** Inline chapter index + prev/next strip for multi-chapter works. */
+function ChapterNav({ nav }: { nav: ReaderNav }) {
+  const idx = nav.chapters.findIndex((c) => c.n === nav.currentN);
+  const prev = idx > 0 ? nav.chapters[idx - 1] : null;
+  const next =
+    idx >= 0 && idx < nav.chapters.length - 1 ? nav.chapters[idx + 1] : null;
+  return (
+    <nav className="mb-10" aria-label="Chapters">
+      <p className="text-[10px] uppercase tracking-[0.3em] text-muted mb-2">
+        {nav.label}
+      </p>
+      <div className="flex flex-wrap gap-2">
+        {nav.chapters.map((c) =>
+          c.n === nav.currentN ? (
+            <span
+              key={c.n}
+              aria-current="page"
+              className="rounded-full px-3 py-1 text-sm bg-wine-100 text-wine-700 border border-wine-200"
+            >
+              {c.title}
+            </span>
+          ) : (
+            <Link
+              key={c.n}
+              href={c.href}
+              className="rounded-full px-3 py-1 text-sm border border-ink/15 text-ink/70 hover:border-wine/40 hover:text-wine transition-colors"
+            >
+              {c.title}
+            </Link>
+          ),
+        )}
+      </div>
+      {(prev || next) && (
+        <div className="mt-3 flex justify-between gap-4 text-sm">
+          {prev ? (
+            <Link href={prev.href} className="text-wine hover:underline">
+              ← {prev.title}
+            </Link>
+          ) : (
+            <span />
+          )}
+          {next ? (
+            <Link href={next.href} className="text-wine hover:underline">
+              {next.title} →
+            </Link>
+          ) : (
+            <span />
+          )}
+        </div>
+      )}
+    </nav>
   );
 }
 

@@ -1,0 +1,90 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 14 — Adam (Man)",
+  "section_ja": "אלג'ז אלאול · אלפצל אלראבע עשר",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "A short note on the noun adam, which is used in three ways: as the proper name of the first man (derived from adamah, 'earth'); as the name of the human species ('My spirit shall not abide in man'); and as a name for the common people, as opposed to the elite ('both the sons of adam and the sons of ish'). Hover a phrase to see its English light up; tap any word for a gloss; dotted words are key terms.",
+  "source": {
+    "edition": "Friedberg Judeo-Arabic Project (ja.genizah.org), resourceId 6",
+    "fjms_resource_id": "6",
+    "pages_he": ["27"]
+  },
+  "terms": [
+    {
+      "id": "adam-term",
+      "ja": "אדם",
+      "translit": "adam",
+      "gloss": "man / Adam (Hebrew אָדָם)",
+      "note": "Three senses: (1) the proper name of the first man, derived from adamah ('earth'); (2) the human species; (3) the common people, set against b'nei ish, the elite.",
+      "variants": ["האדם", "כאדם", "באדם"]
+    },
+    {
+      "id": "adamah",
+      "ja": "אדמה",
+      "translit": "adamah",
+      "gloss": "earth, ground (Hebrew אֲדָמָה)",
+      "note": "The text itself derives the name Adam from adamah, the earth from which he was formed — the etymology behind the proper-name sense.",
+      "variants": []
+    },
+    {
+      "id": "amma-khassa",
+      "ja": "אלעאמה דון אלכ'אצה",
+      "ar": "العامة دون الخاصة",
+      "translit": "al-ʿāmma / al-khāṣṣa",
+      "gloss": "the common people as opposed to the elite",
+      "note": "The third sense of adam: the multitude, distinguished from b'nei ish, 'the sons of ish' — the elite. The contrast 'both the sons of adam and the sons of ish' turns on this.",
+      "variants": []
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "27",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל אלראבע עשר — אדם",
+          "en": "Part One · Chapter Fourteen — Adam",
+          "isHeader": true
+        },
+        {
+          "ja": "אשתראך אדם. הוא אסם אדם הראשון, משתק כמא ג'א אלנץ אנה משתק מן אדמה.",
+          "en": "The equivocity of adam. It is the name of Adam the first man, derived — as the text states that it is derived — from adamah ('earth').",
+          "pairs": [
+            { "ja": "אשתראך אדם", "en": "The equivocity of adam" },
+            { "ja": "הוא אסם אדם הראשון", "en": "It is the name of Adam the first man" },
+            { "ja": "משתק כמא ג'א אלנץ אנה משתק מן אדמה", "en": "derived — as the text states that it is derived — from adamah ('earth')" }
+          ]
+        },
+        {
+          "ja": "ויכון אסם אלנוע: לא ידון רוחי באדם, מי יודע רוח בני האדם, ומותר האדם מן הבהמה אין.",
+          "en": "And it is the name of the species: 'My spirit shall not abide in man' (Gen 6:3); 'who knows the spirit of the sons of man' (Eccl 3:21); 'and the pre-eminence of man over beast is naught' (Eccl 3:19).",
+          "pairs": [
+            { "ja": "ויכון אסם אלנוע", "en": "And it is the name of the species" },
+            { "ja": "לא ידון רוחי באדם", "en": "My spirit shall not abide in man" },
+            { "ja": "מי יודע רוח בני האדם", "en": "who knows the spirit of the sons of man" },
+            { "ja": "ומותר האדם מן הבהמה אין", "en": "and the pre-eminence of man over beast is naught" }
+          ]
+        },
+        {
+          "ja": "ויכון אסמא ללג'מהור, אעני ללעאמה דון אלכ'אצה: גם בני אדם גם בני איש.",
+          "en": "And it is a name for the multitude — I mean for the common people as opposed to the elite: 'both the sons of adam and the sons of ish' (Ps 49:3).",
+          "pairs": [
+            { "ja": "ויכון אסמא ללג'מהור", "en": "And it is a name for the multitude" },
+            { "ja": "אעני ללעאמה דון אלכ'אצה", "en": "I mean for the common people as opposed to the elite" },
+            { "ja": "גם בני אדם גם בני איש", "en": "both the sons of adam and the sons of ish" }
+          ]
+        },
+        {
+          "ja": "ומן הד'א אלמעני אלת'אלת': ויראו בני האלהים את בנות האדם, אכן כאדם תמותון.",
+          "en": "And of this third sense: 'and the sons of God saw the daughters of man' (Gen 6:2); 'surely you shall die like adam' (Ps 82:7).",
+          "pairs": [
+            { "ja": "ומן הד'א אלמעני אלת'אלת'", "en": "And of this third sense" },
+            { "ja": "ויראו בני האלהים את בנות האדם", "en": "and the sons of God saw the daughters of man" },
+            { "ja": "אכן כאדם תמותון", "en": "surely you shall die like adam" }
+          ]
+        }
+      ]
+    }
+  ]
+}

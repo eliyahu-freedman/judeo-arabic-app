@@ -35,7 +35,7 @@ const library: LibraryEntry[] = [
     author: "Moses Maimonides",
     title: "Dalālat al-Ḥā'irīn — Moreh Nevukhim",
     blurb:
-      "The opening chapter of Rambam's Guide of the Perplexed in its 12th-century Judeo-Arabic original: why 'image and likeness' (tzelem u-demut) do not mean God has a body. With a working English translation, phrase-by-phrase hover highlighting, and notes on key terms.",
+      "The opening of Rambam's Guide of the Perplexed in its 12th-century Judeo-Arabic original (Part I, chapters 1–14): from 'image and likeness' and Adam's sin through the equivocal terms of place, throne, ascent, sitting, and standing by which Scripture speaks of God. With a working English translation, phrase-by-phrase hover highlighting, and notes on key terms.",
     sample: "דלאלה אלחאירין",
   },
   {

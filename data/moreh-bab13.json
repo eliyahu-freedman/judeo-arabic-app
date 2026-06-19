@@ -1,0 +1,110 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 13 — ʿAmidah (Standing)",
+  "section_ja": "אלג'ז אלאול · אלפצל אלת'אלת' עשר",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "ʿAmidah ('standing') bears three senses: standing up or still; desisting and ceasing ('she ceased from bearing'); and enduring and abiding ('his righteousness endures forever'). Of God only the last applies — 'His feet shall stand on the Mount of Olives' means His causes shall be made firm. The literal sense is reserved for the cross-reference on regel ('foot'). Hover a phrase to see its English light up; tap any word for a gloss; dotted words are key terms.",
+  "source": {
+    "edition": "Friedberg Judeo-Arabic Project (ja.genizah.org), resourceId 6",
+    "fjms_resource_id": "6",
+    "pages_he": ["26", "27"]
+  },
+  "terms": [
+    {
+      "id": "amidah",
+      "ja": "עמידה",
+      "translit": "ʿamidah",
+      "gloss": "standing (Hebrew עֲמִידָה); also: ceasing; enduring",
+      "note": "Equivocal across three senses: (1) standing up or still, (2) desisting/ceasing, (3) enduring/abiding. Of God only the third applies.",
+      "variants": ["עמד", "יעמד", "עומד", "עמדו", "עמוד", "עומדת"]
+    },
+    {
+      "id": "baqa",
+      "ja": "אלת'באת ואלבקא",
+      "ar": "الثبات والبقاء",
+      "translit": "al-thabāt wa-l-baqāʾ",
+      "gloss": "endurance and abiding",
+      "note": "The sense in which 'standing' is used of God: that which 'remained and abided and did not change.' 'His feet shall stand' means His causes (i.e. His effects) are made firm.",
+      "variants": ["אלבקא", "באקיה"]
+    },
+    {
+      "id": "regel-ref",
+      "ja": "רגל",
+      "translit": "regel",
+      "gloss": "foot (Hebrew רֶגֶל) — forward cross-reference",
+      "note": "Maimonides defers the figure 'His feet shall stand on the Mount of Olives' to the later chapter on the equivocity of regel ('foot'), reading the 'feet' as His causes/effects.",
+      "variants": ["רגליו"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "26",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל אלת'אלת' עשר — עמידה",
+          "en": "Part One · Chapter Thirteen — ʿAmidah",
+          "isHeader": true
+        },
+        {
+          "ja": "עמידה אסם משתרך. יכון במעני אלקיאם ואלוקוף: בעמדו לפני פרעה, אם יעמד משה ושמואל, והוא עומד עליהם.",
+          "en": "ʿAmidah is an equivocal noun. It bears the sense of standing up and standing still: 'when he stood before Pharaoh' (Gen 41:46); 'though Moses and Samuel stood' (Jer 15:1); 'and he was standing over them' (Gen 18:8).",
+          "pairs": [
+            { "ja": "עמידה אסם משתרך", "en": "ʿAmidah is an equivocal noun" },
+            { "ja": "יכון במעני אלקיאם ואלוקוף", "en": "It bears the sense of standing up and standing still" },
+            { "ja": "בעמדו לפני פרעה", "en": "when he stood before Pharaoh" },
+            { "ja": "אם יעמד משה ושמואל", "en": "though Moses and Samuel stood" },
+            { "ja": "והוא עומד עליהם", "en": "and he was standing over them" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "27",
+      "aligned": [
+        {
+          "ja": "ויכון במעני אלנכול ואלכף: כי עמדו לא ענו עוד, ותעמד מלדת.",
+          "en": "And it bears the sense of desisting and ceasing: 'for they stood still and answered no more' (Job 32:16); 'and she ceased from bearing' (Gen 29:35).",
+          "pairs": [
+            { "ja": "ויכון במעני אלנכול ואלכף", "en": "And it bears the sense of desisting and ceasing" },
+            { "ja": "כי עמדו לא ענו עוד", "en": "for they stood still and answered no more" },
+            { "ja": "ותעמד מלדת", "en": "and she ceased from bearing" }
+          ]
+        },
+        {
+          "ja": "ויכון במעני אלת'באת ואלבקא: למען יעמדו ימים רבים, ויכלת עמוד, עמד טעמו בו — ת'בת ובקי ולם יתגיר, וצדקתו עומדת לעד — ת'אבתה באקיה.",
+          "en": "And it bears the sense of endurance and abiding: 'that they may endure many days' (Jer 32:14); 'and you will be able to endure' (Exod 18:23); 'its taste stayed in it' (Jer 48:11) — it remained and abided and did not change; 'and his righteousness endures forever' (Ps 111:3) — fixed and abiding.",
+          "pairs": [
+            { "ja": "ויכון במעני אלת'באת ואלבקא", "en": "And it bears the sense of endurance and abiding" },
+            { "ja": "למען יעמדו ימים רבים", "en": "that they may endure many days" },
+            { "ja": "ויכלת עמוד", "en": "and you will be able to endure" },
+            { "ja": "עמד טעמו בו", "en": "its taste stayed in it" },
+            { "ja": "ת'בת ובקי ולם יתגיר", "en": "it remained and abided and did not change" },
+            { "ja": "וצדקתו עומדת לעד", "en": "and his righteousness endures forever" },
+            { "ja": "ת'אבתה באקיה", "en": "fixed and abiding" }
+          ]
+        },
+        {
+          "ja": "וכל עמידה ג'את פי אללה תעאלי הי מן הד'א אלמעני אלאכ'יר: ועמדו רגליו ביום ההוא על הר הזיתים — ותת'בת אסבאבה, אעני מסבבאתה. וסיבין ד'לך ענד ד'כר אשתראך רגל.",
+          "en": "And every 'standing' that comes regarding God, may He be exalted, is of this last sense: 'and His feet shall stand on that day upon the Mount of Olives' (Zech 14:4) — and His causes shall be made firm, I mean His effects. This will be explained when the equivocity of regel ('foot') is treated.",
+          "pairs": [
+            { "ja": "וכל עמידה ג'את פי אללה תעאלי הי מן הד'א אלמעני אלאכ'יר", "en": "And every 'standing' that comes regarding God, may He be exalted, is of this last sense" },
+            { "ja": "ועמדו רגליו ביום ההוא על הר הזיתים", "en": "and His feet shall stand on that day upon the Mount of Olives" },
+            { "ja": "ותת'בת אסבאבה, אעני מסבבאתה", "en": "and His causes shall be made firm, I mean His effects" },
+            { "ja": "וסיבין ד'לך ענד ד'כר אשתראך רגל", "en": "This will be explained when the equivocity of regel ('foot') is treated" }
+          ]
+        },
+        {
+          "ja": "ומן הד'א אלמעני קולה לה תעאלי: ואתה פה עמד עמדי, אנכי עמד בין י״י וביניכם.",
+          "en": "And of this sense is what He, may He be exalted, said to him: 'but as for thee, stand thou here by Me' (Deut 5:28); and 'I stood between the Lord and you' (Deut 5:5).",
+          "pairs": [
+            { "ja": "ומן הד'א אלמעני קולה לה תעאלי", "en": "And of this sense is what He, may He be exalted, said to him" },
+            { "ja": "ואתה פה עמד עמדי", "en": "but as for thee, stand thou here by Me" },
+            { "ja": "אנכי עמד בין י״י וביניכם", "en": "and 'I stood between the Lord and you'" }
+          ]
+        }
+      ]
+    }
+  ]
+}

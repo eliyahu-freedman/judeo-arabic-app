@@ -1,0 +1,447 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 2 — Adam's Disobedience and the Knowledge of Good and Evil",
+  "section_ja": "אלג'ז אלאול · אלפצל אלת'אני",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "A learned man once put a sharp objection to Maimonides: if Adam gained the knowledge of good and evil only by eating from the tree, how can that knowledge be at once his sin's punishment and his crowning perfection? Maimonides answers by drawing the distinction that runs through the whole Guide — between the intelligibles (true and false), grasped by intellect, and the merely accepted (fine and base), the realm of opinion into which Adam fell when he turned from intellect to appetite. Hover a phrase to see its English light up; tap any word for a gloss; dotted words are key terms.",
+  "source": {
+    "edition": "Friedberg Judeo-Arabic Project (ja.genizah.org), resourceId 6",
+    "fjms_resource_id": "6",
+    "pages_he": ["15", "16", "17"]
+  },
+  "terms": [
+    {
+      "id": "mashhurat",
+      "ja": "אלמשהוראת",
+      "ar": "المشهورات",
+      "translit": "al-mashhūrāt",
+      "gloss": "generally accepted opinions (endoxa)",
+      "note": "The conventionally 'fine' and 'base' (ḥasan / qabīḥ) — propositions everyone grants but which reason neither proves nor refutes. Maimonides' key move: before the fall Adam lived among the intelligibles (maʿqūlāt), where things are simply true or false; eating from the tree plunged him into the mashhūrāt, the realm of mere opinion about good and evil.",
+      "variants": ["משהוראת", "באלמשהוראת"]
+    },
+    {
+      "id": "maqulat",
+      "ja": "אלמעקולאת",
+      "ar": "المعقولات",
+      "translit": "al-maʿqūlāt",
+      "gloss": "the intelligibles — what reason knows as true or false",
+      "note": "Necessary truths apprehended by the intellect, where the categories are 'true' and 'false' (emet / sheqer), not 'fine' and 'base.' One does not say the sphericity of the heavens is 'fine' or the flatness of the earth 'base' — only true or false. Adam's original perfection lay wholly here.",
+      "variants": ["מעקולאתה", "ומעקולאתה", "אלמעקולה"]
+    },
+    {
+      "id": "idrak-aqli",
+      "ja": "אלאדראך אלעקלי",
+      "ar": "الإدراك العقلي",
+      "translit": "al-idrāk al-ʿaqlī",
+      "gloss": "intellectual apprehension",
+      "note": "The intellect that God made to emanate upon man — his 'final perfection' and the imago Dei. Adam possessed it whole before the fall; his disobedience stripped (salaba) it from him, and in its place came the apprehension of mere opinion.",
+      "variants": ["אלעקלי", "אלאדראך"]
+    },
+    {
+      "id": "afada",
+      "ja": "אפאצ'ה",
+      "ar": "أفاضه",
+      "translit": "afāḍa / fayḍ",
+      "gloss": "to cause to emanate; the overflow (of intellect) from God",
+      "note": "The Neoplatonic-Aristotelian language of emanation: the intellect is not man's own achievement but a fayḍ, an overflow, that God 'made to flow' upon him. Its loss is therefore a withdrawal of something divine.",
+      "variants": ["אפאצ'ה"]
+    },
+    {
+      "id": "fitra",
+      "ja": "פטרה",
+      "ar": "فطرة",
+      "translit": "fiṭra",
+      "gloss": "innate, original disposition",
+      "note": "Adam's God-given natural constitution, paired here with his 'intelligibles' as the state on account of which it was said 'Thou hast made him but little lower than God.'",
+      "variants": ["פטרתה"]
+    },
+    {
+      "id": "maasiya",
+      "ja": "מעציה",
+      "ar": "معصية",
+      "translit": "maʿṣiya",
+      "gloss": "disobedience, transgression",
+      "note": "The act of the tree. Maimonides insists it was not a gaining of intellect but a turning away from it toward 'imaginative appetites and bodily pleasures' — so that the 'knowledge' Adam acquired was a fall, not an ascent.",
+      "variants": ["מעציתה", "עצא"]
+    },
+    {
+      "id": "ism-mushtarak",
+      "ja": "אסם משתרך",
+      "ar": "اسم مشترك",
+      "translit": "ism mushtarak",
+      "gloss": "an equivocal (homonymous) noun",
+      "note": "Here the test case is elohim, applied alike to God, to angels, and to magistrates who govern cities — which is why Onqelos could render 'you shall be as elohim' as 'you shall be as rulers.' Recognizing the equivocity is the first step in dissolving the objection.",
+      "variants": ["משתרך"]
+    },
+    {
+      "id": "shahawat-khayaliyya",
+      "ja": "שהואתה אלכ'יאליה",
+      "ar": "شهواته الخيالية",
+      "translit": "shahawāt khayāliyya",
+      "gloss": "imaginative appetites",
+      "note": "The pull of imagination and the bodily senses — 'that the tree was good for food and a delight to the eyes.' To incline toward these is, for Maimonides, the very content of Adam's sin and the cause of his loss of intellect.",
+      "variants": ["אלכ'יאליה", "וכ'יאלאתה"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "15",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל אלת'אני — אעתראץ' ופך",
+          "en": "Part One · Chapter Two — An Objection and Its Resolution",
+          "isHeader": true
+        },
+        {
+          "ja": "אעתרצ'ני רג'ל עלומי מנד' סנין אעתראצ'א גריבא, ינבגי תאמל אלאעתראץ' וג'ואבנא פי פכה.",
+          "en": "A learned man raised against me years ago a strange objection; the objection deserves reflection, together with our answer in resolving it.",
+          "pairs": [
+            { "ja": "אעתרצ'ני רג'ל עלומי", "en": "A learned man raised against me" },
+            { "ja": "מנד' סנין", "en": "years ago" },
+            { "ja": "אעתראצ'א גריבא", "en": "a strange objection" },
+            { "ja": "ינבגי תאמל אלאעתראץ'", "en": "the objection deserves reflection" },
+            { "ja": "וג'ואבנא פי פכה", "en": "together with our answer in resolving it" }
+          ]
+        },
+        {
+          "ja": "וקבל אן אד'כר אלאעתראץ' ופכה, אקול אנה קד עלם כל עבראני אן אסם אלהים משתרך ללאלאה ואלמלאיכה ואלחכאם מדברי אלמדן.",
+          "en": "Before I state the objection and its resolution, let me say that every Hebrew already knows that the noun elohim is equivocal — used for the Deity, for the angels, and for the magistrates who govern the city.",
+          "pairs": [
+            { "ja": "וקבל אן אד'כר אלאעתראץ' ופכה", "en": "Before I state the objection and its resolution" },
+            { "ja": "אקול אנה קד עלם כל עבראני", "en": "let me say that every Hebrew already knows" },
+            { "ja": "אן אסם אלהים משתרך", "en": "that the noun elohim is equivocal" },
+            { "ja": "ללאלאה ואלמלאיכה", "en": "used for the Deity, for the angels" },
+            { "ja": "ואלחכאם מדברי אלמדן", "en": "and for the magistrates who govern the city" }
+          ]
+        },
+        {
+          "ja": "וקד בין אנקלוס הגר ע״אס, ואלצחיח מא בינה, אן קולה והייתם כאלהים יודעי טוב ורע יראד בה אלמעני אלאכ'יר, קאל ותהון כרברבין.",
+          "en": "And Onqelos the Proselyte, peace be upon him, made clear — and what he made clear is correct — that in 'and you shall be as gods, knowing good and evil' (Gen 3:5) the last of these senses is intended; he rendered it, 'and you shall be as rulers.'",
+          "pairs": [
+            { "ja": "וקד בין אנקלוס הגר", "en": "And Onqelos the Proselyte, peace be upon him, made clear" },
+            { "ja": "ואלצחיח מא בינה", "en": "and what he made clear is correct" },
+            { "ja": "אן קולה והייתם כאלהים יודעי טוב ורע", "en": "that in 'and you shall be as gods, knowing good and evil'" },
+            { "ja": "יראד בה אלמעני אלאכ'יר", "en": "the last of these senses is intended" },
+            { "ja": "קאל ותהון כרברבין", "en": "he rendered it, 'and you shall be as rulers" }
+          ]
+        },
+        {
+          "ja": "ובעד תוטיהֵ אשתראך הד'א אלאסם, נאכ'ד' פי ד'כר אלאעתראץ'.",
+          "en": "And after laying down the equivocity of this noun, we take up the statement of the objection.",
+          "pairs": [
+            { "ja": "ובעד תוטיהֵ אשתראך הד'א אלאסם", "en": "And after laying down the equivocity of this noun" },
+            { "ja": "נאכ'ד' פי ד'כר אלאעתראץ'", "en": "we take up the statement of the objection" }
+          ]
+        },
+        {
+          "ja": "קאל אלמעתרץ': יבדו מן ט'אהר אלנץ אן אלקצד אלאול באלאנסאן אן יכון כסאיר אלחיואן, לא עקל לה ולא פכרה, ולא יפרק בין אלכ'יר ואלשר.",
+          "en": "The objector said: It appears from the plain sense of the text that the original intent for man was that he be like the rest of the animals — having no intellect and no thought, not distinguishing between good and evil.",
+          "pairs": [
+            { "ja": "קאל אלמעתרץ'", "en": "The objector said" },
+            { "ja": "יבדו מן ט'אהר אלנץ", "en": "It appears from the plain sense of the text" },
+            { "ja": "אן אלקצד אלאול באלאנסאן", "en": "that the original intent for man" },
+            { "ja": "אן יכון כסאיר אלחיואן", "en": "was that he be like the rest of the animals" },
+            { "ja": "לא עקל לה ולא פכרה", "en": "having no intellect and no thought" },
+            { "ja": "ולא יפרק בין אלכ'יר ואלשר", "en": "not distinguishing between good and evil" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "16",
+      "aligned": [
+        {
+          "ja": "פלמא עצא, אוג'בת לה מעציתה הד'א אלכמאל אלעט'ים אלכ'ציץ באלאנסאן, והו אן יכון לה הד'א אלתמייז אלמוג'וד פינא, אלד'י הו אשרף אלמעאני אלמוג'ודה לנא, ובה נתג'והר.",
+          "en": "Yet when he disobeyed, his disobedience brought about for him that great perfection proper to man — namely, that he should have this faculty of discrimination found in us, which is the noblest of the notions we possess, and by which we are constituted as substances.",
+          "pairs": [
+            { "ja": "פלמא עצא", "en": "Yet when he disobeyed" },
+            { "ja": "אוג'בת לה מעציתה", "en": "his disobedience brought about for him" },
+            { "ja": "הד'א אלכמאל אלעט'ים אלכ'ציץ באלאנסאן", "en": "that great perfection proper to man" },
+            { "ja": "אן יכון לה הד'א אלתמייז אלמוג'וד פינא", "en": "that he should have this faculty of discrimination found in us" },
+            { "ja": "אלד'י הו אשרף אלמעאני אלמוג'ודה לנא", "en": "which is the noblest of the notions we possess" },
+            { "ja": "ובה נתג'והר", "en": "and by which we are constituted as substances" }
+          ]
+        },
+        {
+          "ja": "פהד'א הו אלעג'ב, אן יכון עקאבה עלי מעציתה אעטאה כמאלא לם יכן לה, והו אלעקל!",
+          "en": "Now this is the wonder: that the punishment for his disobedience should be that He granted him a perfection he had not had — namely, the intellect!",
+          "pairs": [
+            { "ja": "פהד'א הו אלעג'ב", "en": "Now this is the wonder" },
+            { "ja": "אן יכון עקאבה עלי מעציתה", "en": "that the punishment for his disobedience" },
+            { "ja": "אעטאה כמאלא לם יכן לה", "en": "should be that He granted him a perfection he had not had" },
+            { "ja": "והו אלעקל", "en": "namely, the intellect" }
+          ]
+        },
+        {
+          "ja": "ומא הד'א אלא כקול מן קאל אן שכ'צא מן אלנאס עצא ואפרט פי אלט'לם, פמסך וג'על כוכבא פי אלסמא.",
+          "en": "This is nothing but like the saying of one who would claim that a certain man disobeyed and went to excess in wrongdoing — and so was taken up and set as a star in heaven.",
+          "pairs": [
+            { "ja": "ומא הד'א אלא כקול מן קאל", "en": "This is nothing but like the saying of one who would claim" },
+            { "ja": "אן שכ'צא מן אלנאס עצא", "en": "that a certain man disobeyed" },
+            { "ja": "ואפרט פי אלט'לם", "en": "and went to excess in wrongdoing" },
+            { "ja": "פמסך וג'על כוכבא פי אלסמא", "en": "and so was taken up and set as a star in heaven" }
+          ]
+        },
+        {
+          "ja": "הד'א כאן גרץ' אלאעתראץ' ומעאניה, ואן לם יכן בהד'א אלנץ.",
+          "en": "This was the gist of the objection and its substance, though not in these very words.",
+          "pairs": [
+            { "ja": "הד'א כאן גרץ' אלאעתראץ' ומעאניה", "en": "This was the gist of the objection and its substance" },
+            { "ja": "ואן לם יכן בהד'א אלנץ", "en": "though not in these very words" }
+          ]
+        },
+        {
+          "ja": "ואסמע אגראץ' ג'ואבנא נחן. קלנא: יא איהא אלנאט'ר באואיל כ'ואטרה וסואנחה, ומן ט'ן אנה יפהם כתאבא הו הדאיהֵ אלאולין ואלאכ'רין במרורה עליה פי בעץ' אוקאת אלפראג מן אלשרב ואלנכאח, כמרורה עלי תאריך' מן אלתואריך' או שער מן אלאשעאר!",
+          "en": "Now hear the gist of our own answer. We said: O you who look with the first notions that occur to him and cross his mind — you who suppose you grasp a book that is the guidance of the first and the last by running over it in some idle hour between drink and bed, as one runs over a chronicle or a piece of poetry!",
+          "pairs": [
+            { "ja": "ואסמע אגראץ' ג'ואבנא נחן", "en": "Now hear the gist of our own answer" },
+            { "ja": "קלנא: יא איהא אלנאט'ר", "en": "We said: O you who look" },
+            { "ja": "באואיל כ'ואטרה וסואנחה", "en": "with the first notions that occur to him and cross his mind" },
+            { "ja": "ומן ט'ן אנה יפהם כתאבא", "en": "you who suppose you grasp a book" },
+            { "ja": "הו הדאיהֵ אלאולין ואלאכ'רין", "en": "that is the guidance of the first and the last" },
+            { "ja": "במרורה עליה פי בעץ' אוקאת אלפראג", "en": "by running over it in some idle hour" },
+            { "ja": "מן אלשרב ואלנכאח", "en": "between drink and bed" },
+            { "ja": "כמרורה עלי תאריך' מן אלתואריך'", "en": "as one runs over a chronicle" },
+            { "ja": "או שער מן אלאשעאר", "en": "or a piece of poetry" }
+          ]
+        },
+        {
+          "ja": "תת'בת ותאמל! פליס אלאמר כמא ט'ננתה באול כ'אטר, בל כמא יבין ענד אלתאמל להד'א אלכלאם.",
+          "en": "Restrain yourself and reflect! The matter is not as you supposed at first thought, but as becomes clear upon careful reflection on this discourse.",
+          "pairs": [
+            { "ja": "תת'בת ותאמל", "en": "Restrain yourself and reflect" },
+            { "ja": "פליס אלאמר כמא ט'ננתה באול כ'אטר", "en": "The matter is not as you supposed at first thought" },
+            { "ja": "בל כמא יבין ענד אלתאמל להד'א אלכלאם", "en": "but as becomes clear upon careful reflection on this discourse" }
+          ]
+        },
+        {
+          "ja": "וד'לך אן אלעקל אלד'י אפאצ'ה אללה עלי אלאנסאן, והו כמאלה אלאכ'יר, הו אלד'י חצל לאדם קבל מעציתה, ובה קיל פיה אנה בצלם אלהים ובדמותו.",
+          "en": "For the intellect that God made to emanate upon man — and which is his final perfection — is what Adam possessed before his disobedience; and it is on account of it that it was said of him that he is 'in the image of God and after His likeness.'",
+          "pairs": [
+            { "ja": "וד'לך אן אלעקל", "en": "For the intellect" },
+            { "ja": "אלד'י אפאצ'ה אללה עלי אלאנסאן", "en": "that God made to emanate upon man" },
+            { "ja": "והו כמאלה אלאכ'יר", "en": "and which is his final perfection" },
+            { "ja": "הו אלד'י חצל לאדם קבל מעציתה", "en": "is what Adam possessed before his disobedience" },
+            { "ja": "ובה קיל פיה", "en": "and it is on account of it that it was said of him" },
+            { "ja": "אנה בצלם אלהים ובדמותו", "en": "that he is 'in the image of God and after His likeness" }
+          ]
+        },
+        {
+          "ja": "ומן אג'לה כאן מכ'אטבא ווצי, כמא קאל ויצו י״י אלהים וכו', ולא תכון אלוציה ללבהאים ולא למן לא עקל לה.",
+          "en": "It was on account of it, too, that he was addressed and commanded, as it says, 'and the Lord God commanded' (Gen 2:16), and so forth; for a command is not given to beasts, nor to one who has no intellect.",
+          "pairs": [
+            { "ja": "ומן אג'לה כאן מכ'אטבא ווצי", "en": "It was on account of it, too, that he was addressed and commanded" },
+            { "ja": "כמא קאל ויצו י״י אלהים", "en": "as it says, 'and the Lord God commanded'" },
+            { "ja": "ולא תכון אלוציה ללבהאים", "en": "for a command is not given to beasts" },
+            { "ja": "ולא למן לא עקל לה", "en": "nor to one who has no intellect" }
+          ]
+        },
+        {
+          "ja": "ובאלעקל יפרק בין אלחק ואלבאטל, והד'א כאן מוג'ודא פיה עלי כמאלה ותמאמה.",
+          "en": "It is by the intellect that one distinguishes between the true and the false, and this was present in him in its fullness and perfection.",
+          "pairs": [
+            { "ja": "ובאלעקל יפרק בין אלחק ואלבאטל", "en": "It is by the intellect that one distinguishes between the true and the false" },
+            { "ja": "והד'א כאן מוג'ודא פיה", "en": "and this was present in him" },
+            { "ja": "עלי כמאלה ותמאמה", "en": "in its fullness and perfection" }
+          ]
+        },
+        {
+          "ja": "אמא אלקביח ואלחסן פהו פי אלמשהוראת, לא פי אלמעקולאת; לאנה לא יקאל אלסמא כריה חסן ואלארץ' בסיטה קביח, בל יקאל חק ובאטל.",
+          "en": "As for the base and the fine, these belong to the generally accepted, not to the intelligibles; for one does not say 'the heaven is spherical — fine' and 'the earth is flat — base,' but rather one says 'true' and 'false.'",
+          "pairs": [
+            { "ja": "אמא אלקביח ואלחסן", "en": "As for the base and the fine" },
+            { "ja": "פהו פי אלמשהוראת", "en": "these belong to the generally accepted" },
+            { "ja": "לא פי אלמעקולאת", "en": "not to the intelligibles" },
+            { "ja": "לאנה לא יקאל אלסמא כריה חסן", "en": "for one does not say 'the heaven is spherical — fine'" },
+            { "ja": "ואלארץ' בסיטה קביח", "en": "and 'the earth is flat — base" },
+            { "ja": "בל יקאל חק ובאטל", "en": "but rather one says 'true' and 'false" }
+          ]
+        },
+        {
+          "ja": "וכד'לך פי לסאננא יקאל ען אלחק ואלבאטל אמת ושקר, וען חסן וקביח טוב ורע. פבאלעקל יערף אלאנסאן אלאמת מן אלשקר, והד'א יכון פי אלאמור אלמעקולה כלהא.",
+          "en": "Likewise in our language one says of the true and the false, emet and sheqer, and of the fine and the base, tov and ra'. By the intellect, then, man knows the true from the false — and this holds in all matters that are intelligible.",
+          "pairs": [
+            { "ja": "וכד'לך פי לסאננא", "en": "Likewise in our language" },
+            { "ja": "יקאל ען אלחק ואלבאטל אמת ושקר", "en": "one says of the true and the false, emet and sheqer" },
+            { "ja": "וען חסן וקביח טוב ורע", "en": "and of the fine and the base, tov and ra'" },
+            { "ja": "פבאלעקל יערף אלאנסאן אלאמת מן אלשקר", "en": "By the intellect, then, man knows the true from the false" },
+            { "ja": "והד'א יכון פי אלאמור אלמעקולה כלהא", "en": "and this holds in all matters that are intelligible" }
+          ]
+        },
+        {
+          "ja": "פלמא כאן עלי אכמל חאלאתה ואתמהא, והו מע פטרתה ומעקולאתה אלתי קיל פיה מן אג'להא ותחסרהו מעט מאלהים, לם תכן לה קוה תשתגל באלמשהוראת בוג'ה, ולא ידרכהא.",
+          "en": "So long as he was in his most complete and perfect state — together with his innate disposition and his intelligibles, on account of which it was said of him 'Yet Thou hast made him but little lower than God' (Ps 8:6) — he had no faculty that occupied itself with the generally accepted at all, nor did he apprehend them.",
+          "pairs": [
+            { "ja": "פלמא כאן עלי אכמל חאלאתה ואתמהא", "en": "So long as he was in his most complete and perfect state" },
+            { "ja": "והו מע פטרתה ומעקולאתה", "en": "together with his innate disposition and his intelligibles" },
+            { "ja": "אלתי קיל פיה מן אג'להא ותחסרהו מעט מאלהים", "en": "on account of which it was said of him 'Yet Thou hast made him but little lower than God'" },
+            { "ja": "לם תכן לה קוה תשתגל באלמשהוראת בוג'ה", "en": "he had no faculty that occupied itself with the generally accepted at all" },
+            { "ja": "ולא ידרכהא", "en": "nor did he apprehend them" }
+          ]
+        },
+        {
+          "ja": "חתי ולו אבין אלמשהוראת באלקבח, והו כשף אלעורה, לם יכן ד'לך קביחא ענדה, ולא אדרך קבחה.",
+          "en": "So much so that even the most patently base of accepted things — the uncovering of nakedness — was not base in his eyes, nor did he apprehend its baseness.",
+          "pairs": [
+            { "ja": "חתי ולו אבין אלמשהוראת באלקבח", "en": "So much so that even the most patently base of accepted things" },
+            { "ja": "והו כשף אלעורה", "en": "the uncovering of nakedness" },
+            { "ja": "לם יכן ד'לך קביחא ענדה", "en": "was not base in his eyes" },
+            { "ja": "ולא אדרך קבחה", "en": "nor did he apprehend its baseness" }
+          ]
+        },
+        {
+          "ja": "פלמא עצא ומאל נחו שהואתה אלכ'יאליה ולד'את חואסה אלג'סמאניה, כמא קאל כי טוב העץ למאכל וכי תאוה הוא לעינים, עוקב באן סלב ד'לך אלאדראך אלעקלי.",
+          "en": "But when he disobeyed and inclined toward his imaginative appetites and the pleasures of his bodily senses — as it says, 'that the tree was good for food and that it was a delight to the eyes' (Gen 3:6) — he was punished by being stripped of that intellectual apprehension.",
+          "pairs": [
+            { "ja": "פלמא עצא ומאל נחו שהואתה אלכ'יאליה", "en": "But when he disobeyed and inclined toward his imaginative appetites" },
+            { "ja": "ולד'את חואסה אלג'סמאניה", "en": "and the pleasures of his bodily senses" },
+            { "ja": "כי טוב העץ למאכל", "en": "that the tree was good for food" },
+            { "ja": "וכי תאוה הוא לעינים", "en": "and that it was a delight to the eyes" },
+            { "ja": "עוקב באן סלב ד'לך אלאדראך אלעקלי", "en": "he was punished by being stripped of that intellectual apprehension" }
+          ]
+        },
+        {
+          "ja": "ולד'לך עצא אלאמר אלד'י מן אג'ל עקלה וצי בה, וחצל לה אדראך אלמשהוראת, וגרק פי אלאסתקבאח ואלאסתחסאן.",
+          "en": "And therefore he transgressed the command that, by virtue of his intellect, he had been charged with; the apprehension of mere opinion accrued to him, and he sank into deeming-base and deeming-fine.",
+          "pairs": [
+            { "ja": "ולד'לך עצא אלאמר", "en": "And therefore he transgressed the command" },
+            { "ja": "אלד'י מן אג'ל עקלה וצי בה", "en": "that, by virtue of his intellect, he had been charged with" },
+            { "ja": "וחצל לה אדראך אלמשהוראת", "en": "the apprehension of mere opinion accrued to him" },
+            { "ja": "וגרק פי אלאסתקבאח ואלאסתחסאן", "en": "and he sank into deeming-base and deeming-fine" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "17",
+      "aligned": [
+        {
+          "ja": "פחיניד' עלם קדר מא פאתה, ומא תערי ענה, ופי אי חאלה צאר. ולד'לך קיל והייתם כאלהים יודעי טוב ורע, ולם יקל יודעי שקר ואמת, או משיגי שקר ואמת; וליס פי אלצ'רורי טוב ורע בתה, בל שקר ואמת.",
+          "en": "Only then did he know the measure of what he had lost, what he had been stripped of, and into what state he had come. And therefore it says, 'and you shall be as gods, knowing good and evil' — and it does not say 'knowing false and true,' nor 'apprehending false and true'; for in necessary matters there is no 'good and evil' at all, but only 'false and true.'",
+          "pairs": [
+            { "ja": "פחיניד' עלם קדר מא פאתה", "en": "Only then did he know the measure of what he had lost" },
+            { "ja": "ומא תערי ענה", "en": "what he had been stripped of" },
+            { "ja": "ופי אי חאלה צאר", "en": "and into what state he had come" },
+            { "ja": "ולד'לך קיל והייתם כאלהים יודעי טוב ורע", "en": "And therefore it says, 'and you shall be as gods, knowing good and evil'" },
+            { "ja": "ולם יקל יודעי שקר ואמת", "en": "and it does not say 'knowing false and true" },
+            { "ja": "או משיגי שקר ואמת", "en": "nor 'apprehending false and true'" },
+            { "ja": "וליס פי אלצ'רורי טוב ורע בתה", "en": "for in necessary matters there is no 'good and evil' at all" },
+            { "ja": "בל שקר ואמת", "en": "but only 'false and true" }
+          ]
+        },
+        {
+          "ja": "ותאמל קולה ותפקחנה עיני שניהם וידעו כי ערומים הם: לם יקל ותפקחנה עיני שניהם ויראו, לאן אלד'י ראי קבל הו אלד'י ראי בעד; לם תכן ת'ם גשאוה עלי אלבצר אנג'לת, בל צארת לה חאלה אכ'רי יסתקבח בהא מא לם יכן יסתקבחה מן קבל.",
+          "en": "And consider its saying, 'and the eyes of them both were opened, and they knew that they were naked' (Gen 3:7): it did not say 'and the eyes of them both were opened and they saw,' for what he saw before is what he saw after; there had been no veil over his sight that was now lifted — rather, a different state came over him, by which he deemed base what he had not deemed base before.",
+          "pairs": [
+            { "ja": "ותאמל קולה ותפקחנה עיני שניהם וידעו כי ערומים הם", "en": "And consider its saying, 'and the eyes of them both were opened, and they knew that they were naked'" },
+            { "ja": "לם יקל ותפקחנה עיני שניהם ויראו", "en": "it did not say 'and the eyes of them both were opened and they saw" },
+            { "ja": "לאן אלד'י ראי קבל הו אלד'י ראי בעד", "en": "for what he saw before is what he saw after" },
+            { "ja": "לם תכן ת'ם גשאוה עלי אלבצר אנג'לת", "en": "there had been no veil over his sight that was now lifted" },
+            { "ja": "בל צארת לה חאלה אכ'רי", "en": "rather, a different state came over him" },
+            { "ja": "יסתקבח בהא מא לם יכן יסתקבחה מן קבל", "en": "by which he deemed base what he had not deemed base before" }
+          ]
+        },
+        {
+          "ja": "ואעלם אן הד'ה אלכלמה, אעני פקח, לא תקע בוג'ה אלא עלי מעני כשף בצירה, לא רויהֵ חאסה חדת'ת: ויפקח אלהים את עיניה, אז תפקחנה עיני עורים, פקוח אזנים ולא ישמע, מת'ל קולה אשר עינים להם לראות ולא ראו.",
+          "en": "Know that this word — I mean paqaḥ ('to open') — applies in no instance except to the uncovering of an insight, never to some new sense-perception that has arisen: 'and God opened her eyes' (Gen 21:19); 'then the eyes of the blind shall be opened' (Isa 35:5); 'opening the ears, but he hears not' (Isa 42:20) — like its saying, 'who have eyes to see and see not' (Ezek 12:2).",
+          "pairs": [
+            { "ja": "ואעלם אן הד'ה אלכלמה, אעני פקח", "en": "Know that this word — I mean paqaḥ ('to open')" },
+            { "ja": "לא תקע בוג'ה אלא עלי מעני כשף בצירה", "en": "applies in no instance except to the uncovering of an insight" },
+            { "ja": "לא רויהֵ חאסה חדת'ת", "en": "never to some new sense-perception that has arisen" },
+            { "ja": "ויפקח אלהים את עיניה", "en": "and God opened her eyes" },
+            { "ja": "אז תפקחנה עיני עורים", "en": "then the eyes of the blind shall be opened" },
+            { "ja": "פקוח אזנים ולא ישמע", "en": "opening the ears, but he hears not" },
+            { "ja": "מת'ל קולה אשר עינים להם לראות ולא ראו", "en": "like its saying, 'who have eyes to see and see not'" }
+          ]
+        },
+        {
+          "ja": "ואמא קולה ען אדם משנה פניו ותשלחהו, פאן תאוילה ושרחה: למא גיר אתג'אהה, טרד. לאן פנים אסם משתק מן פנה, לאן אלאנסאן בוג'הה יקצד ללשי אלד'י יריד קצדה.",
+          "en": "As for what it says concerning Adam, 'Thou changest his face and sendest him away' (Job 14:20), its interpretation and explanation is: when he altered his orientation, He drove him out. For panim ('face') is a noun derived from panah ('to turn'), since a man, by his face, makes for the thing he intends to make for.",
+          "pairs": [
+            { "ja": "ואמא קולה ען אדם משנה פניו ותשלחהו", "en": "As for what it says concerning Adam, 'Thou changest his face and sendest him away'" },
+            { "ja": "פאן תאוילה ושרחה", "en": "its interpretation and explanation is" },
+            { "ja": "למא גיר אתג'אהה, טרד", "en": "when he altered his orientation, He drove him out" },
+            { "ja": "לאן פנים אסם משתק מן פנה", "en": "For panim ('face') is a noun derived from panah ('to turn')" },
+            { "ja": "לאן אלאנסאן בוג'הה יקצד ללשי אלד'י יריד קצדה", "en": "since a man, by his face, makes for the thing he intends to make for" }
+          ]
+        },
+        {
+          "ja": "פיקול: למא גיר אתג'אהה וקצד נחו אלשי אלד'י כאן אלאמר תקדם אליה באן לא יקצדה, טרד מן גן עדן.",
+          "en": "So it says: when he altered his orientation and made for the very thing he had earlier been commanded not to make for, he was driven out of the Garden of Eden.",
+          "pairs": [
+            { "ja": "פיקול", "en": "So it says" },
+            { "ja": "למא גיר אתג'אהה", "en": "when he altered his orientation" },
+            { "ja": "וקצד נחו אלשי אלד'י כאן אלאמר תקדם אליה באן לא יקצדה", "en": "and made for the very thing he had earlier been commanded not to make for" },
+            { "ja": "טרד מן גן עדן", "en": "he was driven out of the Garden of Eden" }
+          ]
+        },
+        {
+          "ja": "וד'לך הו אלעקאב אלנט'יר ללמעציה, מדה כנגד מדה.",
+          "en": "And that is the punishment that answers to the transgression, measure for measure.",
+          "pairs": [
+            { "ja": "וד'לך הו אלעקאב אלנט'יר ללמעציה", "en": "And that is the punishment that answers to the transgression" },
+            { "ja": "מדה כנגד מדה", "en": "measure for measure" }
+          ]
+        },
+        {
+          "ja": "לאנה בוח פי אלאכל מן אלאטיאב ואלאלתד'אד' בראחה וטמאניה; פלמא שרה ותבע לד'אתה וכ'יאלאתה, כמא קלנא, ואכל מא נהי ען אכלה, מנע מן אלג'מיע.",
+          "en": "For he had been given leave to eat of the good things and to enjoy them in ease and tranquility; but when he grew greedy and followed his pleasures and his fancies, as we have said, and ate of what he had been forbidden to eat, he was barred from it all.",
+          "pairs": [
+            { "ja": "לאנה בוח פי אלאכל מן אלאטיאב", "en": "For he had been given leave to eat of the good things" },
+            { "ja": "ואלאלתד'אד' בראחה וטמאניה", "en": "and to enjoy them in ease and tranquility" },
+            { "ja": "פלמא שרה ותבע לד'אתה וכ'יאלאתה", "en": "but when he grew greedy and followed his pleasures and his fancies" },
+            { "ja": "כמא קלנא", "en": "as we have said" },
+            { "ja": "ואכל מא נהי ען אכלה", "en": "and ate of what he had been forbidden to eat" },
+            { "ja": "מנע מן אלג'מיע", "en": "he was barred from it all" }
+          ]
+        },
+        {
+          "ja": "ולזמה אכל אכ'ס אלמאכל אלתי לם תכן לה קבל בגד'א, בעד אלתעב ואלנצב, כמא קאל וקוץ ודרדר תצמיח לך וכו', בזעת אפך וכו'.",
+          "en": "And he was bound to eat the meanest of foods — which had not been his food before — and to do so only after toil and labor, as it says, 'thorns also and thistles shall it bring forth to thee' (Gen 3:18), and so forth, 'in the sweat of thy face' (Gen 3:19), and so forth.",
+          "pairs": [
+            { "ja": "ולזמה אכל אכ'ס אלמאכל", "en": "And he was bound to eat the meanest of foods" },
+            { "ja": "אלתי לם תכן לה קבל בגד'א", "en": "which had not been his food before" },
+            { "ja": "בעד אלתעב ואלנצב", "en": "and to do so only after toil and labor" },
+            { "ja": "כמא קאל וקוץ ודרדר תצמיח לך", "en": "as it says, 'thorns also and thistles shall it bring forth to thee'" },
+            { "ja": "בזעת אפך", "en": "in the sweat of thy face" }
+          ]
+        },
+        {
+          "ja": "ובין וקאל וישלחהו י״י אלהים מגן עדן לעבד את האדמה.",
+          "en": "And it explained further, saying, 'so the Lord God sent him forth from the Garden of Eden, to till the ground' (Gen 3:23).",
+          "pairs": [
+            { "ja": "ובין וקאל", "en": "And it explained further, saying" },
+            { "ja": "וישלחהו י״י אלהים מגן עדן לעבד את האדמה", "en": "so the Lord God sent him forth from the Garden of Eden, to till the ground" }
+          ]
+        },
+        {
+          "ja": "וסואה באלבהאים פי אגד'יתה ואכת'ר חאלאתה, כמא קאל ואכלת את עשב השדה.",
+          "en": "And it made him the equal of the beasts in his food and in most of his states, as it says, 'and thou shalt eat the grass of the field' (Gen 3:18).",
+          "pairs": [
+            { "ja": "וסואה באלבהאים", "en": "And it made him the equal of the beasts" },
+            { "ja": "פי אגד'יתה ואכת'ר חאלאתה", "en": "in his food and in most of his states" },
+            { "ja": "כמא קאל ואכלת את עשב השדה", "en": "as it says, 'and thou shalt eat the grass of the field'" }
+          ]
+        },
+        {
+          "ja": "וקאל מבינא להד'ה אלקצה: אדם ביקר בל ילין נמשל כבהמות נדמו.",
+          "en": "And, explaining this whole matter, it said: 'man that is in honor and understands not is like the beasts that perish' (Ps 49:13).",
+          "pairs": [
+            { "ja": "וקאל מבינא להד'ה אלקצה", "en": "And, explaining this whole matter, it said" },
+            { "ja": "אדם ביקר בל ילין נמשל כבהמות נדמו", "en": "man that is in honor and understands not is like the beasts that perish" }
+          ]
+        },
+        {
+          "ja": "פסבחאן ד'י אלמשיה אלתי לא תדרך גאיתהא וחכמתהא.",
+          "en": "Glory be to the Possessor of the Will, whose purpose and wisdom cannot be grasped!",
+          "pairs": [
+            { "ja": "פסבחאן ד'י אלמשיה", "en": "Glory be to the Possessor of the Will" },
+            { "ja": "אלתי לא תדרך גאיתהא וחכמתהא", "en": "whose purpose and wisdom cannot be grasped" }
+          ]
+        }
+      ]
+    }
+  ]
+}
