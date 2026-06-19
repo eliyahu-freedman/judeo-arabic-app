@@ -1,0 +1,146 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 30 — Akhol (Eating)",
+  "section_ja": "אלג'ז אלאול · אלפצל אלת'לאת'ון",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "'Eating' is equivocal. Its first imposition is an animal's taking in of food; from this the language drew two metaphors. By the first (the food's form is destroyed) 'eating' came to mean destruction: 'a land that eateth up its inhabitants,' 'a consuming fire.' By the second (the body grows and endures by food) it came to mean knowledge and learning — the nourishment of the human form: 'eat ye that which is good,' 'so is the knowledge of wisdom unto thy soul.' Hence 'hunger' and 'thirst' name the lack of knowledge, and Jonathan reads Isaiah's 'wells of salvation' wholly of wisdom. Hover a phrase to see its English light up; tap any word for a gloss; dotted words are key terms.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 5
+  },
+  "terms": [
+    {
+      "id": "akhol",
+      "ja": "אכל",
+      "translit": "akhol",
+      "gloss": "to eat (Hebrew אָכַל)",
+      "note": "Equivocal: the primary sense (an animal taking in food), then two metaphors — destruction (the eaten thing's form perishes) and knowledge/learning (the body grows and endures by food).",
+      "variants": ["אכילה", "ואכלה", "תאכל", "אכול", "ואכלו", "אוכלת", "אוכלה", "תאכלו"]
+    },
+    {
+      "id": "khal-sura",
+      "ja": "כ'לע צורה",
+      "ar": "خلع صورة",
+      "translit": "khalʿ ṣūra",
+      "gloss": "stripping away of form (destruction)",
+      "note": "The first metaphor: 'eating' as every destroying and annihilating — fire and sword 'consume.' 'He is a consuming fire' = he annihilates rebels as fire annihilates what it seizes.",
+      "variants": []
+    },
+    {
+      "id": "idrakat-aqliyya",
+      "ja": "אלאדראכאת אלעקליה",
+      "ar": "الإدراكات العقليّة",
+      "translit": "al-idrākāt al-ʿaqliyya",
+      "gloss": "intellectual apprehensions",
+      "note": "The second metaphor: knowledge sustains the human form as food sustains the body — so 'eat,' 'honey,' and 'sweet to the taste' stand for wisdom.",
+      "variants": []
+    },
+    {
+      "id": "mayim-ilm",
+      "ja": "מים",
+      "translit": "mayim",
+      "gloss": "water = knowledge",
+      "note": "By extension the Sages named knowledge 'water' ('every one that thirsteth, come to the waters'), and 'hunger'/'thirst' the lack of it ('a famine … of hearing the words of the Lord').",
+      "variants": ["למים", "מאא"]
+    },
+    {
+      "id": "yonatan",
+      "ja": "יונתן בן עזיאל",
+      "translit": "Yonatan ben ʿUzziʾel",
+      "gloss": "Jonathan ben Uzziel (the Targum of the Prophets)",
+      "note": "He renders 'draw water out of the wells of salvation' (Isa 12:3) as 'receive a new teaching from the chosen of the righteous' — reading every word of the verse for knowledge and learning.",
+      "variants": []
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל אלת'לאת'ון — אכל",
+          "en": "Part One · Chapter Thirty — Akhol",
+          "isHeader": true
+        },
+        {
+          "ja": "אכל הד'ה אלכלמה וצ'עהא אלאול פי אללגה לתנאול אלחיואן מא יתנאולה מן אלגד'א והד'א מא לא יחתאג' לה מת'אל. ת'ם אן אללגה לחט'ת פי אלאכל מעניין אלמעני אלואחד הו תלאף אלשי אלמאכול וד'האבה אעני פסוד צורתה אולא ואלמעני אלאכ'ר נמי אלחיואן במא יתנאולה מן אלגד'א ודואם בקאיה בה ואסתמראר וג'ודה וצלאחיהֵ קוי אלבדן כלהא בה.",
+          "en": "Akhol — this word's first imposition in the language is for an animal's taking in of the food it takes; this needs no example. Then the language marked in 'eating' two meanings: the one meaning is the destruction of the thing eaten and its passing away — that is, the corruption of its form first; and the other meaning is the animal's growth by the food it takes, the continuance of its survival thereby, the persistence of its existence, and the soundness of all the body's faculties by it.",
+          "pairs": [
+            { "ja": "וצ'עהא אלאול פי אללגה", "en": "this word's first imposition in the language" },
+            { "ja": "לתנאול אלחיואן מא יתנאולה מן אלגד'א", "en": "for an animal's taking in of the food it takes" },
+            { "ja": "והד'א מא לא יחתאג' לה מת'אל", "en": "this needs no example" },
+            { "ja": "לחט'ת פי אלאכל מעניין", "en": "marked in 'eating' two meanings" },
+            { "ja": "הו תלאף אלשי אלמאכול וד'האבה", "en": "the destruction of the thing eaten and its passing away" },
+            { "ja": "אעני פסוד צורתה", "en": "that is, the corruption of its form" },
+            { "ja": "נמי אלחיואן במא יתנאולה מן אלגד'א", "en": "the animal's growth by the food it takes" },
+            { "ja": "ודואם בקאיה בה", "en": "the continuance of its survival thereby" },
+            { "ja": "וצלאחיהֵ קוי אלבדן כלהא בה", "en": "the soundness of all the body's faculties by it" }
+          ]
+        },
+        {
+          "ja": "פבחסב אלמעני אלואחד אסתעיר לשון אכילה לכל תלאף וכל אבאדה ובאלג'מלה לכל כ'לע צורה ואכלה אתכם ארץ אויביכם ארץ אוכלת יושביה חרב תאכלו תאכל חרב ותבער בם אש י״י ותאכל בקצה המחנה אש אוכלה הוא יעני יביד עצאתה אבאדהֵ אלנאר למא תתסלט עליה והד'א כת'יר.",
+          "en": "According to the one meaning, the term 'eating' was borrowed for every destroying and every annihilating — in sum, for every stripping-away of form: 'and the land of your enemies shall eat you up' (Lev 26:38); 'a land that eateth up its inhabitants' (Num 13:32); 'ye shall be devoured by the sword' (Isa 1:20); 'the sword shall devour' (2 Sam 11:25); 'and the fire of the Lord burned among them, and consumed them in the uttermost part of the camp' (Num 11:1); 'he is a consuming fire' (Deut 4:24) — meaning he annihilates those who rebel against him as fire annihilates whatever it takes hold of; and this is frequent.",
+          "pairs": [
+            { "ja": "אסתעיר לשון אכילה לכל תלאף וכל אבאדה", "en": "the term 'eating' was borrowed for every destroying and every annihilating" },
+            { "ja": "לכל כ'לע צורה", "en": "for every stripping-away of form" },
+            { "ja": "ואכלה אתכם ארץ אויביכם", "en": "and the land of your enemies shall eat you up" },
+            { "ja": "ארץ אוכלת יושביה", "en": "a land that eateth up its inhabitants" },
+            { "ja": "חרב תאכלו", "en": "ye shall be devoured by the sword" },
+            { "ja": "תאכל חרב", "en": "the sword shall devour" },
+            { "ja": "ותבער בם אש י״י ותאכל בקצה המחנה", "en": "and the fire of the Lord burned among them, and consumed them in the uttermost part of the camp" },
+            { "ja": "אש אוכלה הוא", "en": "he is a consuming fire" },
+            { "ja": "יביד עצאתה אבאדהֵ אלנאר", "en": "he annihilates those who rebel against him as fire annihilates" },
+            { "ja": "והד'א כת'יר", "en": "and this is frequent" }
+          ]
+        },
+        {
+          "ja": "ובחסב אלמעני אלאכ'יר אסתעיר לשון אכילה ללעלם ואלתעלם ובאלג'מלה ללאדראכאת אלעקליה אלתי ידום בהא בקא אלצורה אלאנסאניה עלי אכמל אלחאלאת כדואם אלג'סם באלגד'א עלי אחסן חאלאתה לכו שברו ואכלו שמעו שמוע אלי ואכלו טוב אכול דבש הרבות לא טוב אכל בני דבש כי טוב ונופת מתוק על חכך כן דעה חכמה לנפשך.",
+          "en": "According to the latter meaning, the term 'eating' was borrowed for knowledge and learning — in sum, for the intellectual apprehensions by which the survival of the human form endures in the most perfect of states, as the body's survival endures by food in its best state: 'come ye, buy, and eat' (Isa 55:1); 'hearken diligently unto me, and eat ye that which is good' (Isa 55:2); 'it is not good to eat much honey' (Prov 25:27); 'my son, eat thou honey, because it is good' (Prov 24:13); 'and the honeycomb is sweet to thy taste: so is the knowledge of wisdom unto thy soul' (Prov 24:13–14).",
+          "pairs": [
+            { "ja": "אסתעיר לשון אכילה ללעלם ואלתעלם", "en": "the term 'eating' was borrowed for knowledge and learning" },
+            { "ja": "ללאדראכאת אלעקליה", "en": "for the intellectual apprehensions" },
+            { "ja": "ידום בהא בקא אלצורה אלאנסאניה", "en": "the survival of the human form endures" },
+            { "ja": "כדואם אלג'סם באלגד'א", "en": "as the body's survival endures by food" },
+            { "ja": "לכו שברו ואכלו", "en": "come ye, buy, and eat" },
+            { "ja": "שמעו שמוע אלי ואכלו טוב", "en": "hearken diligently unto me, and eat ye that which is good" },
+            { "ja": "אכול דבש הרבות לא טוב", "en": "it is not good to eat much honey" },
+            { "ja": "אכל בני דבש כי טוב", "en": "my son, eat thou honey, because it is good" },
+            { "ja": "כן דעה חכמה לנפשך", "en": "so is the knowledge of wisdom unto thy soul" }
+          ]
+        },
+        {
+          "ja": "והד'א אלאסתעמאל איצ'א כת'יר פי כלאם אלחכמים אעני אלכנאיה ען אלעלם באלאכל תא אכלו בשרא שמינא בי רבא וקאלוא כל אכילה ושתיה האמורה בספר זה אינה אלא חכמה ופי בעץ' אלנסך' תורה. וכד'לך כת'ר תסמיתהם אלעלם מאא הוי כל צמא לכו למים.",
+          "en": "This usage too is frequent in the words of the Sages — I mean the metaphor of knowledge by 'eating': 'come, eat fat meat at the house of Rava' (b. Bava Batra 12a); and they said, 'all eating and drinking mentioned in this book is nothing but wisdom' (Kohelet Rabbah) — and in some recensions, 'the Torah.' And likewise they often named knowledge 'water': 'Ho, every one that thirsteth, come ye to the waters' (Isa 55:1).",
+          "pairs": [
+            { "ja": "פי כלאם אלחכמים", "en": "in the words of the Sages" },
+            { "ja": "אעני אלכנאיה ען אלעלם באלאכל", "en": "the metaphor of knowledge by 'eating'" },
+            { "ja": "תא אכלו בשרא שמינא בי רבא", "en": "come, eat fat meat at the house of Rava" },
+            { "ja": "כל אכילה ושתיה האמורה בספר זה אינה אלא חכמה", "en": "all eating and drinking mentioned in this book is nothing but wisdom" },
+            { "ja": "ופי בעץ' אלנסך' תורה", "en": "and in some recensions, 'the Torah" },
+            { "ja": "כת'ר תסמיתהם אלעלם מאא", "en": "they often named knowledge 'water'" },
+            { "ja": "הוי כל צמא לכו למים", "en": "Ho, every one that thirsteth, come ye to the waters" }
+          ]
+        },
+        {
+          "ja": "וממא כת'ר הד'א אלאסתעמאל פי אללגה ופשא חתי צאר כאנה אלוצ'ע אלאול אסתעמל איצ'א לפט' אלג'וע ואלעטש פי עדם אלעלם ואלאדראך והשלחתי רעב בארץ לא רעב ללחם ולא צמא למים כי אם לשמע את דברי י״י צמאה נפשי לאלהים לאל חי והד'א כת'יר. ותרג'ם יונתן בן עזיאל עליה אלסלאם ושאבתם מים בששון ממעיני הישועה קאל ותקבלון אולפן חדת בחדוא מבחירי צדיקיא פתאמל תאוילה מים אנה עלם ינאל פי תלך אלאיאם וג'על מעיני מת'ל מעיני העדה אעני אלאעיאן והם אלעלמא פקאל מבחירי צדיקיא אד' אלצדק הו אלישועה אלחקיקיה פארי כיף תאול כל כלמה פי הד'א אלפסוק למעני אלעלם ואלתעלם פאפהם הד'א:",
+          "en": "And because this usage became so frequent and widespread in the language that it became as if it were the original imposition, the terms 'hunger' and 'thirst' were likewise used for the absence of knowledge and apprehension: 'and I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of the Lord' (Amos 8:11); 'my soul thirsteth for God, for the living God' (Ps 42:3); and this is frequent. And Jonathan ben Uzziel, peace be upon him, rendered 'Therefore with joy shall ye draw water out of the wells of salvation' (Isa 12:3): 'and ye shall receive a new teaching with joy from the chosen of the righteous.' Consider his interpretation: that 'water' is knowledge to be attained in those days; and he made 'wells' like 'the eyes of the congregation' (Num 15:24) — that is, the notables, who are the learned — saying 'the chosen of the righteous,' since righteousness is the true salvation. See how he interpreted every word in this verse for the sense of knowledge and learning; understand this.",
+          "pairs": [
+            { "ja": "אסתעמל איצ'א לפט' אלג'וע ואלעטש", "en": "the terms 'hunger' and 'thirst' were likewise used" },
+            { "ja": "פי עדם אלעלם ואלאדראך", "en": "for the absence of knowledge and apprehension" },
+            { "ja": "והשלחתי רעב בארץ", "en": "and I will send a famine in the land" },
+            { "ja": "לא רעב ללחם ולא צמא למים", "en": "not a famine of bread, nor a thirst for water" },
+            { "ja": "כי אם לשמע את דברי י״י", "en": "but of hearing the words of the Lord" },
+            { "ja": "צמאה נפשי לאלהים לאל חי", "en": "my soul thirsteth for God, for the living God" },
+            { "ja": "ותרג'ם יונתן בן עזיאל עליה אלסלאם", "en": "And Jonathan ben Uzziel, peace be upon him, rendered" },
+            { "ja": "ושאבתם מים בששון ממעיני הישועה", "en": "Therefore with joy shall ye draw water out of the wells of salvation" },
+            { "ja": "תאוילה מים אנה עלם", "en": "his interpretation: that 'water' is knowledge" },
+            { "ja": "אד' אלצדק הו אלישועה אלחקיקיה", "en": "since righteousness is the true salvation" },
+            { "ja": "פאפהם הד'א", "en": "understand this" }
+          ]
+        }
+      ]
+    }
+  ]
+}

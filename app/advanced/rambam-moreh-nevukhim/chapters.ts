@@ -43,6 +43,14 @@ export const MOREH_CHAPTERS: MorehChapter[] = [
   { n: 26, slug: "26", title: "I:26 · Language of Men" },
   { n: 27, slug: "27", title: "I:27 · Onkelos" },
   { n: 28, slug: "28", title: "I:28 · Regel" },
+  { n: 29, slug: "29", title: "I:29 · Etzev" },
+  { n: 30, slug: "30", title: "I:30 · Akhol" },
+  { n: 31, slug: "31", title: "I:31 · Limits of Intellect" },
+  { n: 32, slug: "32", title: "I:32 · Restraint" },
+  { n: 33, slug: "33", title: "I:33 · Teaching Order" },
+  { n: 34, slug: "34", title: "I:34 · The Five Causes" },
+  { n: 35, slug: "35", title: "I:35 · Incorporeality Taught" },
+  { n: 36, slug: "36", title: "I:36 · Anger & Idolatry" },
 ];
 
 export const morehHref = (slug: string): string =>

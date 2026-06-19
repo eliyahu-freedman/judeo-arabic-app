@@ -33,6 +33,14 @@ import bab25 from "@/data/moreh-bab25.json";
 import bab26 from "@/data/moreh-bab26.json";
 import bab27 from "@/data/moreh-bab27.json";
 import bab28 from "@/data/moreh-bab28.json";
+import bab29 from "@/data/moreh-bab29.json";
+import bab30 from "@/data/moreh-bab30.json";
+import bab31 from "@/data/moreh-bab31.json";
+import bab32 from "@/data/moreh-bab32.json";
+import bab33 from "@/data/moreh-bab33.json";
+import bab34 from "@/data/moreh-bab34.json";
+import bab35 from "@/data/moreh-bab35.json";
+import bab36 from "@/data/moreh-bab36.json";
 
 /** A key-term card as authored inside each chapter's `terms[]`. */
 export type RawTermCard = {
@@ -60,6 +68,8 @@ const BY_CHAPTER: Record<number, { terms?: RawTermCard[] }> = {
   8: bab8, 9: bab9, 10: bab10, 11: bab11, 12: bab12, 13: bab13, 14: bab14,
   15: bab15, 16: bab16, 17: bab17, 18: bab18, 19: bab19, 20: bab20, 21: bab21,
   22: bab22, 23: bab23, 24: bab24, 25: bab25, 26: bab26, 27: bab27, 28: bab28,
+  29: bab29, 30: bab30, 31: bab31, 32: bab32, 33: bab33, 34: bab34, 35: bab35,
+  36: bab36,
 };
 
 type AlignedSeg = { ja: string; en: string; isHeader?: boolean };

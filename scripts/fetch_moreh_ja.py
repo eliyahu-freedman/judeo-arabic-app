@@ -1,18 +1,20 @@
 #!/usr/bin/env python3
-"""Fetch the public-domain Ibn Tibbon Hebrew of Guide Part I (ch. 1-28) from the
-Sefaria API → data/moreh-tibbon.json, for the Arabic ⇄ Ibn Tibbon parallel view.
+"""Fetch the Judeo-Arabic original of Guide Part I (ch. 29-36) from the Sefaria
+API → data/moreh-ja-jrb.json, as the source text for authoring moreh-bab{N}.json.
 
-Ibn Tibbon's medieval Hebrew translation is public domain; we fetch it from
-Sefaria ("Moreh Nevuchim, translated by Ibn Tibon", Public Domain). Uses curl
-(the system Python here lacks SSL roots). Polite serial fetch with a short pause.
+The on-disk FJMS source (resourceId 6) only covers I:1-28. Sefaria hosts the full
+Guide in Judeo-Arabic — version "Judeo Arabic, Paris, 1856 [jrb]" (the 1856
+Paris/Munk Arabic base, public-domain by age; Sefaria tags the licence "unknown").
+This is a *reference* scratch file — it does NOT overwrite the hand-authored
+moreh-bab*.json. Uses curl (the system Python here lacks SSL roots).
 
-Run:  python3 scripts/fetch_moreh_tibbon.py
+Run:  python3 scripts/fetch_moreh_ja.py
 """
 import json, re, subprocess, time, urllib.parse
 from pathlib import Path
 
 DATA = Path(__file__).resolve().parent.parent / "data"
-VERSION = "Moreh Nevuchim, translated by Ibn Tibon"
+VERSION = "Judeo Arabic, Paris, 1856 [jrb]"
 TAG = re.compile(r"<[^>]+>")
 WS = re.compile(r"\s+")
 
@@ -41,20 +43,20 @@ def fetch(n: int) -> list[str]:
 
 def main():
     chapters = {}
-    for n in range(1, 37):
+    for n in range(29, 37):
         segs = fetch(n)
         chapters[str(n)] = segs
         print(f"ch{n}: {len(segs)} segments")
         time.sleep(0.4)
     doc = {
-        "_note": "Ibn Tibbon's medieval Hebrew translation of Guide Part I, ch. 1-36, "
-                 "for the Arabic-vs-translation parallel view. HTML stripped.",
+        "_note": "Judeo-Arabic original of Guide Part I, ch. 29-36, fetched as the "
+                 "source text for authoring the reader's moreh-bab{N}.json. HTML stripped.",
         "_source": "Sefaria (https://www.sefaria.org), API",
         "_versionTitle": VERSION,
-        "_license": "Public Domain",
+        "_license": "unknown (Sefaria tag); public-domain by age (1856 Paris base)",
         "chapters": chapters,
     }
-    path = DATA / "moreh-tibbon.json"
+    path = DATA / "moreh-ja-jrb.json"
     path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {path}: {len(chapters)} chapters")
 

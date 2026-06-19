@@ -4,12 +4,17 @@ Hand-off plan for a fresh session. Pairs with `MOREH-CONTINUATION.md` (the per-c
 pattern + gotchas) — read that first; this file is the *what next* and the *new, easier source*.
 
 ## Where we are
-- **Live: Part I, chapters 1–28** (the complete "lexicon of equivocal terms"), plus four companion
-  features (Atlas, verse reverse-index, library-wide search, Arabic⇄Ibn-Tibbon). See MOREH-CONTINUATION.md.
-- **Part I has 76 chapters** (confirmed via Sefaria: Part 1.76 exists, 1.77 does not). So **44 chapters
-  of Part I remain (I:29–76)** — these are continuous philosophical essays (limits of the intellect,
-  the divine attributes, negative theology, the kalām critique), **denser and longer** than the short
-  lexical chapters 1–28.
+- **Live: Part I, chapters 1–36** (1–28 the "lexicon of equivocal terms"; **I:29–36 added 2026-06-19**
+  from Sefaria's jrb JA — etzev/akhol, then the first essay arc: limits of intellect, restraint,
+  teaching-order, the five causes [I:34], incorporeality-is-not-a-secret, anger/idolatry). Plus four
+  companion features (Atlas, verse reverse-index, library-wide search, Arabic⇄Ibn-Tibbon). See
+  MOREH-CONTINUATION.md. Build clean: 306 static pages, `GATE PASSED`, substring `PROBLEMS: 0`.
+- **Part I has 76 chapters** (confirmed via Sefaria: Part 1.76 exists, 1.77 does not). So **40 chapters
+  of Part I remain (I:37–76)** — continuous philosophical essays (the divine attributes, negative
+  theology, the kalām critique), **denser and longer** than the short lexical chapters 1–28.
+- **Next chunk: I:37–40** (panim/achor/lev/ruach — a short lexical cluster, a quick session) or push
+  into the attributes essays (I:50 onward). `scripts/fetch_moreh_ja.py` already exists — just widen
+  its `range()`. Repeat the exact pipeline below.
 
 ## The source problem is solved — use Sefaria's Judeo-Arabic
 The on-disk FJMS source (`data-source/rambam-moreh/rambam-moreh.txt`, resourceId 6) only has I:1–28.

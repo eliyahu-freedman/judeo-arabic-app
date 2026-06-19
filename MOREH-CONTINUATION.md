@@ -33,10 +33,12 @@ Hittite/until, and-Gad/he-found, book/journey). Coverage gate still `GATE PASSED
 
 ## Where things stand
 
-- **Live: all of Part I, chapters 1–28 — Part I is now COMPLETE.** I:1 pre-existing; I:2–I:14
-  added 2026-06-19; **I:15–I:28 added 2026-06-19** with the full treatment (working-draft English,
-  phrase-by-phrase JA↔EN hover, per-chapter key terms, 100% hand-dictionary coverage). No QC pass
-  on I:15–I:28 (drafted from the JA, citations by hand — the user's standing choice).
+- **Live: Part I, chapters 1–36.** I:1 pre-existing; I:2–I:14 + I:15–I:28 added 2026-06-19 (1–28
+  committed @ `a5ffcc3`); **I:29–I:36 added 2026-06-19** from Sefaria's jrb JA (`scripts/fetch_moreh_ja.py`
+  → `data/moreh-ja-jrb.json`), full treatment (working-draft English, phrase-by-phrase JA↔EN hover,
+  per-chapter key terms, 100% hand-dictionary coverage — 413 new `dictionary-lane.json` entries).
+  I:29–36 are **NOT yet committed**. No QC pass (drafted from the JA, citations by hand — standing choice).
+  Build clean: 306 static pages, `GATE PASSED`, substring `PROBLEMS: 0`. Next chunk: see MOREH-NEXT-CHUNK-PLAN.md.
 - **I:15–I:28 are NOT yet committed** (the `moreh-guide-i2-i14` branch @ `1088f93` only holds
   I:2–I:14; repo has no GitHub remote). New files: `data/moreh-bab15.json … moreh-bab28.json`,
   ~274 new `data/dictionary-lane.json` entries, wired in `[ch]/page.tsx` + `chapters.ts` +
