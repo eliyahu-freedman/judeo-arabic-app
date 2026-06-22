@@ -517,7 +517,7 @@ function JaText({
           ? alignment.ja.find((s) => s.start <= tokenStart && s.end >= tokenEnd)
               ?.groupId ?? null
           : null;
-        const inHover = i === hoveredIdx;
+        const inHover = i === hoveredIdx && groupForRange !== null;
         if (t.kind === "sep") {
           return <span key={i}>{t.text}</span>;
         }
