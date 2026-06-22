@@ -79,11 +79,19 @@ type HoveredGroup = { segId: string; groupId: number };
 export type ReaderNav = {
   /** Short series label, e.g. "Guide of the Perplexed · Part I". */
   label: string;
-  /** Ordered chapters; `n` matches `currentN` to mark the active one. */
+  /** Ordered chapters for the current part — used for prev/next. */
   chapters: { n: number; title: string; href: string }[];
   currentN: number;
+  /** Exact href of the active chapter; required when `groups` is present. */
+  activeHref?: string;
   /** Optional index/companion links (e.g. Atlas, Verses) shown above the chips. */
   aux?: { title: string; href: string; external?: boolean }[];
+  /** When present, renders chapters as collapsible part groups instead of a flat list. */
+  groups?: {
+    label: string;
+    defaultOpen?: boolean;
+    chapters: { n: number; title: string; href: string }[];
+  }[];
 };
 
 export function AdvancedReader({
@@ -219,7 +227,6 @@ export function AdvancedReader({
                           onTap={setActiveToken}
                           termIndex={termIndex}
                           alignment={null}
-                          hoveredGroupId={null}
                           onHoverGroup={() => {}}
                         />
                       </p>
@@ -298,6 +305,30 @@ function ChapterNav({ nav }: { nav: ReaderNav }) {
   const prev = idx > 0 ? nav.chapters[idx - 1] : null;
   const next =
     idx >= 0 && idx < nav.chapters.length - 1 ? nav.chapters[idx + 1] : null;
+
+  const renderChip = (c: { n: number; title: string; href: string }) => {
+    const isActive = nav.groups
+      ? c.href === nav.activeHref
+      : c.n === nav.currentN;
+    return isActive ? (
+      <span
+        key={c.href}
+        aria-current="page"
+        className="rounded-full px-3 py-1 text-sm bg-wine-100 text-wine-700 border border-wine-200"
+      >
+        {c.title}
+      </span>
+    ) : (
+      <Link
+        key={c.href}
+        href={c.href}
+        className="rounded-full px-3 py-1 text-sm border border-ink/15 text-ink/70 hover:border-wine/40 hover:text-wine transition-colors"
+      >
+        {c.title}
+      </Link>
+    );
+  };
+
   return (
     <nav className="mb-10" aria-label="Chapters">
       <p className="text-[10px] uppercase tracking-[0.3em] text-muted mb-2">
@@ -328,27 +359,31 @@ function ChapterNav({ nav }: { nav: ReaderNav }) {
           )}
         </div>
       )}
-      <div className="flex flex-wrap gap-2">
-        {nav.chapters.map((c) =>
-          c.n === nav.currentN ? (
-            <span
-              key={c.n}
-              aria-current="page"
-              className="rounded-full px-3 py-1 text-sm bg-wine-100 text-wine-700 border border-wine-200"
+      {nav.groups ? (
+        <div className="space-y-1">
+          {nav.groups.map((g) => (
+            <details
+              key={g.label}
+              open={g.defaultOpen || undefined}
+              className="group/part"
             >
-              {c.title}
-            </span>
-          ) : (
-            <Link
-              key={c.n}
-              href={c.href}
-              className="rounded-full px-3 py-1 text-sm border border-ink/15 text-ink/70 hover:border-wine/40 hover:text-wine transition-colors"
-            >
-              {c.title}
-            </Link>
-          ),
-        )}
-      </div>
+              <summary className="cursor-pointer list-none flex items-center gap-1.5 select-none py-1 text-sm font-medium text-ink/60 hover:text-wine">
+                <span className="inline-block text-xs transition-transform duration-150 group-open/part:rotate-90">
+                  ▶
+                </span>
+                {g.label}
+              </summary>
+              <div className="flex flex-wrap gap-2 pt-2 pb-3">
+                {g.chapters.map(renderChip)}
+              </div>
+            </details>
+          ))}
+        </div>
+      ) : (
+        <div className="flex flex-wrap gap-2">
+          {nav.chapters.map(renderChip)}
+        </div>
+      )}
       {(prev || next) && (
         <div className="mt-3 flex justify-between gap-4 text-sm">
           {prev ? (
@@ -425,7 +460,6 @@ function AlignedSegments({
                 onTap={onTap}
                 termIndex={termIndex}
                 alignment={alignment}
-                hoveredGroupId={hoveredGroupId}
                 onHoverGroup={setGroup}
               />
             </p>
@@ -455,7 +489,6 @@ function JaText({
   onTap,
   termIndex,
   alignment,
-  hoveredGroupId,
   onHoverGroup,
 }: {
   text: string;
@@ -463,9 +496,9 @@ function JaText({
   onTap: (t: string) => void;
   termIndex: TermIndex;
   alignment: VerseAlignment | null;
-  hoveredGroupId: number | null;
   onHoverGroup: (groupId: number | null) => void;
 }) {
+  const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
   const tokens = tokenizeJa(text);
   // Precompute each token's char range up front so the render map below
   // doesn't mutate a running offset (react-hooks/immutability).
@@ -484,30 +517,25 @@ function JaText({
           ? alignment.ja.find((s) => s.start <= tokenStart && s.end >= tokenEnd)
               ?.groupId ?? null
           : null;
-        const inHover =
-          groupForRange !== null && groupForRange === hoveredGroupId;
+        const inHover = i === hoveredIdx;
         if (t.kind === "sep") {
-          return (
-            <span key={i} className={inHover ? "bg-amber-100/70" : undefined}>
-              {t.text}
-            </span>
-          );
+          return <span key={i}>{t.text}</span>;
         }
         const isActive = activeToken === t.text;
         const isTerm = lookupTerm(termIndex, t.text) !== null;
-        const groupHandlers =
-          groupForRange !== null
-            ? {
-                onMouseEnter: () => onHoverGroup(groupForRange),
-                onMouseLeave: () => onHoverGroup(null),
-              }
-            : {};
         return (
           <button
             key={i}
             type="button"
             onClick={() => onTap(t.text)}
-            {...groupHandlers}
+            onMouseEnter={() => {
+              setHoveredIdx(i);
+              if (groupForRange !== null) onHoverGroup(groupForRange);
+            }}
+            onMouseLeave={() => {
+              setHoveredIdx(null);
+              onHoverGroup(null);
+            }}
             title={isTerm ? "Key term — see panel" : undefined}
             className={`inline cursor-pointer rounded-sm transition-colors px-0.5 -mx-0.5
               ${
