@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import data from "@/data/saadia-emunot-intro.json";
 import { AdvancedReader, type WorkData } from "../reader";
+import { buildEmunotNavIntro } from "./chapters";
 
 export const metadata: Metadata = {
   title: "Emunot v'Deot — Saadia Gaon's Book of Beliefs and Opinions in Judeo-Arabic",
@@ -10,5 +11,5 @@ export const metadata: Metadata = {
 };
 
 export default function SaadiaEmunotPage() {
-  return <AdvancedReader data={data as unknown as WorkData} />;
+  return <AdvancedReader data={data as unknown as WorkData} nav={buildEmunotNavIntro()} />;
 }

@@ -1,0 +1,133 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 44 — ʿAyin: Eye, Spring, and the Providence of God",
+  "section_ja": "אלג'ז אלאול · אלפצל ארבעים וארבעה",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 44 examines the word ʿayin (עין), which Maimonides identifies as carrying three primary senses: (1) a spring or source of water; (2) the eye as visual organ; and (3) care, oversight, and providential attention. The third sense is the philosophically central one: whenever Scripture speaks of 'the eye of God' being upon something, it means divine providence — not literal vision through an organ, which would entail corporeality.\n\nThe chapter also introduces an important qualification: when ʿayin appears in conjunction with an explicit verb of seeing or beholding — 'open Your eyes and see,' 'His eyes behold' — the meaning shifts from the noun to the act of intellectual apprehension. God's 'seeing' is entirely intellectual, not sensory: He has no sensory apparatus, no organ that undergoes change through stimulation, no passive reception. All sensation involves affection (infiʿāl) and alteration; the God of the philosophers is pure act, in no respect passive. Thus the chapter anticipates the Guide's sustained argument in Part I against all divine attributes that imply change, composition, or passivity.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 2
+  },
+  "terms": [
+    {
+      "id": "ayin",
+      "ja": "עין",
+      "translit": "ʿayin",
+      "gloss": "eye; spring; providential care",
+      "note": "The chapter's subject. In its third sense (ʿinaya = providential oversight), ʿayin is the dominant mode of its use when attributed to God in Scripture.",
+      "variants": [
+        "עינים",
+        "עיני",
+        "עיניו"
+      ]
+    },
+    {
+      "id": "inaya",
+      "ja": "אלענאיה",
+      "ar": "العناية",
+      "translit": "al-ʿināya",
+      "gloss": "providential care, oversight, attention",
+      "note": "The decisive theological gloss for ʿayin when attributed to God. 'The eyes of the Lord your God are upon it' (Deut 11:12) = His providence encompasses it.",
+      "variants": [
+        "ענאיתה",
+        "ענאיתי"
+      ]
+    },
+    {
+      "id": "idrak-aqli",
+      "ja": "אלאדראך אלעקלי",
+      "ar": "الإدراك العقلي",
+      "translit": "al-idrāk al-ʿaqlī",
+      "gloss": "intellectual apprehension",
+      "note": "When ʿayin appears with an explicit verb of seeing, the sense is intellectual apprehension — not sensory perception. God perceives through intellect, which involves no affection or alteration.",
+      "variants": [
+        "אדרך",
+        "אדראך"
+      ]
+    },
+    {
+      "id": "infiaal",
+      "ja": "אנפעאל",
+      "ar": "انفعال",
+      "translit": "infiʿāl",
+      "gloss": "affection, passivity, being acted upon",
+      "note": "The defining characteristic of all sensation: every sense organ undergoes change through stimulation (infiʿāl). Since God is pure act and wholly unaffected, He cannot have sense organs in any literal sense.",
+      "variants": []
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל ארבעים וארבעה",
+          "en": "Part One · Chapter Forty-Four — ʿAyin: Eye, Spring, and the Providence of God",
+          "isHeader": true
+        },
+        {
+          "ja": "עין אסם משתרך. הו אסם עין אלמא על עין המים במדבר. והו אסם אלעין אלבאצרה עין תחת עין. והו אסם אלענאיה קאל ען ירמיה קחנו ועיניך שים עליו מענאה אג'על ענאיתך בה. ובחסב הד'ה אלאסתעארה קיל פי חק אללה פי כל מוצ'ע והיו עיני ולבי שם כל הימים ענאיתי וגרצ'י כמא קדמנא תמיד עיני י״י אלהיך בה ענאיתה בהא עיני י״י המה משוטטות ענאיתה משתמלה בכל מא פי אלארץ' איצ'א כמא יד'כר פי פצול תאתי פי אלענאיה.",
+          "en": "ʿAyin is an equivocal term. It is the name for a spring of water: 'by the spring of water in the wilderness' (Gen 16:7). And it is the name for the seeing eye: 'an eye for an eye' (Ex 21:24). And it is the name for care and oversight: it was said concerning Jeremiah, 'take him and set your eyes upon him' (Jer 39:12) — meaning: place your care upon him. According to this metaphor it is said of God in every passage: 'and My eyes and My heart shall be there always' (1 Kgs 9:3) — meaning: My care and My purpose, as I have already noted; 'the eyes of the Lord your God are perpetually upon it' (Deut 11:12) — His care encompasses it; 'the eyes of the Lord roam over it' (Zech 4:10) — His care encompasses all that is in the earth as well, as will be mentioned in the chapters to come on providence.",
+          "pairs": [
+            {
+              "ja": "עין אסם משתרך",
+              "en": "ʿAyin is an equivocal term"
+            },
+            {
+              "ja": "הו אסם עין אלמא",
+              "en": "It is the name for a spring of water"
+            },
+            {
+              "ja": "על עין המים במדבר",
+              "en": "by the spring of water in the wilderness"
+            },
+            {
+              "ja": "והו אסם אלעין אלבאצרה עין תחת עין",
+              "en": "the name for the seeing eye: 'an eye for an eye'"
+            },
+            {
+              "ja": "והו אסם אלענאיה",
+              "en": "And it is the name for care and oversight"
+            },
+            {
+              "ja": "קחנו ועיניך שים עליו מענאה אג'על ענאיתך בה",
+              "en": "meaning: place your care upon him"
+            },
+            {
+              "ja": "תמיד עיני י״י אלהיך בה ענאיתה בהא",
+              "en": "His care encompasses it"
+            },
+            {
+              "ja": "עיני י״י המה משוטטות ענאיתה משתמלה בכל מא פי אלארץ'",
+              "en": "His care encompasses all that is in the earth"
+            }
+          ]
+        },
+        {
+          "ja": "אמא אד'א אקתרן באלעינין לפט' ראיה או חזיה מת'ל פקח עיניך וראה עיניו יחזו פמעני ד'לך כלה אלאדראך אלעקלי לא אדראך חסי אד' כל אחסאס אנפעאל ותאת'ר כמא עלמת והו תעאלי פאעל לא מנפעל כמא סאבין:",
+          "en": "But when the word 'eyes' is joined to an explicit term of seeing or beholding — such as 'open Your eyes and see' (Dan 9:18), 'His eyes behold' (Ps 11:4) — the meaning of all this is intellectual apprehension, not sensory perception. For every sensation involves affection and passivity, as you know; and He, exalted be He, is pure act and not passive — as I shall explain.",
+          "pairs": [
+            {
+              "ja": "אמא אד'א אקתרן באלעינין לפט' ראיה או חזיה",
+              "en": "But when the word 'eyes' is joined to an explicit term of seeing or beholding"
+            },
+            {
+              "ja": "פמעני ד'לך כלה אלאדראך אלעקלי לא אדראך חסי",
+              "en": "the meaning of all this is intellectual apprehension, not sensory perception"
+            },
+            {
+              "ja": "אד' כל אחסאס אנפעאל ותאת'ר",
+              "en": "For every sensation involves affection and passivity"
+            },
+            {
+              "ja": "והו תעאלי פאעל לא מנפעל",
+              "en": "and He, exalted be He, is pure act and not passive"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

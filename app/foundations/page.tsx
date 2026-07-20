@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { GuidedPath } from "@/components/GuidedPath";
 import { CURRICULUM } from "@/lib/curriculum";
 
 export const metadata: Metadata = {
@@ -16,15 +15,15 @@ const steps = CURRICULUM.filter((s) => s.id !== "tafsir");
 
 export default function FoundationsHub() {
   return (
-    <div className="max-w-3xl mx-auto px-6 py-16 sm:py-24">
-      <header className="mb-12">
+    <div className="max-w-5xl mx-auto px-6 py-16 sm:py-24">
+      <header className="mb-12 max-w-2xl">
         <p className="label mb-3">
           Stage I · Foundations
         </p>
         <h1 className="display text-4xl text-ink">
           Everything before <span className="text-wine italic">Saadia</span>.
         </h1>
-        <p className="mt-6 text-base text-ink/75 leading-relaxed max-w-xl">
+        <p className="mt-6 text-base text-ink/75 leading-relaxed">
           A short, ordered path from zero to reading. Learn the Hebrew letters
           as Arabic sounds, the conventions of a real manuscript page, the
           words and grammar you already half-know — and finish by decoding your
@@ -32,9 +31,7 @@ export default function FoundationsHub() {
         </p>
       </header>
 
-      <GuidedPath />
-
-      <ol className="space-y-4">
+      <ol className="grid gap-4 lg:grid-cols-2">
         {steps.map((step, i) => (
           <li key={step.id}>
             <Link href={step.href} className="group block">

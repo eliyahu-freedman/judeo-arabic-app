@@ -5,3 +5,12 @@ __pycache__
 .venv*
 *.pyc
 .DS_Store
+
+# Rabbinics project (separate app)
+app/talmud
+app/mishna
+components/MishnaReader.tsx
+components/TalmudReader.tsx
+components/StageStrip.tsx
+data/talmud-*.json
+data/mishna-*.json

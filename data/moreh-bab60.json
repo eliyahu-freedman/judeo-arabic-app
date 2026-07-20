@@ -1,0 +1,236 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 60 — A Parable of Negations: The Ship",
+  "section_ja": "אלג'ז אלאול · אלפצל ששים",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 60 consolidates the argument of chapters 56–59 with two devices: a parable and a sharp philosophical critique of how positive attribute-predication fails. The famous parable of the ship illustrates how successive negations bring a person asymptotically close to the truth: a series of people are each told one further negation about an unknown object, and the last person, having heard the most negations, comes closest to grasping what a ship actually is — even though no single negation told him the positive content.\n\nMaimonides then extends the critique: not only does positive attribute-predication introduce multiplicity (the composition of subject and predicate), but more devastatingly, it actually implies the non-existence of God. Because the attributes proposed (e.g., God is a subject with essential properties) describe something that does not and cannot exist — pure being without composition — the person who positively attributes has fastened the divine name onto a non-existent object. He is not merely imprecise; he has defined 'God' in such a way that nothing real can answer to it.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 7
+  },
+  "terms": [
+    {
+      "id": "safīna",
+      "ja": "אלספינה",
+      "ar": "السفينة",
+      "translit": "al-safīna",
+      "gloss": "the ship (the parable-object)",
+      "note": "The parable-object used to illustrate how accumulating negations progressively specifies even without any positive content. The last person in the series comes closest to grasping the ship's nature.",
+      "variants": [
+        "ספינה",
+        "ספינתה"
+      ]
+    },
+    {
+      "id": "ismiyya",
+      "ja": "אלאסמיה",
+      "ar": "الاسمية",
+      "translit": "al-ismiyya",
+      "gloss": "the name / the nominal",
+      "note": "Maimonides asks whether a name falls on a substance or an accident — what the name actually denotes. The positive-attribute theologian ultimately fixes the divine name onto an 'absolute non-existent.'",
+      "variants": [
+        "אסמיה"
+      ]
+    },
+    {
+      "id": "mawḍūʿ-maḥmūlāt",
+      "ja": "מוצ'וע מא אקתרנת בה מעאני",
+      "ar": "موضوع محمولات",
+      "translit": "mawḍūʿ + maḥmūlāt",
+      "gloss": "subject bearing predicates",
+      "note": "The Aristotelian subject-predicate structure: to say God is a 'subject with attributes' is to impose composition on absolute simplicity, and thus necessarily implies multiplicity.",
+      "variants": [
+        "מוצ'וע",
+        "מחמולאת"
+      ]
+    },
+    {
+      "id": "ʿadam-maḥḍ",
+      "ja": "עדם מחץ'",
+      "ar": "عدم محض",
+      "translit": "ʿadam maḥḍ",
+      "gloss": "pure non-existence",
+      "note": "The devastating conclusion: one who predicates positive attributes of God has affixed the divine name to a concept that describes nothing real — pure non-existence.",
+      "variants": [
+        "עדם",
+        "מעדום"
+      ]
+    },
+    {
+      "id": "daraja",
+      "ja": "דרג'ה",
+      "ar": "درجة",
+      "translit": "daraja",
+      "gloss": "degree (of cognitive proximity)",
+      "note": "Each demonstrated negation advances the knower by one degree in the direction of God — not physical nearness but epistemic proximity.",
+      "variants": [
+        "דרג'ת"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל ששים",
+          "en": "Part One · Chapter Sixty — A Parable of Negations: The Ship",
+          "isHeader": true
+        },
+        {
+          "ja": "אנא אריד אן אמת'ל לך אמת'אלא פי הד'א אלפצל תזדאד בהא תצורא לוג'וב תכת'יר צפאתה באלסואלב ותזדאד בהא נפורא מן אעתקאד צפאת איג'אב לה תעאלי. אנזל אן אנסאנא תחקק אן אלספינה מוג'ודה ולם יעלם הד'ה אלאסמיה עלי אי שי תקע הל עלי ג'והר מא או עלי ערץ' ת'ם תבין לשכ'ץ אכ'ר אנהא ליסת בערץ' ת'ם תבין לאכ'ר אנהא ליסת במעדן ת'ם תבין לאכ'ר אנהא ליסת בחיואן ת'ם תבין לאכ'ר אנהא ליסת בנבאת מתצל באלארץ' ת'ם תבין לאכ'ר אנהא ליסת בג'סם ואחד מתצל אתצאלא טביעיא ת'ם תבין לאכ'ר אנהא ליסת ד'את שכל בסיט כאלאלואח ואלאבואב ת'ם תבין לאכ'ר אנהא ליסת כרה ותבין לאכ'ר אנהא ליסת הי מכ'רוטה ותבין לאכ'ר אנהא ליסת מדורה ולא ד'את אצ'לאע מסתויה ותבין לאכ'ר אנהא ליסת מצמתה. פבין הו אן הד'א אלאכ'יר יכאד אנה וצל לתצור אלספינה עלי מא הי עליה בהד'ה אלצפאת אלסלביה וכאנה סאוי מן תצורהא באנהא ג'סם מן כ'שב מג'וף מסתטיל מולף מן אכ'שאב עדה אלד'י קד תצורהא בצפאת אלאיג'אב אמא אלמתקדמון אלד'ין מת'לנא בהם פכל ואחד מנהם אבעד מן תצור אלספינה מן אלד'י בעדה חתי אן אלאול פי מת'לנא לא יעלם גיר מג'רד אלאסמיה פקט.",
+          "en": "I wish to set before you in this chapter some analogies through which you will gain a clearer conception of the necessity of multiplying His attributes through negations, and through which you will gain a stronger aversion to believing positive attributes of Him, exalted be He. Suppose that a person has established that a ship exists, but does not know what this name applies to — whether to some substance or to an accident. Then it becomes clear to a second person that it is not an accident; then clear to another that it is not a mineral; then clear to another that it is not an animal; then clear to another that it is not a plant rooted in the earth; then clear to another that it is not a single body joined in a natural joining; then clear to another that it is not a simple flat shape like planks and doors; then clear to another that it is not a sphere; clear to another that it is not a cone; clear to another that it is not circular nor of straight sides; clear to another that it is not solid. Now it is evident that this last person has almost reached the conception of what a ship actually is through these negative attributes — and he is nearly equivalent to one who conceived it as a hollow oblong wooden body composed of multiple timbers, which is the one who conceived it through positive attributes. As for those who came before, whom we used as illustrations, each one of them is further from conceiving the ship than the one after him — so much so that the first person in our illustration knows nothing more than the name alone.",
+          "pairs": [
+            {
+              "ja": "אנזל אן אנסאנא תחקק אן אלספינה מוג'ודה ולם יעלם הד'ה אלאסמיה עלי אי שי תקע",
+              "en": "Suppose that a person has established that a ship exists, but does not know what this name applies to"
+            },
+            {
+              "ja": "ת'ם תבין לשכ'ץ אכ'ר אנהא ליסת בערץ'",
+              "en": "Then it becomes clear to a second person that it is not an accident"
+            },
+            {
+              "ja": "הד'א אלאכ'יר יכאד אנה וצל לתצור אלספינה עלי מא הי עליה",
+              "en": "this last person has almost reached the conception of what a ship actually is"
+            },
+            {
+              "ja": "כאנה סאוי מן תצורהא באנהא ג'סם מן כ'שב מג'וף מסתטיל",
+              "en": "he is nearly equivalent to one who conceived it as a hollow oblong wooden body"
+            },
+            {
+              "ja": "כל ואחד מנהם אבעד מן תצור אלספינה מן אלד'י בעדה",
+              "en": "each one of them is further from conceiving the ship than the one after him"
+            },
+            {
+              "ja": "אלאול פי מת'לנא לא יעלם גיר מג'רד אלאסמיה פקט",
+              "en": "the first person in our illustration knows nothing more than the name alone"
+            }
+          ]
+        },
+        {
+          "ja": "פהכד'א תקרבך צפאת אלסלב מן מערפהֵ אללה תעאלי ואדראכה פאחרץ כל אלחרץ אן תזדאד סלב שי באלברהאן לא אן תסלב באלקול פקט פאנה כלמא תבין לך באלברהאן סלב שי מט'נון וג'ודה לה תעאלי ענה כנת קד קרבת מנה דרג'ה בלא שך",
+          "en": "So do negative attributes bring you near to knowledge and apprehension of God, exalted be He. Therefore strive with all your effort to increase the negation of a thing by proof — not to negate by mere verbal utterance; for whenever it becomes clear to you by proof that something supposedly belonging to Him, exalted be He, is negated from Him, you have without doubt drawn one degree closer to Him.",
+          "pairs": [
+            {
+              "ja": "פהכד'א תקרבך צפאת אלסלב מן מערפהֵ אללה תעאלי",
+              "en": "So do negative attributes bring you near to knowledge and apprehension of God, exalted be He"
+            },
+            {
+              "ja": "פאחרץ כל אלחרץ אן תזדאד סלב שי באלברהאן לא אן תסלב באלקול פקט",
+              "en": "strive with all your effort to increase the negation of a thing by proof — not to negate by mere verbal utterance"
+            },
+            {
+              "ja": "כלמא תבין לך באלברהאן סלב שי מט'נון וג'ודה לה תעאלי ענה כנת קד קרבת מנה דרג'ה",
+              "en": "whenever it becomes clear to you by proof that something supposedly belonging to Him, exalted be He, is negated from Him, you have without doubt drawn one degree closer to Him"
+            }
+          ]
+        },
+        {
+          "ja": "ובהד'ה אלג'הה צאר קום מקרבין מנה ג'דא ואכ'רון פי גאיהֵ אלבעד לא אן ת'ם קרב מכאן פיקרב מנה ויבעד כמא יט'ן עמיאן אלבצאיר פאפהם הד'א ג'דא ואערפה וכן בה גביטא פקד באן לך אלטריק אלתי אד'א סלכתהא קרבת מנה תעאלי פאסלכהא אן שית.",
+          "en": "By this means some people have come to be very near to Him, while others are at the extreme of distance — not that there is a spatial nearness such that one draws near to Him or goes far from Him, as the blind in insight suppose. Understand this thoroughly, know it well, and hold it firmly; for the path has been made clear to you: if you traverse it, you will come near to Him, exalted be He. Traverse it if you wish.",
+          "pairs": [
+            {
+              "ja": "צאר קום מקרבין מנה ג'דא ואכ'רון פי גאיהֵ אלבעד",
+              "en": "some people have come to be very near to Him, while others are at the extreme of distance"
+            },
+            {
+              "ja": "לא אן ת'ם קרב מכאן פיקרב מנה ויבעד",
+              "en": "not that there is a spatial nearness such that one draws near to Him or goes far from Him"
+            },
+            {
+              "ja": "פקד באן לך אלטריק אלתי אד'א סלכתהא קרבת מנה תעאלי",
+              "en": "the path has been made clear to you: if you traverse it, you will come near to Him, exalted be He"
+            }
+          ]
+        },
+        {
+          "ja": "ואמא וצפה תעאלי באלאיג'אבאת פפיה כ'טר עט'ים לאנה קד תברהן אן כל מא עסאה אן נט'נה כמאלא ולו כאן ד'לך אלכמאל מוג'ודא לה בחסב ראי מן יקול באלצפאת פאנה ליס מן נוע אלכמאל אלד'י נט'נה בל באשתראך יקאל פקט עלי מא בינא פבאלצ'רורה תכ'רג' למעני אלסלב לאנך אד'א קלת עאלם בעלם ואחד בד'לך אלעלם אלגיר מתגיר ולא מתכת'ר יעלם אלאמור אלכת'ירה אלמתגירה אלדאימהֵ אלתג'דד מן גיר אן יתג'דד לה עלם ועלמה באלשי קבל כונה ובעד חצולה מוג'ודא ובעד עדמה מן אלוג'וד עלם ואחד לא תגיר פיה פקד צרחת באנה עאלם בעלם ליס מת'ל עלמנא וכד'לך ילזם אנה מוג'וד וליס במעני אלוג'וד פינא פקד אתית באלסואלב צ'רורה פלם תחצל עלי תחקיק צפה ד'אתיה לכן חצלת עלי אלתכת'יר וכונך תעתקד אנה ד'את מא ולהא צפאת מג'הולה אד' הד'ה אלתי תזעם איג'אבהא לה אנת תנפי ענהא אלשבה בהד'ה אלצפאת אלמעלומה ענדנא פהי אד'א ליסת מן נועהא פכאנה קד כ'רג' בך אלאמר באיג'אב אלצפאת אן קלת אן אללה תעאלי מוצ'וע מא תחמל עליה מחמולאת מא לא ד'לך אלמוצ'וע מת'ל הד'ה אלמחמולאת פיכון גאיהֵ אדראכנא בהד'ה אלעקידה אלשרך לא גיר לאן כל מוצ'וע פהו ד'ו מחמולאת בלא שך והו את'נאן באלחד ואן כאן ואחדא באלוג'וד לאן מעני אלמוצ'וע גיר מעני אלמחמול עליה וסיתבין לך פי פצול הד'ה אלמקאלה אלברהאן עלי אמתנאע אלתרכיב פיה תעאלי בל אלבסאטה אלמחצ'ה פי אלגאיה אלקצוי.",
+          "en": "As for describing Him, exalted be He, through positive attributes — in it there is a great danger. For it has been demonstrated that anything we might suppose to be a perfection — even if that perfection were to exist in Him, according to the view of those who hold attributes — it is not of the genus of the perfection we suppose; it is said only by pure homonymy, as we explained. So you are necessarily brought to the meaning of negation; for if you say 'knowing through a single knowledge — through that knowledge which is unchanging and unplurified, knowing the many ever-renewed changing matters without any renewal of knowledge for Him, His knowledge of a thing before its coming to be, after its having come into existence, and after it departs from existence being a single knowledge with no change in it' — you have in fact stated explicitly that He is knowing through a knowledge not like our knowledge. And likewise it follows necessarily that He is existent, not in the sense of existence as we have it. So you have produced negations necessarily, and have not achieved the verification of any essential attribute; yet you have produced multiplication — believing Him to be a certain essence with unknown attributes, since what you claim to affirm of Him you deny to be similar to these attributes known to us. So they are not of their genus. Thus the matter has turned out from your affirming attributes such that you say: God, exalted be He, is a certain subject bearing certain predicates, though that subject is not like these predicates. The ultimate result of our apprehension with this belief is nothing but association — for every subject necessarily has predicates, and it is two in definition even if one in existence, since the meaning of the subject is other than the meaning of what is predicated of it. And the proof of the impossibility of composition in Him, exalted be He — rather, of pure simplicity in the furthest extreme — will become clear to you in the chapters of this treatise.",
+          "pairs": [
+            {
+              "ja": "ואמא וצפה תעאלי באלאיג'אבאת פפיה כ'טר עט'ים",
+              "en": "As for describing Him, exalted be He, through positive attributes — in it there is a great danger"
+            },
+            {
+              "ja": "כל מא עסאה אן נט'נה כמאלא ולו כאן ד'לך אלכמאל מוג'ודא לה",
+              "en": "anything we might suppose to be a perfection — even if that perfection were to exist in Him, according to the view of those who hold attributes — it is not of the genus of the perfection we suppose; it is said only by pure homonymy"
+            },
+            {
+              "ja": "פקד צרחת באנה עאלם בעלם ליס מת'ל עלמנא",
+              "en": "you have in fact stated explicitly that He is knowing through a knowledge not like our knowledge"
+            },
+            {
+              "ja": "פקד אתית באלסואלב צ'רורה פלם תחצל עלי תחקיק צפה ד'אתיה",
+              "en": "you have produced negations necessarily, and have not achieved the verification of any essential attribute"
+            },
+            {
+              "ja": "גאיהֵ אדראכנא בהד'ה אלעקידה אלשרך לא גיר",
+              "en": "The ultimate result of our apprehension with this belief is nothing but association"
+            }
+          ]
+        },
+        {
+          "ja": "ולא אקול אן מוג'ב צפאת ללה תעאלי מקצר ען אדראכה או משרך או אדרכה עלי כ'לאף מא הו עליה בל אקול נפי וג'וד אלאלאה מן אעתקאדה והו לא ישער. וביאן ד'לך אן אלמקצר ען אדראך חקיקהֵ אמר מא הו אלד'י ידרך בעצ'הא ויג'הל בעצ'הא מת'ל מן ידרך מן מעני אלאנסאן לואזם אלחיואניה ולא ידרך לואזם אלנטק ואללה תעאלי לא תכת'יר פי חקיקהֵ וג'ודה פיפהם מנה שי ויג'הל שי אכ'ר. וכד'לך אלמשרך לאמר מא הו אלד'י תצור חקיקהֵ ד'את מא עלי מא הי עליה ואוג'ב מת'ל תלך אלחקיקה לד'את אכ'רי והד'ה אלצפאת עלי ראי מן יט'נהא ליסת הי ד'את אלאלאה בל מעאני זאידה עלי אלד'את. וכד'לך איצ'א אלד'י ידרך אלשי עלי כ'לאף מא הו עליה לא בד צ'רורה אן ידרך מנה שיא מא עלי מא הו עליה ואמא מן יתצור אן אלד'וק כמיה פלא אקול אנה תצור אלשי עלי כ'לאף מא הו עליה בל אקול אנה ג'הל וג'וד אלד'וק ולם יעלם הד'ה אלאסמיה עלי מא ד'א תקע. והד'א נט'ר דקיק ג'דא פאפהמה.",
+          "en": "I do not say that one who affirms attributes of God, exalted be He, is deficient in apprehending Him, or associates something with Him, or has apprehended Him contrary to what He is; rather I say: he has negated the existence of God from his belief without being aware of it. This is because: the one who is deficient in apprehending the truth of something is the one who apprehends part of it and is ignorant of another part — as one who apprehends from the meaning of 'human being' the necessities of animality but does not apprehend the necessities of rational speech. But God, exalted be He, has no multiplicity in the truth of His existence such that one might understand something of it and be ignorant of something else. And the one who associates something with something is the one who has conceived the true nature of some essence as it really is and then affirms the same nature for another essence — but these attributes, in the view of those who hold them, are not the essence of God; they are meanings additional to the essence. And likewise the one who apprehends a thing contrary to what it is must necessarily apprehend something of it as it is. But as for one who conceives that taste is a quantity — I do not say that he has conceived the thing contrary to what it is; rather I say that he is ignorant of the existence of taste and does not know what this name applies to. This is a very subtle point — understand it.",
+          "pairs": [
+            {
+              "ja": "בל אקול נפי וג'וד אלאלאה מן אעתקאדה והו לא ישער",
+              "en": "rather I say: he has negated the existence of God from his belief without being aware of it"
+            },
+            {
+              "ja": "אלמקצר ען אדראך חקיקהֵ אמר מא הו אלד'י ידרך בעצ'הא ויג'הל בעצ'הא",
+              "en": "the one who is deficient in apprehending the truth of something is the one who apprehends part of it and is ignorant of another part"
+            },
+            {
+              "ja": "מן יתצור אן אלד'וק כמיה פלא אקול אנה תצור אלשי עלי כ'לאף מא הו עליה",
+              "en": "one who conceives that taste is a quantity — I do not say that he has conceived the thing contrary to what it is"
+            },
+            {
+              "ja": "בל אקול אנה ג'הל וג'וד אלד'וק ולם יעלם הד'ה אלאסמיה עלי מא ד'א תקע",
+              "en": "I say that he is ignorant of the existence of taste and does not know what this name applies to"
+            }
+          ]
+        },
+        {
+          "ja": "ובחסב הד'א אלביאן תעלם אן אלמקצר ען אדראך אלאלאה ואלבעיד ען מערפתה הו אלד'י לם יתבין לה סלב מעני מן אלמעאני אלתי קד תברהן לגירה סלבהא ענה פכל מן קלת סואלבה כאן אקצר אדראכא כמא בינא פי אול הד'א אלפצל. ואמא אלד'י יוג'ב לה צפה פלא יעלם שיא גיר מג'רד אלאסם אמא אלשי אלד'י תכ'יל אנה וקע עליה הד'א אלאסם פהו מעני גיר מוג'וד בל מכ'תרע כאד'ב פכאנה אוקע הד'א אלאסם עלי מעני מעדום אד' ליס פי אלוג'וד שי הו כד'א. ומת'אל ד'לך אן יכון אנסאן סמע באסם אלפיל ועלם אנה חיואן וטלב אן יערף בשכלה וחקיקתה פקאל לה אלצ'אל או אלמצ'ל הו חיואן ד'ו רג'ל ואחדה ות'לת'ה אג'נחה מקים פי אעמאק אלבחר ג'סמה שפאף ולה וג'ה עריץ' מת'ל וג'ה אלאנסאן וצורתה ושכלה ויתכלם מת'ל אלאנסאן ותארה יטיר פי אלהוא ותארה יסבח כאלסמך. פאני לא אקול אן הד'א תצור אלפיל עלי כ'לאף מא הו עליה ולא אנה מקצר פי אדראך אלפיל בל אקול אן הד'א אלשי אלד'י תכ'ילה בהד'ה אלצפה מכ'תרע כאד'ב וליס פי אלוג'וד שי הכד'א בל הד'א שי מעדום אוקע עליה אסם שי מוג'וד מת'ל ענקא מגרב ופרס אנסאן ונחו ד'לך מן אלצור אלכ'יאליה אלתי אוקע עליהא אסם שי מן אלמוג'ודאת אמא אסם ואחד או אסם מרכב. פכד'לך אלאמר הנא סוא וד'לך אן אללה ג'ל ת'נאוה הו מוג'וד תברהן וג'ודה אנה ואג'ב ואלד'י ילזם ען וג'וב אלוג'וד אלבסאטה אלמחצ'ה כמא סאברהן. ואמא אן תלך אלד'את אלבסיטה אלואג'בהֵ אלוג'וד כמא קיל הי ד'את צפאת ומעאני אכ'רי תלחקהא פהו שי גיר מוג'וד בוג'ה כמא תברהן פאד'א קלנא אן הד'ה אלד'את אלמסמאה אלאהא מת'לא הי ד'את פיהא מעאני מתעדדה תתצף בהא פקד אוקענא תלך אלאסמיה עלי עדם מחץ'. פתאמל כיף כ'טר פי איג'אב אלצפאת לה.",
+          "en": "From this explanation you will understand that the one who is deficient in apprehending God and farthest from knowledge of Him is the one to whom the negation of a certain meaning has not become clear — a meaning that has been demonstrated to others to be negated from Him. The fewer his negations, the more deficient in apprehension, as we explained at the beginning of this chapter. As for the one who affirms a positive attribute — he knows nothing more than the name alone. The thing he imagines this name to fall on is a meaning that does not exist — rather it is a fabricated falsehood. So he has in effect placed this name on a non-existent meaning, since there is in existence nothing of this kind. For example: if a person heard the name 'elephant' and knew that it was an animal, and sought to know its form and its truth, and the erring or misleading person said to him: 'It is an animal with a single leg and three wings, dwelling in the depths of the sea, its body transparent, with a broad face like the face of a human being in shape and form, speaking like a human, and sometimes flying in the air and sometimes swimming like a fish' — I would not say that this is a conception of the elephant contrary to what it is, nor that he is deficient in apprehending the elephant; rather I would say that the thing he imagined with these attributes is a fabricated falsehood, and there is nothing in existence of this kind. Rather this is a non-existent thing onto which the name of an existing thing has been placed — like the roc (ʿanqāʾ mughrib) and the human horse (faras insān) and the like of such imaginary forms to which the name of some existing thing has been attached, whether a simple name or a compound name. So too the matter here: for God, glorified be His praise, is an existent whose existence has been demonstrated to be necessary, and what follows necessarily from necessary existence is pure simplicity, as we shall prove. But that that simple necessarily existent essence is — as they say — an essence having attributes and additional meanings attaching to it: this is something that does not exist in any way, as has been demonstrated. So when we say 'this essence, called God for example, is an essence having multiple meanings as attributes' — we have fastened that name onto pure non-existence. Reflect on how dangerous it is to affirm positive attributes of Him.",
+          "pairs": [
+            {
+              "ja": "אלמקצר ען אדראך אלאלאה ואלבעיד ען מערפתה הו אלד'י לם יתבין לה סלב מעני",
+              "en": "the one who is deficient in apprehending God and farthest from knowledge of Him is the one to whom the negation of a certain meaning has not become clear"
+            },
+            {
+              "ja": "אלד'י יוג'ב לה צפה פלא יעלם שיא גיר מג'רד אלאסם",
+              "en": "the one who affirms a positive attribute — he knows nothing more than the name alone"
+            },
+            {
+              "ja": "הד'א אלשי אלד'י תכ'ילה בהד'ה אלצפה מכ'תרע כאד'ב וליס פי אלוג'וד שי הכד'א",
+              "en": "the thing he imagined with these attributes is a fabricated falsehood, and there is nothing in existence of this kind"
+            },
+            {
+              "ja": "פקד אוקענא תלך אלאסמיה עלי עדם מחץ'",
+              "en": "we have fastened that name onto pure non-existence"
+            }
+          ]
+        },
+        {
+          "ja": "פאלד'י ינבגי אן יעתקד פי מא ג'א מן אלצפאת פי כתאב אלתנזיל או כתב אלאנביא אנהא כלהא ללארשאד לכמאלה תעאלי לא גיר או צפהֵ אפעאל צאדרה ענה כמא בינא:",
+          "en": "What ought to be believed about all the attributes that come in the book of Revelation or in the books of the prophets is that they are all for guiding toward His perfection, exalted be He — nothing more — or they are attributes of actions proceeding from Him, as we have explained.",
+          "pairs": [
+            {
+              "ja": "אלצפאת פי כתאב אלתנזיל או כתב אלאנביא אנהא כלהא ללארשאד לכמאלה תעאלי לא גיר",
+              "en": "all the attributes that come in the book of Revelation or in the books of the prophets is that they are all for guiding toward His perfection, exalted be He — nothing more"
+            },
+            {
+              "ja": "או צפהֵ אפעאל צאדרה ענה כמא בינא",
+              "en": "or they are attributes of actions proceeding from Him, as we have explained"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

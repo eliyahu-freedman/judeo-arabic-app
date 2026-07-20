@@ -29,7 +29,9 @@ LEX = Path.home() / "Tools" / "arabic-lexicon"
 sys.path.insert(0, str(LEX))
 import ja_script  # noqa: E402
 
-IN_SCOPE = ["moreh-bab1", "kuzari-maqala1", "saadia-emunot-intro", "qirqisani-anwar",
+IN_SCOPE = ["moreh-bab1", "kuzari-maqala-1", "kuzari-maqala-2", "kuzari-maqala-3",
+            "kuzari-maqala-4", "kuzari-maqala-5",
+            "saadia-emunot-intro", "qirqisani-m1-bab-1",
             "bahya-bab1", "bahya-hakdamah",
             "bahya-bab2", "bahya-bab3", "bahya-bab4", "bahya-bab5", "bahya-bab6",
             "bahya-bab7", "bahya-bab8", "bahya-bab9", "bahya-bab10"]

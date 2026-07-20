@@ -41,12 +41,52 @@ import bab33 from "@/data/moreh-bab33.json";
 import bab34 from "@/data/moreh-bab34.json";
 import bab35 from "@/data/moreh-bab35.json";
 import bab36 from "@/data/moreh-bab36.json";
+import bab37 from "@/data/moreh-bab37.json";
+import bab38 from "@/data/moreh-bab38.json";
+import bab39 from "@/data/moreh-bab39.json";
+import bab40 from "@/data/moreh-bab40.json";
+import bab41 from "@/data/moreh-bab41.json";
+import bab42 from "@/data/moreh-bab42.json";
+import bab43 from "@/data/moreh-bab43.json";
+import bab44 from "@/data/moreh-bab44.json";
+import bab45 from "@/data/moreh-bab45.json";
+import bab46 from "@/data/moreh-bab46.json";
+import bab47 from "@/data/moreh-bab47.json";
+import bab48 from "@/data/moreh-bab48.json";
+import bab49 from "@/data/moreh-bab49.json";
+import bab50 from "@/data/moreh-bab50.json";
+import bab51 from "@/data/moreh-bab51.json";
+import bab52 from "@/data/moreh-bab52.json";
+import bab53 from "@/data/moreh-bab53.json";
+import bab54 from "@/data/moreh-bab54.json";
+import bab55 from "@/data/moreh-bab55.json";
+import bab56 from "@/data/moreh-bab56.json";
+import bab57 from "@/data/moreh-bab57.json";
+import bab58 from "@/data/moreh-bab58.json";
+import bab59 from "@/data/moreh-bab59.json";
+import bab60 from "@/data/moreh-bab60.json";
+import bab61 from "@/data/moreh-bab61.json";
+import bab62 from "@/data/moreh-bab62.json";
+import bab63 from "@/data/moreh-bab63.json";
+import bab64 from "@/data/moreh-bab64.json";
+import bab65 from "@/data/moreh-bab65.json";
+import bab66 from "@/data/moreh-bab66.json";
+import bab67 from "@/data/moreh-bab67.json";
+import bab68 from "@/data/moreh-bab68.json";
+import bab69 from "@/data/moreh-bab69.json";
+import bab70 from "@/data/moreh-bab70.json";
+import bab71 from "@/data/moreh-bab71.json";
+import bab72 from "@/data/moreh-bab72.json";
+import bab73 from "@/data/moreh-bab73.json";
+import bab74 from "@/data/moreh-bab74.json";
+import bab75 from "@/data/moreh-bab75.json";
+import bab76 from "@/data/moreh-bab76.json";
 
 /** A key-term card as authored inside each chapter's `terms[]`. */
 export type RawTermCard = {
   id: string;
   ja: string;
-  ar?: string;
+  ar?: string | null;
   translit?: string;
   gloss: string;
   note?: string;
@@ -70,6 +110,12 @@ const BY_CHAPTER: Record<number, { terms?: RawTermCard[] }> = {
   22: bab22, 23: bab23, 24: bab24, 25: bab25, 26: bab26, 27: bab27, 28: bab28,
   29: bab29, 30: bab30, 31: bab31, 32: bab32, 33: bab33, 34: bab34, 35: bab35,
   36: bab36,
+  37: bab37, 38: bab38, 39: bab39, 40: bab40, 41: bab41, 42: bab42, 43: bab43,
+  44: bab44, 45: bab45, 46: bab46, 47: bab47, 48: bab48, 49: bab49, 50: bab50,
+  51: bab51, 52: bab52, 53: bab53, 54: bab54, 55: bab55, 56: bab56, 57: bab57,
+  58: bab58, 59: bab59, 60: bab60, 61: bab61, 62: bab62, 63: bab63, 64: bab64,
+  65: bab65, 66: bab66, 67: bab67, 68: bab68, 69: bab69, 70: bab70, 71: bab71,
+  72: bab72, 73: bab73, 74: bab74, 75: bab75, 76: bab76,
 };
 
 type AlignedSeg = { ja: string; en: string; isHeader?: boolean };

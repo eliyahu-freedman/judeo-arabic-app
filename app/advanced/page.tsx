@@ -30,6 +30,15 @@ const library: LibraryEntry[] = [
     sample: "כתאב אלהדאיה אלי פראיץ' אלקלוב",
   },
   {
+    href: "/advanced/rambam-mishnah",
+    status: "Live",
+    author: "Moses Maimonides",
+    title: "Commentary on the Mishnah",
+    blurb:
+      "Rambam's Commentary on the Mishnah in its original 12th-century Judeo-Arabic — Tractate Avot with the Eight Chapters (Shemonah Perakim) on the soul and the virtues, and Tractate Sanhedrin including the essay on the 13 Principles of Faith and the World to Come. With working English translations.",
+    sample: "שרח אלמשנה",
+  },
+  {
     href: "/advanced/rambam-moreh-nevukhim",
     status: "Live",
     author: "Moses Maimonides",
@@ -72,15 +81,15 @@ const library: LibraryEntry[] = [
     author: "Judah Halevi",
     title: "Kitāb al-Khazarī — The Kuzari",
     blurb:
-      "The opening of Halevi's 12th-century defense of Judaism: the Khazar king's dream and the Aristotelian philosopher's answer, in the original Judeo-Arabic with a working English translation, phrase-by-phrase hover highlighting, and notes on key terms.",
+      "The complete Kuzari — all five maqalat — in its original 12th-century Judeo-Arabic, with a working English translation and phrase-by-phrase hover highlighting throughout. Every word carries a tap-to-define dictionary gloss. Maqala I also includes notes on nine key philosophical terms.",
     sample: "כתאב אלרד ואלדליל פי אלדין אלד'ליל",
   },
 ];
 
 export default function LibraryIndex() {
   return (
-    <div className="max-w-3xl mx-auto px-6 py-16 sm:py-24">
-      <header className="mb-12">
+    <div className="max-w-5xl mx-auto px-6 py-16 sm:py-24">
+      <header className="mb-12 max-w-2xl">
         <p className="label mb-3">
           Stage III · The Library
         </p>
@@ -94,7 +103,7 @@ export default function LibraryIndex() {
         </p>
       </header>
 
-      <ul className="space-y-5">
+      <ul className="grid gap-5 lg:grid-cols-2">
         {library.map((t) => {
           const isLive = t.status === "Live";
           const card = (
@@ -105,16 +114,16 @@ export default function LibraryIndex() {
                   : "border-ink/10 opacity-70 hover:opacity-100 hover:border-wine/30"
               }`}
             >
-              <div className="flex items-baseline justify-between gap-3">
+              <div className="flex items-baseline gap-3">
                 <span className={`badge ${isLive ? "badge-live" : "badge-muted"}`}>
                   {t.status}
                 </span>
-                <div className="text-xs tracking-wide text-ink/60">
-                  {t.author}
-                </div>
+              </div>
+              <div className="mt-3 text-xs uppercase tracking-[0.18em] text-ink/60">
+                {t.author}
               </div>
               <div
-                className={`mt-1 text-2xl text-ink transition-colors ${
+                className={`mt-0.5 text-2xl text-ink transition-colors ${
                   isLive ? "group-hover:text-wine" : "group-hover:text-wine/80"
                 }`}
               >

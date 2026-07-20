@@ -1,0 +1,240 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part II, Chapter 30 — The Six Days Interpreted Philosophically",
+  "section_ja": "אלג'ז אלת'אני · אלפצל אלת'לאת'ון",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Maimonides opens with a key linguistic distinction — reshit (beginning/principle) vs. teḥillah (first in time) — and argues that bereshit means 'in a principle,' not 'first in time,' since time itself is part of creation. He then works through a dense series of philological and cosmological notes on the six-day account: the particle et meaning 'together with' (simultaneous creation), the homonymy of ereẓ (earth / all four elements), the four elements hidden under different names in Genesis 1, the firmament's mysterious second day, the unity of Adam and Eve, and the serpent's allegory. Each note reveals that the plain narrative conceals a philosophical substrate that cannot be communicated directly to the masses.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "Segmentation follows Sefaria.",
+    "segments": 30
+  },
+  "terms": [
+    {
+      "id": "reshit-tehilla",
+      "ja": "ראשית / תחלה",
+      "translit": "reshit / teḥillah",
+      "gloss": "beginning/principle vs. first (in time)",
+      "note": "The opening word bereshit uses reshit, derived from rosh, meaning a constitutive principle — not teḥillah which marks mere temporal priority. This matters because time itself was created.",
+      "variants": [
+        "בראשית",
+        "מבדא",
+        "אול"
+      ]
+    },
+    {
+      "id": "zaman-makhluq",
+      "ja": "אלזמאן מכ'לוק",
+      "ar": "الزمان مخلوق",
+      "translit": "al-zamān makhlūq",
+      "gloss": "time is created",
+      "note": "A cornerstone argument: since time is itself part of creation (it follows celestial motion, and the sphere was created), there is no 'before' creation in a temporal sense.",
+      "variants": []
+    },
+    {
+      "id": "eretz-homonym",
+      "ja": "ארץ אסם משתרך",
+      "translit": "ereẓ — a homonymous term",
+      "gloss": "earth — used both for all four elements and for the element earth alone",
+      "note": "The first ereẓ in Gen. 1:1 means all sublunar matter (the four elements); ereẓ in 'And God called the dry land Earth' (1:10) means only the element earth.",
+      "variants": [
+        "ארץ",
+        "ד'כר אן ארץ אסם משתרך"
+      ]
+    },
+    {
+      "id": "raqia-mayim",
+      "ja": "אלרקיע נפסה מן אלמא תכון",
+      "translit": "al-raqīʿ nafsahu min al-māʾ takawwana",
+      "gloss": "the firmament itself was formed from water",
+      "note": "The Sages' teaching: the middle drop congealed and became the firmament. The three-fold division of the primordial waters into seas, firmament, and suprafirmamental water explains the mysterious second day.",
+      "variants": [
+        "הוגלדה טפה האמצעית"
+      ]
+    },
+    {
+      "id": "adam-hava-yahad",
+      "ja": "אדם וחוה כ'לקא מעא מתחדין",
+      "translit": "Ādam wa-Ḥawwā khuliqā maʿan muttaḥidain",
+      "gloss": "Adam and Eve were created together, united",
+      "note": "The midrashic teaching that they were back-to-back, then separated, clarifies the deeper meaning: ẓelaʿ means 'side' not 'rib.' The unity of humanity is declared before the separation.",
+      "variants": [
+        "צלע המשכן"
+      ]
+    },
+    {
+      "id": "samael-nachash",
+      "ja": "סמאל הו אלשטן",
+      "translit": "Samāʾēl hu al-shayṭān",
+      "gloss": "Samaël is Satan",
+      "note": "The Sages identify the serpent's rider Samaël with Satan. Maimonides sees both names as meaningful allegories, not literal beings — the serpent addressed Eve, not Adam, and this ordering carries deep symbolic weight.",
+      "variants": [
+        "אלנחש",
+        "ראכב אלנחש"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": 1,
+      "aligned": [
+        {
+          "ja": "אלג'ז אלת'אני · אלפצל אלת'לאת'ון",
+          "en": "Part Two · Chapter Thirty — The Six Days Interpreted Philosophically",
+          "isHeader": true
+        },
+        {
+          "ja": "אעלם אנה פרק בין אלאול ואלמבדא וד'לך אן אלמבדא הו מוג'וד פי מא הו לה מבדא או מעה ואן לם יתקדמה באלזמאן כמא יקאל אן אלקלב מבדא אלחיואן ואלאסטקס מבדא מא הו לה אסטקס וקד יטלק איצ'א עלי הד'א אלמעני אנה אול. ואמא אלאול פקד יקאל עלי אלמתקדם באלזמאן פקט מן גיר אן יכון ד'לך אלמתקדם באלזמאן סבבא ללמתאכ'ר מן בעדה. ואללפט' אלד'י ידל עלי אלאול פי לגתנא הו תחלה ואלד'י ידל עלי אלמבדא ראשית לאנה משתק מן ראש אלד'י הו מבדא אלחיואן בחסב וצ'עה",
+          "en": "THERE is a difference between first and beginning (or principle). The latter exists in the thing of which it is the beginning, or co-exists with it; it need not precede it; e.g., the heart is the beginning of the living being; the element is the beginning of that of which it is the basis. The term \"first\" is likewise applied to things of this kind; but is also employed in cases where precedence in time alone is to be expressed, and the thing which precedes is not the beginning (or the cause) of the thing that follows. In Hebrew, teḥillah is used in the sense of \"first,\" and the \"beginning\" is expressed by reshith, derived from rosh, \"head,\" the principal part of the living being as regards position.",
+          "pairs": []
+        },
+        {
+          "ja": "ואלעאלם לם יכ'לק פי מבדא זמאני כמא בינא אד' אלזמאן מן ג'מלהֵ אלמכ'לוקאת פלד'לך קאל בראשית ואלבא במעני פי פתרג'מהֵ הד'א אלפסוק אלחקיקיה הכד'א פי בדאהֵ כ'לק אללה אלעלו ואלספל הד'א הו אלתפסיר אלד'י יטאבק אלחדות'.",
+          "en": "The Universe has not been created out of an element that preceded it in time, since time itself formed part of the Creation. For this reason Scripture employs the term \"bereshit\" (in a principle), in which the beth is a preposition denoting \"in.\" The true explanation of the first verse of Genesis is as follows: \"In [creating] a principle God created the beings above and the things below.\" This explanation is in accordance with the theory of the Creation.",
+          "pairs": []
+        },
+        {
+          "ja": "אמא מא תג'דה מנצוצא לבעץ' אלחכמים מן את'באת זמאן מוג'וד קבל כ'לק אלעאלם פמשכל ג'דא לאן הד'א הו ראי ארסטו אלד'י ירי אן אלזמאן לא יתצור לה אול והד'א שניע. ואלד'י דעא אלקאילין אלי הד'א אלקול למא וג'דוא יום אחד ויום שני פזעם אנה אד'א לם יכן ת'ם פלך דאיר ולא שמס פבאי שי קדר יום ראשון פקאלוא בהד'א אלנץ יום ראשון אמר רבי יהודה ב״ר סימון מכאן שהיה סדר זמנים קודם לכן. ובאלג'מלה לא תנט'ר פי הד'ה אלמואצ'ע לקול מן קאל קאעדהֵ אלשריעה כלהא אן אללה אוג'ד אלעאלם לא מן שי פי גיר מבדא זמאני בל אלזמאן מכ'לוק אד' הו תאבע לחרכהֵ אלפלך ואלפלך מכ'לוק.",
+          "en": "We find that some of our Sages are reported to have held the opinion that time existed before the Creation. But this report is very doubtful, because the theory that time cannot be imagined with a beginning, has been taught by Aristotle, and is objectionable. Those who have made this assertion have been led to it by a saying of one of our Sages in reference to the terms \"one day,\" \"a second day.\" Taking these terms literally, the author of that saying asked, What determined \"the first day,\" since there was no rotating sphere, and no sun? Scripture uses the term \"one day\"; R. Jehudah, son of R. Simon, said: \"Hence we learn that the divisions of time have existed previously.\" In short, in these questions, do not take notice of the utterances of any person. The foundation of our faith is the belief that God created the Universe from nothing; time did not exist previously, but was created: for it depends on the motion of the sphere, and the sphere has been created.",
+          "pairs": []
+        },
+        {
+          "ja": "וממא יג'ב אן תעלמה אן כלמהֵ את אלמקולה פי קולה את השמים ואת הארץ קד צרחוא אלחכמים פי עדהֵ מואצ'ע אנהא במעני מע יענון בד'לך אנה כ'לק מע אלסמאואת כל מא פי אלסמא ומע אלארץ' כל מא פי אלארץ'. וקד עלמת תביינהם אן אלסמא ואלארץ' כ'לקא מעא לקולה קרא אני אליהם יעמדו יחדו פיכון אלכל כ'לק מעא ותבאינת אלאשיא כלהא אולא אולא חתי אנהם מת'לוא ד'לך באכאר בד'ר חבא מכ'תלפה פי אלארץ פי דקיקה ואחדה פנג'ם בעצ'הא בעד יום ובעצ'הא בעד יומין ואלזראעה כלהא כאנת פי סאעה ואחדה",
+          "en": "You must know that the particle et in the phrase et ha-shamayim ve-et ha-areẓ (\"the heavens and the earth\") signifies \"together with\"; our Sages have explained the word in the same sense in many instances. Accordingly they assume that God created with the heavens everything that the heavens contain, and with the earth everything the earth includes. They further say that the simultaneous Creation of the heavens and the earth is implied in the words, \"I call unto them, they stand up together\" (Ps. xlviii.). Consequently, all things were created together, but were separated from each other successively. Our Sages illustrated this by the following simile: We sow various seeds at the same time; some spring forth after one day, some after two, and some after three days, although all have been sown at the same time.",
+          "pairs": []
+        },
+        {
+          "ja": "וממא יג'ב אן תעלמה אן ארץ אסם משתרך יקאל בעמום וכ'צוץ אמא בעמום פעלי כל מא דון פלך אלקמר אעני אלאסטקסאת אלארבעה ויקאל בכ'צוץ עלי אלואחד אלאכ'יר מנהא והו אלארץ' דליל ד'לך קולה והארץ היתה תהו ובהו וחשך על פני תהום ורוח אלהים וגו' פקד סמי כלהא ארץ ת'ם קאל ויקרא אלהים ליבשה ארץ.",
+          "en": "We must further consider that the term ereẓ is a homonym, and is used in a general and a particular sense. It has a more general signification when used of everything within the sphere of the moon, i.e., of all the four elements; and is used in particular of one of them, of the lowest, viz., earth. This is evident from the passage: \"And the earth was without form and void, and darkness was on the surface of the deep. And the wind of God moved upon the face of the waters.\" The term \"earth\" [mentioned here, and in the first verse] includes all the four elements, whilst further on it is said, \"And God called the dry land Earth\" (Gen. 1:10).",
+          "pairs": [
+            {
+              "ja": "ארץ אסם משתרך יקאל בעמום וכ'צוץ",
+              "en": "the term ereẓ is a homonym, and is used in a general and a particular sense"
+            },
+            {
+              "ja": "בעמום פעלי כל מא דון פלך אלקמר אעני אלאסטקסאת אלארבעה",
+              "en": "It has a more general signification when used of everything within the sphere of the moon, i.e., of all the four elements"
+            },
+            {
+              "ja": "ויקאל בכ'צוץ עלי אלואחד אלאכ'יר מנהא והו אלארץ'",
+              "en": "is used in particular of one of them, of the lowest, viz., earth"
+            }
+          ]
+        },
+        {
+          "ja": "והד'א איצ'א סר עט'ים מן אלאסראר אנה כל מא תג'דה יקול ויקרא אלהים לכך ככה אנמא הו ליפצלה מן אלמעני אלאכ'ר אלד'י אשרך בינהמא פיה הד'א אלאסם ולהד'א שרחת לך הד'א אלפסוק פי בדאהֵ כ'לק אללה אלעלו ואלספל פיכון ארץ אלמקול אולא הו אלספל אעני אלאסטקסאת אלארבעה ואלמקול ענהא ויקרא אלהים ליבשה ארץ הי אלארץ' וחדהא פקד באן הד'א.",
+          "en": "It is also important to notice that the words, \"And God called a certain thing a certain name,\" are invariably intended to distinguish one thing from others which are called by the same common noun. I explain, therefore, the first verse in Genesis thus: In creating the principle God created the things above and those below. Ereẓ in this verse denotes \"the things below,\" or \"the four elements,\" and in the verse, \"And God called the dry land Earth\" (ereẓ), it signifies the element earth. This subject is now made clear.",
+          "pairs": []
+        }
+      ]
+    },
+    {
+      "page_he": 2,
+      "aligned": [
+        {
+          "ja": "וממא יג'ב אן תעלמה אן אלאסטקסאת אלארבעה ד'כרת אולא בעד אלסמא אלד'י קלנא אן אסם ארץ אלאול ידל עליהא לאנה ד'כר ארץ ומים ורוח וחשך וחשך הו אלנאר אלאסטקסיה לא תט'ן גיר ד'לך קאל ודבריו שמעת מתוך האש וקאל כשמעכם את הקול מתוך החושך וקאל כל חשך טמון לצפוניו תאכלהו אש לא נפח ואנמא סמית אלנאר אלאסטקסיה בהד'א אלאסם לכונהא גיר מצ'יה בל שפאפה ולו כאנת אלנאר אלאסטקסיה מצ'יה לראינא אלג'ו כלה באלליל מלתהבא נארא.",
+          "en": "The four elements indicated, according to our explanation, in the term ereẓ \"earth,\" in the first verse, are mentioned first after the heavens: for they are named ereẓ (earth), ruaḥ (air), mayim (water), and hoshek (fire). By ḥoshek the element fire is meant, nothing else; comp. \"And thou heardest his words out of the midst of the fire\" (Deut. 4:36); and, \"When ye heard the voice out of the midst of the ḥoshek\" (darkness) (ibid. 5:2); again, \"All ḥoshek (darkness) shall be hid in his secret places: a fire not blown shall consume him\" (Job 20:26). The element fire is called ḥoshek because it is not luminous, it is only transparent; for if it were luminous we should see at night the whole atmosphere in flames.",
+          "pairs": [
+            {
+              "ja": "חשך הו אלנאר אלאסטקסיה לא תט'ן גיר ד'לך",
+              "en": "By ḥoshek the element fire is meant, nothing else"
+            },
+            {
+              "ja": "אנמא סמית אלנאר אלאסטקסיה בהד'א אלאסם לכונהא גיר מצ'יה בל שפאפה",
+              "en": "The element fire is called ḥoshek because it is not luminous, it is only transparent"
+            },
+            {
+              "ja": "לו כאנת אלנאר אלאסטקסיה מצ'יה לראינא אלג'ו כלה באלליל מלתהבא נארא",
+              "en": "if it were luminous we should see at night the whole atmosphere in flames"
+            }
+          ]
+        },
+        {
+          "ja": "וממא יג'ב אן תעלמה אן קולה ויבדל בין המים וגו' ליס הו פצל באלמוצ'ע אן צאר הד'א פוק והד'א אספל וטביעתהמא ואחדה ואנמא שרחה אנה פצל בינהמא באלפצל אלטביעי אעני באלצורה וג'על בעץ' ד'לך אלד'י סמאה מאא אולא שיא אכ'ר בצורה טביעיה אלבסה וג'על בעצ'ה בצורה אכ'רי והד'א הו אלמא ולד'לך איצ'א קאל ולמקוה המים קרא ימים פקד צרח לך אן ד'לך אלמים אלאול אלמקול פיה על פני המים מא הו הד'א אלד'י פי אלימים בל בעצ'ה פצל בצורהֵ מא פוק אלהוא ובעצ'ה הו הד'א אלמא",
+          "en": "The phrase, \"And he divided between the waters,\" etc., does not describe a division in space, as if the one part were merely above the other, whilst the nature of both remained the same, but a distinction as regards their nature or form. One portion of that which was first called water was made one thing by certain properties it received, and another portion received a different form, and this latter portion is that which is commonly called water and of this it is said, \"And the gathering of the waters he called Seas.\" Scripture even indicates that the first mayim (\"water\") in the phrase, \"On the face of the waters,\" does not refer to the waters which form the seas and that part of the element \"water,\" having received a particular form, and being above the air, is distinguished from the other part.",
+          "pairs": []
+        },
+        {
+          "ja": "ואלרקיע נפסה מן אלמא תכון כמא קאלוא הוגלדה טפה האמצעית. וקולה איצ'א ויקרא אלהים לרקיע שמים עלי מא בינת לך ליבין אשתראך אלאסם ואן ליס שמים אלמקול אולא פי קולה את השמים ואת הארץ הי הד'ה אלתי סמית שמים ואכד הד'א אלמעני בקולה על פני רקיע השמים ליבין אן אלרקיע גיר אלשמים",
+          "en": "The firmament itself was formed of water; and in the words of our Sages (Bereshit Rabba; cap. iv.), \"The middle drop congealed and formed the heavens.\" Here likewise Scripture says, \"And God called the firmament Heaven\" (Gen. 1:8), in order to explain the homonymity of the term shamayim (heaven), and to show that shamayim in the first verse is not the firmament which is also called shamayim (heaven). The difference is more clearly expressed in the words, \"In the open firmament of heaven\" (ibid. 1:20); here it is shown that \"firmament\" (raki'a) and \"heaven\" (shamayim), are two different things.",
+          "pairs": []
+        },
+        {
+          "ja": "וממא ינבגי אן תעלמה ותתנבה עליה אלעלה אלתי מן אג'להא לם יקל פי אליום אלת'אני כי טוב וקד עלמת אקאויל אלחכמים ז״ל אלתי קאלוהא פי ד'לך עלי ג'ההֵ אלדרש אחסנהא קולהם לפי שלא שלמה מלאכת המים ועלהֵ ד'לך איצ'א ענדי בינה ג'דא וד'לך אנה כלמא ד'כר אמרא מן אמור אלוג'וד אלחאדת'ה אלמוג'ודה עלי אלאסתמראר אלדאימה אלמסתקרה קאל פי ד'לך כי טוב והד'א אלרקיע ואלשי אלד'י עליה אלד'י סמי מים אלאמר פיה מז אלכ'פא כמא תראה פאמר הו הכד'א כיף יסוג אן יקאל פיה כי טוב",
+          "en": "It is necessary to inquire into the reason why the declaration \"that it was good\" is not found in the account of the second day of the Creation. The various Midrashic sayings of our Sages on this point are well known: the best of them is the explanation that the creation of the water was not completed on that day. According to my opinion the reason is likewise clear: When the creation of any part of the Universe is described that is permanent, regular, and in a settled order, the phrase \"that it is good\" is used. But the account of the firmament, with that which is above it and is called water, is of a very mysterious character. How could it be said of the creation of the second day, \"that it was good\"? This phrase would tell us that it is perfectly clear what share the thing to which it refers takes in the permanent existence of the Universe. But what good can people find in a thing whose real nature is hidden?",
+          "pairs": []
+        },
+        {
+          "ja": "וממא יג'ב אן תעלמה קולהם כל מעשה בראשית לקומתן נבראו לדעתן נבראו לצביונם נבראו יקול אן כל מא כ'לק אנמא כ'לק עלי כמאל כמיתה ועלי כמאל צורתה ובאחסן אעארצ'ה והו קולה לצביונם מן צבי היא לכל הארצות. פאעלם הד'א איצ'א פהו אצל כביר קד צח ובאן.",
+          "en": "Note also the saying of our Sages: \"When the Universe was created, all things were created with size, intellect, and beauty fully developed, i.e., everything was created perfect in magnitude and form, and endowed with the most suitable properties: the word ẓibyonam (their beauty) used here has the same meaning as ẓebi, 'glory'\" (Ezek. 20:6). Note this likewise, for it includes a principle fully established.",
+          "pairs": [
+            {
+              "ja": "כל מעשה בראשית לקומתן נבראו לדעתן נבראו לצביונם נבראו",
+              "en": "When the Universe was created, all things were created with size, intellect, and beauty fully developed"
+            },
+            {
+              "ja": "כל מא כ'לק אנמא כ'לק עלי כמאל כמיתה ועלי כמאל צורתה ובאחסן אעארצ'ה",
+              "en": "everything was created perfect in magnitude and form, and endowed with the most suitable properties"
+            }
+          ]
+        },
+        {
+          "ja": "וממא יג'ב אן תעתברה ג'דא כונה ד'כר כ'לק אדם פי ששת ימי בראשית וקאל זכר ונקבה ברא אותם וכ'תם אלכ'לק כלה וקאל ויכלו השמים והארץ וכל צבאם ת'ם אפתתח אפתתאחא אכ'ר לכ'לק חוה מן אדם וד'כר עץ החיים ועץ הדעת וחדית' אלנחש ותלך אלקצה וג'על הד'א כלה אנה כאן בעד אן ג'על אדם פי גן עדן. וכל אלחכמים ז״ל מג'מעון אן הד'ה אלקצה כלהא כאנת יום אלג'מעה ואנה לם יתגיר אמר בוג'ה בעד ששת ימי בראשית",
+          "en": "The following point now claims our attention. The account of the six days of creation contains, in reference to the creation of man, the statement: \"Male and female created he them\" (i. 27), and concludes with the words: \"Thus the heavens and the earth were finished, and all the host of them\" (ii. 1), and yet the portion which follows describes the creation of Eve from Adam, the tree of life, and the tree of knowledge, the history of the serpent and the events connected therewith, and all this as having taken place after Adam had been placed in the Garden of Eden. All our Sages agree that this took place on the sixth day, and that nothing new was created after the close of the six days.",
+          "pairs": []
+        }
+      ]
+    },
+    {
+      "page_he": 3,
+      "aligned": [
+        {
+          "ja": "פמן ד'לך קולהם אן אדם וחוה כ'לקא מעא מתחדין ט'הרא לט'הר ואנה קסם פאכ'ד' נצפה והו חוה וקובל בה וקולה אחת מצלעותיו יעני אחד שקיה ואסתדלוא מן צלע המשכן אלד'י תרג'מתה סטר משכנא וכד'א קאלוא מן סטרוהי. פאפהם כיף כאן אלתביין אנהמא את'נאן בג'ההֵ מא והמא ואחד כמא קאל עצם מעצמי ובשר מבשרי וזאד ד'לך תאכידא בקולה אן אלאסמיה עליהמא ג'מיעא ואחדה אשה כי מאיש לקחה זאת ואכד אתחאדהמא וקאל ודבק באשתו והיו לבשר אחד. פמא אשד ג'הל מן לא יפהם אן הד'א כלה למעני צ'רורה.",
+          "en": "One of these utterances is this: \"Adam and Eve were at first created as one being, having their backs united: they were then separated, and one half was removed and brought before Adam as Eve.\" The term mi-ẓal'otav (lit. \"of his ribs\") signifies \"of his sides.\" The meaning of the word is proved by referring to ẓel'a, \"the side\" of the tabernacle (Exod. 26:20), which Onkelos renders setar (\"side\"), and so also mi-ẓal'otav is rendered by him \"mi-sitrohi\" (of his sides). Note also how clearly it has been stated that Adam and Eve were two in some respects, and yet they remained one, according to the words, \"Bone of my bones, and flesh of my flesh\" (Gen. 2:23). The unity of the two is proved by the fact that both have the same name, for she is called ishshah (woman), because she was taken out of ish (man), also by the words, \"And shall cleave unto his wife, and they shall be one flesh\" (ii. 24). How great is the ignorance of those who do not see that all this necessarily includes some [other] idea [besides the literal meaning of the words].",
+          "pairs": []
+        },
+        {
+          "ja": "וממא יג'ב אן תעלמה מא בינוה פי אלמדרש וד'לך אנהם ד'כרוא אן אלנחש מרכוב ואנה כאן קדר ג'מל ואן ראכבה הו אלד'י אגוי חוה ואן אלראכב כאן סמאל והד'ה אלאסמיה הם יטלקונהא עלי אלשטן תג'דהם יקולון פי עדהֵ מואצ'ע אן אלשטן אראד אן יעת'ר אברהם אבינו חתי לא יג'יב אלי תקריב יצחק. פקד באן לך אן סמאל הו אלשטן והד'ה אלאסמיה איצ'א למעני כמא אן אסמיהֵ אלנחש למעני. וקאלוא פי מג'יה לכ'דע חוה היה סמאל רוכב עליו והק״ב״ה שוחק על גמל ורוכבו.",
+          "en": "Another noteworthy Midrashic remark of our Sages is the following: \"The serpent had a rider, the rider was as big as a camel, and it was the rider that enticed Eve: this rider was Samaël.\" Samaël is the name generally applied by our Sages to Satan. Thus they say in several places that Satan desired to entice Abraham to sin, and to abstain from binding Isaac. This shows that Samaël and Satan are identical. There is a meaning in this name [Samaël], as there is also in the name naḥash (\"serpent\"). In describing how the serpent came to entice Eve, our Sages say: \"Samaël was riding on it, and God was laughing at both the camel and its rider.\"",
+          "pairs": []
+        },
+        {
+          "ja": "ומן אלאקאויל איצ'א אלעג'יבה אלתי ט'אהרהא פי גאיהֵ אלשנאעה ואד'א פהמת פצול הד'ה אלמקאלה חק פהמהא תעג'ב מן חכמהֵ הד'א אלמת'ל ומטאבקתה ללוג'וד והו קולהם משבא נחש על חוה הטיל בה זוהמה ישראל שעמדו על הר סיני פסקה זוהמתן גוים שלא עמדו על הר סיני לא פסקה זוהמתן. פתדבר הד'א איצ'א.",
+          "en": "The following is also a remarkable passage, most absurd in its literal sense; but as an allegory it contains wonderful wisdom, and fully agrees with real facts, as will be found by those who understand all the chapters of this treatise. When the serpent came to Eve he infected her with poison; the Israelites, who stood at Mount Sinai, removed that poison; idolaters, who did not stand at Mount Sinai, have not got rid of it.",
+          "pairs": []
+        },
+        {
+          "ja": "וממא יג'ב אן תעלמה קולהם עץ החיים מהלך חמש מאות שנה וכל מימי בראשית מתפלגין מתחתיו. ובינוא פי ד'לך אן אלגרץ' בהד'א אלמקדאר הו גלט' ג'רמה לא אמתדאד אגצאנה קאלוא לא סוף דבר נופו אלא קורתו מהלך חמש מאות שנה ושרח קורתו גלט כ'שבתה אלקאימה והד'א אלתתמים מנהם לאתמאם שרח אלמעני וביאנה.",
+          "en": "Note this likewise. Again they said: \"The tree of life extends over an area of five hundred years' journey, and it is from beneath it that all the waters of the creation sprang forth\": and they added the explanation that this measure referred to the thickness of its body, and not to the extent of its branches, for they continue thus: \"Not the extent of the branches thereof, but the stem thereof [korato, lit., 'its beam,' signifying here 'its stem') has a thickness of five hundred years' journey.\" This is now sufficiently clear.",
+          "pairs": [
+            {
+              "ja": "עץ החיים מהלך חמש מאות שנה",
+              "en": "The tree of life extends over an area of five hundred years' journey"
+            },
+            {
+              "ja": "אן אלגרץ' בהד'א אלמקדאר הו גלט' ג'רמה לא אמתדאד אגצאנה",
+              "en": "this measure referred to the thickness of its body, and not to the extent of its branches"
+            }
+          ]
+        },
+        {
+          "ja": "וממא יג'ב אן תעלמה ותתנבה עליה וג'ה אלחכמה פי תסמיהֵ ולדי אדם קין והבל וכון קין הו אלקאתל להבל בשדה ואנהמא ג'מיעא תלפא ואן כאן אמהל אלמתגלב ואנה לם יצח אלוג'וד אלא לשת כי שת לי אלהים זרע אחר. פקד צח הד'א.",
+          "en": "Remarkable and noteworthy is the great wisdom contained in the names of Adam, Cain, and Abel, and in the fact that it was Cain who slew Abel in the field, that both of them perished, although the murderer had some respite, and that the existence of mankind is due to Seth alone. Comp. \"For God has appointed me another seed\" (iv. 25). This has proved true.",
+          "pairs": []
+        },
+        {
+          "ja": "וממא יג'ב אן תעתברה הד'ה אלארבעהֵ אלפאט' אלתי ג'את פי נסבהֵ אלסמא ללה והי ברא ועשה וקנה ואל קאל ברא אלהים את השמים ואת הארץ וקאל ביום עשות י״י אלהים ארץ ושמים וקאל קונה שמים וארץ וקאל אל עולם. אמא לפט'הֵ יצירה פמא ג'את פי אלסמא. ולד'לך קאל יוצר אור לאנה ערץ' ויוצר הרים משכלהא. פאמא הד'א אלוג'וד אלכ'ציץ בג'מלהֵ אלעאלם אלד'י הו אלסמא ואלארץ' פאטלק עליה ברא לאנה ענדנא איג'אד מן עדם. וקאל איצ'א עשה לצורהא אלנועיה אלתי אעטית אעני טבאיעהא. וקאל פיהא קנה לאסתילאיה תעאלי עליהא אסתילא אלסיד עלי עבידה",
+          "en": "We must also consider the four different terms employed in expressing the relations of the heavens to God, bore (Creator), 'oseh (Maker), koneh (Possessor), and el (God). Comp. \"God created the heaven and the earth\" (i. 1); \"In the day that God made the earth and the heavens\" (ii. 4); \"Possessor of heaven and earth\" (xiv. 19); \"God of the Universe\" (xxi, 31). The verb yaẓar, \"he formed,\" does not occur in reference to the heavens. According to my opinion the verb yaẓar denotes to make a form or shape (for form and shape are accidents). It is therefore said, yoẓer or, \"Who formeth the light\" (Isa. 14:7), light being an accident; yoẓer harim, \"That formeth the mountains.\" But in reference to the Universe, viz., the heavens and the earth, which comprises the totality of the Creation, Scripture employs the verb bara, which we explain as denoting he produced something from nothing; also 'asah (\"he made\") on account of the general forms or natural properties of the things which were given to them; kanah, \"he possessed,\" because God rules over them like a master over his servants.",
+          "pairs": []
+        },
+        {
+          "ja": "והד'ה אלמקאדיר הנא מע מא תקדם ומע מא יאתי פי הד'א אלמעני כאפיה בחסב גרץ' אלמקאלה ובחסב אלנאט'ר פיהא:",
+          "en": "This, together with those explanations which we have given, and which we intend to give, in reference to this subject, may suffice, considering the object of this treatise and the capacity of the reader.",
+          "pairs": []
+        }
+      ]
+    }
+  ]
+}

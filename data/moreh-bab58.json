@@ -1,0 +1,161 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 58 — Negative Attributes and the Impossibility of Positive Predication",
+  "section_ja": "אלג'ז אלאול · אלפצל חמשים ושמונה",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 58 is the theological heart of the first part of the Guide. Maimonides makes the central argument of his negative theology: only negative attributes (ṣifāt al-salb) preserve divine unity, while positive attributes (ṣifāt al-ījāb) — even attributes of essence — necessarily introduce multiplicity and thus falsify the divine nature.\n\nHe explains the logical asymmetry: a positive attribute always reveals something about the described thing — either a part of its substance or an accident — while a negative attribute reveals nothing about the thing itself but only excludes what was wrongly supposed. He then shows that the predicates actually used of God ('living,' 'knowing,' 'powerful,' 'willing') are all translatable into negations: 'not dead,' 'not ignorant,' 'not powerless,' 'not negligent.' The chapter climaxes with a lyrical passage on the mind's failure before the divine: 'When the intellects contemplate His essence they turn back in incapacity; when they contemplate the chain of His acts from His will, their knowledge becomes ignorance; and when tongues try to exalt Him through descriptions, all eloquence becomes helplessness.'",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 9
+  },
+  "terms": [
+    {
+      "id": "ṣifāt-al-salb",
+      "ja": "צפאת אלנפי",
+      "ar": "صفات النفي",
+      "translit": "ṣifāt al-salb / ṣifāt al-nafy",
+      "gloss": "negative attributes",
+      "note": "The only legitimate mode of describing God: each negation excludes a deficiency, bringing the mind closer to the truth without ever adding anything to the conception of the essence.",
+      "variants": ["סואלב", "אלסלב", "צפאת אלסלב"]
+    },
+    {
+      "id": "ṣifāt-al-ījāb",
+      "ja": "צפאת אלאיג'אב",
+      "ar": "صفات الإيجاب",
+      "translit": "ṣifāt al-ījāb",
+      "gloss": "affirmative / positive attributes",
+      "note": "Positive predications that are inadmissible for God's essence because they imply composition — either a part of substance or an accident added to it.",
+      "variants": ["אלאיג'אבאת", "צפה איג'אב"]
+    },
+    {
+      "id": "takhṣīṣ",
+      "ja": "תכ'ציץ",
+      "ar": "تخصيص",
+      "translit": "takhṣīṣ",
+      "gloss": "particularization / specification",
+      "note": "The logical work of a predicate: both positive and negative attributes 'particularize' by excluding some range of possibilities, but only negative attributes do so without revealing any positive content.",
+      "variants": ["תכ'צץ", "יכ'צץ"]
+    },
+    {
+      "id": "tarkīb",
+      "ja": "תרכיב",
+      "ar": "تركيب",
+      "translit": "tarkīb",
+      "gloss": "composition, multiplicity of parts",
+      "note": "Any positive attribute of essence implies that the described thing is composite — that the attribute is an addition to the essence. This is impossible for the absolutely simple God.",
+      "variants": ["מרכב"]
+    },
+    {
+      "id": "anniyya",
+      "ja": "אניה",
+      "ar": "أنيّة",
+      "translit": "anniyya",
+      "gloss": "thatness / existence-as-fact",
+      "note": "We apprehend only God's anniyya (that He exists) — never His māhiyya (what He is). No attribute of essence is therefore possible, because essence-attributes require knowledge of the quiddity.",
+      "variants": ["אניתה"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל חמשים ושמונה",
+          "en": "Part One · Chapter Fifty-Eight — Negative Attributes and the Impossibility of Positive Predication",
+          "isHeader": true
+        },
+        {
+          "ja": "אגמץ' ממא תקדם.",
+          "en": "More subtle than what preceded.",
+          "pairs": [
+            { "ja": "אגמץ' ממא תקדם", "en": "More subtle than what preceded" }
+          ]
+        },
+        {
+          "ja": "אעלם אן וצף אללה עז וג'ל באלסואלב הו אלוצף אלצחיח אלד'י לא ילחקה שי מן אלתסאמח ולא פיה נקץ פי חק אללה ג'מלה ולא עלי חאל. אמא וצפה באלאיג'אבאת פפיה מן אלשרך ואלנקץ מא קד בינאה.",
+          "en": "Know that describing God, mighty and exalted, through negations is the correct description — to which no concession at all attaches, and in which there is no deficiency with respect to God under any circumstance whatsoever. As for describing Him through positive attributes, in it there is the association and deficiency that we have already explained.",
+          "pairs": [
+            { "ja": "וצף אללה עז וג'ל באלסואלב הו אלוצף אלצחיח", "en": "describing God, mighty and exalted, through negations is the correct description" },
+            { "ja": "לא ילחקה שי מן אלתסאמח ולא פיה נקץ פי חק אללה", "en": "to which no concession at all attaches, and in which there is no deficiency with respect to God" },
+            { "ja": "אמא וצפה באלאיג'אבאת פפיה מן אלשרך ואלנקץ מא קד בינאה", "en": "As for describing Him through positive attributes, in it there is the association and deficiency that we have already explained" }
+          ]
+        },
+        {
+          "ja": "וינבגי אן אבין לך אולא כיף הי אלסואלב צפאת עלי ג'ההֵ מא ובאי שי תפארק צפאת אלאיג'אב ובעד ד'לך אבין לך כיף ליס לנא טריק פי וצפה אלא באלסואלב לא גיר.",
+          "en": "I should first explain to you how negations are attributes in a certain respect, and in what way they differ from positive attributes; and after that I shall explain to you how we have no path in describing Him except through negations alone.",
+          "pairs": [
+            { "ja": "אבין לך אולא כיף הי אלסואלב צפאת עלי ג'ההֵ מא", "en": "I should first explain to you how negations are attributes in a certain respect" },
+            { "ja": "ובאי שי תפארק צפאת אלאיג'אב", "en": "and in what way they differ from positive attributes" },
+            { "ja": "כיף ליס לנא טריק פי וצפה אלא באלסואלב לא גיר", "en": "how we have no path in describing Him except through negations alone" }
+          ]
+        },
+        {
+          "ja": "פאקול אן אלצפה ליסת הי אלתי תכ'צץ אלמוצוף פקט חתי לא ישתרך פי תלך אלצפה מע גירה בל אלצפה קד תכון איצ'א צפה ללמוצוף ואן כאן ישתרך פיהא מע גירה ולא יחצל בהא תכ'ציץ מת'אל ד'לך אן ראית אנסאנא עלי בעד פסאלת וקלת מא הד'א אלמראי פקיל לך חיואן פהד'ה צפה בלא שך להד'א אלמראי ואן כאן לס תכ'צצה מן כל מא סואה לכנה חצל בהא תכ'ציץ מא והו אן הד'א אלמראי ליס הו ג'סמא מן נוע אלנבאת ולא מן נוע אלמעאדן. כד'לך איצ'א אד'א כאן פי הד'ה אלדאר אנסאן ועלמת אן פיהא ג'סם מא גיר אנך לא תעלם מא הו פסאלת וקלת מא פי הד'ה אלדאר פקאל לך אלמג'יב ליס פיהא מעדן ולא ג'סם נבאת פקד חצל תכ'ציץ מא ועלמת אן פיהא חיואן ואן לם תעלם אי חיואן הו. פבהד'ה אלג'הה תשארך צפאת אלסלב לצפאת אלאיג'אב לאנהא לא בד אן תכ'צץ תכ'ציצא מא ולו לם יכן פיהא מן אלתכ'ציץ אלא אזאלהֵ מא סלב מן ג'מלהֵ מא כנא נט'נה גיר מסלוב. ואמא אלג'הה אלתי תפארק בהא צפאת אלסלב לצפאת אלאיג'אב פאן צפאת אלאיג'אב ואן לם תכ'צץ פאנהא תדל עלי ג'ז מן ג'מלהֵ אלשי אלמטלוב מערפתה אמא ג'ז ג'והרה או ערץ' מן אעראצ'ה וצפאת אלסלב לא תערפנא שיא בוג'ה מן אלד'את אלמטלוב עלמהא מא הי אלא אן כאן ד'לך באלערץ' כמא מת'לנא.",
+          "en": "I say: an attribute is not only that which specifies the described such that nothing else shares it in that attribute; rather, an attribute may also be an attribute of the described even if others share it, so that no complete specification is achieved by it. For example, if you saw a man from a distance and asked, 'What is this visible thing?' and it was said to you, 'An animal' — that is undoubtedly an attribute of this visible thing, even though it does not distinguish it from everything else; yet some specification is achieved by it, namely that this visible thing is not a body of the plant genus nor of the mineral genus. Likewise, if a man were in this house, and you knew that some body was in it but did not know what it was, and you asked, 'What is in this house?' and the respondent said, 'There is no mineral in it nor any plant body' — some specification has been achieved, and you know that there is an animal in it, even if you do not know which animal it is. In this respect, negative attributes share with positive attributes, because they necessarily achieve some specification — even if the only specification in them is the removal of what was negated from among what we had supposed was not negated. But the way in which negative attributes differ from positive attributes is that positive attributes, even if they do not specify, nevertheless indicate a part of the thing whose knowledge is sought — either a part of its substance or an accident among its accidents. Whereas negative attributes teach us nothing whatsoever about the essence whose knowledge is sought, except perhaps incidentally, as we illustrated.",
+          "pairs": [
+            { "ja": "אלצפה ליסת הי אלתי תכ'צץ אלמוצוף פקט חתי לא ישתרך פי תלך אלצפה מע גירה", "en": "an attribute is not only that which specifies the described such that nothing else shares it in that attribute" },
+            { "ja": "ראית אנסאנא עלי בעד פסאלת וקלת מא הד'א אלמראי", "en": "if you saw a man from a distance and asked, 'What is this visible thing?'" },
+            { "ja": "פבהד'ה אלג'הה תשארך צפאת אלסלב לצפאת אלאיג'אב", "en": "In this respect, negative attributes share with positive attributes" },
+            { "ja": "צפאת אלאיג'אב ואן לם תכ'צץ פאנהא תדל עלי ג'ז מן ג'מלהֵ אלשי", "en": "positive attributes, even if they do not specify, nevertheless indicate a part of the thing whose knowledge is sought" },
+            { "ja": "וצפאת אלסלב לא תערפנא שיא בוג'ה מן אלד'את אלמטלוב עלמהא", "en": "Whereas negative attributes teach us nothing whatsoever about the essence whose knowledge is sought" }
+          ]
+        },
+        {
+          "ja": "ובעד הד'ה אלמקדמה אקול אן אללה עז וג'ל קד תברהן אנה ואג'ב אלוג'וד לא תרכיב פיה כמא סנברהן וליס נדרך אלא אניתה פקט לא מאהיתה פיסתחיל אן תכון לה צפה איג'אב לאנה לא אניה לה כ'ארג'א ען מאהיתה פתדל אלצפה עלי אחדאהמא פנאהיך אן תכון מאהיתה מרכבה פתדל אלצפה עלי ג'זאיהא נאהיך אן תכון לה אעראץ' פתדל אלצפה איצ'א עליהא פלא צפהֵ איג'אב בוג'ה.",
+          "en": "After this introduction I say: it has been demonstrated that God, mighty and exalted, is the Necessarily Existent in whom there is no composition — as we shall prove. We apprehend only His thatness (anniyya) alone, not His quiddity. Therefore it is impossible that He have a positive attribute; for He has no thatness outside His quiddity, such that the attribute would indicate one of the two. Far from His quiddity being composite, such that the attribute would indicate its parts — far from His having accidents, such that the attribute would indicate those too. Therefore no positive attribute whatsoever.",
+          "pairs": [
+            { "ja": "אללה עז וג'ל קד תברהן אנה ואג'ב אלוג'וד לא תרכיב פיה", "en": "it has been demonstrated that God, mighty and exalted, is the Necessarily Existent in whom there is no composition" },
+            { "ja": "וליס נדרך אלא אניתה פקט לא מאהיתה", "en": "We apprehend only His thatness (anniyya) alone, not His quiddity" },
+            { "ja": "פיסתחיל אן תכון לה צפה איג'אב לאנה לא אניה לה כ'ארג'א ען מאהיתה", "en": "Therefore it is impossible that He have a positive attribute; for He has no thatness outside His quiddity" },
+            { "ja": "פלא צפהֵ איג'אב בוג'ה", "en": "Therefore no positive attribute whatsoever" }
+          ]
+        },
+        {
+          "ja": "אמא צפאת אלנפי פהי אלתי ינבגי אן תסתעמל לארשאד אלד'הן למא ינבגי אן יעתקד פיה תעאלי לאנהא לא ילחק מן ג'התהא תכת'יר בוג'ה והי תרשד אלד'הן לגאיהֵ מא ימכן אלאנסאן אן ידרכה מנה תעאלי. מת'אל ד'לך אנה תברהן לנא וג'וב וג'וד שי מא גיר הד'ה אלד'ואת אלמדרכה באלחואס ואלמחאט בעלמהא באלעקל פקלנא ען הד'א אנה מוג'וד אלמעני אנה יסתחיל עדמה. ת'ם אדרכנא אן הד'א אלמוג'וד ליס הו מת'ל וג'וד אלאסטקסאת מת'לא אלתי הי אג'סאם מיתה פקלנא אנה חי אלמעני אנה תעאלי ליס במאית ת'ם אדרכנא אן הד'א אלמוג'וד איצ'א ליס הו מת'ל וג'וד אלסמא אלתי הי ג'סם חי פקלנא אנה ליס בג'סם ת'ם אדרכנא אן הד'א אלמוג'וד ליס הו מת'ל וג'וד אלעקל אלד'י ליס הו בג'סם ולא מאית לכנה מעלול פקלנא אנה תעאלי קדים אלמעני ליס לה סבב אוג'דה. ת'ם אדרכנא אן הד'א אלמוג'וד ליס וג'ודה אלד'י הו ד'אתה אנמא הו כאף לה פקט אן יכון מוג'ודא בל תפיץ' ענה וג'ודאת כת'ירה וליס ד'לך כפיץ' אלחרארה ען אלנאר ולא כלזום אלצ'ו ען אלשמס בל פיץ' ימדהא דאימא בקאא ואנתט'אמא בתדביר מחכם כמא סנבין פקולנא פיה מן אג'ל הד'ה אלמעאני אנה קאדר ועאלם ומריד ואלקצד בהד'ה אלצפאת אנה ליס בעאג'ז ולא ג'אהל ולא ד'אהל ולא מהמל. ומעני קולנא ליס בעאג'ז אן וג'ודה פיה כפאיה לאיג'אד אשיא אכ'ר גירה. ומעני קולנא לא ג'אהל אנה מדרך אי חי לאן כל מדרך חי. ומעני קולנא לא ד'אהל ולא מהמל אן ג'מיע תלך אלמוג'ודאת ג'אריה עלי נט'אם ותדביר לא מהמלה וכאינה כיף אתפק אלא ככון כל מא ידברה אלמריד בקצד ואראדה. ת'ם אדרכנא אן הד'א אלמוג'וד לא אכ'ר מת'לה פקולנא הו ואחד אלמעני נפי אלכת'רה.",
+          "en": "As for the negative attributes — these are those that ought to be used to guide the mind to what ought to be believed about Him, exalted be He; for they involve no multiplicity from their side in any way, and they guide the mind toward the utmost of what a human being can apprehend of Him, exalted be He. For example: the necessity of the existence of something other than those essences apprehensible by the senses and comprehended in knowledge by the intellect has been demonstrated to us. So we said of this: it is existent — meaning, its non-existence is impossible. Then we apprehended that this existent is not like the existence of the elements, for instance, which are lifeless bodies; so we said: it is living — meaning He, exalted be He, is not dead. Then we apprehended that this existent is also not like the existence of the heaven, which is a living body; so we said: He is not a body. Then we apprehended that this existent is not like the existence of the intellect, which is neither body nor dead, but is a caused thing; so we said: He, exalted be He, is eternal — meaning, He has no cause that brought Him into existence. Then we apprehended that this existent — whose existence, which is His essence, is not sufficient only for Him to exist, but numerous existents overflow from Him — and this is not like the overflow of heat from fire or the necessity of light from the sun; rather it is an overflow that sustains them always, in permanence and orderly arrangement through a wise governance, as we shall explain — so we said of Him, on account of these meanings, that He is powerful, knowing, and willing; and the intent of these attributes is that He is not powerless, not ignorant, not heedless, and not negligent. And the meaning of our saying 'not powerless' is that His existence contains in itself sufficiency to bring other things into existence. And the meaning of our saying 'not ignorant' is that He is apprehending — that is, living; for every apprehending thing is living. And the meaning of our saying 'not heedless and not negligent' is that all those existents proceed in orderly arrangement and governance, not abandoned and occurring haphazardly, but as everything governed by one who wills proceeds, by design and will. Then we apprehended that this existent has no other like it; so we said: He is one — meaning, the negation of multiplicity.",
+          "pairs": [
+            { "ja": "אמא צפאת אלנפי פהי אלתי ינבגי אן תסתעמל לארשאד אלד'הן", "en": "As for the negative attributes — these are those that ought to be used to guide the mind" },
+            { "ja": "לאנהא לא ילחק מן ג'התהא תכת'יר בוג'ה", "en": "for they involve no multiplicity from their side in any way" },
+            { "ja": "פקלנא ען הד'א אנה מוג'וד אלמעני אנה יסתחיל עדמה", "en": "So we said of this: it is existent — meaning, its non-existence is impossible" },
+            { "ja": "פקלנא אנה חי אלמעני אנה תעאלי ליס במאית", "en": "we said: it is living — meaning He, exalted be He, is not dead" },
+            { "ja": "ואלקצד בהד'ה אלצפאת אנה ליס בעאג'ז ולא ג'אהל ולא ד'אהל ולא מהמל", "en": "the intent of these attributes is that He is not powerless, not ignorant, not heedless, and not negligent" },
+            { "ja": "פקולנא הו ואחד אלמעני נפי אלכת'רה", "en": "we said: He is one — meaning, the negation of multiplicity" }
+          ]
+        },
+        {
+          "ja": "פקד באן לך אן כל צפה נצפה בהא פהי אמא צפהֵ פעל או יכון מענאהא סלב עדמהא אן כאן אלקצד בהא אדראך ד'אתה לא פעלה. ולא תסתעמל איצ'א הד'ה אלסואלב ולא תטלק עליה תעאלי אלא באלג'הה אלתי עלמת אנה קד יסלב ען אלשי מא ליס שאנה אן יוג'ד לה כמא נקול פי אלחאיט לא בציר.",
+          "en": "It has thus become clear to you that every attribute by which we describe Him is either an attribute of action, or its meaning is the negation of its absence — if the intent is to apprehend His essence, not His action. And one should not employ these negations nor apply them to Him, exalted be He, except in the manner you have learned — that a thing may be negated of something to which it is not fitting to exist, as we say of the wall: 'not sighted.'",
+          "pairs": [
+            { "ja": "כל צפה נצפה בהא פהי אמא צפהֵ פעל", "en": "every attribute by which we describe Him is either an attribute of action" },
+            { "ja": "או יכון מענאהא סלב עדמהא אן כאן אלקצד בהא אדראך ד'אתה לא פעלה", "en": "or its meaning is the negation of its absence — if the intent is to apprehend His essence, not His action" },
+            { "ja": "כמא נקול פי אלחאיט לא בציר", "en": "as we say of the wall: 'not sighted.'" }
+          ]
+        },
+        {
+          "ja": "ואנת תעלם יא איהא אלנאט'ר פי הד'ה אלמקאלה אן הד'ה אלסמא והי ג'סם מתחרך קד שברנאהא וד'רענאהא ואחטנא עלמא במקאדיר אג'זא מנהא ובאכת'ר חרכאתהא קד עג'זת עקולנא כל אלעג'ז ען אדראך מאהיתהא מע כוננא נעלם אנהא ד'את מאדה וצורה צ'רורה גיר אנהא ליסת מת'ל הד'ה אלמאדה אלתי פינא פלד'לך לא נקדר נצפהא אלא באלאסמא אלגיר מחצלה לא באלאיג'אב אלמחצל פאנא נקול אן אלסמא לא כ'פיפה ולא ת'קילה ולא מנפעלה פלד'לך הי לא קאבלה את'ר ולא ד'את טעם ולא ד'את ראיחה ונחו הד'ה אלסואלב כל ד'לך לג'הלנא בתלך אלמאדה פכיף תכון חאל עקולנא אד'א ראמת אדראך אלברי ען אלמאדה אלבסיט גאיהֵ אלבסאטה אלואג'ב אלוג'וד אלד'י לא עלה לה ולא ילחקה מעני זאיד עלי ד'אתה אלכאמלה אלתי מעני כמאלהא סלב אלנקאיץ ענהא כמא בינא פאנא לא נדרך גיר אניתה פקט ואן ת'ם מוג'וד לא ישבהה שי מן אלמוג'ודאת אלתי אוג'דהא ולא ישארכהא פי מעני בוג'ה ולא תכת'יר פיה ולא עג'ז ען איג'אד מא סואה. ואן נסבתה ללעאלם נסבהֵ אלרבאני ללספינה וליסת הד'ה איצ'א נסבה חקיקיה ולא שבה צחיח בל הי לארשאד אלד'הי אנה תעאלי מדבר ללמוג'ודאת אלמעני אנה ימדהא ויחרז נט'אמהא כמא ינבגי וסיבין הד'א אלמעני באבלג מן הד'א.",
+          "en": "You who study this treatise know that this heaven — a moving body that we have measured and spanned, and whose dimensions we have comprehended in their parts and whose motions we have mostly mastered — our intellects have completely failed to apprehend its quiddity; even though we know that it necessarily has matter and form, only that its matter is not like this matter that is in us. Therefore we cannot describe it except through indefinite names, not through determinate positive predication: we say, the heaven is not light, not heavy, not acted upon, and therefore does not receive an impression, has no taste, has no smell — and the like of these negations. All this is because of our ignorance of that matter. How then will the state of our intellects be when they seek to apprehend the Creator, stripped of matter, simple in the extreme of simplicity, the Necessarily Existent who has no cause, to whom no meaning additional to His perfect essence accrues — the meaning of whose perfection is the negation of deficiencies, as we have explained? For we apprehend nothing of Him but His thatness alone; and there is an existent unlike anything among the existents He brought into being, sharing with them no meaning whatsoever, with no multiplicity in Him and no incapacity to bring into existence what is other than He. His relation to the world is like the relation of the helmsman to the ship — and even this is not a true relation or a correct resemblance; it is only for guiding the mind that He, exalted be He, governs the existents — meaning He sustains them and preserves their order as is fitting. And this meaning will be explained more fully than this.",
+          "pairs": [
+            { "ja": "הד'ה אלסמא והי ג'סם מתחרך קד שברנאהא וד'רענאהא", "en": "this heaven — a moving body that we have measured and spanned" },
+            { "ja": "עג'זת עקולנא כל אלעג'ז ען אדראך מאהיתהא", "en": "our intellects have completely failed to apprehend its quiddity" },
+            { "ja": "אלברי ען אלמאדה אלבסיט גאיהֵ אלבסאטה אלואג'ב אלוג'וד", "en": "the Creator, stripped of matter, simple in the extreme of simplicity, the Necessarily Existent" },
+            { "ja": "מעני כמאלהא סלב אלנקאיץ ענהא", "en": "the meaning of whose perfection is the negation of deficiencies" },
+            { "ja": "אנא לא נדרך גיר אניתה פקט", "en": "we apprehend nothing of Him but His thatness alone" },
+            { "ja": "ואן נסבתה ללעאלם נסבהֵ אלרבאני ללספינה", "en": "His relation to the world is like the relation of the helmsman to the ship" }
+          ]
+        },
+        {
+          "ja": "פסבחאן מן אד'א לאחט'ת אלעקול ד'אתה עאד אדראכהא תקצירא ואד'א לחט'ת לזום אפעאלה ען אראדתה עאד עלמהא ג'הלא ואד'א ראמת אלאלסן תעט'ימה באוצאף עאדת כל בלאגה עיא ותקצירא:",
+          "en": "Glory be to Him — when intellects contemplate His essence, their apprehension turns to incapacity; when they contemplate the chain of His acts from His will, their knowledge turns to ignorance; and when tongues seek to exalt Him through descriptions, all eloquence turns to helplessness.",
+          "pairs": [
+            { "ja": "אד'א לאחט'ת אלעקול ד'אתה עאד אדראכהא תקצירא", "en": "when intellects contemplate His essence, their apprehension turns to incapacity" },
+            { "ja": "ואד'א לחט'ת לזום אפעאלה ען אראדתה עאד עלמהא ג'הלא", "en": "when they contemplate the chain of His acts from His will, their knowledge turns to ignorance" },
+            { "ja": "ואד'א ראמת אלאלסן תעט'ימה באוצאף עאדת כל בלאגה עיא ותקצירא", "en": "when tongues seek to exalt Him through descriptions, all eloquence turns to helplessness" }
+          ]
+        }
+      ]
+    }
+  ]
+}

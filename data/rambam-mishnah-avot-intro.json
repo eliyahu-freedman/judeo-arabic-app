@@ -1,0 +1,880 @@
+{
+  "work": "Mishnah Commentary",
+  "section": "Introduction — Eight Chapters (Shemonah Perakim)",
+  "section_ja": "הקדמה — שמונה פרקים",
+  "subtitle": "Eight Chapters on the Human Soul",
+  "author": "Moses Maimonides",
+  "english_translator": "",
+  "intro": "Rambam's Commentary on the Mishnah in the original 12th-century Judeo-Arabic. Hover a phrase to see its English light up; tap any word for a dictionary gloss.",
+  "pages": [
+    {
+      "page_he": "הקדמה",
+      "aligned": [
+        {
+          "ja": "קד בינא פי צדר הד'א אלתאליף מא אלסבב אלד'י ג'על הד'א אלמדון ית'בת הד'ה אלמסכתא פי הד'א אלסדר, וד'כרנא איצ'א עט'ים אלמנפעה פי הד'ה אלמסכתא. וקד ועדנא מראת פי מא תקדם מן הד'א אלתאליף באנא נתכלם פי הד'ה אלמסכתא פי אגראץ' מפידה, ואנא נטול פיהא בעץ' תטויל, לאנהא ואן כאנת בינה סהלת אלתפהים בחסב אלט'אהר פליס אלעמל במתצ'מנהא סהל עלי ג'מיע אלנאס, ולא איצ'א ג'מיע אגראצ'הא מפהומה דון שרח שאף, מע כונהא מודיה אלי כמאל כת'יר וסעאדה חקיקיה, ולד'לך ראית באן נשבע פיהא אלקול.",
+          "en": "We have already explained at the head of this work the reason that led the compiler of this corpus to fix this tractate in this Order, and we mentioned, too, the great benefit of this tractate. We promised more than once in what preceded of this work that we would speak about this tractate by way of profitable themes, and that we would expand upon it at some length—for although it is, to outward appearance, easy and ready to grasp, putting what it contains into practice is not easy for everyone, nor are all of its themes intelligible without a thorough commentary, even though it leads to great perfection and to true felicity. For that reason I saw fit to draw out the discussion of it.",
+          "pairs": [
+            {
+              "ja": "עט'ים אלמנפעה פי הד'ה אלמסכתא",
+              "en": "the great benefit of this tractate"
+            },
+            {
+              "ja": "אגראץ' מפידה",
+              "en": "profitable themes"
+            },
+            {
+              "ja": "כמאל כת'יר וסעאדה חקיקיה",
+              "en": "great perfection and to true felicity"
+            },
+            {
+              "ja": "שרח שאף",
+              "en": "a thorough commentary"
+            },
+            {
+              "ja": "נשבע פיהא אלקול",
+              "en": "draw out the discussion of it"
+            }
+          ]
+        },
+        {
+          "ja": "וקד קאלוא עליהם אלסלאם האיי מן דבעי למהוי חסידא ליקיים מילי דאבות. וליס ענד[נ]א מרתבה פוק אלחסידות גיר אלנבוה והי אלמודיה להא, כמא קאלוא חסידות מביאה לידי רוח הקדש, פקד צח מן קולהם אן אלעמל באדאב הד'ה אלמסכתא מודי אלי אלנבוה, וסנבין חקיקהֵ ד'לך, לאנהא משתלמה עלי ג'ז כביר מן אלכ'לקיאת.",
+          "en": "For they said, peace be upon them: \"Whoever wishes to be pious (*ḥasid*), let him fulfill the words of Avot\" (BT Bava Kamma 30a). And we hold there to be no rank above piety (*ḥasidut*) except prophecy, and it is piety that leads to prophecy, as they said: \"Piety brings one to the holy spirit\" (M. Sotah 9:15). Thus it is established from their words that practicing the disciplines (*adab*) of this tractate leads to prophecy—and we shall make the truth of this clear—since the tractate comprises a large portion of the ethical matters.",
+          "pairs": [
+            {
+              "ja": "האיי מן דבעי למהוי חסידא ליקיים מילי דאבות",
+              "en": "\"Whoever wishes to be pious (*ḥasid*), let him fulfill the words of Avot\""
+            },
+            {
+              "ja": "מרתבה פוק אלחסידות גיר אלנבוה",
+              "en": "no rank above piety (*ḥasidut*) except prophecy"
+            },
+            {
+              "ja": "חסידות מביאה לידי רוח הקדש",
+              "en": "\"Piety brings one to the holy spirit\""
+            },
+            {
+              "ja": "אלעמל באדאב הד'ה אלמסכתא מודי אלי אלנבוה",
+              "en": "practicing the disciplines (*adab*) of this tractate leads to prophecy"
+            },
+            {
+              "ja": "אלכ'לקיאת",
+              "en": "ethical matters"
+            }
+          ]
+        },
+        {
+          "ja": "וראית באן אקדם קבל אן אכ'ד' פי שרח הלכה הלכה פצול מפידה יחצל לאלאנסאן מנהא מקדמאת ותכון לה איצ'א כאלמפתאח למא נסתקבל מן אלשרח. ואעלם אן אלאשיא אלתי נקולהא פי הד'ה אלפצול ופי מא יאתי מן אלשרח ליס הי אגראץ' אבתכרתהא אנא מן נפסי, ולא שרוח אבתדעתהא, ואנמא הי אגראץ', מלקוטה מן כלאם אלחכמים פי אלמדרשות ופי אלתלמוד וגירה מן תואליפהם, ומן כלאם אלפלאספה איצ'א אלקדם ואלמחדת'ין, ומן תואליף כת'יר מן אלנאס, ואסמע אלחק ממן קאלה.",
+          "en": "I saw fit to set down, before I take up the explanation of one halakhah after another, some profitable chapters by which a person may obtain certain premises, and which will serve him as a key to what we are about to take up in the commentary.\n\nKnow that the matters we state in these chapters, and in what follows of the commentary, are not themes I myself originated, nor explanations I invented. They are rather themes gleaned from the words of the Sages in the Midrashot and in the Talmud and other of their compositions, and from the words of the philosophers as well, both the ancients and the moderns, and from the compositions of many people; and one should accept the truth from whoever has said it.",
+          "pairs": [
+            {
+              "ja": "פצול מפידה יחצל לאלאנסאן מנהא מקדמאת",
+              "en": "some profitable chapters by which a person may obtain certain premises"
+            },
+            {
+              "ja": "כאלמפתאח למא נסתקבל מן אלשרח",
+              "en": "a key to what we are about to take up in the commentary"
+            },
+            {
+              "ja": "מלקוטה מן כלאם אלחכמים פי אלמדרשות ופי אלתלמוד",
+              "en": "themes gleaned from the words of the Sages in the Midrashot and in the Talmud"
+            },
+            {
+              "ja": "כלאם אלפלאספה איצ'א אלקדם ואלמחדת'ין",
+              "en": "the words of the philosophers as well, both the ancients and the moderns"
+            },
+            {
+              "ja": "ואסמע אלחק ממן קאלה",
+              "en": "one should accept the truth from whoever has said it"
+            }
+          ]
+        },
+        {
+          "ja": "וקד רב מא ג'בת ג'מלהֵ קול יכון נץ כתאב משהור, פליס פי ד'לך כלה שרארה, ולא אדעי פי מא קאלה מן תקדם, לאנא קד אעתרפנא בד'לך ואן לם נד'כר קאל פלאן קאל פלאן, אד' הד'א תטויל לא פאידה פיה. וקד רב מא אוקע פי נפס מן לא חנכה לה אסם ד'לך אלשכ'ץ אן ד'לך אלכלאם סקים ופיה באטנהֵ סו לא יעלמהא, פלד'לך ראית אכ'תצאר אלקאיל, אד' גרצ'י אן תחצל אלפאידה לאלקארי ונבין לה אלמעאני אלמכנוזה פי הד'ה אלמסכתא. ואנא אלאן אבתדי בד'כר אלפצול אלתי ראית בתקדימהא הנא בחסב גרצ'י והי ת'מאניה פצול.",
+          "en": "It may happen at times that I cite the substance of a saying that is the very text of a well-known book; in all this there is no harm, and I do not claim for myself what those before me said—for we have already acknowledged this, even where we do not record \"so-and-so said,\" \"so-and-so said,\" since that would be a prolixity without benefit. And it may happen at times that the name of a particular person settles in the mind of one who has no discernment, [making him suppose] that the saying is unsound and that within it lies some hidden ill he is unaware of. For this reason I saw fit to omit the name of the speaker, since my aim is that the benefit reach the reader and that we make clear to him the meanings treasured up in this tractate. I shall now begin to set out the chapters that I have seen fit to put forward here in accordance with my aim—and they are eight chapters.",
+          "pairs": [
+            {
+              "ja": "נץ כתאב משהור",
+              "en": "the very text of a well-known book"
+            },
+            {
+              "ja": "תטויל לא פאידה פיה",
+              "en": "a prolixity without benefit"
+            },
+            {
+              "ja": "אכ'תצאר אלקאיל",
+              "en": "omit the name of the speaker"
+            },
+            {
+              "ja": "אלמעאני אלמכנוזה פי הד'ה אלמסכתא",
+              "en": "the meanings treasured up in this tractate"
+            },
+            {
+              "ja": "והי ת'מאניה פצול",
+              "en": "they are eight chapters"
+            }
+          ]
+        },
+        {
+          "ja": "פרק ראשון",
+          "en": "First Chapter",
+          "isHeader": true
+        },
+        {
+          "ja": "אעלם אן נפס אלאנסאן נפס ואחדה ולהא אפאעיל כת'ירה מכ'תלפה קד תסמי בעץ' תלך אלאפאעיל אנפס, פיט'ן בד'לך אן לאלאנסאן אנפס כת'ירה כמא יט'ן אלאטבא, חתי יצדר ריסהם אן אלאנפס ת'לאת' טביעיה וחיואניה ונפסאניה. וקד תסמי קוי ואג'זא, חתי יקאל אג'זא אלנפס, והד'ה אלאסמי כת'יר מא יסתעמלהא אלפלאספה, וליס ירידון בקולהם אג'זא אנהא תתג'זא תג'זא אלאג'סאם, ואנמא הם יעדדון אפעאלהא אלמכ'תלפה אלתי הי ענד ג'מלהֵ אלנפס כאלאג'זא ענד אלכל אלמולף מן תלך אלאג'זא.",
+          "en": "*On the human soul and its faculties.*\n\nKnow that the human soul is a single soul, and it has many diverse activities. Some of these activities are at times called \"souls,\" so that one supposes thereby that a human being has many souls—as the physicians suppose, until their chief held that the souls are three: the natural, the animal, and the psychic. At times these are called faculties and parts (*ajzāʾ*), so that one speaks of \"the faculties of the soul.\" These terms the philosophers often employ; yet by \"parts\" they do not mean that the soul is divided as bodies are divided. Rather, they are enumerating its diverse activities, which stand in relation to the soul as a whole as the parts stand to the whole composed of those parts.",
+          "pairs": [
+            {
+              "ja": "נפס אלאנסאן נפס ואחדה",
+              "en": "the human soul is a single soul"
+            },
+            {
+              "ja": "אלאנפס ת'לאת' טביעיה וחיואניה ונפסאניה",
+              "en": "the souls are three: the natural, the animal, and the psychic"
+            },
+            {
+              "ja": "אג'זא אלנפס",
+              "en": "the faculties of the soul"
+            },
+            {
+              "ja": "אלפלאספה",
+              "en": "the philosophers"
+            },
+            {
+              "ja": "אפאעיל כת'ירה מכ'תלפה",
+              "en": "many diverse activities"
+            }
+          ]
+        },
+        {
+          "ja": "ואנת תעלם אן אצלאח אלאכ'לאק אנמא הו עלאג' אלנפס וקואהא, פכמא אן אלטביב אלד'י יעאלג' אלאבדאן יחתאג' אן יעלם אולא אלבדן אלד'י יעאלג'ה באסרה, ואג'זא אלבדן מא הי אעני בדן אלאנסאן, ויחתאג' אן יעלם אי אלאשיא תמרצ'ה פתג'תנב, ואי אלאשיא תצחה פתקצד. כד'לך אלד'י יטב אלנפס ויריד אן יהד'ב אלאכ'לאק יחתאג' אן יעלם אלנפס באסרהא ואג'זאיהא ומא ימרצ'הא ומא יצחהא. פמן ד'לך אקול אן אג'זא אלנפס כ'מסה, אלגאד'י ואלחאס ואלמתכ'יל ואלנזועי ואלנאטק.",
+          "en": "You know that the improvement of character is nothing other than the treatment of the soul and its faculties. Just as the physician who treats bodies must first know the body he is treating in its entirety—what the parts of the body are, I mean the human body—and must know which things make it ill, so as to avoid them, and which things make it well, so as to seek them out: so too the one who would heal the soul and wishes to refine character must know the soul in its entirety and its parts, and what makes it ill and what makes it well. From this I say that the faculties of the soul are five: the vegetative, the sensory, the imaginative, the appetitive, and the rational.",
+          "pairs": [
+            {
+              "ja": "אצלאח אלאכ'לאק אנמא הו עלאג' אלנפס וקואהא",
+              "en": "the improvement of character is nothing other than the treatment of the soul and its faculties"
+            },
+            {
+              "ja": "אלטביב אלד'י יעאלג' אלאבדאן",
+              "en": "the physician who treats bodies"
+            },
+            {
+              "ja": "אג'זא אלנפס כ'מסה",
+              "en": "the faculties of the soul are five"
+            },
+            {
+              "ja": "אלגאד'י ואלחאס ואלמתכ'יל ואלנזועי ואלנאטק",
+              "en": "the vegetative, the sensory, the imaginative, the appetitive, and the rational"
+            },
+            {
+              "ja": "יהד'ב אלאכ'לאק",
+              "en": "wishes to refine character"
+            }
+          ]
+        },
+        {
+          "ja": "וקד קדמנא פי הד'א אלפצל אן כלאמנא אנמא הו פי נפס אלאנסאן, לאן אלאגתד'י מת'לא אלד'י לאלאנסאן ליס הו אלאגת'די אלד'י לאלחמאר ואלפרס. ואנמא יקאל עלי כל תלך אלאשכ'אץ מגתד'י באשתראך אלאסם פקט, לא אן אלמעני ואחד בעינה. מת'אלה מת'אל ת'לאת'ה מואצ'ע מט'למה, אחדהא אשרקת עליה אלשמס פאצ'וי, ואלת'אני טלע עליה אלקמר פאצ'וי, ואלאכ'ר סרג' פיה סראג' פאצ'וי. כד'לך פאעל חס אלאנסאן הי נפס אלאנסאן, ופאעל חס אלחמאר הי נפס אלחמאר, וליס להא מעני יג'מעהא גיר אשתראך אלאסם פקט.",
+          "en": "We have already premised in this chapter that our discussion concerns only the human soul. For the nutritive [faculty], say, that belongs to the human being is not the same nutritive [faculty] that belongs to the donkey and the horse. And it is only by sharing a common name that all these individuals are said to be \"nourished,\" not that the meaning is one and the same in each.\n\nIts likeness is the likeness of three dark places: upon one the sun has shone, so it grew bright; upon the second the moon rose, so it grew bright; and in the last a lamp was lit, so it grew bright. Just so, the agent of human sensation is the human soul, the agent of the donkey's sensation is the donkey's soul; and there is no meaning that joins them together except the sharing of the name alone.",
+          "pairs": [
+            {
+              "ja": "באשתראך אלאסם פקט",
+              "en": "by sharing a common name"
+            },
+            {
+              "ja": "מת'אל ת'לאת'ה מואצ'ע מט'למה",
+              "en": "the likeness of three dark places"
+            },
+            {
+              "ja": "פאעל חס אלאנסאן הי נפס אלאנסאן",
+              "en": "the agent of human sensation is the human soul"
+            },
+            {
+              "ja": "לא אן אלמעני ואחד בעינה",
+              "en": "not that the meaning is one and the same in each"
+            }
+          ]
+        },
+        {
+          "ja": "וארג'ע אלי גרצ'נא פי אג'זא אלנפס ואקול, אלג'ז אלגאד'י מנה אלקוה אלג'אד'בה, ואלמאסכה, ואלהאצ'מה, ואלדאפעה לאלפצ'ול, ואלמנמיה, ואלמולדה לאלמת'ל, ואלממיזה לאלאכ'לאט. ואלג'ז אלחאס מנה אלקוי אלכ'מס אלמשהורה ענד אלג'מהור, אלבאצרה, ואלסמע, ואלד'וק, ואלשם, ואללמס. ואלג'ז אלמתכ'יל הי אלקוה אלתי תחפט' רסום אלמחסוסאת בעד גיבתהא ען מבאשרה אלחואס אלתי אדרכתהא, פתרכב בעצ'הא אלי בעץ' ותפצל בעצ'הא מן בעץ'. והנא גלט אלמתכלמין אלגלטה אלשניעה אלעט'ימה אלתי בנאו עליהא קאעדהֵ מגאלטתהם פי תקסים אלואג'ב ואלג'איז ואלממתנע, פאנהם ט'נו אן כל מא יתכ'יל ממכן.",
+          "en": "Let me return to our aim concerning the parts of the soul, and say: the vegetative part comprises the faculty that attracts, that which retains, that which digests, that which expels the residues, that which causes growth, that which generates the like, and that which distinguishes among the humors. The sensory part comprises the five faculties well known to the multitude: sight, hearing, taste, smell, and touch.\n\nThe imaginative part is the faculty that preserves the impressions of sensible objects after they have departed from direct contact with the senses that perceived them. It combines some of them with others and separates some of them from others. Here the Mutakallimūn fell into the grave and grievous error upon which they built the foundation of their sophistry in dividing [reality] into the necessary, the possible, and the impossible. For they supposed that everything that can be imagined is possible.",
+          "pairs": [
+            {
+              "ja": "אלג'ז אלגאד'י",
+              "en": "the vegetative part"
+            },
+            {
+              "ja": "אלקוי אלכ'מס אלמשהורה ענד אלג'מהור",
+              "en": "the five faculties well known to the multitude"
+            },
+            {
+              "ja": "אלבאצרה, ואלסמע, ואלד'וק, ואלשם, ואללמס",
+              "en": "sight, hearing, taste, smell, and touch"
+            },
+            {
+              "ja": "אלג'ז אלמתכ'יל",
+              "en": "The imaginative part"
+            },
+            {
+              "ja": "גלט אלמתכלמין",
+              "en": "fell into the grave and grievous error"
+            },
+            {
+              "ja": "כל מא יתכ'יל ממכן",
+              "en": "everything that can be imagined is possible"
+            }
+          ]
+        },
+        {
+          "ja": "ואלג'ז אלנזועי הי אלקוה אלתי בהא יתשוק אלאנסאן לשי מא או יכרהה, וען הד'ה אלקוה יצדר מן אלאפעאל אלטלב ואלהרב, ואלאית'אר לאמר מא אלתג'נב לה, ואלגצ'ב ואלרצ'א, ואלכ'וף ואלאקדאם, ואלקסאוה ואלרחמה, ואלמחבה ואלבגצ'ה. ואלג'ז אלנאטק הי אלקוה אלמוג'ודה לאלאנסאן אלתי בהא יעקל, ובהא תכון אלרויה, ובהא יקתני אלעלום, ובהא ימיז בין אלקביח ואלג'מיל מן אלאפעאל. והד'ה אלאפעאל מנהא עמלי ומנהא נט'רי, ואלעמלי מנה מהני ומנה פכרי, פאלנט'רי הו אלד'י בה יעלם אלאנסאן אלמוג'ודאת אלגיר מתגירה עלי מא הי עליה.",
+          "en": "The appetitive part is the faculty by which a person desires a thing or is repelled by it; and from this faculty there issue the activities of seeking and fleeing, of preferring some matter or shunning it, anger and contentment, fear and boldness, cruelty and mercy, love and hatred, and many of these affections of the soul.\n\nThe rational part is the faculty present in the human being by which one reasons, by which deliberation occurs, by which the sciences are acquired, and by which one distinguishes between the ugly and the fine among actions. These activities are partly practical and partly theoretical; the practical is partly technical and partly cogitative. The theoretical is that by which a person knows the unchanging existents as they are, and these are what are called \"the sciences\" without qualification.",
+          "pairs": [
+            {
+              "ja": "אלג'ז אלנזועי",
+              "en": "The appetitive part"
+            },
+            {
+              "ja": "אלגצ'ב ואלרצ'א, ואלכ'וף ואלאקדאם, ואלקסאוה ואלרחמה, ואלמחבה ואלבגצ'ה",
+              "en": "anger and contentment, fear and boldness, cruelty and mercy, love and hatred"
+            },
+            {
+              "ja": "אלג'ז אלנאטק",
+              "en": "The rational part"
+            },
+            {
+              "ja": "בהא יקתני אלעלום",
+              "en": "by which the sciences are acquired"
+            },
+            {
+              "ja": "ימיז בין אלקביח ואלג'מיל מן אלאפעאל",
+              "en": "distinguishes between the ugly and the fine among actions"
+            }
+          ]
+        },
+        {
+          "ja": "ואעלם אן הד'ה אלנפס אלואחדה אלתי תקדם וצף קואהא או אג'זאהא הי כאלמאדה, ואלעקל להא צורה, פאד'א לם תחצל להא אלצורה פכאן וג'וד אלאסתעדאד פיהא לקבול תלך אלצורה באטל, וכאנה וג'וד עבת' והו קולה גם בלא דעת נפש לא טוב. ואמא אלכלאם עלי אלצורה ואלמאדה ואלעקול כם הי וכיף תחצל פמא הד'א מוצ'עה. והנא אקטע הד'א אלפצל ואכ'ד' פי אכ'ר.",
+          "en": "Know that this single soul, whose faculties or parts were described above, is like matter, and the intellect is its form. If the form is not attained by it, then the existence of the preparedness within it to receive that form is in vain, and its existence would be, as it were, futile. This is His saying, \"Also, that the soul be without knowledge is not good\" (Prov 19:2)—meaning that the existence of a soul that has not attained its form, but is a soul without knowledge, is not good. As for discussion of form, matter, and the intellects—how many they are and how they are attained—this is not its place, and there is no need for it in what we intend regarding the discussion of ethics; it is more fitting for the Book on Prophecy that we mentioned. Here I cut off this chapter and take up another.",
+          "pairs": [
+            {
+              "ja": "הד'ה אלנפס אלואחדה",
+              "en": "this single soul"
+            },
+            {
+              "ja": "כאלמאדה, ואלעקל להא צורה",
+              "en": "is like matter, and the intellect is its form"
+            },
+            {
+              "ja": "גם בלא דעת נפש לא טוב",
+              "en": "\"Also, that the soul be without knowledge is not good\""
+            },
+            {
+              "ja": "אלכלאם עלי אלצורה ואלמאדה ואלעקול",
+              "en": "discussion of form, matter, and the intellects"
+            }
+          ]
+        },
+        {
+          "ja": "פרק שני",
+          "en": "Second Chapter",
+          "isHeader": true
+        },
+        {
+          "ja": "אעלם אן אלמעאצי ואלטאעאת אלשרעיה אנמא תוג'ד לג'זאין מן אג'זא אלנפס, והו אלג'ז אלחאס ואלג'ז אלנזועי פקט, ובהד'ין אלג'זאן תכון ג'מיע אלעבירות ואלמצות. אמא אלג'ז אלגאד'י ואלמתכ'יל פלא טאעה פיהמא ולא מעציה, אד' ליס לאלראי ואלאכ'תיאר פיהמא עמל בוג'ה. אמא אלג'ז אלנאטק פפיה חירה, לכן אקול אנה קד יוג'ד בהד'ה אלקוה איצ'א אלטאעה ואלמעציה בחסב אעתקאד ראי פאסד או אעתקאד ראי צחיח, לכן ליס פיהא עמל יטלק עליה אסם מצוה או עבירה.",
+          "en": "*On the transgressions of the faculties of the soul, and on knowing the part in which, or to which, the virtues and vices are found.*\n\nKnow that the legal transgressions and observances pertain only to two parts of the parts of the soul—the sensory part and the appetitive part alone—and by these two parts all the sins (*ʿaverot*) and commandments (*mitzvot*) come to be. As for the vegetative part and the imaginative part, in them there is neither observance nor transgression, since in them opinion and choice have no operation in any respect. As for the rational part, here there is perplexity; but I say that in this faculty too observance and transgression may be found, in accordance with holding a corrupt opinion or holding a correct opinion. Yet in it there is no act to which the name \"commandment\" or \"sin\" applies.",
+          "pairs": [
+            {
+              "ja": "אלמעאצי ואלטאעאת אלשרעיה",
+              "en": "the legal transgressions and observances"
+            },
+            {
+              "ja": "אלג'ז אלחאס ואלג'ז אלנזועי פקט",
+              "en": "the sensory part and the appetitive part alone"
+            },
+            {
+              "ja": "ג'מיע אלעבירות ואלמצות",
+              "en": "all the sins (*ʿaverot*) and commandments (*mitzvot*)"
+            },
+            {
+              "ja": "ליס לאלראי ואלאכ'תיאר פיהמא עמל",
+              "en": "in them opinion and choice have no operation"
+            },
+            {
+              "ja": "אעתקאד ראי פאסד או אעתקאד ראי צחיח",
+              "en": "holding a corrupt opinion or holding a correct opinion"
+            }
+          ]
+        },
+        {
+          "ja": "אמא אלפצ'איל פהי נועאן, פצ'איל כ'לקיה ופצ'איל נטקיה, ופי מקאבלהמא נועי אלרד'איל. אמא אלפצ'איל אלנטקיה פהי תוג'ד לאלג'ז אלנאטק, מנהא אלחכמה והי מערפהֵ אלאסבאב אלבעידה ואלקריבה. ואלעקל, ומנה אלעקל אלנט'רי והו אלד'י יחצל לנא באלטבע אעני אלמעקולאת אלאול. ומנה אלד'כי וג'ודהֵ אלפהם והו ג'ודהֵ אלחדס עלי אלשי בסרעה. ואמא אלפצ'איל אלכ'לקיה פהי תוג'ד לאלג'ז אלנזועי וחדה. ופצ'איל הד'א אלג'ז כת'ירה ג'דא, מת'ל אלעפה ואלסכ'א ואלעדאלה ואלחלם ואלתואצ'ע ואלקנאעה ואלשג'אעה. ורד'איל הד'א אלג'ז הו אלתפריט פי הד'ה או אלאפראט פיהא.",
+          "en": "As for the virtues, they are of two kinds: ethical virtues and rational virtues, and opposite them the two kinds of vices. The rational virtues are found in the rational part. Among them is wisdom (*ḥikma*), which is knowledge of the remote and proximate causes after knowing the existence of the thing whose causes are sought. And [there is] the intellect, of which there is the theoretical intellect—that which is attained for us by nature, I mean the primary intelligibles; and [there is] sagacity, which is the excellence of comprehension, that is, the excellence of intuiting a thing swiftly.\n\nAs for the ethical virtues, they are found in the appetitive part alone. The virtues of this part are very many—such as temperance, generosity, justice, gentleness, humility, contentment, courage, modesty, and others; and the vices of this part are deficiency or excess in these.",
+          "pairs": [
+            {
+              "ja": "פצ'איל כ'לקיה ופצ'איל נטקיה",
+              "en": "ethical virtues and rational virtues"
+            },
+            {
+              "ja": "אלחכמה והי מערפהֵ אלאסבאב אלבעידה ואלקריבה",
+              "en": "wisdom (*ḥikma*), which is knowledge of the remote and proximate causes"
+            },
+            {
+              "ja": "אלד'כי וג'ודהֵ אלפהם",
+              "en": "sagacity, which is the excellence of comprehension"
+            },
+            {
+              "ja": "אלפצ'איל אלכ'לקיה פהי תוג'ד לאלג'ז אלנזועי וחדה",
+              "en": "the ethical virtues, they are found in the appetitive part alone"
+            },
+            {
+              "ja": "אלעפה ואלסכ'א ואלעדאלה ואלחלם ואלתואצ'ע ואלקנאעה ואלשג'אעה",
+              "en": "temperance, generosity, justice, gentleness, humility, contentment, courage"
+            },
+            {
+              "ja": "אלתפריט פי הד'ה או אלאפראט פיהא",
+              "en": "deficiency or excess in these"
+            }
+          ]
+        },
+        {
+          "ja": "פרק שלישי",
+          "en": "Third Chapter",
+          "isHeader": true
+        },
+        {
+          "ja": "קאל אלאקדמון אן לאלנפס צחה ומרץ' כמא לאלבדן צחה ומרץ'. פצחהֵ אלנפס אן תכון היאתהא והיאת אג'זאיהא היאה תפעל בהא אבדא אלכ'יראת ואלחסנאת ואלאפעאל אלג'מילה, ומרצ'הא אן תכון היאתהא והיאת אג'זאיהא היאה תפעל בהא אבדא אלשרור ואלסיאת ואלאפעאל אלקביחה. וכמא אן אצחאב מרץ' אלאבדאן יכ'יל להם פסאד חסהם פי מא חלי אנה מר, ופי מא הו מר אנה חלו, פיתצורון אלמלאים בצורהֵ גיר מלאים, ותשתד שהותהם ותעט'ם לד'אתהם באמור לא לד'ה פיהא בוג'ה ענד אלאצחא. כד'לך אלמרצ'א אלאנפס אעני אלאשראר וד'וי אלנקאיץ יכ'יל להם פי מא הי שרור אנהא כ'יראת, ופי מא הי כ'יראת אנהא שרור.",
+          "en": "*On the maladies of the soul.*\n\nThe ancients said that the soul has health and sickness just as the body has health and sickness. The health of the soul is that its states and the states of its parts be a state by which it always performs good, fine, and beautiful actions; and its sickness is that its states and the states of its parts be a state by which it always performs evil, base, and ugly actions. As for the body's health and sickness, the art of medicine investigates that.\n\nJust as those afflicted with maladies of the body have their sense-perception corrupted, so that what is sweet is imagined to be bitter and what is bitter is imagined to be sweet—they picture the agreeable in the form of the disagreeable: just so, those sick in soul—I mean the wicked and the deficient—imagine that what is evil is good, and that what is good is evil.",
+          "pairs": [
+            {
+              "ja": "לאלנפס צחה ומרץ' כמא לאלבדן צחה ומרץ'",
+              "en": "the soul has health and sickness just as the body has health and sickness"
+            },
+            {
+              "ja": "צחהֵ אלנפס",
+              "en": "The health of the soul"
+            },
+            {
+              "ja": "מרצ'הא",
+              "en": "its sickness"
+            },
+            {
+              "ja": "אלמרצ'א אלאנפס אעני אלאשראר וד'וי אלנקאיץ",
+              "en": "those sick in soul—I mean the wicked and the deficient"
+            },
+            {
+              "ja": "יכ'יל להם פי מא הי שרור אנהא כ'יראת",
+              "en": "imagine that what is evil is good"
+            }
+          ]
+        },
+        {
+          "ja": "וכמא אן אלמרצ'א למא עלמוא מרצ'הם ולם יחסנון צנאעהֵ אלטב סאלוא אלאטבא פערפוהם במא ינבגי אן יעמלוא, ונהוהם ען מא יתכ'ילוה לד'יד', וג'ברוהם עלי תנאול אלאמור אלכריהה אלמרה, כד'לך אלמרצ'א אלאנפס ינבגי להם אן יסאלוא אלעלמא אלד'ין הם אטבא אלאנפס, פינהונהם ען תלך אלשרור אלתי יט'נונהא כ'יראת. אמא אלמרצ'א אלאנפס אלד'ין לא ישערון במרצ'הם ויתכ'ילונה צחה, או ישערון בה ולא יתטבבון, פמאלהם למא יכון מאל אלמריץ' אד'א תבע לד'אתה ולא יתטבב פהו יהלך בלא שך. אמא אלד'ין ישערון ויתבעון לד'אתהם קאל אלכתאב כי בשרירות לבי אלך, יעני אנה יקצד אן ירוי עטשה והו יזיד נפסה עטש.",
+          "en": "And just as the bodily sick, when they recognize their sickness yet do not master the art of medicine, ask the physicians, who inform them of what they ought to do, forbid them what they imagine to be delicious, and compel them to take the disagreeable, bitter things that restore their bodies: just so, the sick in soul ought to ask the scholars, who are the physicians of the souls. They will forbid them those evils that they suppose to be good.\n\nAs for the sick in soul who are not aware of their sickness and imagine it to be health, or who are aware of it but do not seek treatment—their fate is what the fate of the [bodily] sick man is when he follows his cravings and does not seek treatment: he perishes without doubt. As for those who are aware yet follow their cravings, the Scripture of truth describes them: \"for I walk in the stubbornness of my heart\" (Deut 29:18)—meaning that he intends to quench his thirst while he only increases his soul's thirst.",
+          "pairs": [
+            {
+              "ja": "אלעלמא אלד'ין הם אטבא אלאנפס",
+              "en": "the scholars, who are the physicians of the souls"
+            },
+            {
+              "ja": "אלד'ין לא ישערון במרצ'הם",
+              "en": "the sick in soul who are not aware of their sickness"
+            },
+            {
+              "ja": "יהלך בלא שך",
+              "en": "he perishes without doubt"
+            },
+            {
+              "ja": "כי בשרירות לבי אלך",
+              "en": "\"for I walk in the stubbornness of my heart\""
+            },
+            {
+              "ja": "יזיד נפסה עטש",
+              "en": "increases his soul's thirst"
+            }
+          ]
+        },
+        {
+          "ja": "פרק רביעי",
+          "en": "Fourth Chapter",
+          "isHeader": true
+        },
+        {
+          "ja": "אלאפעאל אלתי הי כ'יראת הי אלאפאעל אלמעתדלה אלמתוסטה בין טרפין המא ג'מיעא שרא, אחדהמא אפראט ואלאכ'ר תקציר. ואלפצ'איל הי היאה נפסאניה ומלכאת מתוסטה בין היאתין רדיתין אחדהמא אזיד ואלאכ'ר אנקץ. מת'אל ד'לך אלעפה פאנהא כ'לק מתוסט בין אלשרה ובין עדם אלאחסאס באללד'ה. וכד'לך אלסכ'א מתוסט בין אלתקתיר ואלתבד'יר. ואלשג'אעה מתוסטה בין אלתהור ואלג'בן. ואלתואצ'ע מתוסט בין אלתכבר ואלתכ'סס. ואלכרם מתוסט בין אלבד'ך ואלנד'אלה.",
+          "en": "*On healing the maladies of the soul.*\n\nThe actions that are good are the moderate ones, the mean ones, between two extremes, both of which are evil: one of them excess and the other deficiency. The virtues are psychic states and settled dispositions intermediate between two bad states, one of which is more and the other less, and from this [intermediate] state those actions follow. An example of this is temperance, which is a character-trait intermediate between gluttony and insensibility to pleasure.\n\nLikewise generosity is intermediate between stinginess and prodigality. Courage is intermediate between rashness and cowardice. Humility is intermediate between arrogance and self-abasement. Liberality is intermediate between squandering and meanness.",
+          "pairs": [
+            {
+              "ja": "אלאפאעל אלמעתדלה אלמתוסטה",
+              "en": "the moderate ones, the mean ones"
+            },
+            {
+              "ja": "אפראט ואלאכ'ר תקציר",
+              "en": "excess and the other deficiency"
+            },
+            {
+              "ja": "אלפצ'איל הי היאה נפסאניה ומלכאת מתוסטה",
+              "en": "The virtues are psychic states and settled dispositions intermediate"
+            },
+            {
+              "ja": "אלעפה פאנהא כ'לק מתוסט בין אלשרה ובין עדם אלאחסאס באללד'ה",
+              "en": "temperance, which is a character-trait intermediate between gluttony and insensibility to pleasure"
+            },
+            {
+              "ja": "אלשג'אעה מתוסטה בין אלתהור ואלג'בן",
+              "en": "Courage is intermediate between rashness and cowardice"
+            }
+          ]
+        },
+        {
+          "ja": "וקד יגלט אלנאס כת'יר פי הד'ה אלאפעאל ויט'נון אחד אלטרפין כ'יר ופצ'ילה מן פצ'איל אלנפס, תארה יט'נון אלטרף אלאול כ'יר כמא יט'נוא אלתהור פצ'ילה ויסמון אלמתהורין שג'עאן, ותארה יט'נון אלטרף אלאכ'יר ויקולון ען אלמהין אלנפס חלים, וען אלכסלאן קנוע, וען עדים אלאחסאס באללד'את לג'פא טבעה עפיף. ועלי הד'א אלנחו מן אלגלט יט'נון איצ'א אלתבד'יר ואלבד'ך מן אלאפעאל אלמחמודה, והד'א כלה גלט, ואנמא יחמד עלי אלחקיקה אלתוסט, ונחוה ינבגי לאלאנסאן אן יקצד.",
+          "en": "People often err greatly concerning these actions, supposing one of the two extremes to be good and a virtue among the virtues of the soul. At times they suppose the first extreme to be good, as when they suppose rashness to be a virtue and call the rash \"courageous\"; and when they see one who is at the utmost of rashness and recklessness toward perils, who casts himself into destruction deliberately and yet happens to escape by chance, they praise him for it and say, \"This one is courageous.\" At times they suppose the latter extreme [to be good] and say of the soul-debased man that he is \"gentle,\" of the slothful man \"content,\" and of one whose insensibility to pleasures stems from the coarseness of his nature \"temperate.\" After this fashion of error they also suppose squandering and prodigality to be among the praiseworthy actions. All this is error. In truth, only the mean is praiseworthy, and toward it a person ought to aim.",
+          "pairs": [
+            {
+              "ja": "יגלט אלנאס כת'יר פי הד'ה אלאפעאל",
+              "en": "People often err greatly concerning these actions"
+            },
+            {
+              "ja": "יט'נוא אלתהור פצ'ילה",
+              "en": "they suppose rashness to be a virtue"
+            },
+            {
+              "ja": "ען אלכסלאן קנוע",
+              "en": "slothful man \"content,\""
+            },
+            {
+              "ja": "אנמא יחמד עלי אלחקיקה אלתוסט",
+              "en": "only the mean is praiseworthy"
+            }
+          ]
+        },
+        {
+          "ja": "ואעלם אן הד'ה אלפצ'איל ואלראד'איל אלכ'לקיה אנמא תחצל ותתמכן פי אלנפס בתכריר אלאפעאל אלכאינה ען ד'לך אלכ'לק מרארא כת'ירא פי זמאן טויל, ואעתיאדנא להמא. פכמא אן אלג'סם אד'א כ'רג' ען אעתדאלה נט'רנא אלי אי ג'הה מאל וכ'רג' פנקאבלה בצ'דה חתי ירג'ע אלי אלאעתדאל, כד'לך נפעל פי אלאכ'לאק. מת'אל ד'לך אן נרי אנסאן חצל לה היאת נפסאניה פי נפסה יקתר בהא עלי נפסה, פאד'א ארדנא אן נטב הד'א אלמריץ' פליס נאמרה באלסכ'א, ואנמא ינבגי אן יג'על הד'א יפעל אלתבד'יר אלמרה בעד אלמרה, ויתכרר עליה פעל אלתבד'יר חתי תזול מן נפסה אלהיאה אלמוג'בה לאלתקתיר.",
+          "en": "Know that these ethical virtues and vices are attained and become firmly fixed in the soul only by the repetition of the actions that issue from a given character-trait, many times over a long period, and by our becoming accustomed to them.\n\nJust as the body, when it departs from its equilibrium, we look to which side it inclined and departed, and then counter it with its opposite until it returns to equilibrium: just so do we act in the case of character. An example of this: we see a person in whom there has arisen a psychic state, in his soul, by which he is stingy toward himself—this is a vice among the vices of the soul. If we wish to heal this sick man, we do not command him generosity. Rather, one ought to make this man perform prodigality time after time, and to repeat upon him the action of prodigality until the state that necessitated stinginess vanishes from his soul.",
+          "pairs": [
+            {
+              "ja": "תחצל ותתמכן פי אלנפס בתכריר אלאפעאל",
+              "en": "attained and become firmly fixed in the soul only by the repetition of the actions"
+            },
+            {
+              "ja": "ואעתיאדנא להמא",
+              "en": "by our becoming accustomed to them"
+            },
+            {
+              "ja": "נקאבלה בצ'דה חתי ירג'ע אלי אלאעתדאל",
+              "en": "counter it with its opposite until it returns to equilibrium"
+            },
+            {
+              "ja": "היאת נפסאניה פי נפסה יקתר בהא עלי נפסה",
+              "en": "a psychic state, in his soul, by which he is stingy toward himself"
+            },
+            {
+              "ja": "פעל אלתבד'יר חתי תזול מן נפסה אלהיאה אלמוג'בה לאלתקתיר",
+              "en": "the action of prodigality until the state that necessitated stinginess vanishes from his soul"
+            }
+          ]
+        },
+        {
+          "ja": "והד'א אלנכתה הי קאנון אלעלאג' וסרה, וד'לך אן אלאנסאן רג'ועה מן אלתבד'יר לאלסכ'א אסהל ואקרב מן רג'ועה מן אלתקתיר לאלסכ'א. ולהד'א אלמעני צארוא אלפצ'לא לא יתרכון היאהֵ אנפסהם אלהיאת אלמתוסטה סוי, בל ימילון מילאן קלילא נחו אלאזיד ואלאנקץ עלי סביל אלחוטה. ואמא מא פעלוא אלפצ'לא פי בעץ' אלזמאן מן אלמיל נחו אלטרף אלואחד, מת'ל אלציאם, וקיאם אלליל, ותרך אכל אללחם ושרב אלנביד', ואבעאד אלנסא, פמא פעלוא שי מן הד'ה אלא עלי ג'ההֵ אלטב כמא ד'כרנא. פלמא ראוא אלג'האל האולא אלפצ'לא פעלוא הד'ה אלאפעאל ולם יעלמוא גרצ'הם ט'נוהא כ'יראת.",
+          "en": "This subtlety is the canon of the cure and its secret: that a person's return from prodigality to generosity is easier and nearer than his return from stinginess to generosity.\n\nFor this reason the virtuous do not leave the states of their souls at the mean exactly, but incline a little toward the more or the less, by way of precaution. This meaning is taken note of in their saying \"within the line of the law\" (*lifnim mi-shurat ha-din*).\n\nAs for what the virtuous did at certain times of inclining toward the one extreme, such as fasting, rising at night, forsaking the eating of meat and the drinking of wine, distancing themselves from women: they did none of these things except by way of treatment, as we mentioned. When the ignorant saw these virtuous men performing these actions, but did not know their aim, they supposed them to be good.",
+          "pairs": [
+            {
+              "ja": "קאנון אלעלאג' וסרה",
+              "en": "the canon of the cure and its secret"
+            },
+            {
+              "ja": "ימילון מילאן קלילא נחו אלאזיד ואלאנקץ עלי סביל אלחוטה",
+              "en": "incline a little toward the more or the less, by way of precaution"
+            },
+            {
+              "ja": "ולהד'א אלמעני צארוא אלפצ'לא",
+              "en": "\"within the line of the law\" (*lifnim mi-shurat ha-din*)"
+            },
+            {
+              "ja": "אלציאם, וקיאם אלליל, ותרך אכל אללחם",
+              "en": "fasting, rising at night, forsaking the eating of meat"
+            },
+            {
+              "ja": "עלי ג'ההֵ אלטב כמא ד'כרנא",
+              "en": "by way of treatment, as we mentioned"
+            }
+          ]
+        },
+        {
+          "ja": "והד'ה אלשריעה אלכאמלה אלמכמלה לנא לם תאת בשי מן הד'א, ואנמא קצדת אן יכון אלאנסאן טביעיא סאלך פי אלטריק אלוסטא, יאכל מא לה אן יאכל באעתדאל, וישרב מא לה אן ישרב באעתדאל, וינכח מא לה אן ינכח באעתדאל, ויעמר אלבלאד באלעדל ואלאנצאף. ונהי ען ד'לך בקולה פי אלנזיר וכפר עליו מאשר חטא על הנפש, וקאלוא וכי על איזה נפש חטא זה על שמנע עצמו מן היין. ואעלם אן אלאמת הי אלפצ'איל אלנטקיה לאנהא חקיקיה לא תתגיר, והשלום אלפצ'איל אלכ'לקיה אלתי בהא יכון אלשלום בעולם.",
+          "en": "This perfect Law that perfects us—as one who knows it testified of it, \"The Law of the Lord is perfect, restoring the soul; the testimony of the Lord is sure, making wise the simple\" (Ps 19:8)—brought none of this. Rather, it intended that the human being be natural, walking in the middle path: eating what he is permitted to eat in moderation, drinking what he is permitted to drink in moderation, having marital union with what he is permitted in moderation, and inhabiting the lands with justice and fairness. The Law forbade this in what the transmitted tradition brought us; it said concerning the Nazirite, \"and he shall make atonement for him, for that he sinned against the soul (*nefesh*)\" (Num 6:11), and they said, \"And against what soul did this one sin? It is that he denied himself wine.\"\n\nKnow that \"truth\" here is the rational virtues, for they are true and do not change, as we mentioned in the second chapter; and \"peace\" is the ethical virtues, by which there comes to be peace in the world.",
+          "pairs": [
+            {
+              "ja": "אלשריעה אלכאמלה אלמכמלה לנא",
+              "en": "This perfect Law that perfects us"
+            },
+            {
+              "ja": "אלטריק אלוסטא",
+              "en": "the middle path"
+            },
+            {
+              "ja": "וכפר עליו מאשר חטא על הנפש",
+              "en": "\"and he shall make atonement for him, for that he sinned against the soul (*nefesh*)\""
+            },
+            {
+              "ja": "אלאמת הי אלפצ'איל אלנטקיה",
+              "en": "\"truth\" here is the rational virtues"
+            },
+            {
+              "ja": "והשלום אלפצ'איל אלכ'לקיה אלתי בהא יכון אלשלום בעולם",
+              "en": "\"peace\" is the ethical virtues, by which there comes to be peace in the world"
+            }
+          ]
+        },
+        {
+          "ja": "פרק חמישי",
+          "en": "Fifth Chapter",
+          "isHeader": true
+        },
+        {
+          "ja": "ינבגי לאלאנסאן אן יסתכ'דם קוי נפסה כלהא בחסב אלראי עלי מא קדמנא פי אלפצל אלד'י קבל הד'א, ויג'על חד'א עיניה גאיה ואחדה והי אדראך אללה עז וג'ל חסב טאקהֵ אלאנסאן אעני אלעלם בה. ויג'על אפעאלה כלהא חרכאתה וסכנאתה וג'מיע אקאוילה מודיה נחו הד'ה אלגאיה, חתי לא יכון פי אפעאלה שי מן פעל אלעבת' בוג'ה. מת'ל ד'לך אן יג'על אלקצד באכלה ושרבה ונומה ונכאחה ויקט'תה וחרכתה וסכונה צחהֵ ג'סמה פקט, ואלגרץ' בצחהֵ ג'סמה אן תג'ד אלנפס אלתהא צחיחה סאלמה פתתצרף פי אלעלום ואכתסאב אלפצ'איל אלכ'לקיה ואלנטקיה חתי יצל אלי תלך אלגאיה.",
+          "en": "*On directing the faculties of the soul toward a single end.*\n\nA person ought to employ all the faculties of his soul in accordance with reason, as we premised in the chapter before this; and he should keep before his eyes a single end, which is the apprehension of God (mighty and majestic) according to the human being's capacity—I mean knowledge of Him. He should make all his actions, his motions and his rests, and all his utterances tend toward this end, so that there be nothing among his actions that is futile in any respect. An example of this: that he should make the aim of his eating, drinking, sleeping, marital union, waking, motion, and rest be the health of his body alone, and the aim of his body's health be that the soul find its instruments healthy and sound, so that it may apply itself to the sciences and to the acquisition of the ethical and rational virtues, until it reaches that end.",
+          "pairs": [
+            {
+              "ja": "גאיה ואחדה והי אדראך אללה",
+              "en": "a single end, which is the apprehension of God"
+            },
+            {
+              "ja": "אלעלם בה",
+              "en": "knowledge of Him"
+            },
+            {
+              "ja": "פעל אלעבת'",
+              "en": "futile"
+            },
+            {
+              "ja": "צחהֵ ג'סמה פקט",
+              "en": "the health of his body alone"
+            },
+            {
+              "ja": "אכתסאב אלפצ'איל אלכ'לקיה ואלנטקיה",
+              "en": "the acquisition of the ethical and rational virtues"
+            }
+          ]
+        },
+        {
+          "ja": "פעלי הד'א אלקיאס יכון לצנאעהֵ אלטב מדכ'ל כביר ג'דא פי אלפצ'איל ופי אלעלם באללה ופי ניל אלסעאדה אלחקיקיה, ויכון תעלמהא וטלבהא עבאדה מן אכבר אלעבאדאת. ואנמא יכון פעל אנסאני אד'א תנאול אלאנפע פקט, וקד יתרך אלאלד' ויאכל אלאכרה בחסב טלב אלאנפע, והד'א פעל בחסב אלראי, ובד'א ינפצל אלאנסאן פי אפעאלה ממא סואה. ואנמא אלצואב אן יג'על גאית ג'מיע תצרפאתה צחהֵ ג'סמה ואסתמראר וג'ודה עלי אלסלאמה חתי תבקי אלאת קוי אלנפס אלתי הי אעצ'א אלבדן סאלמה, פתתצרף נפסה דון עאיק פי אלפצ'איל אלכ'לקיה ואלנטקיה.",
+          "en": "On this reckoning the art of medicine has a very great entrance into the virtues, into the knowledge of God, and into the attainment of true felicity; and the learning of it and the seeking of it become an act of worship among the greatest of the acts of worship.\n\nIt is a human action only when he takes the most beneficial alone; and he may forsake the delicious and eat the disagreeable in accordance with the pursuit of the beneficial. This is an action in accordance with reason, and by it the human being is distinguished in his actions from what is other than he. Rather, the right thing is that he make the end of all his conduct the health of his body and the continuance of his existence in soundness, so that the instruments of the faculties of the soul, which are the organs of the body, remain sound, and his soul apply itself without hindrance to the ethical and rational virtues.",
+          "pairs": [
+            {
+              "ja": "לצנאעהֵ אלטב מדכ'ל כביר ג'דא פי אלפצ'איל",
+              "en": "the art of medicine has a very great entrance into the virtues"
+            },
+            {
+              "ja": "ניל אלסעאדה אלחקיקיה",
+              "en": "the attainment of true felicity"
+            },
+            {
+              "ja": "עבאדה מן אכבר אלעבאדאת",
+              "en": "an act of worship among the greatest of the acts of worship"
+            },
+            {
+              "ja": "פעל בחסב אלראי",
+              "en": "an action in accordance with reason"
+            },
+            {
+              "ja": "אלאת קוי אלנפס אלתי הי אעצ'א אלבדן סאלמה",
+              "en": "the instruments of the faculties of the soul, which are the organs of the body, remain sound"
+            }
+          ]
+        },
+        {
+          "ja": "ואעלם אן הד'ה אלמרתבה הי מרתבה עאליה ג'דא ועויצה, ומא ידרכהא אלא קליל ובעד ריאצ'ה עט'ימה ג'דא, פאד'א אתפק וג'וד אנסאן הד'א חאלה לא אקול אנה דון אלאנביא, אעני אנה יצרף קוי נפסה כלהא ויג'על גאיתהא אללה תעלי פקט, ולא יפעל פעלא כביר ולא צגיר ולא ילפט' בלפט'ה אלא וד'לך אלפעל או תלך אללפט'ה תודי אלי פצ'ילה. והד'א הו אלד'י יטלב מנא תעלי אן נעתמדה פי קולה ואהבת את ה' אלהיך בכל לבבך ובכל נפשך, יעני בג'מיע אג'זא נפסך אן תג'על גאיהֵ כל ג'ז מנהא גאיה ואחדה והי לאהבה את ה' אלהיך. וקד אג'מלוא אלחכמים עליהם אלסלאם הד'א אלמעני כלה באיג'אז מא יכון מן אללפט', והו קולהם פי וצאיאהם פי הד'ה אלמסכתא וכל מעשיך יהיו לשם שמים.",
+          "en": "Know that this rank is a very lofty and difficult one, and only a few attain it, and that after very great training. If it happens that there is found a person of this condition, I do not say that he is below the prophets—I mean, one who directs all the faculties of his soul and makes their end God (exalted be He) alone, who does not perform an action great or small, nor utter an utterance, unless that action or that utterance leads to a virtue.\n\nThis is what He (exalted be He) asks of us that we rely upon in His saying, \"And you shall love the Lord your God with all your heart and with all your soul\" (Deut 6:5)—meaning, with all the parts of your soul, that you make the end of each part of it a single end, which is \"to love the Lord your God.\" The Sages, peace be upon them, summed up this whole meaning in the briefest possible expression. This is their saying among their precepts in this tractate: \"And let all your deeds be for the sake of Heaven\" (M. Avot 2:12).",
+          "pairs": [
+            {
+              "ja": "מרתבה עאליה ג'דא ועויצה",
+              "en": "a very lofty and difficult one"
+            },
+            {
+              "ja": "לא אקול אנה דון אלאנביא",
+              "en": "I do not say that he is below the prophets"
+            },
+            {
+              "ja": "ואהבת את ה' אלהיך בכל לבבך ובכל נפשך",
+              "en": "\"And you shall love the Lord your God with all your heart and with all your soul\""
+            },
+            {
+              "ja": "גאיהֵ כל ג'ז מנהא גאיה ואחדה",
+              "en": "the end of each part of it a single end"
+            },
+            {
+              "ja": "וכל מעשיך יהיו לשם שמים",
+              "en": "\"And let all your deeds be for the sake of Heaven\""
+            }
+          ]
+        },
+        {
+          "ja": "פרק שישי",
+          "en": "Sixth Chapter",
+          "isHeader": true
+        },
+        {
+          "ja": "קאלוא אלפלאספה אן אלצ'אבט לנפסה ואן כאן יפעל אלאפעאל אלפאצ'לה פאנה יפעל אלכ'יראת והו יהוי אפעאל אלשרור ויתשוקהא, ויג'אד'ב הואה ויכ'אלף בפעלה מא תנהצ'ה אליה קותה ושהותה. אמא אלפאצ'ל פהו יתבע בפעלה מא תנהצ'ה אליה שהותה והיאתה, ויפעל אלכ'יראת והו יהואהא וישתאקהא. ובאג'מאע מן אלפלסאספה אן אלפאצ'ל אפצ'ל ואכמל מן אלצ'אבט לנפסה. ולקד קאל שלמה מת'ל הד'א שמחה לצדיק עשות משפט ומחתה לפועלי און.",
+          "en": "*On the difference between the virtuous man and the one who masters his soul (the self-restrained).*\n\nThe philosophers said that the one who masters his soul, although he performs the virtuous actions—so that he does the good while desiring and longing for the actions of evil, struggling against his desire, and opposing by his deed what his faculty, his appetite, and the states of his soul urge him toward, doing the good while pained by doing it—as for the virtuous man, he follows by his deed what his appetite and his state urge him toward, doing the good while desiring and longing for it. By the consensus of the philosophers, the virtuous man is more excellent and more perfect than the one who masters his soul. And Solomon said the like of this: \"It is joy to the righteous to do justice, but ruin to the workers of iniquity\" (Prov 21:15).",
+          "pairs": [
+            {
+              "ja": "אלצ'אבט לנפסה",
+              "en": "the one who masters his soul"
+            },
+            {
+              "ja": "אלפאצ'ל",
+              "en": "the virtuous man"
+            },
+            {
+              "ja": "יפעל אלכ'יראת והו יהוי אפעאל אלשרור",
+              "en": "he does the good while desiring and longing for the actions of evil"
+            },
+            {
+              "ja": "אלפאצ'ל אפצ'ל ואכמל מן אלצ'אבט לנפסה",
+              "en": "the virtuous man is more excellent and more perfect than the one who masters his soul"
+            },
+            {
+              "ja": "שמחה לצדיק עשות משפט ומחתה לפועלי און",
+              "en": "\"It is joy to the righteous to do justice, but ruin to the workers of iniquity\""
+            }
+          ]
+        },
+        {
+          "ja": "פלמא בחת'נא ען כלאם אלחכמים פי הד'א אלגרץ' וג'דנא להם אן אלד'י יהוי אלמעאצי וישתאקהא אפצ'ל ואכמל מן אלד'י לא יהוא הא ולא יתאלם בתרכהא. וקאלוא כל הגדול מחברו יצרו גדול ממנו. וקאלוא לפום צערא אגרא. ואעט'ם מן ד'לך אנהם אמרוא אן יכון אלאנסאן צ'אבט לנפסה, ונהוא אן יקול אנא בטביעתי לא אשתהי הד'ה אלמעציה, והו קולהם רבן שמעון בן גמליאל אומר לא יאמר אדם אי אפשי לאכול בשר בחלב אי אפשי ללבוש שעטנז אי אפשי לבוא על הערוה אלא אפשי ומה אעשה ואבי שבשמים גזר עלי.",
+          "en": "But when we investigated the words of the Sages in this matter, we found for them that the one who desires transgressions and longs for them is more excellent and more perfect than the one who does not desire them and is not pained by abstaining from them—so much so that they said that the more excellent and perfect a person is, the more intense is his desire for them and his pain at abstaining from them. They cited: \"Whoever is greater than his fellow, his [evil] impulse is greater than his\" (BT Sukkah 52a). And: \"According to the pain is the reward\" (M. Avot 5:23). What is greater still, they commanded that a person be a master of his soul, and forbade his saying, \"By my nature I do not desire this transgression.\" This is their saying: \"Rabban Simeon ben Gamaliel says: Let a man not say, 'I have no desire to eat meat with milk; I have no desire to wear a garment of mixed wool and linen (*shaʿatnez*); I have no desire to come upon a forbidden relation'—but rather, 'I do desire it, yet what can I do, seeing that my Father in Heaven has decreed upon me [otherwise]?'\" (Sifra, Qedoshim).",
+          "pairs": [
+            {
+              "ja": "אלד'י יהוי אלמעאצי וישתאקהא אפצ'ל ואכמל",
+              "en": "the one who desires transgressions and longs for them is more excellent and more perfect"
+            },
+            {
+              "ja": "כל הגדול מחברו יצרו גדול ממנו",
+              "en": "\"Whoever is greater than his fellow, his [evil] impulse is greater than his\""
+            },
+            {
+              "ja": "לפום צערא אגרא",
+              "en": "\"According to the pain is the reward\""
+            },
+            {
+              "ja": "לא יאמר אדם אי אפשי לאכול בשר בחלב",
+              "en": "Let a man not say, 'I have no desire to eat meat with milk"
+            },
+            {
+              "ja": "ואבי שבשמים גזר עלי",
+              "en": "my Father in Heaven has decreed upon me"
+            }
+          ]
+        },
+        {
+          "ja": "ד'לך אן אלשרור אלתי הי ענד אלפלאספה שרור הי אלמשהורה ענד אלנאס אג'מע אנהא שרור מת'ל ספך אלדמא, ואלסרקה, ואלגצב, ואלגבן, ואלאד'יה למן לם יאסי. ולא שך אן אלנפס אלתי תהוי שיא מנהא ותשתאקה אנהא נפס נאקצה, ואן אלנפס אלפאצ'לה לא תשתהי מן הד'ה אלשרור שי אצלא. אמא אלאשיא אלתי קאלוא אלחכמים אן אלצ'אבט לנפסה ענהא אפצ'ל וג'זאה אעט'ם פהי אלשראיע אלסמעיה, והד'א צחיח, לאנה לולא אלשרע מא כאנת שרור בוג'ה. פקד תבין מן ג'מיע מא קלנאה אי אלמעאצי יכון אלד'י לא ישתאקהא אפצ'ל מן אלד'י ישתאקהא, ואיהא יכון באלעכס. וקד כמל גרץ' הד'א אלפצל.",
+          "en": "This is because the evils that are evils in the view of the philosophers are those of which they said that the one who does not desire them is more excellent—and these are the matters universally renowned among all people as evils, such as the shedding of blood, theft, robbery, fraud, harming one who has done no wrong. There is no doubt that the soul that desires any of these and longs for it is a deficient soul, and that the virtuous soul does not desire any of these evils at all.\n\nAs for the matters of which the Sages said that the one who masters his soul against them is more excellent and his reward greater, these are the revealed laws (*sharāʾiʿ samʿiyya*), and this is correct; for were it not for the Law, they would not be evils in any respect. It has thus become clear, from all we have said, in which transgressions the one who does not long for them is more excellent than the one who longs for them and restrains his soul from them, and in which it is the reverse. The aim of this chapter is complete.",
+          "pairs": [
+            {
+              "ja": "ספך אלדמא, ואלסרקה, ואלגצב, ואלגבן",
+              "en": "the shedding of blood, theft, robbery, fraud"
+            },
+            {
+              "ja": "אלנפס אלפאצ'לה לא תשתהי מן הד'ה אלשרור שי אצלא",
+              "en": "the virtuous soul does not desire any of these evils at all"
+            },
+            {
+              "ja": "אלשראיע אלסמעיה",
+              "en": "the revealed laws (*sharāʾiʿ samʿiyya*)"
+            },
+            {
+              "ja": "לולא אלשרע מא כאנת שרור בוג'ה",
+              "en": "were it not for the Law, they would not be evils in any respect"
+            },
+            {
+              "ja": "וקד כמל גרץ' הד'א אלפצל",
+              "en": "The aim of this chapter is complete"
+            }
+          ]
+        },
+        {
+          "ja": "פרק שביעי",
+          "en": "Seventh Chapter",
+          "isHeader": true
+        },
+        {
+          "ja": "כת'יר מא יוג'ד פי אלמדרשות ואלהגדות ומנה פי אלתלמוד אן מן אלאנביא מן ירי אללה מן כ'לף חג'ב כת'ירה, ומנהם מן יראה מן כ'לף חג'ב קלילה, עלי קדר קרבהם מן אללה ועלו מנזלתהם פי אלנבוה, חתי קאלוא אן משה רבינו ראי אללה מן כ'לף חג'אב ואחד סקיל אעני שפאף, והו קולהם הסתכל בספקלריא המאירה עינים. ואלקצד פי הד'א אלמעני אן הד'ה אלרד'איל בג'מלתהא הי אלחג'אבאת אלפאצלה בין אלאנסאן ובין אללה תעלי, קאל אלנבי מבין ד'לך כי אם עונותיכם היו מבדלים בינכם ובין אלהיכם.",
+          "en": "*On the veils, and their meaning.*\n\nIt is frequently found in the Midrashot and the Aggadot—and some of it in the Talmud—that among the prophets there are those who see God from behind many veils, and there are those who see Him from behind few veils, in accordance with their nearness to God and the elevation of their station in prophecy; so much so that they said that Moses our Teacher saw God from behind a single polished veil, that is, a transparent one. This is their saying, \"He gazed through a clear glass (*ispaqlaria ha-meʾira*)\" (BT Yevamot 49b). The aim in this matter is that these vices, in their entirety, are the veils that separate between the human being and God (exalted be He). The prophet said, making this clear, \"But your iniquities have separated between you and your God\" (Isa 59:2).",
+          "pairs": [
+            {
+              "ja": "אלחג'אבאת אלפאצלה בין אלאנסאן ובין אללה תעלי",
+              "en": "the veils that separate between the human being and God (exalted be He)"
+            },
+            {
+              "ja": "משה רבינו ראי אללה מן כ'לף חג'אב ואחד סקיל",
+              "en": "Moses our Teacher saw God from behind a single polished veil"
+            },
+            {
+              "ja": "הסתכל בספקלריא המאירה עינים",
+              "en": "\"He gazed through a clear glass (*ispaqlaria ha-meʾira*)\""
+            },
+            {
+              "ja": "כי אם עונותיכם היו מבדלים בינכם ובין אלהיכם",
+              "en": "\"But your iniquities have separated between you and your God\""
+            },
+            {
+              "ja": "קדר קרבהם מן אללה ועלו מנזלתהם פי אלנבוה",
+              "en": "their nearness to God and the elevation of their station in prophecy"
+            }
+          ]
+        },
+        {
+          "ja": "ואעלם אן כל נבי לא יתנבא אלא בעד אן תחצל לה אלפצ'איל אלנטקיה כלהא ואכת'ר אלפצ'איל אלכ'לקיה ואוכדהא, והו קולהם אין הנבואה שורה אלא על חכם גבור ועשיר. אמא חכם פהו יעם אלפצ'איל אלנטקיה כלהא. ועשיר הי מן אלפצ'איל אלכ'לקיה אעני אלקנאעה לאנהם יסמון אלקנוע עשיר. וכד'לך גבור הו איצ'א מן אלפצ'איל אלכ'לקיה אעני אנה ידבר קואה בחסב אלראי, והו קולהם איזהו גבור הכובש את יצרו. וליס מן שרוט אלנבי אן תכון ענדה אלפצ'איל אלכ'לקיה בג'מלתהא חתי לא תנקצה רד'ילה אצלא.",
+          "en": "Know that no prophet prophesies until all the rational virtues have been attained by him, and most of the ethical virtues, and the firmest of them. This is their saying, \"Prophecy rests only upon one who is wise, mighty, and rich\" (BT Shabbat 92a, Nedarim 38a). As for \"wise,\" it comprises all the rational virtues without doubt. \"Rich\" is among the ethical virtues, namely contentment, for they call the content man \"rich\"; this is their saying in the definition of \"rich\": \"Who is rich? He who rejoices in his portion\" (M. Avot 4:1). Likewise \"mighty\" is also among the ethical virtues, meaning that he governs his faculties in accordance with reason; this is their saying, \"Who is mighty? He who masters his impulse\" (M. Avot 4:1).\n\nIt is not among the conditions of the prophet that he possess the ethical virtues in their entirety, so that no vice at all diminish him.",
+          "pairs": [
+            {
+              "ja": "אין הנבואה שורה אלא על חכם גבור ועשיר",
+              "en": "\"Prophecy rests only upon one who is wise, mighty, and rich\""
+            },
+            {
+              "ja": "עשיר הי מן אלפצ'איל אלכ'לקיה אעני אלקנאעה",
+              "en": "\"Rich\" is among the ethical virtues, namely contentment"
+            },
+            {
+              "ja": "איזהו גבור הכובש את יצרו",
+              "en": "\"Who is mighty? He who masters his impulse\""
+            },
+            {
+              "ja": "אלפצ'איל אלנטקיה כלהא ואכת'ר אלפצ'איל אלכ'לקיה",
+              "en": "all the rational virtues have been attained by him, and most of the ethical virtues"
+            }
+          ]
+        },
+        {
+          "ja": "פלמא עלם משה רבינו אנה לם יבקי לה חג'אב אלא וכ'רקה ואנה קד כמלת פיה אלפצ'איל אלכ'לקיה כלהא ואלפצ'איל אלנטקיה כלהא טלב אן ידרך אללה עלי חקיקהֵ וג'ודה, פקאל הראיני נא את כבודך, פאעלמה אללה תעלי אנה לא ימכן ד'לך בכונה עקל מוג'וד למאדה, והו קולה כי לא יראני האדם וחי. פלם יבקי בינה ובין אדראך אללה עלי חקיקהֵ וג'ודה גיר חג'אב ואחד סקיל והו אלעקל אלאנסאני אלגיר מפארק. פלמא עלמוא אלחכמים אן הד'ין אלנועין מן אלרד'איל אעני אלנטקיה ואלכ'לקיה הי אלתי תחג'ב בין אלאנסאן ובין אללה קאלוא ען בעצ'הם ראוים הם שתשרה עליהם שכינה כמשה רבינו.",
+          "en": "When Moses our Teacher knew that there remained for him no veil that he had not rent, and that all the ethical virtues and all the rational virtues had been perfected in him, he sought to apprehend God according to the truth of His existence, since no obstacle remained, and he said, \"Show me, I pray, Your glory\" (Exod 33:18). But God (exalted be He) informed him that this was not possible, given that he was an intellect existing in matter—I mean, insofar as he was human; this is His saying, \"for no man shall see Me and live\" (Exod 33:20). Thus there remained between him and the apprehension of God according to the truth of His existence only a single polished veil, namely the human intellect that is not separate [from matter].\n\nWhen the Sages, peace be upon them, knew that these two kinds of vices—the rational and the ethical—are what veil between the human being and God, they said of some of them, according to what they witnessed of their knowledge and their character, \"They are worthy that the Divine Presence rest upon them like Moses our Teacher.\"",
+          "pairs": [
+            {
+              "ja": "כמלת פיה אלפצ'איל אלכ'לקיה כלהא ואלפצ'איל אלנטקיה כלהא",
+              "en": "all the ethical virtues and all the rational virtues had been perfected in him"
+            },
+            {
+              "ja": "הראיני נא את כבודך",
+              "en": "\"Show me, I pray, Your glory\""
+            },
+            {
+              "ja": "כי לא יראני האדם וחי",
+              "en": "\"for no man shall see Me and live\""
+            },
+            {
+              "ja": "חג'אב ואחד סקיל והו אלעקל אלאנסאני אלגיר מפארק",
+              "en": "a single polished veil, namely the human intellect that is not separate [from matter]"
+            },
+            {
+              "ja": "ראוים הם שתשרה עליהם שכינה כמשה רבינו",
+              "en": "worthy that the Divine Presence rest upon them like Moses our Teacher"
+            }
+          ]
+        },
+        {
+          "ja": "פרק שמיני",
+          "en": "Eighth Chapter",
+          "isHeader": true
+        },
+        {
+          "ja": "לא ימכן אלאנסאן מן אול אמרה באלטבע ד'ו פצ'ילה ולא ד'ו נקיצה, כמא לא ימכן אן יפטר אלאנסאן באלטבע ד'א צנאעה מן אלצנאיע אלעמליה, ולכן ימכן אן יפטר באלטבע מעדא נחו פצ'ילה או רד'ילה, באן תכון אפעאל תלך אסהל עליה מן אפעאל גירהא. ואנמא בינת לך הד'א ללא תט'ן אן תלך אלהד'יאנאת אלתי יכד'בונהא אצחאב אחכאם אלנג'ום חקיקה, חית' יזעמון אן מואליד אלאשכ'אץ תג'עלהם ד'וי פצ'ילה או ד'וי רד'ילה, ואן אלשכ'ץ מג'בור עלי תלך אלאפעאל צ'רורה.",
+          "en": "*On the human disposition.*\n\nThe human being is not possible, from the outset of his existence, to be by nature a possessor of virtue or a possessor of a defect, just as it is not possible that a person be created by nature already possessing one of the practical crafts; but it is possible that he be created by nature disposed toward a virtue or a vice, in that the actions of that [trait] are easier for him than the actions of another. I have explained this to you only so that you should not suppose those ravings, which the masters of astrological judgments fabricate, to be true—when they claim that the nativities of individuals make them possessors of virtue or possessors of vice, and that the person is compelled of necessity to those actions.",
+          "pairs": [
+            {
+              "ja": "לא ימכן אלאנסאן מן אול אמרה באלטבע ד'ו פצ'ילה ולא ד'ו נקיצה",
+              "en": "The human being is not possible, from the outset of his existence, to be by nature a possessor of virtue or a possessor of a defect"
+            },
+            {
+              "ja": "מעדא נחו פצ'ילה או רד'ילה",
+              "en": "disposed toward a virtue or a vice"
+            },
+            {
+              "ja": "אלהד'יאנאת אלתי יכד'בונהא אצחאב אחכאם אלנג'ום",
+              "en": "those ravings, which the masters of astrological judgments fabricate"
+            },
+            {
+              "ja": "מואליד אלאשכ'אץ תג'עלהם ד'וי פצ'ילה או ד'וי רד'ילה",
+              "en": "the nativities of individuals make them possessors of virtue or possessors of vice"
+            }
+          ]
+        },
+        {
+          "ja": "אמא אנת פאעלם אן אמר מג'מע עליה מן שריעתנא ופלספהֵ יונאן באן אפעאל אלאנסאן כלהא מצרופה אליה, לא ג'בר עליה פיהא, ולא דאעי לה מן כ'ארג' בוג'ה ימילה נחו פצ'ילה או רד'ילה. ולו כאן אלאנסאן מג'בור עלי אפעאלה לבטל אלאמר אלשרעי ואלנהי, וכאן ד'לך כלה באטל מחץ', אד' לא אכ'תיאר לאלאנסאן פי מא יפעל. ואנמא אלחק אלד'י לא ריב פיה אן אפעאל אלאנסאן כלהא מצרופה אליה, אן שא פעל ואן שא לם יפעל, מן גיר ג'בר ולא קהר לה עלי ד'לך, פלד'לך לזם אלתכליף. וקאל ראה נתתי לפניך היום את החיים ואת הטוב ואת המות ואת הרע ובחרת בחיים.",
+          "en": "As for you, know that it is a matter agreed upon by our Law and by the philosophy of the Greeks, and confirmed by the proofs of truth, that all the actions of the human being are entrusted to him; there is no compulsion upon him in them, nor anything external that draws him toward virtue or vice in any respect. If the human being were compelled in his actions, then the religious command and prohibition would be void, and all that would be sheer falsehood, since the human being would have no choice in what he does.\n\nRather, the truth, in which there is no doubt, is that all the actions of the human being are entrusted to him: if he wishes, he acts, and if he wishes, he does not act, without compulsion or constraint upon him in that. Therefore the [legal] obligation is incumbent. He said, \"See, I have set before you this day life and good, and death and evil... therefore choose life\" (Deut 30:15, 19), and made the choice in that ours.",
+          "pairs": [
+            {
+              "ja": "אפעאל אלאנסאן כלהא מצרופה אליה",
+              "en": "all the actions of the human being are entrusted to him"
+            },
+            {
+              "ja": "לא ג'בר עליה פיהא",
+              "en": "there is no compulsion upon him in them"
+            },
+            {
+              "ja": "לבטל אלאמר אלשרעי ואלנהי",
+              "en": "the religious command and prohibition would be void"
+            },
+            {
+              "ja": "אן שא פעל ואן שא לם יפעל",
+              "en": "if he wishes, he acts, and if he wishes, he does not act"
+            },
+            {
+              "ja": "ראה נתתי לפניך היום את החיים ואת הטוב ואת המות ואת הרע ובחרת בחיים",
+              "en": "\"See, I have set before you this day life and good, and death and evil... therefore choose life\""
+            }
+          ]
+        },
+        {
+          "ja": "אמא קולה וחזקתי את לב פרעה ת'ם עאקבה ואהלכה, פפיה מוצ'ע כלאם ויחצל מנה אצל כביר. וד'לך אן פרעה ושיעתה עצוא באכ'תיארהם דון קהר ולא ג'בר, וט'למוא אלגרבא אלד'י כאנוא בין ט'הורהם, פכאן עקאב אללה להם עלי ד'לך אן ימנעהם מן אלתובה חתי יחל בהם מן אלעקאב מא אוג'ב עדלה. ובין אללה עלי ידי ישעיה אנה תעלי קד יעאקב בעץ' אלעאציין באן ימנעהם אלתובה ולא יתרך להם פיהא אכ'תיאר, כמא קאל השמן לב העם הזה ואזניו הכבד וכו' ושב ורפא לו, והד'א נץ ג'לי לא יחתאג' תאויל, בל הו מפתאח אקפאל כת'ירה.",
+          "en": "As for His saying, \"And I will harden Pharaoh's heart\" (Exod 14:4), and then He punished him and destroyed him—here is a place for discussion, and from it a great principle is obtained. For Pharaoh and his party transgressed by their choice, without coercion or compulsion, and wronged the strangers who were in their midst. So God's punishment of them for that was that He prevented them from repentance, so that there should befall them of punishment what His justice required.\n\nGod made clear, through Isaiah, that He (exalted be He) may at times punish some of the disobedient by preventing them repentance and leaving them no choice in it, as He said, \"Make the heart of this people fat, and make their ears heavy... lest they... return, and be healed\" (Isa 6:10). This is an explicit text needing no interpretation; rather, it is a key to many locks.",
+          "pairs": [
+            {
+              "ja": "וחזקתי את לב פרעה",
+              "en": "\"And I will harden Pharaoh's heart\""
+            },
+            {
+              "ja": "עצוא באכ'תיארהם דון קהר ולא ג'בר",
+              "en": "transgressed by their choice, without coercion or compulsion"
+            },
+            {
+              "ja": "ימנעהם מן אלתובה",
+              "en": "He prevented them from repentance"
+            },
+            {
+              "ja": "השמן לב העם הזה ואזניו הכבד",
+              "en": "Make the heart of this people fat, and make their ears heavy"
+            },
+            {
+              "ja": "מפתאח אקפאל כת'ירה",
+              "en": "a key to many locks"
+            }
+          ]
+        },
+        {
+          "ja": "פתחצל מן ג'מיע מא קלנאה אן אפעאל אלאנסאן מכאלה אליה, ולה אן יכון פאצ'ל או שריר מן גיר ג'בר מן אללה עלי אחדי אלחאלתין, ולד'אלך לזם אלתכליף ואלתעלים ואלאסתעדאד ואלג'זא ואלעקאב, וליס פי ד'לך כלה אשכאל. ואמא צפהֵ עלמה תעלי ואדראכה לג'מיע אלאשיא פעקולנא תקצר ענה. אנה קד באן פי אלעלם אלאלאהי אן אללה תעלי ליס הו עאלם בעלם, חתי יכון הו ואלעלם שיאן, פצח אנה תעלי צפאתה, וצפאתה הו, חתי יקאל אנה אלעלם והו אלעאלם והו אלמעלום. ואנמא אלקול אלמשהור, אן קיאם אלאנסאן וקעודה וג'מיע חרכאתה במשיהֵ אללה תעלי, והו קול צחיח, לכן עלי וג'ה. ופי הד'א יכ'אלפון אלמתכלמין, לאנהם יקולון אן אלמשיה פי כל שי פי אלחין בעד אלחין דאימא, וליס כד'לך נעתקד נחן, בל אלמשיה כאנת פי ששת ימי בראשית. ואן אכתסאב אלפצ'איל ואלרד'איל בידה, פלד'לך יג'ב וינבגי לה אן יחרץ ויג'תהד לנפסה פי אכתסאב אלפצ'איל, והו קולהם פי אדאב הד'ה אלמסכתא אם אין אני לי מי לי. וקד אאן לי אן אקטע אלכלאם הנא ואכ'ד' פי שרח הד'ה אלמסכתא אלתי להא קדמנא הד'ה אלפצול.",
+          "en": "The result of all we have said is that the actions of the human being are entrusted to him, and it is for him to be virtuous or wicked without compulsion from God toward one of the two conditions; and for that reason the [legal] obligation, instruction, preparation, reward, and punishment are incumbent—and in all that there is no difficulty. As for the attribute of His knowledge (exalted be He) and His apprehension of all things, our intellects fall short of it, as we explained.\n\nIt has become clear in the divine science—I mean metaphysics—that God (exalted be He) is not knowing by a knowledge, such that He and the knowledge would be two things; so it is established that He (exalted be He) is His attributes, and His attributes are He—so that it is said that He is the knowledge and He is the knower and He is the known.\n\nAs for the saying renowned among people, that a person's standing and his sitting and all his movements are by the will of God: this is a correct saying, but in a [certain] respect. In this they differ from the Mutakallimūn, for they say that the will is in everything at every instant; but we do not so believe—rather, the will was in the six days of creation.\n\nThat the acquisition of the virtues and the vices is in his hand—therefore it is incumbent and proper for him to be eager and to strive for his soul in the acquisition of the virtues, since there is with him no mover that moves him toward them from without. This is their saying among the disciplines of this tractate, \"If I am not for myself, who is for me?\" (M. Avot 1:14). And it now seems right to me that I cut off the discussion here and take up the explanation of this tractate, for which we have premised these chapters.",
+          "pairs": [
+            {
+              "ja": "אפעאל אלאנסאן מכאלה אליה",
+              "en": "the actions of the human being are entrusted to him"
+            },
+            {
+              "ja": "אלתכליף ואלתעלים ואלאסתעדאד ואלג'זא ואלעקאב",
+              "en": "the [legal] obligation, instruction, preparation, reward, and punishment"
+            },
+            {
+              "ja": "אנה אלעלם והו אלעאלם והו אלמעלום",
+              "en": "He is the knowledge and He is the knower and He is the known"
+            },
+            {
+              "ja": "אלמשיה כאנת פי ששת ימי בראשית",
+              "en": "the will was in the six days of creation"
+            },
+            {
+              "ja": "אם אין אני לי מי לי",
+              "en": "\"If I am not for myself, who is for me?\""
+            },
+            {
+              "ja": "אקטע אלכלאם הנא ואכ'ד' פי שרח הד'ה אלמסכתא",
+              "en": "I cut off the discussion here and take up the explanation of this tractate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

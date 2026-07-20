@@ -1,0 +1,210 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 75 — Five Kalām Methods for Proving Divine Unity",
+  "section_ja": "אלג'ז אלאול · אלפצל שבעים וחמשה",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 75 presents and critiques the mutakallimūn's five methods for proving divine unity (tawḥīd). Method 1 is mutual hindrance (al-tamānu): two gods would frustrate each other's will — but Maimonides shows this fails against a dualist who assigns separate domains to each god. Method 2 is differentiation (al-tagāyur): any two things must share something and differ in something; if they are two gods, what differentiates them? — but this method collapses when attributes are admitted. Method 3 appeals to the premise that God's will is not a separable accident — obscure and self-referential. Method 4 is the argument from the evidence of a single act: one act proves one actor — but this proves only ignorance of number, not impossibility of plurality. Method 5, attributed to 'later thinkers,' is the argument from mutual need (al-iftiqār): if existence is divided between two gods, each is deficient — but Maimonides rebuts this as a branch of Method 1. The chapter closes with Maimonides' sympathy for the thinker who concluded that unity, like creation, cannot be demonstrated by these methods and should be accepted on scriptural authority alone.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28. Segmentation follows Sefaria.",
+    "segments": 9
+  },
+  "terms": [
+    {
+      "id": "tawhid",
+      "ja": "אלתוחיד",
+      "ar": "التوحيد",
+      "translit": "al-tawḥīd",
+      "gloss": "divine unity, monotheism",
+      "note": "The second great kalām project after proving creation: demonstrating that the Creator is numerically one. The mutakallimūn employ five methods, which Maimonides subjects to critique.",
+      "variants": [
+        "וחדאניה",
+        "ואחד"
+      ]
+    },
+    {
+      "id": "al-tamanu",
+      "ja": "אלתמאנע",
+      "ar": "التمانع",
+      "translit": "al-tamānu",
+      "gloss": "mutual hindrance, mutual obstruction",
+      "note": "The most popular kalām proof of unity: if there were two gods, each could hinder the other's will, making the universe ungovernable. Maimonides shows this presupposes the kalam premises on atoms and accidents.",
+      "variants": [
+        "ימתנע",
+        "ממתנע"
+      ]
+    },
+    {
+      "id": "al-tagayur",
+      "ja": "אלתגאיר",
+      "ar": "التغاير",
+      "translit": "al-tagāyur",
+      "gloss": "differentiation, mutual otherness",
+      "note": "Method 2: any two distinct entities must share a genus and differ in some specifying property; two gods would require such differentiation, which implies composition incompatible with divinity. Maimonides notes this is genuinely philosophical — he will return to it when presenting the philosophers' proofs.",
+      "variants": [
+        "יתגאיר",
+        "תגאירא"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל שבעים וחמשה",
+          "en": "Part One · Chapter Seventy-Five — Five Kalām Methods for Proving Divine Unity",
+          "isHeader": true
+        },
+        {
+          "ja": "אנא אבין לך איצ'א פי הד'א אלפצל דלאיל אלתוחיד עלי ראי אלמתכלמין. קאלוא אן הד'א אלד'י דל אלוג'וד עלי כונה צאנעה ומוג'דה הו ואחד ואמהאת טרקהם פי את'באת אלוחדאניה טריקאן טריק אלתמאנע וטריק אלתגאיר.",
+          "en": "I shall likewise explain to you in this chapter the proofs for unity according to the opinion of the mutakallimūn. They said: the one that existence points to as its Maker and Creator is one. The mother-methods of their proofs for unity are two: the method of mutual hindrance and the method of differentiation.",
+          "pairs": [
+            {
+              "ja": "דלאיל אלתוחיד עלי ראי אלמתכלמין",
+              "en": "the proofs for unity according to the opinion of the mutakallimūn"
+            },
+            {
+              "ja": "אמהאת טרקהם פי את'באת אלוחדאניה טריקאן טריק אלתמאנע וטריק אלתגאיר",
+              "en": "The mother-methods of their proofs for unity are two: the method of mutual hindrance and the method of differentiation."
+            }
+          ]
+        },
+        {
+          "ja": "אלטריק אלאולי והי טריק אלתמאנע הי אלתי יות'רהא ג'מהורהם. ומענאה אנה יקול אן לו כאן ללעאלם אלאהאן לוג'ב אן יכון אלג'והר אלד'י לא יכ'לו ען אחד אלצ'דין אמא אן יערי ענהמא ג'מיעא והד'א מחאל או יג'תמע אלצ'דאן מעא פי זמאן ואחד ומוצ'וע ואחד והד'א איצ'א מחאל ומת'אל ד'לך אן אלג'והר או אלג'ואהר אלתי יריד הד'א אלאן אן יסכ'נהא יריד הד'א אן יברדהא פאמא אן לא תסכ'ן ולא תברד לתמאנע אלפעלין והד'א מחאל לאן כל ג'סם קאבל לאחד אלצ'דין או יכון הד'א אלג'סם חארא בארדא מעא.",
+          "en": "Method One — the method of mutual hindrance — is the one the majority of them favor. Its meaning: if the world had two gods, it would necessarily be the case that the atom which cannot be free of one of two contraries would be either free of both simultaneously — which is impossible — or that both contraries would be combined in one location at one time — which is also impossible. For example: the atom or atoms that one god wills now to heat, the other wills to cool; either they will be neither hot nor cold, owing to the mutual obstruction of the two acts — impossible, since every body is receptive of one of the two contraries — or this body will be hot and cold simultaneously.",
+          "pairs": [
+            {
+              "ja": "טריק אלתמאנע הי אלתי יות'רהא ג'מהורהם",
+              "en": "the method of mutual hindrance — is the one the majority of them favor. I"
+            },
+            {
+              "ja": "אן לו כאן ללעאלם אלאהאן לוג'ב אן יכון אלג'והר אלד'י לא יכ'לו ען אחד אלצ'דין",
+              "en": "if the world had two gods, it would necessarily be the case that the atom which cannot be free of one of"
+            },
+            {
+              "ja": "אמא אן לא תסכ'ן ולא תברד לתמאנע אלפעלין",
+              "en": "either they will be neither hot nor cold, owing to the mutual obstruction of the two acts"
+            }
+          ]
+        },
+        {
+          "ja": "ולמא שערוא בצ'עף הד'ה אלטריק ואן כאן דעאהם להא דאע ד'הבוא אלי טריק אכ'רי.",
+          "en": "When they perceived the weakness of this method — even though some impulse drew them to it — they turned to another method.",
+          "pairs": [
+            {
+              "ja": "למא שערוא בצ'עף הד'ה אלטריק",
+              "en": "When they perceived the weakness of this method — ev"
+            },
+            {
+              "ja": "ד'הבוא אלי טריק אכ'רי",
+              "en": "they turned to another method"
+            }
+          ]
+        },
+        {
+          "ja": "אלטריק אלת'אני קאלוא לו כאן ת'ם אלאהאן לוג'ב אן יכון להמא מעני ואחד ישתרכאן פיה ומעני יוג'ד לאחדהמא ולא יוג'ד ללאכ'ר בה וקע אלתגאיר. והד'א הו טריק פלספי ברהאני אד'א תתבע ובינת מקדמאתה וסאבינהא אד'א ד'כרת ארא אלפלאספה פי הד'א אלמעני. והד'א אלטריק איצ'א לא יטרד עלי מד'הב כל מן יעתקד אלצפאת לאן אלקדים ענדה תעאלי פיה מעאני מתגאירה מתעדדה ומעני אלעלם גיר מעני אלקדרה ענדה וכד'לך מעני אלקדרה ענדה גיר מעני אלאראדה פלא ימתנע מע ד'לך אן יכון כל ואחד מן אלאלאהין ד'א מעאני מנהא מא ישארך בהא אלאכ'ר ומנהא מא יבאינה בהא.",
+          "en": "Method Two: they said if there were two gods it would necessarily follow that they share some meaning in common and differ in some meaning present in one and absent in the other — by which difference comes about. This is a genuinely philosophical, demonstrative method, which I shall elaborate when I mention the views of the philosophers on this subject. But this method also does not hold against everyone who believes in attributes — for the Eternal, in their view, has multiple, differentiated meanings, and the meaning of knowledge is distinct from the meaning of power, and the meaning of power is distinct from the meaning of will; so there is nothing to prevent each of the two gods from having meanings some of which he shares with the other and some of which distinguish him from the other.",
+          "pairs": [
+            {
+              "ja": "לו כאן ת'ם אלאהאן לוג'ב אן יכון להמא מעני ואחד ישתרכאן פיה ומעני יוג'ד לאחדהמא ולא יוג'ד ללאכ'ר בה וקע אלתגאיר",
+              "en": "if there were two gods it would necessarily follow that they share some meaning in common and differ in some meaning present in one and absent in the other"
+            },
+            {
+              "ja": "הד'א הו טריק פלספי ברהאני",
+              "en": "This is a genuinely philosophical, demonstrative method, whi"
+            },
+            {
+              "ja": "לא יטרד עלי מד'הב כל מן יעתקד אלצפאת",
+              "en": "does not hold against everyone who believes in attributes"
+            }
+          ]
+        },
+        {
+          "ja": "טריק ת'אלת' הנא איצ'א טריק תחתאג' אלי מקדמה מן מקדמאת אהל הד'ה אלטריק. וד'לך אן בעצ'הם והם קדמאוהם יעתקדון אן אללה מריד באראדה תלך אלאראדה ליסת הי מעני זאידא פי ד'את אלבארי בל הי אראדה לא פי מחל ובחסב הד'ה אלמקדמה אלתי ביאנהא בל תצורהא בעיד עלי מא תראה קאלוא אלאראדה אלואחדה אלתי לא פי מחל לא תכון לאת'נין לאן לא תכון קאלוא עלה ואחדה תוג'ב חכמין לד'אתין.",
+          "en": "Method Three: this too is a method requiring a premise from the premises of those who follow this way. Some of them — among the earlier ones — believe that God wills by a will, and that will is not an additional meaning in the essence of the Creator but is a will subsisting in no substrate. On the basis of this premise — the explanation of which, let alone its conception, is remote, as you see — they said: a single will subsisting in no substrate cannot belong to two, for they said one cause cannot necessitate two effects in their own essence.",
+          "pairs": [
+            {
+              "ja": "אן אללה מריד באראדה תלך אלאראדה ליסת הי מעני זאידא פי ד'את אלבארי",
+              "en": "God wills by a will, and that will is not an additional meaning in the essence of the Creator"
+            },
+            {
+              "ja": "אלאראדה אלואחדה אלתי לא פי מחל לא תכון לאת'נין",
+              "en": "a single will subsisting in no substrate cannot belong to two"
+            }
+          ]
+        },
+        {
+          "ja": "טריק ראבע קאלוא וג'וד אלפעל ידל עלי פאעל צ'רורה ולא ידלנא עלי עדהֵ פאעלין. ולא פרק בין דעוי אלמדעי אן אלאלאה את'נאן או ת'לת'ה או עשרון או אי עדד אתפק והד'א בין ואצ'ח. פאן קלת אן הד'א דליל לא ידל עלי אמתנאע אלכת'רה פי אלאלאה לכנה ידל עלי ג'הל אלעדד וימכן כונה ואחדא וימכן כונה כת'ירין פתמם הד'א ברהאנה באן קאל ווג'וד אלאלאה לא אמכאן פיה בל הו ואג'ב פבטל אמכאן אלכת'רה.",
+          "en": "Method Four: they said the existence of an act necessarily points to an agent but does not inform us of the number of agents. Nor is there any difference between the claim that God is two, or three, or twenty, or any other number — and this is clear and obvious. If you say: this argument does not point to the impossibility of plurality in God but only to ignorance of the number — it is possible He is one and possible He is many — then he completes his proof by saying: God's existence admits no possibility but is necessary, and this abolishes the possibility of plurality.",
+          "pairs": [
+            {
+              "ja": "וג'וד אלפעל ידל עלי פאעל צ'רורה ולא ידלנא עלי עדהֵ פאעלין",
+              "en": "the existence of an act necessarily points to an agent but does not inform us of the number of agents"
+            },
+            {
+              "ja": "וג'וד אלאלאה לא אמכאן פיה בל הו ואג'ב פבטל אמכאן אלכת'רה",
+              "en": "God's existence admits no possibility but is necessary, and this abolishes the possibility of plurality"
+            }
+          ]
+        },
+        {
+          "ja": "טריק כ'אמס זעם בעץ' אלמתאכ'רין אנה וג'ד טריקא ברהאניא עלי אלתוחיד והו אלאפתקאר וביאנה הכד'א. קאל אן כאנת הד'ה אלמוג'ודאת יסתקל בפעלהא אלואחד פאלת'אני פצ'ל לא יחתאג' אליה ואן כאן לא יתם הד'א אלוג'וד ולא ינתט'ם אלא באת'ניהמא מעא פכל ואחד מנהמא יצחבה עג'ז לאפתקארה ללאכ'ר פליס הו מסתגניא בד'אתה.",
+          "en": "Method Five: some later thinkers claimed to have found a demonstrative proof for unity — namely, the argument from mutual need. Its explanation: if these existents were complete through the act of one god alone, the second would be superfluous and unneeded; but if this existence could neither be completed nor ordered except by both together, then each would be accompanied by deficiency, owing to his need of the other, and thus neither is self-sufficient.",
+          "pairs": [
+            {
+              "ja": "אנה וג'ד טריקא ברהאניא עלי אלתוחיד והו אלאפתקאר",
+              "en": "claimed to have found a demonstrative proof for unity — namely, the argument from mutual need"
+            },
+            {
+              "ja": "אן כאנת הד'ה אלמוג'ודאת יסתקל בפעלהא אלואחד פאלת'אני פצ'ל לא יחתאג' אליה",
+              "en": "if these existents were complete through the act of one god alone, the second would be superfluous and unneeded"
+            },
+            {
+              "ja": "כל ואחד מנהמא יצחבה עג'ז לאפתקארה ללאכ'ר פליס הו מסתגניא בד'אתה",
+              "en": "each would be accompanied by deficiency, owing to his need of the other, and thus neither is self-sufficient"
+            }
+          ]
+        },
+        {
+          "ja": "והד'א אנמא הו פרע מן אלתמאנע ויעתרץ' הד'א אלנחו מן אלאסתדלאל באן יקאל ליס כל מן לא יפעל מא ליס פי ג'והרה אן יפעלה יסמי עאג'זא לאנא לא נקול אן שכ'ץ אנסאן צ'עיף לכונה לא יחרך אלף קנטאר ולא ננסב ללה תעאלי עג'זא לכונה לא יקדר אן יג'סם ד'אתה או יכ'לק מת'לה או יכ'לק מרבעא צ'לעה מסאו לקטרה כד'לך לא נקול אנה עאג'ז לכונה לא יכ'לק וחדה אד' וג'וב וג'ודהמא אן יכונא את'נין.",
+          "en": "This is merely a branch of the mutual hindrance argument. And one can object to this form of reasoning by saying: not everyone who fails to do what it is not in his nature to do is called incapable — for we do not call a human being weak merely because he cannot move a thousand quintals, nor do we attribute incapacity to God for being unable to corporealize Himself, or to create His equal, or to create a square whose side equals its diagonal. Likewise we do not say He is incapable for failing to create a single thing whose existence is necessarily two.",
+          "pairs": [
+            {
+              "ja": "הד'א אנמא הו פרע מן אלתמאנע",
+              "en": "This is merely a branch of the mutual hindrance argument. And"
+            },
+            {
+              "ja": "ליס כל מן לא יפעל מא ליס פי ג'והרה אן יפעלה יסמי עאג'זא",
+              "en": "not everyone who fails to do what it is not in his nature to do is called incapable"
+            }
+          ]
+        },
+        {
+          "ja": "וקד אעית אלחיל לבעצ'הם חתי קאל אן אלתוחיד מקבול שרעא ושנעוא אלמתכלמון ד'לך ג'דא ואזדרוא בקאילה. אמא אנא פארי אן קאיל הד'א מנהם רג'ל מסדד אלד'הן ג'דא בעיד מן קבול אלמגאלטה פאנה למא לם יסמע מן אקאוילהם שיא הו ברהאן באלחקיקה ווג'ד נפסה לם תסכן למא זעמוא אנה ברהאן קאל אן הד'א שי יוכ'ד' מקבולא מן אלשרע. לאן האולא אלאקואם לם יתרכוא ללוג'וד טביעה מסתקרה בוג'ה יסתדל מנהא אסתדלאלא צחיחא ולא תרכוא ללעקל פטרה מסתקימה תנתג' בהא נתאיג' צחיחה כל ד'לך פעל באלקצד חתי נפרץ' וג'ודא נברהן בה מא לא יתברהן פאוג'ב ד'לך אן קצרנא ען ברהאן מא יתברהן. פלא שכיה אלא ללה ולד'וי אלאנצאף מן אהל אלעקל:",
+          "en": "Some of them found themselves so at a loss that one said unity is accepted on scriptural authority. The mutakallimūn expressed great revulsion at this and looked down upon the one who said it. But I, for my part, consider the one among them who said this to be a man of very sound mind, far from accepting sophistry — for when he did not hear among their arguments anything that was a genuine demonstration, and found that his own soul was not put to rest by what they claimed were proofs, he said: this is something to be accepted from Scripture. For these groups have left for existence no stable nature from which sound inference can be drawn, and have left the intellect no straight natural faculty by which to produce sound conclusions — all of this they did deliberately so as to posit an existence by which to demonstrate what cannot otherwise be demonstrated. This necessitated that we fall short of proof for what is genuinely demonstrable. There is no complaint but to God, and to those of good faith among people of reason.",
+          "pairs": [
+            {
+              "ja": "אעית אלחיל לבעצ'הם חתי קאל אן אלתוחיד מקבול שרעא",
+              "en": "Some of them found themselves so at a loss that one said unity is accepted on scriptural authority"
+            },
+            {
+              "ja": "קאיל הד'א מנהם רג'ל מסדד אלד'הן ג'דא בעיד מן קבול אלמגאלטה",
+              "en": "the one who said it. But I, for my part, consider the one among them who said this t"
+            },
+            {
+              "ja": "האולא אלאקואם לם יתרכוא ללוג'וד טביעה מסתקרה בוג'ה יסתדל מנהא אסתדלאלא צחיחא",
+              "en": "these groups have left for existence no stable nature from which sound inference can be drawn"
+            },
+            {
+              "ja": "פלא שכיה אלא ללה ולד'וי אלאנצאף מן אהל אלעקל",
+              "en": "There is no complaint but to God, and to those of good faith among people of reason."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

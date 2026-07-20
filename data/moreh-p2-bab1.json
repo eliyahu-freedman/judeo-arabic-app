@@ -1,0 +1,271 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part II, Chapter 1 — The Prime Mover Proof",
+  "section_ja": "אלג׳ז אלת׳אני · אלפצל אלאול",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Maimonides applies the twenty-five premises to demonstrate the existence of God as Prime Mover. He traces every sublunary motion back through an unbroken chain to the motion of the celestial sphere, then shows that the mover of the sphere cannot be a body, a force distributed in a body, or an indivisible force within a body — for all these lead to absurdity. The mover must therefore be incorporeal, separate, and uncaused: this is God. Four distinct philosophical arguments are then marshaled — from motion, from composition, from necessary and possible existence, and from potentiality and actuality — each converging on the same conclusion: one incorporeal, necessary, simple being is the source of all existence.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "Segmentation follows Sefaria.",
+    "segments": 23
+  },
+  "terms": [
+    {
+      "id": "muharrik-awwal",
+      "ja": "אלמחרך אלאול",
+      "ar": "المحرك الأول",
+      "translit": "al-muḥarrik al-awwal",
+      "gloss": "the Prime Mover",
+      "note": "The incorporeal, unmoved mover at the head of the causal chain. Maimonides proves it cannot be a body or a force in a body.",
+      "variants": ["מחרך"]
+    },
+    {
+      "id": "wajib-al-wujud",
+      "ja": "ואג׳ב אלוג׳וד",
+      "ar": "واجب الوجود",
+      "translit": "wājib al-wujūd",
+      "gloss": "Necessary Existent",
+      "note": "A being whose existence depends on nothing outside itself; contrasted with mumkin al-wujūd (possible existent). The key Avicennian category Maimonides deploys here.",
+      "variants": ["ואג׳ב אלוג׳וד באעתבאר ד׳אתה"]
+    },
+    {
+      "id": "jism-khamis",
+      "ja": "אלג׳סם אלכ׳אמס",
+      "ar": "الجسم الخامس",
+      "translit": "al-jism al-khāmis",
+      "gloss": "the fifth body (celestial sphere)",
+      "note": "Aristotle's name for the celestial substance, distinct from the four sublunary elements. Its circular motion is the ultimate source of all change below.",
+      "variants": ["אלפלך", "אלג׳סם אלסאדס"]
+    },
+    {
+      "id": "mufariq",
+      "ja": "מפארקא",
+      "ar": "مفارق",
+      "translit": "mufāriq",
+      "gloss": "separate (incorporeal)",
+      "note": "An entity entirely separate from body — neither inside it nor outside it in any spatial sense. The Prime Mover and the Intelligences are described as mufāriq.",
+      "variants": ["מפארקה"]
+    },
+    {
+      "id": "basata",
+      "ja": "אלבסאטה אלמחצ׳ה",
+      "ar": "البساطة المحضة",
+      "translit": "al-basāṭa al-maḥḍa",
+      "gloss": "absolute simplicity",
+      "note": "The divine attribute that rules out all duality: no composition, no matter/form distinction, no cause, no possibility of non-existence.",
+      "variants": ["בסיט"]
+    },
+    {
+      "id": "haraka-daima",
+      "ja": "אלחרכה אלדאימה אלסרמדיה",
+      "ar": "الحركة الدائمة السرمدية",
+      "translit": "al-ḥaraka al-dāʾima al-sarmadiyya",
+      "gloss": "eternal, everlasting motion",
+      "note": "The perpetual circular motion of the sphere that drives the argument: a body or finite force cannot produce motion without limit, so the mover must be incorporeal.",
+      "variants": ["חרכה סרמדיה"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": 1,
+      "aligned": [
+        {
+          "ja": "אלג׳ז אלת׳אני · אלפצל אלאול",
+          "en": "Part Two · Chapter One — The Prime Mover Proof",
+          "isHeader": true
+        },
+        {
+          "ja": "ילזם בחסב אלמקדמה אלכ׳אמסה ואלעשרין אן ת׳ם מחרך הו אלד׳י חרך מאדהֵ הד׳א אלכאין אלפאסד חתי קבלת אלצורה ואד׳א טלב ד׳לך אלמחרך אלקריב מא חרכה לזם צ׳רורה אן יוג׳ד לה מחרך אכ׳ר אמא מן נועה או מן גיר נועה לאן אלחרכה תוג׳ד פי אלארבע מקולאת וקד יקאל עליהא אלחרכה בעמום כמא ד׳כרנא פי אלמקדמה אלראבעה. והד׳א לא ימר אלי לא נהאיה כמא ד׳כרנא פי אלמקדמה אלת׳אלת׳ה פוג׳דנא כל חרכה תנתהי אלי חרכהֵ אלג׳סם אלכ׳אמס וענדהא תקף ומן תלך אלמרכה יתפרע ואליהא יתסלסל כל מחרך ומהיי פי אלעלאם אלספלי כלה. ואלפלך מתחרך חרכהֵ נקלה והי אקדם אלחרכאת כמא ד׳כר פי אלמקדמה אלראבעהֵ עשרה וכד׳לך איצ׳א כל חרכהֵ נקלה אנמא תנתהי לחרכהֵ אלפלך כאנך קלת אן הד׳א אלחג׳ר אלד׳י תחרך חרכה אלעכאז ואלעכאז חרכתה אליד ואליד חרכתהא אלאותאר ואלאותאר חרכתהא אלעצ׳ל ואלעצ׳ל חרכה אלעצב ואלעצב חרכה אלחר אלגריזי ואלחר אלגריזי חרכתה אלצורה אלתי פיה והי אלמחרך אלאול בלא שך וד׳לך אלמחרך אוג׳ב לה אן יחרך ראי מת׳לא והו אן יוצל ד׳לך אלחג׳ר בצ׳רב אלעכאז לה אלי טאקה כי יסדהא חתי לא תדכ׳ל לה מנהא הד׳ה אלריח אלהאבה ומחרך תלך אלריח ומולד הבובהא הי חרכהֵ אלפלך והכד׳א תג׳ד כל סבב כון ופסאד ינתהי לחרכהֵ אלפלך.",
+          "en": "ACCORDING to Proposition XXV., a moving agent must exist which has moved the substance of all existing transient things and enabled it to receive Form. The cause of the motion of that agent is found in the existence of another motor of the same or of a different class, the term \"motion,\" in a general sense, being common to four categories (Prop. IV.). This series of motions is not infinite (Prop. III.); we find that it can only be continued till the motion of the fifth element is arrived at, and then it ends. The motion of the fifth element is the source of every force that moves and prepares any substance on earth for its combination with a certain form, and is connected with that force by a chain of intermediate motions. The celestial sphere [or the fifth element) performs the act of locomotion which is the first of the several kinds of motion (Prop. XIV.), and all locomotion is found to be the indirect effect of the motion of this sphere; e.g., a stone is set in motion by a stick, the stick by a man's hand, the hand by the sinews, the sinews by the muscles, the muscles by the nerves, the nerves by the natural heat of the body, and the heat of the body by its form. This is undoubtedly the immediate motive cause, but the action of this immediate cause is due to a certain design, e.g., to bring a stone into a hole by striking against it with a stick in order to prevent the draught from coming through the crevice. The motion of the air that causes the draught is the effect of the motion of the celestial sphere. Similarly it may be shown that the ultimate cause of all genesis and destruction can be traced to the motion of the sphere.",
+          "pairs": [
+            { "ja": "ילזם בחסב אלמקדמה אלכ׳אמסה ואלעשרין", "en": "ACCORDING to Proposition XXV." },
+            { "ja": "מחרך הו אלד׳י חרך מאדהֵ הד׳א אלכאין אלפאסד חתי קבלת אלצורה", "en": "a moving agent must exist which has moved the substance of all existing transient things and enabled it to receive Form" },
+            { "ja": "הד׳א לא ימר אלי לא נהאיה", "en": "This series of motions is not infinite" },
+            { "ja": "כל חרכה תנתהי אלי חרכהֵ אלג׳סם אלכ׳אמס", "en": "it can only be continued till the motion of the fifth element is arrived at" },
+            { "ja": "כל מחרך ומהיי פי אלעלאם אלספלי כלה", "en": "every force that moves and prepares any substance on earth" },
+            { "ja": "הד׳א אלחג׳ר אלד׳י תחרך חרכה אלעכאז", "en": "a stone is set in motion by a stick" },
+            { "ja": "תג׳ד כל סבב כון ופסאד ינתהי לחרכהֵ אלפלך", "en": "the ultimate cause of all genesis and destruction can be traced to the motion of the sphere" }
+          ]
+        },
+        {
+          "ja": "פלמא אנתהינא להד׳א אלפלך אלמתחרך לזם אן יכון לה מחרך בחסב מא קדם פי אלמקדמה אלסאבעהֵ עשרה ולא יכ׳לו אן יכון מחרכה פיה או כ׳ארג׳א ענה והד׳ה קסמה צ׳רוריה פאן כאן כ׳ארג׳א ענה פלא יכ׳לו מן אן יכון ג׳סמא אן יכון גיר ג׳סם ולא יקאל פיה חיניד׳ אנה כ׳ארג׳א ענה בל יקאל מפארקא לה לאן מא ליס בג׳סם פלא יקאל פיה אנה כ׳ארג׳א ען אלג׳סם אלא באתסאע פי אלקול ואן כאן מחרכה פיה אעני מחרך אלפלך פלא יכ׳לו אן יכון מחרכה קוה שאיעה פי ג׳מיע ג׳סמה ומנקסמה באנקסאמה כאלחרארה פי אלנאר או תכון קוה פיה גיר מנקסמה כאלנפס ואלעקל כמא תקדם פי אלמקדמה אלעאשרה. פלא בד צ׳רורה אן יכון מחרך אלפלך אחד הד׳ה אלארבעה אמא ג׳סם אכ׳ר כ׳ארג׳א ענה או מפארק או קוה שאיעה פיה או קוה גיר מנקסמה.",
+          "en": "But the motion of the sphere must likewise have been effected by an agent (Prop. XVII.) residing either without the sphere or within it; a third case being impossible. In the first case, if the motor is without the sphere, it must either be corporeal or incorporeal: if incorporeal, it cannot be said that the agent is without the sphere; it can only be described as separate from it; because an incorporeal object can only be said metaphorically to reside without a certain corporeal object. In the second case, if the agent resides within the sphere, it must be either a force distributed throughout the whole sphere so that each part of the sphere includes a part of the force, as is the case with the heat of fire; or it is an indivisible force, e.g., the soul and the intellect (Props. X. and XI.). The agent which sets the sphere in motion must consequently be one of the following four things: a corporeal object without the sphere; an incorporeal object separate from it; a force spread throughout the whole of the sphere; or an indivisible force [within the sphere].",
+          "pairs": [
+            { "ja": "לזם אן יכון לה מחרך", "en": "the sphere must likewise have been effected by an agent" },
+            { "ja": "ולא יכ׳לו אן יכון מחרכה פיה או כ׳ארג׳א ענה", "en": "residing either without the sphere or within it" },
+            { "ja": "ולא יקאל פיה חיניד׳ אנה כ׳ארג׳א ענה בל יקאל מפארקא לה", "en": "it cannot be said that the agent is without the sphere; it can only be described as separate from it" },
+            { "ja": "קוה שאיעה פי ג׳מיע ג׳סמה ומנקסמה באנקסאמה כאלחרארה פי אלנאר", "en": "a force distributed throughout the whole sphere so that each part of the sphere includes a part of the force, as is the case with the heat of fire" }
+          ]
+        },
+        {
+          "ja": "אמא אלאול והו אן יכון מחרך אלפלך ג׳סמא אכ׳ר כ׳ארג׳א ענה פד׳לך מחאל כמא אצף לאנה אד׳ והו ג׳סם פהו יתחרך ענד מא יחרך כמא ד׳כר פי אלמקדמה אלתאסעה פאד׳ והד׳א אלג׳סם אלסאדס איצ׳א יתחרך ענד מא יחרך פילזם אן יחרכה ג׳סם סאבע פד׳לך איצ׳א יתחרך פילזם וג׳וד אג׳סאם לא נהאיה לעדדהא וחיניד׳ יתחרך אלפלך והד׳א מחאל כמא קדם פי אלמקדמה אלת׳אניה.",
+          "en": "The first case, viz., that the moving agent of the sphere is a corporeal object without the sphere, is impossible, as will be explained. Since the moving agent is corporeal, it must itself move while setting another object in motion (Prop. IX.), and as the sixth element would likewise move when imparting motion to another body, it would be set in motion by a seventh element, which must also move. An infinite number of bodies would thus be required before the sphere could be set in motion. This is contrary to Proposition II.",
+          "pairs": [
+            { "ja": "אן יכון מחרך אלפלך ג׳סמא אכ׳ר כ׳ארג׳א ענה פד׳לך מחאל", "en": "the moving agent of the sphere is a corporeal object without the sphere, is impossible" },
+            { "ja": "פהו יתחרך ענד מא יחרך", "en": "it must itself move while setting another object in motion" },
+            { "ja": "פילזם וג׳וד אג׳סאם לא נהאיה לעדדהא", "en": "An infinite number of bodies would thus be required" }
+          ]
+        },
+        {
+          "ja": "ואמא אלוג׳ה אלת׳אלת׳ והו אן יכון מחרך אלפלך קוה שאיעה פיה פד׳לך איצ׳א מחאל כמא אצף לאן אלפלך ג׳סם פהו מתנאה צ׳רורה כמא קדם פי אלמקדמה אלאולי פתכון קותה מתנאהיה כמא ד׳כר פי אלת׳אניהֵ עשרה פהי תנקסם באנקסאמה כמא ד׳כר פי אלחאדיהֵ עשרה פלא תחרך אלי לא נהאיה כמא וצ׳ענא פי אלמקדמה אלסאדסה ואלעשרין.",
+          "en": "The third case, viz., that the moving object be a force distributed throughout the whole body, is likewise impossible. For the sphere is corporeal, and must therefore be finite (Prop. I.); also the force it contains must be finite (Prop. XII.), since each part of the sphere contains part of the force (Prop. XI.): the latter can consequently not produce an infinite motion, such as we assumed according to Proposition XXVI., which we admitted for the present.",
+          "pairs": [
+            { "ja": "אן יכון מחרך אלפלך קוה שאיעה פיה פד׳לך איצ׳א מחאל", "en": "the moving object be a force distributed throughout the whole body, is likewise impossible" },
+            { "ja": "אלפלך ג׳סם פהו מתנאה צ׳רורה", "en": "the sphere is corporeal, and must therefore be finite" },
+            { "ja": "פלא תחרך אלי לא נהאיה", "en": "the latter can consequently not produce an infinite motion" }
+          ]
+        },
+        {
+          "ja": "ואמא אלוג׳ה אלראבע והו אן יכון מחרך אלפלך קוה פיה גיר מנקסמה כנפס אלאנסאן פי אלאנסאן מת׳לא פאן הד׳א איצ׳א מחאל אן יכון הד׳א אלמחרך וחדה סבבא פי אלחרכה אלדאימה ואן כאנת גיר מנקסמה. וביאן ד׳לך אנה אן כאן הד׳א מחרכה אלאול פהד׳א אלמחרך הו מתחרך באלערץ׳ כמא ד׳כר פי אלמקדמה אלסאדסה. ואנא אזיד הנא ביאנא וד׳לך אן אלאנסאן מת׳לא אד׳א חרכתה נפסה אלתי הי צורתה חתי טלע מן אלבית אלי אלגרפה פג׳סמה הו אלד׳י תחרך באלד׳את ואלנפס הי אלמחרך אלאול באלד׳את לכנהא קד תחרכת באלערץ׳ לאן באנתקאל אלג׳סם מן אלבית ללגרפה אנתקלת אלנפס אלתי כאנת פי אלבית וצארת פי אלגרפה פאן סכן תחריך אלנפס סכן אלד׳י תחרך ענהא והו אלג׳סם ובסכון אלג׳סם תרתפע אלחרכה אלערצ׳יה אלחאצלה ללנפס וכל מתחרך באלערץ׳ יסכן צ׳רורה כמא ד׳כר פי אלת׳אמנה ואד׳א סכן סכן אלמתחרך ענה פילזם אן יכון לד׳לך אלמחרך אלאול סבב אכ׳ר צ׳רורה כ׳ארג׳א ען אלג׳מלה אלמרכבה מן מחרך ומתחרך אד׳א חצ׳ר ד׳לך אלסבב אלד׳י הו אבתדא אלחרכה חרך אלמחרך אלאול אלד׳י פי תלך אלג׳מלה ללמתחרך מנהא ואן לם יחצ׳ר סכן. ולהד׳א אלסבב לא תתחרך אג׳סאם אלחיואן דאימא ואן כאן פי כל ואחד מנהא מחרך אול לא ינקסם לאן מחרכהא ליס הו מחרכא דאימא באלד׳את בל אלדואעי לה ללתחריך אמור כ׳ארג׳ה ענה אמא טלב מואלף או הרב מן מכ׳אלף או תכ׳יל או תצור פי מן לה תצור וחיניד׳ יחרך ואד׳א חרך תחרך באלערץ׳ פלא בד אן יסכן כמא ד׳כרנא. פלו כאן מחרך אלפלך פיה עלי הד׳א אלוג׳ה למא אמכן אן יתחרך סרמדא",
+          "en": "The fourth case is likewise impossible, viz., that the sphere is set in motion by an indivisible force residing in the sphere in the same manner as the soul resides in the body of man. For this force, though indivisible, could not be the cause of infinite motion by itself alone: because if that were the case the prime motor would have an accidental motion (Prop. VI.). But things that move accidentally must come to rest (Prop. VIII.), and then the thing comes also to rest which is set in motion. (The following may serve as a further illustration of the nature of accidental motion. When man is moved by the soul, i.e., by his form, to go from the basement of the house to the upper storey, his body moves directly, while the soul, the really efficient cause of that motion, participates in it accidentally. For through the translation of the body from the basement to the upper storey, the soul has likewise changed its place, and when no fresh impulse for the motion of the body is given by the soul, the body which has been set in motion by such impulse comes to rest, and the accidental motion of the soul is discontinued). Consequently the motion of that supposed first motor must be due to some cause which does not form part of things composed of two elements, viz., a moving agent and an object moved: if such a cause is present the motor in that compound sets the other element in motion; in the absence of such a cause no motion takes place. Living beings do therefore not move continually, although each of them possesses an indivisible motive element; because this element is not constantly in motion, as it would be if it produced motion of its own accord. On the contrary, the things to which the action is due are separate from the motor. The action is caused either by desire for that which is agreeable, or by aversion from that which is disagreeable, or by some image, or by some ideal when the moving being has the capacity of conceiving it. When any of these causes are present then the motor acts; its motion is accidental, and must therefore come to an end (Prop. VIII.).",
+          "pairs": [
+            { "ja": "אן יכון מחרך אלפלך קוה פיה גיר מנקסמה כנפס אלאנסאן פי אלאנסאן", "en": "the sphere is set in motion by an indivisible force residing in the sphere in the same manner as the soul resides in the body of man" },
+            { "ja": "אלמחרך הו מתחרך באלערץ׳", "en": "the prime motor would have an accidental motion" },
+            { "ja": "וכל מתחרך באלערץ׳ יסכן צ׳רורה", "en": "things that move accidentally must come to rest" },
+            { "ja": "לא תתחרך אג׳סאם אלחיואן דאימא", "en": "Living beings do therefore not move continually" },
+            { "ja": "אלדואעי לה ללתחריך אמור כ׳ארג׳ה ענה", "en": "the things to which the action is due are separate from the motor" },
+            { "ja": "פלו כאן מחרך אלפלך פיה עלי הד׳א אלוג׳ה למא אמכן אן יתחרך סרמדא", "en": "its motion is accidental, and must therefore come to an end (Prop. VIII.)." }
+          ]
+        },
+        {
+          "ja": "פאן כאנת הד׳ה אלחרכה דאימה סרמדיה כמא ד׳כר כ׳צמנא וד׳לך ממכן כמא ד׳כר פי אלמקדמה אלת׳אלת׳הֵ עשרה פילזם צ׳רורה בחסב הד׳א אלראי אן יכון אלסבב אלאול לחרכהֵ אלפלך עלי אלוג׳ה אלת׳אני אעני מפארקא ללפלך כמא אקתצ׳תה אלקסמה",
+          "en": "If the motor of the sphere were of this kind the sphere could not move ad infinitum. Our opponent, however, holds that the spheres move continually ad infinitum: if this were the case, and it is in fact possible (Prop. XIII.), the efficient cause of the motion of the sphere must, according to the above division, be of the second kind, viz., something incorporeal and separate from the sphere.",
+          "pairs": [
+            { "ja": "אן כאנת הד׳ה אלחרכה דאימה סרמדיה", "en": "the spheres move continually ad infinitum" },
+            { "ja": "אלסבב אלאול לחרכהֵ אלפלך עלי אלוג׳ה אלת׳אני אעני מפארקא ללפלך", "en": "the efficient cause of the motion of the sphere must, according to the above division, be of the second kind, viz., something incorporeal and separate from the sphere" }
+          ]
+        },
+        {
+          "ja": "פקד תברהן אן מחרך אלפלך אלאול אן כאנת חרכתה סרמדיה דאימה ילזם אן יכון לא ג׳סמא ולא קוה פי ג׳סם אצלא חתי לא תכון למחרכה חרכה לא באלד׳את ולא באלערץ׳ פלד׳לך לא יקבל קסמה ולא תגירא כמא ד׳כר פי אלמקדמה אלסאבעה ואלכ׳אמסה והד׳א הו אלאלאה ג׳ל אסמה אעני אלסבב אלאול אלמחרך ללפלך",
+          "en": "It may thus be considered as proved that the efficient cause of the motion of the sphere, if that motion be eternal, is neither itself corporeal nor does it reside in a corporeal object; it must move neither of its own accord nor accidentally; it must be indivisible and unchangeable (Prop. VII. and Prop. V.). This Prime Motor of the sphere is God, praised be His name!",
+          "pairs": [
+            { "ja": "מחרך אלפלך אלאול אן כאנת חרכתה סרמדיה דאימה ילזם אן יכון לא ג׳סמא ולא קוה פי ג׳סם", "en": "the efficient cause of the motion of the sphere, if that motion be eternal, is neither itself corporeal nor does it reside in a corporeal object" },
+            { "ja": "לא יקבל קסמה ולא תגירא", "en": "it must be indivisible and unchangeable" },
+            { "ja": "והד׳א הו אלאלאה ג׳ל אסמה אעני אלסבב אלאול אלמחרך ללפלך", "en": "This Prime Motor of the sphere is God, praised be His name!" }
+          ]
+        },
+        {
+          "ja": "ויסתחיל כונה את׳נין או אכת׳ר לאסתחאלהֵ תעדד אלאמור אלמפארקה אלתי ליסת בג׳סם אלא באן יכון אחדהא עלה ואלאכ׳ר מעלולא כמא ד׳כר פי אלסאדסהֵ עשרה וקד תבין אנה ליס בואקע תחת אלזמאן איצ׳א לאמתנאע אלחרכה פי חקה כמא ד׳כר פי אלכ׳אמסהֵ עשרה",
+          "en": "The hypothesis that there exist two Gods is inadmissible, because absolutely incorporeal beings cannot be counted (Prop. XVI.), except as cause and effect; the relation of time is not applicable to God (Prop. XV.), because motion cannot be predicated of Him.",
+          "pairs": [
+            { "ja": "ויסתחיל כונה את׳נין או אכת׳ר", "en": "The hypothesis that there exist two Gods is inadmissible" },
+            { "ja": "לאסתחאלהֵ תעדד אלאמור אלמפארקה אלתי ליסת בג׳סם", "en": "absolutely incorporeal beings cannot be counted" },
+            { "ja": "ליס בואקע תחת אלזמאן", "en": "the relation of time is not applicable to God" }
+          ]
+        },
+        {
+          "ja": "פקד ודי הד׳א אלנט׳ר באלברהאן אן אלפלך מחאל אן יחרך ד׳אתה חרכה סרמדיה ואן אלסבב אלאול פי תחריכה ליס הו ג׳סמא ולא קוה פי ג׳סם ואנה ואחד לא יתגיר לאן ליס וג׳ודה מקתרנא בזמאן והד׳ה הי אלת׳לת׳ה מטאלב אלתי ברהן עליהא פצ׳לא אלפלאספה.",
+          "en": "The result of the above argument is consequently this: the sphere cannot move ad infinitum of its own accord; the Prime Motor is not corporeal, nor a force residing within a body; it is One, unchangeable, and in its existence independent of time. Three of our postulates are thus proved by the principal philosophers.",
+          "pairs": [
+            { "ja": "אלפלך מחאל אן יחרך ד׳אתה חרכה סרמדיה", "en": "the sphere cannot move ad infinitum of its own accord" },
+            { "ja": "אלסבב אלאול פי תחריכה ליס הו ג׳סמא ולא קוה פי ג׳סם", "en": "the Prime Motor is not corporeal, nor a force residing within a body" },
+            { "ja": "ואנה ואחד לא יתגיר לאן ליס וג׳ודה מקתרנא בזמאן", "en": "it is One, unchangeable, and in its existence independent of time" }
+          ]
+        },
+        {
+          "ja": "נט׳ר ת׳אן להם. קדם ארסטו מקדמה והי אנה אד׳א וג׳ד שי מרכב מן שיין ווג׳ד אחד אלשיין עלי אנפראדה כ׳ארג׳א ען ד׳לך אלשי אלמרכב לזם וג׳וד אלאכ׳ר צ׳רורה כ׳ארג׳א איצ׳א ען ד׳לך אלשי אלמרכב לאנה לו כאן וג׳ודהמא יקתצ׳י אן לא יוג׳דא אלא מעא כאלמאדה ואלצורה אלטביעיה למא וג׳ד אחדהמא דון אלאכ׳ר בוג׳ה פוג׳וד אחדהמא עלי אנפראדה דליל עלי עדם אלתלאזם פסיוג׳ד אלאכ׳ר צ׳רורה. מת׳אלה אנה אד׳א וג׳ד אלסכנג׳בין ווג׳ד איצ׳א אלעסל וחדה לזם צ׳רורה וג׳וד אלכ׳ל וחדה. ובעד תביינה הד׳ה אלמקדמה קאל אנא נג׳ד אשיא כת׳ירה מרכבה מן מחרך ומתחרך יעני אנהא תחרך גירהא ותתחרך מן גירהא חין מא תחרך וד׳לך בין באלמתוסטאת פי אלתחריך כלהא ונג׳ד מתחרכא לא יחרך אצלא והו אכ׳ר מתחרך פילזם צ׳רורה אן יוג׳ד מחרך לא יתחרך אצלא וד׳לך הו אלמחרך אלאול ומן חית׳ לא תמכן פיה חרכה פהו לא מנקסם ולא ג׳סם ולא ואקע תחת זמאן כמא באן פי אלברהאן אלמתקדם.",
+          "en": "The philosophers employ besides another argument, based on the following proposition of Aristotle. If there be a thing composed of two elements, and the one of them is known to exist also by itself, apart from that thing, then the other element is likewise found in existence by itself separate from that compound. For if the nature of the two elements were such that they could only exist together—as, e.g., matter and form—then neither of them could in any way exist separate from the other. The fact that the one component is found also in a separate existence proves that the two elements are not indissolubly connected, and that the same must therefore be the case with the other component. Thus we infer from the existence of honey-vinegar and of honey by itself, that there exists also vinegar by itself. After having explained this proposition Aristotle continues thus: We notice many objects consisting of a motor and a motum, i.e., objects which set other things in motion, and whilst doing so are themselves set in motion by other things; such is clearly the case as regards all the middle members of a series of things in motion. We also see a thing that is moved, but does not itself move anything, viz., the last member of the series: consequently a motor must exist without being at the same time a motum, and that is the Prime Motor, which, not being subject to motion, is indivisible, incorporeal, and independent of time, as has been shown in the preceding argument.",
+          "pairs": [
+            { "ja": "אד׳א וג׳ד שי מרכב מן שיין ווג׳ד אחד אלשיין עלי אנפראדה כ׳ארג׳א ען ד׳לך אלשי אלמרכב לזם וג׳וד אלאכ׳ר צ׳רורה", "en": "If there be a thing composed of two elements, and the one of them is known to exist also by itself, apart from that thing, then the other element is likewise found in existence by itself" },
+            { "ja": "ונג׳ד מתחרכא לא יחרך אצלא והו אכ׳ר מתחרך", "en": "We also see a thing that is moved, but does not itself move anything, viz., the last member of the series" },
+            { "ja": "פילזם צ׳רורה אן יוג׳ד מחרך לא יתחרך אצלא וד׳לך הו אלמחרך אלאול", "en": "a motor must exist without being at the same time a motum, and that is the Prime Motor" }
+          ]
+        },
+        {
+          "ja": "נט׳ר ת׳אלת׳ פלספי פי הד׳א אלמעני מאכ׳וד׳ מן כלאם ארסטו ואן כאן ג׳א בה פי גרץ׳ אכ׳ר והד׳א תרתיב אלקול. לא שך אן ת׳ם אמור מוג׳ודה והי הד׳ה אלמוג׳ודאת אלמדרכה חסא ולא יכ׳לו אלאמר מן ת׳לאת׳הֵ אקסאם והי קסמה צ׳רוריה והו אמא אן תכון אלמוג׳ודאת כלהא גיר כאינה ולא פאסדה או תכון כלהא כאינה פאסדה או יכון בעצ׳הא כאינא פאסדא ובעצ׳הא גיר כאין ולא פאסד. אמא אלקסם אלאול פבין אלמחאל לאנא נשאהד מוג׳ודאת כת׳ירה כאינה פאסדה ואמא אלקסם אלת׳אני פהו איצ׳א מחאל וביאנה לאנה אן כאן כל מוג׳וד ואקעא תחת אלכון ואלפסאד פאלמוג׳ודאת כלהא כל ואחד מנהא ממכן אלפסאד ואלממכן פי אלנוע לא בד צ׳רורה מן וקועה כמא עלמת פילזם אנהא תפסד אעני אלמוג׳ודאת כלהא צ׳רורה ואד׳א פסדת כלהא מחאל אן יוג׳ד שי לאן לם יבק מן יוג׳ד שיא ולד׳לך ילזם אן לא יכון שי מוג׳וד בתה ונחן נשאהד אשיא מוג׳ודה והא נחן מוג׳ודון פילזם צ׳רורה בהד׳א אלנט׳ר אן כאן ת׳ם מוג׳ודאת כאינה פאסדה כמא נשאהד אן יכון ת׳ם מוג׳וד מא לא כאין ולא פאסד והד׳א אלמוג׳וד אלגיר כאין ולא פאסד לא אמכאן פסאד פיה אצלא בל הו ואג׳ב אלוג׳וד לא ממכן אלוג׳וד.",
+          "en": "Third Philosophical Argument.—This is taken from the words of Aristotle, though he gives it in a different form. It runs as follows: There is no doubt that many things actually exist, as, e.g., things perceived with the senses. Now there are only three cases conceivable, viz., either all these things are without beginning and without end, or all of them have beginning and end, or some are with and some without beginning and end. The first of these three cases is altogether inadmissible, since we clearly perceive objects which come into existence and are subsequently destroyed. The second case is likewise inadmissible, for if everything had but a temporary existence all things might be destroyed, and that which is enunciated of a whole class of things as possible is necessarily actual. All things must therefore come to an end, and then nothing would ever be in existence, for there would not exist any being to produce anything. Consequently nothing whatever would exist [if all things were transient]; but as we see things existing, and find ourselves in existence we conclude as follows:—Since there are undoubtedly beings of a temporary existence, there must also be an eternal being that is not subject to destruction, and whose existence is real, not merely possible.",
+          "pairs": [
+            { "ja": "לא שך אן ת׳ם אמור מוג׳ודה והי הד׳ה אלמוג׳ודאת אלמדרכה חסא", "en": "There is no doubt that many things actually exist, as, e.g., things perceived with the senses" },
+            { "ja": "אמא אן תכון אלמוג׳ודאת כלהא גיר כאינה ולא פאסדה", "en": "either all these things are without beginning and without end" },
+            { "ja": "או תכון כלהא כאינה פאסדה", "en": "or all of them have beginning and end" },
+            { "ja": "פילזם צ׳רורה בהד׳א אלנט׳ר אן כאן ת׳ם מוג׳ודאת כאינה פאסדה כמא נשאהד אן יכון ת׳ם מוג׳וד מא לא כאין ולא פאסד", "en": "there must also be an eternal being that is not subject to destruction" },
+            { "ja": "הו ואג׳ב אלוג׳וד לא ממכן אלוג׳וד", "en": "whose existence is real, not merely possible" }
+          ]
+        },
+        {
+          "ja": "קאל איצ׳א אנה לא יכ׳לו כונה ואג׳ב אלוג׳וד אן יכון ד׳לך באעתבאר ד׳אתה או באעתבאר סבבה חתי יכון וג׳ודה ועדמה ממכנא באעתבאר ד׳אתה ואג׳בא באעתבאר סבבה פיכון סבבה הו אלואג׳ב אלוג׳וד כמא ד׳כר פי אלתאסעהֵ עשרה. פקד תברהן אנה לא בד צ׳רורה אן יכון ת׳ם מוג׳וד ואג׳ב אלוג׳וד באעתבאר ד׳אתה ולולאה למא כאן ת׳ם מוג׳וד אצלא לא כאין פאסד ולא מא ליס בכאין ולא פאסד אן כאן ת׳ם שי יוג׳ד הכד׳א כמא יקול ארסטו אעני אן לא יכון כאינא ולא פאסדא לכונה מעלולא בעלה ואג׳בהֵ אלוג׳וד. והד׳א ברהאן לא שך פיה ולא מדפע ולא מנאזעה אלא למן יג׳הל טריק אלברהאן.",
+          "en": "It has been further argued that the existence of this being is necessary, either on account of itself alone or on account of some external force. In the latter case its existence and non-existence would be equally possible, because of its own properties, but its existence would be necessary on account of the external force. That force would then be the being that possesses absolute existence (Prop. XIX). It is therefore certain that there must be a being which has absolutely independent existence, and is the source of the existence of all things, whether transient or permanent, if, as Aristotle assumes. there is in existence such a thing, which is the effect of an eternal cause, and must therefore itself be eternal. This is a proof the correctness of which is not doubted, disputed, or rejected, except by those who have no knowledge of the method of proof.",
+          "pairs": [
+            { "ja": "לא יכ׳לו כונה ואג׳ב אלוג׳וד אן יכון ד׳לך באעתבאר ד׳אתה או באעתבאר סבבה", "en": "the existence of this being is necessary, either on account of itself alone or on account of some external force" },
+            { "ja": "פקד תברהן אנה לא בד צ׳רורה אן יכון ת׳ם מוג׳וד ואג׳ב אלוג׳וד באעתבאר ד׳אתה", "en": "there must be a being which has absolutely independent existence" },
+            { "ja": "והד׳א ברהאן לא שך פיה ולא מדפע ולא מנאזעה אלא למן יג׳הל טריק אלברהאן", "en": "This is a proof the correctness of which is not doubted, disputed, or rejected, except by those who have no knowledge of the method of proof" }
+          ]
+        },
+        {
+          "ja": "ת׳ם נקול אן כל ואג׳ב אלוג׳וד באעתבאר ד׳אתה ילזם צ׳רורה אן לא יכון לוג׳ודה סבב כמא ד׳כר פי אלמקדמה אלעשרין ולא יכון פיה תכת׳יר מעאני אצלא כמא ד׳כר פי אלמקדמה אלחאדיה ואלעשרין ולד׳לך ילזם אן לא יכון ג׳סמא ולא קוה פי ג׳סם כמא ד׳כר פי אלת׳אניה ואלעשרין. פקד תברהן בחסב הד׳א אלנט׳ר אן ת׳ם מוג׳וד לאזם אלוג׳וד באעתבאר ד׳אתה צ׳רורה והו אלד׳י לא סבב לוג׳ודה ולא תרכיב פיה פלד׳לך לא יכון ג׳סמא ולא קוה פי ג׳סם והד׳א הו אלאלאה ג׳ל אסמה.",
+          "en": "We further say that the existence of anything that has independent existence is not due to any cause (Prop. X.), and that such a being does not include any plurality whatever (Prop. XXI.); consequently it cannot be a body, nor a force residing in a body (Prop. XXII.). It is now clear that there must be a being with absolutely independent existence, a being whose existence cannot be attributed to any external cause, and which does not include different elements; it cannot therefore be corporeal, or a force residing in a corporeal object; this being is God.",
+          "pairs": [
+            { "ja": "כל ואג׳ב אלוג׳וד באעתבאר ד׳אתה ילזם צ׳רורה אן לא יכון לוג׳ודה סבב", "en": "the existence of anything that has independent existence is not due to any cause" },
+            { "ja": "ולד׳לך ילזם אן לא יכון ג׳סמא ולא קוה פי ג׳סם", "en": "it cannot be a body, nor a force residing in a body" },
+            { "ja": "והד׳א הו אלאלאה ג׳ל אסמה", "en": "this being is God" }
+          ]
+        },
+        {
+          "ja": "וכד׳לך יתברהן בסהולה אן וג׳וב אלוג׳וד באעתבאר אלד׳את יסתחיל אן יוג׳ד לאת׳נין לאן יכון נוע וג׳וב אלוג׳וד מעני זאידא עלי ד׳את כל ואחד מנהמא פלא יכון ואחד מנהמא ואג׳ב אלוג׳וד בד׳אתה פקט בל ואג׳בא בד׳לך אלמעני אלד׳י הו נוע וג׳וב אלוג׳וד אלד׳י וג׳ד להד׳א ולגירה וקד יבין בוג׳וה עדה אלואג׳ב אלוג׳וד לא יצח פיה אלת׳נויה בוג׳ה לא נד ולא צ׳ד. עלהֵ ד׳לך כלה אלבסאטה אלמחצ׳ה ואלכמאל אלמחץ׳ אלד׳י לא יפצ׳ל ענה שי כ׳ארג׳א ען ד׳אתה מן נועה ועדם אלעלה ואלסבב מן כל ג׳הה פלא משארכה אצלא.",
+          "en": "It can easily be proved that absolutely independent existence cannot be attributed to two beings. For, if that were the case, absolutely independent existence would be a property added to the substance of both; neither of them would be absolutely independent on account of their essence, but only through a certain property, viz., that of this independent existence, which is common to both. It can besides be shown in many ways that independent existence cannot be reconciled with the principle of dualism by any means. It would make no difference, whether we imagine two beings of similar or of different properties. The reason for all this is to be sought in the absolute simplicity and in the utmost perfection of the essence of this being, which is the only member of its species, and does not depend on any cause whatever this being has therefore nothing in common with other beings.",
+          "pairs": [
+            { "ja": "וג׳וב אלוג׳וד באעתבאר אלד׳את יסתחיל אן יוג׳ד לאת׳נין", "en": "absolutely independent existence cannot be attributed to two beings" },
+            { "ja": "עלהֵ ד׳לך כלה אלבסאטה אלמחצ׳ה ואלכמאל אלמחץ׳", "en": "The reason for all this is to be sought in the absolute simplicity and in the utmost perfection" },
+            { "ja": "פלא משארכה אצלא", "en": "nothing in common with other beings" }
+          ]
+        },
+        {
+          "ja": "נט׳ר ראבע פלספי איצ׳א. מעלום אנא נרי דאימא אמורא תכון באלקוה פתכ׳רג׳ אלי אלפעל וכל מא יכ׳רג׳ מן אלקוה אלי אלפעל פלה מכ׳רג׳ כ׳ארג׳א ענה כמא ד׳כר פי אלמקדמהֵ אלת׳אמנהֵ עשרה. ובין הו איצ׳א אן ד׳לך אלמכ׳רג׳ כאן מכ׳רג׳א באלקוה ת׳ם צאר מכ׳רג׳א באלפעל ועלהֵ כונה כאן באלקוה אמא למאנע מן נפסה או לנסבהֵ מא כאנת מרתפעה בינה ובין מא אכ׳רג׳ה מן קבל פלמא חצלת תלך אלנסבה אכ׳רג׳ באלפעל וכל ואחד מן הד׳ין יקתצ׳י מכ׳רג׳א או מזיל עאיק צ׳רורה. והכד׳א ילזם אן יקאל פי אלמכ׳רג׳ אלת׳אני או מזיל אלעאיק והד׳א לא ימר אלי לא נהאיה פלא בד מן אלאנתהא למכ׳רג׳ מן אלקוה אלי אלפעל יכון מוג׳ודא אבדא עלי חאלה ואחדה לא קוה פיה אצלא אעני אנה לא יכון פיה פי ד׳אתה שי באלקוה לאנה אן כאן פי ד׳אתה אמכאן פקד יעדם כמא ד׳כר פי אלת׳אלת׳ה ואלעשרין ומחאל אן יכון הד׳א ד׳א מאדה בל מפארקא כמא ד׳כר פי אלראבעה ואלעשרין ואלמפארק אלד׳י לא אמכאן פיה אצלא בל הו מוג׳וד בד׳אתה הו אלאלאה. וקד תבין אנה לא ג׳סם פהו ואחד כמא ד׳כר פי אלמקדמה אלסאדסהֵ עשרה.",
+          "en": "Fourth Argument.—This is likewise a well-known philosophical argument. We constantly see things passing from a state of potentiality to that of actuality, but in every such case there is for that transition of a thing an agent separate from it (Prop. XVIII). It is likewise clear that the agent has also passed from potentiality to actuality. It has at first been potential, because it could not be actual, owing to some obstacle contained in itself, or on account of the absence of a certain relation between itself and the object of its action: it became an actual agent as soon as that relation was present. Whichever cause be assumed, an agent is again necessary to remove the obstacle or to create the relation. The same can be argued respecting this last-mentioned agent that creates the relation or removes the obstacle. This series of causes cannot go on ad infinitum; we must at last arrive at a cause of the transition of an object from the state of potentiality to that of actuality, which is constant, and admits of no potentiality whatever. In the essence of this cause nothing exists potentially, for if its essence included any possibility of existence it would not exist at all (Prop. XXIII.); it cannot be corporeal, but it must be spiritual (Prop. XXIV.); and the immaterial being that includes no possibility whatever, but exists actually by its own essence, is God. Since He is incorporeal, as has been demonstrated, it follows that He is One (Prop. XVI).",
+          "pairs": [
+            { "ja": "נרי דאימא אמורא תכון באלקוה פתכ׳רג׳ אלי אלפעל", "en": "We constantly see things passing from a state of potentiality to that of actuality" },
+            { "ja": "כל מא יכ׳רג׳ מן אלקוה אלי אלפעל פלה מכ׳רג׳ כ׳ארג׳א ענה", "en": "in every such case there is for that transition of a thing an agent separate from it" },
+            { "ja": "הד׳א לא ימר אלי לא נהאיה פלא בד מן אלאנתהא", "en": "This series of causes cannot go on ad infinitum; we must at last arrive" },
+            { "ja": "לא קוה פיה אצלא אעני אנה לא יכון פיה פי ד׳אתה שי באלקוה", "en": "admits of no potentiality whatever. In the essence of this cause nothing exists potentially" },
+            { "ja": "ואלמפארק אלד׳י לא אמכאן פיה אצלא בל הו מוג׳וד בד׳אתה הו אלאלאה", "en": "the immaterial being that includes no possibility whatever, but exists actually by its own essence, is God" }
+          ]
+        },
+        {
+          "ja": "והד׳ה כלהא טרק ברהאניה עלי וג׳וד אלאה ואחד לא ג׳סם ולא קוה פי ג׳סם מע אעתקאד קדם אלעאלם.",
+          "en": "Even if we were to admit the Eternity of the Universe, we could by any of these methods prove the existence of God; that He is One and incorporeal, and that He does not reside as a force in a corporeal object.",
+          "pairs": [
+            { "ja": "הד׳ה כלהא טרק ברהאניה עלי וג׳וד אלאה ואחד לא ג׳סם ולא קוה פי ג׳סם", "en": "by any of these methods prove the existence of God; that He is One and incorporeal, and that He does not reside as a force in a corporeal object" },
+            { "ja": "מע אעתקאד קדם אלעאלם", "en": "Even if we were to admit the Eternity of the Universe" }
+          ]
+        },
+        {
+          "ja": "והנא איצ׳א טריק ברהאניה עלי נפי אלתג׳סים ואת׳באת אלוחדאניה וד׳לך אנה לו כאן אלאהאן ללזם צ׳רורה אן יכון להמא מעני ואחד ישתרכאן פיה והו אלמעני אלד׳י בה אסתחק כל ואחד מנהמא אן יכון אלאהא ולהמא מעני אכ׳ר צ׳רורה בה וקע אלתבאין וצארא את׳נין אמא באן יכון פי כל ואחד מנהמא מעני גיר אלמעני אלד׳י פי אלאכ׳ר פיכון כל ואחד מנהמא מרכבא מן מעניין פלא ואחד מנהמא סבבא אולא ולא לאזם אלוג׳וד באעתבאר ד׳אתה בל כל ואחד מנהמא ד׳ו אסבאב כמא בין פי אלתאסעהֵ עשרה. ואן כאן מעני אלתבאין מוג׳ודא פי אחדהמא פד׳לך אלד׳י פיה אלמעניאן גיר ואג׳ב אלוג׳וד בד׳אתה.",
+          "en": "The following is likewise a correct method to prove the Incorporeality and the Unity of God: If there were two Gods, they would necessarily have one element in common by virtue of which they were Gods, and another element by which they were distinguished from each other and existed as two Gods; the distinguishing element would either be in both different from the property common to both-in that case both of them would consist of different elements, and neither of them would be the First Cause, or have absolutely independent existence; but their existence would depend on certain causes (Prop. XIX.)—or the distinguishing element would only in one of them be different from the element common to both: then that being could not have absolute independence.",
+          "pairs": [
+            { "ja": "אנה לו כאן אלאהאן ללזם צ׳רורה אן יכון להמא מעני ואחד ישתרכאן פיה", "en": "If there were two Gods, they would necessarily have one element in common by virtue of which they were Gods" },
+            { "ja": "ולהמא מעני אכ׳ר צ׳רורה בה וקע אלתבאין וצארא את׳נין", "en": "another element by which they were distinguished from each other and existed as two Gods" },
+            { "ja": "פלא ואחד מנהמא סבבא אולא ולא לאזם אלוג׳וד באעתבאר ד׳אתה", "en": "neither of them would be the First Cause, or have absolutely independent existence" }
+          ]
+        },
+        {
+          "ja": "טריק אכ׳ר פי אלתוחיד. קד צח באלברהאן אן אלמוג׳וד כלה כשכ׳ץ ואחד מרתבט בעצ׳ה בבעץ׳ ואן קוי אלפלך סאריה פי הד׳ה אלמאדה אלספליה ומהייה להא פיסתחיל מע הד׳א אלד׳י קד צח אן יכון אלאלאה אלואחד מנפרדא בג׳ז מן אג׳זא הד׳א אלמוג׳וד ואלאלאה אלת׳אני ינפרד בג׳ז אכ׳ר אד׳ הד׳א מרתבט בהד׳א פלם יבק פי אלתקסים אלא אן יכון הד׳א יפעל וקתא והד׳א יפעל וקתא או יכונא ג׳מיעא יפעלאן מעא דאימא חתי לא יתם פעל מן אלאפעאל אלא מנהמא ג׳מיעא. אמא כון הד׳א יפעל וקתא והד׳א יפעל וקתא פהו מחאל מן וג׳וה שתי לאנה אן כאן אלזמאן אלד׳י יפעל פיה אחדהמא ממכנא אן יפעל פיה אלאכ׳ר פמא אלסבב אלמוג׳ב לאן יפעל הד׳א ויבטל הד׳א ואן כאן אלזמאן אלד׳י יפעל פיה אחדהמא ימתנע עלי אלאכ׳ר אן יפעל פיה פת׳ם סבב אכ׳ר הו אלד׳י אוג׳ב אמכאן אלפעל להד׳א ואמתנאעה עלי הד׳א אד׳ ואלזמאן כלה לא אכ׳תלאף פיה ואלמוצ׳וע ללעמל מוצ׳וע ואחד מרתבט בעצ׳ה בבעץ׳ כמא בינא. ואיצ׳א אן כל ואחד מנהמא יכון ואקעא תחת אלזמאן אד׳ עמלה מקרון בזמאן. ואיצ׳א אן כל ואחד מנהמא יכ׳רג׳ מן אלקוה אלי אלפעל פי זמאן פעלה מא יפעל פיחתאג׳ כל ואחד מנהמא אלי מכ׳רג׳ מן אלקוה אלי אלפעל. ואיצ׳א יכון פי ד׳את כל ואחד מנהמא אמכאן. פאמא אן יכונא ג׳מיעא יפעלאן דאימא כל מא פי אלוג׳וד חתי לא יפעל אחדהמא דון אלאכ׳ר פהד׳א איצ׳א מחאל כמא אצף וד׳לך אן כל ג׳מלה לא יתם פעל מא אלא בג׳מיעהא פלא ואחד מנהא פאעלא באעתבאר ד׳אתה ולא ואחד מנהא איצ׳א סבבא אולא לד׳לך אלפעל בל אלסבב אלאול הו אג׳תמאע אלג׳מלה וקד תברהן אן אלואג׳ב אלוג׳וד ילזם צ׳רורה אן לא יכון לה סבב. ואיצ׳א אן אג׳תמאע אלג׳מלה פעל מא פהו מפתקר לסבב אכ׳ר והו ג׳אמע אלג׳מלה פאן כאן אלג׳אמע לתלך אלג׳מלה אלתי לא יתם אלפעל אלא בהא ואחדא פהו אלאלאה בלא שך ואן כאן אלג׳אמע איצ׳א להד׳ה אלג׳מלה ג׳מלה אכ׳רי לזם אלג׳מלה אלת׳אניה מת׳ל מא לזם אלג׳מלה אלאולי פלא בד מן אלאנתהא לואחד הו אלסבב פי וג׳וד הד׳א אלמוג׳וד אלואחד עלי אי וג׳ה כאן אמא עלי ג׳ההֵ אחדאת׳ה בעד עדם או עלי ג׳ההֵ אללזום. פקד באן לך איצ׳א בהד׳א אלטריק אן כון אלמוג׳וד כלה ואחדא דלנא עלי אן מוג׳דה ואחד.",
+          "en": "Another proof of the Unity of God.—It has been demonstrated by proof that the whole existing world is one organic body, all parts of which are connected together; also, that the influences of the spheres above pervade the earthly substance and prepare it for its forms. Hence it is impossible to assume that one deity be engaged in forming one part, and another deity in forming another part of that organic body of which all parts are closely connected together. A duality could only be imagined in this way, either that at one time the one deity is active, the other at another time, or that both act simultaneously, nothing being done except by both together. The first alternative is certainly absurd for many reasons: if at the time the one deity be active the other could also be active, there is no reason why the one deity should then act and the other not; if, on the other hand, it be impossible for the one deity to act when the other is at work, there must be some other cause [besides these deities] which [at a certain time] enables the one to act and disables the other. [Such difference would not be caused by time], since time is without change, and the object of the action likewise remains one and the same organic whole. Besides, if two deities existed in this way, both would be subject to the relations of time, since their actions would depend on time; they would also in the moment of acting pass from potentiality to actuality, and require an agent for such transition: their essence would besides include possibility [of existence]. It is equally absurd to assume that both together produce everything in existence, and that neither of them does anything alone; for when a number of forces must be united for a certain result, none of these forces acts of its own accord, and none is by itself the immediate cause of that result, but their union is the immediate cause. It has, furthermore, been proved that the action of the absolute cannot be due to an [external] cause. The union is also an act which presupposes a cause effecting that union, and if that cause be one, it is undoubtedly God: but if it also consists of a number of separate forces, a cause is required for the combination of these forces, as in the first case. Finally, one simple being must be arrived at, that is the cause of the existence of the Universe, which is one whole; it would make no difference whether we assumed that the First Cause had produced the Universe by creatio ex nihilo, or whether the Universe co-existed with the First Cause. It is thus clear how we can prove the Unity of God from the fact that this Universe is one whole.",
+          "pairs": [
+            { "ja": "קד צח באלברהאן אן אלמוג׳וד כלה כשכ׳ץ ואחד מרתבט בעצ׳ה בבעץ׳", "en": "the whole existing world is one organic body, all parts of which are connected together" },
+            { "ja": "פיסתחיל מע הד׳א אלד׳י קד צח אן יכון אלאלאה אלואחד מנפרדא בג׳ז", "en": "it is impossible to assume that one deity be engaged in forming one part" },
+            { "ja": "פלא בד מן אלאנתהא לואחד הו אלסבב פי וג׳וד הד׳א אלמוג׳וד אלואחד", "en": "one simple being must be arrived at, that is the cause of the existence of the Universe" }
+          ]
+        },
+        {
+          "ja": "טריק אכ׳ר פי נפי אלג׳סמאניה. כל ג׳סם מרכב כמא ד׳כר פי אלת׳אניה ואלעשרין וכל מרכב פלא בד לה מן פאעל הו אלסבב לוג׳וד צורתה פי מאדתה ובין הו ג׳דא אן כל ג׳סם קאבל ללאנקסאם ולה אבעאד פהו מחל ללאעראץ׳ בלא שך פליס אלג׳סם ואחדא לא מן ג׳ההֵ אנקסאמה ולא מן ג׳ההֵ תרכיבה אעני כונה את׳נין באלקול לאן כל ג׳סם אנמא הו ג׳סם מא מן אג׳ל מעני זאיד פיה עלי כונה ג׳סמא פהו ד׳ו מעניין צ׳רורה. וקד תברהן אן אלואג׳ב אלוג׳וד לא תרכיב פיה בוג׳ה מן אלוג׳וה.",
+          "en": "Another argument concerning the Incorporeality of God.—Every corporeal object is composed of matter and form (Prop. XXII.); every compound of these two elements requires an agent for effecting their combination. Besides, it is evident that a body is divisible and has dimensions: a body is thus undoubtedly subject to accidents. Consequently nothing corporeal can be a unity, either because everything corporeal is divisible or because it is a compound; that is to say, it can logically be analysed into two elements; because a body can only be said to be a certain body when the distinguishing element is added to the corporeal substratum, and must therefore include two elements: but it has been proved that the Absolute admits of no dualism whatever.",
+          "pairs": [
+            { "ja": "כל ג׳סם מרכב", "en": "Every corporeal object is composed of matter and form" },
+            { "ja": "כל ג׳סם קאבל ללאנקסאם ולה אבעאד פהו מחל ללאעראץ׳", "en": "a body is divisible and has dimensions: a body is thus undoubtedly subject to accidents" },
+            { "ja": "וקד תברהן אן אלואג׳ב אלוג׳וד לא תרכיב פיה בוג׳ה מן אלוג׳וה", "en": "it has been proved that the Absolute admits of no dualism whatever" }
+          ]
+        },
+        {
+          "ja": "ובעד תקדים הד׳ה אלבראהין אכ׳ד׳ פי תלכ׳יץ טריקנא נחן כמא ועדנא:",
+          "en": "Now that we have discussed these proofs, we will expound our own method in accordance with our promise.",
+          "pairs": [
+            { "ja": "ובעד תקדים הד׳ה אלבראהין", "en": "Now that we have discussed these proofs" },
+            { "ja": "אכ׳ד׳ פי תלכ׳יץ טריקנא נחן כמא ועדנא", "en": "we will expound our own method in accordance with our promise" }
+          ]
+        }
+      ]
+    }
+  ]
+}

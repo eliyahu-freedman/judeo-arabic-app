@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en" data-resolution="landscape">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1920, height=1080">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    /* ── Local fonts ─────────────────────────────────────────────────── */
+    @font-face {
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: 100 900;
+      src: url('assets/fonts/Lora-normal.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Lora';
+      font-style: italic;
+      font-weight: 100 900;
+      src: url('assets/fonts/Lora-italic.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Noto Serif Hebrew';
+      font-style: normal;
+      font-weight: 100 900;
+      font-stretch: 62.5%;
+      unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+      src: url('assets/fonts/NotoSerifHebrew-hebrew.woff2') format('woff2');
+    }
+
+    /* ── Reset ───────────────────────────────────────────────────────── */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 1920px; height: 1080px; overflow: hidden; background: #1c1a17; }
+    body { font-family: 'Lora', Georgia, serif; }
+
+    /* ── Hyperframes clip base ────────────────────────────────────────── */
+    .clip { position: absolute; visibility: hidden; }
+    .bg   { top: 0; left: 0; width: 1920px; height: 1080px; }
+
+    /* ── Script utilities ─────────────────────────────────────────────── */
+    .heb {
+      font-family: 'Noto Serif Hebrew', 'Times New Roman', serif;
+      direction: rtl;
+      unicode-bidi: bidi-override;
+    }
+  </style>
+</head>
+<body>
+  <div data-hf-id="hf-0mtn" id="root" data-composition-id="main" data-start="0" data-duration="27" data-width="1920" data-height="1080">
+
+    <!-- ═══ AUDIO ════════════════════════════════════════════════════════ -->
+
+    <!-- Music bed -->
+    <audio data-hf-id="hf-p1dv" id="bg-music" class="clip" data-start="0" data-duration="27" data-track-index="30" data-volume="0.18" src="assets/music/happy-beats-business-moves-vol-12-by-ende-dot-app.mp3"></audio>
+
+    <!-- Scene 2 stats: soft drop near beat 5.34s -->
+    <audio data-hf-id="hf-eilk" id="sfx-stats" class="clip" data-start="5.35" data-duration="2" data-track-index="31" data-volume="0.40" src="assets/sfx/interface/drop_001.ogg"></audio>
+
+    <!-- Scene 3 first tap (shifted +6s) -->
+    <audio data-hf-id="hf-bcqj" id="sfx-click1" class="clip" data-start="15.58" data-duration="1" data-track-index="32" data-volume="0.52" src="assets/sfx/ui/mouseclick1.ogg"></audio>
+
+    <!-- Scene 3 first panel lands (shifted +6s) -->
+    <audio data-hf-id="hf-lldm" id="sfx-panel1" class="clip" data-start="15.73" data-duration="2" data-track-index="33" data-volume="0.38" src="assets/sfx/interface/drop_001.ogg"></audio>
+
+    <!-- Scene 3 second tap (shifted +6s) -->
+    <audio data-hf-id="hf-9bom" id="sfx-click2" class="clip" data-start="18.53" data-duration="1" data-track-index="34" data-volume="0.52" src="assets/sfx/ui/mouseclick1.ogg"></audio>
+
+    <!-- Scene 3 second panel lands (shifted +6s) -->
+    <audio data-hf-id="hf-2jya" id="sfx-panel2" class="clip" data-start="18.68" data-duration="2" data-track-index="35" data-volume="0.38" src="assets/sfx/interface/drop_001.ogg"></audio>
+
+    <!-- Scene 4 name reveal bell — beat-locked: 25.112s -->
+    <audio data-hf-id="hf-c48y" id="sfx-bell" class="clip" data-start="25.0" data-duration="3" data-track-index="36" data-volume="0.75" src="assets/sfx/impact/impactBell_heavy_000.ogg"></audio>
+
+
+    <!-- ═══ SCENE 1 — MANUSCRIPT (0–4.8s) ═══════════════════════════════
+         Wine background. Judeo-Arabic Genesis 1:1 materialises like ink
+         surfacing on vellum: main text → ghost line → rule → attribution.
+    ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- Wine background  [track 1] -->
+    <div data-hf-id="hf-goqo" id="s1-bg" class="clip bg" data-start="0" data-duration="4.8" data-track-index="1" style="background: #722f37; opacity: 1;"></div>
+
+    <!-- Atmospheric warm radial glow  [track 2] -->
+    <div data-hf-id="hf-lsgx" id="s1-glow" class="clip bg" data-start="0" data-duration="4.8" data-track-index="2" style="
+        background: radial-gradient(ellipse 65% 55% at 50% 42%, rgba(200,140,70,0.08), transparent);
+        opacity: 0;
+      "></div>
+
+    <!-- Primary JA text: אול מא כ׳לק אללה  [track 3] -->
+    <div data-hf-id="hf-rds7" id="s1-main" class="clip heb" data-start="0" data-duration="4.8" data-track-index="3" style="
+        top: 406px; left: 0; width: 1920px;
+        font-size: 108px; font-weight: 500; line-height: 1.3;
+        color: #faf8f3; text-align: center;
+        opacity: 0;
+      ">אול מא כ׳לק אללה</div>
+
+    <!-- Ghost second line: אלסמאואת ואלארץ׳  [track 4] -->
+    <div data-hf-id="hf-7xxx" id="s1-ghost" class="clip heb" data-start="0" data-duration="4.8" data-track-index="4" style="
+        top: 545px; left: 0; width: 1920px;
+        font-size: 64px; font-weight: 300; line-height: 1.3;
+        color: rgba(250, 248, 243, 0.36); text-align: center;
+        opacity: 0;
+      ">אלסמאואת ואלארץ׳</div>
+
+    <!-- Divider rule  [track 5] -->
+    <div data-hf-id="hf-minh" id="s1-rule" class="clip" data-start="0" data-duration="4.8" data-track-index="5" style="
+        top: 655px; left: 660px;
+        width: 0; height: 1px;
+        background: rgba(250, 248, 243, 0.18);
+        opacity: 0;
+      "></div>
+
+    <!-- Attribution  [track 6] -->
+    <div data-hf-id="hf-saa9" id="s1-attr" class="clip" data-start="0" data-duration="4.8" data-track-index="6" style="
+        top: 676px; left: 0; width: 1920px;
+        font-size: 12px; font-weight: 700;
+        text-transform: uppercase; letter-spacing: 0.22em;
+        color: rgba(250, 248, 243, 0.36); text-align: center;
+        opacity: 0; white-space: nowrap;
+      ">SAADIA GAON · TAFSIR AL-TORAH · GENESIS 1:1</div>
+
+
+    <!-- ═══ SCENE 2 BACKGROUND ══════════════════════════════════════════ -->
+
+    <!-- Parchment background  [track 7] -->
+    <div data-hf-id="hf-io1z" id="s2-bg" class="clip bg" data-start="3.5" data-duration="4.6" data-track-index="7" style="background: #faf8f3; opacity: 0;"></div>
+
+
+    <!-- ═══ SCENE 2 — CLAIM (4–8.1s) ════════════════════════════════════
+         Parchment background. Eyebrow label, headline with wine accent,
+         stats line arriving near beat at 5.34s.
+    ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- Eyebrow  [track 8] -->
+    <div data-hf-id="hf-0xkc" id="s2-eyebrow" class="clip" data-start="4" data-duration="4.1" data-track-index="8" style="
+        top: 370px; left: 0; width: 1920px;
+        font-size: 11px; font-weight: 700;
+        text-transform: uppercase; letter-spacing: 0.26em;
+        color: #722f37; text-align: center;
+        opacity: 0; white-space: nowrap;
+      ">A DIGITAL READER &amp; LEXICON</div>
+
+    <!-- Headline  [track 9] -->
+    <div data-hf-id="hf-8fkd" id="s2-headline" class="clip" data-start="4" data-duration="4.1" data-track-index="9" style="
+        top: 410px; left: 220px; width: 1480px;
+        font-size: 70px; font-weight: 500; line-height: 1.18;
+        color: #1c1a17; text-align: center;
+        opacity: 0;
+      ">The medieval <em data-hf-id="hf-jot2" style="color: #722f37; font-style: italic;">Judeo-Arabic</em> library,<br data-hf-id="hf-x5px">read in the original.</div>
+
+    <!-- Stats line  [track 10] -->
+    <div data-hf-id="hf-5ii7" id="s2-stats" class="clip" data-start="4" data-duration="4.1" data-track-index="10" style="
+        top: 708px; left: 0; width: 1920px;
+        font-size: 14px; font-weight: 400; letter-spacing: 0.14em;
+        color: #6b6357; text-align: center;
+        opacity: 0; white-space: nowrap;
+      ">81,000 words indexed · 8,700 lexicon entries · 6 classical works</div>
+
+
+    <!-- ═══ SCENE 2.5 / SCENE 3 SHARED PARCHMENT BG ═════════════════════
+         Covers the stage arc (8–13.7s) and the Tafsir reader (14–22s).
+    ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- Parchment continuation  [track 11] -->
+    <div data-hf-id="hf-m2x7" id="s3-bg" class="clip bg" data-start="7.5" data-duration="14.5" data-track-index="11" style="background: #faf8f3; opacity: 0;"></div>
+
+
+    <!-- ═══ SCENE 2.5 — STAGE ARC (8.7–13.7s) ═══════════════════════════
+         Three stage cards appear on parchment, one per beat:
+         I Foundations (כ → כ׳), II Tafsir Reader, III The Library.
+         Beat-locks: 8.742s, 10.368s, 11.459s.
+    ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- Stage I card: Foundations  [track 23] -->
+    <div data-hf-id="hf-qn4p" id="s2b-card1" class="clip" data-start="8.5" data-duration="5.2" data-track-index="23" style="
+        top: 380px; left: 300px; width: 400px; height: 320px;
+        background: #ffffff;
+        border-radius: 14px;
+        box-shadow: 0 2px 8px rgba(28,26,23,0.05), 0 18px 52px -10px rgba(28,26,23,0.10);
+        padding: 28px 32px;
+        opacity: 0;
+      ">
+      <div data-hf-id="hf-vydi" style="font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.22em; color: #722f37; margin-bottom: 8px;">Stage I</div>
+      <div data-hf-id="hf-vgau" style="font-size: 20px; font-weight: 500; color: #1c1a17; margin-bottom: 14px;">Foundations</div>
+      <div data-hf-id="hf-j16w" style="height: 1px; background: rgba(28,26,23,0.07); margin-bottom: 18px;"></div>
+      <div data-hf-id="hf-umn4" style="display: flex; align-items: center; gap: 20px; padding: 8px 0;">
+        <span data-hf-id="hf-hfsm" class="heb" style="font-size: 72px; font-weight: 400; color: #1c1a17; line-height: 1;">כ</span>
+        <span data-hf-id="hf-wvv0" style="font-size: 26px; color: #6b6357; flex-shrink: 0;">→</span>
+        <span data-hf-id="hf-5fkv" class="heb" style="font-size: 72px; font-weight: 400; color: #1c1a17; line-height: 1;">כ׳</span>
+      </div>
+      <div data-hf-id="hf-1us8" style="font-size: 12px; color: #6b6357; line-height: 1.65; margin-top: 18px;">The Hebrew script · diacritics for Arabic sounds · no prior knowledge needed</div>
+    </div>
+
+    <!-- Stage II card: Tafsir Reader  [track 24] -->
+    <div data-hf-id="hf-xykg" id="s2b-card2" class="clip" data-start="10.2" data-duration="3.5" data-track-index="24" style="
+        top: 380px; left: 760px; width: 400px; height: 320px;
+        background: #ffffff;
+        border-radius: 14px;
+        box-shadow: 0 2px 8px rgba(28,26,23,0.05), 0 18px 52px -10px rgba(28,26,23,0.10);
+        padding: 28px 32px;
+        opacity: 0;
+      ">
+      <div data-hf-id="hf-ybz1" style="font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.22em; color: #722f37; margin-bottom: 8px;">Stage II</div>
+      <div data-hf-id="hf-zsze" style="font-size: 20px; font-weight: 500; color: #1c1a17; margin-bottom: 14px;">Tafsir Reader</div>
+      <div data-hf-id="hf-ubls" style="height: 1px; background: rgba(28,26,23,0.07); margin-bottom: 18px;"></div>
+      <div data-hf-id="hf-msh5" class="heb" style="font-size: 24px; font-weight: 400; color: #1c1a17; line-height: 1.8; text-align: right;">אול מא כ׳לק אללה</div>
+      <div data-hf-id="hf-lglm" class="heb" style="font-size: 18px; font-weight: 300; color: rgba(28,26,23,0.38); line-height: 1.8; text-align: right;">אלסמאואת ואלארץ׳</div>
+      <div data-hf-id="hf-2dpe" style="font-size: 12px; color: #6b6357; line-height: 1.65; margin-top: 14px;">Saadia's Torah · verse by verse · tap any word to define</div>
+    </div>
+
+    <!-- Stage III card: The Library  [track 25] -->
+    <div data-hf-id="hf-xc4u" id="s2b-card3" class="clip" data-start="11.3" data-duration="2.4" data-track-index="25" style="
+        top: 380px; left: 1220px; width: 400px; height: 320px;
+        background: #ffffff;
+        border-radius: 14px;
+        box-shadow: 0 2px 8px rgba(28,26,23,0.05), 0 18px 52px -10px rgba(28,26,23,0.10);
+        padding: 28px 32px;
+        opacity: 0;
+      ">
+      <div data-hf-id="hf-t4xo" style="font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.22em; color: #722f37; margin-bottom: 8px;">Stage III</div>
+      <div data-hf-id="hf-bgp8" style="font-size: 20px; font-weight: 500; color: #1c1a17; margin-bottom: 14px;">The Library</div>
+      <div data-hf-id="hf-7dlo" style="height: 1px; background: rgba(28,26,23,0.07); margin-bottom: 14px;"></div>
+      <div data-hf-id="hf-nhow" class="heb" style="font-size: 17px; font-weight: 400; color: #1c1a17; line-height: 1.75; text-align: right;">כתאב אלהדאיה אלי פראיץ׳ אלקלוב</div>
+      <div data-hf-id="hf-epw7" class="heb" style="font-size: 15px; font-weight: 300; color: rgba(28,26,23,0.50); line-height: 1.75; text-align: right;">דלאלה אלחאירין</div>
+      <div data-hf-id="hf-498o" class="heb" style="font-size: 13px; font-weight: 300; color: rgba(28,26,23,0.28); line-height: 1.75; text-align: right;">כתאב אלאמאנאת ואלאעתקאדאת</div>
+      <div data-hf-id="hf-10ke" style="font-size: 11px; color: #6b6357; letter-spacing: 0.08em; margin-top: 12px;">Bahya · Rambam · Saadia · Halevi · Qirqisani</div>
+    </div>
+
+
+    <!-- ═══ SCENE 3 — THE READER (14–21.8s) ══════════════════════════════
+         Tafsir verse card. Two words tap in sequence; lexicon panels
+         slide in from the right after each tap.
+         Beat-lock: card entrance near 14.733s.
+    ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- Scene label  [track 12] -->
+    <div data-hf-id="hf-wo6a" id="s3-label" class="clip" data-start="14" data-duration="7.8" data-track-index="12" style="
+        top: 72px; left: 0; width: 1920px;
+        font-size: 10px; font-weight: 700;
+        text-transform: uppercase; letter-spacing: 0.24em;
+        color: #6b6357; text-align: center;
+        opacity: 0; white-space: nowrap;
+      ">TAFSIR READER — GENESIS 1:1</div>
+
+    <!-- Verse card  [track 13] -->
+    <div data-hf-id="hf-8j6f" id="s3-card" class="clip" data-start="14" data-duration="7.8" data-track-index="13" style="
+        top: 142px; left: 520px; width: 880px;
+        background: #ffffff;
+        border-radius: 14px;
+        box-shadow: 0 2px 8px rgba(28,26,23,0.05), 0 18px 52px -10px rgba(28,26,23,0.10);
+        padding: 48px 56px;
+        opacity: 0;
+      ">
+
+      <!-- Chapter label -->
+      <div data-hf-id="hf-qbna" style="
+        font-size: 10px; font-weight: 700;
+        text-transform: uppercase; letter-spacing: 0.24em;
+        color: #722f37; margin-bottom: 18px;
+      ">Genesis 1:1</div>
+
+      <!-- Hebrew source -->
+      <div data-hf-id="hf-tkna" class="heb" style="
+        font-size: 26px; font-weight: 400; line-height: 1.9;
+        color: #1c1a17; text-align: right; margin-bottom: 16px;
+      ">בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ</div>
+
+      <div data-hf-id="hf-wmkb" style="height: 1px; background: rgba(28,26,23,0.07); margin-bottom: 20px;"></div>
+
+      <!-- JA Tafsir — tappable word spans -->
+      <div data-hf-id="hf-161v" class="heb" dir="rtl" style="
+        font-size: 36px; font-weight: 400; line-height: 1.9;
+        color: #1c1a17; text-align: right;
+      "><span data-hf-id="hf-02yo">אול מא </span><span data-hf-id="hf-0eh3" id="w-khalaq" style="border-radius: 4px; padding: 1px 5px;">כ׳לק </span><span data-hf-id="hf-9ldy" id="w-allah" style="border-radius: 4px; padding: 1px 5px;">אללה </span><span data-hf-id="hf-2aa0">אלסמאואת ואלארץ׳</span></div>
+
+      <!-- English gloss -->
+      <div data-hf-id="hf-sskg" style="
+        font-size: 15px; font-style: italic;
+        color: #6b6357; margin-top: 16px; line-height: 1.65;
+      ">"The first thing God created — the heavens and the earth."</div>
+
+    </div><!-- /s3-card -->
+
+    <!-- Cursor pointer  [track 14] -->
+    <div data-hf-id="hf-32li" id="s3-cursor" class="clip" data-start="15.1" data-duration="6.2" data-track-index="14" style="
+        top: 344px; left: 1000px;
+        width: 32px; height: 32px;
+        opacity: 0; pointer-events: none;
+      ">
+      <svg data-hf-id="hf-ymmy" width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <path data-hf-id="hf-17bm" d="M5 3L24 16L14.5 17.8L10 27L5 3Z" fill="#1c1a17" stroke="#ffffff" stroke-width="1.8" stroke-linejoin="round" />
+      </svg>
+    </div>
+
+    <!-- Lexicon panel 1: אללה → God  [track 15] -->
+    <div data-hf-id="hf-lyg8" id="s3-panel1" class="clip" data-start="15.5" data-duration="3.2" data-track-index="15" style="
+        top: 142px; left: 1424px; width: 390px;
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px -4px rgba(28,26,23,0.16), 0 1px 4px rgba(28,26,23,0.07);
+        border: 1px solid rgba(28,26,23,0.05);
+        padding: 28px 32px;
+        opacity: 0;
+      ">
+      <div data-hf-id="hf-pxl8" style="font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.22em; color: #722f37; margin-bottom: 10px;">LEXICON ENTRY</div>
+      <div data-hf-id="hf-oyek" class="heb" style="font-size: 38px; font-weight: 600; color: #1c1a17; margin-bottom: 5px;">אללה</div>
+      <div data-hf-id="hf-2hqy" style="font-size: 11px; color: #6b6357; letter-spacing: 0.10em; margin-bottom: 14px;">ROOT: א-ל-ה · Proper noun</div>
+      <div data-hf-id="hf-10gk" style="height: 1px; background: rgba(28,26,23,0.07); margin-bottom: 14px;"></div>
+      <div data-hf-id="hf-xy1c" style="font-size: 15px; font-style: italic; color: #1c1a17; line-height: 1.65; margin-bottom: 10px;">"God; the Deity."</div>
+      <div data-hf-id="hf-kgl9" style="font-size: 10px; color: #6b6357; letter-spacing: 0.06em;">Lane, <em data-hf-id="hf-5tda">Arabic-English Lexicon</em></div>
+    </div>
+
+    <!-- Lexicon panel 2: כ׳לק → to create  [track 16] -->
+    <div data-hf-id="hf-ocgi" id="s3-panel2" class="clip" data-start="18.5" data-duration="3.3" data-track-index="16" style="
+        top: 142px; left: 1424px; width: 390px;
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px -4px rgba(28,26,23,0.16), 0 1px 4px rgba(28,26,23,0.07);
+        border: 1px solid rgba(28,26,23,0.05);
+        padding: 28px 32px;
+        opacity: 0;
+      ">
+      <div data-hf-id="hf-hiec" style="font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.22em; color: #722f37; margin-bottom: 10px;">LEXICON ENTRY</div>
+      <div data-hf-id="hf-1hkj" class="heb" style="font-size: 38px; font-weight: 600; color: #1c1a17; margin-bottom: 5px;">כ׳לק</div>
+      <div data-hf-id="hf-xaew" style="font-size: 11px; color: #6b6357; letter-spacing: 0.10em; margin-bottom: 14px;">ROOT: خ-ل-ق · Verb, Form I</div>
+      <div data-hf-id="hf-ztjh" style="height: 1px; background: rgba(28,26,23,0.07); margin-bottom: 14px;"></div>
+      <div data-hf-id="hf-10mo" style="font-size: 15px; font-style: italic; color: #1c1a17; line-height: 1.65; margin-bottom: 10px;">"To create; to bring into being from nothing."</div>
+      <div data-hf-id="hf-qn9e" style="font-size: 10px; color: #6b6357; letter-spacing: 0.06em;">Lane · Blau, <em data-hf-id="hf-r1bi">Med. Judaeo-Arabic Texts</em></div>
+    </div>
+
+
+    <!-- ═══ SCENE 4 BACKGROUND ══════════════════════════════════════════ -->
+
+    <!-- Dark ink background  [track 17] -->
+    <div data-hf-id="hf-h7r8" id="s4-bg" class="clip bg" data-start="21.4" data-duration="5.6" data-track-index="17" style="background: #1c1a17; opacity: 0;"></div>
+
+
+    <!-- ═══ SCENE 4 — SCALE & NAME (22–27s) ══════════════════════════════
+         Stats arrive on the beat grid (23.464 / 24.021 / 24.555), then
+         the name "Judeo-Arabic" at 25.112s (beat-locked) with the deep bell.
+    ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- Stat 1  [track 18] -->
+    <div data-hf-id="hf-tsd9" id="s4-stat1" class="clip" data-start="22" data-duration="5" data-track-index="18" style="
+        top: 344px; left: 0; width: 1920px;
+        font-size: 20px; font-weight: 400; letter-spacing: 0.14em;
+        color: rgba(250, 248, 243, 0.46); text-align: center;
+        opacity: 0; white-space: nowrap;
+      ">81,000 words indexed</div>
+
+    <!-- Stat 2  [track 19] -->
+    <div data-hf-id="hf-pjzy" id="s4-stat2" class="clip" data-start="22" data-duration="5" data-track-index="19" style="
+        top: 392px; left: 0; width: 1920px;
+        font-size: 20px; font-weight: 400; letter-spacing: 0.14em;
+        color: rgba(250, 248, 243, 0.46); text-align: center;
+        opacity: 0; white-space: nowrap;
+      ">8,700 lexicon entries</div>
+
+    <!-- Stat 3  [track 20] -->
+    <div data-hf-id="hf-otuw" id="s4-stat3" class="clip" data-start="22" data-duration="5" data-track-index="20" style="
+        top: 440px; left: 0; width: 1920px;
+        font-size: 20px; font-weight: 400; letter-spacing: 0.14em;
+        color: rgba(250, 248, 243, 0.46); text-align: center;
+        opacity: 0; white-space: nowrap;
+      ">Saadia · Bahya · Rambam · Halevi · Qirqisani</div>
+
+    <!-- Name: Judeo-Arabic  [track 21] — beat-locked: 25.112s -->
+    <div data-hf-id="hf-brj6" id="s4-name" class="clip" data-start="22" data-duration="5" data-track-index="21" style="
+        top: 514px; left: 0; width: 1920px;
+        font-size: 84px; font-weight: 600; letter-spacing: 0.02em;
+        color: #faf8f3; text-align: center;
+        opacity: 0; white-space: nowrap;
+      ">Judeo-Arabic</div>
+
+    <!-- URL  [track 22] -->
+    <div data-hf-id="hf-f7lg" id="s4-url" class="clip" data-start="22" data-duration="5" data-track-index="22" style="
+        top: 634px; left: 0; width: 1920px;
+        font-size: 13px; font-weight: 400;
+        text-transform: uppercase; letter-spacing: 0.18em;
+        color: rgba(250, 248, 243, 0.28); text-align: center;
+        opacity: 0; white-space: nowrap;
+      ">judeo-arabic-app.vercel.app</div>
+
+
+  </div><!-- #root -->
+
+  <script>
+    window.__timelines = window.__timelines || {};
+    const tl = gsap.timeline({ paused: true });
+
+    // ── Initial transform states ─────────────────────────────────────────
+    tl.set("#s3-card",   { y: 18 }, 0);
+    tl.set("#s3-panel1", { x: 24 }, 0);
+    tl.set("#s3-panel2", { x: 24 }, 0);
+    tl.set("#s2b-card1", { y: 20 }, 0);
+    tl.set("#s2b-card2", { y: 20 }, 0);
+    tl.set("#s2b-card3", { y: 20 }, 0);
+
+    // ── SCENE 1: Manuscript ─────────────────────────────────────────────
+    tl.to("#s1-glow",  { opacity: 1, duration: 1.6,  ease: "power2.inOut" }, 0.2);
+    tl.to("#s1-main",  { opacity: 1, duration: 1.4,  ease: "power2.inOut" }, 0.35);
+    tl.to("#s1-ghost", { opacity: 1, duration: 1.0,  ease: "power2.inOut" }, 1.05);
+    tl.to("#s1-rule",  { opacity: 1, width: "600px", duration: 0.9, ease: "power2.out" }, 1.45);
+    tl.to("#s1-attr",  { opacity: 1, duration: 0.8,  ease: "power2.inOut" }, 1.85);
+
+    tl.to(["#s1-main", "#s1-ghost", "#s1-rule", "#s1-attr", "#s1-glow"],
+          { opacity: 0, duration: 0.65, ease: "power2.in" }, 3.1);
+    tl.to("#s1-bg", { opacity: 0, duration: 0.75, ease: "power2.in" }, 3.3);
+    tl.set("#s1-bg", { opacity: 0 }, 4.00);
+    tl.to("#s2-bg", { opacity: 1, duration: 0.65, ease: "power2.out" }, 3.5);
+
+    // ── SCENE 2: Claim ──────────────────────────────────────────────────
+    tl.to("#s2-eyebrow",  { opacity: 1, duration: 0.6,  ease: "power2.out" }, 4.0);
+    tl.to("#s2-headline", { opacity: 1, duration: 0.95, ease: "power2.out" }, 4.55);
+    tl.to("#s2-stats",    { opacity: 1, duration: 0.55, ease: "power2.out" }, 5.35);
+
+    tl.to(["#s2-eyebrow", "#s2-headline", "#s2-stats"],
+          { opacity: 0, duration: 0.5, ease: "power2.in" }, 7.25);
+    tl.to("#s2-bg", { opacity: 0, duration: 0.65, ease: "power2.in"  }, 7.4);
+    tl.to("#s3-bg", { opacity: 1, duration: 0.5,  ease: "power2.out" }, 7.5);
+
+    // ── SCENE 2.5: Stage arc ─────────────────────────────────────────────
+    // Cards slide up into place, one per beat
+    tl.to("#s2b-card1", { opacity: 1, y: 0, duration: 0.55, ease: "power2.out" }, 8.742);  // beat-locked
+    tl.to("#s2b-card2", { opacity: 1, y: 0, duration: 0.55, ease: "power2.out" }, 10.368); // beat-locked
+    tl.to("#s2b-card3", { opacity: 1, y: 0, duration: 0.55, ease: "power2.out" }, 11.459); // beat-locked
+
+    // Hold, then exit
+    tl.to(["#s2b-card1", "#s2b-card2", "#s2b-card3"],
+          { opacity: 0, duration: 0.5, ease: "power2.in" }, 13.2);
+    tl.set(["#s2b-card1", "#s2b-card2", "#s2b-card3"], { opacity: 0 }, 13.70);
+
+    // ── SCENE 3: The Reader ─────────────────────────────────────────────
+    tl.to("#s3-label", { opacity: 1, duration: 0.5, ease: "power2.out" }, 14.1);
+    tl.to("#s3-card",  { opacity: 1, y: 0, duration: 0.72, ease: "power2.out" }, 14.6); // near beat 14.733
+
+    tl.to("#s3-cursor", { opacity: 1, duration: 0.35, ease: "power2.out" }, 15.1);
+    tl.to("#s3-cursor", { left: "1038px", top: "350px", duration: 0.4, ease: "power2.inOut" }, 15.15);
+
+    // Tap 1: אללה
+    tl.to("#s3-cursor", { scale: 0.82, duration: 0.07, ease: "power2.in",  transformOrigin: "top left" }, 15.58);
+    tl.to("#s3-cursor", { scale: 1.0,  duration: 0.13, ease: "power2.out", transformOrigin: "top left" }, 15.65);
+    tl.to("#w-allah",  { backgroundColor: "rgba(114,47,55,0.15)", duration: 0.22, ease: "power2.out" }, 15.65);
+    tl.to("#s3-panel1", { opacity: 1, x: 0, duration: 0.48, ease: "back.out(1.4)" }, 15.73);
+
+    // Cursor drifts to כ׳לק
+    tl.to("#s3-cursor", { left: "1200px", top: "350px", duration: 0.5, ease: "power2.inOut" }, 18.0);
+
+    // Dismiss panel 1
+    tl.to("#s3-panel1", { opacity: 0, x: 16, duration: 0.28, ease: "power2.in" }, 18.25);
+    tl.set("#s3-panel1", { opacity: 0 }, 18.50);
+    tl.to("#w-allah",  { backgroundColor: "rgba(114,47,55,0.0)", duration: 0.25, ease: "power2.in" }, 18.25);
+
+    // Tap 2: כ׳לק
+    tl.to("#s3-cursor", { scale: 0.82, duration: 0.07, ease: "power2.in",  transformOrigin: "top left" }, 18.53);
+    tl.to("#s3-cursor", { scale: 1.0,  duration: 0.13, ease: "power2.out", transformOrigin: "top left" }, 18.60);
+    tl.to("#w-khalaq", { backgroundColor: "rgba(114,47,55,0.15)", duration: 0.22, ease: "power2.out" }, 18.60);
+    tl.to("#s3-panel2", { opacity: 1, x: 0, duration: 0.48, ease: "back.out(1.4)" }, 18.68);
+
+    // Cursor exit
+    tl.to("#s3-cursor",  { opacity: 0, duration: 0.4, ease: "power2.in" }, 20.8);
+    tl.set("#s3-cursor", { opacity: 0 }, 21.30);
+
+    // Crossfade S3 → S4
+    tl.to(["#s3-card", "#s3-label", "#s3-panel2"],
+          { opacity: 0, duration: 0.5, ease: "power2.in" }, 21.1);
+    tl.to("#s3-bg", { opacity: 0, duration: 0.65, ease: "power2.in"  }, 21.3);
+    tl.set("#s3-bg", { opacity: 0 }, 22.00);
+    tl.to("#s4-bg", { opacity: 1, duration: 0.6,  ease: "power2.out" }, 21.4);
+
+    // ── SCENE 4: Scale & Name ───────────────────────────────────────────
+    tl.to("#s4-stat1", { opacity: 1, duration: 0.5, ease: "power2.out" }, 23.464); // beat-locked
+    tl.to("#s4-stat2", { opacity: 1, duration: 0.5, ease: "power2.out" }, 24.021); // beat-locked
+    tl.to("#s4-stat3", { opacity: 1, duration: 0.5, ease: "power2.out" }, 24.555); // beat-locked
+    tl.to("#s4-name",  { opacity: 1, duration: 0.65, ease: "power2.out" }, 25.112); // beat-locked
+    tl.to("#s4-url",   { opacity: 1, duration: 0.55, ease: "power2.out" }, 25.646);
+
+    window.__timelines["main"] = tl;
+  </script>
+
+</body>
+</html>

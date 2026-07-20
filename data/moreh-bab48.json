@@ -1,0 +1,130 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 48 — 'He Heard' and 'He Saw': Onkelos on Divine Perception",
+  "section_ja": "אלג'ז אלאול · אלפצל ארבעים ושמונה",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 48 turns to the Aramaic Targum of Onkelos and its systematic treatment of the verbs 'to hear' and 'to see' when predicated of God. Onkelos consistently paraphrases 'the Lord heard' as 'it was heard before the Lord' (shemiʿ qodam), removing any implication of divine ear or sensory organ, and similarly renders 'and the Lord saw' either as ḥazā — an Aramaic verb that can mean both sensory seeing and intellectual apprehension — or as galī qodam — 'it was revealed before Him.'\n\nMaimonides discovers a subtle principle in Onkelos: when the seeing is connected with oppression, injustice, or suffering, Onkelos chooses galī qodam, suggesting a committed response to wrongdoing. When the seeing is neutral, he uses ḥazā. Maimonides suspects that three passages where this pattern breaks down are due to scribal error in the manuscript.\n\nThe chapter closes with a methodological note: the text warrants careful recension work, and readers should verify the manuscript evidence before drawing conclusions about these exceptional cases.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 6
+  },
+  "terms": [
+    {
+      "id": "onkelos",
+      "ja": "אנקלוס",
+      "translit": "Onqelos",
+      "gloss": "the Targum of Onkelos",
+      "note": "The authoritative Aramaic translation of the Torah, which Maimonides treats as a rigorous philosophical commentary. Onkelos systematically removes anthropomorphic implications by paraphrase.",
+      "variants": ["שרח אנקלוס", "תרגום אנקלוס"]
+    },
+    {
+      "id": "qodam",
+      "ja": "קדם",
+      "translit": "qodam",
+      "gloss": "before (Aramaic), 'before the Lord'",
+      "note": "Onkelos's standard device: instead of 'the Lord heard,' he writes 'it was heard before the Lord' — turning the active divine hearing into a relational state, not a sensory act.",
+      "variants": ["קדם י\"י", "גלי קדם", "שמיע קדם"]
+    },
+    {
+      "id": "gali",
+      "ja": "גלי",
+      "translit": "galī",
+      "gloss": "it was revealed (Aramaic)",
+      "note": "Onkelos's preferred paraphrase when 'seeing' is connected with oppression or distress: 'it was revealed before the Lord' — implying that God's awareness entails response and commitment to justice.",
+      "variants": ["וגלי", "גלי קדמי", "גלי קדמוהי"]
+    },
+    {
+      "id": "haza",
+      "ja": "חזא",
+      "translit": "ḥazā",
+      "gloss": "to perceive, apprehend (Aramaic)",
+      "note": "An Aramaic verb that functions as a polyseme: it can indicate both sensory seeing and intellectual apprehension. Onkelos uses it for neutral contexts; Maimonides notes that its range of meaning makes it theologically safer than a direct 'he saw.'",
+      "variants": ["וחזא", "חזא י\"י"]
+    },
+    {
+      "id": "nuskha",
+      "ja": "נסך'",
+      "ar": "نسخة",
+      "translit": "nuskha",
+      "gloss": "manuscript copy, recension",
+      "note": "Maimonides refers to variant manuscript copies of the Targum. His suspicion that three anomalous passages reflect scribal error shows his method of textual criticism applied to paratextual tradition.",
+      "variants": ["נסך' אלתרגום", "אלנסך'"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל ארבעים ושמונה",
+          "en": "Part One · Chapter Forty-Eight — 'He Heard' and 'He Saw': Onkelos on Divine Perception",
+          "isHeader": true
+        },
+        {
+          "ja": "כל מא ג'א מן מעני אלסמע מנסובא ללה תעאלי תג'ד אנקלוס הגר קד תג'נבה ושרח מענאה בוצול ד'לך אלאמר אליה תעאלי או אנה אדרכה ואן כאן פי מערץ' אלדעא פישרח מענאה באנה קבל או לם יקבל פיקול אבדא פי שרח שמע י״י שמיע קדם י״י ופי מערץ' אלדעא תרג'ם שמוע אשמע צעקתו קבלא אקבל והד'א מטרד פי שרחה לם יעדל ען ד'לך פי מוצ'ע מן אלמואצ'ע. אמא מא ג'א מן אלרויה מנסובא אליה תעאלי פאן אנקלוס תלון פי ד'לך תלונא עג'יבא לם יתלכ'ץ לי קצדה וגרצ'ה וד'לך אן פי מואצ'ע ישרח וירא י״י וחזא י״י ופי מואצ'ע ישרחה וגלי קדם י״י אמא כונה ישרח וחזא י״י פד'לך דליל ואצ'ח עלי כון חזא פי אללגה אלסריאניה משתרכא ואנא ידל עלי מעני אדראך אלעקל כמא ידל עלי אדראך אלחאסה. פיא לית שערי אד' ואלאמר כד'לך ענדה לאי שי הרב מן אלבעץ' ושרחה וגלי קדם י״י.",
+          "en": "Everything that comes with the meaning of hearing attributed to God, exalted be He, you find that Onkelos the proselyte has avoided it and explained its meaning as the matter reaching Him, exalted be He, or that He perceived it. If it occurs in the context of prayer, he explains its meaning as either accepting or not accepting it — he always renders 'the Lord heard' as 'it was heard before the Lord,' and in the context of prayer he translates 'I will surely hear his cry' (Ex 22:22) as 'I will surely accept.' This is consistent throughout his commentary; he departs from it in no passage at all. As for what comes with the meaning of seeing attributed to Him, exalted be He, Onkelos varies in a remarkable way, the intent and purpose of which I did not immediately grasp: in some passages he renders 'the Lord saw' as ḥazā — 'the Lord perceived' — and in other passages he renders it as galī qodam — 'it was revealed before the Lord.' That he renders it as ḥazā is clear evidence that ḥazā in the Syriac language is polysemous, indicating the meaning of intellectual apprehension just as it indicates sensory perception. Would that I knew, since the matter stands thus for him, why he fled from some passages and rendered them as galī qodam.",
+          "pairs": [
+            { "ja": "כל מא ג'א מן מעני אלסמע מנסובא ללה תעאלי", "en": "Everything that comes with the meaning of hearing attributed to God, exalted be He" },
+            { "ja": "תג'ד אנקלוס הגר קד תג'נבה", "en": "you find that Onkelos the proselyte has avoided it" },
+            { "ja": "ושרח מענאה בוצול ד'לך אלאמר אליה תעאלי", "en": "and explained its meaning as the matter reaching Him, exalted be He" },
+            { "ja": "פיקול אבדא פי שרח שמע י״י שמיע קדם י״י", "en": "he always renders 'the Lord heard' as 'it was heard before the Lord,' and in the context of prayer" },
+            { "ja": "פי מואצ'ע ישרח וירא י״י וחזא י״י", "en": "in some passages he renders 'the Lord saw' as ḥazā" },
+            { "ja": "ופי מואצ'ע ישרחה וגלי קדם י״י", "en": "and in other passages he renders it as galī qodam" },
+            { "ja": "חזא פי אללגה אלסריאניה משתרכא", "en": "ḥazā in the Syriac language is polysemous" }
+          ]
+        },
+        {
+          "ja": "ולמא תאמלת מא וג'דתה מן נסך' אלתרגום מע מא סמעתה פי חאל אלתעלים וג'דתה אנה מתי וג'ד אלראיה מקתרנה במט'למה או אד'יה ועדואן פישרחה גלי קדם י״י לא שך אן חזא פי תלך אללגה יקתצ'י אלאדראך ואקראר אלשי אלמדרך עלי מא אדרך עליה פלד'לך אד'א וג'ד אלרויה תתעלק במט'למה לא יקול וחזא בל וגלי קדם י״י",
+          "en": "When I reflected upon what I found in copies of the Targum together with what I heard in the course of study, I found that whenever seeing is combined with oppression, injury, or wrongdoing, he renders it as galī qodam — 'it was revealed before the Lord.' There is no doubt that ḥazā in that language entails perception and the acknowledgment of what is perceived as being what it is; therefore, when seeing is connected with an act of oppression, he does not say 'and He perceived' (ḥazā) but rather 'and it was revealed before the Lord' (galī qodam).",
+          "pairs": [
+            { "ja": "מתי וג'ד אלראיה מקתרנה במט'למה או אד'יה ועדואן", "en": "whenever seeing is combined with oppression, injury, or wrongdoing" },
+            { "ja": "פישרחה גלי קדם י״י", "en": "he renders it as galī qodam" },
+            { "ja": "חזא פי תלך אללגה יקתצ'י אלאדראך ואקראר אלשי אלמדרך", "en": "ḥazā in that language entails perception and the acknowledgment of what is perceived" },
+            { "ja": "אד'א וג'ד אלרויה תתעלק במט'למה לא יקול וחזא בל וגלי קדם י״י", "en": "when seeing is connected with an act of oppression, he does not say 'and He perceived' (ḥazā) but rather 'and it was revealed before the Lord' (galī qodam)" }
+          ]
+        },
+        {
+          "ja": "פוג'דת כל ראיה מנסובה ללה פי ג'מיע אלתורה שרחהא וחזא אלא הד'ה אלתי אצף לך כי ראה י״י את עניי ארי גלי קדם י״י עולבני כי ראיתי את כל אשר לבן עושה לך ארי גלי קדמי מע כון אלמתכלם מלאכא לם ינסב לה אלאדראך אלדאל עלי אקראר אלאמר לכונהא מט'למה וירא אלהים את בני ישראל וגלי קדם י״י שעבודא דבני ישראל ראה ראיתי את עני עמי מגלא גלי קדמי ית שעבודא דעמי וגם ראיתי את הלחץ ואף גלי קדמי דחקא וכי ראה את ענים וארי גלי קדמוהי שעבודהון ראיתי את העם הזה גלי קדמי עמא הדין לאן מענאה ראית עציאנהם מת'ל וירא אלהים את בני ישראל אלד'י מענאה ראי שקאהם. וירא י״י וינאץ וגלי קדם י״י כי יראה כי אזלת יד ארי גלי קדמוהי והד'ה איצ'א חאלהֵ ט'לם להם וגלבהֵ עדו והד'א כלה כאן יטרד וילחט' פיה והביט אל עמל לא תוכל. פלד'לך כל שעבוד וכל עציאן יתרג'מה גלי קדמוהי או גלי קדמי.",
+          "en": "I found that every instance of seeing attributed to God throughout the entire Torah is rendered as ḥazā — 'the Lord perceived' — except these which I shall describe: 'for the Lord saw my affliction' (Gen 29:32) — 'for it was revealed before the Lord, my oppression'; 'for I have seen all that Laban is doing to you' (Gen 31:12) — 'for it was revealed before me,' even though the speaker is an angel, and the acknowledgment indicating confirmed action is not attributed to the speaker but rather to God, because it is an act of oppression; 'and God saw the children of Israel' (Ex 2:25) — 'and it was revealed before the Lord, the bondage of the children of Israel'; 'I have surely seen the affliction of my people' (Ex 3:7) — 'it was surely revealed before me, the bondage of my people'; 'and also I have seen the oppression' (Ex 3:9) — 'and also it was revealed before me, the compulsion'; 'and He saw their affliction' (Exod 4:31) — 'and it was revealed before Him, their bondage'; 'I have seen this people' (Ex 32:9) — 'it was revealed before me, this people,' for its meaning is 'I have seen their sinfulness,' analogous to 'and God saw the children of Israel,' whose meaning is 'He saw their distress'; 'and the Lord saw, and was provoked' (Deut 32:19) — 'and it was revealed before the Lord'; 'for He will see that the hand is gone' (Deut 32:36) — 'for it was revealed before Him' — and this too is a situation of oppression and the enemy's domination. All of this was consistently maintained and attended to by him regarding 'Look upon iniquity — you cannot' (Hab 1:3). Therefore every instance of bondage and sinfulness he renders as galī qodamōhī or galī qodamī.",
+          "pairs": [
+            { "ja": "כל ראיה מנסובה ללה פי ג'מיע אלתורה שרחהא וחזא", "en": "every instance of seeing attributed to God throughout the entire Torah is rendered as ḥazā" },
+            { "ja": "כי ראה י״י את עניי", "en": "for the Lord saw my affliction" },
+            { "ja": "לכונהא מט'למה", "en": "because it is an act of oppression" },
+            { "ja": "כל שעבוד וכל עציאן יתרג'מה גלי קדמוהי או גלי קדמי", "en": "every instance of bondage and sinfulness he renders as galī qodamōhī or galī qodamī" }
+          ]
+        },
+        {
+          "ja": "לכן אכ'תל עלי הד'א אלתאויל אלחסן אלטאיל אלד'י לא שך פיה בת'לת'ה מואצ'ע כאן מן חקהא עלי הד'א אלקיאס אן ישרחהא וגלי קדם י״י ונג'דהא פי אלנסך' וחזא י״י והי הד'ה וירא י״י כי רבה רעת האדם וירא אלהים את הארץ והנה נשחתה וירא י״י כי שנואה לאה. ואלאקרב ענדי אן יכון הד'א גלטא וקע פי אלנסך' אד' ליס ענדנא כ'ט אנקלוס פי ד'לך חתי נקול לעל לה פי ד'לך תאויל.",
+          "en": "However, there are three passages where this beautiful and compelling interpretation — of which there is no doubt — is disrupted: passages that by this same analogy ought to have been rendered as galī qodam, yet we find in the manuscripts ḥazā — 'the Lord perceived.' These are: 'and the Lord saw that the wickedness of man was great' (Gen 6:5); 'and God saw the earth, and behold it was corrupt' (Gen 6:12); 'and the Lord saw that Leah was hated' (Gen 29:31). The most likely view in my estimation is that this is an error that has crept into the manuscripts, since we have no autograph of Onkelos by which we could say that perhaps he has some interpretation for this.",
+          "pairs": [
+            { "ja": "בת'לת'ה מואצ'ע כאן מן חקהא עלי הד'א אלקיאס אן ישרחהא וגלי קדם י״י", "en": "passages that by this same analogy ought to have been rendered as galī qodam" },
+            { "ja": "ונג'דהא פי אלנסך' וחזא י״י", "en": "yet we find in the manuscripts ḥazā" },
+            { "ja": "וירא י״י כי רבה רעת האדם", "en": "and the Lord saw that the wickedness of man was great" },
+            { "ja": "ואלאקרב ענדי אן יכון הד'א גלטא וקע פי אלנסך'", "en": "The most likely view in my estimation is that this is an error that has crept into the manuscripts" }
+          ]
+        },
+        {
+          "ja": "אמא כונה שרח אלהים יראה לו השה קדם י״י גלי אמרא לאן לא יוהם ד'לך אן אללה תעאלי יסתאנף מטלבה ואיג'אדה או יכון איצ'א שנע פי תלך אללגה תעלק אדראכה בשכ'ץ חיואן גיר נאטק",
+          "en": "As for his rendering of 'God will see to the lamb' (Gen 22:8) as qodam — 'before the Lord it shall be revealed as a matter' — this is because that rendering would not give rise to the impression that God, exalted be He, is newly seeking and finding the lamb; or it may also be that it was considered unseemly in that language for His perception to be connected with a non-rational animal.",
+          "pairs": [
+            { "ja": "שרח אלהים יראה לו השה קדם י״י גלי אמרא", "en": "his rendering of 'God will see to the lamb'" },
+            { "ja": "לאן לא יוהם ד'לך אן אללה תעאלי יסתאנף מטלבה ואיג'אדה", "en": "because that rendering would not give rise to the impression that God, exalted be He, is newly seeking and finding the lamb" },
+            { "ja": "תעלק אדראכה בשכ'ץ חיואן גיר נאטק", "en": "His perception to be connected with a non-rational animal" }
+          ]
+        },
+        {
+          "ja": "וינבגי אן יבחת' ג'דא פי תצחיח אלנסך' פי ד'לך פאן וג'דת הד'ה אלמואצ'ע כמא ד'כרנא פלא אעלם לה גרצ'א פי ד'לך:",
+          "en": "It is necessary to investigate carefully the correct recension in this matter; and if you find these passages as I have described them, I know of no purpose he could have had in that.",
+          "pairs": [
+            { "ja": "ינבגי אן יבחת' ג'דא פי תצחיח אלנסך'", "en": "It is necessary to investigate carefully the correct recension" },
+            { "ja": "פאן וג'דת הד'ה אלמואצ'ע כמא ד'כרנא", "en": "if you find these passages as I have described them" },
+            { "ja": "פלא אעלם לה גרצ'א פי ד'לך", "en": "I know of no purpose he could have had in that" }
+          ]
+        }
+      ]
+    }
+  ]
+}

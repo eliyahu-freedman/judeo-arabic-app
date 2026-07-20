@@ -1,0 +1,128 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 56 — God, Likeness, and the Pure Equivocal",
+  "section_ja": "אלג'ז אלאול · אלפצל חמשים וששה",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 56 drives a wedge between God and every genus of existing things, and thereby closes off the possibility of defining Him. Maimonides begins from the logic of resemblance: similarity presupposes a shared genus — two things can be similar only if they fall under the same species or genus and thus share a defining attribute. God, by contrast, stands in no relation (nisba) to anything else whatsoever; therefore no similarity obtains between Him and any creature.\n\nFrom this Maimonides deduces that terms such as 'existent,' 'living,' 'knowing,' 'powerful,' and 'willing' — when applied to both God and creatures — are pure homonyms (ishtirāk maḥḍ), sharing nothing but the sound of the word. They are not even analogical predicates (bi-tashkīk), for analogy still requires some partial resemblance. The chapter closes with an urgent epistemological warning: one must never imagine that the divine attributes are somehow 'more' of what we mean when we use those words of ourselves. That error would replicate the genus-mistake in a subtler form.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 5
+  },
+  "terms": [
+    {
+      "id": "nisbah",
+      "ja": "נסבה",
+      "ar": "نسبة",
+      "translit": "nisba",
+      "gloss": "relation, ratio, proportion",
+      "note": "The foundational concept of the chapter: no ratio or relation of any kind holds between God and any other existing thing. Without relation, similarity (tashābuh) is equally impossible.",
+      "variants": ["נסבהֵ"]
+    },
+    {
+      "id": "tashābuh",
+      "ja": "תשאבה",
+      "ar": "تشابه",
+      "translit": "tashābuh",
+      "gloss": "resemblance, similarity",
+      "note": "Similarity requires shared genus-membership. Because God belongs to no genus, no resemblance with anything else is conceivable.",
+      "variants": ["שביהה", "מתשאבהאן"]
+    },
+    {
+      "id": "ishtirāk-mahḍ",
+      "ja": "אשתראך מחץ'",
+      "ar": "اشتراك محض",
+      "translit": "ishtirāk maḥḍ",
+      "gloss": "pure homonymy / absolute equivocity",
+      "note": "Terms like 'existent,' 'living,' 'knowing' are applied to God and to creatures with no shared meaning whatsoever — they share only the word-form.",
+      "variants": ["אלאשתראך אלמחץ'", "אשתראך"]
+    },
+    {
+      "id": "tashkīk",
+      "ja": "תשכיך",
+      "ar": "تشكيك",
+      "translit": "tashkīk",
+      "gloss": "pros-hen equivocity / analogy of attribution",
+      "note": "Terms said of things that share a partial resemblance in some respect. Maimonides explicitly rules out even this weaker form of predication for God.",
+      "variants": ["בתשכיך"]
+    },
+    {
+      "id": "ṣifāt-dhātiyya",
+      "ja": "צפאת ד'אתיה",
+      "ar": "صفات ذاتية",
+      "translit": "ṣifāt dhātiyya",
+      "gloss": "essential attributes",
+      "note": "Attributes allegedly intrinsic to God's essence — 'existing, living, powerful, knowing, willing.' Maimonides argues these cannot be predicated of God in the same sense as of creatures.",
+      "variants": ["צפאת", "אלד'אתיה"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל חמשים וששה",
+          "en": "Part One · Chapter Fifty-Six — God, Likeness, and the Pure Equivocal",
+          "isHeader": true
+        },
+        {
+          "ja": "אעלם אן אלשבהיה הי נסבהֵ מא בין שיין ואי שיין לא תקדר בינהמא נסבה כד'לך לא תתצור בינהמא שבהיה וכד'לך כל מא לא שבהיה בינהמא פלא נסבה בינהמא. מת'אל ד'לך אנה לא יקאל הד'ה אלחרארה שביהה בהד'א אללון ולא הד'א אלצות שביה בהד'ה אלחלאוה והד'א אמר בין בנפסה פלמא כאנת אלנסבה ביננא ובינה תעאלי מרתפעה אעני בינה ובין מא סואה לזם ארתפאע אלשבהיה איצ'א. ואעלם אן כל שיין המא תחת נוע ואחד אעני אן תכון מאהיתהמא ג'מיעא ואחדה גיר אנהמא מכ'תלפאן באלכבר ואלצגר או אלשדה ואלצ'עף או נחו ד'לך פאנהמא ג'מיעא מתשאבהאן צ'רורה ואן אכ'תלפא הד'א אלנחו מן אלאכ'תלאף. מת'אל ד'לך אן אלכ'רדלה ופלך אלכואכב אלת'אבתה מתשאבהאן פי אלאבעאד אלת'לאת'ה ואן כאן הד'א פי גאיהֵ אלכבר והד'ה פי גאיהֵ אלצגר מעני וג'וד אלאבעאד פיהמא ואחד. וכד'לך אלשמע אלמד'אב פי אלשמס ואסטקס אלנאר מתשאבהאן פי אלחרארה ואן כאנת תלך אלחרארה פי גאיהֵ אלשדה והד'ה אלחרארה פי גאיה מן אלצ'עף לכן מעני ט'הור הד'ה אלכיפיה פיהמא ג'מיעא ואחד.",
+          "en": "Know that resemblance is a relation of sorts between two things. Any two things between which no relation can be posited — between those two no resemblance is conceivable; and likewise, whatever has no resemblance between them, no relation holds between them either. For example, one does not say that this heat resembles this color, nor that this sound resembles this sweetness — and that is a self-evident matter. Therefore, since the relation between us and Him, exalted be He — I mean between Him and everything other than He — is entirely absent, of necessity similarity too is absent. And know that any two things that are under a single species — that is, whose quiddity is altogether one, though they differ in size and smallness, or in intensity and weakness, or the like — those two necessarily resemble each other, even if they differ in that fashion of difference. For example, a mustard seed and the sphere of the fixed stars resemble each other in the three dimensions, even though one is at the extreme of largeness and the other at the extreme of smallness — the meaning of the existence of dimensions in both of them is one. Likewise, the wax melted in the sun and the element of fire resemble each other in heat, even though that heat is at the extreme of intensity and this heat is at the extreme of weakness — yet the meaning of the manifestation of this quality in both of them is one.",
+          "pairs": [
+            { "ja": "אלשבהיה הי נסבהֵ מא בין שיין", "en": "resemblance is a relation of sorts between two things" },
+            { "ja": "ואי שיין לא תקדר בינהמא נסבה כד'לך לא תתצור בינהמא שבהיה", "en": "Any two things between which no relation can be posited — between those two no resemblance is conceivable" },
+            { "ja": "אלנסבה ביננא ובינה תעאלי מרתפעה", "en": "the relation between us and Him, exalted be He — I mean between Him and everything other than He — is entirely absent" },
+            { "ja": "לזם ארתפאע אלשבהיה איצ'א", "en": "of necessity similarity too is absent" },
+            { "ja": "כל שיין המא תחת נוע ואחד", "en": "any two things that are under a single species" },
+            { "ja": "פאנהמא ג'מיעא מתשאבהאן צ'רורה", "en": "those two necessarily resemble each other" },
+            { "ja": "אלכ'רדלה ופלך אלכואכב אלת'אבתה מתשאבהאן פי אלאבעאד אלת'לאת'ה", "en": "a mustard seed and the sphere of the fixed stars resemble each other in the three dimensions" }
+          ]
+        },
+        {
+          "ja": "והכד'א כאן ינבגי אן יפהם מן יעתקד אן ת'ם צפאת ד'אתיה יוצף בהא אלבארי והי אנה מוג'וד וחי וקאדר ועאלם ומריד אנהא ליסת הד'ה אלמעאני תנסב אליה ואלינא במעני ואחד ויכון אלאכ'תלאף בין תלך אלצפאת ובין צפאתנא באלאעט'ם או אלאכמל או אלאדום או אלאת'בת חתי יכון וג'ודה את'בת מן וג'ודנא וחיאתה אדום מן חיאתנא וקדרתה אעט'ם מן קדרתנא ועלמה אכמל מן עלמנא ואראדתה אעם מן אראדתנא ויעם אלמעניין חד ואחד כמא יזעם האולא ליס אלאמר כד'לך בוג'ה לאן באב אפעל אנמא ינטק בה בין אלאשיא אלתי יקאל עליהא ד'לך אלמעני בתואטו ואד'א כאן ד'לך לזם אלשבה ועלי ראיהם אלד'ין ירון אן הנאך צפאת ד'אתיה כמא לזם אן תכון ד'אתה תעאלי לא תשבה אלד'ואת כד'לך כאן ינבגי אן תכון צפאתה אלד'אתיה אלתי יזעמונהא לא תשבה אלצפאת ולא יג'מעהמא חד ואחד וליס כד'לך יפעלון בל יט'נון אן יג'מעהמא חד ואחד ואן לא תשאבה בינהמא.",
+          "en": "And likewise ought to be understood by one who believes that there are essential attributes by which the Creator is described — namely, that He is existent, living, powerful, knowing, and willing — that these meanings are not attributed to Him and to us with a single meaning, the difference between those attributes and our attributes being only in the superlatives of greater, more perfect, more permanent, more stable; such that His existence is more stable than our existence, and His life more permanent than our life, and His power greater than our power, and His knowledge more perfect than our knowledge, and His will more universal than our will — and that a single shared meaning extends over both, as these people claim. The matter is not at all so; for the comparative form is only applied among things of which that meaning is predicated synonymously, and when that is the case, resemblance follows. Yet on their view — which holds that there are essential attributes — just as His essence, exalted be He, is necessarily unlike all essences, so too His essential attributes, as they claim, ought to be unlike all attributes, with no single shared meaning uniting them. But they do not proceed that way; rather they suppose that a single shared meaning does unite them, though without resemblance between the two.",
+          "pairs": [
+            { "ja": "אן ת'ם צפאת ד'אתיה יוצף בהא אלבארי", "en": "there are essential attributes by which the Creator is described" },
+            { "ja": "אנה מוג'וד וחי וקאדר ועאלם ומריד", "en": "He is existent, living, powerful, knowing, and willing" },
+            { "ja": "ליסת הד'ה אלמעאני תנסב אליה ואלינא במעני ואחד", "en": "these meanings are not attributed to Him and to us with a single meaning" },
+            { "ja": "וג'ודה את'בת מן וג'ודנא וחיאתה אדום מן חיאתנא", "en": "His existence is more stable than our existence, and His life more permanent than our life" },
+            { "ja": "באב אפעל אנמא ינטק בה בין אלאשיא אלתי יקאל עליהא ד'לך אלמעני בתואטו", "en": "the comparative form is only applied among things of which that meaning is predicated synonymously" },
+            { "ja": "כמא לזם אן תכון ד'אתה תעאלי לא תשבה אלד'ואת", "en": "just as His essence, exalted be He, is necessarily unlike all essences" }
+          ]
+        },
+        {
+          "ja": "פקד באן למן יפהם מעני אלתשאבה אנה תעאלי אנמא יקאל עליה ועלי כל מא סואה מוג'וד באשתראך מחץ' וכד'לך אנמא יטלק אלעלם ואלקדרה ואלאראדה ואלחיאה עליה תעאלי ועלי כל ד'י עלם וקדרה ואראדה וחיאה באלאשתראך אלמחץ' אלד'י לא תשאבה מעני בינהמא אצלא.",
+          "en": "It has thus become clear to one who understands the meaning of resemblance, that 'existent' is said of Him, exalted be He, and of everything other than He, only by pure homonymy; and likewise, 'knowing,' 'powerful,' 'willing,' and 'living' are applied to Him, exalted be He, and to every possessor of knowledge, power, will, and life, only by pure homonymy — a homonymy in which there is absolutely no sharing of meaning between the two.",
+          "pairs": [
+            { "ja": "יקאל עליה ועלי כל מא סואה מוג'וד באשתראך מחץ'", "en": "'existent' is said of Him, exalted be He, and of everything other than He, only by pure homonymy" },
+            { "ja": "אנמא יטלק אלעלם ואלקדרה ואלאראדה ואלחיאה עליה תעאלי", "en": "'knowing,' 'powerful,' 'willing,' and 'living' are applied to Him, exalted be He" },
+            { "ja": "באלאשתראך אלמחץ' אלד'י לא תשאבה מעני בינהמא אצלא", "en": "only by pure homonymy — a homonymy in which there is absolutely no sharing of meaning between the two" }
+          ]
+        },
+        {
+          "ja": "ולא תט'ן אנהא תקאל בתשכיך לאן אלאסמא אלתי תקאל בתשכיך הי אלתי תקאל עלי שיין בינהמא תשאבה פי מעני מא וד'לך אלמעני ערץ' פיהמא וליס הו מקומא לד'את כל ואחד מנהמא והד'ה אלאשיא אלמנסובה לה תעאלי ליסת הי אעראצ'א ענד אחד מן אהל אלנט'ר והד'ה אלצפאת אלתי לנא כלהא אעראץ' בחסב ראי אלמתכלמין פיא לית שערי מן אין וקע אלשבה חתי יג'מעהמא חד ואחד פתכון מקולה בתואטו כמא יזעמון. פהד'א ברהאן קטעי עלי כון הד'ה אלאוצאף אלמנסובה לה ליס בין מענאהא ומעני הד'ה אלמעלומה ענדנא שרכה בוג'ה ולא עלי חאל ואנמא אלשרכה פי אלאסם לא גיר ואד'א",
+          "en": "And do not suppose that these terms are said by analogy of attribution; for terms said by analogy of attribution are those said of two things between which there is resemblance in some meaning — and that meaning is an accident in both of them, not constitutive of the essence of either. But the attributes ascribed to Him, exalted be He, are not accidents in the view of any of the speculative thinkers; while all these attributes of ours are accidents according to the opinion of the Mutakallimūn. So I would ask: whence does the resemblance arise, such that a single shared meaning could unite them and the predication be synonymous, as they claim? This is a conclusive proof that between the meaning of these attributes ascribed to Him and the meaning of those known to us there is no sharing whatsoever, under any condition — the sharing is in the name alone.",
+          "pairs": [
+            { "ja": "ולא תט'ן אנהא תקאל בתשכיך", "en": "do not suppose that these terms are said by analogy of attribution" },
+            { "ja": "אלאסמא אלתי תקאל בתשכיך הי אלתי תקאל עלי שיין בינהמא תשאבה פי מעני מא", "en": "terms said by analogy of attribution are those said of two things between which there is resemblance in some meaning" },
+            { "ja": "והד'ה אלאשיא אלמנסובה לה תעאלי ליסת הי אעראצ'א", "en": "the attributes ascribed to Him, exalted be He, are not accidents" },
+            { "ja": "פהד'א ברהאן קטעי עלי כון הד'ה אלאוצאף אלמנסובה לה", "en": "This is a conclusive proof that between the meaning of these attributes ascribed to Him" },
+            { "ja": "אנמא אלשרכה פי אלאסם לא גיר", "en": "the sharing is in the name alone" }
+          ]
+        },
+        {
+          "ja": "כאן ד'לך כד'לך פלא ינבגי אן תעתקד מעאני זאידה עלי אלד'את שבה הד'ה אלצפאת אלתי הי זאידה עלי ד'אתנא למא אשתרכא פי אלאסם. פהד'א אלמעני עט'ים אלג'לאלה ענד אלעארפין פאחפט'ה וחצלה חק תחצילה ליכון עתידא למא יראד תפהימך איאה:",
+          "en": "Since that is so, one ought not to believe that there are meanings additional to the essence that resemble these attributes of ours — which are additional to our essence — merely because they share the same name. This meaning is of great majesty in the view of those who truly know; so guard it and master it properly, so that you will be prepared for what one wishes to make you understand.",
+          "pairs": [
+            { "ja": "פלא ינבגי אן תעתקד מעאני זאידה עלי אלד'את", "en": "one ought not to believe that there are meanings additional to the essence" },
+            { "ja": "שבה הד'ה אלצפאת אלתי הי זאידה עלי ד'אתנא למא אשתרכא פי אלאסם", "en": "that resemble these attributes of ours — which are additional to our essence — merely because they share the same name" },
+            { "ja": "פהד'א אלמעני עט'ים אלג'לאלה ענד אלעארפין", "en": "This meaning is of great majesty in the view of those who truly know" },
+            { "ja": "פאחפט'ה וחצלה חק תחצילה", "en": "so guard it and master it properly" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -41,13 +41,13 @@ def fetch(n: int) -> list[str]:
 
 def main():
     chapters = {}
-    for n in range(1, 37):
+    for n in range(1, 77):
         segs = fetch(n)
         chapters[str(n)] = segs
         print(f"ch{n}: {len(segs)} segments")
         time.sleep(0.4)
     doc = {
-        "_note": "Ibn Tibbon's medieval Hebrew translation of Guide Part I, ch. 1-36, "
+        "_note": "Ibn Tibbon's medieval Hebrew translation of Guide Part I, ch. 1-76, "
                  "for the Arabic-vs-translation parallel view. HTML stripped.",
         "_source": "Sefaria (https://www.sefaria.org), API",
         "_versionTitle": VERSION,

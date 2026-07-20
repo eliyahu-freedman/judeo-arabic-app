@@ -1,0 +1,3725 @@
+{
+  "_generated": "scripts/find_inflected_lemmas.py",
+  "lane": {
+    "tier_A": 11,
+    "tier_B": 170,
+    "tier_morph": 632,
+    "fix_candidates": [
+      {
+        "id": "qala",
+        "lemma_ja": "קאל",
+        "lemma_ar": "قال",
+        "root": "q-w-l",
+        "pos": "verb",
+        "gloss_en": "to say; he said (3ms perfect)",
+        "gloss_he": "אמר",
+        "source": "lane",
+        "variants": [
+          "קאלת",
+          "קאלו",
+          "קאלוא",
+          "קל",
+          "קלת",
+          "קלנא",
+          "אקול",
+          "תקול",
+          "יקול",
+          "נקול",
+          "קאילין",
+          "קלתם",
+          "קלתמא",
+          "יקולה",
+          "ויקולה",
+          "יקולהא",
+          "יקולהם",
+          "פקלת'מ",
+          "קלת'מ",
+          "פק'לת",
+          "פקאלת",
+          "פקאלו",
+          "פקאלוא",
+          "פקאלא",
+          "פקאל",
+          "פאקיל",
+          "אקיל"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [
+          "קל"
+        ],
+        "_tier": "A"
+      },
+      {
+        "id": "jaza-reward",
+        "lemma_ja": "גאזא",
+        "lemma_ar": "جَازَى",
+        "root": "j-z-y",
+        "pos": "verb (Form III, perfect)",
+        "gloss_en": "to requite, recompense, reward; (with 1cs subject) 'I will reward / repay'",
+        "gloss_he": "גָּמַל, שִׁלֵּם, נָתַן גְּמוּל",
+        "notes": "Form III jāzā (جَازَى) of j-z-y. The 1cs imperfect ujāzī takes a direct object (ujāzīkum 'I reward you') often with khayran ('with good') as the cognate complement.",
+        "saadia_note": "Saadia's regular gloss for Hebrew אֲנִי יְהוָה / שָׁמַרְתֶּם וַעֲשִׂיתֶם וְאֶהְיֶה formulas of divine reward — 'I am YHWH your God who rewards you with good' (Lev 18:4, 18:30, 19:37, 25:55: אנא אללה רבכם אגאזיכם כ'ירא). The cognate noun jazāʾ = 'reward, requital'.",
+        "source": "lane",
+        "variants": [
+          "וגאזא",
+          "פגאזא",
+          "אגאזי",
+          "ואגאזי",
+          "פאגאזי",
+          "אגאזיכם",
+          "ואגאזיכם",
+          "אגאזיהם",
+          "אגאזיכמא",
+          "יגאזי",
+          "ויגאזי",
+          "תגאזי",
+          "גאזית",
+          "גאזיתה",
+          "גאזיוא",
+          "מגאזאה",
+          "אלמגאזאה",
+          "גזא",
+          "אלגזא",
+          "ואלגזא",
+          "גזאא",
+          "גזא וגזא",
+          "אגאזיך"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [
+          "גזא"
+        ],
+        "_tier": "A"
+      },
+      {
+        "id": "adv-b-r1-0-9",
+        "lemma_ja": "—ات",
+        "lemma_ar": "ـات",
+        "root": "—",
+        "pos": "particle",
+        "gloss_en": "feminine sound-plural suffix -āt (the surface ובאת here is rather Hebrew 'and you shall come', Deut 17:9)",
+        "gloss_he": "סיומת ריבוי נקבה ‎-את; 'ובאת' כאן עברית: דברים יז:ט",
+        "source": "lane",
+        "variants": [
+          "את",
+          "ואת",
+          "ובאת"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [
+          "את"
+        ],
+        "_tier": "A"
+      },
+      {
+        "id": "adv-b-r1-1170-38",
+        "lemma_ja": "ידור",
+        "lemma_ar": "يَدُور",
+        "root": "d-w-r",
+        "pos": "verb",
+        "gloss_en": "it turns, revolves (3ms; here of a water-wheel)",
+        "gloss_he": "סוֹבֵב, מִסְתּוֹבֵב",
+        "source": "lane",
+        "variants": [
+          "ידור",
+          "דאר",
+          "דור",
+          "דארה",
+          "בדורך",
+          "אלדארין",
+          "אלדאר",
+          "דורהם"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [
+          "דאר",
+          "דור"
+        ],
+        "_tier": "A"
+      },
+      {
+        "id": "adv-b-r1-1350-15",
+        "lemma_ja": "תדביר",
+        "lemma_ar": "تَدْبِيرُهُ",
+        "root": "d-b-r",
+        "pos": "noun",
+        "gloss_en": "his governance, management, ordering (+ 3ms suffix)",
+        "gloss_he": "הנהגתו, ניהולו",
+        "source": "lane",
+        "variants": [
+          "תדבירה",
+          "תדביר",
+          "אלתדביר",
+          "ותדבירהא",
+          "בתדבירהא",
+          "תדבירהא",
+          "תדבירך",
+          "ותדבירנא",
+          "תדברה",
+          "דבר",
+          "ידבר",
+          "תדבר",
+          "מדבר"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:possessive",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [
+          "דבר",
+          "ידבר",
+          "מדבר",
+          "תדבר"
+        ],
+        "_tier": "A"
+      },
+      {
+        "id": "adv-b-r1-2070-25",
+        "lemma_ja": "תאמה",
+        "lemma_ar": "تَامَّة",
+        "root": "t-m-m",
+        "pos": "adjective",
+        "gloss_en": "complete, perfect (fem.)",
+        "gloss_he": "שלמה, מושלמת",
+        "source": "lane",
+        "variants": [
+          "תאמה",
+          "תאם",
+          "תאמ"
+        ],
+        "_signals": [
+          "gloss:conjugation",
+          "morph:suffix-ה+shorter-variant"
+        ],
+        "_shorter_variants": [
+          "תאם",
+          "תאמ"
+        ],
+        "_tier": "A"
+      },
+      {
+        "id": "adv-b-r1-2835-25",
+        "lemma_ja": "נַפְשׁוֹ",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his soul (Heb. biblical quotation)",
+        "gloss_he": "נַפְשׁוֹ — תהלים כה:יג (\"נפשו בטוב תלין\")",
+        "source": "lane",
+        "variants": [
+          "נפשו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [
+          "נפשו"
+        ],
+        "_tier": "A"
+      },
+      {
+        "id": "adv-b-r1-270-32-2",
+        "lemma_ja": "אֲבָנָיו",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_he": "\"וְגֶדֶר אֲבָנָיו נֶהֱרָסָה\" — אֲבָנָיו, מִשְׁלֵי כד:לא (ציטוט מקראי)",
+        "gloss_en": "its stones — embedded biblical Hebrew, Proverbs 24:31",
+        "source": "lane",
+        "variants": [
+          "אבניו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [
+          "אבניו"
+        ],
+        "_tier": "A"
+      },
+      {
+        "id": "adv-b-r1-540-32",
+        "lemma_ja": "אדّי",
+        "lemma_ar": "أَدَّى",
+        "root": "ʾ-d-y",
+        "pos": "verb",
+        "gloss_en": "to render, discharge, pay back (a trust) (here 3mp jussive yuʾaddū)",
+        "gloss_he": "למסור, לקיים, להחזיר פיקדון",
+        "source": "lane",
+        "variants": [
+          "יודוא",
+          "אדי",
+          "תודיה",
+          "יודّי",
+          "תודّי"
+        ],
+        "_signals": [
+          "gloss:conjugation",
+          "morph:suffix-י+shorter-variant"
+        ],
+        "_shorter_variants": [
+          "אדי"
+        ],
+        "_tier": "A"
+      },
+      {
+        "id": "adv-b-r1-1125-34-2",
+        "lemma_ja": "אִרתקא",
+        "lemma_ar": "اِرْتَقَى",
+        "root": "r-q-y",
+        "pos": "verb",
+        "gloss_en": "(VIII) to ascend, rise, climb; (3fs/2ms imperfect) 'it/you ascend(s)'",
+        "gloss_he": "עָלָה, הִתְעַלָּה, הִתְרוֹמֵם; \"תרתקי\" = מתעלה / לתרתקי = כדי שתתעלה",
+        "source": "lane",
+        "variants": [
+          "לתרתקי",
+          "תרתקי",
+          "ארתקא",
+          "ונרתקי",
+          "נרתקי",
+          "אלארתקא",
+          "ואלארתקא"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [
+          "נרתקי",
+          "תרתקי",
+          "ארתקא"
+        ],
+        "_tier": "A"
+      },
+      {
+        "id": "adv-b-r1-2385-10-2",
+        "lemma_ja": "צרّח",
+        "lemma_ar": "صَرَّحَ",
+        "root": "ṣ-r-ḥ",
+        "pos": "verb",
+        "gloss_en": "to declare plainly, state explicitly; (1pl) we made clear",
+        "gloss_he": "בֵּאֵר בְּמֵפֹרָשׁ, הִצְהִיר; בֵּאַרְנוּ",
+        "source": "lane",
+        "variants": [
+          "צרחנא",
+          "צרח"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [
+          "צרח"
+        ],
+        "_tier": "A"
+      },
+      {
+        "id": "akh-brother",
+        "lemma_ja": "אכ'",
+        "lemma_ar": "أَخ",
+        "root": "ʔ-kh-w",
+        "pos": "noun (m.)",
+        "gloss_en": "brother; (oblique stem before pronominal suffix: akhī-); (broken pl. ikhwa, ukhuwwa) brothers",
+        "gloss_he": "אח; אחים",
+        "notes": "Oblique stem before pronominal suffixes is أخي- (אכ'י-): אכ'יך 'your brother', אכ'יה 'his brother'. Nominative אכ'וך 'your brother'.",
+        "saadia_note": "The broken plural in Saadia is regularly אכ'ות (إِخْوَة 'brotherhood'), suffixed: אכ'ותה 'his brothers'.",
+        "source": "lane",
+        "variants": [
+          "אלאכ'",
+          "אכ'וה",
+          "אכ'והא",
+          "אכ'וך",
+          "אכ'וכם",
+          "אכ'והם",
+          "אכ'יה",
+          "אכ'יהא",
+          "אכ'יך",
+          "אכ'יכם",
+          "אכ'יהם",
+          "אכ'יי",
+          "אכ'ותה",
+          "אכ'ותהא",
+          "אכ'ותך",
+          "אכ'ותכם",
+          "אכ'ותהם",
+          "אכ'ותי",
+          "אכ'ותנא",
+          "אכ'וה'",
+          "אלאכ'וה",
+          "אלאכ'וה'",
+          "אכ'ות",
+          "אלאכ'ות",
+          "אכ'ויה",
+          "אכ'איהם",
+          "אלאכ'ויה",
+          "אכי'ך",
+          "אכי'ה",
+          "אכי'הא",
+          "אכי'כם",
+          "אכי'הם",
+          "אכ'ותכמא"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "nahn-we",
+        "lemma_ja": "נחן",
+        "lemma_ar": "نَحْن",
+        "root": "—",
+        "pos": "pronoun",
+        "gloss_en": "we (1pl)",
+        "gloss_he": "אֲנַחְנוּ, אָנוּ",
+        "source": "lane",
+        "variants": [
+          "ונחן",
+          "פנחן"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "bi-with",
+        "lemma_ja": "ב",
+        "lemma_ar": "بِـ",
+        "root": "—",
+        "pos": "preposition",
+        "gloss_en": "with, in, by, by means of, against — proclitic preposition (Hebrew בְּ, Arabic bi-); appears almost exclusively with pronominal suffixes",
+        "gloss_he": "ב־ (עם, ב, באמצעות)",
+        "notes": "Single-letter proclitic preposition. In the JA corpus the bare form is vanishingly rare; nearly all hits are pronominal-suffixed (בי 1s, בך 2ms, בה 3ms, בהא 3fs, בהם 3mp, בנא 1mp). Hebrew בְּ uses the same paradigm.",
+        "source": "lane",
+        "variants": [
+          "בי",
+          "בך",
+          "בכי",
+          "בכם",
+          "בכן",
+          "בה",
+          "בהו",
+          "בהא",
+          "בהם",
+          "בהן",
+          "בנא",
+          "ביה",
+          "בהמות"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "wahd-alone",
+        "lemma_ja": "וחד",
+        "lemma_ar": "وَحْد",
+        "root": "w-ḥ-d",
+        "pos": "noun (with suffix)",
+        "gloss_en": "(with pronominal suffix) alone, by oneself; -self alone",
+        "gloss_he": "לבד, בלבד",
+        "source": "lane",
+        "variants": [
+          "וחד",
+          "וחדה",
+          "וחדהא",
+          "וחדהם",
+          "וחדי",
+          "וחדך",
+          "וחדכם",
+          "וחדנא"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-yarif",
+        "lemma_ja": "יערף",
+        "lemma_ar": "يَعْرِف",
+        "root": "ʕ-r-f",
+        "pos": "verb",
+        "gloss_en": "to know, recognize (yaʿrifuhu = he knows it)",
+        "gloss_he": "לָדַעַת, לְהַכִּיר",
+        "source": "lane",
+        "variants": [
+          "יערפה",
+          "יערפך",
+          "יערפהא"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-yahsab",
+        "lemma_ja": "יחסב",
+        "lemma_ar": "يَحْسَب",
+        "root": "ḥ-s-b",
+        "pos": "verb",
+        "gloss_en": "to reckon, suppose, deem (fa-yaḥsabuhu = so he supposes it)",
+        "gloss_he": "לַחְשֹׁב, לְשַׁעֵר, לִסְבֹּר",
+        "source": "lane",
+        "variants": [
+          "פיחסבה",
+          "ליחסב",
+          "פליחסב",
+          "יחסבה"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-yaltamis",
+        "lemma_ja": "ילתמס",
+        "lemma_ar": "يَلْتَمِس",
+        "root": "l-m-s",
+        "pos": "verb",
+        "gloss_en": "to seek, request, look for (yaltamisuhu = he seeks it)",
+        "gloss_he": "לְבַקֵּשׁ, לְחַפֵּשׂ",
+        "source": "lane",
+        "variants": [
+          "ילתמסה"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-0-0",
+        "lemma_ja": "ה",
+        "lemma_ar": "ـه",
+        "root": "—",
+        "pos": "particle",
+        "gloss_en": "stray letter / pronominal-suffix or divine-name fragment (ה' , -hu); not an independent lexeme",
+        "gloss_he": "אות בודדת — שם ה' או כינוי חבור; כה = שבר של 'הד'א' (?)",
+        "source": "lane",
+        "variants": [
+          "ה",
+          "כה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-0-8",
+        "lemma_ja": "י",
+        "lemma_ar": "ي",
+        "root": "—",
+        "pos": "particle",
+        "gloss_en": "stray letter / 1st-sg possessive suffix -ī or fragment of כי; not an independent lexeme",
+        "gloss_he": "אות בודדת — כינוי חבור -י או שבר 'כי' (?)",
+        "source": "lane",
+        "variants": [
+          "כי",
+          "וכי",
+          "י"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-0-25",
+        "lemma_ja": "יצח",
+        "lemma_ar": "يَصِحّ",
+        "root": "ṣ-ḥ-ḥ",
+        "pos": "verb",
+        "gloss_en": "it is/becomes valid, sound, true (3ms impf. of ṣaḥḥa)",
+        "gloss_he": "מתאמת, תקף, נכון (עתיד)",
+        "source": "lane",
+        "variants": [
+          "יצח",
+          "ליצח"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1170-0",
+        "lemma_ja": "רבט",
+        "lemma_ar": "رَبَطَ",
+        "root": "r-b-ṭ",
+        "pos": "verb",
+        "gloss_en": "to bind, tie fast (here: with 1pl suffix, 'he bound us' / fastened together)",
+        "gloss_he": "לִקְשׁוֹר, לֶאֱסוֹר חָזָק",
+        "source": "lane",
+        "variants": [
+          "רבטנא",
+          "רבטהא",
+          "ראבטהא",
+          "וראבטהא",
+          "רבט",
+          "רבטת",
+          "ירבט",
+          "ורבטה"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1170-13",
+        "lemma_ja": "אחכם",
+        "lemma_ar": "أَحْكَمَ",
+        "root": "ḥ-k-m",
+        "pos": "verb",
+        "gloss_en": "to make firm, secure, perfect (form IV)",
+        "gloss_he": "לְהָדֵק, לְחַזֵּק, לְהַתְקִין הֵיטֵב",
+        "source": "lane",
+        "variants": [
+          "אחכם",
+          "אחכמ",
+          "יחכם"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1170-15",
+        "lemma_ja": "אתקן",
+        "lemma_ar": "أَتْقَنَ",
+        "root": "t-q-n",
+        "pos": "verb",
+        "gloss_en": "to make perfect/well-arranged, do skilfully (form IV)",
+        "gloss_he": "לְתַקֵּן בְּשְׁלֵמוּת, לְהַתְקִין בְּחָכְמָה",
+        "source": "lane",
+        "variants": [
+          "ואתקן",
+          "אתקן",
+          "אתקנ",
+          "יתקן",
+          "אתקאן",
+          "פאתקנך"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1260-19",
+        "lemma_ja": "קואם",
+        "lemma_ar": "قِوَام",
+        "root": "q-w-m",
+        "pos": "noun",
+        "gloss_en": "support, sustenance, that by which a thing subsists; here w/ suffix",
+        "gloss_he": "קיום, יסוד, מה שמעמיד דבר (כאן עם כינוי)",
+        "source": "lane",
+        "variants": [
+          "קואמהא",
+          "קואם",
+          "אלקואם",
+          "בקואמה",
+          "קואמה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1260-29",
+        "lemma_ja": "דקה",
+        "lemma_ar": "دِقَّة",
+        "root": "d-q-q",
+        "pos": "noun",
+        "gloss_en": "fineness, minuteness, subtlety; here w/ suffix: its fineness",
+        "gloss_he": "דקות, עדינות (כאן עם כינוי: דקותה)",
+        "source": "lane",
+        "variants": [
+          "דקתהא",
+          "דקה",
+          "אלדקה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1260-40",
+        "lemma_ja": "עמארה",
+        "lemma_ar": "عِمَارَة",
+        "root": "ʕ-m-r",
+        "pos": "noun",
+        "gloss_en": "settling/peopling, cultivation, edifice; here w/ suffix",
+        "gloss_he": "יישוב, אבדנות, בנייה (כאן עם כינוי)",
+        "source": "lane",
+        "variants": [
+          "עמארתהא",
+          "עמארה",
+          "אלעמארה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-135-4",
+        "lemma_ja": "יוג'ד",
+        "lemma_ar": "يُوجَد",
+        "root": "w-j-d",
+        "pos": "verb",
+        "gloss_en": "is found, exists (passive imperfect of wajada)",
+        "gloss_he": "נמצא, קיים",
+        "source": "lane",
+        "variants": [
+          "יוג'ד",
+          "יוג'דך"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-135-28",
+        "lemma_ja": "תמים",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "proper noun",
+        "gloss_en": "Hebrew quotation/term \"tamim\" (perfect, blameless), e.g. Deut 32:4 \"ha-Tzur tamim poʿolo\", Deut 18:13 \"tamim tihye\"",
+        "gloss_he": "מונח/ציטוט עברי: תָּמִים (דברים לב:ד; יח:יג)",
+        "source": "lane",
+        "variants": [
+          "תמים",
+          "תמימה"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-135-36",
+        "lemma_ja": "תנתהי",
+        "lemma_ar": "تَنْتَهِي",
+        "root": "n-h-y",
+        "pos": "verb",
+        "gloss_en": "it ends, terminates, comes to its limit (8th form imperfect)",
+        "gloss_he": "מסתיים, מגיע לקצו, נפסק",
+        "source": "lane",
+        "variants": [
+          "תנתהי"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-135-37",
+        "lemma_ja": "תוג'ב",
+        "lemma_ar": "تُوجِب",
+        "root": "w-j-b",
+        "pos": "verb",
+        "gloss_en": "it necessitates, requires, makes obligatory (4th form imperfect)",
+        "gloss_he": "מחייב, מצריך, מחיֵיב בהכרח",
+        "source": "lane",
+        "variants": [
+          "תוג'ב",
+          "תוג'בה"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1350-8",
+        "lemma_ja": "אג'תמאע",
+        "lemma_ar": "اِجْتِمَاعُهُمْ",
+        "root": "j-m-ʕ",
+        "pos": "noun",
+        "gloss_en": "their gathering, agreement, combination (form VIII)",
+        "gloss_he": "התאספותם, הסכמתם",
+        "source": "lane",
+        "variants": [
+          "באג'תמאעהם",
+          "אג'תמאעהם",
+          "אג'תמאע",
+          "אלאג'תמאע",
+          "אג'תמאעהמא",
+          "באג'תמאעהמא",
+          "באג'תמאעהא"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1350-13",
+        "lemma_ja": "תכ'תלף",
+        "lemma_ar": "تَخْتَلِف",
+        "root": "kh-l-f",
+        "pos": "verb",
+        "gloss_en": "it differs, varies (form VIII, 3fs)",
+        "gloss_he": "היא נבדלת, משתנה",
+        "source": "lane",
+        "variants": [
+          "תכ'תלף",
+          "תכ'תלפ",
+          "יכ'תלף",
+          "אכ'תלף"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1350-43",
+        "lemma_ja": "יג'מע",
+        "lemma_ar": "يَجْمَعُهَا",
+        "root": "j-m-ʕ",
+        "pos": "verb",
+        "gloss_en": "it gathers/combines them (3fs object)",
+        "gloss_he": "מקבץ/מאחד אותן",
+        "source": "lane",
+        "variants": [
+          "יג'מעהא",
+          "יג'מע"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1395-19",
+        "lemma_ja": "ישבה",
+        "lemma_ar": "يُشْبِه",
+        "root": "sh-b-h",
+        "pos": "verb",
+        "gloss_en": "it resembles, is similar to (form IV imperfect)",
+        "gloss_he": "דומה ל-",
+        "source": "lane",
+        "variants": [
+          "ישבהה",
+          "תשבהה",
+          "ישבה"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1485-4",
+        "lemma_ja": "אוצאף",
+        "lemma_ar": "أَوْصَافُهُمَا",
+        "root": "w-ṣ-f",
+        "pos": "noun",
+        "gloss_en": "their (dual) attributes/descriptions (awṣāf + -humā)",
+        "gloss_he": "שני תאריהם / תכונותיהם",
+        "source": "lane",
+        "variants": [
+          "אוצאפהמא",
+          "אוצאפה",
+          "באוצאפה"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1485-28",
+        "lemma_ja": "תפסיר",
+        "lemma_ar": "تَفْسِيرُهُم",
+        "root": "f-s-r",
+        "pos": "noun",
+        "gloss_en": "their interpretation/commentary (tafsīr + -hum)",
+        "gloss_he": "פירושם, תרגומם",
+        "source": "lane",
+        "variants": [
+          "תפסירהם",
+          "תפסירהמ",
+          "תפסירה",
+          "אלתפאסיר",
+          "תפאסיר"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1575-3",
+        "lemma_ja": "יפהם",
+        "lemma_ar": "يَفْهَم",
+        "root": "f-h-m",
+        "pos": "verb",
+        "gloss_en": "he understands, comprehends (imperfect)",
+        "gloss_he": "מֵבִין",
+        "source": "lane",
+        "variants": [
+          "יפהמהא",
+          "יפהם"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1665-0",
+        "lemma_ja": "הצור",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "\"The Rock, His work is perfect\" — biblical citation (Deut 32:4)",
+        "gloss_he": "הַצּוּר תָּמִים פָּעֳלוֹ (דברים לב:ד)",
+        "source": "lane",
+        "variants": [
+          "הצור"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1665-1",
+        "lemma_ja": "פעלו",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "\"His work (is perfect)\" — from Deut 32:4",
+        "gloss_he": "פָּעֳלוֹ — מעשהו (דברים לב:ד)",
+        "source": "lane",
+        "variants": [
+          "פעלו"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1755-5",
+        "lemma_ja": "קונו",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his Maker (Heb., 'whoever has no regard for the honour of his Maker')",
+        "gloss_he": "קוֹנוֹ — 'כל מי שלא חס על כבוד קונו' (משנה חגיגה)",
+        "source": "lane",
+        "variants": [
+          "קונו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1755-28",
+        "lemma_ja": "תשכ'יץ",
+        "lemma_ar": "تَشْخِيص",
+        "root": "sh-kh-ṣ",
+        "pos": "noun",
+        "gloss_en": "giving concrete/personified form, individuation (here with suffix)",
+        "gloss_he": "הַגְשָׁמָה, צִיּוּר כְּדָבָר מְסֻיָּם",
+        "source": "lane",
+        "variants": [
+          "ותשכ'יצה",
+          "תשכ'יצה",
+          "תשכ'יץ"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1755-44",
+        "lemma_ja": "ברודה",
+        "lemma_ar": "بُرُودَة",
+        "root": "b-r-d",
+        "pos": "noun",
+        "gloss_en": "coldness, coolness (here with suffix: 'its coldness'; key 'rwd' is a broken stem)",
+        "gloss_he": "קֹר, צְנִינוּת",
+        "source": "lane",
+        "variants": [
+          "ברודתה",
+          "ברודה",
+          "ברודת"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2250-7",
+        "lemma_ja": "ידלנה",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "he draws it out (Heb., Prov. 20:5)",
+        "gloss_he": "ידלנה — מתוך \"ואיש תבונה ידלנה\" (משלי כ:ה)",
+        "source": "lane",
+        "variants": [
+          "ידלנה"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2430-0",
+        "lemma_ja": "מעלליכם",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "your deeds (Hebrew, Scripture quote)",
+        "gloss_he": "מַעַלְלֵיכֶם — מעשיכם הרעים (ישעיהו א:טז)",
+        "source": "lane",
+        "variants": [
+          "מעלליכם"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2430-22",
+        "lemma_ja": "תעאדל",
+        "lemma_ar": "تَعَادُل",
+        "root": "ʿ-d-l",
+        "pos": "noun",
+        "gloss_en": "their mutual equivalence / balance (with dual suffix -humā)",
+        "gloss_he": "שִוויונם, איזונם זה לזה (ותעאדלהמא = ושיווי שניהם)",
+        "source": "lane",
+        "variants": [
+          "ותעאדלהמא",
+          "תעאדלהמא",
+          "תעאדל"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2430-34",
+        "lemma_ja": "לבבי",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "my heart (Hebrew, Scripture quote)",
+        "gloss_he": "לְבָבִי — בתם לבבי בקרב ביתי (תהלים קא:ב)",
+        "source": "lane",
+        "variants": [
+          "לבבי"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2430-35",
+        "lemma_ja": "לבבו",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his heart (Hebrew, Scripture quote)",
+        "gloss_he": "לְבָבוֹ — היה לבבו שלם עם ה' אלהיו (מל\"א יא:ד / טו:ג)",
+        "source": "lane",
+        "variants": [
+          "לבבו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2565-36",
+        "lemma_ja": "אסתיטאן",
+        "lemma_ar": "اِسْتِيطَان",
+        "root": "w-ṭ-n",
+        "pos": "noun",
+        "gloss_en": "settling down in, taking up abode (verbal noun X + obj. suffix)",
+        "gloss_he": "השתקעות, התיישבות",
+        "source": "lane",
+        "variants": [
+          "ואסתיטאנהא",
+          "אסתיטאנהא",
+          "אסתיטאן"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-495-42",
+        "lemma_ja": "רגליו",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his feet (Ps 8:7, 'כל שתה תחת רגליו')",
+        "gloss_he": "רַגְלָיו, תהלים ח:ז",
+        "source": "lane",
+        "variants": [
+          "רגליו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-630-2",
+        "lemma_ja": "מאדך",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "your might (embedded Hebrew 'ובכל מאדך')",
+        "gloss_he": "מְאֹדֶךָ (ציטוט עברי, דברים ו:ה)",
+        "source": "lane",
+        "variants": [
+          "מאדך"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-765-13",
+        "lemma_ja": "תצויר",
+        "lemma_ar": "تَصْوِير",
+        "root": "ṣ-w-r",
+        "pos": "noun",
+        "gloss_en": "forming, picturing, imagining, representation (here + suffix -hu)",
+        "gloss_he": "צִיּוּר, דִּמּוּי, יִצּוּג בַּדִּמְיוֹן (כאן עם כינוי: תצוירה — ציורו)",
+        "source": "lane",
+        "variants": [
+          "תצוירה",
+          "ותצוירה",
+          "תצויר",
+          "אלתצויר"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-765-23",
+        "lemma_ja": "שדה",
+        "lemma_ar": "شِدَّة",
+        "root": "sh-d-d",
+        "pos": "noun",
+        "gloss_en": "intensity, strength, severity (shidda + suffix -hu: 'shiddat 'inayatihi' = the intensity of His care)",
+        "gloss_he": "עָצְמָה, חֹזֶק, תֹּקֶף (\"ושדהֵ ענאיתה\" — ועוצם השגחתו)",
+        "source": "lane",
+        "variants": [
+          "ושדה",
+          "שדה",
+          "שדהֵ",
+          "אלשדה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r2-0-5",
+        "lemma_ja": "יג'ז",
+        "lemma_ar": "يَجُوز",
+        "root": "j-w-z",
+        "pos": "verb",
+        "gloss_en": "it is permissible, it is possible (3rd-person imperfect of jāza)",
+        "gloss_he": "מֻתָּר, יִתָּכֵן, אֶפְשָׁר",
+        "source": "lane",
+        "variants": [
+          "יג'ז",
+          "לא יג'וז"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-d-1395-5",
+        "lemma_ja": "ת'י",
+        "lemma_ar": "ثَيِّ",
+        "root": "—",
+        "pos": "noun",
+        "gloss_en": "my teaching / utterance (here rendering לקחי); contextual (?)",
+        "gloss_he": "לקחי, אמרתי (?)",
+        "source": "lane",
+        "variants": [
+          "בת'י",
+          "ת'י"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-d-1800-13",
+        "lemma_ja": "חג'ארה",
+        "lemma_ar": "حِجَارَة",
+        "root": "ḥ-j-r",
+        "pos": "noun",
+        "gloss_en": "its stones (here: of which the stones are iron)",
+        "gloss_he": "אבניה",
+        "source": "lane",
+        "variants": [
+          "חגארתה"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-d-585-3",
+        "lemma_ja": "נבילה",
+        "lemma_ar": "نَبِيلَة",
+        "root": "n-b-l",
+        "pos": "noun",
+        "gloss_en": "carcass, carrion (here with pron. suffix -hā)",
+        "gloss_he": "נבלה (כאן בכינוי -הא)",
+        "source": "lane",
+        "variants": [
+          "נבאילהא",
+          "אלנבאיל",
+          "נבאיל",
+          "נבילה",
+          "נבאילהם",
+          "בנבאילהם",
+          "בנבילתה",
+          "נבילתה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-h-225-39",
+        "lemma_ja": "קצבה",
+        "lemma_ar": "قَصَبَة",
+        "root": "q-ṣ-b",
+        "pos": "noun",
+        "gloss_en": "its shaft/stalk (וקצבהא; the central shaft of the menorah)",
+        "gloss_he": "קָנָהּ, גִּזְעָהּ",
+        "source": "lane",
+        "variants": [
+          "וקצבהא",
+          "קצבהא",
+          "קצבה",
+          "קצבתין",
+          "קצבתאן",
+          "וקצבתה",
+          "קצבתה"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-h-225-40",
+        "lemma_ja": "סוסנה",
+        "lemma_ar": "سَوْسَنَة",
+        "root": "—",
+        "pos": "noun",
+        "gloss_en": "its lilies/flowers (וסואסנהא; pl. of sawsana, the menorah's flower ornaments)",
+        "gloss_he": "פְּרָחֶיהָ, שׁוֹשַׁנֶּיהָ",
+        "source": "lane",
+        "variants": [
+          "וסואסנהא",
+          "סואסנהא",
+          "סואסן",
+          "סוסנה"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-h-180-5-3",
+        "lemma_ja": "צ'לע",
+        "lemma_ar": "ضِلْع",
+        "root": "ḍ-l-ʿ",
+        "pos": "noun",
+        "gloss_en": "rib (Gen 2:21, one of his ribs; with 3rd-person suffix 'his rib')",
+        "gloss_he": "צלע",
+        "source": "lane",
+        "variants": [
+          "אצ'לאעה",
+          "צ'לע",
+          "אצ'לאע"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-h-180-17-3",
+        "lemma_ja": "צדד",
+        "lemma_ar": "صَدَّدَ",
+        "root": "ṣ-d-d",
+        "pos": "verb",
+        "gloss_en": "to turn away, divert, restrain (Gen 20:6, I withheld you from sinning; with suffix 'I diverted you')",
+        "gloss_he": "מנע, הדף, החזיר",
+        "source": "lane",
+        "variants": [
+          "פצדדתך",
+          "צדד",
+          "צדדתך"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-h-180-23-3",
+        "lemma_ja": "חיאל",
+        "lemma_ar": "حِيَال",
+        "root": "ḥ-w-l",
+        "pos": "noun",
+        "gloss_en": "opposite, in front of, before (Gen 20:16, behold, it is before you; with 2nd-person suffix)",
+        "gloss_he": "מול, לנוכח, כנגד",
+        "source": "lane",
+        "variants": [
+          "חיאלך",
+          "חיאל",
+          "חיאלהא",
+          "חיאלה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-h-180-34-3",
+        "lemma_ja": "ישק",
+        "lemma_ar": "يَشُقّ",
+        "root": "sh-q-q",
+        "pos": "verb",
+        "gloss_en": "to be grievous, distressing (imperfect; Gen 21:12, let it not be grievous in your sight)",
+        "gloss_he": "יקשה, יכביד",
+        "source": "lane",
+        "variants": [
+          "ישק"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-h-270-18-4",
+        "lemma_ja": "אנבסט",
+        "lemma_ar": "اِنْبَسَطَ",
+        "root": "b-s-ṭ",
+        "pos": "verb",
+        "gloss_en": "it spread out, extended (perf. 3ms VII) — of the famine",
+        "gloss_he": "התפשט, נפרש",
+        "source": "lane",
+        "variants": [
+          "אנבסט",
+          "ינבסט",
+          "מנבסט"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-h-270-19-3",
+        "lemma_ja": "אמאר",
+        "lemma_ar": "أَمَارَ",
+        "root": "m-y-r",
+        "pos": "verb",
+        "gloss_en": "he provisioned with grain / sold food to (perf. 3ms IV)",
+        "gloss_he": "סיפק תבואה, השביר אוכל",
+        "source": "lane",
+        "variants": [
+          "ואמאר",
+          "אמאר",
+          "ימיר"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-h-270-24-4",
+        "lemma_ja": "תנכר",
+        "lemma_ar": "تَنَكَّرَ",
+        "root": "n-k-r",
+        "pos": "verb",
+        "gloss_en": "he made himself a stranger / acted as unknown toward (perf. 3ms V)",
+        "gloss_he": "התנכר, התחזה לזר",
+        "source": "lane",
+        "variants": [
+          "ותנכר",
+          "תנכר",
+          "יתנכר"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-h-270-41-3",
+        "lemma_ja": "אסתדאר",
+        "lemma_ar": "اِسْتَدَارَ",
+        "root": "d-w-r",
+        "pos": "verb",
+        "gloss_en": "he turned away/around (perf. 3ms X) — fa-staddāra ʿanhum \"he turned aside from them\"",
+        "gloss_he": "פנה, סבב (מהם)",
+        "source": "lane",
+        "variants": [
+          "פאסתדאר",
+          "אסתדאר",
+          "יסתדיר"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-h-225-3-5",
+        "lemma_ja": "הייה",
+        "lemma_ar": "هِيَ",
+        "root": "—",
+        "pos": "pronoun",
+        "gloss_en": "it / what is it (3fs pronoun; rendering Heb. מָה ... הִוא)",
+        "gloss_he": "הִיא",
+        "source": "lane",
+        "variants": [
+          "הייה",
+          "ומא הייה'"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-h-567-46",
+        "lemma_ja": "דלא",
+        "lemma_ar": "دَلَا",
+        "root": "d-l-w",
+        "pos": "verb",
+        "gloss_en": "he drew up water (perfect of dalā)",
+        "gloss_he": "שאב, דלה",
+        "source": "lane",
+        "variants": [
+          "דלא"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "taf-h-378-0-2",
+        "lemma_ja": "כ'ליג'",
+        "lemma_ar": "خَلِيج",
+        "root": "kh-l-j",
+        "pos": "noun",
+        "gloss_en": "canal, watercourse, inlet (with 3pl. suffix: their canals)",
+        "gloss_he": "תעלה, יאור, נחל (בכינוי: תעלותיהם)",
+        "source": "lane",
+        "variants": [
+          "וכ'לגאנהם",
+          "כ'לגאנהם",
+          "ואלכ'לגאן",
+          "אלכ'לגאן",
+          "כ'לגאן",
+          "כ'ליג'"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-0-11",
+        "lemma_ja": "ג'הד",
+        "lemma_ar": "جُهْد",
+        "root": "j-h-d",
+        "pos": "noun",
+        "gloss_en": "effort, utmost exertion, capacity (with suffix 'his utmost')",
+        "gloss_he": "מַאֲמָץ, יְכֹלֶת, מֵיטָב (בכינוי 'מֵיטָבוֹ')",
+        "source": "lane",
+        "variants": [
+          "ג'הדה",
+          "ג'הד",
+          "ג'הדך",
+          "בג'הדך",
+          "ג'הדהם"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-0-13-2",
+        "lemma_ja": "תרביה",
+        "lemma_ar": "تَرْبِيَة",
+        "root": "r-b-w",
+        "pos": "noun",
+        "gloss_en": "rearing, upbringing, raising (with suffix 'his upbringing')",
+        "gloss_he": "גִּדּוּל, חִנּוּךְ, טִפּוּחַ",
+        "source": "lane",
+        "variants": [
+          "תרביתה",
+          "תרביה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-0-17-2",
+        "lemma_ja": "חאט",
+        "lemma_ar": "حَاطَ",
+        "root": "ḥ-w-ṭ",
+        "pos": "verb",
+        "gloss_en": "to surround, encompass, guard, watch over; imperfect 'he surrounds/protects'",
+        "gloss_he": "הִקִּיף, סוֹבֵב, שָׁמַר עַל (בניין I)",
+        "source": "lane",
+        "variants": [
+          "יחוט",
+          "חאט",
+          "נחוט"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-0-21-2",
+        "lemma_ja": "ג'אד",
+        "lemma_ar": "جَادَ",
+        "root": "j-w-d",
+        "pos": "verb",
+        "gloss_en": "to be generous, bestow liberally, lavish upon (perfect 'he was generous')",
+        "gloss_he": "נָדַב, הֶעֱנִיק בְּרֹחַב יָד, הֵיטִיב (בניין I)",
+        "source": "lane",
+        "variants": [
+          "וג'אד",
+          "ג'אד",
+          "ג'אדה"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-0-29-2",
+        "lemma_ja": "מעשיו",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "His works; from 'ורחמיו על כל מעשיו' (Psalms 145:9, cited)",
+        "gloss_he": "מַעֲשָׂיו (ורחמיו על כל מעשיו, תהלים קמה:ט)",
+        "source": "lane",
+        "variants": [
+          "מעשיו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-0-39-2",
+        "lemma_ja": "אצבעותיך",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "Your fingers; from 'מעשה אצבעותיך' (Psalms 8:4, cited)",
+        "gloss_he": "אֶצְבְּעֹתֶיךָ (מעשה אצבעותיך, תהלים ח:ד)",
+        "source": "lane",
+        "variants": [
+          "אצבעותיך"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-0-43",
+        "lemma_ja": "תכ'פי",
+        "lemma_ar": "تُخْفِي",
+        "root": "kh-f-y",
+        "pos": "verb",
+        "gloss_en": "to hide, conceal (form IV); imperfect 'you/it conceal(s)'",
+        "gloss_he": "הִסְתִּיר, הֶעְלִים, כִּסָּה (בניין IV)",
+        "source": "lane",
+        "variants": [
+          "תכ'פי"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-0-44-2",
+        "lemma_ja": "צידו",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "its prey/food; from 'מי יכין לעורב צידו' (Job 38:41, cited)",
+        "gloss_he": "צֵידוֹ (מי יכין לעורב צידו, איוב לח:מא)",
+        "source": "lane",
+        "variants": [
+          "צידו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-495-7-2",
+        "lemma_ja": "טחן",
+        "lemma_ar": "طَحَنَ",
+        "root": "ṭ-ḥ-n",
+        "pos": "verb",
+        "gloss_en": "to grind, mill (here impf. f. + suffix taṭḥanuhu)",
+        "gloss_he": "לִטְחֹן",
+        "source": "lane",
+        "variants": [
+          "תטחנה",
+          "טחן",
+          "יטחן",
+          "תטחן"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-495-23-2",
+        "lemma_ja": "אסקם",
+        "lemma_ar": "أَسْقَمَ",
+        "root": "s-q-m",
+        "pos": "verb",
+        "gloss_en": "to sicken, make ill (here impf. f. + suffix fa-tusqimuhu)",
+        "gloss_he": "לְהַחֲלוֹת, לְהַחֲלִישׁ",
+        "source": "lane",
+        "variants": [
+          "פתסקמה",
+          "תסקמה",
+          "אסקם",
+          "תסקם",
+          "יסקם"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-540-0-2",
+        "lemma_ja": "תחדר",
+        "lemma_ar": "تَحْدُرُ",
+        "root": "ḥ-d-r",
+        "pos": "verb",
+        "gloss_en": "it flows down, descends (3fs imperfect of ḥadara)",
+        "gloss_he": "יורד, זורם למטה (פעולת ḥadara)",
+        "source": "lane",
+        "variants": [
+          "תחדר"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-540-6-2",
+        "lemma_ja": "איראד",
+        "lemma_ar": "إِيرَاد",
+        "root": "w-r-d",
+        "pos": "noun",
+        "gloss_en": "bringing in, delivering, supplying (verbal noun of awrada); with suffix -hā 'its delivery'",
+        "gloss_he": "הבאה, אספקה, מסירה",
+        "source": "lane",
+        "variants": [
+          "ואיראדהא",
+          "איראד",
+          "איראדהא"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-540-10-2",
+        "lemma_ja": "תהייה",
+        "lemma_ar": "تَهْيِئَة",
+        "root": "h-y-ʾ",
+        "pos": "noun",
+        "gloss_en": "preparation, making ready (verbal noun of hayyaʾa); with suffix -hu 'its preparation'",
+        "gloss_he": "הכנה, התקנה",
+        "source": "lane",
+        "variants": [
+          "ותהייתה",
+          "תהייה",
+          "תהייתה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-540-14",
+        "lemma_ja": "מוקע",
+        "lemma_ar": "مَوْقِع",
+        "root": "w-q-ʿ",
+        "pos": "noun",
+        "gloss_en": "place where a thing falls/occurs, position, site (here pl. mawāqiʿ with suffix -hā)",
+        "gloss_he": "מקום נפילה/התרחשות, מיקום",
+        "source": "lane",
+        "variants": [
+          "ומואקעהא",
+          "מואקע",
+          "מואקעהא"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-540-33-2",
+        "lemma_ja": "עפא",
+        "lemma_ar": "عَفَا",
+        "root": "ʿ-f-w",
+        "pos": "verb",
+        "gloss_en": "to refrain, abstain from, forgive (here ʿan; 3mp jussive yaʿfū)",
+        "gloss_he": "להימנע מ-, לחדול, לסלוח",
+        "source": "lane",
+        "variants": [
+          "יעפוא",
+          "עפא"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-630-13-2",
+        "lemma_ja": "תחצין",
+        "lemma_ar": "تَحْصِين",
+        "root": "ḥ-ṣ-n",
+        "pos": "noun",
+        "gloss_en": "fortifying, protecting (here w. suffix: their fortification)",
+        "gloss_he": "ביצור, הגנה (כאן: ביצורם)",
+        "source": "lane",
+        "variants": [
+          "תחצינהם"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-630-27-2",
+        "lemma_ja": "אטפא",
+        "lemma_ar": "أَطْفَأَ",
+        "root": "ṭ-f-ʾ",
+        "pos": "verb",
+        "gloss_en": "to extinguish, put out (here w. suffix: he extinguishes it)",
+        "gloss_he": "לכבות (כאן: יכבנו)",
+        "source": "lane",
+        "variants": [
+          "ויטפיה"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-675-4-2",
+        "lemma_ja": "קצ'א",
+        "lemma_ar": "قَضَاء",
+        "root": "q-ḍ-y",
+        "pos": "noun",
+        "gloss_en": "decree, divine judgment (here with suffix: His decree)",
+        "gloss_he": "גְּזֵרָה, מִשְׁפָּט אֱלֹהִי",
+        "source": "lane",
+        "variants": [
+          "בקצ'איה",
+          "קצ'איה",
+          "קצ'אה",
+          "ויקצ'י",
+          "יקצ'י",
+          "קצ'אהא",
+          "קצ'אוהא",
+          "ללקצ'א",
+          "אלקצ'א"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-675-26-2",
+        "lemma_ja": "רקאד",
+        "lemma_ar": "رُقَاد",
+        "root": "r-q-d",
+        "pos": "noun",
+        "gloss_en": "sleep, slumber (here w/ suffix: his sleeping)",
+        "gloss_he": "שֵׁנָה, נִמְנוּם",
+        "source": "lane",
+        "variants": [
+          "רקאדה",
+          "רקאד",
+          "רקאדך"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-675-28-2",
+        "lemma_ja": "פארק",
+        "lemma_ar": "فَارَقَ",
+        "root": "f-r-q",
+        "pos": "verb",
+        "gloss_en": "to part from, to leave (here w/ suffix: parted from her/it)",
+        "gloss_he": "לְהִפָּרֵד מִן, לַעֲזֹב",
+        "source": "lane",
+        "variants": [
+          "פארקהא",
+          "פארק",
+          "יפארקה",
+          "יפארק",
+          "פארקה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-720-26",
+        "lemma_ja": "אקוא",
+        "lemma_ar": "أَقْوَى",
+        "root": "q-w-y",
+        "pos": "adjective",
+        "gloss_en": "stronger, strongest; here \"its strongest (proof)\" (elative of qawī, with fem. suffix -hā)",
+        "gloss_he": "החזק ביותר",
+        "source": "lane",
+        "variants": [
+          "ואקואהא",
+          "אקואה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-0-10-3",
+        "lemma_ja": "נייה",
+        "lemma_ar": "نِيَّة",
+        "root": "n-w-y",
+        "pos": "noun",
+        "gloss_en": "intention, purpose (here with 3ms suffix, 'his intention')",
+        "gloss_he": "כוונה (כאן עם כינוי: כוונתו)",
+        "source": "lane",
+        "variants": [
+          "ונייתה",
+          "נייתה",
+          "בנייתה",
+          "נייה",
+          "אלנייה",
+          "נייתך",
+          "ונייתך"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1035-20-2",
+        "lemma_ja": "מחבוב",
+        "lemma_ar": "مَحْبُوب",
+        "root": "ḥ-b-b",
+        "pos": "noun",
+        "gloss_en": "things beloved by it; its objects of love (f. pl. + suffix)",
+        "gloss_he": "אהוביה, הדברים האהובים עליה",
+        "source": "lane",
+        "variants": [
+          "מחבובאתהא",
+          "פאלמחבוב",
+          "אלמחבוב",
+          "מחבובאתה",
+          "מחבובאת"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1125-24-2",
+        "lemma_ja": "מצאדקה",
+        "lemma_ar": "مُصَادَقَة",
+        "root": "ṣ-d-q",
+        "pos": "noun",
+        "gloss_en": "friendship, befriending, sincere companionship; here with 3ms suffix",
+        "gloss_he": "יְדִידוּת, רֵעוּת, התרועעות; \"מצאדקתה\" = ידידותו",
+        "source": "lane",
+        "variants": [
+          "מצאדקתה",
+          "ומצאדקתה",
+          "מצאדקה"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1125-39-2",
+        "lemma_ja": "אזהר",
+        "lemma_ar": "أَزْهَرَ",
+        "root": "z-h-r",
+        "pos": "verb",
+        "gloss_en": "(IV) to shine, give light, gleam; (3mp imperfect) 'they shine'",
+        "gloss_he": "הֵאִיר, זָהַר, נָגַהּ; \"יזהירו\" = יזהירו / מאירים",
+        "source": "lane",
+        "variants": [
+          "יזהירו",
+          "אזהר"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1170-8-2",
+        "lemma_ja": "הואיה",
+        "lemma_ar": "هَوَايَة",
+        "root": "h-w-y",
+        "pos": "noun",
+        "gloss_en": "his desire, inclination, whim (הَوَى 'desire' + 3ms suffix; here 'غالب لهَوَايه', overcoming his desire)",
+        "gloss_he": "תַּאֲוָתוֹ, נְטִיַּת לִבּוֹ ('גאלב להואיה', מתגבר על תאוותו)",
+        "source": "lane",
+        "variants": [
+          "להואיה"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:possessive",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1170-25-2",
+        "lemma_ja": "אסתקדם",
+        "lemma_ar": "اِسْتَقْدَمَ",
+        "root": "q-d-m",
+        "pos": "verb",
+        "gloss_en": "to anticipate, take in advance, seek beforehand (here 2mp 'תסתקדמונה ארזאק', you anticipate provisions)",
+        "gloss_he": "לְהַקְדִּים, לִקַּח/לְבַקֵּשׁ מֵרֹאשׁ ('תסתקדמונה ארזאק', מקדימים [לבקש] פרנסה)",
+        "source": "lane",
+        "variants": [
+          "ותסתקדמונה",
+          "תסתקדמונה",
+          "יסתקדם"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1170-28-2",
+        "lemma_ja": "בגיה",
+        "lemma_ar": "بُغْيَة",
+        "root": "b-ḡ-y",
+        "pos": "noun",
+        "gloss_en": "object of desire, aim, goal (here w. 3mp suffix 'בגיתהם', their goal: 'אכת'ר בגיתהם', most of their aim)",
+        "gloss_he": "מְבֻקָּשׁ, מַטָּרָה, חֵפֶץ ('בגיתהם', מבוקשם)",
+        "source": "lane",
+        "variants": [
+          "בגיתהם"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1170-34-2",
+        "lemma_ja": "לקאיה",
+        "lemma_ar": "لِقَاء",
+        "root": "l-q-y",
+        "pos": "noun",
+        "gloss_en": "meeting, encounter (here w. 3ms suffix 'לקאיה', meeting Him/them: 'ענד לקאיהם', upon meeting them)",
+        "gloss_he": "פְּגִישָׁה, מִפְגָּשׁ ('לקאיה', פגישתו/לקראתו)",
+        "source": "lane",
+        "variants": [
+          "לקאיה",
+          "לקאיהם"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1170-38-2",
+        "lemma_ja": "ג'האד",
+        "lemma_ar": "جِهَاد",
+        "root": "j-h-d",
+        "pos": "noun",
+        "gloss_en": "struggle, striving, combat (here w. 3ms suffix 'ג'האדה', his struggle/striving against [the evil inclination])",
+        "gloss_he": "מַאֲבָק, מִלְחָמָה, הִתְאַמְּצוּת ('ג'האדה', מאבקו)",
+        "source": "lane",
+        "variants": [
+          "ג'האדה",
+          "ללג'האד",
+          "לג'האד",
+          "אלג'האד",
+          "ג'האדך"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1170-40-2",
+        "lemma_ja": "רצד",
+        "lemma_ar": "رَصَدَ",
+        "root": "r-ṣ-d",
+        "pos": "verb",
+        "gloss_en": "to lie in wait for, watch for, waylay (here w. 2ms obj. 'רצדך טול דהרך', it will lie in wait for you all your days)",
+        "gloss_he": "לֶאֱרֹב, לִצְפּוֹת, לְהִתְנַכֵּל ('רצדך טול דהרך', יארוב לך כל ימיך)",
+        "source": "lane",
+        "variants": [
+          "רצדך",
+          "ירצד"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1170-42-2",
+        "lemma_ja": "תשכיך",
+        "lemma_ar": "تَشْكِيك",
+        "root": "š-k-k",
+        "pos": "noun",
+        "gloss_en": "sowing doubt, casting into doubt (here w. 2ms suffix 'תשכיכך', causing you to doubt; 'תשכיכך פי אמר נפסך', sowing doubt in you about your soul)",
+        "gloss_he": "הַטָּלַת סָפֵק, הֲבָאָה לִידֵי סָפֵק ('תשכיכך', הטלת ספק בך)",
+        "source": "lane",
+        "variants": [
+          "תשכיכך",
+          "אלתשכיך",
+          "תשכיכה",
+          "תשכיכנא"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1215-16-2",
+        "lemma_ja": "תיקט'",
+        "lemma_ar": "تَيَقَّظَ",
+        "root": "y-q-ẓ",
+        "pos": "verb",
+        "gloss_en": "to awaken, become alert/vigilant (form V); 2ms perf. 'you became alert'",
+        "gloss_he": "הֵעוֹר, הִתְעוֹרֵר, נעשה ערני (בניין V)",
+        "source": "lane",
+        "variants": [
+          "תיקט'ת",
+          "תיקט'",
+          "אתיקט'",
+          "יתיקט'"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1260-5-2",
+        "lemma_ja": "אנכאר",
+        "lemma_ar": "إِنْكَار",
+        "root": "n-k-r",
+        "pos": "noun",
+        "gloss_en": "denial, disavowal, rejection (verbal noun of IV; here + suffix)",
+        "gloss_he": "הכחשה, שלילה, דחייה",
+        "source": "lane",
+        "variants": [
+          "אנכארה",
+          "ואנכארה",
+          "אלאנכאר",
+          "ואלאנכאר"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1260-33-2",
+        "lemma_ja": "יסכ'ט",
+        "lemma_ar": "يَسْخَط",
+        "root": "s-ḫ-ṭ",
+        "pos": "verb",
+        "gloss_en": "to be angry/displeased; here causative-suffixed \"by which He is displeased with me\"",
+        "gloss_he": "לכעוס, להיות במורת רוח; כאן: מה שמכעיסו",
+        "source": "lane",
+        "variants": [
+          "יסכ'טה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1260-34-2",
+        "lemma_ja": "אג'ר",
+        "lemma_ar": "أَجْر",
+        "root": "ʾ-ǧ-r",
+        "pos": "noun",
+        "gloss_en": "reward, recompense, wage (here + 2ms suffix: \"your reward\")",
+        "gloss_he": "שכר, גמול (כאן עם כינוי: שכרך)",
+        "source": "lane",
+        "variants": [
+          "אג'רך",
+          "ואג'ר",
+          "אלאג'ר"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1260-43-2",
+        "lemma_ja": "מצידה",
+        "lemma_ar": "مَصْيَدَة",
+        "root": "ṣ-y-d",
+        "pos": "noun",
+        "gloss_en": "snare, trap, net for catching (here pl. maṣāyid \"traps, snares\"); here + suffix",
+        "gloss_he": "מלכודת, פח, רשת (כאן ברבים)",
+        "source": "lane",
+        "variants": [
+          "מצאידה",
+          "ומצאידה",
+          "מצאיד"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1305-42-2",
+        "lemma_ja": "תשאמכ'",
+        "lemma_ar": "تَشَامُخ",
+        "root": "sh-m-kh",
+        "pos": "noun",
+        "gloss_en": "haughtiness, loftiness, pride (verbal noun, form VI) — here with suffix",
+        "gloss_he": "התנשאות, גאווה, רום לב (שם פעולה בניין שישי; כאן בכינוי)",
+        "source": "lane",
+        "variants": [
+          "תשאמכ'ה",
+          "ותשאמכ'ה",
+          "ואלתשאמך",
+          "אלתשאמך'"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-135-42-2",
+        "lemma_ja": "ארתהן",
+        "lemma_ar": "اِرْتَهَنَ",
+        "root": "r-h-n",
+        "pos": "verb",
+        "gloss_en": "to take in pledge, hold as security (here yartahinuhu: he takes it in pledge)",
+        "gloss_he": "לקחת בעירבון, להחזיק כמשכון (ירתהנה: ממשכן אותו)",
+        "source": "lane",
+        "variants": [
+          "ירתהנה",
+          "ארתהן",
+          "ירתהן"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1350-12-2",
+        "lemma_ja": "בואו",
+        "lemma_ar": "בּוֹאוֹ",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his coming (Heb. quote: Mal 3:2 \"את יום בואו\")",
+        "gloss_he": "יוֹם בּוֹאוֹ; ציטוט מקראי מלאכי ג:ב",
+        "source": "lane",
+        "variants": [
+          "בואו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1350-13-2",
+        "lemma_ja": "הראותו",
+        "lemma_ar": "הֵרָאוֹתוֹ",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his appearing (Heb. quote: Mal 3:2 \"ומי העֹמד בהראֹתו\")",
+        "gloss_he": "בְּהֵרָאוֹתוֹ; ציטוט מקראי מלאכי ג:ב",
+        "source": "lane",
+        "variants": [
+          "בהראותו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1350-16-2",
+        "lemma_ja": "עבדיו",
+        "lemma_ar": "עֲבָדָיו",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his servants (Heb. quote: Job 4:18 \"הן בעבדיו לא יאמין\")",
+        "gloss_he": "עֲבָדָיו; ציטוט מקראי איוב ד:יח",
+        "source": "lane",
+        "variants": [
+          "בעבדיו",
+          "עבדיו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1350-18-2",
+        "lemma_ja": "פניכם",
+        "lemma_ar": "פְּנֵיכֶם",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "your faces (Heb. quote: Exod 20:17/20 \"על פניכם\")",
+        "gloss_he": "פְּנֵיכֶם; ציטוט מקראי שמות כ:יז (כ:כ)",
+        "source": "lane",
+        "variants": [
+          "פניכם"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1350-28-2",
+        "lemma_ja": "גבורתו",
+        "lemma_ar": "גְּבוּרָתוֹ",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his might (Heb. quote: Judg 5:31 \"כצאת השמש בגבֻרתו\")",
+        "gloss_he": "בִּגְבֻרָתוֹ; ציטוט מקראי שופטים ה:לא",
+        "source": "lane",
+        "variants": [
+          "בגבורתו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1440-0-2",
+        "lemma_ja": "חברבורות",
+        "lemma_ar": "חַבַּרְבֻּרוֹת",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "its spots (of the leopard) — biblical quote: \"and the leopard its spots\"",
+        "gloss_he": "חברבורותיו — ירמיהו יג:כג \"הֲיַהֲפֹךְ כּוּשִׁי עוֹרוֹ וְנָמֵר חֲבַרְבֻּרֹתָיו\"",
+        "source": "lane",
+        "variants": [
+          "חברבורותיו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1440-5-2",
+        "lemma_ja": "ארחק",
+        "lemma_ar": "أَرْحَقَ",
+        "root": "r-ḥ-q",
+        "pos": "verb",
+        "gloss_en": "to remove far away, banish (form IV); here imperative + 3ms suffix \"put it far away\"",
+        "gloss_he": "לְהַרְחִיק, לְהַרְחִיק אוֹתוֹ",
+        "source": "lane",
+        "variants": [
+          "הרחיקהו"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1440-8-2",
+        "lemma_ja": "פראר",
+        "lemma_ar": "فِرَار",
+        "root": "f-r-r",
+        "pos": "noun",
+        "gloss_en": "fleeing, flight, escape; here \"his fleeing\" (+ suffix)",
+        "gloss_he": "בְּרִיחָה, מְנוּסָה",
+        "source": "lane",
+        "variants": [
+          "פרארה",
+          "פראר"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1440-34-2",
+        "lemma_ja": "גפר",
+        "lemma_ar": "غَفَرَ",
+        "root": "ɣ-f-r",
+        "pos": "verb",
+        "gloss_en": "to forgive, pardon; here imperfect \"He forgives him\"",
+        "gloss_he": "לִסְלֹחַ, לִמְחֹל",
+        "source": "lane",
+        "variants": [
+          "יגפר",
+          "פיגפר",
+          "גפר",
+          "אסתגפר",
+          "אלאסתגפאר"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1530-17-2",
+        "lemma_ja": "תאכ'יר",
+        "lemma_ar": "تَأْخِير",
+        "root": "ʾ-kh-r",
+        "pos": "noun",
+        "gloss_en": "delaying, postponement, deferral; (with suffix) your delaying",
+        "gloss_he": "דחייה, איחור, השהיה; (עם כינוי) איחורך",
+        "source": "lane",
+        "variants": [
+          "תאכ'ירך",
+          "תאכ'יר",
+          "תאכ'ירה",
+          "ובתאכ'יר",
+          "ואלתאכ'יר",
+          "לתאכ'יר",
+          "אלתאכ'יר"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1530-23-2",
+        "lemma_ja": "תפאהה",
+        "lemma_ar": "تَفَاهَة",
+        "root": "t-f-h",
+        "pos": "noun",
+        "gloss_en": "triviality, insignificance, paltriness; (with suffix) his insignificance",
+        "gloss_he": "פחיתות, אפסות, חוסר ערך; (עם כינוי) פחיתותו",
+        "source": "lane",
+        "variants": [
+          "ותפאהתה",
+          "תפאהה",
+          "תפאהתה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1530-39-2",
+        "lemma_ja": "אקדאר",
+        "lemma_ar": "أَقْدَار",
+        "root": "q-d-r",
+        "pos": "noun",
+        "gloss_en": "measures, values, degrees, fated amounts (pl. of قدر); (with suffix) their measures",
+        "gloss_he": "מידות, ערכים, שיעורים, גזירות; (עם כינוי) שיעוריהם",
+        "source": "lane",
+        "variants": [
+          "אקדארה",
+          "אקדאר",
+          "אלאקדאר"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1530-42-2",
+        "lemma_ja": "אנפאק",
+        "lemma_ar": "إِنْفَاق",
+        "root": "n-f-q",
+        "pos": "noun",
+        "gloss_en": "spending, expenditure, disbursing (form IV verbal noun); (with suffix) his spending",
+        "gloss_he": "הוצאה, הוצאת ממון, פיזור; (עם כינוי) הוצאתו",
+        "source": "lane",
+        "variants": [
+          "אנפאקה",
+          "ואנפאקה",
+          "אנפאק"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1800-12-2",
+        "lemma_ja": "תפכיר",
+        "lemma_ar": "تَفْكِير",
+        "root": "f-k-r",
+        "pos": "noun",
+        "gloss_en": "thinking, reflection, cogitation (here with pronominal suffix -hu, 'his thinking')",
+        "gloss_he": "מחשבה, הרהור, עיון",
+        "source": "lane",
+        "variants": [
+          "תפכירה",
+          "תפכיר"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1800-40-2",
+        "lemma_ja": "רתב",
+        "lemma_ar": "رَتَّبَ",
+        "root": "r-t-b",
+        "pos": "verb",
+        "gloss_en": "to arrange, order, organize in ranks (form II; here 3mp perfect rattabū)",
+        "gloss_he": "לסדר, לערוך, לארגן בדרגות (כאן: רתבו)",
+        "source": "lane",
+        "variants": [
+          "ורתבוא",
+          "רתבוא",
+          "רתב"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1800-43-2",
+        "lemma_ja": "ג'רא",
+        "lemma_ar": "جَرَى",
+        "root": "j-r-y",
+        "pos": "verb",
+        "gloss_en": "to run, flow, proceed, follow a course (here 3mp perfect jarū / jarawū)",
+        "gloss_he": "לרוץ, לזרום, להתנהל, ללכת בעקבות (כאן: ג'רו)",
+        "source": "lane",
+        "variants": [
+          "ג'רוא",
+          "ג'רא",
+          "ג'רת"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-1980-29-2",
+        "lemma_ja": "אסתכמל",
+        "lemma_ar": "اِسْتَكْمَلَ",
+        "root": "k-m-l",
+        "pos": "verb",
+        "gloss_en": "to complete, perfect, bring to fullness",
+        "gloss_he": "הִשְׁלִים, השלים והביא לידי שלמות",
+        "source": "lane",
+        "variants": [
+          "אסתכמלהא",
+          "אסתכמל"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2025-22-2",
+        "lemma_ja": "טמח",
+        "lemma_ar": "طَمَحَ",
+        "root": "ṭ-m-ḥ",
+        "pos": "verb",
+        "gloss_en": "to aspire, raise one's gaze toward, reach for (3fs perf.: she aspired)",
+        "gloss_he": "שָׁאַף, נָשָׂא עֵינָיו אֶל",
+        "source": "lane",
+        "variants": [
+          "טמחת",
+          "טמח",
+          "יטמח"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2025-30-2",
+        "lemma_ja": "אסתדאם",
+        "lemma_ar": "اِسْتَدَامَ",
+        "root": "d-w-m",
+        "pos": "verb",
+        "gloss_en": "to make perpetual, perpetuate, keep lasting (Form X; here: he perpetuates it)",
+        "gloss_he": "הִתְמִיד, הִנְצִיחַ, גָּרַם לְהִמָּשֵׁךְ",
+        "source": "lane",
+        "variants": [
+          "יסתדימהא",
+          "אסתדאם",
+          "יסתדים",
+          "אסתדאמהא"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2025-37-2",
+        "lemma_ja": "תעויצ'",
+        "lemma_ar": "تَعْوِيض",
+        "root": "ʕ-w-ḍ",
+        "pos": "noun",
+        "gloss_en": "compensation, recompense, indemnification (here with suffix)",
+        "gloss_he": "פִּצּוּי, תַּגְמוּל, תְּמוּרָה",
+        "source": "lane",
+        "variants": [
+          "לתעויצ'ה",
+          "תעויצ'",
+          "תעויצ'ה",
+          "אלתעויצ'",
+          "ותעויץ"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2070-21",
+        "lemma_ja": "תהם",
+        "lemma_ar": "اتَّهَمَ",
+        "root": "w-h-m",
+        "pos": "verb",
+        "gloss_en": "to suspect, accuse, impute (form VIII, ittahama); here 1pl \"that we should impugn\"",
+        "gloss_he": "לַחְשֹׁד, לְהַאֲשִׁים, לְפַקְפֵּק",
+        "source": "lane",
+        "variants": [
+          "נתהמה"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2070-35-2",
+        "lemma_ja": "אסתאנס",
+        "lemma_ar": "اِسْتَأْنَسَ",
+        "root": "ʾ-n-s",
+        "pos": "verb",
+        "gloss_en": "to feel at ease / familiar, to take comfort, to grow intimate (form X); here 2ms with 1s suffix \"you set me at ease\"",
+        "gloss_he": "לְהִתְרַגֵּל, לְהִתְעַנֵּג, לְהָנִיחַ אֶת הַדַּעַת",
+        "source": "lane",
+        "variants": [
+          "איסתני",
+          "אסתאנס"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2070-38-2",
+        "lemma_ja": "שייד",
+        "lemma_ar": "شَيَّدَ",
+        "root": "sh-y-d",
+        "pos": "verb",
+        "gloss_en": "to build high, erect, raise up (a structure) (form II); here with 3fs suffix \"and he built them up\"",
+        "gloss_he": "לִבְנוֹת, לְהַגְבִּיהַּ, לְהָקִים (מִבְנֶה)",
+        "source": "lane",
+        "variants": [
+          "ושיידהא",
+          "שייד"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2115-2-2",
+        "lemma_ja": "מזנה",
+        "lemma_ar": "مَزْنة",
+        "root": "—",
+        "pos": "noun",
+        "gloss_en": "his sojourn / dwelling (here parallel to مكثه 'his staying'; reading uncertain) (?)",
+        "gloss_he": "שהותו / מגוריו (במקביל ל'מכת'ה'; הקריאה אינה ודאית) (?)",
+        "source": "lane",
+        "variants": [
+          "מזנה"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2115-13-2",
+        "lemma_ja": "אנארה",
+        "lemma_ar": "إِنارة",
+        "root": "n-w-r",
+        "pos": "noun",
+        "gloss_en": "illumination, enlightening (here verbal with suffix: His enlightening you)",
+        "gloss_he": "הארה, האירה (כאן עם כינוי: הארתו אותך)",
+        "source": "lane",
+        "variants": [
+          "ואנארתך",
+          "אנארה",
+          "אנארתך",
+          "אנארהֵ",
+          "אנארתה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2160-14-2",
+        "lemma_ja": "לאקא",
+        "lemma_ar": "لَاقَى",
+        "root": "l-q-y",
+        "pos": "verb",
+        "gloss_en": "to meet, encounter (fem. 2nd person imperfect: you meet/encounter)",
+        "gloss_he": "פגש, נתקל ב- (תפגשי)",
+        "source": "lane",
+        "variants": [
+          "תלאקין",
+          "לאקא",
+          "תלאקי"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2250-4-2",
+        "lemma_ja": "אתצ'ע",
+        "lemma_ar": "اِتَّضَعَ",
+        "root": "w-ḍ-ʕ",
+        "pos": "verb",
+        "gloss_en": "to humble or abase oneself (before someone); imperfect yattaḍiʿu",
+        "gloss_he": "לְהַשְׁפִּיל עַצְמוֹ, לְהִכָּנַע",
+        "source": "lane",
+        "variants": [
+          "יתצ'ע"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2250-5-2",
+        "lemma_ja": "תמלק",
+        "lemma_ar": "تَمَلَّقَ",
+        "root": "m-l-q",
+        "pos": "verb",
+        "gloss_en": "to flatter, fawn upon, ingratiate oneself with someone; imperfect yatamallaqu",
+        "gloss_he": "לְהַחֲנִיף, לְהִתְרַפֵּס",
+        "source": "lane",
+        "variants": [
+          "יתמלק",
+          "ואלתמלק"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2250-6-2",
+        "lemma_ja": "תשייע",
+        "lemma_ar": "تَشَيَّعَ",
+        "root": "š-y-ʕ",
+        "pos": "verb",
+        "gloss_en": "to take someone's side, become a partisan/follower of; imperfect yatashayyaʿu",
+        "gloss_he": "לְהִתְחַבֵּר, לְהִתְלַוּוֹת אֶל",
+        "source": "lane",
+        "variants": [
+          "יתשייע"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2250-7-2",
+        "lemma_ja": "ראע",
+        "lemma_ar": "رَاعَ",
+        "root": "r-w-ʕ",
+        "pos": "verb",
+        "gloss_en": "to alarm, frighten, startle (someone); here yarūʿu-hu with object suffix",
+        "gloss_he": "לְהַבְהִיל, לְהַפְחִיד",
+        "source": "lane",
+        "variants": [
+          "ירועה",
+          "ירוע",
+          "ירועך"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2250-9-2",
+        "lemma_ja": "תערי",
+        "lemma_ar": "تَعَرَّى",
+        "root": "ʕ-r-y",
+        "pos": "verb",
+        "gloss_en": "to strip oneself bare, divest oneself (of something); imperfect yataʿarrā",
+        "gloss_he": "לְהִתְעָרֵם, לְהִתְפַּשֵּׁט מִן",
+        "source": "lane",
+        "variants": [
+          "יתערי"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2295-16",
+        "lemma_ja": "צחב",
+        "lemma_ar": "صَحِبَ",
+        "root": "ṣ-ḥ-b",
+        "pos": "verb",
+        "gloss_en": "to accompany, keep company with; (here, 3fs + obj suffix) it will not accompany him",
+        "gloss_he": "לִוָּה, הִתְלַוָּה אֶל; (כאן) לֹא תְּלַוֶּה אוֹתוֹ",
+        "source": "lane",
+        "variants": [
+          "תצחבה",
+          "יצחבה",
+          "תصחبה"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2295-31-2",
+        "lemma_ja": "וديעה",
+        "lemma_ar": "وَدِيعَة",
+        "root": "w-d-ʕ",
+        "pos": "noun",
+        "gloss_en": "deposit, thing entrusted (here, money as a deposit from God); (with suffix) His deposit",
+        "gloss_he": "פִּקָּדוֹן; (כאן עם כינוי) פִּקְדוֹנוֹ",
+        "source": "lane",
+        "variants": [
+          "ודיעתה",
+          "וديעה",
+          "ודיעתه",
+          "ודיעה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2295-35-2",
+        "lemma_ja": "שרשיו",
+        "lemma_ar": "שָׁרָשָׁיו",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "its roots (Biblical Hebrew, Jeremiah 17:8 'spreads out its roots by the stream')",
+        "gloss_he": "שָׁרָשָׁיו; ציטוט מקראי, ירמיהו יז:ח \"ועל יובל ישלח שרשיו\"",
+        "source": "lane",
+        "variants": [
+          "שרשיו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2295-42-2",
+        "lemma_ja": "ארוח",
+        "lemma_ar": "أَرْوَح",
+        "root": "r-w-ḥ",
+        "pos": "adjective",
+        "gloss_en": "more restful, most comfortable (elative); (here with suffix) the most restful of them for his body",
+        "gloss_he": "הַנּוֹחַ בְּיוֹתֵר, הַמַּרְגִּיעַ בְּיוֹתֵר; (כאן) הַנּוֹחָה שֶׁבָּהֶם לְגוּפוֹ",
+        "source": "lane",
+        "variants": [
+          "ארוחהא",
+          "ארוח"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2295-43-2",
+        "lemma_ja": "אופר",
+        "lemma_ar": "أَوْفَر",
+        "root": "w-f-r",
+        "pos": "adjective",
+        "gloss_en": "more abundant, most plentiful (elative); (here with suffix) the most plentiful of them",
+        "gloss_he": "הַשּׁוֹפֵעַ בְּיוֹתֵר, הַמְּרֻבֶּה בְּיוֹתֵר; (כאן) הַמְּרֻבָּה שֶׁבָּהֶם",
+        "source": "lane",
+        "variants": [
+          "ואופרהא",
+          "אופר",
+          "אופרהא"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2385-5-2",
+        "lemma_ja": "רג'אא",
+        "lemma_ar": "رَجَاء",
+        "root": "r-j-w",
+        "pos": "noun",
+        "gloss_en": "hope, expectation; (with suffix) their hope",
+        "gloss_he": "תִּקְוָה, צִפִּיָּה; תִּקְוָתָם",
+        "source": "lane",
+        "variants": [
+          "ורג'איהם",
+          "רג'איהם",
+          "רג'אא",
+          "אלרג'אא"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2385-12-2",
+        "lemma_ja": "תקליל",
+        "lemma_ar": "تَقْلِيل",
+        "root": "q-l-l",
+        "pos": "noun",
+        "gloss_en": "diminishing, reduction in amount; (with suffix) its reduction",
+        "gloss_he": "הַמְעָטָה, צִמְצוּם; מִעוּטוֹ",
+        "source": "lane",
+        "variants": [
+          "תקלילה",
+          "תקליל"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2385-21-2",
+        "lemma_ja": "נצל",
+        "lemma_ar": "نَصِلُ",
+        "root": "w-ṣ-l",
+        "pos": "verb",
+        "gloss_en": "we arrive at, reach, attain (1pl impf. of waṣala)",
+        "gloss_he": "נַגִּיעַ, נַשִּׂיג",
+        "source": "lane",
+        "variants": [
+          "נצל"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2385-23-2",
+        "lemma_ja": "מחשבותי",
+        "lemma_ar": "מַחְשְׁבוֹתַי",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "my thoughts (Isaiah 55:9, 'ומחשבותי ממחשבותיכם')",
+        "gloss_he": "ישעיהו נה:ט — „ומחשבותי ממחשבותיכם”",
+        "source": "lane",
+        "variants": [
+          "ומחשבותי"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2385-37",
+        "lemma_ja": "הצעקתו",
+        "lemma_ar": "הַצַעֲקָתוֹ",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his cry (Job 27:9, 'הצעקתו ישמע אל')",
+        "gloss_he": "איוב כז:ט — „הצעקתו ישמע אל”",
+        "source": "lane",
+        "variants": [
+          "הצעקתו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2610-5",
+        "lemma_ja": "אמתן",
+        "lemma_ar": "اِمْتَنَّ",
+        "root": "m-n-n",
+        "pos": "verb",
+        "gloss_en": "(form VIII) to bestow a favor and remind of it, to lay one under obligation (fa-yamtannu: so he confers it as a favor)",
+        "gloss_he": "(בניין שמיני) להיטיב ולהזכיר את החסד, לזקוף לזכותו (פַיַמְתַןֻّ: ואז הוא מיטיב בכך)",
+        "source": "lane",
+        "variants": [
+          "פימתן",
+          "אמתן",
+          "ימתן"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-270-43",
+        "lemma_ja": "לבב",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "Hebrew: heart (biblical quotation, esp. with suffix lĕvavkha)",
+        "gloss_he": "לֵבָב; ציטוט מקראי — 'וְאָהַבְתָּ אֵת ה' אֱלֹהֶיךָ בְּכָל לְבָבְךָ' דברים ו:ה",
+        "source": "lane",
+        "variants": [
+          "לבב",
+          "לבבות"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2700-13-2",
+        "lemma_ja": "צ'רע",
+        "lemma_ar": "ضَرَعَ",
+        "root": "ḍ-r-ʕ",
+        "pos": "verb",
+        "gloss_en": "to supplicate humbly, beseech (here 1pl: we supplicate)",
+        "gloss_he": "להתחנן בהכנעה, להתפלל; כאן: נתחנן",
+        "source": "lane",
+        "variants": [
+          "ונצ'רע",
+          "נצ'רע",
+          "תצ'רע"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2745-12-2",
+        "lemma_ja": "מבושיו",
+        "lemma_ar": "מְבֻשָׁיו",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his private parts (Biblical/Mishnaic Hebrew; Deut 25:11)",
+        "gloss_he": "מְבֻשָׁיו — דברים כה:יא",
+        "source": "lane",
+        "variants": [
+          "במבושיו",
+          "מבושיו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2835-10-2",
+        "lemma_ja": "עט'ה",
+        "lemma_ar": "وَعَظَهُ",
+        "root": "w-ʿ-ẓ",
+        "pos": "verb",
+        "gloss_en": "to admonish, exhort him (waʿaẓa + suffix)",
+        "gloss_he": "לְהוֹכִיחַ, לְהַזְהִיר אוֹתוֹ",
+        "source": "lane",
+        "variants": [
+          "ועט'ה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2835-11-2",
+        "lemma_ja": "אפצ'ח",
+        "lemma_ar": "أَفْضَحَ",
+        "root": "f-ḍ-ḥ",
+        "pos": "verb",
+        "gloss_en": "to expose, lay bare, disgrace (form IV; here 1sg imperf. 'I lay bare')",
+        "gloss_he": "לְחַשֵּׂף, לְגַלּוֹת בְּקָלוֹן",
+        "source": "lane",
+        "variants": [
+          "אפצ'ח"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2835-13-2",
+        "lemma_ja": "מתאג'רה",
+        "lemma_ar": "مُتَاجَرَة",
+        "root": "t-j-r",
+        "pos": "noun",
+        "gloss_en": "trading, doing business (verbal noun, form III; here + suffix 'his trading')",
+        "gloss_he": "מִסְחָר, עֲשִׂיַּת עֵסֶק",
+        "source": "lane",
+        "variants": [
+          "מתאג'רתה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2835-15-2",
+        "lemma_ja": "כ'צם",
+        "lemma_ar": "خَصْم",
+        "root": "ḫ-ṣ-m",
+        "pos": "noun",
+        "gloss_en": "adversary, opponent, litigant (here + suffix 'your adversary')",
+        "gloss_he": "יָרִיב, בַּעַל דִּין",
+        "source": "lane",
+        "variants": [
+          "כ'צמך"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2880-20",
+        "lemma_ja": "רעתם",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "their evil (Heb., 'u-ve-et raatam yomru kumah ve-hoshienu')",
+        "gloss_he": "רָעָתָם — לשון הקודש מובאת בבחיי",
+        "source": "lane",
+        "variants": [
+          "רעתם"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-2880-34-2",
+        "lemma_ja": "עושני",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "my Maker (Heb., 'kim'at she-ani oseni', cf. Job 32:22)",
+        "gloss_he": "עֹשֵׂנִי — איוב לב:כב",
+        "source": "lane",
+        "variants": [
+          "עושני"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-3015-24",
+        "lemma_ja": "שברו",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "its interpretation (Judg. 7:15)",
+        "gloss_he": "שִׁבְרוֹ (פִּתְרוֹנוֹ; שופטים ז:טו)",
+        "source": "lane",
+        "variants": [
+          "שברו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-3015-27",
+        "lemma_ja": "הגיענו",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "our reaching / until we come (1 Sam. 14:9)",
+        "gloss_he": "הַגִּיעֵנוּ (שמואל א יד:ט)",
+        "source": "lane",
+        "variants": [
+          "הגיענו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-3015-30",
+        "lemma_ja": "כלים",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his weapons/armor (kelav, 1 Sam. 14:1); also 'his kidneys' (kelayot)",
+        "gloss_he": "כֵּלָיו (נֹשֵׂא כֵּלָיו; שמואל א יד:א)",
+        "source": "lane",
+        "variants": [
+          "כליו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-3105-40",
+        "lemma_ja": "תזכיה",
+        "lemma_ar": "تَزْكِيَة",
+        "root": "z-k-w",
+        "pos": "noun",
+        "gloss_en": "purification, justification, attesting to integrity (with 3mp suffix: their purification/vindication)",
+        "gloss_he": "טִהוּר, זִכּוּי, הַעֲדָפָה לִזְכוּת",
+        "source": "lane",
+        "variants": [
+          "ותזכיתהם",
+          "תזכיה"
+        ],
+        "_signals": [
+          "gloss:suffix",
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-315-6-3",
+        "lemma_ja": "מעשהו",
+        "lemma_ar": "מַעֲשֵׂהוּ",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his deed; Hebrew, 'you repay a man according to his deed' (Ps. 62:13)",
+        "gloss_he": "כְּמַעֲשֵׂהוּ (תהלים סב:יג); אַנְשֵׁי מַעֲשֵׂהוּ (איוב לד) — מובאה עברית, מעשהו",
+        "source": "lane",
+        "variants": [
+          "כמעשהו",
+          "במעשהו",
+          "מעשהו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-315-15-3",
+        "lemma_ja": "אויביו",
+        "lemma_ar": "אוֹיְבָיו",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his enemies; Hebrew, 'even his enemies he makes at peace with him' (Prov. 16:7)",
+        "gloss_he": "גַּם אוֹיְבָיו יַשְׁלִם אִתּוֹ (משלי טז:ז) — מובאה עברית",
+        "source": "lane",
+        "variants": [
+          "אויביו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-315-33-3",
+        "lemma_ja": "ארדת",
+        "lemma_ar": "أَرَدْتُ",
+        "root": "r-w-d",
+        "pos": "verb",
+        "gloss_en": "I wished, I wanted (perfect 1sg of arāda, form IV)",
+        "gloss_he": "רָצִיתִי, בִּקַּשְׁתִּי",
+        "source": "lane",
+        "variants": [
+          "ארדת",
+          "וארדת"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-315-38-2",
+        "lemma_ja": "נזארה",
+        "lemma_ar": "نَزَارَة",
+        "root": "n-z-r",
+        "pos": "noun",
+        "gloss_en": "smallness, scantiness, paucity (with suffix: its scantiness)",
+        "gloss_he": "מִעוּט, דַּלּוּת (נְזָארָתֹה — מִעוּטוֹ)",
+        "source": "lane",
+        "variants": [
+          "ונזארתה",
+          "נזארה",
+          "נזארתה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-315-42-3",
+        "lemma_ja": "יג'תמע",
+        "lemma_ar": "يَجْتَمِع",
+        "root": "j-m-ʕ",
+        "pos": "verb",
+        "gloss_en": "it gathers/combines, comes together (imperfect, form VIII)",
+        "gloss_he": "מִתְאַסֵּף, מִצְטָרֵף יַחַד",
+        "source": "lane",
+        "variants": [
+          "יג'תמע"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-360-38-3",
+        "lemma_ja": "פראק",
+        "lemma_ar": "فِرَاق",
+        "root": "f-r-q",
+        "pos": "noun",
+        "gloss_en": "parting, separation (with suffix: parting from it/him)",
+        "gloss_he": "פְּרִידָה, הִפָּרְדוּת (פראקה — הפרידה ממנו)",
+        "source": "lane",
+        "variants": [
+          "פראקה",
+          "פראק",
+          "אלפראק",
+          "בפראקה",
+          "לפראקה"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-405-32-2",
+        "lemma_ja": "ישרי",
+        "lemma_ar": "يَشْرِي",
+        "root": "sh-r-y",
+        "pos": "verb",
+        "gloss_en": "to buy; to sell (here imperfect, to purchase/barter)",
+        "gloss_he": "לִקְנוֹת; לִמְכֹּר",
+        "source": "lane",
+        "variants": [
+          "ולישרי",
+          "ישרי"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-585-11-3",
+        "lemma_ja": "מסאוי",
+        "lemma_ar": "مَسَاوِئ",
+        "root": "s-w-ʾ",
+        "pos": "noun",
+        "gloss_en": "faults, evil deeds, defects (plural of masāʾa/sūʾ); here masāwiʾhum 'their faults' + suffix",
+        "gloss_he": "מגרעות, מעשׂים רעים, חסרונות",
+        "source": "lane",
+        "variants": [
+          "מסאויהם",
+          "למסאויהם",
+          "ולמסאוי"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-630-36-3",
+        "lemma_ja": "תכריר",
+        "lemma_ar": "تَكْرِير",
+        "root": "k-r-r",
+        "pos": "noun",
+        "gloss_en": "repetition, repeating (+ suffix -hā)",
+        "gloss_he": "חזרה, שינון",
+        "source": "lane",
+        "variants": [
+          "תכרירהא",
+          "תכרירך"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-720-5-3",
+        "lemma_ja": "תחדת'",
+        "lemma_ar": "تَحْدُث",
+        "root": "ḥ-d-th",
+        "pos": "verb",
+        "gloss_en": "it occurs, comes to be, arises (3fs imperf.)",
+        "gloss_he": "מִתְהַוֶּה, מִתְחַדֵּשׁ",
+        "source": "lane",
+        "variants": [
+          "תחדת"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-720-31-2",
+        "lemma_ja": "אביו",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his father (Heb.); from Lev. 19:3, \"איש אמו ואביו תיראו\"",
+        "gloss_he": "וְאָבִיו — ויקרא יט:ג",
+        "source": "lane",
+        "variants": [
+          "ואביו",
+          "אביו"
+        ],
+        "_signals": [
+          "gloss:possessive"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-720-39-3",
+        "lemma_ja": "יבדו",
+        "lemma_ar": "يَبْدُو",
+        "root": "b-d-w",
+        "pos": "verb",
+        "gloss_en": "it appears, becomes visible (3ms imperf. of badā)",
+        "gloss_he": "נִרְאֶה, נִגְלֶה (עָתִיד נִסְתָּר)",
+        "source": "lane",
+        "variants": [
+          "יבדו"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-765-30-2",
+        "lemma_ja": "את'אב",
+        "lemma_ar": "أَثَابَ",
+        "root": "ث-w-b",
+        "pos": "verb",
+        "gloss_en": "to reward, recompense (here with suffix: to reward him)",
+        "gloss_he": "לִגְמֹל, לְשַׁלֵּם שָׂכָר, לְהָשִׁיב גְּמוּל (כָּאן: לִגְמֹל אוֹתוֹ)",
+        "source": "lane",
+        "variants": [
+          "לית'יבה",
+          "ית'יבה",
+          "את'אב",
+          "ית'יב",
+          "ית'יבהם",
+          "ית'אב"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-810-18",
+        "lemma_ja": "תערב",
+        "lemma_ar": "تَعَرَّبَ",
+        "root": "ʕ-r-b",
+        "pos": "verb",
+        "gloss_en": "to become Arabized; to be expressed/Arabicized in language (imperfect)",
+        "gloss_he": "התערב/הפך לערבית, נאמר בלשון ערבית",
+        "source": "lane",
+        "variants": [
+          "תתערב"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-810-39-2",
+        "lemma_ja": "כ'סר",
+        "lemma_ar": "خَسِرَ",
+        "root": "x-s-r",
+        "pos": "verb",
+        "gloss_en": "to lose, suffer loss, be a loser (3ms imperfect, prefixed wa-: and he loses)",
+        "gloss_he": "הִפְסִיד, אִבֵּד, יָצָא נפסד",
+        "source": "lane",
+        "variants": [
+          "ויכ'סר",
+          "וכ'סר"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-855-8",
+        "lemma_ja": "יחצ'י",
+        "lemma_ar": "يَحْظَى",
+        "root": "ḥ-ẓ-w",
+        "pos": "verb",
+        "gloss_en": "to attain favor, win regard, gain (imperfect of ḥaẓiya)",
+        "gloss_he": "זוכה, מתחבב, נושא חן",
+        "source": "lane",
+        "variants": [
+          "יחצ'י"
+        ],
+        "_signals": [
+          "gloss:conjugation"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      },
+      {
+        "id": "adv-b-r1-90-22",
+        "lemma_ja": "אותם",
+        "lemma_ar": "اوتم",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "Hebrew 'them' (obj. marker + suffix) (Deut 18:14 'אשר אתה יורש אותם')",
+        "gloss_he": "עברית: אותם (דברים יח:יד)",
+        "source": "lane",
+        "variants": [
+          "אותם"
+        ],
+        "_signals": [
+          "gloss:suffix"
+        ],
+        "_shorter_variants": [],
+        "_tier": "B"
+      }
+    ]
+  },
+  "overlays": {}
+}

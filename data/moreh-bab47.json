@@ -1,0 +1,109 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 47 — Spatial Prepositions Applied to God",
+  "section_ja": "אלג'ז אלאול · אלפצל ארבעים ושבעה",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Scripture uses expressions like 'above,' 'below,' 'between,' and 'upon' when speaking of God. Maimonides argues that these are all metaphorical borrowings: what appears to imply spatial location in fact conveys relational or hierarchical meaning. 'Above' signifies superiority of rank; 'below' signifies being supervised or protected; none of these prepositions carries any implication that God occupies physical space.\n\nThe chapter continues the project of the preceding chapters: showing why certain terms are attributed to God and others are not. The governing principle is that Scripture appropriates only those expressions that the multitude can receive as indicating some kind of perfection or dignity — even if the ultimate truth is that no literal spatial relation holds between God and anything in the world.\n\nAt the close Maimonides notes that this same principle governs internal perceptions as well: God is attributed 'thought' (maḥshavah) and 'understanding' (tevunah), which the multitude associates with the intellect, but never 'imagination' (raʿyon), which is associated with deficiency. In truth, at the level of strict philosophical analysis, none of these terms applies literally.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 3
+  },
+  "terms": [
+    {
+      "id": "istiara",
+      "ja": "אסתעאר",
+      "ar": "استعار",
+      "translit": "istaʿāra",
+      "gloss": "to borrow (a term), use metaphorically",
+      "note": "The key verb throughout: Scripture 'borrows' or 'appropriates' terms for God that would in their literal use imply bodiliness, but which in their metaphorical sense can convey legitimate attributes.",
+      "variants": ["אסתעירת", "אסתעארה", "אסתעיר"]
+    },
+    {
+      "id": "nuqs",
+      "ja": "נקץ",
+      "ar": "نقص",
+      "translit": "nuqṣ",
+      "gloss": "deficiency, imperfection",
+      "note": "The criterion for whether a term may be applied to God: anything the multitude perceives as implying deficiency is excluded; anything perceivable as a perfection may be borrowed.",
+      "variants": ["נקצא"]
+    },
+    {
+      "id": "idrak",
+      "ja": "אדראך",
+      "ar": "إدراك",
+      "translit": "idrāk",
+      "gloss": "perception, apprehension",
+      "note": "Used broadly for all cognitive contact with an object — sensory or intellectual. The chapter argues that all five senses are equally 'deficient' as categories of divine perception; only certain ones are attributed to God because their attribution misleads less.",
+      "variants": ["ידרך", "תדרך", "אדראכהא"]
+    },
+    {
+      "id": "khiyal",
+      "ja": "כ'יאל",
+      "ar": "خيال",
+      "translit": "khayāl",
+      "gloss": "imagination, fancy",
+      "note": "Maimonides contrasts khayāl (imagination) with fikr/fahm (rational thought). God is not attributed raʿyon (the Hebrew equivalent of imagination/fancy) but is attributed maḥshavah and tevunah, which the multitude associates with intellect.",
+      "variants": ["תכ'יל", "אלמתכ'יל", "אלכ'יאל"]
+    },
+    {
+      "id": "hawass",
+      "ja": "אלחואס",
+      "ar": "الحواس",
+      "translit": "al-ḥawāss",
+      "gloss": "the senses",
+      "note": "All five senses are, in Maimonides' analysis, equally deficient as forms of perception — they are passive, receptive, and dependent on physical contact or distance. The chapter explains why Scripture attributes hearing, sight, and smell to God but never taste or touch.",
+      "variants": ["חסאהֵ", "חאסה"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל ארבעים ושבעה",
+          "en": "Part One · Chapter Forty-Seven — Spatial Prepositions Applied to God",
+          "isHeader": true
+        },
+        {
+          "ja": "קד ד'כרנא מראת אן כל מא יתכ'ילה אלג'מהור נקצא או לא ימכן תצורה פי חק אללה פלם תסתערה כתב אלנבוה לה תעאלי ואן כאן חכמה חכם אלאשיא אלתי אסתעירת לה אד' תלך אלתי וצף בהא תוהם כמאלאת מא או ימכן תכ'ילהא.",
+          "en": "We have mentioned several times that everything the multitude imagines to be a deficiency, or that cannot be conceived in relation to God, has not been borrowed by the books of prophecy for Him, exalted be He — even if its ruling is the same as the ruling of the things that were borrowed for Him; for those things by which He is described give rise to the impression of some perfection, or at least can be imagined as such.",
+          "pairs": [
+            { "ja": "כל מא יתכ'ילה אלג'מהור נקצא", "en": "everything the multitude imagines to be a deficiency" },
+            { "ja": "פלם תסתערה כתב אלנבוה לה תעאלי", "en": "has not been borrowed by the books of prophecy for Him, exalted be He" },
+            { "ja": "תלך אלתי וצף בהא תוהם כמאלאת מא", "en": "those things by which He is described give rise to the impression of some perfection" },
+            { "ja": "או ימכן תכ'ילהא", "en": "or at least can be imagined as such" }
+          ]
+        },
+        {
+          "ja": "פינבגי בחסב הד'א אלתקריר אן נבין לאי שי אסתעיר לה תעאלי אלסמע ואלבצר ואלשם ולם יסתער לה אלד'וק ואללמס וחכם תרפעה תעאלי ען אלחואס אלכ'מס ואחד ואלחואס כלהא נקץ באעתבאר אלאדראך ולו למן לא ידרך אלא בהא לכונהא מנפעלה מתאת'רה מנקטעה מתאלמה כסאיר אלאלאת ומעני קולנא אנה תעאלי בציר אי ידרך אלמבצראת וסמיע אי ידרך אלמסמועאת כד'לך כאן יוצף באלד'וק ואללמס ויתאול פיה אנה ידרך אלמטעומאת ואלמלמוסאת אד' חכם אדראכהא כלהא ואחד ואן סלב ענה אדראך אחדאהא לזם סלב אדראכהא כלהא אעני אלכ'מס חואס ואן אוג'ב לה אדראך אחדאהא אעני אדראך מא תדרכה חאסה מנהא לזם אן ידרך ג'מיע מדרכאתהא אלכ'מס. ווג'דנא כתבנא קאלת וירא י״י וישמע י״י וירח י״י ולם תקל ויטעם י״י ולא קאלת וימשש י״י ועלהֵ ד'לך מא קד אסתקר פי כ'יאל כל ואחד מן אן אללה לא ילקי אלאג'סאם לקא אלג'סם ללג'סם לאנהם הוד'אהם לא ירונה והאתאן אלחאסתאן אעני אלד'וק ואללמס לא תדרך מחסוסאתהא חתי תמאסהא אמא חסאהֵ אלבצר ואלסמע ואלשם פתדרך מחסוסאתהא ותלך אלאג'ראם אלחאמלה לתלך אלכיפיאת מנהא עלי בעד פכאן ד'לך סאיגא פי כ'יאל אלג'מהור. ואיצ'א פאן אלגרץ' ואלקצד באסתעארהֵ הד'ה אלחואס לה ללדאלאלה עלי אדראכה אפעאלנא ואלסמע ואלבצר כאף פי ד'לך אעני אן ידרך בה כל מא יפעל אלגיר או יקולה כמא קאלוא עלי ג'ההֵ אלזג'ר ואלרדע פי מערץ' אלועט' דע מה למעלה ממך עין רואה ואזן שומעת.",
+          "en": "It is therefore necessary, on the basis of this account, that we explain why hearing, sight, and smell were borrowed for Him, exalted be He, but taste and touch were not — even though, with respect to His transcendence above the five senses, the ruling is one and the same, since all the senses are deficient as a mode of perception, even for one who perceives only by them, because they are passive, receptive, discontinuous, and susceptible to pain, like all other instruments. When we say that He, exalted be He, is 'seeing' — meaning He perceives visible things — and 'hearing' — meaning He perceives audible things — so likewise one might attribute to Him taste and touch and interpret them as meaning that He perceives flavors and tangible things, since the ruling of perceiving all of them is one; and if perception by one of the senses is denied of Him, then denial of perception by all of them — the five senses — is entailed; and if perception by one of them is affirmed of Him — meaning perception of what a given sense perceives — then it is entailed that He perceives all the objects of all five. Yet we find that our books say 'and the Lord saw,' 'and the Lord heard,' 'and the Lord smelled,' but do not say 'and the Lord tasted,' nor do they say 'and the Lord touched.' The reason for this is what has become settled in everyone's imagination: that God does not encounter bodies as body encounters body, for they in their guidance were told they would not see Him. These two senses — taste and touch — cannot perceive their objects until they make contact with them, whereas the sense of sight, hearing, and smell perceive their objects while the bodies bearing those qualities are at a distance from them, and that was passable in the imagination of the multitude. Furthermore, the purpose and intent of borrowing these senses for Him — to indicate His perception of our actions — is sufficiently served by hearing and sight, meaning by them that He perceives everything another does or says, as they said by way of deterrence and restraint in the context of moral instruction: 'Know what is above you — an eye that sees and an ear that hears' (Avot 2:1).",
+          "pairs": [
+            { "ja": "לאי שי אסתעיר לה תעאלי אלסמע ואלבצר ואלשם", "en": "why hearing, sight, and smell were borrowed for Him, exalted be He" },
+            { "ja": "ולם יסתער לה אלד'וק ואללמס", "en": "but taste and touch were not" },
+            { "ja": "אלחואס כלהא נקץ באעתבאר אלאדראך", "en": "all the senses are deficient as a mode of perception" },
+            { "ja": "לכונהא מנפעלה מתאת'רה מנקטעה מתאלמה", "en": "because they are passive, receptive, discontinuous, and susceptible to pain" },
+            { "ja": "אנה תעאלי בציר אי ידרך אלמבצראת", "en": "He, exalted be He, is 'seeing' — meaning He perceives visible things" },
+            { "ja": "חסאהֵ אלבצר ואלסמע ואלשם פתדרך מחסוסאתהא ותלך אלאג'ראם אלחאמלה לתלך אלכיפיאת מנהא עלי בעד", "en": "the sense of sight, hearing, and smell perceive their objects while the bodies bearing those qualities are at a distance from them" },
+            { "ja": "דע מה למעלה ממך עין רואה ואזן שומעת", "en": "Know what is above you — an eye that sees and an ear that hears" }
+          ]
+        },
+        {
+          "ja": "ואנת תעלם ענד אלתחקיק אן חכם אלכל חכם ואחד ואן באלג'הה אלתי אנתפי ענה אדראך אללמס ואלד'וק בתלך אלג'הה בעינהא תנתפי אלרויה ואלסמע ואלשם אד' אלכל אדראכאת ג'סמאניה ואנפעאלאת ואחואל מתגירה לכן בעצ'הא יבדו נקצה ובעצ'הא יט'ן בהא כמאל כמא ט'הר נקץ אלתכ'יל ולם יט'הר נקץ אלתפכר ואלתפהם פלם יסתער לה רעיון אלד'י הו אלתכ'יל ואסתעיר לה מחשבה ותבונה אלתי הי אלפכרה ואלפהם וקיל אשר חשב י״י ובתבונתו נטה שמים פקד ג'רי אלאמר איצ'א פי אלאדראכאת אלבאטנה מת'ל מא ג'רי פי אלאדראכאת אלחסיה אלט'אהרה מן כון בעצ'הא יסתעאר ובעצ'הא לא יסתעאר וכל ד'לך כלשון בני אדם מא ט'נוא בה כמאלא וצף בה ומא הו באדי אלנקץ לם יוצף בה וענד אלתחקיק פלא צפה ד'אתיה חקיקיה לה זאידה עלי ד'אתה כמא יתברהן.",
+          "en": "You will know, upon careful investigation, that the ruling concerning all of them is one and the same — and that by the very same consideration by which the perception of touch and taste is negated of Him, by that very same consideration the perception of sight, hearing, and smell is also negated, since all of these are corporeal perceptions, passive states, and changeable conditions. Yet some of them appear deficient while others appear to be a perfection, just as the deficiency of imagination became apparent while the deficiency of rational thought and understanding did not. Therefore 'raʿyon' — which is imagination — was not borrowed for Him, but 'maḥshavah' and 'tevunah' — which are rational thought and understanding — were borrowed for Him, and it is said, 'that which the Lord planned' and 'by His understanding He stretched out the heavens' (Jer 10:12). So the matter proceeds with the internal perceptions as it proceeds with the external sensory perceptions — some are borrowed and some are not. All of this is 'the language of human beings': whatever they supposed to be a perfection is attributed to Him; whatever is patently deficient is not attributed to Him. Yet upon deep investigation, there is no real essential attribute belonging to Him beyond His essence, as will be demonstrated.",
+          "pairs": [
+            { "ja": "חכם אלכל חכם ואחד", "en": "the ruling concerning all of them is one and the same" },
+            { "ja": "אלכל אדראכאת ג'סמאניה ואנפעאלאת ואחואל מתגירה", "en": "all of these are corporeal perceptions, passive states, and changeable conditions" },
+            { "ja": "בעצ'הא יבדו נקצה ובעצ'הא יט'ן בהא כמאל", "en": "some of them appear deficient while others appear to be a perfection" },
+            { "ja": "פלם יסתער לה רעיון אלד'י הו אלתכ'יל", "en": "Therefore 'raʿyon' — which is imagination — was not borrowed for Him" },
+            { "ja": "ואסתעיר לה מחשבה ותבונה אלתי הי אלפכרה ואלפהם", "en": "but 'maḥshavah' and 'tevunah' — which are rational thought and understanding — were borrowed for Him" },
+            { "ja": "כלשון בני אדם מא ט'נוא בה כמאלא וצף בה", "en": "All of this is 'the language of human beings': whatever they supposed to be a perfection is attributed to Him" },
+            { "ja": "ענד אלתחקיק פלא צפה ד'אתיה חקיקיה לה זאידה עלי ד'אתה", "en": "upon deep investigation, there is no real essential attribute belonging to Him beyond His essence" }
+          ]
+        }
+      ]
+    }
+  ]
+}

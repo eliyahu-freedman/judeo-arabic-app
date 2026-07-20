@@ -1,0 +1,210 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 40 — Ruach: Wind, Breath, Spirit, and the Divine Overflow",
+  "section_ja": "אלג'ז אלאול · אלפצל ארבעים",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 40 treats the Hebrew word ruach (רוח), which Maimonides identifies as carrying at least six distinct senses: (1) the element of air; (2) wind as atmospheric phenomenon; (3) the animal spirit — the vital breath that animates a living creature; (4) the residual part of the human being that survives death, which is not subject to corruption; (5) the divine intellectual overflow that descends upon the prophets, enabling their prophecy; and (6) purpose or will.\n\nThe fifth sense is philosophically central to the chapter's place in the Guide. The divine ruach that rests upon the prophets is the same intellectual overflow (fayḍ ʿaqlī ilāhī) that Maimonides will later identify with the Active Intellect's emanation. The sixth sense — ruach as will or intent — allows Maimonides to read several passages about 'God's ruach' not as descriptions of a divine substance but as expressions of divine purpose ordering the cosmos. The chapter thus bridges the Guide's lexical survey with its later philosophical accounts of prophecy and divine governance.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 7
+  },
+  "terms": [
+    {
+      "id": "ruach",
+      "ja": "רוח",
+      "translit": "rūaḥ",
+      "gloss": "wind; breath; spirit; divine overflow",
+      "note": "The chapter's subject — one of the most semantically rich words in the Hebrew Bible. Every ruach attributed to God falls under the fifth sense (intellectual overflow to prophets) or the sixth sense (will/purpose).",
+      "variants": [
+        "אלרוח",
+        "רוחו"
+      ]
+    },
+    {
+      "id": "fayd-aqli",
+      "ja": "אלפיץ' אלעקלי אלאלאהי",
+      "ar": "الفيض العقلي الإلهي",
+      "translit": "al-fayḍ al-ʿaqlī al-ilāhī",
+      "gloss": "the divine intellectual overflow",
+      "note": "The fifth sense of ruach: the emanation that descends on the prophets enabling prophecy. This is Maimonides' bridge from the lexical chapter to his later theory of prophecy.",
+      "variants": [
+        "פיץ'"
+      ]
+    },
+    {
+      "id": "al-hawa",
+      "ja": "אלהוא",
+      "ar": "الهواء",
+      "translit": "al-hawāʾ",
+      "gloss": "air (the element)",
+      "note": "The first sense of ruach — the elemental air. 'And the spirit of God hovered over the face of the waters' (Gen 1:2) is taken here in the elemental sense.",
+      "variants": [
+        "הוא"
+      ]
+    },
+    {
+      "id": "al-irada-sixth",
+      "ja": "אלגרץ' ואלאראדה",
+      "ar": "الغرض والإرادة",
+      "translit": "al-gharaḍ wa-l-irāda",
+      "gloss": "purpose and will",
+      "note": "The sixth sense of ruach attributed to God. 'The spirit of the Lord spoke in me' becomes an expression of divine purposive ordering, not a description of a divine substance or organ.",
+      "variants": [
+        "גרצ'ה",
+        "אראדתה"
+      ]
+    },
+    {
+      "id": "nubuwwa",
+      "ja": "אלנבוה",
+      "ar": "النبوة",
+      "translit": "al-nubuwwa",
+      "gloss": "prophecy",
+      "note": "The context for the fifth sense of ruach. Maimonides promises a fuller discussion 'when we speak of prophecy' — a pointer to Part II of the Guide.",
+      "variants": [
+        "נביין"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל ארבעים",
+          "en": "Part One · Chapter Forty — Ruach: Wind, Breath, Spirit, and the Divine Overflow",
+          "isHeader": true
+        },
+        {
+          "ja": "רוח אסם משתרך. הו אסם אלהוא אעני אלרכן מן ארבעהֵ אלארכאן ורוח אלהים מרחפת.",
+          "en": "Ruach is an equivocal term. It is the name for air — I mean the element, one of the four elements: 'and the spirit of God hovered' (Gen 1:2).",
+          "pairs": [
+            {
+              "ja": "רוח אסם משתרך",
+              "en": "Ruach is an equivocal term"
+            },
+            {
+              "ja": "הו אסם אלהוא אעני אלרכן מן ארבעהֵ אלארכאן",
+              "en": "It is the name for air — I mean the element, one of the four elements"
+            },
+            {
+              "ja": "ורוח אלהים מרחפת",
+              "en": "and the spirit of God hovered"
+            }
+          ]
+        },
+        {
+          "ja": "והו איצ'א אסם אלריח אלהאבה ורוח הקדים נשא את הארבה רוח ים והד'א כת'יר.",
+          "en": "And it is also the name for wind as it blows: 'the east wind carried the locusts' (Ex 10:13); 'the sea wind' (Ex 10:19) — and this is frequent.",
+          "pairs": [
+            {
+              "ja": "והו איצ'א אסם אלריח אלהאבה",
+              "en": "And it is also the name for wind as it blows"
+            },
+            {
+              "ja": "ורוח הקדים נשא את הארבה",
+              "en": "the east wind carried the locusts"
+            }
+          ]
+        },
+        {
+          "ja": "והו איצ'א אסם אלרוח אלחיואני רוח הולך ולא ישוב אשר בו רוח חיים.",
+          "en": "And it is also the name for the animal spirit: 'a breath that goes and does not return' (Ps 78:39); 'in which was the breath of life' (Gen 7:15).",
+          "pairs": [
+            {
+              "ja": "והו איצ'א אסם אלרוח אלחיואני",
+              "en": "And it is also the name for the animal spirit"
+            },
+            {
+              "ja": "רוח הולך ולא ישוב",
+              "en": "a breath that goes and does not return"
+            },
+            {
+              "ja": "אשר בו רוח חיים",
+              "en": "in which was the breath of life"
+            }
+          ]
+        },
+        {
+          "ja": "והו איצ'א אסם אלשי אלד'י יבקי מן אלאנסאן בעד אלמות אלד'י לא ילחקה אלפסאד והרוח תשוב אל האלהים אשר נתנה.",
+          "en": "And it is also the name for that which remains of the human being after death, which is not subject to corruption: 'and the spirit returns to God who gave it' (Eccl 12:7).",
+          "pairs": [
+            {
+              "ja": "והו איצ'א אסם אלשי אלד'י יבקי מן אלאנסאן בעד אלמות אלד'י לא ילחקה אלפסאד",
+              "en": "And it is also the name for that which remains of the human being after death, which is not subject to corruption"
+            },
+            {
+              "ja": "והרוח תשוב אל האלהים אשר נתנה",
+              "en": "and the spirit returns to God who gave it"
+            }
+          ]
+        },
+        {
+          "ja": "והו איצ'א אסם אלפיץ' אלעקלי אלאלאהי אלד'י יפיץ' עלי אלנביין פיתנבאון בה כמא נבין לך ענד כלאמנא פי אלנבוה במא יליק אן יד'כר פי הד'ה אלמקאלה ואצלתי מן הרוח אשר עליך ושמתי עליהם ויהי כנוח עליהם הרוח רוח י״י דבר בי והד'א כת'יר.",
+          "en": "And it is also the name for the divine intellectual overflow that overflows upon the prophets, and by which they prophesy — as I shall explain to you when I speak of prophecy, with what befits mention in this part: 'I will take of the spirit that is upon you and will put it upon them' (Num 11:17); 'and it came to pass when the spirit rested upon them' (Num 11:25); 'the spirit of the Lord spoke by me' (2 Sam 23:2) — and this is frequent.",
+          "pairs": [
+            {
+              "ja": "והו איצ'א אסם אלפיץ' אלעקלי אלאלאהי אלד'י יפיץ' עלי אלנביין פיתנבאון בה",
+              "en": "And it is also the name for the divine intellectual overflow that overflows upon the prophets, and by which they prophesy"
+            },
+            {
+              "ja": "ואצלתי מן הרוח אשר עליך ושמתי עליהם",
+              "en": "I will take of the spirit that is upon you and will put it upon them"
+            },
+            {
+              "ja": "ויהי כנוח עליהם הרוח",
+              "en": "and it came to pass when the spirit rested upon them"
+            },
+            {
+              "ja": "רוח י״י דבר בי",
+              "en": "the spirit of the Lord spoke by me"
+            }
+          ]
+        },
+        {
+          "ja": "והו איצ'א אסם אלגרץ' ואלאראדה כל רוחו יוציא כסיל גרצ'ה ואראדתה. ומת'לה ונבקה רוח מצרים בקרבו ועצתו אבלע יקול תתשתת אגראצ'ה ותדבירה יכ'פי. ומת'לה מי תכן את רוח י״י ואיש עצתו יודיענו יקול מן הו אלד'י יעלם אנתט'אם אראדתה או ידרך תדבירה ללוג'וד כיף הו פיעלמנא בה כמא סנבין פי פצול תאתי פי אלתדביר.",
+          "en": "And it is also the name for purpose and will: 'a fool lays bare all his spirit' (Prov 29:11) — meaning: his purpose and will. Similar to it: 'the spirit of Egypt shall be emptied from within it and I will swallow up its counsel' (Is 19:3) — meaning: its purposes will be shattered and its planning concealed. Similar to it: 'who has measured the spirit of the Lord, and what man of His counsel informs Him?' (Is 40:13) — meaning: who is it that knows the ordering of His will, or apprehends His governance of existence as it is, so as to inform us of it? — as we shall explain in chapters to come on governance.",
+          "pairs": [
+            {
+              "ja": "והו איצ'א אסם אלגרץ' ואלאראדה",
+              "en": "And it is also the name for purpose and will"
+            },
+            {
+              "ja": "כל רוחו יוציא כסיל גרצ'ה ואראדתה",
+              "en": "meaning: his purpose and will"
+            },
+            {
+              "ja": "ונבקה רוח מצרים בקרבו ועצתו אבלע",
+              "en": "the spirit of Egypt shall be emptied from within it and I will swallow up its counsel"
+            },
+            {
+              "ja": "מי תכן את רוח י״י ואיש עצתו יודיענו",
+              "en": "who has measured the spirit of the Lord, and what man of His counsel informs Him?"
+            }
+          ]
+        },
+        {
+          "ja": "פכל רוח מנסובה ללה פהי בחסב אלמעני אלכ'אמס ובעצ'הא בחסב אלמעני אלאכ'יר אלד'י הו אלאראדה כמא בינא ישרח פי כל מוצ'ע בחסב מא ידל עליה ד'לך אלכלאם:",
+          "en": "Every ruach attributed to God falls under the fifth sense, and some of them under the final sense, which is will — as I have explained. Each passage is to be interpreted according to what that text indicates.",
+          "pairs": [
+            {
+              "ja": "פכל רוח מנסובה ללה פהי בחסב אלמעני אלכ'אמס",
+              "en": "Every ruach attributed to God falls under the fifth sense"
+            },
+            {
+              "ja": "ובעצ'הא בחסב אלמעני אלאכ'יר אלד'י הו אלאראדה",
+              "en": "and some of them under the final sense, which is will"
+            },
+            {
+              "ja": "ישרח פי כל מוצ'ע בחסב מא ידל עליה ד'לך אלכלאם",
+              "en": "Each passage is to be interpreted according to what that text indicates"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

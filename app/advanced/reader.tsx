@@ -5,6 +5,7 @@ import Link from "next/link";
 import { lookup, tokenizeJa, type Entry } from "@/lib/lookup";
 import { lookupWorkNote, type WorkNote } from "@/lib/workNotes";
 import { arabicToJa } from "@/lib/arabicToJa";
+import { LAYER_LABELS, type ChapterXrefs, type XrefEntry } from "@/lib/mishnahXrefs";
 import {
   resolveVerseAlignment,
   sliceByGroups,
@@ -29,6 +30,8 @@ export type AlignedSegment = {
   pairs?: AlignmentPair[];
   /** Authoring hint: which key terms appear here. Marking uses the work-level index. */
   terms?: TermRef[];
+  /** Footnote definitions for [^N] markers embedded in `en`. Key is the number as a string. */
+  fn?: Record<string, string>;
 };
 
 export type WorkPage = {
@@ -68,7 +71,7 @@ export type WorkData = {
 };
 
 /** Which segment+group is currently hovered, scoped by a per-segment key. */
-type HoveredGroup = { segId: string; groupId: number };
+type HoveredGroup = { segId: string; groupId: number; fraction: number | null };
 
 /**
  * Optional multi-chapter navigation. When present, the reader renders an inline
@@ -98,16 +101,23 @@ export function AdvancedReader({
   data,
   nav,
   tibbon,
+  tibbonLabel,
+  xrefs,
 }: {
   data: WorkData;
   nav?: ReaderNav;
-  /** Optional chapter-level Hebrew translation (Ibn Tibbon) shown as a layer. */
+  /** Optional chapter-level Hebrew translation shown as a layer. */
   tibbon?: string[];
+  /** Label for the Hebrew layer chip (default: "Ibn Tibbon · Hebrew"). */
+  tibbonLabel?: string;
+  /** Optional mishnah-level cross-references for this chapter. */
+  xrefs?: ChapterXrefs;
 }) {
   const [showEnglish, setShowEnglish] = useState(true);
   const [showTibbon, setShowTibbon] = useState(false);
   const hasTibbon = !!tibbon && tibbon.length > 0;
   const [activeToken, setActiveToken] = useState<string | null>(null);
+  const [activeFootnote, setActiveFootnote] = useState<{ n: string; text: string } | null>(null);
   const [hoveredGroup, setHoveredGroup] = useState<HoveredGroup | null>(null);
 
   // Debounce mouseleave clears by a frame: moving between adjacent tokens of
@@ -176,7 +186,7 @@ export function AdvancedReader({
           <ToggleChip
             on={showTibbon}
             onClick={() => setShowTibbon((x) => !x)}
-            label="Ibn Tibbon"
+            label={tibbonLabel ?? "Ibn Tibbon"}
           />
         )}
       </div>
@@ -208,10 +218,12 @@ export function AdvancedReader({
                   jaFont={jaFont}
                   showEnglish={showEnglish}
                   activeToken={activeToken}
-                  onTap={setActiveToken}
+                  onTap={(token) => { setActiveFootnote(null); setActiveToken(token); }}
                   termIndex={termIndex}
                   hoveredGroup={hoveredGroup}
                   onHoverGroup={updateHoveredGroup}
+                  chapterXrefs={xrefs}
+                  onFnClick={(n, text) => { setActiveToken(null); setActiveFootnote({ n, text }); }}
                 />
               ) : (
                 <>
@@ -258,10 +270,12 @@ export function AdvancedReader({
           <aside className="mt-10">
             <div className="rounded-md bg-page border border-ink/10 p-7">
               <h2 className="text-[10px] uppercase tracking-[0.3em] text-muted mb-4 pb-1 border-b border-ink/10">
-                Ibn Tibbon · Hebrew{" "}
-                <span className="normal-case tracking-normal text-ink/40">
-                  (public domain, via Sefaria)
-                </span>
+                {tibbonLabel ?? "Ibn Tibbon · Hebrew"}{" "}
+                {!tibbonLabel && (
+                  <span className="normal-case tracking-normal text-ink/40">
+                    (public domain, via Sefaria)
+                  </span>
+                )}
               </h2>
               <div
                 dir="rtl"
@@ -293,6 +307,13 @@ export function AdvancedReader({
           term={activeTerm}
           workNote={activeWorkNote}
           onClose={() => setActiveToken(null)}
+        />
+      )}
+      {activeFootnote && (
+        <FootnotePanel
+          n={activeFootnote.n}
+          text={activeFootnote.text}
+          onClose={() => setActiveFootnote(null)}
         />
       )}
     </div>
@@ -421,6 +442,8 @@ function AlignedSegments({
   termIndex,
   hoveredGroup,
   onHoverGroup,
+  chapterXrefs,
+  onFnClick,
 }: {
   pageKey: string;
   segments: AlignedSegment[];
@@ -431,21 +454,30 @@ function AlignedSegments({
   termIndex: TermIndex;
   hoveredGroup: HoveredGroup | null;
   onHoverGroup: (g: HoveredGroup | null) => void;
+  chapterXrefs?: ChapterXrefs;
+  onFnClick?: (n: string, text: string) => void;
 }) {
+  let mishnahCount = 0;
   return (
     <div className="space-y-7">
       <p className="text-[10px] uppercase tracking-[0.3em] text-muted -mt-1 mb-1">
         Aligned sentence by sentence
       </p>
       {segments.map((seg, i) => {
+        if (seg.isHeader) mishnahCount++;
+        const segXrefs = seg.isHeader ? (chapterXrefs?.[`m${mishnahCount}`] ?? []) : [];
         const segId = `${pageKey}-${i}`;
         const alignment: VerseAlignment | null = seg.pairs?.length
           ? resolveVerseAlignment("", seg.ja, seg.en, seg.pairs)
           : null;
         const hoveredGroupId =
           hoveredGroup?.segId === segId ? hoveredGroup.groupId : null;
-        const setGroup = (g: number | null) =>
-          onHoverGroup(g === null ? null : { segId, groupId: g });
+        const hoverFraction =
+          hoveredGroup?.segId === segId ? hoveredGroup.fraction : undefined;
+        const setGroupFromJa = (info: { groupId: number; fraction: number } | null) =>
+          onHoverGroup(info === null ? null : { segId, groupId: info.groupId, fraction: info.fraction });
+        const setGroupFromEn = (g: number | null) =>
+          onHoverGroup(g === null ? null : { segId, groupId: g, fraction: null });
         return (
           <div key={i} className={i > 0 ? "pt-6 border-t border-ink/5" : undefined}>
             <p
@@ -460,7 +492,7 @@ function AlignedSegments({
                 onTap={onTap}
                 termIndex={termIndex}
                 alignment={alignment}
-                onHoverGroup={setGroup}
+                onHoverGroup={setGroupFromJa}
               />
             </p>
             {showEnglish && seg.en && (
@@ -472,14 +504,59 @@ function AlignedSegments({
                   text={seg.en}
                   alignment={alignment}
                   hoveredGroupId={hoveredGroupId}
-                  onHoverGroup={setGroup}
+                  hoverFraction={hoverFraction}
+                  onHoverGroup={setGroupFromEn}
+                  onFnClick={onFnClick ? (n) => {
+                    const text = seg.fn?.[n] ?? "";
+                    if (text) onFnClick(n, text);
+                  } : undefined}
                 />
               </p>
             )}
+            {segXrefs.length > 0 && <SourcesPanel entries={segXrefs} />}
           </div>
         );
       })}
     </div>
+  );
+}
+
+function SourcesPanel({ entries }: { entries: XrefEntry[] }) {
+  return (
+    <details className="mt-3 group/xref">
+      <summary className="cursor-pointer list-none flex items-center gap-1.5 select-none text-[11px] uppercase tracking-[0.2em] text-wine/60 hover:text-wine transition-colors">
+        <span className="inline-block text-[10px] transition-transform duration-150 group-open/xref:rotate-90">
+          ▶
+        </span>
+        Sources · {entries.length}
+      </summary>
+      <div className="mt-3 space-y-4 border-l-2 border-wine/20 pl-4">
+        {entries.map((e, i) => (
+          <div key={i}>
+            <div className="flex items-baseline gap-2 flex-wrap mb-1">
+              <span className="text-[10px] uppercase tracking-[0.2em] text-muted">
+                {LAYER_LABELS[e.layer]}
+              </span>
+              {e.sefaria_ref ? (
+                <a
+                  href={`https://www.sefaria.org/${encodeURIComponent(e.sefaria_ref).replace(/%20/g, "_")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-wine hover:underline underline-offset-2"
+                >
+                  {e.source} · {e.ref}
+                </a>
+              ) : (
+                <span className="text-sm text-ink/70">
+                  {e.source} · {e.ref}
+                </span>
+              )}
+            </div>
+            <p className="text-[13px] text-ink/70 leading-relaxed">{e.note}</p>
+          </div>
+        ))}
+      </div>
+    </details>
   );
 }
 
@@ -496,7 +573,7 @@ function JaText({
   onTap: (t: string) => void;
   termIndex: TermIndex;
   alignment: VerseAlignment | null;
-  onHoverGroup: (groupId: number | null) => void;
+  onHoverGroup: (info: { groupId: number; fraction: number } | null) => void;
 }) {
   const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
   const tokens = tokenizeJa(text);
@@ -513,10 +590,10 @@ function JaText({
       {tokens.map((t, i) => {
         const tokenStart = starts[i];
         const tokenEnd = tokenStart + t.text.length;
-        const groupForRange = alignment
-          ? alignment.ja.find((s) => s.start <= tokenStart && s.end >= tokenEnd)
-              ?.groupId ?? null
+        const jaSpan = alignment
+          ? alignment.ja.find((s) => s.start < tokenEnd && s.end > tokenStart) ?? null
           : null;
+        const groupForRange = jaSpan?.groupId ?? null;
         const inHover = i === hoveredIdx && groupForRange !== null;
         if (t.kind === "sep") {
           return <span key={i}>{t.text}</span>;
@@ -530,7 +607,13 @@ function JaText({
             onClick={() => onTap(t.text)}
             onMouseEnter={() => {
               setHoveredIdx(i);
-              if (groupForRange !== null) onHoverGroup(groupForRange);
+              if (groupForRange !== null && jaSpan) {
+                const mid = (tokenStart + tokenEnd) / 2;
+                const fraction = Math.max(0, Math.min(1,
+                  (mid - jaSpan.start) / (jaSpan.end - jaSpan.start)
+                ));
+                onHoverGroup({ groupId: groupForRange, fraction });
+              }
             }}
             onMouseLeave={() => {
               setHoveredIdx(null);
@@ -559,36 +642,92 @@ function JaText({
   );
 }
 
+function proportionalWord(text: string, fraction: number) {
+  const charTarget = Math.round(fraction * (text.length - 1));
+  let wStart = charTarget, wEnd = charTarget;
+  while (wStart > 0 && text[wStart - 1] !== " ") wStart--;
+  while (wEnd < text.length && text[wEnd] !== " ") wEnd++;
+  return (
+    <>
+      {wStart > 0 && <span>{text.slice(0, wStart)}</span>}
+      <span className="bg-amber-100 ring-1 ring-amber-300/60 text-ink rounded-sm">
+        {text.slice(wStart, wEnd)}
+      </span>
+      {wEnd < text.length && <span>{text.slice(wEnd)}</span>}
+    </>
+  );
+}
+
+function renderWithFnMarkers(
+  text: string,
+  onFnClick: ((n: string) => void) | undefined,
+): React.ReactNode {
+  if (!onFnClick || !text.includes("[^")) return text;
+  const parts = text.split(/(\[\^\d+\])/g);
+  if (parts.length === 1) return text;
+  return (
+    <>
+      {parts.map((part, i) => {
+        const m = part.match(/^\[\^(\d+)\]$/);
+        if (m) {
+          return (
+            <sup key={i}>
+              <button
+                type="button"
+                onClick={(e) => { e.stopPropagation(); onFnClick(m[1]); }}
+                className="text-wine text-[10px] font-medium hover:underline underline-offset-2 leading-none cursor-pointer"
+              >
+                {m[1]}
+              </button>
+            </sup>
+          );
+        }
+        return part ? <span key={i}>{part}</span> : null;
+      })}
+    </>
+  );
+}
+
 function EnglishText({
   text,
   alignment,
   hoveredGroupId,
+  hoverFraction,
   onHoverGroup,
+  onFnClick,
 }: {
   text: string;
   alignment: VerseAlignment | null;
   hoveredGroupId: number | null;
+  hoverFraction: number | null | undefined;
   onHoverGroup: (groupId: number | null) => void;
+  onFnClick?: (n: string) => void;
 }) {
   if (!alignment || alignment.en.length === 0) {
-    return <>{text}</>;
+    return <>{renderWithFnMarkers(text, onFnClick)}</>;
   }
   const runs = sliceByGroups(text, alignment.en);
   return (
     <>
       {runs.map((r, i) => {
-        if (r.groupId === null) return <span key={i}>{r.text}</span>;
+        if (r.groupId === null) {
+          return <span key={i}>{renderWithFnMarkers(r.text, onFnClick)}</span>;
+        }
         const inHover = r.groupId === hoveredGroupId;
+        const showProportional =
+          inHover && typeof hoverFraction === "number" && r.text.includes(" ");
         return (
           <span
             key={i}
             onMouseEnter={() => onHoverGroup(r.groupId)}
             onMouseLeave={() => onHoverGroup(null)}
             className={`rounded-sm transition-colors cursor-default ${
-              inHover ? "bg-amber-100 ring-1 ring-amber-300/60 text-ink" : ""
+              inHover && !showProportional ? "bg-amber-100 ring-1 ring-amber-300/60 text-ink" : ""
             }`}
           >
-            {r.text}
+            {showProportional
+              ? proportionalWord(r.text, hoverFraction!)
+              : renderWithFnMarkers(r.text, onFnClick)}
           </span>
         );
       })}
@@ -746,6 +885,37 @@ function WorkNoteBanner({ note }: { note: WorkNote }) {
           {note.attested_in}
         </p>
       )}
+    </div>
+  );
+}
+
+function FootnotePanel({
+  n,
+  text,
+  onClose,
+}: {
+  n: string;
+  text: string;
+  onClose: () => void;
+}) {
+  return (
+    <div className="fixed bottom-0 inset-x-0 z-20 bg-page border-t border-wine/20 shadow-[0_-8px_24px_-12px_rgba(114,47,55,0.2)]">
+      <div className="max-w-3xl mx-auto px-6 py-5">
+        <div className="flex items-center justify-between mb-3">
+          <span className="text-[10px] uppercase tracking-[0.3em] text-muted">
+            Note {n}
+          </span>
+          <button
+            type="button"
+            onClick={onClose}
+            className="text-ink/60 hover:text-wine text-2xl leading-none w-8 h-8 flex items-center justify-center rounded-full hover:bg-wine-50 transition-colors"
+            aria-label="Close"
+          >
+            ×
+          </button>
+        </div>
+        <p className="text-[15px] text-ink/80 leading-relaxed">{text}</p>
+      </div>
     </div>
   );
 }

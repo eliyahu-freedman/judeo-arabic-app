@@ -9,6 +9,8 @@ export function ReturningRail() {
   const { hydrated, streak, lastVisited } = useProgress();
   const showStreak = hydrated && streak.count > 0;
 
+  if (!hydrated || (streak.count === 0 && !lastVisited)) return null;
+
   return (
     <div className="mt-10 pt-6 border-t border-ink/10 text-sm text-ink/70 flex items-center justify-between flex-wrap gap-3">
       <span className="flex items-center gap-3">

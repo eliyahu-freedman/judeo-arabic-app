@@ -1,0 +1,164 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 42 — Ḥayyim and Mawt: Life, Death, and Intellectual Perfection",
+  "section_ja": "אלג'ז אלאול · אלפצל ארבעים ושנים",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 42 is one of the Guide's most philosophically dense lexical chapters. Its ostensible subject is the pair ḥayyim (חיים, life) and mawt (מות, death), but the chapter builds to a radical identification: life in its fullest sense is intellectual perfection; death is its opposite, whether biological or noetic.\n\nMaimonides traces ḥai through its literal sense (the growth-and-sensation life common to all animals) and its applied sense (recovery from near-fatal illness), then argues that Scripture's most important use of 'life' is as a metaphor for the acquisition of true knowledge: 'they are life to those who find them' (Prov 4:22). From this, Maimonides draws the Talmudic dictum 'the righteous are called living even in death; the wicked are called dead even in their lives' — pointing to intellectual or moral perfection as the true criterion of life.\n\nFor the concept of divine life, this means: when Scripture says 'the living God' (El ḥai), this cannot mean biological vitality, which would imply a body. It means the God whose intellection is pure, continuous, and identical with His essence — the highest and most unqualified sense of life.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 4
+  },
+  "terms": [
+    {
+      "id": "ḥayyim",
+      "ja": "חי",
+      "translit": "ḥai / ḥayyim",
+      "gloss": "living; life; intellectual perfection",
+      "note": "When attributed to God, ḥai cannot mean biological life (which would imply a body). It means the intellect in its most perfect and unqualified operation.",
+      "variants": [
+        "חיים",
+        "חיותם",
+        "חיה"
+      ]
+    },
+    {
+      "id": "iqtina-ilm",
+      "ja": "אקתנא אלעלם",
+      "ar": "اقتناء العلم",
+      "translit": "iqtināʾ al-ʿilm",
+      "gloss": "the acquisition of knowledge",
+      "note": "The dominant metaphorical sense of ḥayyim in Scripture: 'life' = the acquisition of true knowledge and correct opinions. The righteous 'live' because they have acquired the intellect; the wicked are 'dead' because they have not.",
+      "variants": [
+        "עלם",
+        "מצאי",
+        "מוצאיהם"
+      ]
+    },
+    {
+      "id": "marad-shadid",
+      "ja": "אלמרץ' אלשדיד",
+      "ar": "المرض الشديد",
+      "translit": "al-maraḍ al-shadīd",
+      "gloss": "severe illness, near-death sickness",
+      "note": "The second sense of ḥai: recovery from severe, near-fatal illness. 'Nabal's heart died within him' (1 Sam 25:37) means he fell into this near-death state, not that he literally died.",
+      "variants": [
+        "מחליו",
+        "חליו"
+      ]
+    },
+    {
+      "id": "ḥayyim-araa",
+      "ja": "אלארא אלצחיחה",
+      "ar": "الآراء الصحيحة",
+      "translit": "al-ārāʾ al-ṣaḥīḥa",
+      "gloss": "correct opinions",
+      "note": "What 'life' (ḥayyim) ultimately means in the metaphorical sense: correct opinions = intellectual perfection. 'Wrong opinions' are correspondingly called 'death.'",
+      "variants": [
+        "אלארא אלפאסדה"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל ארבעים ושנים",
+          "en": "Part One · Chapter Forty-Two — Ḥayyim and Mawt: Life, Death, and Intellectual Perfection",
+          "isHeader": true
+        },
+        {
+          "ja": "חי אסם אלנאמי אלחסאס כל רמש אשר הוא חי. והו אסם אלברו מן אלמרץ' אלשדיד ג'דא ויחי מחליו במחנה עד חיותם וכד'לך בשר חי",
+          "en": "Ḥai is the name for that which grows and senses: 'every creeping thing that lives' (Gen 9:3). And it is the name for one who recovers from very severe illness: 'and he recovered from his sickness' (2 Kgs 8:8); 'in the camp until they recovered' (Josh 5:8); and likewise 'living flesh' (Lev 13:10).",
+          "pairs": [
+            {
+              "ja": "חי אסם אלנאמי אלחסאס",
+              "en": "Ḥai is the name for that which grows and senses"
+            },
+            {
+              "ja": "כל רמש אשר הוא חי",
+              "en": "every creeping thing that lives"
+            },
+            {
+              "ja": "והו אסם אלברו מן אלמרץ' אלשדיד ג'דא",
+              "en": "And it is the name for one who recovers from very severe illness"
+            },
+            {
+              "ja": "ויחי מחליו",
+              "en": "and he recovered from his sickness"
+            }
+          ]
+        },
+        {
+          "ja": "וכד'לך מות אסם אלמות. ואסם אלמרץ' אלשדיד וימת לבו בקרבו והוא היה לאבן יעני שדהֵ מרצ'ה. ולד'לך בין פי בן הצרפית ויהי חליו חזק מאד עד אשר לא נותרה בו נשמה לאנה לו קאל וימת לכאן יחתמל אן יכון מרצ'א שדידא קארב אלמות מת'ל נבל ענד סמאעה אלכ'בר",
+          "en": "Likewise, mawt is the name for death. And it is the name for severe illness: 'and his heart died within him, and he became as stone' (1 Sam 25:37) — meaning: the severity of his sickness. And for this reason it was made explicit regarding the son of the Zarephathite woman: 'and his illness was very severe, until no breath remained in him' (1 Kgs 17:17) — because if it had said 'and he died,' it would be possible to understand it as a severe illness approaching death, like Nabal when he heard the news.",
+          "pairs": [
+            {
+              "ja": "ואסם אלמרץ' אלשדיד",
+              "en": "And it is the name for severe illness"
+            },
+            {
+              "ja": "וימת לבו בקרבו והוא היה לאבן יעני שדהֵ מרצ'ה",
+              "en": "meaning: the severity of his sickness"
+            },
+            {
+              "ja": "ויהי חליו חזק מאד עד אשר לא נותרה בו נשמה",
+              "en": "and his illness was very severe, until no breath remained in him"
+            }
+          ]
+        },
+        {
+          "ja": "וקד קאל בעץ' אלאנדלסיין אנה תעטל נפסה חתי לם ידרך לה נפס אצלא כמא יעתרי בעץ' אלמסכותין ופי אכ'תנאק אלרחם חתי לא יעלם הל הו מית או חי וידום הד'א אלשך אליום ואליומין.",
+          "en": "Some of the Andalusian scholars have said that his vital spirit became dormant, so that no breath could be detected at all — as happens with some who faint, and with suffocation of the womb, until it is not known whether the person is dead or alive, and this uncertainty can last a day or two.",
+          "pairs": [
+            {
+              "ja": "תעטל נפסה חתי לם ידרך לה נפס אצלא",
+              "en": "his vital spirit became dormant, so that no breath could be detected at all"
+            },
+            {
+              "ja": "כמא יעתרי בעץ' אלמסכותין",
+              "en": "as happens with some who faint"
+            },
+            {
+              "ja": "חתי לא יעלם הל הו מית או חי",
+              "en": "until it is not known whether the person is dead or alive"
+            }
+          ]
+        },
+        {
+          "ja": "וקד כת'ר איצ'א אסתעמאל הד'א אלאסם פי מעני אקתנא אלעלם ויהיו חיים לנפשך כי מוצאי מצא חיים כי חיים הם למוצאיהם והד'א כת'יר. ובחסב הד'א סמי אלארא אלצחיחה חיים ואלארא אלפאסדה מות קאל תעאלי ראה נתתי לפניך היום את החיים ואת הטוב וכו' פקד צרח באן אלטוב הו חיים ואלרע הו מות ובינהמא. והכד'א אתאול פי קולה תעאלי למען תחיון נחו מא ג'א אלתפסיר אלמרוי פי קולה למען ייטב לך וכו'. ולשהרהֵ הד'ה אלאסתעארה פי אללגה קאלוא צדיקים אפילו במיתתם קרואים חיים ורשעים אפילו בחייהם קרואים מתים. פאעלם הד'א:",
+          "en": "And the use of this name in the sense of the acquisition of knowledge has become very frequent: 'and they shall be life to your soul' (Prov 3:22); 'for whoever finds me has found life' (Prov 8:35); 'for they are life to those who find them' (Prov 4:22) — and this is frequent. According to this, correct opinions are called ḥayyim and false opinions are called mawt. He, exalted be He, said: 'See, I have set before you today life and the good...' etc. (Deut 30:15) — He has made clear that the good is life and the evil is death, and what is between them. Accordingly I also interpret His saying, exalted be He, 'that you may live' (Deut 4:1) — as in the transmitted interpretation of His saying, 'that it may be well with you' (Deut 4:40) etc. And because this metaphor is well established in the language, they said: 'the righteous are called living even in death; the wicked are called dead even in their lives' (Berakhot 18a). Know this.",
+          "pairs": [
+            {
+              "ja": "וקד כת'ר איצ'א אסתעמאל הד'א אלאסם פי מעני אקתנא אלעלם",
+              "en": "And the use of this name in the sense of the acquisition of knowledge has become very frequent"
+            },
+            {
+              "ja": "כי מוצאי מצא חיים",
+              "en": "for whoever finds me has found life"
+            },
+            {
+              "ja": "סמי אלארא אלצחיחה חיים ואלארא אלפאסדה מות",
+              "en": "correct opinions are called ḥayyim and false opinions are called mawt"
+            },
+            {
+              "ja": "ראה נתתי לפניך היום את החיים ואת הטוב",
+              "en": "See, I have set before you today life and the good"
+            },
+            {
+              "ja": "פקד צרח באן אלטוב הו חיים ואלרע הו מות",
+              "en": "He has made clear that the good is life and the evil is death"
+            },
+            {
+              "ja": "צדיקים אפילו במיתתם קרואים חיים ורשעים אפילו בחייהם קרואים מתים",
+              "en": "the righteous are called living even in death; the wicked are called dead even in their lives"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part II, Chapter 16 — No Proof Available for Either Position",
+  "section_ja": "אלג'ז אלת'אני · אלפצל אלסאדס עשר",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Maimonides states his own position clearly: neither the Mutakallimun's arguments for creation nor Aristotle's arguments for eternity are demonstrative proofs. He will not use bad arguments even for the right conclusion — that would weaken rather than strengthen the case. His strategy is threefold: first show that creation is possible (i.e., not demonstrably impossible); then show it is preferable on philosophical grounds; and finally accept it on the authority of prophecy. This chapter sets out that plan before its execution.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "Segmentation follows Sefaria.",
+    "segments": 4
+  },
+  "terms": [
+    {
+      "id": "mutakallimun",
+      "ja": "אלמתכלמין",
+      "ar": "المتكلمون",
+      "translit": "al-mutakallimūn",
+      "gloss": "the Kalām theologians",
+      "note": "The Islamic scholastic theologians (and by extension Jewish ones like Saadia) who attempted to prove creation ex nihilo by philosophical argument. Maimonides rejects their proofs as dialectical rather than demonstrative.",
+      "variants": ["מתכלם"]
+    },
+    {
+      "id": "nubuwwa",
+      "ja": "אלנבוה",
+      "ar": "النبوة",
+      "translit": "al-nubuwwa",
+      "gloss": "prophecy",
+      "note": "Maimonides' epistemic trump card: once the question is shown to be undecided by reason, he accepts creation on the authority of prophetic revelation.",
+      "variants": ["נביא"]
+    },
+    {
+      "id": "tarjih",
+      "ja": "תרג'יח",
+      "ar": "ترجيح",
+      "translit": "tarjīḥ",
+      "gloss": "preferring, weighing in favor of",
+      "note": "Even if neither side is demonstrated, Maimonides will show creation is the more defensible position — hence 'preferable' though not 'proven.'",
+      "variants": []
+    },
+    {
+      "id": "imkan",
+      "ja": "אמכאן",
+      "ar": "إمكان",
+      "translit": "imkān",
+      "gloss": "possibility, admissibility",
+      "note": "The minimal bar Maimonides sets for creation: not that it is proved, but that it is not impossible. His first task is to show it is possible.",
+      "variants": ["ממכן"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": 1,
+      "aligned": [
+        {
+          "ja": "אלג'ז אלת'אני · אלפצל אלסאדס עשר",
+          "en": "Part Two · Chapter Sixteen — No Proof Available for Either Position",
+          "isHeader": true
+        },
+        {
+          "ja": "הד'א פצל אבין לך פיה מא אעתקדה פי הד'ה אלמסאלה ובעד ד'לך אתי בדלאיל עלי מא נרומה. פאקול אן כל מא יקולה מן יזעם אנה ברהן עלי חדות' אלעאלם מן אלמתכלמין לא ארצ'י תלך אלאדלה ולא אגאלט נפסי פי אן אסמי טרק אלמגאלטאת בראהין וכון אלאנסאן ידעי אנה יברהן מסאלהֵ מא במגאלטאת פאנה ענדי לם יקו תצדיק ד'לך אלמטלוב בל אצ'עפה וטרק אלטען עליה. לאנה אד'א תבין פסאד תלך אלאדלה צ'עפת אלנפס פי תצדיק אלמסתדל עליה וכון אלאמר אלד'י לא ברהאן עליה יבקי מע מג'רד כונה מטלובא או יקבל פיה אחד טרפי אלנקיץ' אולי. וקד ד'כרת לך טרק אלמתכלמין פי את'באת חדת' אלעאלם ונבהתך עלי מואצ'ע אלטען פיהא וכד'לך כל מא ד'כרה ארסטו ותבאעה מן אלאסתדלאל עלי קדם אלעאלם ליס הו ענדי ברהאנא קטעיא בל חג'ג'א תלחקהא אלשכוך אלעט'ימה כמא סתסמעה.",
+          "en": "IN this chapter I will first expound my view on this question, and then support it by argument-not by such arguments as those of the Mutakallemim, who believe that they have proved the Creatio ex nihilo. I will not deceive myself, and consider dialectical methods as proofs; and the fact that a certain proposition has been proved by a dialectical argument will never induce me to accept that proposition, but, on the contrary, will weaken my faith in it, and cause me to doubt it. For when we understand the fallacy of a proof, our faith in the proposition itself is shaken. It is therefore better that a proposition which cannot be demonstrated be received as an axiom, or that one of the two opposite solutions of the problem be accepted on authority. The methods by which the Mutakallemim proved the Creatio ex nihilo have already been described by me, and I have exposed their weak points. As to the proofs of Aristotle and his followers for the Eternity of the Universe, they are, according to my opinion, not conclusive; they are open to strong objections, as will be explained.",
+          "pairs": [
+            { "ja": "לא ארצ'י תלך אלאדלה ולא אגאלט נפסי פי אן אסמי טרק אלמגאלטאת בראהין", "en": "I will not deceive myself, and consider dialectical methods as proofs" },
+            { "ja": "כון אלאנסאן ידעי אנה יברהן מסאלהֵ מא במגאלטאת פאנה ענדי לם יקו תצדיק ד'לך אלמטלוב בל אצ'עפה", "en": "the fact that a certain proposition has been proved by a dialectical argument will never induce me to accept that proposition, but, on the contrary, will weaken my faith in it" },
+            { "ja": "כל מא ד'כרה ארסטו ותבאעה מן אלאסתדלאל עלי קדם אלעאלם ליס הו ענדי ברהאנא קטעיא", "en": "the proofs of Aristotle and his followers for the Eternity of the Universe, they are, according to my opinion, not conclusive" }
+          ]
+        },
+        {
+          "ja": "פאלד'י ארומה אנא אן אבין אן כון אלעאלם מחדת'א עלי ראי שריעתנא אלד'י קד בינתה ליס בממתנע ואן תלך אלאסתדלאלאת כלהא אלפלספיה אלתי יבדו מנהא אן ליס אלאמר כמא ד'כרנא יוג'ד לתלך אלחג'ג' כלהא וג'ה יעטלהא ויבטל אלאסתדלאל בהא עלינא. פאד'א צח לי ד'לך וכאנת הד'ה אלמסאלה אעני קדם אלעאלם או חדות'ה ממכנה כאנת ענדי מקבולה מן ג'ההֵ אלנבוה אלתי תבין אמורא ליס פי קוהֵ אלנט'ר אלוצול אליהא כמא נבין אן אלנבוה לא תבטל ולו עלי ראי מן יעתקד אלקדם",
+          "en": "I intend to show that the theory of the Creation, as taught in Scripture, contains nothing that is impossible; and that all those philosophical arguments which seem to disprove our view contain weak points which make them inconclusive, and render the attacks on our view untenable. Since I am convinced of the correctness of my method, and consider either of the two theories—viz., the Eternity of the Universe, and the Creation—as admissible, I accept the latter on the authority of Prophecy, which can teach things beyond the reach of philosophical speculation. For the belief in prophecy is, as will be shown in the course of this treatise, consistent even with the belief in the Eternity of the Universe.",
+          "pairs": [
+            { "ja": "כון אלעאלם מחדת'א עלי ראי שריעתנא אלד'י קד בינתה ליס בממתנע", "en": "the theory of the Creation, as taught in Scripture, contains nothing that is impossible" },
+            { "ja": "פאד'א צח לי ד'לך וכאנת הד'ה אלמסאלה אעני קדם אלעאלם או חדות'ה ממכנה", "en": "Since I am convinced of the correctness of my method, and consider either of the two theories—viz., the Eternity of the Universe, and the Creation—as admissible" },
+            { "ja": "כאנת ענדי מקבולה מן ג'ההֵ אלנבוה אלתי תבין אמורא ליס פי קוהֵ אלנט'ר אלוצול אליהא", "en": "I accept the latter on the authority of Prophecy, which can teach things beyond the reach of philosophical speculation" }
+          ]
+        },
+        {
+          "ja": "ובעד אן אבין אמכאן דעואנא אכ'ד' תרג'יחה עלי מא סואה בדליל נט'רי איצ'א אעני תרג'יח אלקול באלחדות' עלי אלקול באלקדם ואבין אן כמא תלזמנא שנאעהֵ מא פי אעתקאד אלחדות' כד'לך תלזם שנאעה אשד מנהא פי אעתקאד אלקדם.",
+          "en": "When I have established the admissibility of our theory, I will, by philosophical reasoning, show that our theory of the Creation is more acceptable than that of the Eternity of the Universe; and although our theory includes points open to criticism, I will show that there are much stronger reasons for the rejection of the theory of our opponents.",
+          "pairs": [
+            { "ja": "אכ'ד' תרג'יחה עלי מא סואה בדליל נט'רי", "en": "I will, by philosophical reasoning, show that our theory of the Creation is more acceptable" },
+            { "ja": "כמא תלזמנא שנאעהֵ מא פי אעתקאד אלחדות' כד'לך תלזם שנאעה אשד מנהא פי אעתקאד אלקדם", "en": "although our theory includes points open to criticism, I will show that there are much stronger reasons for the rejection of the theory of our opponents" }
+          ]
+        },
+        {
+          "ja": "והאנא אלאן אכ'ד' פי איג'אד אלטריק אלתי תעטל דלאיל כל מן יסתדל עלי קדם אלעאלם:",
+          "en": "I will now proceed to expound the method by which the proofs given for the Eternity of the Universe can be refuted.",
+          "pairs": [
+            { "ja": "אכ'ד' פי איג'אד אלטריק אלתי תעטל דלאיל כל מן יסתדל עלי קדם אלעאלם", "en": "I will now proceed to expound the method by which the proofs given for the Eternity of the Universe can be refuted" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 41 — Nefesh: Soul, Person, Life-Force, and the Will of God",
+  "section_ja": "אלג'ז אלאול · אלפצל ארבעים ואחד",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 41 examines the word nefesh (נפש), one of the most polysemous terms in biblical Hebrew. Maimonides counts five primary senses: (1) the animal soul — the life-principle common to all sentient beings; (2) blood — the material substrate of life; (3) the rational soul — the specifically human form; (4) that which remains of the human being after death; and (5) will or desire.\n\nThe fifth sense is the hinge of the chapter. Whenever Scripture attributes nefesh to God — 'as it is in My heart and in My soul He shall do' (1 Sam 2:35); 'My soul does not desire their continuance' — Maimonides reads this as expressing divine will, not as asserting that God possesses a soul in any of the first four senses. A long philological note at the chapter's end explains a difficult verse in Judges (10:16) about God's 'soul being impatient with Israel's suffering,' showing how the idiom of the prophet Jonathan ben Uzziel diverged from this reading and why the alternative translation — reading nefesh as will — yields a far more coherent theological and contextual sense.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 2
+  },
+  "terms": [
+    {
+      "id": "nefesh",
+      "ja": "נפש",
+      "translit": "nefesh",
+      "gloss": "soul; life-principle; person; will",
+      "note": "The chapter's subject. All five senses are attested in Scripture; when attributed to God, nefesh always means will (al-irāda).",
+      "variants": [
+        "נפשי",
+        "נפשו",
+        "נפשכם"
+      ]
+    },
+    {
+      "id": "nefs-natiqa",
+      "ja": "אלנפס אלנאטקה",
+      "ar": "النفس الناطقة",
+      "translit": "al-nafs al-nāṭiqa",
+      "gloss": "the rational soul, the human form",
+      "note": "The third sense of nefesh: the specifically human form that constitutes the person. This is the sense in which 'the Lord made this nefesh for us' (Jer 38:16) is read by Maimonides.",
+      "variants": [
+        "צורהֵ אלאנסאן"
+      ]
+    },
+    {
+      "id": "dam",
+      "ja": "אלדם",
+      "ar": "الدم",
+      "translit": "al-dam",
+      "gloss": "blood",
+      "note": "The second sense of nefesh, derived from the identification of life with blood: 'you shall not eat the nefesh with the flesh' (Deut 12:23) — meaning the blood.",
+      "variants": []
+    },
+    {
+      "id": "irada-nefesh",
+      "ja": "אראדה",
+      "ar": "إرادة",
+      "translit": "irāda",
+      "gloss": "will, desire, intention (sense of nefesh when attributed to God)",
+      "note": "The key theological sense. Every divine nefesh in Scripture expresses purposive will, not a soul-substance. 'As it is in My heart and in My soul' = according to My will and purpose.",
+      "variants": [
+        "אראדתה",
+        "גרצ'כם"
+      ]
+    },
+    {
+      "id": "yonatan-ben-uzziel",
+      "ja": "יונתן בן עזיאל",
+      "translit": "Yonatan ben Uzziel",
+      "gloss": "the Aramaic Targum of the Prophets",
+      "note": "Jonathan's Targum is cited here as an instance where the translator took nefesh in its first (animal) sense and produced an anthropomorphic rendering that Maimonides finds theologically problematic.",
+      "variants": [
+        "יב\"ע"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל ארבעים ואחד",
+          "en": "Part One · Chapter Forty-One — Nefesh: Soul, Person, Life-Force, and the Will of God",
+          "isHeader": true
+        },
+        {
+          "ja": "נפש אסם משתרך. הו אסם אלנפס אלחיואניה אלעאמה לכל חסאס אשר בו נפש חיה. והו איצ'א אסם אלדם לא תאכל הנפש עם הבשר. והו איצ'א אסם אלנפס אלנאטקה אעני צורהֵ אלאנסאן חי י״י אשר עשה לנו את הנפש הזאת. והו אסם אלשי אלבאקי מן אלאנסאן בעד אלמות והיתה נפש אדני צרורה בצרור החיים. והו אסם אלאראדה לאסר שריו בנפשו יעני באראדתה ומת'לה ואל תתנהו בנפש איביו יעני לא תסלמה לאראדתהם. ומת'לה ענדי אם יש את נפשכם לקבר את מתי יעני אן כאן הד'א מן גרצ'כם ובאראדתכם. ומת'לה אם יעמד משה ושמואל לפני אין נפשי אל העם הזה מענאה לא אראדה לי פיהם אי לא אריד בקאהם. וכל ד'כר נפש ג'א מנסובא אליה תעאלי הו במעני אלאראדה כמא תקדם לנא פי קולה כאשר בלבבי ובנפשי יעשה מענאה באראדתי ובגרצ'י.",
+          "en": "Nefesh is an equivocal term. It is the name for the animal soul common to every sentient being: 'in which is a living nefesh' (Gen 1:30). And it is also the name for blood: 'you shall not eat the nefesh with the flesh' (Deut 12:23). And it is also the name for the rational soul — I mean the human form: 'as the Lord lives, who made for us this nefesh' (Jer 38:16). And it is the name for that which remains of the human being after death: 'and the nefesh of my lord shall be bound in the bundle of life' (1 Sam 25:29). And it is the name for will: 'to bind his princes at his nefesh' (Ps 105:22) — meaning: at his will. Similar to it: 'and do not deliver him to the nefesh of his enemies' (Ps 41:3) — meaning: do not surrender him to their will. Similar to it, in my view: 'if it is your nefesh to bury my dead' (Gen 23:8) — meaning: if this is your purpose and will. Similar to it: 'though Moses and Samuel stood before Me, My nefesh is not toward this people' (Jer 15:1) — meaning: I have no will toward them, that is: I do not desire their survival. And every mention of nefesh that comes attributed to God, exalted be He, is in the sense of will — as has already appeared to us in His saying, 'as it is in My heart and in My soul He shall do' (1 Sam 2:35) — meaning: according to My will and My purpose.",
+          "pairs": [
+            {
+              "ja": "נפש אסם משתרך",
+              "en": "Nefesh is an equivocal term"
+            },
+            {
+              "ja": "הו אסם אלנפס אלחיואניה אלעאמה לכל חסאס",
+              "en": "It is the name for the animal soul common to every sentient being"
+            },
+            {
+              "ja": "והו איצ'א אסם אלדם לא תאכל הנפש עם הבשר",
+              "en": "the name for blood: 'you shall not eat the nefesh with the flesh'"
+            },
+            {
+              "ja": "והו איצ'א אסם אלנפס אלנאטקה אעני צורהֵ אלאנסאן",
+              "en": "And it is also the name for the rational soul — I mean the human form"
+            },
+            {
+              "ja": "והו אסם אלשי אלבאקי מן אלאנסאן בעד אלמות",
+              "en": "And it is the name for that which remains of the human being after death"
+            },
+            {
+              "ja": "והו אסם אלאראדה",
+              "en": "And it is the name for will"
+            },
+            {
+              "ja": "וכל ד'כר נפש ג'א מנסובא אליה תעאלי הו במעני אלאראדה",
+              "en": "And every mention of nefesh that comes attributed to God, exalted be He, is in the sense of will"
+            },
+            {
+              "ja": "כאשר בלבבי ובנפשי יעשה מענאה באראדתי ובגרצ'י",
+              "en": "meaning: according to My will and My purpose"
+            }
+          ]
+        },
+        {
+          "ja": "פבחסב הד'א אלמעני יכון שרח ותקצר נפשו בעמל ישראל וכפת אראדתה ען אשקא ישראל והד'א אלפסוק לם יתרג'מה יונתן בן עזיאל בוג'ה לאנה אכ'ד'ה בחסב אלמעני אלאול וג'אה מן ד'לך אנפעאל פאמתנע מן שרחה אמא אד'א אכ'ד' מן הד'א אלמעני אלאכ'יר פיכון אלשרח בינא ג'דא לאנה תקדם אלקול אן ענאיתה תעאלי תכ'לת ענהם חתי הלכוא ואסתגאת'וא ולם יגת'הם פלמא בלאגוא פי אלתובה ועט'ם ד'להם ואסתולי אלעדו עליהם רחמהם וכפת אראדתה ען אסתמראר שקאיהם וד'להם פאעלמה אנה גריב ותכון אלבא פי קולה בעמל ישראל מכאן מן וכאנה מן עמל ישראל וקד עדוא מן ד'לך אהל אללגה כת'ירא והנותר בבשר ובלחם נשאר בשנים בגר ובאזרח הארץ והו כת'יר:",
+          "en": "According to this sense the interpretation of 'and His nefesh was impatient with the toil of Israel' (Judg 10:16) would be: and His will was restrained from making Israel suffer. This verse was not translated by Jonathan ben Uzziel at all, because he took it according to the first sense — and from that an affection resulted, and he refrained from translating it. But if one takes it from this final sense, the interpretation becomes very clear, for the preceding text says that His providential care, exalted be He, had withdrawn from them until they went and cried out and He did not save them; then when they exerted themselves in repentance and their humiliation was great and the enemy prevailed over them, He had mercy on them and His will was restrained from the continuation of their suffering and their humiliation. Know that this is rare. The preposition bet in 'with the toil of Israel' stands in place of min ('from'), as if it were 'from the toil of Israel' — and the linguists have often observed such substitutions: 'the remainder in flesh and in bread shall stay' (Is 44:16) — 'shall stay' being read with bet as 'from'; and this is frequent.",
+          "pairs": [
+            {
+              "ja": "ותקצר נפשו בעמל ישראל וכפת אראדתה ען אשקא ישראל",
+              "en": "and His will was restrained from making Israel suffer"
+            },
+            {
+              "ja": "לם יתרג'מה יונתן בן עזיאל בוג'ה לאנה אכ'ד'ה בחסב אלמעני אלאול",
+              "en": "This verse was not translated by Jonathan ben Uzziel at all, because he took it according to the first sense"
+            },
+            {
+              "ja": "וג'אה מן ד'לך אנפעאל פאמתנע מן שרחה",
+              "en": "and from that an affection resulted, and he refrained from translating it"
+            },
+            {
+              "ja": "תקדם אלקול אן ענאיתה תעאלי תכ'לת ענהם חתי הלכוא ואסתגאת'וא",
+              "en": "the preceding text says that His providential care, exalted be He, had withdrawn from them until they went and cried out"
+            },
+            {
+              "ja": "רחמהם וכפת אראדתה ען אסתמראר שקאיהם וד'להם",
+              "en": "He had mercy on them and His will was restrained from the continuation of their suffering and their humiliation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

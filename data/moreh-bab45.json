@@ -1,0 +1,152 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 45 — Shemaʿ: Hearing, Acceptance, and Divine Knowledge",
+  "section_ja": "אלג'ז אלאול · אלפצל ארבעים וחמשה",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 45 is the last of the extended lexical chapters dealing with human sense organs attributed to God, focusing on shemaʿ (שמע), hearing. Maimonides distinguishes three senses: (1) literal auditory perception; (2) acceptance or response — hearing in the sense of heeding or answering a request; and (3) knowledge and understanding — comprehending a language or meaning.\n\nWhen Scripture attributes hearing to God, if the textual context is that of literal sound, it means divine intellectual apprehension (sense 3). If the context is prayer or supplication, it means that God has answered the prayer or declined to answer it (sense 2). Neither sense requires that God possess an ear or undergo any sensory affection. The chapter closes with a promise: a fuller treatment of all these metaphors and similes is coming, one that will resolve all remaining difficulties and make their meanings completely clear. This forward reference points to the culminating chapters of Part I, where Maimonides synthesizes the lexical analysis into a coherent negative theology.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 4
+  },
+  "terms": [
+    {
+      "id": "shema",
+      "ja": "שמע",
+      "translit": "shemaʿ",
+      "gloss": "hearing; heeding/accepting; knowing",
+      "note": "The chapter's subject. Three senses — literal audition, acceptance of prayer, and intellectual knowledge. Only the second and third apply to God.",
+      "variants": [
+        "ישמע",
+        "שמועה",
+        "שמוע"
+      ]
+    },
+    {
+      "id": "qabul",
+      "ja": "אלקבול",
+      "ar": "القبول",
+      "translit": "al-qabūl",
+      "gloss": "acceptance, favorable response (to prayer)",
+      "note": "The second sense of shemaʿ. When God 'hears' a cry or prayer in Scripture, it means He has responded favorably — or, in negative constructions, that He has withheld response.",
+      "variants": [
+        "קבל",
+        "קבולה"
+      ]
+    },
+    {
+      "id": "ilm-marifa",
+      "ja": "אלעלם ואלמערפה",
+      "ar": "العلم والمعرفة",
+      "translit": "al-ʿilm wa-l-maʿrifa",
+      "gloss": "knowledge and understanding",
+      "note": "The third sense of shemaʿ. 'A nation whose language you do not know' (Deut 28:49) — literally: whose language you do not comprehend. When attributed to God, hearing = intellectual knowledge.",
+      "variants": [
+        "ידרך",
+        "יעלם"
+      ]
+    },
+    {
+      "id": "istiaarat",
+      "ja": "אלאסתעאראת",
+      "ar": "الاستعارات",
+      "translit": "al-istiʿārāt",
+      "gloss": "the metaphors, figures of speech",
+      "note": "The collective term for all the anthropomorphic expressions studied in these chapters. The chapter's closing promise is that their meanings will all become clear in a subsequent fuller treatment.",
+      "variants": [
+        "אסתעאראת",
+        "אלתשביהאת"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל ארבעים וחמשה",
+          "en": "Part One · Chapter Forty-Five — Shemaʿ: Hearing, Acceptance, and Divine Knowledge",
+          "isHeader": true
+        },
+        {
+          "ja": "שמע לפט' משתרך יכון במעני אלסמע ויכון במעני אלקבול. אמא במעני אלסמע לא ישמע על פיך והקול נשמע בית פרעה והד'א כת'יר.",
+          "en": "Shemaʿ is an equivocal term: it can have the sense of literal hearing, and it can have the sense of acceptance. As for the sense of literal hearing: 'it shall not be heard from your mouth' (Ex 23:13); 'and the voice was heard in Pharaoh's house' (Gen 45:16) — and this is frequent.",
+          "pairs": [
+            {
+              "ja": "שמע לפט' משתרך",
+              "en": "Shemaʿ is an equivocal term"
+            },
+            {
+              "ja": "יכון במעני אלסמע ויכון במעני אלקבול",
+              "en": "it can have the sense of literal hearing, and it can have the sense of acceptance"
+            },
+            {
+              "ja": "אמא במעני אלסמע לא ישמע על פיך",
+              "en": "literal hearing: 'it shall not be heard from your mouth'"
+            }
+          ]
+        },
+        {
+          "ja": "ומת'לה פי אלכת'רה איצ'א שמע במעני אלקבול ולא שמעו אל משה אם ישמעו ויעבדו ולכם הנשמע ולא ישמע את דבריך.",
+          "en": "And equally frequent is shemaʿ in the sense of acceptance: 'and they did not hearken to Moses' (Ex 6:9); 'if they hearken and serve' (Job 36:11); 'and they will be hearkened to' (Deut 28:2 variant reading); 'and he will not hearken to your words' (Josh 1:18).",
+          "pairs": [
+            {
+              "ja": "ומת'לה פי אלכת'רה איצ'א שמע במעני אלקבול",
+              "en": "And equally frequent is shemaʿ in the sense of acceptance"
+            },
+            {
+              "ja": "ולא שמעו אל משה",
+              "en": "and they did not hearken to Moses"
+            }
+          ]
+        },
+        {
+          "ja": "ויכון במעני אלעלם ואלמערפה גוי אשר לא תשמע לשונו שרחה לא תעלם כלאמה.",
+          "en": "And it can have the sense of knowledge and understanding: 'a nation whose language you do not know' (Deut 28:49) — its interpretation is: whose speech you do not understand.",
+          "pairs": [
+            {
+              "ja": "ויכון במעני אלעלם ואלמערפה",
+              "en": "And it can have the sense of knowledge and understanding"
+            },
+            {
+              "ja": "גוי אשר לא תשמע לשונו שרחה לא תעלם כלאמה",
+              "en": "whose speech you do not understand"
+            }
+          ]
+        },
+        {
+          "ja": "פכל לפט' שמיעה ג'את פי חק אללה אן כאן ט'אהר אלנץ אנה מן אלמעני אלאול פהי עבארה ען אלאדראך והו מן אלמעני אלת'אלת' וישמע י״י בשמעו את תלונותיכם כל הד'א אדראך עלם. ואן כאן ט'אהר אלנץ אנה מן אלמעני אלת'אני פהי עבארה ען כונה תעאלי אג'אב דעא אלדאעי או לם יג'ב דעאה שמוע אשמע צעקתו ושמעתי כי חנון אני הטה י״י אזנך ושמע ולא שמע י״י בקולכם ולא האזין אליכם גם כי תרבו תפלה אינני שומע כי אינני שומע אותך והד'א כת'יר.",
+          "en": "Every term of hearing that comes in reference to God: if the plain sense of the text is that it belongs to the first sense, it is an expression for apprehension — which is of the third sense. 'And the Lord heard, in His hearing of your murmurings' (Num 14:27) — all this is knowledge, intellectual apprehension. And if the plain sense of the text is that it belongs to the second sense, it is an expression for God, exalted be He, having answered the petitioner's prayer or having not answered it: 'I will surely hear his cry, and I will hearken, for I am gracious' (Ex 22:22–23); 'incline Your ear, O Lord, and hear' (Is 37:17); 'and the Lord did not hearken to your voice, and He did not give ear to you' (Deut 1:45); 'even though you multiply your prayer I am not hearing' (Is 1:15); 'for I am not hearing you' (Jer 7:16) — and this is frequent.",
+          "pairs": [
+            {
+              "ja": "פכל לפט' שמיעה ג'את פי חק אללה",
+              "en": "Every term of hearing that comes in reference to God"
+            },
+            {
+              "ja": "אן כאן ט'אהר אלנץ אנה מן אלמעני אלאול פהי עבארה ען אלאדראך והו מן אלמעני אלת'אלת'",
+              "en": "if the plain sense of the text is that it belongs to the first sense, it is an expression for apprehension — which is of the third sense"
+            },
+            {
+              "ja": "וישמע י״י בשמעו את תלונותיכם כל הד'א אדראך עלם",
+              "en": "all this is knowledge, intellectual apprehension"
+            },
+            {
+              "ja": "שמוע אשמע צעקתו ושמעתי כי חנון אני",
+              "en": "I will surely hear his cry, and I will hearken, for I am gracious"
+            },
+            {
+              "ja": "ולא שמע י״י בקולכם ולא האזין אליכם",
+              "en": "and the Lord did not hearken to your voice, and He did not give ear to you"
+            },
+            {
+              "ja": "גם כי תרבו תפלה אינני שומע",
+              "en": "even though you multiply your prayer I am not hearing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

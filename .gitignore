@@ -48,3 +48,6 @@ __pycache__/
 # FJMS scrape session cookies (never commit)
 .cookies.txt
 **/.cookies.txt
+
+# QC sheets reference copyrighted G/L text — never commit
+/qc/

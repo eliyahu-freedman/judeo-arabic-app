@@ -1,0 +1,257 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part II, Chapter 14 — Aristotle's Arguments for the Eternity of the World",
+  "section_ja": "אלג'ז אלת'אני · אלפצל אלראבע עשר",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Maimonides systematically surveys and classifies the arguments Aristotle and his followers deployed for the eternity of the world. He identifies four arguments drawn from the nature of the world itself (eternal motion, eternal matter, the sphere's lack of contraries, and the pre-existence of possibility) and three arguments drawn from the nature of God (transition from potentiality to actuality in God, the absence of changing will in God, and God's wisdom requiring a perfect eternal product). He presents these fairly before subjecting them to scrutiny in later chapters.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "Segmentation follows Sefaria.",
+    "segments": 12
+  },
+  "terms": [
+    {
+      "id": "haraka-azaliyya",
+      "ja": "אלחרכה אבדיה דאימה",
+      "ar": "الحركة أبدية دائمة",
+      "translit": "al-ḥaraka abadiyya dāʾima",
+      "gloss": "eternal, perpetual motion",
+      "note": "Aristotle's first argument: every motion presupposes a prior motion; hence motion (and time with it) must be eternal.",
+      "variants": []
+    },
+    {
+      "id": "imkan-qidam",
+      "ja": "אמכאן אלחדות'",
+      "ar": "إمكان الحدوث",
+      "translit": "imkān al-ḥudūth",
+      "gloss": "the possibility of coming-to-be",
+      "note": "Aristotle's fourth argument: every possible event requires a substrate in which the possibility inheres; hence before creation there must have been something, making true creation ex nihilo impossible.",
+      "variants": []
+    },
+    {
+      "id": "tadad",
+      "ja": "אלתצ'אד",
+      "ar": "التضاد",
+      "translit": "al-taḍādd",
+      "gloss": "contrariety, opposition of qualities",
+      "note": "Aristotle's third argument: corruption requires contrary qualities; the heavens have no contraries; therefore they are incorruptible and ungenerated.",
+      "variants": [
+        "מתצ'אד"
+      ]
+    },
+    {
+      "id": "quwa-ila-fiil",
+      "ja": "אלכ'רוג' מן אלקוה אלי אלפעל",
+      "ar": "الخروج من القوة إلى الفعل",
+      "translit": "al-khurūj min al-quwwa ilā al-fiʿl",
+      "gloss": "transition from potentiality to actuality",
+      "note": "Fifth argument from God's side: if God acted now but not before, He would have transitioned from potential to actual agent — which implies change in God.",
+      "variants": []
+    },
+    {
+      "id": "hikma",
+      "ja": "אלחכמה",
+      "ar": "الحكمة",
+      "translit": "al-ḥikma",
+      "gloss": "wisdom",
+      "note": "Seventh argument: God's wisdom is eternal and identical with His essence; what His wisdom requires must therefore be eternal. Maimonides will refute this later.",
+      "variants": []
+    }
+  ],
+  "pages": [
+    {
+      "page_he": 1,
+      "aligned": [
+        {
+          "ja": "אלג'ז אלת'אני · אלפצל אלראבע עשר",
+          "en": "Part Two · Chapter Fourteen — Aristotle's Arguments for the Eternity of the World",
+          "isHeader": true
+        },
+        {
+          "ja": "לא אחתאג' אן אכרר פי כל פצל אן הד'ה אלמקאלה אנמא אלפתהא לך לעלמי במא חצל ענדך ואני לא אחתאג' אן אתי בנץ כלאם אלפלאספה פי כל מוצ'ע בל באגראצ'הם ולא אטול בל אנבהך עלי אלטרק אלתי יקצדונהא כמא פעלת לך פי ארא אלמתכלמין ולא אלתפת למן תכלם גיר ארסטו אד' אראוה הי אלתי ינבגי אן תתאמל ואן ת'בת אלרד עליה או אלתשכיך פי מא נרד או נשכך עליה פי שי מנהא פד'לך פי חק גירה מן כל מן כ'אלף קואעד אלשריעה אחרי ואוכד.",
+          "en": "IT is not necessary to repeat in every chapter that I write this treatise with the full knowledge of what you have studied: that I therefore need not quote the exact words of the philosophers: it will suffice to give an abstract of their views. I will, however, point out the methods which they employ, in the same manner as I have done when I discussed the theories of the Mutakallemim. No notice will be taken of the opinion of any philosopher but that of Aristotle; his opinions alone deserve to be criticized, and if our objections or doubts with regard to any of these be well founded, this must be the case in a far higher degree in respect to all other opponents of our fundamental principles.",
+          "pairs": [
+            {
+              "ja": "לא אחתאג' אן אתי בנץ כלאם אלפלאספה פי כל מוצ'ע בל באגראצ'הם",
+              "en": "I therefore need not quote the exact words of the philosophers: it will suffice to give an abstract of their views"
+            },
+            {
+              "ja": "לא אלתפת למן תכלם גיר ארסטו אד' אראוה הי אלתי ינבגי אן תתאמל",
+              "en": "No notice will be taken of the opinion of any philosopher but that of Aristotle; his opinions alone deserve to be criticized"
+            }
+          ]
+        },
+        {
+          "ja": "פאקול. אן ארסטו יקול אן אלחרכה לא כאינה ולא פאסדה יעני אלחרכה עלי אלאטלאק לאנה יקול אן כאנת אלחרכה חדת'ת פכל חאדת' תתקדמה חרכה והי כ'רוג'ה ללפעל וחדות'ה בעד אן לם יכן פתכון אלחרכה אד'א מוג'ודה והי אלחרכה אלתי בהא וג'דת הד'ה אלחרכה אלאכ'ירה פאלחרכה אלאולי קדימה צ'רורה או ימר אלאמר ללא נהאיה. ובחסב הד'א אלאצל איצ'א יקול אן אלזמאן גיר כאין ולא פאסד אד' אלזמאן תאבע ללחרכה ולאזם להא ולא חרכה אלא פי זמאן ולא יעקל אלזמאן אלא באלחרכה כמא ברהן פהד'ה טריק לה ילזם בהא קדם אלעאלם.",
+          "en": "I now proceed to describe the methods of the philosophers. First Method.—According to Aristotle, motion, that is to say, motion par excellence, is eternal. For if the motion had a beginning, there must already have been some motion when it came into existence, for transition from potentiality into actuality, and from non-existence into existence, always implies motion; then that previous motion, the cause of the motion which follows, must be eternal, or else the series would have to be carried back ad infinitum. On the same principle he maintains that time is eternal, for time is related to and connected with motion: there is no motion except in time, and time can only be perceived by motion, as has been demonstrated by proof. By this argument Aristotle proves the eternity of the Universe.",
+          "pairs": [
+            {
+              "ja": "אלחרכה לא כאינה ולא פאסדה",
+              "en": "motion, that is to say, motion par excellence, is eternal"
+            },
+            {
+              "ja": "כאנת אלחרכה חדת'ת פכל חאדת' תתקדמה חרכה",
+              "en": "if the motion had a beginning, there must already have been some motion when it came into existence"
+            },
+            {
+              "ja": "אלזמאן תאבע ללחרכה ולאזם להא ולא חרכה אלא פי זמאן",
+              "en": "time is related to and connected with motion: there is no motion except in time"
+            }
+          ]
+        },
+        {
+          "ja": "טריק ת'אניה לה יקול אלמאדה אלאולי אלמשתרכה ללאסתקסאת אלארבעה לא כאינה ולא פאסדה לאנה אן כאנת אלמאדה אלאולי כאינה פלהא מאדה מנהא תכונת וילזם אן תכון הד'ה אלמתכונה ד'את צורה אד' הי חקיקהֵ אלכון ונחן פרצ'נאהא מאדה לא ד'את צורה פתלך צ'רורה גיר כאינה מן שי פהי אזליה לא תביד. והד'א איצ'א יוג'ב קדם אלעאלם.",
+          "en": "Second Method.—The First Substance common to the four elements is eternal. For if it had a beginning it would have come into existence from another substance; it would further be endowed with a form, as coming into existence is nothing but receiving Form. But we mean by \"First Substance\" a formless substance; it can therefore not have come into existence from another substance, and must be without beginning and without end: hence it is concluded that the Universe is eternal.",
+          "pairs": [
+            {
+              "ja": "אלמאדה אלאולי אלמשתרכה ללאסתקסאת אלארבעה לא כאינה ולא פאסדה",
+              "en": "The First Substance common to the four elements is eternal"
+            },
+            {
+              "ja": "פרצ'נאהא מאדה לא ד'את צורה פתלך צ'רורה גיר כאינה מן שי פהי אזליה לא תביד",
+              "en": "a formless substance; it can therefore not have come into existence from another substance, and must be without beginning and without end"
+            }
+          ]
+        },
+        {
+          "ja": "טריק ת'אלת'ה לה יקול אן מאדהֵ אלפלך בג'מלתה ליס פיהא שי מן אלתצ'אד לאן אלחרכה אלדוריה לא צ'ד להא כמא בין ואנמא אלתצ'אד פי אלחרכה אלמסתקימה כמא ברהן. קאל וכל מא יפסד אנמא סבב פסאדה מא פיה מן אלתצ'אד ואד' ואלפלך לא תצ'אד פיה פליס הו פאסדא ומא ליס בפאסד פליס במתכון ויטלק קצ'איא ויבינהא והי אן כל כאין פאסד וכל פאסד כאין וכל מא לם יתכון לא יפסד וכל מא לא יפסד לם יתכון פהד'א איצ'א טריק יוג'ב בהא מא ירידה מן קדם אלעאלם.",
+          "en": "Third Method.—The substance of the spheres contains no opposite elements: for circular motion includes no such opposite directions as are found in rectilinear motion. Whatever is destroyed, owes its destruction to the opposite elements it contains. The spheres contain no opposite elements; they are therefore indestructible, and because they are indestructible they are also without beginning. Aristotle thus assumes the axiom that everything that has had a beginning is destructible, and that everything destructible has had a beginning; that things without beginning are indestructible, and indestructible things are without beginning. Hence follows the Eternity of the Universe.",
+          "pairs": [
+            {
+              "ja": "מאדהֵ אלפלך בג'מלתה ליס פיהא שי מן אלתצ'אד",
+              "en": "The substance of the spheres contains no opposite elements"
+            },
+            {
+              "ja": "כל מא יפסד אנמא סבב פסאדה מא פיה מן אלתצ'אד",
+              "en": "Whatever is destroyed, owes its destruction to the opposite elements it contains"
+            },
+            {
+              "ja": "כל כאין פאסד וכל פאסד כאין",
+              "en": "everything that has had a beginning is destructible, and that everything destructible has had a beginning"
+            }
+          ]
+        },
+        {
+          "ja": "טריק ראבעה קאל כל חאדת' פאמכאן חדות'ה מתקדם עלי חדות'ה באלזמאן וכד'לך כל מתגיר פאמכאן תגירה מתקדם עליה באלזמאן. ובהד'א אלמקדמה אלזם דואם אלחרכה אלדוריה ואנהא לא אנקצ'א להא ולא בדאה. ובהד'א אלמקדמה בין אלמתאכ'רון מן תבאעה קדם אלעאלם וקאלוא אלעאלם קבל אן יכון לא יכ'לו אן יכון חדות'ה ממכנא או ואג'בא או ממתנעא פאן כאן חדות'ה ואג'בא פאנה לא יברח מוג'ודא ואן כאן חדות'ה ממתנעא פלא יצח אן יוג'ד אבדא ואן כאן ממכנא פמן חאמל ד'לך אלאמכאן פלא בד מן שי מוג'וד הו חאמל אלאמכאן ובה יקאל לד'לך אלשי אנה ממכן. והד'ה טריק קויה ג'דא פי את'באת קדם אלעאלם.",
+          "en": "Fourth Method.—The actual production of a thing is preceded in time by its possibility. The actual change of a thing is likewise preceded in time by its possibility. From this proposition Aristotle derives the eternity of the circular motion of the spheres. The Aristotelians in more recent time employ this proposition in demonstrating the Eternity of the Universe. They argue thus: When the Universe did not yet exist, its existence was either possible or necessary, or impossible. If it was necessary, the Universe could never have been non-existing; if impossible, the Universe could never have been in existence; if possible, the question arises, What was the substratum of that possibility? for there must be in existence something of which that possibility can be predicated. This is a forcible argument in favour of the Eternity of the Universe.",
+          "pairs": [
+            {
+              "ja": "כל חאדת' פאמכאן חדות'ה מתקדם עלי חדות'ה באלזמאן",
+              "en": "The actual production of a thing is preceded in time by its possibility"
+            },
+            {
+              "ja": "אלעאלם קבל אן יכון לא יכ'לו אן יכון חדות'ה ממכנא או ואג'בא או ממתנעא",
+              "en": "When the Universe did not yet exist, its existence was either possible or necessary, or impossible"
+            },
+            {
+              "ja": "פמן חאמל ד'לך אלאמכאן פלא בד מן שי מוג'וד הו חאמל אלאמכאן",
+              "en": "What was the substratum of that possibility? for there must be in existence something of which that possibility can be predicated"
+            }
+          ]
+        },
+        {
+          "ja": "וזעם בעץ' חד'אק אלמתאכ'רין מן אלמתכלמין אנה פך הד'א אלעויץ פקאל אלאמכאן הו ענד אלפאעל לא פי אלשי אלמנפעל. והד'א לא שי לאנהמא אמכאנאן לאן כל שי חאדת' אמכאן חדות'ה מתקדם עליה וכד'לך אלפאעל אלד'י אחדת'ה כאן פיה אמכאן אן יחדת' מא אחדת'ה קבל אן יחדת'ה פהמא אמכאנאן בלא שך אמכאן פי אלמאדה אן תכון כד'א ואמכאן פי אלפאעל אן יפעל כד'א.",
+          "en": "Some of the later schools of the Mutakallemim imagined that they could confute this argument by objecting that the possibility rests with the agent, and not with the production. But this objection is of no force whatever: for there are two distinct possibilities, viz., the thing produced has had the possibility of being produced before this actually took place: and the agent has had the possibility of producing it before he actually did so. There are, therefore, undoubtedly two possibilities—that of the substance to receive a certain form, and that of the agent to perform a certain act.",
+          "pairs": []
+        },
+        {
+          "ja": "פהד'ה אמהאת אלטרק אלתי יסלכהא ארסטו פי את'באת קדם אלעאלם מן ג'ההֵ אלעאלם נפסה.",
+          "en": "These are the principal methods, based on the properties of the Universe, by which Aristotle proves the Eternity of the Universe.",
+          "pairs": [
+            {
+              "ja": "פהד'ה אמהאת אלטרק אלתי יסלכהא ארסטו פי את'באת קדם אלעאלם מן ג'ההֵ אלעאלם נפסה",
+              "en": "These are the principal methods, based on the properties of the Universe, by which Aristotle proves the Eternity of the Universe"
+            }
+          ]
+        },
+        {
+          "ja": "ות'ם טרק איצ'א ד'כרהא אלד'ין אתוא בעדה אסתכ'רג'והא מן פלספתה ית'בתון בהא קדם אלעאלם מן ג'ההֵ אלאלאה ג'ל אסמה.",
+          "en": "There are, however, other methods of proving the Eternity of the Universe. They are based on the notions formed of God, and philosophers after Aristotle derived them from his philosophy. Some of them employed the following argument:",
+          "pairs": [
+            {
+              "ja": "ית'בתון בהא קדם אלעאלם מן ג'ההֵ אלאלאה ג'ל אסמה",
+              "en": "They are based on the notions formed of God"
+            }
+          ]
+        },
+        {
+          "ja": "מנהא אנהם קאלוא. אן כאן אללה ג'ל אסמה אחדת' אלעאלם בעד אלעדם פכאן אללה קבל אן יכ'לק אלעאלם פאעלא באלקוה פלמא כ'לקה צאר פאעלא באלפעל פקד כ'רג' אללה מן אלקוה אלי אלפעל פפיה תעאלי אמכאן מא ולא בד לה מן מכ'רג' אכ'רג'ה מן אלקוה אלי אלפעל. והד'א איצ'א שדיד אלאשכאל והד'א הו אלד'י ינבגי אן יפכר כל עאקל פי חלה ואט'האר סרה.",
+          "en": "Fifth Method.—If God produced the Universe from nothing, He must have been a potential agent before He was an actual one, and must have passed from a state of potentiality into that of actuality—a process that is merely possible, and requires an agent for effecting it. This argument is likewise a source of great doubts, and every intelligent person must examine it in order to refute it and to expose its character.",
+          "pairs": [
+            {
+              "ja": "כ'רג' אללה מן אלקוה אלי אלפעל פפיה תעאלי אמכאן מא",
+              "en": "He must have been a potential agent before He was an actual one, and must have passed from a state of potentiality into that of actuality"
+            },
+            {
+              "ja": "ולא בד לה מן מכ'רג' אכ'רג'ה מן אלקוה אלי אלפעל",
+              "en": "a process that is merely possible, and requires an agent for effecting it"
+            }
+          ]
+        },
+        {
+          "ja": "וטריק אכ'רי קאלוא אנמא יפעל אלפאעל פי וקת ולא יפעל פי וקת בחסב אלמואנע או אלדואעי אלטאריה לה ופיה פתוג'ב לה אלמואנע תעטל פעל מא ירידה ותוג'ב לה אלדואעי אראדהֵ מא לם יכן ירידה מן קבל. ואד'א כאן אלבארי ג'ל אסמה לא דואעי לה תוג'ב תגיר משיה ולא עואיק ענדה ולא מואנע תטרי או תזול פלא וג'ה לכונה יפעל פי וקת ולא יפעל פי וקת בל פעלה דאימא כדואמה מוג'וד באלפעל.",
+          "en": "Sixth Method.—An agent is active at one time and inactive at another, according as favourable or unfavourable circumstances arise. The unfavourable circumstances cause the abandonment of an intended action. The favourable ones, on the other hand, even produce a desire for an action for which there has not been a desire previously. As, however, God is not subject to accidents which could bring about a change in His will, and is not affected by obstacles and hindrances that might appear or disappear, it is impossible, they argue, to imagine that God is active at one time and inactive at another. He is, on the contrary, always active in the same manner as He is always in actual existence.",
+          "pairs": [
+            {
+              "ja": "אלמואנע תעטל פעל מא ירידה ותוג'ב לה אלדואעי אראדהֵ מא לם יכן ירידה מן קבל",
+              "en": "The unfavourable circumstances cause the abandonment of an intended action. The favourable ones, on the other hand, even produce a desire for an action for which there has not been a desire previously"
+            },
+            {
+              "ja": "אלבארי ג'ל אסמה לא דואעי לה תוג'ב תגיר משיה ולא עואיק ענדה",
+              "en": "God is not subject to accidents which could bring about a change in His will, and is not affected by obstacles and hindrances"
+            }
+          ]
+        },
+        {
+          "ja": "וטריק אכ'רי יקולון אפעאלה תעאלי כאמלה ג'דא ליס פיהא שי מן אלנקץ ולא פיהא שי עבת' ולא זאיד. והד'א הו אלמעני אלד'י יכררה ארסטו דאימא ויקול אלטביעה חכימה ולא תפעל שיא עבת'א ואנהא תפעל כל שי עלי אכמל מא ימכן פיה פקאלוא מן ד'לך הד'א אלמוג'וד הו אכמל מא יכון וליס בעדה מן גאיה פלד'לך יג'ב אן יכון דאימא אד' חכמתה כד'אתה דאימה בל ד'אתה חכמתה אלתי אקתצ'ת וג'וד הד'א אלוג'וד.",
+          "en": "Seventh Method.—The actions of God are perfect; they are in no way defective, nor do they contain anything useless or superfluous. In similar terms Aristotle frequently praises Him, when he says that Nature is wise and does nothing in vain, but makes everything as perfect as possible. The philosophers therefore contend that this existing Universe is so perfect that it cannot be improved, and must be permanent; for it is the result of God's wisdom, which is not only always present in His essence, but is identical with it.",
+          "pairs": []
+        },
+        {
+          "ja": "פכל מה עסאה אן תג'דה מן חג'ג' מן יעתקד אלקדם מן הד'ה אלטרק יתפרע ואלי אחדאהא ירג'ע.",
+          "en": "All arguments in favour of the Eternity of the Universe are based on the above methods, and can be traced to one or other of them.",
+          "pairs": [
+            {
+              "ja": "כל מה עסאה אן תג'דה מן חג'ג' מן יעתקד אלקדם מן הד'ה אלטרק יתפרע ואלי אחדאהא ירג'ע",
+              "en": "All arguments in favour of the Eternity of the Universe are based on the above methods, and can be traced to one or other of them"
+            }
+          ]
+        },
+        {
+          "ja": "ואיצ'א עלי ג'ההֵ אלתשניע אנהם יקולון כיף כאן אלאלאה עז וג'ל עטאלא לם יעמל שיא בוג'ה ולא אחדת' חאדת'א פי אלאזל אלד'י לם יזל וטאל אמתדאד וג'ודה אלקדים אלד'י לא נהאיה לה לא יפעל שיא פלמא כאן נהאר אמס אפתתח אלוג'וד. אד' לו קלת מת'לא אן אללה כ'לק עואלם כת'ירה קבל הד'א עלי עדד מלו כרהֵ אלפלך אלאקצי כ'רדלא ואן כל עאלם מנהא אקאם מוג'ודא סנין עלי עדד מלוה כ'רדלא לכאן ד'לך כלה באלאצ'אפה אלי וג'ודה תעאלי אלד'י לא נהאיה לה במנזלהֵ לו קלת אן אללה אמס כ'לק אלעאלם לאנא מתי את'בתנא אפתתאח וג'וד בעד עדם פלא פרק בין אן תג'על ד'לך כאן מנד' מיי אלף מן אלסנין או מנד' זמאן קריב ג'דא. פהד'א איצ'א ממא ישנע בה מן יעתקד אלקדם.",
+          "en": "The following objection is also raised against Creatio ex nihilo: How could God ever have been inactive without producing or creating anything in the infinite past? How could He have passed the long infinite period which preceded the Creation without producing anything, so as to commence, as it were, only yesterday, the Creation of the Universe? For even if you said, e.g., that God created previously as many successive worlds as the outermost sphere could contain grains of mustard, and that each of these worlds existed as many years: considering the infinite existence of God, it would be the same as if He had only yesterday commenced the Creation. For when we once admit the beginning of the existence of things after their non-existence, it makes no difference whether thousands of centuries have passed since the beginning, or only a short time. Those who defend the Eternity of the Universe find both assumptions equally improbable.",
+          "pairs": [
+            {
+              "ja": "כיף כאן אלאלאה עז וג'ל עטאלא לם יעמל שיא בוג'ה",
+              "en": "How could God ever have been inactive without producing or creating anything"
+            },
+            {
+              "ja": "כ'לק עואלם כת'ירה קבל הד'א עלי עדד מלו כרהֵ אלפלך אלאקצי כ'רדלא",
+              "en": "God created previously as many successive worlds as the outermost sphere could contain grains of mustard"
+            },
+            {
+              "ja": "לא פרק בין אן תג'על ד'לך כאן מנד' מיי אלף מן אלסנין או מנד' זמאן קריב ג'דא",
+              "en": "it makes no difference whether thousands of centuries have passed since the beginning, or only a short time"
+            }
+          ]
+        },
+        {
+          "ja": "ואיצ'א עלי ג'ההֵ אלאסתדלאל באלמשהור ענד אלמלל כלהא פי גאבר אלדהר אלד'י יוג'ב ד'לך אן אלאמר טביעי לא וצ'עי ולד'לך וקע אלאג'מאע עליה יקול ארסטו כל אלנאס יצרחון בדואם אלסמא ות'באתהא ולמא שערוא באנהא גיר כאינה ולא פאסדה ג'עלוהא מסכנא ללה תעאלי וללרוחאניין יעני אלמלאיכה ונסבוהא לה ללדלאלה עלי דואמהא. ואתי פי הד'א אלבאב איצ'א באמור מן הד'א אלקביל עלי ג'ההֵ רפד אלראי אלד'י צחחה אלנט'ר ענדה באלמשהוראת:",
+          "en": "Eighth Method.—The following method is based on the circumstance that the theory implies a belief which is so common to all peoples and ages, and so universal, that it appears to express a real fact and not merely an hypothesis. Aristotle says that all people have evidently believed in the permanency and stability of the heavens; and thinking that these were eternal, they declared them to be the habitation of God and of the spiritual beings or angels. By thus attributing the heavens to God, they expressed their belief that the heavens are indestructible. Several other arguments of the same kind are employed by Aristotle in treating of this subject in order to support the results of his philosophical speculation by common sense.",
+          "pairs": [
+            {
+              "ja": "כל אלנאס יצרחון בדואם אלסמא ות'באתהא",
+              "en": "all people have evidently believed in the permanency and stability of the heavens"
+            },
+            {
+              "ja": "ג'עלוהא מסכנא ללה תעאלי וללרוחאניין יעני אלמלאיכה",
+              "en": "they declared them to be the habitation of God and of the spiritual beings or angels"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

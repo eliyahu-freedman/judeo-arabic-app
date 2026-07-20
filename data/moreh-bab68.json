@@ -1,0 +1,256 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 68 — Intellect, Intellector, and Intelligible Are One in God",
+  "section_ja": "אלג'ז אלאול · אלפצל ששים ושמונה",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 68 is one of the most philosophically dense chapters of Part I. Maimonides takes up the Aristotelian doctrine that in the divine intellect, the three that are ordinarily distinct — the intellect (ʿaql), the intellector (ʿāqil), and the intelligible (maʿqūl) — are numerically one and identical. He works through the distinction between intellect in potency and intellect in act, showing that in humans these three are always two (intellect in potency vs. object) or three (when considering the potential, the act, and the abstracted form), but that in God, who is pure intellect in act with no potentiality whatsoever, the three collapse into absolute identity. This doctrine is the positive philosophical content behind the via negativa: God is not a being who also possesses intellect; He is intellect itself.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 9
+  },
+  "terms": [
+    {
+      "id": "aql-aqil-maqul",
+      "ja": "אלעקל ואלעאקל ואלמעקול",
+      "ar": "العقل والعاقل والمعقول",
+      "translit": "al-ʿaql wa-l-ʿāqil wa-l-maʿqūl",
+      "gloss": "intellect / intellector / intelligible",
+      "note": "The triad of Aristotelian noetic terms: the faculty (ʿaql), the subject who exercises it (ʿāqil), and the object known by it (maʿqūl). In God these three are numerically one.",
+      "variants": [
+        "עאקל",
+        "מעקול",
+        "עקל"
+      ]
+    },
+    {
+      "id": "bilquwwa-bilfiil",
+      "ja": "באלקוה ובאלפעל",
+      "ar": "بالقوة وبالفعل",
+      "translit": "bi-l-quwwa wa-bi-l-fiʿl",
+      "gloss": "in potency and in act",
+      "note": "Aristotle's distinction between potential and actual intellect. When intellect is in potency it is two things (faculty + potential object); when in act the intellect and its object are identical. God is pure intellect in act, with no potency at all.",
+      "variants": [
+        "קוה",
+        "פעל",
+        "עקל בפעל"
+      ]
+    },
+    {
+      "id": "la-quwwa-fihi",
+      "ja": "לא קוה פיה אצלא",
+      "ar": "لا قوة فيه أصلاً",
+      "translit": "lā quwwa fīhi aṣlan",
+      "gloss": "no potentiality in Him whatsoever",
+      "note": "The crucial premise: God has no potentiality, no unrealized capacity. He is entirely and always in act. This is why the usual tripartite distinction does not apply to Him.",
+      "variants": []
+    },
+    {
+      "id": "wahid-bilAdad",
+      "ja": "ואחד באלעדד",
+      "ar": "واحد بالعدد",
+      "translit": "wāḥid bi-l-ʿadad",
+      "gloss": "numerically one (identical)",
+      "note": "Not merely generically or specifically the same, but numerically identical — one in number. In God, intellect, intellector, and intelligible are not three things that resemble one another but are the very same thing.",
+      "variants": [
+        "ואחדא"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל ששים ושמונה",
+          "en": "Part One · Chapter Sixty-Eight — Intellect, Intellector, and Intelligible Are One in God",
+          "isHeader": true
+        },
+        {
+          "ja": "קד עלמת שהרהֵ הד'ה אלקולה אלתי קאלתהא אלפלאספה פי אללה תעאלי והו קולהם אנה אלעקל ואלעאקל ואלמעקול ועדד הד'ה לא יפיד כת'רה פי ד'אתה ואן הד'א לם ינקל ממן כאן קבלי. ולא שך אן כל מן לם ינט'ר פי אלכתב אלמוצ'ועה פי אלעקל ולם יחצל מן אלעלוב מן מא ביינא פי כלאמנא עלי הד'ה אלאמור יסתגרב הד'א ג'דא ויסאל כיף יכון את'נאן ואחדא ואת'לאת'ה ואחדא.",
+          "en": "You already know the fame of the doctrine that the philosophers stated concerning God, exalted be He — namely their saying that He is the intellect and the intellector and the intelligible, and that the enumeration of these three does not entail multiplicity in His essence; and that this has not been transmitted from anyone before me. Without doubt, everyone who has not studied the books composed on the intellect, and who has not attained from the sciences what we clarified in our discourse on these matters, will find this very strange and will ask: how can two be one, and three be one?",
+          "pairs": [
+            {
+              "ja": "אנה אלעקל ואלעאקל ואלמעקול",
+              "en": "He is the intellect and the intellector and the intelligible"
+            },
+            {
+              "ja": "עדד הד'ה לא יפיד כת'רה פי ד'אתה",
+              "en": "the enumeration of these three does not entail multiplicity in His essence"
+            },
+            {
+              "ja": "כיף יכון את'נאן ואחדא ואת'לאת'ה ואחדא",
+              "en": "how can two be one, and three be one?"
+            }
+          ]
+        },
+        {
+          "ja": "ולא שך אן כל מן לם ינט'ר פי אלכתב אלמוצ'ועה פי אלעקל ולא אדרך ד'את אלעקל ולא עלם מא אלפרק בין אלעקל באלקוה ואלעקל באלפעל ולא עלם אן אלעקל באלפעל הו אלאדראך למא עקל לא יפהם הד'ה אלקולה. ואנמא יפהמהא מן עלם הד'ה אלאשיא ואצלה ועלם אשתראך לפט' אלעקל.",
+          "en": "Without doubt, everyone who has not studied the books composed on the intellect, and has not grasped what the intellect is, and has not learned what the difference is between intellect in potency and intellect in act, and has not learned that the intellect in act is identical with the act of intellection of what it intellects — such a person will not understand this doctrine. Only one who knows these things and has mastered them, and has learned the equivocality of the term 'intellect,' will understand it.",
+          "pairs": [
+            {
+              "ja": "אלפרק בין אלעקל באלקוה ואלעקל באלפעל",
+              "en": "what the difference is between intellect in potency and intellect in act"
+            },
+            {
+              "ja": "אן אלעקל באלפעל הו אלאדראך למא עקל",
+              "en": "the intellect in act is identical with the act of intellection of what it intellects"
+            },
+            {
+              "ja": "מן עלם הד'ה אלאשיא ואצלה",
+              "en": "one who knows these things and has mastered them"
+            }
+          ]
+        },
+        {
+          "ja": "אעלם אן אלאנסאן קבל אן יעקל שיא פהו עאקל באלקוה פאד'א עקל שיא מא כאנך קלת אד'א אסתחצ'ר זיד צורהֵ הד'א אלשי אלמעקול וצ'ממהא אלי ד'אתה פד'לך הו אלעקל באלפעל. וד'לך אן כל אנסאן לא תכ'לו ד'אתה מן נפס עאקלה ד'את אסתעדאד פלד'לך כל ואחד מנא עאקל באלקוה לכנה בחסב מא אסתחצ'ר ד'לך אלמעני אלמג'רד מן אלמאדה יכון עאקלא באלפעל.",
+          "en": "Know that a human being before he intellects anything is an intellector in potency. When he intellects something, it is as if you said: when Zayd brings to presence the intelligible form of this thing and joins it to his essence — that is intellect in act. For every human being's essence is not devoid of a rational soul possessed of preparedness; therefore each one of us is an intellector in potency; but according to what he brings to presence of that abstracted meaning stripped of matter, he becomes an intellector in act.",
+          "pairs": [
+            {
+              "ja": "אלאנסאן קבל אן יעקל שיא פהו עאקל באלקוה",
+              "en": "a human being before he intellects anything is an intellector in potency"
+            },
+            {
+              "ja": "אסתחצ'ר זיד צורהֵ הד'א אלשי אלמעקול",
+              "en": "when Zayd brings to presence the intelligible form of this thing"
+            },
+            {
+              "ja": "ד'לך הו אלעקל באלפעל",
+              "en": "that is intellect in act"
+            },
+            {
+              "ja": "כל ואחד מנא עאקל באלקוה",
+              "en": "each one of us is an intellector in potency"
+            }
+          ]
+        },
+        {
+          "ja": "פמתי פרצ'ת עקלא מוג'ודא באלפעל הו אלאדראך למא עקל והד'א בין ג'דא למן חאול אמת'אל ד'לך. וד'לך אנה מן בין אנא אד'א עקלת צורה אלפרס מת'לא פאן אלעקל אלד'י פי פאנה באלפעל הו ד'לך אלאדראך בעינה אלד'י הו צורהֵ אלפרס ואנא הו אלעאקל ואלעקל ואלמעקול פי הד'א אלאעתבאר שי ואחד.",
+          "en": "When you posit an intellect existing in act — it is the intellection of what it intellected; and this is very clear to one who has sought examples of it. For when I, for instance, intellect the form of a horse, the intellect that is in me in act is that very intellection itself, which is the form of the horse; and I am the intellector; and thus intellect, intellector, and intelligible in this regard are one single thing.",
+          "pairs": [
+            {
+              "ja": "עקלא מוג'ודא באלפעל הו אלאדראך למא עקל",
+              "en": "an intellect existing in act — it is the intellection of what it intellected"
+            },
+            {
+              "ja": "אלעקל אלד'י פי פאנה באלפעל הו ד'לך אלאדראך בעינה",
+              "en": "the intellect that is in me in act is that very intellection itself"
+            },
+            {
+              "ja": "אלעקל ואלמעקול פי הד'א אלאעתבאר שי ואחד",
+              "en": "intellect, intellector, and intelligible in this regard are one single thing"
+            }
+          ]
+        },
+        {
+          "ja": "אמא אד'א פרץ' באלקוה פהו שיאן צ'רורה אלעקל באלקוה ואלמעקול באלקוה כאנך קלת הד'א אלאנסאן ד'א אסתעדאד ואשיא כת'ירה מעקולה ג'א ממכנה פי אלוג'וד לה. פלד'לך כל מן פי ד'אתה קוה מן ג'ההֵ כונה עאקלא ויעקל שיא כאן פי ד'אתה קסמאן אחדהמא אלעקל ד'אתה ואלאכ'ר אלמעקול אלמכ'אלף בינה ובין ד'אתה.",
+          "en": "But if it is posited in potency, then necessarily there are two: intellect in potency and the intelligible in potency — as if you said: this person has a preparedness and many intelligibles are possible in existence for him. Therefore, anyone in whose essence there is a potency from the standpoint of his being an intellector and intellecting something — in his essence there are two parts: one is the intellect, his essence; and the other is the intelligible object, distinct from his essence.",
+          "pairs": [
+            {
+              "ja": "אד'א פרץ' באלקוה פהו שיאן צ'רורה",
+              "en": "if it is posited in potency, then necessarily there are two"
+            },
+            {
+              "ja": "אלעקל באלקוה ואלמעקול באלקוה",
+              "en": "intellect in potency and the intelligible in potency"
+            },
+            {
+              "ja": "פי ד'אתה קסמאן אחדהמא אלעקל ד'אתה ואלאכ'ר אלמעקול",
+              "en": "in his essence there are two parts: one is the intellect, his essence; and the other is the intelligible object"
+            }
+          ]
+        },
+        {
+          "ja": "פכל עקל באלקוה ומעקול באלקוה המא את'נאן וכל מא הו באלקוה פלא בד מן מוצ'וע חאמל תלך אלקוה. אמא אלעקל באלפעל פהו אלאדראך בעינה אי הו ד'לך אלמעני אלמג'רד ען אלמאדה פעלא. פאד'א חכמת אן אללה עקל באלפעל מן גיר קוה תלזם אלסאבקה חתמא בה.",
+          "en": "Every intellect in potency and intelligible in potency are two; and everything that is in potency necessarily requires a substrate that bears that potency. But intellect in act is identical with the intellection itself — that is, it is that abstracted meaning stripped from matter in act. So when you judge that God is intellect in act without any potency, the preceding [conclusion] follows necessarily from it.",
+          "pairs": [
+            {
+              "ja": "כל עקל באלקוה ומעקול באלקוה המא את'נאן",
+              "en": "Every intellect in potency and intelligible in potency are two"
+            },
+            {
+              "ja": "כל מא הו באלקוה פלא בד מן מוצ'וע חאמל תלך אלקוה",
+              "en": "everything that is in potency necessarily requires a substrate that bears that potency"
+            },
+            {
+              "ja": "אלעקל באלפעל פהו אלאדראך בעינה",
+              "en": "intellect in act is identical with the intellection itself"
+            },
+            {
+              "ja": "אן אללה עקל באלפעל מן גיר קוה",
+              "en": "God is intellect in act without any potency"
+            }
+          ]
+        },
+        {
+          "ja": "ולמא תברהן אן אללה עז וג'ל הו עקל באלפעל ולא קוה פיה אצלא כמא באן וכמא יתברהן פלדאלד' ד'לך אן הו ואלעקל ואלמעקול ואחד באלעדד לא כת'רה פיה ולא גיריה מן האד'ין אלאעתבארין. ויסמי אלפלאספה הד'א ענאיה ויסמי עלמה תעאלי בד'אתה עלמה בכל מא סואה לאן בעלמה ד'אתה הו אלמוג'ד לכל מא סואה.",
+          "en": "Since it has been demonstrated that God, mighty and glorious, is intellect in act and there is no potency in Him whatsoever — as has been made clear and as is demonstrable — it necessarily follows that He, and the intellect, and the intelligible are numerically one, with no multiplicity in Him and no distinction from these two standpoints. The philosophers call this 'providence,' and they call His knowledge of His own essence His knowledge of everything other than Him — for by His knowledge of His own essence He is the Originator of everything other than Himself.",
+          "pairs": [
+            {
+              "ja": "אן אללה עז וג'ל הו עקל באלפעל ולא קוה פיה אצלא",
+              "en": "God, mighty and glorious, is intellect in act and there is no potency in Him whatsoever"
+            },
+            {
+              "ja": "הו ואלעקל ואלמעקול ואחד באלעדד",
+              "en": "He, and the intellect, and the intelligible are numerically one"
+            },
+            {
+              "ja": "לא כת'רה פיה ולא גיריה",
+              "en": "with no multiplicity in Him and no distinction"
+            },
+            {
+              "ja": "בעלמה ד'אתה הו אלמוג'ד לכל מא סואה",
+              "en": "by His knowledge of His own essence He is the Originator of everything other than Himself"
+            }
+          ]
+        },
+        {
+          "ja": "פקד באן אן כון אלעקל ואלעאקל ואלמעקול ואחדא באלעדד מא הו פי חק אלבארי פקט בל פי כל עקל מפארק ג'אר ד'לך לאנה עקל באלפעל לא קוה פיה. אמא אלאנסאן פלאג'ל מא פיה מן אלקוה ומן אלמאדה יכון אלעקל ואלעאקל ואלמעקול מכ'תלפה.",
+          "en": "It has thus become clear that the intellect, the intellector, and the intelligible being numerically one is not true only with regard to the Creator, but rather it holds for every separate intellect — for it is intellect in act with no potency in it. As for the human being, because of the potency that is in him and because of matter, the intellect, the intellector, and the intelligible are distinct.",
+          "pairs": [
+            {
+              "ja": "כון אלעקל ואלעאקל ואלמעקול ואחדא באלעדד",
+              "en": "the intellect, the intellector, and the intelligible being numerically one"
+            },
+            {
+              "ja": "מא הו פי חק אלבארי פקט",
+              "en": "is not true only with regard to the Creator"
+            },
+            {
+              "ja": "כל עקל מפארק ג'אר ד'לך לאנה עקל באלפעל לא קוה פיה",
+              "en": "it holds for every separate intellect — for it is intellect in act with no potency in it"
+            },
+            {
+              "ja": "אלאנסאן פלאג'ל מא פיה מן אלקוה ומן אלמאדה",
+              "en": "the human being, because of the potency that is in him and because of matter"
+            }
+          ]
+        },
+        {
+          "ja": "וקד כררנא הד'א אלמעני פי הד'א אלפצל מראת לכון אלאד'האן גריבה מן הד'א אלתצור ג'דא. ולא תחסב אן מא ד'כרנאה הנא מן כון אלעקל ואלעאקל ואלמעקול ואחדא באלעדד כלאמא מן ד'יל אלכלאם אלמסאמח. לאנה מן צ'רוריאת אלנט'ר ולמא ת'בת ד'לך לזם דפע אלתכ'יל מן אלד'הן. פאפהם הד'א:",
+          "en": "We have repeated this meaning in this chapter several times, because minds are very remote from this conception. And do not suppose that what we mentioned here — that the intellect, the intellector, and the intelligible are numerically one — is merely casual talk or permissive language. For it is among the necessities of speculative inquiry; and once this is established, one is compelled to expel imagination from the mind. Understand this.",
+          "pairs": [
+            {
+              "ja": "כררנא הד'א אלמעני פי הד'א אלפצל מראת",
+              "en": "We have repeated this meaning in this chapter several times"
+            },
+            {
+              "ja": "אלאד'האן גריבה מן הד'א אלתצור ג'דא",
+              "en": "minds are very remote from this conception"
+            },
+            {
+              "ja": "לאנה מן צ'רוריאת אלנט'ר",
+              "en": "it is among the necessities of speculative inquiry"
+            },
+            {
+              "ja": "לזם דפע אלתכ'יל מן אלד'הן",
+              "en": "one is compelled to expel imagination from the mind"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

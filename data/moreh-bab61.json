@@ -1,0 +1,230 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 61 — Divine Names: Only the Tetragrammaton Is a Proper Noun",
+  "section_ja": "אלג'ז אלאול · אלפצל ששים ואחד",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 61 opens a new sub-topic within the discussion of attributes: the divine names. Maimonides argues that of all the many names applied to God in Scripture, only one — the Tetragrammaton (YHWH) — is a genuine proper noun (ism murtajal), designating God's essence without any descriptive content. All other divine names are derived words (mushtaqqa) — common nouns whose meaning is borrowed from corresponding human predicates, and which therefore imply the attribute-multiplicity already shown to be theologically inadmissible.\n\nThis explains the rabbinic dictum 'my name that is unique to Me' (shemi ha-meyuḥad li): only the Tetragrammaton has no sharing, because it alone does not carry a borrowed meaning. The name Adonai (My Lord), though used as a substitute for the Tetragrammaton, is itself derived from the root for lordship. Even Elohim is a common noun of governance. The Names of 42 letters and 12 letters discussed in this and the next two chapters are not single proper names but multi-word sequences of divine attributes — their complexity reflects the attempt to approach, through multiple predications, what only the Tetragrammaton denotes by simple referral.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 7
+  },
+  "terms": [
+    {
+      "id": "ism-murtajal",
+      "ja": "אסם מרתג'ל",
+      "ar": "اسم مرتجل",
+      "translit": "ism murtajal",
+      "gloss": "proper noun / name coined for the referent alone",
+      "note": "A technical Arabic grammatical term for a name coined directly for its referent without derivation from a descriptive root. Only the Tetragrammaton is such a name for God.",
+      "variants": [
+        "מרתג'ל"
+      ]
+    },
+    {
+      "id": "ism-mushtaqq",
+      "ja": "אסם משתק",
+      "ar": "اسم مشتق",
+      "translit": "ism mushtaqq",
+      "gloss": "derived name / descriptive noun",
+      "note": "A name derived from a verbal root that carries descriptive content — like Elohim (from governance), Shaddai (from sufficiency), Adonai (from lordship). All divine names except YHWH are of this type.",
+      "variants": [
+        "משתקה",
+        "אלמשתקה"
+      ]
+    },
+    {
+      "id": "shem-meforash",
+      "ja": "שם מפורש",
+      "ar": null,
+      "translit": "shem ha-meforash",
+      "gloss": "the Explicit / Specified Name",
+      "note": "Rabbinic designation for the Tetragrammaton: the name that specifies God's essence alone, without being shared with any creature.",
+      "variants": [
+        "שם המפורש"
+      ]
+    },
+    {
+      "id": "shem-meyuḥad",
+      "ja": "שמי המיוחד לי",
+      "ar": null,
+      "translit": "shemi ha-meyuḥad li",
+      "gloss": "My name unique to Me",
+      "note": "The rabbinic formula for the Tetragrammaton's uniqueness: it belongs to God alone, shared with no creature, because it carries no descriptive borrowing.",
+      "variants": [
+        "המיוחד לי"
+      ]
+    },
+    {
+      "id": "adonai",
+      "ja": "אדני",
+      "ar": null,
+      "translit": "Adonai",
+      "gloss": "My Lord (substitute for the Tetragrammaton)",
+      "note": "Maimonides notes that Adonai with qameṣ-nun is a generalized form of the possessive 'my lord' (adoni with ḥiriq-nun). Even this familiar substitute is a derived, descriptive noun — unlike the Tetragrammaton itself.",
+      "variants": [
+        "אדון"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל ששים ואחד",
+          "en": "Part One · Chapter Sixty-One — Divine Names: Only the Tetragrammaton Is a Proper Noun",
+          "isHeader": true
+        },
+        {
+          "ja": "ג'מיע אסמאיה תעאלי אלמוג'ודה פי אלכתב כלהא משתקה מן אלאפעאל והד'א מא לא כ'פא בה אלא אסם ואחד והו יוד הא ואו הא פאנה אסם מרתג'ל לה תעאלי ולד'לך סמי שם מפורש מענאה אנה ידל עלי ד'אתה תעאלי דלאלה בינה לא אשתראך פיהא אמא סאיר אסמאיה אלמעט'מה פתדל באשתראך לכונהא משתקה מן אפעאל יוג'ד מת'להא לנא כמא בינא. חתי אן אלאסם אלמכני בה ען יוד הא ואו הא הו איצ'א משתק מן אלסיאדה דבר האיש אדני הארץ ואלפרק בין קולך אדני בכסר אלנון ובין אן תקולה במד אלנון באלקמץ מת'ל אלפרק בין קולך שרי אלד'י מענאה ראיסי ובין קולך שרי אשת אברם לאן פי ד'לך תפכ'ים ועמום ללגיר וקד קיל ללמלאך אדני אל נא תעבר ואנמא בינת לה הד'א פי אדני כ'אצה אלמכני בה לכונה אכ'ץ אלאסמא אלמשהורה לה תעאלי אמא סאירהא מת'ל דיין וצדיק וחנון ורחום ואלהים פבינהֵ אלעמום ואלאשתקאק אמא אלשם אלד'י יתהג'א מן יוד הא ואו הא פלא יעלם לה אשתקאק משהור ולא ישארך פיה אלגיר. ולא שך אן הד'א אלאסם אלעט'ים אלד'י לא ינטק בה כמא עלמת אלא פי אלמקדש וכהני י״י המקודשים כ'אצה פי ברכת כהנים וכהן גדול פי יום הצום ידל עלי מעני מא לא שרכה בין אללה תעאלי ובין מא סואה פי ד'לך אלמעני ולעלה ידל בחסב אללגה אלתי ליס ענדנא אליום מנהא אלא אנזר שי ובחסב מא ינטק בה איצ'א עלי מעני וג'וב אלוג'וד. ובאלג'מלה עט'מהֵ הד'א אלאסם ואלמחאמאה ען אלנטק בה לכונה דאלא עלי ד'אתה תעאלי מן חית' לא ישארך אחד מן אלמכ'לוקין פי תלך אלדלאלה כמא קאלוא ענה ז״ל שמי המיוחד לי.",
+          "en": "All the names of God, exalted be He, that are found in all the books are derived from actions — and this is hidden from no one except for a single name, which is Yod Heh Waw Heh; for it is a proper noun for Him, exalted be He, and for that reason it is called the Explicit Name, meaning that it indicates His essence, exalted be He, with a clear indication in which there is no sharing. As for the other great names, they indicate through sharing, because they are derived from actions that have their like in us, as we explained. Even the name used as a substitute for Yod Heh Waw Heh is itself derived from lordship: 'the man, my lord, spoke' (Gen 42:30) — and the difference between saying adoni with a short nun and saying it with a lengthened nun and a qameṣ is like the difference between saying sari, meaning 'my chief,' and saying sarai, the wife of Abram — for in the latter there is a generalization and broadening for others. Even the angel was addressed: 'My lord, pray do not pass' (Gen 18:3). I have highlighted this for Adonai in particular — the substitute name — because it is the most specific of the well-known names of Him, exalted be He. As for the others, such as Judge (Dayan), Just (Ṣaddiq), Gracious (Ḥannun), Merciful (Raḥum), and God (Elohim) — their generality and derivation are manifest. But the name that is spelled from Yod Heh Waw Heh — no known derivation is known for it, nor does any other share in it. And without doubt this great name, which is not pronounced — as you know — except in the Temple by the consecrated priests of the Lord specifically, in the Priestly Blessing, and by the High Priest on the Day of Atonement, indicates a meaning in which no sharing between God, exalted be He, and anything other than He exists; and perhaps it indicates, according to the language of which today we have but the barest trace, and according to its pronunciation as well, the meaning of necessary existence. In general, the greatness of this name and its protection from being pronounced is because it indicates His essence, exalted be He, from the angle that nothing among the creatures shares in that indication — as they said of it, of blessed memory: 'My name that is unique to Me.'",
+          "pairs": [
+            {
+              "ja": "ג'מיע אסמאיה תעאלי אלמוג'ודה פי אלכתב כלהא משתקה מן אלאפעאל",
+              "en": "All the names of God, exalted be He, that are found in all the books are derived from actions"
+            },
+            {
+              "ja": "אלא אסם ואחד והו יוד הא ואו הא פאנה אסם מרתג'ל לה תעאלי",
+              "en": "except for a single name, which is Yod Heh Waw Heh; for it is a proper noun for Him, exalted be He"
+            },
+            {
+              "ja": "ולד'לך סמי שם מפורש מענאה אנה ידל עלי ד'אתה תעאלי דלאלה בינה לא אשתראך פיהא",
+              "en": "for that reason it is called the Explicit Name, meaning that it indicates His essence, exalted be He, with a clear indication in which there is no sharing"
+            },
+            {
+              "ja": "סאיר אסמאיה אלמעט'מה פתדל באשתראך לכונהא משתקה מן אפעאל",
+              "en": "the other great names, they indicate through sharing, because they are derived from actions"
+            },
+            {
+              "ja": "אלשם אלד'י יתהג'א מן יוד הא ואו הא פלא יעלם לה אשתקאק משהור ולא ישארך פיה אלגיר",
+              "en": "the name that is spelled from Yod Heh Waw Heh — no known derivation is known for it, nor does any other share in it"
+            },
+            {
+              "ja": "עט'מהֵ הד'א אלאסם ואלמחאמאה ען אלנטק בה לכונה דאלא עלי ד'אתה תעאלי מן חית' לא ישארך אחד מן אלמכ'לוקין פי תלך אלדלאלה",
+              "en": "the greatness of this name and its protection from being pronounced is because it indicates His essence, exalted be He, from the angle that nothing among the creatures shares in that indication"
+            },
+            {
+              "ja": "שמי המיוחד לי",
+              "en": "'My name that is unique to Me.'"
+            }
+          ]
+        },
+        {
+          "ja": "אמא סאיר אלאסמא פהי כלהא תדל עלי צפאת לא עלי ד'את פקט בל עלי ד'את צפאת לאנהא משתקה ולהד'א תוהם אלתכת'יר אעני אנהא תוהם וג'וד צפאת ואן ת'ם ד'את ומעני זאיד עלי אלד'את אד' הכד'א הי דלאלהֵ כל אסם משתק פאנה ידל עלי מעני ועלי מוצ'וע לם יצרח בה אקתרן בה ד'לך אלמעני. ולמא תברהן אן אללה תעאלי ליס הו מוצ'ועא מא אקתרנת בה מעאני עלם אן אלאסמא אלמשתקה הי אמא בחסב נסבהֵ אלפעל אליה או בחסב אלארשאד לכמאלה.",
+          "en": "As for all the other names — they all indicate attributes, not an essence alone, but an essence with attributes; because they are derived. For that reason they create the illusion of multiplicity — I mean, they create the illusion that there are attributes, and that there is an essence and a meaning additional to the essence; for such is the indication of every derived name, as it indicates a meaning and an unstated subject with which that meaning is associated. And since it has been demonstrated that God, exalted be He, is not a subject with which meanings are associated, it follows that the derived names are either according to the relation of His action to Him, or according to the guidance toward His perfection.",
+          "pairs": [
+            {
+              "ja": "סאיר אלאסמא פהי כלהא תדל עלי צפאת לא עלי ד'את פקט בל עלי ד'את צפאת",
+              "en": "all the other names — they all indicate attributes, not an essence alone, but an essence with attributes"
+            },
+            {
+              "ja": "תוהם וג'וד צפאת ואן ת'ם ד'את ומעני זאיד עלי אלד'את",
+              "en": "they create the illusion that there are attributes, and that there is an essence and a meaning additional to the essence"
+            },
+            {
+              "ja": "אלאסמא אלמשתקה הי אמא בחסב נסבהֵ אלפעל אליה או בחסב אלארשאד לכמאלה",
+              "en": "the derived names are either according to the relation of His action to Him, or according to the guidance toward His perfection"
+            }
+          ]
+        },
+        {
+          "ja": "ולהד'א תאפף ר' חנינה מן קולהֵ הגדול הגבור והנורא לולא אלצ'רורתאן אלתין ד'כר לכון הד'ה תוהם צפאת ד'אתיה אעני אנהא כמאלאת מוג'ודה פיה ולמא כת'רת הד'ה אלאסמא אלמשתקה מן אלאפעאל לה תעאלי אוהמת לבעץ' אלנאס צפאת מתעדדה לה כתעדד אלאפעאל אלתי אשתקת מנהא ולד'לך ועד באנה סיחצל ללנאס אדראך יזיל להם הד'א אלאלתבאס וקאל ביום ההוא יהיה י״י אחד ושמו אחד יעני אנה כמא הו ואחד כד'לך ידעי חיניד' באסם ואחד פקט והו אלדאל עלי אלד'את פקט לא אנה יכון משתקא. ופי פרקי ר' אליעזר קאלוא עד שלא נברא העולם היה הק״ב״ה ושמו בלבד פתאמל כיף צרח באן הד'ה אלאסמא אלמשתקה כלהא אנמא חדת'ת בעד חדות' אלעאלם והד'א צחיח אנהא כלהא אסמא וצ'עת בחסב אלאפעאל אלמוג'ודה פי אלעאלם אמא אד'א אעתברת ד'אתה מעראה מג'רדה ען כל פעל פלא יכון לה אסם משתק בוג'ה בל אסם ואחד מתרג'ל ללדלאלה עלי ד'אתה וליס ענדנא שם גיר משתק אלא הד'א והו יוד הא ואו הא אלד'י הו שם המפורש באטלאק לא תט'ן גיר הד'א.",
+          "en": "For that reason Rabbi Ḥanina had an aversion to saying 'the Great, the Mighty, the Awesome' — were it not for the two necessities he mentioned — because these create the illusion of essential attributes, meaning that they are perfections that exist in Him. And when these derived names from actions of Him, exalted be He, multiplied, they created the illusion for some people of multiple attributes for Him, as many as the actions from which they were derived. For that reason he promised that people will eventually attain an apprehension that removes from them this confusion, saying: 'On that day the Lord shall be one and His name one' (Zech 14:9) — meaning: just as He is one, so too will He then be called by a single name only, which is that which indicates the essence alone without being derived. And in Pirqei de-Rabbi Eliezer they said: 'Before the world was created, the Holy One blessed be He and His name alone existed.' Reflect on how he explicitly stated that all these derived names came into being only after the world came into being — and this is correct, for they were all names coined according to the actions that exist in the world. But when one considers His essence stripped, abstracted from every action, He has no derived name whatsoever; but a single coined name to indicate His essence. And we have no non-derived name except this one — which is Yod Heh Waw Heh, which is the Explicit Name without qualification. Think nothing other than this.",
+          "pairs": [
+            {
+              "ja": "תאפף ר' חנינה מן קולהֵ הגדול הגבור והנורא לולא אלצ'רורתאן",
+              "en": "Rabbi Ḥanina had an aversion to saying 'the Great, the Mighty, the Awesome' — were it not for the two necessities"
+            },
+            {
+              "ja": "הד'ה תוהם צפאת ד'אתיה אעני אנהא כמאלאת מוג'ודה פיה",
+              "en": "these create the illusion of essential attributes, meaning that they are perfections that exist in Him"
+            },
+            {
+              "ja": "ביום ההוא יהיה י״י אחד ושמו אחד",
+              "en": "'On that day the Lord shall be one and His name one'"
+            },
+            {
+              "ja": "הד'ה אלאסמא אלמשתקה כלהא אנמא חדת'ת בעד חדות' אלעאלם",
+              "en": "all these derived names came into being only after the world came into being"
+            },
+            {
+              "ja": "אד'א אעתברת ד'אתה מעראה מג'רדה ען כל פעל פלא יכון לה אסם משתק בוג'ה",
+              "en": "when one considers His essence stripped, abstracted from every action, He has no derived name whatsoever"
+            },
+            {
+              "ja": "יוד הא ואו הא אלד'י הו שם המפורש באטלאק",
+              "en": "Yod Heh Waw Heh, which is the Explicit Name without qualification"
+            }
+          ]
+        },
+        {
+          "ja": "ולא יכ'טר בכ'אטרך הד'יאן כתאב אלקמיעות ומא תסמעה מנהם או תג'דה פי כתבהם אלסכ'יפה מן אסמא ילפקונהא לא תדל עלי מעני בוג'ה ויסמונהא שמות ויזעמון אנהא תחתאג' קדושה וטהרה ואנהא תפעל עג'איב כל הד'ה אלאשיא אכ'באר לא יליק באנסאן כאמל אן יסמעהא פכיף אן יעתקדהא.",
+          "en": "Do not let enter your mind the nonsense of the amulet books and what you hear from them or find in their foolish writings — names they fabricate that indicate no meaning whatsoever, calling them 'names' and claiming they require holiness and purity and that they perform wonders. All these things are reports that it does not befit a perfect person even to hear, much less to believe.",
+          "pairs": [
+            {
+              "ja": "ולא יכ'טר בכ'אטרך הד'יאן כתאב אלקמיעות",
+              "en": "Do not let enter your mind the nonsense of the amulet books"
+            },
+            {
+              "ja": "אסמא ילפקונהא לא תדל עלי מעני בוג'ה ויסמונהא שמות",
+              "en": "names they fabricate that indicate no meaning whatsoever, calling them 'names'"
+            },
+            {
+              "ja": "לא יליק באנסאן כאמל אן יסמעהא פכיף אן יעתקדהא",
+              "en": "it does not befit a perfect person even to hear, much less to believe"
+            }
+          ]
+        },
+        {
+          "ja": "ולא יסתמי שם המפורש בוג'ה גיר הד'א אלשם בן ארבע אותיות אלמכתוב אלד'י לא יקרא בחסב הג'איה ובביאן קאלוא פי ספרי כה תברכו את בני ישראל כה בלשון הזה כה בשם המפורש. והנאך קיל במקדש ככתבו ובמדינה בכנויו. ופי אלתלמוד קיל כה בשם המפורש אתה אומר בשם המפורש או אינו אלא בכנויו תלמוד לומר ושמו את שמי שמי המיוחד לי.",
+          "en": "The Explicit Name is not to be called by that designation under any circumstances other than this written four-letter name, which is not read according to its spelling. They said in Sifre: 'So you shall bless — so in this language; so with the Explicit Name.' And there it was said: 'In the Temple as it is written; in the provinces with its substitute.' And in the Talmud it was said: 'So with the Explicit Name — you say it with the Explicit Name; or perhaps only with its substitute? Scripture teaches: and they shall place My name — My name that is unique to Me.'",
+          "pairs": [
+            {
+              "ja": "ולא יסתמי שם המפורש בוג'ה גיר הד'א אלשם בן ארבע אותיות אלמכתוב",
+              "en": "The Explicit Name is not to be called by that designation under any circumstances other than this written four-letter name"
+            },
+            {
+              "ja": "במקדש ככתבו ובמדינה בכנויו",
+              "en": "'In the Temple as it is written; in the provinces with its substitute.'"
+            },
+            {
+              "ja": "שמי המיוחד לי",
+              "en": "My name that is unique to Me"
+            }
+          ]
+        },
+        {
+          "ja": "פקד באן לך אן שם המפורש הו הד'א שם בן ארבע אותיות ואנה וחדה הו אלדאל עלי אלד'את דון שרכהֵ מעני אכ'ר ולהד'א קאלוא ענה המיוחד לי.",
+          "en": "It has thus become clear to you that the Explicit Name is this four-letter name, and that it alone is the indicator of the essence without the association of any other meaning — and for that reason they said of it: 'unique to Me.'",
+          "pairs": [
+            {
+              "ja": "שם המפורש הו הד'א שם בן ארבע אותיות ואנה וחדה הו אלדאל עלי אלד'את",
+              "en": "the Explicit Name is this four-letter name, and that it alone is the indicator of the essence"
+            },
+            {
+              "ja": "דון שרכהֵ מעני אכ'ר ולהד'א קאלוא ענה המיוחד לי",
+              "en": "without the association of any other meaning — and for that reason they said of it: 'unique to Me.'"
+            }
+          ]
+        },
+        {
+          "ja": "ואנא אבין לך אלשי אלד'י דעא אלנאס למא יעתקדונה מן אמר אלשמות ואבין לך אצל הד'ה אלמסאלה ואכשף לך גטאהא חתי לא יבקי פיהא אשכאל אלא אן שית אן תגאלט נפסך פי פצל בעד הד'א:",
+          "en": "And I shall explain to you what led people to what they believe regarding the matter of the names, and clarify for you the root of this question, and uncover its covering — so that no problem remains in it unless you choose to deceive yourself in the chapter after this.",
+          "pairs": [
+            {
+              "ja": "אנא אבין לך אלשי אלד'י דעא אלנאס למא יעתקדונה מן אמר אלשמות",
+              "en": "I shall explain to you what led people to what they believe regarding the matter of the names"
+            },
+            {
+              "ja": "ואכשף לך גטאהא חתי לא יבקי פיהא אשכאל",
+              "en": "and uncover its covering — so that no problem remains in it"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

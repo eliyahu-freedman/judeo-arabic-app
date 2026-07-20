@@ -1,0 +1,221 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 52 — The Five Types of Attributes",
+  "section_ja": "אלג'ז אלאול · אלפצל חמשים ושנים",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 52 is the technical core of the attributes section and the longest chapter in this sequence. Maimonides systematically enumerates the five types of attributes that can logically be predicated of any subject: (1) the definition, which states the complete essence; (2) a part of the definition; (3) quality (khayfiyya) — which he then subdivides into four sub-genera: dispositional habits of the soul, natural powers, passional dispositions and affective states, and quantitative properties; (4) relational attributes — to time, place, or another person; and (5) attributes of action, meaning what a thing actually does rather than what kind of thing it is.\n\nFor each type, Maimonides shows precisely why the first three categories cannot apply to God. Definition and partial-definition are impossible because God has no causes that preceded Him and constituted His being. Quality in all four sub-genera is impossible because God has no quantity, no affective states, no natural powers (which imply potentiality), and no soul-dispositions (which imply corporeality). Relational attributes to time and place are impossible because time is an accident of motion and God has no body; and even relational attributes to creatures are problematic in principle, though these are the least objectionable.\n\nOnly the fifth type — attributes of action — can genuinely be affirmed of God. A summary closes the chapter: God is one from every direction; the different attributes applied to Him in Scripture reflect the multiplicity of His actions, not any multiplicity in His essence.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 16
+  },
+  "terms": [
+    {
+      "id": "hadd",
+      "ja": "חד",
+      "ar": "حدّ",
+      "translit": "ḥadd",
+      "gloss": "definition (logical)",
+      "note": "In Aristotelian logic, the complete definition that states the essence of a thing. Maimonides shows it cannot apply to God because a definition implies causes that constituted the thing defined — but God has no prior causes.",
+      "variants": ["חדה"]
+    },
+    {
+      "id": "kayfiyya",
+      "ja": "כיפיה",
+      "ar": "كيفية",
+      "translit": "kayfiyya",
+      "gloss": "quality (Aristotelian category)",
+      "note": "Aristotle's highest genus for the category of quality, encompassing four sub-genera: habits/dispositions of the soul (including knowledge, character), natural powers (softness, hardness), passional affections (anger, color), and quantitative properties (length, curvature).",
+      "variants": ["אלכיפיאת", "כיפיאת"]
+    },
+    {
+      "id": "nisba",
+      "ja": "נסבה",
+      "ar": "نسبة",
+      "translit": "nisba",
+      "gloss": "relation, relational attribute",
+      "note": "The fourth type of attribute: predicating a thing's relation to time, place, or another entity. Maimonides argues that true relations require that the two relata share a common genus — but God shares no genus with any creature; hence no real relation obtains.",
+      "variants": ["נסב", "אלנסבה"]
+    },
+    {
+      "id": "fiʿl-attribute",
+      "ja": "צפה אלפעל",
+      "ar": "صفة الفعل",
+      "translit": "ṣifat al-fiʿl",
+      "gloss": "attribute of action",
+      "note": "The only admissible type of divine attribute: predicating not what God is but what He does. 'God created the heavens' or 'God is merciful' (in the sense that He acts mercifully) — these describe His actions, not an internal state or quality. Multiple such attributes imply no multiplicity in His essence.",
+      "variants": ["צפאת אלאפעאל", "צפה פעל"]
+    },
+    {
+      "id": "wujud-wajib",
+      "ja": "ואג'ב אלוג'וד",
+      "ar": "واجب الوجود",
+      "translit": "wājib al-wujūd",
+      "gloss": "necessary existent",
+      "note": "God's ontological status: His existence is not received from another, not possible, but necessary in itself. This is why relational attributes produce no symmetrical reciprocity with creatures — necessary existence is in an entirely different ontological category.",
+      "variants": ["ואג'ב"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל חמשים ושנים",
+          "en": "Part One · Chapter Fifty-Two — The Five Types of Attributes",
+          "isHeader": true
+        },
+        {
+          "ja": "כל מוצוף תוג'ב לה אלצפה ויקאל הו אלכד'א פלא תכ'לו תלך אלצפה מן אן תכון מן אחד הד'ה אלכ'מסה אקסאם.",
+          "en": "Every subject to which an attribute belongs — such that it is said to be such-and-such — that attribute can only belong to one of these five categories.",
+          "pairs": [
+            { "ja": "כל מוצוף תוג'ב לה אלצפה ויקאל הו אלכד'א", "en": "Every subject to which an attribute belongs — such that it is said to be such-and-such" },
+            { "ja": "פלא תכ'לו תלך אלצפה מן אן תכון מן אחד הד'ה אלכ'מסה אקסאם", "en": "that attribute can only belong to one of these five categories" }
+          ]
+        },
+        {
+          "ja": "אלקסם אלאול אן יוצף אלשי בחדה כמא יוצף אלאנסאן באנה אלחיואן אלנאטק והד'ה אלצפה הי אלתי תדל עלי מאהיהֵ אלשי וחקיקתה קד בינא אנהא שרח אסם לא גיר והד'א אלנחו מן אלצפה מנפי ען אללה ענד כל אחד לאנה תעאלי ליס לה אסבאב מתקדמה הי סבב וג'ודה פיחד בהא ולד'לך שהר ענד כל אחד מן אלנט'אר אלמחצלין למא יקולונה באן אללה לא יחד.",
+          "en": "The first category: a thing is described by its definition — as a human being is described as the rational animal. This attribute indicates the essence and reality of the thing; we have explained that it is merely an explanation of a name and nothing more. This type of attribute is denied of God by everyone, since He, exalted be He, has no prior causes that are the cause of His existence and by which He could be defined. It is therefore well-known among all the accomplished speculative thinkers, on account of what they say, that God cannot be defined.",
+          "pairs": [
+            { "ja": "אן יוצף אלשי בחדה כמא יוצף אלאנסאן באנה אלחיואן אלנאטק", "en": "a thing is described by its definition — as a human being is described as the rational animal" },
+            { "ja": "הד'ה אלצפה הי אלתי תדל עלי מאהיהֵ אלשי וחקיקתה", "en": "This attribute indicates the essence and reality of the thing" },
+            { "ja": "אנה תעאלי ליס לה אסבאב מתקדמה הי סבב וג'ודה פיחד בהא", "en": "He, exalted be He, has no prior causes that are the cause of His existence and by which He could be defined" },
+            { "ja": "אן אללה לא יחד", "en": "God cannot be defined" }
+          ]
+        },
+        {
+          "ja": "ואלקסם אלת'אני אן יוצף אלשי בג'ז חדה כמא יוצף אלאנסאן באלחיואניה או באלנטק והד'א מענאה אלתלאזם לאנא אד'א קלנא כל אנסאן נאטק פאנמא מענאה אן כל מן תוג'ד לה אלאנסאניה יוג'ד פיה אלנטק והד'א אלנחו מן אלצפאת מנפי ען אללה תעאלי ענד כל אחד לאנה אן כאן לה ג'ז מאהיה פתכון מאהיתה מרכבה ואסתחאלהֵ הד'א אלקסם פי חקה כאסתחאלהֵ אלד'י קבלה.",
+          "en": "The second category: a thing is described by a part of its definition — as a human being is described by animality or by rational speech. The meaning of this is entailment: when we say 'every human being is a rational speaker,' the meaning is that everyone in whom humanity exists has rational speech in him. This type of attribute is denied of God, exalted be He, by everyone — for if He had a part of an essence, His essence would be composite, and the impossibility of this category in His case is like the impossibility of the one before it.",
+          "pairs": [
+            { "ja": "אן יוצף אלשי בג'ז חדה כמא יוצף אלאנסאן באלחיואניה או באלנטק", "en": "a thing is described by a part of its definition — as a human being is described by animality or by rational speech" },
+            { "ja": "הד'א מענאה אלתלאזם", "en": "The meaning of this is entailment" },
+            { "ja": "אן כאן לה ג'ז מאהיה פתכון מאהיתה מרכבה", "en": "if He had a part of an essence, His essence would be composite" }
+          ]
+        },
+        {
+          "ja": "ואלקסם אלת'אלת' אן יוצף אלשי באמר כ'ארג' ען חקיקתה וד'אתה חתי יכון ד'לך אלאמר ליס ממה תכמל בה אלד'את ותתקום פיכון ד'לך אלאמר אד'א כיפיהֵ מא פיה ואלכיפיה והי אלג'נס אלעאלי ערץ' מן אלאעראץ'. פאן כאן תוג'ד לה תעאלי צפה מן הד'א אלקסם פיכון תעאלי מחל אלאעראץ' וכפי בהד'א בעדא ען חקיקתה וד'אתה אעני אן יכון ד'א כיפיה. ואלעג'ב מן כון אלד'ין יקולון באלצפאת ינפון ענה תעאלי אלתשביה ואלתכייף ומא מעני קולהם לא יכיף אלא אנה ליס בד'י כיפיה וכל צפה תוג'ב לד'את מא איג'אבא ד'אתיא פהי אמא מקומה ללד'את והי הי או כיפיה לתלך אלד'את.",
+          "en": "The third category: a thing is described by a matter extraneous to its reality and essence — something that does not constitute the essence and actualize it — and this matter, if it is in it, is then a quality, and quality, as the highest genus, is an accident among the accidents. If an attribute of this category were found in Him, exalted be He, He would be a substrate for accidents — and it is sufficient as a departure from His reality and essence, I mean His being possessed of quality. What is remarkable is that those who assert attributes deny of Him, exalted be He, likening and qualifying — yet what does their saying 'He cannot be qualified' mean, except that He is not possessed of quality? For every attribute that is necessitated of some essence necessarily — either it constitutes the essence, in which case it is the essence itself, or it is a quality of that essence.",
+          "pairs": [
+            { "ja": "אן יוצף אלשי באמר כ'ארג' ען חקיקתה וד'אתה", "en": "a thing is described by a matter extraneous to its reality and essence" },
+            { "ja": "ואלכיפיה והי אלג'נס אלעאלי ערץ' מן אלאעראץ'", "en": "quality, as the highest genus, is an accident among the accidents" },
+            { "ja": "פיכון תעאלי מחל אלאעראץ'", "en": "He would be a substrate for accidents" },
+            { "ja": "כל צפה תוג'ב לד'את מא איג'אבא ד'אתיא פהי אמא מקומה ללד'את והי הי או כיפיה לתלך אלד'את", "en": "every attribute that is necessitated of some essence necessarily — either it constitutes the essence, in which case it is the essence itself, or it is a quality of that essence" }
+          ]
+        },
+        {
+          "ja": "ואג'נאס אלכיפיה ארבעה כמא עלמת ואנא אמת'ל לך מת'לא עלי טריק אלצפה מן כל ג'נס מנהא ליבין לך אמתנאע וג'וד הד'א אלנחו מן אלצפאת ללה תעאלי.",
+          "en": "The genera of quality are four, as you know; and I shall give you an example on the path of attribute from each of these genera, to make clear to you the impossibility of this type of attribute existing for God, exalted be He.",
+          "pairs": [
+            { "ja": "אג'נאס אלכיפיה ארבעה כמא עלמת", "en": "The genera of quality are four, as you know" },
+            { "ja": "ליבין לך אמתנאע וג'וד הד'א אלנחו מן אלצפאת ללה תעאלי", "en": "to make clear to you the impossibility of this type of attribute existing for God, exalted be He" }
+          ]
+        },
+        {
+          "ja": "אלמת'אל אלאול מת'ל וצפך אלאנסאן במלכה מן מלכאתה אלנט'ריה או אלכ'לקיה או אלהיאת אלתי תוג'ד לה במא הו מתנפס כקולך פלאן אלנג'אר או אלעפיף או אלמריץ' ולא פרק בין קולך אלנג'אר או קולך אלעאלם או אלחכים אלכל היאת פי אלנפס. ולא פרק בין קולך אלעפיף או קולך אלרחים לאן כל צנאעה וכל עלם וכל כ'לק מתמכן הי היאה פי אלנפס והד'א כלה בין למן זאול צנאעהֵ אלמנטק איסר מזאולה.",
+          "en": "The first example: describing a human being by one of its intellectual or moral dispositions, or by the states that exist in it by virtue of its having a soul — such as saying 'so-and-so is a carpenter,' or 'abstemious,' or 'sick.' There is no difference between saying 'a carpenter' and saying 'learned' or 'wise' — all are states of the soul. Nor is there a difference between saying 'abstemious' and saying 'compassionate,' for every craft, every piece of knowledge, every entrenched character trait is a state of the soul — and all of this is clear to anyone who has practiced the art of logic even a little.",
+          "pairs": [
+            { "ja": "וצפך אלאנסאן במלכה מן מלכאתה אלנט'ריה או אלכ'לקיה", "en": "describing a human being by one of its intellectual or moral dispositions" },
+            { "ja": "לא פרק בין קולך אלנג'אר או קולך אלעאלם או אלחכים אלכל היאת פי אלנפס", "en": "There is no difference between saying 'a carpenter' and saying 'learned' or 'wise' — all are states of the soul" },
+            { "ja": "כל צנאעה וכל עלם וכל כ'לק מתמכן הי היאה פי אלנפס", "en": "every craft, every piece of knowledge, every entrenched character trait is a state of the soul" }
+          ]
+        },
+        {
+          "ja": "ואלמת'אל אלת'אני מת'ל וצפך אלשי בקוה טביעיה פיה או לא קוה טביעיה מת'ל קולך אללין ואלצלב ולא פרק בין קולך אללין ואלצלב ובין קולך אלקוי ואלצ'עיף אלכל אסתעדאדאת טביעיה.",
+          "en": "The second example: describing a thing by a natural power in it, or the absence of a natural power — such as saying 'soft' and 'hard.' There is no difference between saying 'soft' and 'hard' and saying 'strong' and 'weak' — all are natural dispositions.",
+          "pairs": [
+            { "ja": "וצפך אלשי בקוה טביעיה פיה או לא קוה טביעיה", "en": "describing a thing by a natural power in it, or the absence of a natural power" },
+            { "ja": "לא פרק בין קולך אללין ואלצלב ובין קולך אלקוי ואלצ'עיף", "en": "There is no difference between saying 'soft' and 'hard' and saying 'strong' and 'weak'" },
+            { "ja": "אלכל אסתעדאדאת טביעיה", "en": "all are natural dispositions" }
+          ]
+        },
+        {
+          "ja": "ואלמת'אל אלת'אלת' מת'ל וצפך אלאנסאן באלכיפיה אלאנפעאליה ואלאנפעאלאת מת'ל קולך פלאן אלגצ'וב או אלחרג' או אלכ'איף או אלרחים אד'א לם יתמכן אלכ'לק ומן הד'א אלג'נס וצפך אלשי באללון ואלטעם ואלראיחה ואלחר ואלברד ואליבס ואלרטובה.",
+          "en": "The third example: describing a human being by the passional quality and affective states — such as saying 'so-and-so is irascible,' or 'bashful,' or 'fearful,' or 'compassionate,' when the character trait has not become entrenched. And of this same genus is describing a thing by color, taste, smell, heat, cold, dryness, and moisture.",
+          "pairs": [
+            { "ja": "וצפך אלאנסאן באלכיפיה אלאנפעאליה ואלאנפעאלאת", "en": "describing a human being by the passional quality and affective states" },
+            { "ja": "פלאן אלגצ'וב או אלחרג' או אלכ'איף או אלרחים", "en": "saying 'so-and-so is irascible,' or 'bashful,' or 'fearful,' or 'compassionate,' when the character trait has not become entrenched" },
+            { "ja": "וצפך אלשי באללון ואלטעם ואלראיחה ואלחר ואלברד ואליבס ואלרטובה", "en": "describing a thing by color, taste, smell, heat, cold, dryness, and moisture" }
+          ]
+        },
+        {
+          "ja": "ואלמת'אל אלראבע מת'ל וצפך אלשי במא ילחקה מן ג'ההֵ אלכמיה במא הי כמיה מת'ל קולך אלטויל ואלקציר ואלמעוג' ואלמסתקים ומא אשבה ד'לך.",
+          "en": "The fourth example: describing a thing by what pertains to it from the aspect of quantity, insofar as it is a quantity — such as saying 'tall' and 'short,' 'curved' and 'straight,' and the like.",
+          "pairs": [
+            { "ja": "וצפך אלשי במא ילחקה מן ג'ההֵ אלכמיה במא הי כמיה", "en": "describing a thing by what pertains to it from the aspect of quantity, insofar as it is a quantity" },
+            { "ja": "מת'ל קולך אלטויל ואלקציר ואלמעוג' ואלמסתקים", "en": "such as saying 'tall' and 'short,' 'curved' and 'straight,' and the like" }
+          ]
+        },
+        {
+          "ja": "ואד'א תאמלת הד'ה אלצפאת כלהא ומא נחי נחוהא וג'דתהא ממתנעה פי חק אלאלאה אד' ליס הו ד'א כמיה פתלחקה כיפיה תלחק אלכם במא הו כם ולא הו מתאת'רא מנפעלא פתלחקה כיפיהֵ אלאנפעאלאת ולא לה אלאסתעדאדאת פתלחקה אלקוי ונחוהא ולא הו תעאלי ד'א נפס פתכון לה היאה פתלחקה אלמלכאת כאלחלם ואלחיא ונחו ד'לך ולא מא ילחק אלמתנפס במא הו מתנפס כאלצחה ואלמרץ'. פקד באן לך אן כל צפה תרג'ע לג'נס אלכיפיה אלעאלי פאנהא לא תוג'ד לה תעאלי",
+          "en": "When you reflect upon all these attributes and what is in their category, you will find them impossible in the case of the Deity — for He is not possessed of quantity, such that quantity-quality could attach to Him as it attaches to what has quantity; nor is He affected and acted upon, such that passional quality could attach to Him; nor does He have dispositions, such that powers and the like could attach to Him; nor is He, exalted be He, possessed of a soul, such that He would have states of soul, so that dispositions like wisdom, modesty, and the like could attach to Him; nor do the things that attach to a souled thing insofar as it has a soul — like health and sickness — apply to Him. It has thus been shown to you that every attribute that falls under the highest genus of quality does not exist in Him, exalted be He.",
+          "pairs": [
+            { "ja": "ליס הו ד'א כמיה פתלחקה כיפיה תלחק אלכם במא הו כם", "en": "He is not possessed of quantity, such that quantity-quality could attach to Him as it attaches to what has quantity" },
+            { "ja": "ולא הו מתאת'רא מנפעלא פתלחקה כיפיהֵ אלאנפעאלאת", "en": "nor is He affected and acted upon, such that passional quality could attach to Him" },
+            { "ja": "ולא לה אלאסתעדאדאת פתלחקה אלקוי", "en": "nor does He have dispositions, such that powers and the like could attach to Him" },
+            { "ja": "ולא הו תעאלי ד'א נפס פתכון לה היאה פתלחקה אלמלכאת", "en": "nor is He, exalted be He, possessed of a soul, such that He would have states of soul" },
+            { "ja": "פקד באן לך אן כל צפה תרג'ע לג'נס אלכיפיה אלעאלי פאנהא לא תוג'ד לה תעאלי", "en": "every attribute that falls under the highest genus of quality does not exist in Him, exalted be He" }
+          ]
+        },
+        {
+          "ja": "פהד'ה אלת'לת'ה אקסאם מן אלצפאת והי מא ידל עלי מאהיה או עלי ג'ז מאהיה או עלי כיפיהֵ מא מוג'ודה פי אלמאהיה קד תבין אמתנאעהא פי חקה תעאלי לאנהא כלהא תדל עלי אלתרכיב אלד'י סנבין באלברהאן אמתנאעה פי חק אלאלאה.",
+          "en": "These three categories of attributes — those that indicate an essence, or a part of an essence, or a quality present in the essence — their impossibility in His case, exalted be He, has been shown, for they all imply composition, of which we shall demonstrate by proof the impossibility in the case of the Deity.",
+          "pairs": [
+            { "ja": "הד'ה אלת'לת'ה אקסאם מן אלצפאת", "en": "These three categories of attributes" },
+            { "ja": "אמתנאעהא פי חקה תעאלי לאנהא כלהא תדל עלי אלתרכיב", "en": "their impossibility in His case, exalted be He, has been shown, for they all imply composition" }
+          ]
+        },
+        {
+          "ja": "ואלקסם אלראבע מן אלצפאת הו אן יוצף אלשי בנסבתה לגירה מת'ל אן ינסב לזמאן או למכאן או לשכ'ץ אכ'ר מת'ל וצפך זידא באנה אבו פלאן או שריך פלאן או סאכן אלמוצ'ע אלפלאני או אלד'י כאן פי אלזמאן אלפלאני והד'א אלנחו מן אלצפאת לא יוג'ב תכת'ירא ולא תגיירא פי ד'את אלמוצוף לאן הד'א זיד אלמשאר אליה הו שריך עמר וואלד בכר ומולי כ'אלד וצאחב זיד וסאכן אלדאר אלתי הי כד'א והו אלד'י ולד פי סנהֵ כד'א והד'ה מעאני אלנסבה ליסת הי ד'אתה ולא שיא פי ד'אתה מת'ל אלכיפיאת ויבדו באול כ'אטר אנה יג'וז אן יוצף אללה תעאלי בהד'א אלנחו מן אלצפאת ולכן ענד אלתחקיק ותדקיק אלנט'ר יתבין אמתנאע ד'לך.",
+          "en": "The fourth category of attributes: a thing is described by its relation to something else — such as its relation to a time, a place, or another person; for example, describing Zayd as the father of so-and-so, or the associate of so-and-so, or the inhabitant of such-and-such a place, or the one who was in such-and-such a time. This type of attribute does not necessitate any multiplicity or change in the essence of the thing described — for this same Zayd, pointed to, is the associate of ʿAmr, and the father of Bakr, and the client of Khālid, and the companion of Zayd, and the inhabitant of the house that is such-and-such, and the one who was born in such-and-such a year; and these relational meanings are neither his essence nor anything in his essence, as the qualitative attributes are. It seems at first glance that it might be permissible to describe God, exalted be He, by this type of attribute — but upon careful investigation and precise examination it becomes clear that this is impossible.",
+          "pairs": [
+            { "ja": "אן יוצף אלשי בנסבתה לגירה מת'ל אן ינסב לזמאן או למכאן או לשכ'ץ אכ'ר", "en": "a thing is described by its relation to something else — such as its relation to a time, a place, or another person" },
+            { "ja": "הד'א אלנחו מן אלצפאת לא יוג'ב תכת'ירא ולא תגיירא פי ד'את אלמוצוף", "en": "This type of attribute does not necessitate any multiplicity or change in the essence of the thing described" },
+            { "ja": "ויבדו באול כ'אטר אנה יג'וז אן יוצף אללה תעאלי בהד'א אלנחו מן אלצפאת", "en": "It seems at first glance that it might be permissible to describe God, exalted be He, by this type of attribute" },
+            { "ja": "ענד אלתחקיק ותדקיק אלנט'ר יתבין אמתנאע ד'לך", "en": "upon careful investigation and precise examination it becomes clear that this is impossible" }
+          ]
+        },
+        {
+          "ja": "אמא אן אללה תעאלי לא נסבה בינה ובין אלזמאן ואלמכאן פד'לך בין לאן אלזמאן ערץ' לאחק ללחרכה אד'א לחט' פיהא מעני אלתקדם ואלתאכ'ר פצארת מתעדדה כמא באן פי אלמואצ'ע אלמפרדה להד'א אלפן ואלחרכה מן לואחק אלאג'סאם ואללה תעאלי ליס בג'סם פלא נסבה בינה ובין אלזמאן וכד'לך לא נסבה בינה ובין אלמכאן.",
+          "en": "That there is no relation between God, exalted be He, and time or place is evident: for time is an accident attached to motion, when one reflects upon motion and notices in it the meaning of priority and posteriority — and by this it becomes multiple, as has been shown in the places devoted to this discipline. Motion is an appurtenance of bodies, and God, exalted be He, is not a body — so there is no relation between Him and time; and likewise there is no relation between Him and place.",
+          "pairs": [
+            { "ja": "אלזמאן ערץ' לאחק ללחרכה", "en": "time is an accident attached to motion" },
+            { "ja": "אלחרכה מן לואחק אלאג'סאם ואללה תעאלי ליס בג'סם", "en": "Motion is an appurtenance of bodies, and God, exalted be He, is not a body" },
+            { "ja": "פלא נסבה בינה ובין אלזמאן וכד'לך לא נסבה בינה ובין אלמכאן", "en": "there is no relation between Him and time; and likewise there is no relation between Him and place" }
+          ]
+        },
+        {
+          "ja": "ואמא מוצ'ע אלבחת' ואלנט'ר הל בינה תעאלי ובין שי מן מכ'לוקאתה מן אלג'ואהר נסבהֵ מא חקיקיה פיוצף בהא. אמא אן לא אצ'אפה בינה ובין שי מן מכ'לוקאתה פד'לך בין באול נט'ר אד' מן כ'ואץ אלמצ'אפין אלאנעכאס באלתכאפו והו תעאלי ואג'ב אלוג'וד ומא סואה ממכן אלוג'וד כמא נבין פלא אצ'אפה. אמא אן תכון בינהמא נסבהֵ מא פהו אמר יט'ן בה אנה יצח וליס כד'לך לאנה לא ימכן אן תתצור נסבה בין אלעקל ואללון וכלאהמא יעמהמא וג'וד ואחד פי מד'הבנא פכיף תתצור נסבה בין מן ליס בינה ובין מא סואה מעני יעמהמא בוג'ה אד' אלוג'וד אנמא יקאל ענדנא עליה תעאלי ועלי מא סואה באשתראך מחץ' פלא נסבה בוג'ה באלחקיקה בינה ובין שי מן מכ'לוקאתה לאן אלנסבה אנמא תוג'ד אבדא בין שיין תחת נוע ואחד קריב צ'רורה אמא אד'א כאנא תחת ג'נס ואחד פלא נסבה בינהמא פלד'לך לא יקאל הד'ה אלחמרה אשד מן הד'ה אלכ'צ'רה או אצ'עף מנהא או מסאויה להא ואן כאנא ג'מיעא תחת ג'נס ואחד והו אללון. אמא אד'א כאן אלשיאן תחת ג'נסין פלא נסבה בינהמא בוג'ה ולו פי באדי אלראי אלמשתרך ולו ארתקיא לג'נס ואחד מת'אל ד'לך אנה לא נסבה בין אלמאיהֵ ד'ראע ובין אלחרארה אלתי פי אלפלפל לאן הד'א מן ג'נס אלכיפיה והד'א מן ג'נס אלכמיה ולא נסבה איצ'א בין אלעלם ואלחלאוה או בין אלחלם ואלמרארה ואן כאן כל הד'ה תחת ג'נס אלכיפיה אלעאלי פכיף תכון נסבה בינה תעאלי ובין שי מן מכ'לוקאתה מע אלתבאין אלעט'ים פי חקיקהֵ אלוג'וד אלד'י לא יכון תבאין אבעד מנה ולו כאן בינהא נסבה ללזם אן ילחקה ערץ' אלנסבה ואן כאן ליס ד'לך ערצ'א פי ד'אתה תעאלי לכנה באלג'מלה ערץ' מא פלא תכ'לץ פי איג'אב צפה לה ולו מן ג'ההֵ אלנסבה עלי אלתחקיק לכנהא אולי אלצפאת אלתי ינבגי אן יתסאמח פי וצף אלאלאה בהא אד' לא תוג'ב תכת'יר אלקדים ולא תוג'ב תגיירא פי ד'אתה תעאלי בתגייר אלמנסובאת.",
+          "en": "As for the matter of investigation and inquiry — whether there is between Him, exalted be He, and any of His creatures that are substances any real relation by which He might be described: that there is no correlation between Him and any of His creatures is evident at first glance, since among the properties of correlatives is reciprocal convertibility, and He, exalted be He, is a necessary existent while everything besides Him is a possible existent — as will be explained — so there is no correlation. As for whether there might be some relation between them: this is something one might suppose to be valid, but it is not so. For it is impossible to conceive a relation between the intellect and color — even though both of them are encompassed by one existence in our view — so how can one conceive a relation between one who shares with nothing else any meaning encompassing them at all, since existence is predicated of Him, exalted be He, and of anything besides Him, by pure equivocation only? So in reality there is no relation whatsoever between Him and any of His creatures, because a relation can only exist between two things under one proximate species necessarily; and if they are under one genus, there is no relation between them — which is why it is not said that this redness is more intense than this greenness, or weaker, or equal to it, even though both are under one genus, which is color. As for two things that are under two genera — there is no relation between them at all, even in what appears at first glance as a common feature, even if they ascend to one genus. For example: there is no relation between a cubit of water and the heat that is in pepper, because one is from the genus of quality and the other is from the genus of quantity; nor is there a relation between knowledge and sweetness, or between gentleness and bitterness, even though all of these are under the highest genus of quality. So how can there be a relation between Him, exalted be He, and any of His creatures — given the enormous difference in the reality of existence that cannot be more distant? Even if there were a relation between them, the accident of relation would attach to Him — and even if this is not an accident in His essence, exalted be He, it is in general some accident. So you cannot get free of affirming an attribute of Him even from the angle of relation upon strict investigation — yet relational attributes are the least objectionable of the attributes by which the Deity should be described, since they do not necessitate multiplicity of what is eternal, nor do they necessitate change in His essence, exalted be He, through change in what is related to Him.",
+          "pairs": [
+            { "ja": "הל בינה תעאלי ובין שי מן מכ'לוקאתה מן אלג'ואהר נסבהֵ מא חקיקיה", "en": "whether there is between Him, exalted be He, and any of His creatures that are substances any real relation" },
+            { "ja": "הו תעאלי ואג'ב אלוג'וד ומא סואה ממכן אלוג'וד", "en": "He, exalted be He, is a necessary existent while everything besides Him is a possible existent" },
+            { "ja": "אלוג'וד אנמא יקאל ענדנא עליה תעאלי ועלי מא סואה באשתראך מחץ'", "en": "existence is predicated of Him, exalted be He, and of anything besides Him, by pure equivocation only" },
+            { "ja": "לכנהא אולי אלצפאת אלתי ינבגי אן יתסאמח פי וצף אלאלאה בהא", "en": "relational attributes are the least objectionable of the attributes by which the Deity should be described" }
+          ]
+        },
+        {
+          "ja": "ואלקסם אלכ'אמס מן צפאת אלאיג'אב הו אן יוצף אלשי בפעלה וליס אריד בפעלה מלכהֵ אלצנאעה אלתי פיה מת'ל קולך אלנג'אר או אלחדאד אד' תלך מן נוע אלכיפיה כמא ד'כרנא בל אריד בפעלה אלפעל אלד'י פעלה מת'ל קולך זיד הו אלד'י נג'ר הד'א אלבאב ובני אלסור אלפלאני ונסג' הד'א אלת'וב והד'א אלנחו מן אלצפאת בעיד מן ד'את אלמנסוב ולד'לך יג'וז אן יוצף בהא אללה תעאלי בעד אן תעלם אן הד'ה אלאפעאל אלמכ'תלפה ליס ילזם אן תפעל במעאני מכ'תלפה פי ד'את אלפאעל כמא סיבין בל ג'מיע אפעאלה תעאלי אלמכ'תלפה כלהא בד'אתה לא במעני זאיד כמא בינא.",
+          "en": "The fifth category of affirmative attributes: a thing is described by its action — and I do not mean by 'its action' the disposition of a craft that is in it, such as saying 'carpenter' or 'blacksmith,' since those are from the type of quality as we mentioned; rather I mean by 'its action' the act that it has done — such as saying 'Zayd is the one who built this door, who constructed such-and-such a wall, who wove this garment.' This type of attribute is remote from the essence of the thing described; therefore it is permissible to describe God, exalted be He, by it — after you know that these different actions do not require different meanings in the essence of the agent, as will be explained; rather all His different actions, exalted be He, are all from His essence, with no additional meaning, as we have explained.",
+          "pairs": [
+            { "ja": "אן יוצף אלשי בפעלה", "en": "a thing is described by its action" },
+            { "ja": "ליס אריד בפעלה מלכהֵ אלצנאעה אלתי פיה", "en": "I do not mean by 'its action' the disposition of a craft that is in it" },
+            { "ja": "בל אריד בפעלה אלפעל אלד'י פעלה", "en": "I mean by 'its action' the act that it has done" },
+            { "ja": "הד'א אלנחו מן אלצפאת בעיד מן ד'את אלמנסוב ולד'לך יג'וז אן יוצף בהא אללה תעאלי", "en": "This type of attribute is remote from the essence of the thing described; therefore it is permissible to describe God, exalted be He, by it" },
+            { "ja": "ג'מיע אפעאלה תעאלי אלמכ'תלפה כלהא בד'אתה לא במעני זאיד", "en": "all His different actions, exalted be He, are all from His essence, with no additional meaning" }
+          ]
+        },
+        {
+          "ja": "פיכון תלכ'יץ מא פי הד'א אלפצל אנה תעאלי ואחד מן ג'מיע אלג'האת לא תכת'יר פיה ולא מעני זאיד עלי אלד'את ואן אלצפאת אלמכ'תלפהֵ אלמעאני אלמתעדדה אלמוג'ודה פי אלכתב אלמדלול בהא עליה תעאלי הי מן ג'ההֵ כת'רהֵ אפעאלה לא מן אג'ל כת'רה פי ד'אתה. ובעצ'הא ללדלאלה עלי כמאלה בחסב מא נט'נה כמאלא כמא בינא. ואמא הל ימכן אן תכון אלד'את אלואחדה אלבסיטה אלתי לא תכת'יר פיהא תפעל אפאעיל מכ'תלפה פסיבין ד'לך במת'אלאת:",
+          "en": "The summary of what is in this chapter is: He, exalted be He, is one from every direction, with no multiplicity in Him and no additional meaning beyond His essence; and the various attributes with multiple meanings found in the books that indicate Him, exalted be He, are from the angle of the multiplicity of His actions, not on account of any multiplicity in His essence — and some of them are to indicate His perfection, in accordance with what we consider perfection, as we have explained. As for whether it is possible for the one simple essence with no multiplicity in it to perform different actions — this will be explained by means of examples.",
+          "pairs": [
+            { "ja": "אנה תעאלי ואחד מן ג'מיע אלג'האת לא תכת'יר פיה ולא מעני זאיד עלי אלד'א", "en": "He, exalted be He, is one from every direction, with no multiplicity in Him and no additional meaning beyond His essence" },
+            { "ja": "אלצפאת אלמכ'תלפהֵ אלמעאני אלמתעדדה אלמוג'ודה פי אלכתב", "en": "the various attributes with multiple meanings found in the books" },
+            { "ja": "הי מן ג'ההֵ כת'רהֵ אפעאלה לא מן אג'ל כת'רה פי ד'אתה", "en": "are from the angle of the multiplicity of His actions, not on account of any multiplicity in His essence" }
+          ]
+        }
+      ]
+    }
+  ]
+}

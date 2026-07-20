@@ -1,0 +1,187 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part III, Chapter 47 — Ritual Purity and the Sanctity of the Temple",
+  "section_ja": "אלג׳ז אלת׳אלת׳ · אלפצל אלסאבע ואלארבעון",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "The twelfth class of commandments covers the laws of purity and impurity (Sefer Ṭohorah). Maimonides argues that the rules of tumah and ṭaharah exist primarily to keep people away from the Temple, thereby maintaining its awe-inspiring quality — for familiarity breeds contempt. The many sources of impurity make full purity rare, ensuring that entrance to the Sanctuary remains an exceptional and reverential act. Maimonides contrasts the relative leniency of Jewish purity law with the severe Sabean practices, then discusses leprosy as miraculous punishment for slander, and the red heifer as atonement for the sin of Temple-defilement.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "Segmentation follows Sefaria.",
+    "segments": 7
+  },
+  "terms": [
+    {
+      "id": "tumah-taharah",
+      "ja": "טומאה וטהרה",
+      "ar": "طهارة ونجاسة",
+      "translit": "ṭumʾah we-ṭahārah",
+      "gloss": "ritual impurity and purity",
+      "note": "The system of purity laws governing access to the Temple and sacred objects.",
+      "variants": ["טמא", "טהור"]
+    },
+    {
+      "id": "miqdash",
+      "ja": "אלמקדש",
+      "ar": "المقدش",
+      "translit": "al-miqdash",
+      "gloss": "the Temple / the Sanctuary",
+      "note": "Reverence for the Temple is the central purpose of the purity laws.",
+      "variants": ["מקדש"]
+    },
+    {
+      "id": "para-aduma",
+      "ja": "פרה אדמה",
+      "ar": "البقرة الحمراء",
+      "translit": "pārāh adummāh",
+      "gloss": "the red heifer",
+      "note": "Its ashes purify from corpse-impurity; called a sin-offering because it atones for the sin of Temple-defilement.",
+      "variants": ["אפר הפרה"]
+    },
+    {
+      "id": "tsaraat",
+      "ja": "צרעת",
+      "ar": "برص",
+      "translit": "ṣāraʿat",
+      "gloss": "leprosy / skin-affliction",
+      "note": "Interpreted by the Sages as miraculous punishment for slander (lashon ha-ra).",
+      "variants": ["מצורע"]
+    },
+    {
+      "id": "sabeans",
+      "ja": "אלצאבה",
+      "ar": "الصابئة",
+      "translit": "al-Ṣābʾah",
+      "gloss": "the Sabeans (ancient astral-idolaters)",
+      "note": "Maimonides repeatedly contrasts Sabean ritual severity with the relative leniency of Jewish law.",
+      "variants": ["מג'וס"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": 1,
+      "aligned": [
+        {
+          "ja": "אלג׳ז אלת׳אלת׳ · אלפצל אלסאבע ואלארבעון",
+          "en": "Part Three · Chapter Forty-Seven — Ritual Purity and the Sanctity of the Temple",
+          "isHeader": true
+        },
+        {
+          "ja": "אלמצות אלתי תצ'מנתהא אלג'מלה אלת'אניהֵ עשרה הי אלתי אחצינאהא פי ספר טהרה. ואן כנא קד ד'כרנא פאידתהא עלי אלתג'מיל פאנא נזיד ד'לך ביאנא ונעלל הד'ה אלג'מלה כמא ינבגי ובעד ד'לך אעלל מן אחאדהא מא באנת לי עלתה.",
+          "en": "THE precepts of the twelfth class are those which we have enumerated in the section on \"Purity\" (Sefer tohorah). Although we have mentioned their use in general, we will here offer an additional explanation, and [first] fully discuss the object of the whole class, and then show the reason of each single commandment, as far as we have been able to discover it.",
+          "pairs": [
+            {
+              "ja": "אלמצות אלתי תצ'מנתהא אלג'מלה אלת'אניהֵ עשרה",
+              "en": "THE precepts of the twelfth class"
+            },
+            {
+              "ja": "ואן כנא קד ד'כרנא פאידתהא עלי אלתג'מיל",
+              "en": "Although we have mentioned their use in general"
+            },
+            {
+              "ja": "נעלל הד'ה אלג'מלה כמא ינבגי",
+              "en": "fully discuss the object of the whole class"
+            }
+          ]
+        },
+        {
+          "ja": "פאקול אן הד'ה שריעהֵ אללה אלמאמור בהא משה רבנו פנסבת אליה אנמא ג'את לתסהיל אלעבאדאת ותכ'פיף אלכלף וכל מא עסאה אן תתכ'ילה מנהא אנה פיה משקה או כלפה צעבה אנמא ד'לך בכונך לא תעלם תלך אלסיר ואלמד'אהב אלמוג'ודה פי תלך אלאיאם ינבגי לך אן תקאיס בין אן יחרק אלאנסאן ולדה תעבדא או יחרק פרך' חמאם נץ אלתורה כי גם את בניהם ואת בנותיהם ישרפו באש לאלהיהם. הד'ה כאנת עבאדתהם לאלהתהם ומן עבאדתנא פי נט'יר הד'א אן נחרק פרך' חמאם בל מלו כף סמיד'א. ובחסב הד'א אלאעתבאר ונבת מלתנא פי חאל רדתהא וקיל להא עמי מה עשיתי לך ומה הלאתיך ענה בי וקיל איצ'א פי הד'א אלמעני המדבר הייתי לישראל אם ארץ מאפליה מדוע אמרו עמי רדנו וגו' יעני אי כלפה שאקה כאנת להם פי הד'ה אלשריעה חתי מרקוא מנהא. וקד נאדאנא תעאלי וקאל מה מצאו אבותיכם בי עול כי רחקו מעלי וגו' אלגרץ' פי הד'ה אלנצוץ כלהא גרץ' ואחד.",
+          "en": "I maintain that the Law which was revealed to Moses, our Teacher, and which is called by his name, aims at facilitating the service and lessening the burden, and if a person complains that certain precepts cause him pain and great trouble, he cannot have thought of the habits and doctrines that were general in those days. Let him consider the difference between a man burning his own son in serving his god, and our burning a pigeon to the service of our God. Scripture relates, for even their sons and their daughters they burn in the fire to their gods (Deut. 12:31). This was the way in which the heathen worshipped their gods, and instead of such a sacrifice we have the burning of a pigeon or a handful of flour in our worship. In accordance with this fact, the Israelites, when disobedient, were rebuked by God as follows: \"O My people, what have I done unto thee? and wherein have I wearied thee? Testify against me\" (Mic. 6:3). Again, \"Have I been a wilderness unto Israel? a land of darkness? Wherefore say my people, We are miserable; we will come no more unto thee\" (Jer. 2:31); that is to say, Through which of the commandments has the Law become burdensome to the Israelites, that they renounce it? In the same manner God asks the people, \"What iniquity have your fathers found in me, that they are gone far from me?\" etc. (ibid. 2:5). All these passages express one and the same idea.",
+          "pairs": [
+            {
+              "ja": "אנמא ג'את לתסהיל אלעבאדאת ותכ'פיף אלכלף",
+              "en": "aims at facilitating the service and lessening the burden"
+            },
+            {
+              "ja": "ינבגי לך אן תקאיס בין אן יחרק אלאנסאן ולדה תעבדא",
+              "en": "Let him consider the difference between a man burning his own son in serving his god"
+            },
+            {
+              "ja": "אלגרץ' פי הד'ה אלנצוץ כלהא גרץ' ואחד",
+              "en": "All these passages express one and the same idea"
+            }
+          ]
+        },
+        {
+          "ja": "פהד'ה מקדמה כבירה לא תברח מן ד'הנך. ובעדהא אקול. קד בינא אן אלקצד כלה כאן במקדש חצול אנפעאל לקאצדה ואן יכ'אף וירהב כמא קאל ומקדשי תיראו. וכל שי מעט'ם אד'א דאמת מבאשרתה נקץ מא פי אלנפס מנה ויקל מא כאן יחצל בה מן אלאנפעאל קד נבהוא אלחכמים ז\"ל עלי הד'א אלמעני וקאלוא אנה לא יסתחב דכ'ול אלמקדש פי כל וקת ואסנדוא ד'לך לקולה הוקר רגלך מבית רעך פן ישבעך ושנאך. פלמא כאן הד'א הו אלקצד נהי תעאלי אלטמאים ען דכ'ול אלמקדש מע כת'רהֵ אנואע אלטמאות חתי יכאד אן לא תג'ד שכ'צא טאהרא אלא קלילא לאנה אן סלם מן למס נבלה מא יסלם מן למס אחד שמנה שרצים אלכת'ירהֵ אלסקוט פי אלמנאזל ופי אלאטעמה ואלאשרבה וכת'ירא מא יעת'ר בהא אלאנסאן ואן סלם מן הד'א מא יסלם מן למס נדה או זבה או זב או מצורע או משכבן ואן סלם מן ד'לך מא יסלם מן שכיבת אשתו או מן קרי וחתי לו תטהר מן הד'ה אלטמאות פלא יג'וז לה דכ'ול אלמקדש חתי יעריב שמשו ולא יג'וז דכ'ול אלמקדש באלליל כמא תבין פי מדות ותמיד ופי לילתה תלך קד יג'אמע עלי אלאכת'ר או יחדת' לה אחד אסבאב אלטומאה פיצבח פי יומה מת'ל אמסה",
+          "en": "This is the great principle which you must never lose sight of. After having stated this principle, I repeat that the object of the Sanctuary was to create in the hearts of those who enter it certain feelings of awe and reverence, in accordance with the command, \"You shall reverence my sanctuary\" (Lev. 19:30). But when we continually see an object, however sublime it may be, our regard for that object will be lessened, and the impression we have received of it will be weakened. Our Sages, considering this fact, said that we should not enter the Temple whenever we liked, and pointed to the words: \"Make thy foot rare in the house of thy friend\" (Prov. 25:17). For this reason the unclean were not allowed to enter the Sanctuary, although there are so many kinds of uncleanliness, that [at a time] only a few people are clean. For even if a person does not touch a beast that died of its own accord (Lev. 11:27), he can scarcely avoid touching one of the eight kinds of creeping animals (ibid. 29, seq.), the dead bodies of which we find at all times in houses, in food and drink, and upon which we frequently tread wherever we walk; and, if he avoids touching these, he may touch a woman in her separation (ibid. 15:18), or a male or female that have a running issue (ibid. ver. 1, seq. and 25, seq.), or a leper (ibid. 13:46), or their bed (ibid. 15:5). Escaping these, he may become unclean by cohabitation with his wife, or by pollution (ibid. 15), and even when he has cleansed himself from any of these kinds of uncleanliness, he cannot enter the Sanctuary till after sunset; but not being enabled to enter the Sanctuary at night time, although he is clean after sunset, as may be inferred from Middot and Tamid, he is again, during the night, subject to becoming unclean either by cohabiting with his wife or by some other source of uncleanliness, and may rise in the morning in the same condition as the day before.",
+          "pairs": [
+            {
+              "ja": "אלקצד כלה כאן במקדש חצול אנפעאל לקאצדה ואן יכ'אף וירהב",
+              "en": "the object of the Sanctuary was to create in the hearts of those who enter it certain feelings of awe and reverence"
+            },
+            {
+              "ja": "כל שי מעט'ם אד'א דאמת מבאשרתה נקץ מא פי אלנפס מנה",
+              "en": "when we continually see an object, however sublime it may be, our regard for that object will be lessened"
+            },
+            {
+              "ja": "נהי תעאלי אלטמאים ען דכ'ול אלמקדש מע כת'רהֵ אנואע אלטמאות",
+              "en": "the unclean were not allowed to enter the Sanctuary, although there are so many kinds of uncleanliness"
+            }
+          ]
+        },
+        {
+          "ja": "פיכון הד'א כלה סבבא ללבעד מן אלמקדש ואן לא יטרק פי כל חין. וקד עלמת נצהם אין אדם נכנס לעזרה לעבודה אפילו טהור עד שהוא טובל. פבהד'ה אלאפעאל תדום אליראה ויחצל אלאנפעאל אלמודי ללכ'שוע אלמקצוד.",
+          "en": "All this serves to keep people away from the Sanctuary, and to prevent them from entering it whenever they liked. Our Sages, as is well known, said, \"Even a clean person may not enter the Sanctuary for the purpose of performing divine service, unless he takes previously a bath.\" By such acts the reverence [for the Sanctuary] will continue, the right impression will be produced which leads man, as is intended, to humility.",
+          "pairs": [
+            {
+              "ja": "פיכון הד'א כלה סבבא ללבעד מן אלמקדש",
+              "en": "All this serves to keep people away from the Sanctuary"
+            },
+            {
+              "ja": "פבהד'ה אלאפעאל תדום אליראה ויחצל אלאנפעאל אלמודי ללכ'שוע אלמקצוד",
+              "en": "By such acts the reverence [for the Sanctuary] will continue, the right impression will be produced which leads man, as is intended, to humility"
+            }
+          ]
+        },
+        {
+          "ja": "וכלמא כאנת אלטומאה אכת'ר וג'ודא כאן אלטהר מנהא אעסר ואבעד זמאנא מסאקפהֵ אלאמואת ובכ'אצהֵ אלאקארב ואלג'יראן הי אכת'ר וג'ודא מן כל טומאה פלא טהר מנהא אלא באפר הפרה בשד'וד' וג'ודה ובעד סבעהֵ איאם. ואלזיבות ואלנדות אכת'ר וג'ודא מן מלאמסהֵ טמא פלד'לך יחתאג' ד'לך שבעת ימים ואלד'י ידנו בהם יומא ואחדא. ולא יכמל טהר זב וזבה ויולדת אלא בקרבן לאן ד'לך אקל וקועא מן אלנדות והד'ה כלהא איצ'א אמור מסתקד'רה אעני נדה וזב וזבה ומצורע ומת ונבלה ושרץ ושכבת זרע. פחצלת בהד'ה אלאחכאם גאיאת כת'ירה אחדאהא אג'תנאב אלקד'אראת ואלת'אניה חמאיהֵ אלמקדש ואלת'אלת'ה מראעאהֵ אלמשהור אלמעתאד לאן כאן מן כלף אלצאבה אלשאקה פי אמר אלנג'אסה מא סתסמעה אלאן ואלראבעהֵ תכ'פיף תלך אלמשקה וכון אלאנסאן לם יעקה אמר אלטומאה ואלטהרה ען שגל מן אשגאלה לאן הד'א אמר אלטומאה ואלטהרה לא יתעלק גיר בקדש וקדשים לא גיר בכל קדש לא תגע ואל המקדש לא תבא אמא מא סוי ד'לך פלא ג'נאח עליה אן יבקי טמא מא שא ויאכל חולין טמאין כיף שא. ואלמשהור מן מד'אהב אלצאבה אלי זמאננא הד'א פי בלאד אלמשרק אעני בקיהֵ אלמג'וס אן אלנדה תכון פי דאר עלי חדתהא ותחרק אלמואצ'ע אלתי תמשי עליהא ומן כלמהא אנתג'ס ולו הב ריח וג'אזת עלי אלטאמת' ועלי אלטאהר אנתג'ס. פארי כם בין הד'א ובין קולנא כל מלאכות שהאשה עושה לבעלה נדה עושה לבעלה חוץ מרחיצת פניו וגו' ולם יחרם מנהא אלא נכאחהא טול איאם קד'ארתהא ומרת'תהא. ומן משהור מד'הבהם אלי זמאננא הד'א אן כל מא ינפצל מן אלג'סם מן שער או ט'פר או דם פאנה נג'ס ולד'לך כל מזין ענדהם נג'ס לכונה ימס אלדם ואלשער וכל מן יחתלק יגטס פי מא נאבע ומת'ל הד'ה אלכלף ענדהם כת'ירה ג'דא ונחן לא נראעי טומאה וטהרה אלא לקדש ומקדש.",
+          "en": "The easier the diffusion of uncleanliness is, the more difficult and the more retarded is its purification. Most easily is uncleanliness communicated by the dead body to those who are under the same roof, especially to relatives. The purification can only be completed by means of the ashes of the red heifer, however scarce it may be, and only in seven days (Num. 19:11). The uncleanness caused by a woman having running issue or during her separation is more frequent than that caused by contact with unclean objects: seven days are therefore required for their purification (Lev. 15:19, 28), whilst those that touch them are only unclean one day (ibid. 7:18). Males or females that are unclean through running issue, and a woman after childbirth, must in addition bring a sacrifice, because their uncleanness occurs less frequently than that of women in their separation. All these cases of uncleanliness, viz., running issue of males or females, menstruations, leprosy, dead bodies of human beings, carcases of beasts and creeping things, and issue of semen, are sources of dirt and filth. We have thus shown that the above precepts are very useful in many respects. First, they keep us at a distance from dirty and filthy objects; secondly, they guard the Sanctuary; thirdly, they pay regard to an established custom (for the Sabeans submitted to very troublesome restrictions when unclean, as you will soon hear); fourthly, they lightened that burden for us; for we are not impeded through these laws in our ordinary occupations by the distinction the Law makes between that which is unclean and that which is clean. For this distinction applies only in reference to the Sanctuary and the holy objects connected with it: it does not apply to other cases. \"She shall touch no hallowed thing, nor come into the Sanctuary\" (Lev. 12:4). Other persons [that do not intend to enter the Sanctuary or touch any holy thing], are not guilty of any sin if they remain unclean as long as they like, and eat, according to their pleasure, ordinary food that has been in contact with unclean things. But the practice of the Sabeans, even at present general in the East, among the few still left of the Magi, was to keep a menstruous woman in a house by herself, to burn that upon which she treads, and to consider as unclean every one that speaks with her: even if a wind passed over her and a clean person, the latter was unclean in the eyes of the Sabeans. See the difference between this practice and our rule, that \"whatever services a wife generally does to her husband, she may do to him in her separation\"; only cohabitation is prohibited during the days of her uncleanness. Another custom among the Sabeans, which is still widespread, is this: whatever is separated from the body, as hair, nail, or blood, is unclean; every barber is therefore unclean in their estimation, because he touches blood and hair; whenever a person passes a razor over his skin he must take a bath in running water. Such burdensome practices were numerous among the Sabeans, whilst we apply the laws that distinguish between the unclean and the clean only with regard to hallowed things and to the Sanctuary.",
+          "pairs": [
+            {
+              "ja": "פחצלת בהד'ה אלאחכאם גאיאת כת'ירה אחדאהא אג'תנאב אלקד'אראת ואלת'אניה חמאיהֵ אלמקדש",
+              "en": "the above precepts are very useful in many respects. First, they keep us at a distance from dirty and filthy objects; secondly, they guard the Sanctuary"
+            },
+            {
+              "ja": "אמר אלטומאה ואלטהרה לא יתעלק גיר בקדש וקדשים לא גיר",
+              "en": "this distinction applies only in reference to the Sanctuary and the holy objects connected with it"
+            },
+            {
+              "ja": "ונחן לא נראעי טומאה וטהרה אלא לקדש ומקדש",
+              "en": "we apply the laws that distinguish between the unclean and the clean only with regard to hallowed things and to the Sanctuary"
+            }
+          ]
+        },
+        {
+          "ja": "ואמא קולה תעאלי והתקדשתם והייתם קדושים כי קדוש אני פליס הו פי מעני טומאה וטהרה בוג'ה נץ ספרא זו קדושת מצות. וכד'לך קולה קדושים תהיו קאלוא זו קדושת מצות. ולד'לך יתסמי אלתעדי עלי אלמצות איצ'א טומאה קאל פי אמהאת אלמצות ואצולהא אלתי הי עבודה זרה וגלוי עריות ושפיכות דמים פי עבודה זרה קאל כי מזרעו נתן למלך למען טמא את מקדשי ופי גלוי עריות אל תטמאו בכל אלה וגו' ופי שפיכות דמים קאל ולא תטמאו את הארץ וגו' פקד באן אן טומאה תקאל באשתראך עלי ת'לת'ה מעאני תקאל עלי אלעציאן וכ'לאף אלמאמור בה מן פעל או ראי ועלי אלקד'אראת ואלמרת'את טמאתה בשוליה ועלי הד'ה אלמעאני אלמתוהמה אעני למס הד'א או חמל הד'א או מסאקפהֵ הד'א וען הד'א אלנוע אלאכ'יר קלנא אין דברי תורה מקבלין טומאה. וכד'לך אלקדושה מקולה באשתראך עלי ת'לת'ה מעאני מקאבלה להד'ה אלמעאני אלת'לת'ה.",
+          "en": "The divine words, \"And ye shall sanctify yourselves, and ye shall be holy\" (Lev. 11:44), do not refer to these laws at all. According to Sifra, they refer to sanctity by obedience to God's commandments. The same interpretation is given in Sifra of the words, \"Ye shall be holy, \"i.e. obedient to His commandments (xix. 2). Hence the transgression of commandments is also called uncleanliness or defilement. This term is especially used of the chief and principal crimes, which are idolatry, adultery, and murder. In reference to idolatry it is said, \"He hath given of his seed unto Molech to defile my sanctuary, and to profane my holy name\" (ibid. 20:3). In reference to adultery we read, \"Defile not ye yourselves in any of these things\" (ibid. 18:24), and Defile not the land\" (Num. 35:34) in reference to murder. It is therefore clear that the term \"defilement\" [or uncleanliness] is used homonymously of three things: 1. Of man's violation and transgression of that which he is commanded as regards his actions and his opinions. 2. Of dirt and filth: comp. \"Her filthiness in her skirts\" (Lam. 1:9). 3. Of the above-named imaginary defilement such as touching and carrying certain objects, or being with them under the same roof. In reference to the third kind, our Sages said, The words of the Law are not subject to becoming unclean (B. T. Ber. 224). In the same manner the term \"holiness\" is used homonymously of three things corresponding to the three kinds of uncleanness.",
+          "pairs": [
+            {
+              "ja": "טומאה תקאל באשתראך עלי ת'לת'ה מעאני",
+              "en": "the term \"defilement\" [or uncleanliness] is used homonymously of three things"
+            },
+            {
+              "ja": "אלקדושה מקולה באשתראך עלי ת'לת'ה מעאני מקאבלה להד'ה אלמעאני אלת'לת'ה",
+              "en": "the term \"holiness\" is used homonymously of three things corresponding to the three kinds of uncleanness"
+            }
+          ]
+        },
+        {
+          "ja": "ולמא כאנת טומאת מת לא יצח אלטהר מנהא אלא בעד סבעהֵ איאם ובוג'וד אפר פרה איצ'א וכאן אלכהנים מחתאג'א אליהם דאימא לדכ'ול אלמקדש ללתקריב לד'לך נהי כל כהן ען טומאת מת כ'אצה אלא ללצ'רורה אלוכידה אלתי יעסר אמרהא עלי אלטבאע אעני תרך מבאשרהֵ אלואלדין ואלבנין ואלאכ'וה. ולשדהֵ אלחאג'ה לדואם כהן גדול במקדש לקולה והיה על מצחו תמיד נהי ען אלטומאה למת אצלא ולו להאולא אלאקארב אלא תרי כיף לא יעם הד'א אלנהי אלנסא בני אהרן ולא בנות אהרן לכון אלנסא גיר מחתאג' אליהן פי אלתקריב. ולמא לם יכן בד מן אן יסהו שכ'ץ וידכ'ל אלמקדש טמא או יאכל קדשים והו טמא וקד יפעל ד'לך והו מזיד כמא ירתכב אכת'ר אלרשעים כבאיר אלמעאצי והם מזידים לד'לך אמר בקרבנות תכפר על טומאת מקדש וקדשיו מנהא שי לזדון ומנהא שי לשגגה עלי אנואעהא והי שעירי הרגלים ושעירי ראשי חדשים ושעיר המשתלח כמא בין פי מוצ'עה חתי לא יט'ן אלמזיד אנה לם ירתכב עט'ימה למא טמא מקדש י\"י בל יעלם אנה נתכפר לו בשעיר קאל ולא ימותו בטמאתם וקאל ונשא אהרן את עון הקדשים וגו' ותכרר הד'א אלמעני כת'ירא.",
+          "en": "As uncleanness caused by a dead body could only be removed after seven days, by means of the ashes of the red heifer, and the priests had constantly occasion to enter the Sanctuary, the Law exceptionally forbids them to defile themselves by a dead body (Lev. 21:1), except in cases where defilement is necessary, and the contrary would be unnatural. For it would be unnatural to abstain from approaching the dead body of a parent, child, or brother. As it was very necessary that the high-priest should always be in the Sanctuary, in accordance with the Divine command, \"And it shall always be on his forehead\" (Exod. 28:38), he was not permitted to defile himself by any dead body whatever, even of the above-named relatives (Lev. 21:10-12). Women were not engaged in sacrificial service; the above law consequently does not apply to women; it is addressed to \"the sons of Aaron,\" and not to \"the daughters of Aaron.\" It was, however, impossible to assume that none of the Israelites made a mistake, by entering the Sanctuary, or eating hallowed things in a state of uncleanliness. It was even possible that there were persons who did this knowingly, since there are wicked people who commit knowingly even the greatest crimes; for this reason certain sacrifices were commanded as an atonement for the defilement of the Sanctuary and its hallowed things. They were of different kinds; some of them atoned for defilement caused ignorantly, others for defilement caused knowingly. For this purpose were brought the goats on the Festivals and the New-moon days (Num. 28:15, 27, etc.), and the goat sent away on the Day of Atonement (Lev. 16:16), as is explained in its place (Mishnah Shebnot, 1:4). These sacrifices serve to prevent those who defiled the Sanctuary of the Lord knowingly from thinking that they had not done a great wrong; they should know that they obtained atonement by the sacrifice of the goat, as the Law says, \"That they die not in their uncleanness\" (Lev. 15:31); \"That Aaron may bear the iniquity of the holy things\" (Exod. 28:38). This idea is frequently repeated.",
+          "pairs": [
+            {
+              "ja": "נהי כל כהן ען טומאת מת כ'אצה אלא ללצ'רורה",
+              "en": "the Law exceptionally forbids them to defile themselves by a dead body (Lev. 21:1), except in cases where defilement is necessary"
+            },
+            {
+              "ja": "אמר בקרבנות תכפר על טומאת מקדש וקדשיו",
+              "en": "certain sacrifices were commanded as an atonement for the defilement of the Sanctuary and its hallowed things"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

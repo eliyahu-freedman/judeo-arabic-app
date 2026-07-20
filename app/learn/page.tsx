@@ -77,8 +77,8 @@ const lessons = [
 
 export default function LearnHub() {
   return (
-    <div className="max-w-3xl mx-auto px-6 py-16 sm:py-24">
-      <header className="mb-12">
+    <div className="max-w-5xl mx-auto px-6 py-16 sm:py-24">
+      <header className="mb-12 max-w-2xl">
         <p className="label mb-3">
           Learn · short formats
         </p>
@@ -93,7 +93,7 @@ export default function LearnHub() {
 
       <GuidedPath />
 
-      <ul className="space-y-5">
+      <ul className="grid gap-5 lg:grid-cols-2">
         {lessons.map((l) => {
           const card = (
             <div

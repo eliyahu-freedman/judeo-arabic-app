@@ -21,42 +21,12 @@ export const metadata: Metadata = {
   },
 };
 
-const stages = [
-  {
-    numeral: "I",
-    eyebrow: "Start here",
-    eyebrowEmphasis: true,
-    href: "/foundations",
-    title: "Foundations",
-    subtitle: "Script · Cognates · First 50",
-    body: "Hebrew letters as Arabic phonemes (the diacritics, the article אל), the Hebrew–Arabic and Aramaic–Arabic cognates you already know, and the 50 words that show up most across Saadia's Tafsir.",
-    sample: "אללה · ראש · תלת · כ׳לק",
-  },
-  {
-    numeral: "II",
-    eyebrow: "Saadia on the Torah",
-    href: "/tafsir",
-    title: "Tafsir Reader",
-    subtitle: "Verse-by-verse · tap to define",
-    body: "Read Saadia's Tafsir across the whole Pentateuch alongside the biblical Hebrew. Tap any Judeo-Arabic word for a Lane-based gloss; toggle Arabic-script, Hebrew translation, and English.",
-    sample: "אול מא כ׳לק אללה",
-  },
-  {
-    numeral: "III",
-    eyebrow: "6 texts · 5 live",
-    href: "/advanced",
-    title: "The Library",
-    subtitle: "Bahya · Rambam · Halevi · Qirqisani",
-    body: "Classical Judeo-Arabic prose with parallel Hebrew and English. Bahya's Chovot HaLevavot, Rambam's Moreh Nevukhim, Saadia's Emunot v'Deot, Qirqisani's Anwar, and Halevi's Kuzari are live; Yefet ben Eli is on the way.",
-    sample: "תוחיד · אמאנאת · דלאלה · אנואר",
-  },
-];
-
 export default function Home() {
   const reading = currentReading();
   return (
     <div className="text-ink">
-      {/* Sticky parsha banner */}
+
+      {/* ── Sticky parsha banner ─────────────────────────────────────────── */}
       {reading && (
         <div className="sticky top-0 z-40 border-b border-ink/10 bg-parchment/85 backdrop-blur supports-[backdrop-filter]:bg-parchment/70">
           <Link
@@ -69,10 +39,7 @@ export default function Home() {
                   This week · {ALIYAH_DAY_LABELS[reading.aliyahNumber - 1]} ·{" "}
                   {ALIYAH_LABELS[reading.aliyahNumber - 1]}
                 </span>
-                <span
-                  dir="rtl"
-                  className="font-hebrew text-lg text-wine/90"
-                >
+                <span dir="rtl" className="font-hebrew text-lg text-wine/90">
                   {reading.parsha.hebrew}
                 </span>
               </div>
@@ -89,265 +56,211 @@ export default function Home() {
                       : `${reading.range.end.ch}:${reading.range.end.v}`}
                   </span>
                 </span>
-                <span className="text-wine transition-transform group-hover:translate-x-0.5">
-                  →
-                </span>
+                <span className="text-wine transition-transform group-hover:translate-x-0.5">→</span>
               </div>
             </div>
           </Link>
         </div>
       )}
 
-      {/* Editorial hero — instrument-first, with the learning path as the
-          clear secondary register. */}
-      <header className="mx-auto max-w-3xl px-6 pt-16 pb-10 sm:pt-24">
-        <p className="label label-accent mb-5">
-          A digital reader &amp; lexicon
-        </p>
-        <h1 className="display text-4xl leading-tight sm:text-5xl">
-          The medieval{" "}
-          <em className="font-normal italic text-wine">Judeo-Arabic</em>{" "}
-          library, read in the original.
-        </h1>
-        <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/75">
-          Saadia Gaon&apos;s Tafsir on the whole Pentateuch and a growing shelf
-          of classical prose — Bahya, Rambam, Halevi, Qirqisani — each presented
-          in the Hebrew-script Arabic original with parallel Hebrew and English
-          and a tap-to-define lexicon drawn from Lane and Blau.{" "}
-          <span className="text-ink/90">
-            New to the script? A three-stage path for Hebrew readers starts at
-            the alphabet.
-          </span>
-        </p>
-        <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
-          <Link
-            href="/tafsir/bereshit/1"
-            className="inline-flex items-center gap-2 rounded-sm bg-wine px-5 py-2.5 text-sm font-semibold text-parchment transition-colors hover:bg-wine-700"
-          >
-            Open the Tafsir reader
-            <span aria-hidden>→</span>
-          </Link>
-          <Link
-            href="/foundations"
-            className="text-sm font-semibold text-wine underline-offset-4 hover:underline"
-          >
-            Start from the alphabet
-          </Link>
-        </div>
-      </header>
+      {/* ── Hero ─────────────────────────────────────────────────────────── */}
+      <section className="relative overflow-hidden">
 
-      {/* Corpus credentials — the single most "reference database" touch.
-          Figures come from lib/corpusStats (computed at build from the same
-          corpus index and dictionary the app ships). */}
-      <section className="mx-auto max-w-5xl px-6 pb-12">
-        <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-sm border border-ink/10 bg-ink/10 sm:grid-cols-4">
-          {[
-            {
-              n: fmt(corpusStats.totalTokens),
-              label: "words indexed",
-              sub: `across ${corpusStats.chapters} Tafsir chapters`,
-            },
-            {
-              n: fmt(corpusStats.dictionaryEntries),
-              label: "lexicon entries",
-              sub: "glossed from Lane & Blau",
-            },
-            {
-              n: fmt(corpusStats.uniqueRoots),
-              label: "Arabic roots",
-              sub: "represented in the lexicon",
-            },
-            {
-              n: corpusStats.fullPentateuch
-                ? "5 / 5"
-                : `${corpusStats.books}`,
-              label: "books of the Torah",
-              sub: "complete, verse-by-verse",
-            },
-          ].map((s) => (
-            <div key={s.label} className="bg-parchment px-5 py-6">
-              <dd className="display text-3xl text-wine sm:text-4xl">{s.n}</dd>
-              <dt className="mt-2 text-sm font-semibold text-ink">{s.label}</dt>
-              <p className="mt-0.5 text-xs leading-snug text-muted">{s.sub}</p>
-            </div>
-          ))}
-        </dl>
-      </section>
+        {/* Atmospheric warm wash */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_55%_50%_at_75%_-5%,rgba(114,47,55,0.09),transparent)]"
+        />
 
-      {/* Parallel-text preview */}
-      <section className="mx-auto max-w-5xl border-y border-ink/10 px-6 py-16 sm:py-20">
-        <div className="mb-10 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-          <div>
-            <p className="mb-2 label label-accent">
-              Preview · Reader
-            </p>
-            <h2 className="text-2xl sm:text-3xl">Saadia, Bereshit 1:1</h2>
-          </div>
-          <p className="text-sm italic text-muted">
-            ↓ tap any word for a gloss
+        {/* Decorative giant JA text — the subject IS the art */}
+        <p
+          aria-hidden
+          dir="rtl"
+          className="pointer-events-none select-none absolute top-0 right-0 font-hebrew text-[9rem] sm:text-[13rem] leading-none text-ink/[0.04] whitespace-nowrap"
+        >
+          אול מא כ׳לק אללה
+        </p>
+
+        <div className="relative mx-auto max-w-2xl px-6 pt-20 pb-16 sm:pt-28 text-center">
+          <p className="label label-accent mb-6">A digital reader &amp; lexicon</p>
+          <h1 className="display text-5xl sm:text-6xl leading-[1.07]">
+            The medieval{" "}
+            <em className="font-normal italic text-wine not-italic">Judeo-Arabic</em>{" "}
+            library, read in the original.
+          </h1>
+          <p className="mt-6 text-base sm:text-lg text-ink/65 leading-relaxed max-w-lg mx-auto">
+            Saadia, Bahya, Rambam, Halevi, Qirqisani — the classics in
+            Judeo-Arabic with parallel Hebrew and English, and a tap-to-define
+            lexicon from Lane and Blau.
+          </p>
+          <p className="mt-7 text-xs text-muted tracking-wide">
+            {fmt(corpusStats.totalTokens)} words indexed ·{" "}
+            {fmt(corpusStats.dictionaryEntries)} lexicon entries ·{" "}
+            {fmt(corpusStats.uniqueRoots)} roots · 6 classical works
           </p>
         </div>
+      </section>
 
-        <div className="grid gap-10 md:grid-cols-2">
-          {/* JA source + gloss */}
-          <div>
-            <div className="rounded-sm border border-ink/10 bg-page p-6 sm:p-8 shadow-sm shadow-wine/5">
-              <p
-                dir="rtl"
-                className="font-hebrew text-right text-2xl sm:text-3xl leading-loose"
-              >
-                <span>אול מא </span>
-                <span className="rounded-sm bg-wine-100 text-wine-700 px-1.5 py-0.5 ring-1 ring-wine/25">
-                  כ׳לק
-                </span>
-                <span> אללה. אלסמאואת ואלארץ׳</span>
-              </p>
-
-              <div className="mt-8 border-l-2 border-wine bg-parchment/60 p-5">
-                <div className="mb-4 flex items-start justify-between gap-4">
-                  <span className="label">
-                    Gloss
-                  </span>
-                  <div className="text-right">
-                    <div className="font-hebrew text-xl" dir="rtl">
-                      כ׳לק
-                    </div>
-                    <div
-                      className="mt-0.5 font-arabic text-base text-muted"
-                      dir="rtl"
-                    >
-                      خلق
-                    </div>
-                  </div>
-                </div>
-                <div className="grid grid-cols-2 gap-y-4 text-sm">
-                  <div>
-                    <span className="mb-1 block label">
-                      Root
-                    </span>
-                    <span className="font-mono">√ḫ-l-q</span>
-                  </div>
-                  <div>
-                    <span className="mb-1 block label">
-                      Part of Speech
-                    </span>
-                    <span className="italic">verb · perf. 3sg.m.</span>
-                  </div>
-                  <div>
-                    <span className="mb-1 block label">
-                      English
-                    </span>
-                    <span>he created</span>
-                  </div>
-                  <div>
-                    <span className="mb-1 block label">
-                      Hebrew
-                    </span>
-                    <span className="font-hebrew" dir="rtl">
-                      ברא
-                    </span>
-                  </div>
-                  <div className="col-span-2 border-t border-ink/10 pt-3 text-xs italic text-ink/70 leading-relaxed">
-                    Saadia&apos;s rendering of biblical{" "}
-                    <span className="font-hebrew not-italic" dir="rtl">
-                      ברא
-                    </span>
-                    . The diacritic{" "}
-                    <span className="font-hebrew not-italic">׳</span> on{" "}
-                    <span className="font-hebrew not-italic">כ</span> marks{" "}
-                    <span className="font-arabic" dir="rtl">
-                      خ
-                    </span>{" "}
-                    (kh).
-                  </div>
-                </div>
-              </div>
-            </div>
+      {/* ── Manuscript showcase ──────────────────────────────────────────── */}
+      <section className="bg-wine">
+        <div className="mx-auto max-w-5xl px-6 py-16 sm:py-20 text-center">
+          <p
+            dir="rtl"
+            className="font-hebrew text-5xl sm:text-6xl md:text-7xl text-parchment/95 leading-loose"
+          >
+            אול מא כ׳לק אללה
+          </p>
+          <p
+            dir="rtl"
+            className="font-hebrew text-2xl sm:text-3xl text-parchment/40 leading-loose -mt-2"
+          >
+            אלסמאואת ואלארץ׳
+          </p>
+          <div className="mt-8 border-t border-parchment/15 pt-7">
+            <p className="font-serif text-base sm:text-lg italic text-parchment/75 leading-relaxed">
+              &ldquo;The first thing God created — the heavens and the earth.&rdquo;
+            </p>
+            <p className="mt-2 text-[11px] tracking-[0.18em] uppercase text-parchment/40">
+              Saadia Gaon · Tafsir al-Torah · Genesis 1:1
+            </p>
           </div>
-
-          {/* Translation + commentary */}
-          <div className="flex flex-col justify-between">
-            <div>
-              <p className="mb-3 label label-accent">
-                Translation
-              </p>
-              <p className="text-xl sm:text-2xl italic leading-relaxed">
-                &ldquo;The first thing God created: the heavens and the
-                earth.&rdquo;
-              </p>
-              <p className="mt-6 max-w-md text-sm leading-relaxed text-ink/70">
-                Saadia begins his Tafsir not with a calque of Hebrew{" "}
-                <span className="font-hebrew" dir="rtl">
-                  בראשית
-                </span>
-                , but with an Arabic construction —{" "}
-                <span className="font-hebrew" dir="rtl">
-                  אול מא כ׳לק
-                </span>{" "}
-                — that resolves the verse&apos;s syntactic ambiguity in the
-                act of translating it.
-              </p>
-            </div>
-            <Link
-              href="/tafsir/bereshit/1#verse-1-1"
-              className="label label-accent group mt-8 inline-flex items-center gap-2 self-start border-b border-wine/30 pb-1 hover:border-wine"
-            >
-              Open in the reader
-              <span aria-hidden className="transition-transform group-hover:translate-x-1">
-                →
-              </span>
-            </Link>
-          </div>
+          <Link
+            href="/tafsir/bereshit/1#verse-1-1"
+            className="inline-flex items-center gap-2 mt-8 text-sm text-parchment/60 hover:text-parchment transition-colors border-b border-parchment/25 hover:border-parchment/60 pb-0.5"
+          >
+            Open in the Tafsir reader <span aria-hidden>→</span>
+          </Link>
         </div>
       </section>
 
-      {/* Three-stage curriculum */}
+      {/* ── Three stage cards ────────────────────────────────────────────── */}
       <section className="mx-auto max-w-5xl px-6 py-16 sm:py-20">
-        <h2 className="label label-accent mb-12 text-center">
-          The Curriculum
-        </h2>
-        <div className="grid gap-px overflow-hidden rounded-sm border border-ink/10 bg-ink/10 md:grid-cols-3">
-          {stages.map((s) => (
-            <Link
-              key={s.href}
-              href={s.href}
-              className="group flex flex-col bg-parchment p-7 transition-colors hover:bg-page"
-            >
-              <div className="mb-5 flex items-baseline justify-between gap-2">
-                <span className="text-5xl font-light text-wine/25 transition-colors group-hover:text-wine/55">
-                  {s.numeral}
-                </span>
-                <span
-                  className={
-                    s.eyebrowEmphasis
-                      ? "label label-accent"
-                      : "label"
-                  }
-                >
-                  {s.eyebrow}
-                </span>
-              </div>
-              <h3 className="mb-2 text-xl font-bold group-hover:text-wine transition-colors">
-                {s.title}
-              </h3>
-              <p className="mb-5 text-sm leading-relaxed text-ink/70">
-                {s.body}
-              </p>
-              <div className="mt-auto border-t border-ink/10 pt-4">
-                <p
-                  dir="rtl"
-                  className="font-hebrew text-xl leading-relaxed text-ink/80"
-                >
-                  {s.sample}
-                </p>
-              </div>
-            </Link>
-          ))}
-        </div>
+        <div className="grid gap-6 md:grid-cols-3">
 
-        {/* Returning-user rail */}
-        <ReturningRail />
+          {/* I · Foundations */}
+          <Link
+            href="/foundations"
+            className="group block rounded-xl bg-page p-8
+                       shadow-[0_1px_3px_rgba(28,26,23,0.05),0_6px_24px_-4px_rgba(28,26,23,0.07)]
+                       ring-1 ring-inset ring-black/[0.03]
+                       transition-all duration-300
+                       hover:shadow-[0_10px_44px_-6px_rgba(114,47,55,0.22)]
+                       hover:-translate-y-1.5"
+          >
+            <p className="label mb-5">Stage I</p>
+            <h3 className="display text-xl text-ink mb-6 group-hover:text-wine transition-colors">
+              Foundations
+            </h3>
+            <div className="flex items-center gap-5 py-6 border-y border-ink/[0.06]">
+              <span className="font-hebrew text-7xl text-ink leading-none">כ</span>
+              <span className="text-2xl text-ink/20">→</span>
+              <span className="font-arabic text-6xl text-ink leading-none" dir="rtl">خ</span>
+            </div>
+            <p className="mt-6 text-sm text-muted leading-relaxed">
+              Hebrew script covers most of the Arabic alphabet. A handful of
+              diacritics mark the new sounds. No prior knowledge required.
+            </p>
+          </Link>
+
+          {/* II · Tafsir Reader */}
+          <Link
+            href="/tafsir"
+            className="group block rounded-xl bg-page p-8
+                       shadow-[0_1px_3px_rgba(28,26,23,0.05),0_6px_24px_-4px_rgba(28,26,23,0.07)]
+                       ring-1 ring-inset ring-black/[0.03]
+                       transition-all duration-300
+                       hover:shadow-[0_10px_44px_-6px_rgba(114,47,55,0.22)]
+                       hover:-translate-y-1.5"
+          >
+            <p className="label mb-5">Stage II</p>
+            <h3 className="display text-xl text-ink mb-6 group-hover:text-wine transition-colors">
+              Tafsir Reader
+            </h3>
+            <div dir="rtl" className="py-6 border-y border-ink/[0.06]">
+              <p className="font-hebrew text-2xl text-ink leading-loose text-right">
+                אול מא כ׳לק אללה
+              </p>
+              <p className="font-hebrew text-lg text-ink/40 leading-loose text-right">
+                אלסמאואת ואלארץ׳
+              </p>
+            </div>
+            <p className="mt-6 text-sm text-muted leading-relaxed">
+              Saadia Gaon&apos;s Tafsir on the Torah, verse by verse. Tap any
+              word to open the lexicon.
+            </p>
+          </Link>
+
+          {/* III · The Library */}
+          <Link
+            href="/advanced"
+            className="group block rounded-xl bg-page p-8
+                       shadow-[0_1px_3px_rgba(28,26,23,0.05),0_6px_24px_-4px_rgba(28,26,23,0.07)]
+                       ring-1 ring-inset ring-black/[0.03]
+                       transition-all duration-300
+                       hover:shadow-[0_10px_44px_-6px_rgba(114,47,55,0.22)]
+                       hover:-translate-y-1.5"
+          >
+            <p className="label mb-5">Stage III</p>
+            <h3 className="display text-xl text-ink mb-6 group-hover:text-wine transition-colors">
+              The Library
+            </h3>
+            <div dir="rtl" className="py-6 border-y border-ink/[0.06] space-y-0.5">
+              <p className="font-hebrew text-xl text-ink leading-loose text-right">
+                כתאב אלהדאיה אלי פראיץ׳ אלקלוב
+              </p>
+              <p className="font-hebrew text-base text-ink/45 leading-loose text-right">
+                דלאלה אלחאירין
+              </p>
+              <p className="font-hebrew text-base text-ink/25 leading-loose text-right">
+                כתאב אלאמאנאת ואלאעתקאדאת
+              </p>
+            </div>
+            <p className="mt-6 text-sm text-muted leading-relaxed">
+              Bahya, Rambam, Halevi, Qirqisani, Saadia — the classical shelf
+              in Judeo-Arabic.
+            </p>
+          </Link>
+
+        </div>
       </section>
+
+      {/* ── Support section ─────────────────────────────────────────────── */}
+      <section className="border-t border-ink/8 bg-page/40">
+        <div className="mx-auto max-w-5xl px-6 py-16 sm:py-20 md:flex md:items-center md:justify-between md:gap-16">
+          <div className="max-w-xl">
+            <p className="label label-accent mb-4">Support the project</p>
+            <h2 className="display text-3xl sm:text-4xl leading-snug">
+              From the script to the shelf —<br className="hidden sm:block" /> stage by stage, free for every reader.
+            </h2>
+            <p className="mt-5 text-base text-ink/65 leading-relaxed">
+              Stage&nbsp;I teaches the Hebrew-script Arabic alphabet. Stage&nbsp;II
+              opens Saadia Gaon&apos;s Tafsir, verse by verse. Stage&nbsp;III
+              brings the classical shelf — Bahya, Rambam, Halevi, Qirqisani.
+              All three stages are free and open. Your support keeps them that way.
+            </p>
+          </div>
+          {process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK && (
+            <div className="mt-10 md:mt-0 md:shrink-0 flex flex-col items-start md:items-center gap-3">
+              <a
+                href={process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-sm bg-wine px-7 py-3.5 text-sm font-semibold text-parchment transition-colors hover:bg-wine-700"
+              >
+                Support the project
+                <span aria-hidden>→</span>
+              </a>
+              <p className="text-xs text-muted">One-time or recurring · any amount</p>
+            </div>
+          )}
+        </div>
+      </section>
+
+      {/* ── Returning-user rail ──────────────────────────────────────────── */}
+      <div className="mx-auto max-w-5xl px-6 pb-16">
+        <ReturningRail />
+      </div>
+
     </div>
   );
 }

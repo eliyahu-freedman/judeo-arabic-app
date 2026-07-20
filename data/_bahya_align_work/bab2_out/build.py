@@ -1,0 +1,145 @@
+# -*- coding: utf-8 -*-
+import json, re
+
+src = json.load(open('data/_bahya_align_work/bab2/צה.json'))['ja']
+
+segs = [
+ {
+  "ja": "אלי גירהם קד סלבת ענהם, ומא חצל להם מנהא אפאת חלת בהם, פלא יעקלון ען אללה אלמנעם בהא עליהם, כקול אלולי ע\"ס רשע בגובה אפו בל ידרש אין אלהים כל מזימותיו.",
+  "en": "as if it had been wrested from themselves, and what has accrued to them out of it as injuries that have struck them. They do not bring God to mind — the One who bestowed it upon them — like the saying of the Friend (peace be upon him): \"The wicked man in his pride does not seek; 'There is no God' is the whole of his scheming\" (Psalms 10:4).",
+  "pairs": [
+   {"ja": "אלי גירהם", "en": "from themselves"},
+   {"ja": "קד סלבת ענהם", "en": "as if it had been wrested"},
+   {"ja": "ומא חצל להם מנהא", "en": "and what has accrued to them out of it"},
+   {"ja": "אפאת חלת בהם", "en": "as injuries that have struck them"},
+   {"ja": "פלא יעקלון", "en": "They do not bring God to mind"},
+   {"ja": "אללה אלמנעם בהא עליהם", "en": "the One who bestowed it upon them"},
+   {"ja": "כקול אלולי ע\"ס", "en": "like the saying of the Friend (peace be upon him)"},
+   {"ja": "רשע בגובה אפו בל ידרש", "en": "\"The wicked man in his pride does not seek"},
+   {"ja": "אין אלהים כל מזימותיו", "en": "'There is no God' is the whole of his scheming\" (Psalms 10:4)"}
+  ]
+ },
+ {
+  "ja": "ואלכ'לה אלת'אניה כ'רוג'הם אלי הד'א אלעאלם והם פי חאל אלבהאים ג'הלא ועיא, כקול אלחכים ועיר פרא אדם יולד.",
+  "en": "The second obstacle is their emerging into this world while in the state of brutes — ignorant and unseeing — as the Wise One said: \"Like a wild ass colt is man born\" (Job 11:12).",
+  "pairs": [
+   {"ja": "ואלכ'לה אלת'אניה", "en": "The second obstacle"},
+   {"ja": "כ'רוג'הם אלי הד'א אלעאלם", "en": "their emerging into this world"},
+   {"ja": "והם פי חאל אלבהאים", "en": "while in the state of brutes"},
+   {"ja": "ג'הלא ועיא", "en": "ignorant and unseeing"},
+   {"ja": "כקול אלחכים", "en": "as the Wise One said"},
+   {"ja": "ועיר פרא אדם יולד", "en": "\"Like a wild ass colt is man born\" (Job 11:12)"}
+  ]
+ },
+ {
+  "ja": "ונשווהם פי נעם אללה אלסאבגה, ותרדדהם פיהא חתי תציר ענדהם מעהודה מאלופה כאנהא ד'אתיה להם לא תזאילהם ולא תפארקהם טול מדהֵ אעמארהם,",
+  "en": "And their growing up amid the prior blessings of God and being constantly bound up with them, until those blessings become for them familiar and customary, as if they were essential to them — not separable from them, not parting from them all the length of their lives.",
+  "pairs": [
+   {"ja": "ונשווהם פי נעם אללה אלסאבגה", "en": "And their growing up amid the prior blessings of God"},
+   {"ja": "ותרדדהם פיהא", "en": "and being constantly bound up with them"},
+   {"ja": "חתי תציר ענדהם מעהודה מאלופה", "en": "until those blessings become for them familiar and customary"},
+   {"ja": "כאנהא ד'אתיה להם", "en": "as if they were essential to them"},
+   {"ja": "לא תזאילהם", "en": "not separable from them"},
+   {"ja": "ולא תפארקהם", "en": "not parting from them"},
+   {"ja": "טול מדהֵ אעמארהם", "en": "all the length of their lives"}
+  ]
+ },
+ {
+  "ja": "פאד'א עקלוא וקוי תמייזהם ג'הלוא וג'ה אלנעמה עליהם, ולם ילזמוא קלובהם אלשכר ללה ענהא ג'הלא בקדר אלנעמה ואלמנעם בהא עליהם.",
+  "en": "So when they come to reason, and their discernment grows strong, they remain ignorant of the aspect of the blessing upon them, and do not bind their hearts to thank God for it, out of ignorance of the worth of the blessing and of the One who has bestowed it upon them.",
+  "pairs": [
+   {"ja": "פאד'א עקלוא", "en": "So when they come to reason"},
+   {"ja": "וקוי תמייזהם", "en": "and their discernment grows strong"},
+   {"ja": "ג'הלוא וג'ה אלנעמה עליהם", "en": "they remain ignorant of the aspect of the blessing upon them"},
+   {"ja": "ולם ילזמוא קלובהם אלשכר ללה ענהא", "en": "and do not bind their hearts to thank God for it"},
+   {"ja": "ג'הלא בקדר אלנעמה", "en": "out of ignorance of the worth of the blessing"},
+   {"ja": "ואלמנעם בהא עליהם", "en": "and of the One who has bestowed it upon them"}
+  ]
+ },
+ {
+  "ja": "ומת'להם פי ד'לך כרג'ל מן אהל אלפצ'ל אלפי טפלא פי פלאה מן אלארץ' פשפק עליה, פצ'מה אלי ביתה ורבאה ואטעמה וכסאה וג'אד עליה בג'מיע מצאלחה אלי אן עקל ופהם וג'וה רשדה.",
+  "en": "Their case in this is like the case of a man of generosity who found an abandoned infant in a wasteland of the earth, and took pity on him, and brought him into his house, and raised him and fed him and clothed him and was lavish with him in every aspect of his welfare, until the child came to reason and understand the modes of his upbringing.",
+  "pairs": [
+   {"ja": "ומת'להם פי ד'לך", "en": "Their case in this is like"},
+   {"ja": "כרג'ל מן אהל אלפצ'ל", "en": "the case of a man of generosity"},
+   {"ja": "אלפי טפלא", "en": "who found an abandoned infant"},
+   {"ja": "פי פלאה מן אלארץ'", "en": "in a wasteland of the earth"},
+   {"ja": "פשפק עליה", "en": "and took pity on him"},
+   {"ja": "פצ'מה אלי ביתה", "en": "and brought him into his house"},
+   {"ja": "ורבאה ואטעמה וכסאה", "en": "and raised him and fed him and clothed him"},
+   {"ja": "וג'אד עליה בג'מיע מצאלחה", "en": "and was lavish with him in every aspect of his welfare"},
+   {"ja": "אלי אן עקל ופהם וג'וה רשדה", "en": "until the child came to reason and understand the modes of his upbringing"}
+  ]
+ },
+ {
+  "ja": "ת'ם אן אלרג'ל סמע ען אסיר פי יד עדוה קד בלג בה אלי גאיה מן אלשקא ואלג'וע ואלערי מדה טוילה, פרק לחאלה, ולם יזל ילטף בעדוה חתי אטלקה ווהבה ת'מנה,",
+  "en": "Then this man heard of a captive in the hand of his enemy, who had reached an extreme of misery and hunger and nakedness over a long stretch of time — so he had compassion on his condition, and did not cease to manage matters gently with his enemy until he released him, and ransomed him at his price.",
+  "pairs": [
+   {"ja": "ת'ם אן אלרג'ל סמע", "en": "Then this man heard"},
+   {"ja": "ען אסיר פי יד עדוה", "en": "of a captive in the hand of his enemy"},
+   {"ja": "קד בלג בה אלי גאיה מן אלשקא", "en": "who had reached an extreme of misery"},
+   {"ja": "ואלג'וע ואלערי", "en": "and hunger and nakedness"},
+   {"ja": "מדה טוילה", "en": "over a long stretch of time"},
+   {"ja": "פרק לחאלה", "en": "so he had compassion on his condition"},
+   {"ja": "ולם יזל ילטף בעדוה", "en": "and did not cease to manage matters gently with his enemy"},
+   {"ja": "חתי אטלקה", "en": "until he released him"},
+   {"ja": "ווהבה ת'מנה", "en": "and ransomed him at his price"}
+  ]
+ },
+ {
+  "ja": "פצ'מה בעד ד'לך אלי מנזלה ואחסן אליה וג'אד עליה בבעץ' מא ג'אד בה עלי אלטפל,",
+  "en": "Then, after this, the man brought him into his house and treated him kindly and was lavish with him in some part of what he had been lavish with upon the child.",
+  "pairs": [
+   {"ja": "פצ'מה בעד ד'לך אלי מנזלה", "en": "Then, after this, the man brought him into his house"},
+   {"ja": "ואחסן אליה", "en": "and treated him kindly"},
+   {"ja": "וג'אד עליה בבעץ'", "en": "and was lavish with him in some part"},
+   {"ja": "מא ג'אד בה עלי אלטפל", "en": "of what he had been lavish with upon the child"}
+  ]
+ },
+ {
+  "ja": "פכאן אלרג'ל אלאסיר אמיז ואשכר לנעמהֵ אלרג'ל עליה מן אלטפל אלד'י נשא ורבי פי נעמתה, לכ'רוג'ה מן חאל אלשקא אלי חאל אלתרוח ואלרפאהה פי חאל תמייזה,",
+  "en": "Then this captive man — once delivered — was more discerning and more grateful for the man's blessing upon him than the child who had been raised and brought up in his beneficence: because he had passed from the state of misery to the state of relief and ease in his moment of discernment,",
+  "pairs": [
+   {"ja": "פכאן אלרג'ל אלאסיר", "en": "Then this captive man"},
+   {"ja": "אמיז ואשכר", "en": "was more discerning and more grateful"},
+   {"ja": "לנעמהֵ אלרג'ל עליה", "en": "for the man's blessing upon him"},
+   {"ja": "מן אלטפל אלד'י נשא ורבי פי נעמתה", "en": "than the child who had been raised and brought up in his beneficence"},
+   {"ja": "לכ'רוג'ה מן חאל אלשקא", "en": "because he had passed from the state of misery"},
+   {"ja": "אלי חאל אלתרוח ואלרפאהה", "en": "to the state of relief and ease"},
+   {"ja": "פי חאל תמייזה", "en": "in his moment of discernment"}
+  ]
+ },
+ {
+  "ja": "פהו כת'יר אלתמייז לאחסאן אלרג'ל אלפאצ'ל אליה ואנעאמה עליה,",
+  "en": "so that he was abundantly discerning of the kindness of the man of generosity to him and his bestowal of blessings upon him.",
+  "pairs": [
+   {"ja": "פהו כת'יר אלתמייז", "en": "so that he was abundantly discerning"},
+   {"ja": "לאחסאן אלרג'ל אלפאצ'ל אליה", "en": "of the kindness of the man of generosity to him"},
+   {"ja": "ואנעאמה עליה", "en": "and his bestowal of blessings upon him"}
+  ]
+ },
+ {
+  "ja": "ואלטפל ג'אהל בקדר אלנעמה עליה ואן קוי תמייזה ות'בת עקלה, לאלפתה להא מנד' חאל צבאיה.",
+  "en": "The child, by contrast, was ignorant of the worth of the blessing upon him — even when his discernment grew strong and his reason was established — on account of his familiarity with it from the time of his infancy.",
+  "pairs": [
+   {"ja": "ואלטפל ג'אהל בקדר אלנעמה עליה", "en": "The child, by contrast, was ignorant of the worth of the blessing upon him"},
+   {"ja": "ואן קוי תמייזה", "en": "even when his discernment grew strong"},
+   {"ja": "ות'בת עקלה", "en": "and his reason was established"},
+   {"ja": "לאלפתה להא", "en": "on account of his familiarity with it"},
+   {"ja": "מנד' חאל צבאיה", "en": "from the time of his infancy"}
+  ]
+ },
+ {
+  "ja": "ולא ישך אחד מן ד'וי אלעקול אן פצ'לה ונעמתה עלי אלטפל",
+  "en": "And not one of those possessed of reason doubts that his generosity and his blessing upon the child",
+  "pairs": [
+   {"ja": "ולא ישך אחד מן ד'וי אלעקול", "en": "And not one of those possessed of reason doubts"},
+   {"ja": "אן פצ'לה ונעמתה", "en": "that his generosity and his blessing"},
+   {"ja": "עלי אלטפל", "en": "upon the child"}
+  ]
+ }
+]
+
+out = {"pages": {"צה": segs}}
+json.dump(out, open('data/_bahya_align_work/bab2_out/צה.json','w'), ensure_ascii=False, indent=1)
+print("written")

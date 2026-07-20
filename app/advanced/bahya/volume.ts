@@ -25,6 +25,24 @@ import bab1english from "@/data/bahya-bab1-english.json";
 import bab1aligned from "@/data/bahya-bab1-aligned.json";
 import bab2english from "@/data/bahya-bab2-english.json";
 import bab2aligned from "@/data/bahya-bab2-aligned.json";
+import bab3english from "@/data/bahya-bab3-english.json";
+import bab3aligned from "@/data/bahya-bab3-aligned.json";
+import bab4english from "@/data/bahya-bab4-english.json";
+import bab4aligned from "@/data/bahya-bab4-aligned.json";
+import bab5english from "@/data/bahya-bab5-english.json";
+import bab5aligned from "@/data/bahya-bab5-aligned.json";
+import bab6english from "@/data/bahya-bab6-english.json";
+import bab6aligned from "@/data/bahya-bab6-aligned.json";
+import hakdamahenglish from "@/data/bahya-hakdamah-english.json";
+import hakdamahaligned from "@/data/bahya-hakdamah-aligned.json";
+import bab7english from "@/data/bahya-bab7-english.json";
+import bab7aligned from "@/data/bahya-bab7-aligned.json";
+import bab8english from "@/data/bahya-bab8-english.json";
+import bab8aligned from "@/data/bahya-bab8-aligned.json";
+import bab9english from "@/data/bahya-bab9-english.json";
+import bab9aligned from "@/data/bahya-bab9-aligned.json";
+import bab10english from "@/data/bahya-bab10-english.json";
+import bab10aligned from "@/data/bahya-bab10-aligned.json";
 
 export type GatePage = { page_he: string; paragraphs?: string[] };
 export type GateJson = {
@@ -49,7 +67,12 @@ export type Gate = {
 };
 
 export const BAHYA_GATES: Gate[] = [
-  { slug: "hakdamah", json: hakdamah as GateJson },
+  {
+    slug: "hakdamah",
+    json: hakdamah as GateJson,
+    english: hakdamahenglish as EnglishJson,
+    aligned: hakdamahaligned as AlignedJson,
+  },
   {
     slug: "bab-1",
     json: bab1 as GateJson,
@@ -62,14 +85,54 @@ export const BAHYA_GATES: Gate[] = [
     english: bab2english as EnglishJson,
     aligned: bab2aligned as AlignedJson,
   },
-  { slug: "bab-3", json: bab3 as GateJson },
-  { slug: "bab-4", json: bab4 as GateJson },
-  { slug: "bab-5", json: bab5 as GateJson },
-  { slug: "bab-6", json: bab6 as GateJson },
-  { slug: "bab-7", json: bab7 as GateJson },
-  { slug: "bab-8", json: bab8 as GateJson },
-  { slug: "bab-9", json: bab9 as GateJson },
-  { slug: "bab-10", json: bab10 as GateJson },
+  {
+    slug: "bab-3",
+    json: bab3 as GateJson,
+    english: bab3english as EnglishJson,
+    aligned: bab3aligned as AlignedJson,
+  },
+  {
+    slug: "bab-4",
+    json: bab4 as GateJson,
+    english: bab4english as EnglishJson,
+    aligned: bab4aligned as AlignedJson,
+  },
+  {
+    slug: "bab-5",
+    json: bab5 as GateJson,
+    english: bab5english as EnglishJson,
+    aligned: bab5aligned as AlignedJson,
+  },
+  {
+    slug: "bab-6",
+    json: bab6 as GateJson,
+    english: bab6english as EnglishJson,
+    aligned: bab6aligned as AlignedJson,
+  },
+  {
+    slug: "bab-7",
+    json: bab7 as GateJson,
+    english: bab7english as EnglishJson,
+    aligned: bab7aligned as AlignedJson,
+  },
+  {
+    slug: "bab-8",
+    json: bab8 as GateJson,
+    english: bab8english as EnglishJson,
+    aligned: bab8aligned as AlignedJson,
+  },
+  {
+    slug: "bab-9",
+    json: bab9 as GateJson,
+    english: bab9english as EnglishJson,
+    aligned: bab9aligned as AlignedJson,
+  },
+  {
+    slug: "bab-10",
+    json: bab10 as GateJson,
+    english: bab10english as EnglishJson,
+    aligned: bab10aligned as AlignedJson,
+  },
 ];
 
 export const gateBySlug: Record<string, Gate> = Object.fromEntries(

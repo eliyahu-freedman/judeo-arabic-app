@@ -1,0 +1,1186 @@
+{
+  "scope": "bab1 first 10 of 50 pages",
+  "suspects": 124,
+  "agents": 4,
+  "by_verdict": {
+    "ok": 100,
+    "wrong_attribution": 12,
+    "hebrew_quote": 4,
+    "wrong_pos_or_sense": 7,
+    "homograph_ambiguous": 1
+  },
+  "flagged_total": 24,
+  "flagged_high": 21,
+  "verdicts": [
+    {
+      "surface": "אלכלאם",
+      "entry_id": "kallam",
+      "verdict": "ok",
+      "confidence": "medium",
+      "evidence": "Lane k-l-m: kalām = speech/word; entry gloss explicitly includes 'word, speech'",
+      "note": "Entry stuffs verb kallama + noun kalām; the noun sense covers this surface (al-kalām 'the discourse').",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "אמא",
+      "entry_id": "am-or-particle",
+      "verdict": "wrong_attribution",
+      "confidence": "high",
+      "evidence": "Blau (blau_00157) آما/أمّا = topicalizing particle 'as for / but'; distinct from أَمْ 'or'",
+      "note": "Surface is ammā (topicalizer 'as for'), not the interrogative/disjunctive أَمْ.",
+      "corrected_pos": "particle (topicalizer)",
+      "corrected_gloss_en": "as for; as to",
+      "corrected_gloss_he": "אֲבָל; אֲשֶׁר לְ־",
+      "target_lemma_ar": "أَمَّا",
+      "target_lemma_ja": "אמא",
+      "target_root": "—"
+    },
+    {
+      "surface": "ואמא",
+      "entry_id": "am-or-particle",
+      "verdict": "wrong_attribution",
+      "confidence": "high",
+      "evidence": "Blau (blau_00157) أمّا = 'as for'; en_phrase 'As for'",
+      "note": "wa-ammā 'and as for'; topicalizer, not أَمْ 'or'.",
+      "corrected_pos": "particle (topicalizer)",
+      "corrected_gloss_en": "as for; as to",
+      "corrected_gloss_he": "אֲשֶׁר לְ־; וְאוּלָם",
+      "target_lemma_ar": "أَمَّا",
+      "target_lemma_ja": "אמא",
+      "target_root": "—"
+    },
+    {
+      "surface": "ישערון",
+      "entry_id": "shaʿr-hair",
+      "verdict": "wrong_attribution",
+      "confidence": "high",
+      "evidence": "Lane sh-ʿ-r: شعر شَعَرَ بِهِ 'he knew/perceived it'; en_phrase 'they do not perceive'",
+      "note": "Verb shaʿara 'to perceive', not the noun shaʿr 'hair'. yashʿurūn = 'they perceive'.",
+      "corrected_pos": "verb (Form I)",
+      "corrected_gloss_en": "to perceive, sense, be aware of",
+      "corrected_gloss_he": "לְהַרְגִּישׁ, לְהָבִין, לַחוּשׁ",
+      "target_lemma_ar": "شَعَرَ",
+      "target_lemma_ja": "שער",
+      "target_root": "sh-ʿ-r"
+    },
+    {
+      "surface": "פקד",
+      "entry_id": "adv-b-r1-1620-8",
+      "verdict": "wrong_attribution",
+      "confidence": "high",
+      "evidence": "ja_phrase 'פקד צחת אלמ...' = fa-qad ṣaḥḥa 'for indeed it has been established'; en_phrase 'is established'",
+      "note": "Arabic fa-qad (particle fa + qad), prose connective; NOT the Hebrew quote yifqod from Num 27:16. Mis-tagged as Hebrew.",
+      "corrected_pos": "particle",
+      "corrected_gloss_en": "for indeed; and already (fa-qad)",
+      "corrected_gloss_he": "שֶׁכְּבָר; וַהֲרֵי",
+      "target_lemma_ar": "فَقَدْ",
+      "target_lemma_ja": "פקד",
+      "target_root": "—"
+    },
+    {
+      "surface": "פראיץ'",
+      "entry_id": "b1-פריצה",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "farāʾiḍ is the broken plural of farīḍa 'religious obligation' (f-r-ḍ); en_phrase 'duties of the limbs'",
+      "note": "Plural surface pointing at its singular base lemma farīḍa — fine.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "אקול",
+      "entry_id": "qala",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "Lane q-w-l qāla 'to say'; aqūlu is 1st-sing imperfect of same verb; en_phrase 'by my saying'",
+      "note": "Inflected surface (aqūlu) pointing at its base verb qāla — fine despite gloss reading 3ms.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "את",
+      "entry_id": "adv-b-r1-0-9",
+      "verdict": "hebrew_quote",
+      "confidence": "high",
+      "evidence": "מ' אבות ב:יד 'דע מה שתשיב לאפיקורוס'; את = Hebrew direct-object marker in 'מה שתשיב את אפקורוס'",
+      "note": "Embedded Hebrew/Mishnaic direct-object marker, echoing Avot 2:14, not the Arabic -āt plural suffix.",
+      "corrected_pos": "Hebrew quote",
+      "corrected_gloss_en": "(Hebrew accusative marker)",
+      "corrected_gloss_he": "מִלַּת הַיַּחַס 'אֶת' (סִימָן מוּשָׂא יָשִׁיר)",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": "—"
+    },
+    {
+      "surface": "אבואב",
+      "entry_id": "bab-door",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "abwāb is plural of bāb (b-w-b); idiom 'gates/chapters of the Law'; en_phrase 'gates of the Law'",
+      "note": "Plural pointing at singular base lemma bāb — fine.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "אדראכה",
+      "entry_id": "adv-idrak",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "idrāk 'perception/comprehension' (d-r-k) + pronominal suffix -hu; en_phrase 'his comprehension'",
+      "note": "Noun + suffix pointing at base lemma idrāk — fine.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "אוליאנא",
+      "entry_id": "adv-b-r1-1800-28",
+      "verdict": "ok",
+      "confidence": "medium",
+      "evidence": "awliyāʾ 'friends/masters of God; saints' (w-l-y); awliyāʾunā 'our masters' = the Sages",
+      "note": "awliyāʾunā 'our masters/authorities' here denotes the Sages; gloss 'friends/saints' covers the lemma. Surface+suffix on base lemma — fine.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "אחדאהא",
+      "entry_id": "wahid",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "iḥdāhā 'the first/one of them (fem.)', root w-ḥ-d; en_phrase 'The first of them'",
+      "note": "Fem. form of the numeral 'one' + suffix, pointing at base lemma wāḥid — fine.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "אחדהם",
+      "entry_id": "wahid",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "aḥaduhum 'one of them', root w-ḥ-d; en_phrase 'one of them'",
+      "note": "Numeral 'one' + suffix on base lemma — fine.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "אלזמהא",
+      "entry_id": "adv-b-r1-405-0",
+      "verdict": "wrong_pos_or_sense",
+      "confidence": "high",
+      "evidence": "Lane l-z-m IV ألزم 'to make cleave/binding, impose'; en_phrase 'bind them within your heart' (alzimhā imperative)",
+      "note": "Same lemma alzama (l-z-m) but gloss wrongly describes an elative adjective ('more binding'); surface is the verb alzimhā 'bind them'.",
+      "corrected_pos": "verb (Form IV, imperative)",
+      "corrected_gloss_en": "to make binding, impose, bind, fix firmly",
+      "corrected_gloss_he": "לְחַיֵּב, לְהַצְמִיד, לִקְבּוֹעַ",
+      "target_lemma_ar": "أَلْزَمَ",
+      "target_lemma_ja": "אלזם",
+      "target_root": "l-z-m"
+    },
+    {
+      "surface": "אלזמנא",
+      "entry_id": "adv-b-r1-135-18",
+      "verdict": "wrong_attribution",
+      "confidence": "high",
+      "evidence": "Lane l-z-m IV ألزم 'to make cleave, impose'; ja 'ת'ם אלזמנא' = thumma alzamanā 'then He bound/obligated us'; en_phrase 'Then He bound us'",
+      "note": "Surface is the verb alzamanā (l-z-m, 'He bound us'), NOT the noun al-zaman 'the time' (z-m-n).",
+      "corrected_pos": "verb (Form IV) + suffix",
+      "corrected_gloss_en": "to make binding, impose, obligate (alzama + us)",
+      "corrected_gloss_he": "חִיֵּב אוֹתָנוּ, הִצְמִיד לָנוּ",
+      "target_lemma_ar": "أَلْزَمَ",
+      "target_lemma_ja": "אלזם",
+      "target_root": "l-z-m"
+    },
+    {
+      "surface": "אלנאס",
+      "entry_id": "insan",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "al-nās is the suppletive plural of insān (root ʔ-n-s); entry gloss includes 'mankind'; en_phrase 'people'",
+      "note": "Standard lexicographic linkage of nās to base lemma insān — fine.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "אלסמאע",
+      "entry_id": "samiʿa-hear",
+      "verdict": "ok",
+      "confidence": "medium",
+      "evidence": "al-samāʿ is the maṣdar of samiʿa (s-m-ʿ) 'hearing/audition'; en_phrase 'the term hearing'",
+      "note": "Verbal noun samāʿ pointing at its base verb samiʿa; sense 'hearing' aligns. Inflected/derived surface on base lemma — fine.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "אלראבע",
+      "entry_id": "ordinals-2-10",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "al-rābiʿ 'the fourth'; entry covers ordinals 2-10 incl. rābiʿ; en_phrase 'the fourth division'",
+      "note": "Ordinal entry correctly covers rābiʿ.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "אלשרך",
+      "entry_id": "shar-evil",
+      "verdict": "wrong_attribution",
+      "confidence": "high",
+      "evidence": "Lane sh-r-k: أشرك بالله 'to associate a partner with God'; al-shirk 'associationism', root sh-r-k; en_phrase 'from associationism'",
+      "note": "shirk (sh-r-k, associationism/polytheism), NOT sharr 'evil' (sh-r-r) — different root.",
+      "corrected_pos": "noun",
+      "corrected_gloss_en": "associationism, polytheism, ascribing partners to God (shirk)",
+      "corrected_gloss_he": "שִׁתּוּף, עֲבוֹדָה זָרָה",
+      "target_lemma_ar": "شِرْك",
+      "target_lemma_ja": "שרך",
+      "target_root": "sh-r-k"
+    },
+    {
+      "surface": "אלת'אלת'",
+      "entry_id": "ordinals-2-10",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "al-thālith 'the third'; entry covers thālith; en_phrase 'the third'",
+      "note": "Ordinal entry covers thālith.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "אלת'אלת'ה",
+      "entry_id": "ordinals-2-10",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "al-thālitha (fem.) 'the third'; en_phrase 'the third premise'",
+      "note": "Feminine ordinal thālitha, covered by entry.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "אמרהא",
+      "entry_id": "amr-matter",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "amr 'matter/affair' (ʔ-m-r) + suffix -hā; en_phrase 'its gravity' (taʿẓīm amrihā 'to magnify its matter')",
+      "note": "Noun amr + suffix on base lemma — fine.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "אנה",
+      "entry_id": "an_that",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "annahu = anna 'that' + hu; en_phrase 'that He is one'",
+      "note": "Conjunction anna + suffix, on base lemma — fine.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "אסתחאל",
+      "entry_id": "adv-b-r1-1125-43",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "Lane ḥ-w-l: استحال 'it became altered/transformed/overturned'; en_phrase 'his belief may be overturned'",
+      "note": "Same root ḥ-w-l and sense ('transformed/changed'); cited lemma tastaḥīl is the imperfect of same verb istaḥāla. Defensible.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "במנזלהֵ",
+      "entry_id": "nazala-descend",
+      "verdict": "wrong_pos_or_sense",
+      "confidence": "high",
+      "evidence": "Lane n-z-l: بمنزلة 'equivalent/similar to; in the manner of'; manzila 'station/rank'; en_phrase 'He is like'",
+      "note": "Surface is the noun manzila in the idiom bi-manzilat 'equivalent to / like', NOT the verb nazala 'descend'. Same root n-z-l, wrong pos/sense.",
+      "corrected_pos": "noun (in idiom bi-manzilat)",
+      "corrected_gloss_en": "position, rank, status; (bi-manzilat) equivalent to, like, in the manner of",
+      "corrected_gloss_he": "מַעֲמָד, דַּרְגָּה; (במנזלת) כְּמוֹ, בִּמְקוֹם",
+      "target_lemma_ar": "مَنْزِلَة",
+      "target_lemma_ja": "מנזלה",
+      "target_root": "n-z-l"
+    },
+    {
+      "surface": "ד'כרנא",
+      "entry_id": "dhikr-mention",
+      "verdict": "wrong_attribution",
+      "confidence": "high",
+      "evidence": "Lane dh-k-r: ذكر 'to mention/remember'; dhakarnā 'we mentioned'; en_phrase 'which we mentioned'",
+      "note": "Verb dhakara 'to mention' (dhakarnā 'we mentioned'), NOT the noun ذِكَر/ذُكُور 'male'. Classic over-stuffed-variant bug.",
+      "corrected_pos": "verb (Form I) + suffix",
+      "corrected_gloss_en": "to mention, recall, remember (dhakara)",
+      "corrected_gloss_he": "לְהַזְכִּיר, לִזְכּוֹר",
+      "target_lemma_ar": "ذَكَرَ",
+      "target_lemma_ja": "ד'כר",
+      "target_root": "dh-k-r"
+    },
+    {
+      "surface": "ואלכ'אמס",
+      "entry_id": "ordinals-2-10",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "wa-l-khāmis 'and the fifth'; entry covers khāmis; en_phrase 'The fifth'",
+      "note": "Ordinal khāmis covered.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "ואלסאבע",
+      "entry_id": "ordinals-2-10",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "wa-l-sābiʿ 'and the seventh'; entry covers sābiʿ; en_phrase 'The seventh'",
+      "note": "Ordinal sābiʿ covered.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "ואלסאדס",
+      "entry_id": "ordinals-2-10",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "wa-l-sādis 'and the sixth'; entry covers sādis; en_phrase 'The sixth'",
+      "note": "Ordinal sādis covered.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "ואלראבע",
+      "entry_id": "ordinals-2-10",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "wa-l-rābiʿ 'and the fourth'; entry covers rābiʿ; en_phrase 'The fourth'",
+      "note": "Ordinal rābiʿ covered.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "ואלת'אלת'",
+      "entry_id": "ordinals-2-10",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "wa-l-thālith 'and the third'; entry covers thālith; en_phrase 'The third'",
+      "note": "Ordinal thālith covered.",
+      "corrected_pos": "",
+      "corrected_gloss_en": "",
+      "corrected_gloss_he": "",
+      "target_lemma_ar": "",
+      "target_lemma_ja": "",
+      "target_root": ""
+    },
+    {
+      "surface": "ואלתאסע",
+      "entry_id": "ordinals-2-10",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": ""
+    },
+    {
+      "surface": "ומערפתה",
+      "entry_id": "adv-marifa",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "maʿrifa (ʕ-r-f) = knowing; ומערפתה = maʿrifatihi 'his knowing Him', verbal noun of same lemma"
+    },
+    {
+      "surface": "ועליה",
+      "entry_id": "ala",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "ʿalayhi = ʿalā + suffix; 'and upon it the messenger urged'"
+    },
+    {
+      "surface": "ועמלה",
+      "entry_id": "ʿamila-do-act",
+      "verdict": "ok",
+      "confidence": "medium",
+      "evidence": "ʿamal 'deed' is verbal noun of ʿamila, same root ʿ-m-l; surface points at its own base verb lemma"
+    },
+    {
+      "surface": "יוג'ב",
+      "entry_id": "adv-b-r1-495-8",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "yūjibu = imperfect of awjaba (w-j-b), 'necessitates'"
+    },
+    {
+      "surface": "ינקסם",
+      "entry_id": "adv-b-r1-1395-0",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "yanqasimu = imperfect of inqasama (q-s-m), 'is divided'"
+    },
+    {
+      "surface": "יסמע",
+      "entry_id": "samiʿa-hear",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "yasmaʿu imperfect of samiʿa (s-m-ʿ), 'he hears'"
+    },
+    {
+      "surface": "יעד",
+      "entry_id": "waʿada-promise",
+      "verdict": "homograph_ambiguous",
+      "confidence": "high",
+      "corrected_pos": "verb (Form I, imperfect)",
+      "corrected_gloss_en": "he counts, measures, reckons (a smaller magnitude measuring a greater, in the Euclidean sense)",
+      "corrected_gloss_he": "מודד, מונה",
+      "target_lemma_ja": "עד",
+      "target_lemma_ar": "عَدَّ",
+      "target_root": "ʿ-d-d",
+      "note": "JA יעד is a true homograph: yaʿidu 'promises' (w-ʿ-d, shown) AND yaʿuddu 'counts/measures' (ʿ-d-d). Context 'אלאצגר יעד אלאעט'ם עלי מא חדה אקלידס פי אול אלמקאלה אלכ'אמסה' (Euclid Bk V, the smaller measuring the greater) requires the ʿ-d-d sense. Shown 'to promise' is wrong here.",
+      "evidence": "Lane ʿadda (ʿ-d-d): 'He numbered, counted, reckoned, or computed it'; context cites Euclid Book V on ratios"
+    },
+    {
+      "surface": "יריד",
+      "entry_id": "adv-b-r1-1035-35",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "yurīd/yurād both root r-w-d; 'He means/intends', right root and sense family"
+    },
+    {
+      "surface": "כלמאת",
+      "entry_id": "kallam",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "kalimāt 'words' (k-l-m); entry gloss includes 'word, speech'; 'the Ten Words'"
+    },
+    {
+      "surface": "כפאיה",
+      "entry_id": "faw-mouth",
+      "verdict": "wrong_attribution",
+      "confidence": "high",
+      "corrected_pos": "noun (f.)",
+      "corrected_gloss_en": "sufficiency, enough, that which suffices",
+      "corrected_gloss_he": "די, מספיק, הספקה",
+      "target_lemma_ja": "כפאיה",
+      "target_lemma_ar": "كِفَايَة",
+      "target_root": "k-f-y",
+      "note": "Surface כפאיה = kifāya 'sufficiency/enough', root k-f-y, wrongly appended to faw-mouth (f-w-h). 'מא פיה כפאיה' = 'there is enough in it'.",
+      "evidence": "Lane kfY: 'kifāyatun: A sufficiency; enough; a thing that suffices'; Blau כפי form I 'to suffice, to be enough'"
+    },
+    {
+      "surface": "לאנהם",
+      "entry_id": "an_that",
+      "verdict": "ok",
+      "confidence": "medium",
+      "evidence": "li-anna-hum 'because they'; core particle anna is the shown lemma; acceptable resolution"
+    },
+    {
+      "surface": "לדאיה",
+      "entry_id": "adv-b-r1-1035-33",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "Full context 'אן כאן עלאג'ה לדאיה' = 'whether his treatment for his disease (li-dāʾihi)'; dāʾ 'disease' (d-w-y) is correct here; the en_phrase fragment is a loose alignment"
+    },
+    {
+      "surface": "לה",
+      "entry_id": "li-to",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "la-hu = li- + suffix; 'their affirmation of Him'"
+    },
+    {
+      "surface": "להא",
+      "entry_id": "li-to",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "la-hā = li- + suffix; 'having a first (belonging to it a first)'"
+    },
+    {
+      "surface": "ליעלם",
+      "entry_id": "alima",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "li-yaʿlam 'so that he might know', jussive of ʿalima (ʕ-l-m)"
+    },
+    {
+      "surface": "לך",
+      "entry_id": "li-to",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "la-ka = li- + suffix; 'You ought (it behooves you)'"
+    },
+    {
+      "surface": "ללה",
+      "entry_id": "li-to",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "li-llāh 'of/to God'; li- proclitic + Allāh"
+    },
+    {
+      "surface": "ללעאלם",
+      "entry_id": "alim-scholar",
+      "verdict": "wrong_attribution",
+      "confidence": "high",
+      "corrected_pos": "noun (m.)",
+      "corrected_gloss_en": "world, universe, cosmos",
+      "corrected_gloss_he": "עולם, יקום",
+      "target_lemma_ja": "עאלם",
+      "target_lemma_ar": "عَالَم",
+      "target_root": "ʕ-l-m",
+      "note": "li-l-ʿālam 'to/for the world'; shown entry ʿālim 'scholar/knowing one' is same root ʕ-l-m but wrong lemma. Context 'אן ללעאלם כ'אלק' = 'that the world has a Creator' is unambiguous.",
+      "evidence": "Blau עאלם 'world / עולם'; Lane ʿ-l-m: ʿālam 'the world, universe'"
+    },
+    {
+      "surface": "ללעלם",
+      "entry_id": "alima",
+      "verdict": "wrong_pos_or_sense",
+      "confidence": "medium",
+      "corrected_pos": "noun",
+      "corrected_gloss_en": "knowledge, learning",
+      "corrected_gloss_he": "ידיעה, דעת",
+      "target_lemma_ja": "עלם",
+      "target_lemma_ar": "عِلْم",
+      "target_root": "ʕ-l-m",
+      "note": "li-l-ʿilm 'for knowledge', noun ʿilm; shown gloss is the verb ʿalima 'he knew'. Same root ʕ-l-m but the reader taps a noun ('knowledge and action'). Sense/pos mismatch.",
+      "evidence": "Context 'אלג'אמעה ללעלם ואלעמל' = 'comprising knowledge and action'; ʿilm = noun 'knowledge'"
+    },
+    {
+      "surface": "לנא",
+      "entry_id": "li-to",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "la-nā = li- + suffix; 'to us'"
+    },
+    {
+      "surface": "לצנעה",
+      "entry_id": "sanaa",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "li-ṣanʿatihi/ṣunʿihi 'its making', verbal noun of ṣanaʿa, same root ṣ-n-ʕ"
+    },
+    {
+      "surface": "מד'הבה",
+      "entry_id": "adv-b-r1-1035-7",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "madhhabuhu 'his doctrine/belief' (dh-h-b); 'his belief may be overturned'"
+    },
+    {
+      "surface": "מחאל",
+      "entry_id": "mahall-place",
+      "verdict": "wrong_attribution",
+      "confidence": "high",
+      "corrected_pos": "adjective / passive participle (Form IV)",
+      "corrected_gloss_en": "impossible, absurd",
+      "corrected_gloss_he": "בלתי אפשרי, נמנע",
+      "target_lemma_ja": "מחאל",
+      "target_lemma_ar": "مُحَال",
+      "target_root": "ḥ-w-l",
+      "note": "muḥāl 'impossible/absurd', Form IV passive participle of ḥ-w-l; shown entry maḥall 'place' (ḥ-l-l) is the wrong root. 'וכלאהמא מחאל' = 'and both of these are impossible'.",
+      "evidence": "Blau ḥwl form IV 'to declare it absurd, impossible / בלתי אפשרי'; cites ותסמיה אלמחאל 'naming the absurd'"
+    },
+    {
+      "surface": "מטלובה",
+      "entry_id": "adv-yatlub",
+      "verdict": "ok",
+      "confidence": "medium",
+      "evidence": "maṭlūbuhu 'his goal/object sought', passive participle of ṭalaba, same root ṭ-l-b as shown verb lemma"
+    },
+    {
+      "surface": "מנהא",
+      "entry_id": "min",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "min-hā 'from them'; min + suffix"
+    },
+    {
+      "surface": "נפסה",
+      "entry_id": "nafs-soul",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "nafsahu 'itself' (reflexive use of nafs, n-f-s); 'for a thing to make itself'"
+    },
+    {
+      "surface": "עלאג'ה",
+      "entry_id": "adv-b-r1-1035-32",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "Full context 'אן כאן עלאג'ה לדאיה עלי צואב' = 'whether his treatment (ʿilājuhu) for his disease is correct'; ʿilāj 'treatment/cure' (ʕ-l-j) is correct; the en_phrase fragment 'reliance' is a loose chunk alignment"
+    },
+    {
+      "surface": "עליה",
+      "entry_id": "ala",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "ʿalayhi 'upon him' (ʿalā + suffix); 'ד'לך עליה'"
+    },
+    {
+      "surface": "עלינא",
+      "entry_id": "ala",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "ʿalaynā 'upon us'; 'He made obligatory upon us'"
+    },
+    {
+      "surface": "עלמה",
+      "entry_id": "alima",
+      "verdict": "wrong_pos_or_sense",
+      "confidence": "medium",
+      "corrected_pos": "noun",
+      "corrected_gloss_en": "knowledge, learning",
+      "corrected_gloss_he": "ידיעה, דעת",
+      "target_lemma_ja": "עלם",
+      "target_lemma_ar": "عِلْم",
+      "target_root": "ʕ-l-m",
+      "note": "ʿilmuhu 'his knowledge', noun ʿilm paired with ʿamaluhu in 'פי עלמה ועמלה' = 'in their knowledge and deeds'; shown gloss is verb ʿalima 'he knew'. Same root but noun reading needed.",
+      "evidence": "Context 'פי עלמה ועמלה' = 'in their knowledge and their deeds'; ʿilm = noun"
+    },
+    {
+      "surface": "עלמנא",
+      "entry_id": "alima",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "Lane علم: 'He knew it'; ʕalima bihi 'he knew/was cognizant of it' — root ʕ-l-m matches 'what we must know'."
+    },
+    {
+      "surface": "ענה",
+      "entry_id": "an-from",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "عن + 3ms pronoun, preposition 'from Him'; matches en_phrase."
+    },
+    {
+      "surface": "ענהא",
+      "entry_id": "an-from",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "عن + pronoun 'from them'; 'there follows from them' = yantautij ʿanhā."
+    },
+    {
+      "surface": "פאלמעדום",
+      "entry_id": "adv-b-r1-1080-26",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "fa+al+maʿdūm, pass. part. ʕ-d-m 'the non-existent'; same lemma family, sense correct."
+    },
+    {
+      "surface": "פיה",
+      "entry_id": "fi",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "في + pronoun 'in it'; 'mā fīhi kifāya' = 'there is enough in it'."
+    },
+    {
+      "surface": "צחת",
+      "entry_id": "adv-b-r1-0-13",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "ṣaḥḥa fem. perf. صحّت 'is established/sound/valid'; matches 'is established'."
+    },
+    {
+      "surface": "ת'באתהא",
+      "entry_id": "adv-b-r1-1260-15",
+      "verdict": "ok",
+      "confidence": "medium",
+      "evidence": "thabāt/thubūt ث-ب-ت + pronoun; 'affirmation/establishment of Him' within same root-sense range."
+    },
+    {
+      "surface": "תצריפהא",
+      "entry_id": "adv-b-r1-1080-38",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "taṣrīf ص-ر-ف 'directing/disposing/employing' + pronoun; matches 'manner of employing them'."
+    },
+    {
+      "surface": "אכ'לאץ",
+      "entry_id": "adv-b-r1-0-20",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "ikhlāṣ خ-ل-ص 'purification/sincere affirmation'; matches 'purification of affirming the unity'."
+    },
+    {
+      "surface": "אכד",
+      "entry_id": "adv-b-r1-900-34",
+      "verdict": "ok",
+      "confidence": "medium",
+      "evidence": "Spelled with plain kaf = أكّد 'to confirm/make binding (a covenant)'; 'Then He confirmed it upon us' fits Form II."
+    },
+    {
+      "surface": "אלג'סמאניה",
+      "entry_id": "adv-jism",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "al-jismāniyya ج-س-م 'corporeal'; nisba of jism; matches 'the five corporeal ones'."
+    },
+    {
+      "surface": "אלמולף",
+      "entry_id": "adv-muallif",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "al-muʾallif 'the author'; 'qāla al-muʾallif' = 'the author said'."
+    },
+    {
+      "surface": "אלסרא",
+      "entry_id": "adv-b-r1-990-2",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "sarrāʾ 'prosperity/ease' opp. ḍarrāʾ; 'ʿind al-sarrāʾ wa-l-ḍarrāʾ' = 'in prosperity and adversity'."
+    },
+    {
+      "surface": "אם",
+      "entry_id": "am-or-particle",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "أم disjunctive 'or'; 'am lā' = 'or not'."
+    },
+    {
+      "surface": "אסמע",
+      "entry_id": "taf-d-270-36",
+      "verdict": "wrong_pos_or_sense",
+      "confidence": "high",
+      "corrected_pos": "verb (Form I)",
+      "corrected_gloss_en": "to hear, listen (with the ear)",
+      "corrected_gloss_he": "לִשְׁמֹעַ, לְהַאֲזִין (בָּאֹזֶן)",
+      "target_lemma_ar": "سَمِعَ",
+      "target_root": "s-m-ʿ",
+      "evidence": "Context 'wa-laysa yurīd bi-qawlihi shemaʿ asmaʿ' glosses Hebrew שמע as the physical act of hearing/listening with the ear = Form I samiʿa (Lane: 'He heard it'), not the Form IV causative أَسْمَعَ 'to make hear'.",
+      "note": "Unvocalized homograph: shown Form IV causative is wrong here; context wants Form I 'to hear/listen'."
+    },
+    {
+      "surface": "אסתעמאל",
+      "entry_id": "adv-b-r1-2295-9",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "istiʿmāl ع-م-ل 'use, employment'; 'istiʿmāl al-ʿaql' = 'the employment of the intellect'."
+    },
+    {
+      "surface": "אקסאם",
+      "entry_id": "adv-b-r1-90-29",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "aqsām pl. of qism 'divisions'; 'ʿalā arbaʿa aqsām' = 'into four divisions'."
+    },
+    {
+      "surface": "באלכ'אלק",
+      "entry_id": "adv-q-khaliq",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "bi-al-khāliq 'of/by the Creator'; matches 'of the Creator'."
+    },
+    {
+      "surface": "באלתזאם",
+      "entry_id": "adv-b-r1-1980-37",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "bi-iltizām ل-ز-م 'commitment/binding oneself'; 'to bind ourselves to verifying'."
+    },
+    {
+      "surface": "בה",
+      "entry_id": "bihi",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "بِهِ prep+pronoun; 'ʿalimnā bihi' = 'what we must know (of it)'; correct."
+    },
+    {
+      "surface": "בהא",
+      "entry_id": "biha",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "بِهَا prep+pronoun; 'yurād bihā' = 'is intended (by them)'."
+    },
+    {
+      "surface": "בלפט'",
+      "entry_id": "adv-b-r1-630-11",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "bi-lafẓ ل-ف-ظ 'with the term/utterance'; 'bi-lafẓ al-samāʿ' = 'with the term hearing'."
+    },
+    {
+      "surface": "ג'סמאניה",
+      "entry_id": "adv-jismaniyya",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "jismāniyya 'corporeal'; matches 'five corporeal'."
+    },
+    {
+      "surface": "ואלקבול",
+      "entry_id": "qabila-accept",
+      "verdict": "ok",
+      "confidence": "medium",
+      "evidence": "al-qabūl 'acceptance', verbal noun of qabila ق-ب-ل; entry base lemma is the verb but root and 'accept' sense are correct; matches 'and acceptance'."
+    },
+    {
+      "surface": "ואסתעמאל",
+      "entry_id": "adv-b-r1-2295-9",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "wa-istiʿmāl 'and the use'; 'use of rational analogy'."
+    },
+    {
+      "surface": "וג'וה",
+      "entry_id": "adv-b-r1-0-28",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "wujūh pl. of wajh و-ج-ه 'aspects/modes'; matches 'the aspects'."
+    },
+    {
+      "surface": "וקוהֵ",
+      "entry_id": "adv-quwa",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "quwwa ق-و-ي 'power/strength/faculty'; 'quwwat tamyīzihi' = 'the strength of his discernment'; ֵ is a vocalization mark only."
+    },
+    {
+      "surface": "חד",
+      "entry_id": "b1-חד",
+      "verdict": "wrong_pos_or_sense",
+      "confidence": "high",
+      "corrected_pos": "noun",
+      "corrected_gloss_en": "definition (logical/philosophical ḥadd)",
+      "corrected_gloss_he": "הַגְדָּרָה, גֶּדֶר",
+      "target_lemma_ar": "حَدّ",
+      "target_root": "ḥ-d-d",
+      "evidence": "'wa-ammā ḥadd ...' = 'As for the definition'; ḥadd is the standard Arabic logical term 'definition' (contrast rasm), not 'edge/blade of sword' as shown.",
+      "note": "True homograph: ḥadd = 'edge/limit' AND 'definition'. Shown 'edge of sword' sense is wrong here; context demands 'definition'."
+    },
+    {
+      "surface": "יכ'לו",
+      "entry_id": "adv-b-r1-180-36",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "yakhlū min خ-ل-و 'to be devoid/free of'; 'lā yakhlū min aḥad amrayn' = 'cannot escape one of two cases'."
+    },
+    {
+      "surface": "ינתהי",
+      "entry_id": "adv-b-r1-990-37",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "yantahī ن-ه-ي 'it ends/reaches its conclusion'; 'ilā an yantahī al-amr' = 'until the matter ends'."
+    },
+    {
+      "surface": "יצל",
+      "entry_id": "adv-yasil",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "yaṣil و-ص-ل 'to reach/attain'; 'lā yaṣil ilā maṭlūbihi' = 'does not reach his goal'."
+    },
+    {
+      "surface": "כ'טא",
+      "entry_id": "khataʾ-sin",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": ""
+    },
+    {
+      "surface": "כ'מסה",
+      "entry_id": "khamsa-five",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": ""
+    },
+    {
+      "surface": "כמא",
+      "entry_id": "ma_relative",
+      "verdict": "wrong_attribution",
+      "confidence": "high",
+      "target_lemma_ja": "כמא",
+      "target_lemma_ar": "كَمَا",
+      "target_root": "—",
+      "corrected_pos": "particle (comparative/conjunction)",
+      "corrected_gloss_en": "as, just as, like; as (he said)",
+      "corrected_gloss_he": "כְּמוֹ שֶׁ-, כְּפִי שֶׁ-",
+      "evidence": "ja_phrase 'כמא קאל' = 'as he said'; surface is ka-mā comparative, not bare relative ما 'what/not'",
+      "note": "ka- prefix + mā; the shown lemma covers only the mā element and gives the wrong sense here."
+    },
+    {
+      "surface": "לחק",
+      "entry_id": "taf-h-270-21-3",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "Lane l-ḥ-q laḥiqa 'to overtake, reach, befall'; ja 'לחק ג'מיעהם אלכ'לל' = harm reaches them all"
+    },
+    {
+      "surface": "מא",
+      "entry_id": "ma_relative",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'וכל מא ג'רי' = 'everything that proceeds'; relative ما"
+    },
+    {
+      "surface": "מולף",
+      "entry_id": "adv-muallif",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'אן כל מולף' = 'that everything composite'; muʾallaf/muʾallif ʔ-l-f"
+    },
+    {
+      "surface": "עז",
+      "entry_id": "adv-b-r1-0-6",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'ללה עז וג'ל' = doxology 'azza wa-jalla'"
+    },
+    {
+      "surface": "עמל",
+      "entry_id": "ʿamila-do-act",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'לם יצח לה עמל' = 'no deed of his is valid'; ʿamal noun/verb same root ʿ-m-l"
+    },
+    {
+      "surface": "עשרה",
+      "entry_id": "ashr-ten",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'עשרה מעאן' = 'ten meanings'; ʿasharat fem-counted numeral, own base lemma"
+    },
+    {
+      "surface": "צאחב",
+      "entry_id": "sahib-companion",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'צאחב אלתקליד' = 'man of received tradition' = ṣāḥib + genitive, idiomatic 'possessor of'; base lemma fine"
+    },
+    {
+      "surface": "צדק",
+      "entry_id": "adv-heb-tzedeq",
+      "verdict": "wrong_attribution",
+      "confidence": "high",
+      "target_lemma_ja": "צדק",
+      "target_lemma_ar": "صَدَقَ",
+      "target_root": "ṣ-d-q",
+      "corrected_pos": "verb (Form I, perfect)",
+      "corrected_gloss_en": "he spoke truly, was veracious; (here) spoke truly",
+      "corrected_gloss_he": "אָמַר אֱמֶת, צָדַק (בִּדְבָרָיו)",
+      "evidence": "Lane ṣ-d-q: ṣadaqa 'he spoke truth, truly'; ja 'ולקד צדק אלפילסוף' = 'The philosopher spoke truly' — Arabic verb, not Hebrew noun 'righteousness (Prov 1:3)'",
+      "note": "Shown entry is a Hebrew tzedeq noun mis-attributed; surface is the Arabic perfect verb ṣadaqa."
+    },
+    {
+      "surface": "קדמנא",
+      "entry_id": "adv-b-r1-90-25",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'אלתי קדמנא' = 'which we set down earlier'; qaddamnā q-d-m"
+    },
+    {
+      "surface": "רוחאניה",
+      "entry_id": "adv-b-r1-45-12",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'כ'מסה מנהא רוחאניה' = 'five of them spiritual'; rūḥāniyya r-w-ḥ"
+    },
+    {
+      "surface": "שרח",
+      "entry_id": "adv-b-r1-0-17",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'פי שרח וג'וה' = 'on the explication of the aspects'; sharḥ noun sh-r-ḥ"
+    },
+    {
+      "surface": "ת'ם",
+      "entry_id": "thumma",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'ת'ם קאל' = 'Then He said'; thumma conjunction"
+    },
+    {
+      "surface": "אלתאם",
+      "entry_id": "adv-b-r1-2070-25",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'אלתוחיד אלתאם' = 'the perfect affirmation'; tāmm masc adj, variant of tāmma fem base lemma — same lemma family t-m-m, fine"
+    },
+    {
+      "surface": "ב",
+      "entry_id": "bi-with",
+      "verdict": "ok",
+      "confidence": "medium",
+      "evidence": "proclitic preposition bi-; isolated token, defensible"
+    },
+    {
+      "surface": "בהם",
+      "entry_id": "bi-with",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'אלתחפט' בהם' = 'guarding them'; bi- + -hum, correct prep+suffix"
+    },
+    {
+      "surface": "ה",
+      "entry_id": "adv-b-r1-0-0",
+      "verdict": "wrong_pos_or_sense",
+      "confidence": "medium",
+      "corrected_pos": "numeral (Hebrew section number)",
+      "corrected_gloss_en": "5 (Hebrew letter as gematria section number)",
+      "corrected_gloss_he": "ה (סִימָן 5)",
+      "evidence": "'פצל. ה.' = 'Section 5.'; here ה is the Hebrew numeral 5 marking a faṣl, not a suffix/divine-name fragment",
+      "note": "Low-stakes; shown 'stray letter' gloss is non-lexeme but the specific sense (numeral 5) is more accurate."
+    },
+    {
+      "surface": "ה'",
+      "entry_id": "adv-b-r1-0-0",
+      "verdict": "hebrew_quote",
+      "confidence": "high",
+      "corrected_pos": "Hebrew quote",
+      "target_root": "—",
+      "corrected_gloss_en": "the LORD (Tetragrammaton)",
+      "corrected_gloss_he": "ה' (שֵׁם הוי\"ה), 'ה' אחד'",
+      "evidence": "דברים ו:ד — 'ה' אחד' = 'the Lord is one' (Shema); ה' is the divine name, not a stray suffix fragment"
+    },
+    {
+      "surface": "ויפהם",
+      "entry_id": "adv-b-r1-1575-3",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'ויפהם מעני מא יקול' = 'and understands the meaning'; wa- + yafham f-h-m, own base lemma"
+    },
+    {
+      "surface": "וקאלוא",
+      "entry_id": "qala",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'וקאלוא אוליאנא' = 'And our Sages said'; qālū 3mp perfect, variant of base qāla q-w-l"
+    },
+    {
+      "surface": "יכ'תלף",
+      "entry_id": "adv-b-r1-1350-13",
+      "verdict": "ok",
+      "confidence": "medium",
+      "evidence": "'יכ'תלף מן אלנאטקין' = 'varies among rational beings'; yakhtalif Form VIII kh-l-f; base entry tied to taxtalif (3fs) but same lemma family — fine",
+      "note": "Surface is 3ms yakhtalif; gloss reads 3fs but same lemma/root, acceptable inflected pointer."
+    },
+    {
+      "surface": "יצח",
+      "entry_id": "adv-b-r1-0-25",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'אלתי יצח בהא' = 'by which it is established/valid'; yaṣiḥḥ ṣ-ḥ-ḥ"
+    },
+    {
+      "surface": "כי",
+      "entry_id": "adv-b-r1-0-8",
+      "verdict": "hebrew_quote",
+      "confidence": "high",
+      "corrected_pos": "Hebrew quote",
+      "target_root": "—",
+      "corrected_gloss_en": "because, for (Hebrew conjunction)",
+      "corrected_gloss_he": "כִּי (מִפְּנֵי שֶׁ-)",
+      "evidence": "תהלים צא:יד — 'אשגבהו כי ידע שמי' = 'I will set him on high, because he has known My name'; embedded Hebrew כי, not Arabic suffix -ī"
+    },
+    {
+      "surface": "לבך",
+      "entry_id": "bi-with",
+      "verdict": "hebrew_quote",
+      "confidence": "high",
+      "corrected_pos": "Hebrew quote",
+      "target_root": "—",
+      "corrected_gloss_en": "your heart (Hebrew lev + -kha)",
+      "corrected_gloss_he": "לִבְּךָ (לֵב + כ' חבור)",
+      "evidence": "שיר השירים ח:ו — 'שימני כחותם על לבך' = 'Set me as a seal upon your heart'; embedded Hebrew לבך, not Arabic prep bi-"
+    },
+    {
+      "surface": "מאדך",
+      "entry_id": "adv-b-r1-630-2",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "דברים ו:ה — 'ובכל מאדך' = 'with all your might'; correctly tagged as embedded Hebrew quote"
+    },
+    {
+      "surface": "פאקול",
+      "entry_id": "qala",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'פאקול' = 'I say'; fa-aqūl 1cs impf, variant of base qāla q-w-l"
+    },
+    {
+      "surface": "פנקול",
+      "entry_id": "qala",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'פנקול' = 'So we say'; fa-naqūl 1cp impf, variant of base qāla q-w-l"
+    },
+    {
+      "surface": "קאלוא",
+      "entry_id": "qala",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'קאלוא אואילנא' = 'our early sages said'; qālū 3mp perfect, variant of base qāla q-w-l"
+    },
+    {
+      "surface": "קלת",
+      "entry_id": "qala",
+      "verdict": "ok",
+      "confidence": "high",
+      "evidence": "'ולד'לך קלת' = 'That is why I said'; qultu 1cs perfect, variant of base qāla q-w-l"
+    }
+  ]
+}

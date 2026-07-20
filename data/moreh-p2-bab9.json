@@ -1,0 +1,106 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part II, Chapter 9 — The Number of Spheres and the Four Starry Spheres",
+  "section_ja": "אלג׳ז אלת׳אני · אלפצל אלתאסע",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "The exact number of spheres was unsettled in Aristotle's time. The rabbinic opinion of 'two heavens' (Deut. 10:14) is consistent with one school that counts all star-bearing spheres as one and the starless encompassing sphere as the second. Maimonides then introduces a preliminary note essential to his forthcoming argument: the ancient astronomers placed Venus and Mercury above the sun, giving four star-bearing spheres below the starless encompassing sphere. Ptolemy reversed this, and later Andalusian astronomers debated the question. Maimonides signals that this number — four star-bearing spheres plus one empty sphere above them — unlocks an important idea he has not seen any philosopher state explicitly.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "Segmentation follows Sefaria.",
+    "segments": 3
+  },
+  "terms": [
+    {
+      "id": "falak-muhit",
+      "ja": "אלפלך אלמחיט",
+      "ar": "الفلك المحيط",
+      "translit": "al-falak al-muḥīṭ",
+      "gloss": "the all-encompassing sphere",
+      "note": "The outermost sphere, which contains no star. In the ancient arrangement it is counted separately from the four star-bearing spheres below it.",
+      "variants": ["אלפלך אלמחיט באלכל"]
+    },
+    {
+      "id": "shnei-rqiim",
+      "ja": "שני רקיעים",
+      "ar": null,
+      "translit": "shnei rqīʿīm",
+      "gloss": "two heavens",
+      "note": "The rabbinic interpretation of Deut. 10:14 ('heaven and the heaven of heavens'): they count all star-bearing spheres as one and the empty encompassing sphere as the second.",
+      "variants": []
+    },
+    {
+      "id": "ptolemy",
+      "ja": "בטלמיוס",
+      "ar": "بطليموس",
+      "translit": "Baṭlamyūs",
+      "gloss": "Ptolemy",
+      "note": "The astronomer who revised the ancient arrangement and placed Venus and Mercury below the sun, putting the sun in the middle.",
+      "variants": []
+    },
+    {
+      "id": "arba-akurim",
+      "ja": "ארבע אכר",
+      "ar": "أربعة أفلاك",
+      "translit": "arbaʿ akar",
+      "gloss": "four star-bearing spheres",
+      "note": "According to the ancient arrangement: fixed stars, five planets, sun, moon — four spheres each containing stars. Above them one empty sphere. This number is key to Maimonides' forthcoming argument.",
+      "variants": []
+    },
+    {
+      "id": "ibn-tufayl",
+      "ja": "אבו בכר אבן אלצאיג",
+      "ar": "أبو بكر ابن الصائغ",
+      "translit": "Abū Bakr ibn al-Ṣāʾigh",
+      "gloss": "Ibn Bājja (Avempace)",
+      "note": "Andalusian philosopher-scientist (d. 1138) who offered arguments against Venus and Mercury being above the sun. Maimonides studied under one of his pupils.",
+      "variants": ["אבן אפלח"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": 1,
+      "aligned": [
+        {
+          "ja": "אלג׳ז אלת׳אני · אלפצל אלתאסע",
+          "en": "Part Two · Chapter Nine — The Number of Spheres and the Four Starry Spheres",
+          "isHeader": true
+        },
+        {
+          "ja": "קד בינא לך אן עדד אלאפלאך לם יתחרר פי זמאן ארסטו ואן אלד׳ין עדוא אלאפלאך פי זמאננא תסעה אנמא עדוא אלכרה אלואחדה אלמשתמלה עלי עדהֵ אפלאך כמא יבין למן נט׳ר פי עלם אלהיאה. פלד׳לך לא תסתשנע איצ׳א קול בעץ׳ אלחכמים ז׳׳ל שני רקיעים הם שנאמר הן לי׳׳י אלהיך השמים ושמי השמים לאן קאיל הד׳א אלקול עד כרהֵ אלכואכב כלהא כרה ואחדה אעני אלאפלאך אלתי פיהא כואכב ועד כרהֵ אלפלך אלמחיט אלד׳י לא כוכב פיה כרה ת׳אניה פקאל שני רקיעים הם.",
+          "en": "WE have stated above that in the age of Aristotle the number of spheres was not accurately known: and that those who at present count nine spheres consider a sphere containing several rotating circles as one, a fact well known to all who have a knowledge of astronomy. We need, therefore, not reject the opinion of those who assume two spheres in accordance with the words of Scripture: \"Behold the heaven and the heaven of heavens are the Lord's\" (Deut. 10:14). They reckon all the spheres with stars, i.e., with all the circles in which the stars move, as one: the all-encompassing sphere in which there are no stars, is regarded by them as the second: hence they maintain that there are two spheres.",
+          "pairs": [
+            { "ja": "עדד אלאפלאך לם יתחרר פי זמאן ארסטו", "en": "in the age of Aristotle the number of spheres was not accurately known" },
+            { "ja": "אלד׳ין עדוא אלאפלאך פי זמאננא תסעה אנמא עדוא אלכרה אלואחדה אלמשתמלה עלי עדהֵ אפלאך", "en": "those who at present count nine spheres consider a sphere containing several rotating circles as one" },
+            { "ja": "לאן קאיל הד׳א אלקול עד כרהֵ אלכואכב כלהא כרה ואחדה", "en": "They reckon all the spheres with stars, i.e., with all the circles in which the stars move, as one" },
+            { "ja": "ועד כרהֵ אלפלך אלמחיט אלד׳י לא כוכב פיה כרה ת׳אניה פקאל שני רקיעים הם.", "en": "the all-encompassing sphere in which there are no stars, is regarded by them as the second: hence they maintain that there are two spheres." }
+          ]
+        },
+        {
+          "ja": "ואנא אקדם לך מקדמה יחתאג׳ אליהא פי גרץ׳ קצדתה פי הד׳א אלפצל והי הד׳ה.",
+          "en": "I will here introduce an explanation which is necessary for the understanding of our view on the present subject.",
+          "pairs": [
+            { "ja": "ואנא אקדם לך מקדמה יחתאג׳ אליהא פי גרץ׳ קצדתה פי הד׳א אלפצל", "en": "I will here introduce an explanation which is necessary for the understanding of our view on the present subject" }
+          ]
+        },
+        {
+          "ja": "אעלם אן פלך אלזהרה ועטארד מכ׳תלף פיהמא בין אלאואיל מן אהל אלתעאלים הל המא פוק אלשמס או תחת אלשמס לאן ליס ת׳ם ברהאן דלנא עלי רתבהֵ האתין אלכרתין וכאן מד׳הב אלאקדמין כלהם אן כרתי אלזהרה ועטארד פוק אלשמס פאעלם הד׳א וחצלה ג׳דא. ת׳ם ג׳א בטלמיוס ורג׳ח כונהמא תחת וקאל אנה אלאשבה באלאמר אלטביעי אן תכון אלשמס פי אלוסט ות׳לת׳ה כואכב פוקהא ות׳לת׳ה תחתהא. ת׳ם ג׳אוא אקואם מתאכ׳רון פי אלאנדלס מהרוא פי אלתעאלים ג׳דא ובינוא בחסב מקדמאת בטלמיוס אן אלזהרה ועטארד פוק אלשמס. וקד אלף פי ד׳לך אבן אפלח אלאשבילי אלד׳י אג׳תמעת בולדה כתאבא משהורא ת׳ם תאמל הד׳א אלמעני אלפילסוף אלפאצ׳ל אבו בכר אבן אלצאיג אלד׳י קראת עלי אחד תלאמיד׳ה ואט׳הר וג׳וה אסתדלאל קד נסכ׳נאהא ענה יבעד בהא אן תכון אלזהרה ועטארד פוק אלשמס לכן ד׳לך אלד׳י ד׳כרה אבו בכר הו דליל אסתבעאד ד׳לך לא דליל מנעה. ובאלג׳מלה כאן אלאמר כד׳לך או לם יכן פאן אלאואיל כלהם כאנוא ירתבון אלזהרה ועטארד פוק אלשמס פלד׳לך כאנוא יעדון אלאכר כ׳מסא כרהֵ אלקמר אלתי תלינא בלא שך וכרהֵ אלשמס אלתי הי פוקהא צ׳רורה וכרהֵ אלכ׳מסה כואכב אלמתחירה וכרהֵ אלכואכב אלת׳אבתה ואלפלך אלמחיט באלכל אלד׳י לא כוכב פיה פתכון עדד אלאכר אלמצורה אעני כראת אלצור אלתי פיהא כואכב לאן הכד׳א כאנוא אלאקדמון יסמון אלכואכב צורא כמא הו משהור פי כתבהם יכון עדדהא ארבע אכר כרהֵ אלכואכב אלת׳אבתה וכרהֵ אלכואכב אלמתחירה אלכ׳מסה וכרהֵ אלשמס וכרהֵ אלקמר ופוקהא כלהא פלך ואחד אג׳רד לא כוכב פיה. והד׳א אלעדד הו ענדי אצל עט׳ים ג׳דא למעני כ׳טר בבאלי לם ארה לאחד מן אלפלאספה בביאן לכני וג׳דת פי אקאויל אלפלאספה וכלאם אלחכמים מא נבהני עליה והאנא אד׳כרה פי הד׳א אלפצל ואבין אלמעני:",
+          "en": "There is a difference among ancient astronomers whether the spheres of Mercury and Venus are above or below the sun, because no proof can be given for the position of these two spheres. At first it was generally assumed that they were above the sun—note this well; later on Ptolemy maintained that they were below the sun; because he believed that in this manner the whole arrangement of the spheres would be most reasonable; the sun would be in the middle, having three stars below and three above itself. More recently some Andalusian scholars concluded, from certain principles laid down by Ptolemy, that Venus and Mercury were above the sun. Ibn Aflaḥ of Seville, with whose son I was acquainted, has written a famous book on the subject; also the excellent philosopher Abu-Bekr ibn-Alẓaig, one of whose pupils was my fellow-student, has treated of this subject and offered certain proofs—which we have copied—of the improbability of Venus and Mercury being above the sun. The proofs given by Abu-Bekr show only the improbability, not the impossibility. In short, whether it be so or not, the ancients placed Venus and Mercury above the sun, and had, therefore, the following five spheres: that of the moon, which is undoubtedly the nearest to us; that of the sun, which is, of course, above the former; then that of the five planets, the sphere of the fixed stars, and the outermost sphere, which does not contain any star. Consequently there are four spheres containing figures, i.e., stars, which were called figures by the ancients in their well-known works—viz., the spheres of the fixed stars, of the five planets, of the sun, and of the moon; above these there is one sphere which is empty, without any star. This number is for me of great importance in respect to an idea which none of the philosophers clearly stated, though I was led to it by various utterances of the philosophers and of our Sages. I will now state the idea and expound it.",
+          "pairs": [
+            { "ja": "אן פלך אלזהרה ועטארד מכ׳תלף פיהמא בין אלאואיל מן אהל אלתעאלים הל המא פוק אלשמס או תחת אלשמס", "en": "There is a difference among ancient astronomers whether the spheres of Mercury and Venus are above or below the sun" },
+            { "ja": "וכאן מד׳הב אלאקדמין כלהם אן כרתי אלזהרה ועטארד פוק אלשמס", "en": "At first it was generally assumed that they were above the sun" },
+            { "ja": "ת׳ם ג׳א בטלמיוס ורג׳ח כונהמא תחת", "en": "later on Ptolemy maintained that they were below the sun" },
+            { "ja": "אן תכון אלשמס פי אלוסט ות׳לת׳ה כואכב פוקהא ות׳לת׳ה תחתהא", "en": "the sun would be in the middle, having three stars below and three above itself" },
+            { "ja": "אבן אפלח אלאשבילי אלד׳י אג׳תמעת בולדה כתאבא משהורא", "en": "Ibn Aflaḥ of Seville, with whose son I was acquainted, has written a famous book on the subject" },
+            { "ja": "אבו בכר אבן אלצאיג אלד׳י קראת עלי אחד תלאמיד׳ה", "en": "Abu-Bekr ibn-Alẓaig, one of whose pupils was my fellow-student" },
+            { "ja": "יכון עדדהא ארבע אכר כרהֵ אלכואכב אלת׳אבתה וכרהֵ אלכואכב אלמתחירה אלכ׳מסה וכרהֵ אלשמס וכרהֵ אלקמר", "en": "there are four spheres containing figures, i.e., stars, which were called figures by the ancients" },
+            { "ja": "ופוקהא כלהא פלך ואחד אג׳רד לא כוכב פיה", "en": "above these there is one sphere which is empty, without any star" },
+            { "ja": "והד׳א אלעדד הו ענדי אצל עט׳ים ג׳דא למעני כ׳טר בבאלי לם ארה לאחד מן אלפלאספה בביאן", "en": "This number is for me of great importance in respect to an idea which none of the philosophers clearly stated" },
+            { "ja": "וג׳דת פי אקאויל אלפלאספה וכלאם אלחכמים מא נבהני עליה", "en": "I was led to it by various utterances of the philosophers and of our Sages" }
+          ]
+        }
+      ]
+    }
+  ]
+}

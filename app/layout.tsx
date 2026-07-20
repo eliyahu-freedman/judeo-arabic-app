@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Lora, Noto_Serif_Hebrew, Amiri } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import AuthButton from "@/components/AuthButtonWrapper";
 import "./globals.css";
 
 const lora = Lora({
@@ -163,6 +165,20 @@ export default function RootLayout({
                   </svg>
                 </span>
               </form>
+
+              <div className="flex items-center gap-3">
+                {process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK && (
+                  <a
+                    href={process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-sm bg-wine px-3 py-1.5 text-sm font-medium text-parchment hover:bg-wine-700 transition-colors"
+                  >
+                    Support
+                  </a>
+                )}
+                <AuthButton />
+              </div>
             </div>
 
             {/* Mobile/tablet: no-JS disclosure menu (keeps layout a server
@@ -208,39 +224,57 @@ export default function RootLayout({
                     className="w-full rounded-sm border border-ink/15 bg-page px-3 py-2 text-sm text-ink placeholder:text-ink/40 focus:border-wine focus:outline-none focus:ring-1 focus:ring-wine/30"
                   />
                 </form>
+                <div className="mt-2 flex items-center justify-between border-t border-ink/10 px-1 pt-3">
+                  {process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK ? (
+                    <a
+                      href={process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-sm bg-wine px-3 py-1.5 text-sm font-medium text-parchment hover:bg-wine-700 transition-colors"
+                    >
+                      Support
+                    </a>
+                  ) : (
+                    <span />
+                  )}
+                  <AuthButton />
+                </div>
               </div>
             </details>
           </nav>
         </header>
         <main className="flex-1">{children}</main>
+        <Analytics />
         <footer className="border-t border-ink/10 mt-12 bg-page/40">
           <div className="max-w-5xl mx-auto px-6 py-10">
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-sm">
               <div>
-                <div className="label mb-3">Learn</div>
+                <div className="label mb-3">I · Foundations</div>
                 <ul className="space-y-2 text-ink/75">
-                  <li><Link href="/foundations" className="hover:text-wine">Foundations</Link></li>
+                  <li><Link href="/foundations" className="hover:text-wine">The path</Link></li>
                   <li><Link href="/alphabet" className="hover:text-wine">Alphabet</Link></li>
                   <li><Link href="/learn/cognates" className="hover:text-wine">Hebrew–Arabic cognates</Link></li>
+                  <li><Link href="/learn/first-50" className="hover:text-wine">First 50 words</Link></li>
                   <li><Link href="/learn" className="hover:text-wine">All lessons</Link></li>
                 </ul>
               </div>
               <div>
-                <div className="label mb-3">Read</div>
+                <div className="label mb-3">II · Tafsir</div>
                 <ul className="space-y-2 text-ink/75">
                   <li><Link href="/tafsir" className="hover:text-wine">Saadia&apos;s Tafsir</Link></li>
-                  <li><Link href="/advanced" className="hover:text-wine">The Library</Link></li>
                   <li><Link href="/learn/saadia-preface" className="hover:text-wine">Saadia&apos;s preface</Link></li>
+                  <li><Link href="/learn/saadia-story" className="hover:text-wine">Who was Saadia?</Link></li>
                   <li><Link href="/review" className="hover:text-wine">Daily review</Link></li>
                 </ul>
               </div>
               <div>
-                <div className="label mb-3">Reference</div>
+                <div className="label mb-3">III · Library</div>
                 <ul className="space-y-2 text-ink/75">
+                  <li><Link href="/advanced" className="hover:text-wine">The Library</Link></li>
                   <li><Link href="/lexicon" className="hover:text-wine">Lexicon</Link></li>
-                  <li><Link href="/about" className="hover:text-wine">Methodology &amp; sources</Link></li>
                   <li><Link href="/what-is-judeo-arabic" className="hover:text-wine">What is Judeo-Arabic?</Link></li>
                   <li><Link href="/resources" className="hover:text-wine">Resources</Link></li>
+                  <li><Link href="/about" className="hover:text-wine">About</Link></li>
                 </ul>
               </div>
               <div>
@@ -251,7 +285,6 @@ export default function RootLayout({
                       freedmaneli@gmail.com
                     </a>
                   </li>
-                  <li><Link href="/learn/saadia-story" className="hover:text-wine">Who was Saadia?</Link></li>
                 </ul>
               </div>
             </div>

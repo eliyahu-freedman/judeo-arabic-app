@@ -1,0 +1,146 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 57 — God's Existence Is Identical with His Essence",
+  "section_ja": "אלג'ז אלאול · אלפצל חמשים ושבעה",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 57 deepens the argument of chapter 56 by examining one specific predicate — 'existence' (wujūd). In every contingent being, existence is an accident added to essence: the thing's quiddity does not entail its being. Only in God — the necessarily existent — are existence and essence one and the same: He is not a 'what' that happens to exist; His 'what' just is His being.\n\nFrom this identity Maimonides draws two corollaries. First, the attributes 'living,' 'powerful,' 'knowing,' and 'willing' all reduce to a single reality with no multiplicity: 'He is powerful not through power, living not through life.' Second, even the concepts 'one' and 'eternal' (qadīm) are technically improper when applied to God, because unity is a predicate of quantity and eternity involves a temporal relation — but language is too narrow for full precision, so we permit these terms as necessary approximations. The chapter thus prepares for the central argument of I:58 — that all positive attribute-discourse ultimately introduces hidden multiplicity.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 8
+  },
+  "terms": [
+    {
+      "id": "wājib-al-wujūd",
+      "ja": "ואג'ב אלוג'וד",
+      "ar": "واجب الوجود",
+      "translit": "wājib al-wujūd",
+      "gloss": "the Necessarily Existent",
+      "note": "The technical Avicennan term for God: the being whose non-existence is impossible, and in whom existence is not an accident added to essence but identical with it.",
+      "variants": ["ואג'ב אלוג'וד", "וג'ובה"]
+    },
+    {
+      "id": "wujūd-dhāt",
+      "ja": "וג'ודה ד'אתה",
+      "ar": "وجوده ذاته",
+      "translit": "wujūduhu dhātuhu",
+      "gloss": "His existence is His essence",
+      "note": "The identity of wujūd and dhāt in God: for all other beings existence is an added attribute; in God the two are one.",
+      "variants": ["ד'אתה וג'ודה"]
+    },
+    {
+      "id": "qadīm",
+      "ja": "קדים",
+      "ar": "قديم",
+      "translit": "qadīm",
+      "gloss": "eternal / pre-existent",
+      "note": "Technically a relational term involving time, and therefore improper for God — but permitted as a necessary linguistic approximation to negate God's having come-to-be.",
+      "variants": ["אלקדם"]
+    },
+    {
+      "id": "wāhid-lā-bi-waḥda",
+      "ja": "ואחד לא בוחדה",
+      "ar": "واحد لا بوحدة",
+      "translit": "wāḥid lā bi-waḥda",
+      "gloss": "one, not through oneness",
+      "note": "Maimonides' precise formulation: unity is a quantity-predicate that cannot be added to God's essence; He is one, but not by possessing the attribute 'unity.'",
+      "variants": ["לא בוחדה"]
+    },
+    {
+      "id": "bisāṭa",
+      "ja": "בסיט",
+      "ar": "بسيط",
+      "translit": "basīṭ",
+      "gloss": "absolutely simple",
+      "note": "The Aristotelian/Neoplatonic attribute of having no composition whatsoever — no matter/form, subject/attribute, genus/differentia. God is 'simple in the extreme of simplicity.'",
+      "variants": ["בסאטה", "אלבסאטה אלמחצ'ה"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל חמשים ושבעה",
+          "en": "Part One · Chapter Fifty-Seven — God's Existence Is Identical with His Essence",
+          "isHeader": true
+        },
+        {
+          "ja": "פי אלצפאת אגמץ' ממא תקדם.",
+          "en": "Concerning the attributes — more subtle than what preceded.",
+          "pairs": [
+            { "ja": "פי אלצפאת אגמץ' ממא תקדם", "en": "Concerning the attributes — more subtle than what preceded" }
+          ]
+        },
+        {
+          "ja": "מעלום אן אלוג'וד הו עארץ' ערץ' ללמוג'וד פלד'לך הו מעני זאיד עלי מאהיהֵ אלמוג'וד. הד'א הו אלאמר אלבין אלואג'ב פי כל מא לוג'ודה סבב פאן וג'ודה מעני זאיד עלי מאהיתה. ואמא מא לא סבב לוג'ודה והו אללה עז וג'ל וחדה לאן הד'א הו מעני קולנא ענה תעאלי אנה ואג'ב אלוג'וד פאן וג'ודה ד'אתה וחקיקתה וד'אתה וג'ודה וליסת הי ד'את ערץ' להא אן וג'דת פיכון וג'ודהא מעני זאידא עליהא אד' הו ואג'ב אלוג'וד דאימא לא טאריא עליה ולא עארצ'א ערץ' לה פאד'א הו מוג'וד לא בוג'וד וכד'לך חי לא בחיאה וקאדר לא בקדרה ועאלם לא בעלם בל אלכל ראג'ע למעני ואחד לא תכת'יר פיה כמא סיבין.",
+          "en": "It is known that existence is an accident that accrues to the existent; therefore it is a meaning additional to the quiddity of the existent. This is the self-evident and necessary proposition for everything whose existence has a cause — its existence is a meaning additional to its quiddity. But as for that which has no cause for its existence — and that is God, mighty and exalted, alone; for this is the meaning of our saying of Him, exalted be He, that He is the Necessarily Existent — His existence is His essence and His reality, and His essence is His existence. It is not an essence to which existence accrues as an accident, such that when it is found, its existence becomes a meaning additional to it; for He is the Necessarily Existent always — nothing supervenes upon Him and no accident befalls Him. Therefore He is existent not through existence; and likewise, living not through life; and powerful not through power; and knowing not through knowledge — but all of it reverts to a single meaning, with no multiplicity in it, as will be explained.",
+          "pairs": [
+            { "ja": "אלוג'וד הו עארץ' ערץ' ללמוג'וד פלד'לך הו מעני זאיד עלי מאהיהֵ אלמוג'וד", "en": "existence is an accident that accrues to the existent; therefore it is a meaning additional to the quiddity of the existent" },
+            { "ja": "כל מא לוג'ודה סבב פאן וג'ודה מעני זאיד עלי מאהיתה", "en": "everything whose existence has a cause — its existence is a meaning additional to its quiddity" },
+            { "ja": "מא לא סבב לוג'ודה והו אללה עז וג'ל וחדה", "en": "that which has no cause for its existence — and that is God, mighty and exalted, alone" },
+            { "ja": "אנה ואג'ב אלוג'וד פאן וג'ודה ד'אתה וחקיקתה", "en": "He is the Necessarily Existent — His existence is His essence and His reality" },
+            { "ja": "הו מוג'וד לא בוג'וד וכד'לך חי לא בחיאה וקאדר לא בקדרה ועאלם לא בעלם", "en": "He is existent not through existence; and likewise, living not through life; and powerful not through power; and knowing not through knowledge" },
+            { "ja": "אלכל ראג'ע למעני ואחד לא תכת'יר פיה", "en": "all of it reverts to a single meaning, with no multiplicity in it" }
+          ]
+        },
+        {
+          "ja": "וממא יג'ב אן יעלם איצ'א אן אלוחדה ואלכת'רה עוארץ' ערצ'ת ללמוג'וד מן חית' הו כת'יר או ואחד קד בין ד'לך פי מא בעד אלטביעה. וכמא אן אלעדד ליס הו נפס אלמעדודאת כד'לך ליס אלוחדה נפס אלשי אלמתוחד אד' הד'ה כלהא אעראץ' מן ג'נס אלכם אלמנפצל תלחק אלמוג'ודאת אלמסתעדה לקבול מת'ל הד'ה אלאעראץ'",
+          "en": "It is also necessary to know that oneness and multiplicity are accidents that befall the existent insofar as it is multiple or one — as has been explained in the Metaphysics. And just as number is not the numbered things themselves, so too oneness is not the same as the unified thing itself; for all of these are accidents of the genus of discrete quantity that befall existents capable of receiving such accidents.",
+          "pairs": [
+            { "ja": "אלוחדה ואלכת'רה עוארץ' ערצ'ת ללמוג'וד מן חית' הו כת'יר או ואחד", "en": "oneness and multiplicity are accidents that befall the existent insofar as it is multiple or one" },
+            { "ja": "כמא אן אלעדד ליס הו נפס אלמעדודאת כד'לך ליס אלוחדה נפס אלשי אלמתוחד", "en": "just as number is not the numbered things themselves, so too oneness is not the same as the unified thing itself" },
+            { "ja": "הד'ה כלהא אעראץ' מן ג'נס אלכם אלמנפצל", "en": "all of these are accidents of the genus of discrete quantity" }
+          ]
+        },
+        {
+          "ja": "אמא אלואג'ב אלוג'וד אלבסיט באלחקיקה אלד'י לא ילחקה תרכיב אצלא פכמא יסתחיל עליה ערץ' אלכת'רה כד'לך יסתחיל עליה ערץ' אלוחדה אעני אן ליס אלוחדה מעני זאידא עלי ד'אתה בל הו ואחד לא בוחדה.",
+          "en": "But the Necessarily Existent — who is truly simple and who admits of no composition whatsoever — just as the accident of multiplicity is impossible for Him, so too the accident of oneness is impossible for Him. I mean: oneness is not a meaning additional to His essence; rather, He is one, not through oneness.",
+          "pairs": [
+            { "ja": "אלואג'ב אלוג'וד אלבסיט באלחקיקה אלד'י לא ילחקה תרכיב אצלא", "en": "the Necessarily Existent — who is truly simple and who admits of no composition whatsoever" },
+            { "ja": "כמא יסתחיל עליה ערץ' אלכת'רה כד'לך יסתחיל עליה ערץ' אלוחדה", "en": "just as the accident of multiplicity is impossible for Him, so too the accident of oneness is impossible for Him" },
+            { "ja": "ליס אלוחדה מעני זאידא עלי ד'אתה בל הו ואחד לא בוחדה", "en": "oneness is not a meaning additional to His essence; rather, He is one, not through oneness" }
+          ]
+        },
+        {
+          "ja": "ולא תעתבר הד'ה אלמעאני אלדקיקה אלתי יכאד תפות אלאד'האן באלאלפאט' אלמעתאדה אלתי הי אכבר סבב פי אלתגליט לאן תצ'יק בנא אלעבארה ג'דא ג'דא פי כל לגה חתי לא נתצור ד'לך אלמעני אלא בתסאמח פי אלעבארה. פלמא רמנא אלדלאלה עלי כון אלאלאה לא כת'ירא לם יקדר אלקאיל יקול אלא ואחד ואן כאן אלואחד ואלכת'יר מן פצול אלכם פלד'לך נלכ'ץ אלמעני ונרשד אלד'הן לחקיקהֵ אלאמר בקולנא ואחד לא בוחדה",
+          "en": "Do not assess these subtle meanings — which minds almost fail to grasp — by the conventional words, which are the greatest cause of error; for our expression is exceedingly narrow in every language, such that we cannot conceive that meaning except by a concession in expression. Therefore, when we wish to indicate that the Deity is not multiple, the speaker can only say 'one' — even though 'one' and 'multiple' are species of quantity. For that reason we compress the meaning and guide the mind to the reality of the matter by saying: one, not through oneness.",
+          "pairs": [
+            { "ja": "לא תעתבר הד'ה אלמעאני אלדקיקה אלתי יכאד תפות אלאד'האן", "en": "Do not assess these subtle meanings — which minds almost fail to grasp" },
+            { "ja": "תצ'יק בנא אלעבארה ג'דא ג'דא פי כל לגה", "en": "our expression is exceedingly narrow in every language" },
+            { "ja": "נלכ'ץ אלמעני ונרשד אלד'הן לחקיקהֵ אלאמר בקולנא ואחד לא בוחדה", "en": "we compress the meaning and guide the mind to the reality of the matter by saying: one, not through oneness" }
+          ]
+        },
+        {
+          "ja": "כמא נקול קדים ללדלאלה עלי אנה גיר חאדת' ופי קולנא קדים מן אלתסאמח מא הו בין ט'אהר אד' אלקדים אנמא יקאל למא ילחקה אלזמאן אלד'י הו ערץ' ללחרכה אלתאבעה ללג'סם והו איצ'א מן באב אלמצ'אף לאן קולך אלקדים פי ערץ' אלזמאן כקולך אלטויל ואלקציר פי ערץ' אלכ'ט וכל מא לא ילחקה ערץ' אלזמאן פלא יקאל פיה באלחקיקה לא קדים ולא חאדת' כמא לא יקאל פי אלחלאוה לא מעוג'ה ולא מסתקימה ולא יקאל פי אלצות לא מאלח ולא תפה.",
+          "en": "Just as we say 'eternal' to indicate that He is not originated — and in our saying 'eternal' there is a concession that is manifestly apparent, since 'eternal' is only said of that to which time applies, and time is an accident of motion which follows body; and it too belongs to the category of relatives, for to say 'eternal' with respect to the accident of time is like saying 'long' or 'short' with respect to the accident of line. And anything to which the accident of time does not apply — of it, strictly speaking, neither 'eternal' nor 'originated' is said; just as of sweetness one does not say 'curved' or 'straight'; and of a sound one does not say 'salty' or 'tasteless.'",
+          "pairs": [
+            { "ja": "נקול קדים ללדלאלה עלי אנה גיר חאדת'", "en": "we say 'eternal' to indicate that He is not originated" },
+            { "ja": "אלקדים אנמא יקאל למא ילחקה אלזמאן", "en": "'eternal' is only said of that to which time applies" },
+            { "ja": "וכל מא לא ילחקה ערץ' אלזמאן פלא יקאל פיה באלחקיקה לא קדים ולא חאדת'", "en": "anything to which the accident of time does not apply — of it, strictly speaking, neither 'eternal' nor 'originated' is said" }
+          ]
+        },
+        {
+          "ja": "והד'ה אלאשיא לא כ'פא בהא עלי מן ארתאץ' פי פהם אלמעאני עלי חקאיקהא ואעתברהא באדראך אלעקל להא ותג'רידה איאהא לא באלתג'מל אלד'י תדל עליה אלאלפאט' פכל מא תג'דה פי אלכתב מן וצפה תעאלי ראשון ואחרון פהו מת'ל וצפה תעאלי באלעין ואלאד'ן ואלקצד בד'לך אנה תעאלי לא ילחקה תגיר ולא יתג'דד לה מעני בוג'ה לא אנה תעאלי ואקע תחת אלזמאן פתחצל מקאיסהֵ מא בינה ובין גירה ממא פי זמאן פיכון ראשון ואחרון ואנמא הד'ה אלאלפאט' כלהא כלשון בני אדם",
+          "en": "These matters are not hidden from one who has trained himself to understand meanings in their true reality, considering them through intellectual apprehension and abstraction — not through the embellishment indicated by words. Therefore, everything you find in the books describing Him, exalted be He, as 'first' and 'last' is like describing Him with 'eye' and 'ear' — the intent being that no change befalls Him, exalted be He, and no meaning is ever renewed for Him in any way whatsoever; not that He, exalted be He, falls under time, such that a comparison could be drawn between Him and other things that are in time, making Him 'first' and 'last.' All these expressions are only the language of human beings.",
+          "pairs": [
+            { "ja": "מן ארתאץ' פי פהם אלמעאני עלי חקאיקהא ואעתברהא באדראך אלעקל", "en": "one who has trained himself to understand meanings in their true reality, considering them through intellectual apprehension" },
+            { "ja": "כל מא תג'דה פי אלכתב מן וצפה תעאלי ראשון ואחרון", "en": "everything you find in the books describing Him, exalted be He, as 'first' and 'last'" },
+            { "ja": "אנה תעאלי לא ילחקה תגיר ולא יתג'דד לה מעני בוג'ה", "en": "no change befalls Him, exalted be He, and no meaning is ever renewed for Him in any way whatsoever" },
+            { "ja": "ואנמא הד'ה אלאלפאט' כלהא כלשון בני אדם", "en": "All these expressions are only the language of human beings" }
+          ]
+        },
+        {
+          "ja": "כד'לך קולנא אחד מענאה אנה לא נד לה לא אן מעני אלוחדאניה לאחק לד'אתה:",
+          "en": "Likewise our saying 'one' means that He has no peer — not that the meaning of oneness accrues to His essence.",
+          "pairs": [
+            { "ja": "קולנא אחד מענאה אנה לא נד לה", "en": "our saying 'one' means that He has no peer" },
+            { "ja": "לא אן מעני אלוחדאניה לאחק לד'אתה", "en": "not that the meaning of oneness accrues to His essence" }
+          ]
+        }
+      ]
+    }
+  ]
+}

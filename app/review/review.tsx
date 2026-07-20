@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Rating, type Grade } from "ts-fsrs";
+import { useAuth } from "@/lib/useAuth";
 import { type Entry } from "@/lib/lookup";
 import { resolveDeckItem, type DeckItem } from "@/lib/deck";
 import { useWordStates } from "@/lib/wordState";
@@ -101,15 +102,16 @@ function EmptyState({
   totalLearning: number;
   totalKnown: number;
 }) {
+  const { user, loading } = useAuth();
   return (
     <div className="rounded-md bg-page border border-ink/10 p-10 text-center">
       <p className="text-ink/80 text-lg leading-relaxed">
         {totalLearning === 0 ? (
           <>
             Nothing to review yet. Take a lesson and tap{" "}
-            <span className="text-amber-700 font-medium">＋ Review</span>, or open
+            <span className="text-wine font-medium">＋ Review</span>, or open
             a reader and mark a word{" "}
-            <span className="text-amber-700 font-medium">Learning</span>, to start
+            <span className="text-wine font-medium">Learning</span>, to start
             your queue.
           </>
         ) : (
@@ -121,6 +123,11 @@ function EmptyState({
       <p className="mt-6 text-xs uppercase tracking-[0.25em] text-muted">
         {totalLearning} in queue · {totalKnown} known
       </p>
+      {!loading && !user && (
+        <p className="mt-4 text-sm text-ink/55 italic">
+          Sign in to sync your queue across devices.
+        </p>
+      )}
       <div className="mt-8 flex gap-3 justify-center">
         <Link
           href="/learn"
@@ -243,25 +250,25 @@ function Card({
             <GradeButton
               label="Again"
               hint="Forgot"
-              color="bg-rose-700 hover:bg-rose-800"
+              color="bg-rose-900 hover:bg-rose-950"
               onClick={() => onGrade(Rating.Again)}
             />
             <GradeButton
               label="Hard"
               hint="Recalled with effort"
-              color="bg-amber-600 hover:bg-amber-700"
+              color="bg-stone-600 hover:bg-stone-700"
               onClick={() => onGrade(Rating.Hard)}
             />
             <GradeButton
               label="Good"
               hint="Recalled"
-              color="bg-emerald-700 hover:bg-emerald-800"
+              color="bg-emerald-900 hover:bg-emerald-950"
               onClick={() => onGrade(Rating.Good)}
             />
             <GradeButton
               label="Easy"
               hint="Trivial"
-              color="bg-sky-700 hover:bg-sky-800"
+              color="bg-ink hover:bg-ink/85"
               onClick={() => onGrade(Rating.Easy)}
             />
           </div>

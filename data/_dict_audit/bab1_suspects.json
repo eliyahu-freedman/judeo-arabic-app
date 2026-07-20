@@ -1,0 +1,7177 @@
+{
+  "bab": 1,
+  "suspects": [
+    {
+      "surface": "בנא",
+      "n_hits": 2,
+      "entry": {
+        "id": "bi-with",
+        "lemma_ja": "ב",
+        "lemma_ar": "بِـ",
+        "root": "—",
+        "pos": "preposition",
+        "gloss_en": "with, in, by, by means of, against — proclitic preposition (Hebrew בְּ, Arabic bi-); appears almost exclusively with pronominal suffixes",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פלא חאג'ה בנא",
+      "en_phrase": "we have no need",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "homograph",
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 6
+    },
+    {
+      "surface": "אלאפאת",
+      "n_hits": 2,
+      "entry": {
+        "id": "alf-thousand",
+        "lemma_ja": "אלף",
+        "lemma_ar": "أَلْف",
+        "root": "ʔ-l-f",
+        "pos": "numeral",
+        "gloss_en": "thousand (1,000); (pl. ālāf) thousands",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "מן אלאפאת",
+      "en_phrase": "from defects",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "homograph"
+      ],
+      "suspect_score": 5
+    },
+    {
+      "surface": "אלט'אהרה",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-45-16",
+        "lemma_ja": "ט'אהר",
+        "lemma_ar": "ظَاهِر",
+        "root": "ẓ-h-r",
+        "pos": "noun",
+        "gloss_en": "outer/visible aspect, exterior, that which is apparent",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 10,
+      "ever_single_pair": false,
+      "ja_phrase": "אלט'אהרה פי מפעולאתה",
+      "en_phrase": "manifest in His works",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "homograph"
+      ],
+      "suspect_score": 5
+    },
+    {
+      "surface": "ופקד",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1620-8",
+        "lemma_ja": "יפקד",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "\"Let the LORD, the God of the spirits of all flesh, appoint...\" (Num 27:16)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ופקד צ'יאה",
+      "en_phrase": "his light is lost",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "homograph"
+      ],
+      "suspect_score": 5
+    },
+    {
+      "surface": "חרכאת",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-q-harraka",
+        "lemma_ja": "חרך",
+        "lemma_ar": "حَرَّكَ",
+        "root": "ḥ-r-k",
+        "pos": "verb",
+        "gloss_en": "to move, stir, prompt, impel (ḥarrakanī = it prompted me)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "חרכאת ואפעאל ג'סמאניה",
+      "en_phrase": "is bodily motions and acts",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "homograph"
+      ],
+      "suspect_score": 5
+    },
+    {
+      "surface": "יטאלב",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-2070-7",
+        "lemma_ja": "טאלב",
+        "lemma_ar": "طَالَبَ",
+        "root": "ṭ-l-b",
+        "pos": "verb",
+        "gloss_en": "to demand, hold accountable (form III)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אד' ליס יטאלב אלאנסאן",
+      "en_phrase": "since a person is required",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "homograph"
+      ],
+      "suspect_score": 5
+    },
+    {
+      "surface": "נביין",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-315-44",
+        "lemma_ja": "נבי",
+        "lemma_ar": "نَبِيّ",
+        "root": "n-b-ʾ",
+        "pos": "noun",
+        "gloss_en": "prophet",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פינבגי אן נביין",
+      "en_phrase": "It behooves us, then, to demonstrate",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "homograph"
+      ],
+      "suspect_score": 5
+    },
+    {
+      "surface": "אלוחדה",
+      "n_hits": 1,
+      "entry": {
+        "id": "wahd-alone",
+        "lemma_ja": "וחד",
+        "lemma_ar": "وَحْد",
+        "root": "w-ḥ-d",
+        "pos": "noun (with suffix)",
+        "gloss_en": "(with pronominal suffix) alone, by oneself; -self alone",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 43,
+      "ever_single_pair": true,
+      "ja_phrase": "אלוחדה",
+      "en_phrase": "unity",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 4
+    },
+    {
+      "surface": "ואלוחדה",
+      "n_hits": 1,
+      "entry": {
+        "id": "wahd-alone",
+        "lemma_ja": "וחד",
+        "lemma_ar": "وَحْد",
+        "root": "w-ḥ-d",
+        "pos": "noun (with suffix)",
+        "gloss_en": "(with pronominal suffix) alone, by oneself; -self alone",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "אלכת'רה ואלוחדה",
+      "en_phrase": "of multiplicity and unity",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 4
+    },
+    {
+      "surface": "ואת",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-0-9",
+        "lemma_ja": "—ات",
+        "lemma_ar": "ـات",
+        "root": "—",
+        "pos": "particle",
+        "gloss_en": "feminine sound-plural suffix -āt (the surface ובאת here is rather Hebrew 'and you shall come', Deut 17:9)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "את הים ואת היבשה",
+      "en_phrase": "the sea and the dry land",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 4
+    },
+    {
+      "surface": "ודור",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1170-38",
+        "lemma_ja": "ידור",
+        "lemma_ar": "يَدُور",
+        "root": "d-w-r",
+        "pos": "verb",
+        "gloss_en": "it turns, revolves (3ms; here of a water-wheel)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "לדור ודור אמונתך",
+      "en_phrase": "Your faithfulness is to all generations",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 4
+    },
+    {
+      "surface": "ווחדה",
+      "n_hits": 1,
+      "entry": {
+        "id": "wahd-alone",
+        "lemma_ja": "וחד",
+        "lemma_ar": "وَحْد",
+        "root": "w-ḥ-d",
+        "pos": "noun (with suffix)",
+        "gloss_en": "(with pronominal suffix) alone, by oneself; -self alone",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "ולא כת'רה ווחדה",
+      "en_phrase": "nor multiplicity and unity",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 4
+    },
+    {
+      "surface": "ותצוירה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-765-13",
+        "lemma_ja": "תצויר",
+        "lemma_ar": "تَصْوِير",
+        "root": "ṣ-w-r",
+        "pos": "noun",
+        "gloss_en": "forming, picturing, imagining, representation (here + suffix -hu)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": true,
+      "ja_phrase": "ותצוירה",
+      "en_phrase": "to form an image of Him",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 4
+    },
+    {
+      "surface": "ותשכ'יצה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1755-28",
+        "lemma_ja": "תשכ'יץ",
+        "lemma_ar": "تَشْخِيص",
+        "root": "sh-kh-ṣ",
+        "pos": "noun",
+        "gloss_en": "giving concrete/personified form, individuation (here with suffix)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": true,
+      "ja_phrase": "ותשכ'יצה",
+      "en_phrase": "to give Him a likeness",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 4
+    },
+    {
+      "surface": "לדור",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1170-38",
+        "lemma_ja": "ידור",
+        "lemma_ar": "يَدُور",
+        "root": "d-w-r",
+        "pos": "verb",
+        "gloss_en": "it turns, revolves (3ms; here of a water-wheel)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "לדור ודור אמונתך",
+      "en_phrase": "Your faithfulness is to all generations",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 4
+    },
+    {
+      "surface": "פאלוחדה",
+      "n_hits": 1,
+      "entry": {
+        "id": "wahd-alone",
+        "lemma_ja": "וחד",
+        "lemma_ar": "وَحْد",
+        "root": "w-ḥ-d",
+        "pos": "noun (with suffix)",
+        "gloss_en": "(with pronominal suffix) alone, by oneself; -self alone",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פאלוחדה אלמחצ'ה",
+      "en_phrase": "So pure unity",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap",
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 4
+    },
+    {
+      "surface": "אג'זא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1260-13",
+        "lemma_ja": "ג'ז",
+        "lemma_ar": "جُزْء",
+        "root": "j-z-ʾ",
+        "pos": "noun",
+        "gloss_en": "part, portion, particular",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 10,
+      "ever_single_pair": false,
+      "ja_phrase": "פי אג'זא אלעאלם",
+      "en_phrase": "among the parts of the world",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אואילנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-0-39",
+        "lemma_ja": "אואיל",
+        "lemma_ar": "أَوَائِل",
+        "root": "ʾ-w-l",
+        "pos": "noun",
+        "gloss_en": "predecessors, the first/early ones (pl. of awwal)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "אלא אן אואילנא",
+      "en_phrase": "Yet our forebears",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אומר",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-225-38",
+        "lemma_ja": "האומר",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "He who commands — from \"who commandeth the sun, and it riseth not\"",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "מה אומר אליהם",
+      "en_phrase": "what shall I say to them",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אחדהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "wahid",
+        "lemma_ja": "אחד",
+        "lemma_ar": "واحد",
+        "root": "w-ḥ-d",
+        "pos": "numeral (m.)",
+        "gloss_en": "one",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 8,
+      "ever_single_pair": true,
+      "ja_phrase": "אחדהא",
+      "en_phrase": "The first of them",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אחדהמא",
+      "n_hits": 1,
+      "entry": {
+        "id": "wahid",
+        "lemma_ja": "אחד",
+        "lemma_ar": "واحد",
+        "root": "w-ḥ-d",
+        "pos": "numeral (m.)",
+        "gloss_en": "one",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "אחדהמא ערצ'י",
+      "en_phrase": "One of them is accidental",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלאג'נאס",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1215-41",
+        "lemma_ja": "ג'נס",
+        "lemma_ar": "جِنْس",
+        "root": "j-n-s",
+        "pos": "noun",
+        "gloss_en": "kind, species, genus, category",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 14,
+      "ever_single_pair": false,
+      "ja_phrase": "כל ואחד מן אלאג'נאס",
+      "en_phrase": "every one of the genera",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלאג'סאם",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-jism",
+        "lemma_ja": "ג'סם",
+        "lemma_ar": "جِسْم",
+        "root": "j-s-m",
+        "pos": "noun",
+        "gloss_en": "body, corporeal thing",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "מן צפאת אלאג'סאם",
+      "en_phrase": "of the attributes of bodies",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלבאקי",
+      "n_hits": 1,
+      "entry": {
+        "id": "baqiya-remain",
+        "lemma_ja": "בקי",
+        "lemma_ar": "بَقِيَ",
+        "root": "b-q-y",
+        "pos": "verb / proper noun",
+        "gloss_en": "to remain, to be left over, to endure; (as proper noun) Bukki (a personal name, Num 34:22)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "תוג'ב אלבאקי מנהא",
+      "en_phrase": "necessitates the rest of them",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלד'ין",
+      "n_hits": 1,
+      "entry": {
+        "id": "alladhi",
+        "lemma_ja": "אלד'י",
+        "lemma_ar": "الّذي",
+        "root": "—",
+        "pos": "relative pronoun",
+        "gloss_en": "who, which, that (m. sg.)",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 10,
+      "ever_single_pair": false,
+      "ja_phrase": "אלד'ין יעתקדון",
+      "en_phrase": "who believe",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלחאמלה",
+      "n_hits": 1,
+      "entry": {
+        "id": "hamala-carry",
+        "lemma_ja": "חמל",
+        "lemma_ar": "حَمَلَ",
+        "root": "ḥ-m-l",
+        "pos": "verb (Form I, perfect)",
+        "gloss_en": "he carried, bore, lifted up",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלחאמלה ללענאצר אלארבעה",
+      "en_phrase": "that bears the four elements",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלחרכאת",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-q-harraka",
+        "lemma_ja": "חרך",
+        "lemma_ar": "حَرَّكَ",
+        "root": "ḥ-r-k",
+        "pos": "verb",
+        "gloss_en": "to move, stir, prompt, impel (ḥarrakanī = it prompted me)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלמכ'תלפהֵ אלחרכאת",
+      "en_phrase": "differing in their motions",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אליה",
+      "n_hits": 1,
+      "entry": {
+        "id": "ila-to",
+        "lemma_ja": "אלי",
+        "lemma_ar": "إِلَى",
+        "root": "—",
+        "pos": "preposition",
+        "gloss_en": "to, toward, until, up to",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 30,
+      "ever_single_pair": true,
+      "ja_phrase": "אליה",
+      "en_phrase": "to it",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אליהם",
+      "n_hits": 1,
+      "entry": {
+        "id": "ila-to",
+        "lemma_ja": "אלי",
+        "lemma_ar": "إِلَى",
+        "root": "—",
+        "pos": "preposition",
+        "gloss_en": "to, toward, until, up to",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "מה אומר אליהם",
+      "en_phrase": "what shall I say to them",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אליכם",
+      "n_hits": 1,
+      "entry": {
+        "id": "ila-to",
+        "lemma_ja": "אלי",
+        "lemma_ar": "إِلَى",
+        "root": "—",
+        "pos": "preposition",
+        "gloss_en": "to, toward, until, up to",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "שלחני אליכם",
+      "en_phrase": "has sent me to you",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלכ'אמס",
+      "n_hits": 1,
+      "entry": {
+        "id": "ordinals-2-10",
+        "lemma_ja": "ת'אני",
+        "lemma_ar": "ثاني / ثالث / رابع …",
+        "root": "—",
+        "pos": "ordinal (number)",
+        "gloss_en": "second through tenth ordinals (ت'اني 2nd, ثالث 3rd, رابع 4th, خامس 5th, سادس 6th, سابع 7th, ثامن 8th, تاسع 9th, عاشر 10th); used for days of the month, sacrificial days, calendar dates",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "ואלוג'ה אלכ'אמס",
+      "en_phrase": "The fifth aspect",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלכמיה",
+      "n_hits": 1,
+      "entry": {
+        "id": "kam-howmany",
+        "lemma_ja": "כם",
+        "lemma_ar": "كَم",
+        "root": "—",
+        "pos": "particle (interrogative)",
+        "gloss_en": "how much? how many? how long?",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "והו אלכמיה",
+      "en_phrase": "namely quantity",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלמדינה",
+      "n_hits": 1,
+      "entry": {
+        "id": "midian-name",
+        "lemma_ja": "מדין",
+        "lemma_ar": "مَدْيَن",
+        "root": "—",
+        "pos": "proper noun",
+        "gloss_en": "Midian (descendant of Abraham via Keturah; the Midianite people)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "כאלמלך פי אלמדינה",
+      "en_phrase": "like the king in the city",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלמטלק",
+      "n_hits": 1,
+      "entry": {
+        "id": "atlaqa-release-declare",
+        "lemma_ja": "אטלק",
+        "lemma_ar": "أَطْلَقَ",
+        "root": "ṭ-l-q",
+        "pos": "verb (Form IV, perfect)",
+        "gloss_en": "he released, set loose, declared; let go",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "וצפהֵ אלוג'וד אלמטלק",
+      "en_phrase": "and the attribute of absolute existence",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלמנטק",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-2835-34",
+        "lemma_ja": "אלמנטקיה",
+        "lemma_ar": "المَنْطِقِيَّة",
+        "root": "n-ṭ-q",
+        "pos": "adjective",
+        "gloss_en": "logical (science of logic) (f.)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אד'א אנקטע אלמנטק",
+      "en_phrase": "If speech falls short",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלסאבע",
+      "n_hits": 1,
+      "entry": {
+        "id": "ordinals-2-10",
+        "lemma_ja": "ת'אני",
+        "lemma_ar": "ثاني / ثالث / رابع …",
+        "root": "—",
+        "pos": "ordinal (number)",
+        "gloss_en": "second through tenth ordinals (ت'اني 2nd, ثالث 3rd, رابع 4th, خامس 5th, سادس 6th, سابع 7th, ثامن 8th, تاسع 9th, عاشر 10th); used for days of the month, sacrificial days, calendar dates",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואלוג'ה אלסאבע",
+      "en_phrase": "The seventh aspect",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלסאדס",
+      "n_hits": 1,
+      "entry": {
+        "id": "ordinals-2-10",
+        "lemma_ja": "ת'אני",
+        "lemma_ar": "ثاني / ثالث / رابع …",
+        "root": "—",
+        "pos": "ordinal (number)",
+        "gloss_en": "second through tenth ordinals (ت'اني 2nd, ثالث 3rd, رابع 4th, خامس 5th, سادس 6th, سابع 7th, ثامن 8th, تاسع 9th, عاشر 10th); used for days of the month, sacrificial days, calendar dates",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואלוג'ה אלסאדס",
+      "en_phrase": "The sixth aspect",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלסני",
+      "n_hits": 1,
+      "entry": {
+        "id": "sana",
+        "lemma_ja": "סנה",
+        "lemma_ar": "سنة",
+        "root": "s-n-w",
+        "pos": "noun (f.)",
+        "gloss_en": "year",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "גיר אסמה אלסני אלרפיע פקט",
+      "en_phrase": "except His sublime, lofty Name alone",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלעלויה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-540-0",
+        "lemma_ja": "עלוי",
+        "lemma_ar": "عُلْوِيّ",
+        "root": "ʕ-l-w",
+        "pos": "adjective",
+        "gloss_en": "upper, celestial, higher",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 3,
+      "ever_single_pair": false,
+      "ja_phrase": "ואלאשכ'אץ אלעלויה",
+      "en_phrase": "and the heavenly bodies",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלעלמא",
+      "n_hits": 1,
+      "entry": {
+        "id": "alim-scholar",
+        "lemma_ja": "עאלם",
+        "lemma_ar": "عَالِم",
+        "root": "ʿ-l-m",
+        "pos": "active participle / noun (m.)",
+        "gloss_en": "knowing one, scholar, sage; (broken pl. ʿulamāʾ) scholars, the learned",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וקאל בעץ' אלעלמא",
+      "en_phrase": "And one of the sages said",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אלרייס",
+      "n_hits": 1,
+      "entry": {
+        "id": "ruyaysa-leader",
+        "lemma_ja": "רויס",
+        "lemma_ar": "رُؤَيْس",
+        "root": "r-ʔ-s",
+        "pos": "noun (m. diminutive)",
+        "gloss_en": "petty chief, lesser leader (diminutive of raʾīs)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלרייס אלפאצ'ל",
+      "en_phrase": "The excellent master",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "an_that",
+        "lemma_ja": "אן",
+        "lemma_ar": "أن / إن",
+        "root": "—",
+        "pos": "conjunction",
+        "gloss_en": "that (introducing a subordinate clause); if (إن)",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 7,
+      "ever_single_pair": false,
+      "ja_phrase": "וד'לך אנא נג'דה",
+      "en_phrase": "That is because we find it",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אנהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "an_that",
+        "lemma_ja": "אן",
+        "lemma_ar": "أن / إن",
+        "root": "—",
+        "pos": "conjunction",
+        "gloss_en": "that (introducing a subordinate clause); if (إن)",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 14,
+      "ever_single_pair": false,
+      "ja_phrase": "אנהא מכתסבה מן",
+      "en_phrase": "that it is acquired from",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אנואע",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1215-37",
+        "lemma_ja": "נוע",
+        "lemma_ar": "نَوْع",
+        "root": "n-w-ʕ",
+        "pos": "noun",
+        "gloss_en": "kind, species, type",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "עלי אנואע מכ'תלפה",
+      "en_phrase": "upon different kinds",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אני",
+      "n_hits": 1,
+      "entry": {
+        "id": "an_that",
+        "lemma_ja": "אן",
+        "lemma_ar": "أن / إن",
+        "root": "—",
+        "pos": "conjunction",
+        "gloss_en": "that (introducing a subordinate clause); if (إن)",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 28,
+      "ever_single_pair": false,
+      "ja_phrase": "אני ה'",
+      "en_phrase": "I am the Lord",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אנסאנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-insani",
+        "lemma_ja": "אנסאני",
+        "lemma_ar": "إِنْسَانِيّ",
+        "root": "ʔ-n-s",
+        "pos": "adjective / noun",
+        "gloss_en": "human; a human being",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "קד צ'רב אנסאנא מא",
+      "en_phrase": "that has struck a certain man",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אפעאלה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-fiil",
+        "lemma_ja": "פעל",
+        "lemma_ar": "فِعْل",
+        "root": "f-ʕ-l",
+        "pos": "noun / verb",
+        "gloss_en": "act, action, deed; (bi-l-fiʿl) in actuality; to do, act",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ווצ'וח אפעאלה",
+      "en_phrase": "and the clarity of its acts",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אפעאלהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-fiil",
+        "lemma_ja": "פעל",
+        "lemma_ar": "فِعْل",
+        "root": "f-ʕ-l",
+        "pos": "noun / verb",
+        "gloss_en": "act, action, deed; (bi-l-fiʿl) in actuality; to do, act",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "עלי שהרהֵ אפעאלהא",
+      "en_phrase": "despite the fame of its acts",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אצ'אפתה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1620-4",
+        "lemma_ja": "אצ'אפה",
+        "lemma_ar": "إِضَافَة",
+        "root": "ḍ-y-f",
+        "pos": "verb",
+        "gloss_en": "she/it attributed it, ascribed it (here اضافته 'the books ascribed Him')",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וקד אצ'אפתה אלכתב",
+      "en_phrase": "And the Scriptures have associated Him",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אצולה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-asl",
+        "lemma_ja": "אצל",
+        "lemma_ar": "أَصْل",
+        "root": "ʔ-ṣ-l",
+        "pos": "noun",
+        "gloss_en": "root, foundation, fundamental principle",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "ופי אצולה ופרועה",
+      "en_phrase": "in its roots and its branches",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אקרב",
+      "n_hits": 1,
+      "entry": {
+        "id": "qaruba-approach",
+        "lemma_ja": "קרב",
+        "lemma_ar": "قَرُبَ",
+        "root": "q-r-b",
+        "pos": "verb (Form I, perfect)",
+        "gloss_en": "he drew near, approached, came close",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "אן אקרב לך",
+      "en_phrase": "to bring",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ארפע",
+      "n_hits": 1,
+      "entry": {
+        "id": "rafaʿa-lift",
+        "lemma_ja": "רפע",
+        "lemma_ar": "رَفَع",
+        "root": "r-f-ʿ",
+        "pos": "verb (Form I, perfect)",
+        "gloss_en": "to lift, raise, elevate; to take up (an offering)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "ארפע כל רפיע",
+      "en_phrase": "highest of every high thing",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "באנה",
+      "n_hits": 1,
+      "entry": {
+        "id": "an_that",
+        "lemma_ja": "אן",
+        "lemma_ar": "أن / إن",
+        "root": "—",
+        "pos": "conjunction",
+        "gloss_en": "that (introducing a subordinate clause); if (إن)",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "באנה רב",
+      "en_phrase": "as being the Lord",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "בגירהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-ghayr",
+        "lemma_ja": "גיר",
+        "lemma_ar": "غَيْر",
+        "root": "gh-y-r",
+        "pos": "noun / particle",
+        "gloss_en": "other than; not; non-; except",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "לא ידרך בגירהא",
+      "en_phrase": "which is not apprehended by another",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "בט'נה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-zann",
+        "lemma_ja": "ט'ן",
+        "lemma_ar": "ظَنّ",
+        "root": "ẓ-n-n",
+        "pos": "noun / verb",
+        "gloss_en": "opinion, conjecture, supposition; to suppose, think",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": true,
+      "ja_phrase": "בט'נה",
+      "en_phrase": "in his own estimation",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ביאנה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1620-33",
+        "lemma_ja": "ביאן",
+        "lemma_ar": "بَيَان",
+        "root": "b-y-n",
+        "pos": "noun",
+        "gloss_en": "clarification, explanation (here بياناً 'he added it as a clarification')",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלד'י קצדנא ביאנה",
+      "en_phrase": "whose elucidation we have purposed",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "בינא",
+      "n_hits": 1,
+      "entry": {
+        "id": "bayn",
+        "lemma_ja": "בין",
+        "lemma_ar": "بين",
+        "root": "b-y-n",
+        "pos": "preposition",
+        "gloss_en": "between, among",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "עלי מא בינא",
+      "en_phrase": "according to what we have explained",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "בלא",
+      "n_hits": 1,
+      "entry": {
+        "id": "taf-d-1350-44",
+        "lemma_ja": "אלבלא",
+        "lemma_ar": "الْبَلَاء",
+        "root": "b-l-w",
+        "pos": "noun",
+        "gloss_en": "the calamity, affliction, trial",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "בלא דין ולא שריעה",
+      "en_phrase": "without religion and without Law",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "בעינה",
+      "n_hits": 1,
+      "entry": {
+        "id": "ʿayn-eye",
+        "lemma_ja": "עין",
+        "lemma_ar": "عَيْن",
+        "root": "ʿ-y-n",
+        "pos": "noun (f.)",
+        "gloss_en": "eye; spring of water; (in textual usage) the letter or visible mark of a written text",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "בעינה ובשכ'צה",
+      "en_phrase": "in his very self and person",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "בעצ'הם",
+      "n_hits": 1,
+      "entry": {
+        "id": "baʿd-some",
+        "lemma_ja": "בעץ'",
+        "lemma_ar": "بَعْض",
+        "root": "b-ʿ-ḍ",
+        "pos": "noun/pronoun",
+        "gloss_en": "some, part, a portion; (baʿḍuhum … baʿḍ) one another",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וסאיל בעצ'הם",
+      "en_phrase": "And someone asked one of them",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "דון",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-315-41",
+        "lemma_ja": "דונה",
+        "lemma_ar": "دُونَه",
+        "root": "d-w-n",
+        "pos": "particle",
+        "gloss_en": "below it, short of it, other than it",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "דון אלנפס",
+      "en_phrase": "of [reaching] the soul",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "דלת",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-315-12",
+        "lemma_ja": "דל",
+        "lemma_ar": "دَلَّ",
+        "root": "d-l-l",
+        "pos": "verb",
+        "gloss_en": "to indicate, point to, prove",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "פאן אלדלאיל קד דלת",
+      "en_phrase": "For the proofs have demonstrated",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "דפעה",
+      "n_hits": 1,
+      "entry": {
+        "id": "b1-דפע",
+        "lemma_ja": "דפע",
+        "lemma_ar": "دَفَعَ",
+        "root": "د-ف-ع",
+        "pos": "verb",
+        "gloss_en": "to hand over, give, pay",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "פי דפעה ואחדה",
+      "en_phrase": "all at once",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ואג'זא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1260-13",
+        "lemma_ja": "ג'ז",
+        "lemma_ar": "جُزْء",
+        "root": "j-z-ʾ",
+        "pos": "noun",
+        "gloss_en": "part, portion, particular",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואג'זא אלסריר",
+      "en_phrase": "the parts of the bed",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ואדני",
+      "n_hits": 1,
+      "entry": {
+        "id": "dana-approach",
+        "lemma_ja": "דנא",
+        "lemma_ar": "دَنَا",
+        "root": "d-n-w",
+        "pos": "verb (Form I, perfect)",
+        "gloss_en": "he drew near, came close, approached",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואדני האדונים",
+      "en_phrase": "and Lord of lords",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ואחדא",
+      "n_hits": 1,
+      "entry": {
+        "id": "wahid",
+        "lemma_ja": "אחד",
+        "lemma_ar": "واحد",
+        "root": "w-ḥ-d",
+        "pos": "numeral (m.)",
+        "gloss_en": "one",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 14,
+      "ever_single_pair": false,
+      "ja_phrase": "יסמי ואחדא",
+      "en_phrase": "is called \"one,\"",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ואחדה",
+      "n_hits": 1,
+      "entry": {
+        "id": "wahid-one",
+        "lemma_ja": "ואחד",
+        "lemma_ar": "وَاحِد",
+        "root": "w-ḥ-d",
+        "pos": "numeral / adjective",
+        "gloss_en": "one (m.sg.); a single, a particular",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 26,
+      "ever_single_pair": false,
+      "ja_phrase": "סמית ואחדה",
+      "en_phrase": "named \"one\"",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ואלאשכ'אץ",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1215-39",
+        "lemma_ja": "אשכ'אצא",
+        "lemma_ar": "أَشْخَاصًا",
+        "root": "sh-kh-ṣ",
+        "pos": "noun",
+        "gloss_en": "individuals, persons (here acc., pl. of شخص)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 3,
+      "ever_single_pair": false,
+      "ja_phrase": "ואלאשכ'אץ אלעלויה",
+      "en_phrase": "and the heavenly bodies",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ואלחרכאת",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-q-harraka",
+        "lemma_ja": "חרך",
+        "lemma_ar": "حَرَّكَ",
+        "root": "ḥ-r-k",
+        "pos": "verb",
+        "gloss_en": "to move, stir, prompt, impel (ḥarrakanī = it prompted me)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואלחרכאת ואלתשביהאת",
+      "en_phrase": "motions, and likenesses",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ואלת'אלת'ה",
+      "n_hits": 1,
+      "entry": {
+        "id": "ordinals-2-10",
+        "lemma_ja": "ת'אני",
+        "lemma_ar": "ثاني / ثالث / رابع …",
+        "root": "—",
+        "pos": "ordinal (number)",
+        "gloss_en": "second through tenth ordinals (ت'اني 2nd, ثالث 3rd, رابع 4th, خامس 5th, سادس 6th, سابع 7th, ثامن 8th, تاسع 9th, عاشر 10th); used for days of the month, sacrificial days, calendar dates",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": true,
+      "ja_phrase": "ואלת'אלת'ה",
+      "en_phrase": "And the third",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ואמרו",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-2340-33",
+        "lemma_ja": "אמר",
+        "lemma_ar": "أَمْر",
+        "root": "ʾ-m-r",
+        "pos": "noun",
+        "gloss_en": "affair, matter, command",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "ואמרו לי",
+      "en_phrase": "And they shall say to me",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ואנה",
+      "n_hits": 1,
+      "entry": {
+        "id": "an_that",
+        "lemma_ja": "אן",
+        "lemma_ar": "أن / إن",
+        "root": "—",
+        "pos": "conjunction",
+        "gloss_en": "that (introducing a subordinate clause); if (إن)",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "ואנה ואחד",
+      "en_phrase": "that He is one",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ואנואע",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1215-37",
+        "lemma_ja": "נוע",
+        "lemma_ar": "نَوْع",
+        "root": "n-w-ʕ",
+        "pos": "noun",
+        "gloss_en": "kind, species, type",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואנואע אלחיואן",
+      "en_phrase": "and the varieties of animals",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ואצחאב",
+      "n_hits": 1,
+      "entry": {
+        "id": "sahib-companion",
+        "lemma_ja": "צאחב",
+        "lemma_ar": "صَاحِب",
+        "root": "ص-ح-ب",
+        "pos": "noun",
+        "gloss_en": "companion, fellow, friend, neighbor, associate",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואצחאב אלת'לאת'ה",
+      "en_phrase": "and the people of three",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "וג'בת",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-q-wajaba",
+        "lemma_ja": "וג'ב",
+        "lemma_ar": "وَجَبَ",
+        "root": "w-j-b",
+        "pos": "verb",
+        "gloss_en": "to be necessary, obligatory, incumbent; (awjaba) to necessitate, require",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "למן וג'בת לה",
+      "en_phrase": "for the one to whom",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "וג'ודנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-0-18",
+        "lemma_ja": "וג'וד",
+        "lemma_ar": "وُجُود",
+        "root": "w-j-d",
+        "pos": "noun",
+        "gloss_en": "existence, being",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "ופי וג'ודנא",
+      "en_phrase": "Yet in our finding",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "והמא",
+      "n_hits": 1,
+      "entry": {
+        "id": "hum-they",
+        "lemma_ja": "הם",
+        "lemma_ar": "هُمْ",
+        "root": "—",
+        "pos": "pronoun",
+        "gloss_en": "they (m. pl.)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "והמא את'נתאן",
+      "en_phrase": "and these are two",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "וחד'רנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "hadhira-beware",
+        "lemma_ja": "חד'ר",
+        "lemma_ar": "حَذِر",
+        "root": "ḥ-dh-r",
+        "pos": "verb (Form I, perfect) / imperative iḥdhar",
+        "gloss_en": "to beware, take care, guard oneself (against); (imperative) iḥdhar = 'beware! take care!'",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": true,
+      "ja_phrase": "וחד'רנא",
+      "en_phrase": "and warned us",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ויסארה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1530-19",
+        "lemma_ja": "יסאר",
+        "lemma_ar": "يَسَار",
+        "root": "y-s-r",
+        "pos": "noun",
+        "gloss_en": "ease, affluence, prosperity, wealth",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וקותה ויסארה",
+      "en_phrase": "his strength, and his means",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ויסמי",
+      "n_hits": 1,
+      "entry": {
+        "id": "asma-name",
+        "lemma_ja": "אסמי",
+        "lemma_ar": "أَسْمَى",
+        "root": "s-m-w",
+        "pos": "verb (form IV)",
+        "gloss_en": "to give a name to, to name, to call (someone) by a name",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ויסמי כת'ירא",
+      "en_phrase": "and it is called \"many\"",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "וירא",
+      "n_hits": 1,
+      "entry": {
+        "id": "raʾa-see",
+        "lemma_ja": "ראי",
+        "lemma_ar": "رَأَى",
+        "root": "r-'-y",
+        "pos": "verb",
+        "gloss_en": "to see, to look at, to perceive, to behold",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וירא אלהים את האור",
+      "en_phrase": "And God saw the light",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ולהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "li-to",
+        "lemma_ja": "ל",
+        "lemma_ar": "لِـ",
+        "root": "—",
+        "pos": "preposition (proclitic)",
+        "gloss_en": "to, for, belonging to (proclitic preposition)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ולהא חד מא",
+      "en_phrase": "and it has a certain limit",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ומבדאה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1395-5",
+        "lemma_ja": "מבדא",
+        "lemma_ar": "مَبْدَأ",
+        "root": "b-d-ʾ",
+        "pos": "noun",
+        "gloss_en": "beginning, origin, principle",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": true,
+      "ja_phrase": "ומבדאה",
+      "en_phrase": "and its starting-point",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ומנהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "min",
+        "lemma_ja": "מן",
+        "lemma_ar": "من",
+        "root": "—",
+        "pos": "preposition / pronoun",
+        "gloss_en": "from, of; (also) who?",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "ומנהא אלשרך אלכ'פי",
+      "en_phrase": "and among them is hidden associationism",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ומרכבה",
+      "n_hits": 1,
+      "entry": {
+        "id": "markab-chariot",
+        "lemma_ja": "מרכב",
+        "lemma_ar": "مَرْكَب",
+        "root": "r-k-b",
+        "pos": "noun (m.)",
+        "gloss_en": "chariot, vehicle, mount; riding-beast",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ופי בסיטה ומרכבה",
+      "en_phrase": "in its simple and its composite",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ונצבה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-q-nasaba",
+        "lemma_ja": "נצב",
+        "lemma_ar": "نَصَبَ",
+        "root": "n-ṣ-b",
+        "pos": "verb",
+        "gloss_en": "to set up, erect, establish, appoint (naṣabahu = he set it up)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": true,
+      "ja_phrase": "ונצבה",
+      "en_phrase": "position",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "וסאיל",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1125-24-3",
+        "lemma_ja": "וסילה",
+        "lemma_ar": "وَسِيلَة",
+        "root": "w-s-l",
+        "pos": "noun",
+        "gloss_en": "means, instrument (here pl., 'the means')",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וסאיל בעצ'הם",
+      "en_phrase": "And someone asked one of them",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ועלמנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "alima",
+        "lemma_ja": "עלם",
+        "lemma_ar": "علم",
+        "root": "ʕ-l-m",
+        "pos": "verb (perf. 3sg.m.)",
+        "gloss_en": "he knew, he was aware of",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "ועלמנא צ'רורה",
+      "en_phrase": "so we know of necessity",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "וצנעהֵ",
+      "n_hits": 1,
+      "entry": {
+        "id": "sanaa",
+        "lemma_ja": "צנע",
+        "lemma_ar": "صنع",
+        "root": "ṣ-n-ʕ",
+        "pos": "verb",
+        "gloss_en": "to make, fashion, fabricate, do",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וצנעהֵ כ'אלק ואחד",
+      "en_phrase": "the making of a single Creator",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "וצפהֵ",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-wasf",
+        "lemma_ja": "וצף",
+        "lemma_ar": "وَصْف",
+        "root": "w-ṣ-f",
+        "pos": "noun",
+        "gloss_en": "description, characterization",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "וצפהֵ אלקדם",
+      "en_phrase": "and the attribute of pre-eternity",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "וצפתה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-sifa",
+        "lemma_ja": "צפה",
+        "lemma_ar": "صِفَة",
+        "root": "w-ṣ-f",
+        "pos": "noun",
+        "gloss_en": "attribute, quality, characteristic",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "ולו וצפתה אלכתב",
+      "en_phrase": "For had the books described Him",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "וקותה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-720-30",
+        "lemma_ja": "קות",
+        "lemma_ar": "قُوت",
+        "root": "q-w-t",
+        "pos": "noun",
+        "gloss_en": "sustenance, nourishment, food",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וקותה ויסארה",
+      "en_phrase": "his strength, and his means",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ורשדנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-765-42",
+        "lemma_ja": "רשד",
+        "lemma_ar": "رَشَّدَ",
+        "root": "r-sh-d",
+        "pos": "verb",
+        "gloss_en": "to guide aright, lead to the right course",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ורשדנא אלי טאעתה",
+      "en_phrase": "and direct us to His obedience",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ושעאעהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1800-11",
+        "lemma_ja": "שעאע",
+        "lemma_ar": "شُعَاع",
+        "root": "sh-ʿ-ʿ",
+        "pos": "noun",
+        "gloss_en": "ray(s) of light, beam",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": true,
+      "ja_phrase": "ושעאעהא",
+      "en_phrase": "its rays",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ותשכילה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1395-40",
+        "lemma_ja": "תשכיל",
+        "lemma_ar": "تَشْكِيل",
+        "root": "sh-k-l",
+        "pos": "noun",
+        "gloss_en": "shaping, formation, giving form",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": true,
+      "ja_phrase": "ותשכילה",
+      "en_phrase": "and its conceiving",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "זאדה",
+      "n_hits": 1,
+      "entry": {
+        "id": "zada-increase",
+        "lemma_ja": "זאד",
+        "lemma_ar": "زَادَ",
+        "root": "z-y-d",
+        "pos": "verb",
+        "gloss_en": "to increase, add, become more",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "זאדה ביאנא",
+      "en_phrase": "He added clarification",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ח",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-720-4",
+        "lemma_ja": "כח",
+        "lemma_ar": "כְּחוֹתָם",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "\"like a seal\" (Heb. quote from Song of Songs)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פצל. ח.",
+      "en_phrase": "Section 8",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "חאל",
+      "n_hits": 1,
+      "entry": {
+        "id": "halla-alight",
+        "lemma_ja": "חל",
+        "lemma_ar": "حَلَّ",
+        "root": "ḥ-l-l",
+        "pos": "verb (Form I, perfect)",
+        "gloss_en": "to alight, descend, settle (upon); to come to rest in a place; (idiomatic) to befall, come upon",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "פי חאל צחתה",
+      "en_phrase": "in its state of soundness",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "חד'והא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1845-5",
+        "lemma_ja": "חד'ו",
+        "lemma_ar": "حَذْو",
+        "root": "ḥ-dh-w",
+        "pos": "noun",
+        "gloss_en": "manner, likeness; the same way as",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אד'א חד'ות חד'והא",
+      "en_phrase": "if you take them up",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "חואיג'הם",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1845-28",
+        "lemma_ja": "חאג'ה",
+        "lemma_ar": "حَاجَة",
+        "root": "ḥ-w-j",
+        "pos": "noun",
+        "gloss_en": "need, want, requirement, affair",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ותנקצ'י בהא חואיג'הם",
+      "en_phrase": "and accomplish their needs by it",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "חצלתה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1395-20",
+        "lemma_ja": "חצל",
+        "lemma_ar": "حَصَّلَ",
+        "root": "ḥ-ṣ-l",
+        "pos": "verb",
+        "gloss_en": "to attain, obtain, acquire",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "כיף מא חצלתה",
+      "en_phrase": "however you may conceive it",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "טלבנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-q-talab",
+        "lemma_ja": "טלב",
+        "lemma_ar": "طَلَب",
+        "root": "ṭ-l-b",
+        "pos": "noun / verb",
+        "gloss_en": "seeking, quest, inquiry; to seek, demand",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלד'י איאה טלבנא",
+      "en_phrase": "whom we have sought",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "יאמר",
+      "n_hits": 1,
+      "entry": {
+        "id": "amr-matter",
+        "lemma_ja": "אמר",
+        "lemma_ar": "أمر",
+        "root": "ʔ-m-r",
+        "pos": "noun (m.) / verb",
+        "gloss_en": "matter, command, affair, order; (as verb) commanded, ordered",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "יאמר קדוש",
+      "en_phrase": "says the Holy One",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "יג'ב",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-q-wajaba",
+        "lemma_ja": "וג'ב",
+        "lemma_ar": "وَجَبَ",
+        "root": "w-j-b",
+        "pos": "verb",
+        "gloss_en": "to be necessary, obligatory, incumbent; (awjaba) to necessitate, require",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 12,
+      "ever_single_pair": false,
+      "ja_phrase": "וממא יג'ב",
+      "en_phrase": "And among the things you must",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ידרך",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-2250-1",
+        "lemma_ja": "ידרכה",
+        "lemma_ar": "يُدْرِكُهُ",
+        "root": "d-r-k",
+        "pos": "verb",
+        "gloss_en": "he perceives/attains it",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 16,
+      "ever_single_pair": false,
+      "ja_phrase": "לם ידרך אלעקל",
+      "en_phrase": "the intellect apprehends",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ימדהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "madda-stretch",
+        "lemma_ja": "מד",
+        "lemma_ar": "مَدَّ",
+        "root": "m-d-d",
+        "pos": "verb",
+        "gloss_en": "to stretch out, to extend, to reach out (especially of the hand)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלד'י ימדהא",
+      "en_phrase": "which supplies it",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "יסמעון",
+      "n_hits": 1,
+      "entry": {
+        "id": "samiʿa-hear",
+        "lemma_ja": "סמע",
+        "lemma_ar": "سَمِعَ",
+        "root": "s-m-ʿ",
+        "pos": "verb (Form I, perfect)",
+        "gloss_en": "he heard, listened, heeded",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פאנמא יסמעון כ'ברה",
+      "en_phrase": "they merely hear its report",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "יעלם",
+      "n_hits": 1,
+      "entry": {
+        "id": "alima",
+        "lemma_ja": "עלם",
+        "lemma_ar": "علم",
+        "root": "ʕ-l-m",
+        "pos": "verb (perf. 3sg.m.)",
+        "gloss_en": "he knew, he was aware of",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ולא יעלם",
+      "en_phrase": "and he does not know",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "יפהם",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1575-3",
+        "lemma_ja": "יפהם",
+        "lemma_ar": "يَفْهَم",
+        "root": "f-h-m",
+        "pos": "verb",
+        "gloss_en": "he understands, comprehends (imperfect)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "לא יפהם אלקום",
+      "en_phrase": "the people would not understand",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph",
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "יפהמה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-2565-19",
+        "lemma_ja": "פהם",
+        "lemma_ar": "فَهْم",
+        "root": "f-h-m",
+        "pos": "noun",
+        "gloss_en": "understanding, comprehension, discernment",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלד'י לא יפהמה",
+      "en_phrase": "which none would grasp",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "יצירה",
+      "n_hits": 1,
+      "entry": {
+        "id": "sara-become",
+        "lemma_ja": "צאר",
+        "lemma_ar": "صَارَ",
+        "root": "ṣ-y-r",
+        "pos": "verb (Form I, perfect)",
+        "gloss_en": "he/it became, came to be, turned into",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ופי ספר יצירה",
+      "en_phrase": "and in the Book of Formation",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "יקאל",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-qila",
+        "lemma_ja": "קיל",
+        "lemma_ar": "قِيلَ",
+        "root": "q-w-l",
+        "pos": "verb (passive)",
+        "gloss_en": "it was said / it is said",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 18,
+      "ever_single_pair": false,
+      "ja_phrase": "לם יקאל",
+      "en_phrase": "would be called",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "יקבל",
+      "n_hits": 1,
+      "entry": {
+        "id": "qabila-accept",
+        "lemma_ja": "קבל",
+        "lemma_ar": "قَبِلَ",
+        "root": "q-b-l",
+        "pos": "verb (Form I, perfect)",
+        "gloss_en": "he accepted, received; (Form IV) he approached, came toward",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "למא יקבל אלתכת'ר",
+      "en_phrase": "inasmuch as it admits of multiplication",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "יקול",
+      "n_hits": 1,
+      "entry": {
+        "id": "qala",
+        "lemma_ja": "קאל",
+        "lemma_ar": "قال",
+        "root": "q-w-l",
+        "pos": "verb (perf. 3sg.m.)",
+        "gloss_en": "he said",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 12,
+      "ever_single_pair": true,
+      "ja_phrase": "יקול",
+      "en_phrase": "will say",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "יקף",
+      "n_hits": 1,
+      "entry": {
+        "id": "waqafa-stand",
+        "lemma_ja": "וקף",
+        "lemma_ar": "وَقَفَ",
+        "root": "w-q-f",
+        "pos": "verb (Form I, perfect)",
+        "gloss_en": "he stood, halted, stayed standing",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "חתי יקף אלבצר",
+      "en_phrase": "until sight halts",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "יקרא",
+      "n_hits": 1,
+      "entry": {
+        "id": "qara-call-read",
+        "lemma_ja": "קרא",
+        "lemma_ar": "قَرَأَ / دَعَا",
+        "root": "q-r-ʔ",
+        "pos": "verb (Form I, perfect)",
+        "gloss_en": "he called, summoned, read-aloud",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 9,
+      "ever_single_pair": false,
+      "ja_phrase": "יקרא דה'",
+      "en_phrase": "the Glory of the LORD",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ישבה",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1395-19",
+        "lemma_ja": "ישבה",
+        "lemma_ar": "يُشْبِه",
+        "root": "sh-b-h",
+        "pos": "verb",
+        "gloss_en": "it resembles, is similar to (form IV imperfect)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ולא ישבה שיא",
+      "en_phrase": "nor does it resemble anything",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph",
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "כלאמנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "kallam",
+        "lemma_ja": "כלם",
+        "lemma_ar": "كلّم",
+        "root": "k-l-m",
+        "pos": "verb / noun",
+        "gloss_en": "spoke to, addressed (Form II); also: word, speech (kalim)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "מן כלאמנא",
+      "en_phrase": "in our discourse",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "כקולה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-qawl",
+        "lemma_ja": "קול",
+        "lemma_ar": "قَوْل",
+        "root": "q-w-l",
+        "pos": "noun",
+        "gloss_en": "saying, statement, utterance, dictum",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 3,
+      "ever_single_pair": false,
+      "ja_phrase": "כקולה תעאלי",
+      "en_phrase": "as He (exalted) said",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "כת'ירא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-q-kathir",
+        "lemma_ja": "כת'יר",
+        "lemma_ar": "كَثِير",
+        "root": "k-th-r",
+        "pos": "adjective",
+        "gloss_en": "much, many, abundant; (kathīran) often, greatly",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 12,
+      "ever_single_pair": true,
+      "ja_phrase": "כת'ירא",
+      "en_phrase": "frequently",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "כתבה",
+      "n_hits": 1,
+      "entry": {
+        "id": "kataba-write",
+        "lemma_ja": "כתב",
+        "lemma_ar": "كَتَبَ",
+        "root": "k-t-b",
+        "pos": "verb",
+        "gloss_en": "to write, inscribe, record",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "כתבה ונט'מה",
+      "en_phrase": "He wrote it and arranged it",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "לאכ'תצאצהם",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1305-42",
+        "lemma_ja": "אכ'תצאץ",
+        "lemma_ar": "اِخْتِصَاص",
+        "root": "kh-ṣ-ṣ",
+        "pos": "noun",
+        "gloss_en": "particularity, special property, exclusive distinction",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": true,
+      "ja_phrase": "לאכ'תצאצהם",
+      "en_phrase": "because of their being singled out",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "להואה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-0-26",
+        "lemma_ja": "הוא",
+        "lemma_ar": "هَوَاء",
+        "root": "h-w-y",
+        "pos": "noun",
+        "gloss_en": "air (one of the four elements: fire, air, water, earth)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "עבאדתה להואה",
+      "en_phrase": "the worship of his own desire",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "לי",
+      "n_hits": 1,
+      "entry": {
+        "id": "li-to",
+        "lemma_ja": "ל",
+        "lemma_ar": "لِـ",
+        "root": "—",
+        "pos": "preposition (proclitic)",
+        "gloss_en": "to, for, belonging to (proclitic preposition)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "ואמרו לי",
+      "en_phrase": "And they shall say to me",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "מחאלה",
+      "n_hits": 1,
+      "entry": {
+        "id": "mahall-place",
+        "lemma_ja": "מחל",
+        "lemma_ar": "مَحَلّ",
+        "root": "ḥ-l-l",
+        "pos": "noun (m.)",
+        "gloss_en": "place, station, locality, settlement",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 12,
+      "ever_single_pair": false,
+      "ja_phrase": "לא מחאלה",
+      "en_phrase": "without doubt",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "מחתאג'א",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1260-14",
+        "lemma_ja": "מחתאג'",
+        "lemma_ar": "مُحْتَاج",
+        "root": "ḥ-w-j",
+        "pos": "adjective",
+        "gloss_en": "in need of, requiring",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואיצ'א אנא נג'דה מחתאג'א",
+      "en_phrase": "Again, we find it",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "מטלוב",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-yatlub",
+        "lemma_ja": "יטלב",
+        "lemma_ar": "يَطْلُب",
+        "root": "ṭ-l-b",
+        "pos": "verb",
+        "gloss_en": "to seek, demand, pursue",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "פהו מטלוב ענה",
+      "en_phrase": "he is held accountable for it",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "מכ'תלפה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1260-33",
+        "lemma_ja": "מכ'תלף",
+        "lemma_ar": "مُخْتَلِف",
+        "root": "ḫ-l-f",
+        "pos": "adjective",
+        "gloss_en": "differing, varied, diverse",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "באוצאף מכ'תלפה",
+      "en_phrase": "with varying descriptions",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "מלא",
+      "n_hits": 1,
+      "entry": {
+        "id": "mil-full",
+        "lemma_ja": "מל",
+        "lemma_ar": "مِلْء",
+        "root": "m-l-'",
+        "pos": "noun (m.)",
+        "gloss_en": "fullness, the full content of (a container)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "אני מלא",
+      "en_phrase": "fill",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "מנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "min",
+        "lemma_ja": "מן",
+        "lemma_ar": "من",
+        "root": "—",
+        "pos": "preposition / pronoun",
+        "gloss_en": "from, of; (also) who?",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "ט'נא מנא",
+      "en_phrase": "supposing thereby",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "מנאפעה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1125-27",
+        "lemma_ja": "מנאפע",
+        "lemma_ar": "مَنَافِع",
+        "root": "n-f-ʿ",
+        "pos": "noun",
+        "gloss_en": "benefits, advantages (pl. of manfaʿa)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "מצרפה פי מנאפעה",
+      "en_phrase": "are directed toward his uses",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "מנה",
+      "n_hits": 1,
+      "entry": {
+        "id": "min",
+        "lemma_ja": "מן",
+        "lemma_ar": "من",
+        "root": "—",
+        "pos": "preposition / pronoun",
+        "gloss_en": "from, of; (also) who?",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 36,
+      "ever_single_pair": false,
+      "ja_phrase": "ולא בד מנה",
+      "en_phrase": "and there is no avoiding Him",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "מנהם",
+      "n_hits": 1,
+      "entry": {
+        "id": "min",
+        "lemma_ja": "מן",
+        "lemma_ar": "من",
+        "root": "—",
+        "pos": "preposition / pronoun",
+        "gloss_en": "from, of; (also) who?",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 16,
+      "ever_single_pair": false,
+      "ja_phrase": "אד' כל ואחד מנהם",
+      "en_phrase": "since each one of them",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "מנהמא",
+      "n_hits": 1,
+      "entry": {
+        "id": "min",
+        "lemma_ja": "מן",
+        "lemma_ar": "من",
+        "root": "—",
+        "pos": "preposition / pronoun",
+        "gloss_en": "from, of; (also) who?",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "כאנת אקל מנהמא לא מחאלה",
+      "en_phrase": "it is inevitably fewer than them",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "מנך",
+      "n_hits": 1,
+      "entry": {
+        "id": "min",
+        "lemma_ja": "מן",
+        "lemma_ar": "من",
+        "root": "—",
+        "pos": "preposition / pronoun",
+        "gloss_en": "from, of; (also) who?",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואלכל מנך מלא",
+      "en_phrase": "and all is full of You",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "מפעולאתה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-585-13",
+        "lemma_ja": "מפעול",
+        "lemma_ar": "مَفْعُول",
+        "root": "f-ʕ-l",
+        "pos": "noun",
+        "gloss_en": "thing done, deed, effect, product",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "מן אג'ל מפעולאתה",
+      "en_phrase": "on account of His deeds",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "מרכבה",
+      "n_hits": 1,
+      "entry": {
+        "id": "markab-chariot",
+        "lemma_ja": "מרכב",
+        "lemma_ar": "مَرْكَب",
+        "root": "r-k-b",
+        "pos": "noun (m.)",
+        "gloss_en": "chariot, vehicle, mount; riding-beast",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ג'מלה מרכבה",
+      "en_phrase": "a totality compounded",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "מתשאבהה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1260-38",
+        "lemma_ja": "מתשאבה",
+        "lemma_ar": "مُتَشَابِه",
+        "root": "š-b-h",
+        "pos": "adjective",
+        "gloss_en": "mutually resembling, similar to one another",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "מתשאבהה ומתנאסבה",
+      "en_phrase": "is uniform and proportioned",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "נחו",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1035-14",
+        "lemma_ja": "נחוה",
+        "lemma_ar": "نَحْوَه",
+        "root": "n-ḥ-w",
+        "pos": "particle",
+        "gloss_en": "toward it / him, in its direction",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 7,
+      "ever_single_pair": false,
+      "ja_phrase": "נחו קולה",
+      "en_phrase": "as in His saying",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "נקף",
+      "n_hits": 1,
+      "entry": {
+        "id": "waqafa-stand",
+        "lemma_ja": "וקף",
+        "lemma_ar": "وَقَفَ",
+        "root": "w-q-f",
+        "pos": "verb (Form I, perfect)",
+        "gloss_en": "he stood, halted, stayed standing",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "יג'ב אן נקף",
+      "en_phrase": "it is incumbent that we halt",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "סבילהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-q-sabil",
+        "lemma_ja": "סביל",
+        "lemma_ar": "سَبِيل",
+        "root": "s-b-l",
+        "pos": "noun",
+        "gloss_en": "way, path, course, manner (ʿalā sabīl = by way of)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וסלכת סבילהא",
+      "en_phrase": "and walk by their road",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "סואה",
+      "n_hits": 1,
+      "entry": {
+        "id": "sawa-besides",
+        "lemma_ja": "סוא",
+        "lemma_ar": "سِوَى",
+        "root": "س-و-ي",
+        "pos": "preposition / adverb",
+        "gloss_en": "besides, except, apart from, other than; (also) equal, same",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 12,
+      "ever_single_pair": false,
+      "ja_phrase": "לא תדרך סואה",
+      "en_phrase": "and apprehends nothing else",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "סואלה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1620-32",
+        "lemma_ja": "סואל",
+        "lemma_ar": "سُؤَال",
+        "root": "s-ʾ-l",
+        "pos": "noun",
+        "gloss_en": "question, asking, request (here سؤاله 'his asking/question')",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ענד סואלה אליה",
+      "en_phrase": "when he asked Him",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "סמית",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1395-12",
+        "lemma_ja": "סמא",
+        "lemma_ar": "سَمَّى",
+        "root": "s-m-w",
+        "pos": "verb",
+        "gloss_en": "to name, designate by name, appoint",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "סמית ואחדה",
+      "en_phrase": "named \"one\"",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "סמיתה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1395-12",
+        "lemma_ja": "סמא",
+        "lemma_ar": "سَمَّى",
+        "root": "s-m-w",
+        "pos": "verb",
+        "gloss_en": "to name, designate by name, appoint",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואנמא סמיתה והמיא",
+      "en_phrase": "I have called it conceptual only",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "עליהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "ala",
+        "lemma_ja": "עלי'",
+        "lemma_ar": "على",
+        "root": "ʕ-l-w",
+        "pos": "preposition",
+        "gloss_en": "on, upon, over, against",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 14,
+      "ever_single_pair": false,
+      "ja_phrase": "ומן עליהא",
+      "en_phrase": "of all that is upon it",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "עליהמא",
+      "n_hits": 1,
+      "entry": {
+        "id": "ala",
+        "lemma_ja": "עלי'",
+        "lemma_ar": "على",
+        "root": "ʕ-l-w",
+        "pos": "preposition",
+        "gloss_en": "on, upon, over, against",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "עליהמא אלסלאם",
+      "en_phrase": "(peace be upon them both)",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "עלמא",
+      "n_hits": 1,
+      "entry": {
+        "id": "alim-scholar",
+        "lemma_ja": "עאלם",
+        "lemma_ar": "عَالِم",
+        "root": "ʿ-l-m",
+        "pos": "active participle / noun (m.)",
+        "gloss_en": "knowing one, scholar, sage; (broken pl. ʿulamāʾ) scholars, the learned",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "עלמנא עלמא יקינא",
+      "en_phrase": "we know with certain knowledge",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ענדה",
+      "n_hits": 1,
+      "entry": {
+        "id": "ind",
+        "lemma_ja": "ענד",
+        "lemma_ar": "عند",
+        "root": "—",
+        "pos": "preposition",
+        "gloss_en": "at, by, near; with; in the presence of",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "חתי יחצל ענדה",
+      "en_phrase": "until there is attained for him",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "ענדנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "ind",
+        "lemma_ja": "ענד",
+        "lemma_ar": "عند",
+        "root": "—",
+        "pos": "preposition",
+        "gloss_en": "at, by, near; with; in the presence of",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "ומן אלמעלום ענדנא",
+      "en_phrase": "It is well known to us",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "עתאדה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1080-43",
+        "lemma_ja": "עתאד",
+        "lemma_ar": "عَتَاد",
+        "root": "ʿ-t-d",
+        "pos": "noun",
+        "gloss_en": "equipment, apparatus, provision",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלמעד פי ג'מיע עתאדה",
+      "en_phrase": "made ready in all its furnishings",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "פאי",
+      "n_hits": 1,
+      "entry": {
+        "id": "faw-mouth",
+        "lemma_ja": "פא",
+        "lemma_ar": "فَا",
+        "root": "f-w-h",
+        "pos": "noun (m.)",
+        "gloss_en": "mouth (of a person, animal, or an opening — pit, cave, sack)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פאי כת'רה וג'דנאהא",
+      "en_phrase": "so whatever multiplicity we find",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "פאלתכת'ר",
+      "n_hits": 1,
+      "entry": {
+        "id": "kathura-many",
+        "lemma_ja": "כת'ר",
+        "lemma_ar": "كَثُرَ",
+        "root": "k-th-r",
+        "pos": "verb",
+        "gloss_en": "to be/become many or numerous; (II) to increase, multiply",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "פאלתכת'ר ילחק",
+      "en_phrase": "Thus plurality attaches to",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "פאנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "an_that",
+        "lemma_ja": "אן",
+        "lemma_ar": "أن / إن",
+        "root": "—",
+        "pos": "conjunction",
+        "gloss_en": "that (introducing a subordinate clause); if (إن)",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 7,
+      "ever_single_pair": false,
+      "ja_phrase": "פאנא אד'א תצפחנאהא",
+      "en_phrase": "for when we examine them closely",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "פאנה",
+      "n_hits": 1,
+      "entry": {
+        "id": "an_that",
+        "lemma_ja": "אן",
+        "lemma_ar": "أن / إن",
+        "root": "—",
+        "pos": "conjunction",
+        "gloss_en": "that (introducing a subordinate clause); if (إن)",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "פאנה שרך כ'פי",
+      "en_phrase": "for this is hidden associationism",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "פיהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "fi",
+        "lemma_ja": "פי",
+        "lemma_ar": "في",
+        "root": "—",
+        "pos": "preposition",
+        "gloss_en": "in, inside, at, on",
+        "source": "",
+        "matched": "variant"
+      },
+      "count": 14,
+      "ever_single_pair": true,
+      "ja_phrase": "פיהא",
+      "en_phrase": "concerning it",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "פיקום",
+      "n_hits": 1,
+      "entry": {
+        "id": "qama-rise",
+        "lemma_ja": "קאם",
+        "lemma_ar": "قَامَ",
+        "root": "q-w-m",
+        "pos": "verb",
+        "gloss_en": "to rise, to stand up, to arise; (imperative) arise! get up!",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פיקום אעתקאדנא בוג'ודה",
+      "en_phrase": "Thus our belief in His existence",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "פלא",
+      "n_hits": 1,
+      "entry": {
+        "id": "taf-d-45-27",
+        "lemma_ja": "תכ'אפהם",
+        "lemma_ar": "تَخَافُهُم",
+        "root": "kh-w-f",
+        "pos": "verb",
+        "gloss_en": "you fear them",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 18,
+      "ever_single_pair": false,
+      "ja_phrase": "פלא חאג'ה בנא",
+      "en_phrase": "we have no need",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "פן",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-270-1",
+        "lemma_ja": "כן",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "so, thus / yes (embedded Hebrew connective)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "פן תשבענו",
+      "en_phrase": "lest thou be filled therewith",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "פעלנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-fiil",
+        "lemma_ja": "פעל",
+        "lemma_ar": "فِعْل",
+        "root": "f-ʕ-l",
+        "pos": "noun / verb",
+        "gloss_en": "act, action, deed; (bi-l-fiʿl) in actuality; to do, act",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פאנא אד'א פעלנא ד'לך",
+      "en_phrase": "for if we do this",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "צ'יאהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1800-18",
+        "lemma_ja": "צ'יא",
+        "lemma_ar": "ضِيَاء",
+        "root": "ḍ-w-ʾ",
+        "pos": "noun",
+        "gloss_en": "light, radiance, brightness",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ויתצרפון פי צ'יאהא",
+      "en_phrase": "make use of its illumination",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "צאנע",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-2835-42",
+        "lemma_ja": "אלצנאע",
+        "lemma_ar": "الصُّنَّاع",
+        "root": "ṣ-n-ʿ",
+        "pos": "noun",
+        "gloss_en": "the craftsmen, artisans (pl. of ṣāniʿ)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "אן יכון ללעאלם צאנע",
+      "en_phrase": "the world must have a Maker",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "תחציל",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1395-20",
+        "lemma_ja": "חצל",
+        "lemma_ar": "حَصَّلَ",
+        "root": "ḥ-ṣ-l",
+        "pos": "verb",
+        "gloss_en": "to attain, obtain, acquire",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "ען תחציל",
+      "en_phrase": "to grasp",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "תכון",
+      "n_hits": 1,
+      "entry": {
+        "id": "kana",
+        "lemma_ja": "כאן",
+        "lemma_ar": "كان",
+        "root": "k-w-n",
+        "pos": "verb (defective)",
+        "gloss_en": "was, became; existed",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 24,
+      "ever_single_pair": false,
+      "ja_phrase": "וג'ב אן תכון אלוחדה",
+      "en_phrase": "it must be that unity",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "תקף",
+      "n_hits": 1,
+      "entry": {
+        "id": "waqafa-stand",
+        "lemma_ja": "וקף",
+        "lemma_ar": "وَقَفَ",
+        "root": "w-q-f",
+        "pos": "verb (Form I, perfect)",
+        "gloss_en": "he stood, halted, stayed standing",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 5,
+      "ever_single_pair": false,
+      "ja_phrase": "ת'ם תקף",
+      "en_phrase": "and then it halts",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "variant+zero-overlap"
+      ],
+      "suspect_score": 3
+    },
+    {
+      "surface": "אבתדא",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-0-37",
+        "lemma_ja": "אבתדא",
+        "lemma_ar": "اِبْتِدَاء",
+        "root": "b-d-ʾ",
+        "pos": "noun",
+        "gloss_en": "beginning, commencement, starting-point",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 16,
+      "ever_single_pair": false,
+      "ja_phrase": "לא אבתדא קבלה",
+      "en_phrase": "before which there is no beginning",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אדרך",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-585-31",
+        "lemma_ja": "אדרך",
+        "lemma_ar": "أَدْرَكَ",
+        "root": "d-r-k",
+        "pos": "verb",
+        "gloss_en": "to perceive, apprehend, attain",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ת'ם אדרך אלעקל",
+      "en_phrase": "then the intellect apprehended",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אכ'ר",
+      "n_hits": 2,
+      "entry": {
+        "id": "akhar-other",
+        "lemma_ja": "אכ'ר",
+        "lemma_ar": "آخَر",
+        "root": "ʔ-kh-r",
+        "pos": "adjective / pronoun",
+        "gloss_en": "other, another; (al-ākhir) the last, the latter",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "ולא אכ'ר",
+      "en_phrase": "nor end",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אלאוליא",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1800-28",
+        "lemma_ja": "אוליא",
+        "lemma_ar": "أَوْلِيَاء",
+        "root": "w-l-y",
+        "pos": "noun",
+        "gloss_en": "friends, allies (of God); saints (pl. of walī)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואכ'באר אלאוליא",
+      "en_phrase": "and the accounts of the saints",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אלג'אהל",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1890-16",
+        "lemma_ja": "ג'האל",
+        "lemma_ar": "جُهَّال",
+        "root": "j-h-l",
+        "pos": "noun",
+        "gloss_en": "ignorant ones, the ignorant (pl.)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "וינפע אלג'אהל",
+      "en_phrase": "and it benefits the ignorant man",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אלג'ואב",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-2250-33",
+        "lemma_ja": "ג'ואב",
+        "lemma_ar": "جَوَاب",
+        "root": "j-w-b",
+        "pos": "noun",
+        "gloss_en": "answer, reply, response",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פי אלג'ואב ען ד'לך",
+      "en_phrase": "in answer to that",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אלוה",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-270-42",
+        "lemma_ja": "אלוה",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "God",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "היש אלוה מבלעדי",
+      "en_phrase": "Is there a God beside Me?",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אלחק",
+      "n_hits": 2,
+      "entry": {
+        "id": "haqq-right-truth",
+        "lemma_ja": "חק",
+        "lemma_ar": "حَقّ",
+        "root": "ḥ-q-q",
+        "pos": "noun (m.)",
+        "gloss_en": "truth, right, due; rightful claim, obligation",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 32,
+      "ever_single_pair": false,
+      "ja_phrase": "פאלואחד אלחק",
+      "en_phrase": "so the True One",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אלחרכה",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-2115-42",
+        "lemma_ja": "אלחרכה",
+        "lemma_ar": "الْحَرَكَة",
+        "root": "ḥ-r-k",
+        "pos": "noun",
+        "gloss_en": "motion, movement; 'fa-bi-l-ḥaraka li-l-ʿamal' = (the body shares) through motion toward the act",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": true,
+      "ja_phrase": "אלחרכה",
+      "en_phrase": "motion",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אלכ'אלק",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-q-khaliq",
+        "lemma_ja": "כ'אלק",
+        "lemma_ar": "خَالِق",
+        "root": "kh-l-q",
+        "pos": "noun",
+        "gloss_en": "creator; (al-Khāliq) the Creator, God",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 108,
+      "ever_single_pair": false,
+      "ja_phrase": "סוי אלכ'אלק",
+      "en_phrase": "apart from the Creator",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אלכ'בר",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-2700-22",
+        "lemma_ja": "כ'בר",
+        "lemma_ar": "خَبَر",
+        "root": "kh-b-r",
+        "pos": "noun",
+        "gloss_en": "report, account, tradition, piece of news",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "אלכ'בר אלצאדק",
+      "en_phrase": "the truthful report",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אללפט'",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-630-11",
+        "lemma_ja": "לפט'",
+        "lemma_ar": "لَفْظ",
+        "root": "l-f-ẓ",
+        "pos": "noun",
+        "gloss_en": "wording, utterance, literal expression",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 10,
+      "ever_single_pair": false,
+      "ja_phrase": "הד'א אללפט' ומענאה",
+      "en_phrase": "this expression and its meaning",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אלמא",
+      "n_hits": 2,
+      "entry": {
+        "id": "ma_relative",
+        "lemma_ja": "מא",
+        "lemma_ar": "ما",
+        "root": "—",
+        "pos": "pronoun / particle",
+        "gloss_en": "what, that which; not",
+        "source": "",
+        "matched": "lemma"
+      },
+      "count": 12,
+      "ever_single_pair": false,
+      "ja_phrase": "ענד סקי אלמא",
+      "en_phrase": "at the watering of water",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אלראי",
+      "n_hits": 2,
+      "entry": {
+        "id": "raʾa-see",
+        "lemma_ja": "ראי",
+        "lemma_ar": "رَأَى",
+        "root": "r-'-y",
+        "pos": "verb",
+        "gloss_en": "to see, to look at, to perceive, to behold",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "מת'ל הד'א אלראי",
+      "en_phrase": "such an opinion as this",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אלרטובה",
+      "n_hits": 2,
+      "entry": {
+        "id": "taf-d-1620-7",
+        "lemma_ja": "רטובה",
+        "lemma_ar": "رُطُوبَة",
+        "root": "r-ṭ-b",
+        "pos": "noun",
+        "gloss_en": "moisture, freshness, sap",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלרטובה פיה ג'והריה",
+      "en_phrase": "moisture is essential",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אלתגייר",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1440-28",
+        "lemma_ja": "תגייר",
+        "lemma_ar": "تَغَيُّر",
+        "root": "gh-y-r",
+        "pos": "noun",
+        "gloss_en": "change, alteration, mutability",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואמתנאע אלתגייר ואלאסתחאלה",
+      "en_phrase": "and the impossibility of change, transformation",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אלתמייז",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-135-5",
+        "lemma_ja": "תמייז",
+        "lemma_ar": "تَمْيِيز",
+        "root": "m-y-z",
+        "pos": "noun",
+        "gloss_en": "discernment, distinction, faculty of distinguishing",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "צ'עיף אלתמייז",
+      "en_phrase": "is weak in discernment",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אמר",
+      "n_hits": 3,
+      "entry": {
+        "id": "amr-matter",
+        "lemma_ja": "אמר",
+        "lemma_ar": "أمر",
+        "root": "ʔ-m-r",
+        "pos": "noun (m.) / verb",
+        "gloss_en": "matter, command, affair, order; (as verb) commanded, ordered",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "אם אמר איש",
+      "en_phrase": "Or did ever a man",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אצל",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-asl",
+        "lemma_ja": "אצל",
+        "lemma_ar": "أَصْل",
+        "root": "ʔ-ṣ-l",
+        "pos": "noun",
+        "gloss_en": "root, foundation, fundamental principle",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "אלד'י הו אצל אלעדד",
+      "en_phrase": "which is the root of number",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "את'ר",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-athar",
+        "lemma_ja": "את'ר",
+        "lemma_ar": "أَثَر",
+        "root": "ʔ-th-r",
+        "pos": "noun",
+        "gloss_en": "trace, effect, vestige, mark",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 12,
+      "ever_single_pair": false,
+      "ja_phrase": "את'ר ללחכמה ואלקדרה",
+      "en_phrase": "any trace of wisdom and power",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "באלוהם",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1530-16",
+        "lemma_ja": "והם",
+        "lemma_ar": "وَهْم",
+        "root": "w-h-m",
+        "pos": "noun",
+        "gloss_en": "imagination, the imaginative faculty; (here) bi-wahmihi = by his imagination",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 6,
+      "ever_single_pair": true,
+      "ja_phrase": "באלוהם",
+      "en_phrase": "by way of imagination",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "בבעץ'",
+      "n_hits": 2,
+      "entry": {
+        "id": "baʿd-some",
+        "lemma_ja": "בעץ'",
+        "lemma_ar": "بَعْض",
+        "root": "b-ʿ-ḍ",
+        "pos": "noun/pronoun",
+        "gloss_en": "some, part, a portion; (baʿḍuhum … baʿḍ) one another",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "בעצ'הא בבעץ'",
+      "en_phrase": "of some of them with others",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "במא",
+      "n_hits": 2,
+      "entry": {
+        "id": "ma_relative",
+        "lemma_ja": "מא",
+        "lemma_ar": "ما",
+        "root": "—",
+        "pos": "pronoun / particle",
+        "gloss_en": "what, that which; not",
+        "source": "",
+        "matched": "lemma"
+      },
+      "count": 12,
+      "ever_single_pair": false,
+      "ja_phrase": "במא ישאכלה",
+      "en_phrase": "with what befits Him",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "בעדה",
+      "n_hits": 2,
+      "entry": {
+        "id": "baad",
+        "lemma_ja": "בעד",
+        "lemma_ar": "بعد",
+        "root": "b-ʕ-d",
+        "pos": "preposition / adverb",
+        "gloss_en": "after; following; afterward",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 3,
+      "ever_single_pair": false,
+      "ja_phrase": "וקאל בעדה",
+      "en_phrase": "and said after it",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "בעץ'",
+      "n_hits": 2,
+      "entry": {
+        "id": "baʿd-some",
+        "lemma_ja": "בעץ'",
+        "lemma_ar": "بَعْض",
+        "root": "b-ʿ-ḍ",
+        "pos": "noun/pronoun",
+        "gloss_en": "some, part, a portion; (baʿḍuhum … baʿḍ) one another",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 29,
+      "ever_single_pair": false,
+      "ja_phrase": "ען בעץ'",
+      "en_phrase": "of the rest",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "בערץ'",
+      "n_hits": 2,
+      "entry": {
+        "id": "ʿard-width",
+        "lemma_ja": "ערצ'",
+        "lemma_ar": "عَرْض",
+        "root": "ʿ-r-ḍ",
+        "pos": "noun (m.)",
+        "gloss_en": "width, breadth; (geometrically) the lateral dimension (paired with ṭūl 'length')",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 5,
+      "ever_single_pair": true,
+      "ja_phrase": "בערץ'",
+      "en_phrase": "accidental",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ברכה",
+      "n_hits": 2,
+      "entry": {
+        "id": "taf-d-1080-35",
+        "lemma_ja": "ברכה",
+        "lemma_ar": "بَرَكَة",
+        "root": "b-r-k",
+        "pos": "noun",
+        "gloss_en": "blessing",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "על כל ברכה ותהלה",
+      "en_phrase": "above all blessing and praise",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ג'ז",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-jaza",
+        "lemma_ja": "ג'ז",
+        "lemma_ar": "جُزْء",
+        "root": "j-z-ʔ",
+        "pos": "noun",
+        "gloss_en": "part, portion, section (of a book)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 16,
+      "ever_single_pair": false,
+      "ja_phrase": "ען תחציל אקל ג'ז",
+      "en_phrase": "to attain the least part",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ד'אתהא",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-0-12",
+        "lemma_ja": "ד'את",
+        "lemma_ar": "ذَات",
+        "root": "ḏ-w",
+        "pos": "noun",
+        "gloss_en": "essence, self (here ḏātuhu, 'His essence/self')",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואלבחת' פי ד'אתהא",
+      "en_phrase": "and to investigate their essence",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ואכ'באר",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-2700-22",
+        "lemma_ja": "כ'בר",
+        "lemma_ar": "خَبَر",
+        "root": "kh-b-r",
+        "pos": "noun",
+        "gloss_en": "report, account, tradition, piece of news",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואכ'באר אלאוליא",
+      "en_phrase": "and the accounts of the saints",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ואלג'אהל",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1890-16",
+        "lemma_ja": "ג'האל",
+        "lemma_ar": "جُهَّال",
+        "root": "j-h-l",
+        "pos": "noun",
+        "gloss_en": "ignorant ones, the ignorant (pl.)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "ואלג'אהל אלגבי",
+      "en_phrase": "But the ignorant, dull person",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ואלחרכה",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-2115-42",
+        "lemma_ja": "אלחרכה",
+        "lemma_ar": "الْحَرَكَة",
+        "root": "ḥ-r-k",
+        "pos": "noun",
+        "gloss_en": "motion, movement; 'fa-bi-l-ḥaraka li-l-ʿamal' = (the body shares) through motion toward the act",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "ואלחרכה ואלאסתחאלה",
+      "en_phrase": "motion, transmutation",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ואלצנאעאת",
+      "n_hits": 2,
+      "entry": {
+        "id": "sinaʿa-craft",
+        "lemma_ja": "צנאעה",
+        "lemma_ar": "صِنَاعَة",
+        "root": "ṣ-n-ʿ",
+        "pos": "noun (f.)",
+        "gloss_en": "craft, work, labor, manufacture; an act of making",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואלעלום ואלצנאעאת",
+      "en_phrase": "the sciences, and the crafts",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ואלתגייר",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1440-28",
+        "lemma_ja": "תגייר",
+        "lemma_ar": "تَغَيُّر",
+        "root": "gh-y-r",
+        "pos": "noun",
+        "gloss_en": "change, alteration, mutability",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 4,
+      "ever_single_pair": true,
+      "ja_phrase": "ואלתגייר",
+      "en_phrase": "change",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ואעצ'א",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-aada",
+        "lemma_ja": "אעצ'א",
+        "lemma_ar": "أَعْضَاء",
+        "root": "ʕ-ḍ-w",
+        "pos": "noun (pl.)",
+        "gloss_en": "limbs, bodily organs, members (sing. ʿuḍw)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואעצ'א בדן אלאנסאן",
+      "en_phrase": "the limbs of the human body",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "וכאלרטובה",
+      "n_hits": 2,
+      "entry": {
+        "id": "taf-d-1620-7",
+        "lemma_ja": "רטובה",
+        "lemma_ar": "رُطُوبَة",
+        "root": "r-ṭ-b",
+        "pos": "noun",
+        "gloss_en": "moisture, freshness, sap",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וכאלרטובה פי אלאג'סאם",
+      "en_phrase": "like moisture in the bodies",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "וכמא",
+      "n_hits": 2,
+      "entry": {
+        "id": "ma_relative",
+        "lemma_ja": "מא",
+        "lemma_ar": "ما",
+        "root": "—",
+        "pos": "pronoun / particle",
+        "gloss_en": "what, that which; not",
+        "source": "",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וכמא נשאהד",
+      "en_phrase": "just as we observe",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "וכת'יר",
+      "n_hits": 3,
+      "entry": {
+        "id": "adv-q-kathir",
+        "lemma_ja": "כת'יר",
+        "lemma_ar": "كَثِير",
+        "root": "k-th-r",
+        "pos": "adjective",
+        "gloss_en": "much, many, abundant; (kathīran) often, greatly",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "וכת'יר מת'ל ד'לך",
+      "en_phrase": "and much that is like this",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ומא",
+      "n_hits": 2,
+      "entry": {
+        "id": "ma_relative",
+        "lemma_ja": "מא",
+        "lemma_ar": "ما",
+        "root": "—",
+        "pos": "pronoun / particle",
+        "gloss_en": "what, that which; not",
+        "source": "",
+        "matched": "lemma"
+      },
+      "count": 28,
+      "ever_single_pair": false,
+      "ja_phrase": "ומא פיהא",
+      "en_phrase": "of all that is within it",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ומת'אל",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1710-35",
+        "lemma_ja": "מת'אל",
+        "lemma_ar": "مِثَال",
+        "root": "m-th-l",
+        "pos": "noun",
+        "gloss_en": "likeness, image, representation, example",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ומת'אל ד'לך",
+      "en_phrase": "An illustration of this",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "וקדרה",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-360-42",
+        "lemma_ja": "קדרה",
+        "lemma_ar": "قُدْرَة",
+        "root": "q-d-r",
+        "pos": "noun",
+        "gloss_en": "power, ability, capacity",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וקדרה תקצר",
+      "en_phrase": "And a power which",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "חאג'ה",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1845-28",
+        "lemma_ja": "חאג'ה",
+        "lemma_ar": "حَاجَة",
+        "root": "ḥ-w-j",
+        "pos": "noun",
+        "gloss_en": "need, want, requirement, affair",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "פלא חאג'ה בנא",
+      "en_phrase": "we have no need",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "חפץ",
+      "n_hits": 2,
+      "entry": {
+        "id": "hifz-charge",
+        "lemma_ja": "חפץ",
+        "lemma_ar": "حِفْظ",
+        "root": "ح-ف-ظ",
+        "pos": "noun",
+        "gloss_en": "guarding, keeping, charge, watch; the duty of safeguarding (a sacred object or place)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ועת לכל חפץ",
+      "en_phrase": "and a time to every purpose",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "חתי",
+      "n_hits": 2,
+      "entry": {
+        "id": "hatta",
+        "lemma_ja": "חתי",
+        "lemma_ar": "حتّى",
+        "root": "—",
+        "pos": "preposition / conjunction",
+        "gloss_en": "until; up to; even; so that",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 9,
+      "ever_single_pair": true,
+      "ja_phrase": "חתי",
+      "en_phrase": "that",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ט'אהרה",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-0-35",
+        "lemma_ja": "ט'אהרה",
+        "lemma_ar": "ظَاهِرَة",
+        "root": "ẓ-h-r",
+        "pos": "adjective",
+        "gloss_en": "manifest, evident, apparent (fem.); the outward/evident one",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "ואלחכמה ט'אהרה",
+      "en_phrase": "for the wisdom is manifest",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "טאעה",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-taa",
+        "lemma_ja": "טאעה",
+        "lemma_ar": "طَاعَة",
+        "root": "ṭ-w-ʕ",
+        "pos": "noun",
+        "gloss_en": "obedience, compliance",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ולא תצח טאעה",
+      "en_phrase": "and no obedience can be valid",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "יחצל",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1530-17",
+        "lemma_ja": "יחצל",
+        "lemma_ar": "يَحْصُل",
+        "root": "ḥ-ṣ-l",
+        "pos": "verb",
+        "gloss_en": "to come about, be attained, result",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "חתי יחצל ענדה",
+      "en_phrase": "until there is attained for him",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ילזם",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1440-34",
+        "lemma_ja": "תלזם",
+        "lemma_ar": "تَلْزَمُ",
+        "root": "l-z-m",
+        "pos": "verb",
+        "gloss_en": "to be necessary, incumbent; to follow necessarily",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "ולד'לך ילזם מולפה",
+      "en_phrase": "and therefore its composer must necessarily",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ילחק",
+      "n_hits": 3,
+      "entry": {
+        "id": "adv-q-yalhaq",
+        "lemma_ja": "ילחק",
+        "lemma_ar": "يَلْحَق",
+        "root": "l-ḥ-q",
+        "pos": "verb",
+        "gloss_en": "to befall, attach to, overtake (yalḥaquhu = it attaches to him)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "פאלתכת'ר ילחק",
+      "en_phrase": "Thus plurality attaches to",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ינקץ'",
+      "n_hits": 3,
+      "entry": {
+        "id": "adv-b-r1-1350-14",
+        "lemma_ja": "ינקץ'",
+        "lemma_ar": "يَنْقُص",
+        "root": "n-q-ṣ",
+        "pos": "verb",
+        "gloss_en": "to diminish, lessen, impair",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ולא ינקץ' תדבירה גירה",
+      "en_phrase": "nor diminishes His governance",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "יעבדון",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-495-27",
+        "lemma_ja": "יעבדון",
+        "lemma_ar": "يَعْبُدُونَ",
+        "root": "ʿ-b-d",
+        "pos": "verb",
+        "gloss_en": "they worship, they serve (God)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "יעבדון גיר אללה",
+      "en_phrase": "worshipped other than God",
+      "gloss_ctx_overlap": 2,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "יערץ'",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-585-35",
+        "lemma_ja": "יערץ'",
+        "lemma_ar": "يَعْرِض",
+        "root": "ʕ-r-D",
+        "pos": "verb",
+        "gloss_en": "it happens, occurs, befalls, presents itself (3rd sg. impf.)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "וכד'לך יערץ' לנא",
+      "en_phrase": "Likewise it happens to us",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "יפסד",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-q-yafsud",
+        "lemma_ja": "יפסד",
+        "lemma_ar": "يَفْسُد",
+        "root": "f-s-d",
+        "pos": "verb",
+        "gloss_en": "to be(come) corrupt, invalid, unsound (fasadat = it became corrupt)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ולא יפסד ולא יסתחיל ולא יתגייר",
+      "en_phrase": "nor perish, nor change, nor alter",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "יצ'ר",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1530-26",
+        "lemma_ja": "יצ'ר",
+        "lemma_ar": "يَضُرّ",
+        "root": "ḍ-r-r",
+        "pos": "verb",
+        "gloss_en": "to harm, injure, hurt",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "לא יצ'ר אלעאקל",
+      "en_phrase": "does not harm the rational man",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "יקתצ'י",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1710-26",
+        "lemma_ja": "יַקְתַצִ'י",
+        "lemma_ar": "يَقْتَضِي",
+        "root": "q-ḍ-y",
+        "pos": "verb",
+        "gloss_en": "it requires / entails / necessitates",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אנמא יקתצ'י",
+      "en_phrase": "requires only",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ירא",
+      "n_hits": 3,
+      "entry": {
+        "id": "taf-d-630-34",
+        "lemma_ja": "יֻרא",
+        "lemma_ar": "يُرَى",
+        "root": "r-ʾ-y",
+        "pos": "verb",
+        "gloss_en": "it is seen, it is found (passive: shall not be seen with you)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אני ירא",
+      "en_phrase": "I fear",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ישארך",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-720-7",
+        "lemma_ja": "ישארך",
+        "lemma_ar": "يُشَارِك",
+        "root": "š-r-k",
+        "pos": "verb",
+        "gloss_en": "he shares/partakes with, associates",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ולא ישארך שיא",
+      "en_phrase": "nor does it associate with anything",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "כון",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-kawn",
+        "lemma_ja": "כון",
+        "lemma_ar": "كَوْن",
+        "root": "k-w-n",
+        "pos": "noun",
+        "gloss_en": "being, coming-into-existence, genesis",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ולא ילחקה כון",
+      "en_phrase": "nor does coming-to-be attach to it",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "כת'יר",
+      "n_hits": 3,
+      "entry": {
+        "id": "adv-q-kathir",
+        "lemma_ja": "כת'יר",
+        "lemma_ar": "كَثِير",
+        "root": "k-th-r",
+        "pos": "adjective",
+        "gloss_en": "much, many, abundant; (kathīran) often, greatly",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "והו כת'יר פי ד'אתה",
+      "en_phrase": "it is many in its essence",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "כת'ירה",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-q-kathir",
+        "lemma_ja": "כת'יר",
+        "lemma_ar": "كَثِير",
+        "root": "k-th-r",
+        "pos": "adjective",
+        "gloss_en": "much, many, abundant; (kathīran) often, greatly",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 14,
+      "ever_single_pair": false,
+      "ja_phrase": "והו עלי צ'רוב כת'ירה",
+      "en_phrase": "and it is of many kinds",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "כתאב",
+      "n_hits": 3,
+      "entry": {
+        "id": "adv-kitab",
+        "lemma_ja": "כתאב",
+        "lemma_ar": "كِتَاب",
+        "root": "k-t-b",
+        "pos": "noun",
+        "gloss_en": "book, writing, scripture",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 20,
+      "ever_single_pair": false,
+      "ja_phrase": "כתאב מנט'ום",
+      "en_phrase": "an ordered book",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "כתקדם",
+      "n_hits": 2,
+      "entry": {
+        "id": "taqaddama-advance",
+        "lemma_ja": "תקדם",
+        "lemma_ar": "تَقَدَّم",
+        "root": "q-d-m",
+        "pos": "verb (Form V, perfect)",
+        "gloss_en": "to step forward, advance, come forward, present oneself; to take precedence",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "כתקדם אלואחד אלעדדי",
+      "en_phrase": "as the numerical \"one\" is prior",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "לעלל",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-ilal",
+        "lemma_ja": "עלל",
+        "lemma_ar": "عِلَل",
+        "root": "ʕ-l-l",
+        "pos": "noun (pl.)",
+        "gloss_en": "causes (pl. of ʿilla)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "לעלל אלמוג'ודאת",
+      "en_phrase": "of the causes of existing things",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "מדבר",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-heb-midbar",
+        "lemma_ja": "מדבר",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "noun (Hebrew)",
+        "gloss_en": "(Hebrew) wilderness, desert (Ps 102:7)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "תדביר מדבר ואחד",
+      "en_phrase": "the governance of a single Director",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "מדה",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r3-0-35",
+        "lemma_ja": "מדה",
+        "lemma_ar": "مُدَّة",
+        "root": "m-d-d",
+        "pos": "noun",
+        "gloss_en": "period, span, length of time",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלי מדה מחדודה",
+      "en_phrase": "for a bounded span of time",
+      "gloss_ctx_overlap": 2,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "מצנוע",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1215-2",
+        "lemma_ja": "מצנוע",
+        "lemma_ar": "مَصْنُوع",
+        "root": "ṣ-n-ʕ",
+        "pos": "noun",
+        "gloss_en": "made, manufactured, an artifact",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "מצנוע בחילה קצירה",
+      "en_phrase": "made by a slight contrivance",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "מקאם",
+      "n_hits": 2,
+      "entry": {
+        "id": "taf-h-462-57",
+        "lemma_ja": "מקאם",
+        "lemma_ar": "مَقَام",
+        "root": "q-w-m",
+        "pos": "noun",
+        "gloss_en": "dwelling, abode, residence",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "מקאם יום ראשון",
+      "en_phrase": "in place of \"first day\"",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "סבעה",
+      "n_hits": 2,
+      "entry": {
+        "id": "sabaa-seven",
+        "lemma_ja": "סבעה",
+        "lemma_ar": "سبعة",
+        "root": "s-b-ʕ",
+        "pos": "numeral",
+        "gloss_en": "seven (7)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "מן סבעה וג'וה",
+      "en_phrase": "from seven aspects",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "סקי",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-675-22",
+        "lemma_ja": "סקי",
+        "lemma_ar": "سَقي",
+        "root": "s-q-y",
+        "pos": "noun",
+        "gloss_en": "watering, giving to drink, irrigation",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ענד סקי אלמא",
+      "en_phrase": "at the watering of water",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "עלאג'",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1035-32",
+        "lemma_ja": "עלאג'",
+        "lemma_ar": "عِلَاج",
+        "root": "ʕ-l-j",
+        "pos": "noun",
+        "gloss_en": "treatment, cure, therapy",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלי עלאג' אבצארהם",
+      "en_phrase": "to the treatment of their sights",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ענד",
+      "n_hits": 2,
+      "entry": {
+        "id": "ind",
+        "lemma_ja": "ענד",
+        "lemma_ar": "عند",
+        "root": "—",
+        "pos": "preposition",
+        "gloss_en": "at, by, near; with; in the presence of",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 30,
+      "ever_single_pair": false,
+      "ja_phrase": "ענד אלשמס",
+      "en_phrase": "in the sun",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ערץ'",
+      "n_hits": 2,
+      "entry": {
+        "id": "ʿard-width",
+        "lemma_ja": "ערצ'",
+        "lemma_ar": "عَرْض",
+        "root": "ʿ-r-ḍ",
+        "pos": "noun (m.)",
+        "gloss_en": "width, breadth; (geometrically) the lateral dimension (paired with ṭūl 'length')",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 16,
+      "ever_single_pair": false,
+      "ja_phrase": "והי ערץ' פיה",
+      "en_phrase": "which is an accident in it",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "פאלכ'אלק",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-q-khaliq",
+        "lemma_ja": "כ'אלק",
+        "lemma_ar": "خَالِق",
+        "root": "kh-l-q",
+        "pos": "noun",
+        "gloss_en": "creator; (al-Khāliq) the Creator, God",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "פאלכ'אלק אד'א ואחד",
+      "en_phrase": "the Creator, then, is one",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "פאלצ'עיף",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-315-34",
+        "lemma_ja": "צ'עף",
+        "lemma_ar": "ضَعُفَ",
+        "root": "ḍ-ʕ-f",
+        "pos": "verb",
+        "gloss_en": "to be weak, feeble",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פאלצ'עיף לא יג'וז אן יכון קדימא",
+      "en_phrase": "the weak cannot be eternal",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "פידל",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-yadull",
+        "lemma_ja": "ידל",
+        "lemma_ar": "يَدُلّ",
+        "root": "d-l-l",
+        "pos": "verb",
+        "gloss_en": "to indicate, point to, denote",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פידל ד'לך עלי",
+      "en_phrase": "So that indicates that",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "פילזם",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-1440-34",
+        "lemma_ja": "תלזם",
+        "lemma_ar": "تَلْزَمُ",
+        "root": "l-z-m",
+        "pos": "verb",
+        "gloss_en": "to be necessary, incumbent; to follow necessarily",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "פילזם צ'רורה",
+      "en_phrase": "and so it necessarily follows",
+      "gloss_ctx_overlap": 2,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "פיעדם",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-yadam",
+        "lemma_ja": "יעדם",
+        "lemma_ar": "يَعْدَم",
+        "root": "ʕ-d-m",
+        "pos": "verb",
+        "gloss_en": "to lack, be deprived of, lose",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פיעדם וג'ודהא",
+      "en_phrase": "their existence eludes him",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "פמא",
+      "n_hits": 2,
+      "entry": {
+        "id": "ma_relative",
+        "lemma_ja": "מא",
+        "lemma_ar": "ما",
+        "root": "—",
+        "pos": "pronoun / particle",
+        "gloss_en": "what, that which; not",
+        "source": "",
+        "matched": "lemma"
+      },
+      "count": 7,
+      "ever_single_pair": false,
+      "ja_phrase": "פמא קרב מנהא",
+      "en_phrase": "so what is near among them",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "צ'רבין",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-135-14",
+        "lemma_ja": "צ'רבין",
+        "lemma_ar": "ضَرْبَيْن",
+        "root": "ḍ-r-b",
+        "pos": "noun",
+        "gloss_en": "two kinds / two sorts (dual of ḍarb)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "עלי צ'רבין",
+      "en_phrase": "in two ways",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "צ'רוב",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-90-9",
+        "lemma_ja": "צ'רוב",
+        "lemma_ar": "ضُرُوب",
+        "root": "ḍ-r-b",
+        "pos": "noun",
+        "gloss_en": "kinds, sorts, modes (pl. of ḍarb)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "והו עלי צ'רוב",
+      "en_phrase": "which is of various kinds",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "קדרה",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-360-42",
+        "lemma_ja": "קדרה",
+        "lemma_ar": "قُدْرَة",
+        "root": "q-d-r",
+        "pos": "noun",
+        "gloss_en": "power, ability, capacity",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": true,
+      "ja_phrase": "קדרה",
+      "en_phrase": "has a power",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "קרא",
+      "n_hits": 2,
+      "entry": {
+        "id": "qara-call-read",
+        "lemma_ja": "קרא",
+        "lemma_ar": "قَرَأَ / دَعَا",
+        "root": "q-r-ʔ",
+        "pos": "verb (Form I, perfect)",
+        "gloss_en": "he called, summoned, read-aloud",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "אד'א קרא הד'א אלכתאב",
+      "en_phrase": "when he reads this book",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "ראם",
+      "n_hits": 2,
+      "entry": {
+        "id": "taf-d-360-34",
+        "lemma_ja": "ראם",
+        "lemma_ar": "رَامَ",
+        "root": "r-w-m",
+        "pos": "verb",
+        "gloss_en": "to seek, aim at; to scout, explore",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 12,
+      "ever_single_pair": true,
+      "ja_phrase": "ראם",
+      "en_phrase": "desires",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "רטובהֵ",
+      "n_hits": 2,
+      "entry": {
+        "id": "taf-d-1620-7",
+        "lemma_ja": "רטובה",
+        "lemma_ar": "رُطُوبَة",
+        "root": "r-ṭ-b",
+        "pos": "noun",
+        "gloss_en": "moisture, freshness, sap",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "רטובהֵ אלאג'סאם אלרטבה",
+      "en_phrase": "the moisture of moist bodies",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "רפיע",
+      "n_hits": 2,
+      "entry": {
+        "id": "marfu-raised",
+        "lemma_ja": "רפיע",
+        "lemma_ar": "رَفِيع",
+        "root": "r-f-ʕ",
+        "pos": "adjective",
+        "gloss_en": "raised, lofty, exalted",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ארפע כל רפיע",
+      "en_phrase": "highest of every high thing",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "רצ'י",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-radiya",
+        "lemma_ja": "רצ'י",
+        "lemma_ar": "رَضِيَ",
+        "root": "r-ḍ-y",
+        "pos": "verb",
+        "gloss_en": "to be content, satisfied; to approve",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "רצ'י אללה ענה",
+      "en_phrase": "(may God be pleased with him)",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "שהרהֵ",
+      "n_hits": 3,
+      "entry": {
+        "id": "adv-b-r1-1980-33",
+        "lemma_ja": "שהרה",
+        "lemma_ar": "شُهْرَة",
+        "root": "š-h-r",
+        "pos": "noun",
+        "gloss_en": "fame, renown, well-known character",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "עלי שהרהֵ אפעאלהא",
+      "en_phrase": "despite the fame of its acts",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "שריעה",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-2205-13",
+        "lemma_ja": "שריעה",
+        "lemma_ar": "شَرِيعَة",
+        "root": "š-r-ʿ",
+        "pos": "noun",
+        "gloss_en": "law, religious law, legal way",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "בלא דין ולא שריעה",
+      "en_phrase": "without religion and without Law",
+      "gloss_ctx_overlap": 2,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "תהיא",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-tahayyu",
+        "lemma_ja": "תהיא",
+        "lemma_ar": "تَهَيُّؤ",
+        "root": "h-y-ʔ",
+        "pos": "noun",
+        "gloss_en": "predisposition, readiness, disposition (to receive)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "אנה תהיא",
+      "en_phrase": "that it came to be",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "תמייז",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-b-r1-135-5",
+        "lemma_ja": "תמייז",
+        "lemma_ar": "تَمْيِيز",
+        "root": "m-y-z",
+        "pos": "noun",
+        "gloss_en": "discernment, distinction, faculty of distinguishing",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "ען תמייז",
+      "en_phrase": "in discerning",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "תעלם",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-taallum",
+        "lemma_ja": "תעלם",
+        "lemma_ar": "تَعَلُّم",
+        "root": "ʕ-l-m",
+        "pos": "noun",
+        "gloss_en": "learning, acquiring knowledge",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וכד'לך ינבגי אן תעלם",
+      "en_phrase": "And likewise you ought to know",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "תרי",
+      "n_hits": 2,
+      "entry": {
+        "id": "raʾa-see",
+        "lemma_ja": "ראי",
+        "lemma_ar": "رَأَى",
+        "root": "r-'-y",
+        "pos": "verb",
+        "gloss_en": "to see, to look at, to perceive, to behold",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 6,
+      "ever_single_pair": false,
+      "ja_phrase": "אלא תרי",
+      "en_phrase": "Do you not see",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "homograph"
+      ],
+      "suspect_score": 2
+    },
+    {
+      "surface": "אוצאף",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1485-4",
+        "lemma_ja": "אוצאף",
+        "lemma_ar": "أَوْصَافُهُمَا",
+        "root": "w-ṣ-f",
+        "pos": "noun",
+        "gloss_en": "their (dual) attributes/descriptions (awṣāf + -humā)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "פי אוצאף אלכ'אלק ג'ל ועז",
+      "en_phrase": "in the descriptions of the Creator (mighty and exalted)",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:possessive"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "אוצאפה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1485-4",
+        "lemma_ja": "אוצאף",
+        "lemma_ar": "أَوْصَافُهُمَا",
+        "root": "w-ṣ-f",
+        "pos": "noun",
+        "gloss_en": "their (dual) attributes/descriptions (awṣāf + -humā)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "מן אג'זא אוצאפה ומדאיחה",
+      "en_phrase": "of the parts of His descriptions and His praises",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:possessive"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "אוצאפהמא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1485-4",
+        "lemma_ja": "אוצאף",
+        "lemma_ar": "أَوْصَافُهُمَا",
+        "root": "w-ṣ-f",
+        "pos": "noun",
+        "gloss_en": "their (dual) attributes/descriptions (awṣāf + -humā)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וצף מן אוצאפהמא",
+      "en_phrase": "one of His attributes",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:possessive"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "אחכם",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1170-13",
+        "lemma_ja": "אחכם",
+        "lemma_ar": "أَحْكَمَ",
+        "root": "ḥ-k-m",
+        "pos": "verb",
+        "gloss_en": "to make firm, secure, perfect (form IV)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלד'י אחכם רבטהא ואתקן תאליפהא",
+      "en_phrase": "who set firm their binding and made perfect their composition",
+      "gloss_ctx_overlap": 2,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "אכ'תלף",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1350-13",
+        "lemma_ja": "תכ'תלף",
+        "lemma_ar": "تَخْتَلِف",
+        "root": "kh-l-f",
+        "pos": "verb",
+        "gloss_en": "it differs, varies (form VIII, 3fs)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אכ'תלף קבולהא לה",
+      "en_phrase": "their reception of it varies",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "אלאוצאף",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1485-4",
+        "lemma_ja": "אוצאף",
+        "lemma_ar": "أَوْصَافُهُمَا",
+        "root": "w-ṣ-f",
+        "pos": "noun",
+        "gloss_en": "their (dual) attributes/descriptions (awṣāf + -humā)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פהי אלאוצאף אלתי וצף בהא אלכ'אלק תעאלי",
+      "en_phrase": "they are the descriptions by which the Creator (exalted is He) is described",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:possessive"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "אלתדביר",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1350-15",
+        "lemma_ja": "תדביר",
+        "lemma_ar": "تَدْبِيرُهُ",
+        "root": "d-b-r",
+        "pos": "noun",
+        "gloss_en": "his governance, management, ordering (+ 3ms suffix)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אן אלתדביר לא יתם וידום עלי חאל ואחדה",
+      "en_phrase": "is that governance is not perfected, nor does it endure upon a single state",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix,gloss:possessive,gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "באג'תמאעהם",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1350-8",
+        "lemma_ja": "אג'תמאע",
+        "lemma_ar": "اِجْتِمَاعُهُمْ",
+        "root": "j-m-ʕ",
+        "pos": "noun",
+        "gloss_en": "their gathering, agreement, combination (form VIII)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ואן כאן לם יתם ד'לך אלא באג'תמאעהם",
+      "en_phrase": "if that could not be accomplished except by their combining",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:possessive"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "באוצאף",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1485-4",
+        "lemma_ja": "אוצאף",
+        "lemma_ar": "أَوْصَافُهُمَا",
+        "root": "w-ṣ-f",
+        "pos": "noun",
+        "gloss_en": "their (dual) attributes/descriptions (awṣāf + -humā)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "באוצאף מכ'תלפה",
+      "en_phrase": "with varying descriptions",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:possessive"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "באוצאפה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1485-4",
+        "lemma_ja": "אוצאף",
+        "lemma_ar": "أَوْصَافُهُمَا",
+        "root": "w-ṣ-f",
+        "pos": "noun",
+        "gloss_en": "their (dual) attributes/descriptions (awṣāf + -humā)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": true,
+      "ja_phrase": "באוצאפה",
+      "en_phrase": "concerning His descriptions",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:possessive"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "בהמות",
+      "n_hits": 1,
+      "entry": {
+        "id": "bi-with",
+        "lemma_ja": "ב",
+        "lemma_ar": "بِـ",
+        "root": "—",
+        "pos": "preposition",
+        "gloss_en": "with, in, by, by means of, against — proclitic preposition (Hebrew בְּ, Arabic bi-); appears almost exclusively with pronominal suffixes",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וגם בהמות שדי",
+      "en_phrase": "and also the beasts of the field",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "ביה",
+      "n_hits": 1,
+      "entry": {
+        "id": "bi-with",
+        "lemma_ja": "ב",
+        "lemma_ar": "بِـ",
+        "root": "—",
+        "pos": "preposition",
+        "gloss_en": "with, in, by, by means of, against — proclitic preposition (Hebrew בְּ, Arabic bi-); appears almost exclusively with pronominal suffixes",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "שירו לה' זמרו שמו סולו לרוכב בערבות ביה שמו",
+      "en_phrase": "Sing unto the Lord, sing praises to His Name; extol Him that rideth upon the skies, by His Name Yah",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "בך",
+      "n_hits": 1,
+      "entry": {
+        "id": "bi-with",
+        "lemma_ja": "ב",
+        "lemma_ar": "بِـ",
+        "root": "—",
+        "pos": "preposition",
+        "gloss_en": "with, in, by, by means of, against — proclitic preposition (Hebrew בְּ, Arabic bi-); appears almost exclusively with pronominal suffixes",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "לא יהיה בך אל זר",
+      "en_phrase": "\"Let there be no strange god in you\"",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "ברודתה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1755-44",
+        "lemma_ja": "ברודה",
+        "lemma_ar": "بُرُودَة",
+        "root": "b-r-d",
+        "pos": "noun",
+        "gloss_en": "coldness, coolness (here with suffix: 'its coldness'; key 'rwd' is a broken stem)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ברודתה וכ'שונתה",
+      "en_phrase": "its coldness and its roughness",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "דור",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1170-38",
+        "lemma_ja": "ידור",
+        "lemma_ar": "يَدُور",
+        "root": "d-w-r",
+        "pos": "verb",
+        "gloss_en": "it turns, revolves (3ms; here of a water-wheel)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וזה זכרי לדור דור",
+      "en_phrase": "and this is My memorial unto all generations",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "דקתהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1260-29",
+        "lemma_ja": "דקה",
+        "lemma_ar": "دِقَّة",
+        "root": "d-q-q",
+        "pos": "noun",
+        "gloss_en": "fineness, minuteness, subtlety; here w/ suffix: its fineness",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פי כ'לקהֵ אלנמלה ואלד'רה עלי דקתהא",
+      "en_phrase": "in the creation of the ant and the mote, for all their minuteness",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "הצור",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1665-0",
+        "lemma_ja": "הצור",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "\"The Rock, His work is perfect\" — biblical citation (Deut 32:4)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 1,
+      "ever_single_pair": false,
+      "ja_phrase": "פלמא קאם לנא אלאסתדלאל מן ג'ההֵ את'ארה פי אלמכ'לוקין, וכאנת אכת'ר מן אן יחיט בהא כת'רהֵ אוצאף אלכ'אלק ג'ל ועז מן אג'להא, פוצפתה אלאנביא ואלאוליא באוצאף מכ'תלפה, מנהא וצף אלרסול ע\"ס בקולה הצור תמים פעלו כי כל דרכיו משפט,",
+      "en_phrase": "And since inference was established for us by way of His traces in the created things, and the multitude of the descriptions of the Creator (mighty and exalted) was more than what could be encompassed on account of them, the prophets and the friends [of God] described Him with varying descriptions, among them the description of the Messenger (peace be upon him) in his saying: \"The Rock, His work is perfect, for all His ways are justice\" (Deuteronomy 32:4),",
+      "gloss_ctx_overlap": 3,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "ואלברודה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1755-44",
+        "lemma_ja": "ברודה",
+        "lemma_ar": "بُرُودَة",
+        "root": "b-r-d",
+        "pos": "noun",
+        "gloss_en": "coldness, coolness (here with suffix: 'its coldness'; key 'rwd' is a broken stem)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "ואלחרארה ואלברודה",
+      "en_phrase": "and heat and cold",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "ואלתדביר",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1350-15",
+        "lemma_ja": "תדביר",
+        "lemma_ar": "تَدْبِيرُهُ",
+        "root": "d-b-r",
+        "pos": "noun",
+        "gloss_en": "his governance, management, ordering (+ 3ms suffix)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "באלראי ואלתדביר ואלנט'ר",
+      "en_phrase": "in counsel, in governance, and in deliberation",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix,gloss:possessive,gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "ואתקן",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1170-15",
+        "lemma_ja": "אתקן",
+        "lemma_ar": "أَتْقَنَ",
+        "root": "t-q-n",
+        "pos": "verb",
+        "gloss_en": "to make perfect/well-arranged, do skilfully (form IV)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלד'י אחכם רבטהא ואתקן תאליפהא",
+      "en_phrase": "who set firm their binding and made perfect their composition",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "ויערף",
+      "n_hits": 2,
+      "entry": {
+        "id": "adv-yarif",
+        "lemma_ja": "יערף",
+        "lemma_ar": "يَعْرِف",
+        "root": "ʕ-r-f",
+        "pos": "verb",
+        "gloss_en": "to know, recognize (yaʿrifuhu = he knows it)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ויערף אן ד'לך תקריב ותעביר מן אלכתאב",
+      "en_phrase": "and he is made to know that this is an approximation and a figurative expression of the book",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "וקואם",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1260-19",
+        "lemma_ja": "קואם",
+        "lemma_ar": "قِوَام",
+        "root": "q-w-m",
+        "pos": "noun",
+        "gloss_en": "support, sustenance, that by which a thing subsists; here w/ suffix",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "וקואם אלכל באלאנסאן",
+      "en_phrase": "while the subsistence of all is through man",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "וראבטהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1170-0",
+        "lemma_ja": "רבט",
+        "lemma_ar": "رَبَطَ",
+        "root": "r-b-ṭ",
+        "pos": "verb",
+        "gloss_en": "to bind, tie fast (here: with 1pl suffix, 'he bound us' / fastened together)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אן מולפהא גירהא וראבטהא סואהא",
+      "en_phrase": "that what composed them is other than they, and what bound them together is none but it",
+      "gloss_ctx_overlap": 2,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix,gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "ושדהֵ",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-765-23",
+        "lemma_ja": "שדה",
+        "lemma_ar": "شِدَّة",
+        "root": "sh-d-d",
+        "pos": "noun",
+        "gloss_en": "intensity, strength, severity (shidda + suffix -hu: 'shiddat 'inayatihi' = the intensity of His care)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ושדהֵ ענאיתה באלמכ'לוקאת",
+      "en_phrase": "the intensity of His care for the creatures",
+      "gloss_ctx_overlap": 2,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "ותדביר",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1350-15",
+        "lemma_ja": "תדביר",
+        "lemma_ar": "تَدْبِيرُهُ",
+        "root": "d-b-r",
+        "pos": "noun",
+        "gloss_en": "his governance, management, ordering (+ 3ms suffix)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ותדביר חכים קאדר",
+      "en_phrase": "without the governance of a wise and powerful one",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix,gloss:possessive,gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "י",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-0-8",
+        "lemma_ja": "י",
+        "lemma_ar": "ي",
+        "root": "—",
+        "pos": "particle",
+        "gloss_en": "stray letter / 1st-sg possessive suffix -ī or fragment of כי; not an independent lexeme",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": true,
+      "ja_phrase": "י",
+      "en_phrase": "10",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "יג'ז",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r2-0-5",
+        "lemma_ja": "יג'ז",
+        "lemma_ar": "يَجُوز",
+        "root": "j-w-z",
+        "pos": "verb",
+        "gloss_en": "it is permissible, it is possible (3rd-person imperfect of jāza)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "לם יג'ז אדראכה",
+      "en_phrase": "His perception is not permissible",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "יג'מעהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1350-43",
+        "lemma_ja": "יג'מע",
+        "lemma_ar": "يَجْمَعُهَا",
+        "root": "j-m-ʕ",
+        "pos": "verb",
+        "gloss_en": "it gathers/combines them (3fs object)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלתי יג'מעהא ד'לך אלאסם פי מעני ואחד",
+      "en_phrase": "which that name gathers together in a single meaning",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "ידור",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1170-38",
+        "lemma_ja": "ידור",
+        "lemma_ar": "يَدُور",
+        "root": "d-w-r",
+        "pos": "verb",
+        "gloss_en": "it turns, revolves (3ms; here of a water-wheel)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פי דולאב ידור לסקי קטעה מן אלארץ'",
+      "en_phrase": "concerning a water-wheel that turns to irrigate a piece of land",
+      "gloss_ctx_overlap": 3,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "יוג'ד",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-135-4",
+        "lemma_ja": "יוג'ד",
+        "lemma_ar": "يُوجَد",
+        "root": "w-j-d",
+        "pos": "verb",
+        "gloss_en": "is found, exists (passive imperfect of wajada)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 12,
+      "ever_single_pair": false,
+      "ja_phrase": "לא סביל אן יוג'ד פיהא",
+      "en_phrase": "there is no way that",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "יפהמהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1575-3",
+        "lemma_ja": "יפהם",
+        "lemma_ar": "يَفْهَم",
+        "root": "f-h-m",
+        "pos": "verb",
+        "gloss_en": "he understands, comprehends (imperfect)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלתי יפהמהא ד'וי אלעקול ואלאלבאב",
+      "en_phrase": "which the possessors of intellect and understanding grasp",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "ישבהה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1395-19",
+        "lemma_ja": "ישבה",
+        "lemma_ar": "يُشْبِه",
+        "root": "sh-b-h",
+        "pos": "verb",
+        "gloss_en": "it resembles, is similar to (form IV imperfect)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ולא ישבהה שי",
+      "en_phrase": "nor does anything resemble it",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "כה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-0-0",
+        "lemma_ja": "ה",
+        "lemma_ar": "ـه",
+        "root": "—",
+        "pos": "particle",
+        "gloss_en": "stray letter / pronominal-suffix or divine-name fragment (ה' , -hu); not an independent lexeme",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 4,
+      "ever_single_pair": false,
+      "ja_phrase": "ויאמר כה תאמר",
+      "en_phrase": "and He said: thus shall you say",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "כה'",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-0-0",
+        "lemma_ja": "ה",
+        "lemma_ar": "ـه",
+        "root": "—",
+        "pos": "particle",
+        "gloss_en": "stray letter / pronominal-suffix or divine-name fragment (ה' , -hu); not an independent lexeme",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אין קדוש כה' כי אין בלתך",
+      "en_phrase": "There is none holy as the Lord, for there is none beside You",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "נקול",
+      "n_hits": 1,
+      "entry": {
+        "id": "qala",
+        "lemma_ja": "קאל",
+        "lemma_ar": "قال",
+        "root": "q-w-l",
+        "pos": "verb",
+        "gloss_en": "to say; he said (3ms perfect)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "כמא נקול",
+      "en_phrase": "just as we say",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "עמארתהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1260-40",
+        "lemma_ja": "עמארה",
+        "lemma_ar": "عِمَارَة",
+        "root": "ʕ-m-r",
+        "pos": "noun",
+        "gloss_en": "settling/peopling, cultivation, edifice; here w/ suffix",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ורתבהֵ עמארתהא ללעאלם",
+      "en_phrase": "and the order of its building-up of the world",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "פיכ'תלף",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1350-13",
+        "lemma_ja": "תכ'תלף",
+        "lemma_ar": "تَخْتَلِف",
+        "root": "kh-l-f",
+        "pos": "verb",
+        "gloss_en": "it differs, varies (form VIII, 3fs)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פיכ'תלף פהמהם לה",
+      "en_phrase": "so that their understanding of it varies",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "פעלו",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1665-1",
+        "lemma_ja": "פעלו",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "\"His work (is perfect)\" — from Deut 32:4",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 1,
+      "ever_single_pair": false,
+      "ja_phrase": "פלמא קאם לנא אלאסתדלאל מן ג'ההֵ את'ארה פי אלמכ'לוקין, וכאנת אכת'ר מן אן יחיט בהא כת'רהֵ אוצאף אלכ'אלק ג'ל ועז מן אג'להא, פוצפתה אלאנביא ואלאוליא באוצאף מכ'תלפה, מנהא וצף אלרסול ע\"ס בקולה הצור תמים פעלו כי כל דרכיו משפט,",
+      "en_phrase": "And since inference was established for us by way of His traces in the created things, and the multitude of the descriptions of the Creator (mighty and exalted) was more than what could be encompassed on account of them, the prophets and the friends [of God] described Him with varying descriptions, among them the description of the Messenger (peace be upon him) in his saying: \"The Rock, His work is perfect, for all His ways are justice\" (Deuteronomy 32:4),",
+      "gloss_ctx_overlap": 2,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "קואמהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1260-19",
+        "lemma_ja": "קואם",
+        "lemma_ar": "قِوَام",
+        "root": "q-w-m",
+        "pos": "noun",
+        "gloss_en": "support, sustenance, that by which a thing subsists; here w/ suffix",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פי קואמהא ותמאמהא",
+      "en_phrase": "in their subsistence and their completion",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "קונו",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1755-5",
+        "lemma_ja": "קונו",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his Maker (Heb., 'whoever has no regard for the honour of his Maker')",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "על כבוד קונו",
+      "en_phrase": "for the honor of his Maker",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:possessive"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "קלנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "qala",
+        "lemma_ja": "קאל",
+        "lemma_ar": "قال",
+        "root": "q-w-l",
+        "pos": "verb",
+        "gloss_en": "to say; he said (3ms perfect)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 1,
+      "ever_single_pair": false,
+      "ja_phrase": "פאן קאל קאיל אן אלוחדאניה פי אלואחד אלחק ערץ', קלנא אן מעני אלוחדה פי אלואחד אלחק הו נפי אלתכת'ר ואלכת'רה ענה, פאד'א וצפנא אלואחד בצפה לא נצפה אלא במעני עדם אלתכת'ר ואלכת'רה, פאלואחד אלחק לא יוצף בצפה תוג'ב לד'אתה אלתכת'ר ואלתגיר ואלתג'זי ואלאסתחאלה בוג'ה.",
+      "en_phrase": "And if a speaker should say that unity in the True One is an accident, we say that the meaning of unity in the True One is the negation of multiplicity and plurality from Him; so when we describe the One by a description, we describe Him only in the sense of the absence of multiplicity and plurality, for the True One is not described by any description that entails for His essence multiplicity, change, division, or transformation in any way.",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "רבטהא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1170-0",
+        "lemma_ja": "רבט",
+        "lemma_ar": "رَبَطَ",
+        "root": "r-b-ṭ",
+        "pos": "verb",
+        "gloss_en": "to bind, tie fast (here: with 1pl suffix, 'he bound us' / fastened together)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "אלד'י אחכם רבטהא ואתקן תאליפהא",
+      "en_phrase": "who set firm their binding and made perfect their composition",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix,gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "רבטנא",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1170-0",
+        "lemma_ja": "רבט",
+        "lemma_ar": "رَبَطَ",
+        "root": "r-b-ṭ",
+        "pos": "verb",
+        "gloss_en": "to bind, tie fast (here: with 1pl suffix, 'he bound us' / fastened together)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ומתי רבטנא מנהא שיא",
+      "en_phrase": "and whenever we have bound any of them together",
+      "gloss_ctx_overlap": 2,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix,gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "רגליו",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-495-42",
+        "lemma_ja": "רגליו",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "Hebrew quote",
+        "gloss_en": "his feet (Ps 8:7, 'כל שתה תחת רגליו')",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 3,
+      "ever_single_pair": false,
+      "ja_phrase": "כל שתה תחת רגליו",
+      "en_phrase": "You have put all things under his feet",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:possessive"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "תאם",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-2070-25",
+        "lemma_ja": "תאמה",
+        "lemma_ar": "تَامَّة",
+        "root": "t-m-m",
+        "pos": "adjective",
+        "gloss_en": "complete, perfect (fem.)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "פליס ואחד מנהם תאם אלקוה ואלקדרה",
+      "en_phrase": "then not one of them is complete in strength and power",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "תדביר",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1350-15",
+        "lemma_ja": "תדביר",
+        "lemma_ar": "تَدْبِيرُهُ",
+        "root": "d-b-r",
+        "pos": "noun",
+        "gloss_en": "his governance, management, ordering (+ 3ms suffix)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 8,
+      "ever_single_pair": false,
+      "ja_phrase": "תדביר מדבר ואחד",
+      "en_phrase": "the governance of a single Director",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix,gloss:possessive,gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "תדבירה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1350-15",
+        "lemma_ja": "תדביר",
+        "lemma_ar": "تَدْبِيرُهُ",
+        "root": "d-b-r",
+        "pos": "noun",
+        "gloss_en": "his governance, management, ordering (+ 3ms suffix)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ולא ינקץ' תדבירה גירה",
+      "en_phrase": "nor diminishes His governance",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix,gloss:possessive,gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "תוג'ב",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-135-37",
+        "lemma_ja": "תוג'ב",
+        "lemma_ar": "تُوجِب",
+        "root": "w-j-b",
+        "pos": "verb",
+        "gloss_en": "it necessitates, requires, makes obligatory (4th form imperfect)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 9,
+      "ever_single_pair": true,
+      "ja_phrase": "תוג'ב",
+      "en_phrase": "is necessary",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "תכ'תלף",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1350-13",
+        "lemma_ja": "תכ'תלף",
+        "lemma_ar": "تَخْتَلِف",
+        "root": "kh-l-f",
+        "pos": "verb",
+        "gloss_en": "it differs, varies (form VIII, 3fs)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "לא תכ'תלף מע אלדהור",
+      "en_phrase": "that does not vary through the ages",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "תמים",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-135-28",
+        "lemma_ja": "תמים",
+        "lemma_ar": "—",
+        "root": "—",
+        "pos": "proper noun",
+        "gloss_en": "Hebrew quotation/term \"tamim\" (perfect, blameless), e.g. Deut 32:4 \"ha-Tzur tamim poʿolo\", Deut 18:13 \"tamim tihye\"",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 1,
+      "ever_single_pair": false,
+      "ja_phrase": "פלמא קאם לנא אלאסתדלאל מן ג'ההֵ את'ארה פי אלמכ'לוקין, וכאנת אכת'ר מן אן יחיט בהא כת'רהֵ אוצאף אלכ'אלק ג'ל ועז מן אג'להא, פוצפתה אלאנביא ואלאוליא באוצאף מכ'תלפה, מנהא וצף אלרסול ע\"ס בקולה הצור תמים פעלו כי כל דרכיו משפט,",
+      "en_phrase": "And since inference was established for us by way of His traces in the created things, and the multitude of the descriptions of the Creator (mighty and exalted) was more than what could be encompassed on account of them, the prophets and the friends [of God] described Him with varying descriptions, among them the description of the Messenger (peace be upon him) in his saying: \"The Rock, His work is perfect, for all His ways are justice\" (Deuteronomy 32:4),",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "תנתהי",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-135-36",
+        "lemma_ja": "תנתהי",
+        "lemma_ar": "تَنْتَهِي",
+        "root": "n-h-y",
+        "pos": "verb",
+        "gloss_en": "it ends, terminates, comes to its limit (8th form imperfect)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 10,
+      "ever_single_pair": false,
+      "ja_phrase": "תנתהי אליה",
+      "en_phrase": "which it reaches",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:conjugation"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "תפסיר",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1485-28",
+        "lemma_ja": "תפסיר",
+        "lemma_ar": "تَفْسِيرُهُم",
+        "root": "f-s-r",
+        "pos": "noun",
+        "gloss_en": "their interpretation/commentary (tafsīr + -hum)",
+        "source": "lane",
+        "matched": "lemma"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ופי תפסיר סדר בראשית",
+      "en_phrase": "and in the commentary on the order of Bereshit",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:possessive"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "תפסירהם",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-1485-28",
+        "lemma_ja": "תפסיר",
+        "lemma_ar": "تَفْسِيرُهُم",
+        "root": "f-s-r",
+        "pos": "noun",
+        "gloss_en": "their interpretation/commentary (tafsīr + -hum)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ענד תפסירהם ללכתב אלמקדסה",
+      "en_phrase": "in their interpretation of the holy scriptures",
+      "gloss_ctx_overlap": 1,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:possessive"
+      ],
+      "suspect_score": 1
+    },
+    {
+      "surface": "תצוירה",
+      "n_hits": 1,
+      "entry": {
+        "id": "adv-b-r1-765-13",
+        "lemma_ja": "תצויר",
+        "lemma_ar": "تَصْوِير",
+        "root": "ṣ-w-r",
+        "pos": "noun",
+        "gloss_en": "forming, picturing, imagining, representation (here + suffix -hu)",
+        "source": "lane",
+        "matched": "variant"
+      },
+      "count": 2,
+      "ever_single_pair": false,
+      "ja_phrase": "ולא נטלב פי אפכארנא תצוירה",
+      "en_phrase": "and not seek in our thoughts to form an image of Him",
+      "gloss_ctx_overlap": 0,
+      "suspect_reasons": [
+        "gloss-inflection:gloss:suffix"
+      ],
+      "suspect_score": 1
+    }
+  ]
+}

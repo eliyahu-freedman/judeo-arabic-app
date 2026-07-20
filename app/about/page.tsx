@@ -73,9 +73,9 @@ const BIBLIOGRAPHY: {
 export default function AboutPage() {
   return (
     <article className="mx-auto max-w-3xl px-6 py-16 sm:py-20">
-      <p className="label label-accent mb-4">Methodology &amp; Sources</p>
+      <p className="label label-accent mb-4">About</p>
       <h1 className="display text-4xl leading-tight sm:text-5xl">
-        How this edition is made
+        Methodology &amp; Sources
       </h1>
       <p className="mt-6 text-lg leading-relaxed text-ink/75">
         <em>Judeo-Arabic: A Digital Reader &amp; Lexicon</em> presents the

@@ -28,7 +28,7 @@ export default async function LexiconPage({
   const results = query ? await searchLexicon(query) : [];
 
   return (
-    <div className="mx-auto max-w-3xl px-6 py-16 sm:py-20">
+    <div className="mx-auto max-w-5xl px-6 py-16 sm:py-20">
       <p className="label label-accent mb-4">The Lexicon</p>
       <h1 className="display text-4xl leading-tight sm:text-5xl">
         Search the Judeo-Arabic lexicon

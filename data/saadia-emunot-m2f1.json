@@ -1,0 +1,887 @@
+{
+  "work": "Emunot v'Deot",
+  "section": "II:1 · One Creator",
+  "section_ja": "מאמר ב",
+  "subtitle": "כתאב אלאמאנאת ואלאעתקאדאת — The Book of Beliefs and Opinions",
+  "author": "Saadia Gaon (882–942)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "source": "FJMS resourceId 13, Maamar 2, fuṣūl 1",
+  "pages": [
+    {
+      "page_he": "עו",
+      "aligned": [
+        {
+          "ja": "מאמר. ב:. שמחדש. הדברים. אחד.",
+          "en": "Maamar II: The One Who Brings Things Into Being Is One.",
+          "isHeader": true,
+          "pairs": [
+            { "ja": "מאמר. ב", "en": "Maamar II" },
+            { "ja": "שמחדש. הדברים", "en": "Who brings things into being" },
+            { "ja": "אחד", "en": "is One" }
+          ]
+        },
+        {
+          "ja": "הקדמה. אלמקאלה אלת'אניה פי אן מחדת' אלאשיא ואחד תבארך ותעאלי",
+          "en": "Preamble. The Second Maamar: That the Creator of Things Is One, Blessed and Exalted.",
+          "isHeader": true,
+          "pairs": [
+            { "ja": "אלמקאלה אלת'אניה", "en": "The Second Maamar" },
+            { "ja": "מחדת' אלאשיא ואחד", "en": "the Creator of things is One" },
+            { "ja": "תבארך ותעאלי", "en": "Blessed and Exalted" }
+          ]
+        },
+        {
+          "ja": "אצדר פי הד'ה אלמקאלה באן אקול, אן מבאדי אלעלום ג'לילה, ומנאהיהא לטיפה,",
+          "en": "I open this maamar by saying: the starting-points of the sciences are coarse, and their ends are subtle;",
+          "pairs": [
+            { "ja": "אצדר פי הד'ה אלמקאלה", "en": "I open this maamar" },
+            { "ja": "מבאדי אלעלום ג'לילה", "en": "the starting-points of the sciences are coarse" },
+            { "ja": "מנאהיהא לטיפה", "en": "their ends are subtle" }
+          ]
+        },
+        {
+          "ja": "ואנהא תבלג אלי מעלום אכ'יר פלא יכון וראה מעלום אכ'ר,",
+          "en": "and that they arrive at a final object of knowledge beyond which there is no further object of knowledge;",
+          "pairs": [
+            { "ja": "תבלג אלי מעלום אכ'יר", "en": "arrive at a final object of knowledge" },
+            { "ja": "פלא יכון וראה מעלום אכ'ר", "en": "beyond which there is no further object of knowledge" }
+          ]
+        },
+        {
+          "ja": "ואן אלאנסאן יתרקי פי מעלומאתה מן חאל אלי אכ'רי,",
+          "en": "and that a person ascends in his knowledge from one level to another;",
+          "pairs": [
+            { "ja": "אלאנסאן יתרקי", "en": "a person ascends" },
+            { "ja": "מן חאל אלי אכ'רי", "en": "from one level to another" }
+          ]
+        },
+        {
+          "ja": "פכל מנזלה יציר אליהא פהי באלצ'רורה תכון אלטף ואדק מן אלמנזלה אלתי קבלהא,",
+          "en": "so that every level he arrives at is necessarily more subtle and refined than the one before it,",
+          "pairs": [
+            { "ja": "כל מנזלה יציר אליהא", "en": "every level he arrives at" },
+            { "ja": "באלצ'רורה", "en": "necessarily" },
+            { "ja": "אלטף ואדק", "en": "more subtle and refined" },
+            { "ja": "מן אלמנזלה אלתי קבלהא", "en": "than the one before it" }
+          ]
+        },
+        {
+          "ja": "חתי תציר אלמנזלה אלאכ'ירה אלטף אלמעלומאת כלהא ואדקהא,",
+          "en": "until the final level becomes the most subtle and refined of all objects of knowledge;",
+          "pairs": [
+            { "ja": "אלמנזלה אלאכ'ירה", "en": "the final level" },
+            { "ja": "אלטף אלמעלומאת כלהא ואדקהא", "en": "the most subtle and refined of all objects of knowledge" }
+          ]
+        },
+        {
+          "ja": "פאד'א ואפאהא אלאנסאן עלי תלך אלדקה פהו מא טלבה,",
+          "en": "and when a person arrives at it in that refined state, that is precisely what he sought;",
+          "pairs": [
+            { "ja": "ואפאהא אלאנסאן", "en": "a person arrives at it" },
+            { "ja": "עלי תלך אלדקה", "en": "in that refined state" },
+            { "ja": "פהו מא טלבה", "en": "that is precisely what he sought" }
+          ]
+        },
+        {
+          "ja": "פלא יג'וז לה אן יחאולהא אן תכון ג'לילה,",
+          "en": "so he may not try to make it coarse;",
+          "pairs": [
+            { "ja": "לא יג'וז לה", "en": "he may not" },
+            { "ja": "יחאולהא אן תכון ג'לילה", "en": "try to make it coarse" }
+          ]
+        },
+        {
+          "ja": "פאן הו ראם ד'לך פאנמא ראם אלרג'וע אלי אלמעלום אלאול אלד'י מנה אבתדי, או אלת'אני אלד'י בה ת'ני,",
+          "en": "for if he attempts this, he is only attempting to return to the first object of knowledge from which he started, or to the second with which he proceeded;",
+          "pairs": [
+            { "ja": "ראם אלרג'וע", "en": "attempting to return" },
+            { "ja": "אלי אלמעלום אלאול", "en": "to the first object of knowledge" },
+            { "ja": "אלד'י מנה אבתדי", "en": "from which he started" },
+            { "ja": "אלת'אני אלד'י בה ת'ני", "en": "the second with which he proceeded" }
+          ]
+        },
+        {
+          "ja": "והו מע מא ג'אר עלי מראתב אלעלום ותעדי פכל מא אכ'ד' פי אלתג'ליל פי אלמעלום אלאכ'יר פאנמא הו אכ'ד' פי אבטאל נט'רה,",
+          "en": "and even though he has gone through the ranks of knowledge and passed them by — whenever he sets about coarsening the final object of knowledge, he is setting about annulling his inquiry;",
+          "pairs": [
+            { "ja": "ג'אר עלי מראתב אלעלום", "en": "gone through the ranks of knowledge" },
+            { "ja": "אכ'ד' פי אלתג'ליל פי אלמעלום אלאכ'יר", "en": "coarsening the final object of knowledge" },
+            { "ja": "אבטאל נט'רה", "en": "annulling his inquiry" }
+          ]
+        },
+        {
+          "ja": "בל אבטאל עלמה ואלרג'וע אלי אלג'הל בה.",
+          "en": "indeed, he is annulling his very knowledge and reverting to ignorance of it.",
+          "pairs": [
+            { "ja": "אבטאל עלמה", "en": "annulling his knowledge" },
+            { "ja": "אלרג'וע אלי אלג'הל", "en": "reverting to ignorance" }
+          ]
+        },
+        {
+          "ja": "וינבגי אן אשרח מן אין קלת הד'ה אלסתה אלאקואל, ת'ם אתבעה באלסבב אלד'י דעאני אלי תצדירהא פי אול הד'ה אלמקאלה.",
+          "en": "I must explain whence I derived these six propositions, and then follow that with the reason that led me to place them at the opening of this maamar.",
+          "pairs": [
+            { "ja": "אשרח מן אין קלת", "en": "I must explain whence I derived" },
+            { "ja": "הד'ה אלסתה אלאקואל", "en": "these six propositions" },
+            { "ja": "אלסבב אלד'י דעאני אלי תצדירהא", "en": "the reason that led me to place them at the opening" }
+          ]
+        },
+        {
+          "ja": "פאבין אולא אן מבאדי אלעלום ג'לילה, ואקול, לאנהא תבתדי מן אלמחסוס,",
+          "en": "First I explain that the starting-points of the sciences are coarse, and I say: because they begin from the perceptible,",
+          "pairs": [
+            { "ja": "מבאדי אלעלום ג'לילה", "en": "the starting-points of the sciences are coarse" },
+            { "ja": "לאנהא תבתדי מן אלמחסוס", "en": "because they begin from the perceptible" }
+          ]
+        },
+        {
+          "ja": "וכל שי יקע עליה אלחס פהו אלשי אלעאם אלד'י לא יתפאצ'ל אלנאס פיה פיכון בה אחדהם אפצ'ל מן אלאכ'ר, בל לא יפצ'לון בה עלי",
+          "en": "and everything that sense falls upon is the common thing in which people do not differ from one another — no one is superior to another in it — nor indeed are they distinguished by it over",
+          "pairs": [
+            { "ja": "כל שי יקע עליה אלחס", "en": "everything that sense falls upon" },
+            { "ja": "אלשי אלעאם", "en": "the common thing" },
+            { "ja": "לא יתפאצ'ל אלנאס פיה", "en": "in which people do not differ" },
+            { "ja": "לא יפצ'לון בה עלי", "en": "nor are they distinguished by it over" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "עז",
+      "aligned": [
+        {
+          "ja": "אלבהאים, אד' נג'דהא תחס בבצרהא וסמעהא כמא יחסון, פשי סאות פיה אלבהאים אלנאס ליס יג'וז אן יכון שי אגלט' מנה.",
+          "en": "...the beasts — for we find that they perceive through sight and hearing just as humans do; and a thing in which humans and beasts are equal cannot be anything more coarse.",
+          "pairs": [
+            { "ja": "אלבהאים", "en": "the beasts" },
+            { "ja": "תחס בבצרהא וסמעהא", "en": "perceive through sight and hearing" },
+            { "ja": "שי סאות פיה אלבהאים אלנאס", "en": "a thing in which humans and beasts are equal" },
+            { "ja": "ליס יג'וז אן יכון שי אגלט' מנה", "en": "cannot be anything more coarse" }
+          ]
+        },
+        {
+          "ja": "פאד'א וקף אלאנסאן עלי הד'א אלשי אלמחסוס פעלם אנה ג'סם ראי בלטף עקלה אן פיה אעראצ'א,",
+          "en": "When a person stops at this perceptible thing, he knows it is a body; then, by the subtlety of his intellect, he sees that it has accidents —",
+          "pairs": [
+            { "ja": "וקף אלאנסאן עלי הד'א אלשי אלמחסוס", "en": "a person stops at this perceptible thing" },
+            { "ja": "ג'סם", "en": "a body" },
+            { "ja": "בלטף עקלה", "en": "by the subtlety of his intellect" },
+            { "ja": "אן פיה אעראצ'א", "en": "that it has accidents" }
+          ]
+        },
+        {
+          "ja": "וד'לך למא ראה יסוד וקתא ויביץ' וקתא, ויחמא וקתא ויברד וקתא.",
+          "en": "for he sees it turn black at one time and white at another, warm at one time and cold at another.",
+          "pairs": [
+            { "ja": "יסוד וקתא ויביץ' וקתא", "en": "turn black at one time and white at another" },
+            { "ja": "ויחמא וקתא ויברד וקתא", "en": "warm at one time and cold at another" }
+          ]
+        },
+        {
+          "ja": "ת'ם יזיד פי אלתדקיק פירי אן פיה מעני חאצלה מעני כם, וד'לך בוקופה עלי מעני טול וערץ' ועמק.",
+          "en": "Then he refines his inquiry further and sees in it a quality that is a quantity — namely, when he grasps the meanings of length, width, and depth.",
+          "pairs": [
+            { "ja": "יזיד פי אלתדקיק", "en": "refines his inquiry further" },
+            { "ja": "מעני חאצלה מעני כם", "en": "a quality that is a quantity" },
+            { "ja": "טול וערץ' ועמק", "en": "length, width, and depth" }
+          ]
+        },
+        {
+          "ja": "ת'ם יזיד פי אלתלטיף פירי אן מעה מעני יסאיר וצ'עה חאצלה אלמכאן, וד'לך מלאקאתה.",
+          "en": "Then he refines further still and sees in it a quality that accompanies its position — namely, place — and that is its juxtaposition to other things.",
+          "pairs": [
+            { "ja": "יזיד פי אלתלטיף", "en": "refines further still" },
+            { "ja": "מעני יסאיר וצ'עה", "en": "a quality that accompanies its position" },
+            { "ja": "חאצלה אלמכאן", "en": "namely, place" },
+            { "ja": "מלאקאתה", "en": "its juxtaposition" }
+          ]
+        },
+        {
+          "ja": "ת'ם ימר מע דקהֵ נט'רה פיצל אלי אן מעה מעני יסאירה חאצלה אלזמאן וד'לך בקאוה.",
+          "en": "Then, continuing with the refinement of his inquiry, he arrives at the fact that it has a quality that accompanies it — namely, time — and that is its persistence.",
+          "pairs": [
+            { "ja": "דקהֵ נט'רה", "en": "the refinement of his inquiry" },
+            { "ja": "מעני יסאירה חאצלה אלזמאן", "en": "a quality that accompanies it, namely time" },
+            { "ja": "בקאוה", "en": "its persistence" }
+          ]
+        },
+        {
+          "ja": "ועלי הד'א לא יזאל יבאלג ויגאיי והו מנסאק מע פכרה ותמייזה, חתי יבלג אלי אכ'ר מא ידרכה,",
+          "en": "Along this path he never ceases to push further and reach higher, carried along by his thinking and discernment, until he arrives at the furthest extent of what he can grasp,",
+          "pairs": [
+            { "ja": "לא יזאל יבאלג ויגאיי", "en": "never ceases to push further and reach higher" },
+            { "ja": "מנסאק מע פכרה ותמייזה", "en": "carried along by his thinking and discernment" },
+            { "ja": "אכ'ר מא ידרכה", "en": "the furthest extent of what he can grasp" }
+          ]
+        },
+        {
+          "ja": "פיכון ד'לך אלאכ'יר אלטף מא חצל לה, כמא כאן ד'לך אלאול אג'סא מא חצל לה.",
+          "en": "and that final thing will be the most subtle of all that has accrued to him, just as the first was the most coarse of all that had accrued to him.",
+          "pairs": [
+            { "ja": "ד'לך אלאכ'יר אלטף מא חצל לה", "en": "that final thing will be the most subtle of what accrued to him" },
+            { "ja": "ד'לך אלאול אג'סא מא חצל לה", "en": "the first was the most coarse of what had accrued to him" }
+          ]
+        },
+        {
+          "ja": "פמן האהנא חכמת באן אכ'ר אלמעלומאת אלטפהא.",
+          "en": "It is from this that I concluded that the last of the objects of knowledge is the most subtle.",
+          "pairs": [
+            { "ja": "מן האהנא חכמת", "en": "it is from this that I concluded" },
+            { "ja": "אכ'ר אלמעלומאת אלטפהא", "en": "the last of the objects of knowledge is the most subtle" }
+          ]
+        },
+        {
+          "ja": "וקלת אן אלאנסאן יתרקי מן מעלום אלי מעלום חתי ינתהי אלי מעלום לא מעלום וראה לת'לאת' כ'לאל,",
+          "en": "I said that a person ascends from one object of knowledge to another until he reaches an object of knowledge beyond which there is no further — and this for three reasons:",
+          "pairs": [
+            { "ja": "אלאנסאן יתרקי", "en": "a person ascends" },
+            { "ja": "חתי ינתהי אלי מעלום לא מעלום וראה", "en": "until he reaches an object of knowledge beyond which there is no further" },
+            { "ja": "לת'לאת' כ'לאל", "en": "for three reasons" }
+          ]
+        },
+        {
+          "ja": "אחדיהמא לאן אלאנסאן אד'א כאן ג'סמא מחדודא מתנאהיא פיג'ב אן תכון כל קואה מתנאהיה, וקוהֵ אלעלם אחדאהא,",
+          "en": "First: since the human being is a bounded, finite body, all his faculties must be finite — and the faculty of knowledge is one of them;",
+          "pairs": [
+            { "ja": "אלאנסאן אד'א כאן ג'סמא מחדודא מתנאהיא", "en": "the human being is a bounded, finite body" },
+            { "ja": "כל קואה מתנאהיה", "en": "all his faculties must be finite" },
+            { "ja": "קוהֵ אלעלם אחדאהא", "en": "the faculty of knowledge is one of them" }
+          ]
+        },
+        {
+          "ja": "ועלי מא קלת פי אלסמא אן וקת בקאיהא ואג'ב אן תכון מתנאהיה.",
+          "en": "and as I said concerning the heavens, the duration of their persistence must be finite.",
+          "pairs": [
+            { "ja": "עלי מא קלת פי אלסמא", "en": "as I said concerning the heavens" },
+            { "ja": "וקת בקאיהא ואג'ב אן תכון מתנאהיה", "en": "the duration of their persistence must be finite" }
+          ]
+        },
+        {
+          "ja": "ואלת'אניה לאן אלעלם אנמא ינחצר ללאנסאן מן אג'ל אן לה נהאיה, פאן ט'ן אנה לא נהאיה לה בטל אנחצארה,",
+          "en": "Second: knowledge accrues to a person only because it has an end-point; if one supposes that it has no end, its possibility of accrual is nullified,",
+          "pairs": [
+            { "ja": "אלעלם אנמא ינחצר ללאנסאן", "en": "knowledge accrues to a person" },
+            { "ja": "מן אג'ל אן לה נהאיה", "en": "only because it has an end-point" },
+            { "ja": "בטל אנחצארה", "en": "its possibility of accrual is nullified" }
+          ]
+        },
+        {
+          "ja": "ואד'א בטל ד'לך בטל אן יעלמה אחד.",
+          "en": "and when that is nullified, the possibility of anyone knowing it is also nullified.",
+          "pairs": [
+            { "ja": "ואד'א בטל ד'לך", "en": "when that is nullified" },
+            { "ja": "בטל אן יעלמה אחד", "en": "the possibility of anyone knowing it is also nullified" }
+          ]
+        },
+        {
+          "ja": "ואלת'אלת'ה לאן אלאצל אלד'י ינשו",
+          "en": "Third: the source from which all the sciences arise —",
+          "pairs": [
+            { "ja": "אלאצל אלד'י ינשו", "en": "the source from which arise" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "עח",
+      "aligned": [
+        {
+          "ja": "מנה ג'מיע אלעלום אעני אלחס מתנאה לא מחאלה, פליס יג'וז אן יכון מא ינשו מנה גיר מתנאה פיכ'אלף אלפרע אלאצל.",
+          "en": "...I mean sense-perception — is finite without doubt; so it is impossible for that which arises from it to be infinite, for that would make the branch contradict its source.",
+          "pairs": [
+            { "ja": "אעני אלחס מתנאה לא מחאלה", "en": "I mean sense-perception — is finite without doubt" },
+            { "ja": "מא ינשו מנה גיר מתנאה", "en": "that which arises from it to be infinite" },
+            { "ja": "פיכ'אלף אלפרע אלאצל", "en": "the branch would contradict its source" }
+          ]
+        },
+        {
+          "ja": "וקלת אן אלאנסאן יתרקי פיהא מן חאל אלי אכ'רי, לאן ג'מיע אלעלום להא אצל תנשו מנה,",
+          "en": "I said that a person ascends through them from state to state, because all the sciences have a source from which they arise;",
+          "pairs": [
+            { "ja": "אלאנסאן יתרקי פיהא מן חאל אלי אכ'רי", "en": "a person ascends through them from state to state" },
+            { "ja": "ג'מיע אלעלום להא אצל תנשו מנה", "en": "all the sciences have a source from which they arise" }
+          ]
+        },
+        {
+          "ja": "וליס אלג'הל לה אצל ינשו מנה, ואנמא אלג'הל עדם אלעלם פקט,",
+          "en": "whereas ignorance has no source from which it arises — ignorance is simply the privation of knowledge;",
+          "pairs": [
+            { "ja": "אלג'הל לא אצל ינשו מנה", "en": "ignorance has no source from which it arises" },
+            { "ja": "אלג'הל עדם אלעלם פקט", "en": "ignorance is simply the privation of knowledge" }
+          ]
+        },
+        {
+          "ja": "כמא שרחנא פי אמר אלט'לאם אנה עדם אלנור וליס צ'דה,",
+          "en": "as we explained in the matter of darkness: it is the privation of light, not its contrary;",
+          "pairs": [
+            { "ja": "אלט'לאם אנה עדם אלנור", "en": "darkness is the privation of light" },
+            { "ja": "וליס צ'דה", "en": "not its contrary" }
+          ]
+        },
+        {
+          "ja": "וכמת'ל מא דללנא הנאך אן אלט'לאם לו כאן צ'ד אלנור לם ינקלב אלהוא אלמט'לם פיציר נורא,",
+          "en": "and just as we showed there — that if darkness were the contrary of light, the darkened air could not turn and become light —",
+          "pairs": [
+            { "ja": "אלט'לאם לו כאן צ'ד אלנור", "en": "if darkness were the contrary of light" },
+            { "ja": "לם ינקלב אלהוא אלמט'לם פיציר נורא", "en": "the darkened air could not turn and become light" }
+          ]
+        },
+        {
+          "ja": "פכד'אך נקול האהנא אן אלג'הל לו כאן אצלא כאלעלום לם יג'ז אן ינקלב אלג'אהל עאלמא,",
+          "en": "so likewise we say here: if ignorance were a source like the sciences, it would be impossible for the ignorant person to turn and become knowing;",
+          "pairs": [
+            { "ja": "אלג'הל לו כאן אצלא כאלעלום", "en": "if ignorance were a source like the sciences" },
+            { "ja": "לם יג'ז אן ינקלב אלג'אהל עאלמא", "en": "the ignorant person could not turn and become knowing" }
+          ]
+        },
+        {
+          "ja": "בל כאן אלעלם ואלג'הל יג'תמעאן פי ג'ז ואחד פיתמאנעאן,",
+          "en": "rather, knowledge and ignorance would meet in a single instance and mutually repel each other;",
+          "pairs": [
+            { "ja": "אלעלם ואלג'הל יג'תמעאן פי ג'ז ואחד", "en": "knowledge and ignorance would meet in a single instance" },
+            { "ja": "פיתמאנעאן", "en": "mutually repel each other" }
+          ]
+        },
+        {
+          "ja": "פמן ההנא קלת אן אלאנסאן ירתקי פי אלעלם מן חאל אלי אכ'רי, לאנה ינשו מן אצל ויתפרע,",
+          "en": "it is from this that I said a person ascends in knowledge from state to state, because it arises from a source and branches out,",
+          "pairs": [
+            { "ja": "אלאנסאן ירתקי פי אלעלם מן חאל אלי אכ'רי", "en": "a person ascends in knowledge from state to state" },
+            { "ja": "ינשו מן אצל ויתפרע", "en": "it arises from a source and branches out" }
+          ]
+        },
+        {
+          "ja": "וליס יג'וז אן ירתקי פי אלג'הל מן חאל אלי אכ'רי, אד' ליס פי אלג'הל מנאזל יסלך פיהא, ואנמא הו תרך עלם שי בעד שי ועדמה.",
+          "en": "whereas it is impossible to ascend in ignorance from state to state, for ignorance has no levels to traverse — it is merely the successive abandonment and privation of knowledge, thing after thing.",
+          "pairs": [
+            { "ja": "ליס יג'וז אן ירתקי פי אלג'הל", "en": "impossible to ascend in ignorance" },
+            { "ja": "ליס פי אלג'הל מנאזל יסלך פיהא", "en": "ignorance has no levels to traverse" },
+            { "ja": "תרך עלם שי בעד שי ועדמה", "en": "successive abandonment and privation of knowledge" }
+          ]
+        },
+        {
+          "ja": "וקלת חתי תציר אלמנזלה אלאכ'ירה אדק ואלטף מן אלכל, עלי מא נשאהד אן אלת'לג' ינזל מן מעדן אלהוא פנראה כאלחג'ר, פנדק אלנט'ר פנעלם אנה מן מא,",
+          "en": "I said that the final level becomes more refined and subtle than all — let me illustrate: we observe that snow descends from the mine of the air and we see it like a stone; then we refine our inquiry and learn that it is water;",
+          "pairs": [
+            { "ja": "אלמנזלה אלאכ'ירה אדק ואלטף מן אלכל", "en": "the final level is more refined and subtle than all" },
+            { "ja": "אלת'לג' ינזל מן מעדן אלהוא", "en": "snow descends from the mine of the air" },
+            { "ja": "נראה כאלחג'ר", "en": "we see it like a stone" },
+            { "ja": "פנדק אלנט'ר פנעלם אנה מן מא", "en": "we refine our inquiry and learn it is water" }
+          ]
+        },
+        {
+          "ja": "ת'ם נלטף אלפכר איצ'א פנעלם אן ד'לך אלמא לם ירתק אלא עלי סביל אלתבכ'יר ואלתצאעד,",
+          "en": "then we refine our thinking further and learn that this water could only have ascended by way of evaporation and rising,",
+          "pairs": [
+            { "ja": "נלטף אלפכר", "en": "refine our thinking" },
+            { "ja": "ד'לך אלמא לם ירתק אלא עלי סביל אלתבכ'יר ואלתצאעד", "en": "this water could only have ascended by way of evaporation and rising" }
+          ]
+        },
+        {
+          "ja": "פאעתקדנא אן אולה בכ'אר, ת'ם אגרקנא איצ'א פקלנא לא בד לד'לך אלבכ'אר מן סבב ירקיה,",
+          "en": "so we concluded that it began as vapor; then we delved further and said: this vapor must have had a cause that raised it —",
+          "pairs": [
+            { "ja": "אעתקדנא אן אולה בכ'אר", "en": "we concluded it began as vapor" },
+            { "ja": "אגרקנא", "en": "we delved further" },
+            { "ja": "לא בד לד'לך אלבכ'אר מן סבב ירקיה", "en": "this vapor must have had a cause that raised it" }
+          ]
+        },
+        {
+          "ja": "פקד תבין אן אלסבב אלחאצל לנא אכ'ירא הו אלטף",
+          "en": "and it became clear that the cause we finally arrived at is the more subtle —",
+          "pairs": [
+            { "ja": "אלסבב אלחאצל לנא אכ'ירא", "en": "the cause we finally arrived at" },
+            { "ja": "הו אלטף", "en": "is the more subtle" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "עט",
+      "aligned": [
+        {
+          "ja": "מן אלבכ'אר אלד'י הו אלטף מן אלמא אלד'י הו אלטף מן אלת'לג', פהד'א אלסבב אללטיף אלד'י אליה קצד אלאנסאן פוצל.",
+          "en": "...more subtle than the vapor, which is itself more subtle than the water, which is more subtle than the snow — and this subtle cause is what the person aimed to reach, and he reached it.",
+          "pairs": [
+            { "ja": "אלטף מן אלבכ'אר", "en": "more subtle than the vapor" },
+            { "ja": "אלטף מן אלמא", "en": "more subtle than the water" },
+            { "ja": "אלסבב אללטיף אלד'י אליה קצד אלאנסאן פוצל", "en": "the subtle cause the person aimed to reach, and he reached it" }
+          ]
+        },
+        {
+          "ja": "וקלת אנה מן חאול אן יכון אכ'ר מעלומאתה מת'ל אולהא ט'אלם להא, עלי מא אוצ'חת מן רסומהא ותרתיבהא.",
+          "en": "I said that whoever tries to make the last of his objects of knowledge like the first wrongs them, as I have clarified from their definitions and ordering.",
+          "pairs": [
+            { "ja": "מן חאול אן יכון אכ'ר מעלומאתה מת'ל אולהא", "en": "whoever tries to make the last of his objects of knowledge like the first" },
+            { "ja": "ט'אלם להא", "en": "wrongs them" },
+            { "ja": "רסומהא ותרתיבהא", "en": "their definitions and ordering" }
+          ]
+        },
+        {
+          "ja": "וקלת בל הו מפסד עלמה ראג'ע פי מטלובה,",
+          "en": "I said: indeed, he corrupts his knowledge and retreats from what he sought;",
+          "pairs": [
+            { "ja": "מפסד עלמה", "en": "corrupts his knowledge" },
+            { "ja": "ראג'ע פי מטלובה", "en": "retreats from what he sought" }
+          ]
+        },
+        {
+          "ja": "כמן אלזם נפסה אן יכון אלסבב אלמרקי אלבכ'אר מן אלארץ' ת'לג'א מת'ל אלת'לג' אלד'י כ'אץ' פיה אולא,",
+          "en": "like one who insists that the cause raising the vapor from the earth must be snow — like the snow he started with —",
+          "pairs": [
+            { "ja": "אלסבב אלמרקי אלבכ'אר מן אלארץ'", "en": "the cause raising the vapor from the earth" },
+            { "ja": "ת'לג'א מת'ל אלת'לג' אלד'י כ'אץ' פיה אולא", "en": "snow — like the snow he started with" }
+          ]
+        },
+        {
+          "ja": "פקד צ'יע מטלובה, מן אג'ל אנה אן כאן אנמא טלב ת'לג'א פאלת'לג' כאן חאצלא לה בגיר טלב,",
+          "en": "then he has lost what he was seeking; for if what he sought was merely snow, the snow was already at hand without any seeking;",
+          "pairs": [
+            { "ja": "צ'יע מטלובה", "en": "he has lost what he was seeking" },
+            { "ja": "אן כאן אנמא טלב ת'לג'א", "en": "if what he sought was merely snow" },
+            { "ja": "כאן חאצלא לה בגיר טלב", "en": "was already at hand without any seeking" }
+          ]
+        },
+        {
+          "ja": "פאן לם יפצח באלמטאלבה באן יכון ת'לג'א או מא, בל קאל אריד אן אראה ואלא לם אקבלה,",
+          "en": "and if he has not explicitly demanded that it be snow or water but says: 'I want to see it, otherwise I will not accept it' —",
+          "pairs": [
+            { "ja": "לם יפצח באלמטאלבה", "en": "has not explicitly demanded" },
+            { "ja": "אריד אן אראה ואלא לם אקבלה", "en": "I want to see it, otherwise I will not accept it" }
+          ]
+        },
+        {
+          "ja": "פהו קאיל באני טאלבה ת'לג'א או מא או בכ'ארא, לכנה טלבה בלפט' גיר אללפט' אלאול,",
+          "en": "then he is in effect saying he demands it as snow, or water, or vapor — but is demanding it in words other than the original word;",
+          "pairs": [
+            { "ja": "טאלבה ת'לג'א או מא או בכ'ארא", "en": "demanding it as snow, or water, or vapor" },
+            { "ja": "בלפט' גיר אללפט' אלאול", "en": "in words other than the original word" }
+          ]
+        },
+        {
+          "ja": "אד' כאן לא יג'וז אן תרי פי הד'א אלבאב אלא הד'ה אלאשיא,",
+          "en": "for in this domain one can encounter nothing other than these things;",
+          "pairs": [
+            { "ja": "לא יג'וז אן תרי פי הד'א אלבאב", "en": "one can encounter in this domain" },
+            { "ja": "אלא הד'ה אלאשיא", "en": "nothing other than these things" }
+          ]
+        },
+        {
+          "ja": "פאן הו עאד עלי סבב אלבכ'אר באלאבטאל למא לם יחצל לה מראי פקאל אנה לא סבב,",
+          "en": "and if he goes back and nullifies the cause of the vapor — because he cannot see it empirically — and says 'there is no cause' —",
+          "pairs": [
+            { "ja": "עאד עלי סבב אלבכ'אר באלאבטאל", "en": "nullifies the cause of the vapor" },
+            { "ja": "למא לם יחצל לה מראי", "en": "because he cannot see it" },
+            { "ja": "קאל אנה לא סבב", "en": "says there is no cause" }
+          ]
+        },
+        {
+          "ja": "פקד אבטל מעני קד צח ענדה לטמע כאד'ב או ראי פאסד.",
+          "en": "then he has nullified a meaning that had become established for him, out of a false craving or a corrupt view.",
+          "pairs": [
+            { "ja": "אבטל מעני קד צח ענדה", "en": "nullified a meaning that had become established for him" },
+            { "ja": "לטמע כאד'ב", "en": "out of a false craving" },
+            { "ja": "ראי פאסד", "en": "a corrupt view" }
+          ]
+        },
+        {
+          "ja": "פאד' קד אסתופית הד'ה אלשרוח פינבגי אן אבין אלסבב אלד'י דעאני אלא תקדימהא ההנא,",
+          "en": "Now that I have completed these explanations, I must make clear the reason that led me to place them here at the start;",
+          "pairs": [
+            { "ja": "אסתופית הד'ה אלשרוח", "en": "I have completed these explanations" },
+            { "ja": "אבין אלסבב אלד'י דעאני אלא תקדימהא", "en": "make clear the reason that led me to place them at the start" }
+          ]
+        },
+        {
+          "ja": "ואקול, אני למא וצלת אלי באב מערפהֵ אלצאנע ראית קומא ידאפעון ד'לך לעלה אנהם לם ירוה,",
+          "en": "and I say: when I arrived at the chapter of knowing the Maker, I found a group of people who reject this knowledge — perhaps because they have not seen it —",
+          "pairs": [
+            { "ja": "וצלת אלי באב מערפהֵ אלצאנע", "en": "I arrived at the chapter of knowing the Maker" },
+            { "ja": "קומא ידאפעון ד'לך", "en": "people who reject this knowledge" },
+            { "ja": "לעלה אנהם לם ירוה", "en": "perhaps because they have not seen it" }
+          ]
+        },
+        {
+          "ja": "ואכ'רון לסבב גמוצ'ה וגמוץ' מענאה ודקתה ען כל דקה,",
+          "en": "and others on account of its obscurity and the obscurity of its meaning, and its subtlety beyond all subtlety;",
+          "pairs": [
+            { "ja": "לסבב גמוצ'ה וגמוץ' מענאה", "en": "on account of its obscurity and the obscurity of its meaning" },
+            { "ja": "ודקתה ען כל דקה", "en": "its subtlety beyond all subtlety" }
+          ]
+        },
+        {
+          "ja": "ואכ'רון יסומון אן תכון בעד מערפתה מערפה אכ'רי, ואכ'רון יסומון תצוירה פי אוהאמהם ג'סמא, ואכ'רון",
+          "en": "and others who demand that there be another object of knowledge after knowing Him, and others who try to conceive of Him as a body in their imaginations, and still others —",
+          "pairs": [
+            { "ja": "יסומון אן תכון בעד מערפתה מערפה אכ'רי", "en": "demand that there be another object of knowledge after knowing Him" },
+            { "ja": "יסומון תצוירה פי אוהאמהם ג'סמא", "en": "try to conceive of Him as a body in their imaginations" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "פ",
+      "aligned": [
+        {
+          "ja": "לא יפצחון בתג'סימה לכנהם יטאלבון לה אלכמיה או כיפיה או מכאן או זמאן או מא אשבה ד'לך.",
+          "en": "...who do not explicitly corporealise Him, but demand of Him quantity, or quality, or place, or time, or the like.",
+          "pairs": [
+            { "ja": "לא יפצחון בתג'סימה", "en": "do not explicitly corporealise Him" },
+            { "ja": "יטאלבון לה אלכמיה או כיפיה", "en": "demand of Him quantity, or quality" },
+            { "ja": "מכאן או זמאן", "en": "place, or time" }
+          ]
+        },
+        {
+          "ja": "פמטאלבאתהם הד'ה הי אלמטאלבה באלג'סם בעינהא, אד' הד'ה אלאוצאף הי מעאני אלג'סם,",
+          "en": "These demands of theirs are precisely the demand for a body, since these attributes are the very meanings of corporeality;",
+          "pairs": [
+            { "ja": "מטאלבאתהם הד'ה הי אלמטאלבה באלג'סם בעינהא", "en": "these demands are precisely the demand for a body" },
+            { "ja": "הד'ה אלאוצאף הי מעאני אלג'סם", "en": "these attributes are the very meanings of corporeality" }
+          ]
+        },
+        {
+          "ja": "פקדמת הד'ה אלמקדמה לאזיל מוהומאתהם, ואריח אלנפס מן מאונתהא,",
+          "en": "so I placed this preamble first, to dispel their misconceptions and give the mind relief from the burden of them,",
+          "pairs": [
+            { "ja": "קדמת הד'ה אלמקדמה", "en": "I placed this preamble first" },
+            { "ja": "לאזיל מוהומאתהם", "en": "to dispel their misconceptions" },
+            { "ja": "אריח אלנפס מן מאונתהא", "en": "give the mind relief from the burden of them" }
+          ]
+        },
+        {
+          "ja": "ואחקק אן כון מעני אלבארי פי גאיהֵ אללטף הי צחתה, ווג'ודנא לה בעקולנא אדק מן כל מעלום הי חקיקתה.",
+          "en": "and to establish that the Creator's meaning being at the utmost limit of subtlety is precisely its correctness — and that our finding Him through our intellects, more refined than any object of knowledge, is its true reality.",
+          "pairs": [
+            { "ja": "מעני אלבארי פי גאיהֵ אללטף הי צחתה", "en": "the Creator's meaning being at the utmost subtlety is its correctness" },
+            { "ja": "וג'ודנא לה בעקולנא", "en": "our finding Him through our intellects" },
+            { "ja": "אדק מן כל מעלום הי חקיקתה", "en": "more refined than any object of knowledge is its true reality" }
+          ]
+        },
+        {
+          "ja": "פאלד'ין קאלוא לא נצדק אלא במא תראה עיוננא ואבטלוא אלעלום, פקד רדדת עליהם פי ד'כרי מד'הב אלדהריין ואהל אלענוד ואלוקוף במא פיה כפאיה,",
+          "en": "As for those who say 'we affirm only what our eyes see' and thus nullify the sciences — I have already replied to them in my discussion of the school of the Eternalists and the stubborn withholders, and what is there is sufficient;",
+          "pairs": [
+            { "ja": "לא נצדק אלא במא תראה עיוננא", "en": "we affirm only what our eyes see" },
+            { "ja": "ואבטלוא אלעלום", "en": "and thus nullify the sciences" },
+            { "ja": "מד'הב אלדהריין ואהל אלענוד ואלוקוף", "en": "the school of the Eternalists and the stubborn withholders" }
+          ]
+        },
+        {
+          "ja": "מא, אן אחתיג' אלי תאמלה פליעד אלנט'ר פימא קלתה הנאך.",
+          "en": "and if one needs to consider it further, let him return to reflect on what I said there.",
+          "pairs": [
+            { "ja": "אן אחתיג' אלי תאמלה", "en": "if one needs to consider it further" },
+            { "ja": "פליעד אלנט'ר פימא קלתה הנאך", "en": "let him return to reflect on what I said there" }
+          ]
+        },
+        {
+          "ja": "ואלד'ין יאבון מענאה לדקתה וגמוצ'ה פקד תרכוא מטלובהם אלת'אני בעד אלאול,",
+          "en": "And those who reject it on account of its subtlety and obscurity have abandoned their second object of knowledge after the first;",
+          "pairs": [
+            { "ja": "יאבון מענאה לדקתה וגמוצ'ה", "en": "reject it on account of its subtlety and obscurity" },
+            { "ja": "תרכוא מטלובהם אלת'אני בעד אלאול", "en": "abandoned their second object of knowledge after the first" }
+          ]
+        },
+        {
+          "ja": "וד'לך אנך תעלם אני קד שרחת פי באב חדת' אלעאלם אנא גזונא פיה אלי אמר עמיק דקיק לטיף גאמץ' לם יר מת'לה,",
+          "en": "for you know that I explained in the chapter on the creation of the world that we ventured into a matter that is deep, subtle, refined, and obscure — the like of which has never been seen —",
+          "pairs": [
+            { "ja": "פי באב חדת' אלעאלם", "en": "in the chapter on the creation of the world" },
+            { "ja": "גזונא פיה אלי אמר עמיק דקיק לטיף גאמץ'", "en": "we ventured into a matter deep, subtle, refined, and obscure" },
+            { "ja": "לם יר מת'לה", "en": "the like of which has never been seen" }
+          ]
+        },
+        {
+          "ja": "וקלת אן פיה יקול אלכתאב רחוק מה שהיה ועמוק עמוק מי ימצאנו,",
+          "en": "and I said that Scripture says of it: 'Remote is all that came to be, and exceedingly deep — who can find it?' (Qohelet 7:24)",
+          "pairs": [
+            { "ja": "פיה יקול אלכתאב", "en": "Scripture says of it" },
+            { "ja": "רחוק מה שהיה ועמוק עמוק מי ימצאנו", "en": "Remote is all that came to be, and exceedingly deep — who can find it?" }
+          ]
+        },
+        {
+          "ja": "וקד ראית גירנא כיף תוהם ד'לך אלמעני כאלגבאר ואלשעראת וכאלג'ז אלד'י לא יתג'זא, ונחן כ'יף כ'רג' לנא שי לא מן שי.",
+          "en": "and you have seen how others imagined that meaning as like dust, or hair-strands, or the indivisible part — while for us something from nothing came out.",
+          "pairs": [
+            { "ja": "כיף תוהם ד'לך אלמעני", "en": "how others imagined that meaning" },
+            { "ja": "כאלגבאר ואלשעראת", "en": "as like dust, or hair-strands" },
+            { "ja": "כ'רג' לנא שי לא מן שי", "en": "for us something from nothing came out" }
+          ]
+        },
+        {
+          "ja": "פאד'א כאנת הד'ה חאל אלמעלום פי תלך אלמנזלה פבאלצ'רורה תכון חאל אלמעלום פי אלמנזלה אלתי בעדהא אעני אלבארי עז וג'ל אלטף מן כל לטיף,",
+          "en": "If this is the state of the known in that level, then necessarily the state of the known in the level that follows — I mean the Creator (mighty and exalted) — is more subtle than anything subtle,",
+          "pairs": [
+            { "ja": "הד'ה חאל אלמעלום פי תלך אלמנזלה", "en": "the state of the known in that level" },
+            { "ja": "אלמנזלה אלתי בעדהא אעני אלבארי עז וג'ל", "en": "the level that follows — I mean the Creator (mighty and exalted)" },
+            { "ja": "אלטף מן כל לטיף", "en": "more subtle than anything subtle" }
+          ]
+        },
+        {
+          "ja": "ואגמץ' מן כל גאמץ', ואדק מן כל דקיק, ואעמק מן כל עמיק, ואקוי מן כל קוי, ואשמך' מן כל שאמך',",
+          "en": "more obscure than anything obscure, more refined than anything refined, deeper than anything deep, mightier than anything mighty, more exalted than anything exalted —",
+          "pairs": [
+            { "ja": "אגמץ' מן כל גאמץ'", "en": "more obscure than anything obscure" },
+            { "ja": "אדק מן כל דקיק", "en": "more refined than anything refined" },
+            { "ja": "ואקוי מן כל קוי", "en": "mightier than anything mighty" }
+          ]
+        },
+        {
+          "ja": "חתי לא לא ימכן אן יקף עלי כיפיתהא בתה, ופי",
+          "en": "such that it is entirely impossible to comprehend His how-ness at all — and Scripture says regarding this —",
+          "pairs": [
+            { "ja": "לא ימכן אן יקף עלי כיפיתהא בתה", "en": "entirely impossible to comprehend His how-ness at all" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "פא",
+      "aligned": [
+        {
+          "ja": "ד'לך יקול אלכתאב החקר אלוה תמצא אם עד תכלית שדי תמצא, גבהי שמים מה תפעל עמוקה משאול מה תדע, ארכה מארץ מדה ורחבה מני ים.",
+          "en": "...of this Scripture says: 'Can you find the deep things of God? Can you find the limit of the Almighty? It is higher than heaven — what can you do? Deeper than Sheol — what can you know? Its measure is longer than the earth, and broader than the sea.' (Job 11:7–9)",
+          "pairs": [
+            { "ja": "החקר אלוה תמצא", "en": "Can you find the deep things of God?" },
+            { "ja": "גבהי שמים מה תפעל", "en": "higher than heaven — what can you do?" },
+            { "ja": "עמוקה משאול מה תדע", "en": "Deeper than Sheol — what can you know?" }
+          ]
+        },
+        {
+          "ja": "ואלד'ין ראמוא אן נריהמאה ג'סמא פלינתבהוא מן גפלתהם,",
+          "en": "And those who demanded that we show them Him as a body — let them awaken from their heedlessness.",
+          "pairs": [
+            { "ja": "ראמוא אן נריהמאה ג'סמא", "en": "demanded we show them Him as a body" },
+            { "ja": "פלינתבהוא מן גפלתהם", "en": "let them awaken from their heedlessness" }
+          ]
+        },
+        {
+          "ja": "אליס אלג'סם הו כאן אול מעלומנא, ובמא פיה מן אלאת'אר פחצנא ופתשנא חתי וצלנא אלי מערפהֵ צאנעה",
+          "en": "Was it not the body that was the first of our objects of knowledge, and through the traces within it we examined and investigated until we arrived at knowledge of its Maker?",
+          "pairs": [
+            { "ja": "אלג'סם הו כאן אול מעלומנא", "en": "the body was the first of our objects of knowledge" },
+            { "ja": "פחצנא ופתשנא", "en": "we examined and investigated" },
+            { "ja": "מערפהֵ צאנעה", "en": "knowledge of its Maker" }
+          ]
+        },
+        {
+          "ja": "כיף ירג'עון אלי א ב ג ד מת'לא פיחאולוה ג'סמא,",
+          "en": "How then do they go back — as it were to A, B, C — and try to make Him a body?",
+          "pairs": [
+            { "ja": "כיף ירג'עון אלי א ב ג ד", "en": "how do they go back to the beginning" },
+            { "ja": "פיחאולוה ג'סמא", "en": "and try to make Him a body?" }
+          ]
+        },
+        {
+          "ja": "והל כאן אלג'סם אלד'י אלתמסנא לה אלצאנע שכ'צא מערופא בעינה חתי יג'וז אן יכון צאנעה שכ'צא אכ'ר סואה,",
+          "en": "And was the body for which we sought a Maker some specific known individual — such that its Maker could be some other specific individual beside it?",
+          "pairs": [
+            { "ja": "אלג'סם אלד'י אלתמסנא לה אלצאנע", "en": "the body for which we sought a Maker" },
+            { "ja": "שכ'צא מערופא בעינה", "en": "some specific known individual" },
+            { "ja": "יכון צאנעה שכ'צא אכ'ר", "en": "its Maker could be some other specific individual" }
+          ]
+        },
+        {
+          "ja": "אנמא אלתמסנא צאנעא לכל ג'סם ראינאה ועקלנאה, פכל ג'סם יחצל פי פכרנא פהד'א אלצאנע צנעה, והו כ'ארג' ען ד'לך.",
+          "en": "We sought only a Maker for every body we saw and grasped by intellect; so every body that enters our thought — this Maker made it — and He Himself is outside all that.",
+          "pairs": [
+            { "ja": "אלתמסנא צאנעא לכל ג'סם ראינאה ועקלנאה", "en": "we sought a Maker for every body we saw and grasped by intellect" },
+            { "ja": "כל ג'סם יחצל פי פכרנא פהד'א אלצאנע צנעה", "en": "every body that enters our thought — this Maker made it" },
+            { "ja": "והו כ'ארג' ען ד'לך", "en": "He Himself is outside all that" }
+          ]
+        },
+        {
+          "ja": "ואלד'ין אלתמסוא מא וראה פקד דחצ'נא מא ראמוה, מן ג'ההֵ אלאנסאן אלעאלם ווג'וב תנאהי עלמה בתנאהי קוותה,",
+          "en": "As for those who sought something beyond Him — we have already refuted what they sought, from the angle of the knowing human being and the necessity of his knowledge being finite by virtue of his finite faculties;",
+          "pairs": [
+            { "ja": "אלתמסוא מא וראה", "en": "those who sought something beyond Him" },
+            { "ja": "דחצ'נא מא ראמוה", "en": "we have already refuted what they sought" },
+            { "ja": "ווג'וב תנאהי עלמה בתנאהי קוותה", "en": "the necessity of his knowledge being finite by virtue of his finite faculties" }
+          ]
+        },
+        {
+          "ja": "ומן ג'ההֵ אלמעלום אנה אן לם יבלג אלי נהאיה פינקטע לם ינחצר ללנפוס, ומן ג'ההֵ אלאצל אלד'י עליה בנית אלעלום באסרהא.",
+          "en": "and from the angle of the known — that if it does not reach a termination and end, it cannot accrue to the soul; and from the angle of the source on which all the sciences are built.",
+          "pairs": [
+            { "ja": "אן לם יבלג אלי נהאיה פינקטע", "en": "if it does not reach a termination and end" },
+            { "ja": "לם ינחצר ללנפוס", "en": "it cannot accrue to the soul" },
+            { "ja": "אלאצל אלד'י עליה בנית אלעלום", "en": "the source on which all the sciences are built" }
+          ]
+        },
+        {
+          "ja": "פאזיד ד'לך האהנא שרחא ואקול, פלעל ט'אנא יט'ן אנה ימכן אן יכון בעד הד'א אלמעלום מעלום אכ'ר ואנמא פכר אחד אלנאס לם ינלה, או אפכארהם אג'מעין לם תצל אליה.",
+          "en": "Let me add a further explanation here. Perhaps someone supposes it possible for there to be another object of knowledge beyond this one — and that some person's thought has simply not reached it, or that their combined thoughts have not attained it.",
+          "pairs": [
+            { "ja": "פלעל ט'אנא יט'ן", "en": "perhaps someone supposes" },
+            { "ja": "אן יכון בעד הד'א אלמעלום מעלום אכ'ר", "en": "for there to be another object of knowledge beyond this" },
+            { "ja": "אפכארהם אג'מעין לם תצל אליה", "en": "their combined thoughts have not attained it" }
+          ]
+        },
+        {
+          "ja": "פאקול אן הד'א והם פאסד, מן אג'ל אן ג'מיע אלמעלומאת אנמא תעלם בתוסט אלג'סם עלי מא קדמנא פי צדר אלכתאב,",
+          "en": "I say: this is a corrupt fancy — because all objects of knowledge are known only by the mediation of the body, as I stated at the outset of the book;",
+          "pairs": [
+            { "ja": "הד'א והם פאסד", "en": "this is a corrupt fancy" },
+            { "ja": "ג'מיע אלמעלומאת אנמא תעלם בתוסט אלג'סם", "en": "all objects of knowledge are known only by the mediation of the body" },
+            { "ja": "עלי מא קדמנא פי צדר אלכתאב", "en": "as I stated at the outset of the book" }
+          ]
+        },
+        {
+          "ja": "פאד'א כ'רג' אלמעלום ען אן יכון ג'סמא או מתוסט ג'סם פקד אמתנע אן יכון וראה מעלום אכ'ר בתה.",
+          "en": "so once the known transcends being a body or mediated by a body, it is entirely impossible for there to be any further object of knowledge beyond it.",
+          "pairs": [
+            { "ja": "כ'רג' אלמעלום ען אן יכון ג'סמא", "en": "the known transcends being a body" },
+            { "ja": "אמתנע אן יכון וראה מעלום אכ'ר בתה", "en": "entirely impossible for there to be any further object of knowledge beyond it" }
+          ]
+        },
+        {
+          "ja": "ואמא אלד'ין לם יטאלבוא באת'באתה ג'סמא",
+          "en": "As for those who did not demand the proof of His corporeality —",
+          "pairs": [
+            { "ja": "אלד'ין לם יטאלבוא באת'באתה ג'סמא", "en": "those who did not demand the proof of His corporeality" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "פב",
+      "aligned": [
+        {
+          "ja": "לכנהם טאלבוא באן תכון לה חרכה אן סכון או גצ'ב או רצ'א או מא אשבה ד'לך,",
+          "en": "...but who demanded that He have motion or rest, anger or satisfaction, or the like —",
+          "pairs": [
+            { "ja": "טאלבוא באן תכון לה חרכה אן סכון", "en": "demanded that He have motion or rest" },
+            { "ja": "גצ'ב או רצ'א", "en": "anger or satisfaction" }
+          ]
+        },
+        {
+          "ja": "פקד טאלבוא בכונה ג'סמא עלי אלחקיקה בטריק אלמעני לא בטריק אללפט',",
+          "en": "— they in truth demanded His corporeality, via the meaning and not via the word;",
+          "pairs": [
+            { "ja": "טאלבוא בכונה ג'סמא עלי אלחקיקה", "en": "they in truth demanded His corporeality" },
+            { "ja": "בטריק אלמעני לא בטריק אללפט'", "en": "via the meaning and not via the word" }
+          ]
+        },
+        {
+          "ja": "וישבהון מן קאל ליס אטלב ראובן במאיהֵ דרהם לכני אטלבה בג'ד'ר רבוה,",
+          "en": "they resemble one who says: 'I don't demand of Reuven a hundred dirhams — I demand of him the square root of ten thousand;'",
+          "pairs": [
+            { "ja": "ליס אטלב ראובן במאיהֵ דרהם", "en": "I don't demand of Reuven a hundred dirhams" },
+            { "ja": "אטלבה בג'ד'ר רבוה", "en": "I demand of him the square root of ten thousand" }
+          ]
+        },
+        {
+          "ja": "פאנה אנמא אזאל ען ראובן לפט' אלמאיה ואמא מענאהא פת'אבת.",
+          "en": "for he has only removed the word 'hundred' from Reuven while its meaning remains fixed.",
+          "pairs": [
+            { "ja": "אזאל ען ראובן לפט' אלמאיה", "en": "removed the word 'hundred' from Reuven" },
+            { "ja": "ואמא מענאהא פת'אבת", "en": "while its meaning remains fixed" }
+          ]
+        },
+        {
+          "ja": "פאד'א אמתנעת אלמטאלבה באנה ג'סם ארתפעת מעהא אלמטאלבה בשי מן אעראץ' אלג'סם באלכליה,",
+          "en": "So when the demand for Him to be a body is ruled out, the demand for anything among the accidents of the body is entirely lifted along with it;",
+          "pairs": [
+            { "ja": "אמתנעת אלמטאלבה באנה ג'סם", "en": "the demand for Him to be a body is ruled out" },
+            { "ja": "ארתפעת מעהא אלמטאלבה בשי מן אעראץ' אלג'סם", "en": "the demand for anything among the accidents of the body is lifted" },
+            { "ja": "באלכליה", "en": "entirely" }
+          ]
+        },
+        {
+          "ja": "ואנמא רדדת אלכלאם פי הד'ה אלמקדמה מע עאדתי אלאכ'תצאר לאשבעהא שרחא,",
+          "en": "I have dwelt on this preamble at length, despite my habitual brevity, in order to give it its full explanation;",
+          "pairs": [
+            { "ja": "רדדת אלכלאם פי הד'ה אלמקדמה", "en": "I have dwelt at length on this preamble" },
+            { "ja": "מע עאדתי אלאכ'תצאר", "en": "despite my habitual brevity" },
+            { "ja": "לאשבעהא שרחא", "en": "in order to give it its full explanation" }
+          ]
+        },
+        {
+          "ja": "לאנהא קאעדהֵ ג'מיע אלכתאב וקטבה, פאללבת' אליסיר פיהא יגני ען תעב כת'יר בעדהא.",
+          "en": "for it is the foundation and axis of the entire book — a small dwelling-time in it spares much toil afterward.",
+          "pairs": [
+            { "ja": "קאעדהֵ ג'מיע אלכתאב וקטבה", "en": "the foundation and axis of the entire book" },
+            { "ja": "אללבת' אליסיר פיהא יגני ען תעב כת'יר בעדהא", "en": "a small dwelling-time in it spares much toil afterward" }
+          ]
+        },
+        {
+          "ja": "פאן קאל קאיל פכיף צאר הד'א אלמעני יחתאג' פיה אלי הד'א אלתעב אלכת'יר ואלי הד'ה אלאקואל אלואסעה,",
+          "en": "If someone asks: how did this subject come to require such great effort and such extensive discourse? —",
+          "pairs": [
+            { "ja": "כיף צאר הד'א אלמעני יחתאג' פיה", "en": "how did this subject come to require" },
+            { "ja": "הד'א אלתעב אלכת'יר", "en": "such great effort" },
+            { "ja": "הד'ה אלאקואל אלואסעה", "en": "such extensive discourse" }
+          ]
+        },
+        {
+          "ja": "קלנא אן ד'לך לסבבין, אחדהמא לאן כל שי עזיז פאלענאיה בחצולה אכת'ר ואעז ואוסע מן אלענאיה באלשי אלהין,",
+          "en": "We say: this is for two reasons. First, because anything precious requires greater, more intense, and more expansive care in its attainment than care for something easy;",
+          "pairs": [
+            { "ja": "ד'לך לסבבין", "en": "this is for two reasons" },
+            { "ja": "כל שי עזיז פאלענאיה בחצולה אכת'ר", "en": "anything precious requires greater care in its attainment" },
+            { "ja": "מן אלענאיה באלשי אלהין", "en": "than care for something easy" }
+          ]
+        },
+        {
+          "ja": "כמא הו מעלום אן וג'דאן אלזג'אג' אסהל מן וג'דאן אלג'והר.",
+          "en": "just as it is well known that finding glass is easier than finding a gem.",
+          "pairs": [
+            { "ja": "וג'דאן אלזג'אג' אסהל מן וג'דאן אלג'והר", "en": "finding glass is easier than finding a gem" }
+          ]
+        },
+        {
+          "ja": "ואלת'אני לאן אלכ'איצ'ין פי הד'ה אלמערפה כת'רהֵ אקואלהם,",
+          "en": "Second: those who wade into this subject proliferate their theories —",
+          "pairs": [
+            { "ja": "אלכ'איצ'ין פי הד'ה אלמערפה", "en": "those who wade into this subject" },
+            { "ja": "כת'רהֵ אקואלהם", "en": "proliferate their theories" }
+          ]
+        },
+        {
+          "ja": "וכאן סבב ד'לך אמא קלת בצר, אן תעמד ללדפע, או תרך ותואן, או מיל אלי שהוה, עלי מא קדמנא פי צדר אלכתאב,",
+          "en": "and the cause of this is either dimness of vision, or deliberate refutation, or negligence and laziness, or an inclination toward desire — as I stated at the outset of the book —",
+          "pairs": [
+            { "ja": "קלת בצר", "en": "dimness of vision" },
+            { "ja": "אן תעמד ללדפע", "en": "deliberate refutation" },
+            { "ja": "תרך ותואן", "en": "negligence and laziness" },
+            { "ja": "מיל אלי שהוה", "en": "an inclination toward desire" }
+          ]
+        },
+        {
+          "ja": "פלד'לך אחתיג' אלי אלכשף ען כ'טאיהם מעמא אחתיג' אלי איצ'אח אלחק.",
+          "en": "and so I needed to expose their errors along with what I needed to clarify the truth.",
+          "pairs": [
+            { "ja": "אחתיג' אלי אלכשף ען כ'טאיהם", "en": "I needed to expose their errors" },
+            { "ja": "מעמא אחתיג' אלי איצ'אח אלחק", "en": "along with what I needed to clarify the truth" }
+          ]
+        },
+        {
+          "ja": "פאד' פרגת מן הד'ה אלמהמאת פאבתדי בנפס אלמקאלה ואקול",
+          "en": "Now that I am done with these preliminaries, I begin the maamar itself and say:",
+          "pairs": [
+            { "ja": "פרגת מן הד'ה אלמהמאת", "en": "now that I am done with these preliminaries" },
+            { "ja": "פאבתדי בנפס אלמקאלה", "en": "I begin the maamar itself" }
+          ]
+        },
+        {
+          "ja": "פרק. א. ערפנא רבנא ג'ל ועז עלי קול אנביאה אנה ואחד, חי, קאדר, עאלם, לא ישבהה שי, ולא ישבהה אפעאלה,",
+          "en": "Section 1. We know our Lord (mighty and exalted) — according to the word of His prophets — to be One, Living, Omnipotent, All-Knowing; nothing resembles Him, and nothing resembles His acts;",
+          "isHeader": true,
+          "pairs": [
+            { "ja": "פרק. א", "en": "Section 1" },
+            { "ja": "ערפנא רבנא ג'ל ועז", "en": "We know our Lord (mighty and exalted)" },
+            { "ja": "אנה ואחד, חי, קאדר, עאלם", "en": "to be One, Living, Omnipotent, All-Knowing" },
+            { "ja": "לא ישבהה שי ולא ישבהה אפעאלה", "en": "nothing resembles Him, and nothing resembles His acts" }
+          ]
+        },
+        {
+          "ja": "ואקאמוא לנא עלי ד'לך",
+          "en": "and they established for us concerning this —",
+          "pairs": [
+            { "ja": "ואקאמוא לנא עלי ד'לך", "en": "and they established for us concerning this" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useCallback, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { lookup, tokenizeJa, type Entry } from "@/lib/lookup";
 import { sliceByGroups, type VerseAlignment } from "@/lib/alignment";
 import {
@@ -120,11 +120,12 @@ export function TafsirReader({
   return (
     <div className="max-w-3xl mx-auto px-6 py-10 pb-44">
       <header className="mb-10">
-        <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
-          Saadia · {data.book} {data.chapter}
+        <p className="text-xs uppercase tracking-[0.3em] text-muted mb-1">
+          <Link href="/tafsir" className="hover:text-wine transition-colors">← Tafsir</Link>
+          {" · "}Saadia Gaon
         </p>
-        <h1 className="text-4xl tracking-tight text-ink">
-          Tafsir <span className="text-wine italic">Reader</span>
+        <h1 className="text-4xl tracking-tight text-ink mt-3">
+          {data.book} <span className="text-wine italic">{data.chapter}</span>
         </h1>
         <p className="mt-4 text-base text-ink/70 leading-relaxed max-w-xl">
           Tap any Judeo-Arabic word for a starter gloss. Hover any phrase to
@@ -132,16 +133,18 @@ export function TafsirReader({
           together. Toggle the Arabic-script form, the Hebrew translation, or
           the English off if you&apos;d rather read without crutches.
         </p>
-        <p className="mt-3 text-xs text-ink/55">
-          New here? Read{" "}
-          <Link
-            href="/learn/saadia-preface"
-            className="text-wine hover:underline"
-          >
-            Saadia&apos;s own preface
-          </Link>{" "}
-          to this book.
-        </p>
+        <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-ink/55">
+          <span>
+            New here? Read{" "}
+            <Link href="/learn/saadia-preface" className="text-wine hover:underline">
+              Saadia&apos;s own preface
+            </Link>
+            {" "}to this book.
+          </span>
+          {showEnglish && (
+            <span className="italic">English translation is a working draft — author revising.</span>
+          )}
+        </div>
       </header>
 
       <TafsirNav
@@ -293,12 +296,6 @@ export function TafsirReader({
       <div className="mt-10">
         <ChapterNav prev={prev} next={next} />
       </div>
-
-      {showEnglish && (
-        <p className="mt-6 text-xs uppercase tracking-[0.25em] text-muted text-center italic">
-          English is a working draft — author revising
-        </p>
-      )}
 
       {activeToken && (
         <GlossPanel
@@ -520,9 +517,18 @@ function GlossPanel({
   onSetState: (s: WordState) => void;
   onClose: () => void;
 }) {
+  // Dismiss on Escape key
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") onClose();
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
   return (
-    <div className="fixed bottom-0 inset-x-0 z-20 bg-page border-t border-wine/20 shadow-[0_-8px_24px_-12px_rgba(114,47,55,0.2)]">
-      <div className="max-w-3xl mx-auto px-6 py-5">
+    <div className="fixed bottom-0 left-1/2 -translate-x-1/2 z-20 w-full max-w-3xl bg-page border border-b-0 border-wine/20 rounded-t-md shadow-[0_-8px_24px_-12px_rgba(114,47,55,0.2)]">
+      <div className="px-6 py-5">
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-baseline gap-4">
             <span className="font-hebrew text-3xl text-ink" dir="rtl">

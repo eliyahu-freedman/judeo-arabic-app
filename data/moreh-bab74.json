@@ -1,0 +1,287 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 74 — Seven Kalām Methods for Proving the World's Creation",
+  "section_ja": "אלג'ז אלאול · אלפצל שבעים וארבעה",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 74 presents and critiques the seven main kalām arguments for the world's temporal creation (ḥudūth al-ʿālam). Method 1 argues from the individual case of a generated thing (e.g., Zayd, who was once a sperm) to the whole; Method 2 argues from the finitude of generative chains; Method 3 argues from the contingency of atomic arrangements; Method 4 argues from accidents (all accidents are created, substances bear accidents, therefore substances are created); Method 5 is the argument from specification (takhṣīṣ) — the most favored; Method 6 argues from the world's contingency (it could have been otherwise); Method 7 argues from the persistence of souls. Maimonides critically evaluates each, showing they all depend either on the disputed kalam premises or on the permissibility principle (al-tajwīz), and that none constitutes a genuine philosophical demonstration.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 14
+  },
+  "terms": [
+    {
+      "id": "hadut-alam",
+      "ja": "חדות' אלעאלם",
+      "ar": "حدوث العالم",
+      "translit": "ḥudūth al-ʿālam",
+      "gloss": "the createdness / temporal origination of the world",
+      "note": "The key kalām doctrine: the world had a beginning in time. The mutakallimūn devote seven methods to proving this, which Maimonides summarizes and critiques.",
+      "variants": [
+        "חדת'",
+        "מחדת'"
+      ]
+    },
+    {
+      "id": "takhsis",
+      "ja": "אלתכ'ציץ",
+      "ar": "التخصيص",
+      "translit": "al-takhṣīṣ",
+      "gloss": "specification, particularization",
+      "note": "Method 5, the mutakallimūn's favorite: the world has a specific form when it could equally well have had another — someone must have specified this particular form. This argument from divine specification is Maimonides' own preferred argument as well.",
+      "variants": [
+        "מכ'צץ"
+      ]
+    },
+    {
+      "id": "imkan-wujud",
+      "ja": "ממכן אלוג'וד",
+      "ar": "ممكن الوجود",
+      "translit": "mumkin al-wujūd",
+      "gloss": "possible in existence, contingent",
+      "note": "A being whose existence is merely possible, not necessary — the world is such a being. Used in Method 6 to argue for creation.",
+      "variants": [
+        "וג'וב אלוג'וד",
+        "ממכן"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל שבעים וארבעה",
+          "en": "Part One · Chapter Seventy-Four — Seven Kalām Methods for Proving the World's Creation",
+          "isHeader": true
+        },
+        {
+          "ja": "הד'א אלפצל אצ'מן לך פיה אלאכ'באר בדלאיל אלמתכלמין עלי כון אלעאלם מחדת'א ולא תטאלבני בוצף ד'לך בעבאראתהם ולא בתטוילהם לכני אכ'ברך במקצד כל מנהם ובטריק אסתדלאלה עלי את'באת חדת' אלעאלם או אבטאל קדמה ואנבה לך עלי אלמוצ'ע אלד'י פיה אלכ'לל.",
+          "en": "In this chapter I shall inform you of the proofs of the mutakallimūn for the world's being created. Do not require of me that I describe this in their expressions or their length; rather I shall inform you of the aim of each of them and the method of their argument for establishing the world's createdness or invalidating its eternity, and I shall alert you to the point where the defect lies.",
+          "pairs": [
+            {
+              "ja": "אלאכ'באר בדלאיל אלמתכלמין עלי כון אלעאלם מחדת'א",
+              "en": "the proofs of the mutakallimūn for the world's being created"
+            },
+            {
+              "ja": "אכ'ברך במקצד כל מנהם ובטריק אסתדלאלה",
+              "en": "I shall inform you of the aim of each of them and the method of their argument"
+            },
+            {
+              "ja": "אנבה לך עלי אלמוצ'ע אלד'י פיה אלכ'לל",
+              "en": "I shall alert you to the point where the defect lies"
+            }
+          ]
+        },
+        {
+          "ja": "אלטריק אלאול זעם בעצ'הם אן באלחאדת' אלואחד יסתדל עלי אן אלעאלם מחדת' כאנך קלת אן שכ'ץ זיד אלד'י כאן נטפה ת'ם תנקל חאלא בעד חאל חתי צאר אלי כמאלה ומחאל אן יכון הו אלד'י גיר נפסה ונקלהא מן חאל אלי חאל בל לה מגיר גירה.",
+          "en": "Method One: some of them claimed that from a single generated thing one can argue that the world is created — as if you said that the individual Zayd, who was once a sperm, then passed through state after state until he reached his completion, and it is impossible that he himself changed himself and moved himself from state to state — rather he has a changer other than himself.",
+          "pairs": [
+            {
+              "ja": "אן באלחאדת' אלואחד יסתדל עלי אן אלעאלם מחדת'",
+              "en": "from a single generated thing one can argue that the world is created"
+            },
+            {
+              "ja": "שכ'ץ זיד אלד'י כאן נטפה ת'ם תנקל חאלא בעד חאל",
+              "en": "the individual Zayd, who was once a sperm, then passed through state after state"
+            },
+            {
+              "ja": "מחאל אן יכון הו אלד'י גיר נפסה",
+              "en": "it is impossible that he himself changed himself"
+            }
+          ]
+        },
+        {
+          "ja": "טריק ת'אן קאלוא איצ'א אן בחדות' שכ'ץ מן אלאשכ'אץ אלמתנאסלה יתברהן אן אלעאלם כלה מחדת'. וביאן ד'לך אן זידא הד'א לם יכן ת'ם כאן פאן כאן לא ימכן בוג'ה אלא מן עמר אביה פאבוה איצ'א חאדת' פאן כאן לא ימכן אן יכון אבוה אלא מן עמר ג'דה פאלסלסלה תקף ולא יסתמר אלתנאסל לא נהאיה.",
+          "en": "Method Two: they likewise said that from the createdness of an individual from among the reproducing individuals, the createdness of the entire world can be demonstrated. The explanation: this individual Zayd was not yet existing, then came into being; and since he can only be from the age of his father, his father is also created; and since his father can only be from the age of his grandfather, the chain must stop — reproduction cannot go on without end.",
+          "pairs": [
+            {
+              "ja": "אן בחדות' שכ'ץ מן אלאשכ'אץ אלמתנאסלה יתברהן אן אלעאלם כלה מחדת'",
+              "en": "from the createdness of an individual from among the reproducing individuals, the createdness of the entire wo"
+            },
+            {
+              "ja": "אלסלסלה תקף ולא יסתמר אלתנאסל לא נהאיה",
+              "en": "the chain must stop — reproduction cannot go on without end"
+            }
+          ]
+        },
+        {
+          "ja": "טריק ת'אלת' קאלוא ג'ואהר אלעאלם לא תנפך בוג'ה ען אן תכון מג'תמעה או מפתרקה וקד תג'תמע מנהא ג'ואהר תארה ותפתרק אכ'רי. ובין ואצ'ח אן באעתבאר ד'אתהא לא ילזמהא אג'תמאע פקט ולא אפתראק פקט לאן לו כאנת ד'אתהא מוג'בה לאחדהמא לכאנת לא תכ'לו מנה.",
+          "en": "Method Three: they said the atoms of the world can never be other than combined or separated; and atoms sometimes combine and at other times separate. It is clear that considered in themselves they are not necessitated only to combine or only to separate — for if their nature necessitated one of the two, they would never be free of it.",
+          "pairs": [
+            {
+              "ja": "ג'ואהר אלעאלם לא תנפך בוג'ה ען אן תכון מג'תמעה או מפתרקה",
+              "en": "the atoms of the world can never be other than combined or separated"
+            },
+            {
+              "ja": "תג'תמע מנהא ג'ואהר תארה ותפתרק אכ'רי",
+              "en": "atoms sometimes combine and at other times separate"
+            }
+          ]
+        },
+        {
+          "ja": "טריק ראבע קאלוא אלעאלם כלה מרכב מן ג'והר וערץ' ולא ינפך ג'והר מן אלג'ואהר ען. ערץ' או אעראץ' ואלאעראץ' כלהא חאדת'ה פילזם אן יכון אלג'והר אלחאמל להא חאדת'א לאן כל מקארן ללחואדת' ולא ינפך ענהא פהו חאדת'.",
+          "en": "Method Four: they said the entire world is composed of substance and accident, and no substance is free of one or more accidents; and all accidents are created; therefore it necessarily follows that the substance that bears them is also created — for everything that accompanies created things and is never free of them is itself created.",
+          "pairs": [
+            {
+              "ja": "אלעאלם כלה מרכב מן ג'והר וערץ' ולא ינפך ג'והר מן אלג'ואהר ען. ערץ' או אעראץ' ואל",
+              "en": "the entire world is composed of substance and accident, and no substance is free of one or more accidents"
+            },
+            {
+              "ja": "ואלאעראץ' כלהא חאדת'ה פילזם אן יכון אלג'והר אלחאמל להא חאדת'א",
+              "en": "all accidents are created; therefore it necessarily follows that the substance that bea"
+            }
+          ]
+        },
+        {
+          "ja": "פקד תסלם פי הד'ה אלטריק ת'לאת' מקדמאת תחתאג' אלי מא לא כ'פא בה עלי אהל אלנט'ר אחדאהן אן מא לא נהאיה לה עלי ג'ההֵ אלתעאקב מחאל ואלת'אניה אן כל ערץ' חאדת' וכ'צמנא אלד'י ידעי קדם אלעאלם ינאכרנא פי ערץ' מוג'וד קאים לא נהאיה.",
+          "en": "Three premises are thus conceded in this method, which require what is not hidden from those who inquire: first, that what is without end by succession is impossible; second, that every accident is created; but our opponent who claims the world is eternal disputes the second premise — an existing, subsisting accident without end.",
+          "pairs": [
+            {
+              "ja": "תסלם פי הד'ה אלטריק ת'לאת' מקדמאת",
+              "en": "Three premises are thus conceded in this method"
+            },
+            {
+              "ja": "אן מא לא נהאיה לה עלי ג'ההֵ אלתעאקב מחאל",
+              "en": "what is without end by succession is impossible"
+            },
+            {
+              "ja": "כ'צמנא אלד'י ידעי קדם אלעאלם ינאכרנא פי ערץ' מוג'וד קאים לא נהאיה",
+              "en": "our opponent who claims the world is eternal disputes the second premise — an existing, subsisting accide"
+            }
+          ]
+        },
+        {
+          "ja": "טריק כ'אמס והי טריק אלתכ'ציץ. הד'ה אלטריקה יות'רונהא ג'דא ג'דא ומענאהא ראג'ע למא בינת לך פי מקדמתהם אלעאשרה וד'לך אנה יקצד בפכרה אלי אלעאלם באסרה או לאי ג'ז שא מן אג'זאיה ויקול הד'א ג'איז אן יכון עלי גיר מא הו עליה פמן אכ'צה בהד'ה אלאחואל.",
+          "en": "Method Five — this is the method of specification. This method they favor most highly; its meaning goes back to what I explained to you in Premise Ten. One directs his thought to the world in its entirety, or to any part of it he chooses, and says: this could have been otherwise than it is — who specified it with these particular conditions?",
+          "pairs": [
+            {
+              "ja": "טריק אלתכ'ציץ. הד'ה אלטריקה יות'רונהא ג'דא ג'דא ומע",
+              "en": "the method of specification. This method they favor most highly; its "
+            },
+            {
+              "ja": "הד'א ג'איז אן יכון עלי גיר מא הו עליה",
+              "en": "this could have been otherwise than it is"
+            },
+            {
+              "ja": "פמן אכ'צה בהד'ה אלאחואל",
+              "en": "who specified it with these particular conditions?"
+            }
+          ]
+        },
+        {
+          "ja": "ויפרעון הד'א אלטריק לג'זאיאת כת'ירה ג'דא עאמה וכ'אצה חתי יקולון מא כון אלארץ' תחת אלמא באולי מן כונהא פוק אלמא פמן כ'צץ להא הד'א אלמכאן.",
+          "en": "They branch this method out into many details, general and particular, so that they say: what makes the earth being beneath the water more appropriate than being above the water? Who specified this place for it?",
+          "pairs": [
+            {
+              "ja": "מא כון אלארץ' תחת אלמא באולי מן כונהא פוק אלמא",
+              "en": "what makes the earth being beneath the water more appropriate than being above the water"
+            },
+            {
+              "ja": "פמן כ'צץ להא הד'א אלמכאן",
+              "en": "Who specified this place for it?"
+            }
+          ]
+        },
+        {
+          "ja": "והד'א כלה ילזם בתסלים אלמקדמה אלעאשרה מצ'אפא אלי כון בעץ' מן יזעם קדם אלעאלם לא ינאכרנא פי אלתכ'ציץ כמא סנבין. ובאלג'מלה הד'א ענדי אחסן טריק ולי פיה ראי סתסמעה.",
+          "en": "All this follows from conceding Premise Ten, in addition to the fact that some who claim the eternity of the world do not dispute us on specification, as I shall explain. In sum, in my view this is the best method, and I have a view on it that you will hear.",
+          "pairs": [
+            {
+              "ja": "הד'א כלה ילזם בתסלים אלמקדמה אלעאשרה",
+              "en": "All this follows from conceding Premise Ten"
+            },
+            {
+              "ja": "בעץ' מן יזעם קדם אלעאלם לא ינאכרנא פי אלתכ'ציץ",
+              "en": "some who claim the eternity of the world do not dispute us on specification"
+            },
+            {
+              "ja": "הד'א ענדי אחסן טריק ולי פיה ראי סתסמעה",
+              "en": "in my view this is the best method, and I have a view on it that you will hear"
+            }
+          ]
+        },
+        {
+          "ja": "טריק סאדס זעם בעץ' אלמתאכ'רין אנה עת'ר עלי טריק חסנה ג'דא אחסן מן כל טריק תקדם והי תרג'יח אלוג'וד עלי אלעדם. קאל אלעאלם ממכן אלוג'וד ענד כל אחד לאנה לו כאן ואג'ב אלוג'וד לכאן הו אלאלאה ונחן אנמא נתכלם פי אלעאלם.",
+          "en": "Method Six: some later thinkers claimed to have found a very good method — better than all methods preceding — which is the preponderance of existence over non-existence. He said: the world is possible in existence according to everyone, for if it were necessarily existent it would itself be God, and we are speaking only of the world.",
+          "pairs": [
+            {
+              "ja": "תרג'יח אלוג'וד עלי אלעדם",
+              "en": "the preponderance of existence over non-existence"
+            },
+            {
+              "ja": "אלעאלם ממכן אלוג'וד ענד כל אחד",
+              "en": "the world is possible in existence according to everyone"
+            },
+            {
+              "ja": "לאנה לו כאן ואג'ב אלוג'וד לכאן הו אלאלאה",
+              "en": "for if it were necessarily existent it would itself be God"
+            }
+          ]
+        },
+        {
+          "ja": "טריק סאבע קאל איצ'א בעץ' אלמחדת'ין אנה ית'בת חדת' אלעאלם במא תקולה אלפלאספה מן בקא אלאנפס. קאל אד'א כאן אלעאלם קדימא פיכון אלנאס אלד'ין מאתוא פי מא לם יזל לא יתנאהי עדדהם פקד וג'דת אד'א אנפס לא נהאיה להא מוג'ודה מעא.",
+          "en": "Method Seven: some of the creationists also said that the createdness of the world is established by what the philosophers say about the persistence of souls. He said: if the world is eternal, the people who have died from eternity would be infinite in number; thus there would be souls infinite in number existing simultaneously.",
+          "pairs": [
+            {
+              "ja": "אנה ית'בת חדת' אלעאלם במא תקולה אלפלאספה מן בקא אלאנפס",
+              "en": "the createdness of the world is established by what the philosophers say about the persistence of souls"
+            },
+            {
+              "ja": "אד'א כאן אלעאלם קדימא פיכון אלנאס אלד'ין מאתוא פי מא לם יזל לא יתנאהי עדדהם",
+              "en": "if the world is eternal, the people who have died from eternity would be infinite in number"
+            }
+          ]
+        },
+        {
+          "ja": "אמא בעץ' מתאכ'רי אלפלאספה פחלוא הד'א אלשך באן קאלוא אלאנפס אלבאקיה ליסת אג'סאמא פיכון להא מכאן ווצ'ע פימתנע פי וג'ודהא מא לא יתנאהי.",
+          "en": "Some later philosophers dissolved this difficulty by saying: the persisting souls are not bodies that would require place and position, so an infinite number of them in existence is not impossible.",
+          "pairs": [
+            {
+              "ja": "אלאנפס אלבאקיה ליסת אג'סאמא פיכון להא מכאן ווצ'ע",
+              "en": "the persisting souls are not bodies that would require place and position"
+            },
+            {
+              "ja": "פימתנע פי וג'ודהא מא לא יתנאהי",
+              "en": "so an infinite number of them in existence is not impossible"
+            }
+          ]
+        },
+        {
+          "ja": "ואעלם אן כל מן ירום את'באת חדת' אלעאלם או אבטאל קדמה בהד'ה אלטרק אלכלאמיה פלא בד לה צ'רורה מן אסתעמאל אחדי האתין אלמקדמתין או כלתיהמא והי אלמקדמה אלעאשרה אעני אלתג'ויז אלד'הני.",
+          "en": "Know that everyone who aims to establish the world's createdness or to invalidate its eternity by these kalām methods necessarily must employ one or both of these premises: Premise Ten — I mean the permissibility principle of the intellect.",
+          "pairs": [
+            {
+              "ja": "כל מן ירום את'באת חדת' אלעאלם או אבטאל קדמה בהד'ה אלטרק אלכלאמיה",
+              "en": "everyone who aims to establish the world's createdness or to invalidate its eternity by these kalām methods n"
+            },
+            {
+              "ja": "לא בד לה צ'רורה מן אסתעמאל אחדי האתין אלמקדמתין",
+              "en": "necessarily must employ one or both of these premises"
+            },
+            {
+              "ja": "אלמקדמה אלעאשרה אעני אלתג'ויז אלד'הני",
+              "en": "Premise Ten — I mean the permissibility principle of the intellect"
+            }
+          ]
+        },
+        {
+          "ja": "פהד'ה הי אמהאת טרק אלמתכלמין פי את'באת חדת' אלעאלם. פלמא ת'בת להם בהד'ה אלאדלה אן אלעאלם חאדת' לזם באלצ'רורה אן לה צאנע אחדת'ה בקצד ואראדה ואכ'תיאר ת'ם בינוא בעד ד'לך אנה ואחד בטרק נבינהא לך פי הד'א אלפצל.",
+          "en": "These are the mother-methods of the mutakallimūn for establishing the world's createdness. When they established by these proofs that the world is created, it necessarily follows that it has a Maker who created it with purpose, will, and choice; they then proceeded to show that He is one, by methods I shall explain to you in this chapter.",
+          "pairs": [
+            {
+              "ja": "הד'ה הי אמהאת טרק אלמתכלמין פי את'באת חדת' אלעאלם",
+              "en": "These are the mother-methods of the mutakallimūn for establishing the world's createdness"
+            },
+            {
+              "ja": "לזם באלצ'רורה אן לה צאנע אחדת'ה בקצד ואראדה ואכ'תיאר",
+              "en": "it necessarily follows that it has a Maker who created it with purpose, will, and choice"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

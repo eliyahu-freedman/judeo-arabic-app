@@ -1,5 +1,9 @@
 import starter from "@/data/dictionary-starter.json";
-import lane from "@/data/dictionary-lane.json";
+// dictionary-lane.json (~6.5 MB) is NOT statically imported — bundling it
+// synchronously creates a ~5 MB client JS chunk that crashes low-memory tabs.
+// It is loaded lazily on the client the first time this module is evaluated;
+// lookup() falls back to an empty Lane result set during the brief window
+// before the async fetch completes.
 // The auto-extracted Camel-tools dictionary (dictionary-auto.json) has been
 // retired: hand coverage (starter + lane) now exceeds 80%, so the unverified
 // MSA fallback is no longer consulted. The JSON file is kept on disk for the
@@ -55,7 +59,18 @@ export type Entry = {
 };
 
 const STARTER: Entry[] = starter.entries as Entry[];
-const LANE: Entry[] = lane.entries as Entry[];
+
+// Lazy Lane singleton — loaded once, reused thereafter.
+type LaneShape = { entries: Entry[] };
+let _lane: LaneShape | null = null;
+if (typeof window !== "undefined") {
+  import("@/data/dictionary-lane.json").then((m) => {
+    _lane = m.default as unknown as LaneShape;
+  });
+}
+function getLane(): Entry[] {
+  return _lane ? (_lane.entries as Entry[]) : [];
+}
 
 /** Strip trailing punctuation that gets glued onto a word (".,:;؛،"). */
 function stripPunct(tok: string): string {
@@ -210,7 +225,7 @@ export function lookup(rawToken: string): Entry[] {
   // Priority 2: hand-curated Lane-cited dictionary (top-frequency tokens).
   // Walks the same candidate chain so prefixed variants resolve correctly.
   for (const t of triesNorm) {
-    const hits = LANE.filter(
+    const hits = getLane().filter(
       (e) =>
         normalizeFinals(e.lemma_ja) === t ||
         (e.variants && e.variants.some((v) => normalizeFinals(v) === t)),

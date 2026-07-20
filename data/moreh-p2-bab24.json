@@ -1,0 +1,274 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part II, Chapter 24 — The Problem of Astronomy and Epistemic Humility",
+  "section_ja": "אלג'ז אלת'אני · אלפצל אלראבע ואלעשרון",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Maimonides confronts the crisis of astronomical theory: both the epicycle and the eccentric-circle models, needed to explain observed planetary motion, flatly contradict Aristotle's physics. Ptolemy himself admitted the problem. Maimonides draws the lesson that astronomical hypotheses are just calculation tools — they do not tell us what the heavens actually are. He closes with a call for epistemic humility: everything below the moon is knowable, but the heavens above are God's alone. We must know the limits of human reason and resist the urge to speculate beyond them.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "Segmentation follows Sefaria.",
+    "segments": 12
+  },
+  "terms": [
+    {
+      "id": "falak-tadwir",
+      "ja": "פלך תדויר",
+      "ar": "فلك تدوير",
+      "translit": "falak tadwīr",
+      "gloss": "epicycle",
+      "note": "A small sphere rotating on a larger sphere — required by Ptolemy's astronomy but, Maimonides shows, impossible under Aristotle's physics.",
+      "variants": [
+        "תדויר"
+      ]
+    },
+    {
+      "id": "kharij-markaz",
+      "ja": "כ'ארג' אלמרכז",
+      "ar": "خارج المركز",
+      "translit": "khārij al-markaz",
+      "gloss": "eccentric (sphere with off-center axis)",
+      "note": "A sphere whose center is not the earth's center — also incompatible with Aristotelian physics.",
+      "variants": [
+        "כ'רוג' אלמרכז"
+      ]
+    },
+    {
+      "id": "hayra",
+      "ja": "אלחירה",
+      "ar": "الحيرة",
+      "translit": "al-ḥayra",
+      "gloss": "perplexity, embarrassment",
+      "note": "The very word in the book's title. Here applied to genuine scientific perplexity: we cannot explain celestial mechanics.",
+      "variants": [
+        "חאיר"
+      ]
+    },
+    {
+      "id": "majisti",
+      "ja": "כתאב אלמג'סטי",
+      "ar": "كتاب المجسطي",
+      "translit": "Kitāb al-Majisṭī",
+      "gloss": "the Almagest (Ptolemy's astronomical treatise)",
+      "note": "Ptolemy's foundational astronomical work — Maimonides assumes his student has studied it with him.",
+      "variants": [
+        "מג'סטי"
+      ]
+    },
+    {
+      "id": "abu-bakr-ibn-al-saigh",
+      "ja": "אבו בכר אבן אלצאיג",
+      "ar": "أبو بكر ابن الصائغ",
+      "translit": "Abū Bakr ibn al-Ṣāʾigh",
+      "gloss": "Ibn Bājja (Avempace), philosopher",
+      "note": "The Andalusian philosopher (d. 1139) who sought an astronomical system without epicycles — Maimonides discusses his proposal and its limitations.",
+      "variants": [
+        "אבן אלצאיג"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": 1,
+      "aligned": [
+        {
+          "ja": "אלג'ז אלת'אני · אלפצל אלראבע ואלעשרון",
+          "en": "Part Two · Chapter Twenty-Four — The Problem of Astronomy and Epistemic Humility",
+          "isHeader": true
+        },
+        {
+          "ja": "קד עלמת מן אמור אלהיאה מא קראתה עלי ופהמתה ממא תצ'מנה כתאב אלמג'סטי ולם תפסח אלמדה ליוכ'ד' מעך פי נט'ר אכ'ר.",
+          "en": "You know of Astronomy as much as you have studied with me, and learnt from the book Almagest; we had not sufficient time to go beyond this.",
+          "pairs": [
+            {
+              "ja": "קד עלמת מן אמור אלהיאה מא קראתה עלי ופהמתה ממא תצ'מנה כתאב אלמג'סטי",
+              "en": "You know of Astronomy as much as you have studied with me, and learnt from the book Almagest"
+            }
+          ]
+        },
+        {
+          "ja": "ואלד'י קד עלמתה אן אלאמר כלה יג'רי פי אנתט'אם אלחרכאת ומטאבקהֵ סיר אלכואכב למא ירי עלי אצלין אמא פלך תדויר או פלך כ'ארג' אלמרכז או כליהמא ג'מיעא. והאנא אנבהך עלי כון כל ואחד מן אלאצלין כ'ארג'א ען אלקיאס באלג'מלה מכ'אלפא לכל מא תבין פי אלעלם אלטביעי. אול ד'לך את'באת פלך תדויר ידור עלי פלך מא ולא יכון דורה חול מרכז ד'לך אלפלך אלחאמל לה כמא פרץ' ד'לך פי אלקמר ופי אלכ'מסהֵ כואכב והד'א ילזם מנה אלדחרג'ה צ'רורה והו או יכון פלך אלתדויר יתדחרג' ויבדל ג'מלה מכאנה והד'א הו אלמחאל אלד'י הרב מנה אן יכון הנאך שי יבדל מכאנה ולד'לך ד'כר אבו בכר אבן אלצאיג פי כלאמה אלמוג'וד לה פי אלהיאה אן וג'וד פלך תדויר מחאל וקאל הד'א אללזום. וקאל מצ'אפא אלי מא ילזם ענה מן אלמחאל יעני ען וג'וד פלך תדויר אנה ילזם ענה מחאלאת אכ'ר והאנא אבינהא לך מנהא אן יכון אלדור ליס חול מרכז אלעאלם וקאעדהֵ הד'א אלעלם כלה אן אלחרכאת ת'לאת' חרכה מן אלוסט וחרכה אלי אלוסט וחרכה חול אלוסט. פאן כאן ת'ם פלך תדויר פחרכתה לא מן אלוסט ולא אליה ולא חולה. ואיצ'א אן תמהידאת ארסטו פי אלעלם אלטביעי אנה לא בד צ'רורה מן שי ת'אבת חולה תכון אלחרכה ולהד'א לזם אן תכון אלארץ' ת'אבתה ואן כאן פלך אלתדויר מוג'ודא פהד'ה חרכהֵ אסתדארה חול לא שי ת'אבת.",
+          "en": "The theory that [the spheres] move regularly, and that the assumed courses of the stars are in harmony with observation, depends, as you are aware, on two hypotheses: we must assume either epicycles, or excentric spheres, or a combination of both. Now I will show that each of these two hypotheses is irregular, and totally contrary to the results of Natural Science. Let us first consider an epicycle, such as has been assumed in the spheres of the moon and the five planets, rotating on a sphere, but not round the centre of the sphere that carries it. This arrangement would necessarily produce a revolving motion; the epicycle would then revolve, and entirely change its place; but that anything in the spheres should change its place is exactly what Aristotle considers impossible. For that reason Abu-bekr ibn-Alzaig, in an astronomical treatise which he wrote, rejects the existence of epicycles. Besides this impossibility, he mentions others, showing that the theory of epicycles implies other absurd notions. I will here explain them:—(1) It is absurd to assume that the revolution of a cycle has not the centre of the Universe for its centre; for it is a fundamental principle in the order of the Universe that there are only three kinds of motion—from the centre, towards the centre, and round the centre; but an epicycle does not move away from the centre, nor towards it, nor round it. (2) Again, according to what Aristotle explains in Natural Science, there must be something fixed round which the motion takes place: this is the reason why the earth remains stationary. But the epicycle would move round a centre which is not stationary.",
+          "pairs": [
+            {
+              "ja": "אן אלאמר כלה יג'רי פי אנתט'אם אלחרכאת ומטאבקהֵ סיר אלכואכב למא ירי עלי אצלין אמא פלך תדויר או פלך כ'ארג' אלמרכז",
+              "en": "The theory that [the spheres] move regularly, and that the assumed courses of the stars are in harmony with observation, depends, as you are aware, on two hypotheses: we must assume either epicycles, or excentric spheres"
+            },
+            {
+              "ja": "כל ואחד מן אלאצלין כ'ארג'א ען אלקיאס באלג'מלה מכ'אלפא לכל מא תבין פי אלעלם אלטביעי",
+              "en": "each of these two hypotheses is irregular, and totally contrary to the results of Natural Science"
+            },
+            {
+              "ja": "פחרכתה לא מן אלוסט ולא אליה ולא חולה",
+              "en": "an epicycle does not move away from the centre, nor towards it, nor round it"
+            }
+          ]
+        },
+        {
+          "ja": "וקד סמעת אן אבא בכר ד'כר אנה אוג'ד היאה לא יכון פיהא פלך תדויר בל באפלאך כ'ארג'הֵ אלמראכז לא גיר והד'א לם אסמעה מן תלאמיד'ה וחתי לו צח לה ד'לך לם ירבח פי הד'א כביר רבח לאן כ'רוג' אלמרכז איצ'א פיה אלכ'רוג' עמא אצלה ארסטו מא לא מזיד עליה. והד'א תנביה לי. וד'לך אן בכ'רוג' אלמרכז איצ'א קד וג'דנא אלחרכה אלדוריה אלפלכיה לא חול אלוסט בל חול נקטה מתוהמה כ'ארג'ה ען מרכז אלעאלם והי איצ'א חרכה לא חול שי ת'אבת. פאן זעם מן לא עלם לה באלהיאה אן כ'רוג' אלמארכז מנד' תלך אלנקט דאכ'ל פלך אלקמר כמא יבדו באול כ'אטר פהי חרכה חול אלוסט ונחן נתסאמח לה פי כונהא תכון חול נקטה פי אלנאר או פי אלהוא ואן לם תכן אלחרכה חיניד' חול שי ת'אבת ונבין לה אנה קד תברהן מקאדיר כ'רוג' אלמראכז פי אלמג'סטי בחסב מא וצ'ע הנאך וברהן אלמתאכ'רון באלברהאן אלצחיח אלד'י לא שך פיה כם מקדאר כ'רוג' תלך אלמראכז בנצף קטר אלארץ' כמא בינוא אלאבעאד כלהא ואלאעט'אם פתבין אן אלנקטה אלכ'ארג'ה ען מרכז אלעאלם אלתי תדור חולהא אלשמס תלך אלנקטה כ'ארג'ה ען מקער פלך אלקמר צ'רורה ודון מחדב פלך עטראד. וכד'לך אלנקטה אלתי ידור חולהא אלמריך' אעני מרכז פלכה אלכ'ארג' כ'ארג'ה ען מקער פלך עטארד ודון מחדב פלך אלזהרה. וכד'לך מרכז אלמשתרי אלכ'ארג' איצ'א פי הד'א אלבעד בעינה אעני בין פלך עטארד ואלזהרה. ואמא זחל פאן מרכז פלכה אלכ'ארג' יג'י בין פלך אלמריך' ואלמשתרי. פארי כם פי הד'ה אלאמור מן אלבעד ען אלנט'ר אלטביעי והד'א כלה יתבין לך אד'א תאמלת אלאבעאד ואלאעט'אם אלתי עלמת לכל פלך ולכל כוכב ותקדיר ד'לך כלה בנצף קטר אלארץ' חתי יכון אלכל מן נסבה ואחדה בעינהא לא אן ינסב כ'רוג' כל פלך אלי פלכה.",
+          "en": "I have heard that Abu-bekr discovered a system in which no epicycles occur; but excentric spheres are not excluded by him. I have not heard it from his pupils; and even if it be correct that he discovered such a system, he has not gained much by it: for excentricity is likewise as contrary as possible to the principles laid down by Aristotle. For it seems to me that an excentric sphere does not move round the centre of the Universe, but round an imaginary point distant from the centre, and therefore round a point which is not fixed. A person ignorant of astronomy might think that the motion of the excentric spheres may still be considered as taking place round something fixed, since their centre is apparently within the sphere of the moon. I would admit this if the centre were situated in the region of fire or air, although the spheres would not move round a stable point. But I will show that the amount of excentricity has, in a certain way, been described in the Almagest; and later scholars have calculated the exact amount of excentricity in terms of radii of the earth, and have proved the result. The same measure has been used in astronomy in describing all distances and magnitudes. It has thus been shown that the point round which the sun moves lies undoubtedly beyond the sphere of the moon, and below the superficies of the sphere of Mercury. The centre for the circuit of Mars, that is, the centre of the excentric sphere of Mars, is beyond the sphere of Mercury, and below the sphere of Venus. The centre of Jupiter has the same distance; it lies between the sphere of Venus and that of Mercury, whilst the centre of Saturn lies between the spheres of Mars and Jupiter. Now, consider how improbable all this appears according to the laws of Natural Science. You will find it out when you consider the known distances and magnitudes of each sphere and each star, all expressed in terms of the radii of the earth. There is a uniform measure for all, and the excentricity of each sphere is not determined by units proportionate to its own magnitude.",
+          "pairs": [
+            {
+              "ja": "אן אבא בכר ד'כר אנה אוג'ד היאה לא יכון פיהא פלך תדויר",
+              "en": "Abu-bekr discovered a system in which no epicycles occur"
+            },
+            {
+              "ja": "כ'רוג' אלמרכז איצ'א פיה אלכ'רוג' עמא אצלה ארסטו מא לא מזיד עליה",
+              "en": "excentricity is likewise as contrary as possible to the principles laid down by Aristotle"
+            },
+            {
+              "ja": "חרכה לא חול שי ת'אבת",
+              "en": "the spheres would not move round a stable point"
+            }
+          ]
+        },
+        {
+          "ja": "ואשנע מן הד'א ואעט'ם שבהה אן כל פלכין אחדהמא דאכ'ל אלאכ'ר ולאזק בה מן כל ג'הה ומרכזהמא מכ'תלף פאנה ימכן אן יתחרך אלאצגר דאכ'ל אלאכבר ואלאכבר לא יתחרך ולא ימכן אן יתחרך אלאכבר עלי אי קטר אתפק ולא יתחרך אלאצגר אלא מתי מא תחרך אלאכבר תחרך אלאצגר בחרכתה צ'רורה אלא אן תכון אלחרכה עלי אלקטר אלמאר באלמרכזין. ובחסב הד'ה אלמקדמה אלברהאניה ובחסב מא תברהן אן אלכ'לא גיר מוג'וד ובחסב מא וצ'ע מן כ'רוג' אלמראכז ילזם אנה אד'א תחרך אלאעלי חרך אלד'י דונה בחרכתה וחול מרכזה וליס נג'ד אלאמר כד'לך בל נג'ד כל ואחד מנהמא אלחאוי ואלמחוי לא יתחרך בחרכהֵ צאחבה ולא עלי מרכזה ולא עלי אקטאבה בל לכל ואחד חרכה תכ'צה ולד'לך דעת אלצ'רורה לאעתקאד אג'סאם אכ'רי מן אג'סאם אלאפלאך בין כל פלכין. וכם פי הד'א איצ'א מן אלאשכאלאת אן כאן אלאמר כד'לך ואין תפרץ' מראכז תלך אלאג'סאם אלתי בין כל פלכין ותכון לתלך אלאג'סאם איצ'א חרכה כ'אצה וקד בין ד'לך ת'אבת פי מקאלה לה וברהן עלי מא קלנאה אנה לא בד מן ג'סם פלך בין כל פלכין. הד'א כלה ממא לם אבינה לך ענד קראתך עלי לילא אשוש עליך מא כאן גרצ'י תפהימך איאה.",
+          "en": "It is still more improbable and more objectionable to assume that there are two spheres, the one within the other; that these are closely joined from all sides, and have, nevertheless, different centres. For in this case the smaller sphere might move whilst the larger be at rest; but the smaller cannot be at rest when the larger moves, and must move with the larger when the latter rotates round any other axis than that which passes through the two centres. Now we have this proposition which can be proved; and, further, the established theory that there is no vacuum, and also the assumed excentricity of the spheres; from all this it follows that in every two spheres the motion of the upper one should cause the lower sphere to move in the same way, and round the same centre. But this is not the case: the outer and the inner spheres do not move in the same way, and not round the same centre or the same axis: each of them has its peculiar motion. For this reason it has been assumed that between every two spheres there are substances different from those of the spheres. It may be very much doubted whether this is the case: for where should the centres of these intermediate substances be placed? have these substances likewise their own peculiar motion? Thabith has explained the above-mentioned theory in one of his treatises, and proved that we must assume a substance of a spherical form intermediate between one sphere and the other. All this is part of that which I have not explained to you when you studied with me, for I was afraid you might become confused and would not understand even those things which I wished to show you.",
+          "pairs": [
+            {
+              "ja": "כל פלכין אחדהמא דאכ'ל אלאכ'ר ולאזק בה מן כל ג'הה ומרכזהמא מכ'תלף",
+              "en": "there are two spheres, the one within the other; that these are closely joined from all sides, and have, nevertheless, different centres"
+            },
+            {
+              "ja": "פאנה ימכן אן יתחרך אלאצגר דאכ'ל אלאכבר ואלאכבר לא יתחרך",
+              "en": "in this case the smaller sphere might move whilst the larger be at rest"
+            },
+            {
+              "ja": "כל ואחד מנהמא אלחאוי ואלמחוי לא יתחרך בחרכהֵ צאחבה ולא עלי מרכזה",
+              "en": "the outer and the inner spheres do not move in the same way, and not round the same centre or the same axis"
+            },
+            {
+              "ja": "דעת אלצ'רורה לאעתקאד אג'סאם אכ'רי מן אג'סאם אלאפלאך בין כל פלכין",
+              "en": "it has been assumed that between every two spheres there are substances different from those of the spheres"
+            }
+          ]
+        },
+        {
+          "ja": "אמא אמר אלמיל ואלאנחראף אלמד'כור פי ערץ' אלזהרה ועטארד פקד בינת לך שפאהא ואריתך אמתנאע תצור וג'וד ד'לך פי אלאג'סאם. ובטלמיוס קד צרח באלעג'ז פי הד'א כמא ראית וקאל בהד'א אלנץ ולא יט'ן אחד אן הד'ה אלאצול ומא אשבההא עסר וקועהא באן יג'על נט'רה פי מא מת'לנא כנט'רה אלי מא יכון מן אלאשיא אלתי תתכ'ד' באלחילה ולטף אלצנאעה ועסר וקועהא וד'לך אנה ליס ינבגי אן יקאס עלי אלאמור אלאלאהיה אלאמור אלאנסיה הד'א נץ כלאמה כמא עלמת.",
+          "en": "But as to the inclination and the deviation assumed in respect to the latitude of the paths of Venus and Mercury, I have already clearly shown you viva voce that it is impossible to imagine material beings under such conditions. You have seen that Ptolemy has already pointed out this difficulty. He says as follows: “Let no one think that these and similar principles are improbable. If any one considers what we have here expounded in the same light as he considers things produced by skill and subtle work, he will find it improbable; but it is not right to compare human things to divine things.” This is, as you know, what Ptolemy says,",
+          "pairs": [
+            {
+              "ja": "אמר אלמיל ואלאנחראף אלמד'כור פי ערץ' אלזהרה ועטארד פקד בינת לך שפאהא ואריתך אמתנאע תצור וג'וד ד'לך פי אלאג'סאם",
+              "en": "the inclination and the deviation assumed in respect to the latitude of the paths of Venus and Mercury, I have already clearly shown you viva voce that it is impossible to imagine material beings under such conditions"
+            },
+            {
+              "ja": "ובטלמיוס קד צרח באלעג'ז פי הד'א",
+              "en": "Ptolemy has already pointed out this difficulty"
+            },
+            {
+              "ja": "ליס ינבגי אן יקאס עלי אלאמור אלאלאהיה אלאמור אלאנסיה",
+              "en": "it is not right to compare human things to divine things"
+            }
+          ]
+        },
+        {
+          "ja": "וקד ארשדתך אלי אלמואצ'ע אלתי תחקק מנהא כל מא ד'כרת לך אלא מא ד'כרת לך מן תאמל הד'ה אלנקט אלתי הי מראכז אלאפלאך אלכ'ארג'ה אין תקע לאני מא מר בי קט מן ג'על ד'לך מן באלה והד'א יתבין לך מן מערפהֵ מקדאר קטר כל פלך וכם בין אלמרכזין בנצף קטר אלארץ' עלי מא ברהן אלקביצי פי רסאלהֵ אלאבעאד. פאנך אד'א תאמלת תלך אלאבעאד תבין לך צחהֵ מא נבהתך עליה.",
+          "en": "and I have already pointed out to you the passages by which you can verify all I said, except what I stated about the position of the centres of the excentric spheres; for I have not heard that any one has paid attention to this question. But you will understand it when you know the length of the diameter of each sphere, and the extent of its excentricity in terms of radii of the earth, according to the facts which Kabici has established in his treatise on the distances. When you notice these distances you will confirm my words.",
+          "pairs": [
+            {
+              "ja": "מא ד'כרת לך מן תאמל הד'ה אלנקט אלתי הי מראכז אלאפלאך אלכ'ארג'ה אין תקע",
+              "en": "except what I stated about the position of the centres of the excentric spheres"
+            },
+            {
+              "ja": "יתבין לך מן מערפהֵ מקדאר קטר כל פלך",
+              "en": "you will understand it when you know the length of the diameter of each sphere"
+            }
+          ]
+        },
+        {
+          "ja": "פתאמל עט'ים הד'א אלאשכאל אן כאן מא ד'כרה ארסטו פי אלעלם אלטביעי הו אלחק פלא פלך תדויר ולא כ'ארג' אלמרכז ואלכל תדור חול מרכז אלארץ' פכיף יוג'ד ללכואכב הד'ה אלחרכאת אלמכ'תלפה. והל ת'ם וג'ה ימכן מעה אן תכון אלחרכה דוריה מסתויה כאמלה וירי פיהא מא ירי אלא באחד אצלין או במג'מועהמא ולא סימא בכון כל מא ד'כר בטלמיוס מן פלך תדויר אלקמר ואנחראפה נחו נקטה כ'ארג'ה ען מרכז אלעאלם וען מרכזה אלכ'ארג' יוג'ד מא יחסב בחסב וצ'ע תלך אלאצול לא יגאדר דקיקה ואחדה וישהד עלי צחהֵ ד'לך צחהֵ אלכסופאת אלמחסובה בתלך אלאצול דאימא ותחריר אוקאתהא ואזמנהֵ אט'לאמהא ומקאדירה. וכיף יתצור איצ'א רג'וע אלכוכב מע סאיר חרכאתה דון פלך תדויר. וכיף ימכן איצ'א אן תתכ'יל הנאך דחרג'ה או חרכה חול לא מרכז ת'אבת פהד'ה הי אלחירה באלחקיקה.",
+          "en": "Consider, therefore, how many difficulties arise if we accept the theory which Aristotle expounds in Physics. For, according to that theory, there are no epicycles, and no excentric spheres, but all spheres rotate round the centre of the earth! How then can the different courses of the stars be explained? how is it possible to assume a uniform perfect rotation with the phenomena which we perceive, except by admitting one of the two hypotheses or both of them? The difficulty is still more apparent when we find that admitting what Ptolemy said as regards the epicycle of the moon, and its inclination towards a point different both from the centre of the Universe and from its own centre, the calculations according to these hypotheses are perfectly correct, within one minute: that their correctness is confirmed by the most accurate calculation of the time, duration, and extent of the eclipses, which is always based on these hypotheses. Furthermore, how can we reconcile, without assuming the existence of epicycles, the apparent retrogression of a star with its other motions? How can rotation or motion take place round a point which is not fixed? These are real difficulties.",
+          "pairs": [
+            {
+              "ja": "אן כאן מא ד'כרה ארסטו פי אלעלם אלטביעי הו אלחק פלא פלך תדויר ולא כ'ארג' אלמרכז ואלכל תדור חול מרכז אלארץ' פכיף יוג'ד ללכואכב הד'ה אלחרכאת אלמכ'תלפה",
+              "en": "according to that theory, there are no epicycles, and no excentric spheres, but all spheres rotate round the centre of the earth! How then can the different courses of the stars be explained?"
+            },
+            {
+              "ja": "הד'ה הי אלחירה באלחקיקה",
+              "en": "These are real difficulties"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": 2,
+      "aligned": [
+        {
+          "ja": "וקד בינת לך שפאהא אן הד'א כלה לא ילזם צאחב אלהיאה לאן ליס מקצודה אן יכ'ברנא בצורהֵ וג'וד אלאפלאך כיף הי בל קצדה אן יפרץ' היאה ימכן בהא אן תכון אלחרכאת דוריה ומסתויה ותטאבק מא ידרך עיאנא כאן אלאמר כד'לך או לם יכן.",
+          "en": "I have explained to you already vivâ voce, that these difficulties do not concern the astronomer: for he does not profess to tell us the existing properties of the spheres, but to suggest, whether correctly or not, a theory in which the motion of the stars is circular and uniform, and yet in agreement with our observation.",
+          "pairs": [
+            {
+              "ja": "הד'א כלה לא ילזם צאחב אלהיאה לאן ליס מקצודה אן יכ'ברנא בצורהֵ וג'וד אלאפלאך כיף הי",
+              "en": "these difficulties do not concern the astronomer: for he does not profess to tell us the existing properties of the spheres"
+            },
+            {
+              "ja": "בל קצדה אן יפרץ' היאה ימכן בהא אן תכון אלחרכאת דוריה ומסתויה ותטאבק מא ידרך עיאנא",
+              "en": "a theory in which the motion of the stars is circular and uniform, and yet in agreement with our observation"
+            }
+          ]
+        },
+        {
+          "ja": "וקד עלמת אן אבא בכר אבן אלצאיג ישך פי כלאמה פי אלטביעיאת הל עלם ארסטו כ'רוג' מרכז אלשמס וסכת ענה ואשתגל במא ילזם ען אלמיל לכון פעל כ'רוג' אלמרכז ליס במתמיז ען פעל אלמיל או לם ידרכה. ואלצחיח אנה מא אדרכה ולא סמעה קט לאן אלתעאלים לם תכמל פי זמאנה ולו סמעה לאנכרה אשד אנכאר ולו צח לה לתחיר פי כל מא וצ'עה פי הד'א אלנוע חירה שדידה.",
+          "en": "You know that Abu-bekr al-Zaig, in his treatise on Physics, expresses a doubt whether Aristotle knew the excentricity of the sun but ignored it, and only discussed the effect of the inclination, because he saw that the effect of the excentricity was identical with that of the inclination; or whether he did not perceive it. The truth is that he did not notice it or hear of it; the science was not perfect in his age. If he had heard of it, he would have strongly opposed it; if he had been convinced of its correctness, he would have been greatly embarrassed as regards all that he said on the question.",
+          "pairs": [
+            {
+              "ja": "הל עלם ארסטו כ'רוג' מרכז אלשמס וסכת ענה",
+              "en": "expresses a doubt whether Aristotle knew the excentricity of the sun but ignored it"
+            },
+            {
+              "ja": "ולו סמעה לאנכרה אשד אנכאר",
+              "en": "If he had heard of it, he would have strongly opposed it"
+            },
+            {
+              "ja": "ולו צח לה לתחיר פי כל מא וצ'עה פי הד'א אלנוע חירה שדידה",
+              "en": "if he had been convinced of its correctness, he would have been greatly embarrassed as regards all that he said on the question"
+            }
+          ]
+        },
+        {
+          "ja": "ואלד'י קלתה קבל הו אלד'י אעידה אלאן והו אן כל מא ד'כרה ארסטו מן לדן פלך אלקמר ג'רי עלי קיאס וג'את אמור מעלומהֵ אלעלה לאזם בעצ'הא לבעץ' ומואצ'ע אלחכמה פיהא ואלענאיה אלטביעיה בינה ואצ'חה. אמא כל מא פי אלסמא פמא אחאט אלאנסאן בשי מנה אלא בהד'א אלקדר אלתעלימי אליסיר ואנת תרי מא פיה. ואני לאקול עלי ג'ההֵ אלנואדר אלשעריה השמים שמים לי״י והארץ נתן לבני אדם אעני אן אלאלאה וחדה יעלם חקיקהֵ אלסמא וטביעתהא וג'והרהא וצורתהא וחרכאתהא ואסבאבהא עלי אלתמאם אמא מא דון אלסמא פקד מכן אלאנסאן מן מערפתה לאנה עאלמה ודארה אלתי חט פיהא והו ג'ז מנהא וד'לך הו אלחק לאן אסבאב אלאסתדלאל עלי אלסמא ממתנעה ענדנא קד בעד ענא ועלא באלמוצ'ע ואלמרתבה ואלאסתדלאל אלעאם מנה אנה דלנא עלי מחרכה לאמר לא תצל עקול אלאנסאן אלי מערפתה ואתעאב אלכ'ואטר פי מא לא תצל אלי אדראכה ולא להא אלה תצל בהא אנמא הו נקץ פטרה או צ'רב מן אלוסואס. פלנקף ענד אלמקדרה ונסלם אלאמר פי מא לא ידרך בקיאס למן אתאה אלפיץ' אלאלאהי אלעט'ים חתי צלח אן יקאל ענה פה אל פה אדבר בו.",
+          "en": "What I said before (ch. xxii.) I will repeat now, namely, that the theory of Aristotle, in explaining the phenomena in the sublunary world, is in accordance with logical inference: here we know the causal relation between one phenomenon and another; we see how far science can investigate them, and the management of nature is clear and intelligible. But of the things in the heavens man knows nothing except a few mathematical calculations, and you see how far these go. I say in the words of the poet, “The heavens are the Lord’s, but the earth He hath given to the sons of man” (Ps. 115:16); that is to say, God alone has a perfect and true knowledge of the heavens, their nature, their essence, their form, their motions, and their causes; but He gave man power to know the things which are under the heavens: here is man’s world, here is his home, into which he has been placed, and of which he is himself a portion. This is in reality the truth. For the facts which we require in proving the existence of heavenly beings are withheld from us: the heavens are too far from us, and too exalted in place and rank. Man’s faculties are too deficient to comprehend even the general proof the heavens contain for the existence of Him who sets them in motion. It is in fact ignorance or a kind of madness to weary our minds with finding out things which are beyond our reach, without having the means of approaching them. We must content ourselves with that which is within our reach, and that which cannot be approached by logical inference let us leave to him who has been endowed with that great and divine influence, expressed in the words: “Mouth to mouth do I speak with Him” (Num. 12:8).",
+          "pairs": [
+            {
+              "ja": "כל מא ד'כרה ארסטו מן לדן פלך אלקמר ג'רי עלי קיאס",
+              "en": "the theory of Aristotle, in explaining the phenomena in the sublunary world, is in accordance with logical inference"
+            },
+            {
+              "ja": "אמא כל מא פי אלסמא פמא אחאט אלאנסאן בשי מנה אלא בהד'א אלקדר אלתעלימי אליסיר",
+              "en": "of the things in the heavens man knows nothing except a few mathematical calculations"
+            },
+            {
+              "ja": "אן אלאלאה וחדה יעלם חקיקהֵ אלסמא וטביעתהא וג'והרהא",
+              "en": "God alone has a perfect and true knowledge of the heavens, their nature, their essence"
+            },
+            {
+              "ja": "פלנקף ענד אלמקדרה ונסלם אלאמר פי מא לא ידרך בקיאס",
+              "en": "We must content ourselves with that which is within our reach, and that which cannot be approached by logical inference let us leave"
+            }
+          ]
+        },
+        {
+          "ja": "פהד'א גאיהֵ מא ענדי פי הד'ה אלמסאלה וקד ימכן אן יכון ענד גירי ברהאן יבין לה בה חקיקהֵ מא אשכל עלי וגאיהֵ אית'ארי ללתחקיק אני צרחת ואכ'ברת בחירתי פי הד'ה אלמעאני ואני לם אסמע ברהאנא עלי שי מנהא ולא עלמתה:",
+          "en": "This is all I can say on this question; another person may perhaps be able to establish by proof what appears doubtful to me. It is on account of my great love of truth that I have shown my embarrassment in these matters and I have not heard, nor do I know that any of these theories have been established by proof.",
+          "pairs": [
+            {
+              "ja": "פהד'א גאיהֵ מא ענדי פי הד'ה אלמסאלה",
+              "en": "This is all I can say on this question"
+            },
+            {
+              "ja": "גאיהֵ אית'ארי ללתחקיק אני צרחת ואכ'ברת בחירתי פי הד'ה אלמעאני",
+              "en": "It is on account of my great love of truth that I have shown my embarrassment in these matters"
+            },
+            {
+              "ja": "ואני לם אסמע ברהאנא עלי שי מנהא ולא עלמתה",
+              "en": "I have not heard, nor do I know that any of these theories have been established by proof"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "work": "Emunot v'Deot",
+  "section": "I:3 · Creation ex Nihilo and the Twelve Doctrines",
+  "section_ja": "מאמר א — אלאבדאע ואלמד'אהב",
+  "subtitle": "כתאב אלאמאנאת ואלאעתקאדאת — The Book of Beliefs and Opinions",
+  "author": "Saadia Gaon (882–942)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "This fuṣūl completes the preliminary argument: first, two further proofs that things cannot have created themselves; then a sustained argument that creation must have been from nothing (lā min shayʾ) rather than from a pre-existing substrate. Saadia shows that 'created from something' is a logical contradiction, that positing an eternal substrate collapses the distinction between Creator and created, and that the rule 'something only comes from something' leads to infinite regress and the non-existence of everything. He then announces the structure of the remainder of Maamar I: a thirteenth doctrine (his own) plus twelve opposing ones — and introduces the second doctrine, whose adherents held that the Creator fashioned bodies from eternal spiritual matter.",
+  "source": "FJMS resourceId 13, Maamar 1, fuṣūl 3 (pp. מא–מד)",
+  "terms": [
+    {
+      "id": "ibda",
+      "ja": "אלאבדאע",
+      "ar": "الإبداع",
+      "translit": "al-ibdāʿ",
+      "gloss": "origination; creation ex nihilo",
+      "note": "The creation of something whose essence (ʿayn) was not previously in existence. Saadia distinguishes ibdāʿ from 'creation from something' (min shayʾ) by showing that 'originated' (muḥdath) and 'from a prior thing' (qadīm) contradict each other: if an essence was pre-existing it was not originated.",
+      "variants": ["לא מן שי", "מן לא שי", "מבתדאה", "מכ'תרעה"]
+    },
+    {
+      "id": "ayn",
+      "ja": "אלעין",
+      "ar": "العين",
+      "translit": "al-ʿayn",
+      "gloss": "essence; the very substance/thing itself",
+      "note": "Saadia's key term for the thing-in-itself as opposed to its properties or accidents. The question of whether the Creator made the ʿayn of things (their very essence) from nothing, or from a pre-existing substrate, is the pivot of this fuṣūl.",
+      "variants": ["עין", "עינה", "אלעין"]
+    },
+    {
+      "id": "qadim",
+      "ja": "אלקדים",
+      "ar": "القديم",
+      "translit": "al-qadīm",
+      "gloss": "eternal; pre-existing; without beginning",
+      "note": "Contrasted with muḥdath (newly-made). Saadia shows that if a substrate were qadīm (eternal), it would be coeval with the Creator, undermining the Creator's authority over it and requiring a third explanatory factor.",
+      "variants": ["קדימה", "קדם", "אלקדמה"]
+    },
+    {
+      "id": "ruhani",
+      "ja": "אלרוחאניאת",
+      "ar": "الروحانيات",
+      "translit": "al-rūḥāniyyāt",
+      "gloss": "spiritual/immaterial things",
+      "note": "The eternal spiritual substances posited by the second cosmogony — the 'spiritualist-matter' school. According to them, the Creator fashioned the composite material world from these pre-existing spiritual entities by gathering them into indivisible atoms, crossing two lines, and spinning them into celestial spheres.",
+      "variants": ["רוחאניה", "אלרוחאניאת"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "מא",
+      "aligned": [
+        {
+          "ja": "אנה בעד כונה אקוי ואשד עלי אן יצנע מת'לה, פאן כאן צנע נפסה והו צ'עיף פליצנע מת'להא והו קוי, פלמא עג'ז אן יצנע מת'להא והו קוי בטל אן יכון צנעהא והו צ'עיף.",
+          "en": "[The first reason:] after a body exists it is stronger and better able to produce its like. So if it had made itself when weak, it ought surely to make its like when strong — yet since it is unable to make its like when strong, it is impossible that it made itself when weak.",
+          "pairs": [
+            { "ja": "בעד כונה אקוי ואשד עלי אן יצנע מת'לה", "en": "after a body exists it is stronger and better able to produce its like" },
+            { "ja": "פלמא עג'ז אן יצנע מת'להא והו קוי בטל אן יכון צנעהא והו צ'עיף", "en": "since it is unable to make its like when strong, it is impossible that it made itself when weak" }
+          ]
+        },
+        {
+          "ja": "ואלוג'ה אלת'אני אנא אד'א אכ'טרנא עלי באלנא אן יצנע אלשי נפסה וג'דנא ד'לך מחאלא עלי קסמי אלזמאן ג'מיעא, לאנא אן רמנא תג'ויז צנעה לנפסה קבל אן יכון, פנחן נעלם אנה חיניד' מעדום, ואלמעדום פלא יצנע שיא. ואן חאולנא תג'ויז צנעה לנפסה בעד אן כאן, פאד' סבק כונה, פקד אסתגני בתקדימה מן אן יצנע נפסה, וליס האהנא קסם ת'אלת' אלא אלאן אלתי לא יחתמל פעלא.",
+          "en": "The second reason: when we try in our minds to conceive of a thing creating itself, we find it impossible across both divisions of time. If we attempt to suppose it created itself before it existed — we know that at that point it was non-existent, and the non-existent creates nothing. And if we try to suppose it created itself after it existed — then since its existence preceded, it was already sufficiently there without needing to create itself. There is no third option other than the present moment, which permits no actual creation.",
+          "pairs": [
+            { "ja": "וג'דנא ד'לך מחאלא עלי קסמי אלזמאן ג'מיעא", "en": "we find it impossible across both divisions of time" },
+            { "ja": "אלמעדום פלא יצנע שיא", "en": "the non-existent creates nothing" },
+            { "ja": "פקד אסתגני בתקדימה מן אן יצנע נפסה", "en": "it was already sufficiently there without needing to create itself" }
+          ]
+        },
+        {
+          "ja": "ואלוג'ה אלת'אלת' אנא אן תוהמנא אלג'סם יקדר עלי אן יפעל נפסה, פליס יג'וז ד'לך אלא באן נתוהמה קאדרא עלי אן יתרך אן יצנע נפסה, פאן תוהמנא כד'אך חצל לנא מוג'ודא מעדומא מעא, לאן אעתקאדנא קאדר לא יכון אלא למוג'וד, ואשראכנא מעה קול אן לא יצנע נפסה אעתקאד אנה מעדום.",
+          "en": "The third reason: if we imagine a body capable of making itself, we can only do so by also imagining it capable of refraining from making itself. But if we imagine that, we have it simultaneously existing and non-existent — since 'capable' can only be predicated of something existent, while positing that it might refrain from making itself implies it was non-existent.",
+          "pairs": [
+            { "ja": "ואלוג'ה אלת'אלת'", "en": "The third reason" },
+            { "ja": "נתוהמה קאדרא עלי אן יתרך אן יצנע נפסה", "en": "imagining it capable of refraining from making itself" },
+            { "ja": "חצל לנא מוג'ודא מעדומא מעא", "en": "we have it simultaneously existing and non-existent" }
+          ]
+        },
+        {
+          "ja": "ומא אדי אלי אג'תמאע מוג'וד מע מעדום לשי ואחד פי חאל פהו באטל פאסד. ווג'דת אלכתאב קד סבק אלי אחאלהֵ הד'א אלבאב אן יכון אלשי יצנע נפסה בקולה הוא עשנו ולא אנחנו, ובסכ'טה עלי מן קאל לי יאורי ואני עשיתיני, ומעאקבתה איאה.",
+          "en": "Whatever leads to combining existing and non-existent for a single thing at once is null and void. And I found that scripture had already ruled out a thing making itself, with the words 'He made us, and not we ourselves' (Ps 100:3); and in God's rebuke and punishment of one who said 'My Maker made me for myself' (cf. Job 40:19).",
+          "pairs": [
+            { "ja": "אג'תמאע מוג'וד מע מעדום לשי ואחד פי חאל פהו באטל פאסד", "en": "combining existing and non-existent for a single thing at once is null and void" },
+            { "ja": "הוא עשנו ולא אנחנו", "en": "'He made us, and not we ourselves' (Ps 100:3)" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "מב",
+      "aligned": [
+        {
+          "ja": "ובעד הד'ה אלאוג'ה אלתי אבטלת ענדי אן יכון אלשי אחדת' נפסה ואוג'בת אן יכון גירה אחדת'ה, נט'רת בצנאעהֵ אלנט'ר הל אחדת'ה צאנעה מן שי או לא מן שי כמא נזל פי אלכתב, פוג'דת ערץ' אחדאת'ה מן שי עלי אלעקל כ'טא, מן אג'ל אנה כלאם מתנאקץ'.",
+          "en": "After these considerations that ruled out for me the possibility that a thing originated itself and established that something other originated it, I examined through the art of inquiry whether that originator made it from something or from nothing, as the scriptures state. I found that the notion of its origination from something is rationally incorrect, because it is self-contradictory.",
+          "pairs": [
+            { "ja": "האוג'ה אלתי אבטלת ענדי אן יכון אלשי אחדת' נפסה", "en": "considerations that ruled out for me the possibility that a thing originated itself" },
+            { "ja": "הל אחדת'ה צאנעה מן שי או לא מן שי", "en": "whether that originator made it from something or from nothing" },
+            { "ja": "פוג'דת ערץ' אחדאת'ה מן שי עלי אלעקל כ'טא", "en": "I found that the notion of its origination from something is rationally incorrect" }
+          ]
+        },
+        {
+          "ja": "לאן קולנא אחדת'ה יוג'ב אן עינה מכ'תרעה מבתדאה, פאן קדרנא בהד'א אלקול, מן שי אוג'בנא אן עינה קדימה לא מכ'תרעה ולא מבתדאה. ואד'א ערצ'נא עלי אלעקל אחדאת'ה לא מן שי, וג'דנאה כלאמא מסתקימא.",
+          "en": "For when we say 'He originated it,' that entails that its essence was newly invented and initiated; but if we add 'from something,' we entail that its essence was pre-existing — neither newly invented nor initiated. These two claims contradict each other. But when we put to reason 'He originated it from nothing,' we find this to be a coherent statement.",
+          "pairs": [
+            { "ja": "קולנא אחדת'ה יוג'ב אן עינה מכ'תרעה מבתדאה", "en": "'He originated it' entails that its essence was newly invented and initiated" },
+            { "ja": "מן שי אוג'בנא אן עינה קדימה לא מכ'תרעה ולא מבתדאה", "en": "'from something' entails that its essence was pre-existing — neither newly invented nor initiated" },
+            { "ja": "אחדאת'ה לא מן שי, וג'דנאה כלאמא מסתקימא", "en": "'He originated it from nothing,' we find this to be a coherent statement" }
+          ]
+        },
+        {
+          "ja": "פאן קאל קאיל אנמא אוג'בת ללאשיא צאנעא פי אלמעלום, לאנך לא תשאהד פי אלמחסוס מצנועא אלא מן צאנע, ולא מפעולא אלא מן פאעל, פאנת איצ'א לם תר פי אלמחסוס שיא יכון אלא מן שי, פכיף ג'עלת דלילך לא פעל אלא מן פאעל דון אן תג'על דלילך לא שי אלא מן שי, והמא סיאן פי אלוג'דאן.",
+          "en": "An objector might say: you posited a Maker for things in the domain of the knowable because you do not observe in the perceptible realm any artifact without an artisan, nor any effect without a cause. But you also have not seen in the perceptible realm anything that exists except from a prior thing — so why did you make 'no effect without a cause' your proof, and not also 'nothing exists except from a prior thing'? Both hold equally in the observable world.",
+          "pairs": [
+            { "ja": "לא תשאהד פי אלמחסוס מצנועא אלא מן צאנע", "en": "you do not observe in the perceptible realm any artifact without an artisan" },
+            { "ja": "פכיף ג'עלת דלילך לא פעל אלא מן פאעל דון אן תג'על דלילך לא שי אלא מן שי", "en": "why did you make 'no effect without a cause' your proof, and not also 'nothing exists except from a prior thing'" }
+          ]
+        },
+        {
+          "ja": "אקול לה לאן כון שי מן שי או לא מן שי הו אלמטלוב אלד'י אלתמסת אלאסתדלאל עליה, וליס יג'וז אן יכון אלשי אלמחאול אלאסתשהאד עליה ישהד עלי נפסה באחדי אלמנזלתין, ואנמא יסתשהד עליה בגירה, פלמא כאן לא מפעול אלא מן פאעל נאחיה מן הד'א אלמטלובה חקיקתה אתכ'ד'תה דלילא עליה, פקצ'י לי עליה בכון שי לא מן שי.",
+          "en": "I reply: 'whether something comes from something or from nothing' is precisely the question I sought to prove — and the thing whose truth is being established cannot itself serve as evidence for one or the other of the two positions. It can only be established by appeal to something else. Since 'no effect without a cause' is a proposition whose truth is not in dispute, I used it as my proof — and it decided for me in favor of 'something from nothing.'",
+          "pairs": [
+            { "ja": "כון שי מן שי או לא מן שי הו אלמטלוב אלד'י אלתמסת אלאסתדלאל עליה", "en": "'whether something comes from something or from nothing' is precisely the question I sought to prove" },
+            { "ja": "לא מפעול אלא מן פאעל נאחיה מן הד'א אלמטלובה חקיקתה", "en": "'no effect without a cause' is a proposition whose truth is not in dispute" },
+            { "ja": "פקצ'י לי עליה בכון שי לא מן שי", "en": "it decided for me in favor of 'something from nothing'" }
+          ]
+        },
+        {
+          "ja": "ותבינת איצ'א אנה אי שי תוהמנא אן אלמוג'ודאת כ'לקת מנה פקד אוג'בנא אן ד'לך אלשי קדים, ולאן כאן קדימא תסאוי הו ואלכ'אלק פי אלקדמה, ווג'ב אן לא יסתטיע לה אן יכ'לק מנה אשיא ולא יקבל אמרה פינפעל כמא ישא ויתשכל כמא יריד, אלא אן",
+          "en": "I also saw clearly that whatever we imagine the existing things to have been created from must itself be eternal — and being eternal, it would be equal to the Creator in eternity. In that case it would necessarily be beyond the Creator's power to create things from it, and it would not accept the Creator's command to act as He wishes and take form as He desires — unless",
+          "pairs": [
+            { "ja": "אי שי תוהמנא אן אלמוג'ודאת כ'לקת מנה פקד אוג'בנא אן ד'לך אלשי קדים", "en": "whatever we imagine the existing things to have been created from must itself be eternal" },
+            { "ja": "תסאוי הו ואלכ'אלק פי אלקדמה", "en": "it would be equal to the Creator in eternity" },
+            { "ja": "ווג'ב אן לא יסתטיע לה אן יכ'לק מנה אשיא", "en": "it would necessarily be beyond the Creator's power to create things from it" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "מג",
+      "aligned": [
+        {
+          "ja": "נצ'ם אליהמא עלה ת'אלת'ה פי אוהאמנא פרקת בינהמא, חתי צאר בהא הד'א צאנעא והד'א מצנועא, פאן קלנא בד'לך קלנא בגיר מוג'וד אד' לם יקע לנא אלא צאנע ומצנוע פקט.",
+          "en": "...we add in our imagination a third factor that distinguishes between the two, making one the maker and the other the made. But if we say that, we are positing something non-existent — since we only have maker and made, and nothing else.",
+          "pairs": [
+            { "ja": "עלה ת'אלת'ה פי אוהאמנא פרקת בינהמא", "en": "a third factor that distinguishes between the two" },
+            { "ja": "אד' לם יקע לנא אלא צאנע ומצנוע פקט", "en": "we only have maker and made, and nothing else" }
+          ]
+        },
+        {
+          "ja": "ותד'כרת איצ'א אן אצל מטלובנא כאן מן צנע עין אלאשיא, ואלמתעאלם ענדנא אן אלצאנע יג'ב אן יסבק מצנועה, פבסבאקה עין אלשי יציר אלשי מחדת'א, פאן אעתקדנא אלעין קדימה לם יסבק אד'א אלצאנע מצנועה, וליס אחדהמא אולי באן יכון סבבא לכון אלאכ'ר מן אן יכון אלאכ'ר סבבא לכונה הו, והד'ה באטל מחץ'.",
+          "en": "I also recalled that our original question was about who made the very essence of things. It is universally agreed that a maker must precede what he makes — and it is by preceding the essence that a thing becomes newly-made. But if we hold the essence to be eternal, the maker no longer precedes what he makes; and neither of the two would then have more claim to be the cause of the other's existence — which is patently absurd.",
+          "pairs": [
+            { "ja": "אצל מטלובנא כאן מן צנע עין אלאשיא", "en": "our original question was about who made the very essence of things" },
+            { "ja": "אלצאנע יג'ב אן יסבק מצנועה", "en": "a maker must precede what he makes" },
+            { "ja": "וליס אחדהמא אולי באן יכון סבבא לכון אלאכ'ר", "en": "neither of the two would then have more claim to be the cause of the other's existence" }
+          ]
+        },
+        {
+          "ja": "ותד'כרת איצ'א אן אלקול באנה כ'לק שיא מן שי אד'א אנסאק אלאנסאן מעה קאדה חתי יודיה אלי אנה לם יכ'לק שיא בתה, וד'לך אן אלסבב אלמוקע פי אלנפס כון שי מן שי הו אן אלמחסוס כד'י לחקנאה, פנקול אן אלמחסוס איצ'א כד'י לחק אן יכון פי מכאן ופי זמאן ובצורה מצורה ובמקדאר מקדר ועלי נצבה מנתצב ובאצ'אפה מצ'אף וסאיר אלאחואל אלתי תשאבה הד'ה.",
+          "en": "I also recalled that the claim 'He created something from something' — when one follows it through consistently — leads to the conclusion that He created nothing at all. For the intuitive ground of 'something from something' is that perceptible things deserve this description; we can equally say that perceptible things deserve to be in a place, in a time, with a shape, with a magnitude, in a spatial relation, in a relational position, and all similar conditions.",
+          "pairs": [
+            { "ja": "אלקול באנה כ'לק שיא מן שי אד'א אנסאק אלאנסאן מעה קאדה חתי יודיה אלי אנה לם יכ'לק שיא בתה", "en": "the claim 'He created something from something' — when one follows it through consistently — leads to the conclusion that He created nothing at all" },
+            { "ja": "אלסבב אלמוקע פי אלנפס כון שי מן שי הו אן אלמחסוס כד'י לחקנאה", "en": "the intuitive ground of 'something from something' is that perceptible things deserve this description" }
+          ]
+        },
+        {
+          "ja": "פאן חקהא כלהא פי הד'א אלבאב כחק שי מן שי, פאן אכ'ד'נא פי תופיתהא חקוקהא חתי נקול אנה כ'לק מן שי פי מכאן ופי זמאן ובצורה ומקדאר ונצבה ואצ'אפה ומא מאת'להא כלהא קדימה, פלם יבק אד'ן שי יכ'לק, ובטל אלכ'לק בואחדה.",
+          "en": "If all those conditions have the same standing as 'from something,' then fulfilling each one in turn — saying that He created from something in a pre-existing place, at a pre-existing time, in a pre-existing form, with a pre-existing magnitude, in a pre-existing relation, and so on for all — leaves nothing left to create; creation is thereby annulled in a single stroke.",
+          "pairs": [
+            { "ja": "פלם יבק אד'ן שי יכ'לק", "en": "leaves nothing left to create" },
+            { "ja": "ובטל אלכ'לק בואחדה", "en": "creation is thereby annulled in a single stroke" }
+          ]
+        },
+        {
+          "ja": "וחררת איצ'א אנא אן לם נסלם כון שי לא שי קבלה לם יג'ז אן יוג'ד שי בתה, וד'לך אנא אד'א אכ'טרנא בבאלנא שיא מן שי, פסביל אלשי אלת'אני פי אלקול סביל אלאול ועליה שרט אלא יכון אלא מן שי ת'אלת', וסביל אלת'אלת' פי אלקול סביל אלת'אני ועליה שרט אלא יכון אלא מן שי ראבע, ויתצל אלאמר אלי מא לא נהאיה לה, ואד'א כאן מא לא נהאיה לה לא ינקצ'י פנוג'ד, וג'ב אלא נוג'ד, והא נחן מוג'ודון.",
+          "en": "I also established: if we do not accept that something can exist with nothing prior to it, then nothing at all can ever exist. For when we suppose something from something, the second thing must itself come from a third; the third from a fourth; and this extends without end. And what has no end cannot be completed, so that nothing would exist — yet here we are, existing.",
+          "pairs": [
+            { "ja": "אן לם נסלם כון שי לא שי קבלה לם יג'ז אן יוג'ד שי בתה", "en": "if we do not accept that something can exist with nothing prior to it, then nothing at all can ever exist" },
+            { "ja": "ויתצל אלאמר אלי מא לא נהאיה לה", "en": "this extends without end" },
+            { "ja": "והא נחן מוג'ודון", "en": "yet here we are, existing" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_he": "מד",
+      "aligned": [
+        {
+          "ja": "פלולא אן אלאשיא אלתי קבלנא כאנת מתנאהיה לא תנקצ'י חתי וג'דנא. ואלד'י כ'רג' לנא מן אלמעקול הו מא רסם פי כתב אלאנביא אן אלאג'סאם אבתדוא מן ענד אלכ'אלק, כקולה בטרם הרים יולדו ותחולל ארץ ותבל ומעולם ועד עולם אתה אל.",
+          "en": "Had the chain of prior things before us not been finite and terminable, we would not exist. What reason delivers to us here is exactly what is prescribed in the books of the prophets — that bodies were originated from the Creator — as in the verse: 'Before the mountains were born, before You formed earth and world, from everlasting to everlasting You are God' (Ps 90:2).",
+          "pairs": [
+            { "ja": "לולא אן אלאשיא אלתי קבלנא כאנת מתנאהיה לא תנקצ'י חתי וג'דנא", "en": "Had the chain of prior things before us not been finite and terminable, we would not exist" },
+            { "ja": "אן אלאג'סאם אבתדוא מן ענד אלכ'אלק", "en": "that bodies were originated from the Creator" },
+            { "ja": "בטרם הרים יולדו ותחולל ארץ ותבל ומעולם ועד עולם אתה אל", "en": "'Before the mountains were born, before You formed earth and world, from everlasting to everlasting You are God' (Ps 90:2)" }
+          ]
+        },
+        {
+          "ja": "פרק. ג. פאד' קד וצלת אלי תצחיח הד'ה אלת'לאת'ה אצול בטריק אלנט'ר כמא צחת בכ'בר אלאנביא ואלברהאן, והי אן אלאשיא מחדת'ה, ואן מחדת'הא גירהא, ואנה אחדת'הא לא מן שי, פכאן הד'א אלמד'הב אלאול מן הד'ה אלמקאלה אלתי הי אלנט'ר פי אלאואיל. פינבגי אן אתבעה באת'ני עשר מד'הבא למן כ'אלפנא פי הד'ה אלאמאנה, פיציר אלכל ת'לאת'ה עשר, ואשרח מא אחתג' בה כל קום, ומא נקצ'ה ואן כאן פיה שבה מן אלכתב אוצ'חה בתופיק אללה ואקול.",
+          "en": "Chapter 3. Now that I have established these three principles by the path of inquiry, as they are also confirmed by prophetic report and by demonstration — namely: (1) that things are newly-made, (2) that something other made them, and (3) that it made them from nothing — this constitutes the first doctrine of this maamar, which is inquiry into first principles. I shall follow it with twelve doctrines of those who disagree with us on this belief, making thirteen in all. I shall explain the argument of each group, and what refutes it; if any of them has some resemblance to the scriptural texts I shall clarify that as well — with God's help. I say:",
+          "isHeader": false,
+          "pairs": [
+            { "ja": "אלת'לאת'ה אצול", "en": "these three principles" },
+            { "ja": "אן אלאשיא מחדת'ה, ואן מחדת'הא גירהא, ואנה אחדת'הא לא מן שי", "en": "(1) that things are newly-made, (2) that something other made them, and (3) that it made them from nothing" },
+            { "ja": "פינבגי אן אתבעה באת'ני עשר מד'הבא", "en": "I shall follow it with twelve doctrines" }
+          ]
+        },
+        {
+          "ja": "אלמד'הב אלת'אני מן קאל באן כ'אלקא ללאג'סאם ומעה אשיא רוחאניה לם תזל, ומנהא כ'לק הד'ה אלאג'סאם אלמרכבה. ואעתלוא פי הד'א באנה לא יכון שי אלא מן שי, ולמא סמוא בפכרהם עלוא ואכ'ד'וא פי אן יכ'ילוא לאנפסהם כיף כ'לק אלכ'אלק אלאשיא אלמרכבה מן אלרוחאניאת.",
+          "en": "The second doctrine: those who say that alongside the Creator there were eternal spiritual things (rūḥāniyyāt) without beginning, and that He created these composite bodies from them. Their argument was that nothing can exist except from something. When they took their thought to lofty heights and attempted to imagine for themselves how the Creator fashioned the composite things from the spiritual entities,",
+          "pairs": [
+            { "ja": "אלמד'הב אלת'אני", "en": "The second doctrine" },
+            { "ja": "ומעה אשיא רוחאניה לם תזל", "en": "alongside the Creator there were eternal spiritual things without beginning" },
+            { "ja": "ומנהא כ'לק הד'ה אלאג'סאם אלמרכבה", "en": "from them He created these composite bodies" }
+          ]
+        },
+        {
+          "ja": "קאלוא, תצור לנא אנה ג'מע מנהא נקטא צגארא והי אלאג'זא אלתי לא תתג'זא, ויכ'טרונהא בבאלהם כאדק מא יכון מן אלגבאר, פעמל מנהא כ'טא מסתקימא, ת'ם קטע ד'לך אלכ'ט בנצפין, ת'ם רכב אחדהמא עלי אלאכ'ר תרכיבא מצלבא חתי צורוא כצורהֵ אלסין באליונאניה אלתי הי כצורהֵ אללאם אלף באלערביה בלא קאעדה, ת'ם סמרהא בחית' אלתקיא, ת'ם קטעהמא מן מוצ'ע אלסמר פעמל מן אחדהמא אלפלך אלאעלי אלעט'ים ועמל מן אלאכ'ר אלאפלאך",
+          "en": "they said: imagine that He gathered from them small points — the indivisible parts — picturing them as fine as the finest dust; He formed from them a straight line; then He cut that line into two halves; then He crossed one half over the other in an X-shape, forming something like the Greek letter sigma, which resembles the Arabic lām-alif without a base; then He nailed them at the intersection; then He cut them from the point of intersection, and from one half He made the great upper sphere, and from the other He made the [remaining] spheres",
+          "pairs": [
+            { "ja": "נקטא צגארא והי אלאג'זא אלתי לא תתג'זא", "en": "small points — the indivisible parts" },
+            { "ja": "כאדק מא יכון מן אלגבאר", "en": "fine as the finest dust" },
+            { "ja": "רכב אחדהמא עלי אלאכ'ר תרכיבא מצלבא", "en": "He crossed one half over the other in an X-shape" }
+          ]
+        }
+      ]
+    }
+  ]
+}

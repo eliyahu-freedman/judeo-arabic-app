@@ -1,0 +1,907 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 73 — The Twelve Premises of the Kalām",
+  "section_ja": "אלג'ז אלאול · אלפצל שבעים ושלשה",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 73 is the longest chapter in Part I: a systematic enumeration and critique of the twelve premises (muqaddimāt) that the mutakallimūn employ in their four proofs — of creation, of God's existence, of divine unity, and of divine incorporeality. The premises are first enumerated in list form (segments 1–12), then each is explained and critiqued in order (segments 13–57), with extended digressions on imagination vs. intellect (segments 44–50) and on potential vs. actual infinity (segments 51–53). Maimonides shows how each kalam premise either contradicts observed nature, smuggles in unjustified metaphysical assumptions, or depends on the problematic 'principle of permissibility' (al-tajwīz) that anything imaginable is possible. The chapter concludes with Premise 12 (the senses are unreliable) and the announcement that the premises now set the stage for the kalām proofs.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 58
+  },
+  "terms": [
+    {
+      "id": "jawhar-fard",
+      "ja": "אלג'והר אלפרד",
+      "ar": "الجوهر الفرد",
+      "translit": "al-jawhar al-fard",
+      "gloss": "the atom, the indivisible substance",
+      "note": "Premise 1: the basic unit of matter is an indivisible particle — the kalām atom. This is distinct from Aristotelian matter, which is infinitely divisible. The atom is the foundation of kalām physics.",
+      "variants": [
+        "ג'ואהר",
+        "ג'זא לא יתג'זא"
+      ]
+    },
+    {
+      "id": "khala",
+      "ja": "אלכ'לא",
+      "ar": "الخلاء",
+      "translit": "al-khalāʾ",
+      "gloss": "the void",
+      "note": "Premise 2: empty space (the void) exists. Required for atomist physics to explain motion: atoms must have empty space to move into.",
+      "variants": [
+        "כ'לא"
+      ]
+    },
+    {
+      "id": "arad-la-yabqa",
+      "ja": "אלערץ' לא יבקי זמאנין",
+      "ar": "العَرَض لا يبقى زمانين",
+      "translit": "al-ʿaraḍ lā yabqā zamānayn",
+      "gloss": "an accident does not persist for two moments",
+      "note": "Premise 6: accidents (properties) are recreated by God at every moment — they do not persist. This is the basis for the occasionalist doctrine of continuous divine creation.",
+      "variants": [
+        "ערץ'",
+        "אעראץ'"
+      ]
+    },
+    {
+      "id": "tajwiz",
+      "ja": "אלתג'ויז",
+      "ar": "التجويز",
+      "translit": "al-tajwīz",
+      "gloss": "the permissibility principle",
+      "note": "Premise 10: whatever is imaginable is possible; whatever cannot be imagined is impossible. Maimonides devotes the longest discussion to refuting this, arguing that imagination is not the criterion of possibility.",
+      "variants": [
+        "ג'איז",
+        "ג'ואז",
+        "ממכן"
+      ]
+    },
+    {
+      "id": "muqaddimat",
+      "ja": "מקדמאת",
+      "ar": "مقدمات",
+      "translit": "muqaddimāt",
+      "gloss": "premises, propositions",
+      "note": "The technical term for the premises of an argument. The chapter's structural term: the twelve muqaddimāt of the kalām, each stated and then elaborated.",
+      "variants": [
+        "מקדמה"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל שבעים ושלשה",
+          "en": "Part One · Chapter Seventy-Three — The Twelve Premises of the Kalām",
+          "isHeader": true
+        },
+        {
+          "ja": "אלמקדמת אלעאמה אלתי וצ'עהא אלמתכלמון עלי אכ'תלאף אראיהם וכת'רהֵ טרקהם והי צ'רוריה פי את'באת מא ירידון את'באתה פי הד'ה אלארבעה מטאלב את'נתא עשרהֵ מקדמה",
+          "en": "The general premises that the mutakallimūn laid down — despite the differences of their views and the multiplicity of their methods — and which are necessary for establishing what they wish to establish in these four topics: twelve premises.",
+          "pairs": [
+            {
+              "ja": "אלמקדמת אלעאמה אלתי וצ'עהא אלמתכלמון",
+              "en": "The general premises that the mutakallimūn laid down"
+            },
+            {
+              "ja": "צ'רוריה פי את'באת מא ירידון את'באתה פי הד'ה אלארבעה מטאלב",
+              "en": "necessary for establishing what they wish to establish in these four topics"
+            },
+            {
+              "ja": "את'נתא עשרהֵ מקדמה",
+              "en": "twelve premises"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלאולי את'באת אלג'והר אלפרד.",
+          "en": "Premise One: the establishment of the atom (the indivisible substance).",
+          "pairs": [
+            {
+              "ja": "אלמקדמה אלאולי את'באת אלג'והר אלפרד",
+              "en": "Premise One: the establishment of the atom"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלת'אניה וג'וד אלכ'לא.",
+          "en": "Premise Two: the existence of the void.",
+          "pairs": [
+            {
+              "ja": "אלמקדמה אלת'אניה וג'וד אלכ'לא",
+              "en": "Premise Two: the existence of the void"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלת'אלת'ה אן אלזמאן מולף מן אנאת.",
+          "en": "Premise Three: that time is composed of instants.",
+          "pairs": [
+            {
+              "ja": "אלמקדמה אלת'אלת'ה אן אלזמאן מולף מן אנאת",
+              "en": "Premise Three: that time is composed of instants"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלראבעה אן אלג'והר לא ינפך מן עדהֵ אעראץ'.",
+          "en": "Premise Four: that a substance is never devoid of several accidents.",
+          "pairs": [
+            {
+              "ja": "אלמקדמה אלראבעה אן אלג'והר לא ינפך מן עדהֵ אעראץ'",
+              "en": "Premise Four: that a substance is never devoid of several accidents"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלכ'אמסה אן אלג'והר אלפרד תקום בה אלאעראץ' אלתי סאצפהא ולא ינפד מנהא.",
+          "en": "Premise Five: that the atom bears the accidents I shall describe, and is never free of them.",
+          "pairs": [
+            {
+              "ja": "אלמקדמה אלכ'אמסה אן אלג'והר אלפרד תקום בה אלאעראץ' אלתי סאצפהא ולא ינפד מנהא",
+              "en": "Premise Five: that the atom bears the accidents I shall describe, and is never free of them"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלסאדסה אן אלערץ' לא יבקי זמאנין.",
+          "en": "Premise Six: that an accident does not persist for two moments.",
+          "pairs": [
+            {
+              "ja": "אלמקדמה אלסאדסה אן אלערץ' לא יבקי זמאנין",
+              "en": "Premise Six: that an accident does not persist for two moments"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלסאבעה אן חכם אלמלכאת חכם אעדאמהא ואנהא כלהא אעראץ' מוג'ודה מפתקרה לפאעל.",
+          "en": "Premise Seven: that privations are ruled the same as their positive counterparts, and that they are all existing accidents requiring a maker.",
+          "pairs": [
+            {
+              "ja": "אן חכם אלמלכאת חכם אעדאמהא",
+              "en": "privations are ruled the same as their positive counterparts"
+            },
+            {
+              "ja": "ואנהא כלהא אעראץ' מוג'ודה מפתקרה לפאעל",
+              "en": "they are all existing accidents requiring a maker"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלת'אמנה אן ליס ת'ם פי ג'מיע אלמוג'וד גיר ג'והר וערץ' יענון אלמכ'לוקאת כלהא ואן אלצורה אלטביעיה איצ'א ערץ'.",
+          "en": "Premise Eight: that in the entirety of existence there is nothing besides substance and accident — they mean all created things — and that natural form is also an accident.",
+          "pairs": [
+            {
+              "ja": "ליס ת'ם פי ג'מיע אלמוג'וד גיר ג'והר וערץ'",
+              "en": "in the entirety of existence there is nothing besides substance and accident"
+            },
+            {
+              "ja": "ואן אלצורה אלטביעיה איצ'א ערץ'",
+              "en": "natural form is also an accident"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלתאסעה אן אלאעראץ' לא תחמל בעצ'הא בעצ'א.",
+          "en": "Premise Nine: that accidents do not bear one another.",
+          "pairs": [
+            {
+              "ja": "אלמקדמה אלתאסעה אן אלאעראץ' לא תחמל בעצ'הא בעצ'א",
+              "en": "Premise Nine: that accidents do not bear one another"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלעאשרה אן אלממכן לא יעתבר במטאבקהֵ הד'א אלוג'וד לד'לך אלתצור.",
+          "en": "Premise Ten: that what is possible is not judged by its correspondence with this actual existence to that conception.",
+          "pairs": [
+            {
+              "ja": "אן אלממכן לא יעתבר במטאבקהֵ הד'א אלוג'וד לד'לך אלתצור",
+              "en": "what is possible is not judged by its correspondence with this actual existence to that conception"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלחאדיהֵ עשרה אן לא פרק פי אסתחאלהֵ מא לא נהאיה לה בין אן יכון באלפעל או באלקוה או באלערץ' אעני אנה לא פרק בין אן תכון תלך אלגיר מתנאהיה מוג'ודה מתמיזה בעצ'הא ען בעץ' או גיר מוג'ודה בל ממכנה.",
+          "en": "Premise Eleven: that there is no difference in the impossibility of the infinite whether it be in act or in potency or accidentally — I mean there is no difference whether those infinite things are actually existing and distinguishable from one another, or are not existing but merely possible.",
+          "pairs": [
+            {
+              "ja": "אן לא פרק פי אסתחאלהֵ מא לא נהאיה לה בין אן יכון באלפעל או באלקוה",
+              "en": "there is no difference in the impossibility of the infinite whether it be in act or in potency"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלת'אניה עשרה הי קולהם אן אלחואס תכ'טי ויפותהא כת'יר מן מדרכאתהא פלד'לך לא ידעי חכמהא ולא תוכ'ד' מטלקה מבאדי ברהאן.",
+          "en": "Premise Twelve: their statement that the senses err and that many of their objects of perception escape them; therefore their judgment is not claimed for them, nor are they taken absolutely as the starting-points of demonstration.",
+          "pairs": [
+            {
+              "ja": "אן אלחואס תכ'טי ויפותהא כת'יר מן מדרכאתהא",
+              "en": "the senses err and that many of their objects of perception escape them"
+            },
+            {
+              "ja": "פלד'לך לא ידעי חכמהא ולא תוכ'ד' מטלקה מבאדי ברהאן",
+              "en": "their judgment is not claimed for them, nor are they taken absolutely as the starting-points of demonstration."
+            }
+          ]
+        },
+        {
+          "ja": "ובעד תעדידהא אכ'ד' פי תביין מעאניהא ותביין מא ילזם ענהא ואחדה ואחדה.",
+          "en": "After enumerating them, I proceed to clarify their meanings and to clarify what follows from each one individually.",
+          "pairs": [
+            {
+              "ja": "ובעד תעדידהא",
+              "en": "After enumerating them"
+            },
+            {
+              "ja": "אכ'ד' פי תביין מעאניהא ותביין מא ילזם ענהא ואחדה ואחדה",
+              "en": "I proceed to clarify their meanings and to clarify what follows from each one individually"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלאולי מענאהא אנהם זעמוא אן אלעאלם בג'מלתה אעני כל ג'סם פיה הו מולף מן אג'זא צגירה ג'דא לא תקבל אלתג'זיה לדקתהא ולא ללג'ז אלואחד מנהא כם בוג'ה. ות'ם לא ג'והר פרד מסתולי בל לא יוג'ד ג'סם פי אלוג'וד אלא מרכבא מן תלך אלג'ואהר.",
+          "en": "Premise One: its meaning is that they claim the entire world — I mean every body in it — is composed of extremely small parts that admit no further division because of their fineness, and the single part has no quantity whatsoever. Yet no atom exists in isolation — rather no body exists in existence except as composed of those atoms.",
+          "pairs": [
+            {
+              "ja": "אן אלעאלם בג'מלתה אעני כל ג'סם פיה הו מולף מן אג'זא צגירה ג'דא ל",
+              "en": "the entire world — I mean every body in it — is composed of extremely small parts that ad"
+            },
+            {
+              "ja": "ת'ם לא ג'והר פרד מסתולי",
+              "en": "no atom exists in isolation"
+            },
+            {
+              "ja": "לא יוג'ד ג'סם פי אלוג'וד אלא מרכבא מן תלך אלג'ואהר",
+              "en": "no body exists in existence except as composed of those atoms"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלת'אניה אלקול באלכ'לא. אלאצוליון איצ'א יעתקדון אן אלכ'לא מוג'וד והו בעד מא או אבעאד לא שי פיהא אצלא אלא כ'אליה מן כל ג'סם עאדמה לכל ג'והר. והד'א מחאל ענד אלפלאספה ואנמא אחתאג' האולא לה לאן אלחרכה פי ראיהם הי אנתקאל ג'והר פי אלכ'לא.",
+          "en": "Premise Two: the assertion of the void. The Orthodox also believe that the void exists — it is a dimension or dimensions in which there is absolutely nothing, empty of all body and devoid of all substance. This is impossible according to the philosophers; these thinkers needed it because in their view motion is the transfer of an atom through the void.",
+          "pairs": [
+            {
+              "ja": "אלכ'לא מוג'וד והו בעד מא או אבעאד לא שי פיהא אצלא",
+              "en": "the void exists — it is a dimension or dimensions in which there is absolutely nothing"
+            },
+            {
+              "ja": "הד'א מחאל ענד אלפלאספה",
+              "en": "This is impossible according to the philosophers"
+            },
+            {
+              "ja": "אלחרכה פי ראיהם הי אנתקאל ג'והר פי אלכ'לא",
+              "en": "in their view motion is the transfer of an atom through the void"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלת'אלת'ה הי קולהם אן אלזמאן מולף מן אנאת יענון אנהא אזמנה כת'ירה לא תקבל אלקסמה לקצר מדתהא. והד'ה אלמקדמה איצ'א צ'רוריה להם מן אג'ל אלמקדמה אלאולי. לאן מן אדעי ד'לך ת'ם קאל אלג'סם ינקסם לא אלי נהאיה כד'ב ד'לך עלי נפסה.",
+          "en": "Premise Three: their statement that time is composed of instants — I mean that it consists of many moments too brief in duration to admit division. This premise is also necessary for them because of Premise One: for whoever claims this yet says that body divides without limit contradicts himself.",
+          "pairs": [
+            {
+              "ja": "אן אלזמאן מולף מן אנאת",
+              "en": "time is composed of instants"
+            },
+            {
+              "ja": "אנהא אזמנה כת'ירה לא תקבל אלקסמה לקצר מדתהא",
+              "en": "many moments too brief in duration to admit division"
+            },
+            {
+              "ja": "הד'ה אלמקדמה איצ'א צ'רוריה להם מן אג'ל אלמקדמה אלאול",
+              "en": "This premise is also necessary for them because of Premise One"
+            }
+          ]
+        },
+        {
+          "ja": "וחק להם ד'לך לאן אד'א כאן מהרהֵ אלפלאספה קד חירהם אמר אלזמאן ובעצ'הם לם יעקל מענאה חתי אן ג'אלינוס קאל הו אמר אלאהי לא תדרך חקיקתה פנאהיך האולא אלד'ין לא ידרי אלמשהור ענדהם פי אלטביעיאת.",
+          "en": "They have good reason for this, for if the foremost of the philosophers were puzzled by the matter of time — some of them not grasping its meaning, so much so that Galen said 'it is a divine matter whose reality cannot be apprehended' — how much more so for those who do not know what is well-known among them in natural science.",
+          "pairs": [
+            {
+              "ja": "אלפלאספה קד חירהם אמר אלזמאן",
+              "en": "the foremost of the philosophers were puzzled by the matter of time"
+            },
+            {
+              "ja": "ג'אלינוס קאל הו אמר אלאהי לא תדרך חקיקתה",
+              "en": "Galen said 'it is a divine matter whose reality cannot be apprehended'"
+            }
+          ]
+        },
+        {
+          "ja": "ואסמע מא לזמהם בחסב הד'ה אלת'לאת' מקדמאת פאתעקדוה. קאלוא אלחרכה הי אנתקאל ג'והר פרד מן תלך אלאג'זא מן ג'והר פרד אלי ג'והר פרד יליה. פילזם אן לא תכון חרכה בטיה ולא סריעה אלא בחסב עדד אלג'ואהר אלמקטועה.",
+          "en": "Hear what they accepted as following from these three premises. They said: motion is the transfer of one atom from among those parts from one atom to the adjacent atom. It follows that there is no slow motion and no fast motion except in proportion to the number of atoms traversed.",
+          "pairs": [
+            {
+              "ja": "אלחרכה הי אנתקאל ג'והר פרד מן תלך אלאג'זא מן ג'והר פרד אלי ג'והר פרד יליה",
+              "en": "motion is the transfer of one atom from among those parts from one atom to the adjacent atom"
+            },
+            {
+              "ja": "אן לא תכון חרכה בטיה ולא סריעה אלא בחסב עדד אלג'ואהר אלמקטועה",
+              "en": "there is no slow motion and no fast motion except in proportion to the number of atoms traversed"
+            }
+          ]
+        },
+        {
+          "ja": "ולא תט'ן אן הד'א אלד'י ד'כרת לך הו אשנע מא ילזם ען הד'ה אלת'לאת' מקדמאת בל אלד'י ילזם ען אעתקאד וג'וד אלכ'לא אעג'ב ואשנע.",
+          "en": "Do not suppose that what I described to you is the most outrageous thing that follows from these three premises — what follows from the belief in the void is more wondrous and more outrageous.",
+          "pairs": [
+            {
+              "ja": "הד'א אלד'י ד'כרת לך הו אשנע מא ילזם ען הד'ה אלת'לאת' מקדמאת",
+              "en": "what I described to you is the most outrageous thing that follows from these three premises"
+            },
+            {
+              "ja": "אלד'י ילזם ען אעתקאד וג'וד אלכ'לא אעג'ב ואשנע",
+              "en": "what follows from the belief in the void is more wondrous and more outrageous"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלראבעה הי קולהם אן אלאעראץ' מוג'ודה והי מעאני זאידה עלי מעני אלג'והר ולא ינפך ג'סם מן אלאג'סאם מן אחדהא. והד'ה אלמקדמה לו אקתצר פיהא עלי הד'א אלקדר כאן ינבגי אן לא יכון פיהא מא ינאזע פיה לאן אלאעראץ' מוג'ודה ולא נזאע פיה.",
+          "en": "Premise Four: their statement that accidents exist and are meanings additional to the meaning of the substance, and no body is devoid of at least one of them. Were this premise limited to this extent, there would be nothing controversial in it, for accidents exist — there is no dispute about this.",
+          "pairs": [
+            {
+              "ja": "אן אלאעראץ' מוג'ודה והי מעאני זאידה עלי מעני אלג'והר",
+              "en": "accidents exist and are meanings additional to the meaning of the substance"
+            },
+            {
+              "ja": "לא ינפך ג'סם מן אלאג'סאם מן אחדהא",
+              "en": "no body is devoid of at least one of them"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלכ'אמסה הי קולהם אן אלג'והר אלפרד תקום בה תלך אלאעראץ' ולא ינפך מנהא. ותביין הד'ה אלמקדמה ומענאהא אנהם יקולון אן הד'ה אלג'ואהר אלאפראד אלתי יתרכב מנהא כל ג'סם כל ג'והר מנהא לא ינפך מן ערץ' הי פיה מן אלאעראץ' אלמד'כורה.",
+          "en": "Premise Five: their statement that the atom bears those accidents and is never free of them. The explanation and meaning of this premise: they say that these individual atoms of which every body is composed — each atom among them is never devoid of an accident that is one of the mentioned accidents.",
+          "pairs": [
+            {
+              "ja": "אן אלג'והר אלפרד תקום בה תלך אלאעראץ' ולא ינפך מנהא",
+              "en": "the atom bears those accidents and is never free of them"
+            },
+            {
+              "ja": "הד'ה אלג'ואהר אלאפראד אלתי יתרכב מנהא כל ג'סם",
+              "en": "these individual atoms of which every body is composed"
+            }
+          ]
+        },
+        {
+          "ja": "אמא אלנפס פהם פיהא מכ'תלפון אגלב אקואלהם אנהא ערץ' מוג'וד פי ג'והר ואחד פרד מן ג'מלהֵ אלג'ואהר אלתי תרכב מנהא אלאנסאן מת'לא ותסמת אלג'מלה מתנפסה מן אג'ל ד'לך אלג'והר אלד'י פיה תלך אלנפס.",
+          "en": "As for the soul, they differ about it. The prevailing view among them is that it is an accident existing in one individual atom from among the atoms that compose a human being for example, and the composite is called 'ensouled' because of that atom in which the soul resides.",
+          "pairs": [
+            {
+              "ja": "אגלב אקואלהם אנהא ערץ' מוג'וד פי ג'והר ואחד פרד",
+              "en": "The prevailing view among them is that it is an accident existing in one individual atom"
+            },
+            {
+              "ja": "ותסמת אלג'מלה מתנפסה מן אג'ל ד'לך אלג'והר",
+              "en": "the composite is called 'ensouled' because of that atom"
+            }
+          ]
+        },
+        {
+          "ja": "אמא אלעקל פראיתהם יג'מעון אנה ערץ' פי ג'והר פרד מן אלג'מלה אלעאקלה. ופי אלעלם ענדהם חירה הל הו ערץ' מוג'וד פי כל ג'והר וג'והר מן ג'ואהר אלג'מלה אלעאלמה.",
+          "en": "As for the intellect, I see them generally agreeing that it is an accident in an individual atom from the rational composite. As for knowledge, there is among them uncertainty as to whether it is an accident existing in each individual atom from the atoms of the knowing composite.",
+          "pairs": [
+            {
+              "ja": "יג'מעון אנה ערץ' פי ג'והר פרד מן אלג'מלה אלעאקלה",
+              "en": "the intellect, I see them generally agreeing that it is an accident in an individua"
+            },
+            {
+              "ja": "פי אלעלם ענדהם חירה הל הו ערץ' מוג'וד פי כל ג'והר",
+              "en": "As for knowledge, there is among them uncertainty as to whether it is an accident existing in each individual atom"
+            }
+          ]
+        },
+        {
+          "ja": "ולמא אעתרץ' עליהם בכוננא נג'ד אלמעאדן ואלאחג'אר אכת'רהא ד'ו לון שדיד פאד'א סחקת ד'הב ד'לך אללון לאנא אד'א סחקנא אלזמרד אלשדיד אלכ'צ'רה צאר גבארא אביץ' אג'אבוא בחיל.",
+          "en": "When it was objected to them that we find most minerals and stones to have an intense color, and when ground, that color disappears — for when we grind intensely green emerald it becomes white dust — they answered with stratagems.",
+          "pairs": [
+            {
+              "ja": "נג'ד אלמעאדן ואלאחג'אר אכת'רהא ד'ו לון שדיד פאד'א סחקת ד'הב ד'לך אללון",
+              "en": "we find most minerals and stones to have an intense color, and when ground, that color disappears — f"
+            },
+            {
+              "ja": "אד'א סחקנא אלזמרד אלשדיד אלכ'צ'רה צאר גבארא אביץ'",
+              "en": "when we grind intensely green emerald it becomes white dust"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלסאדסה הי קולהם אן אלערץ' לא יבקי זמאנין. מעני הד'ה אלמקדמה אנהם זעמוא אן אללה עז וג'ל יכ'לק אלג'והר ויכ'לק פיה אי ערץ' שא מעא פי דפעה ואחדה ת'ם יעדם ד'לך אלערץ' ולו כ'לק ג'והרא ת'אניא מתלה כ'לקה חין לא ערץ' פיה ת'ם יכ'לק פיה ערצ'א.",
+          "en": "Premise Six: their statement that an accident does not persist for two moments. The meaning of this premise is that they claimed God, mighty and glorious, creates the substance and creates in it whatever accident He wills, simultaneously in a single act; then that accident ceases to exist; and even if He were to create a second atom like it, He would create it without an accident in it, then create an accident in it.",
+          "pairs": [
+            {
+              "ja": "אן אלערץ' לא יבקי זמאנין",
+              "en": "an accident does not persist for two moments"
+            },
+            {
+              "ja": "אללה עז וג'ל יכ'לק אלג'והר ויכ'לק פיה אי ערץ' שא מעא פי דפעה ואחדה",
+              "en": "creates the substance and creates in it whatever accident He wills, simultaneously in a single act"
+            },
+            {
+              "ja": "ת'ם יעדם ד'לך אלערץ'",
+              "en": "then that accident ceases to exist"
+            }
+          ]
+        },
+        {
+          "ja": "ואלד'י דעאהם אלי הד'א אלראי הו אן לא יקאל באן ת'ם טביעה בוג'ה ואן הד'א אלג'סם תקתצ'י טביעתה אן ילחקה מן אלאעראץ' אלכד'א ואלכד'א בל ירידון אן יקולוא אן אלעאלם כלה גאיר לא כאלאמר ענד אלפלאספה מן אלת'בוט ופי כל שי אסתמראר בחסב טביעה.",
+          "en": "What led them to this view is that they do not want it said that there is any natural order whatsoever, or that this body's nature requires that such-and-such accidents attach to it; rather they want to say that the entire world is in constant flux — not as matters stand with the philosophers, who hold stability and continuity in everything according to nature.",
+          "pairs": [
+            {
+              "ja": "אלד'י דעאהם אלי הד'א אלראי",
+              "en": "What led them to this view"
+            },
+            {
+              "ja": "לא יקאל באן ת'ם טביעה בוג'ה",
+              "en": "they do not want it said that there is any natural order whatsoever"
+            },
+            {
+              "ja": "אלעאלם כלה גאיר לא כאלאמר ענד אלפלאספה מן אלת'בוט ופי כל שי אסתמראר",
+              "en": "the entire world is in constant flux — not as matters stand with the philosophers, who hold stability and continuity in everything"
+            }
+          ]
+        },
+        {
+          "ja": "ובחסב הד'ה אלמקדמה קאלוא אן הד'א אלת'וב אלד'י צבגנאה אחמר בזעמנא ליס נחן אלצאבגין אצלא בל אללה אחדת' ד'לך אללון פי אלת'וב ענד מקארנתה ללצבג אלאחמר אלד'י הו ג'סם אכ'ר.",
+          "en": "According to this premise they said: this garment that we claim to have dyed red — we are not the dyers at all; rather God created that color in the garment at the time of its contact with the red dye, which is another body.",
+          "pairs": [
+            {
+              "ja": "הד'א אלת'וב אלד'י צבגנאה אחמר בזעמנא ליס נחן אלצאבגין אצלא",
+              "en": "this garment that we claim to have dyed red — we are not the dyers at all"
+            },
+            {
+              "ja": "אללה אחדת' ד'לך אללון פי אלת'וב ענד מקארנתה ללצבג אלאחמר",
+              "en": "God created that color in the garment at the time of its contact with the red dye"
+            }
+          ]
+        },
+        {
+          "ja": "פאלזמוא בחסב הד'א אלוצ'ע אן הד'ה אלאשיא אלתי נעלמהא אלאן ליסת הי עלומנא אלתי עלמנאהא אמס בל עדמת תלך אלעלום וכ'לקת עלום אכ'רי מת'להא.",
+          "en": "According to this arrangement they are obligated to say that these things we know now are not the same knowledge we knew yesterday — rather that knowledge ceased to exist and other knowledge like it was created.",
+          "pairs": [
+            {
+              "ja": "הד'ה אלאשיא אלתי נעלמהא אלאן ליסת הי עלומנא אלתי עלמנאהא אמס",
+              "en": "these things we know now are not the same knowledge we knew yesterday"
+            },
+            {
+              "ja": "בל עדמת תלך אלעלום וכ'לקת עלום אכ'רי מת'להא",
+              "en": "rather that knowledge ceased to exist and other knowledge like it was created"
+            }
+          ]
+        },
+        {
+          "ja": "ובחסב הד'ה אלמקדמה קאלוא אן אלאנסאן אד'א חרך אלקלם פמא אלאנסאן חרכה לאן הד'א אלתחרך אלד'י חדת' פי אלקלם הו ערץ' כ'לקה אללה פי אלקלם וכד'לך חרכהֵ אליד אלד'י ד'הב אלג'מהור אנה הו חרך אלקלם הו ערץ' כ'לקה אללה פי אליד.",
+          "en": "According to this premise they said: when a person moves a pen, the person has not really moved it — for the movement that occurred in the pen is an accident God created in the pen; and likewise the movement of the hand — which the multitude takes to have moved the pen — is an accident God created in the hand.",
+          "pairs": [
+            {
+              "ja": "אן אלאנסאן אד'א חרך אלקלם פמא אלאנסאן חרכה",
+              "en": "when a person moves a pen, the person has not really moved it"
+            },
+            {
+              "ja": "הד'א אלתחרך אלד'י חדת' פי אלקלם הו ערץ' כ'לקה אללה פי אלקלם",
+              "en": "the movement that occurred in the pen is an accident God created in the pen"
+            }
+          ]
+        },
+        {
+          "ja": "ואמא אפעאל אלנאס פהם פיהא מכ'תלפון מד'הב אכת'רהם וג'מהור אלאשעריה אן ענד תחריך הד'א אלקלם כ'לק אללה ארבעה אעראץ' ליס מנהא ערץ' סבבא ללאכ'ר בל הי מתקארנה. ולד'לך קאלוא אן אפעאל אלנאס מכ'תסבה תהאון לא מכ'לוקה ואלעבד מכ'תסב לא פאעל.",
+          "en": "As for human acts, they differ about them. The view of most, and of the majority of Ashʿarites, is that when this pen is moved, God creates four accidents, none of which is a cause for another, but they are concomitant. For this reason they said: human acts are 'acquired' metaphorically, not truly created; the servant 'acquires' but does not act.",
+          "pairs": [
+            {
+              "ja": "ענד תחריך הד'א אלקלם כ'לק אללה ארבעה אעראץ'",
+              "en": "when this pen is moved, God creates four accidents"
+            },
+            {
+              "ja": "ליס מנהא ערץ' סבבא ללאכ'ר בל הי מתקארנה",
+              "en": "none of which is a cause for another, but they are concomitant"
+            },
+            {
+              "ja": "אפעאל אלנאס מכ'תסבה תהאון לא מכ'לוקה",
+              "en": "human acts are 'acquired' metaphorically, not truly created"
+            }
+          ]
+        },
+        {
+          "ja": "פפי כל אן מן תלך אלאנאת אעני אלאזמנה אלאפראד יכ'לק אללה ערצ'א פי ג'מיע אשכ'אץ אלמוג'ודאת מן מלך ופלך וגירהמא הכד'א דאימא פי כל חין. וקאלוא אן הד'א הו מעני אלרבוביה.",
+          "en": "In every instant from those instants — I mean the individual moments — God creates an accident in all the individuals of existing things, from angel to sphere and others, always and at every moment. And they said: this is the meaning of Lordship.",
+          "pairs": [
+            {
+              "ja": "פי כל אן מן תלך אלאנאת אעני אלאזמנה אלאפראד יכ'לק אללה ערצ'א פי ג'מיע א",
+              "en": "In every instant from those instants — I mean the individual moments — God creates an a"
+            },
+            {
+              "ja": "מן מלך ופלך וגירהמא הכד'א דאימא פי כל חין",
+              "en": "from angel to sphere and others, always and at every moment"
+            },
+            {
+              "ja": "קאלוא אן הד'א הו מעני אלרבוביה",
+              "en": "they said: this is the meaning of Lordship"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלסאבעה הי אעתקאדהם אעדאם אלמלכאת אנהא מעאני מוג'ודה פי אלג'סם זאידה עלי ג'והרה פהי אעראץ' מוג'ודה איצ'א פהי תכ'לק דאימא כלמא ד'הב שי כ'לק שי.",
+          "en": "Premise Seven: their belief concerning privations — that they are existing meanings in a body, additional to its substance; they are therefore also existing accidents; they are always being created — whenever something ceases a thing is created.",
+          "pairs": [
+            {
+              "ja": "אעדאם אלמלכאת אנהא מעאני מוג'ודה פי אלג'סם זאידה עלי ג'והרה",
+              "en": "they are existing meanings in a body, additional to its substance"
+            },
+            {
+              "ja": "פהי אעראץ' מוג'ודה איצ'א פהי תכ'לק דאימא",
+              "en": "they are therefore also existing accidents; they are always being created"
+            }
+          ]
+        },
+        {
+          "ja": "וילזם צ'רורה עלי הד'א אלוצ'ע אן ערץ' אלמות אלד'י יכ'לקה אללה הו איצ'א יעדם לחינה פיכ'לק אללה מותא אכ'ר ולולא ד'לך למא דאם אלמות בל כמא תכ'לק חיאה בעד מות.",
+          "en": "It necessarily follows from this arrangement that the accident of death which God creates itself ceases to exist immediately, and God creates another death; otherwise death would not persist — just as life is created after death.",
+          "pairs": [
+            {
+              "ja": "ערץ' אלמות אלד'י יכ'לקה אללה הו איצ'א יעדם לחינה",
+              "en": "the accident of death which God creates itself ceases to exist immediately"
+            },
+            {
+              "ja": "פיכ'לק אללה מותא אכ'ר ולולא ד'לך למא דאם אלמות",
+              "en": "God creates another death; otherwise death would not persist"
+            }
+          ]
+        },
+        {
+          "ja": "ובעץ' אלמעתזלה יקול באן בעץ' אעדאם אלמלכאת ליסת אמור מוג'ודה בל יקול אן אלעג'ז עדם אלקדרה ואלג'הל עדם אלעלם ולא יטרד ד'לך פי כל עדם.",
+          "en": "Some of the Muʿtazilites say that some privations of positive qualities are not existing things — he says impotence is the absence of power and ignorance is the absence of knowledge — but this is not applied consistently to every privation.",
+          "pairs": [
+            {
+              "ja": "בעץ' אלמעתזלה יקול באן בעץ' אעדאם אלמלכאת ליסת אמור מוג'ודה",
+              "en": "Some of the Muʿtazilites say that some privations of positive qualities are not existing things"
+            },
+            {
+              "ja": "אן אלעג'ז עדם אלקדרה ואלג'הל עדם אלעלם",
+              "en": "impotence is the absence of power and ignorance is the absence of knowledge"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלת'אמנה הי קולהם אן ליס ת'ם גיר ג'והר וערץ' ואן אלצור אלטביעיה איצ'א אעראץ'. ותביין הד'ה אלמקדמה אן אלאג'סאם כלהא ענדהם מולפה מן ג'ואהר מתמאת'לה מן כל ג'ההֵ ואן אלאכ'תלאף אלד'י בינהא הו אכ'תלאף פי אעראצ'הא לא פי ג'ואהרהא.",
+          "en": "Premise Eight: their statement that there is nothing besides substance and accident, and that natural forms are also accidents. The explanation of this premise: all bodies are in their view composed of completely similar atoms in every respect, and the difference between them is a difference in their accidents, not in their substances.",
+          "pairs": [
+            {
+              "ja": "ליס ת'ם גיר ג'והר וערץ' ואן אלצור אלטביעיה איצ'א אעראץ'",
+              "en": "there is nothing besides substance and accident, and that natural forms are also accidents"
+            },
+            {
+              "ja": "אלאג'סאם כלהא ענדהם מולפה מן ג'ואהר מתמאת'לה מן כל ג'הה",
+              "en": "all bodies are in their view composed of completely similar atoms in ever"
+            },
+            {
+              "ja": "אלאכ'תלאף אלד'י בינהא הו אכ'תלאף פי אעראצ'הא לא פי ג'ואהרהא",
+              "en": "the difference between them is a difference in their accidents, not in their substances"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלתאסעה הי קולהם אן אלאעראץ' לא תחמל בעצ'הא בעצ'א ולא יקאל ענדהם אן הד'א אלערץ' מחמול עלי ערץ' אכ'ר ואלאכ'ר עלי אלג'והר בל אלאעראץ' כלהא אנמא תקום בג'ואהר מן ג'ואהר אלאג'סאם לא בשי אכ'ר.",
+          "en": "Premise Nine: their statement that accidents do not bear one another — it is not said among them that this accident is borne by another accident and that other by the substance; rather all accidents reside only in atoms of bodies, in nothing else.",
+          "pairs": [
+            {
+              "ja": "אן אלאעראץ' לא תחמל בעצ'הא בעצ'א",
+              "en": "accidents do not bear one another"
+            },
+            {
+              "ja": "אלאעראץ' כלהא אנמא תקום בג'ואהר מן ג'ואהר אלאג'סאם",
+              "en": "all accidents reside only in atoms of bodies"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלעאשרה הי הד'א אלתג'ויז אלד'י יד'כרונה והד'א הו עמדהֵ עלם אלכלאם ואסמע מענאה. הם ירון אן כל מא הו מתכ'יל פהו ג'איז ענד אלעקל מת'ל אן תציר כרה מרבעה ואן יציר אלעקל ג'הלא ואן יציר אלמית חיא.",
+          "en": "Premise Ten: this permissibility principle they mention — and this is the pillar of the science of kalam. Hear its meaning. They hold that everything imaginable is possible according to reason — such as a sphere becoming square, the intellect becoming ignorance, or the dead man coming alive.",
+          "pairs": [
+            {
+              "ja": "הד'א אלתג'ויז אלד'י יד'כרונה והד'א הו עמדהֵ עלם אלכלאם",
+              "en": "this permissibility principle they mention — and this is the pillar of the science of kalam"
+            },
+            {
+              "ja": "כל מא הו מתכ'יל פהו ג'איז ענד אלעקל",
+              "en": "everything imaginable is possible according to reason"
+            },
+            {
+              "ja": "מת'ל אן תציר כרה מרבעה ואן יציר אלעקל ג'הלא",
+              "en": "such as a sphere becoming square, the intellect becoming ignorance"
+            }
+          ]
+        },
+        {
+          "ja": "והם מע הד'א מג'מעון אן אג'תמאע אלצ'דין פי מחל ואחד ופי אן ואחד מחאל לא יצח ולא יג'וז אלעקל ד'לך. וכד'לך יקולון איצ'א אן כון ג'והר לא ערץ' פיה אצלא או כון אלא'לה ג'סמא המא וכ'יאל ואסתחאלה.",
+          "en": "Yet they also agree that the combination of two opposites in one subject at one moment is impossible — reason does not accept and cannot permit that. They likewise say: a substance with no accident whatsoever, or the Deity being a body — these two are illusion and impossible.",
+          "pairs": [
+            {
+              "ja": "אג'תמאע אלצ'דין פי מחל ואחד ופי אן ואחד מחאל לא יצח",
+              "en": "the combination of two opposites in one subject at one moment is impossible — reason does not accept and can"
+            },
+            {
+              "ja": "כון אלא'לה ג'סמא המא וכ'יאל ואסתחאלה",
+              "en": "the Deity being a body — these two are illusion and impossible"
+            }
+          ]
+        },
+        {
+          "ja": "אמא אן כל מא עדוה מן אלממתנעאת לא יתצור בוג'ה ואן אלד'י סמוה ממכנא יתצור פהו קול צחיח גיר אן אלפלאספה תקול אן הד'א אלד'י סמיתמוה ממתנעא לכונה לא יתכ'יל ופי ראיהם ד'לך כד'לך לאן כל מא לא יתכ'יל פהו ממתנע.",
+          "en": "As for their claim that everything they enumerated as impossible cannot be conceived in any way, and that what they called possible can be conceived — this is a correct statement. But the philosophers say: what you called 'impossible' because it cannot be imagined — that is indeed so in your view, for everything that cannot be imagined is impossible.",
+          "pairs": [
+            {
+              "ja": "כל מא עדוה מן אלממתנעאת לא יתצור בוג'ה",
+              "en": "everything they enumerated as impossible cannot be conceived in any way"
+            },
+            {
+              "ja": "אלפלאספה תקול אן הד'א אלד'י סמיתמוה ממתנעא לכונה לא יתכ'יל",
+              "en": "the philosophers say: what you called 'impossible' because it cannot be imagined"
+            }
+          ]
+        },
+        {
+          "ja": "פקד תבין אן אלמתכ'יל ענדהם ממכן יטאבקה אלוג'וד או לם יטאבקה וכל מא לא יתכ'יל פהו אלממתנע. והד'ה אלמקדמה לא תצח אלא באלתסע מקדמאת אלתי תקדם ד'כרהא.",
+          "en": "It has thus become clear that in their view what is imaginable is possible — whether or not it corresponds to actual existence; and everything that cannot be imagined is the impossible. This premise is valid only on the basis of the nine premises already mentioned.",
+          "pairs": [
+            {
+              "ja": "אלמתכ'יל ענדהם ממכן יטאבקה אלוג'וד או לם יטאבקה",
+              "en": "what is imaginable is possible — whether or not it corresponds to actual existence"
+            },
+            {
+              "ja": "וכל מא לא יתכ'יל פהו אלממתנע",
+              "en": "everything that cannot be imagined is the impossible"
+            }
+          ]
+        },
+        {
+          "ja": "קאל אלמתכלם ללפילסוף לאי שי וג'דנא הד'א ג'סם אלחדיד פי גאיהֵ אלצלאבה ואלשדה והו אסוד והד'א ג'סם אלזבד פי גאיהֵ אללין ואלרכ'אוה והו אביץ'.",
+          "en": "The mutakallim said to the philosopher: why do we find the body of iron to be extremely hard and rigid and black, while the body of foam is extremely soft and yielding and white?",
+          "pairs": [
+            {
+              "ja": "לאי שי וג'דנא הד'א ג'סם אלחדיד פי גאיהֵ אלצלאבה ואלשדה והו אסוד",
+              "en": "why do we find the body of iron to be extremely hard and rigid and black"
+            },
+            {
+              "ja": "והד'א ג'סם אלזבד פי גאיהֵ אללין ואלרכ'אוה והו אביץ'",
+              "en": "while the body of foam is extremely soft and yielding and white"
+            }
+          ]
+        },
+        {
+          "ja": "ג'אובה אלפילסוף באן קאל אן כל ג'סם טביעי לה נועאן מן אלאעראץ' אעראץ' תלחקה מן ג'ההֵ מאדתה כמת'ל מא יצח אלאנסאן וימרץ' ואעראץ' תלחקה מן ג'ההֵ צורתה כתעקל אלאנסאן וכ'ג'לה ווג'לה.",
+          "en": "The philosopher answered: every natural body has two kinds of accidents — accidents that attach to it by reason of its matter, such as a human being's being healthy or sick; and accidents that attach to it by reason of its form, such as a human being's intellecting, feeling shame, or fear.",
+          "pairs": [
+            {
+              "ja": "כל ג'סם טביעי לה נועאן מן אלאעראץ'",
+              "en": "every natural body has two kinds of accidents"
+            },
+            {
+              "ja": "אעראץ' תלחקה מן ג'ההֵ מאדתה",
+              "en": "accidents that attach to it by reason of its matter"
+            },
+            {
+              "ja": "ואעראץ' תלחקה מן ג'ההֵ צורתה",
+              "en": "accidents that attach to it by reason of its form"
+            }
+          ]
+        },
+        {
+          "ja": "פנקץ' אלמתכלם הד'א אלג'ואב כלה בתלך אלמקדמאת אלתי לה עלי מא אצף לך וד'לך אנה יקול לא צורה מוג'ודה כמא תזעם אצלא תקום אלג'והר חתי תג'עלהא ג'ואהר מכ'תלפה.",
+          "en": "The mutakallim refuted this entire answer with those premises he holds, as I shall describe: he says there is no form existing as you claim that would subsist in the substance and thereby make them different kinds of substances.",
+          "pairs": [
+            {
+              "ja": "נקץ' אלמתכלם הד'א אלג'ואב כלה בתלך אלמקדמאת",
+              "en": "The mutakallim refuted this entire answer with those premises"
+            },
+            {
+              "ja": "לא צורה מוג'ודה כמא תזעם אצלא תקום אלג'והר",
+              "en": "there is no form existing as you claim that would subsist in the substance"
+            }
+          ]
+        },
+        {
+          "ja": "תנביה. אעלם יא איהא אלנאט'ר פי הד'ה אלמקאלה אנך אן כנת ממן עלם אלנפס וקואהא ותחקק כל שי עלי חקיקהֵ וג'ודה פקד עלמת אן אלכ'יאל מוג'וד לאכת'ר אלחיואנאת ג'ד כמא בינה אפלאטון ואריסטו.",
+          "en": "Note. Know, O you who examine this treatise, that if you are among those who have studied psychology and its faculties and have ascertained everything according to the reality of its existence, you know that imagination exists in most animals — as Plato and Aristotle have explained.",
+          "pairs": [
+            {
+              "ja": "אן כנת ממן עלם אלנפס וקואהא ותחקק כל שי עלי חקיקהֵ וג'ודה",
+              "en": "if you are among those who have studied psychology and its faculties and have ascertained everything according to the reality of its existence"
+            },
+            {
+              "ja": "פקד עלמת אן אלכ'יאל מוג'וד לאכת'ר אלחיואנאת",
+              "en": "you know that imagination exists in most animals"
+            }
+          ]
+        },
+        {
+          "ja": "ואסמע מא אפאדתנא אלעלום אלריאצ'יה ומא אעט'ם מא אתכ'ד'נאה מנהא מן אלמקדמאת.",
+          "en": "Hear what the mathematical sciences have benefited us, and how great what we have derived from them as premises.",
+          "pairs": [
+            {
+              "ja": "אסמע מא אפאדתנא אלעלום אלריאצ'יה",
+              "en": "Hear what the mathematical sciences have benefited us"
+            },
+            {
+              "ja": "מא אעט'ם מא אתכ'ד'נאה מנהא מן אלמקדמאת",
+              "en": "how great what we have derived from them as premises"
+            }
+          ]
+        },
+        {
+          "ja": "אעלם אן ת'ם אשיא אד'א אעתברהא אלאנסאן בכ'יאלה פלא יתצורהא בוג'ה בל יג'ד אמתנאע תכ'ילהא כאמתנאע אג'תמאע אלצ'דין. ת'ם צח באלברהאן וג'וד ד'לך אלאמר אלממתנע תכ'ילה.",
+          "en": "Know that there are things that when a person considers them by imagination he cannot conceive them in any way — rather he finds their conceiving impossible, like the impossibility of combining two opposites. Yet the existence of that thing whose conceiving is impossible has then been demonstrated by proof.",
+          "pairs": [
+            {
+              "ja": "אשיא אד'א אעתברהא אלאנסאן בכ'יאלה פלא יתצורהא בוג'ה",
+              "en": "things that when a person considers them by imagination he cannot conceive them in any way"
+            },
+            {
+              "ja": "יג'ד אמתנאע תכ'ילהא כאמתנאע אג'תמאע אלצ'דין",
+              "en": "he finds their conceiving impossible, like the impossibility of combining two opposites"
+            },
+            {
+              "ja": "צח באלברהאן וג'וד ד'לך אלאמר אלממתנע תכ'ילה",
+              "en": "the existence of that thing whose conceiving is impossible has then been demonstrated by proof"
+            }
+          ]
+        },
+        {
+          "ja": "פקד באן אן ת'ם שי אכ'ר בה יתעבר אלואג'ב ואלג'איז ואלממתנע ומא הו אלכ'יאל. פמא אחסן הד'א אלנט'ר ומא אעט'ם ג'דואה למן אראד אן יפיק מן הד'א אלאגמא אעני אן כל מא לא יתכ'יל ממתנע.",
+          "en": "It has thus become clear that there is something other than imagination by which the necessary, the possible, and the impossible are evaluated. How excellent this inquiry is, and how great its value for one who wants to wake from this stupor — I mean the belief that everything that cannot be imagined is impossible.",
+          "pairs": [
+            {
+              "ja": "ת'ם שי אכ'ר בה יתעבר אלואג'ב ואלג'איז ואלממתנע ומא הו אלכ'יאל",
+              "en": "there is something other than imagination by which the necessary, the possible, and the impossible are evaluated"
+            },
+            {
+              "ja": "כל מא לא יתכ'יל ממתנע",
+              "en": "everything that cannot be imagined is impossible"
+            }
+          ]
+        },
+        {
+          "ja": "ולא תט'ן אן אלמתכלמין לא ישערון בשי מן הד'א בל ישערון בה בעץ' שעור ויעלמונה ויסמון מא יתכ'יל והו ממתנע כמת'ל כון אללה ג'סמא והמא וכ'יאלא.",
+          "en": "Do not suppose that the mutakallimūn have no awareness of any of this — rather they have some awareness of it and they know it; they call what is imaginable yet impossible — such as God being a body — illusion and imagination.",
+          "pairs": [
+            {
+              "ja": "אלמתכלמין לא ישערון בשי מן הד'א",
+              "en": "Do not suppose that the mutakallimūn have no awareness of any of this"
+            },
+            {
+              "ja": "ויסמון מא יתכ'יל והו ממתנע כמת'ל כון אללה ג'סמא והמא וכ'יאלא.",
+              "en": "they call what is imaginable yet impossible — such as God being a body — illusion and imagination"
+            }
+          ]
+        },
+        {
+          "ja": "פתאמל יא איהא אלנאט'ר וארי אנה נשא טריק נט'ר עויץ וד'לך אן הד'ה תצוראת מא ידעי שכ'ץ אנהא תצוראת עקליה ואכ'ר יקול אנהא תצוראת כ'יאליה פנריד אן נג'ד אמרא ונסמיה בהמא אסמין.",
+          "en": "Consider, O examiner, and see how a crooked method of investigation has arisen: these are conceptions that one person claims are intellectual conceptions and another says are imaginative conceptions — and we want to find a matter and call it by both names.",
+          "pairs": [
+            {
+              "ja": "נשא טריק נט'ר עויץ",
+              "en": "a crooked method of investigation has arisen"
+            },
+            {
+              "ja": "הד'ה תצוראת מא ידעי שכ'ץ אנהא תצוראת עקליה ואכ'ר יקול אנהא תצוראת כ'יאליה",
+              "en": "these are conceptions that one person claims are intellectual conceptions and another says are imag"
+            }
+          ]
+        },
+        {
+          "ja": "והד'א באב אלתג'ויז פיה ענדי כלאם סתסמעה פי מואצ'ע מן הד'ה אלמקאלה ומא הו אמר יבאדר בדפע ג'מיעה באלהוינא.",
+          "en": "This topic of permissibility — I have words about it that you will hear in several places of this treatise, and it is a matter that one should not rush to dismiss entirely by trivializing.",
+          "pairs": [
+            {
+              "ja": "הד'א באב אלתג'ויז פיה ענדי כלאם סתסמעה פי מואצ'ע מן הד'ה אלמקאלה",
+              "en": "This topic of permissibility — I have words about it that you will hear in several places of this treatise"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלחאדיהֵ עשרה הי קולהם אן וג'וד מא לא נהאיה לה מחאל עלי אי חאל כאן. וביאן ד'לך אנה קד תברהן אמתנאע וג'וד עט'ם מא לא נהאיה לה או וג'וד אעט'אם לא נהאיה להא מג'תמעה וקד בינא ד'לך אנמא הו מחאל.",
+          "en": "Premise Eleven: their statement that the existence of the infinite is impossible in any state whatsoever. The explanation of this: it has been demonstrated that the existence of an infinite magnitude, or of infinite magnitudes assembled together, is impossible — and we explained that this is indeed impossible.",
+          "pairs": [
+            {
+              "ja": "אן וג'וד מא לא נהאיה לה מחאל עלי אי חאל כאן",
+              "en": "the existence of the infinite is impossible in any state whatsoever"
+            },
+            {
+              "ja": "קד תברהן אמתנאע וג'וד עט'ם מא לא נהאיה לה",
+              "en": "it has been demonstrated that the existence of an infinite magnitude, or of infinite ma"
+            }
+          ]
+        },
+        {
+          "ja": "אמא וג'וד מא לא נהאיה לה באלקוה או באלערץ' פמנה מא תברהן וג'ודה כמא תברהן אנקסאם אלעט'ם אלי לא נהאיה באלקוה ואנקסאם אלזמאן אלי לא נהאיה.",
+          "en": "But the existence of the infinite in potency or accidentally — some of it has been demonstrated to exist, as it has been demonstrated that a magnitude is divisible in potency without end, and that time is divisible without end.",
+          "pairs": [
+            {
+              "ja": "וג'וד מא לא נהאיה לה באלקוה",
+              "en": "the existence of the infinite in potency"
+            },
+            {
+              "ja": "תברהן אנקסאם אלעט'ם אלי לא נהאיה באלקוה",
+              "en": "it has been demonstrated that a magnitude is divisible in potency without end"
+            }
+          ]
+        },
+        {
+          "ja": "ג'דא פמן ידעי אנה קד ברהן עלי קדם אלעאלם יקול אן אלזמאן גיר מתנאה ולא ילזמה מן ד'לך מחאל לכון אלזמאן כלמא חצל מנה ג'ז עדם קבלה ג'ז אכ'ר.",
+          "en": "For one who claims to have demonstrated the eternity of the world says that time has no end, and this does not entail for him any impossibility — since time is such that whenever a part of it has come to be, the part before it has ceased, replaced by another part.",
+          "pairs": [
+            {
+              "ja": "מן ידעי אנה קד ברהן עלי קדם אלעאלם יקול אן אלזמאן גיר מתנאה",
+              "en": "one who claims to have demonstrated the eternity of the world says that time has no end"
+            },
+            {
+              "ja": "לא ילזמה מן ד'לך מחאל",
+              "en": "this does not entail for him any impossibility"
+            }
+          ]
+        },
+        {
+          "ja": "אלמקדמה אלת'אניהֵ עשרה קולהם אן אלחואס לא תעטי אליקין דאימא. וד'לך אן אלמתכלמין אתהמוא אדראך אלחואס מן ג'התין אחדאהמא אנהא קד יפותהא קאלוא כת'יר מן מחסוסאת לא תדרכהא אלחואס בל ועד אלג'ד אלאול.",
+          "en": "Premise Twelve: their statement that the senses do not always yield certainty. The mutakallimūn impugned the perception of the senses on two grounds: one is that they can miss — they said many objects of sense-perception are not perceived by the senses, not even approaching the first limit.",
+          "pairs": [
+            {
+              "ja": "אלמקדמה אלת'אניהֵ עשרה קולהם אן אלחואס לא תעטי אליקין דאימא",
+              "en": "Premise Twelve: their statement that the senses do not always yield certainty"
+            },
+            {
+              "ja": "אלמתכלמין אתהמוא אדראך אלחואס מן ג'התין",
+              "en": "The mutakallimūn impugned the perception of the senses on two grounds"
+            }
+          ]
+        },
+        {
+          "ja": "ולא תט'ן אן אלמתכלמין צ'ארבוא עלי הד'ה אלמקדמה עבת'א כמא יט'ן אכת'ר האולא אלמתאכ'רין אן רום מתקדמיהם את'באת אלג'ז לא חאג'ה לה בל כל מא קדמנאה מן קולהם הו נתיג'ה ד'כא ואלה.",
+          "en": "Do not suppose that the mutakallimūn relied on this premise in vain — as most of these latter-day people suppose that their predecessors' aim in establishing the atom was unnecessary. Rather everything we presented from their statements is the product of astute and intelligent reasoning.",
+          "pairs": [
+            {
+              "ja": "לא תט'ן אן אלמתכלמין צ'ארבוא עלי הד'ה אלמקדמה עבת'א",
+              "en": "Do not suppose that the mutakallimūn relied on this premise in vain"
+            },
+            {
+              "ja": "כל מא קדמנאה מן קולהם הו נתיג'ה ד'כא ואלה",
+              "en": "everything we presented from their statements is the product of astute and intelligent reasoning"
+            }
+          ]
+        },
+        {
+          "ja": "וקד עלמת אן הד'ה כלהא ארא קדימה כאנת תנתחלהא אלסופסטאניון כמא ד'כר ג'אלינוס פי כתאבה פי אלקוי אלטביעיה ען אולאיך אלד'ין כאנוא יכד'בון אלחואס וחכי כל מא קלנאה מן ד'לך.",
+          "en": "You know that all these are ancient opinions that the sophists would claim, as Galen mentioned in his book on the natural faculties — about those who denied the senses — and he recounted everything we said about this.",
+          "pairs": [
+            {
+              "ja": "הד'ה כלהא ארא קדימה כאנת תנתחלהא אלסופסטאניון",
+              "en": "all these are ancient opinions that the sophists would claim"
+            },
+            {
+              "ja": "כמא ד'כר ג'אלינוס פי כתאבה פי אלקוי אלטביעיה",
+              "en": "as Galen mentioned in his book on the natural faculties"
+            }
+          ]
+        },
+        {
+          "ja": "ובעד תקדימי הד'א אלמקדמאת אכ'ד' פי תביין טרקהם פי תלך אלארבעה מטאלב:",
+          "en": "After setting out these premises, I proceed to clarify their methods in those four matters.",
+          "pairs": [
+            {
+              "ja": "ובעד תקדימי הד'א אלמקדמאת",
+              "en": "After setting out these premises"
+            },
+            {
+              "ja": "אכ'ד' פי תביין טרקהם פי תלך אלארבעה מטאלב",
+              "en": "I proceed to clarify their methods in those four matters"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 71 — Introduction to the Kalām: Method, History, and Maimonides' Critique",
+  "section_ja": "אלג'ז אלאול · אלפצל שבעים ואחד",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 71 is the programmatic introduction to the long kalam section that occupies the rest of Part I. Maimonides surveys the historical context: ancient Jewish philosophical knowledge was lost during the exile; the kalam tradition arose among Christian theologians disputing the philosophers, was adopted and developed by the Islamic mutakallimūn (Muʿtazilites and Ashʿarites), and only fragments of it reached medieval Jewry through the Geonim and the Karaites. The chapter's central critical point is methodological: the mutakallimūn do not follow the evidence wherever it leads; they start from religious doctrines (the creation of the world, miracles, divine unity, incorporeality) and then construct arguments to support them — reversing the proper philosophical order. Maimonides then announces his own approach: he will prove God's existence, unity, and incorporeality using the philosophers' premises — even the premise of the world's eternity — not because he accepts that premise, but because it yields the stronger demonstration.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 18
+  },
+  "terms": [
+    {
+      "id": "mutakallimun",
+      "ja": "אלמתכלמין",
+      "ar": "المتكلمون",
+      "translit": "al-mutakallimūn",
+      "gloss": "the practitioners of kalām (speculative theology)",
+      "note": "Islamic (and later Jewish) theologians who used philosophical argumentation in defense of religious doctrine. Maimonides distinguishes two schools: Muʿtazilites (more rationalist) and Ashʿarites (more traditionalist).",
+      "variants": [
+        "מתכלמין",
+        "אשעריה",
+        "מעתזלה"
+      ]
+    },
+    {
+      "id": "kalam",
+      "ja": "עלם אלכלאם",
+      "ar": "علم الكلام",
+      "translit": "ʿilm al-kalām",
+      "gloss": "the science of kalam, speculative theology",
+      "note": "The Islamic discipline of rational theology, characterized by Maimonides as building arguments in reverse order: starting from desired conclusions (creation, unity, incorporeality) and constructing premises to support them.",
+      "variants": [
+        "כלאם",
+        "אלמתכלמין"
+      ]
+    },
+    {
+      "id": "qidam-hadut",
+      "ja": "קדם אלעאלם וחדות'ה",
+      "ar": "قدم العالم وحدوثه",
+      "translit": "qidam al-ʿālam wa-ḥudūthihi",
+      "gloss": "the eternity or createdness of the world",
+      "note": "The central question around which kalam revolves: was the world eternal (qadīm) or temporally created (ḥādith)? Maimonides argues this question is unresolvable by demonstration, but that God's existence can be proved using either assumption.",
+      "variants": [
+        "חדות' אלעאלם",
+        "קדם"
+      ]
+    },
+    {
+      "id": "burhan-jidal",
+      "ja": "אלברהאן ואלג'דל",
+      "ar": "البرهان والجدل",
+      "translit": "al-burhān wa-l-jadal",
+      "gloss": "demonstration vs. dialectic",
+      "note": "Aristotle's distinction between apodictic proof (certain from true premises) and dialectical argument (persuasive but not necessary). The mutakallimūn, Maimonides charges, conflate these: their proofs are dialectical dressed as demonstrations.",
+      "variants": [
+        "ברהאני",
+        "ג'דל"
+      ]
+    },
+    {
+      "id": "mutazila-asharia",
+      "ja": "אלמעתזלה ואלאשעריה",
+      "ar": "المعتزلة والأشعرية",
+      "translit": "al-Muʿtazila wa-l-Ashʿariyya",
+      "gloss": "the Muʿtazilites and the Ashʿarites",
+      "note": "The two main schools of Islamic kalam. The Muʿtazilites (rationalist) and Ashʿarites (traditionalist, more voluntarist). Maimonides notes that Jewish thinkers like the Geonim and Karaites borrowed from both schools.",
+      "variants": [
+        "מעתזלה",
+        "אשעריה"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל שבעים ואחד",
+          "en": "Part One · Chapter Seventy-One — Introduction to the Kalām: Method, History, and Maimonides' Critique",
+          "isHeader": true
+        },
+        {
+          "ja": "אעלם אן אלעלום אלכת'ירהֵ אלתי כאנת פי תחקיק הד'ה אלאמור תלפת בטול אלאזמאן ובאסתילא אלמלל אלג'אהליה עלינא ובכון תלך אלאמור לם תכן מבאחה ללנאס כלהם כמא בינא ולא כאן אלשי אלמבאח ללנאס כלהם אלא נצוץ אלכתב.",
+          "en": "Know that the many sciences that existed for the verification of these matters were lost through the passage of time and through the domination of ignorant nations over us, and because those matters were not permitted to be disclosed to all people as we explained — and what was permitted for all people were only the texts of Scripture.",
+          "pairs": [
+            {
+              "ja": "אלעלום אלכת'ירהֵ אלתי כאנת פי תחקיק הד'ה אלאמור תלפת",
+              "en": "the many sciences that existed for the verification of these matters were lost"
+            },
+            {
+              "ja": "בטול אלאזמאן ובאסתילא אלמלל אלג'אהליה עלינא",
+              "en": "through the passage of time and through the domination of ignorant nations over us"
+            },
+            {
+              "ja": "לא כאן אלשי אלמבאח ללנאס כלהם אלא נצוץ אלכתב",
+              "en": "what was permitted for all people were only the texts of Scripture"
+            }
+          ]
+        },
+        {
+          "ja": "פאד'א כאן אלפקה וקעת אלמשאחחה עלי תכ'לידה פי דיואן מבד'ול ללנאס כלהם למא יוול פי ד'לך מן אלפסאד פנאהיך אן ידון שי מן הד'ה סתרי תורה ויבד'ל ללנאס. בל כאנת מנקולה מן אחאד כ'ואץ לאחאד כ'ואץ.",
+          "en": "If jurisprudence — though a quarrel arose over committing it to a register made available to all people, for the corruption that would result from that — how much more so that nothing of these secrets of Torah should be written down and made available to people! Rather they were transmitted from individual specialists to individual specialists.",
+          "pairs": [
+            {
+              "ja": "אן ידון שי מן הד'ה סתרי תורה ויבד'ל ללנאס",
+              "en": "nothing of these secrets of Torah should be written down and made available to people"
+            },
+            {
+              "ja": "כאנת מנקולה מן אחאד כ'ואץ לאחאד כ'ואץ",
+              "en": "they were transmitted from individual specialists to individual specialists"
+            }
+          ]
+        },
+        {
+          "ja": "אמא הד'א אלנזר אליסיר אלד'י תג'דה מן אלכלאם פי מעני אלתוחיד ומא יתעלק בהד'א אלמעני לבעץ' אלגאונים וענד אלקראיין פהי אמור אכ'ד'והא ען אלמתכלמין מן אלאסלאם והי נזרה ג'דא באלאצ'אפה אלי מא אלפתה אלאסלאם פי הד'א אלשאן.",
+          "en": "As for that meager reflection you find in the kalam on the meaning of divine unity and what is connected with this topic in some of the Geonim and among the Karaites — these are things they took from the mutakallimūn of Islam; and it is very little compared to what Islam composed on this subject.",
+          "pairs": [
+            {
+              "ja": "אלנזר אליסיר אלד'י תג'דה מן אלכלאם פי מעני אלתוחיד",
+              "en": "that meager reflection you find in the kalam on the meaning of divine unity"
+            },
+            {
+              "ja": "לבעץ' אלגאונים וענד אלקראיין",
+              "en": "in some of the Geonim and among the Karaites"
+            },
+            {
+              "ja": "אמור אכ'ד'והא ען אלמתכלמין מן אלאסלאם",
+              "en": "things they took from the mutakallimūn of Islam"
+            }
+          ]
+        },
+        {
+          "ja": "ואעלם אן כל מא קאלתה אלאסלאם פי תלך אלמעאני אלמעתזלה מנהם ואלאשעריה הי כלהא ארא מבניה עלי מקדמאת תלך אלמקדמאת מאכ'וד'ה מן כתב אליונאניין ואלסריאניין אלד'ין ראמוא מכ'אלפהֵ ארא אלפלאספה ודחץ' אקאוילהם ופי ד'לך אשתגלוא.",
+          "en": "Know that everything Islam said on these topics — both the Muʿtazilites and the Ashʿarites — consists of opinions built on premises; and those premises were taken from the books of the Greeks and Syrians who aimed at opposing the views of the philosophers and refuting their arguments — and upon this they occupied themselves.",
+          "pairs": [
+            {
+              "ja": "כל מא קאלתה אלאסלאם פי תלך אלמעאני אלמעתזלה מנהם ואלאשעריה",
+              "en": "everything Islam said on these topics — both the Muʿtazilites and the Ashʿarites"
+            },
+            {
+              "ja": "ארא מבניה עלי מקדמאת תלך אלמקדמאת מאכ'וד'ה מן כתב אליונאניין ואל",
+              "en": "opinions built on premises; and those premises were taken from the books of th"
+            },
+            {
+              "ja": "ראמוא מכ'אלפהֵ ארא אלפלאספה ודחץ' אקאוילהם",
+              "en": "who aimed at opposing the views of the philosophers and refuting their arguments"
+            }
+          ]
+        },
+        {
+          "ja": "פלמא ג'את מלהֵ אלאסלאם ונקלת אליהם כתב אלפלאספה נקלת אליהם איצ'א תלך אלרדוד אלתי אלפת עלי כתב אלפלאספה פוג'דוא כלאם יחיי אלנחוי ואבן עדי וגירהמא פי הד'ה אלמעאני פתמסכוא בה וט'פרוא במטלב עט'ים בחסב ראיהם.",
+          "en": "When Islam arose and the books of the philosophers were translated for them, the refutations that had been composed against the philosophers' books were also translated for them. They found the works of Yaḥyā al-Naḥwī and Ibn ʿAdī and others on these topics, and they seized upon them and obtained, in their view, a great prize.",
+          "pairs": [
+            {
+              "ja": "ג'את מלהֵ אלאסלאם ונקלת אליהם כתב אלפלאספה",
+              "en": "Islam arose and the books of the philosophers were translated for them"
+            },
+            {
+              "ja": "וג'דוא כלאם יחיי אלנחוי ואבן עדי",
+              "en": "They found the works of Yaḥyā al-Naḥwī and Ibn ʿAdī"
+            },
+            {
+              "ja": "פתמסכוא בה וט'פרוא במטלב עט'ים",
+              "en": "they seized upon them and obtained, in their view, a "
+            }
+          ]
+        },
+        {
+          "ja": "ולא שך אן ת'ם אשיא תעמנא ת'לאת'תנא אעני אליהוד ואלנצארי ואלאסלאם והי אלקול בחדת' אלעאלם אלד'י בצחתה תצח אלמעג'זאת וגירהא אמא סאיר אלאשיא אלתי תכלפת האתאן אלמלתאן אלכ'וץ' פיהא ככ'וץ' אולאיך פי מעני אלתשליס' ואלחלול פהי אמור אכ'צ'תהם.",
+          "en": "Without doubt there are things common to all three of us — I mean Jews, Christians, and Muslims — namely the doctrine of the creation of the world, by whose correctness miracles and other matters are validated. As for the other things the two communities specified — their involvement in these topics as the Islamists' involvement with trinitarianism and incarnation — those are matters particular to them.",
+          "pairs": [
+            {
+              "ja": "אשיא תעמנא ת'לאת'תנא אעני אליהוד ואלנצארי ואלאסלאם",
+              "en": "things common to all three of us — I mean Jews, Christians, and Muslims"
+            },
+            {
+              "ja": "אלקול בחדת' אלעאלם אלד'י בצחתה תצח אלמעג'זאת",
+              "en": "the doctrine of the creation of the world, by whose correctness miracles and other matters "
+            }
+          ]
+        },
+        {
+          "ja": "ובאלג'מלה אן כל אלמתכלמין אלאול מן אליונאניין אלמתנצרין ומן אלאסלאם פאנהם לא יתבעון אלט'אהר מן אמר אלוג'וד אולא פי מקדמאתהם בל יתאמלון כיף ינבגי אן יכון אלוג'וד חתי יכון מנה דליל עלי צחהֵ הד'א אלראי אלד'י אעתקדוה ואן כאן אלוג'וד כ'לאף ד'לך אנכרוא אלוג'וד ואד'עוא אן הד'א שי לא יפהם.",
+          "en": "In sum: all the early mutakallimūn — from the Christianized Greeks and from the Muslims — do not first follow the apparent nature of existence in their premises; rather they deliberate about how existence ought to be so that it would supply a proof for the correctness of that opinion which they hold; and if existence is contrary to this, they deny existence and claim that this is something incomprehensible.",
+          "pairs": [
+            {
+              "ja": "כל אלמתכלמין אלאול מן אליונאניין אלמתנצרין ומן אלאסלאם",
+              "en": "all the early mutakallimūn — from the Christianized Greeks and from the Muslims"
+            },
+            {
+              "ja": "לא יתבעון אלט'אהר מן אמר אלוג'וד אולא פי מקדמאתהם",
+              "en": "do not first follow the apparent nature of existence in their premises"
+            },
+            {
+              "ja": "יתאמלון כיף ינבגי אן יכון אלוג'וד חתי יכון מנה דליל עלי צחהֵ הד'א אלראי",
+              "en": "they deliberate about how existence ought to be so that it would supply a proof for the correctness of that opinion"
+            },
+            {
+              "ja": "אן כאן אלוג'וד כ'לאף ד'לך אנכרוא אלוג'וד",
+              "en": "if existence is contrary to this, they deny existence"
+            }
+          ]
+        },
+        {
+          "ja": "פלמא נט'רת פי כתב האולא אלמתכלמין חסב מא תיסר לי כמא נט'רת פי כתב אלפלאספה איצ'א חסב טאקתי וג'דת טריק אלמתכלמין כלהם טריקא ואחדא באלנוע ואן אכ'תלפת אצנאפה וד'לך אן קאעדהֵ אלכל אן לא אעתבאר במא עליה אלוג'וד פי אלאמר אלפלאני בל ינבגי אן יכון כד'א לאן אלראי אלפלאני ישתרט ד'לך.",
+          "en": "When I studied the books of these mutakallimūn as much as was available to me, just as I also studied the books of the philosophers according to my capacity, I found the path of all the mutakallimūn to be one single path in type, even if their sub-varieties differ. The foundation of them all is: no account is to be taken of how existence actually is in such-and-such a matter; rather it must be thus-and-so, because such-and-such a doctrine requires it.",
+          "pairs": [
+            {
+              "ja": "נט'רת פי כתב האולא אלמתכלמין",
+              "en": "I studied the books of these mutakallimūn"
+            },
+            {
+              "ja": "ג'דת טריק אלמתכלמין כלהם טריקא ואחדא באלנוע",
+              "en": "I found the path of all the mutakallimūn to be one single path in type"
+            },
+            {
+              "ja": "לא אעתבאר במא עליה אלוג'וד פי אלאמר אלפלאני",
+              "en": "no account is to be taken of how existence actually is in such-and-such a matter"
+            },
+            {
+              "ja": "ינבגי אן יכון כד'א לאן אלראי אלפלאני ישתרט ד'לך",
+              "en": "it must be thus-and-so, because such-and-such a doctrine requires it"
+            }
+          ]
+        },
+        {
+          "ja": "פלמא תאמלת הד'ה אלטריקה נפרת נפסי מנהא נפורא עט'ימא ג'דא וחק להא אן תנפר לאן כל מא יזעם אנה ברהאן עלי חדת' אלעאלם תלחקה אלשכוך וליס ד'לך ברהאנא קטעיא אלא ענד מן לא יעלם אלפרק בין אלברהאן ובין אלג'דל.",
+          "en": "When I contemplated this method, my soul recoiled from it with an extreme revulsion — and it was right to recoil, for everything that purports to be a demonstration of the createdness of the world is subject to doubts, and it is not a conclusive demonstration except in the view of one who does not know the difference between demonstration and dialectic.",
+          "pairs": [
+            {
+              "ja": "פלמא תאמלת הד'ה אלטריקה נפרת נפסי מנהא נפורא עט'ימא",
+              "en": "When I contemplated this method, my soul recoiled from it with an extreme revulsion"
+            },
+            {
+              "ja": "כל מא יזעם אנה ברהאן עלי חדת' אלעאלם תלחקה אלשכוך",
+              "en": "everything that purports to be a demonstration of the createdness of the world is subject to doubts"
+            },
+            {
+              "ja": "ליס ד'לך ברהאנא קטעיא אלא ענד מן לא יעלם אלפרק בין אלברהאן ובין אלג'דל",
+              "en": "it is not a conclusive demonstration except in the view of one who does not know the difference between demonstration and dialectic"
+            }
+          ]
+        },
+        {
+          "ja": "וגאיהֵ קדרהֵ אלמחקק ענדי מן אלמתשרעין אן יבטל אדלהֵ אלפלאספה עלי אלקדם ומא אג'ל הד'א אד'א קדר עליה. וקד עלם כל נאט'ר ד'כי מחקק לא יגאלט נפסה אן הד'ה אלמסאלה אעני קדם אלעאלם או חדות'ה לא יוצל אליהא בברהאן.",
+          "en": "The maximum achievement of the judiciously investigating religious scholar, in my view, is to invalidate the philosophers' proofs of eternity — and how great this is if he can accomplish it! Every perspicacious, rigorously investigating thinker who does not deceive himself has known that the question of the world's eternity or createdness cannot be reached by demonstration.",
+          "pairs": [
+            {
+              "ja": "גאיהֵ קדרהֵ אלמחקק ענדי מן אלמתשרעין",
+              "en": "The maximum achievement of the judiciously investigating religious scholar"
+            },
+            {
+              "ja": "אן יבטל אדלהֵ אלפלאספה עלי אלקדם",
+              "en": "to invalidate the philosophers' proofs of eternity"
+            },
+            {
+              "ja": "הד'ה אלמסאלה אעני קדם אלעאלם או חדות'ה לא יוצל אליהא בברהאן",
+              "en": "the question of the world's eternity or createdness cannot be reached by demonstration"
+            }
+          ]
+        },
+        {
+          "ja": "פאד'א כאן אלאמר פי הד'ה אלמסאלה הכד'א פכיף נתכ'ד'הא מקדמה נבני וג'וד אלאלאה עליהא פיכון אד'א וג'וד אלאלאה משכוכא פיה אן כאן אלעאלם מחדת'א פת'ם אלאה ואן כאן הו קדימא פלא אלאה.",
+          "en": "If this is how matters stand with this question, how could we take it as a premise upon which to build the existence of God? For then the existence of God would be in doubt: if the world is created then there is a God; and if it is eternal then there is no God.",
+          "pairs": [
+            {
+              "ja": "כיף נתכ'ד'הא מקדמה נבני וג'וד אלאלאה עליהא",
+              "en": "how could we take it as a premise upon which to build the existence of God"
+            },
+            {
+              "ja": "אן כאן אלעאלם מחדת'א פת'ם אלאה ואן כאן הו קדימא פלא אלאה",
+              "en": "if the world is created then there is a God; and if it is eternal then there is no God"
+            }
+          ]
+        },
+        {
+          "ja": "ענדי והו אלטריק אלברהאני אלד'י לא ריב פיה אן ית'בת וג'וד אלאלאה ווחדאניתה ונפי אלג'סמאניה בטרק אלפלאספה אלתי תלך אלטרק מבניה עלי קדם אלעאלם ליס לאני אעתקד קדם אלעאלם או אסלם להם ד'לך בל לאן בתלך אלטריק יתמכן אלברהאן ויתצ'ח בלא שך.",
+          "en": "The path I hold — and it is the demonstrative path that is beyond doubt — is to establish the existence of God, His unity, and the negation of corporeality by the methods of the philosophers, whose methods are built on the eternity of the world: not because I believe in the eternity of the world or concede that to them, but because by that method the demonstration is firm and becomes clear without doubt.",
+          "pairs": [
+            {
+              "ja": "אלטריק אלברהאני אלד'י לא ריב פיה",
+              "en": "the demonstrative path that is beyond doubt"
+            },
+            {
+              "ja": "ית'בת וג'וד אלאלאה ווחדאניתה ונפי אלג'סמאניה",
+              "en": "to establish the existence of God, His unity, and the negation of corporeality"
+            },
+            {
+              "ja": "ליס לאני אעתקד קדם אלעאלם",
+              "en": "not because I believe in the eternity of the world"
+            },
+            {
+              "ja": "בתלך אלטריק יתמכן אלברהאן ויתצ'ח בלא שך",
+              "en": "by that method the demonstration is firm and becomes clear without doubt"
+            }
+          ]
+        },
+        {
+          "ja": "פאן כנת ממן יקנע במא קאלוה אלמתכלמון ותעתקד אן קד צח אלברהאן עלי חדות' אלעאלם פיא חבד'א ואן לם יתברהן ענדך בל תאכ'ד' כונה חאדת'א מן אלאנביא תקלידא פלא צ'יר.",
+          "en": "If you are among those satisfied by what the mutakallimūn said and you believe that demonstration of the world's createdness has been established — that is excellent! And if it is not demonstrated in your view but you accept its createdness from the prophets by way of tradition — there is no harm in that.",
+          "pairs": [
+            {
+              "ja": "ממן יקנע במא קאלוה אלמתכלמון",
+              "en": "those satisfied by what the mutakallimūn said"
+            },
+            {
+              "ja": "תעתקד אן קד צח אלברהאן עלי חדות' אלעאלם",
+              "en": "you believe that demonstration of the world's createdness has been established"
+            },
+            {
+              "ja": "אן לם יתברהן ענדך בל תאכ'ד' כונה חאדת'א מן אלאנביא תקלידא",
+              "en": "if it is not demonstrated in your view but you accept its createdness from the prophets by way of tradition"
+            }
+          ]
+        },
+        {
+          "ja": "אמא טריקי הד'ה פהי עלי מא אצף לך ג'מלתהא אלאן וד'לך אני אקול אלעאלם לא יכ'לו מן אן יכון קדימא או מחדת'א פאן כאן מחדת'א פלה מחדת' בלא שך והד'א מעקול אול אן אלחאדת' לא יחדת' נפסה בל מחדת'ה גירה. פמחדת' אלעאלם אד' הו אלאלאה.",
+          "en": "As for my method — let me describe its outline to you now. I say: the world is either eternal or created; if it is created, then necessarily it has a creator — and this is a first principle of reason: that what comes into existence does not bring itself into existence, but its creator is something other than itself. Thus the creator of the world is God.",
+          "pairs": [
+            {
+              "ja": "אלעאלם לא יכ'לו מן אן יכון קדימא או מחדת'א",
+              "en": "the world is either eternal or created"
+            },
+            {
+              "ja": "פאן כאן מחדת'א פלה מחדת' בלא שך",
+              "en": "if it is created, then necessarily it has a creator"
+            },
+            {
+              "ja": "אלחאדת' לא יחדת' נפסה בל מחדת'ה גירה",
+              "en": "what comes into existence does not bring itself into existence, but its creator is something other than itself"
+            }
+          ]
+        },
+        {
+          "ja": "וסאפרד לך פי הד'ה אלמקאלה פצלא ענד כלאמי פי חדת' אלעאלם אבין לך פיה דלילא מא עלי חדת' אלעאלם ואצל אלי אלגאיה אלתי ראמהא כל מתכלם מן גיר אן אבטל טביעהֵ אלוג'וד ולא אכ'אלף ארסטו פי שי ממא ברהנה.",
+          "en": "I shall devote to you in this treatise a chapter when I speak about the createdness of the world in which I shall explain to you a certain proof of the world's createdness, and I shall reach the goal that every mutakallim aimed at — without nullifying the nature of existence and without contradicting Aristotle in anything he demonstrated.",
+          "pairs": [
+            {
+              "ja": "אבין לך פיה דלילא מא עלי חדת' אלעאלם",
+              "en": "I shall explain to you a certain proof of the world's createdness"
+            },
+            {
+              "ja": "מן גיר אן אבטל טביעהֵ אלוג'וד ולא אכ'אלף ארסטו פי שי ממא ברהנה",
+              "en": "without nullifying the nature of existence and without contradicting Aristotle in anything he demonstrated"
+            }
+          ]
+        },
+        {
+          "ja": "וראית אן אד'כר לך מקדמאת אלמתכלמין אלעאמה אלתי ית'בתון בהא חדת' אלעאלם ווג'וד אלאלאה ווחדאניתה ונפי אלג'סמאניה ואריך טריקהם פי ד'לך ואבין לך מא ילזם ען כל מקדמה מנהא ובעד ד'לך אד'כר לך מקדמאת אלפלאספה.",
+          "en": "I decided to set out for you the general premises of the mutakallimūn by which they establish the world's createdness, God's existence, His unity, and the negation of corporeality; and to show you their method for this, and to clarify for you what follows from each individual premise; and after that to set out for you the premises of the philosophers.",
+          "pairs": [
+            {
+              "ja": "מקדמאת אלמתכלמין אלעאמה אלתי ית'בתון בהא חדת' אלעאלם",
+              "en": "the general premises of the mutakallimūn by which they establish the world's createdness"
+            },
+            {
+              "ja": "ווג'וד אלאלאה ווחדאניתה ונפי אלג'סמאניה",
+              "en": "God's existence, His unity, and the negation of corporeality"
+            },
+            {
+              "ja": "אבין לך מא ילזם ען כל מקדמה מנהא",
+              "en": "to clarify for you what follows from each individual premise"
+            }
+          ]
+        },
+        {
+          "ja": "ולא תטלבני פי הד'ה אלמקאלה בתצחיח תלך אלמקדמאת אלפלספיה אלתי אקתצ'בהא לך לאן ד'לך הו אלעלם אלטביעי ואלאלאהי אכת'רהמא.",
+          "en": "Do not require of me in this treatise the verification of those philosophical premises I shall summarize for you, for that belongs to natural science and metaphysics — the greater part of them.",
+          "pairs": [
+            {
+              "ja": "לא תטלבני פי הד'ה אלמקאלה בתצחיח תלך אלמקדמאת אלפלספיה",
+              "en": "Do not require of me in this treatise the verification of those philosophical premises"
+            },
+            {
+              "ja": "ד'לך הו אלעלם אלטביעי ואלאלאהי",
+              "en": "that belongs to natural science and metaphysics"
+            }
+          ]
+        },
+        {
+          "ja": "וקד אעלמתך אן ליס ת'ם גיר אללה תעאלי והד'א אלמוג'וד ולא אסתדלאל עליה תעאלי אלא מן הד'א אלמוג'וד מן ג'מלתה ומן תפאצילה פילזם צ'רורה אן יעתבר הד'א אלמוג'וד עלי מא הו עליה ותתכ'ד' אלמקדמאת ממא ישאהד מן טביעהֵ אלמוג'וד.",
+          "en": "I have already told you that there exists nothing besides God, exalted be He, and this existing world; and the only demonstration concerning Him, exalted be He, is from this existent — from its totality and from its particulars. It therefore necessarily follows that this existent must be considered as it actually is, and the premises must be derived from what is observed of the nature of the existent.",
+          "pairs": [
+            {
+              "ja": "ליס ת'ם גיר אללה תעאלי והד'א אלמוג'וד",
+              "en": "there exists nothing besides God, exalted be He, and this existing world"
+            },
+            {
+              "ja": "לא אסתדלאל עליה תעאלי אלא מן הד'א אלמוג'וד מן ג'מלתה ומן תפאצילה",
+              "en": "the only demonstration concerning Him, exalted be He, is from this existent — from its totality and from its "
+            },
+            {
+              "ja": "ילזם צ'רורה אן יעתבר הד'א אלמוג'וד עלי מא הו עליה",
+              "en": "this existent must be considered as it actually is"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

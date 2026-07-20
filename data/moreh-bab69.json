@@ -1,0 +1,685 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 69 — God as Form, Cause, and End of the World",
+  "section_ja": "אלג'ז אלאול · אלפצל ששים ותשעה",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 69 takes up the Aristotelian teaching that God is the 'first cause' and asks whether it is preferable to call Him 'cause' (ʿilla) or 'agent' (fāʿil). The mutakallimūn resist 'cause,' fearing it implies the world co-exists necessarily with God. Maimonides dissolves the dispute by showing that when cause and agent are taken in act (not in potency) the distinction collapses: a builder in act necessarily has something being built. The real philosophical content of the chapter is Maimonides' endorsement of the view — shared with Aristotle — that God is simultaneously the material cause's ultimate source, the formal cause (ṣūrat al-ʿālam — the form of the world), and the final cause (the goal toward which all things tend). He carefully distinguishes his use of 'form of the world' from any pantheistic reading: God is not a form inhering in matter, but the ground of existence for all forms, in the way that form gives existence to a thing.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 9
+  },
+  "terms": [
+    {
+      "id": "illa-sabab",
+      "ja": "עלה וסבב",
+      "ar": "علة وسبب",
+      "translit": "ʿilla wa-sabab",
+      "gloss": "cause and reason",
+      "note": "The Aristotelian four causes: material, formal, efficient, and final. The philosophers called God 'cause' (ʿilla) to subsume all three roles He plays: efficient, formal, and final cause.",
+      "variants": [
+        "אלסבב אלאול",
+        "אלעלה אלאולי"
+      ]
+    },
+    {
+      "id": "surat-alam",
+      "ja": "צורהֵ אלעאלם",
+      "ar": "صورة العالم",
+      "translit": "ṣūrat al-ʿālam",
+      "gloss": "the form of the world",
+      "note": "God is called the form of the world not in the sense of a form inhering in matter, but as the ultimate ground that gives existence to all forms — as form gives a thing its being and definition.",
+      "variants": [
+        "צורהֵ אלצור"
+      ]
+    },
+    {
+      "id": "ghaya-ghayat",
+      "ja": "גאיהֵ אלגאיאת",
+      "ar": "غاية الغايات",
+      "translit": "ghāyat al-ghāyāt",
+      "gloss": "the end of ends, ultimate final cause",
+      "note": "Every finite purpose leads back to a further purpose, until one reaches the ultimate final cause. That final cause is God Himself — or, more precisely, the perfection that is His essence, toward which all things tend.",
+      "variants": [
+        "גאיה",
+        "גאיאת"
+      ]
+    },
+    {
+      "id": "hay-olamim",
+      "ja": "חי העולמים",
+      "translit": "ḥay ha-ʿolāmīm",
+      "gloss": "the Life of the worlds",
+      "note": "A divine epithet whose philosophical import, Maimonides explains, is that God is the life of the world — just as a form gives a composite its life and existence, God sustains the entire cosmos.",
+      "variants": []
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל ששים ותשעה",
+          "en": "Part One · Chapter Sixty-Nine — God as Form, Cause, and End of the World",
+          "isHeader": true
+        },
+        {
+          "ja": "אלפלאספה כמא עלמת יסמון אללה תעאלי אלעלה אלאולי ואלסבב אלאול והאולא אלמשהורון באלמתכלמין יהרבון מן הד'ה אלאסמיה ג'דא ויסמונה אלפאעל ויט'נון אן פרקא עט'ימא בין קולנא סבב ועלה ובין קולנא פאעל. לאנהם קאלוא אן קלנא אנה עלה לזם וג'וד אלמעלול והד'א יודי לקדם אלעאלם ואן אלעאלם לה עלי ג'ההֵ אללזום ואן קלנא פאעל פלא ילזם מן ד'לך וג'וד אלמפעול מעה לאן אלפאעל קד יתקדם פעלה בל לא יתצורון מעני כון אלפאעל פאעלא אלא באן יתקדם פעלה.",
+          "en": "The philosophers, as you know, call God, exalted be He, the first cause and the first reason; whereas those well known as the mutakallimūn flee from this designation entirely and call Him the Agent, supposing that there is a great difference between saying 'cause' and 'reason' and saying 'Agent.' For they said: if we say He is a cause, the existence of the effect is necessitated, and this leads to the eternity of the world, and that the world follows from Him by necessity; whereas if we say 'Agent,' the existence of the artifact does not follow necessarily together with it, since the agent may precede his act — indeed they cannot conceive the meaning of an agent's being an agent except by preceding his act.",
+          "pairs": [
+            {
+              "ja": "אלפלאספה",
+              "en": "The philosophers"
+            },
+            {
+              "ja": "כמא עלמת",
+              "en": "as you know"
+            },
+            {
+              "ja": "יסמון אללה תעאלי",
+              "en": "call God, exalted be He"
+            },
+            {
+              "ja": "אלעלה אלאולי",
+              "en": "the first cause"
+            },
+            {
+              "ja": "ואלסבב אלאול",
+              "en": "and the first reason"
+            },
+            {
+              "ja": "האולא אלמשהורון באלמתכלמין",
+              "en": "those well known as the mutakallimūn"
+            },
+            {
+              "ja": "יהרבון",
+              "en": "flee"
+            },
+            {
+              "ja": "מן הד'ה אלאסמיה",
+              "en": "from this designation"
+            },
+            {
+              "ja": "ג'דא",
+              "en": "entirely"
+            },
+            {
+              "ja": "ויסמונה",
+              "en": "and call Him"
+            },
+            {
+              "ja": "אלפאעל",
+              "en": "the Agent"
+            },
+            {
+              "ja": "ויט'נון",
+              "en": "supposing"
+            },
+            {
+              "ja": "אן פרקא עט'ימא",
+              "en": "that there is a great difference"
+            },
+            {
+              "ja": "בין קולנא סבב ועלה",
+              "en": "between saying 'cause' and 'reason'"
+            },
+            {
+              "ja": "ובין קולנא פאעל",
+              "en": "and saying 'Agent.'"
+            },
+            {
+              "ja": "לאנהם קאלוא",
+              "en": "For they said"
+            },
+            {
+              "ja": "אן קלנא אנה עלה",
+              "en": "if we say He is a cause"
+            },
+            {
+              "ja": "לזם וג'וד אלמעלול",
+              "en": "the existence of the effect is necessitated"
+            },
+            {
+              "ja": "והד'א יודי לקדם אלעאלם",
+              "en": "and this leads to the eternity of the world"
+            },
+            {
+              "ja": "ואן אלעאלם לה עלי ג'ההֵ אללזום",
+              "en": "and that the world follows from Him by necessity"
+            },
+            {
+              "ja": "ואן קלנא פאעל",
+              "en": "whereas if we say 'Agent,'"
+            },
+            {
+              "ja": "פלא ילזם מן ד'לך וג'וד אלמפעול מעה",
+              "en": "the existence of the artifact does not follow necessarily together with it"
+            },
+            {
+              "ja": "לאן אלפאעל קד יתקדם פעלה",
+              "en": "since the agent may precede his act"
+            },
+            {
+              "ja": "בל לא יתצורון מעני כון אלפאעל פאעלא אלא באן יתקדם פעלה",
+              "en": "indeed they cannot conceive the meaning of an agent's being an agent except by preceding his act"
+            }
+          ]
+        },
+        {
+          "ja": "והד'א קול מן לא יפרק בין מא באלקוה ובין מא באלפעל. ואלד'י תעלמה אנה לא פרק בין קולך עלה או פאעל פי הד'א אלמעני וד'לך אנך אד'א אכ'ד'ת אלעלה איצ'א באלקוה פהי תתקדם מעלולהא באלזמאן אמא אד'א כאנת עלה באלפעל פאן מעלולהא מוג'וד בוג'ודהא עלה באלפעל צ'רורה. וכד'לך מתי אכ'ד'ת אלפאעל פאעלא באלפעל פאנה ילזם וג'וד מפעולה צ'רורה לאן אלבנא קבל אן יבני אלבית ליס הו בנאא באלפעל לכנה בנא באלקוה כמא אן מאדהֵ ד'לך אלבית קבל אן יבני בית באלקוה פענד מא יבני חיניד' הו בנא באלפעל וילזם וג'וד שי מבני חיניד' צ'רורה פמא רבחנא שיא פי תפצ'יל אסמיהֵ פאעל עלי אסמיהֵ עלה וסבב.",
+          "en": "This is the view of one who does not distinguish between what is in potency and what is in act. What you should know is that there is no difference between saying 'cause' or 'agent' in this respect: for if you take 'cause' in potency as well, it precedes its effect in time; but if it is a cause in act, then its effect exists necessarily with its being a cause in act. Similarly, when you take 'agent' as an agent in act, the existence of its artifact follows necessarily — for the builder before he builds the house is not a builder in act but a builder in potency, just as the matter of that house before it is built is a house in potency; but when he builds, he is a builder in act and something built necessarily exists then. So we have gained nothing by preferring the designation 'Agent' over the designation 'cause and reason.'",
+          "pairs": [
+            {
+              "ja": "והד'א קול מן לא יפרק",
+              "en": "This is the view of one who does not distinguish"
+            },
+            {
+              "ja": "בין מא באלקוה",
+              "en": "between what is in potency"
+            },
+            {
+              "ja": "ובין מא באלפעל",
+              "en": "and what is in act"
+            },
+            {
+              "ja": "ואלד'י תעלמה",
+              "en": "What you should know"
+            },
+            {
+              "ja": "אנה לא פרק",
+              "en": "is that there is no difference"
+            },
+            {
+              "ja": "בין קולך עלה או פאעל",
+              "en": "between saying 'cause' or 'agent'"
+            },
+            {
+              "ja": "פי הד'א אלמעני",
+              "en": "in this respect"
+            },
+            {
+              "ja": "אנך אד'א אכ'ד'ת אלעלה איצ'א באלקוה",
+              "en": "for if you take 'cause' in potency as well"
+            },
+            {
+              "ja": "פהי תתקדם מעלולהא באלזמאן",
+              "en": "it precedes its effect in time"
+            },
+            {
+              "ja": "אמא אד'א כאנת עלה באלפעל",
+              "en": "but if it is a cause in act"
+            },
+            {
+              "ja": "פאן מעלולהא מוג'וד בוג'ודהא עלה באלפעל צ'רורה",
+              "en": "then its effect exists necessarily with its being a cause in act"
+            },
+            {
+              "ja": "וכד'לך מתי אכ'ד'ת אלפאעל פאעלא באלפעל",
+              "en": "Similarly, when you take 'agent' as an agent in act"
+            },
+            {
+              "ja": "פאנה ילזם וג'וד מפעולה צ'רורה",
+              "en": "the existence of its artifact follows necessarily"
+            },
+            {
+              "ja": "לאן אלבנא קבל אן יבני אלבית",
+              "en": "for the builder before he builds the house"
+            },
+            {
+              "ja": "ליס הו בנאא באלפעל",
+              "en": "is not a builder in act"
+            },
+            {
+              "ja": "לכנה בנא באלקוה",
+              "en": "but a builder in potency"
+            },
+            {
+              "ja": "כמא אן מאדהֵ ד'לך אלבית קבל אן יבני",
+              "en": "just as the matter of that house before it is built"
+            },
+            {
+              "ja": "בית באלקוה",
+              "en": "is a house in potency"
+            },
+            {
+              "ja": "פענד מא יבני",
+              "en": "but when he builds"
+            },
+            {
+              "ja": "חיניד' הו בנא באלפעל",
+              "en": "he is a builder in act"
+            },
+            {
+              "ja": "וילזם וג'וד שי מבני חיניד' צ'רורה",
+              "en": "and something built necessarily exists then"
+            },
+            {
+              "ja": "פמא רבחנא שיא",
+              "en": "So we have gained nothing"
+            },
+            {
+              "ja": "פי תפצ'יל אסמיהֵ פאעל",
+              "en": "by preferring the designation 'Agent'"
+            },
+            {
+              "ja": "עלי אסמיהֵ עלה וסבב",
+              "en": "over the designation 'cause and reason.'"
+            }
+          ]
+        },
+        {
+          "ja": "ואלד'י דעא אלפלאספה לתסמיתה תעאלי עלה וסבבא ולם יסמוה פאעלא ליס הו מן אג'ל ראיהם אלמשהור פי קדם אלעאלם בל מן אג'ל מעאני אכ'רי האנא אקתצ'בהא לך. קד בין פי אלעלם אלטביעי וג'וד אלאסבאב לכל מא לה סבב ואנהא ארבעה אלמאדה ואלצורה ואלפאעל ואלגאיה. ומן אראיהם אלתי לא אכ'אלפהא אנא אן אללה עז וג'ל הו אלפאעל והו אלצורה והו אלגאיה פלד'לך קאלוא אנה תעאלי סבב ועלה ליעמוא הד'ה אלת'לת'ה אסבאב والו אן יכון הו פאעל אלעאלם וצורתה וגאיתה.",
+          "en": "What led the philosophers to call Him, exalted be He, 'cause' and 'reason' — rather than calling Him 'Agent' — was not their well-known opinion about the eternity of the world, but rather other meanings I shall now summarize for you. It has been made clear in natural science that there are causes for everything that has a cause, and that they are four: matter, form, agent, and end; and that some are proximate and some are remote. Among their views that I myself do not contest is that God, mighty and glorious, is the Agent and He is the Form and He is the End; therefore they said He is 'cause' and 'reason,' to encompass these three causes — namely, that He should be the Agent of the world, its form, and its end.",
+          "pairs": [
+            {
+              "ja": "ואלד'י דעא אלפלאספה",
+              "en": "What led the philosophers"
+            },
+            {
+              "ja": "לתסמיתה תעאלי עלה וסבבא",
+              "en": "to call Him, exalted be He, 'cause' and 'reason'"
+            },
+            {
+              "ja": "ולם יסמוה פאעלא",
+              "en": "rather than calling Him 'Agent'"
+            },
+            {
+              "ja": "ליס הו מן אג'ל ראיהם אלמשהור פי קדם אלעאלם",
+              "en": "was not their well-known opinion about the eternity of the world"
+            },
+            {
+              "ja": "בל מן אג'ל מעאני אכ'רי",
+              "en": "but rather other meanings"
+            },
+            {
+              "ja": "האנא אקתצ'בהא לך",
+              "en": "I shall now summarize for you"
+            },
+            {
+              "ja": "קד בין פי אלעלם אלטביעי",
+              "en": "It has been made clear in natural science"
+            },
+            {
+              "ja": "וג'וד אלאסבאב לכל מא לה סבב",
+              "en": "that there are causes for everything that has a cause"
+            },
+            {
+              "ja": "ואנהא ארבעה",
+              "en": "and that they are four"
+            },
+            {
+              "ja": "אלמאדה",
+              "en": "matter"
+            },
+            {
+              "ja": "ואלצורה",
+              "en": "form"
+            },
+            {
+              "ja": "ואלפאעל",
+              "en": "agent"
+            },
+            {
+              "ja": "ואלגאיה",
+              "en": "and end"
+            },
+            {
+              "ja": "ומן אראיהם אלתי לא אכ'אלפהא אנא",
+              "en": "Among their views that I myself do not contest"
+            },
+            {
+              "ja": "אן אללה עז וג'ל הו אלפאעל",
+              "en": "is that God, mighty and glorious, is the Agent"
+            },
+            {
+              "ja": "והו אלצורה",
+              "en": "and He is the Form"
+            },
+            {
+              "ja": "והו אלגאיה",
+              "en": "and He is the End"
+            },
+            {
+              "ja": "פלד'לך קאלוא אנה תעאלי סבב ועלה",
+              "en": "therefore they said He is 'cause' and 'reason,'"
+            },
+            {
+              "ja": "ליעמוא הד'ה אלת'לת'ה אסבאב",
+              "en": "to encompass these three causes"
+            },
+            {
+              "ja": "אן יכון הו פאעל אלעאלם",
+              "en": "that He should be the Agent of the world"
+            },
+            {
+              "ja": "וצורתה",
+              "en": "its form"
+            },
+            {
+              "ja": "וגאיתה",
+              "en": "and its end"
+            }
+          ]
+        },
+        {
+          "ja": "ואנמא אלגרץ' הנא כונה תעאלי פאעלא לג'זאיאת אלאפעאל אלואקעה פי אלעאלם כמא הו פאעל אלעאלם באסרה. פאקול. קד תבין פי אלעלם אלטביעי אן הד'ה אלארבעהֵ אנואע מן אלאסבאב ינבגי אן יטלב לכל סבב מנהא סבב איצ'א פיוג'ד ללשי אלמתכון הד'ה אלארבעה אסבאב אלקריבה מנה ותוג'ד לתלך איצ'א אסבאב וללאסבאב אסבאב אלי אן ינתהי ללאסבאב אלאולי. ובהד'ה אלג'הה ינסב כל פעל פי אלוג'וד ללה ולו פעלה מן פעלה מן אלפאעלין אלקריבין פהו אלסבב אלאבעד מן ג'ההֵ כונה פאעלא.",
+          "en": "The aim here is that He, exalted be He, is the Agent of the particular acts that occur in the world just as He is the Agent of the whole world. I say: it has been made clear in natural science that for each of these four kinds of causes, a cause must also be sought, so that for a generated thing there are found these four proximate causes, and for those causes there are also causes, and for the causes there are causes, until one arrives at the first causes. In this way every act in existence is attributed to God, even if a proximate agent has performed it — He is the most remote cause from the standpoint of being an Agent.",
+          "pairs": [
+            {
+              "ja": "ואנמא אלגרץ' הנא",
+              "en": "The aim here"
+            },
+            {
+              "ja": "כונה תעאלי פאעלא לג'זאיאת אלאפעאל אלואקעה פי אלעאלם",
+              "en": "is that He, exalted be He, is the Agent of the particular acts that occur in the world"
+            },
+            {
+              "ja": "כמא הו פאעל אלעאלם באסרה",
+              "en": "just as He is the Agent of the whole world"
+            },
+            {
+              "ja": "קד תבין פי אלעלם אלטביעי",
+              "en": "it has been made clear in natural science"
+            },
+            {
+              "ja": "אן הד'ה אלארבעהֵ אנואע מן אלאסבאב",
+              "en": "that for each of these four kinds of causes"
+            },
+            {
+              "ja": "ינבגי אן יטלב לכל סבב מנהא סבב איצ'א",
+              "en": "a cause must also be sought"
+            },
+            {
+              "ja": "פיוג'ד ללשי אלמתכון הד'ה אלארבעה אסבאב אלקריבה מנה",
+              "en": "so that for a generated thing there are found these four proximate causes"
+            },
+            {
+              "ja": "ותוג'ד לתלך איצ'א אסבאב",
+              "en": "and for those causes there are also causes"
+            },
+            {
+              "ja": "וללאסבאב אסבאב",
+              "en": "and for the causes there are causes"
+            },
+            {
+              "ja": "אלי אן ינתהי ללאסבאב אלאולי",
+              "en": "until one arrives at the first causes"
+            },
+            {
+              "ja": "ובהד'ה אלג'הה ינסב כל פעל פי אלוג'וד ללה",
+              "en": "In this way every act in existence is attributed to God"
+            },
+            {
+              "ja": "ולו פעלה מן פעלה מן אלפאעלין אלקריבין",
+              "en": "even if a proximate agent has performed it"
+            },
+            {
+              "ja": "פהו אלסבב אלאבעד",
+              "en": "He is the most remote cause"
+            },
+            {
+              "ja": "מן ג'ההֵ כונה פאעלא",
+              "en": "from the standpoint of being an Agent"
+            }
+          ]
+        },
+        {
+          "ja": "וכד'לך אלצור אלטביעיה אלכאינה אלפאסדה נג'דהא אד'א תתבענאהא אנהא לא בד אן תתקדמהא צורה אכ'רי תהיי הד'ה אלמאדה לקבול הד'ה אלצורה ותלך אלצורה אלת'אניה תתקדמהא איצ'א אכ'רי חתי ננתהי ללצורה אלאכ'ירה אלתי הי צ'רוריה פי וג'וד הד'ה אלצור אלמתוסטה. ותלך אלצורה אלאכ'ירה פי ג'מיע אלוג'וד הו אללה תעאלי. ולא תט'ן אן קולנא פיה אנה אלצורה אלאכ'ירה לג'מיע אלעאלם הי אשארה ללצורה אלאכ'ירה אלתי יקול ארסטו ענהא פי מא בעד אלטביעה אנהא גיר כאינה ולא פאסדה לאן תלך אלצורה אלמד'כורה הנאך טביעיה לא עקל מפארק.",
+          "en": "Likewise the natural forms that come into being and pass away — when we trace them we find that a preceding form must have prepared this matter to receive this form, and that preceding form in turn was preceded by yet another, until we arrive at the ultimate form, which is necessary for the existence of all these intermediate forms. That ultimate form throughout all existence is God, exalted be He. Do not suppose that by saying He is the ultimate form for the whole world we are pointing to the 'ultimate form' of which Aristotle speaks in the Metaphysics, namely the form that neither comes into being nor passes away — for that form mentioned there is a natural form, not a separate intellect.",
+          "pairs": [
+            {
+              "ja": "וכד'לך אלצור אלטביעיה אלכאינה אלפאסדה",
+              "en": "Likewise the natural forms that come into being and pass away"
+            },
+            {
+              "ja": "נג'דהא אד'א תתבענאהא",
+              "en": "when we trace them we find"
+            },
+            {
+              "ja": "אנהא לא בד אן תתקדמהא צורה אכ'רי",
+              "en": "that a preceding form must have"
+            },
+            {
+              "ja": "תהיי הד'ה אלמאדה לקבול הד'ה אלצורה",
+              "en": "prepared this matter to receive this form"
+            },
+            {
+              "ja": "ותלך אלצורה אלת'אניה תתקדמהא איצ'א אכ'רי",
+              "en": "and that preceding form in turn was preceded by yet another"
+            },
+            {
+              "ja": "חתי ננתהי ללצורה אלאכ'ירה",
+              "en": "until we arrive at the ultimate form"
+            },
+            {
+              "ja": "אלתי הי צ'רוריה פי וג'וד הד'ה אלצור אלמתוסטה",
+              "en": "which is necessary for the existence of all these intermediate forms"
+            },
+            {
+              "ja": "ותלך אלצורה אלאכ'ירה פי ג'מיע אלוג'וד",
+              "en": "That ultimate form throughout all existence"
+            },
+            {
+              "ja": "הו אללה תעאלי",
+              "en": "is God, exalted be He"
+            },
+            {
+              "ja": "ולא תט'ן אן קולנא פיה אנה אלצורה אלאכ'ירה לג'מיע אלעאלם",
+              "en": "Do not suppose that by saying He is the ultimate form for the whole world"
+            },
+            {
+              "ja": "הי אשארה ללצורה אלאכ'ירה אלתי יקול ארסטו ענהא פי מא בעד אלטביעה",
+              "en": "we are pointing to the 'ultimate form' of which Aristotle speaks in the Metaphysics"
+            },
+            {
+              "ja": "אנהא גיר כאינה ולא פאסדה",
+              "en": "namely the form that neither comes into being nor passes away"
+            },
+            {
+              "ja": "לאן תלך אלצורה אלמד'כורה הנאך טביעיה לא עקל מפארק",
+              "en": "for that form mentioned there is a natural form, not a separate intellect"
+            }
+          ]
+        },
+        {
+          "ja": "והכד'א איצ'א אלאמר פי כל גאיה פאן אלשי אלד'י לה גאיה פלך אן תטלב לתלך אלגאיה גאיה כאנך קלת מת'לא אן אלכרסי מאדתה אלכ'שב ופאעלה אלנג'אר וצורתה אלתרביע עלי שכל אלכד'א וגאיתה אלג'לוס עליה. פלך אן תסאל ומא גאיהֵ אלג'לוס עלי אלכרסי פיקאל לירתפע אלג'אלס ויעלו ען אלארץ'. פתסאל איצ'א ותקול ומא גאיהֵ אלארתפאע ען אלארץ' פתג'אב ליעט'ם אלג'אלס פי עין מן יראה. ובהד'א יוצ'ח אן ת'ם סלסלה מן אלגאיאת ינתהי אמרהא לאראדתה וחכמתה.",
+          "en": "And likewise in every end: a thing that has an end — you can seek a further end for that end. As for example: the chair's matter is wood, its agent is the carpenter, its form is the square shape of such-and-such a kind, and its end is sitting upon it. You can ask: what is the end of sitting on the chair? The answer is: that the sitter be elevated and raised above the ground. You can ask again: what is the end of being elevated above the ground? The answer is: that the sitter appear great in the eyes of those who see him. And by this it becomes clear that there is a chain of ends that ultimately leads back to His will and wisdom.",
+          "pairs": [
+            {
+              "ja": "והכד'א איצ'א אלאמר פי כל גאיה",
+              "en": "And likewise in every end"
+            },
+            {
+              "ja": "פאן אלשי אלד'י לה גאיה",
+              "en": "a thing that has an end"
+            },
+            {
+              "ja": "פלך אן תטלב לתלך אלגאיה גאיה",
+              "en": "you can seek a further end for that end"
+            },
+            {
+              "ja": "כאנך קלת מת'לא",
+              "en": "As for example"
+            },
+            {
+              "ja": "אן אלכרסי מאדתה אלכ'שב",
+              "en": "the chair's matter is wood"
+            },
+            {
+              "ja": "ופאעלה אלנג'אר",
+              "en": "its agent is the carpenter"
+            },
+            {
+              "ja": "וצורתה אלתרביע עלי שכל אלכד'א",
+              "en": "its form is the square shape of such-and-such a kind"
+            },
+            {
+              "ja": "וגאיתה אלג'לוס עליה",
+              "en": "and its end is sitting upon it"
+            },
+            {
+              "ja": "פלך אן תסאל ומא גאיהֵ אלג'לוס עלי אלכרסי",
+              "en": "You can ask: what is the end of sitting on the chair"
+            },
+            {
+              "ja": "פיקאל לירתפע אלג'אלס ויעלו ען אלארץ'",
+              "en": "The answer is: that the sitter be elevated and raised above the ground"
+            },
+            {
+              "ja": "פתסאל איצ'א ותקול ומא גאיהֵ אלארתפאע ען אלארץ'",
+              "en": "You can ask again: what is the end of being elevated above the ground"
+            },
+            {
+              "ja": "פתג'אב ליעט'ם אלג'אלס פי עין מן יראה",
+              "en": "The answer is: that the sitter appear great in the eyes of those who see him"
+            },
+            {
+              "ja": "ובהד'א יוצ'ח אן ת'ם סלסלה מן אלגאיאת",
+              "en": "And by this it becomes clear that there is a chain of ends"
+            },
+            {
+              "ja": "ינתהי אמרהא לאראדתה וחכמתה",
+              "en": "that ultimately leads back to His will and wisdom"
+            }
+          ]
+        },
+        {
+          "ja": "פבהד'א קיל פיה אנה גאיהֵ אלגאיאת פקד בינת לך עלי אי ג'הה קיל פיה תעאלי אנה פאעל וצורה וגאיה ולד'לך סמוה סבבא ולם יסמוה פאעלא פקט.",
+          "en": "For this reason it was said of Him that He is the end of ends. I have thus made clear to you in what respect it was said of Him, exalted be He, that He is Agent, form, and end; and therefore they called Him 'cause' and did not call Him merely 'Agent.'",
+          "pairs": [
+            {
+              "ja": "פבהד'א קיל פיה אנה גאיהֵ אלגאיאת",
+              "en": "For this reason it was said of Him that He is the end of ends"
+            },
+            {
+              "ja": "פקד בינת לך",
+              "en": "I have thus made clear to you"
+            },
+            {
+              "ja": "עלי אי ג'הה קיל פיה תעאלי",
+              "en": "in what respect it was said of Him, exalted be He"
+            },
+            {
+              "ja": "אנה פאעל",
+              "en": "that He is Agent"
+            },
+            {
+              "ja": "וצורה",
+              "en": "form"
+            },
+            {
+              "ja": "וגאיה",
+              "en": "and end"
+            },
+            {
+              "ja": "ולד'לך סמוה סבבא",
+              "en": "and therefore they called Him 'cause'"
+            },
+            {
+              "ja": "ולם יסמוה פאעלא פקט",
+              "en": "and did not call Him merely 'Agent.'"
+            }
+          ]
+        },
+        {
+          "ja": "ואעלם אן בעץ' אהל אלנט'ר מן האולא אלמתכלמין אנתהי בה אלג'הל ואלתג'אסר אלי אן קאל אנה לו קדר עדם אלבארי למא לזם עדם הד'א אלשי אלד'י אוג'דה אלבארי יעני אלעאלם אד' לא ילזם אן יפסד אלמפעול אד'א עדם אלפאעל בעד אן פעלה. ואלד'י ד'כרוה צחיח לו כאן פאעלא פקט ולא יכון ד'לך אלשי אלמפעול מחתאג'א אליה פי אסתמדאד בקאיה כמא אנה אד'א מאת אלנג'אר ליס תפסד אלכ'זאנה. אמא בכונה תעאלי צורהֵ אלעאלם איצ'א כמא בינא והו ימדה אלבקא ואלדואם פמחאל אן יד'הב אלממד ויבקי אלמסתמד אלד'י לא בקא לה אלא במא יסתמדה.",
+          "en": "Know that some of those who speculate among the mutakallimūn reached such ignorance and presumption as to say: if the non-existence of the Creator were to be hypothetically supposed, the non-existence of what the Creator brought into existence — I mean the world — would not necessarily follow, since it is not necessary that the artifact be corrupted when the agent ceases to exist after having performed his act. What they said is correct if He were merely an Agent and if that thing acted upon did not require His sustaining of its continued existence — as when a carpenter dies, the cabinet is not corrupted. But since He, exalted be He, is also the form of the world as we explained, and He sustains its subsistence and permanence, it is impossible that the sustaining cause disappear while that which depends upon it continues, since it has no subsistence save through what it receives from it.",
+          "pairs": [
+            {
+              "ja": "ואעלם",
+              "en": "Know"
+            },
+            {
+              "ja": "אן בעץ' אהל אלנט'ר מן האולא אלמתכלמין",
+              "en": "that some of those who speculate among the mutakallimūn"
+            },
+            {
+              "ja": "אנתהי בה אלג'הל ואלתג'אסר",
+              "en": "reached such ignorance and presumption"
+            },
+            {
+              "ja": "אלי אן קאל",
+              "en": "as to say"
+            },
+            {
+              "ja": "אנה לו קדר עדם אלבארי",
+              "en": "if the non-existence of the Creator were to be hypothetically supposed"
+            },
+            {
+              "ja": "למא לזם עדם הד'א אלשי אלד'י אוג'דה אלבארי",
+              "en": "the non-existence of what the Creator brought into existence"
+            },
+            {
+              "ja": "יעני אלעאלם",
+              "en": "I mean the world"
+            },
+            {
+              "ja": "אד' לא ילזם אן יפסד אלמפעול",
+              "en": "would not necessarily follow, since it is not necessary that the artifact be corrupted"
+            },
+            {
+              "ja": "אד'א עדם אלפאעל בעד אן פעלה",
+              "en": "when the agent ceases to exist after having performed his act"
+            },
+            {
+              "ja": "ואלד'י ד'כרוה צחיח",
+              "en": "What they said is correct"
+            },
+            {
+              "ja": "לו כאן פאעלא פקט",
+              "en": "if He were merely an Agent"
+            },
+            {
+              "ja": "ולא יכון ד'לך אלשי אלמפעול מחתאג'א אליה פי אסתמדאד בקאיה",
+              "en": "and if that thing acted upon did not require His sustaining of its continued existence"
+            },
+            {
+              "ja": "כמא אנה אד'א מאת אלנג'אר ליס תפסד אלכ'זאנה",
+              "en": "as when a carpenter dies, the cabinet is not corrupted"
+            },
+            {
+              "ja": "אמא בכונה תעאלי צורהֵ אלעאלם איצ'א כמא בינא",
+              "en": "But since He, exalted be He, is also the form of the world as we explained"
+            },
+            {
+              "ja": "והו ימדה אלבקא ואלדואם",
+              "en": "and He sustains its subsistence and permanence"
+            },
+            {
+              "ja": "פמחאל אן יד'הב אלממד",
+              "en": "it is impossible that the sustaining cause disappear"
+            },
+            {
+              "ja": "ויבקי אלמסתמד אלד'י לא בקא לה אלא במא יסתמדה",
+              "en": "while that which depends upon it continues, since it has no subsistence save through what it receives from it"
+            }
+          ]
+        },
+        {
+          "ja": "פהד'א קדר מא אוג'ב אלקול באנה פאעל פקט לא גאיה ולא צורה מן אלוהם:",
+          "en": "This is the extent of what obligates one to say He is merely Agent, with no end and no form — stemming from illusion.",
+          "pairs": [
+            {
+              "ja": "פהד'א קדר מא אוג'ב אלקול",
+              "en": "This is the extent of what obligates one to say"
+            },
+            {
+              "ja": "באנה פאעל פקט",
+              "en": "He is merely Agent"
+            },
+            {
+              "ja": "לא גאיה ולא צורה",
+              "en": "with no end and no form"
+            },
+            {
+              "ja": "מן אלוהם",
+              "en": "stemming from illusion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

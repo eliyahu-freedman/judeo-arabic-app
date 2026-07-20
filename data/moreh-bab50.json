@@ -1,0 +1,106 @@
+{
+  "work": "Moreh Nevukhim",
+  "section": "Part I, Chapter 50 — What It Means to Believe",
+  "section_ja": "אלג'ז אלאול · אלפצל חמשים",
+  "subtitle": "דלאלהֵ אלחאירין — The Guide of the Perplexed",
+  "author": "Moses Maimonides (1138–1204)",
+  "english_translator": "Eliyahu Freedman (working draft)",
+  "intro": "Chapter 50 is a transitional chapter that pivots from the discussion of divine attributes (which follows) to the prior question of what genuine belief actually is. Belief, Maimonides insists, is not the oral recitation of a proposition — it is the mental act of affirming a correctly formed conception as obtaining in the external world. One who recites 'God is one' without having formed a genuine conception of divine unity has not believed it.\n\nThis matters enormously for the coming discussion of divine attributes. Many people say 'God is one' while simultaneously maintaining that He possesses multiple distinct essential attributes — knowledge, power, will, life. Maimonides shows that this position is structurally identical to the Christian doctrine of the Trinity: affirming numerical oneness while holding to real multiplicity. The apparent contradiction dissolves only if one grasps that true tawhīd — radical divine unity — entails that God has no essential attribute over and above His essence.\n\nThe chapter closes with a moral-epistemological point: the correct orientation is not to say without understanding, but to understand without necessarily saying. The sage who conceives truth and falls silent is better than one who pronounces without conception.",
+  "source": {
+    "edition": "Sefaria — version 'Judeo Arabic, Paris, 1856 [jrb]' (the 1856 Paris/Munk Arabic base; public-domain by age)",
+    "note": "A different edition than the FJMS text used for I:1–28 — expect minor orthographic differences. Segmentation follows Sefaria.",
+    "segments": 4
+  },
+  "terms": [
+    {
+      "id": "itiqad",
+      "ja": "אעתקאד",
+      "ar": "اعتقاد",
+      "translit": "iʿtiqād",
+      "gloss": "belief, conviction",
+      "note": "For Maimonides, genuine iʿtiqād requires first forming a correct mental conception (taṣawwur) and then affirming that this conception obtains in reality. Recitation without conception is not belief at all.",
+      "variants": ["אעתקד", "מעתקד"]
+    },
+    {
+      "id": "tawhid",
+      "ja": "יחוד השם",
+      "ar": "التوحيد",
+      "translit": "tawḥīd / yiḥud ha-Shem",
+      "gloss": "divine unity, the oneness of God",
+      "note": "Maimonides distinguishes mere numerical oneness from true tawḥīd, which means God is unique in kind — there is no composition, division, or multiplicity of meanings in His essence whatsoever.",
+      "variants": ["חדאניה חקיקיה", "אלוחדאניה"]
+    },
+    {
+      "id": "tasawwur",
+      "ja": "תצור",
+      "ar": "تصور",
+      "translit": "taṣawwur",
+      "gloss": "mental conception, representation",
+      "note": "The necessary precondition of genuine belief: one must first form the concept (taṣawwur) before one can affirm it (taṣdīq). Without conception, speech is empty.",
+      "variants": ["תתצור", "יתצור", "תצורה"]
+    },
+    {
+      "id": "yaqin",
+      "ja": "יקין",
+      "ar": "يقين",
+      "translit": "yaqīn",
+      "gloss": "certainty, demonstrative knowledge",
+      "note": "The highest epistemic state: a belief such that its opposite cannot even be conceived, nor can any mental space for doubt be found. Maimonides distinguishes this from mere opinion (ẓann).",
+      "variants": ["יתיקן", "יקינא"]
+    }
+  ],
+  "pages": [
+    {
+      "page_he": "1",
+      "aligned": [
+        {
+          "ja": "אלג'ז אלאול · אלפצל חמשים",
+          "en": "Part One · Chapter Fifty — What It Means to Believe",
+          "isHeader": true
+        },
+        {
+          "ja": "אעלם איהא אלנאט'ר פי מקאלתי הד'ה אן אלאעתקאד ליס הו אלמעני אלמקול בל אלמעני אלמתצור פי אלנפס אד'א צדק בה אנה כד'לך עלי מא תצור. פאן כנת ממן תקנע מן אלארא אלצחיחה או אלמט'נון צחתהא ענדך באן תחכיהא באלקול מן גיר אן תתצרוהא ותעתקדהא נאהיך אן תטלב פיהא יקינא פאן הד'א סהל ג'דא כמא תג'ד כת'ירין מן אלבלה יחפט'ון עקאיד לא יתצורון להא מעני בוג'ה.",
+          "en": "Know, O you who examine this treatise of mine, that belief is not the meaning that is uttered, but the meaning that is conceived in the soul when it asserts that it is so, in accordance with what was conceived. If you are one of those who are satisfied with correct opinions, or opinions you suppose to be correct, by narrating them in speech without having truly conceived them and genuinely believed them — let alone by seeking certainty concerning them — then this is very easy, just as you find many of the foolish who memorize credal formulas without conceiving any meaning for them whatsoever.",
+          "pairs": [
+            { "ja": "אלאעתקאד ליס הו אלמעני אלמקול", "en": "belief is not the meaning that is uttered" },
+            { "ja": "בל אלמעני אלמתצור פי אלנפס אד'א צדק בה אנה כד'לך עלי מא תצור", "en": "but the meaning that is conceived in the soul when it asserts that it is so, in accordance with what was conceived" },
+            { "ja": "תחכיהא באלקול מן גיר אן תתצרוהא ותעתקדהא", "en": "by narrating them in speech without having truly conceived them and genuinely believed them" },
+            { "ja": "כת'ירין מן אלבלה יחפט'ון עקאיד לא יתצורון להא מעני בוג'ה", "en": "many of the foolish who memorize credal formulas without conceiving any meaning for them whatsoever" }
+          ]
+        },
+        {
+          "ja": "ואן כנת ממן טמחת המתה לתרתקי להד'ה אלדרג'ה אלעאליה דרג'הֵ אלנט'ר ואן תתיקן באן אללה ואחד וחדאניה חקיקיה חתי לא יוג'ד לה תרכיב אצלא ולא תקדיר אנקסאם בוג'ה מן אלוג'וה פאעלם אנה לא צפה ד'אתיה לה תעאלי בוג'ה ולא עלי חאל מן אלאחואל ואן כמא אמתנע כונה ג'סמא כד'לך אמתנע כונה ד'א צפה ד'אתיה.",
+          "en": "But if you are one whose aspiration reaches toward ascending to this high level — the level of speculative inquiry — and toward attaining certainty that God is one with a true unity, such that no composition whatever is found in Him nor any possible mode of division under any aspect, then know that He, exalted be He, has no essential attribute under any circumstances whatsoever; and just as it is impossible for Him to be a body, so too is it impossible for Him to possess an essential attribute.",
+          "pairs": [
+            { "ja": "אן תתיקן באן אללה ואחד וחדאניה חקיקיה", "en": "attaining certainty that God is one with a true unity" },
+            { "ja": "חתי לא יוג'ד לה תרכיב אצלא ולא תקדיר אנקסאם בוג'ה מן אלוג'וה", "en": "such that no composition whatever is found in Him nor any possible mode of division under any aspect" },
+            { "ja": "לא צפה ד'אתיה לה תעאלי בוג'ה ולא עלי חאל מן אלאחואל", "en": "He, exalted be He, has no essential attribute under any circumstances whatsoever" },
+            { "ja": "כמא אמתנע כונה ג'סמא כד'לך אמתנע כונה ד'א צפה ד'אתיה", "en": "just as it is impossible for Him to be a body, so too is it impossible for Him to possess an essential attribute" }
+          ]
+        },
+        {
+          "ja": "אמא מן אעתקד אנה ואחד ד'ו צפאת עדה פקד קאל אנה ואחד בלפט'ה ואעתקדה כת'ירין בפכרתה והד'א שבה קול אלנצארי הו ואחד לכנה ת'לאת'ה ואלת'לאת'ה ואחד כד'לך קול אלקאיל הו ואחד לכנה ד'ו צפאת מתעדדה והו וצפאתה ואחד מע ארתפאע אלג'סמאניה ואעתקאד אלבסאטה אלמחצ'ה כאן קצדנא ובחת'נא אנמא הו כיף נקול לא כיף נעתקד. ולא אעתקאד אלא בעד תצור לאן אלאעתקאד הו אלתצדיק במא תצור אנה כ'ארג' אלד'הן עלי מא תצור פי אלד'הן. פאן חצל מע הד'א אלאעתקאד אנה לא ימכן כ'לאף הד'א אלאעתקאד בוג'ה ולא יוג'ד פי אלד'הן מוצ'ע דפע לד'לך אלאעתקאד ולא תקדיר אמכאן כ'לאפה כאן ד'לך יקינא.",
+          "en": "As for one who believes He is one yet possessed of multiple attributes — he has said He is one in his utterance, yet believed Him multiple in his thought. This resembles the saying of the Christians that He is one but three, and the three are one; so likewise the saying of one who says He is one but possessed of multiple attributes, and that He and His attributes are one — with the removal of corporeality and with the belief in pure simplicity, our aim and inquiry was only about what we say, not about what we believe. For there is no belief except after conception, because belief is the affirmation of what has been conceived as obtaining outside the mind in accordance with how it was conceived in the mind. And if, along with this belief, there arises the sense that the contrary of this belief is impossible under any aspect whatsoever, and there is found in the mind no place to resist this belief, and no capacity to imagine its contrary — then this is certainty.",
+          "pairs": [
+            { "ja": "מן אעתקד אנה ואחד ד'ו צפאת עדה", "en": "one who believes He is one yet possessed of multiple attributes" },
+            { "ja": "קאל אנה ואחד בלפט'ה ואעתקדה כת'ירין בפכרתה", "en": "he has said He is one in his utterance, yet believed Him multiple in his thought" },
+            { "ja": "הד'א שבה קול אלנצארי הו ואחד לכנה ת'לאת'ה", "en": "This resembles the saying of the Christians that He is one but three" },
+            { "ja": "ולא אעתקאד אלא בעד תצור", "en": "there is no belief except after conception" },
+            { "ja": "אלאעתקאד הו אלתצדיק במא תצור אנה כ'ארג' אלד'הן עלי מא תצור פי אלד'הן", "en": "belief is the affirmation of what has been conceived as obtaining outside the mind in accordance with how it was conceived in the mind" }
+          ]
+        },
+        {
+          "ja": "ומתי תג'רדת מן אלאהויה ואלעאדאת וכנת ד'א פהם ותאמלת מא אקולה פי הד'ה אלפצול אלתי תאתי פי נפי אלצפאת תיקנת ד'לך צ'רורה ותכון חיניד' ממן יתצור יחוד השם לא ממן יקולה בפמה ולא יתצור לה מעני פיכון מן קביל אלד'ין קיל פיהם קרוב אתה בפיהם ורחוק מכליותיהם בל ינבגי אן יכון אלאנסאן מן קביל מן יתצור אלחק וידרכה ואן לם ינטק בה כמא אמר אלפצ'לא פקיל להם אמרו בלבבכם על משכבכם ודמו סלה:",
+          "en": "And when you strip yourself of passions and habits, and are a person of understanding, and reflect upon what I say in these chapters that are to come concerning the negation of attributes, you will necessarily arrive at this certainty — and you will then be among those who truly conceive the oneness of God, not among those who say it with their mouth while conceiving no meaning for it, belonging to the category of those of whom it was said, 'Thou art near in their mouth but far from their mind' (Jer 12:2). Rather, a person should belong to the category of those who conceive truth and apprehend it even if they do not give voice to it — as the sages instructed: it was said to them, 'Speak in your hearts upon your beds and be silent, Selah' (Ps 4:5).",
+          "pairs": [
+            { "ja": "תג'רדת מן אלאהויה ואלעאדאת", "en": "you strip yourself of passions and habits" },
+            { "ja": "תכון חיניד' ממן יתצור יחוד השם", "en": "you will then be among those who truly conceive the oneness of God" },
+            { "ja": "לא ממן יקולה בפמה ולא יתצור לה מעני", "en": "not among those who say it with their mouth while conceiving no meaning for it" },
+            { "ja": "קרוב אתה בפיהם ורחוק מכליותיהם", "en": "Thou art near in their mouth but far from their mind" },
+            { "ja": "אמרו בלבבכם על משכבכם ודמו סלה", "en": "Speak in your hearts upon your beds and be silent, Selah" }
+          ]
+        }
+      ]
+    }
+  ]
+}

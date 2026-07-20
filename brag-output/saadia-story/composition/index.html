@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" data-resolution="landscape">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1920, height=1080">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    @font-face {
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: 100 900;
+      src: url('assets/fonts/Lora-normal.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Lora';
+      font-style: italic;
+      font-weight: 100 900;
+      src: url('assets/fonts/Lora-italic.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Noto Serif Hebrew';
+      font-style: normal;
+      font-weight: 100 900;
+      font-stretch: 62.5%;
+      unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+      src: url('assets/fonts/NotoSerifHebrew-hebrew.woff2') format('woff2');
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 1920px; height: 1080px; overflow: hidden; background: #0f0f0f; }
+    body { font-family: 'Lora', Georgia, serif; color: #f5f0e8; }
+    .clip { position: absolute; visibility: hidden; }
+    .bg { top: 0; left: 0; width: 1920px; height: 1080px; }
+    .heb {
+      font-family: 'Noto Serif Hebrew', 'Times New Roman', serif;
+      direction: rtl; unicode-bidi: bidi-override;
+    }
+    .full { left: 0; width: 1920px; text-align: center; }
+    #cursor-el {
+      position: absolute;
+      width: 0; height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 18px solid rgba(255,255,255,0.85);
+      transform: rotate(-30deg);
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.6));
+    }
+  </style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="30" data-width="1920" data-height="1080">
+
+  <!-- ═══ AUDIO ════════════════════════════════════════ -->
+  <audio id="music" class="clip" data-start="0" data-duration="30" data-track-index="50"
+         data-volume="0.22" src="assets/music/el-eliyahu.mp3"></audio>
+  <audio id="narration" class="clip" data-start="0.5" data-duration="25.7" data-track-index="51"
+         data-volume="1.0" src="assets/narration/saadia-voice.m4a"></audio>
+
+  <!-- ═══ BASE: dark reader bg (full run) ═══════════════ -->
+  <div id="reader-bg" class="clip bg" data-start="0" data-duration="30" data-track-index="1"
+       style="background: #0f0f0f; opacity:1;"></div>
+
+  <!-- Subtle radial warm glow behind text -->
+  <div id="reader-glow" class="clip bg" data-start="0.8" data-duration="29" data-track-index="2"
+       style="background: radial-gradient(ellipse 70% 60% at 50% 48%, rgba(114,47,55,0.10), transparent);
+              opacity:0;"></div>
+
+  <!-- ═══ SCENE 1 (1–5.8s): Reader loads ═══════════════
+       Voice: "Saadia Gaon translated the entire Torah into Arabic. 928 CE."
+  ════════════════════════════════════════════════════════ -->
+
+  <!-- Verse label -->
+  <div id="s1-label" class="clip full" data-start="1" data-duration="24" data-track-index="3"
+       style="top:88px; font-size:11px; font-weight:700; letter-spacing:0.26em;
+              text-transform:uppercase; color:rgba(245,240,232,0.22); opacity:0;">
+    GENESIS 1:1 · SAADIA GAON · TAFSIR AL-TORAH
+  </div>
+
+  <!-- Hebrew source (smaller, above) -->
+  <div id="s1-heb" class="clip heb full" data-start="1" data-duration="24" data-track-index="4"
+       style="top:302px; font-size:30px; font-weight:300; line-height:1.5;
+              color:rgba(245,240,232,0.28); opacity:0;">
+    בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ
+  </div>
+
+  <!-- Main JA line 1 — with כ׳לק highlighted via inline span -->
+  <div id="s1-ja1" class="clip heb full" data-start="1" data-duration="24" data-track-index="5"
+       style="top:378px; font-size:104px; font-weight:500; line-height:1.25;
+              color:rgba(245,240,232,0.90); opacity:0; white-space:nowrap;">
+    <span style="color:rgba(245,240,232,0.40)">אללה </span><span id="target-word" style="color:#f5f0e8; border-bottom:3px solid rgba(114,47,55,0)">כ׳לק</span><span style="color:rgba(245,240,232,0.40)"> מא אול</span>
+  </div>
+
+  <!-- JA line 2 -->
+  <div id="s1-ja2" class="clip heb full" data-start="1" data-duration="24" data-track-index="6"
+       style="top:506px; font-size:76px; font-weight:300; line-height:1.25;
+              color:rgba(245,240,232,0.32); opacity:0;">
+    אלסמאואת ואלארץ׳
+  </div>
+
+  <!-- ═══ SCENE 2 (5.8–11s): "unavailable" feel ════════
+       Voice: "For a thousand years, barely anyone could read it."
+  ════════════════════════════════════════════════════════ -->
+
+  <!-- Dark tint overlay over the text — makes it feel locked -->
+  <div id="s2-tint" class="clip bg" data-start="5.5" data-duration="6" data-track-index="7"
+       style="background:rgba(15,15,15,0.72); opacity:0;"></div>
+
+  <!-- "FOR A THOUSAND YEARS" stamped over the tinted text -->
+  <div id="s2-stamp" class="clip full" data-start="5.8" data-duration="5" data-track-index="8"
+       style="top:464px; font-size:13px; font-weight:700; letter-spacing:0.36em;
+              text-transform:uppercase; color:rgba(245,240,232,0.35); opacity:0;">
+    FOR A THOUSAND YEARS · BARELY ANYONE COULD READ IT
+  </div>
+
+  <!-- ═══ SCENE 3 (11–14.1s): "Now you can." + cursor ═
+  ════════════════════════════════════════════════════════ -->
+
+  <!-- Tint lifts — handled by tween -->
+
+  <!-- "Now you can." text flash -->
+  <div id="s3-now" class="clip full" data-start="11" data-duration="3.2" data-track-index="9"
+       style="top:454px; font-size:80px; font-weight:600; letter-spacing:0.02em;
+              color:#f5f0e8; opacity:0;">Now you can.</div>
+
+  <!-- Cursor appears, will be animated -->
+  <div id="cursor-el" class="clip" data-start="13.2" data-duration="11" data-track-index="10"
+       style="top:456px; left:820px; opacity:0;"></div>
+
+  <!-- ═══ SCENE 4 (14.1–22.8s): Tap → lexicon opens ════
+       Voice: "This is the Tafsir — word by word, tap to define, any Hebrew speaker."
+  ════════════════════════════════════════════════════════ -->
+
+  <!-- Tap ripple at the word כ׳לק (approx x=960 y=430) -->
+  <div id="tap-ripple" class="clip" data-start="14.0" data-duration="1.2" data-track-index="11"
+       style="top:404px; left:900px; width:80px; height:80px; border-radius:50%;
+              border:2px solid rgba(114,47,55,0.8); opacity:0;"></div>
+
+  <!-- Target word highlight (border-bottom appears on tap) -->
+
+  <!-- Lexicon panel — slides up from bottom -->
+  <div id="lex-panel" class="clip" data-start="14.1" data-duration="9" data-track-index="12"
+       style="left:560px; top:668px; width:800px; padding:28px 36px;
+              background:#1a1715; border:1px solid rgba(245,240,232,0.10);
+              border-radius:4px; opacity:0;">
+    <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:14px;">
+      <span style="font-family:'Noto Serif Hebrew',serif; direction:rtl; unicode-bidi:bidi-override;
+                   font-size:38px; font-weight:500; color:#f5f0e8;">כ׳.ל.ק</span>
+      <span style="font-size:11px; font-weight:700; letter-spacing:0.18em; text-transform:uppercase;
+                   color:rgba(245,240,232,0.35);">verb · Form I</span>
+    </div>
+    <div style="font-size:22px; color:#f5f0e8; margin-bottom:10px; font-style:italic;">
+      "to create, bring into being"
+    </div>
+    <div style="font-size:13px; color:rgba(245,240,232,0.42); line-height:1.7;">
+      Lane: <span style="font-style:italic;">خَلَقَ</span> — to create, to make from nothing · Blau JA: יצר, ברא
+    </div>
+  </div>
+
+  <!-- ═══ SCENE 5 (22.8–25s): Author names ═════════════
+       Voice: "Saadia, Rambam, Bahya, Halevi. In the original."
+  ════════════════════════════════════════════════════════ -->
+
+  <!-- Lexicon slides away, reader dimmed, names appear -->
+  <div id="s5-names" class="clip full" data-start="22.6" data-duration="3.5" data-track-index="13"
+       style="top:436px; font-size:44px; font-weight:400; font-style:italic;
+              color:rgba(245,240,232,0.65); line-height:1.6; opacity:0;">
+    Saadia · Rambam · Bahya · Halevi
+  </div>
+  <div id="s5-orig" class="clip full" data-start="23.5" data-duration="2.5" data-track-index="14"
+       style="top:506px; font-size:18px; font-weight:700; letter-spacing:0.24em;
+              text-transform:uppercase; color:rgba(245,240,232,0.28); opacity:0;">
+    IN THE ORIGINAL
+  </div>
+
+  <!-- ═══ SCENE 6 (25–30s): Free. + URL ════════════════ -->
+
+  <div id="s6-free" class="clip full" data-start="25" data-duration="5" data-track-index="15"
+       style="top:418px; font-size:108px; font-weight:600; letter-spacing:0.01em;
+              color:#f5f0e8; opacity:0;">Free.</div>
+
+  <div id="s6-url" class="clip full" data-start="26.4" data-duration="3.6" data-track-index="16"
+       style="top:560px; font-size:14px; font-weight:400; letter-spacing:0.20em;
+              text-transform:uppercase; color:rgba(245,240,232,0.28); opacity:0;">
+    judeo-arabic-app.vercel.app
+  </div>
+
+</div><!-- #root -->
+
+<script>
+  window.__timelines = window.__timelines || {};
+  const tl = gsap.timeline({ paused: true });
+
+  // ── Glow in ──────────────────────────────────────────
+  tl.to("#reader-glow", { opacity: 1, duration: 1.8, ease: "power2.inOut" }, 0.8);
+
+  // ── Scene 1: Reader loads (staggered reveal) ─────────
+  tl.to("#s1-label", { opacity: 1, duration: 0.7, ease: "power2.out" }, 1.0);
+  tl.to("#s1-heb",   { opacity: 1, duration: 0.9, ease: "power2.out" }, 1.2);
+  tl.to("#s1-ja1",   { opacity: 1, duration: 0.9, ease: "power2.out" }, 1.5);
+  tl.to("#s1-ja2",   { opacity: 1, duration: 0.7, ease: "power2.out" }, 1.9);
+
+  // ── Scene 2: Tint + stamp (5.8s pause) ───────────────
+  tl.to("#s2-tint",  { opacity: 1, duration: 0.5, ease: "power2.in"  }, 5.6);
+  tl.to("#s2-stamp", { opacity: 1, duration: 0.4, ease: "power2.out" }, 5.9);
+  // Tint lifts at 11s
+  tl.to("#s2-tint",  { opacity: 0, duration: 0.6, ease: "power2.out" }, 10.7);
+  tl.set("#s2-tint", { opacity: 0 }, 11.0);
+  tl.to("#s2-stamp", { opacity: 0, duration: 0.4, ease: "power2.in"  }, 10.7);
+  tl.set("#s2-stamp", { opacity: 0 }, 11.1);
+
+  // ── Scene 3: "Now you can." ──────────────────────────
+  // JA text dims so "Now you can." stands out
+  tl.to(["#s1-ja1","#s1-ja2","#s1-heb"], { opacity: 0.12, duration: 0.4 }, 10.9);
+  tl.to("#s3-now", { opacity: 1, duration: 0.5, ease: "power2.out" }, 11.1);
+  // "Now you can." exits at 14s
+  tl.to("#s3-now", { opacity: 0, duration: 0.35, ease: "power2.in" }, 13.7);
+  tl.set("#s3-now", { opacity: 0 }, 14.00);
+  tl.set("#s3-now", { opacity: 0 }, 14.1);
+  // JA text comes back up
+  tl.to(["#s1-ja1","#s1-ja2","#s1-heb"], { opacity: 1, duration: 0.5 }, 13.9);
+  // (ja1/ja2/heb restore opacity values)
+  tl.to("#s1-heb", { opacity: 0.28, duration: 0.5 }, 13.9);
+  tl.to("#s1-ja2", { opacity: 0.32, duration: 0.5 }, 13.9);
+
+  // ── Cursor appears, moves to כ׳לק, taps ─────────────
+  tl.set("#cursor-el", { left: 600, top: 700 }, 13.2);
+  tl.to("#cursor-el", { opacity: 1, duration: 0.3 }, 13.2);
+  // Move to word כ׳לק (approx center x=940, y=430)
+  tl.to("#cursor-el", { left: 936, top: 422, duration: 0.55, ease: "power2.inOut" }, 13.4);
+  // Tap: scale pulse on cursor
+  tl.to("#cursor-el", { scale: 0.7, duration: 0.12, ease: "power2.in"  }, 14.0);
+  tl.to("#cursor-el", { scale: 1.0, duration: 0.14, ease: "power2.out" }, 14.12);
+
+  // Target word highlights on tap
+  tl.to("#target-word", { borderBottomColor: "rgba(114,47,55,0.9)", duration: 0.2 }, 14.0);
+  tl.to("#target-word", { color: "#e85555", duration: 0.2 }, 14.0);
+
+  // Tap ripple expands
+  tl.to("#tap-ripple", { opacity: 0.9, scale: 0.5, duration: 0.05 }, 14.0);
+  tl.to("#tap-ripple", { opacity: 0, scale: 1.8, duration: 0.55, ease: "power2.out" }, 14.05);
+  tl.set("#tap-ripple", { opacity: 0 }, 14.6);
+
+  // ── Scene 4: Lexicon panel slides up ─────────────────
+  tl.set("#lex-panel", { y: 40 }, 0);
+  tl.to("#lex-panel", { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, 14.15);
+
+  // Cursor parks above lexicon, fades
+  tl.to("#cursor-el", { left: 650, top: 690, duration: 0.4, ease: "power2.inOut" }, 14.3);
+  tl.to("#cursor-el", { opacity: 0, duration: 0.3 }, 14.7);
+  tl.set("#cursor-el", { opacity: 0 }, 15.0);
+
+  // ── Scene 5: Names cascade (22.8s) ───────────────────
+  tl.to("#lex-panel",  { opacity: 0, y: 20, duration: 0.4, ease: "power2.in" }, 22.4);
+  tl.set("#lex-panel", { opacity: 0 }, 22.8);
+  tl.to(["#s1-ja1","#s1-ja2","#s1-heb","#s1-label"], { opacity: 0, duration: 0.5 }, 22.4);
+  tl.set(["#s1-ja1","#s1-ja2","#s1-heb","#s1-label"], { opacity: 0 }, 22.9);
+  tl.to("#target-word", { color: "rgba(245,240,232,0.4)", duration: 0.4 }, 22.4);
+
+  tl.to("#s5-names", { opacity: 1, duration: 0.5, ease: "power2.out" }, 22.7);
+  tl.to("#s5-orig",  { opacity: 1, duration: 0.4, ease: "power2.out" }, 23.6);
+
+  tl.to(["#s5-names","#s5-orig"], { opacity: 0, duration: 0.4, ease: "power2.in" }, 24.8);
+  tl.set(["#s5-names","#s5-orig"], { opacity: 0 }, 25.0);
+
+  // ── Scene 6: Free. + URL ─────────────────────────────
+  tl.to("#reader-glow", { opacity: 0.06, duration: 0.5 }, 24.9);
+  tl.to("#s6-free", { opacity: 1, duration: 0.45, ease: "power2.out" }, 25.1);
+  tl.to("#s6-url",  { opacity: 1, duration: 0.5,  ease: "power2.out" }, 26.5);
+
+  window.__timelines["main"] = tl;
+</script>
+</body>
+</html>
