@@ -6,6 +6,7 @@ import {
   readChapter,
   readChapterAlignment,
   readChapterEnglish,
+  readChapterPortuguese,
 } from "@/lib/tafsirIndex";
 import { resolveVerseAlignment, type VerseAlignment } from "@/lib/alignment";
 import {
@@ -85,9 +86,10 @@ export default async function TafsirChapterPage({
   const found = await findChapter(book, chapter);
   if (!found) notFound();
 
-  const [data, enMap, alignMap] = await Promise.all([
+  const [data, enMap, ptMap, alignMap] = await Promise.all([
     readChapter(book, chapter),
     readChapterEnglish(book, chapter),
+    readChapterPortuguese(book, chapter),
     readChapterAlignment(book, chapter),
   ]);
 
@@ -96,6 +98,7 @@ export default async function TafsirChapterPage({
     chapter: data.chapter,
     verses: data.verses.map<Verse>((v) => {
       const english = enMap[String(v.v)] ?? "";
+      const portuguese = ptMap[String(v.v)] ?? "";
       const pairs = alignMap[String(v.v)] ?? [];
       const alignment: VerseAlignment | null =
         pairs.length > 0 && english
@@ -109,6 +112,7 @@ export default async function TafsirChapterPage({
         arabic: v.arabic,
         hebrew_translation: v.hebrew_translation,
         english,
+        portuguese,
         alignment,
       };
     }),

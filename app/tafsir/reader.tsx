@@ -34,6 +34,7 @@ export type Verse = {
   arabic: string;
   hebrew_translation: string;
   english: string;
+  portuguese: string;
   alignment: VerseAlignment | null;
 };
 
@@ -79,6 +80,7 @@ export function TafsirReader({
   const [showArabic, setShowArabic] = useState(false);
   const [showHebrewTr, setShowHebrewTr] = useState(false);
   const [showEnglish, setShowEnglish] = useState(true);
+  const [showPortuguese, setShowPortuguese] = useState(false);
   const [showAdvanced, setShowAdvanced] = useState(false);
   const [activeToken, setActiveToken] = useState<string | null>(null);
   const [hoveredGroup, setHoveredGroup] = useState<{
@@ -144,6 +146,9 @@ export function TafsirReader({
           {showEnglish && (
             <span className="italic">English translation is a working draft — author revising.</span>
           )}
+          {showPortuguese && (
+            <span className="italic">A tradução portuguesa é um rascunho — em revisão.</span>
+          )}
         </div>
       </header>
 
@@ -178,6 +183,11 @@ export function TafsirReader({
           on={showEnglish}
           onClick={() => setShowEnglish((x) => !x)}
           label="English"
+        />
+        <ToggleChip
+          on={showPortuguese}
+          onClick={() => setShowPortuguese((x) => !x)}
+          label="Português"
         />
         <ToggleChip
           on={showAdvanced}
@@ -287,6 +297,15 @@ export function TafsirReader({
                     )
                   }
                 />
+              </p>
+            )}
+            {showPortuguese && verse.portuguese && (
+              <p
+                dir="ltr"
+                lang="pt"
+                className="mt-5 pt-5 border-t border-ink/10 text-[15px] leading-relaxed text-ink/80"
+              >
+                {verse.portuguese}
               </p>
             )}
           </li>

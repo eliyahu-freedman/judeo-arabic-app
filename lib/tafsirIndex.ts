@@ -123,6 +123,29 @@ export async function readChapterEnglish(
 }
 
 /**
+ * Read the optional Portuguese sidecar; returns {} if missing. Same shape as
+ * the English sidecar ({translations: {verse: text}}) — an elevated
+ * literary/liturgical rendering of Saadia's JA, authored for reverse-
+ * translatability just like the English layer.
+ */
+export async function readChapterPortuguese(
+  bookSlug: string,
+  chapter: number,
+): Promise<Record<string, string>> {
+  const file = path.join(
+    DATA_DIR,
+    `tafsir-${bookSlug}-${chapter}-portuguese.json`,
+  );
+  try {
+    const raw = await fs.readFile(file, "utf-8");
+    const data = JSON.parse(raw) as { translations?: Record<string, string> };
+    return data.translations ?? {};
+  } catch {
+    return {};
+  }
+}
+
+/**
  * Read the optional JA↔EN phrase-pair alignment sidecar; returns {} if
  * missing. Shape: { [verseNumber]: [{ja, en}, ...] }.
  */
