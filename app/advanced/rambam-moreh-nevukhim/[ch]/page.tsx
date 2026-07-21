@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { AdvancedReader, type WorkData } from "../../reader";
 import { buildMorehNav } from "../chapters";
 import { VersesCited } from "../VersesCited";
+import { loadPortuguese, mergePortuguese } from "@/lib/morehPortuguese";
 
 // Chapters 2–76 (chapter 1 is served by ../page.tsx)
 const CHAPTERS = Array.from({ length: 75 }, (_, i) => String(i + 2));
@@ -53,7 +54,8 @@ export default async function RambamMorehChapterPage({
     notFound();
   }
 
-  const workData = { ...data!, workId: "moreh" };
+  const pt = await loadPortuguese(`moreh-bab${ch}`);
+  const workData = mergePortuguese({ ...data!, workId: "moreh" }, pt);
   return (
     <>
       <AdvancedReader

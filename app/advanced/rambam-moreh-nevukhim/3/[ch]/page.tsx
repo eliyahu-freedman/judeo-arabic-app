@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { AdvancedReader, type WorkData } from "../../../reader";
 import { buildMorehNavIII } from "../../chapters";
 import { VersesCited } from "../../VersesCited";
+import { loadPortuguese, mergePortuguese } from "@/lib/morehPortuguese";
 
 const CHAPTERS = Array.from({ length: 54 }, (_, i) => String(i + 1));
 
@@ -46,7 +47,8 @@ export default async function RambamMorehIIIChapterPage({
     notFound();
   }
 
-  const workData = { ...data!, workId: "moreh" };
+  const pt = await loadPortuguese(`moreh-p3-bab${ch}`);
+  const workData = mergePortuguese({ ...data!, workId: "moreh" }, pt);
   return (
     <>
       <AdvancedReader data={workData} nav={buildMorehNavIII(Number(ch))} />

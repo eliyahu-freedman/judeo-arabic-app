@@ -23,6 +23,12 @@ import {
 export type AlignedSegment = {
   ja: string;
   en: string;
+  /**
+   * Optional elevated/liturgical Portuguese, authored against the JA (not the
+   * English) for reverse-translatability. Threaded on from a `-portuguese.json`
+   * sidecar by lib/morehPortuguese.ts; rendered under the "Português" layer.
+   */
+  pt?: string;
   /** Optional Hebrew crib — retained in data but no longer rendered. */
   he?: string;
   isHeader?: boolean;
@@ -40,6 +46,8 @@ export type WorkPage = {
   paragraphs?: string[];
   /** Free-flow English paragraphs paralleling `paragraphs`. */
   english_paragraphs?: string[];
+  /** Free-flow Portuguese paragraphs paralleling `paragraphs`. */
+  portuguese_paragraphs?: string[];
   aligned?: AlignedSegment[];
 };
 
@@ -115,6 +123,19 @@ export function AdvancedReader({
 }) {
   const [showEnglish, setShowEnglish] = useState(true);
   const [showTibbon, setShowTibbon] = useState(false);
+  // Portuguese layer: off by default (a draft reverse-translation), and the
+  // chip only appears once at least one segment/paragraph on the page carries
+  // Portuguese from a sidecar.
+  const [showPortuguese, setShowPortuguese] = useState(false);
+  const hasPortuguese = useMemo(
+    () =>
+      data.pages.some(
+        (p) =>
+          p.aligned?.some((s) => !!s.pt) ||
+          (p.portuguese_paragraphs?.some((s) => !!s) ?? false),
+      ),
+    [data.pages],
+  );
   const hasTibbon = !!tibbon && tibbon.length > 0;
   const [activeToken, setActiveToken] = useState<string | null>(null);
   const [activeFootnote, setActiveFootnote] = useState<{ n: string; text: string } | null>(null);
@@ -182,6 +203,13 @@ export function AdvancedReader({
           onClick={() => setShowEnglish((x) => !x)}
           label="English"
         />
+        {hasPortuguese && (
+          <ToggleChip
+            on={showPortuguese}
+            onClick={() => setShowPortuguese((x) => !x)}
+            label="Português"
+          />
+        )}
         {hasTibbon && (
           <ToggleChip
             on={showTibbon}
@@ -217,6 +245,7 @@ export function AdvancedReader({
                   segments={page.aligned}
                   jaFont={jaFont}
                   showEnglish={showEnglish}
+                  showPortuguese={showPortuguese}
                   activeToken={activeToken}
                   onTap={(token) => { setActiveFootnote(null); setActiveToken(token); }}
                   termIndex={termIndex}
@@ -260,6 +289,25 @@ export function AdvancedReader({
                         ))}
                       </div>
                     )}
+                  {showPortuguese &&
+                    (page.portuguese_paragraphs?.some((s) => !!s) ?? false) && (
+                      <div
+                        dir="ltr"
+                        lang="pt"
+                        className="mt-5 pt-5 border-t border-ink/10 space-y-3"
+                      >
+                        {page.portuguese_paragraphs!.map((p, j) =>
+                          p ? (
+                            <p
+                              key={j}
+                              className="text-[15px] text-wine/80 leading-relaxed"
+                            >
+                              {p}
+                            </p>
+                          ) : null,
+                        )}
+                      </div>
+                    )}
                 </>
               )}
             </div>
@@ -296,6 +344,11 @@ export function AdvancedReader({
       {showEnglish && (
         <p className="mt-6 text-xs uppercase tracking-[0.25em] text-muted text-center italic">
           English is a working draft — alignment is sentence-by-sentence.
+        </p>
+      )}
+      {showPortuguese && (
+        <p className="mt-3 text-xs uppercase tracking-[0.25em] text-wine/50 text-center italic">
+          A tradução portuguesa é um rascunho — em revisão.
         </p>
       )}
 
@@ -437,6 +490,7 @@ function AlignedSegments({
   segments,
   jaFont,
   showEnglish,
+  showPortuguese,
   activeToken,
   onTap,
   termIndex,
@@ -449,6 +503,7 @@ function AlignedSegments({
   segments: AlignedSegment[];
   jaFont: string;
   showEnglish: boolean;
+  showPortuguese: boolean;
   activeToken: string | null;
   onTap: (t: string) => void;
   termIndex: TermIndex;
@@ -511,6 +566,15 @@ function AlignedSegments({
                     if (text) onFnClick(n, text);
                   } : undefined}
                 />
+              </p>
+            )}
+            {showPortuguese && seg.pt && (
+              <p
+                dir="ltr"
+                lang="pt"
+                className="text-[15px] text-wine/80 leading-relaxed mt-2"
+              >
+                {seg.pt}
               </p>
             )}
             {segXrefs.length > 0 && <SourcesPanel entries={segXrefs} />}
