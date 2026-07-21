@@ -62,6 +62,47 @@ export type ParshaNavEntry = {
   aliyot: string[];
 };
 
+type Lang = "en" | "pt";
+
+// UI chrome strings. In Portuguese mode the reader is a clean translation reader:
+// the Judeo-Arabic learning apparatus (tap-to-define, word progress, Advanced) is
+// hidden and the Portuguese translation is shown by default.
+const STRINGS: Record<Lang, {
+  back: string; intro: string; prefaceNew: string; prefaceLink: string;
+  prefaceTail: string; draftEn: string; draftPt: string; layers: string;
+  hebrew: string; jaTafsir: string; arabicScript: string; hebrewTr: string;
+  english: string; portuguese: string; advanced: string;
+}> = {
+  en: {
+    back: "← Tafsir",
+    intro:
+      "Tap any Judeo-Arabic word for a starter gloss. Hover any phrase to see its matching Hebrew, Judeo-Arabic, and English light up together. Toggle the Arabic-script form, the Hebrew translation, or the English off if you'd rather read without crutches.",
+    prefaceNew: "New here? Read ",
+    prefaceLink: "Saadia's own preface",
+    prefaceTail: " to this book.",
+    draftEn: "English translation is a working draft — author revising.",
+    draftPt: "A tradução portuguesa é um rascunho — em revisão.",
+    layers: "Layers",
+    hebrew: "Hebrew", jaTafsir: "JA Tafsir", arabicScript: "Arabic script",
+    hebrewTr: "Hebrew translation", english: "English", portuguese: "Português",
+    advanced: "Advanced",
+  },
+  pt: {
+    back: "← Tafsir",
+    intro:
+      "Leia o comentário (tafsir) de Saadia Gaon em português, sob o texto hebraico e o judaico-árabe original. Ative a escrita árabe ou a tradução hebraica como apoio de leitura.",
+    prefaceNew: "Novo por aqui? Leia o ",
+    prefaceLink: "prefácio do próprio Saadia",
+    prefaceTail: " a este livro.",
+    draftEn: "English translation is a working draft — author revising.",
+    draftPt: "A tradução portuguesa é um rascunho — em revisão.",
+    layers: "Camadas",
+    hebrew: "Hebraico", jaTafsir: "Tafsir JA", arabicScript: "Escrita árabe",
+    hebrewTr: "Tradução hebraica", english: "Inglês", portuguese: "Português",
+    advanced: "Avançado",
+  },
+};
+
 export function TafsirReader({
   data,
   prev,
@@ -108,6 +149,35 @@ export function TafsirReader({
     [],
   );
 
+  const [lang, setLangState] = useState<Lang>("en");
+  const t = STRINGS[lang];
+  const ptMode = lang === "pt";
+  const applyLang = useCallback((l: Lang) => {
+    setLangState(l);
+    if (l === "pt") {
+      setShowPortuguese(true);
+      setShowEnglish(false);
+      setShowAdvanced(false);
+      setActiveToken(null);
+    } else {
+      setShowEnglish(true);
+      setShowPortuguese(false);
+    }
+  }, []);
+  // Restore the reader's language choice across chapters.
+  useEffect(() => {
+    const saved =
+      typeof window !== "undefined"
+        ? window.localStorage.getItem("tafsir-lang")
+        : null;
+    if (saved === "pt") applyLang("pt");
+  }, [applyLang]);
+  const setLang = (l: Lang) => {
+    applyLang(l);
+    if (typeof window !== "undefined")
+      window.localStorage.setItem("tafsir-lang", l);
+  };
+
   const { getState, setState, counts, hydrated } = useWordStates();
   const corpus = useCorpus();
   const activeEntries: Entry[] = activeToken ? lookup(activeToken) : [];
@@ -122,32 +192,50 @@ export function TafsirReader({
   return (
     <div className="max-w-3xl mx-auto px-6 py-10 pb-44">
       <header className="mb-10">
+        <div className="mb-4 flex items-center gap-2 text-xs">
+          {(["pt", "en"] as Lang[]).map((l, i) => (
+            <span key={l} className="flex items-center gap-2">
+              {i > 0 && <span className="text-ink/20">|</span>}
+              <button
+                type="button"
+                onClick={() => setLang(l)}
+                aria-pressed={lang === l}
+                className={
+                  lang === l
+                    ? "text-wine font-medium"
+                    : "text-ink/40 hover:text-wine transition-colors"
+                }
+              >
+                {l === "pt" ? "Português" : "English"}
+              </button>
+            </span>
+          ))}
+        </div>
         <p className="text-xs uppercase tracking-[0.3em] text-muted mb-1">
-          <Link href="/tafsir" className="hover:text-wine transition-colors">← Tafsir</Link>
+          <Link href="/tafsir" className="hover:text-wine transition-colors">{t.back}</Link>
           {" · "}Saadia Gaon
         </p>
         <h1 className="text-4xl tracking-tight text-ink mt-3">
           {data.book} <span className="text-wine italic">{data.chapter}</span>
         </h1>
-        <p className="mt-4 text-base text-ink/70 leading-relaxed max-w-xl">
-          Tap any Judeo-Arabic word for a starter gloss. Hover any phrase to
-          see its matching Hebrew, Judeo-Arabic, and English light up
-          together. Toggle the Arabic-script form, the Hebrew translation, or
-          the English off if you&apos;d rather read without crutches.
+        <p className="mt-4 text-base text-ink/70 leading-relaxed max-w-xl" lang={lang}>
+          {t.intro}
         </p>
         <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-ink/55">
-          <span>
-            New here? Read{" "}
-            <Link href="/learn/saadia-preface" className="text-wine hover:underline">
-              Saadia&apos;s own preface
-            </Link>
-            {" "}to this book.
-          </span>
-          {showEnglish && (
-            <span className="italic">English translation is a working draft — author revising.</span>
+          {!ptMode && (
+            <span>
+              {t.prefaceNew}
+              <Link href="/learn/saadia-preface" className="text-wine hover:underline">
+                {t.prefaceLink}
+              </Link>
+              {t.prefaceTail}
+            </span>
           )}
-          {showPortuguese && (
-            <span className="italic">A tradução portuguesa é um rascunho — em revisão.</span>
+          {!ptMode && showEnglish && (
+            <span className="italic">{t.draftEn}</span>
+          )}
+          {(ptMode || showPortuguese) && (
+            <span className="italic" lang="pt">{t.draftPt}</span>
           )}
         </div>
       </header>
@@ -165,37 +253,41 @@ export function TafsirReader({
 
       <div className="sticky top-0 z-10 bg-parchment/90 backdrop-blur supports-[backdrop-filter]:bg-parchment/70 -mx-6 px-6 py-3 border-y border-ink/10 flex flex-wrap items-center gap-2 text-sm">
         <span className="text-[10px] uppercase tracking-[0.25em] text-muted mr-1">
-          Layers
+          {t.layers}
         </span>
-        <ToggleChip on disabled label="Hebrew" />
-        <ToggleChip on disabled label="JA Tafsir" />
+        <ToggleChip on disabled label={t.hebrew} />
+        <ToggleChip on disabled label={t.jaTafsir} />
         <ToggleChip
           on={showArabic}
           onClick={() => setShowArabic((x) => !x)}
-          label="Arabic script"
+          label={t.arabicScript}
         />
         <ToggleChip
           on={showHebrewTr}
           onClick={() => setShowHebrewTr((x) => !x)}
-          label="Hebrew translation"
+          label={t.hebrewTr}
         />
-        <ToggleChip
-          on={showEnglish}
-          onClick={() => setShowEnglish((x) => !x)}
-          label="English"
-        />
+        {!ptMode && (
+          <ToggleChip
+            on={showEnglish}
+            onClick={() => setShowEnglish((x) => !x)}
+            label={t.english}
+          />
+        )}
         <ToggleChip
           on={showPortuguese}
           onClick={() => setShowPortuguese((x) => !x)}
-          label="Português"
+          label={t.portuguese}
         />
-        <ToggleChip
-          on={showAdvanced}
-          onClick={() => setShowAdvanced((x) => !x)}
-          label="Advanced"
-          hint="tafsir twists"
-        />
-        {hydrated && (counts.learning + counts.known) > 0 && (
+        {!ptMode && (
+          <ToggleChip
+            on={showAdvanced}
+            onClick={() => setShowAdvanced((x) => !x)}
+            label={t.advanced}
+            hint="tafsir twists"
+          />
+        )}
+        {!ptMode && hydrated && (counts.learning + counts.known) > 0 && (
           <span
             className="ml-auto text-[10px] uppercase tracking-[0.25em] text-muted flex items-center"
             title="Per-word progress saved in your browser"
@@ -249,10 +341,10 @@ export function TafsirReader({
                 <p className="font-hebrew ja-text text-xl text-ink/90 leading-loose">
                   <JaText
                     text={verse.ja}
-                    activeToken={activeToken}
-                    onTap={setActiveToken}
-                    getState={getState}
-                    markDivergence={showAdvanced}
+                    activeToken={ptMode ? null : activeToken}
+                    onTap={ptMode ? () => {} : setActiveToken}
+                    getState={ptMode ? () => "new" : getState}
+                    markDivergence={showAdvanced && !ptMode}
                     alignment={verse.alignment}
                     hoveredGroupId={
                       hoveredGroup?.verseV === verse.v
@@ -316,7 +408,7 @@ export function TafsirReader({
         <ChapterNav prev={prev} next={next} />
       </div>
 
-      {activeToken && (
+      {!ptMode && activeToken && (
         <GlossPanel
           token={activeToken}
           entries={activeEntries}
