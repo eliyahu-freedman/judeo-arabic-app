@@ -660,13 +660,6 @@ function GlossPanel({
         </div>
         <StatePills state={state} onSetState={onSetState} />
         {divergence && <DivergenceBanner d={divergence} />}
-        <Concordance
-          corpus={corpus}
-          corpusReady={corpusReady}
-          corpusLabel={corpusLabel}
-          loadedVerseKeys={loadedVerseKeys}
-          onJump={onClose}
-        />
         {entries.length === 0 ? (
           <p className="text-sm text-muted mt-2 italic">
             Not in the dictionary yet. The high-frequency Tafsir vocabulary is
@@ -726,6 +719,13 @@ function GlossPanel({
             ))}
           </ul>
         )}
+        <Concordance
+          corpus={corpus}
+          corpusReady={corpusReady}
+          corpusLabel={corpusLabel}
+          loadedVerseKeys={loadedVerseKeys}
+          onJump={onClose}
+        />
       </div>
     </div>
   );
@@ -941,6 +941,10 @@ function Concordance({
   loadedVerseKeys: Set<string>;
   onJump: () => void;
 }) {
+  // High-frequency function words (אן, מן, אלד'י…) occur hundreds of times; showing
+  // every reference buries the gloss under a wall of chips. Cap and let the user expand.
+  const ELSEWHERE_CAP = 24;
+  const [showAllElsewhere, setShowAllElsewhere] = useState(false);
   if (!corpusReady) {
     return (
       <p className="text-[11px] uppercase tracking-[0.25em] text-muted mb-4 italic">
@@ -1003,15 +1007,28 @@ function Concordance({
           <span className="text-[10px] uppercase tracking-[0.2em] text-muted">
             Elsewhere:
           </span>
-          {elsewhere.map(({ ch, v }) => (
-            <span
-              key={`${ch}-${v}`}
-              title="In a chapter not currently loaded"
-              className="text-[11px] font-mono px-2 py-0.5 rounded-sm border border-ink/10 text-ink/40"
+          {(showAllElsewhere ? elsewhere : elsewhere.slice(0, ELSEWHERE_CAP)).map(
+            ({ ch, v }) => (
+              <span
+                key={`${ch}-${v}`}
+                title="In a chapter not currently loaded"
+                className="text-[11px] font-mono px-2 py-0.5 rounded-sm border border-ink/10 text-ink/40"
+              >
+                {ch}:{v}
+              </span>
+            ),
+          )}
+          {elsewhere.length > ELSEWHERE_CAP && (
+            <button
+              type="button"
+              onClick={() => setShowAllElsewhere((x) => !x)}
+              className="text-[11px] px-2 py-0.5 rounded-sm text-wine hover:underline"
             >
-              {ch}:{v}
-            </span>
-          ))}
+              {showAllElsewhere
+                ? "show fewer"
+                : `+${elsewhere.length - ELSEWHERE_CAP} more`}
+            </button>
+          )}
         </div>
       )}
     </div>
