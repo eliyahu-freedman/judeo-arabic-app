@@ -90,18 +90,20 @@ type HoveredGroup = { segId: string; groupId: number; fraction: number | null };
 export type ReaderNav = {
   /** Short series label, e.g. "Guide of the Perplexed · Part I". */
   label: string;
+  label_pt?: string;
   /** Ordered chapters for the current part — used for prev/next. */
-  chapters: { n: number; title: string; href: string }[];
+  chapters: { n: number; title: string; title_pt?: string; href: string }[];
   currentN: number;
   /** Exact href of the active chapter; required when `groups` is present. */
   activeHref?: string;
   /** Optional index/companion links (e.g. Atlas, Verses) shown above the chips. */
-  aux?: { title: string; href: string; external?: boolean }[];
+  aux?: { title: string; title_pt?: string; href: string; external?: boolean }[];
   /** When present, renders chapters as collapsible part groups instead of a flat list. */
   groups?: {
     label: string;
+    label_pt?: string;
     defaultOpen?: boolean;
-    chapters: { n: number; title: string; href: string }[];
+    chapters: { n: number; title: string; title_pt?: string; href: string }[];
   }[];
 };
 
@@ -258,7 +260,7 @@ export function AdvancedReader({
         </p>
       </header>
 
-      {nav && <ChapterNav nav={nav} />}
+      {nav && <ChapterNav nav={nav} lang={lang} />}
 
       <div className="sticky top-0 z-10 bg-parchment/90 backdrop-blur supports-[backdrop-filter]:bg-parchment/70 -mx-6 px-6 py-3 border-y border-ink/10 flex flex-wrap items-center gap-2 text-sm">
         <span className="text-[10px] uppercase tracking-[0.25em] text-muted mr-1">
@@ -420,13 +422,20 @@ export function AdvancedReader({
 }
 
 /** Inline chapter index + prev/next strip for multi-chapter works. */
-function ChapterNav({ nav }: { nav: ReaderNav }) {
+function ChapterNav({ nav, lang }: { nav: ReaderNav; lang: Lang }) {
+  const pt = lang === "pt";
+  const tr = (en: string, ptStr?: string) => (pt && ptStr ? ptStr : en);
   const idx = nav.chapters.findIndex((c) => c.n === nav.currentN);
   const prev = idx > 0 ? nav.chapters[idx - 1] : null;
   const next =
     idx >= 0 && idx < nav.chapters.length - 1 ? nav.chapters[idx + 1] : null;
 
-  const renderChip = (c: { n: number; title: string; href: string }) => {
+  const renderChip = (c: {
+    n: number;
+    title: string;
+    title_pt?: string;
+    href: string;
+  }) => {
     const isActive = nav.groups
       ? c.href === nav.activeHref
       : c.n === nav.currentN;
@@ -436,7 +445,7 @@ function ChapterNav({ nav }: { nav: ReaderNav }) {
         aria-current="page"
         className="rounded-full px-3 py-1 text-sm bg-wine-100 text-wine-700 border border-wine-200"
       >
-        {c.title}
+        {tr(c.title, c.title_pt)}
       </span>
     ) : (
       <Link
@@ -444,7 +453,7 @@ function ChapterNav({ nav }: { nav: ReaderNav }) {
         href={c.href}
         className="rounded-full px-3 py-1 text-sm border border-ink/15 text-ink/70 hover:border-wine/40 hover:text-wine transition-colors"
       >
-        {c.title}
+        {tr(c.title, c.title_pt)}
       </Link>
     );
   };
@@ -452,7 +461,7 @@ function ChapterNav({ nav }: { nav: ReaderNav }) {
   return (
     <nav className="mb-10" aria-label="Chapters">
       <p className="text-[10px] uppercase tracking-[0.3em] text-muted mb-2">
-        {nav.label}
+        {tr(nav.label, nav.label_pt)}
       </p>
       {nav.aux && nav.aux.length > 0 && (
         <div className="flex flex-wrap gap-3 mb-3 text-sm">
@@ -465,7 +474,7 @@ function ChapterNav({ nav }: { nav: ReaderNav }) {
                 rel="noopener noreferrer"
                 className="text-wine hover:underline underline-offset-2"
               >
-                {a.title}
+                {tr(a.title, a.title_pt)}
               </a>
             ) : (
               <Link
@@ -473,7 +482,7 @@ function ChapterNav({ nav }: { nav: ReaderNav }) {
                 href={a.href}
                 className="text-wine hover:underline underline-offset-2"
               >
-                {a.title}
+                {tr(a.title, a.title_pt)}
               </Link>
             ),
           )}
@@ -491,7 +500,7 @@ function ChapterNav({ nav }: { nav: ReaderNav }) {
                 <span className="inline-block text-xs transition-transform duration-150 group-open/part:rotate-90">
                   ▶
                 </span>
-                {g.label}
+                {tr(g.label, g.label_pt)}
               </summary>
               <div className="flex flex-wrap gap-2 pt-2 pb-3">
                 {g.chapters.map(renderChip)}
@@ -508,14 +517,14 @@ function ChapterNav({ nav }: { nav: ReaderNav }) {
         <div className="mt-3 flex justify-between gap-4 text-sm">
           {prev ? (
             <Link href={prev.href} className="text-wine hover:underline">
-              ← {prev.title}
+              ← {tr(prev.title, prev.title_pt)}
             </Link>
           ) : (
             <span />
           )}
           {next ? (
             <Link href={next.href} className="text-wine hover:underline">
-              {next.title} →
+              {tr(next.title, next.title_pt)} →
             </Link>
           ) : (
             <span />

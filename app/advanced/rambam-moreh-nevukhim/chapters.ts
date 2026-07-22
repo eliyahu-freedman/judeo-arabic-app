@@ -3,6 +3,8 @@
 // `buildMorehNav` produces the inline chapter index + prev/next strip rendered
 // by AdvancedReader (see ReaderNav in ../reader).
 
+import { MOREH_PT } from "./chapters.pt";
+
 export type MorehChapter = {
   /** Chapter number within Part I. */
   n: number;
@@ -13,6 +15,35 @@ export type MorehChapter = {
 };
 
 export const MOREH_BASE = "/advanced/rambam-moreh-nevukhim";
+
+// Adds Portuguese (`_pt`) fields to a built nav from the MOREH_PT map, so the
+// client reader can render the chapter index in Portuguese when toggled. Strings
+// with no PT entry simply fall back to English in the reader.
+function localizeMorehNav<
+  T extends {
+    label: string;
+    aux?: { title: string; href: string; external?: boolean }[];
+    chapters: { n: number; title: string; href: string }[];
+    groups?: {
+      label: string;
+      defaultOpen?: boolean;
+      chapters: { n: number; title: string; href: string }[];
+    }[];
+  },
+>(nav: T) {
+  const pt = (s: string) => MOREH_PT[s];
+  return {
+    ...nav,
+    label_pt: pt(nav.label),
+    aux: nav.aux?.map((a) => ({ ...a, title_pt: pt(a.title) })),
+    chapters: nav.chapters.map((c) => ({ ...c, title_pt: pt(c.title) })),
+    groups: nav.groups?.map((g) => ({
+      ...g,
+      label_pt: pt(g.label),
+      chapters: g.chapters.map((c) => ({ ...c, title_pt: pt(c.title) })),
+    })),
+  };
+}
 
 export const MOREH_CHAPTERS: MorehChapter[] = [
   { n: 1, slug: "", title: "I:1 · Image & Likeness" },
@@ -99,7 +130,7 @@ export const morehHref = (slug: string): string =>
 /** Build the ReaderNav object for the chapter numbered `currentN`. */
 export function buildMorehNav(currentN: number) {
   const ch = MOREH_CHAPTERS.find((c) => c.n === currentN)!;
-  return {
+  return localizeMorehNav({
     label: "Guide of the Perplexed · Part I",
     currentN,
     activeHref: morehHref(ch.slug),
@@ -147,7 +178,7 @@ export function buildMorehNav(currentN: number) {
         })),
       },
     ],
-  };
+  });
 }
 
 export const MOREH_CHAPTERS_II: MorehChapter[] = [
@@ -202,7 +233,7 @@ export const MOREH_CHAPTERS_II: MorehChapter[] = [
 ];
 
 export function buildMorehNavII(currentN: number) {
-  return {
+  return localizeMorehNav({
     label: "Guide of the Perplexed · Part II",
     currentN,
     activeHref: `${MOREH_BASE}/2/${currentN}`,
@@ -249,7 +280,7 @@ export function buildMorehNavII(currentN: number) {
         })),
       },
     ],
-  };
+  });
 }
 
 export const MOREH_CHAPTERS_III: MorehChapter[] = [
@@ -310,7 +341,7 @@ export const MOREH_CHAPTERS_III: MorehChapter[] = [
 ];
 
 export function buildMorehNavIII(currentN: number) {
-  return {
+  return localizeMorehNav({
     label: "Guide of the Perplexed · Part III",
     currentN,
     activeHref: `${MOREH_BASE}/3/${currentN}`,
@@ -357,5 +388,5 @@ export function buildMorehNavIII(currentN: number) {
         })),
       },
     ],
-  };
+  });
 }
