@@ -168,14 +168,14 @@ export function TafsirReader({
   useEffect(() => {
     const saved =
       typeof window !== "undefined"
-        ? window.localStorage.getItem("tafsir-lang")
+        ? window.localStorage.getItem("reader-lang")
         : null;
     if (saved === "pt") applyLang("pt");
   }, [applyLang]);
   const setLang = (l: Lang) => {
     applyLang(l);
     if (typeof window !== "undefined")
-      window.localStorage.setItem("tafsir-lang", l);
+      window.localStorage.setItem("reader-lang", l);
   };
 
   const { getState, setState, counts, hydrated } = useWordStates();

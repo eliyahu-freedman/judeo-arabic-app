@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { lookup, tokenizeJa, type Entry } from "@/lib/lookup";
 import { lookupWorkNote, type WorkNote } from "@/lib/workNotes";
@@ -105,6 +105,24 @@ export type ReaderNav = {
   }[];
 };
 
+type Lang = "en" | "pt";
+
+// In Portuguese mode the advanced reader becomes a clean translation reader:
+// Portuguese fills the same block English does, the chrome is Portuguese, and the
+// Judeo-Arabic learning apparatus (tap-to-define, term highlighting, Ibn Tibbon) is off.
+const ADV_STRINGS: Record<Lang, {
+  layers: string; jaHe: string; jaAr: string; draft: string;
+}> = {
+  en: {
+    layers: "Layers", jaHe: "Judeo-Arabic", jaAr: "Arabic",
+    draft: "English is a working draft — alignment is sentence-by-sentence.",
+  },
+  pt: {
+    layers: "Camadas", jaHe: "Judaico-árabe", jaAr: "Árabe",
+    draft: "A tradução portuguesa é um rascunho — em revisão.",
+  },
+};
+
 export function AdvancedReader({
   data,
   nav,
@@ -123,10 +141,8 @@ export function AdvancedReader({
 }) {
   const [showEnglish, setShowEnglish] = useState(true);
   const [showTibbon, setShowTibbon] = useState(false);
-  // Portuguese layer: off by default (a draft reverse-translation), and the
-  // chip only appears once at least one segment/paragraph on the page carries
-  // Portuguese from a sidecar.
-  const [showPortuguese, setShowPortuguese] = useState(false);
+  // The Português | English switch only appears when the page actually carries
+  // Portuguese from a sidecar (so it's absent on works without a PT translation).
   const hasPortuguese = useMemo(
     () =>
       data.pages.some(
@@ -159,8 +175,36 @@ export function AdvancedReader({
     }
   }, []);
 
+  const [lang, setLangState] = useState<Lang>("en");
+  const t = ADV_STRINGS[lang];
+  const ptMode = lang === "pt";
+  const applyLang = useCallback((l: Lang) => {
+    setLangState(l);
+    if (l === "pt") {
+      setShowEnglish(true); // "translation" toggle now governs the Portuguese block
+      setShowTibbon(false);
+      setActiveToken(null);
+      setActiveFootnote(null);
+    }
+  }, []);
+  // Shared language preference across the tafsir + advanced readers.
+  useEffect(() => {
+    const saved =
+      typeof window !== "undefined"
+        ? window.localStorage.getItem("reader-lang")
+        : null;
+    if (saved === "pt" && hasPortuguese) applyLang("pt");
+  }, [applyLang, hasPortuguese]);
+  const setLang = (l: Lang) => {
+    applyLang(l);
+    if (typeof window !== "undefined")
+      window.localStorage.setItem("reader-lang", l);
+  };
+
   const jaFont = data.script === "arabic" ? "font-arabic" : "font-hebrew";
   const termIndex = useMemo(() => buildTermIndex(data.terms), [data.terms]);
+  const emptyTermIndex = useMemo(() => buildTermIndex(undefined), []);
+  const activeTermIndex = ptMode ? emptyTermIndex : termIndex;
   // For Arabic-script works (Qirqisani's al-Anwar) the dictionary + Blau overlay
   // are Hebrew-letter-keyed, so convert the tapped Arabic token to its
   // Judaeo-Arabic form first. Key terms stay matched on the original token —
@@ -178,6 +222,27 @@ export function AdvancedReader({
   return (
     <div className="max-w-3xl mx-auto px-6 py-10 pb-44">
       <header className="mb-10">
+        {hasPortuguese && (
+          <div className="mb-4 flex items-center gap-2 text-xs">
+            {(["pt", "en"] as Lang[]).map((l, i) => (
+              <span key={l} className="flex items-center gap-2">
+                {i > 0 && <span className="text-ink/20">|</span>}
+                <button
+                  type="button"
+                  onClick={() => setLang(l)}
+                  aria-pressed={lang === l}
+                  className={
+                    lang === l
+                      ? "text-wine font-medium"
+                      : "text-ink/40 hover:text-wine transition-colors"
+                  }
+                >
+                  {l === "pt" ? "Português" : "English"}
+                </button>
+              </span>
+            ))}
+          </div>
+        )}
         <p className="text-xs uppercase tracking-[0.3em] text-muted mb-3">
           Stage 3 · {data.author}
         </p>
@@ -185,9 +250,11 @@ export function AdvancedReader({
           {data.work}: <span className="text-wine italic">{data.section}</span>
         </h1>
         <p className="mt-3 text-base text-muted italic">{data.subtitle}</p>
-        <p className="mt-4 text-base text-ink/70 leading-relaxed max-w-xl">
-          {data.intro ??
-            `${data.work} in the original Judeo-Arabic, with a working English translation by ${data.english_translator}. Hover a phrase to see its English light up; tap any word for a gloss.`}
+        <p className="mt-4 text-base text-ink/70 leading-relaxed max-w-xl" lang={lang}>
+          {ptMode
+            ? `${data.work} no judaico-árabe original de ${data.author}, com uma tradução portuguesa (rascunho, em revisão) sob cada trecho.`
+            : (data.intro ??
+              `${data.work} in the original Judeo-Arabic, with a working English translation by ${data.english_translator}. Hover a phrase to see its English light up; tap any word for a gloss.`)}
         </p>
       </header>
 
@@ -195,22 +262,15 @@ export function AdvancedReader({
 
       <div className="sticky top-0 z-10 bg-parchment/90 backdrop-blur supports-[backdrop-filter]:bg-parchment/70 -mx-6 px-6 py-3 border-y border-ink/10 flex flex-wrap items-center gap-2 text-sm">
         <span className="text-[10px] uppercase tracking-[0.25em] text-muted mr-1">
-          Layers
+          {t.layers}
         </span>
-        <ToggleChip on disabled label={data.script === "arabic" ? "Arabic" : "Judeo-Arabic"} />
+        <ToggleChip on disabled label={data.script === "arabic" ? t.jaAr : t.jaHe} />
         <ToggleChip
           on={showEnglish}
           onClick={() => setShowEnglish((x) => !x)}
-          label="English"
+          label={ptMode ? "Português" : "English"}
         />
-        {hasPortuguese && (
-          <ToggleChip
-            on={showPortuguese}
-            onClick={() => setShowPortuguese((x) => !x)}
-            label="Português"
-          />
-        )}
-        {hasTibbon && (
+        {!ptMode && hasTibbon && (
           <ToggleChip
             on={showTibbon}
             onClick={() => setShowTibbon((x) => !x)}
@@ -245,10 +305,10 @@ export function AdvancedReader({
                   segments={page.aligned}
                   jaFont={jaFont}
                   showEnglish={showEnglish}
-                  showPortuguese={showPortuguese}
-                  activeToken={activeToken}
-                  onTap={(token) => { setActiveFootnote(null); setActiveToken(token); }}
-                  termIndex={termIndex}
+                  ptMode={ptMode}
+                  activeToken={ptMode ? null : activeToken}
+                  onTap={ptMode ? () => {} : (token) => { setActiveFootnote(null); setActiveToken(token); }}
+                  termIndex={activeTermIndex}
                   hoveredGroup={hoveredGroup}
                   onHoverGroup={updateHoveredGroup}
                   chapterXrefs={xrefs}
@@ -264,9 +324,9 @@ export function AdvancedReader({
                       >
                         <JaText
                           text={para}
-                          activeToken={activeToken}
-                          onTap={setActiveToken}
-                          termIndex={termIndex}
+                          activeToken={ptMode ? null : activeToken}
+                          onTap={ptMode ? () => {} : setActiveToken}
+                          termIndex={activeTermIndex}
                           alignment={null}
                           onHoverGroup={() => {}}
                         />
@@ -274,40 +334,31 @@ export function AdvancedReader({
                     ))}
                   </div>
                   {showEnglish &&
-                    (page.english_paragraphs?.length ?? 0) > 0 && (
-                      <div
-                        dir="ltr"
-                        className="mt-5 pt-5 border-t border-ink/10 space-y-3"
-                      >
-                        {page.english_paragraphs!.map((p, j) => (
-                          <p
-                            key={j}
-                            className="text-[15px] text-ink/80 leading-relaxed"
-                          >
-                            {p}
-                          </p>
-                        ))}
-                      </div>
-                    )}
-                  {showPortuguese &&
-                    (page.portuguese_paragraphs?.some((s) => !!s) ?? false) && (
-                      <div
-                        dir="ltr"
-                        lang="pt"
-                        className="mt-5 pt-5 border-t border-ink/10 space-y-3"
-                      >
-                        {page.portuguese_paragraphs!.map((p, j) =>
-                          p ? (
-                            <p
-                              key={j}
-                              className="text-[15px] text-wine/80 leading-relaxed"
-                            >
-                              {p}
-                            </p>
-                          ) : null,
-                        )}
-                      </div>
-                    )}
+                    (() => {
+                      // Portuguese fills the same translation block English does.
+                      const paras = ptMode
+                        ? page.portuguese_paragraphs
+                        : page.english_paragraphs;
+                      const has = paras?.some((s) => !!s) ?? false;
+                      return has ? (
+                        <div
+                          dir="ltr"
+                          lang={ptMode ? "pt" : undefined}
+                          className="mt-5 pt-5 border-t border-ink/10 space-y-3"
+                        >
+                          {paras!.map((p, j) =>
+                            p ? (
+                              <p
+                                key={j}
+                                className="text-[15px] text-ink/80 leading-relaxed"
+                              >
+                                {p}
+                              </p>
+                            ) : null,
+                          )}
+                        </div>
+                      ) : null;
+                    })()}
                 </>
               )}
             </div>
@@ -343,16 +394,11 @@ export function AdvancedReader({
 
       {showEnglish && (
         <p className="mt-6 text-xs uppercase tracking-[0.25em] text-muted text-center italic">
-          English is a working draft — alignment is sentence-by-sentence.
-        </p>
-      )}
-      {showPortuguese && (
-        <p className="mt-3 text-xs uppercase tracking-[0.25em] text-wine/50 text-center italic">
-          A tradução portuguesa é um rascunho — em revisão.
+          {t.draft}
         </p>
       )}
 
-      {activeToken && (
+      {!ptMode && activeToken && (
         <GlossPanel
           token={activeToken}
           jaFont={jaFont}
@@ -490,7 +536,7 @@ function AlignedSegments({
   segments,
   jaFont,
   showEnglish,
-  showPortuguese,
+  ptMode,
   activeToken,
   onTap,
   termIndex,
@@ -503,7 +549,7 @@ function AlignedSegments({
   segments: AlignedSegment[];
   jaFont: string;
   showEnglish: boolean;
-  showPortuguese: boolean;
+  ptMode: boolean;
   activeToken: string | null;
   onTap: (t: string) => void;
   termIndex: TermIndex;
@@ -550,7 +596,7 @@ function AlignedSegments({
                 onHoverGroup={setGroupFromJa}
               />
             </p>
-            {showEnglish && seg.en && (
+            {showEnglish && !ptMode && seg.en && (
               <p
                 dir="ltr"
                 className="text-[15px] text-ink/80 leading-relaxed mt-2"
@@ -568,11 +614,12 @@ function AlignedSegments({
                 />
               </p>
             )}
-            {showPortuguese && seg.pt && (
+            {/* Portuguese fills the same block English does (same styling/position). */}
+            {showEnglish && ptMode && seg.pt && (
               <p
                 dir="ltr"
                 lang="pt"
-                className="text-[15px] text-wine/80 leading-relaxed mt-2"
+                className="text-[15px] text-ink/80 leading-relaxed mt-2"
               >
                 {seg.pt}
               </p>
