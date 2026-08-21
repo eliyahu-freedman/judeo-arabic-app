@@ -89,7 +89,7 @@ export default function Home() {
             library, read in the original.
           </h1>
           <p className="mt-6 text-base sm:text-lg text-ink/65 leading-relaxed max-w-lg mx-auto">
-            Saadia, Bahya, Rambam, Halevi, Qirqisani — the classics in
+            Saadia, Bahya, Rambam, Halevi — the classics in
             Judeo-Arabic with parallel Hebrew and English, and a tap-to-define
             lexicon from Lane and Blau.
           </p>
@@ -216,7 +216,7 @@ export default function Home() {
               </p>
             </div>
             <p className="mt-6 text-sm text-muted leading-relaxed">
-              Bahya, Rambam, Halevi, Qirqisani, Saadia — the classical shelf
+              Bahya, Rambam, Halevi, Saadia — the classical shelf
               in Judeo-Arabic.
             </p>
           </Link>
@@ -235,7 +235,7 @@ export default function Home() {
             <p className="mt-5 text-base text-ink/65 leading-relaxed">
               Stage&nbsp;I teaches the Hebrew-script Arabic alphabet. Stage&nbsp;II
               opens Saadia Gaon&apos;s Tafsir, verse by verse. Stage&nbsp;III
-              brings the classical shelf — Bahya, Rambam, Halevi, Qirqisani.
+              brings the classical shelf — Bahya, Rambam, Halevi.
               All three stages are free and open. Your support keeps them that way.
             </p>
           </div>

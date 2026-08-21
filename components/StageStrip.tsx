@@ -100,7 +100,7 @@ const STAGES = [
         </div>
         <div className="border-t border-ink/10 pt-3">
           <p className="text-[11px] text-muted">
-            Bahya · Rambam · Halevi · Qirqisani · Saadia
+            Bahya · Rambam · Halevi · Saadia
           </p>
         </div>
       </div>

@@ -293,8 +293,8 @@ function LibraryPanel() {
             Bahya&apos;s complete Chovot HaLevavot in its original Judeo-Arabic
             — the introduction and all ten gates — alongside parallel Hebrew and
             English, with a tap-to-define gloss on every word. Also live:
-            Rambam&apos;s Moreh Nevukhim, Halevi&apos;s Kuzari, Saadia&apos;s
-            Emunot v&apos;Deot, and Qirqisani&apos;s Anwar.
+            Rambam&apos;s Moreh Nevukhim, Halevi&apos;s Kuzari, and Saadia&apos;s
+            Emunot v&apos;Deot.
           </p>
         </div>
         <Link

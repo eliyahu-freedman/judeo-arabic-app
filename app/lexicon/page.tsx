@@ -38,7 +38,7 @@ export default async function LexiconPage({
         {fmt(corpusStats.uniqueRoots)} roots, indexed against the{" "}
         {fmt(corpusStats.totalTokens)}-word Tafsir concordance — and now across
         the classical prose library too: the Guide, Bahya, Saadia&apos;s Emunot,
-        Qirqisani, the Kuzari. Search by Judeo-Arabic word, Arabic script, root,
+        the Kuzari. Search by Judeo-Arabic word, Arabic script, root,
         or English/Hebrew gloss; each entry shows where the word recurs across
         the authors.
       </p>

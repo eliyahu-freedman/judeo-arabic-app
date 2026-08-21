@@ -62,12 +62,6 @@ const BIBLIOGRAPHY: {
     title: "Kitāb al-Khazarī (Kuzari)",
     detail: "Judeo-Arabic page images, Friedberg Jewish Manuscript Society.",
   },
-  {
-    category: "Library text",
-    author: "Yaʿqūb al-Qirqisānī",
-    title: "Kitāb al-Anwār wa-l-Marāqib",
-    detail: "Karaite witness, included in the Advanced library.",
-  },
 ];
 
 export default function AboutPage() {

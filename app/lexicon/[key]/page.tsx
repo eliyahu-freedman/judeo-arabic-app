@@ -226,7 +226,7 @@ export default async function LemmaPage({ params }: Props) {
           <h2 className="label mb-1">Across the library</h2>
           <p className="mb-4 text-sm text-muted">
             {fmt(data.library.count)}× in the classical prose corpus — the Guide,
-            Bahya, Saadia&apos;s Emunot, Qirqisani, the Kuzari.
+            Bahya, Saadia&apos;s Emunot, the Kuzari.
           </p>
           {data.library.sample?.snippet && (
             <p

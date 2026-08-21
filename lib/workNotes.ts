@@ -1,13 +1,12 @@
 import { candidateForms, normalizeFinals } from "./lookup";
 import morehNotes from "@/data/blau-notes-moreh.json";
-import qirqisaniNotes from "@/data/blau-notes-qirqisani.json";
 
 /**
  * A per-work Blau overlay note. These surface a *special Judaeo-Arabic sense*
  * (from Joshua Blau's Dictionary of Medieval Judaeo-Arabic Texts) for a word in
  * one specific Advanced-reader work, and are rendered ONLY when reading that
  * work — so a sense attached to the Moreh never appears in the Kuzari, Bahya,
- * Qirqisani, or Saadia readers. This is the Blau analogue of the Tafsir
+ * or Saadia readers. This is the Blau analogue of the Tafsir
  * reader's `saadia_note` / divergence overlay: the shared dictionary
  * (starter + lane) carries the neutral classical gloss shown everywhere; the
  * rare work-bound JA sense lives here.
@@ -25,10 +24,9 @@ export type WorkNote = {
 type WorkNotesFile = { work: string; notes: WorkNote[] };
 
 // Registry of per-work overlays, keyed by the work id set on WorkData.workId.
-// Add `kuzari`, `qirqisani`, etc. here as their overlays are authored.
+// Add `kuzari`, `bahya`, etc. here as their overlays are authored.
 const REGISTRY: Record<string, WorkNotesFile> = {
   moreh: morehNotes as WorkNotesFile,
-  qirqisani: qirqisaniNotes as WorkNotesFile,
 };
 
 export function loadWorkNotes(workId: string | undefined): WorkNote[] {

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "The Library — classical Judeo-Arabic prose",
   description:
-    "Classical Judeo-Arabic prose with parallel Hebrew and English: Bahya ibn Paquda, Maimonides, Saadia Gaon, Qirqisani, and Judah Halevi are live; Yefet ben Eli is forthcoming.",
+    "Classical Judeo-Arabic prose with parallel Hebrew and English: Bahya ibn Paquda, Maimonides, Saadia Gaon, and Judah Halevi are live; Yefet ben Eli is forthcoming.",
   alternates: { canonical: "/advanced" },
 };
 
@@ -64,16 +64,6 @@ const library: LibraryEntry[] = [
     blurb:
       "The most prolific Karaite exegete of the 10th century, in his lucid Judeo-Arabic prose. Selections from his commentaries on the Pentateuch, Prophets, and Writings.",
     sample: "תפסיר יפת בן עלי",
-  },
-  {
-    href: "/advanced/qirqisani-anwar",
-    status: "Live",
-    author: "Yaʿqūb al-Qirqisānī",
-    title: "Kitāb al-Anwār wa'l-Marāqib",
-    blurb:
-      "The opening of the great 10th-century Karaite summa — its manifesto that religious obligations must be reached by inquiry and rational speculation (baḥth wa-naẓar), and the truth accepted from whoever holds it. Shown in the original Arabic (ed. Nemoy) with a working English translation, phrase-by-phrase hover highlighting, and notes on key terms.",
-    sample: "كتاب الأنوار والمراقب",
-    sampleScript: "arabic",
   },
   {
     href: "/advanced/kuzari",
